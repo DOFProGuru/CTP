@@ -1,0 +1,22 @@
+---
+title: "What Is A Mole?"
+author: "DOFPro Team"
+format: revealjs
+---
+
+## Molar Mass
+
+- $\mathrm{CO_2}$ $44.010\ \frac{\mathrm{g}}{\mathrm{mol}}$ or $44.010\ \frac{\mathrm{lb_m}}{\text{lb-mol}}$
+- 15 mass units on N.I.S.T website
+- Most common moles are
+  - $\text{g-mol}$ or $\text{mol}$
+  - $\text{kg-mol}$ or $\text{kmol}$
+  - $\text{tonne-mol}$
+  - $\text{lb-mol}$
+  - $\text{ton-mol}$
+
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
