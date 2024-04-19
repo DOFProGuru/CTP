@@ -1,6 +1,0 @@
----
-title: "Exergy"
-author: "DOFPro group"
----
-
-Intro to Systems and Balances
