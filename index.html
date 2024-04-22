@@ -89,38 +89,53 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
+  <li class="nav-item compact">
     <a class="nav-link" href="./basics/"> 
-<span class="menu-text">Basics</span></a>
+<span class="menu-text"></span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-basics" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Basics</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-basics">    
+        <li>
+    <a class="dropdown-item" href="./basics/index.html">
+ <span class="dropdown-text">Basics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./basics/WhatIsAMole.html">
+ <span class="dropdown-text">What Is a Mole?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./basics/WhatIsAMoleJTF.html">
+ <span class="dropdown-text">What Is a Mole? JTF</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-balances" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Balances</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-balances">    
         <li>
-    <a class="dropdown-item" href="./balances/general">
+    <a class="dropdown-item" href="./balances/general/">
  <span class="dropdown-text">General</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./balances/material">
+    <a class="dropdown-item" href="./balances/material/">
  <span class="dropdown-text">Material</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./balances/energy">
+    <a class="dropdown-item" href="./balances/energy/">
  <span class="dropdown-text">Energy</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./balances/entropy">
+    <a class="dropdown-item" href="./balances/entropy/">
  <span class="dropdown-text">Entropy</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./balances/exergy">
- <span class="dropdown-text">exergy</span></a>
+    <a class="dropdown-item" href="./balances/exergy/">
+ <span class="dropdown-text">Exergy</span></a>
   </li>  
     </ul>
   </li>
@@ -135,6 +150,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./appx/"> 
 <span class="menu-text">Appendices</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://dofpro.org"> 
+<span class="menu-text">DOFPro</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
