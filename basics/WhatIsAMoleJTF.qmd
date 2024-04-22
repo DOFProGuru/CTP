@@ -1,5 +1,6 @@
 ---
-title: "What Is A Mole?"
+title: "What Is A Mole? </br>
+       Just the Facts"
 author: "DOFPro Team"
 format: 
   revealjs:
@@ -25,6 +26,7 @@ format:
 
 - Start with a balanced chemical equation.
 - $$\mathrm{C} + \mathrm{O_2} \rightarrow \mathrm{CO_2}$$
+- Molar Mass of $\mathrm{CO_2}$ is $44.009546$ which rounds to $44.010$.
 - To make $100\ \mathrm{lb_m}$ of $\mathrm{CO_2}$
   - $100\ \mathrm{lb_m\ CO_2} / 44.010\ \frac{\mathrm{lb_m\ CO_2}}{\text{lb-mol}} = 2.272\ \text{lb-mol}$ of $\mathrm{CO_2}$
   - Need $2.272\ \text{lb-mol}$ of $\mathrm{C}$ and $2.272\ \text{lb-mol}$ of $\mathrm{O_2}$.

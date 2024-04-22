@@ -4,36 +4,41 @@ project:
 website:
   title: "Chemical and Thermal Processes"
   navbar:
+    search: true
     left:
-      - href: index.qmd
-        text: Home
       - href: basics/
-        text: 'Basics'
+      - text: 'Basics'
         menu:
-        - href: basics/WhatIsAMole
+        - href: basics/index.qmd
+          text: Basics
+        - href: basics/WhatIsAMole.qmd
           text: 'What Is a Mole?'
+        - href: basics/WhatIsAMoleJTF.qmd
+          text: 'What Is a Mole? JTF'
       - text: 'Balances'
         menu:
-        - href: balances/general
+        - href: balances/general/
           text: 'General'
-        - href: balances/material
+        - href: balances/material/
           text: 'Material'
-        - href: balances/energy
+        - href: balances/energy/
           text: 'Energy'
-        - href: balances/entropy
+        - href: balances/entropy/
           text: 'Entropy'
-        - href: balances/exergy
-          text: 'exergy'
+        - href: balances/exergy/
+          text: 'Exergy'
       - href: phase/
         text: 'Phase Equilibria'
       - href: react/
         text: 'Reactors'
       - href: appx/
         text: 'Appendices'
+      - href: https://dofpro.org
+        text: DOFPro
 
 format:
   html:
-    theme: spacelab
+    theme: materia
     css: styles.css
     toc: true
 
