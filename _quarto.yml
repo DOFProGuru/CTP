@@ -12,6 +12,8 @@ website:
         - href: basics/index.qmd
           text: Basics
         - href: basics/WhatIsAMole.qmd
+          text: 'What Is a Mole?'
+        - href: basics/WhatIsAMoleJTF.qmd
           text: 'What Is a Mole? JTF'
       - text: 'Balances'
         menu:
