@@ -33,8 +33,12 @@ website:
         text: 'Reactors'
       - href: appx/
         text: 'Appendices'
-      - href: https://dofpro.org
-        text: DOFPro
+      - text: DOFPro
+        menu:
+        - href: https://dofpro.org
+          text: "DOFPro Home"
+        - href: https://dofpro.org/RCK/
+          text: "Rocketry"
 
 format:
   html:
