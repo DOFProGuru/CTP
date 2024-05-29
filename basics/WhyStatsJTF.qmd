@@ -20,8 +20,8 @@ format:
 
 - The set of measurements $\{x_1,\ x_2,\ \ldots,\ x_N\}$
 $$\bar{x}=\frac{\sum_{i=1}^Nx_i}{N}\approx\mu$$
-Can we calculate the error ei =μ-xi ?
-Thesetoferrors {e1,e2,!eN}
+Can we calculate the error $e_i =\mu-x_i$ ?
+The set of errors $\{e_1,e_2,\ldots e_N\}$
 {x1,x2,!xN} N
 åx x = i=1
 i N
