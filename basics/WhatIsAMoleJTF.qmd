@@ -98,7 +98,7 @@ $\text{lb-mol}$ constant:
 ## Use the Correct Moles
 
 - Unless the problem is in grams, don't use gram moles!
-- Steps for using gram moles incorrectly.
+- $\underline{Incorrect}$ steps for using gram moles:
   - Start with mass in units other than grams.
     1. Convert to grams.
     2. Convert to gram-moles.
@@ -107,10 +107,30 @@ $\text{lb-mol}$ constant:
     5. Convert the grams to the starting mass species.
 - Requires five steps.
 
+::: {.fragment .fade-in-then-out}
+![](./Don't_Do_This.png){.absolute top=110 left=120 width="800" height="700"}
+:::
+
+::: {.fragment .fade-in-then-out}
+![](./Nothing.png)
+:::
+
+::: {.fragment .fade-in-then-out}
+![](./Don't_Do_This.png){.absolute top=110 left=120 width="800" height="700"}
+:::
+
+::: {.fragment .fade-in-then-out}
+![](./Nothing.png)
+:::
+
+::: {.fragment .fade-in-then-out}
+![](./Don't_Do_This.png){.absolute top=110 left=120 width="800" height="700"}
+:::
+
 ## Use the Correct Moles
 
 - Unless the problem is in grams, don't use gram moles!
-- Steps for using moles.
+- $\underline{Correct}$ steps for using moles:
   - Start with mass in units other than grams.
     1. Convert to  the mass unit's moles.
     2. Use balanced chemical equation to solve for the other species in the mass unit's moles.
