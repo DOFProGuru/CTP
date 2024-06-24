@@ -8,12 +8,40 @@ format:
     theme: [serif, gradient.scss]
 ---
 
+# When talking about Chemical Engineering, what is a mole?
+
 ## Definition
 
-- The mass equivalent of the molar mass of a molecule
+- Mole = mass equivalent of the molar mass of a molecule
 
-- The molar mass of $\mathrm{CO_2}$ is $44.010\ \frac{\mathrm{g}}{\mathrm{mol}}$ or $44.010\ \frac{\mathrm{lb_m}}{\text{lb-mol}}$, etc.
-- 15 mass units on N.I.S.T website
+::: {.fragment .centered .higher}
+![](./O_C_O.png){width="50%"}
+:::
+
+::: {.fragment .centered .evenhigher}
+molar mass $\mathrm{CO_2}$: $44.010$
+:::
+
+::: {.fragment .leftarrow}
+ gram-mol equivalent $\swarrow$
+:::
+
+::: {.fragment .leftarrow2}
+1 gram-mol $\mathrm{CO_2} \rightarrow$ 44.010 grams
+:::
+
+::: {.fragment .rightarrow}
+$\searrow$ lb-mol equivalent
+:::
+
+::: {.fragment .rightarrow2}
+1 lb-mol $\mathrm{CO_2} \rightarrow$ 44.010 $\mathrm{lb_m}$
+:::
+
+## How many different types of moles are there?
+
+- 15 mass units on N.I.S.T website $\rightarrow$ at least 15 types of moles
+- range: carat-mole — pennyweight-mole
 - Most common moles are
   - $\text{g-mol}$ or $\text{mol}$
   - $\text{kg-mol}$ or $\text{kmol}$
@@ -22,21 +50,50 @@ format:
   - $\text{ton-mol}$
 
 
+# How do you use a mole?
+
 ## Using a Mole
 
 - Start with a balanced chemical equation.
-- $$\mathrm{C} + \mathrm{O_2} \rightarrow \mathrm{CO_2}$$
-- Molar Mass of $\mathrm{CO_2}$ is $44.009546$ which rounds to $44.010$.
-- To make $100\ \mathrm{lb_m}$ of $\mathrm{CO_2}$
-  - $100\ \mathrm{lb_m\ CO_2} / 44.010\ \frac{\mathrm{lb_m\ CO_2}}{\text{lb-mol}} = 2.272\ \text{lb-mol}$ of $\mathrm{CO_2}$
-  - Need $2.272\ \text{lb-mol}$ of $\mathrm{C}$ and $2.272\ \text{lb-mol}$ of $\mathrm{O_2}$.
+
+::: {.fragment .centered .high}
+ $\mathrm{C} + \mathrm{O_2} \rightarrow \mathrm{CO_2}$
+:::
+
+::: {.fragment .centered .high}
+ molar mass of $\mathrm{CO_2}$ $\rightarrow$ $44.009546$, rounds to $44.010$
+:::
+
+- To make $100\ \mathrm{lb_m}$ of $\mathrm{CO_2}$:
+  - $100\ \mathrm{lb_m\ CO_2} \cdot \frac{1\text{ lb-mol }\mathrm{CO_2}}{44.010\text{ }\mathrm{lb_m}} = 2.272\ \text{lb-mol}$ of $\mathrm{CO_2}$
+  - 1:1:1 molar ratio $\rightarrow$ need $2.272\ \text{lb-mol}$ $\mathrm{C}$ & $2.272\ \text{lb-mol}$ $\mathrm{O_2}$ to form $2.272\ \text{lb-mol}$ $\mathrm{CO_2}$
   - $2.272\ \text{lb-mol C} \cdot 12.011\ \frac{\mathrm{lb_m\ C}}{\text{lb-mol}} = 27.29  \mathrm{lb_m\ C}$
   - $2.272\ \text{lb-mol 0}_2 \cdot 31.999\ \frac{\mathrm{lb_m\ O}_2}{\text{lb-mol}} = 72.70  \mathrm{lb_m\ O}_2$
 
+
+# What is Avogadro's number?
+
 ## Avogadro's Number
 
-- $6.02214076 \times 10^{23}\ \frac{\mathrm{molecules}}{\mathrm{mol}}$ or  $6.02214076 \times 10^{23}\ \frac{\mathrm{molecules}}{\text{g-mol}}$
-- $1.327 654 687 336 \times 10^{27}\ \frac{\mathrm{molecules}}{\text{lb-mol}}$
+:::{.fragment .absolute top=185 left=50 width="450" height="300"}
+The Avogadro Constant/ Avogadro's Number:
+:::
+
+:::{.fragment .absolute top=215 left=520}
+$6.02214076 \times 10^{23}\ \frac{\mathrm{molecules}}{\mathrm{mol}}$
+:::
+
+:::{.fragment .absolute top=390 left=100 width="450" height="300"}
+$\text{lb-mol}$ constant:
+:::
+
+:::{.fragment .absolute top=385 left=450}
+ $1.327 654 687 336 \times 10^{27}\ \frac{\mathrm{molecules}}{\text{lb-mol}}$
+
+:::
+
+
+# Why can’t I just use the mole that I’m familiar with?
 
 ## Use the Correct Moles
 
@@ -48,7 +105,7 @@ format:
     3. Use balanced chemical equation to solve for the other species in gram-moles.
     4. Convert the other species' gram-moles to grams.
     5. Convert the grams to the starting mass species.
-  - Requires five steps.
+- Requires five steps.
 
 ## Use the Correct Moles
 
@@ -61,7 +118,9 @@ format:
 - Requires three steps instead of five.
 - 40% fewer places to make mistakes.
 
-## The Summary
+# Summary
+
+## Summary
 
 1. Different types of moles are for different types of mass units.
 2. The molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.

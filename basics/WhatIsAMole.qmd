@@ -1,6 +1,5 @@
 ---
-title: "What Is A Mole? </br>
-       Just the Facts"
+title: "What Is A Mole?"
 author: "DOFPro Team"
 format: 
   revealjs:
