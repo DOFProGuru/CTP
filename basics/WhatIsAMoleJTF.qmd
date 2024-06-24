@@ -53,23 +53,56 @@ $\searrow$ lb-mol equivalent
 # How do you use a mole?
 
 ## Using a Mole
-
+::: {.high}
 - Start with a balanced chemical equation.
+:::
 
-::: {.fragment .centered .high}
+::: {.fragment .centered .higher}
  $\mathrm{C} + \mathrm{O_2} \rightarrow \mathrm{CO_2}$
 :::
 
-::: {.fragment .centered .high}
+::: {.lower} 
+- To make $100\ \mathrm{lb_m}$ of $\mathrm{CO_2}$:
+:::
+
+::: {.fragment}
+![](./Line.png){.absolute top=175 left=380 width="50" height="15"}
+:::
+
+::: {.fragment}
+![](./Line.png){.absolute top=175 left=470 width="50" height="15"}
+:::
+
+::: {.fragment}
+![](./Pt1.png){.absolute top=195 left=360 width="100" height="50"}
+:::
+
+::: {.fragment}
+![](./Pt2.png){.absolute top=195 left=470 width="100" height="50"}
+:::
+
+::: {.fragment}
+![](./Pt3.png){.absolute top=195 left=570 width="80" height="50"}
+:::
+
+::: {.fragment .centered .toohigh}
  molar mass of $\mathrm{CO_2}$ $\rightarrow$ $44.009546$, rounds to $44.010$
 :::
 
-- To make $100\ \mathrm{lb_m}$ of $\mathrm{CO_2}$:
+::: {.high}
   - $100\ \mathrm{lb_m\ CO_2} \cdot \frac{1\text{ lb-mol }\mathrm{CO_2}}{44.010\text{ }\mathrm{lb_m}} = 2.272\ \text{lb-mol}$ of $\mathrm{CO_2}$
   - 1:1:1 molar ratio $\rightarrow$ need $2.272\ \text{lb-mol}$ $\mathrm{C}$ & $2.272\ \text{lb-mol}$ $\mathrm{O_2}$ to form $2.272\ \text{lb-mol}$ $\mathrm{CO_2}$
-  - $2.272\ \text{lb-mol C} \cdot 12.011\ \frac{\mathrm{lb_m\ C}}{\text{lb-mol}} = 27.29  \mathrm{lb_m\ C}$
-  - $2.272\ \text{lb-mol 0}_2 \cdot 31.999\ \frac{\mathrm{lb_m\ O}_2}{\text{lb-mol}} = 72.70  \mathrm{lb_m\ O}_2$
+  - $2.272\ \text{lb-mol C}$
+  - $2.272\ \text{lb-mol }\mathrm{O_2}$
+:::
 
+::: {.fragment .eqn1}
+$\cdot 12.011\ \frac{\mathrm{lb_m\ C}}{\text{lb-mol}} = 27.29  \mathrm{lb_m\ C}$
+:::
+
+::: {.fragment .eqn2}
+$\cdot 31.999\ \frac{\mathrm{lb_m\ O}_2}{\text{lb-mol}} = 72.70  \mathrm{lb_m\ O}_2$
+:::
 
 # What is Avogadro's number?
 
