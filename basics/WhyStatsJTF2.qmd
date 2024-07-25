@@ -1,0 +1,126 @@
+---
+title: "Why Statistics? Intro and Basics </br>
+       Just the Facts </br>
+       Part 2"
+author: "DOFPro Team"
+format: 
+  revealjs:
+    incremental: false
+    theme: [serif, malina.scss]
+---
+
+## Summary from Part 1
+
+::: {.bitlower .fragment}
+$\textit{m} = 1.03 \pm 0.03 \text{ kg (95% confidence)}$
+:::
+
+::: {.lower .fragment}
+$\textit{u} = 2.36 \pm 0.04 \text{ m/s (95% confidence)}$
+:::
+
+::: {.hmmlower .fragment}
+$\textit{mu} = 2.43 \pm 0.08 \text{ }\text{ kg}\cdot\text{m/s }\text{ (95% confidence)}$
+:::
+
+::: {.lowerstill .fragment}
+$\frac{1}{2}\mathrm{mu^2} = 2.87 \pm 0.13 \text{J (95% confidence)}$
+:::
+
+::: {.lotslower .fragment}
+A future video will teach you how to propagate the uncertainty. $\textbf{Remember!}$ A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities.
+:::
+
+
+## Standard Error and Estimated Standard Error
+
+::: {.bitlower .fragment}
+$\mathrm{F_s = k(x_n-x_f)}$
+:::
+
+
+## William Gossett and Student's $\textit{t}$
+::: {.fragment}
+True value of a measured quantity $\rightarrow$ True Mean or Population Mean
+:::
+
+::: {.fragment}
+True/Population Mean $\equiv \mu$
+:::
+
+::: {.fragment}
+Average value from infinite-precision, full population measurement (almost never known) $\rightarrow \mu$ 
+:::
+
+::: {.fragment .littlelower}
+Distribution of data about the true mean $\rightarrow$ True Standard Deviation or Population Standard Deviation
+:::
+
+::: {.fragment .littlelower}
+True/Population Standard Deviation $\equiv \sigma$
+:::
+
+::: {.fragment .littlelower}
+ Standard deviation given true mean and infinite-precision data points (also almost never known) $\rightarrow \sigma$
+:::
+
+
+## $\textit{t}$-test 
+
+::: {.fragment .bitlower}
+Set of Measurements
+:::
+
+::: {.fragment .measurement1 .bitlower}
+ $\{x_1,\ x_2,\ \ldots,\ x_N\}$
+:::
+
+::: {.fragment .xbar .lowerstill}
+$\bar{x}$
+:::
+
+::: {.fragment .tinybitright .hmlower}
+$=\frac{\sum_{i=1}^Nx_i}{N}$
+:::
+
+::: {.fragment .right .bitlower}
+$\approx\mu$
+:::
+
+::: {.fragment .evenlower .bitleft}
+How do we estimate $\mathrm{\mu - \bar{x}}$?
+:::
+
+::: {.fragment .toohigh .rightarrow}
+Can we calculate the </br> error $\text{ }\text{ }e_i =\mu-x_i$?
+:::
+
+## $\textit{t}$-table
+
+
+The set of errors $\{e_1,e_2,\ldots e_N\}$
+$\{x_1,x_2,\dots , x_N\}$ N
+åx x = i=1
+i N
+» μ
+How do we estimate μ -x ?
+Calculate the residual
+ei =x-xi The set of residuals {e1 ,e2 ,!eN }
+We lose one degree of freedom, or an independent equation, by using the sample mean in our calculation. 
+
+## Trade-Offs
+
+## $\textit{t}$ vs. N
+
+## Confidence Interval vs. N
+
+## Confidence Interval and $\textit{t}$ vs. Samples
+
+## Key Takeaways
+
+
+# 
+
+::: {.bigger .centered}
+ $\textbf{Thanks for watching!}$ </br> To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series.
+:::

@@ -1,0 +1,8 @@
+---
+title: "Basic Statistics with a Spreadsheet"
+author: "DOFPro Team"
+format: 
+  revealjs:
+    incremental: true
+    theme: [serif, gradient.scss]
+---

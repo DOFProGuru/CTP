@@ -5,7 +5,7 @@ author: "DOFPro Team"
 format: 
   revealjs:
     incremental: true
-    theme: [serif, gradient.scss]
+    theme: [serif, malina.scss]
 ---
 
 # When talking about Chemical Engineering, what is a mole?
@@ -42,12 +42,12 @@ $\searrow$ lb-mol equivalent
 
 - 15 mass units on N.I.S.T website $\rightarrow$ at least 15 types of moles
 - range: carat-mole — pennyweight-mole
-- Most common moles are
-  - $\text{g-mol}$ or $\text{mol}$
-  - $\text{kg-mol}$ or $\text{kmol}$
-  - $\text{tonne-mol}$
+- Most common moles are:
+  - $\text{g-mol}$ or $\text{mole}$
+  - $\text{kg-mol}$ or $\text{kilomole}$
+  - $\text{metric-ton-mole}$ or $\text{tonne-mole}$
   - $\text{lb-mol}$
-  - $\text{ton-mol}$
+  - $\text{ton-mole}$
 
 
 # How do you use a mole?
@@ -82,18 +82,18 @@ $\searrow$ lb-mol equivalent
 :::
 
 ::: {.fragment}
-![](./Pt3.png){.absolute top=195 left=570 width="80" height="50"}
+![](./Pt3.png){.absolute top=195 left=570 width="100" height="50"}
 :::
 
-::: {.fragment .centered .toohigh}
+::: {.fragment .centered .evenhigher}
  molar mass of $\mathrm{CO_2}$ $\rightarrow$ $44.009546$, rounds to $44.010$
 :::
 
 ::: {.high}
   - $100\ \mathrm{lb_m\ CO_2} \cdot \frac{1\text{ lb-mol }\mathrm{CO_2}}{44.010\text{ }\mathrm{lb_m}} = 2.272\ \text{lb-mol}$ of $\mathrm{CO_2}$
-  - 1:1:1 molar ratio $\rightarrow$ need $2.272\ \text{lb-mol}$ $\mathrm{C}$ & $2.272\ \text{lb-mol}$ $\mathrm{O_2}$ to form $2.272\ \text{lb-mol}$ $\mathrm{CO_2}$
-  - $2.272\ \text{lb-mol C}$
-  - $2.272\ \text{lb-mol }\mathrm{O_2}$
+  - 1:1:1 molar ratio:
+    - $2.272\ \text{lb-mol C}$
+    - $2.272\ \text{lb-mol }\mathrm{O_2}$
 :::
 
 ::: {.fragment .eqn1}
@@ -131,7 +131,7 @@ $\text{lb-mol}$ constant:
 ## Use the Correct Moles
 
 - Unless the problem is in grams, don't use gram moles!
-- $\underline{Incorrect}$ steps for using gram moles:
+- $\underline{Inefficient}$ steps for using gram moles:
   - Start with mass in units other than grams.
     1. Convert to grams.
     2. Convert to gram-moles.
@@ -163,13 +163,13 @@ $\text{lb-mol}$ constant:
 ## Use the Correct Moles
 
 - Unless the problem is in grams, don't use gram moles!
-- $\underline{Correct}$ steps for using moles:
+- $\underline{Efficient}$ steps for using moles:
   - Start with mass in units other than grams.
     1. Convert to  the mass unit's moles.
     2. Use balanced chemical equation to solve for the other species in the mass unit's moles.
     3. Convert the other species' moles to mass units.
 - Requires three steps instead of five.
-- 40% fewer places to make mistakes.
+- 40% fewer places to make mistakes!
 
 # Summary
 

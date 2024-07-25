@@ -1,0 +1,8 @@
+---
+title: "Basic Statistics By Hand"
+author: "DOFPro Team"
+format: 
+  revealjs:
+    incremental: true
+    theme: [serif, gradient.scss]
+---

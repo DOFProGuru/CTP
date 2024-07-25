@@ -1,72 +1,28 @@
 /*-- scss:defaults --*/
-
 .centered {
- text-align: center;
-}
-.rightarrow{
-  position: relative;
-  left: 750px;
-  top: -175px;
-}
-.rightarrow2{
-  position:relative;
-  left: 750px;
-  top: -150px;
-}
-.leftarrow{
-  position: relative;
-  top: -50px;
-  left: -100px;
-}
-.leftarrow2{
-  position: relative;
-  top: -30px;
-  left: -150px;
-}
-.high{
-  position:relative;
-  top: -25px;
-}
-.higher {
-  position: relative;
-  top: -50px;
-}
-.evenhigher {
-  position: relative;
-  top: -80px;
-}
-.toohigh {
-  position: relative;
-  top: -90px;
-}
-.lower {
-  position: relative;
-  top: 65px;
+  text-align: center;
+ }
+ .bigger {
+  font-size: 65px;
 }
 
-.eqn1 {
-  position: relative;
-  top: -185px;
-  left: 305px;
-}
-.eqn2 {
-  position: relative;
-  top: -185px;
-  left: 320px;
-}
 /*-- scss:rules --*/
-
-.slide-background-content{
-  background: linear-gradient( rgb(196, 241, 249) 0%, rgb(249, 188, 139) 65%, rgb(80, 158, 254))
-}
-.fragment{
-  font-size: 38px;
-}
-#title-slide,
-    .subtitle {
-        font-size: 60px;
-    }
-
-.reveal h1 {
-    text-align: center;
-  }
+   
+   .slide-background-content{
+     background: linear-gradient( rgb(196, 241, 249) 0%, rgb(249, 188, 139) 65%, rgb(80, 158, 254))
+   }
+   .fragment{
+     font-size: 38px;
+   }
+   #title-slide,
+       .subtitle {
+           font-size: 60px;
+       }
+   #title-slide,
+       .h1{
+         font-size: 55px;
+       }
+   .reveal h1 {
+       text-align: center;
+     }
+   

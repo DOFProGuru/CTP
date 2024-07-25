@@ -4,7 +4,7 @@ author: "DOFPro Team"
 format: 
   revealjs:
     incremental: true
-    theme: [serif, gradient.scss]
+    theme: [serif, malina.scss]
 ---
 
 ## Definition
