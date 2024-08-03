@@ -23,17 +23,9 @@
   top: -30px;
   left: -75px;
 }
-.measurement1 {
-  position: relative;
-  left: 25px;
-}
 .xbar{
   position: relative;
   left: 60px;
-}
-.tinybitright {
-  position: relative;
-  left: 100px;
 }
 .bitright{
   position: relative;
@@ -119,6 +111,7 @@
   top: -185px;
   left: 360px;
 }
+
 /*-- scss:rules --*/
 
 .slide-background-content{
@@ -126,6 +119,12 @@
 }
 .fragment{
   font-size: 38px;
+}
+.bitsmall{
+  font-size: 34px !important;
+}
+.small{
+  font-size: 18px !important;
 }
 #title-slide,
     .subtitle {
