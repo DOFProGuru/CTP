@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://DOFProGuru.github.io/CTP/react/index.html</loc>
-    <lastmod>2024-05-29T16:26:28.646Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/balances/exergy/index.html</loc>
-    <lastmod>2024-05-29T16:26:28.642Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/balances/material/index.html</loc>
-    <lastmod>2024-05-29T16:26:28.642Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/balances/entropy/index.html</loc>
-    <lastmod>2024-05-29T16:26:28.642Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/WhatIsAMole.html</loc>
-    <lastmod>2024-05-29T16:26:28.646Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/WhyStatsJTF.html</loc>
-    <lastmod>2024-05-29T16:26:28.646Z</lastmod>
+    <loc>https://DOFProGuru.github.io/CTP/index.html</loc>
+    <lastmod>2024-08-21T22:46:00.662Z</lastmod>
   </url>
   <url>
     <loc>https://DOFProGuru.github.io/CTP/appx/Nomenclature.html</loc>
-    <lastmod>2024-05-29T16:26:28.642Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/appx/index.html</loc>
-    <lastmod>2024-05-29T16:26:28.642Z</lastmod>
+    <lastmod>2024-08-21T22:46:00.658Z</lastmod>
   </url>
   <url>
     <loc>https://DOFProGuru.github.io/CTP/phase/index.html</loc>
-    <lastmod>2024-05-29T16:26:28.646Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/index.html</loc>
-    <lastmod>2024-05-29T16:26:28.646Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/WhatIsAMoleJTF.html</loc>
-    <lastmod>2024-05-29T16:26:28.646Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/balances/energy/index.html</loc>
-    <lastmod>2024-05-29T16:26:28.642Z</lastmod>
+    <lastmod>2024-08-21T22:46:00.662Z</lastmod>
   </url>
   <url>
     <loc>https://DOFProGuru.github.io/CTP/balances/general/index.html</loc>
-    <lastmod>2024-05-29T16:26:28.642Z</lastmod>
+    <lastmod>2024-08-21T22:46:00.658Z</lastmod>
   </url>
   <url>
-    <loc>https://DOFProGuru.github.io/CTP/index.html</loc>
-    <lastmod>2024-05-29T16:26:28.646Z</lastmod>
+    <loc>https://DOFProGuru.github.io/CTP/balances/energy/index.html</loc>
+    <lastmod>2024-08-21T22:46:00.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/index.html</loc>
+    <lastmod>2024-08-21T22:46:00.662Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/WhatIsAMole.html</loc>
+    <lastmod>2024-08-21T22:46:00.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/WhatIsAMoleJTF.html</loc>
+    <lastmod>2024-08-21T22:46:00.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/WhyStatsJTF.html</loc>
+    <lastmod>2024-08-21T22:46:00.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/balances/entropy/index.html</loc>
+    <lastmod>2024-08-21T22:46:00.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/balances/material/index.html</loc>
+    <lastmod>2024-08-21T22:46:00.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/balances/exergy/index.html</loc>
+    <lastmod>2024-08-21T22:46:00.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/appx/index.html</loc>
+    <lastmod>2024-08-21T22:46:00.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/react/index.html</loc>
+    <lastmod>2024-08-21T22:46:00.662Z</lastmod>
   </url>
 </urlset>
