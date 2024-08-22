@@ -45,7 +45,7 @@ website:
 
 format:
   html:
-    theme: materia
+    theme: zephyr
     css: styles.css
     toc: true
 
