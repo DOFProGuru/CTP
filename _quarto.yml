@@ -10,14 +10,18 @@ website:
     search: true
     left:
       - href: basics/
-      - text: 'Basics'
+      - text: 'Overview'
         menu:
         - href: basics/index.qmd
-          text: Basics
-        - href: basics/WhatIsAMole.qmd
-          text: 'What Is a Mole?'
-        - href: basics/WhatIsAMoleJTF.qmd
-          text: 'What Is a Mole? JTF'
+          text: Overview
+        - href: basics/intro/IntroTopicsWebPage.qmd
+          text: 'Intro and Disciplines'
+        - href: basics/stats/StatsMeasurementsWebPage.qmd
+          text: 'Statistics & Measurements'
+        - href: basics/calculations/CalculationsWebPage.qmd
+          text: 'Calculations'
+        - href: basics/processdata/ProcessDataWebPage.qmd
+          text: 'Process Data & Variables'
       - text: 'Balances'
         menu:
         - href: balances/general/

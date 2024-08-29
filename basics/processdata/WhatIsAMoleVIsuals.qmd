@@ -1,6 +1,6 @@
 ---
 title: "What Is A Mole? </br>
-       Just the Facts"
+       The Full Story"
 author: "DOFPro Team"
 format: 
   revealjs:

@@ -1,0 +1,73 @@
+---
+title: "*What Is a Mole?* Reference Page"
+author: "DOFPro group"
+format: html
+---
+# Purpose of *What Is a Mole?*
+
+A mole is a basic concept in Chemical Engineering. It's purpose is to determine the masses of reagents
+needed in chemical reactions. Unlike in Chemistry, where [a mole is a mole is a mole](https://en.wikipedia.org/wiki/Rose_is_a_rose_is_a_rose_is_a_rose), in Chemical Engineering engineers need to work with different mass units such as [pounds-mass](https://en.wikipedia.org/wiki/Pound_(mass)) $(\mathrm{lb_m})$, [tons](https://en.wikipedia.org/wiki/Ton), and kilograms. For each mass unit there is a corresponding mole. For a chemical species, the numerical value of a mole in a given mass unit doesn't change with the mass unit, but the unit does. For example, with $\mathrm{NaCl}$ that has a molecular mass of $58.443$, a gram-mole (or simply mole) has a mass of $58.443\ \mathrm{g}$, a pound-mole has a mass of $58.443\ \mathrm{lb_m}$ and a ton-mole has a mass of $58.443\ \mathrm{ton}$ (one might have to specify whether the ton is a long ton or a short ton).
+
+The videos explain what a mole is and how it is used in basic Chemical Engineering calculations.
+
+# *The Full Story* Video
+
+*The Full Story* Video examines common conceptions and misconceptions about moles before explaining what a mole is and how to use a mole. It is recommended for those who have not been exposed to moles before or who have struggled with understanding what a mole is or how it is used.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kztw9GX9EL8?si=8FReigIAK_ILt8NN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[Images](WhatIsAMoleVIsuals.qmd), [Transcript]()
+
+# The *Just The Facts* Video
+
+The *Just The Facts* Video gets straignt to explaining what a mole is and how it is used. It is recommended for those who have a reasonably good understanding of moles and are just looking for a refresher or a review.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wHEX0uY69rs?si=gI9jKO8lHPJ_2_EU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[Images](WhatIsAMoleJTFVisuals.qmd), [Transcript]()
+
+# Definitions
+
+Avogadro's Number
+: Avogadro's number or the Avogadro Constant, $N_\mathrm{A}$ is listed on the N.I.S.T. as
+  having a value of $6.022\ 140\ 76 \times 10^{23}/\mathrm{mol}$, where $\mathrm{mol}$ is the gram mole.
+
+Gram Atom
+: The gram atom is the name given to an Avogadro's number of atoms. Compare with an Avogadro's number of molecules, called the gram mole.
+
+Molar Mass
+: The molar mass of a chemical compound is the ratio between the number of moles of a compound and
+  its mass. See Wikipedia [Molar mass](https://en.wikipedia.org/wiki/Molar_mass) for a more thorough explanation.
+
+Mole or Gram Mole
+: A mole (abbreviation $\mathrm{mol}$) or gram mole (abbreviation $\textrm{g-mol}$) is the mass in grams of an Avogadro's number of molecules of a chemical species. For example,
+  a mole of $\mathrm{NaCl}$ has a mass of $58.443\ \mathrm{g}$.
+
+Pound Mass
+: A pound mass is the mass that exerts a force of one pound force when accelerated at the standard
+  gravitational acceleration rate of $32.174\ \mathrm{ft/s^2}$. N.I.S.T lists the pound mass as being the same as $0.453\ 592\ 37\ \mathrm{kg}$. It is abbreviated as $\mathrm{lb_m}$.
+
+Pound Mole
+: A pound mole (abbreviation $\textrm{lb-mol}$) is the mass equivalent in pounds mass of the
+  molar mass of a chemical species. For
+  example, a pound mole of $\mathrm{NaCl}$ has a mass of $58.443\ \mathrm{lb_m}$.
+
+# Additional Links
+
+## Preceding Videos
+
+As of this writing the two sets of videos preceding this set are:
+
+1. Pressure Part 1 [The Full Story](), [Just The Facts](), [Reference Page]()
+2. Pressure Part 2 [The Full Story](), [Just The Facts](), [Reference Page]()
+
+## Following Videos
+
+As of this writing the two sets of videos following this set are:
+
+1. Mass, Moles, and Mass and Mole Fractions [The Full Story](), [Just The Facts](), [Reference Page]()
+2. Volume, Densit, Flow Rates [The Full Story](), [Just The Facts](), [Reference Page]()
+
+## Other Links
+
+1. The Wikipedia discussion of the [mole](https://en.wikipedia.org/wiki/Mole_(unit)). The other mass unit moles are discussed under [Similar units](https://en.wikipedia.org/wiki/Mole_(unit)#Similar_units).
