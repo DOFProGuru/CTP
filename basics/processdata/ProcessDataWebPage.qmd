@@ -1,0 +1,40 @@
+---
+title: "Process Data and Process Variables"
+author: "DOFPro group"
+format: html
+---
+
+# Why Process Data and Process Variables
+
+Many engineers and chemical engineers in particular design, analyze, and create processes that transform inputs, such as chemical reagents, heat, and electricity, into outputs such a other chemical reagents. The design and analysis of processes requires a knowledge of the sorts of measurements or data that are made of the process, and the variables that are used to model the process. This section discusses many of the varibles, measurements, and data that are common to these processes, how they are defined, what they mean, and how they are used, presented, and analyzed.
+
+## Conversions
+
+We begin with units, conversions, and dimensionless numbers. In spite of a desire to perform all calculations in SI unts, the practicing engineer needs to be comfortable working with both familiar and obscure units. This set of videos discusses many of the common techniques for working with diverse units. The videos in this section are:
+
+1. *Dimensional Equations* [The Full Story](), [Just The Facts](), [Reference Page](). Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all of your unit conversion issues, but they will solve many of them. Google Calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are multiplicatively related to each other.
+2. *Equations with Dimension* [The Full Story](), [Just The Facts](), [Reference Page](). When units have a more complex relationship than simply multiplicative, such as $^\circ\mathrm{C}$ and $^\circ\mathrm{F}$, the relationship is expressed in an equation with dimensions. In addition, there are at times equations, particularly empirical equations, where the varibles are in SI units, and you need an equivalent equation in American Engineering units. The procedure for deriving such equations with units is presented in this set of videos.
+3. *Converting Temperatures* [The Full Story](), [Just The Facts](), [Reference Page](). Converting temperatures and temperature intervals among $\mathrm{K}$, $^\circ\mathrm{C}$, $^\circ\mathrm{F}$, and $^\circ\mathrm{R}$ applies the principles discussed in the previous two video sets. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.
+4. *Dimensionless Numbers* [The Full Story](), [Just The Facts](), [Reference Page](). In the early days of engineering there were huge data sets that needed to be regressed and correlations found. The [Buckingham pi theorem]() provided a way to reduce the dimensionality of these huge data sets and ease calculational complexity. In addition, normalizing ordinary and partial differential equations (which is basically making the variables dimensionless through choosing a scale) gives rise to dimensionless prarameters. The most well known of these is the Reynolds number, but there are scores of others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used.
+
+## Temperature (Optional)
+
+*Measuring Temperature* [The Full Story](), [Just The Facts](), [Reference Page](). The most commonly measured process variable is temperature. This set of videos discusses different temperature-measurement techniques. It is optional because at this level it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or has to specify how a temperature measurement is to be made.
+
+## Pressure
+
+The second most commonly measured process variable is pressure.
+
+1. *Pressure Part 1* [The Full Story](), [Just The Facts](), [Reference Page](). *Part 1* discusses the common pressure units and hydrostatic pressure.
+2. *Pressure Part 2* [The Full Story](), [Just The Facts](), [Reference Page](). *Part 2* discusses absolute, atmospheric, barometric, gauge, and vacuum pressure.
+
+## Mass, Moles, and Mass and Mole Fractions
+
+When purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:
+
+1. *What Is a Mole?* [The Full Story](https://youtu.be/Kztw9GX9EL8), [Just The Facts](https://youtu.be/wHEX0uY69rs?si=ZutkXqeAfcDqFdPB), [Reference Page](WhatIsAMoleWebPage.qmd). This video set explains the different types of moles and how to use them.
+2. *Mass, Moles, and Mass and Mole Fractions* [The Full Story](), [Just The Facts](), [Reference Page]() When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight.
+
+## Volume, Density, and Flow Rates
+
+*Volume, Density, and Flow Rates* [The Full Story](), [Just The Facts](), [Reference Page]().
