@@ -98,123 +98,214 @@
     "text": "The First Law of Thermodynamics and Energy Balances are synonymous.\nHere is the set of videos on the First Law\n\n\n\n\n\n\n\n\n\nThen for reacting systems …"
   },
   {
+    "objectID": "basics/intro/IntroTopicsWebPage.html",
+    "href": "basics/intro/IntroTopicsWebPage.html",
+    "title": "Intro and Topics",
+    "section": "",
+    "text": "Introduction and List of Topics"
+  },
+  {
+    "objectID": "basics/stats/StatsMeasurementsWebPage.html",
+    "href": "basics/stats/StatsMeasurementsWebPage.html",
+    "title": "Statistics and Measurements",
+    "section": "",
+    "text": "Why Statistics and Measurements"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleVIsuals.html#definition",
+    "href": "basics/processdata/WhatIsAMoleVIsuals.html#definition",
+    "title": "What Is A Mole?  The Full Story",
+    "section": "Definition",
+    "text": "Definition\n\nThe mass equivalent of the molar mass of a molecule\nThe molar mass of \\(\\mathrm{CO_2}\\) is \\(44.010\\ \\frac{\\mathrm{g}}{\\mathrm{mol}}\\) or \\(44.010\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\), etc.\n15 mass units on N.I.S.T website\nMost common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{tonne-mol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleVIsuals.html#using-a-mole",
+    "href": "basics/processdata/WhatIsAMoleVIsuals.html#using-a-mole",
+    "title": "What Is A Mole?  The Full Story",
+    "section": "Using a Mole",
+    "text": "Using a Mole\n\nStart with a balanced chemical equation.\n\\[\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}\\]\nTo make \\(100\\ \\mathrm{lb_m}\\) of \\(\\mathrm{CO_2}\\)\n\n\\(100\\ \\mathrm{lb_m\\ CO_2} / 44.010\\ \\frac{\\mathrm{lb_m\\ CO_2}}{\\text{lb-mol}} = 2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{CO_2}\\)\nNeed \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{C}\\) and \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{O_2}\\).\n\\(2.272\\ \\text{lb-mol C} \\cdot 12.011\\ \\frac{\\mathrm{lb_m\\ C}}{\\text{lb-mol}} = 27.29  \\mathrm{lb_m\\ C}\\)\n\\(2.272\\ \\text{lb-mol 0}_2 \\cdot 31.999\\ \\frac{\\mathrm{lb_m\\ O}_2}{\\text{lb-mol}} = 72.70  \\mathrm{lb_m\\ O}_2\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleVIsuals.html#avogadros-number",
+    "href": "basics/processdata/WhatIsAMoleVIsuals.html#avogadros-number",
+    "title": "What Is A Mole?  The Full Story",
+    "section": "Avogadro’s Number",
+    "text": "Avogadro’s Number\n\n\\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\mathrm{mol}}\\) or \\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\text{g-mol}}\\)\n\\(1.327 654 687 336 \\times 10^{27}\\ \\frac{\\mathrm{molecules}}{\\text{lb-mol}}\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleVIsuals.html#use-the-correct-moles",
+    "href": "basics/processdata/WhatIsAMoleVIsuals.html#use-the-correct-moles",
+    "title": "What Is A Mole?  The Full Story",
+    "section": "Use the Correct Moles",
+    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using gram moles incorrectly.\n\nStart with mass in units other than grams.\n\nConvert to grams.\nConvert to gram-moles.\nUse balanced chemical equation to solve for the other species in gram-moles.\nConvert the other species’ gram-moles to grams.\nConvert the grams to the starting mass species.\n\nRequires five steps."
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleVIsuals.html#use-the-correct-moles-1",
+    "href": "basics/processdata/WhatIsAMoleVIsuals.html#use-the-correct-moles-1",
+    "title": "What Is A Mole?  The Full Story",
+    "section": "Use the Correct Moles",
+    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using moles.\n\nStart with mass in units other than grams.\n\nConvert to the mass unit’s moles.\nUse balanced chemical equation to solve for the other species in the mass unit’s moles.\nConvert the other species’ moles to mass units.\n\n\nRequires three steps instead of five.\n40% fewer places to make mistakes."
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleVIsuals.html#the-summary",
+    "href": "basics/processdata/WhatIsAMoleVIsuals.html#the-summary",
+    "title": "What Is A Mole?  The Full Story",
+    "section": "The Summary",
+    "text": "The Summary\n\nDifferent types of moles are for different types of mass units.\nThe molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.\nUse gram moles for problems in grams. Use pound-moles for problems in pounds, etc."
+  },
+  {
+    "objectID": "basics/processdata/ProcessDataWebPage.html",
+    "href": "basics/processdata/ProcessDataWebPage.html",
+    "title": "Process Data and Process Variables",
+    "section": "",
+    "text": "Many engineers and chemical engineers in particular design, analyze, and create processes that transform inputs, such as chemical reagents, heat, and electricity, into outputs such a other chemical reagents. The design and analysis of processes requires a knowledge of the sorts of measurements or data that are made of the process, and the variables that are used to model the process. This section discusses many of the varibles, measurements, and data that are common to these processes, how they are defined, what they mean, and how they are used, presented, and analyzed.\n\n\nWe begin with units, conversions, and dimensionless numbers. In spite of a desire to perform all calculations in SI unts, the practicing engineer needs to be comfortable working with both familiar and obscure units. This set of videos discusses many of the common techniques for working with diverse units. The videos in this section are:\n\nDimensional Equations The Full Story, Just The Facts, Reference Page. Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all of your unit conversion issues, but they will solve many of them. Google Calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are multiplicatively related to each other.\nEquations with Dimension The Full Story, Just The Facts, Reference Page. When units have a more complex relationship than simply multiplicative, such as \\(^\\circ\\mathrm{C}\\) and \\(^\\circ\\mathrm{F}\\), the relationship is expressed in an equation with dimensions. In addition, there are at times equations, particularly empirical equations, where the varibles are in SI units, and you need an equivalent equation in American Engineering units. The procedure for deriving such equations with units is presented in this set of videos.\nConverting Temperatures The Full Story, Just The Facts, Reference Page. Converting temperatures and temperature intervals among \\(\\mathrm{K}\\), \\(^\\circ\\mathrm{C}\\), \\(^\\circ\\mathrm{F}\\), and \\(^\\circ\\mathrm{R}\\) applies the principles discussed in the previous two video sets. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.\nDimensionless Numbers The Full Story, Just The Facts, Reference Page. In the early days of engineering there were huge data sets that needed to be regressed and correlations found. The Buckingham pi theorem provided a way to reduce the dimensionality of these huge data sets and ease calculational complexity. In addition, normalizing ordinary and partial differential equations (which is basically making the variables dimensionless through choosing a scale) gives rise to dimensionless prarameters. The most well known of these is the Reynolds number, but there are scores of others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used.\n\n\n\n\nMeasuring Temperature The Full Story, Just The Facts, Reference Page. The most commonly measured process variable is temperature. This set of videos discusses different temperature-measurement techniques. It is optional because at this level it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or has to specify how a temperature measurement is to be made.\n\n\n\nThe second most commonly measured process variable is pressure.\n\nPressure Part 1 The Full Story, Just The Facts, Reference Page. Part 1 discusses the common pressure units and hydrostatic pressure.\nPressure Part 2 The Full Story, Just The Facts, Reference Page. Part 2 discusses absolute, atmospheric, barometric, gauge, and vacuum pressure.\n\n\n\n\nWhen purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page. This video set explains the different types of moles and how to use them.\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight.\n\n\n\n\nVolume, Density, and Flow Rates The Full Story, Just The Facts, Reference Page."
+  },
+  {
+    "objectID": "basics/processdata/ProcessDataWebPage.html#conversions",
+    "href": "basics/processdata/ProcessDataWebPage.html#conversions",
+    "title": "Process Data and Process Variables",
+    "section": "",
+    "text": "We begin with units, conversions, and dimensionless numbers. In spite of a desire to perform all calculations in SI unts, the practicing engineer needs to be comfortable working with both familiar and obscure units. This set of videos discusses many of the common techniques for working with diverse units. The videos in this section are:\n\nDimensional Equations The Full Story, Just The Facts, Reference Page. Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all of your unit conversion issues, but they will solve many of them. Google Calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are multiplicatively related to each other.\nEquations with Dimension The Full Story, Just The Facts, Reference Page. When units have a more complex relationship than simply multiplicative, such as \\(^\\circ\\mathrm{C}\\) and \\(^\\circ\\mathrm{F}\\), the relationship is expressed in an equation with dimensions. In addition, there are at times equations, particularly empirical equations, where the varibles are in SI units, and you need an equivalent equation in American Engineering units. The procedure for deriving such equations with units is presented in this set of videos.\nConverting Temperatures The Full Story, Just The Facts, Reference Page. Converting temperatures and temperature intervals among \\(\\mathrm{K}\\), \\(^\\circ\\mathrm{C}\\), \\(^\\circ\\mathrm{F}\\), and \\(^\\circ\\mathrm{R}\\) applies the principles discussed in the previous two video sets. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.\nDimensionless Numbers The Full Story, Just The Facts, Reference Page. In the early days of engineering there were huge data sets that needed to be regressed and correlations found. The Buckingham pi theorem provided a way to reduce the dimensionality of these huge data sets and ease calculational complexity. In addition, normalizing ordinary and partial differential equations (which is basically making the variables dimensionless through choosing a scale) gives rise to dimensionless prarameters. The most well known of these is the Reynolds number, but there are scores of others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used."
+  },
+  {
+    "objectID": "basics/processdata/ProcessDataWebPage.html#temperature-optional",
+    "href": "basics/processdata/ProcessDataWebPage.html#temperature-optional",
+    "title": "Process Data and Process Variables",
+    "section": "",
+    "text": "Measuring Temperature The Full Story, Just The Facts, Reference Page. The most commonly measured process variable is temperature. This set of videos discusses different temperature-measurement techniques. It is optional because at this level it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or has to specify how a temperature measurement is to be made."
+  },
+  {
+    "objectID": "basics/processdata/ProcessDataWebPage.html#pressure",
+    "href": "basics/processdata/ProcessDataWebPage.html#pressure",
+    "title": "Process Data and Process Variables",
+    "section": "",
+    "text": "The second most commonly measured process variable is pressure.\n\nPressure Part 1 The Full Story, Just The Facts, Reference Page. Part 1 discusses the common pressure units and hydrostatic pressure.\nPressure Part 2 The Full Story, Just The Facts, Reference Page. Part 2 discusses absolute, atmospheric, barometric, gauge, and vacuum pressure."
+  },
+  {
+    "objectID": "basics/processdata/ProcessDataWebPage.html#mass-moles-and-mass-and-mole-fractions",
+    "href": "basics/processdata/ProcessDataWebPage.html#mass-moles-and-mass-and-mole-fractions",
+    "title": "Process Data and Process Variables",
+    "section": "",
+    "text": "When purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page. This video set explains the different types of moles and how to use them.\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight."
+  },
+  {
+    "objectID": "basics/processdata/ProcessDataWebPage.html#volume-density-and-flow-rates",
+    "href": "basics/processdata/ProcessDataWebPage.html#volume-density-and-flow-rates",
+    "title": "Process Data and Process Variables",
+    "section": "",
+    "text": "Volume, Density, and Flow Rates The Full Story, Just The Facts, Reference Page."
+  },
+  {
+    "objectID": "basics/WhyStatsJTFVisuals.html#true-mean-standard-deviation",
+    "href": "basics/WhyStatsJTFVisuals.html#true-mean-standard-deviation",
+    "title": "Why Statistics?  Just the Facts",
+    "section": "True Mean & Standard Deviation",
+    "text": "True Mean & Standard Deviation\n\nInfinite Precision Exact Measurement\nFull Population Measurement\nTrue Mean or Population Mean \\(\\equiv \\mu\\)\nTrue Standard Deviation \\(\\equiv \\sigma\\)"
+  },
+  {
+    "objectID": "basics/WhyStatsJTFVisuals.html#sample-mean-standard-deviation",
+    "href": "basics/WhyStatsJTFVisuals.html#sample-mean-standard-deviation",
+    "title": "Why Statistics?  Just the Facts",
+    "section": "Sample Mean & Standard Deviation",
+    "text": "Sample Mean & Standard Deviation\n\nThe set of measurements \\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\) \\[\\bar{x}=\\frac{\\sum_{i=1}^Nx_i}{N}\\approx\\mu\\] Can we calculate the error \\(e_i =\\mu-x_i\\) ? The set of errors \\(\\{e_1,e_2,\\ldots e_N\\}\\) {x1,x2,!xN} N åx x = i=1 i N » μ How do we estimate μ -x ? Calculate the residual ei =x-xi The set of residuals {e1 ,e2 ,!eN }"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html",
+    "title": "What Is a Mole? Reference Page",
+    "section": "",
+    "text": "A mole is a basic concept in Chemical Engineering. It’s purpose is to determine the masses of reagents needed in chemical reactions. Unlike in Chemistry, where a mole is a mole is a mole, in Chemical Engineering engineers need to work with different mass units such as pounds-mass \\((\\mathrm{lb_m})\\), tons, and kilograms. For each mass unit there is a corresponding mole. For a chemical species, the numerical value of a mole in a given mass unit doesn’t change with the mass unit, but the unit does. For example, with \\(\\mathrm{NaCl}\\) that has a molecular mass of \\(58.443\\), a gram-mole (or simply mole) has a mass of \\(58.443\\ \\mathrm{g}\\), a pound-mole has a mass of \\(58.443\\ \\mathrm{lb_m}\\) and a ton-mole has a mass of \\(58.443\\ \\mathrm{ton}\\) (one might have to specify whether the ton is a long ton or a short ton).\nThe videos explain what a mole is and how it is used in basic Chemical Engineering calculations."
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#preceding-videos",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html#preceding-videos",
+    "title": "What Is a Mole? Reference Page",
+    "section": "Preceding Videos",
+    "text": "Preceding Videos\nAs of this writing the two sets of videos preceding this set are:\n\nPressure Part 1 The Full Story, Just The Facts, Reference Page\nPressure Part 2 The Full Story, Just The Facts, Reference Page"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#following-videos",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html#following-videos",
+    "title": "What Is a Mole? Reference Page",
+    "section": "Following Videos",
+    "text": "Following Videos\nAs of this writing the two sets of videos following this set are:\n\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page\nVolume, Densit, Flow Rates The Full Story, Just The Facts, Reference Page"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#other-links",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html#other-links",
+    "title": "What Is a Mole? Reference Page",
+    "section": "Other Links",
+    "text": "Other Links\n\nThe Wikipedia discussion of the mole. The other mass unit moles are discussed under Similar units."
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#definition",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#definition",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Definition",
+    "text": "Definition\n\nThe mass equivalent of the molar mass of a molecule\nThe molar mass of \\(\\mathrm{CO_2}\\) is \\(44.010\\ \\frac{\\mathrm{g}}{\\mathrm{mol}}\\) or \\(44.010\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\), etc.\n15 mass units on N.I.S.T website\nMost common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{tonne-mol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#using-a-mole",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#using-a-mole",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Using a Mole",
+    "text": "Using a Mole\n\nStart with a balanced chemical equation.\n\\[\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}\\]\nMolar Mass of \\(\\mathrm{CO_2}\\) is \\(44.009546\\) which rounds to \\(44.010\\).\nTo make \\(100\\ \\mathrm{lb_m}\\) of \\(\\mathrm{CO_2}\\)\n\n\\(100\\ \\mathrm{lb_m\\ CO_2} / 44.010\\ \\frac{\\mathrm{lb_m\\ CO_2}}{\\text{lb-mol}} = 2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{CO_2}\\)\nNeed \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{C}\\) and \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{O_2}\\).\n\\(2.272\\ \\text{lb-mol C} \\cdot 12.011\\ \\frac{\\mathrm{lb_m\\ C}}{\\text{lb-mol}} = 27.29  \\mathrm{lb_m\\ C}\\)\n\\(2.272\\ \\text{lb-mol 0}_2 \\cdot 31.999\\ \\frac{\\mathrm{lb_m\\ O}_2}{\\text{lb-mol}} = 72.70  \\mathrm{lb_m\\ O}_2\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#avogadros-number",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#avogadros-number",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Avogadro’s Number",
+    "text": "Avogadro’s Number\n\n\\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\mathrm{mol}}\\) or \\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\text{g-mol}}\\)\n\\(1.327 654 687 336 \\times 10^{27}\\ \\frac{\\mathrm{molecules}}{\\text{lb-mol}}\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Use the Correct Moles",
+    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using gram moles incorrectly.\n\nStart with mass in units other than grams.\n\nConvert to grams.\nConvert to gram-moles.\nUse balanced chemical equation to solve for the other species in gram-moles.\nConvert the other species’ gram-moles to grams.\nConvert the grams to the starting mass species.\n\nRequires five steps."
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles-1",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles-1",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Use the Correct Moles",
+    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using moles.\n\nStart with mass in units other than grams.\n\nConvert to the mass unit’s moles.\nUse balanced chemical equation to solve for the other species in the mass unit’s moles.\nConvert the other species’ moles to mass units.\n\n\nRequires three steps instead of five.\n40% fewer places to make mistakes."
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#the-summary",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#the-summary",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "The Summary",
+    "text": "The Summary\n\nDifferent types of moles are for different types of mass units.\nThe molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.\nUse gram moles for problems in grams. Use pound-moles for problems in pounds, etc."
+  },
+  {
+    "objectID": "basics/calculations/CalculationsWebPage.html",
+    "href": "basics/calculations/CalculationsWebPage.html",
+    "title": "Engineering Calculations",
+    "section": "",
+    "text": "Why Engineering Calculations"
+  },
+  {
     "objectID": "basics/index.html",
     "href": "basics/index.html",
-    "title": "Basics of Engineering",
+    "title": "Overview of DOFPro Chemical And Thermal Processes Website",
     "section": "",
     "text": "Engineering Basics\n\nStatistics, Measurements, and Calculations\nProcess Data and Variables, such as Pressure, Temperature, Mass, Moles, etc.\nConverting among systems of units\nDimensionless numbers\n\nSystem Definition\n\nOpen or Closed\nTransient or Steady State\n\nMaterial Balances\n\nMass Balances\nMole Balances\nEquations of State and Phase Equilibria\n\nEnergy Balances or the 1st Law of Thermodynamics\nEntropy Balances or the 2nd Law of Thermodynamics\nThermodynamic Efficiency and the Combined 1st and 2nd Laws\n\n\n\n\nThe principles in Chemical and Thermal Processes are applicable in\n\nChemical Engineering\nPetroleum Engineering\nMechanical Engineering\nMaterials Engineering\nBioengineering\nEnvironmental Engineering\nEnergy Engineering\nSustainability\nManufacturing Engineering\nIndustrial Engineering\nMarine and Aerospace Engineering"
   },
   {
     "objectID": "basics/index.html#engineering-principles-discussed",
     "href": "basics/index.html#engineering-principles-discussed",
-    "title": "Basics of Engineering",
+    "title": "Overview of DOFPro Chemical And Thermal Processes Website",
     "section": "",
     "text": "Engineering Basics\n\nStatistics, Measurements, and Calculations\nProcess Data and Variables, such as Pressure, Temperature, Mass, Moles, etc.\nConverting among systems of units\nDimensionless numbers\n\nSystem Definition\n\nOpen or Closed\nTransient or Steady State\n\nMaterial Balances\n\nMass Balances\nMole Balances\nEquations of State and Phase Equilibria\n\nEnergy Balances or the 1st Law of Thermodynamics\nEntropy Balances or the 2nd Law of Thermodynamics\nThermodynamic Efficiency and the Combined 1st and 2nd Laws"
   },
   {
     "objectID": "basics/index.html#why-chemical-and-thermal-processes",
     "href": "basics/index.html#why-chemical-and-thermal-processes",
-    "title": "Basics of Engineering",
+    "title": "Overview of DOFPro Chemical And Thermal Processes Website",
     "section": "",
     "text": "The principles in Chemical and Thermal Processes are applicable in\n\nChemical Engineering\nPetroleum Engineering\nMechanical Engineering\nMaterials Engineering\nBioengineering\nEnvironmental Engineering\nEnergy Engineering\nSustainability\nManufacturing Engineering\nIndustrial Engineering\nMarine and Aerospace Engineering"
-  },
-  {
-    "objectID": "basics/WhatIsAMole.html#definition",
-    "href": "basics/WhatIsAMole.html#definition",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Definition",
-    "text": "Definition\n\nThe mass equivalent of the molar mass of a molecule\nThe molar mass of \\(\\mathrm{CO_2}\\) is \\(44.010\\ \\frac{\\mathrm{g}}{\\mathrm{mol}}\\) or \\(44.010\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\), etc.\n15 mass units on N.I.S.T website\nMost common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{tonne-mol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)"
-  },
-  {
-    "objectID": "basics/WhatIsAMole.html#using-a-mole",
-    "href": "basics/WhatIsAMole.html#using-a-mole",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Using a Mole",
-    "text": "Using a Mole\n\nStart with a balanced chemical equation.\n\\[\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}\\]\nTo make \\(100\\ \\mathrm{lb_m}\\) of \\(\\mathrm{CO_2}\\)\n\n\\(100\\ \\mathrm{lb_m\\ CO_2} / 44.010\\ \\frac{\\mathrm{lb_m\\ CO_2}}{\\text{lb-mol}} = 2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{CO_2}\\)\nNeed \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{C}\\) and \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{O_2}\\).\n\\(2.272\\ \\text{lb-mol C} \\cdot 12.011\\ \\frac{\\mathrm{lb_m\\ C}}{\\text{lb-mol}} = 27.29  \\mathrm{lb_m\\ C}\\)\n\\(2.272\\ \\text{lb-mol 0}_2 \\cdot 31.999\\ \\frac{\\mathrm{lb_m\\ O}_2}{\\text{lb-mol}} = 72.70  \\mathrm{lb_m\\ O}_2\\)"
-  },
-  {
-    "objectID": "basics/WhatIsAMole.html#avogadros-number",
-    "href": "basics/WhatIsAMole.html#avogadros-number",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Avogadro’s Number",
-    "text": "Avogadro’s Number\n\n\\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\mathrm{mol}}\\) or \\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\text{g-mol}}\\)\n\\(1.327 654 687 336 \\times 10^{27}\\ \\frac{\\mathrm{molecules}}{\\text{lb-mol}}\\)"
-  },
-  {
-    "objectID": "basics/WhatIsAMole.html#use-the-correct-moles",
-    "href": "basics/WhatIsAMole.html#use-the-correct-moles",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Use the Correct Moles",
-    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using gram moles incorrectly.\n\nStart with mass in units other than grams.\n\nConvert to grams.\nConvert to gram-moles.\nUse balanced chemical equation to solve for the other species in gram-moles.\nConvert the other species’ gram-moles to grams.\nConvert the grams to the starting mass species.\n\nRequires five steps."
-  },
-  {
-    "objectID": "basics/WhatIsAMole.html#use-the-correct-moles-1",
-    "href": "basics/WhatIsAMole.html#use-the-correct-moles-1",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Use the Correct Moles",
-    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using moles.\n\nStart with mass in units other than grams.\n\nConvert to the mass unit’s moles.\nUse balanced chemical equation to solve for the other species in the mass unit’s moles.\nConvert the other species’ moles to mass units.\n\n\nRequires three steps instead of five.\n40% fewer places to make mistakes."
-  },
-  {
-    "objectID": "basics/WhatIsAMole.html#the-summary",
-    "href": "basics/WhatIsAMole.html#the-summary",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "The Summary",
-    "text": "The Summary\n\nDifferent types of moles are for different types of mass units.\nThe molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.\nUse gram moles for problems in grams. Use pound-moles for problems in pounds, etc."
-  },
-  {
-    "objectID": "basics/WhatIsAMoleJTF.html#definition",
-    "href": "basics/WhatIsAMoleJTF.html#definition",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Definition",
-    "text": "Definition\n\nThe mass equivalent of the molar mass of a molecule\nThe molar mass of \\(\\mathrm{CO_2}\\) is \\(44.010\\ \\frac{\\mathrm{g}}{\\mathrm{mol}}\\) or \\(44.010\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\), etc.\n15 mass units on N.I.S.T website\nMost common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{tonne-mol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)"
-  },
-  {
-    "objectID": "basics/WhatIsAMoleJTF.html#using-a-mole",
-    "href": "basics/WhatIsAMoleJTF.html#using-a-mole",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Using a Mole",
-    "text": "Using a Mole\n\nStart with a balanced chemical equation.\n\\[\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}\\]\nMolar Mass of \\(\\mathrm{CO_2}\\) is \\(44.009546\\) which rounds to \\(44.010\\).\nTo make \\(100\\ \\mathrm{lb_m}\\) of \\(\\mathrm{CO_2}\\)\n\n\\(100\\ \\mathrm{lb_m\\ CO_2} / 44.010\\ \\frac{\\mathrm{lb_m\\ CO_2}}{\\text{lb-mol}} = 2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{CO_2}\\)\nNeed \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{C}\\) and \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{O_2}\\).\n\\(2.272\\ \\text{lb-mol C} \\cdot 12.011\\ \\frac{\\mathrm{lb_m\\ C}}{\\text{lb-mol}} = 27.29  \\mathrm{lb_m\\ C}\\)\n\\(2.272\\ \\text{lb-mol 0}_2 \\cdot 31.999\\ \\frac{\\mathrm{lb_m\\ O}_2}{\\text{lb-mol}} = 72.70  \\mathrm{lb_m\\ O}_2\\)"
-  },
-  {
-    "objectID": "basics/WhatIsAMoleJTF.html#avogadros-number",
-    "href": "basics/WhatIsAMoleJTF.html#avogadros-number",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Avogadro’s Number",
-    "text": "Avogadro’s Number\n\n\\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\mathrm{mol}}\\) or \\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\text{g-mol}}\\)\n\\(1.327 654 687 336 \\times 10^{27}\\ \\frac{\\mathrm{molecules}}{\\text{lb-mol}}\\)"
-  },
-  {
-    "objectID": "basics/WhatIsAMoleJTF.html#use-the-correct-moles",
-    "href": "basics/WhatIsAMoleJTF.html#use-the-correct-moles",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Use the Correct Moles",
-    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using gram moles incorrectly.\n\nStart with mass in units other than grams.\n\nConvert to grams.\nConvert to gram-moles.\nUse balanced chemical equation to solve for the other species in gram-moles.\nConvert the other species’ gram-moles to grams.\nConvert the grams to the starting mass species.\n\nRequires five steps."
-  },
-  {
-    "objectID": "basics/WhatIsAMoleJTF.html#use-the-correct-moles-1",
-    "href": "basics/WhatIsAMoleJTF.html#use-the-correct-moles-1",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Use the Correct Moles",
-    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using moles.\n\nStart with mass in units other than grams.\n\nConvert to the mass unit’s moles.\nUse balanced chemical equation to solve for the other species in the mass unit’s moles.\nConvert the other species’ moles to mass units.\n\n\nRequires three steps instead of five.\n40% fewer places to make mistakes."
-  },
-  {
-    "objectID": "basics/WhatIsAMoleJTF.html#the-summary",
-    "href": "basics/WhatIsAMoleJTF.html#the-summary",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "The Summary",
-    "text": "The Summary\n\nDifferent types of moles are for different types of mass units.\nThe molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.\nUse gram moles for problems in grams. Use pound-moles for problems in pounds, etc."
-  },
-  {
-    "objectID": "basics/WhyStatsJTF.html#true-mean-standard-deviation",
-    "href": "basics/WhyStatsJTF.html#true-mean-standard-deviation",
-    "title": "Why Statistics?  Just the Facts",
-    "section": "True Mean & Standard Deviation",
-    "text": "True Mean & Standard Deviation\n\nInfinite Precision Exact Measurement\nFull Population Measurement\nTrue Mean or Population Mean \\(\\equiv \\mu\\)\nTrue Standard Deviation \\(\\equiv \\sigma\\)"
-  },
-  {
-    "objectID": "basics/WhyStatsJTF.html#sample-mean-standard-deviation",
-    "href": "basics/WhyStatsJTF.html#sample-mean-standard-deviation",
-    "title": "Why Statistics?  Just the Facts",
-    "section": "Sample Mean & Standard Deviation",
-    "text": "Sample Mean & Standard Deviation\n\nThe set of measurements \\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\) \\[\\bar{x}=\\frac{\\sum_{i=1}^Nx_i}{N}\\approx\\mu\\] Can we calculate the error \\(e_i =\\mu-x_i\\) ? The set of errors \\(\\{e_1,e_2,\\ldots e_N\\}\\) {x1,x2,!xN} N åx x = i=1 i N » μ How do we estimate μ -x ? Calculate the residual ei =x-xi The set of residuals {e1 ,e2 ,!eN }"
   },
   {
     "objectID": "balances/entropy/index.html",
