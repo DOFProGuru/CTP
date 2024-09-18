@@ -5,7 +5,7 @@ author: "DOFPro Team"
 format: 
   revealjs:
     incremental: false
-    theme: [default, gradient.scss]
+    theme: [default, ../../gradient.scss]
 ---
 
 ## True Mean & Standard Deviation

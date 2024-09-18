@@ -16,7 +16,7 @@ The videos explain what a mole is and how it is used in basic Chemical Engineeri
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kztw9GX9EL8?si=8FReigIAK_ILt8NN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-[Images](WhatIsAMoleVIsuals.qmd), [Transcript]()
+[Images](WhatIsAMoleVisuals.qmd), [Transcript](WhatIsAMoleTFSCC.qmd)
 
 # The *Just The Facts* Video
 

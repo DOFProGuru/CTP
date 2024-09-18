@@ -1,0 +1,135 @@
+---
+title: "CC Transcript of *What Is a Mole?* TFS"
+author: "DOFPro group"
+format: html
+---
+
+\>\> INTERVIEWER: How would you use a mole?
+
+\>\> INTERVIEWEE: I would, uh, eat it!
+
+\>\> NARRATOR: What is a mole is an episode of the Degrees of Freedom Project, "The Full Story" videos on chemical and thermal principles. If you want the "Just The Facts" version without the in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
+
+\>\>INTERVIEWER: When we are talking about Chemical Engineering, what is a mole?
+
+\>\> INTERVIEWEE1: What is a mole?
+
+\>\>INTERVIEWER: Yeah.
+
+\>\> INTERVIEWEE1: I have no idea.
+
+\>\> INTERVIEWEE2: Uhmmm, I forgot.
+
+\>\> INTERVIEWEE3: Like a size, like a use, like a metric, kinda? I forgot the number, it's like six point six oh eight point zero two two one.
+
+\>\> INTERVIEWEE4: Some unit of like how many molecules there are. I guess it could also be an animal, but that's not really a thing for Chemical Engineering.
+
+\>\> INTERVIEWEE5: A mole is a unit of measurement. So the mole is just a number. Uhmm 6.02 times 10 to the 23. basically it's a way of measuring atoms so that uhmm we can put them on a scale that is somewhat reasonable like to have and like use in the lab
+
+\>\> INTERVIEWER: And then, when we are talking about Chemical Engineering, what is a pound-mole?
+
+\>\> INTERVIEWEE6: Uhh, I'm not too sure.
+
+\>\> INTERVIEWEE7: I have no clue.
+
+\>\> INTERVIEWEE8: No clue.
+
+\>\> INTERVIEWEE9: I have no clue what that is.
+
+\>\> INTERVIEWEE10: I presume it's some horrific cursed unit that Engineers came up with where they they do this insane thing where they combine like US imperial units with like metric units, and it's just like the worst thing ever.
+
+\>\> INTERVIEWEE11: Probably like a certain number of moles that weigh a pound.
+
+\>\> INTERVIEWEE12: A pound-mole would be the number of molecules of something in a pound of that something.
+
+\>\> NARRATOR: A mole is the name given to the mass equivalent of the molar mass of a molecule. For example, a molecule of carbon dioxide has a molar mass of approximately 44.01, that means a gram mole, or simply a mole, of carbon dioxide has a mass of 44.01 grams, subsequently a pound-mole of carbon dioxide has a mass of 44.01 pounds mass.
+
+To help you understand, this is one gram mole of table salt, and this is one pound-mole of table salt.
+
+\>\> INTERVIEWER: How would you use a mole?
+
+\>\> INTERVIEWEE1: How would I use it?
+
+\>\> INTERVIEWER: Uh Huh
+
+\>\> INTERVIEWEE1: Without knowing what it is?
+
+\>\> INTERVIEWER: Uh Huh
+
+\>\> INTERVIEWEE1: I would eat it?!
+
+\>\> INTERVIEWEE2: I have no idea actually. Like for problems? Like I don't know.
+
+\>\> INTERVIEWEE3: Like you can convert it to other units.
+
+\>\> INTERVIEWEE4: One mole of this element plus two moles of some other element might go to, combine to form certain compounds, so like balancing equations.
+
+\>\> INTERVIEWEE5: Balancing like chemical equations, like in stoichiometry you want to make sure yout number of moles um in is equal to your number of moles out.
+
+\>\> NARRATOR: So how do I use a mole? A mole is most useful when planning out or preparing reagents for a chemical reaction. You really need to start with a balanced chemical equation for the reaction. For example, one carbon atom and one oxygen molecule  react to form one molecule of carbon dioxide.
+
+If you wanted to make 100 pounds of carbon dioxide, you would need to calculate what mass of carbon atoms you would need, and what mass of oxygen molecules you would need. For an atomic species like carbon, you are technically supposed to use the name pound-atom or gram-atom, but in casual conversation, if you use the term pound-mole or gram-mole most engineers will understand.
+
+The chemical equation means that one pound-atom of carbon will react with one pound-mole of oxygen molecules (which is just two pound-atoms of oxygen atoms) in order to form one pound-mole of carbon dioxide. Given that the molar mass (also called molecular weight) of carbon dioxide is about 44.01, 100 pounds of carbon dioxide is 100 divided by 44.01 or 2.272 pound-moles of carbon dioxide.
+
+We need 2.272 pound-atoms of carbon and 2.272 pound-moles of oxygen molecules.
+
+The atomic mass of carbon is approximately 12.01, and the molar mass of oxygen is about 32.00, so we need 2.272 times 12.01
+
+and 2.272 times 32.00
+
+That gives us totals of 27.29 pounds of carbon
+
+and 72.70 pounds of oxygen in order to make our 100 pounds of carbon dioxide
+
+\>\> INTERVIEWER: And then do you know what Avogadro’s number is?
+
+\>\> INTERVIEWEE1: I don't.
+
+\>\> INTERVIEWEE2: I have no idea what exactly it is.
+
+\>\> INTERVIEWEE3: Something times 10 to the 27th.
+
+\>\> INTERVIEWEE4: 1.602 times 10 to the 23rd.
+
+\>\> INTERVIEWEE5: 6.02 times 10 to the 23 molecules per gram. 
+
+\>\> INTERVIEWEE6: Avogadro's number is the number you use to convert um moles to molecules back and forth.
+
+\>\> INTERVIEWEE7: Avogadro's constant is 6.023 to 10 to the power 23 if I remember correctly. 
+
+\>\> NARRATOR: For a gram-mole, which is what chemists mean when they say mole, the international standards agencies have agreed on how many molecules are in exactly one mole. In the US, our standards agency is the National Institute of Standards and Technology or N.I.S.T. The value from their website is  6.022 140 76 times 10 to the 23rd per mol. That number is known as Avogadro’s number or the Avogadro constant.
+
+However, there is a corresponding number for each mass unit. For pounds mass the exact number is 1.327 654 687 336 03 times 10 to the 27th per pound-mole.
+
+The N.I.S.T. website lists at least 15 different mass units, so there are at least that many types of moles, ranging from the carat-mole through the pennyweight-mole. The most common moles are the gram mole or mole, the kilogram-mol or kilomole, the metric-ton-mole or tonne-mole, the pound-mole, and the ton-mole.
+
+The big question is "Why Can’t I Just Use the Mol that I’m Familiar With?" Well, you can, but you are more likely to make an error because of the extra conversions you have to do. There is a long conversion process if you use any mass unit other than the gram (which isn’t the SI unit, by the way. The SI unit is the kilogram.) The process is as follows: Starting with mass: First, convert mass unit to grams
+
+Second, convert from grams to gram moles with the molar mass.
+
+Third, use the chemical equation to find the resultant gram moles
+
+Fourth, convert from gram-moles to grams, then.
+
+Then finally, five, convert from grams to your original mass unit.
+
+Don't do this!
+
+Rather, you should use the next three simple steps, instead:
+
+First, convert from mass to moles with the molar mass.
+
+Second, use the chemical equation to find the resultant moles.
+
+Then third and finally, convert from moles to mass.
+
+Instead of five steps, you have three steps, resulting in 40% fewer places to make a mistake.
+
+The key takeaways are: First, Engineers use different types of moles because they have to work with different types of mass units.
+
+Second, the molar mass is just the conversion factor between moles and mass, and it has the same numerical value regardless of the mass units involved.
+
+Finally, only use gram moles if your problem is being worked in grams.
+
+Thanks for watching! To learn more about chemical and thermal processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series.
