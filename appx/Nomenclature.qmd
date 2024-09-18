@@ -9,326 +9,297 @@ This page is to test web versions of the nomenclature or variable names for the 
 
 # Roman Symbols
 
-| Chosen Symbol | Description                                                                                                                 | F & R       | SVN | Ç & B | H & R                       |
-|:-------------:|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:---:|:-----:|:---------------------------:|
-| tbd           | arbitrary constants or parameters in equations                                                            | $a,\ b,\ c,\ d$  | $A,\ B,\ C,\ D$  |       | tbd                         |
-| tbd           | acceleration, $\mathrm{m}/\mathrm{s}^2$                                                                                     | tbd         | tbd | tbd   | tbd                         |
-| tbd           | activity                                                                                                                    |             |     |       | $a$                         |
-| tbd           | external (superficial) surface area                                                                                         |             |     |       | $a$                         |
-| tbd           | cell growth coefficients                                                                                                    |             |     |       | $a,\ a',\ a''$              |
-| tbd           | gas–liquid interfacial area per unit volume of liquid                                                                       |             |     |       | $a_V$                       |
-| tbd           | preexponential factor in rate constant                                                                                      |             |     |       | $A$                         |
-| tbd           | representative chemical species                                                                                             |             |     |       | $A_i$                       |
-| tbd           | concentration                                                                                                               |             |     |       | $C$                         |
-| tbd           | concentration of rectant A at time $t_i$ or in effluent from reactor $i$                                                    |             |     |       | $C_{\mathrm{A}_i}$          |
-| tbd           | constant-pressure heat capacity                                                                                             |  $C_p$      |     |       | $C_p$                       |
-| tbd           | hypothetical concentration of gas in the liquid phase                                                                       |             |     |       | $C^*_l$                     |
-| tbd           | reactant concentration at time zero in a CSTR operating under transient conditions                                          |             |     |       | $C^*$                       |
-| tbd           | diameter                                                                                                                    |             |     |       | $D$                         |
-| tbd           | dielectric constant                                                                                                         |             |     |       | $D$                         |
-| tbd           | dilution rate                                                                                                               |             |     |       | $D$                         |
-| tbd           | bulk diffusivity                                                                                                            |             |     |       | $D_\mathrm{AB}$             |
-| tbd           | Knudsen diffusivity                                                                                                         |             |     |       | $D_\mathrm{K}$              |
-| tbd           | dispersion or diffusivity parameter                                                                                         |             |     |       | $\mathscr{D}$               |
-| tbd           | pseudo-binary diffusivity of species A in a multicomponent gas mixture                                                      |             |     |       | $\mathscr{D}_{\mathrm{A}m}$ |
-| tbd           | combined diffusivity                                                                                                        |             |     |       | $\mathscr{D}_c$             |
-| tbd           | energy or activation energy                                                                                                 |             |     |       | $E$                         |
-| tbd           | relative kinetic energy directed along the line of centers in a collision (on a per mole basis)                             |             |     |       | $E_c$                       |
-| tbd           | activation energy for diffusion                                                                                             |             |     |       | $E_\mathrm{diffusion}$      |
-| tbd           | energy increase accompanying reaction at absolute zero                                                                      |             |     |       | $E_0$                       |
-| tbd           | initial enzyme concentration                                                                                                |             |     |       | $E_0$                       |
-| tbd           | total kinetic energy                                                                                                        | $E_\mathrm{k}$ |     |       |                          |
-| tbd           | total kinetic energy rate                                                                                                   | $\hat{E}_\mathrm{k}$ |     |       |                    |
-| tbd           | total potential energy                                                                                                      | $E_\mathrm{p}$ |     |       |                          |
-| tbd           | total potential energy rate                                                                                                 | $\hat{E}_\mathrm{p}$ |     |       |                    |
-| tbd           | fractional conversion                                                                                                       | $f$         |     |       | $f$                         |
-| tbd           | fugacity of pure species $i$ at pressure $P$                                                                                |             |     |       | $f_i^0$                     |
-| tbd           | fugacity of species i as it exists in the reaction mixture                                                                  |             |     |       | $\hat{\ f}_i$               |
-| tbd           | friction factor                                                                                                             |             |     |       | $f_M$                       |
-| tbd           | fugacity coefficient for species $i$                                                                                        |             |     |       | $(f/P)_i$                   |
-| tbd           | friction factor                                                                                                             | $\hat{F}$   |     |       |                             |
-| tbd           | molal flow rate                                                                                                             |             |     |       | $F$                         |
-| tbd           | hypothetical molal flow rate of species A corresponding to a stream in which none of the A has reacted                      |             |     |       | $F′_\mathrm{A}$             |
-| tbd           | cumulative residence time distribution function                                                                             |             |     |       | $F(t)$                      |
-| tbd           | ratio of reaction rate for poisoned catalyst to that for unpoisoned catalyst                                                |             |     |       | $\mathscr{F}$               |
-| tbd           | gas phase                                                                                                                   |             |     |       | g                           |
-| tbd           | Gibbs free energy                                                                                                           |             |     |       | $G$                         |
-| tbd           | mass velocity                                                                                                               |             |     |       | $G$                         |
-| tbd           | specific enthalpy                                                                                                           |             |     |       | $h$                         |
-| tbd           | convective heat transfer coefficient                                                                                        |             |     |       | $h_c$                       |
-| tbd           | Thiele modulus for \_i_th-order reaction                                                                                    |             |     |       | $h_i$                       |
-| tbd           | Thiele modulus for poisoned catalyst                                                                                        |             |     |       | $h_p$                       |
-| tbd           | Thiele modulus                                                                                                              |             |     |       | $h_\mathrm{T}$              |
-| tbd           | Henry's law constant                                                                                                        |             |     |       | $H$                         |
-| tbd           | total enthalpy                                                                                                              |  $H$        |     |       |                             |
-| tbd           | total enthalpy rate                                                                                                         |  $\dot{H}$  |     |       |                             |
-| tbd           | molar enthalpy                                                                                                              | $\hat{H}$   |     |       |                             |
-| tbd           | specific enthalpy                                                                                                           | $\hat{H}$   |     |       |                             |
-| tbd           | Chilton–Colburn factor for mass transfer                                                                                    |             |     |       | $j_D$                       |
-| tbd           | Chilton–Colburn factor for heat transfer                                                                                    |             |     |       | $j_H$                       |
-| tbd           | Molar flux of species $i$ relative to the molar average velocity                                                            |             |     |       | $J_i$                       |
-| tbd           | reaction rate constant                                                                                                      |             |     |       | $k$                         |
-| tbd           | thermal conductivity                                                                                                        |             |     |       | $k$                         |
-| tbd           | Boltzmann constant                                                                                                          |             |     |       | $k_B$                       |
-| tbd           | mass transfer coefficient                                                                                                   |             |     |       | $k_c$                       |
-| tbd           | pseudo first-order rate constant for cell death                                                                             |             |     |       | $k_d$                       |
-| tbd           | pseudo first-order rate constant for endogenous metabolism                                                                  |             |     |       | $k_{em}$                    |
-| tbd           | thermal conductivity of bulk fluid                                                                                          |             |     |       | $k_f$                       |
-| tbd           | mass transfer coefficient for the gas phase                                                                                 |             |     |       | $k_g$                       |
-| tbd           | mass transfer coefficient defined                                                                                           |             |     |       | $k_G$                       |
-| tbd           | rate constant for acid-catalyzed reaction                                                                                   |             |     |       | $k_\mathrm{H^+}$            |
-| tbd           | mass transfer coefficient for the liquid phase                                                                              |             |     |       | $k_l$                       |
-| tbd           | maintenance coefficient                                                                                                     |             |     |       | $k_m$                       |
-| tbd           | mass transfer coefficient                                                                                                   |             |     |       | $k_m$                       |
-| tbd           | rate constant in infinitely dilute solution or for uncatalyzed reaction                                                     |             |     |       | $k_0$                       |
-| tbd           | rate constant for base-catalyzed reaction                                                                                   |             |     |       | $k_\mathrm{OH^-}$           |
-| tbd           | pseudo rate constant for desorption                                                                                         |             |     |       | $k'$                        |
-| tbd           | equilibrium constant                                                                                                        |             |     |       | $K$                         |
-| tbd           | Michaelis constant                                                                                                          |             |     |       | $K$                         |
-| tbd           | equilibrium constant for reaction expressed in terms of activities                                                          |             |     |       | $K_a$                       |
-| tbd           | adsorption equilibrium constant                                                                                             |             |     |       | $K_i$                       |
-| tbd           | overall liquid phase mass transfer coefficient                                                                              |             |     |       | $K_l$                       |
-| tbd           | equilibrium constant expressed in terms of partial pressures                                                                |             |     |       | $K_p$                       |
-| tbd           | equilibrium constant for surface reaction expressed in terms of fractional surface coverages $\theta_i$                     |             |     |       | $K_r$                       |
-| tbd           | half-saturation constant                                                                                                    |             |     |       | $K_S$                       |
-| tbd           | dissociation constant for water                                                                                             |             |     |       | $K_w$                       |
-| tbd           | liquid phase                                                                                                                |             |     |       | l                           |
-| tbd           | parameter involved in definition of termolecular collisions                                                                 |             |     |       | $l$                         |
-| tbd           | reactor length                                                                                                              |             |     |       | $L$                         |
-| tbd           | average chain length                                                                                                        |             |     |       | $L$                         |
-| tbd           | average pore length                                                                                                         |             |     |       | $\bar{L}$                   |
-| tbd           | mass                                                                                                                        |  $m$        |     |       | $m$                         |
-| tbd           | overall order of reaction                                                                                                   |             |     |       | $m$                         |
-| tbd           | maintenance coefficient for cell                                                                                            |             |     |       | $m_S$                       |
-| tbd           | mass of tracer injected as a pulse stimulus                                                                                 |             |     |       | $m_T$                       |
-| tbd           | mass flow rate                                                                                                              | $\dot{m}$   |     |       | $\dot{m}$                   |
-| tbd           | molecular weight                                                                                                            | $M$         |     |       | $M$                         |
-| tbd           | number of cells                                                                                                             |             |     |       | $n$                         |
-| tbd           | number of possible adsorption layers                                                                                        |             |     |       | $n$                         |
-| tbd           | number of stirred-tank reactors in a cascade                                                                                |             |     |       | $n$                         |
-| tbd           | reaction order                                                                                                              |             |     |       | $n$                         |
-| tbd           | number of moles                                                                                                             | $n$         |     |       | $n$                         |
-| tbd           | molar flow rate                                                                                                             | $\dot{n}$   |     |       |                             |
-| tbd           | moles of species i                                                                                                          |             |     |       | $n_i$                       |
-| tbd           | number of viable cells at the time the death phase of the cell growth cycle begins                                          |             |     |       | $n^*$                       |
-| tbd           | number density of molecules of species i                                                                                    |             |     |       | $n'_i$                      |
-| tbd           | number of pores per catalyst particle                                                                                       |             |     |       | $n_p$                       |
-| tbd           | number of cells in the inoculum                                                                                             |             |     |       | $n_0$                       |
-| tbd           | number of cells at the start of the exponential growth phase of the cell growth cycle                                       |             |     |       | $n^*_0$                     |
-| tbd           | molar flux                                                                                                                  |             |     |       | $N$                         |
-| tbd           | number of CSTR reactors in cascade                                                                                          |             |     |       | $N$                         |
-| tbd           | number of moles of species A at the start of a batch reaction                                                               |             |     |       | $N_{\mathrm{A}0}$           |
-| tbd           | number of moles of species $i$ contained within a reactor                                                                   |             |     |       | $N_i$                       |
-| tbd           | Avogadro's number                                                                                                           |             |     |       | $N_0$                       |
-| tbd           | Péclet number                                                                                                               |             |     |       | $N_\mathrm{Pe}$             |
-| tbd           | diffusive flux in radial direction                                                                                          |             |     |       | $N_r$                       |
-| tbd           | Reynolds number                                                                                                             |             |     |       | $N_\mathrm{Re}$             |
-| tbd           | Schmidt number                                                                                                              |             |     |       | $N_\mathrm{Sc}$             |
-| tbd           | Sherwood number                                                                                                             |             |     |       | $N_\mathrm{Sh}$             |
-| tbd           | transfer function variable                                                                                                  |             |     |       | $p$                         |
-| tbd           | pressure                                                                                                                    | $P$         |     |       | $P$                         |
-| tbd           | critical pressure                                                                                                           | $P_c$       |$P_c$|       | $P_c$                       |
-| tbd           | reduced pressure, $P/P_c$                                                                                                  |$P_\mathrm{r}$|     |       |                             |
-| tbd           | partial pressure of species A                                                                                              |$p_\mathrm{A}$|     |       |                             |
-| tbd           | saturation or vapor pressure at temperature $T$                                                                       |$p^*_\mathrm{A}(T)$|     |       | $P_0$                       |
-| tbd           | steric probability factor                                                                                                   |             |     |       | $P_S$                       |
-| tbd           | productivity                                                                                                                |             |     |       | $\mathscr{P}$               |
-| tbd           | parameter representing the combined effects of static pressure and gravitational force                                      |             |     |       | $\mathscr{P}$               |
-| tbd           | charge on an electron                                                                                                       |             |     |       | $q$                         |
-| tbd           | heat evolved in Semenov's correlation of activation energies and the exothermicity of reactions of small atoms and radicals |             |     |       | $q$                         |
-| tbd           | heat flux                                                                                                                   |             |     |       | $q$                         |
-| tbd           | heat transfer rate                                                                                                          |             |     |       | $q$                         |
-| tbd           | biomass specific q-rate                                                                                                     |             |     |       | $q_S$                       |
-| tbd           | heat transferred from surroundings to system                                                                                | $Q$         |     |       | $Q$                         |
-| tbd           | partition function                                                                                                          |             |     |       | $Q$                         |
-| tbd           | rate at which energy is removed from a system                                                                               |             |     |       | $Q_r$                       |
-| tbd           | rate at which thermal energy is transformed by an exothermic chemical reaction                                              |             |     |       | $Q_g$                       |
-| tbd           | rate or heat transfer from surroundings to system                                                                           |$\dot{Q}$    |     |       | $\dot{Q}$                   |
-| tbd           | radius                                                                                                                      |             |     |       | $r$                         |
-| tbd           | reaction rate                                                                                                               |             |     |       | $r$                         |
-| tbd           | rate of disappearance of species A                                                                                          |             |     |       | $−r_\mathrm{A}$             |
-| tbd           | rate of disappearance of species A in CSTR $i$                                                                              |             |     |       | $−r_{\mathrm{A}i}$          |
-| tbd           | rate of appearance of species i                                                                                             |             |     |       | $r_i$                       |
-| tbd           | biomass specific growth rate for species i                                                                                  |             |     |       | $r_{ix}$                    |
-| tbd           | rate of disappearance of substrate per unit of biomass                                                                      |             |     |       | $−r_{S,m}$                  |
-| tbd           | rate of disappearance of substrate per unit of biomass evaluated at the effluent conditions                                 |             |     |       | $−r_{S,\mathrm{out}}$       |
-| tbd           | reaction rate employed in pseudo homogeneous models of packed-bed reactors                                                  |             |     |       | $r_v$                       |
-| tbd           | reaction rate in a constant volume system                                                                                   |             |     |       | $r_v$                       |
-| tbd           | interatomic separation distance between atoms $X$ and $Y$                                                                   |             |     |       | $r_{xy}$                    |
-| tbd           | rate of production of X per unit of biomass                                                                                 |             |     |       | $r_X$                       |
-| tbd           | average pore radius                                                                                                         |             |     |       | $\bar{r}$                   |
-| tbd           | gas constant                                                                                                                | $R$         |     |       | $R$                         |
-| tbd           | radius                                                                                                                      |             |     |       | $R$                         |
-| tbd           | recycle ratio                                                                                                               |             |     |       | $R$                         |
-| tbd           | total rate of consumption of limiting substrate                                                                             |             |     |       | $-\mathscr{R}_S$            |
-| tbd           | total rate of production of biomass                                                                                         |             |     |       | $\mathscr{R}_X$             |
-| tbd           | concentration of limiting substrate                                                                                         |             |     |       | $s$                         |
-| tbd           | number of squared terms contributing to the activation energy of a reaction                                                 |             |     |       | $S$                         |
-| tbd           | selectivity                                                                                                                 |             |     |       | $S$                         |
-| tbd           | space velocity                                                                                                              |             |     |       | $S$                         |
-| tbd           | surface area                                                                                                                |             |     |       | $S$                         |
-| tbd           | total quantity of limiting substrate                                                                                        |             |     |       | $S$                         |
-| tbd           | specific surface area of catalyst                                                                                           |             |     |       | $S_g$                       |
-| tbd           | initial substrate concentration                                                                                             |             |     |       | $S_0$                       |
-| tbd           | gross geometric surface area of catalyst pellet                                                                             |             |     |       | $S_x$                       |
-| tbd           | standard cubic meters per hour                                                                                            |$\mathrm{SCMH}$|     |       |                             |
-| tbd           | standard cubic liters per hour                                                                                            |$\mathrm{SCLH}$|     |       |                             |
-| tbd           | standard cubic feet per hour                                                                                              |$\mathrm{SCFH}$|     |       |                             |
-| tbd           | specific gravity                                                                                                            |$\mathrm{SG}$|     |       |                             |
-| tbd           | time                                                                                                                        |             |     |       | $t$                         |
-| tbd           | time to achieve a specified fraction conversion f                                                                           |             |     |       | $t_f$                       |
-| tbd           | time at which reactant concentration $C_{\mathrm{A}_i}$ is measured                                                         |             |     |       | $t_i$                       |
-| tbd           | lag time associated with the growth cycle for microorganisms                                                                |             |     |       | $t_\mathrm{lag}$            |
-| tbd           | shutdown time in batch reactor                                                                                              |             |     |       | $t_s$                       |
-| tbd           | time elapsed since the start of the stationary phase                                                                        |             |     |       | $t_\mathrm{SP}$             |
-| tbd           | average residence time                                                                                                      |             |     |       | $\bar{t}$                   |
-| tbd           | relaxation time                                                                                                             |             |     |       | $t^*$                       |
-| tbd           | time corresponding to the end of the acceleration phase of the cell growth cycle                                            |             |     |       | $t^*$                       |
-| tbd           | time at which the death phase of the cell growth cycle begins                                                               |             |     |       | $t^*_{d0}$                  |
-| tbd           | ratio of reactor length to average linear velocity                                                                          |             |     |       | $\bar{t}^*$                 |
-| tbd           | temperature (absolute)                                                                                                      | $T$         |     |       | $T$                         |
-| tbd           | melting point temperature                                                                                                   | $T_m$       |     |       |                             |
-| tbd           | boiling point temperature                                                                                                   | $T_b$       |     |       |                             |
-| tbd           | critical temperature                                                                                                        | $T_c$       |$T_c$|       |                             |
-| tbd           | reduced temperature, $T/T_c$                                                                                               |$T_\mathrm{r}$|     |       |                             |
-| tbd           | temperature at center of catalyst pellet or critical temperature                                                            |             |     |       | $T_C$                       |
-| tbd           | temperature of heat source or sink                                                                                          |             |     |       | $T_m$                       |
-| tbd           | linear velocity                                                                                                             | $u$         |     |       | $u$                         |
-| tbd           | overall heat transfer coefficient                                                                                           |             |     |       | $U$                         |
-| tbd           | total internal energy                                                                                                       |  $U$        |     |       |                             |
-| tbd           | total internal energy rate                                                                                                  |  $\dot{U}$  |     |       |                             |
-| tbd           | molar internal energy                                                                                                       | $\hat{U}$   |     |       |                             |
-| tbd           | specific internal energy                                                                                                    | $\hat{U}$   |     |       |                             |
-| tbd           | volume of gas adsorbed                                                                                                      |             |     |       | $v$                         |
-| tbd           | volume of gas adsorbed in a monolayer                                                                                       |             |     |       | $v_m$                       |
-| tbd           | average molecular velocity                                                                                                  |             |     |       | $\bar{v}$                   |
-| tbd           | velocity with which activated complexes move from left to right across the transition state                                 |             |     |       | $\vec{v}^\ddagger$          |
-| tbd           | velocity of an enzymatic reaction                                                                                           |             |     |       | $V$                         |
-| tbd           | total volume                                                                                                                | $V$         |     |       | $V$                         |
-| tbd           | volumetric flow rate                                                                                                        |  $\dot{V}$  |     |       |                             |
-| tbd           | critical volume                                                                                                             |             |$V_c$|       |                             |
-| tbd           | molar volume, $V/n$                                                                                                         | $\hat{\ V}$ | $V$ | $v$   | tbd                         |
-| tbd           | specific volume, $V/m$                                                                                                      | $\hat{\ V}$ | $V$ | $v$   | tbd                         |
-| tbd           | void volume per gram of catalyst                                                                                            |             |     |       | $V_g$                       |
-| tbd           | gross geometric volume of catalyst pellet                                                                                   |             |     |       | $V_p$                       |
-| tbd           | reactor volume                                                                                                              |             |     |       | $V_R$                       |
-| tbd           | volume of solid catalyst                                                                                                    |             |     |       | $V'$                        |
-| tbd           | volumetric flow rate                                                                                                        |             |     |       | $\mathscr{V}$               |
-| tbd           | volumetric flow rate at inlet of reactor network                                                                            |             |     |       | $\mathscr{V}_0$             |
-| tbd           | weight fraction                                                                                                             |             |     |       | $w$                         |
-| tbd           | weight of solid catalyst                                                                                                    |             |     |       | $W$                         |
-| tbd           | work done by surroundings on system                                                                                         | $W$         |     |       | $-W$                         |
-| tbd           | rate at which shaft work is done on system                                                                           |$\dot{W}_\mathrm{s}$|     |       | $-\dot{W}$                   |
-| tbd           | mass fraction                                                                                                               | $x$         |     |       |                             |
-| tbd           | mole fraction, usually liquid or solid                                                                                      | $x$         |     |       |                             |
-| tbd           | concentration of biomass                                                                                                    |             |     |       | $x$                         |
-| tbd           | distance from pore mouth                                                                                                    |             |     |       | $x$                         |
-| tbd           | normalized pressure ($P/P_0$)                                                                                               |             |     |       | $x$                         |
-| tbd           | distance from pore mouth at which reactant concentration vanishes                                                           |             |     |       | $x_c$                       |
-| tbd           | total mass of live cells                                                                                                    |             |     |       | $X$                         |
-| tbd           | total mass of live cells when the biochemical reaction ceases                                                               |             |     |       | $X_F$                       |
-| tbd           | mass of live cells at the start of the stationary phase                                                                     |             |     |       | $X_{\mathrm{S}_0}$          |
-| tbd           | mass of cells at infinite time in the logistic model                                                                        |             |     |       | $X_\infty$                  |
-| tbd           | mole fraction, usually vapor or gas                                                                                         | $y$         |     |       |                             |
-| tbd           | instantaneous fractional yield                                                                                              |             |     |       | $y$                         |
-| tbd           | instantaneous yield coefficient in a biochemical reaction                                                                   |             |     |       | $y_{X/S}$                   |
-| tbd           | overall yield coefficient                                                                                                   |             |     |       | $Y_{X/S}$                   |
-| tbd           | overall fractional yield of species R                                                                                       |             |     |       | $Y_\mathrm{R}$              |
-| tbd           | overall mole fraction                                                                                                       | $z$         |     |       |                             |
-| tbd           | distance from inlet of tubular reactor                                                                                      |             |     |       | $Z$                         |
-| tbd           | bimolecular collision frequency for molecules A and B                                                                       |             |     |       | $Z_\mathrm{AB}$             |
-| tbd           | termolecular collision frequency                                                                                            |             |     |       | $Z_\mathrm{ABC}$            |
-| tbd           | number (and sign) of charges on ion I                                                                                       |             |     |       | $Z_i$                       |
-| tbd           | compressibility                                                                                                             |             |$Z$  |       |                             |
-| tbd           | critical compressibility                                                                                                    |             |$Z_c$|       |                             |
+| Chosen Symbol | Description                                                                                                                        |F & R[^frb]|SVN[^svn]|Ç & B[^cb]|H & R[^hr]              |
+|:--------------------:|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:---:|:-----:|:---------------------------:|
+| $a,\ b,\ c,\ d$      | arbitrary constants or parameters in equations[^eq]                                                      | $a,\ b,\ c,\ d$  | $A,\ B,\ C,\ D$   |       | tbd                         |
+| $a$                  | cubic equation of state parameter                                                                                           | $a$         | $a$ |       |                             |
+| $a$                  | acceleration, $\mathrm{m}/\mathrm{s}^2$                                                                                     | tbd         | tbd | tbd   | tbd                         |
+| $a$                  | activity                                                                                                                    | $a$         |     |       | $a$                         |
+| $A$                  | area                                                                                                                        |             | $A$ |       |                             |
+| $\mathrm{A}$         | representative chemical species, e.g., $\mathrm{A} = \mathrm{CO_2},\ \mathrm{B} = \mathrm{H_2O}$                            |             |     |       | $A$                         |
+| $\mathrm{A}_i$       | ennumerated chemical species, e.g., $\mathrm{A}_1 = \mathrm{CO_2},\ \mathrm{A}_2 = \mathrm{H_2O}$                           |             |     |       | $A_i$                       |
+| $A$                  | total Helmholtz energy                                                                                                      |             |     |       | $A^t$                       |
+| $\dot{A}$            | total Helmholtz energy rate                                                                                                 |             |     |       | $\dot{A}^t$                 |
+| $\hat{A}$            | molar Helmholtz energy                                                                                                      |             |     |       | $A$                         |
+| $\hat{A}$            | specific Helmholtz energy                                                                                                   |             |     |       | $A$                         |
+| $b$                  | cubic equation of state parameter                                                                                           | $b$         | $b$ |       |                             |
+| $B$                  | second virial coefficient                                                                                                   |             | $B$ |       |                             |
+| $B^0$, $B^1$         | functional values for generalized second-virial-coefficient correlation                                                     |             |$B^0$, $B^1$| |                            |
+| $c$                  | number of independent chemical species, Gibbs phas rule                                                                     | $c$         | $N$ |       |                             |
+| $c$                  | speed of sound                                                                                                              |             | $c$ |       |                             |
+| $C$                  | third virial coefficient                                                                                                    |             | $C$ |       |                             |
+| $C_\mathrm{A}$       | concentration of representative chemical species $\mathrm{A}$                                                               |  $C_A$      |     |       | $C_i$                       |
+| $C_i$                | concentration of ennumerated chemical species $i$                                                                           |  $C_i$      |     |       | $C_i$                       |
+| $C_{\mathrm{A}_i}$   | concentration of rectant A at time $t_i$ or in effluent from reactor $i$                                                    |             |     |       | $C_{\mathrm{A}_i}$          |
+| $C_p$                | constant-pressure heat capacity                                                                                             |  $C_p$      |     |       | $C_p$                       |
+| $C^\circ_p$          | standard-state constant-pressure heat capacity
+| $C_v$                | constant-volume heat capacity                                                                                               |  $C_v$      |     |       | $C_v$                       |
+| $C$                  | third virial coefficient                                                                                                    |             | $C$ |       |                             |
+| $C^0$, $C^1$         | functional values for generalized third-virial-coefficient correlation                                                      |             |$C^0$, $C^1$| |                            |
+|$\langle C_p \rangle_H$| mena heat capacity for enthalpy calculations                                                                               |  |$\langle C_P \rangle_H$||                             |
+|$\langle C_p \rangle_S$| mena heat capacity for enthalpy calculations                                                                               |  |$\langle C_P \rangle_S$||                             |
+| $D$                  | diameter                                                                                                                    | $D$         |     |       | $D_P$                       |
+| $D$                  | fourth virial coefficient                                                                                                   |             | $D$ |       |                             |
+| $D_\mathrm{AB}$      | binary diffusivity                                                                                                          | $D$         |     |       | $D_\mathrm{AB}$             |
+| $D_K$                | Knudsen diffusivity                                                                                                         |             |     |       | $D_\mathrm{K}$              |
+| $\mathscr{D}_c$      | combined diffusivity                                                                                                        |             |     |       | $\mathscr{D}_c$             |
+| $DF$                 | degrees of freedom, Gibbs phase rule                                                                                        | $DF$        | $F$ |       |                             |
+| $E_a$                | energy or activation energy                                                                                                 | $E_a$       |     |       | $E$                         |
+|$E_\mathrm{diffusion}$| activation energy for diffusion                                                                                             |             |     |       | $E_\mathrm{diffusion}$      |
+| $E_\mathrm{k}$       | total kinetic energy                                                                                                        | $E_\mathrm{k}$ |     |       |                          |
+| $\hat{E}_\mathrm{k}$ | specific or molar kinetic energy
+| $\dot{E}_\mathrm{k}$ | total kinetic energy rate                                                                                                   | $\dot{E}_\mathrm{k}$ |     |       |                    |
+|$E_\mathrm{p}$        | total potential energy                                                                                                      | $E_\mathrm{p}$ |     |       |                          |
+| $\hat{E}_\mathrm{p}$ | specific or molar potential energy
+| $\dot{E}_\mathrm{p}$ | total potential energy rate                                                                                                 | $\dot{E}_\mathrm{p}$ |     |       |                    |
+| $f$                  | fractional conversion                                                                                                       | $f$         |     |       | $f$                         |
+| $f_i$                | fugacity of pure species $i$ at system pressure $P$                                                                         |             |     |       | $f_i^0$                     |
+| $f^\circ_i$          | standard state fugacity of species $i$                                                                                      |             |$f^\circ_i$| |                             |
+| $\hat{f}_i$          | fugacity of species i in solution                                                                                           |             |$\hat{f}_i$| | $\hat{f}_i$                 |
+| $f$                  | (Moody) friction factor[^ff]                                                                                                             |             |     |       | $f_M$                       |
+| $F$                  | force                                                                                                                       | $F$         | $F$ |       |                             |
+| $\hat{F}$            | friction loss                                                                                                               | $\hat{F}$   |     |       |                             |
+| $\mathscr{F}$        | Faraday's constant                                                                                                          |             |$\mathscr{F}$||                            |
+| $g$                  | standard gravitationa acceleration, $9.80665\ \mathrm{m/s^2}$                                                               |             |     |       | $g$                         |
+| $g_c$                | conversion from $\mathrm{lb_m}$ to $\mathrm{lb_f}$, $1 \equiv g_c = 32.1740 \mathrm{(lb_m)(ft)(lb_f)^{-1}(s)^{-2}}$         | $g_c$       |$g_c$|       |                             | 
+| $G$                  | total Gibbs energy                                                                                                          |             |$G^t$ or $nG$|       | $G$                 |
+| $\dot{G}$            | total Gibbs energy rate                                                                                                     |             |$\dot{G}^t$ or $\dot{n}G$|       | $G$     |
+| $\hat{G}$            | molar or specific Gibbs energy                                                                                              |             | $G$ |       | $G$                         |
+| $G^{\circ}_i$        | standard state Gibbs energy of species $i$                                                                                  |             |     |       |                             |
+| $\bar{G}_i$          | partial molar Gibbs energy of species $i$                                                                                   |             |     |       |                             |
+| $\hat{G}^E$          | excess Gibbs energy $\equiv \hat{G} - \hat{G}^{id}$                                                                         |             |     |       |                             |
+| $\hat{G}^R$          | residual Gibbs energy $\equiv \hat{G} - \hat{G}^{ig}$                                                                       |             |     |       |                             |
+| $\Delta \hat{G}$     | molar or specific Gibbs energy change of mixing                                                                         |       |$\Delta G$ | | |
+| $\Delta \hat{G}^\circ$| molar or specific standard Gibbs eneergy energy change of reaction                                                     | |$\Delta G^\circ$ | | | 
+| $\Delta \hat{G}^\circ_f$| molar or specific standard Gibbs energy change of formation                                                          | |$\Delta G^\circ_f$ | | |
+| $h$                  | convective heat transfer coefficient                                                                                        | $h$         |     |       | $h_c$                       |
+| $h_i$                | Thiele modulus for $i$th-order reaction                                                                                     |             |     |       | $h_i$                       |
+| $h_\mathrm{T}$       | Thiele modulus                                                                                                              |             |     |       | $h_\mathrm{T}$              |
+| $H_A$                | Henry's law constant for chemical species $A$                                                                               |  $H_A$      |$\mathscr{H}_A$|| $H$                      |
+| $H$                  | total enthalpy                                                                                                              |  $H$        |$H^t$ or $nH$|       |                     |
+| $\dot{H}$            | total enthalpy rate                                                                                                         |  $\dot{H}$  |$\dot{H}^t$ or $\dot{n}H$|       |         |
+| $\hat{H}$            | molar or specific enthalpy                                                                                                  | $\hat{H}$   | $H$ |       |  $h$                        |
+| $H^{\circ}_i$        | standard state enthalpy of species $i$                                                                                      |             |     |       |                             |
+| $\bar{H}_i$          | partial molar enthalpy of species $i$                                                                                       |             |     |       |                             |
+| $\hat{H}^E$          | excess enthalpy $\equiv \hat{H} - \hat{H}^{id}$                                                                             |             |     |       |                             |
+| $\hat{H}^R$          | residual enthalpy $\equiv \hat{H} - \hat{H}^{ig}$                                                                           |             |     |       |                             |
+|$(\hat{H}^R)^0,\ (\hat{H}^R)^1$| generalized residual-enthalpy correlation functions                                                                | |$(H^R)^0,\ (H^R)^1$| |   |                             |
+| $\Delta \hat{H}$     | molar or specific enthalpy change of mixing                                                                             |       |$\Delta H$ | | |
+| $\Delta \hat{H}^\circ$| molar or specific standard enthalpy energy change of reaction                                                          | |$\Delta H^\circ$ | | |
+| $\Delta \hat{H}^\circ_f$| molar or specific standard enthalpy change of formation                                                              | |$\Delta H^\circ_f$ | | |
+| $J$                  | molar flux                                                                                                                  |             |     |       | $N$                         |
+| $k_0$                | pre-exponential, frequency factor, or steric factor                                                                         | $k_0$       |     |       | $A$                         |  
+| $k$                  | reaction rate coefficient                                                                                                   |             |     |       | $k$                         |
+| $k$                  | thermal conductivity                                                                                                        | $k$         |     |       | $\kappa$                    |
+| $k$                  | Boltzmann constant                                                                                                          |             | $k$ |       | $k_B$                       |
+| $k_m$                | mass transfer coefficient                                                                                                   |             |     |       | $k_m$                       |
+| $K$                  | equilibrium constant                                                                                                        | $K$         | $K$ |       | $K$                         |
+| $K_j$                | equilibrium constant for reaction $j$                                                                                       |             |$K_J$|       |                             |
+| $K_0, K_1, K_2$      | equilibrium constant factors, $K = K_0K_1K_2$                                                                               |             |$K_0, K_1, K_2$||                          |
+| $K_i$                | $K$-value, vapor/liquid equilibrium ratio, $K_i \equiv y_i/x_i$                                                             |             |$K_i$|       |                             |
+| $K$                  | Michaelis constant                                                                                                          |             |     |       | $K$                         |
+| $K_i$                | adsorption equilibrium constant                                                                                             |             |     |       | $K_i$                       |
+| $K_p$                | equilibrium constant expressed in terms of partial pressures                                                                |             |     |       | $K_p$                       |
+| $K_r$                | equilibrium constant for surface reaction expressed in terms of fractional surface coverages $\theta_i$                     |             |     |       | $K_r$                       |
+| $l$                  | length                                                                                                                      |  $L$        | $l$ |       |                             |
+| $L$                  | reactor length                                                                                                              |             |     |       | $L$                         |
+| $L$, $N$             | average chain length                                                                                                        |             |     |       | $L$                         |
+| $\bar{L}$            | average pore length                                                                                                         |             |     |       | $\bar{L}$                   |
+| $\mathcal{L}$        | molar fraction of system that is liquid                                                                                     |             |$\mathscr{L}$| |                           |
+| $m$                  | mass                                                                                                                        |  $n$        |     |       | $m$                         |
+| $\textbf{M}$         | Mach number                                                                                                                 |             |$\textbf{M}$| |                            |
+| $n$                  | overall order of reaction                                                                                                   |             |     |       | $m$                         |
+| $\dot{m}$            | mass flow rate                                                                                                              | $\dot{m}$   |     |       | $\dot{m}$                   |
+| $M$                  | molecular weight or molar mass[^mm]                                                                                         | $M$         |     |       | $M$                         |
+| $n$                  | reaction order                                                                                                              | $n$         |     |       | $\beta_i$                   |
+| $n$                  | number of moles                                                                                                             | $n$         |     |       | $n$, $N$                    |
+| $\dot{n}$            | molar flow rate                                                                                                             | $\dot{n}$   |     |       | $F$                         |
+| $n_i$                | moles of unspecified species $i$                                                                                            | $n_i$       |$n_i$|       | $n_i$, $N_i$                |
+| $n_\mathrm{A}$       | moles of specific species $\mathrm{A}$, e.g., $n_\mathrm{CO_2}$                                                             |             |     |       | $n_i$                       |
+| $N_A$                | Avogadro's number                                                                                                           |             |$N_A$|       | $N_0$                       |
+| $Pe$                 | Péclet number                                                                                                               |             |     |       | $N_\mathrm{Pe}$             |
+| $Re$                 | Reynolds number                                                                                                             | $Re$        |$\mathrm{Re}$|| $N_\mathrm{Re}$            |
+| $Sc$                 | Schmidt number                                                                                                              |             |     |       | $N_\mathrm{Sc}$             |
+| $Sh$                 | Sherwood number                                                                                                             |             |     |       | $N_\mathrm{Sh}$             |
+| $P$                  | pressure                                                                                                                    | $P$         |     |       | $P$                         |
+| $P_\mathrm{c}$       | critical pressure                                                                                                           |$P_\mathrm{c}$|$P_c$|       | $P_c$                       |
+| $P_\mathrm{r}$       | reduced pressure, $P/P_c$                                                                                                   |$P_\mathrm{r}$|     |       |                             |
+| $p_\mathrm{A}$       | partial pressure of species A                                                                                               |$p_\mathrm{A}$|     |       |                             |
+| $p^*_\mathrm{A}(T)$  | saturation or vapor pressure at temperature $T$                                                                             |$p^*_\mathrm{A}(T)$|$P^\mathrm{sat}_i$|| $P_0$           |
+| $e^-$                | charge on an electron                                                                                                       |             |     |       | $q$                         |
+| $Q$                  | heat transferred from surroundings to system                                                                                | $Q$         |     |       | $Q$                         |
+| $\dot{Q}$            | heat transfer rate from surroundings to system                                                                              | $\dot{Q}$   |$\dot{Q}$|   | $q$                         |
+| $Q_r$                | rate at which (mainly thermal) energy is removed from a chemical reactor                                                    |             |     |       | $Q_r$                       |
+| $Q_g$                | rate at which thermal energy is generated by an exothermic chemical reaction                                                |             |     |       | $Q_g$                       |
+| $\dot{Q}$            | rate of heat transfer from surroundings to system                                                                           |$\dot{Q}$    |     |       | $\dot{Q}$                   |
+| $r$                  | number of independent chemical equations, Gibbs phase rule                                                                  | $r$         | $r$ |       |                             |
+| $r$                  | compression ratio                                                                                                           |             | $r$ |       |                             |
+| $r_p$                | pressure ratio                                                                                                              |             |     |       |                             |
+| $r$                  | radius                                                                                                                      | $r$         | $r$ |       | $r$                         |
+| $r$                  | reaction rate, $r = 1/(\nu_i V)\ dn_i/dt$                                                                                   | $r$         |     |       | $r$                         |
+| $-r_\mathrm{A}$      | rate of disappearance of species $\mathrm{A}$                                                                               |             |     |       | $−r_\mathrm{A}$             |
+| $r_i$                | rate of appearance of species i                                                                                             |             |     |       | $r_i$                       |
+| $\bar{r}$            | average pore radius                                                                                                         |             |     |       | $\bar{r}$                   |
+| $R$                  | gas constant                                                                                                                | $R$         |     |       | $R$                         |
+| $R$                  | recycle ratio                                                                                                               |             |     |       | $R$                         |
+| $S$                  | total entropy                                                                                                               |  $S$        |$S^t$|       |                             |
+| $\dot{S}$            | total entropy rate                                                                                                          |             |     |       |                             |
+| $\hat{S}$            | molar or specific entropy                                                                                                   | $\hat{S}$   | $S$ | $s$   |                             |
+| $\bar{S}_i$          | partial molar entropy of species $i$                                                                                        |             |$\bar{S}_i$| |                             |
+| $\hat{S}^E$          | excess entropy $\equiv \hat{S} - \hat{S}^{id}$                                                                              |             |     |       |                             |
+| $\hat{S}^R$          | residual entropy $\equiv \hat{S} - \hat{S}^{ig}$                                                                            |             |     |       |                             |
+|$(\hat{S}^R)^0,\ (\hat{S}^R)^1$| generalized residual-entropy correlation functions                                                                 | |$(S^R)^0,\ (S^R)^1$| |   |                             |
+| $S_G$                | total entropy generation                                                                                                    |  $S$        |$S^t$|       |                             |
+| $\dot{S_G}$          | total entropy generation rate                                                                                               |             |     |       |                             |
+| $\Delta \hat{S}$     | molar or specific entropy change of mixing                                                                               |       |$\Delta S$ | | |
+| $\Delta \hat{S}^\circ$| molar or specific standard entropy change of reaction                                                                   | |$\Delta S^\circ$ | | |
+| $\Delta \hat{S}^\circ_f$| molar or specific standard entropy change of formation                                                                | |$\Delta S^\circ_f$ | | |
+| $S$                  | sample standard deviation (statistics)
+| $S^2$                | sample variance
+| $S$                  | selectivity                                                                                                                 |$\mathrm{Selectivity}$||  | $S$                         |
+| $S$                  | space velocity                                                                                                              |             |     |       | $S$                         |
+| $S, A$               | surface area[^SA]                                                                                                           |             |     |       | $S$                         |
+| $S_g$                | specific surface area of catalyst                                                                                           |             |     |       | $S_g$                       |
+| $S_0$                | initial substrate concentration                                                                                             |             |     |       | $S_0$                       |
+| $S_x$                | gross geometric surface area of catalyst pellet                                                                             |             |     |       | $S_x$                       |
+| $\mathrm{SCMH}$      | standard cubic meters per hour                                                                                            |$\mathrm{SCMH}$|     |       |                             |
+| $\mathrm{SCLH}$      | standard cubic liters per hour                                                                                            |$\mathrm{SCLH}$|     |       |                             |
+| $\mathrm{SCFH}$      | standard cubic feet per hour                                                                                              |$\mathrm{SCFH}$|     |       |                             |
+| $\mathrm{SG}$        | specific gravity                                                                                                            |$\mathrm{SG}$|     |       |                             |
+| $t$                  | time                                                                                                                        |             |     |       | $t$                         |
+| $t_f$                | time to achieve a specified fraction conversion $f$                                                                         |             |     |       | $t_f$                       |
+| $t_i$                | time at which reactant concentration $C_{\mathrm{A}_i}$ is measured                                                         |             |     |       | $t_i$                       |
+| $\bar{t}$            | mean residence time                                                                                                         |             |     |       | $\bar{t}$                   |
+| $T$                  | temperature (usually absolute)                                                                                              | $T$         |     |       | $T$                         |
+| $T_m$                | melting point temperature                                                                                                   | $T_m$       |     |       |                             |
+| $T_b$                | boiling point temperature                                                                                                   | $T_b$       |     |       |                             |
+| $T_\sigma$           | surroundings, background, or ambient temperature                                                                            |             |$T_\sigma$|  |                             |
+| $T_\mathrm{c}$       | critical temperature                                                                                                      | $T_\mathrm{c}$|$T_c$|       | $T_C$                       |
+| $T_\mathrm{r}$       | reduced temperature, $T/T_\mathrm{c}$                                                                                      |$T_\mathrm{r}$|     |       |                             |
+| $u$                  | linear velocity                                                                                                             | $u$         |     |       | $u$                         |
+| $U$                  | overall heat transfer coefficient                                                                                           |  $U$        |     |       | $U$                         |
+| $U$                  | total internal energy                                                                                                       |  $U$        |     |       |                             |
+| $\dot{U}$            | total internal energy rate                                                                                                  |  $\dot{U}$  |     |       |                             |
+| $\hat{U}$            | molar internal energy                                                                                                       | $\hat{U}$   |     |       |                             |
+| $\hat{U}$            | specific internal energy                                                                                                    | $\hat{U}$   |     |       |                             |
+| $\Delta \hat{U}$     | molar or specific internal energy change of mixing                                                                          |$\Delta \hat{U}$|
+| $\Delta \hat{U}^\circ$| molar or specific standard internal energy change of reaction                                                              | $\Delta \hat{U}^\circ$|
+| $\Delta \hat{U}^\circ_f$| molar or specific standard internal energy change of formation                                                           | $\Delta \hat{U}^\circ_f$|
+| $v$                  | volume of gas adsorbed                                                                                                      |             |     |       | $v$                         |
+| $v_m$                | volume of gas adsorbed in a monolayer                                                                                       |             |     |       | $v_m$                       |
+| $V$                  | total volume                                                                                                                | $V$         |     |       | $V$                         |
+| $\dot{V}$            | volumetric flow rate                                                                                                        |  $\dot{V}$  |     |       |                             |
+| $\hat{V}_\mathrm{c}$ | molar or specific critical volume                                                                                    |$\hat{V}_\mathrm{c}$|$V_c$|       |                             |
+| $\hat{V}$            | molar volume, $V/n$, or specific volume, $V/m$                                                                              | $\hat{V}$ | $V$ | $v$   | tbd                         |
+| $\Delta \hat{V}$     | molar or specific volume change of mixing
+| $V_g$                | void volume per gram of catalyst                                                                                            |             |     |       | $V_g$                       |
+| $V_p$                | gross geometric volume of catalyst pellet                                                                                   |             |     |       | $V_p$                       |
+| $V$                  | reactor volume                                                                                                              |             |     |       | $V_R$                       |
+| $V_R$                | volume of solid catalyst                                                                                                    |             |     |       | $V'$                        |
+| $\dot{V}$            | volumetric flow rate                                                                                                        | $\dot{V}$   |$\dot{V}$, $q$| | $\mathscr{V}$            |
+| $\mathcal{V}$        | molar fraction of system that is vapor                                                                                      |             |$\mathscr{V}$| |                           |
+| $W$                  | weight of solid catalyst                                                                                                    |             |     |       | $W$                         |
+| $W$                  | work done by surroundings on system[^W]                                                                                     | $W$         | $W$ |$-W,\ W$| $-W$                       |
+| $\dot{W}_\mathrm{s}$ | rate at which shaft work is done on system[^W]                                      |$\dot{W}_\mathrm{s}$|$\dot{W}_\mathrm{s}$|$-\dot{W}_\mathrm{s}$, $\dot{W}_\mathrm{s}$| $-\dot{W}$|
+| $W_\mathrm{ideal}$   | ideal work | | $W_\mathrm{ideal}$ | | |
+|$\dot{W}_\mathrm{ideal}$ | ideal work rate | |$\dot{W}_\mathrm{ideal}$| | |
+| $W_\mathrm{lost}$   | lost work | |$W_\mathrm{lost}$| | |
+|$\dot{W}_\mathrm{lost}$ | lost work rate | |$\dot{W}_\mathrm{lost}$| | |
+| $x_i$                | mass or mole fraction of unspecified species $i$[^xyz]                                                                      | $x_i$       |$x_i$| $x_i$ | $x_i$                       |
+| $x_i$                | $i$th experimental measurement or data point $i$[^xystat]                                                                   | $x$         |     |       |                             |
+| $y_i$                | mass or mole fraction of unspecified species $i$[^xyz]                                                                      | $y_i$       |$y_i$|       |                             |
+| $y_i$                | $i$th experimental measurement or data point $i$[^xystat]                                                                   | $y$         |     |       |                             |
+| $z_i$                | mass or mole fraction of unspecified species $i$[^xyz], usually overall                                                     | $z_i$       |$z_i$|       | $x$                         |
+| $x$                  | distance from pore mouth                                                                                                    |             |     |       | $x$                         |
+| $x_c$                | distance from pore mouth at which reactant concentration vanishes                                                           |             |     |       | $x_c$                       |
+| $y$                  | instantaneous fractional yield                                                                                              |$\mathrm{Yield}$  |     |       | $y$                      |
+| $Y$                  | overall yield coefficient                                                                                                   |             |     |       | $Y_{X/S}$                   |
+| $Y_\mathrm{R}$       | overall fractional yield of species R                                                                                       |             |     |       | $Y_\mathrm{R}$              |
+| $z$                  | elevation above a datum                                                                                                    |             | $z$ |       |                             |
+| $Z$                  | distance from inlet of tubular reactor                                                                                      |             |     |       | $Z$                         |
+| $z$                  | compressibility, $z \equiv P\hat{V}/(RT)$                                                                                   | $z$         |$Z$  |       |                             |
+| $z_\mathrm{c}$       | critical compressibility, $z_\mathrm{c} \equiv P_\mathrm{c}\hat{V}_\mathrm{c}/(RT_\mathrm{c})$                              |$z_\mathrm{c}$|$Z_c$|      |                             |
+|$z^0,\ z^1$           | generalized compressibiliity-factor correlation functions                                                                   | |$Z^0,\ Z^1$| |   |                             |
 
 : {.bordered .striped .hover}
+
+[^eq]: For example, $C_p= a + bt + cT^2 + dT^3$ where $a$, $b$, $c$, and $d$ are empirical constants.
+[^mm]: There are subtle distictions between molar mass, molecular mass, and molecular weight. For a fairly full discussion read [Wikipedia: Molar mass](https://en.wikipedia.org/wiki/Molar_mass)
+[^xyz]: Often you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, $x_i$ is often used for the mass fraction of species $i$ and $y_i$ for mole fraction of species $i$.
+        When discussing vapor/liquid equlibrium, $x_i$ is used for the liquid-phase mass or mole fraction of species $i$ and $y_i$ is used for the corresponding vapor-phase fraction of species $i$. $z_i$ is most often used as the overall mass
+        or mole fraction of species $i$ in a mixture of vapor and liquid. In such cases, $x_i$ is used for the mass or mol fraction of species $i$ in the liquid, and $y_i$ is used for the mass or mol fraction of species $i$ in the vapor.
+[^xystat]: In statistics, $x_i$ is the $i$th measurement or data point and $\bar{x}$ is the arithmetic mean of the data points. For data pairs, $x_i$ is the $i$th independent or specified value, and $y_i$ is the $i$th dependent or 
+           measured value.
+[^frb]: Elementary Principles of Chemical Processes, 4th Edition, Richard M. Felder, Ronald W. Rousseau, Lisa G. Bullard, ISBN: 978-1-119-19210-7, December 2018
+[^svn]: Introduction to Chemical Engineering Thermodynamics, 9th Edition, Hendrick Van Ness, Michael Abbott, J.M. Smith, Mark Swihart, 2022, ISBN10: 1260721477 | ISBN13: 9781260721478
+[^cb]: Thermodynamics: An Engineering Approach Edition: 9th, Yunus Çengel, Michael Boles, 2019, ISBN10:1260920445
+[^hr]: Introduction to Chemical Engineering Kinetics & Reactor Design, 2nd Ed. Hill & Root, Wiley. ISBN: 978-1-118-36825-1
+[^SA]: $S$ is normally used when referring to the total surface area of a catalyst pellet or porous solid. $A$ is normally used for other surface areas, such as a sphere, tube, or reactor.
+[^W]: The standard sign convention for Mechanical Engineering is that work out is *positive*. The modern sign convention for Chemical Engineering is that work out is *negative*. Çengel and Boles choose whatever sign convention they feel makes
+      the problem easiest.
+[^ff]: There are two common friction factors in use. Mechanical Engineers tend to use the *Moody* friction factor, also known as the *Darcy* or *Blasius* friction factor. Chemical Engineers tend to use the *Fanning* friction factor.
+       $f_\mathrm{Fanning} = f_\mathrm{Moody}/4$. Be sure to identify which friction factor your tables, charts, and equations use.
 
 # Greek Symbols
 
 | Chosen Symbol | Description                                                                                                      | F & R | SVN | Ç & B | H & R                     |
 |---------------|------------------------------------------------------------------------------------------------------------------|-------|-----|-------|---------------------------|
-| tbd           | area covered per molecule adsorbed                                                                               |       |     |       | $\alpha$                  |
-| tbd           | branching coefficient in chain reaction mechanism                                                                |       |     |       | $\alpha$                  |
-| tbd           | coefficient in Luedeking–Piret equation                                                                          |       |     |       | $\alpha$                  |
-| tbd           | dimensionless concentration variable                                                                             |       |     |       | $\alpha$                  |
-| tbd           | fraction of catalyst surface that is poisoned                                                                    |       |     |       | $\alpha$                  |
-| tbd           | dimensionless concentration variable for competitive consecutive reactions \[defined by equation (5.4.18)\]      |       |     |       | $\beta$                   |
-| tbd           | energy conversion function used in determination of the effectiveness factor for a nonisothermal catalyst pellet |       |     |       | $\beta$                   |
-| tbd           | coefficient in Luedeking–Piret equation                                                                          |       |     |       | $\beta$                   |
-| tbd           | order of the reaction with respect to species i                                                                  |       |     |       | $\beta_i$                 |
-| tbd           | activity coefficient                                                                                             |       |     |       | $\gamma$                  |
-| tbd           | Arrhenius number                                                                                                 |       |     |       | $\gamma$                  |
-| tbd           | volumetric expansion parameter                                                                                   |       |     |       | $\delta_\mathrm{A}$       |
-| tbd           | reaction progress variable for consecutive reactions                                                             |       |     |       | $\delta^*$                |
-| tbd           | characteristic length dimension of the transition state                                                          |       |     |       | $\delta^\neq$             |
-| tbd           | difference, e.g., $out-in$ or $final-initial$                                                                    |       |     |       | $\Delta$                  |
-| tbd           | time separating rate measurements                                                                                |       |     |       | $\Delta$                  |
-| tbd           | change in total energy                                                                                           |       |     |       | $\Delta E_\mathrm{total}$ |
-| tbd           | total Gibbs free energy change                                                             |       |$n\Delta G$ or $\Delta G^t$|       | $\Delta G$                |
-| tbd           | total enthalpy change                                                                   |$\Delta H$|$n\Delta H$ or $\Delta H^t$|       | $\Delta H$                |
-| tbd           | specific or molar enthalpy change                                                                   |$\Delta\hat{H}$|$\Delta H$|       |                           |
-| tbd           | total entropy change                                                                    |$\Delta S$|$n\Delta S$ or $\Delta S^t$|       | $\Delta S$                |
-| tbd           | specific or molar entropy change                                                                    |$\Delta\hat{S}$|$\Delta S$|       |                           |
-| tbd           | deviation from equilibrium conditions                                                                            |       |     |       | $\Delta \xi^*$            |
-| tbd           | rate of dissipation of turbulent energy                                                                          |       |     |       | $\epsilon$                |
-| tbd           | bed porosity                                                                                                     |       |     |       | $\epsilon_B$              |
-| tbd           | relative kinetic energy directed along the line of centers in a collision                                        |       |     |       | $\epsilon_c$              |
-| tbd           | porosity of pellet or particle                                                                                   |       |     |       | $\epsilon_p$              |
-| tbd           | total porosity of packed bed                                                                                     |       |     |       | $\epsilon_\mathrm{total}$ |
-| tbd           | catalyst effectiveness factor                                                                                    |       |     |       | $\eta$                    |
-| tbd           | fraction of catalyst surface covered by species i                                                                |       |     |       | $\theta_i$                |
-| tbd           | fraction of surface sites that are vacant                                                                        |       |     |       | $\theta_v$                |
-| tbd           | conductivity                                                                                                     |       |     |       | $\kappa$                  |
-| tbd           | ratio of rate constants for consecutive reactions                                                                |       |     |       | $\kappa$                  |
-| tbd           | generalized physical property                                                                                    |       |     |       | $\lambda$                 |
-| tbd           | mean free path                                                                                                   |       |     |       | $\lambda$                 |
-| tbd           | Kolmogorov number                                                                                                |       |     |       | $\lambda$                 |
-| tbd           | specific growth rate                                                                                             |       |     |       | $\mu$                     |
-| tbd           | viscosity                                                                                                        |       |     |       | $\mu$                     |
-| tbd           | ionic strength                                                                                                   |       |     |       | $\mu$                     |
-| tbd           | chemical potential of species i                                                                                  |       |     |       | $\mu_i$                   |
-| tbd           | reduced mass                                                                                                     |       |     |       | $\mu_\mathrm{AB}$         |
-| tbd           | maximum specific growth rate                                                                                     |       |     |       | $\mu_\mathrm{max}$        |
-| tbd           | net specific growth rate                                                                                         |       |     |       | $\mu_\mathrm{net}$        |
-| tbd           | specific rate of replication                                                                                     |       |     |       | $\mu_R$                   |
-| tbd           | kinematic viscosity                                                                                              |       |     |       | $\nu$                     |
-| tbd           | stoichiometric coefficient for species $\mathrm{A}$                                          |$\nu_\mathrm{A}$|$\nu_\mathrm{A}$|       | $\nu_\mathrm{A}$          |
-| tbd           | stoichiometric coefficient for species $i$                                                                     |$\nu_i$|$\nu_i$|       | $\nu_i$                   |
-| tbd           | extent of reaction                                                                                          | $\xi$ |$\epsilon$|       | $\xi$                     |
-| tbd           | extent of reaction rate                                                                              | $\dot{\xi}$ |$\dot{\epsilon}$|       |                      |
-| tbd           | extent of reaction per unit volume in constant-volume systems                                                    |       |     |       | $\xi^*$                   |
-| tbd           | product of the $i$ terms that follow                                                                             |       |     |       | $\displaystyle\prod_i$    |
-| tbd           | density                                                                                                          |$\rho$|$\rho$|       | $\rho$                    |
-| tbd           | bulk density of catalyst                                                                                         |       |     |       | $\rho_B$                  |
-| tbd           | Hammett reaction constant                                                                                        |       |     |       | $\rho_i$                  |
-| tbd           | surface site                                                                                                     |       |     |       | $\sigma$                  |
-| tbd           | emissivity of solid                                                                                              |       |     |       | $\sigma$                  |
-| tbd           | hard-sphere diameter for molecule $i$                                                                            |       |     |       | $\sigma_i$                |
-| tbd           | Hammett substituent constant                                                                                     |       |     |       | $\sigma_i$                |
-| tbd           | effective hard-sphere diameter for bimolecular collision                                                         |       |     |       | $\sigma_\mathrm{AB}$      |
-| tbd           | variance of residence-time distribution curve                                                                    |       |     |       | $\sigma^2$                |
-| tbd           | sum of the $i$ terms that follow                                                                                 |       |     |       | $\displaystyle\sum_i$     |
-| tbd           | reactor space time                                                                                               |       |     |       | $\tau$                         |
-| tbd           | space time for a cascade of CSTR reactors                                                                        |       |     |       | τc                        |
-| tbd           | space time for reactor i                                                                                         |       |     |       | $\tau_i$                        |
-| tbd           | proportionality constant associated with deviation of the Hammett equation                                       |       |     |       | τN                        |
-| tbd           | space time for a plug flow reactor                                                                               |       |     |       | τp                        |
-| tbd           | reaction half-life                                                                                               |       |     |       | $\tau_{1/2}$                      |
-| tbd           | tortuosity factor                                                                                                |       |     |       | τ′                        |
-| tbd           | dimensionless time variable for competitive consecutive reactions                                                |       |     |       | τ\*                       |
-| tbd           | parameter used in analysis of the activated sludge process                                                       |       |     |       | φ                         |
-| tbd           | concentration-dependent portion of reaction rate expression                                                      |       |     |       | φ(Ci)                     |
-| tbd           | Thiele modulus for an infinite flat plate catalyst                                                               |       |     |       | φLn                       |
+| $\alpha$      | Soave–Redlich–Kwong equation of state parameter, $\alpha =  [1+(0.48508+1.55171\omega-0.1561 \omega^2)(1+\sqrt{T_\mathrm{r}})]$|$\alpha$|$\alpha$|      |          |
+| $\alpha$      | area covered per molecule adsorbed                                                                               |       |     |       | $\alpha$                  |
+| $\beta$       | energy conversion function used in determination of the effectiveness factor for a nonisothermal catalyst pellet |       |     |       | $\beta$                   |
+| $\beta$       | volume expansivity
+| $\gamma$      | activity coefficient                                                                                             |       |     |       | $\gamma$                  |
+| $\gamma$      | ratio of heat capacities, $\gamma \equiv C_p/C_v$                                                                |       |$\gamma$| $k$|                           |
+| $\gamma_i$    | activity coefficient of species $i$ in solution
+| $\delta$      | volumetric expansion parameter                                                                                   |       |     |       | $\delta_\mathrm{A}$       |
+| $\Delta$      | difference, e.g., $out-in$ or $final-initial$                                                                    |$\Delta$|$\Delta$|$\Delta$| $\Delta$             |
+| $\epsilon_B$  | bed porosity                                                                                                     |       |     |       | $\epsilon_B$              |
+| $\epsilon_p$  | porosity of pellet or particle                                                                                   |       |     |       | $\epsilon_p$              |
+|$\epsilon_\mathrm{total}$| total porosity of packed bed                                                                           |       |     |       | $\epsilon_\mathrm{total}$ |
+| $\epsilon$    | emissivity of solid                                                                                              |       |     |       | $\epsilon$                |
+| $\eta$        | catalyst effectiveness factor                                                                                    |       |     |       | $\eta$                    |
+| $\eta$        | thermal efficiency
+| $\theta_i$    | fraction of catalyst surface covered by species i                                                                |       |     |       | $\theta_i$                |
+| $\theta_v$    | fraction of surface sites that are vacant                                                                        |       |     |       | $\theta_v$                |
+| $\lambda$     | mean free path                                                                                                   |       |     |       | $\lambda$                 |
+| $\mu$         | true mean or population mean  (statistics)                                                                       |       |     |       |                           |
+| $\mu$         | dynamic viscosity, e.g, $\mathrm{Pa}\cdot\mathrm{s}$                                                              |       |     |       | $\mu$                     |
+| $\mu_i$       | chemical potential of species $i$                                                                                  |       |     |       | $\mu_i$                   |
+| $\nu$         | kinematic viscosity, e.g., $\mathrm{m^2/s}$                                                                      |       |     |       | $\nu$                     |
+|$\nu_\mathrm{A}$| stoichiometric coefficient for species $\mathrm{A}$, e.g., $\nu_{\mathrm{CO_2}}$                                   |$\nu_\mathrm{A}$|$\nu_\mathrm{A}$|       | $\nu_\mathrm{A}$          |
+| $\nu_i$       | stoichiometric coefficient for unspecified species $i$                                                         |$\nu_i$|$\nu_i$|       | $\nu_i$                   |
+| $\xi$         | extent of reaction, reaction coordinate                                                                     | $\xi$ |$\epsilon$|       | $\xi$                     |
+| $\dot{\xi}$   | extent of reaction rate                                                                              | $\dot{\xi}$ |$\dot{\epsilon}$|       |                      |
+|$\displaystyle\prod_i$| product of the $i$ terms that follow                                                                      |       |     |       | $\displaystyle\prod_i$    |
+| $\rho$        | density                                                                                                          |$\rho$|$\rho$|       | $\rho$                    |
+| $\rho_B$      | bulk density of catalyst                                                                                         |       |     |       | $\rho_B$                  |
+| $\sigma$      | true or population standard deviation (statistics)                                                                           |       |     |       |                           |
+| $\sigma^2$    | true or population variance (statistics)
+| $\sigma$      | surface tension                                                                                                  |       |$\sigma|     |                           |
+| $\sigma$      | surface site                                                                                                     |       |     |       | $\sigma$                  |
+| $\sigma^2$    | variance of residence-time distribution curve                                                                    |       |     |       | $\sigma^2$                |
+| $\Pi$         | number of equilibrium phases                                                                                     | $\Pi$ |$\pi$|       |                           |
+|$\displaystyle\sum_i$| sum of the $i$ terms that follow                                                                           |       |     |       | $\displaystyle\sum_i$     |
+| $\tau$        | reactor space time                                                                                               |       |     |       | $\tau$                    |
+| $\tau_i$      | space time for reactor $i$                                                                                       |       |     |       | $\tau_i$                  |
+| $\tau_{1/2}$  | reaction half-life                                                                                               |       |     |       | $\tau_{1/2}$              |
+| $\tau'$       | tortuosity factor                                                                                                |       |     |       | τ′                        |
+| $\phi_i$      | fugacity coefficient for species $i$                                                                             |       |$\hat{\phi}_i$|| $(f/P)_i$               |
+|$\hat{\phi}_i$ | fugacity coefficient for species $i$ in solution                                                                 |       |$\phi_i$|    | $(f/P)_i$                 |
+|$\phi^0,\ \phi^1$ | generalized compressibiliity-factor correlation functions                                                     | |$\phi^0,\ \phi^1$| |   |                       |
+| $\phi_Ln$     | Thiele modulus for an infinite flat plate catalyst, $n$th order reaction                                         |       |     |       |                           |
+| $\phi_Sn$     | Thiele modulus for a spherical catalyst, $n$th order reaction
+| $\omega$      | Pitzer acentric factor                                                                                           |$\omega$|$\omega$|   |                           |
 
 : {.bordered .striped .hover}
+
 
 # Subscripts
 
 | Chosen Symbol | Description                                                                                        | F & R | SVN | Ç & B | H & R         |
 |---------------|----------------------------------------------------------------------------------------------------|-------|-----|-------|---------------|
-| tbd           | generalized chemical species A                                                                     |       |     |       | A             |
-| tbd           | associated with a batch reactor                                                                    |       |     |       | batch         |
+| $\mathrm{A}$  | generalized chemical species A                                                                     |       |     |       | A             |
+|$\mathrm{batch}$| associated with a batch reactor                                                                    |       |     |       | batch         |
 | tbd           | bulk fluid property                                                                                |       |     |       | B             |
 | tbd           | associated with the growth cycle of a microorganism                                                |       |     |       | cycle         |
 | tbd           | associated with cell death                                                                         |       |     |       | d             |
@@ -337,13 +308,13 @@ This page is to test web versions of the nomenclature or variable names for the 
 | tbd           | effective                                                                                          |       |     |       | eff           |
 | tbd           | effluent stream property or equilibrium property                                                   |       |     |       | E             |
 | tbd           | external surface of catalyst pellet                                                                |       |     |       | ES            |
-| tbd           | refers to reactions involving formation of a compound from its elements                            |       |     |       | f             |
-| tbd           | refers to forward reaction                                                                         |       |     |       | f             |
+| $f$           | refers to reactions involving formation of a compound from its elements                            |       |     |       | f             |
+| $f$           | refers to forward reaction                                                                         |       |     |       | f             |
 | tbd           | property evaluated at final or effluent conditions                                                 |       |     |       | F             |
 | tbd           | fed batch                                                                                          |       |     |       | FB            |
 | tbd           | gas phase                                                                                          |       |     |       | g             |
 | tbd           | refers to species i, reaction i, or reactor i in a CSTR network                                    |       |     |       | i             |
-| tbd           | refers to inlet stream property                                                                    |       |     |       | in            |
+| $\mathrm{in}$ | refers to inlet stream property                                                                    |       |     |       | in            |
 | tbd           | liquid phase                                                                                       |       |     |       | l             |
 | tbd           | lag time for growth of microorganism                                                               |       |     |       | lag           |
 | tbd           | refers to limiting reagent                                                                         |       |     |       | lim           |
@@ -354,7 +325,7 @@ This page is to test web versions of the nomenclature or variable names for the 
 | tbd           | property value leaving reactor n                                                                   |       |     |       | n             |
 | tbd           | net specific biomass growth rate associated with the logistic model                                |       |     |       | net           |
 | tbd           | associated with the times during the production cycle when a biochemical reaction is not occurring |       |     |       | nonproductive |
-| tbd           | refers to outlet stream property                                                                   |       |     |       | out           |
+| $\mathrm{out}$| refers to outlet stream property                                                                   |       |     |       | out           |
 | tbd           | pellet or particle value                                                                           |       |     |       | p             |
 | tbd           | pseudo equilibrium                                                                                 |       |     |       | PE            |
 | tbd           | reverse reaction                                                                                   |       |     |       | r             |
@@ -386,5 +357,158 @@ This page is to test web versions of the nomenclature or variable names for the 
 | tbd           | variable is expressed per unit volume of solid catalyst          |       |     |       | ″′    |
 | tbd           | refers to variable associated with transition state              |       |     |       | ‡     |
 | tbd           | average value of property                                        |       |     |       | ˆ     |
+
+: {.bordered .striped .hover}
+
+# Other Diacritical marks
+
+| Chosen Symbol | Description                                                      | F & R | SVN | Ç & B | H & R |
+|---------------|------------------------------------------------------------------|-------|-----|-------|-------|
+| $\bar{ }$     | average or arithmetic mean (statistics)                                      |       |     |       | 0     |
+| $\bar{ }$     | partial molar quantity                                           |       |     |       | 0     |
+| $\hat{ }$     | specific or molar quantity, e.g., $\hat{V} = V/n$                |       |     |       | ″     |
+| $\hat{ }$     | property in solution, e.g., $\hat{\phi}_i =$ fugacity coefficient of species $i$ in solution          |       |     |       | ″′    |
+| $\dot{ }$     | rate or 1st derivative w.r.t. time, e.g., $\dot{m} =$ mass flow rate or $dm/dt$              |       |     |       | ‡     |
+| $\langle\ \rangle$ | average value of property                                        |       |     |       | ˆ     |
+
+: {.bordered .striped .hover}
+
+# Not Referenced Symbols
+
+| Chosen Symbol | Description                                                      | F & R | SVN | Ç & B | H & R |
+|---------------|------------------------------------------------------------------|-------|-----|-------|-------|
+| tbd                  | external (superficial) surface area                                                                                         |             |     |       | $a$                         |
+| tbd                  | cell growth coefficients                                                                                                    |             |     |       | $a,\ a',\ a''$              |
+| tbd                  | gas–liquid interfacial area per unit volume of liquid                                                                       |             |     |       | $a_V$                       |
+| tbd                  | hypothetical concentration of gas in the liquid phase                                                                       |             |     |       | $C^*_l$                     |
+| tbd                  | reactant concentration at time zero in a CSTR operating under transient conditions                                          |             |     |       | $C^*$                       |
+| tbd                  | dispersion or diffusivity parameter                                                                                         |             |     |       | $\mathscr{D}$               |
+| tbd                  | pseudo-binary diffusivity of species A in a multicomponent gas mixture                                                      |             |     |       | $\mathscr{D}_{\mathrm{A}m}$ |
+| tbd                  | relative kinetic energy directed along the line of centers in a collision (on a per mole basis)                             |             |     |       | $E_c$                       |
+| tbd                  | energy increase accompanying reaction at absolute zero                                                                      |             |     |       | $E_0$                       |
+| tbd                  | initial enzyme concentration                                                                                                |             |     |       | $E_0$                       |
+| tbd           | parameter used in analysis of the activated sludge process                                                       |       |     |       | φ                         |
+| tbd           | concentration-dependent portion of reaction rate expression                                                      |       |     |       | φ(Ci)                     |
+| tbd                  | molal flow rate                                                                                                             |             |     |       | $F$                         |
+| tbd                  | hypothetical molal flow rate of species A corresponding to a stream in which none of the A has reacted                      |             |     |       | $F′_\mathrm{A}$             |
+| tbd                  | cumulative residence time distribution function                                                                             |             |     |       | $F(t)$                      |
+| tbd                  | ratio of reaction rate for poisoned catalyst to that for unpoisoned catalyst                                                |             |     |       | $\mathscr{F}$               |
+| tbd                  | gas phase                                                                                                                   |             |     |       | g                           |
+| tbd                  | mass velocity                                                                                                               |             |     |       | $G$                         |
+| tbd                  | Thiele modulus for poisoned catalyst                                                                                        |             |     |       | $h_p$                       |
+| tbd                  | Chilton–Colburn factor for mass transfer                                                                                    |             |     |       | $j_D$                       |
+| tbd                  | Chilton–Colburn factor for heat transfer                                                                                    |             |     |       | $j_H$                       |
+| tbd                  | Molar flux of species $i$ relative to the molar average velocity                                                            |             |     |       | $J_i$                       |
+| tbd                  | pseudo first-order rate constant for cell death                                                                             |             |     |       | $k_d$                       |
+| tbd                  | pseudo first-order rate constant for endogenous metabolism                                                                  |             |     |       | $k_{em}$                    |
+| tbd                  | rate constant for acid-catalyzed reaction                                                                                   |             |     |       | $k_\mathrm{H^+}$            |
+| tbd                  | rate constant in infinitely dilute solution or for uncatalyzed reaction                                                     |             |     |       | $k_0$                       |
+| tbd                  | rate constant for base-catalyzed reaction                                                                                   |             |     |       | $k_\mathrm{OH^-}$           |
+| tbd                  | pseudo rate constant for desorption                                                                                         |             |     |       | $k'$                        |
+| tbd                  | half-saturation constant                                                                                                    |             |     |       | $K_S$                       |
+| tbd                  | dissociation constant for water                                                                                             |             |     |       | $K_w$                       |
+| tbd                  | liquid phase                                                                                                                |             |     |       | l                           |
+| tbd                  | parameter involved in definition of termolecular collisions                                                                 |             |     |       | $l$                         |
+| tbd                  | maintenance coefficient for cell                                                                                            |             |     |       | $m_S$                       |
+| tbd                  | mass of tracer injected as a pulse stimulus                                                                                 |             |     |       | $m_T$                       |
+| tbd                  | number of cells                                                                                                             |             |     |       | $n$                         |
+| tbd                  | number of possible adsorption layers                                                                                        |             |     |       | $n$                         |
+| tbd                  | number of viable cells at the time the death phase of the cell growth cycle begins                                          |             |     |       | $n^*$                       |
+| tbd                  | number density of molecules of species i                                                                                    |             |     |       | $n'_i$                      |
+| tbd                  | number of pores per catalyst particle                                                                                       |             |     |       | $n_p$                       |
+| tbd                  | number of cells in the inoculum                                                                                             |             |     |       | $n_0$                       |
+| tbd                  | number of cells at the start of the exponential growth phase of the cell growth cycle                                       |             |     |       | $n^*_0$                     |
+| tbd                  | steric probability factor                                                                                                   |             |     |       | $P_S$                       |
+| tbd                  | productivity                                                                                                                |             |     |       | $\mathscr{P}$               |
+| tbd                  | parameter representing the combined effects of static pressure and gravitational force                                      |             |     |       | $\mathscr{P}$               |
+| tbd                  | thermal conductivity of bulk fluid                                                                                          |             |     |       | $k_f$                       |
+| tbd                  | mass transfer coefficient for the gas phase                                                                                 |             |     |       | $k_g$                       |
+| tbd                  | mass transfer coefficient defined                                                                                           |             |     |       | $k_G$                       |
+| tbd                  | mass transfer coefficient for the liquid phase                                                                              |             |     |       | $k_l$                       |
+| tbd                  | maintenance coefficient                                                                                                     |             |     |       | $k_m$                       |
+| tbd                  | mass transfer coefficient                                                                                                   |             |     |       | $k_m$                       |
+| tbd                  | equilibrium constant for reaction expressed in terms of activities                                                          |             |     |       | $K_a$                       |
+| tbd                  | overall liquid phase mass transfer coefficient                                                                              |             |     |       | $K_l$                       |
+| tbd                  | number of CSTR reactors in cascade                                                                                          |             |     |       | $N$                         |
+| tbd                  | number of moles of species A at the start of a batch reaction                                                               |             |     |       | $N_{\mathrm{A}0}$           |
+| tbd                  | number of moles of species $i$ contained within a reactor                                                                   |             |     |       | $N_i$                       |
+| tbd                  | diffusive flux in radial direction                                                                                          |             |     |       | $N_r$                       |
+| tbd                  | transfer function variable                                                                                                  |             |     |       | $p$                         |
+| tbd                  | number of stirred-tank reactors in a cascade                                                                                |             |     |       | $n$                         |
+| tbd                  | heat evolved in Semenov's correlation of activation energies and the exothermicity of reactions of small atoms and radicals |             |     |       | $q$                         |
+| tbd                  | heat flux                                                                                                                   |             |     |       | $q$                         |
+| tbd                  | heat transfer rate                                                                                                          |             |     |       | $q$                         |
+| tbd                  | biomass specific q-rate                                                                                                     |             |     |       | $q_S$                       |
+| tbd                  | partition function                                                                                                          |             |     |       | $Q$                         |
+| tbd                  | rate of disappearance of species A in CSTR $i$                                                                              |             |     |       | $−r_{\mathrm{A}i}$          |
+| tbd                  | biomass specific growth rate for species i                                                                                  |             |     |       | $r_{ix}$                    |
+| tbd                  | rate of disappearance of substrate per unit of biomass                                                                      |             |     |       | $−r_{S,m}$                  |
+| tbd                  | rate of disappearance of substrate per unit of biomass evaluated at the effluent conditions                                 |             |     |       | $−r_{S,\mathrm{out}}$       |
+| tbd                  | reaction rate employed in pseudo homogeneous models of packed-bed reactors                                                  |             |     |       | $r_v$                       |
+| tbd                  | reaction rate in a constant volume system                                                                                   |             |     |       | $r_v$                       |
+| tbd                  | interatomic separation distance between atoms $X$ and $Y$                                                                   |             |     |       | $r_{xy}$                    |
+| tbd                  | rate of production of X per unit of biomass                                                                                 |             |     |       | $r_X$                       |
+| tbd                  | lag time associated with the growth cycle for microorganisms                                                                |             |     |       | $t_\mathrm{lag}$            |
+| tbd                  | shutdown time in batch reactor                                                                                              |             |     |       | $t_s$                       |
+| tbd                  | time elapsed since the start of the stationary phase                                                                        |             |     |       | $t_\mathrm{SP}$             |
+| tbd                  | radius                                                                                                                      |             |     |       | $R$                         |
+| tbd                  | total rate of consumption of limiting substrate                                                                             |             |     |       | $-\mathscr{R}_S$            |
+| tbd                  | total rate of production of biomass                                                                                         |             |     |       | $\mathscr{R}_X$             |
+| tbd                  | concentration of limiting substrate                                                                                         |             |     |       | $s$                         |
+| tbd                  | number of squared terms contributing to the activation energy of a reaction                                                 |             |     |       | $S$                         |
+| tbd                  | instantaneous yield coefficient in a biochemical reaction                                                                   |             |     |       | $y_{X/S}$                   |
+| tbd                  | bimolecular collision frequency for molecules A and B                                                                       |             |     |       | $Z_\mathrm{AB}$             |
+| tbd                  | termolecular collision frequency                                                                                            |             |     |       | $Z_\mathrm{ABC}$            |
+| tbd                  | number (and sign) of charges on ion I                                                                                       |             |     |       | $Z_i$                       |
+| tbd                  | total quantity of limiting substrate                                                                                        |             |     |       | $S$                         |
+| tbd                  | relaxation time                                                                                                             |             |     |       | $t^*$                       |
+| tbd                  | time corresponding to the end of the acceleration phase of the cell growth cycle                                            |             |     |       | $t^*$                       |
+| tbd                  | time at which the death phase of the cell growth cycle begins                                                               |             |     |       | $t^*_{d0}$                  |
+| tbd                  | ratio of reactor length to average linear velocity                                                                          |             |     |       | $\bar{t}^*$                 |
+| tbd                  | concentration of biomass                                                                                                    |             |     |       | $x$                         |
+| tbd                  | temperature at center of catalyst pellet or critical temperature                                                            |             |     |       | $T_C$                       |
+| tbd                  | temperature of heat source or sink                                                                                          |             |     |       | $T_m$                       |
+| tbd                  | average molecular velocity                                                                                                  |             |     |       | $\bar{v}$                   |
+| tbd                  | velocity with which activated complexes move from left to right across the transition state                                 |             |     |       | $\vec{v}^\ddagger$          |
+| tbd                  | velocity of an enzymatic reaction                                                                                           |             |     |       | $V$                         |
+| tbd                  | volumetric flow rate at inlet of reactor network                                                                            |             |     |       | $\mathscr{V}_0$             |
+| tbd                  | weight fraction                                                                                                             |             |     |       | $w$                         |
+| tbd                  | normalized pressure ($P/P_0$)                                                                                               |             |     |       | $x$                         |
+| tbd                  | total mass of live cells                                                                                                    |             |     |       | $X$                         |
+| tbd                  | total mass of live cells when the biochemical reaction ceases                                                               |             |     |       | $X_F$                       |
+| tbd                  | mass of live cells at the start of the stationary phase                                                                     |             |     |       | $X_{\mathrm{S}_0}$          |
+| tbd                  | mass of cells at infinite time in the logistic model                                                                        |             |     |       | $X_\infty$                  |
+| tbd           | branching coefficient in chain reaction mechanism                                                                |       |     |       | $\alpha$                  |
+| tbd           | coefficient in Luedeking–Piret equation                                                                          |       |     |       | $\alpha$                  |
+| tbd           | dimensionless concentration variable                                                                             |       |     |       | $\alpha$                  |
+| tbd           | fraction of catalyst surface that is poisoned                                                                    |       |     |       | $\alpha$                  |
+| tbd           | dimensionless concentration variable for competitive consecutive reactions \[defined by equation (5.4.18)\]      |       |     |       | $\beta$                   |
+| tbd           | coefficient in Luedeking–Piret equation                                                                          |       |     |       | $\beta$                   |
+| tbd           | order of the reaction with respect to species i                                                                  |       |     |       | $\beta_i$                 |
+| tbd           | Arrhenius number                                                                                                 |       |     |       | $\gamma$                  |
+| tbd           | reaction progress variable for consecutive reactions                                                             |       |     |       | $\delta^*$                |
+| tbd           | characteristic length dimension of the transition state                                                          |       |     |       | $\delta^\neq$             |
+| tbd           | time separating rate measurements                                                                                |       |     |       | $\Delta$                  |
+| tbd           | deviation from equilibrium conditions                                                                            |       |     |       | $\Delta \xi^*$            |
+| tbd           | rate of dissipation of turbulent energy                                                                          |       |     |       | $\epsilon$                |
+| tbd           | relative kinetic energy directed along the line of centers in a collision                                        |       |     |       | $\epsilon_c$              |
+| tbd           | ratio of rate constants for consecutive reactions                                                                |       |     |       | $\kappa$                  |
+| tbd           | generalized physical property                                                                                    |       |     |       | $\lambda$                 |
+| tbd           | Kolmogorov number                                                                                                |       |     |       | $\lambda$                 |
+| tbd           | specific growth rate                                                                                             |       |     |       | $\mu$                     |
+| tbd           | ionic strength                                                                                                   |       |     |       | $\mu$                     |
+| tbd           | reduced mass                                                                                                     |       |     |       | $\mu_\mathrm{AB}$         |
+| tbd           | maximum specific growth rate                                                                                     |       |     |       | $\mu_\mathrm{max}$        |
+| tbd           | net specific growth rate                                                                                         |       |     |       | $\mu_\mathrm{net}$        |
+| tbd           | specific rate of replication                                                                                     |       |     |       | $\mu_R$                   |
+| tbd           | extent of reaction per unit volume in constant-volume systems                                                    |       |     |       | $\xi^*$                   |
+| tbd           | Hammett reaction constant                                                                                        |       |     |       | $\rho_i$                  |
+| tbd           | hard-sphere diameter for molecule $i$                                                                            |       |     |       | $\sigma_i$                |
+| tbd           | Hammett substituent constant                                                                                     |       |     |       | $\sigma_i$                |
+| tbd           | effective hard-sphere diameter for bimolecular collision                                                         |       |     |       | $\sigma_\mathrm{AB}$      |
+| tbd           | space time for a cascade of CSTR reactors                                                                        |       |     |       | τc                        |
+| tbd           | proportionality constant associated with deviation of the Hammett equation                                       |       |     |       | τN                        |
+| tbd           | space time for a plug flow reactor                                                                               |       |     |       | τp                        |
+| tbd           | dimensionless time variable for competitive consecutive reactions                                                |       |     |       | τ\*                       |
 
 : {.bordered .striped .hover}
