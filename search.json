@@ -7,11 +7,46 @@
     "text": "Intro to advanced phase equilibria calculations"
   },
   {
-    "objectID": "basics/calculations/CalculationsWebPage.html",
-    "href": "basics/calculations/CalculationsWebPage.html",
-    "title": "Engineering Calculations",
-    "section": "",
-    "text": "Why Engineering Calculations"
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#definition",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#definition",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Definition",
+    "text": "Definition\n\nThe mass equivalent of the molar mass of a molecule\nThe molar mass of \\(\\mathrm{CO_2}\\) is \\(44.010\\ \\frac{\\mathrm{g}}{\\mathrm{mol}}\\) or \\(44.010\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\), etc.\n15 mass units on N.I.S.T website\nMost common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{tonne-mol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#using-a-mole",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#using-a-mole",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Using a Mole",
+    "text": "Using a Mole\n\nStart with a balanced chemical equation.\n\\[\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}\\]\nMolar Mass of \\(\\mathrm{CO_2}\\) is \\(44.009546\\) which rounds to \\(44.010\\).\nTo make \\(100\\ \\mathrm{lb_m}\\) of \\(\\mathrm{CO_2}\\)\n\n\\(100\\ \\mathrm{lb_m\\ CO_2} / 44.010\\ \\frac{\\mathrm{lb_m\\ CO_2}}{\\text{lb-mol}} = 2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{CO_2}\\)\nNeed \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{C}\\) and \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{O_2}\\).\n\\(2.272\\ \\text{lb-mol C} \\cdot 12.011\\ \\frac{\\mathrm{lb_m\\ C}}{\\text{lb-mol}} = 27.29  \\mathrm{lb_m\\ C}\\)\n\\(2.272\\ \\text{lb-mol 0}_2 \\cdot 31.999\\ \\frac{\\mathrm{lb_m\\ O}_2}{\\text{lb-mol}} = 72.70  \\mathrm{lb_m\\ O}_2\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#avogadros-number",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#avogadros-number",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Avogadro’s Number",
+    "text": "Avogadro’s Number\n\n\\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\mathrm{mol}}\\) or \\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\text{g-mol}}\\)\n\\(1.327 654 687 336 \\times 10^{27}\\ \\frac{\\mathrm{molecules}}{\\text{lb-mol}}\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Use the Correct Moles",
+    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using gram moles incorrectly.\n\nStart with mass in units other than grams.\n\nConvert to grams.\nConvert to gram-moles.\nUse balanced chemical equation to solve for the other species in gram-moles.\nConvert the other species’ gram-moles to grams.\nConvert the grams to the starting mass species.\n\nRequires five steps."
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles-1",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles-1",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Use the Correct Moles",
+    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using moles.\n\nStart with mass in units other than grams.\n\nConvert to the mass unit’s moles.\nUse balanced chemical equation to solve for the other species in the mass unit’s moles.\nConvert the other species’ moles to mass units.\n\n\nRequires three steps instead of five.\n40% fewer places to make mistakes."
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#the-summary",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#the-summary",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "The Summary",
+    "text": "The Summary\n\nDifferent types of moles are for different types of mass units.\nThe molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.\nUse gram moles for problems in grams. Use pound-moles for problems in pounds, etc."
   },
   {
     "objectID": "basics/processdata/WhatIsAMoleWebPage.html",
@@ -91,39 +126,53 @@
     "text": "Introduction and List of Topics"
   },
   {
-    "objectID": "appx/Nomenclature.html",
-    "href": "appx/Nomenclature.html",
-    "title": "List of Nomenclature",
+    "objectID": "basics/stats/StatsMeasurementsWebPage.html",
+    "href": "basics/stats/StatsMeasurementsWebPage.html",
+    "title": "Statistics and Measurements",
     "section": "",
-    "text": "This page is to test web versions of the nomenclature or variable names for the videos and the website."
+    "text": "Why Statistics and Measurements"
   },
   {
-    "objectID": "appx/Nomenclature.html#footnotes",
-    "href": "appx/Nomenclature.html#footnotes",
-    "title": "List of Nomenclature",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nElementary Principles of Chemical Processes, 4th Edition, Richard M. Felder, Ronald W. Rousseau, Lisa G. Bullard, ISBN: 978-1-119-19210-7, December 2018↩︎\nIntroduction to Chemical Engineering Thermodynamics, 9th Edition, Hendrick Van Ness, Michael Abbott, J.M. Smith, Mark Swihart, 2022, ISBN10: 1260721477 | ISBN13: 9781260721478↩︎\nThermodynamics: An Engineering Approach Edition: 9th, Yunus Çengel, Michael Boles, 2019, ISBN10:1260920445↩︎\nIntroduction to Chemical Engineering Kinetics & Reactor Design, 2nd Ed. Hill & Root, Wiley. ISBN: 978-1-118-36825-1↩︎\nFor example, \\(C_p= a + bt + cT^2 + dT^3\\) where \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are empirical constants.↩︎\nThere are two common friction factors in use. Mechanical Engineers tend to use the Moody friction factor, also known as the Darcy or Blasius friction factor. Chemical Engineers tend to use the Fanning friction factor. \\(f_\\mathrm{Fanning} = f_\\mathrm{Moody}/4\\). Be sure to identify which friction factor your tables, charts, and equations use.↩︎\nThere are subtle distictions between molar mass, molecular mass, and molecular weight. For a fairly full discussion read Wikipedia: Molar mass↩︎\n\\(S\\) is normally used when referring to the total surface area of a catalyst pellet or porous solid. \\(A\\) is normally used for other surface areas, such as a sphere, tube, or reactor.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎"
+    "objectID": "appx/index.html",
+    "href": "appx/index.html",
+    "title": "Appendices",
+    "section": "",
+    "text": "There are the following appendices:\n\nAppendix A – Nomenclature\nA list of nomenclature\n\n\nAppendix B\nAppendix B\n\n\nAppendix C\nAppendix C"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Chemical and Thermal Processes",
+    "objectID": "react/index.html",
+    "href": "react/index.html",
+    "title": "Chemical Kinetics and Reactors",
     "section": "",
-    "text": "Chemical and Thermal Processes starts with the basics of stoichiometry and thermodynamics as covered in many Introduction to Chemical Engineering courses. It continues with topics typically covered in an advanced Engineering Thermodynamics course and in a Chemical Reactor Engineering course. The material is labeled as to whether it is introductory (Sophomore level), intermediate (Junior level) or advanced (Senior level).\n\n\n\nEngineering Basics\n\nStatistics, Measurements, and Calculations\nProcess Data and Variables, such as Pressure, Temperature, Mass, Moles, etc.\nConverting among systems of units\nDimensionless numbers\n\nSystem Definition\n\nOpen or Closed\nTransient or Steady State\n\nMaterial Balances\n\nMass Balances\nMole Balances\nEquations of State and Phase Equilibria\n\nEnergy Balances or the 1st Law of Thermodynamics\nEntropy Balances or the 2nd Law of Thermodynamics\nThermodynamic Efficiency and the Combined 1st and 2nd Laws\n\n\n\n\nThe principles in Chemical and Thermal Processes are applicable in\n\nChemical Engineering\nPetroleum Engineering\nMechanical Engineering\nMaterials Engineering\nBioengineering\nEnvironmental Engineering\nEnergy Engineering\nSustainability\nManufacturing Engineering\nIndustrial Engineering\nMarine and Aerospace Engineering"
+    "text": "More in depth study of chemical reactor engineering"
   },
   {
-    "objectID": "index.html#engineering-principles-discussed",
-    "href": "index.html#engineering-principles-discussed",
-    "title": "Chemical and Thermal Processes",
+    "objectID": "balances/material/index.html",
+    "href": "balances/material/index.html",
+    "title": "Material Balances",
     "section": "",
-    "text": "Engineering Basics\n\nStatistics, Measurements, and Calculations\nProcess Data and Variables, such as Pressure, Temperature, Mass, Moles, etc.\nConverting among systems of units\nDimensionless numbers\n\nSystem Definition\n\nOpen or Closed\nTransient or Steady State\n\nMaterial Balances\n\nMass Balances\nMole Balances\nEquations of State and Phase Equilibria\n\nEnergy Balances or the 1st Law of Thermodynamics\nEntropy Balances or the 2nd Law of Thermodynamics\nThermodynamic Efficiency and the Combined 1st and 2nd Laws"
+    "text": "Intro to Systems and Balances"
   },
   {
-    "objectID": "index.html#why-chemical-and-thermal-processes",
-    "href": "index.html#why-chemical-and-thermal-processes",
-    "title": "Chemical and Thermal Processes",
+    "objectID": "balances/entropy/index.html",
+    "href": "balances/entropy/index.html",
+    "title": "Entropy Balances",
     "section": "",
-    "text": "The principles in Chemical and Thermal Processes are applicable in\n\nChemical Engineering\nPetroleum Engineering\nMechanical Engineering\nMaterials Engineering\nBioengineering\nEnvironmental Engineering\nEnergy Engineering\nSustainability\nManufacturing Engineering\nIndustrial Engineering\nMarine and Aerospace Engineering"
+    "text": "Intro to Systems and Balances"
+  },
+  {
+    "objectID": "balances/exergy/index.html",
+    "href": "balances/exergy/index.html",
+    "title": "Exergy",
+    "section": "",
+    "text": "Intro to Systems and Balances"
+  },
+  {
+    "objectID": "balances/energy/index.html",
+    "href": "balances/energy/index.html",
+    "title": "Energy Balances",
+    "section": "",
+    "text": "The First Law of Thermodynamics and Energy Balances are synonymous.\nHere is the set of videos on the First Law\n\n\n\n\n\n\n\n\n\nThen for reacting systems …"
   },
   {
     "objectID": "balances/general/index.html#first-define-your-system",
@@ -182,53 +231,53 @@
     "text": "Speed Tips\n1. Don’t solve for everything.\n2. Write equations in order of number of unknowns from fewest to most.\n3. Try overall balances first.\n4. Check out tie components.\n5. Remember mole fractions or mass fractions add up to 1.\n6. Usually, solving a recycle loop requires a complete set of equations around the loop."
   },
   {
-    "objectID": "balances/energy/index.html",
-    "href": "balances/energy/index.html",
-    "title": "Energy Balances",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "The First Law of Thermodynamics and Energy Balances are synonymous.\nHere is the set of videos on the First Law\n\n\n\n\n\n\n\n\n\nThen for reacting systems …"
+    "text": "Chemical and Thermal Processes starts with the basics of stoichiometry and thermodynamics as covered in many Introduction to Chemical Engineering courses. It continues with topics typically covered in an advanced Engineering Thermodynamics course and in a Chemical Reactor Engineering course. The material is labeled as to whether it is introductory (Sophomore level), intermediate (Junior level) or advanced (Senior level).\n\n\n\nEngineering Basics\n\nStatistics, Measurements, and Calculations\nProcess Data and Variables, such as Pressure, Temperature, Mass, Moles, etc.\nConverting among systems of units\nDimensionless numbers\n\nSystem Definition\n\nOpen or Closed\nTransient or Steady State\n\nMaterial Balances\n\nMass Balances\nMole Balances\nEquations of State and Phase Equilibria\n\nEnergy Balances or the 1st Law of Thermodynamics\nEntropy Balances or the 2nd Law of Thermodynamics\nThermodynamic Efficiency and the Combined 1st and 2nd Laws\n\n\n\n\nThe principles in Chemical and Thermal Processes are applicable in\n\nChemical Engineering\nPetroleum Engineering\nMechanical Engineering\nMaterials Engineering\nBioengineering\nEnvironmental Engineering\nEnergy Engineering\nSustainability\nManufacturing Engineering\nIndustrial Engineering\nMarine and Aerospace Engineering"
   },
   {
-    "objectID": "balances/exergy/index.html",
-    "href": "balances/exergy/index.html",
-    "title": "Exergy",
+    "objectID": "index.html#engineering-principles-discussed",
+    "href": "index.html#engineering-principles-discussed",
+    "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Intro to Systems and Balances"
+    "text": "Engineering Basics\n\nStatistics, Measurements, and Calculations\nProcess Data and Variables, such as Pressure, Temperature, Mass, Moles, etc.\nConverting among systems of units\nDimensionless numbers\n\nSystem Definition\n\nOpen or Closed\nTransient or Steady State\n\nMaterial Balances\n\nMass Balances\nMole Balances\nEquations of State and Phase Equilibria\n\nEnergy Balances or the 1st Law of Thermodynamics\nEntropy Balances or the 2nd Law of Thermodynamics\nThermodynamic Efficiency and the Combined 1st and 2nd Laws"
   },
   {
-    "objectID": "balances/entropy/index.html",
-    "href": "balances/entropy/index.html",
-    "title": "Entropy Balances",
+    "objectID": "index.html#why-chemical-and-thermal-processes",
+    "href": "index.html#why-chemical-and-thermal-processes",
+    "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Intro to Systems and Balances"
+    "text": "The principles in Chemical and Thermal Processes are applicable in\n\nChemical Engineering\nPetroleum Engineering\nMechanical Engineering\nMaterials Engineering\nBioengineering\nEnvironmental Engineering\nEnergy Engineering\nSustainability\nManufacturing Engineering\nIndustrial Engineering\nMarine and Aerospace Engineering"
   },
   {
-    "objectID": "balances/material/index.html",
-    "href": "balances/material/index.html",
-    "title": "Material Balances",
+    "objectID": "appx/Nomenclature.html",
+    "href": "appx/Nomenclature.html",
+    "title": "List of Nomenclature",
     "section": "",
-    "text": "Intro to Systems and Balances"
+    "text": "This page is to test web versions of the nomenclature or variable names for the videos and the website."
   },
   {
-    "objectID": "react/index.html",
-    "href": "react/index.html",
-    "title": "Chemical Kinetics and Reactors",
-    "section": "",
-    "text": "More in depth study of chemical reactor engineering"
+    "objectID": "appx/Nomenclature.html#footnotes",
+    "href": "appx/Nomenclature.html#footnotes",
+    "title": "List of Nomenclature",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nElementary Principles of Chemical Processes, 4th Edition, Richard M. Felder, Ronald W. Rousseau, Lisa G. Bullard, ISBN: 978-1-119-19210-7, December 2018↩︎\nIntroduction to Chemical Engineering Thermodynamics, 9th Edition, Hendrick Van Ness, Michael Abbott, J.M. Smith, Mark Swihart, 2022, ISBN10: 1260721477 | ISBN13: 9781260721478↩︎\nThermodynamics: An Engineering Approach Edition: 9th, Yunus Çengel, Michael Boles, 2019, ISBN10:1260920445↩︎\nIntroduction to Chemical Engineering Kinetics & Reactor Design, 2nd Ed. Hill & Root, Wiley. ISBN: 978-1-118-36825-1↩︎\nFor example, \\(C_p= a + bt + cT^2 + dT^3\\) where \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are empirical constants.↩︎\nThere are two common friction factors in use. Mechanical Engineers tend to use the Moody friction factor, also known as the Darcy or Blasius friction factor. Chemical Engineers tend to use the Fanning friction factor. \\(f_\\mathrm{Fanning} = f_\\mathrm{Moody}/4\\). Be sure to identify which friction factor your tables, charts, and equations use.↩︎\nThere are subtle distictions between molar mass, molecular mass, and molecular weight. For a fairly full discussion read Wikipedia: Molar mass↩︎\n\\(S\\) is normally used when referring to the total surface area of a catalyst pellet or porous solid. \\(A\\) is normally used for other surface areas, such as a sphere, tube, or reactor.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎"
   },
   {
-    "objectID": "appx/index.html",
-    "href": "appx/index.html",
-    "title": "Appendices",
-    "section": "",
-    "text": "There are the following appendices:\n\nAppendix A – Nomenclature\nA list of nomenclature\n\n\nAppendix B\nAppendix B\n\n\nAppendix C\nAppendix C"
+    "objectID": "basics/stats/WhyStatsJTFVisuals.html#true-mean-standard-deviation",
+    "href": "basics/stats/WhyStatsJTFVisuals.html#true-mean-standard-deviation",
+    "title": "Why Statistics?  Just the Facts",
+    "section": "True Mean & Standard Deviation",
+    "text": "True Mean & Standard Deviation\n\nInfinite Precision Exact Measurement\nFull Population Measurement\nTrue Mean or Population Mean \\(\\equiv \\mu\\)\nTrue Standard Deviation \\(\\equiv \\sigma\\)"
   },
   {
-    "objectID": "basics/stats/StatsMeasurementsWebPage.html",
-    "href": "basics/stats/StatsMeasurementsWebPage.html",
-    "title": "Statistics and Measurements",
-    "section": "",
-    "text": "Why Statistics and Measurements"
+    "objectID": "basics/stats/WhyStatsJTFVisuals.html#sample-mean-standard-deviation",
+    "href": "basics/stats/WhyStatsJTFVisuals.html#sample-mean-standard-deviation",
+    "title": "Why Statistics?  Just the Facts",
+    "section": "Sample Mean & Standard Deviation",
+    "text": "Sample Mean & Standard Deviation\n\nThe set of measurements \\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\) \\[\\bar{x}=\\frac{\\sum_{i=1}^Nx_i}{N}\\approx\\mu\\] Can we calculate the error \\(e_i =\\mu-x_i\\) ? The set of errors \\(\\{e_1,e_2,\\ldots e_N\\}\\) {x1,x2,!xN} N åx x = i=1 i N » μ How do we estimate μ -x ? Calculate the residual ei =x-xi The set of residuals {e1 ,e2 ,!eN }"
   },
   {
     "objectID": "basics/index.html",
@@ -294,59 +343,17 @@
     "text": "The Summary\n\nDifferent types of moles are for different types of mass units.\nThe molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.\nUse gram moles for problems in grams. Use pound-moles for problems in pounds, etc."
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#definition",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#definition",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Definition",
-    "text": "Definition\n\nThe mass equivalent of the molar mass of a molecule\nThe molar mass of \\(\\mathrm{CO_2}\\) is \\(44.010\\ \\frac{\\mathrm{g}}{\\mathrm{mol}}\\) or \\(44.010\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\), etc.\n15 mass units on N.I.S.T website\nMost common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{tonne-mol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)"
+    "objectID": "basics/processdata/WhatIsAMoleTFSCC.html",
+    "href": "basics/processdata/WhatIsAMoleTFSCC.html",
+    "title": "CC Transcript of What Is a Mole? TFS",
+    "section": "",
+    "text": "&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE: I would, uh, eat it!\n&gt;&gt; NARRATOR: What is a mole is an episode of the Degrees of Freedom Project, “The Full Story” videos on chemical and thermal principles. If you want the “Just The Facts” version without the in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.\n&gt;&gt;INTERVIEWER: When we are talking about Chemical Engineering, what is a mole?\n&gt;&gt; INTERVIEWEE1: What is a mole?\n&gt;&gt;INTERVIEWER: Yeah.\n&gt;&gt; INTERVIEWEE1: I have no idea.\n&gt;&gt; INTERVIEWEE2: Uhmmm, I forgot.\n&gt;&gt; INTERVIEWEE3: Like a size, like a use, like a metric, kinda? I forgot the number, it’s like six point six oh eight point zero two two one.\n&gt;&gt; INTERVIEWEE4: Some unit of like how many molecules there are. I guess it could also be an animal, but that’s not really a thing for Chemical Engineering.\n&gt;&gt; INTERVIEWEE5: A mole is a unit of measurement. So the mole is just a number. Uhmm 6.02 times 10 to the 23. basically it’s a way of measuring atoms so that uhmm we can put them on a scale that is somewhat reasonable like to have and like use in the lab\n&gt;&gt; INTERVIEWER: And then, when we are talking about Chemical Engineering, what is a pound-mole?\n&gt;&gt; INTERVIEWEE6: Uhh, I’m not too sure.\n&gt;&gt; INTERVIEWEE7: I have no clue.\n&gt;&gt; INTERVIEWEE8: No clue.\n&gt;&gt; INTERVIEWEE9: I have no clue what that is.\n&gt;&gt; INTERVIEWEE10: I presume it’s some horrific cursed unit that Engineers came up with where they they do this insane thing where they combine like US imperial units with like metric units, and it’s just like the worst thing ever.\n&gt;&gt; INTERVIEWEE11: Probably like a certain number of moles that weigh a pound.\n&gt;&gt; INTERVIEWEE12: A pound-mole would be the number of molecules of something in a pound of that something.\n&gt;&gt; NARRATOR: A mole is the name given to the mass equivalent of the molar mass of a molecule. For example, a molecule of carbon dioxide has a molar mass of approximately 44.01, that means a gram mole, or simply a mole, of carbon dioxide has a mass of 44.01 grams, subsequently a pound-mole of carbon dioxide has a mass of 44.01 pounds mass.\nTo help you understand, this is one gram mole of table salt, and this is one pound-mole of table salt.\n&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE1: How would I use it?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: Without knowing what it is?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: I would eat it?!\n&gt;&gt; INTERVIEWEE2: I have no idea actually. Like for problems? Like I don’t know.\n&gt;&gt; INTERVIEWEE3: Like you can convert it to other units.\n&gt;&gt; INTERVIEWEE4: One mole of this element plus two moles of some other element might go to, combine to form certain compounds, so like balancing equations.\n&gt;&gt; INTERVIEWEE5: Balancing like chemical equations, like in stoichiometry you want to make sure yout number of moles um in is equal to your number of moles out.\n&gt;&gt; NARRATOR: So how do I use a mole? A mole is most useful when planning out or preparing reagents for a chemical reaction. You really need to start with a balanced chemical equation for the reaction. For example, one carbon atom and one oxygen molecule react to form one molecule of carbon dioxide.\nIf you wanted to make 100 pounds of carbon dioxide, you would need to calculate what mass of carbon atoms you would need, and what mass of oxygen molecules you would need. For an atomic species like carbon, you are technically supposed to use the name pound-atom or gram-atom, but in casual conversation, if you use the term pound-mole or gram-mole most engineers will understand.\nThe chemical equation means that one pound-atom of carbon will react with one pound-mole of oxygen molecules (which is just two pound-atoms of oxygen atoms) in order to form one pound-mole of carbon dioxide. Given that the molar mass (also called molecular weight) of carbon dioxide is about 44.01, 100 pounds of carbon dioxide is 100 divided by 44.01 or 2.272 pound-moles of carbon dioxide.\nWe need 2.272 pound-atoms of carbon and 2.272 pound-moles of oxygen molecules.\nThe atomic mass of carbon is approximately 12.01, and the molar mass of oxygen is about 32.00, so we need 2.272 times 12.01\nand 2.272 times 32.00\nThat gives us totals of 27.29 pounds of carbon\nand 72.70 pounds of oxygen in order to make our 100 pounds of carbon dioxide\n&gt;&gt; INTERVIEWER: And then do you know what Avogadro’s number is?\n&gt;&gt; INTERVIEWEE1: I don’t.\n&gt;&gt; INTERVIEWEE2: I have no idea what exactly it is.\n&gt;&gt; INTERVIEWEE3: Something times 10 to the 27th.\n&gt;&gt; INTERVIEWEE4: 1.602 times 10 to the 23rd.\n&gt;&gt; INTERVIEWEE5: 6.02 times 10 to the 23 molecules per gram.\n&gt;&gt; INTERVIEWEE6: Avogadro’s number is the number you use to convert um moles to molecules back and forth.\n&gt;&gt; INTERVIEWEE7: Avogadro’s constant is 6.023 to 10 to the power 23 if I remember correctly.\n&gt;&gt; NARRATOR: For a gram-mole, which is what chemists mean when they say mole, the international standards agencies have agreed on how many molecules are in exactly one mole. In the US, our standards agency is the National Institute of Standards and Technology or N.I.S.T. The value from their website is 6.022 140 76 times 10 to the 23rd per mol. That number is known as Avogadro’s number or the Avogadro constant.\nHowever, there is a corresponding number for each mass unit. For pounds mass the exact number is 1.327 654 687 336 03 times 10 to the 27th per pound-mole.\nThe N.I.S.T. website lists at least 15 different mass units, so there are at least that many types of moles, ranging from the carat-mole through the pennyweight-mole. The most common moles are the gram mole or mole, the kilogram-mol or kilomole, the metric-ton-mole or tonne-mole, the pound-mole, and the ton-mole.\nThe big question is “Why Can’t I Just Use the Mol that I’m Familiar With?” Well, you can, but you are more likely to make an error because of the extra conversions you have to do. There is a long conversion process if you use any mass unit other than the gram (which isn’t the SI unit, by the way. The SI unit is the kilogram.) The process is as follows: Starting with mass: First, convert mass unit to grams\nSecond, convert from grams to gram moles with the molar mass.\nThird, use the chemical equation to find the resultant gram moles\nFourth, convert from gram-moles to grams, then.\nThen finally, five, convert from grams to your original mass unit.\nDon’t do this!\nRather, you should use the next three simple steps, instead:\nFirst, convert from mass to moles with the molar mass.\nSecond, use the chemical equation to find the resultant moles.\nThen third and finally, convert from moles to mass.\nInstead of five steps, you have three steps, resulting in 40% fewer places to make a mistake.\nThe key takeaways are: First, Engineers use different types of moles because they have to work with different types of mass units.\nSecond, the molar mass is just the conversion factor between moles and mass, and it has the same numerical value regardless of the mass units involved.\nFinally, only use gram moles if your problem is being worked in grams.\nThanks for watching! To learn more about chemical and thermal processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series."
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#using-a-mole",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#using-a-mole",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Using a Mole",
-    "text": "Using a Mole\n\nStart with a balanced chemical equation.\n\\[\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}\\]\nMolar Mass of \\(\\mathrm{CO_2}\\) is \\(44.009546\\) which rounds to \\(44.010\\).\nTo make \\(100\\ \\mathrm{lb_m}\\) of \\(\\mathrm{CO_2}\\)\n\n\\(100\\ \\mathrm{lb_m\\ CO_2} / 44.010\\ \\frac{\\mathrm{lb_m\\ CO_2}}{\\text{lb-mol}} = 2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{CO_2}\\)\nNeed \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{C}\\) and \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{O_2}\\).\n\\(2.272\\ \\text{lb-mol C} \\cdot 12.011\\ \\frac{\\mathrm{lb_m\\ C}}{\\text{lb-mol}} = 27.29  \\mathrm{lb_m\\ C}\\)\n\\(2.272\\ \\text{lb-mol 0}_2 \\cdot 31.999\\ \\frac{\\mathrm{lb_m\\ O}_2}{\\text{lb-mol}} = 72.70  \\mathrm{lb_m\\ O}_2\\)"
-  },
-  {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#avogadros-number",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#avogadros-number",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Avogadro’s Number",
-    "text": "Avogadro’s Number\n\n\\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\mathrm{mol}}\\) or \\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\text{g-mol}}\\)\n\\(1.327 654 687 336 \\times 10^{27}\\ \\frac{\\mathrm{molecules}}{\\text{lb-mol}}\\)"
-  },
-  {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Use the Correct Moles",
-    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using gram moles incorrectly.\n\nStart with mass in units other than grams.\n\nConvert to grams.\nConvert to gram-moles.\nUse balanced chemical equation to solve for the other species in gram-moles.\nConvert the other species’ gram-moles to grams.\nConvert the grams to the starting mass species.\n\nRequires five steps."
-  },
-  {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles-1",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles-1",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "Use the Correct Moles",
-    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using moles.\n\nStart with mass in units other than grams.\n\nConvert to the mass unit’s moles.\nUse balanced chemical equation to solve for the other species in the mass unit’s moles.\nConvert the other species’ moles to mass units.\n\n\nRequires three steps instead of five.\n40% fewer places to make mistakes."
-  },
-  {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#the-summary",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#the-summary",
-    "title": "What Is A Mole?  Just the Facts",
-    "section": "The Summary",
-    "text": "The Summary\n\nDifferent types of moles are for different types of mass units.\nThe molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.\nUse gram moles for problems in grams. Use pound-moles for problems in pounds, etc."
-  },
-  {
-    "objectID": "basics/WhyStatsJTFVisuals.html#true-mean-standard-deviation",
-    "href": "basics/WhyStatsJTFVisuals.html#true-mean-standard-deviation",
-    "title": "Why Statistics?  Just the Facts",
-    "section": "True Mean & Standard Deviation",
-    "text": "True Mean & Standard Deviation\n\nInfinite Precision Exact Measurement\nFull Population Measurement\nTrue Mean or Population Mean \\(\\equiv \\mu\\)\nTrue Standard Deviation \\(\\equiv \\sigma\\)"
-  },
-  {
-    "objectID": "basics/WhyStatsJTFVisuals.html#sample-mean-standard-deviation",
-    "href": "basics/WhyStatsJTFVisuals.html#sample-mean-standard-deviation",
-    "title": "Why Statistics?  Just the Facts",
-    "section": "Sample Mean & Standard Deviation",
-    "text": "Sample Mean & Standard Deviation\n\nThe set of measurements \\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\) \\[\\bar{x}=\\frac{\\sum_{i=1}^Nx_i}{N}\\approx\\mu\\] Can we calculate the error \\(e_i =\\mu-x_i\\) ? The set of errors \\(\\{e_1,e_2,\\ldots e_N\\}\\) {x1,x2,!xN} N åx x = i=1 i N » μ How do we estimate μ -x ? Calculate the residual ei =x-xi The set of residuals {e1 ,e2 ,!eN }"
+    "objectID": "basics/calculations/CalculationsWebPage.html",
+    "href": "basics/calculations/CalculationsWebPage.html",
+    "title": "Engineering Calculations",
+    "section": "",
+    "text": "Why Engineering Calculations"
   }
 ]
