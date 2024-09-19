@@ -8,7 +8,7 @@ format: html
 A mole is a basic concept in Chemical Engineering. It's purpose is to determine the masses of reagents
 needed in chemical reactions. Unlike in Chemistry, where [a mole is a mole is a mole](https://en.wikipedia.org/wiki/Rose_is_a_rose_is_a_rose_is_a_rose), in Chemical Engineering engineers need to work with different mass units such as [pounds-mass](https://en.wikipedia.org/wiki/Pound_(mass)) $(\mathrm{lb_m})$, [tons](https://en.wikipedia.org/wiki/Ton), and kilograms. For each mass unit there is a corresponding mole. For a chemical species, the numerical value of a mole in a given mass unit doesn't change with the mass unit, but the unit does. For example, with $\mathrm{NaCl}$ that has a molecular mass of $58.443$, a gram-mole (or simply mole) has a mass of $58.443\ \mathrm{g}$, a pound-mole has a mass of $58.443\ \mathrm{lb_m}$ and a ton-mole has a mass of $58.443\ \mathrm{ton}$ (one might have to specify whether the ton is a long ton or a short ton).
 
-The videos explain what a mole is and how it is used in basic Chemical Engineering calculations.
+The videos explain what a mole is and how it is used in basic Chemical Engineering calculations. 
 
 # *The Full Story* Video
 

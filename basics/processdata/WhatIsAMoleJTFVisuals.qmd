@@ -13,7 +13,7 @@ format:
 - The mass equivalent of the molar mass of a molecule
 
 - The molar mass of $\mathrm{CO_2}$ is $44.010\ \frac{\mathrm{g}}{\mathrm{mol}}$ or $44.010\ \frac{\mathrm{lb_m}}{\text{lb-mol}}$, etc.
-- 15 mass units on N.I.S.T website
+- 15 mass units on N.I.S.T website 
 - Most common moles are
   - $\text{g-mol}$ or $\text{mol}$
   - $\text{kg-mol}$ or $\text{kmol}$

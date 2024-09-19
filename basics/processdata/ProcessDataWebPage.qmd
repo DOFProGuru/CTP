@@ -6,7 +6,7 @@ format: html
 
 # Why Process Data and Process Variables
 
-Many engineers and chemical engineers in particular design, analyze, and create processes that transform inputs, such as chemical reagents, heat, and electricity, into outputs such a other chemical reagents. The design and analysis of processes requires a knowledge of the sorts of measurements or data that are made of the process, and the variables that are used to model the process. This section discusses many of the varibles, measurements, and data that are common to these processes, how they are defined, what they mean, and how they are used, presented, and analyzed.
+Many engineers and chemical engineers in particular design, analyze, and create processes that transform inputs, such as chemical reagents, heat, and electricity, into outputs such a other chemical reagents. The design and analysis of processes requires a knowledge of the sorts of measurements or data that are made of the process, and the variables that are used to model the process. This section discusses many of the varibles, measurements, and data that are common to these processes, how they are defined, what they mean, and how they are used, presented, and analyzed. 
 
 ## Conversions
 
