@@ -1,0 +1,211 @@
+---
+title: "Under Pressure Part 1 </br>
+        Just The Facts"
+author: "DOFPro Team"
+format: 
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss, ../../fontsize.scss]
+    css: ../../slidecss.css
+---
+## Under Pressure
+
+**Under Pressure Part 1**
+
+ * What pressure is
+ * How you use it
+ * How you measure it
+
+**Under Pressure Part 2**
+
+ * Atmospheric Pressure
+ * Barometric Pressure
+ * Gauge Pressure
+ * Absolute Pressure
+ * Vacuum Pressure.
+
+## Pressure
+
+:::{.fragment}
+$\mathrm{Pressure} \equiv f_{\mathrm{normal}}/A$, with SI units of the Pascal ($\mathrm{Pa}$)
+
+$$1\ \mathrm{Pa} \equiv 1\ \mathrm{N}/\mathrm{m^2}$$
+:::
+
+:::{.fragment}
+Other common units are the $\mathrm{Torr}$ or $\mathrm{mmHg}$, the *atmosphere* $(\mathrm{atm}),$ the *kilopascal* $(\mathrm{kPa})$, the $\mathrm{bar}$, and the *pound per square inch* $(\mathrm{psi})$.
+:::
+
+:::{.fragment}
+$$
+\begin{aligned}
+1\ \mathrm{atm} & = 1.01325\ \mathrm{bar} = 101.325\ \mathrm{kPa} = 101325\ \mathrm{Pa} \\
+& = 760\ \mathrm{Torr} \\
+& = 14.6959\ \mathrm{psi}
+\end{aligned}$$
+:::
+
+## Hydrostatic Pressure
+
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/WaterColumn.png){.absolute top="10" left="30" height="90%"}
+
+:::{.fragment}
+:::{.absolute top="35%" left="31%"}
+$h$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="10%" left="27%"}
+$d$
+:::
+:::{.absolute top="15%" left="55%"}
+$A = \pi d^2 / 4$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="18%" left="15%"}
+$P_0$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="35%" left="23%"}
+$\rho$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="23%" left="54.5%"}
+$m = \rho A h,\ F = mg$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="31%" left="52%"}
+$\Delta P = \frac{\rho g A h}{A} = \rho g h$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="40%" left="55%"}
+$P = \Delta P + P_0 = \rho g h + P_0$
+:::
+:::{.absolute top="50%" left="15%"}
+$P$
+:::
+:::
+
+## Manometer
+
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/Manometer.png){.absolute top="10%" left="10" height="80%"}
+
+:::{.fragment}
+:::{.absolute top="23%" left="40%"}
+$P_1 + \rho_\mathrm{A}g(h_2+h_1)$
+
+$= \rho_\mathrm{B}g h_1 + \rho_\mathrm{C}g h_2 + P_2$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="40%" left="40%"}
+$\Delta P = P_1 - P_2$
+
+$= [\rho_\mathrm{B} h_1 + \rho_\mathrm{C} h_2 - \rho_\mathrm{A}(h_2+h_1)] g$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="57%" left="40%"}
+For $\rho_\mathrm{A}=\rho_\mathrm{C}$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="65%" left="40%"}
+$\Delta P= (\rho_\mathrm{B}-\rho_\mathrm{A})g h_1$
+:::
+:::
+
+## Example
+
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/SampleProblem1.png){.absolute top="10%" left="10" height="80%"}
+
+
+:::{.fragment}
+:::{.absolute top="9%" left="40%"}
+$P_\mathrm{Ar} = 1.493\ \mathrm{bar},$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="9%" left="70%"}
+$T = 68\ ^\circ\mathrm{F}$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="15%" left="61%"}
+$\rho_\mathrm{benzene} = 879\ \frac{\mathrm{kg}}{\mathrm{m^3}}$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="23%" left="67%"}
+$\rho_\mathrm{Hg} = 13,546\ \frac{\mathrm{kg}}{\mathrm{m^3}}$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="32%" left="66%"}
+$P_\mathrm{atm} = 1.000\ \mathrm{atm}$
+:::
+:::
+
+## Solution
+
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/SampleProblem1.png){.absolute top="50%" left="67%" height="38%"}
+
+
+:::{.fragment}
+:::{.absolute top="10%" left="5%"}
+$\Delta P = \rho g h$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="22%" left="5%"}
+$P_\mathrm{atm}+ \Delta P_\mathrm{piston} + \Delta P_\mathrm{C_6H_6} = \Delta P_\mathrm{Hg} + P_\mathrm{Ar}$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="34%" left="5%"}
+$101,325\ \mathrm{Pa}+\rho_\mathrm{piston}\ g\ (20\ \mathrm{cm})+879\ \frac{\mathrm{kg}}{\mathrm{m^3}}\ g\ (19.28\ \mathrm{ft})$
+:::
+
+:::{.absolute top="47%" left="5%"}
+$=13,546\ \frac{\mathrm{kg}}{\mathrm{m^3}}\ g\ (7.480\ \mathrm{in})+149,300\ \mathrm{Pa}$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute top="60%" left="3.5%"}
+$\implies \rho_\mathrm{piston} = 11,500\ \frac{\mathrm{kg}}{\mathrm{m^3}}=11.50\frac{\mathrm{g}}{\mathrm{cm^3}}$
+:::
+:::
+
+## Spreadsheet of Solution
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/PressureExamples1.png){.absolute top="15%" left="2.5%" height="50%"}
+
+## Summary
+
+1. Pressure is the second most commonly measured process variable.
+2. Hydrostatic pressure $= \rho g h$.
+3. Manometers measure $\Delta P$'s with hydrostatic pressure.

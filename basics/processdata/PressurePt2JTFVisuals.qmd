@@ -1,0 +1,190 @@
+---
+title: "Under Pressure Part 2 </br>
+        Just The Facts"
+author: "DOFPro Team"
+format: 
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss, ../../fontsize.scss]
+    css: ../../slidecss.css
+---
+## Under Pressure
+
+**Under Pressure Part 2**
+
+ * Atmospheric Pressure
+ * Barometric Pressure
+ * Gauge Pressure
+ * Absolute Pressure
+ * Vacuum Pressure.
+
+**Under Pressure Part 1**
+
+ * What pressure is
+ * How you use it
+ * How you measure it
+
+## Absolute, Atmospheric, and Gauge Pressure
+
+:::{.fragment}
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/PressureGaugeAbs.png){.absolute left="10%" top="20%" width="30%"}
+:::
+
+:::{.fragment}
+:::{.absolute top="23%" left="31%"}
+$\Delta P = P_1 - P_2 = P_\mathrm{absolute}=P_\mathrm{abs}$
+:::
+:::
+
+:::{.fragment}
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/PressureGaugeAtm.png){.absolute left="10%" top="45%" width="30%"}
+:::
+
+:::{.fragment}
+:::{.absolute top="48%" left="31%"}
+$\Delta P = P_1 - P_2 = P_\mathrm{atmosphere}=P_\mathrm{atm}$
+:::
+:::
+
+:::{.fragment}
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/PressureGaugeGau.png){.absolute left="10%" top="70%" width="30%"}
+:::
+
+:::{.fragment}
+:::{.absolute top="73%" left="31%"}
+$\Delta P = P_1 - P_2 = P_\mathrm{gauge}=P_\mathrm{g}$
+:::
+:::
+
+## Calculating Abs., Atm, Gauge Pressures
+
+:::{.fragment}
+:::{.absolute top="20%" left="10%"}
+$P_\mathrm{abs} = P_\mathrm{g}+P_\mathrm{atm}$
+
+$P_\mathrm{g} = P_\mathrm{abs}-P_\mathrm{atm}$
+:::
+:::
+
+:::{.fragment}
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/TireForGauge.png){.absolute left="10%" top="35%" width="30%"}
+:::
+
+:::{.absolute top="65%" left="10%"}
+1. Absolute tire pressure gauge
+2. Atmospheric pressure gauge
+3. Weather report and local altitude
+:::
+
+## Barometric and Atmospheric Pressure
+
+1. Absolute pressure gauges – **Easy**, Absolute *tire* pressure gauges – **Very Hard**
+2. Atmospheric pressure gauges – a decent cell phone and an air pressure app
+3. Weather report – **Easy**, Local altitude – **Use GPS**
+
+:::{.fragment}
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/NWSBaro.png){.absolute top="55%" left="5%" width="50%"}
+:::
+
+:::{.fragment}
+:::{.absolute top="55%" left="57%"}
+Weather report gives *barometric*, not atmospheric pressure.
+:::
+:::
+
+## Barometric Pressure
+
+The barometric pressure is the local atmospheric pressure adjusted for altitude to sea level.
+
+:::{.fragment}
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/BaroPressDiagram.png){.absolute top="60%" left="0%" width="90%"}
+:::
+
+:::{.fragment}
+$$P_\mathrm{baro}=P_\mathrm{atm}(1-2.25577 \times 10^{-5}h)^{5.25588}$$
+:::
+
+:::{.fragment}
+$$P_\mathrm{atm}=P_\mathrm{baro}(1-2.25577 \times 10^{-5}h)^{-5.25588}$$
+
+with $h$ in meters.
+:::
+
+## Example
+
+Measure bicycle tire pressure in Claremont, CA, USA
+
+:::{.fragment}
+:::{.absolute left="2%" top="17%"}
+$P_\mathrm{baro} = 29.89\ \mathrm{inHg}$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute left="2%" top="25%"}
+$h_\mathrm{Claremont} = 1340\ \mathrm{ft}=408.4\ \mathrm{m}$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute left="2%" top="30%"}
+$$\begin{aligned}
+P_\mathrm{atm} & =P_\mathrm{baro}(1-2.25577 \times 10^{-5}h)^{-5.25588} \\
+& =29.89\ \mathrm{inHg}(1-2.25577 \times 10^{-5}\cdot408.4)^{-5.25588} \\
+& = 28.47\ \mathrm{inHg}= 723.2\ \mathrm{Torr}= 13.98\ \mathrm{psia} \approx 14.0\ \mathrm{psia}
+\end{aligned}$$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute left="2%" top="58%"}
+$P_\mathrm{g} = 36.0\ \mathrm{psig}$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute left="2%" top="65%"}
+$$\begin{aligned}
+P_\mathrm{abs} & = P_\mathrm{g}+P_\mathrm{atm} \\
+& =36.0\ \mathrm{psig}+14.0\ \mathrm{psia} = 50.0\ \mathrm{psia} =3.45\ \mathrm{bar}
+\end{aligned}$$
+:::
+:::
+
+## Spreadsheet
+
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/TireExample.png){.absolute top="10%" left="10%" width="80%"}
+
+## Vacuum Pressure {background-image="https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/Crysopea_alambicco_poli_grappa.png"}
+
+ - Any pressure below local atmospheric
+ - In psi it's indicated by $\mathrm{psiv}$.
+ - Negative of gauge pressure, e.g., $P_\mathrm{g}=-7\ \mathrm{psig} \implies P_\mathrm{v}=7\ \mathrm{psiv}$
+ - Common in vacuum distillation and other processes
+ 
+
+## High Vacuum {background-image="https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/VacuumChamberLight.png"}
+
+- Measured as *absolute pressure*
+- Used in advanced materials processing
+
+:::{.fragment}
+| Acronym | Name                   |Max *P* (Pa)|Min *P* (Pa)|
+|---------|------------------------|------------|------------|
+| HV      | High Vacuum            | $10^{-1}$  | $10^{-5}$  |
+| UHV     | Ultrahigh Vacuum       | $10^{-5}$  | $10^{-10}$ |
+| EHV     | Extrememly High Vacuum | $10^{-10}$ | $<10^{-10}$|
+
+:Pressure ranges
+:::
+
+## Summary
+
+1. Absolute, gauge, and atmospheric pressure are related by $P_\mathrm{abs} = P_\mathrm{g}+P_\mathrm{atm}$.
+2. Barometric and atmospheric pressure are related through the Standard Atmospheric Model.
+3. The vacuum pressure is the absolute value of the gauge pressure below atmospheric.
+4. The High Vacuum (HV) range is from $10^{-1}$ to $10^{-5}\ \mathrm{Pa}$, Ultrahigh Vacuum (UHV) from $10^{-5}$ to $10^{-10}\ \mathrm{Pa}$, and Extremely High Vacuum (EHV) is $10^{-10}\ \mathrm{Pa}$ and below.
