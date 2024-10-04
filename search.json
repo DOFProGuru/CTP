@@ -109,7 +109,7 @@
     "href": "basics/processdata/PressurePt2JTFVisuals.html#high-vacuum",
     "title": "Under Pressure Part 2  Just The Facts",
     "section": "High Vacuum",
-    "text": "High Vacuum\n\nMeasured as absolute pressure\nUsed in advanced materials processing\n\n\n\nPressure ranges\n\n\nAcronym\nName\nMax P (Pa)\nMin P (Pa)\n\n\n\n\nHV\nHigh Vacuum\n\\(10^{-1}\\)\n\\(10^{-5}\\)\n\n\nUHV\nUltrahigh Vacuum\n\\(10^{-5}\\)\n\\(10^{-10}\\)\n\n\nEHV\nExtrememly High Vacuum\n\\(10^{-10}\\)\n\\(&lt;10^{-10}\\)"
+    "text": "High Vacuum\n\nUsed in advanced materials processing\nMeasured as absolute pressure\n\n\n\nPressure ranges\n\n\nAcronym\nName\nMax P (Pa)\nMin P (Pa)\n\n\n\n\nHV\nHigh Vacuum\n\\(10^{-1}\\)\n\\(10^{-5}\\)\n\n\nUHV\nUltrahigh Vacuum\n\\(10^{-5}\\)\n\\(10^{-10}\\)\n\n\nEHV\nExtrememly High Vacuum\n\\(10^{-10}\\)\n\\(&lt;10^{-10}\\)"
   },
   {
     "objectID": "basics/processdata/PressurePt2JTFVisuals.html#summary",
