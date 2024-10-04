@@ -1,6 +1,10 @@
 .reveal .slide-logo {
-    height: 10% !important;
+    /* height: 10% !important;
     width: 8% !important;
     max-width: unset !important;
-    max-height: unset !important;
+    max-height: unset !important; */
+    max-height: 2.2em !important;
   }
+/* .reveal .title {
+  background-image: url(DOFPro_D7_Red_Flame_No_Background_cropped.png)
+} */
