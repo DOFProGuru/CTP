@@ -169,8 +169,8 @@ P_\mathrm{abs} & = P_\mathrm{g}+P_\mathrm{atm} \\
 
 ## High Vacuum {background-image="https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/VacuumChamberLight.png"}
 
-- Measured as *absolute pressure*
 - Used in advanced materials processing
+- Measured as *absolute pressure*
 
 :::{.fragment}
 | Acronym | Name                   |Max *P* (Pa)|Min *P* (Pa)|
