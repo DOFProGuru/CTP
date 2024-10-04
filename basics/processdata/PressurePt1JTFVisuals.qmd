@@ -9,7 +9,7 @@ format:
     max-scale: 8
     logo: ../../DOFPro_D7_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
-    theme: [serif, ../../gradient.scss, ../../fontsize.scss]
+    theme: [serif, ../../gradient.scss]
     css: ../../slidecss.css
 ---
 ## Under Pressure
