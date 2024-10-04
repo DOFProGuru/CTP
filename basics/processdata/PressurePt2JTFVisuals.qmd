@@ -1,17 +1,22 @@
 ---
-title: "Under Pressure Part 2 </br>
-        Just The Facts"
-author: "DOFPro Team"
 format: 
   revealjs:
     width: 2700
     height: 2160
     max-scale: 8
-    logo: ../../DOFPro_D7_Red_Flame_No_Background_Cropped_Logo.png
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
     theme: [serif, ../../gradient.scss]
     css: ../../slidecss.css
 ---
+# Under Pressure Part 2 </br> Just The Facts {style="text-align: center;"}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-50%"}
+
 ## Under Pressure
 
 **Under Pressure Part 2**
