@@ -4,7 +4,7 @@ project:
 website:
   title: "Chemical and Thermal Processes"
   navbar:
-    logo: DOFPro_D7_Red_Flame_No_Background_cropped.png
+    logo: DOFPro_D7_White_Red_Flame_No_Background_Cropped.png
     logo-alt: "DOFPro Logo"
     logo-href: https://dofpro.org
     search: true
