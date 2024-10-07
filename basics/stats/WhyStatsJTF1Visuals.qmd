@@ -1,0 +1,290 @@
+---
+title: "Why Statistics? Intro and Basics </br>
+       Just the Facts </br>
+       Part 1"
+author: "DOFPro Team"
+format:
+  revealjs:
+    incremental: false
+    theme: [serif, ../../malina.scss]
+---
+
+
+## Reporting Uncertainty
+
+
+::: {.bitlower .fragment}
+$\textit{m} = 1.03 \pm 0.03 \text{ kg (95% confidence)}$
+:::
+
+
+::: {.lower .fragment}
+$\textit{u} = 2.36 \pm 0.04 \text{ m/s (95% confidence)}$
+:::
+
+
+::: {.hmmlower .fragment}
+$\textit{mu} = 2.43 \pm 0.08 \text{ }\text{ kg}\cdot\text{m/s }\text{ (95% confidence)}$
+:::
+
+
+::: {.lowerstill .fragment}
+$\frac{1}{2}\textit{mu}\mathrm{^2} = 2.87 \pm 0.13 \text{J (95% confidence)}$
+:::
+
+
+::: {.lotslower .fragment}
+A future video will teach you how to propagate the uncertainty. $\textbf{Remember!}$ A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities.
+:::
+
+
+
+
+## Reporting Functional Uncertainty
+
+
+::: {.bitlower .fragment .absolute top=120 left=-75}
+$\mathrm{F_s = k(x_n-x_f)}$
+:::
+
+
+::: {.fragment}
+![](X_f.png){.absolute top="210" left="-30" width="140" height="70"}
+:::
+
+
+::: {.fragment}
+![](F_s.png){.absolute top="165" left="185" width="180" height="50"}
+:::
+
+
+::: {.fragment}
+![](X_n.png){.absolute top="210" left="335" width="140" height="70"}
+:::
+
+
+::: {.fragment}
+![](Spring.png){.absolute top="275" left="-65" width="470" height="250"}
+:::
+
+
+::: {.fragment .small .absolute top=585 left=-115}
+CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=26544
+:::
+
+
+::: {.fragment}
+![](force-displacement-graph.png){.absolute top="125" left="560" width="550" height="450"}
+:::
+
+
+::: {.fragment .absolute top=605 left=520 width=670 .bitsmall}
+$\textit{F}\mathrm{_s} = 30.00 \pm 2.50$(95% conf.)N/m($\textit{x}\mathrm{_n}-\textit{x}\mathrm{_f}$)
+:::
+
+
+## True Mean and Standard Deviation
+::: {.fragment .absolute top=70}
+True value of a measured quantity $\rightarrow$ True Mean or Population Mean
+:::
+
+
+::: {.fragment .absolute top=190}
+True/Population Mean $\equiv \mu$
+:::
+
+
+::: {.fragment .absolute top=270}
+Average value from infinite-precision, full population measurement (almost never known) $\rightarrow \mu$
+:::
+
+
+::: {.fragment .absolute top=480}
+Distribution of data about the true mean $\rightarrow$ True Standard Deviation or Population Standard Deviation
+:::
+
+
+::: {.fragment .absolute top=600}
+True/Population Standard Deviation $\equiv \sigma$
+:::
+
+
+::: {.fragment .absolute top=680}
+ Standard deviation given true mean and infinite-precision data points (also almost never known) $\rightarrow \sigma$
+:::
+
+
+
+
+## Sample Mean and Residuals
+
+
+::: {.fragment .absolute top=90 left=0}
+Set of Measurements
+:::
+
+
+::: {.fragment .absolute top=140 left=20}
+ $\{x_1,\ x_2,\ \ldots,\ x_N\}$
+:::
+
+
+::: {.fragment .absolute top=185 left=50}
+$\downarrow$
+:::
+
+
+::: {.fragment .absolute top=225 left=25}
+$\textit{x}\mathrm{_1}$ = 43.15
+:::
+
+
+::: {.fragment}
+![](Longer_down_arrow.png){.absolute top="185" left="250" width="50" height="110"}
+:::
+
+
+::: {.fragment .absolute top=310 left=-10}
+N
+:::
+
+
+::: {.fragment .absolute top=355 left=-110}
+measurements
+:::
+
+
+::: {.fragment .absolute top=310 left=130}
+$\rightarrow$
+:::
+
+
+::: {.fragment .absolute top=310 left=200}
+N independent
+:::
+
+
+::: {.fragment .absolute top=355 left=250}
+equations
+:::
+
+
+::: {.fragment .absolute top=475 left=20}
+$\bar{x}$
+:::
+
+
+::: {.fragment .absolute top=455 left=60}
+$=\frac{\sum_{i=1}^Nx_i}{N}$
+:::
+
+
+::: {.fragment .absolute top=470 left=220}
+$\approx\mu$
+:::
+
+
+::: {.fragment .absolute top=515 left=20}
+$\downarrow$
+:::
+
+
+::: {.fragment .absolute top=555 left=-60}
+sample mean
+:::
+
+
+::: {.fragment .absolute top=515 left=260}
+$\downarrow$
+:::
+
+
+::: {.fragment .absolute top=555 left=200}
+true mean
+:::
+
+
+::: {.fragment .absolute top=670 left=-55}
+How do we estimate $\mathrm{\mu - \bar{x}}$?
+:::
+
+
+::: {.fragment .absolute top=90 left=700}
+Can we calculate the </br> error $\text{ }\text{ }\varepsilon_i =\mu-x_i$?
+:::
+
+
+::: {.fragment .absolute top=220 left=755}
+Set of Errors
+:::
+
+
+::: {.fragment .absolute top=260 left=710}
+$\{\varepsilon_1,\ \varepsilon_2,\ \ldots,\ \varepsilon_N \}$
+:::
+
+
+::: {.fragment .absolute top=360 left=667}
+We don't know $\mu$, so...
+:::
+
+
+::: {.fragment .absolute top=420 left=657}
+Calculate the residuals:
+:::
+
+
+::: {.fragment .absolute top=465 left=750}
+$\textit{e}\mathrm{_i} = \bar{x} - \mathrm{x_i}$
+:::
+
+
+::: {.fragment .absolute top=555 left=725}
+Set of Residuals
+:::
+
+
+::: {.fragment .absolute top=595 left=705}
+$\{e_1,\ e_2,\ \ldots,\ e_N \}$
+:::
+
+
+::: {.fragment}
+![](Sideways_bracket.png){.absolute top="638" left="700" width="310" height="42"}
+:::
+
+
+::: {.fragment .absolute top=670 left=690}
+estimate of the errors
+:::
+
+
+::: {.fragment .absolute top=710 left=710}
+based on $\bar{x}$, not $\mu$
+:::
+
+
+## Sample Variance and Standard Deviation
+
+
+We lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.
+
+
+## Are We There Yet?
+
+
+
+
+## Key Takeaways
+
+
+
+
+#
+
+
+::: {.bigger .centered}
+ $\textbf{Thanks for watching!}$ </br> To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+
