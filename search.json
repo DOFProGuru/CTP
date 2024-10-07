@@ -1,178 +1,101 @@
 [
   {
-    "objectID": "phase/index.html",
-    "href": "phase/index.html",
-    "title": "Advanced Phase Equilibria Calculations",
+    "objectID": "basics/calculations/CalculationsWebPage.html",
+    "href": "basics/calculations/CalculationsWebPage.html",
+    "title": "Engineering Calculations",
     "section": "",
-    "text": "Intro to advanced phase equilibria calculations"
+    "text": "Why Engineering Calculations"
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#definition",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#definition",
-    "title": "Chemical and Thermal Processes",
-    "section": "Definition",
-    "text": "Definition\n\nThe mass equivalent of the molar mass of a molecule\nThe molar mass of \\(\\mathrm{CO_2}\\) is \\(44.010\\ \\frac{\\mathrm{g}}{\\mathrm{mol}}\\) or \\(44.010\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\), etc.\n15 mass units on N.I.S.T website\nMost common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{tonne-mol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)"
-  },
-  {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#using-a-mole",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#using-a-mole",
-    "title": "Chemical and Thermal Processes",
-    "section": "Using a Mole",
-    "text": "Using a Mole\n\nStart with a balanced chemical equation.\n\\[\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}\\]\nMolar Mass of \\(\\mathrm{CO_2}\\) is \\(44.009546\\) which rounds to \\(44.010\\).\nTo make \\(100\\ \\mathrm{lb_m}\\) of \\(\\mathrm{CO_2}\\)\n\n\\(100\\ \\mathrm{lb_m\\ CO_2} / 44.010\\ \\frac{\\mathrm{lb_m\\ CO_2}}{\\text{lb-mol}} = 2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{CO_2}\\)\nNeed \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{C}\\) and \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{O_2}\\).\n\\(2.272\\ \\text{lb-mol C} \\cdot 12.011\\ \\frac{\\mathrm{lb_m\\ C}}{\\text{lb-mol}} = 27.29  \\mathrm{lb_m\\ C}\\)\n\\(2.272\\ \\text{lb-mol 0}_2 \\cdot 31.999\\ \\frac{\\mathrm{lb_m\\ O}_2}{\\text{lb-mol}} = 72.70  \\mathrm{lb_m\\ O}_2\\)"
-  },
-  {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#avogadros-number",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#avogadros-number",
-    "title": "Chemical and Thermal Processes",
-    "section": "Avogadro’s Number",
-    "text": "Avogadro’s Number\n\n\\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\mathrm{mol}}\\) or \\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\text{g-mol}}\\)\n\\(1.327 654 687 336 \\times 10^{27}\\ \\frac{\\mathrm{molecules}}{\\text{lb-mol}}\\)"
-  },
-  {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles",
-    "title": "Chemical and Thermal Processes",
-    "section": "Use the Correct Moles",
-    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using gram moles incorrectly.\n\nStart with mass in units other than grams.\n\nConvert to grams.\nConvert to gram-moles.\nUse balanced chemical equation to solve for the other species in gram-moles.\nConvert the other species’ gram-moles to grams.\nConvert the grams to the starting mass species.\n\nRequires five steps."
-  },
-  {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles-1",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Use the Correct Moles",
-    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using moles.\n\nStart with mass in units other than grams.\n\nConvert to the mass unit’s moles.\nUse balanced chemical equation to solve for the other species in the mass unit’s moles.\nConvert the other species’ moles to mass units.\n\n\nRequires three steps instead of five.\n40% fewer places to make mistakes."
-  },
-  {
-    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#the-summary",
-    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#the-summary",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Summary",
-    "text": "The Summary\n\nDifferent types of moles are for different types of mass units.\nThe molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.\nUse gram moles for problems in grams. Use pound-moles for problems in pounds, etc."
-  },
-  {
-    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#under-pressure",
-    "href": "basics/processdata/PressurePt2JTFVisuals.html#under-pressure",
-    "title": "Chemical and Thermal Processes",
-    "section": "Under Pressure",
-    "text": "Under Pressure\nUnder Pressure Part 2\n\nAtmospheric Pressure\nBarometric Pressure\nGauge Pressure\nAbsolute Pressure\nVacuum Pressure.\n\nUnder Pressure Part 1\n\nWhat pressure is\nHow you use it\nHow you measure it"
-  },
-  {
-    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#absolute-atmospheric-and-gauge-pressure",
-    "href": "basics/processdata/PressurePt2JTFVisuals.html#absolute-atmospheric-and-gauge-pressure",
-    "title": "Chemical and Thermal Processes",
-    "section": "Absolute, Atmospheric, and Gauge Pressure",
-    "text": "Absolute, Atmospheric, and Gauge Pressure\n\n\n\n\n\n\\(\\Delta P = P_1 - P_2 = P_\\mathrm{absolute}=P_\\mathrm{abs}\\)\n\n\n\n\n\n\n\n\\(\\Delta P = P_1 - P_2 = P_\\mathrm{atmosphere}=P_\\mathrm{atm}\\)\n\n\n\n\n\n\n\n\\(\\Delta P = P_1 - P_2 = P_\\mathrm{gauge}=P_\\mathrm{g}\\)"
-  },
-  {
-    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#calculating-abs.-atm-gauge-pressures",
-    "href": "basics/processdata/PressurePt2JTFVisuals.html#calculating-abs.-atm-gauge-pressures",
-    "title": "Chemical and Thermal Processes",
-    "section": "Calculating Abs., Atm, Gauge Pressures",
-    "text": "Calculating Abs., Atm, Gauge Pressures\n\n\n\\(P_\\mathrm{abs} = P_\\mathrm{g}+P_\\mathrm{atm}\\)\n\\(P_\\mathrm{g} = P_\\mathrm{abs}-P_\\mathrm{atm}\\)\n\n\n\n\n\n\n\nAbsolute tire pressure gauge\nAtmospheric pressure gauge\nWeather report and local altitude"
-  },
-  {
-    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#barometric-and-atmospheric-pressure",
-    "href": "basics/processdata/PressurePt2JTFVisuals.html#barometric-and-atmospheric-pressure",
-    "title": "Chemical and Thermal Processes",
-    "section": "Barometric and Atmospheric Pressure",
-    "text": "Barometric and Atmospheric Pressure\n\nAbsolute pressure gauges – Easy, Absolute tire pressure gauges – Very Hard\nAtmospheric pressure gauges – a decent cell phone and an air pressure app\nWeather report – Easy, Local altitude – Use GPS\n\n\n\n\n\n\nWeather report gives barometric, not atmospheric pressure."
-  },
-  {
-    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#barometric-pressure",
-    "href": "basics/processdata/PressurePt2JTFVisuals.html#barometric-pressure",
-    "title": "Chemical and Thermal Processes",
-    "section": "Barometric Pressure",
-    "text": "Barometric Pressure\nThe barometric pressure is the local atmospheric pressure adjusted for altitude to sea level.\n\n\n\n\n\\[P_\\mathrm{baro}=P_\\mathrm{atm}(1-2.25577 \\times 10^{-5}h)^{5.25588}\\]\n\n\n\\[P_\\mathrm{atm}=P_\\mathrm{baro}(1-2.25577 \\times 10^{-5}h)^{-5.25588}\\]\nwith \\(h\\) in meters."
-  },
-  {
-    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#example",
-    "href": "basics/processdata/PressurePt2JTFVisuals.html#example",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example",
-    "text": "Example\nMeasure bicycle tire pressure in Claremont, CA, USA\n\n\n\\(P_\\mathrm{baro} = 29.89\\ \\mathrm{inHg}\\)\n\n\n\n\n\\(h_\\mathrm{Claremont} = 1340\\ \\mathrm{ft}=408.4\\ \\mathrm{m}\\)\n\n\n\n\n\\[\\begin{aligned}\nP_\\mathrm{atm} & =P_\\mathrm{baro}(1-2.25577 \\times 10^{-5}h)^{-5.25588} \\\\\n& =29.89\\ \\mathrm{inHg}(1-2.25577 \\times 10^{-5}\\cdot408.4)^{-5.25588} \\\\\n& = 28.47\\ \\mathrm{inHg}= 723.2\\ \\mathrm{Torr}= 13.98\\ \\mathrm{psia} \\approx 14.0\\ \\mathrm{psia}\n\\end{aligned}\\]\n\n\n\n\n\\(P_\\mathrm{g} = 36.0\\ \\mathrm{psig}\\)\n\n\n\n\n\\[\\begin{aligned}\nP_\\mathrm{abs} & = P_\\mathrm{g}+P_\\mathrm{atm} \\\\\n& =36.0\\ \\mathrm{psig}+14.0\\ \\mathrm{psia} = 50.0\\ \\mathrm{psia} =3.45\\ \\mathrm{bar}\n\\end{aligned}\\]"
-  },
-  {
-    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#spreadsheet",
-    "href": "basics/processdata/PressurePt2JTFVisuals.html#spreadsheet",
-    "title": "Chemical and Thermal Processes",
-    "section": "Spreadsheet",
-    "text": "Spreadsheet"
-  },
-  {
-    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#vacuum-pressure",
-    "href": "basics/processdata/PressurePt2JTFVisuals.html#vacuum-pressure",
-    "title": "Chemical and Thermal Processes",
-    "section": "Vacuum Pressure",
-    "text": "Vacuum Pressure\n\nAny pressure below local atmospheric\nIn psi it’s indicated by \\(\\mathrm{psiv}\\).\nNegative of gauge pressure, e.g., \\(P_\\mathrm{g}=-7\\ \\mathrm{psig} \\implies P_\\mathrm{v}=7\\ \\mathrm{psiv}\\)\nCommon in vacuum distillation and other processes"
-  },
-  {
-    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#high-vacuum",
-    "href": "basics/processdata/PressurePt2JTFVisuals.html#high-vacuum",
-    "title": "Chemical and Thermal Processes",
-    "section": "High Vacuum",
-    "text": "High Vacuum\n\nUsed in advanced materials processing\nMeasured as absolute pressure\n\n\n\nPressure ranges\n\n\nAcronym\nName\nMax P (Pa)\nMin P (Pa)\n\n\n\n\nHV\nHigh Vacuum\n\\(10^{-1}\\)\n\\(10^{-5}\\)\n\n\nUHV\nUltrahigh Vacuum\n\\(10^{-5}\\)\n\\(10^{-10}\\)\n\n\nEHV\nExtrememly High Vacuum\n\\(10^{-10}\\)\n\\(&lt;10^{-10}\\)"
-  },
-  {
-    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#summary",
-    "href": "basics/processdata/PressurePt2JTFVisuals.html#summary",
-    "title": "Chemical and Thermal Processes",
-    "section": "Summary",
-    "text": "Summary\n\nAbsolute, gauge, and atmospheric pressure are related by \\(P_\\mathrm{abs} = P_\\mathrm{g}+P_\\mathrm{atm}\\).\nBarometric and atmospheric pressure are related through the Standard Atmospheric Model.\nThe vacuum pressure is the absolute value of the gauge pressure below atmospheric.\nThe High Vacuum (HV) range is from \\(10^{-1}\\) to \\(10^{-5}\\ \\mathrm{Pa}\\), Ultrahigh Vacuum (UHV) from \\(10^{-5}\\) to \\(10^{-10}\\ \\mathrm{Pa}\\), and Extremely High Vacuum (EHV) is \\(10^{-10}\\ \\mathrm{Pa}\\) and below."
-  },
-  {
-    "objectID": "basics/processdata/PressureWebPage.html",
-    "href": "basics/processdata/PressureWebPage.html",
-    "title": "Under Pressure Reference Page",
+    "objectID": "basics/processdata/WhatIsAMoleTFSCC.html",
+    "href": "basics/processdata/WhatIsAMoleTFSCC.html",
+    "title": "CC Transcript of What Is a Mole? TFS",
     "section": "",
-    "text": "After temperature, pressure is the most common measured and reported quantity in chemical processes. The concept of pressure is fundamental to modeling, designing, and monitoring chemical processes. The Part 1 and Part 2 videos explain most of the fundamental and background information that a practicing engineer will need regarding pressure. Part 1 discusses what pressure or force per unit area is, how you use it, and some of the methods for measuring it. Part 2 continues the discussion with atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure. For those who caught the reference in the title, here is a link to the video.\n\n\nThe Full Story Video examines common conceptions and misconceptions about pressure before explaining the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have not been exposed to pressure before or who have struggled with understanding what pressure is or how it is used.\n\nVideo Link Goes Here Images, Transcript\n\n\n\nThe Just The Facts Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.\n\nVideo Link Goes Here Images, Transcript\n\n\n\nThe Full Story Video examines common conceptions and misconceptions about atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure before explaining what these different pressures are and how to use them. It is recommended for those who have not been exposed to these pressure concepts before or who have struggled with understanding the differences among them or how they are used.\n\nVideo Link Goes Here Images, Transcript\n\n\n\nThe Just The Facts Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.\n\nVideo Link Goes Here Images, Transcript"
+    "text": "&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE: I would, uh, eat it!\n&gt;&gt; NARRATOR: What is a mole is an episode of the Degrees of Freedom Project, “The Full Story” videos on chemical and thermal principles. If you want the “Just The Facts” version without the in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.\n&gt;&gt;INTERVIEWER: When we are talking about Chemical Engineering, what is a mole?\n&gt;&gt; INTERVIEWEE1: What is a mole?\n&gt;&gt;INTERVIEWER: Yeah.\n&gt;&gt; INTERVIEWEE1: I have no idea.\n&gt;&gt; INTERVIEWEE2: Uhmmm, I forgot.\n&gt;&gt; INTERVIEWEE3: Like a size, like a use, like a metric, kinda? I forgot the number, it’s like six point six oh eight point zero two two one.\n&gt;&gt; INTERVIEWEE4: Some unit of like how many molecules there are. I guess it could also be an animal, but that’s not really a thing for Chemical Engineering.\n&gt;&gt; INTERVIEWEE5: A mole is a unit of measurement. So the mole is just a number. Uhmm 6.02 times 10 to the 23. basically it’s a way of measuring atoms so that uhmm we can put them on a scale that is somewhat reasonable like to have and like use in the lab\n&gt;&gt; INTERVIEWER: And then, when we are talking about Chemical Engineering, what is a pound-mole?\n&gt;&gt; INTERVIEWEE6: Uhh, I’m not too sure.\n&gt;&gt; INTERVIEWEE7: I have no clue.\n&gt;&gt; INTERVIEWEE8: No clue.\n&gt;&gt; INTERVIEWEE9: I have no clue what that is.\n&gt;&gt; INTERVIEWEE10: I presume it’s some horrific cursed unit that Engineers came up with where they they do this insane thing where they combine like US imperial units with like metric units, and it’s just like the worst thing ever.\n&gt;&gt; INTERVIEWEE11: Probably like a certain number of moles that weigh a pound.\n&gt;&gt; INTERVIEWEE12: A pound-mole would be the number of molecules of something in a pound of that something.\n&gt;&gt; NARRATOR: A mole is the name given to the mass equivalent of the molar mass of a molecule. For example, a molecule of carbon dioxide has a molar mass of approximately 44.01, that means a gram mole, or simply a mole, of carbon dioxide has a mass of 44.01 grams, subsequently a pound-mole of carbon dioxide has a mass of 44.01 pounds mass.\nTo help you understand, this is one gram mole of table salt, and this is one pound-mole of table salt.\n&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE1: How would I use it?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: Without knowing what it is?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: I would eat it?!\n&gt;&gt; INTERVIEWEE2: I have no idea actually. Like for problems? Like I don’t know.\n&gt;&gt; INTERVIEWEE3: Like you can convert it to other units.\n&gt;&gt; INTERVIEWEE4: One mole of this element plus two moles of some other element might go to, combine to form certain compounds, so like balancing equations.\n&gt;&gt; INTERVIEWEE5: Balancing like chemical equations, like in stoichiometry you want to make sure yout number of moles um in is equal to your number of moles out.\n&gt;&gt; NARRATOR: So how do I use a mole? A mole is most useful when planning out or preparing reagents for a chemical reaction. You really need to start with a balanced chemical equation for the reaction. For example, one carbon atom and one oxygen molecule react to form one molecule of carbon dioxide.\nIf you wanted to make 100 pounds of carbon dioxide, you would need to calculate what mass of carbon atoms you would need, and what mass of oxygen molecules you would need. For an atomic species like carbon, you are technically supposed to use the name pound-atom or gram-atom, but in casual conversation, if you use the term pound-mole or gram-mole most engineers will understand.\nThe chemical equation means that one pound-atom of carbon will react with one pound-mole of oxygen molecules (which is just two pound-atoms of oxygen atoms) in order to form one pound-mole of carbon dioxide. Given that the molar mass (also called molecular weight) of carbon dioxide is about 44.01, 100 pounds of carbon dioxide is 100 divided by 44.01 or 2.272 pound-moles of carbon dioxide.\nWe need 2.272 pound-atoms of carbon and 2.272 pound-moles of oxygen molecules.\nThe atomic mass of carbon is approximately 12.01, and the molar mass of oxygen is about 32.00, so we need 2.272 times 12.01\nand 2.272 times 32.00\nThat gives us totals of 27.29 pounds of carbon\nand 72.70 pounds of oxygen in order to make our 100 pounds of carbon dioxide\n&gt;&gt; INTERVIEWER: And then do you know what Avogadro’s number is?\n&gt;&gt; INTERVIEWEE1: I don’t.\n&gt;&gt; INTERVIEWEE2: I have no idea what exactly it is.\n&gt;&gt; INTERVIEWEE3: Something times 10 to the 27th.\n&gt;&gt; INTERVIEWEE4: 1.602 times 10 to the 23rd.\n&gt;&gt; INTERVIEWEE5: 6.02 times 10 to the 23 molecules per gram.\n&gt;&gt; INTERVIEWEE6: Avogadro’s number is the number you use to convert um moles to molecules back and forth.\n&gt;&gt; INTERVIEWEE7: Avogadro’s constant is 6.023 to 10 to the power 23 if I remember correctly.\n&gt;&gt; NARRATOR: For a gram-mole, which is what chemists mean when they say mole, the international standards agencies have agreed on how many molecules are in exactly one mole. In the US, our standards agency is the National Institute of Standards and Technology or N.I.S.T. The value from their website is 6.022 140 76 times 10 to the 23rd per mol. That number is known as Avogadro’s number or the Avogadro constant.\nHowever, there is a corresponding number for each mass unit. For pounds mass the exact number is 1.327 654 687 336 03 times 10 to the 27th per pound-mole.\nThe N.I.S.T. website lists at least 15 different mass units, so there are at least that many types of moles, ranging from the carat-mole through the pennyweight-mole. The most common moles are the gram mole or mole, the kilogram-mol or kilomole, the metric-ton-mole or tonne-mole, the pound-mole, and the ton-mole.\nThe big question is “Why Can’t I Just Use the Mol that I’m Familiar With?” Well, you can, but you are more likely to make an error because of the extra conversions you have to do. There is a long conversion process if you use any mass unit other than the gram (which isn’t the SI unit, by the way. The SI unit is the kilogram.) The process is as follows: Starting with mass: First, convert mass unit to grams\nSecond, convert from grams to gram moles with the molar mass.\nThird, use the chemical equation to find the resultant gram moles\nFourth, convert from gram-moles to grams, then.\nThen finally, five, convert from grams to your original mass unit.\nDon’t do this!\nRather, you should use the next three simple steps, instead:\nFirst, convert from mass to moles with the molar mass.\nSecond, use the chemical equation to find the resultant moles.\nThen third and finally, convert from moles to mass.\nInstead of five steps, you have three steps, resulting in 40% fewer places to make a mistake.\nThe key takeaways are: First, Engineers use different types of moles because they have to work with different types of mass units.\nSecond, the molar mass is just the conversion factor between moles and mass, and it has the same numerical value regardless of the mass units involved.\nFinally, only use gram moles if your problem is being worked in grams.\nThanks for watching! To learn more about chemical and thermal processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series."
   },
   {
-    "objectID": "basics/processdata/PressureWebPage.html#part-1-the-full-story-video",
-    "href": "basics/processdata/PressureWebPage.html#part-1-the-full-story-video",
-    "title": "Under Pressure Reference Page",
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html",
+    "title": "What Is a Mole? Reference Page",
     "section": "",
-    "text": "The Full Story Video examines common conceptions and misconceptions about pressure before explaining the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have not been exposed to pressure before or who have struggled with understanding what pressure is or how it is used.\n\nVideo Link Goes Here Images, Transcript"
+    "text": "A mole is a basic concept in Chemical Engineering. It’s purpose is to determine the masses of reagents needed in chemical reactions. Unlike in Chemistry, where a mole is a mole is a mole, in Chemical Engineering engineers need to work with different mass units such as pounds-mass \\((\\mathrm{lb_m})\\), tons, and kilograms. For each mass unit there is a corresponding mole. For a chemical species, the numerical value of a mole in a given mass unit doesn’t change with the mass unit, but the unit does. For example, with \\(\\mathrm{NaCl}\\) that has a molecular mass of \\(58.443\\), a gram-mole (or simply mole) has a mass of \\(58.443\\ \\mathrm{g}\\), a pound-mole has a mass of \\(58.443\\ \\mathrm{lb_m}\\) and a ton-mole has a mass of \\(58.443\\ \\mathrm{ton}\\) (one might have to specify whether the ton is a long ton or a short ton).\nThe videos explain what a mole is and how it is used in basic Chemical Engineering calculations."
   },
   {
-    "objectID": "basics/processdata/PressureWebPage.html#the-part-1-just-the-facts-video",
-    "href": "basics/processdata/PressureWebPage.html#the-part-1-just-the-facts-video",
-    "title": "Under Pressure Reference Page",
-    "section": "",
-    "text": "The Just The Facts Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.\n\nVideo Link Goes Here Images, Transcript"
-  },
-  {
-    "objectID": "basics/processdata/PressureWebPage.html#part-2-the-full-story-video",
-    "href": "basics/processdata/PressureWebPage.html#part-2-the-full-story-video",
-    "title": "Under Pressure Reference Page",
-    "section": "",
-    "text": "The Full Story Video examines common conceptions and misconceptions about atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure before explaining what these different pressures are and how to use them. It is recommended for those who have not been exposed to these pressure concepts before or who have struggled with understanding the differences among them or how they are used.\n\nVideo Link Goes Here Images, Transcript"
-  },
-  {
-    "objectID": "basics/processdata/PressureWebPage.html#the-part-2-just-the-facts-video",
-    "href": "basics/processdata/PressureWebPage.html#the-part-2-just-the-facts-video",
-    "title": "Under Pressure Reference Page",
-    "section": "",
-    "text": "The Just The Facts Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.\n\nVideo Link Goes Here Images, Transcript"
-  },
-  {
-    "objectID": "basics/processdata/PressureWebPage.html#preceding-videos",
-    "href": "basics/processdata/PressureWebPage.html#preceding-videos",
-    "title": "Under Pressure Reference Page",
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#preceding-videos",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html#preceding-videos",
+    "title": "What Is a Mole? Reference Page",
     "section": "Preceding Videos",
-    "text": "Preceding Videos\nAs of this writing the two sets of videos preceding this set are:\n\nDimensionless Numbers The Full Story, Just The Facts, Reference Page\nMeasuring Temperature The Full Story, Just The Facts, Reference Page"
+    "text": "Preceding Videos\nAs of this writing the two sets of videos preceding this set are:\n\nUnder Pressure Part 1 The Full Story, Just The Facts, Reference Page\nUnder Pressure Part 2 The Full Story, Just The Facts, Reference Page"
   },
   {
-    "objectID": "basics/processdata/PressureWebPage.html#following-videos",
-    "href": "basics/processdata/PressureWebPage.html#following-videos",
-    "title": "Under Pressure Reference Page",
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#following-videos",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html#following-videos",
+    "title": "What Is a Mole? Reference Page",
     "section": "Following Videos",
-    "text": "Following Videos\nAs of this writing the two sets of videos following this set are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page"
+    "text": "Following Videos\nAs of this writing the two sets of videos following this set are:\n\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page\nVolume, Densit, Flow Rates The Full Story, Just The Facts, Reference Page"
   },
   {
-    "objectID": "basics/processdata/PressureWebPage.html#other-links",
-    "href": "basics/processdata/PressureWebPage.html#other-links",
-    "title": "Under Pressure Reference Page",
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#other-links",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html#other-links",
+    "title": "What Is a Mole? Reference Page",
     "section": "Other Links",
-    "text": "Other Links\n\nThe Wikipedia discussion of pressure. Units are discussed under Units.\nTeh Wikipedia discussion of pressure measurement. It contains discussion of absolute, gauge and differential pressures, and manometers."
+    "text": "Other Links\n\nThe Wikipedia discussion of the mole. The other mass unit moles are discussed under Similar units."
+  },
+  {
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-density-and-specific-volume",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-density-and-specific-volume",
+    "title": "Volume, Density, Flow Rate  Just the Facts",
+    "section": "Mass Density and Specific Volume",
+    "text": "Mass Density and Specific Volume\n\n\\(\\textbf{Mass Density (Density)}\\) \\(\\rightarrow\\) measure of mass per volume\n\n\nSI units: \\(\\mathrm{kg/m^3}\\)\n\n\n\\(\\rho\\) \\(= \\frac{m}{V}\\) \\(= \\frac{1}{}\\)\n\n\n\n\n\n\\(\\textbf{Specific Volume}\\) \\(\\rightarrow\\) Reciprocal of mass density\n\n\nSI units: \\(\\mathrm{m^3/kg}\\)\n\n\n\n\n\n\\(\\text{ }\\text{ }\\) \\(= \\frac{V}{m}\\) \\(= \\frac{1}{\\rho}\\)"
+  },
+  {
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#molar-density-and-molar-volume",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#molar-density-and-molar-volume",
+    "title": "Volume, Density, Flow Rate  Just the Facts",
+    "section": "Molar Density and Molar Volume",
+    "text": "Molar Density and Molar Volume\n\n\\(\\textbf{Molar Density}\\) \\(\\rightarrow\\) measure of # of moles per volume\n\n\nSI units: \\(\\text{g-mol}\\mathrm{/m^3}\\) (same units as concentration)\n\n\n\\(\\rho\\) \\(= \\frac{n}{V}\\) \\(= \\frac{1}{}\\)\n\n\n\n\n\n\\(\\textbf{Molar Volume}\\) \\(\\rightarrow\\) reciprocal of molar density\n\n\nSI units: \\(\\mathrm{m^3/}\\text{g-mol}\\)\n\n\n\n\n\n\\(\\text{ }\\text{ }\\) \\(= \\frac{V}{n}\\) \\(= \\frac{1}{\\rho}\\)\n\n\nWe reuse the symbols for mass density and specific volume for molar density and molar volume.  Check the units to determine which is being used!"
+  },
+  {
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#specific-gravity",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#specific-gravity",
+    "title": "Volume, Density, Flow Rate  Just the Facts",
+    "section": "Specific Gravity",
+    "text": "Specific Gravity\n\nSpecific Gravity \\(\\rightarrow\\) ratio of density to a reference density\n\n\nSpecific gravity = \\(\\frac{\\rho}{\\mathrm{\\rho_{ref}}}\\)\n\n\nMost common reference density \\(\\rightarrow\\) liquid water at \\(4^{\\circ}\\text{C}\\)\n\n\n\\(\\rho \\text{ } \\mathrm{_{ H_2O(\\textit{l})}} \\text{ }4^{\\circ}\\text{C}\\) = 1000 \\(\\mathrm{kg/m^3}\\)\n\n\n= 1.000 \\(\\mathrm{g/cm^3}\\)\n\n\n= 62.43 \\(\\mathrm{lb_m/ft^3}\\)"
+  },
+  {
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#concentration",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#concentration",
+    "title": "Volume, Density, Flow Rate  Just the Facts",
+    "section": "Concentration",
+    "text": "Concentration\n\n\\(\\textbf{Molar Concentration}\\) (Concentration) \\(\\rightarrow\\) # of moles per unit volume\n\n\n\\(\\mathrm{C_A =} \\frac{\\mathrm{n_A}}{V}\\)\n\n\nFor an ideal gas, can be calculated as:\n\n\n\\(\\mathrm{C_A =} \\frac{\\mathrm{n_A}}{V} = \\frac{\\mathrm{P_A}}{RT}\\)\n\n\n\\(\\textbf{Mass Concentration}\\) \\(\\rightarrow\\) mass per unit volume (same units as density)\n\n\nMost often used for quantities of salinity\n\n\n\\(\\mathrm{C_A =} \\frac{\\mathrm{m_A}}{V}\\)"
+  },
+  {
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-molar-and-volumetric-flow-rates",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-molar-and-volumetric-flow-rates",
+    "title": "Volume, Density, Flow Rate  Just the Facts",
+    "section": "Mass, Molar, and Volumetric Flow Rates",
+    "text": "Mass, Molar, and Volumetric Flow Rates\n\n\\(\\textbf{Mass Flow Rate}\\) \\(\\rightarrow\\) \\(\\frac{\\text{amount of mass flowing past a given location}}{\\text{period of time}}\\)\n\n\n\\(\\sum \\mathrm{\\overset{.}{m}_{i_{in}}}\\) = \\(\\sum \\mathrm{\\overset{.}{m}_{i_{out}}}\\) \\(\\text{               (open, steady state)}\\)\n\n\n\\(\\textbf{Molar Flow Rate}\\) \\(\\rightarrow\\) \\(\\frac{\\text{# of moles flowing past a given location}}{\\text{period of time}}\\)\n\n\n\\(\\sum \\mathrm{\\overset{.}{n}_{i_{in}}}\\) = \\(\\sum \\mathrm{\\overset{.}{n}_{i_{out}}}\\) (\\(\\text{open, steady state,}\\) \\(\\textbf{no reactions}\\))"
+  },
+  {
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-molar-and-volumetric-flow-rates-cont.",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-molar-and-volumetric-flow-rates-cont.",
+    "title": "Volume, Density, Flow Rate  Just the Facts",
+    "section": "Mass, Molar, and Volumetric Flow Rates (cont.)",
+    "text": "Mass, Molar, and Volumetric Flow Rates (cont.)\n\n\\(\\textbf{Volumetric Flow Rate}\\) \\(\\rightarrow\\) \\(\\frac{\\text{volume of fluid flowing past a given location}}{\\text{period of time}}\\)\n\n\n\\(\\sum \\mathrm{\\overset{.}{V}_{i_{in}}}\\) \\(\\neq\\) \\(\\sum \\mathrm{\\overset{.}{V}_{i_{out}}}\\) (\\(\\text{in general}\\))"
+  },
+  {
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-molar-and-volumetric-flow-rates-cont.-1",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-molar-and-volumetric-flow-rates-cont.-1",
+    "title": "Volume, Density, Flow Rate  Just the Facts",
+    "section": "Mass, Molar, and Volumetric Flow Rates (cont.)",
+    "text": "Mass, Molar, and Volumetric Flow Rates (cont.)\n\\(\\textbf{Volumetric Flow Rate}\\) \\(\\rightarrow\\) \\(\\frac{\\text{volume of fluid flowing past a given location}}{\\text{period of time}}\\)\n\n\\(\\sum \\mathrm{\\overset{.}{V}_{i_{in}}}\\) \\(\\neq\\) \\(\\sum \\mathrm{\\overset{.}{V}_{i_{out}}}\\) (\\(\\text{in general}\\))\n\n\nGiven a specific location in space and instant in time, the following relationship exists betweenn the the volumetric flow rate (\\(\\mathrm{\\overset{.}{V}}\\)), the average fluid velocity (\\(\\textit{u}\\)), and the cross-sectional area of the flow (\\(\\textit{A}\\)):\n\n\n\\(\\mathrm{\\overset{.}{V}}\\) = \\(\\textit{uA}\\)\n\n\nFor an open, steady state system, the previous expression is true at any location in the system."
+  },
+  {
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-molar-and-volumetric-flow-rates-cont.-2",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-molar-and-volumetric-flow-rates-cont.-2",
+    "title": "Volume, Density, Flow Rate  Just the Facts",
+    "section": "Mass, Molar, and Volumetric Flow Rates (cont.)",
+    "text": "Mass, Molar, and Volumetric Flow Rates (cont.)\n\nRelationship between mass flow rate (\\(\\mathrm{\\overset{.}{m}}\\)) and volumetric flow rate (\\(\\mathrm{\\overset{.}{V}}\\)):\n\n\n\\(\\mathrm{\\overset{.}{m}}\\) = \\(\\mathrm{\\overset{.}{V}}\\) \\(\\rho\\)\n\n\n\\(\\mathrm{\\overset{.}{V}_{in}}\\) \\(\\mathrm{\\rho_{in}}\\) = \\(\\mathrm{\\overset{.}{V}_{out}}\\) \\(\\mathrm{\\rho_{out}}\\) (open, steady-state system, 1 inlet & 1 outlet)\n\n\nDon’t Forget!\n\n\nVolume \\(\\neq\\) conserved quantity\n\n\nmass/molar flowrate \\(\\rightarrow\\) constant \\(\\neq\\) volumetric flowrate \\(\\rightarrow\\) constant"
   },
   {
     "objectID": "basics/processdata/WhatIsAMoleVisuals.html#definition",
@@ -238,32 +161,130 @@
     "text": "The principles in Chemical and Thermal Processes are applicable in\n\nChemical Engineering\nPetroleum Engineering\nMechanical Engineering\nMaterials Engineering\nBioengineering\nEnvironmental Engineering\nEnergy Engineering\nSustainability\nManufacturing Engineering\nIndustrial Engineering\nMarine and Aerospace Engineering"
   },
   {
-    "objectID": "basics/stats/WhyStatsJTFVisuals.html#true-mean-standard-deviation",
-    "href": "basics/stats/WhyStatsJTFVisuals.html#true-mean-standard-deviation",
-    "title": "Why Statistics?  Just the Facts",
-    "section": "True Mean & Standard Deviation",
-    "text": "True Mean & Standard Deviation\n\nInfinite Precision Exact Measurement\nFull Population Measurement\nTrue Mean or Population Mean \\(\\equiv \\mu\\)\nTrue Standard Deviation \\(\\equiv \\sigma\\)"
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#reporting-uncertainty",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#reporting-uncertainty",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 1",
+    "section": "Reporting Uncertainty",
+    "text": "Reporting Uncertainty\n\n\\(\\textit{m} = 1.03 \\pm 0.03 \\text{ kg (95% confidence)}\\)\n\n\n\\(\\textit{u} = 2.36 \\pm 0.04 \\text{ m/s (95% confidence)}\\)\n\n\n\\(\\textit{mu} = 2.43 \\pm 0.08 \\text{ }\\text{ kg}\\cdot\\text{m/s }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}\\textit{mu}\\mathrm{^2} = 2.87 \\pm 0.13 \\text{J (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
   },
   {
-    "objectID": "basics/stats/WhyStatsJTFVisuals.html#sample-mean-standard-deviation",
-    "href": "basics/stats/WhyStatsJTFVisuals.html#sample-mean-standard-deviation",
-    "title": "Why Statistics?  Just the Facts",
-    "section": "Sample Mean & Standard Deviation",
-    "text": "Sample Mean & Standard Deviation\n\nThe set of measurements \\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\) \\[\\bar{x}=\\frac{\\sum_{i=1}^Nx_i}{N}\\approx\\mu\\] Can we calculate the error \\(e_i =\\mu-x_i\\) ? The set of errors \\(\\{e_1,e_2,\\ldots e_N\\}\\) {x1,x2,!xN} N åx x = i=1 i N » μ How do we estimate μ -x ? Calculate the residual ei =x-xi The set of residuals {e1 ,e2 ,!eN }"
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#reporting-functional-uncertainty",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#reporting-functional-uncertainty",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 1",
+    "section": "Reporting Functional Uncertainty",
+    "text": "Reporting Functional Uncertainty\n\n\\(\\mathrm{F_s = k(x_n-x_f)}\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=26544\n\n\n\n\n\n\\(\\textit{F}\\mathrm{_s} = 30.00 \\pm 2.50\\)(95% conf.)N/m(\\(\\textit{x}\\mathrm{_n}-\\textit{x}\\mathrm{_f}\\))"
   },
   {
-    "objectID": "appx/Nomenclature.html",
-    "href": "appx/Nomenclature.html",
-    "title": "List of Nomenclature",
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#true-mean-and-standard-deviation",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#true-mean-and-standard-deviation",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 1",
+    "section": "True Mean and Standard Deviation",
+    "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(\\rightarrow\\) True Mean or Population Mean\n\n\nTrue/Population Mean \\(\\equiv \\mu\\)\n\n\nAverage value from infinite-precision, full population measurement (almost never known) \\(\\rightarrow \\mu\\)\n\n\nDistribution of data about the true mean \\(\\rightarrow\\) True Standard Deviation or Population Standard Deviation\n\n\nTrue/Population Standard Deviation \\(\\equiv \\sigma\\)\n\n\nStandard deviation given true mean and infinite-precision data points (also almost never known) \\(\\rightarrow \\sigma\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#sample-mean-and-residuals",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#sample-mean-and-residuals",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 1",
+    "section": "Sample Mean and Residuals",
+    "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\n\\(\\downarrow\\)\n\n\n\\(\\textit{x}\\mathrm{_1}\\) = 43.15\n\n\n\n\n\nN\n\n\nmeasurements\n\n\n\\(\\rightarrow\\)\n\n\nN independent\n\n\nequations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\downarrow\\)\n\n\nsample mean\n\n\n\\(\\downarrow\\)\n\n\ntrue mean\n\n\nHow do we estimate \\(\\mathrm{\\mu - \\bar{x}}\\)?\n\n\nCan we calculate the  error \\(\\text{ }\\text{ }\\varepsilon_i =\\mu-x_i\\)?\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(\\textit{e}\\mathrm{_i} = \\bar{x} - \\mathrm{x_i}\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#sample-variance-and-standard-deviation",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#sample-variance-and-standard-deviation",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 1",
+    "section": "Sample Variance and Standard Deviation",
+    "text": "Sample Variance and Standard Deviation\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#are-we-there-yet",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#are-we-there-yet",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 1",
+    "section": "Are We There Yet?",
+    "text": "Are We There Yet?"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#key-takeaways",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#key-takeaways",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 1",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 2",
+    "section": "Summary from Part 1",
+    "text": "Summary from Part 1\n\n\\(\\textit{m} = 1.03 \\pm 0.03 \\text{ kg (95% confidence)}\\)\n\n\n\\(\\textit{u} = 2.36 \\pm 0.04 \\text{ m/s (95% confidence)}\\)\n\n\n\\(\\textit{mu} = 2.43 \\pm 0.08 \\text{ }\\text{ kg}\\cdot\\text{m/s }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}\\mathrm{mu^2} = 2.87 \\pm 0.13 \\text{J (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#standard-error-and-estimated-standard-error",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#standard-error-and-estimated-standard-error",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 2",
+    "section": "Standard Error and Estimated Standard Error",
+    "text": "Standard Error and Estimated Standard Error\n\n\\(\\mathrm{F_s = k(x_n-x_f)}\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-textitt",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-textitt",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 2",
+    "section": "William Gossett and Student’s \\(\\textit{t}\\)",
+    "text": "William Gossett and Student’s \\(\\textit{t}\\)\n\nTrue value of a measured quantity \\(\\rightarrow\\) True Mean or Population Mean\n\n\nTrue/Population Mean \\(\\equiv \\mu\\)\n\n\nAverage value from infinite-precision, full population measurement (almost never known) \\(\\rightarrow \\mu\\)\n\n\nDistribution of data about the true mean \\(\\rightarrow\\) True Standard Deviation or Population Standard Deviation\n\n\nTrue/Population Standard Deviation \\(\\equiv \\sigma\\)\n\n\nStandard deviation given true mean and infinite-precision data points (also almost never known) \\(\\rightarrow \\sigma\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#textitt-test",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#textitt-test",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 2",
+    "section": "\\(\\textit{t}\\)-test",
+    "text": "\\(\\textit{t}\\)-test\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\nHow do we estimate \\(\\mathrm{\\mu - \\bar{x}}\\)?\n\n\nCan we calculate the  error \\(\\text{ }\\text{ }e_i =\\mu-x_i\\)?"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#textitt-table",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#textitt-table",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 2",
+    "section": "\\(\\textit{t}\\)-table",
+    "text": "\\(\\textit{t}\\)-table\nThe set of errors \\(\\{e_1,e_2,\\ldots e_N\\}\\) \\(\\{x_1,x_2,\\dots , x_N\\}\\) N åx x = i=1 i N » μ How do we estimate μ -x ? Calculate the residual ei =x-xi The set of residuals {e1 ,e2 ,!eN } We lose one degree of freedom, or an independent equation, by using the sample mean in our calculation."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#trade-offs",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#trade-offs",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 2",
+    "section": "Trade-Offs",
+    "text": "Trade-Offs"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#textitt-vs.-n",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#textitt-vs.-n",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 2",
+    "section": "\\(\\textit{t}\\) vs. N",
+    "text": "\\(\\textit{t}\\) vs. N"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#confidence-interval-vs.-n",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#confidence-interval-vs.-n",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 2",
+    "section": "Confidence Interval vs. N",
+    "text": "Confidence Interval vs. N"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#confidence-interval-and-textitt-vs.-samples",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#confidence-interval-and-textitt-vs.-samples",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 2",
+    "section": "Confidence Interval and \\(\\textit{t}\\) vs. Samples",
+    "text": "Confidence Interval and \\(\\textit{t}\\) vs. Samples"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#key-takeaways",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#key-takeaways",
+    "title": "Why Statistics? Intro and Basics  Just the Facts  Part 2",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways"
+  },
+  {
+    "objectID": "appx/index.html",
+    "href": "appx/index.html",
+    "title": "Appendices",
     "section": "",
-    "text": "This page is to test web versions of the nomenclature or variable names for the videos and the website."
-  },
-  {
-    "objectID": "appx/Nomenclature.html#footnotes",
-    "href": "appx/Nomenclature.html#footnotes",
-    "title": "List of Nomenclature",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nElementary Principles of Chemical Processes, 4th Edition, Richard M. Felder, Ronald W. Rousseau, Lisa G. Bullard, ISBN: 978-1-119-19210-7, December 2018↩︎\nIntroduction to Chemical Engineering Thermodynamics, 9th Edition, Hendrick Van Ness, Michael Abbott, J.M. Smith, Mark Swihart, 2022, ISBN10: 1260721477 | ISBN13: 9781260721478↩︎\nThermodynamics: An Engineering Approach Edition: 9th, Yunus Çengel, Michael Boles, 2019, ISBN10:1260920445↩︎\nIntroduction to Chemical Engineering Kinetics & Reactor Design, 2nd Ed. Hill & Root, Wiley. ISBN: 978-1-118-36825-1↩︎\nFor example, \\(C_p= a + bt + cT^2 + dT^3\\) where \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are empirical constants.↩︎\nThere are two common friction factors in use. Mechanical Engineers tend to use the Moody friction factor, also known as the Darcy or Blasius friction factor. Chemical Engineers tend to use the Fanning friction factor. \\(f_\\mathrm{Fanning} = f_\\mathrm{Moody}/4\\). Be sure to identify which friction factor your tables, charts, and equations use.↩︎\nThere are subtle distictions between molar mass, molecular mass, and molecular weight. For a fairly full discussion read Wikipedia: Molar mass↩︎\n\\(S\\) is normally used when referring to the total surface area of a catalyst pellet or porous solid. \\(A\\) is normally used for other surface areas, such as a sphere, tube, or reactor.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎"
+    "text": "There are the following appendices:\n\nAppendix A – Nomenclature\nA list of nomenclature\n\n\nAppendix B\nAppendix B\n\n\nAppendix C\nAppendix C"
   },
   {
     "objectID": "index.html",
@@ -378,11 +399,18 @@
     "text": "More in depth study of chemical reactor engineering"
   },
   {
-    "objectID": "appx/index.html",
-    "href": "appx/index.html",
-    "title": "Appendices",
+    "objectID": "appx/Nomenclature.html",
+    "href": "appx/Nomenclature.html",
+    "title": "List of Nomenclature",
     "section": "",
-    "text": "There are the following appendices:\n\nAppendix A – Nomenclature\nA list of nomenclature\n\n\nAppendix B\nAppendix B\n\n\nAppendix C\nAppendix C"
+    "text": "This page is to test web versions of the nomenclature or variable names for the videos and the website."
+  },
+  {
+    "objectID": "appx/Nomenclature.html#footnotes",
+    "href": "appx/Nomenclature.html#footnotes",
+    "title": "List of Nomenclature",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nElementary Principles of Chemical Processes, 4th Edition, Richard M. Felder, Ronald W. Rousseau, Lisa G. Bullard, ISBN: 978-1-119-19210-7, December 2018↩︎\nIntroduction to Chemical Engineering Thermodynamics, 9th Edition, Hendrick Van Ness, Michael Abbott, J.M. Smith, Mark Swihart, 2022, ISBN10: 1260721477 | ISBN13: 9781260721478↩︎\nThermodynamics: An Engineering Approach Edition: 9th, Yunus Çengel, Michael Boles, 2019, ISBN10:1260920445↩︎\nIntroduction to Chemical Engineering Kinetics & Reactor Design, 2nd Ed. Hill & Root, Wiley. ISBN: 978-1-118-36825-1↩︎\nFor example, \\(C_p= a + bt + cT^2 + dT^3\\) where \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are empirical constants.↩︎\nThere are two common friction factors in use. Mechanical Engineers tend to use the Moody friction factor, also known as the Darcy or Blasius friction factor. Chemical Engineers tend to use the Fanning friction factor. \\(f_\\mathrm{Fanning} = f_\\mathrm{Moody}/4\\). Be sure to identify which friction factor your tables, charts, and equations use.↩︎\nThere are subtle distictions between molar mass, molecular mass, and molecular weight. For a fairly full discussion read Wikipedia: Molar mass↩︎\n\\(S\\) is normally used when referring to the total surface area of a catalyst pellet or porous solid. \\(A\\) is normally used for other surface areas, such as a sphere, tube, or reactor.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎"
   },
   {
     "objectID": "basics/stats/StatsMeasurementsWebPage.html",
@@ -497,45 +525,185 @@
     "text": "Summary\n\nPressure is the second most commonly measured process variable.\nHydrostatic pressure \\(= \\rho g h\\).\nManometers measure \\(\\Delta P\\)’s with hydrostatic pressure."
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleWebPage.html",
-    "href": "basics/processdata/WhatIsAMoleWebPage.html",
-    "title": "What Is a Mole? Reference Page",
+    "objectID": "basics/processdata/PressureWebPage.html",
+    "href": "basics/processdata/PressureWebPage.html",
+    "title": "Under Pressure Reference Page",
     "section": "",
-    "text": "A mole is a basic concept in Chemical Engineering. It’s purpose is to determine the masses of reagents needed in chemical reactions. Unlike in Chemistry, where a mole is a mole is a mole, in Chemical Engineering engineers need to work with different mass units such as pounds-mass \\((\\mathrm{lb_m})\\), tons, and kilograms. For each mass unit there is a corresponding mole. For a chemical species, the numerical value of a mole in a given mass unit doesn’t change with the mass unit, but the unit does. For example, with \\(\\mathrm{NaCl}\\) that has a molecular mass of \\(58.443\\), a gram-mole (or simply mole) has a mass of \\(58.443\\ \\mathrm{g}\\), a pound-mole has a mass of \\(58.443\\ \\mathrm{lb_m}\\) and a ton-mole has a mass of \\(58.443\\ \\mathrm{ton}\\) (one might have to specify whether the ton is a long ton or a short ton).\nThe videos explain what a mole is and how it is used in basic Chemical Engineering calculations."
+    "text": "After temperature, pressure is the most common measured and reported quantity in chemical processes. The concept of pressure is fundamental to modeling, designing, and monitoring chemical processes. The Part 1 and Part 2 videos explain most of the fundamental and background information that a practicing engineer will need regarding pressure. Part 1 discusses what pressure or force per unit area is, how you use it, and some of the methods for measuring it. Part 2 continues the discussion with atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure. For those who caught the reference in the title, here is a link to the video.\n\n\nThe Full Story Video examines common conceptions and misconceptions about pressure before explaining the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have not been exposed to pressure before or who have struggled with understanding what pressure is or how it is used.\n\nVideo Link Goes Here Images, Transcript\n\n\n\nThe Just The Facts Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.\n\nVideo Link Goes Here Images, Transcript\n\n\n\nThe Full Story Video examines common conceptions and misconceptions about atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure before explaining what these different pressures are and how to use them. It is recommended for those who have not been exposed to these pressure concepts before or who have struggled with understanding the differences among them or how they are used.\n\nVideo Link Goes Here Images, Transcript\n\n\n\nThe Just The Facts Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.\n\nVideo Link Goes Here Images, Transcript"
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#preceding-videos",
-    "href": "basics/processdata/WhatIsAMoleWebPage.html#preceding-videos",
-    "title": "What Is a Mole? Reference Page",
+    "objectID": "basics/processdata/PressureWebPage.html#part-1-the-full-story-video",
+    "href": "basics/processdata/PressureWebPage.html#part-1-the-full-story-video",
+    "title": "Under Pressure Reference Page",
+    "section": "",
+    "text": "The Full Story Video examines common conceptions and misconceptions about pressure before explaining the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have not been exposed to pressure before or who have struggled with understanding what pressure is or how it is used.\n\nVideo Link Goes Here Images, Transcript"
+  },
+  {
+    "objectID": "basics/processdata/PressureWebPage.html#the-part-1-just-the-facts-video",
+    "href": "basics/processdata/PressureWebPage.html#the-part-1-just-the-facts-video",
+    "title": "Under Pressure Reference Page",
+    "section": "",
+    "text": "The Just The Facts Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.\n\nVideo Link Goes Here Images, Transcript"
+  },
+  {
+    "objectID": "basics/processdata/PressureWebPage.html#part-2-the-full-story-video",
+    "href": "basics/processdata/PressureWebPage.html#part-2-the-full-story-video",
+    "title": "Under Pressure Reference Page",
+    "section": "",
+    "text": "The Full Story Video examines common conceptions and misconceptions about atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure before explaining what these different pressures are and how to use them. It is recommended for those who have not been exposed to these pressure concepts before or who have struggled with understanding the differences among them or how they are used.\n\nVideo Link Goes Here Images, Transcript"
+  },
+  {
+    "objectID": "basics/processdata/PressureWebPage.html#the-part-2-just-the-facts-video",
+    "href": "basics/processdata/PressureWebPage.html#the-part-2-just-the-facts-video",
+    "title": "Under Pressure Reference Page",
+    "section": "",
+    "text": "The Just The Facts Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.\n\nVideo Link Goes Here Images, Transcript"
+  },
+  {
+    "objectID": "basics/processdata/PressureWebPage.html#preceding-videos",
+    "href": "basics/processdata/PressureWebPage.html#preceding-videos",
+    "title": "Under Pressure Reference Page",
     "section": "Preceding Videos",
-    "text": "Preceding Videos\nAs of this writing the two sets of videos preceding this set are:\n\nUnder Pressure Part 1 The Full Story, Just The Facts, Reference Page\nUnder Pressure Part 2 The Full Story, Just The Facts, Reference Page"
+    "text": "Preceding Videos\nAs of this writing the two sets of videos preceding this set are:\n\nDimensionless Numbers The Full Story, Just The Facts, Reference Page\nMeasuring Temperature The Full Story, Just The Facts, Reference Page"
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#following-videos",
-    "href": "basics/processdata/WhatIsAMoleWebPage.html#following-videos",
-    "title": "What Is a Mole? Reference Page",
+    "objectID": "basics/processdata/PressureWebPage.html#following-videos",
+    "href": "basics/processdata/PressureWebPage.html#following-videos",
+    "title": "Under Pressure Reference Page",
     "section": "Following Videos",
-    "text": "Following Videos\nAs of this writing the two sets of videos following this set are:\n\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page\nVolume, Densit, Flow Rates The Full Story, Just The Facts, Reference Page"
+    "text": "Following Videos\nAs of this writing the two sets of videos following this set are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page"
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#other-links",
-    "href": "basics/processdata/WhatIsAMoleWebPage.html#other-links",
-    "title": "What Is a Mole? Reference Page",
+    "objectID": "basics/processdata/PressureWebPage.html#other-links",
+    "href": "basics/processdata/PressureWebPage.html#other-links",
+    "title": "Under Pressure Reference Page",
     "section": "Other Links",
-    "text": "Other Links\n\nThe Wikipedia discussion of the mole. The other mass unit moles are discussed under Similar units."
+    "text": "Other Links\n\nThe Wikipedia discussion of pressure. Units are discussed under Units.\nTeh Wikipedia discussion of pressure measurement. It contains discussion of absolute, gauge and differential pressures, and manometers."
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleTFSCC.html",
-    "href": "basics/processdata/WhatIsAMoleTFSCC.html",
-    "title": "CC Transcript of What Is a Mole? TFS",
-    "section": "",
-    "text": "&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE: I would, uh, eat it!\n&gt;&gt; NARRATOR: What is a mole is an episode of the Degrees of Freedom Project, “The Full Story” videos on chemical and thermal principles. If you want the “Just The Facts” version without the in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.\n&gt;&gt;INTERVIEWER: When we are talking about Chemical Engineering, what is a mole?\n&gt;&gt; INTERVIEWEE1: What is a mole?\n&gt;&gt;INTERVIEWER: Yeah.\n&gt;&gt; INTERVIEWEE1: I have no idea.\n&gt;&gt; INTERVIEWEE2: Uhmmm, I forgot.\n&gt;&gt; INTERVIEWEE3: Like a size, like a use, like a metric, kinda? I forgot the number, it’s like six point six oh eight point zero two two one.\n&gt;&gt; INTERVIEWEE4: Some unit of like how many molecules there are. I guess it could also be an animal, but that’s not really a thing for Chemical Engineering.\n&gt;&gt; INTERVIEWEE5: A mole is a unit of measurement. So the mole is just a number. Uhmm 6.02 times 10 to the 23. basically it’s a way of measuring atoms so that uhmm we can put them on a scale that is somewhat reasonable like to have and like use in the lab\n&gt;&gt; INTERVIEWER: And then, when we are talking about Chemical Engineering, what is a pound-mole?\n&gt;&gt; INTERVIEWEE6: Uhh, I’m not too sure.\n&gt;&gt; INTERVIEWEE7: I have no clue.\n&gt;&gt; INTERVIEWEE8: No clue.\n&gt;&gt; INTERVIEWEE9: I have no clue what that is.\n&gt;&gt; INTERVIEWEE10: I presume it’s some horrific cursed unit that Engineers came up with where they they do this insane thing where they combine like US imperial units with like metric units, and it’s just like the worst thing ever.\n&gt;&gt; INTERVIEWEE11: Probably like a certain number of moles that weigh a pound.\n&gt;&gt; INTERVIEWEE12: A pound-mole would be the number of molecules of something in a pound of that something.\n&gt;&gt; NARRATOR: A mole is the name given to the mass equivalent of the molar mass of a molecule. For example, a molecule of carbon dioxide has a molar mass of approximately 44.01, that means a gram mole, or simply a mole, of carbon dioxide has a mass of 44.01 grams, subsequently a pound-mole of carbon dioxide has a mass of 44.01 pounds mass.\nTo help you understand, this is one gram mole of table salt, and this is one pound-mole of table salt.\n&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE1: How would I use it?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: Without knowing what it is?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: I would eat it?!\n&gt;&gt; INTERVIEWEE2: I have no idea actually. Like for problems? Like I don’t know.\n&gt;&gt; INTERVIEWEE3: Like you can convert it to other units.\n&gt;&gt; INTERVIEWEE4: One mole of this element plus two moles of some other element might go to, combine to form certain compounds, so like balancing equations.\n&gt;&gt; INTERVIEWEE5: Balancing like chemical equations, like in stoichiometry you want to make sure yout number of moles um in is equal to your number of moles out.\n&gt;&gt; NARRATOR: So how do I use a mole? A mole is most useful when planning out or preparing reagents for a chemical reaction. You really need to start with a balanced chemical equation for the reaction. For example, one carbon atom and one oxygen molecule react to form one molecule of carbon dioxide.\nIf you wanted to make 100 pounds of carbon dioxide, you would need to calculate what mass of carbon atoms you would need, and what mass of oxygen molecules you would need. For an atomic species like carbon, you are technically supposed to use the name pound-atom or gram-atom, but in casual conversation, if you use the term pound-mole or gram-mole most engineers will understand.\nThe chemical equation means that one pound-atom of carbon will react with one pound-mole of oxygen molecules (which is just two pound-atoms of oxygen atoms) in order to form one pound-mole of carbon dioxide. Given that the molar mass (also called molecular weight) of carbon dioxide is about 44.01, 100 pounds of carbon dioxide is 100 divided by 44.01 or 2.272 pound-moles of carbon dioxide.\nWe need 2.272 pound-atoms of carbon and 2.272 pound-moles of oxygen molecules.\nThe atomic mass of carbon is approximately 12.01, and the molar mass of oxygen is about 32.00, so we need 2.272 times 12.01\nand 2.272 times 32.00\nThat gives us totals of 27.29 pounds of carbon\nand 72.70 pounds of oxygen in order to make our 100 pounds of carbon dioxide\n&gt;&gt; INTERVIEWER: And then do you know what Avogadro’s number is?\n&gt;&gt; INTERVIEWEE1: I don’t.\n&gt;&gt; INTERVIEWEE2: I have no idea what exactly it is.\n&gt;&gt; INTERVIEWEE3: Something times 10 to the 27th.\n&gt;&gt; INTERVIEWEE4: 1.602 times 10 to the 23rd.\n&gt;&gt; INTERVIEWEE5: 6.02 times 10 to the 23 molecules per gram.\n&gt;&gt; INTERVIEWEE6: Avogadro’s number is the number you use to convert um moles to molecules back and forth.\n&gt;&gt; INTERVIEWEE7: Avogadro’s constant is 6.023 to 10 to the power 23 if I remember correctly.\n&gt;&gt; NARRATOR: For a gram-mole, which is what chemists mean when they say mole, the international standards agencies have agreed on how many molecules are in exactly one mole. In the US, our standards agency is the National Institute of Standards and Technology or N.I.S.T. The value from their website is 6.022 140 76 times 10 to the 23rd per mol. That number is known as Avogadro’s number or the Avogadro constant.\nHowever, there is a corresponding number for each mass unit. For pounds mass the exact number is 1.327 654 687 336 03 times 10 to the 27th per pound-mole.\nThe N.I.S.T. website lists at least 15 different mass units, so there are at least that many types of moles, ranging from the carat-mole through the pennyweight-mole. The most common moles are the gram mole or mole, the kilogram-mol or kilomole, the metric-ton-mole or tonne-mole, the pound-mole, and the ton-mole.\nThe big question is “Why Can’t I Just Use the Mol that I’m Familiar With?” Well, you can, but you are more likely to make an error because of the extra conversions you have to do. There is a long conversion process if you use any mass unit other than the gram (which isn’t the SI unit, by the way. The SI unit is the kilogram.) The process is as follows: Starting with mass: First, convert mass unit to grams\nSecond, convert from grams to gram moles with the molar mass.\nThird, use the chemical equation to find the resultant gram moles\nFourth, convert from gram-moles to grams, then.\nThen finally, five, convert from grams to your original mass unit.\nDon’t do this!\nRather, you should use the next three simple steps, instead:\nFirst, convert from mass to moles with the molar mass.\nSecond, use the chemical equation to find the resultant moles.\nThen third and finally, convert from moles to mass.\nInstead of five steps, you have three steps, resulting in 40% fewer places to make a mistake.\nThe key takeaways are: First, Engineers use different types of moles because they have to work with different types of mass units.\nSecond, the molar mass is just the conversion factor between moles and mass, and it has the same numerical value regardless of the mass units involved.\nFinally, only use gram moles if your problem is being worked in grams.\nThanks for watching! To learn more about chemical and thermal processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series."
+    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#under-pressure",
+    "href": "basics/processdata/PressurePt2JTFVisuals.html#under-pressure",
+    "title": "Chemical and Thermal Processes",
+    "section": "Under Pressure",
+    "text": "Under Pressure\nUnder Pressure Part 2\n\nAtmospheric Pressure\nBarometric Pressure\nGauge Pressure\nAbsolute Pressure\nVacuum Pressure.\n\nUnder Pressure Part 1\n\nWhat pressure is\nHow you use it\nHow you measure it"
   },
   {
-    "objectID": "basics/calculations/CalculationsWebPage.html",
-    "href": "basics/calculations/CalculationsWebPage.html",
-    "title": "Engineering Calculations",
+    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#absolute-atmospheric-and-gauge-pressure",
+    "href": "basics/processdata/PressurePt2JTFVisuals.html#absolute-atmospheric-and-gauge-pressure",
+    "title": "Chemical and Thermal Processes",
+    "section": "Absolute, Atmospheric, and Gauge Pressure",
+    "text": "Absolute, Atmospheric, and Gauge Pressure\n\n\n\n\n\n\\(\\Delta P = P_1 - P_2 = P_\\mathrm{absolute}=P_\\mathrm{abs}\\)\n\n\n\n\n\n\n\n\\(\\Delta P = P_1 - P_2 = P_\\mathrm{atmosphere}=P_\\mathrm{atm}\\)\n\n\n\n\n\n\n\n\\(\\Delta P = P_1 - P_2 = P_\\mathrm{gauge}=P_\\mathrm{g}\\)"
+  },
+  {
+    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#calculating-abs.-atm-gauge-pressures",
+    "href": "basics/processdata/PressurePt2JTFVisuals.html#calculating-abs.-atm-gauge-pressures",
+    "title": "Chemical and Thermal Processes",
+    "section": "Calculating Abs., Atm, Gauge Pressures",
+    "text": "Calculating Abs., Atm, Gauge Pressures\n\n\n\\(P_\\mathrm{abs} = P_\\mathrm{g}+P_\\mathrm{atm}\\)\n\\(P_\\mathrm{g} = P_\\mathrm{abs}-P_\\mathrm{atm}\\)\n\n\n\n\n\n\n\nAbsolute tire pressure gauge\nAtmospheric pressure gauge\nWeather report and local altitude"
+  },
+  {
+    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#barometric-and-atmospheric-pressure",
+    "href": "basics/processdata/PressurePt2JTFVisuals.html#barometric-and-atmospheric-pressure",
+    "title": "Chemical and Thermal Processes",
+    "section": "Barometric and Atmospheric Pressure",
+    "text": "Barometric and Atmospheric Pressure\n\nAbsolute pressure gauges – Easy, Absolute tire pressure gauges – Very Hard\nAtmospheric pressure gauges – a decent cell phone and an air pressure app\nWeather report – Easy, Local altitude – Use GPS\n\n\n\n\n\n\nWeather report gives barometric, not atmospheric pressure."
+  },
+  {
+    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#barometric-pressure",
+    "href": "basics/processdata/PressurePt2JTFVisuals.html#barometric-pressure",
+    "title": "Chemical and Thermal Processes",
+    "section": "Barometric Pressure",
+    "text": "Barometric Pressure\nThe barometric pressure is the local atmospheric pressure adjusted for altitude to sea level.\n\n\n\n\n\\[P_\\mathrm{baro}=P_\\mathrm{atm}(1-2.25577 \\times 10^{-5}h)^{5.25588}\\]\n\n\n\\[P_\\mathrm{atm}=P_\\mathrm{baro}(1-2.25577 \\times 10^{-5}h)^{-5.25588}\\]\nwith \\(h\\) in meters."
+  },
+  {
+    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#example",
+    "href": "basics/processdata/PressurePt2JTFVisuals.html#example",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example",
+    "text": "Example\nMeasure bicycle tire pressure in Claremont, CA, USA\n\n\n\\(P_\\mathrm{baro} = 29.89\\ \\mathrm{inHg}\\)\n\n\n\n\n\\(h_\\mathrm{Claremont} = 1340\\ \\mathrm{ft}=408.4\\ \\mathrm{m}\\)\n\n\n\n\n\\[\\begin{aligned}\nP_\\mathrm{atm} & =P_\\mathrm{baro}(1-2.25577 \\times 10^{-5}h)^{-5.25588} \\\\\n& =29.89\\ \\mathrm{inHg}(1-2.25577 \\times 10^{-5}\\cdot408.4)^{-5.25588} \\\\\n& = 28.47\\ \\mathrm{inHg}= 723.2\\ \\mathrm{Torr}= 13.98\\ \\mathrm{psia} \\approx 14.0\\ \\mathrm{psia}\n\\end{aligned}\\]\n\n\n\n\n\\(P_\\mathrm{g} = 36.0\\ \\mathrm{psig}\\)\n\n\n\n\n\\[\\begin{aligned}\nP_\\mathrm{abs} & = P_\\mathrm{g}+P_\\mathrm{atm} \\\\\n& =36.0\\ \\mathrm{psig}+14.0\\ \\mathrm{psia} = 50.0\\ \\mathrm{psia} =3.45\\ \\mathrm{bar}\n\\end{aligned}\\]"
+  },
+  {
+    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#spreadsheet",
+    "href": "basics/processdata/PressurePt2JTFVisuals.html#spreadsheet",
+    "title": "Chemical and Thermal Processes",
+    "section": "Spreadsheet",
+    "text": "Spreadsheet"
+  },
+  {
+    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#vacuum-pressure",
+    "href": "basics/processdata/PressurePt2JTFVisuals.html#vacuum-pressure",
+    "title": "Chemical and Thermal Processes",
+    "section": "Vacuum Pressure",
+    "text": "Vacuum Pressure\n\nAny pressure below local atmospheric\nIn psi it’s indicated by \\(\\mathrm{psiv}\\).\nNegative of gauge pressure, e.g., \\(P_\\mathrm{g}=-7\\ \\mathrm{psig} \\implies P_\\mathrm{v}=7\\ \\mathrm{psiv}\\)\nCommon in vacuum distillation and other processes"
+  },
+  {
+    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#high-vacuum",
+    "href": "basics/processdata/PressurePt2JTFVisuals.html#high-vacuum",
+    "title": "Chemical and Thermal Processes",
+    "section": "High Vacuum",
+    "text": "High Vacuum\n\nUsed in advanced materials processing\nMeasured as absolute pressure\n\n\n\nPressure ranges\n\n\nAcronym\nName\nMax P (Pa)\nMin P (Pa)\n\n\n\n\nHV\nHigh Vacuum\n\\(10^{-1}\\)\n\\(10^{-5}\\)\n\n\nUHV\nUltrahigh Vacuum\n\\(10^{-5}\\)\n\\(10^{-10}\\)\n\n\nEHV\nExtrememly High Vacuum\n\\(10^{-10}\\)\n\\(&lt;10^{-10}\\)"
+  },
+  {
+    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#summary",
+    "href": "basics/processdata/PressurePt2JTFVisuals.html#summary",
+    "title": "Chemical and Thermal Processes",
+    "section": "Summary",
+    "text": "Summary\n\nAbsolute, gauge, and atmospheric pressure are related by \\(P_\\mathrm{abs} = P_\\mathrm{g}+P_\\mathrm{atm}\\).\nBarometric and atmospheric pressure are related through the Standard Atmospheric Model.\nThe vacuum pressure is the absolute value of the gauge pressure below atmospheric.\nThe High Vacuum (HV) range is from \\(10^{-1}\\) to \\(10^{-5}\\ \\mathrm{Pa}\\), Ultrahigh Vacuum (UHV) from \\(10^{-5}\\) to \\(10^{-10}\\ \\mathrm{Pa}\\), and Extremely High Vacuum (EHV) is \\(10^{-10}\\ \\mathrm{Pa}\\) and below."
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#definition",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#definition",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Definition",
+    "text": "Definition\n\nMole = mass equivalent of the molar mass of a molecule\n\n\n\n\n\nmolar mass \\(\\mathrm{CO_2}\\): \\(44.010\\)\n\n\ngram-mol equivalent \\(\\swarrow\\)\n\n\n1 gram-mol \\(\\mathrm{CO_2} \\rightarrow\\) 44.010 grams\n\n\n\\(\\searrow\\) lb-mol equivalent\n\n\n1 lb-mol \\(\\mathrm{CO_2} \\rightarrow\\) 44.010 \\(\\mathrm{lb_m}\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#how-many-different-types-of-moles-are-there",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#how-many-different-types-of-moles-are-there",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "How many different types of moles are there?",
+    "text": "How many different types of moles are there?\n\n15 mass units on N.I.S.T website \\(\\rightarrow\\) at least 15 types of moles\nrange: carat-mole — pennyweight-mole\nMost common moles are:\n\n\\(\\text{g-mol}\\) or \\(\\text{mole}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kilomole}\\)\n\\(\\text{metric-ton-mole}\\) or \\(\\text{tonne-mole}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mole}\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#using-a-mole",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#using-a-mole",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Using a Mole",
+    "text": "Using a Mole\n\n\nStart with a balanced chemical equation.\n\n\n\n\\(\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}\\)\n\n\n\nTo make \\(100\\ \\mathrm{lb_m}\\) of \\(\\mathrm{CO_2}\\):\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmolar mass of \\(\\mathrm{CO_2}\\) \\(\\rightarrow\\) \\(44.009546\\), rounds to \\(44.010\\)\n\n\n\n\\(100\\ \\mathrm{lb_m\\ CO_2} \\cdot \\frac{1\\text{ lb-mol }\\mathrm{CO_2}}{44.010\\text{ }\\mathrm{lb_m}} = 2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{CO_2}\\)\n1:1:1 molar ratio:\n\n\\(2.272\\ \\text{lb-mol C}\\)\n\\(2.272\\ \\text{lb-mol }\\mathrm{O_2}\\)\n\n\n\n\n\\(\\cdot 12.011\\ \\frac{\\mathrm{lb_m\\ C}}{\\text{lb-mol}} = 27.29  \\mathrm{lb_m\\ C}\\)\n\n\n\\(\\cdot 31.999\\ \\frac{\\mathrm{lb_m\\ O}_2}{\\text{lb-mol}} = 72.70  \\mathrm{lb_m\\ O}_2\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#avogadros-number",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#avogadros-number",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Avogadro’s Number",
+    "text": "Avogadro’s Number\n\nThe Avogadro Constant/ Avogadro’s Number:\n\n\n\\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\mathrm{mol}}\\)\n\n\n\\(\\text{lb-mol}\\) constant:\n\n\n\\(1.327 654 687 336 \\times 10^{27}\\ \\frac{\\mathrm{molecules}}{\\text{lb-mol}}\\)"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Use the Correct Moles",
+    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\n\\(\\underline{Inefficient}\\) steps for using gram moles:\n\nStart with mass in units other than grams.\n\nConvert to grams.\nConvert to gram-moles.\nUse balanced chemical equation to solve for the other species in gram-moles.\nConvert the other species’ gram-moles to grams.\nConvert the grams to the starting mass species.\n\n\nRequires five steps."
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles-1",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#use-the-correct-moles-1",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Use the Correct Moles",
+    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\n\\(\\underline{Efficient}\\) steps for using moles:\n\nStart with mass in units other than grams.\n\nConvert to the mass unit’s moles.\nUse balanced chemical equation to solve for the other species in the mass unit’s moles.\nConvert the other species’ moles to mass units.\n\n\nRequires three steps instead of five.\n40% fewer places to make mistakes!"
+  },
+  {
+    "objectID": "basics/processdata/WhatIsAMoleJTFVisuals.html#summary-1",
+    "href": "basics/processdata/WhatIsAMoleJTFVisuals.html#summary-1",
+    "title": "What Is A Mole?  Just the Facts",
+    "section": "Summary",
+    "text": "Summary\n\nDifferent types of moles are for different types of mass units.\nThe molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.\nUse gram moles for problems in grams. Use pound-moles for problems in pounds, etc."
+  },
+  {
+    "objectID": "phase/index.html",
+    "href": "phase/index.html",
+    "title": "Advanced Phase Equilibria Calculations",
     "section": "",
-    "text": "Why Engineering Calculations"
+    "text": "Intro to advanced phase equilibria calculations"
   }
 ]
