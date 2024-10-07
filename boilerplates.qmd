@@ -1,0 +1,41 @@
+---
+title: "Basic Intro and Ending"
+author: "DOFPro Team"
+format:
+  revealjs:
+    incremental: true
+    theme: [serif, gradient.scss]
+---
+
+
+# The Full Story Intro
+
+
+#
+
+
+::: {.bigger .centered}
+*Insert Video Title* is an episode of the Degrees of Freedom Project, "The Full Story" videos on chemical and thermal principles. If you want the "Just the Facts" version without the in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
+:::
+
+
+# Just the Facts Intro
+
+
+#
+
+
+::: {.bigger .centered}
+*Insert Video Title* is an episode of the Degrees of Freedom Project, "Just the Facts" videos on chemical and thermal principles. If you want "The Full Story" version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
+:::
+
+
+# Ending
+
+
+#
+
+
+::: {.bigger .centered}
+ $\textbf{Thanks for watching!}$ </br> To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series.
+:::
