@@ -1,0 +1,31 @@
+---
+title: "Why Statistics? </br>
+       Just the Facts"
+author: "DOFPro Team"
+format: 
+  revealjs:
+    incremental: false
+    theme: [default, ../../gradient.scss]
+---
+
+## True Mean & Standard Deviation
+
+- Infinite Precision Exact Measurement
+- Full Population Measurement
+
+- True Mean or Population Mean $\equiv \mu$
+- True Standard Deviation $\equiv \sigma$
+
+## Sample Mean & Standard Deviation
+
+- The set of measurements $\{x_1,\ x_2,\ \ldots,\ x_N\}$
+$$\bar{x}=\frac{\sum_{i=1}^Nx_i}{N}\approx\mu$$
+Can we calculate the error $e_i =\mu-x_i$ ?
+The set of errors $\{e_1,e_2,\ldots e_N\}$
+{x1,x2,!xN} N
+åx x = i=1
+i N
+» μ
+How do we estimate μ -x ?
+Calculate the residual
+ei =x-xi The set of residuals {e1 ,e2 ,!eN }
