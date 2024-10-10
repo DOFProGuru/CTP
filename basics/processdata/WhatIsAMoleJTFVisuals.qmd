@@ -9,7 +9,7 @@ format:
     
     theme: [serif, ../../gradient.scss]
 ---
-# What Is A Mole </br> Just The Facts {style="text-align: center;"}
+# What Is A Mole? </br> Just The Facts {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
 DOFPro Team
