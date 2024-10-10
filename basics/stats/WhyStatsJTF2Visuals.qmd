@@ -162,14 +162,17 @@ $\ \ \ $
 </center>
 
 
-## Key Takeaways
+## The Takeaways
 
+1. When measuring something, make at least three measurements, which gives you the greatest decrease in uncertainty per additional measurement.
+2. Use the methods in this video to calculate your confidence interval from the estimated standard error and the Student’s t value.
+3. Report your results with the mean of your measurements, the confidence interval and the confidence level: for example 42.000 plus-or-minus 0.067 at a 95% confidence level.
 
-
+:::{.fragment}
+There are four additional *Just The Facts* videos showing how to perform these calculations by hand, with a spreadsheet, using Python and NumPy/SciPy, and using R.
+:::
 
 #
-
-
 ::: {.bigger .centered}
  $\textbf{Thanks for watching!}$ </br> To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series.
 :::
