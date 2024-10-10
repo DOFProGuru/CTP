@@ -217,6 +217,34 @@
     "text": "Volume, Density, and Flow Rates The Full Story, Just The Facts, Reference Page."
   },
   {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#scale-video-tba",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#scale-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Scale Video TBA",
+    "text": "Scale Video TBA"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#ruler-video-tbs",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#ruler-video-tbs",
+    "title": "Chemical and Thermal Processes",
+    "section": "Ruler Video TBS",
+    "text": "Ruler Video TBS"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#voltmeter-video-tba",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#voltmeter-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Voltmeter Video TBA",
+    "text": "Voltmeter Video TBA"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#thermistor-video-tba",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#thermistor-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Thermistor Video TBA",
+    "text": "Thermistor Video TBA"
+  },
+  {
     "objectID": "basics/stats/WhyStatsJTF1Visuals.html#reporting-uncertainty",
     "href": "basics/stats/WhyStatsJTF1Visuals.html#reporting-uncertainty",
     "title": "Chemical and Thermal Processes",
@@ -259,11 +287,11 @@
     "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#key-takeaways",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#key-takeaways",
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#the-takeaways",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
-    "section": "Key Takeaways",
-    "text": "Key Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation."
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
   },
   {
     "objectID": "basics/stats/StatsMeasurementsWebPage.html",
@@ -427,11 +455,11 @@
     "text": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram\n\\(\\ \\ \\ \\)\n\\(\\ \\ \\ \\)"
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#key-takeaways",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#key-takeaways",
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
-    "section": "Key Takeaways",
-    "text": "Key Takeaways"
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nWhen measuring something, make at least three measurements, which gives you the greatest decrease in uncertainty per additional measurement.\nUse the methods in this video to calculate your confidence interval from the estimated standard error and the Student’s t value.\nReport your results with the mean of your measurements, the confidence interval and the confidence level: for example 42.000 plus-or-minus 0.067 at a 95% confidence level.\n\n\nThere are four additional Just The Facts videos showing how to perform these calculations by hand, with a spreadsheet, using Python and NumPy/SciPy, and using R."
   },
   {
     "objectID": "basics/calculations/CalculationsWebPage.html",
@@ -546,11 +574,11 @@
     "text": "High Vacuum\n\nBackground CC BY-SA 3.0 link\n\n\nUsed in advanced materials processing\nMeasured as absolute pressure\n\n\n\nPressure ranges\n\n\nAcronym\nName\nMax P (Pa)\nMin P (Pa)\n\n\n\n\nHV\nHigh Vacuum\n\\(10^{-1}\\)\n\\(10^{-5}\\)\n\n\nUHV\nUltrahigh Vacuum\n\\(10^{-5}\\)\n\\(10^{-10}\\)\n\n\nEHV\nExtrememly High Vacuum\n\\(10^{-10}\\)\n\\(&lt;10^{-10}\\)"
   },
   {
-    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#summary",
-    "href": "basics/processdata/PressurePt2JTFVisuals.html#summary",
+    "objectID": "basics/processdata/PressurePt2JTFVisuals.html#the-takeaways",
+    "href": "basics/processdata/PressurePt2JTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
-    "section": "Summary",
-    "text": "Summary\n\nAbsolute, gauge, and atmospheric pressure are related by \\(P_\\mathrm{abs} = P_\\mathrm{g}+P_\\mathrm{atm}\\).\nBarometric and atmospheric pressure are related through the Standard Atmospheric Model.\nThe vacuum pressure is the absolute value of the gauge pressure below atmospheric.\nThe High Vacuum (HV) range is from \\(10^{-1}\\) to \\(10^{-5}\\ \\mathrm{Pa}\\), Ultrahigh Vacuum (UHV) from \\(10^{-5}\\) to \\(10^{-10}\\ \\mathrm{Pa}\\), and Extremely High Vacuum (EHV) is \\(10^{-10}\\ \\mathrm{Pa}\\) and below."
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nAbsolute, gauge, and atmospheric pressure are related by \\(P_\\mathrm{abs} = P_\\mathrm{g}+P_\\mathrm{atm}\\).\nBarometric and atmospheric pressure are related through the Standard Atmospheric Model.\nThe vacuum pressure is the absolute value of the gauge pressure below atmospheric.\nThe High Vacuum (HV) range is from \\(10^{-1}\\) to \\(10^{-5}\\ \\mathrm{Pa}\\), Ultrahigh Vacuum (UHV) from \\(10^{-5}\\) to \\(10^{-10}\\ \\mathrm{Pa}\\), and Extremely High Vacuum (EHV) is \\(10^{-10}\\ \\mathrm{Pa}\\) and below."
   },
   {
     "objectID": "basics/processdata/PressurePt1JTFVisuals.html#under-pressure",
@@ -602,11 +630,11 @@
     "text": "Spreadsheet of Solution"
   },
   {
-    "objectID": "basics/processdata/PressurePt1JTFVisuals.html#summary",
-    "href": "basics/processdata/PressurePt1JTFVisuals.html#summary",
+    "objectID": "basics/processdata/PressurePt1JTFVisuals.html#the-takeaways",
+    "href": "basics/processdata/PressurePt1JTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
-    "section": "Summary",
-    "text": "Summary\n\nPressure is the second most commonly measured process variable.\nHydrostatic pressure \\(= \\rho g h\\).\nManometers measure \\(\\Delta P\\)’s with hydrostatic pressure."
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nPressure is the second most commonly measured process variable.\nHydrostatic pressure \\(= \\rho g h\\).\nManometers measure \\(\\Delta P\\)’s with hydrostatic pressure."
   },
   {
     "objectID": "basics/processdata/PressureWebPage.html",
