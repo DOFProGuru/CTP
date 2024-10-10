@@ -10,8 +10,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <meta name="author" content="DOFPro Team">
-  <title>Chemical and Thermal Processes – Why Statistics? Intro and Basics  Just the Facts  Part 1</title>
+  <title>Chemical and Thermal Processes – whystatsjtf1visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -325,196 +324,220 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Why Statistics? Intro and Basics <br> Just the Facts <br> Part 1</h1>
 
-<div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-DOFPro Team 
+<section>
+<section id="how-deviant-and-mean-are-your-data" class="title-slide slide level1 center">
+<h1>How Deviant and Mean Are Your Data?</h1>
+<div class="bigbold" style="text-align: center;">
+<p>Intro and Basics Part 1<br>Just the Facts</p>
 </div>
+<div style="text-align: center;">
+<p>DOFPro Team</p>
 </div>
-</div>
-
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -30%; left: 22%; "></p>
 </section>
 <section id="reporting-uncertainty" class="slide level2">
 <h2>Reporting Uncertainty</h2>
-<div class="bitlower fragment">
-<p><span class="math inline">\(\textit{m} = 1.03 \pm 0.03 \text{ kg (95% confidence)}\)</span></p>
+<div class="fragment absolute" style="top: 12%; left: 10%; ">
+<p><span class="math inline">\(m = 1.03 \pm 0.03\ \mathrm{kg}\text{ (95% confidence)}\)</span></p>
 </div>
-<div class="lower fragment">
-<p><span class="math inline">\(\textit{u} = 2.36 \pm 0.04 \text{ m/s (95% confidence)}\)</span></p>
+<div class="fragment absolute" style="top: 22%; left: 10.7%; ">
+<p><span class="math inline">\(u = 2.36 \pm 0.04\ \mathrm{\frac{m}{s}}\text{ (95% confidence)}\)</span></p>
 </div>
-<div class="hmmlower fragment">
-<p><span class="math inline">\(\textit{mu} = 2.43 \pm 0.08 \text{ }\text{ kg}\cdot\text{m/s }\text{ (95% confidence)}\)</span></p>
+<div class="fragment absolute" style="top: 32%; left: 8%; ">
+<p><span class="math inline">\(mu = 2.43 \pm 0.08\ \mathrm{\frac{(kg\cdot m)}{s} }\text{ (95% confidence)}\)</span></p>
 </div>
-<div class="lowerstill fragment">
-<p><span class="math inline">\(\frac{1}{2}\textit{mu}\mathrm{^2} = 2.87 \pm 0.13 \text{J (95% confidence)}\)</span></p>
+<div class="fragment absolute" style="top: 42%; left: 3.3%; ">
+<p><span class="math inline">\(\frac{1}{2}mu^2 = 2.87 \pm 0.13\ \mathrm{J}\text{ (95% confidence)}\)</span></p>
 </div>
-<div class="lotslower fragment">
+<div class="fragment absolute" style="top: 55%; left: 0%; ">
 <p>A future video will teach you how to propagate the uncertainty. <span class="math inline">\(\textbf{Remember!}\)</span> A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities.</p>
 </div>
 </section>
 <section id="reporting-functional-uncertainty" class="slide level2">
 <h2>Reporting Functional Uncertainty</h2>
-<div class="bitlower fragment absolute" style="top: 120px; left: -75px; ">
-<p><span class="math inline">\(\mathrm{F_s = k(x_n-x_f)}\)</span></p>
+<p><img data-src="Spring.png" class="absolute" style="top: 25%; left: 5%; width: 30%; "></p>
+<div class="absolute smalltable" style="top: 48%; left: 8.5%; ">
+<p>CC BY-SA 3.0, <a href="https://commons.wikimedia.org/w/index.php?curid=26544">link</a></p>
 </div>
 <div class="fragment">
-<p><img data-src="X_f.png" class="absolute" style="top: 210px; left: -30px; width: 140px; height: 70px; "></p>
+<p><img data-src="X_f.png" class="absolute" style="top: 15%; left: 5%; width: 15%; "> <img data-src="X_n.png" class="absolute" style="top: 15%; left: 31%; width: 15%; "></p>
 </div>
 <div class="fragment">
-<p><img data-src="F_s.png" class="absolute" style="top: 165px; left: 185px; width: 180px; height: 50px; "></p>
+<p><img data-src="F_s.png" class="absolute" style="top: 11%; left: 29%; width: 15%; "></p>
+</div>
+<div class="fragment absolute" style="top: 55%; left: 7%; ">
+<p><span class="math inline">\(F_\mathrm{s} = k(x_\mathrm{n}-x_\mathrm{f})\)</span></p>
 </div>
 <div class="fragment">
-<p><img data-src="X_n.png" class="absolute" style="top: 210px; left: 335px; width: 140px; height: 70px; "></p>
+<p><img data-src="force-displacement-graph.png" class="absolute" style="top: 24%; left: 40%; width: 50%; "></p>
 </div>
-<div class="fragment">
-<p><img data-src="Spring.png" class="absolute" style="top: 275px; left: -65px; width: 470px; height: 250px; "></p>
-</div>
-<div class="fragment small absolute" style="top: 585px; left: -115px; ">
-<p>CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=26544</p>
-</div>
-<div class="fragment">
-<p><img data-src="force-displacement-graph.png" class="absolute" style="top: 125px; left: 560px; width: 550px; height: 450px; "></p>
-</div>
-<div class="fragment absolute bitsmall" style="top: 605px; left: 520px; width: 670px; ">
-<p><span class="math inline">\(\textit{F}\mathrm{_s} = 30.00 \pm 2.50\)</span>(95% conf.)N/m(<span class="math inline">\(\textit{x}\mathrm{_n}-\textit{x}\mathrm{_f}\)</span>)</p>
+<div class="fragment absolute" style="top: 72%; left: 30%; ">
+<p><span class="math inline">\(F_\mathrm{_s} = 30.00 \pm 2.50\ \mathrm{(95\%\ conf.)\ N/m}(x\mathrm{_n}-x\mathrm{_f})\)</span></p>
 </div>
 </section>
 <section id="true-mean-and-standard-deviation" class="slide level2">
 <h2>True Mean and Standard Deviation</h2>
-<div class="fragment absolute" style="top: 70px; ">
-<p>True value of a measured quantity <span class="math inline">\(\rightarrow\)</span> True Mean or Population Mean</p>
+<div class="absolute" style="top: 10%; left: 2%; ">
+<p>True value of a measured quantity <span class="math inline">\(:=\)</span><sup>1</sup> True Mean or Population Mean.</p>
 </div>
-<div class="fragment absolute" style="top: 190px; ">
-<p>True/Population Mean <span class="math inline">\(\equiv \mu\)</span></p>
+<div class="fragment absolute" style="top: 25%; left: 7%; ">
+<p><span class="math inline">\(\mu \equiv\)</span> True or Population Mean,</p>
 </div>
-<div class="fragment absolute" style="top: 270px; ">
-<p>Average value from infinite-precision, full population measurement (almost never known) <span class="math inline">\(\rightarrow \mu\)</span></p>
+<div class="fragment absolute" style="top: 35%; left: 2%; ">
+<p>i.e., <span class="math inline">\(\mu =\ \)</span>average value from infinite-precision, full population measurement (almost never known).</p>
 </div>
-<div class="fragment absolute" style="top: 480px; ">
-<p>Distribution of data about the true mean <span class="math inline">\(\rightarrow\)</span> True Standard Deviation or Population Standard Deviation</p>
+<div class="fragment absolute" style="top: 50%; left: 2%; ">
+<p>Distribution of data about the true mean <span class="math inline">\(:=\)</span> True Standard Deviation or Population Standard Deviation.</p>
 </div>
-<div class="fragment absolute" style="top: 600px; ">
-<p>True/Population Standard Deviation <span class="math inline">\(\equiv \sigma\)</span></p>
+<div class="fragment absolute" style="top: 65%; left: 7%; ">
+<p><span class="math inline">\(\sigma \equiv\)</span> True or Population Standard Deviation</p>
 </div>
-<div class="fragment absolute" style="top: 680px; ">
-<p>Standard deviation given true mean and infinite-precision data points (also almost never known) <span class="math inline">\(\rightarrow \sigma\)</span></p>
+<div class="fragment absolute" style="top: 75%; left: 2%; ">
+<p>i.e., <span class="math inline">\(\sigma =\ \)</span>standard deviation given true mean and infinite-precision data points (also almost never known).</p>
 </div>
-</section>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Math has borrowed “:=” from Computer Science to mean <em>is called</em>.</p></li></ol></aside></section>
 <section id="sample-mean-and-residuals" class="slide level2">
 <h2>Sample Mean and Residuals</h2>
-<div class="fragment absolute" style="top: 90px; left: 0px; ">
+<div class="fragment">
 <p>Set of Measurements</p>
 </div>
-<div class="fragment absolute" style="top: 140px; left: 20px; ">
+<div class="fragment">
 <p><span class="math inline">\(\{x_1,\ x_2,\ \ldots,\ x_N\}\)</span></p>
 </div>
-<div class="fragment absolute" style="top: 185px; left: 50px; ">
-<p><span class="math inline">\(\downarrow\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 225px; left: 25px; ">
-<p><span class="math inline">\(\textit{x}\mathrm{_1}\)</span> = 43.15</p>
-</div>
 <div class="fragment">
-<p><img data-src="Longer_down_arrow.png" class="absolute" style="top: 185px; left: 250px; width: 50px; height: 110px; "></p>
+<p>e.g., <span class="math inline">\(x_1 = 43.15\)</span></p>
 </div>
-<div class="fragment absolute" style="top: 310px; left: -10px; ">
-<p>N</p>
+<div class="fragment absolute" style="top: 33%; left: 0%; ">
+<p>A set of <span class="math inline">\(N\)</span> measurements</p>
 </div>
-<div class="fragment absolute" style="top: 355px; left: -110px; ">
-<p>measurements</p>
+<div class="fragment absolute" style="top: 38%; left: 0%; ">
+<p>implies a set of</p>
 </div>
-<div class="fragment absolute" style="top: 310px; left: 130px; ">
-<p><span class="math inline">\(\rightarrow\)</span></p>
+<div class="fragment absolute" style="top: 43%; left: 0%; ">
+<p><span class="math inline">\(N\)</span> independent equations</p>
 </div>
-<div class="fragment absolute" style="top: 310px; left: 200px; ">
-<p>N independent</p>
-</div>
-<div class="fragment absolute" style="top: 355px; left: 250px; ">
-<p>equations</p>
-</div>
-<div class="fragment absolute" style="top: 475px; left: 20px; ">
+<div class="fragment absolute" style="top: 56.5%; left: 5%; ">
 <p><span class="math inline">\(\bar{x}\)</span></p>
 </div>
-<div class="fragment absolute" style="top: 455px; left: 60px; ">
+<div class="fragment absolute" style="top: 55%; left: 8%; ">
 <p><span class="math inline">\(=\frac{\sum_{i=1}^Nx_i}{N}\)</span></p>
 </div>
-<div class="fragment absolute" style="top: 470px; left: 220px; ">
+<div class="fragment absolute" style="top: 56.5%; left: 23%; ">
 <p><span class="math inline">\(\approx\mu\)</span></p>
 </div>
-<div class="fragment absolute" style="top: 515px; left: 20px; ">
-<p><span class="math inline">\(\downarrow\)</span></p>
+<div class="fragment absolute" style="top: 65%; left: 5%; ">
+<p><span class="math inline">\(\bar{x} \equiv\)</span> sample mean</p>
 </div>
-<div class="fragment absolute" style="top: 555px; left: -60px; ">
-<p>sample mean</p>
+<div class="fragment absolute" style="top: 75%; left: 0%; ">
+<p>How do we estimate <span class="math inline">\(\mu - \bar{x}\)</span>?</p>
 </div>
-<div class="fragment absolute" style="top: 515px; left: 260px; ">
-<p><span class="math inline">\(\downarrow\)</span></p>
+<div class="fragment">
+<div class="absolute" style="top: 10%; left: 50%; ">
+<p>Can we calculate the error</p>
 </div>
-<div class="fragment absolute" style="top: 555px; left: 200px; ">
-<p>true mean</p>
+<div class="absolute" style="top: 17.5%; left: 55%; ">
+<p><span class="math inline">\(\varepsilon_i =\mu-x_i\)</span>?</p>
 </div>
-<div class="fragment absolute" style="top: 670px; left: -55px; ">
-<p>How do we estimate <span class="math inline">\(\mathrm{\mu - \bar{x}}\)</span>?</p>
 </div>
-<div class="fragment absolute" style="top: 90px; left: 700px; ">
-<p>Can we calculate the <br> error <span class="math inline">\(\text{ }\text{ }\varepsilon_i =\mu-x_i\)</span>?</p>
-</div>
-<div class="fragment absolute" style="top: 220px; left: 755px; ">
+<div class="fragment absolute" style="top: 25%; left: 50%; ">
 <p>Set of Errors</p>
 </div>
-<div class="fragment absolute" style="top: 260px; left: 710px; ">
+<div class="fragment absolute" style="top: 25%; left: 72%; ">
 <p><span class="math inline">\(\{\varepsilon_1,\ \varepsilon_2,\ \ldots,\ \varepsilon_N \}\)</span></p>
 </div>
-<div class="fragment absolute" style="top: 360px; left: 667px; ">
+<div class="fragment absolute" style="top: 35%; left: 50%; ">
 <p>We don’t know <span class="math inline">\(\mu\)</span>, so…</p>
 </div>
-<div class="fragment absolute" style="top: 420px; left: 657px; ">
+<div class="fragment absolute" style="top: 45%; left: 50%; ">
 <p>Calculate the residuals:</p>
 </div>
-<div class="fragment absolute" style="top: 465px; left: 750px; ">
-<p><span class="math inline">\(\textit{e}\mathrm{_i} = \bar{x} - \mathrm{x_i}\)</span></p>
+<div class="fragment absolute" style="top: 52.5%; left: 55%; ">
+<p><span class="math inline">\(e\mathrm{_i} = \bar{x} - x_i\)</span></p>
 </div>
-<div class="fragment absolute" style="top: 555px; left: 725px; ">
+<div class="fragment absolute" style="top: 60%; left: 50%; ">
 <p>Set of Residuals</p>
 </div>
-<div class="fragment absolute" style="top: 595px; left: 705px; ">
+<div class="fragment absolute" style="top: 65%; left: 55%; ">
 <p><span class="math inline">\(\{e_1,\ e_2,\ \ldots,\ e_N \}\)</span></p>
 </div>
 <div class="fragment">
-<p><img data-src="Sideways_bracket.png" class="absolute" style="top: 638px; left: 700px; width: 310px; height: 42px; "></p>
+<p><img data-src="Sideways_bracket.png" class="absolute" style="top: 70%; left: 55%; width: 28%; "></p>
 </div>
-<div class="fragment absolute" style="top: 670px; left: 690px; ">
+<div class="fragment absolute" style="top: 75%; left: 52%; ">
 <p>estimate of the errors</p>
 </div>
-<div class="fragment absolute" style="top: 710px; left: 710px; ">
+<div class="fragment absolute" style="top: 80%; left: 52%; ">
 <p>based on <span class="math inline">\(\bar{x}\)</span>, not <span class="math inline">\(\mu\)</span></p>
 </div>
 </section>
-<section id="sample-variance-and-standard-deviation" class="slide level2">
-<h2>Sample Variance and Standard Deviation</h2>
+<section id="section" class="slide level2">
+<h2></h2>
+<div class="absolute bigbold" style="top: 0%; left: 0%; ">
+<p>Sample Variance and Standard Deviation</p>
+</div>
+<div class="fragment absolute" style="top: 10%; left: 50%; ">
+<p>True variance</p>
+</div>
+<div class="fragment absolute" style="top: 17%; left: 50%; ">
+<p><span class="math inline">\(\sigma^2=\frac{\displaystyle{\sum_{i=1}^N \varepsilon^2_i}}{N}\)</span></p>
+</div>
+<div class="fragment absolute" style="top: 10%; left: 0%; ">
+<p>Sample variance</p>
+</div>
+<div class="fragment absolute" style="top: 17%; left: 5%; ">
+<p><span class="math inline">\(S^2=\frac{\displaystyle{\sum_{i=1}^N e^2_i}}{N-1}\)</span></p>
+</div>
+<div class="fragment absolute" style="top: 40%; left: 0%; ">
+<p><span class="math inline">\(\bar{x},\ e,\)</span> and <span class="math inline">\(S^2\)</span> are calculated from the <span class="math inline">\(x_i\)</span>.</p>
+</div>
+<div class="fragment absolute" style="top: 40%; left: 64%; ">
+<p><span class="math inline">\(\mu,\ \varepsilon,\)</span> and <span class="math inline">\(\sigma^2\)</span> are not.</p>
+</div>
+<div class="fragment absolute" style="top: 51%; left: 0%; ">
 <p>We lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.</p>
+</div>
+<div class="fragment absolute" style="top: 66%; left: 0%; ">
+<p>The true standard deviation, <span class="math inline">\(\sigma=\sqrt{\sigma^2}\)</span>.</p>
+</div>
+<div class="fragment absolute" style="top: 76%; left: 0%; ">
+<p>The sample standard deviation, <span class="math inline">\(S=\sqrt{S^2}\)</span>.</p>
+</div>
 </section>
 <section id="are-we-there-yet" class="slide level2">
 <h2>Are We There Yet?</h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/SEVGxD_Jqjs?si=ZOvRA7lUCqKJqY9w&amp;t=16" width="100%" height="70%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<div class="fragment">
+<p>Can we estimate <span class="math inline">\(\mu - \bar{x}\)</span> yet?</p>
+</div>
+<div class="fragment">
+<p>No, but we can estimate the spread of our data from <span class="math inline">\(S\)</span>.</p>
+</div>
 </section>
 <section id="key-takeaways" class="slide level2">
 <h2>Key Takeaways</h2>
-</section>
-<section id="section" class="title-slide slide level1 center">
+<ol type="1">
+<li class="fragment">Responsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.</li>
+<li class="fragment">The most common estimate for the central value of a set of measurements is the <em>sample mean</em>.</li>
+<li class="fragment">The most commonly reported value for the spread of a set of measurements is the <em>sample standard deviation</em>.</li>
+<li class="fragment">Most people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.</li>
+</ol>
+</section></section>
+<section id="section-1" class="title-slide slide level1 center">
 <h1></h1>
 <div class="bigger centered">
 <p><span class="math inline">\(\textbf{Thanks for watching!}\)</span> <br> To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series.</p>
 </div>
 
 <div class="quarto-auto-generated-content">
+<p><img src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>
 </div>
 </section>
+
+
     </div>
   </div>
 
@@ -691,12 +714,14 @@ DOFPro Team
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 2700,
 
-        height: 700,
+        height: 2160,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
+
+        maxScale: 8,
 
         math: {
           mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
