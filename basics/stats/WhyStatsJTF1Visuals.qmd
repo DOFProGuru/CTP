@@ -20,6 +20,14 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-30%"}
 
+## Scale Video TBA
+
+## Ruler Video TBS
+
+## Voltmeter Video TBA
+
+## Thermistor Video TBA
+
 ## Reporting Uncertainty
 
 
@@ -249,17 +257,18 @@ Can we estimate $\mu - \bar{x}$ yet?
 No, but we can estimate the spread of our data from $S$.
 :::
 
-## Key Takeaways
+## The Takeaways
 
 1. Responsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.
 2. The most common estimate for the central value of a set of measurements is the *sample mean*.
 3. The most commonly reported value for the spread of a set of measurements is the *sample standard deviation*.
 4. Most people don't know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.
 
+:::{.fragment}
+The discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2
+:::
 
 #
-
-
 ::: {.bigger .centered}
  $\textbf{Thanks for watching!}$ </br> To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series.
 :::

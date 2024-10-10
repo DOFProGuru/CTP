@@ -214,7 +214,7 @@ Background CC BY-SA 3.0 [link](https://commons.wikimedia.org/wiki/File:VacuumCha
 :Pressure ranges
 :::
 
-## Summary
+## The Takeaways
 
 1. Absolute, gauge, and atmospheric pressure are related by $P_\mathrm{abs} = P_\mathrm{g}+P_\mathrm{atm}$.
 2. Barometric and atmospheric pressure are related through the Standard Atmospheric Model.

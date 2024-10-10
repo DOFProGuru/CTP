@@ -208,7 +208,7 @@ $\implies \rho_\mathrm{piston} = 11,500\ \frac{\mathrm{kg}}{\mathrm{m^3}}=11.50\
 ## Spreadsheet of Solution
 ![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/PressureExamples1.png){.absolute top="15%" left="2.5%" height="50%"}
 
-## Summary
+## The Takeaways
 
 1. Pressure is the second most commonly measured process variable.
 2. Hydrostatic pressure $= \rho g h$.
