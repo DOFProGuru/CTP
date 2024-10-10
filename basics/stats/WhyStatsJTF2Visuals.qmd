@@ -1,152 +1,165 @@
 ---
-title: "Why Statistics? Intro and Basics </br>
-       Just the Facts </br>
-       Part 2"
-author: "DOFPro Team"
 format:
   revealjs:
-    incremental: false
-    theme: [serif, ../../malina.scss]
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
 ---
+# How Deviant and Mean Are Your Data?
+
+::: {.bigbold style="text-align: center;"}
+Intro and Basics Part 2</br>Just the Facts
+:::
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-30%"}
 
 
 ## Summary from Part 1
 
+1. Report measured or calculated values with their confidence intervals.
+2. Report a measured value as the arithmetic mean of the measurements.
+3. Calculate the sample standard deviation of measured values.
 
-::: {.bitlower .fragment}
-$\textit{m} = 1.03 \pm 0.03 \text{ kg (95% confidence)}$
+:::{.fragment}
+Can we estimate $\mu - \bar{x}$ yet?
+:::
+
+:::{.fragment}
+Not yet, but $S$ is the key!
+:::
+
+:::{.fragment}
+As a reminder 68% of the points in a normal distribution lie within $±\sigma$ of $\mu$, i.e., from $\mu-\sigma$ to $\mu+\sigma$.
+:::
+
+## 
+:::{.absolute top=0% left=0% .bigbold120}
+Standard Error and Estimated Standard Error
+:::
+
+:::{.fragment .absolute top=15% left=20%}
+$\mathrm{St.\ Err.}=\sigma_\mu=\frac{\sigma}{\sqrt{N}}\approx\frac{S}{\sqrt{N}}$
+:::
+
+:::{.fragment .absolute top=25% left=20%}
+$\mathrm{Est.\ St.\ Err.}=S_\bar{x}=\frac{S}{\sqrt{N}}$
+:::
+
+:::{.fragment .absolute top=40% left=5%}
+For enough points, $\mu=\bar{x} \pm S_{\bar{x}}(68\%\ \mathrm{conf.})$
+:::
+
+:::{.fragment .absolute top=50% left=5%}
+For example, $y=42.000 \pm0.007(68\%\ \mathrm{conf.})$
+:::
+
+## William Gossett and Student's $t$
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/3a/Guinness_7686a.jpg){.absolute top=10% left=0% width=25%}
+
+:::{.absolute top=40% left=0%}
+:::{style="font-size: 45px"}
+Harald Bischoff, CC BY-SA 3.0 </br> [link](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons
+:::
+:::
+
+:::{.fragment}
+![](https://upload.wikimedia.org/wikipedia/commons/4/42/William_Sealy_Gosset.jpg){.absolute top=10% left=25% width=25%}
+
+:::{.absolute top=51% left=25%}
+:::{style="font-size: 35px"}
+User Wujaszek on pl.wikipedia, </br>Public domain, via Wikimedia Commons
+:::
+:::
+:::
+
+:::{.fragment .absolute top=9% left=55%}
+Calculate $\bar{x}$ and $S$.
+:::
+
+:::{.fragment .absolute top=17% left=55%}
+Calculate $S_{\bar{x}}$.
+:::
+
+:::{.fragment .absolute top=25% left=55%}
+Choose a confidence level, </br>for example, $95\%$ or $p = 0.05$.
+:::
+
+:::{.fragment .absolute top=45% left=55%}
+Find $t$ given $p$ and $df = N - 1$.
+:::
+
+:::{.fragment .absolute top=55% left=0%}
+Then $\lambda = tS_{\bar{x}}$
+:::
+
+:::{.fragment .absolute top=63% left=0%}
+and $\mu = \bar{x} \pm \lambda(1- p\ \mathrm{ conf.})$
+:::
+
+:::{.fragment .absolute top=71% left=0%}
+For example, $x = 42.000 \pm 0.067(95\%\ \mathrm{conf.})$
+:::
+
+:::{.fragment .absolute top=80% left=0%}
+So $\lambda$ is 1/2 the width of the confidence interval and the confidence interval width is $2\lambda$.
+:::
+
+## Student's $t$ Table
+
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/StudentsT-Table2Side.png){.absolute width=100%}
+
+:::{.fragment .absolute top=85%}
+For example, $\bar{x}$ is $42.000 \pm 0.067$ with 95% confidence.
 :::
 
 
-::: {.lower .fragment}
-$\textit{u} = 2.36 \pm 0.04 \text{ m/s (95% confidence)}$
+## Effect of $N$ on $t$
+
+:::{.fragment .absolute left=5% top=10%}
+$\lambda = tS_{\bar{x}}=\frac{tS}{\sqrt{N}}$
+:::
+
+:::{.fragment}
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/StudentTvsN.png){.absolute top=25% right=5% width=90%}
+
+:::{.absolute top=20% left=28%}
+Student's $t$ as a Function of $N$
+:::
 :::
 
 
-::: {.hmmlower .fragment}
-$\textit{mu} = 2.43 \pm 0.08 \text{ }\text{ kg}\cdot\text{m/s }\text{ (95% confidence)}$
+## Effect of $N$ on $\lambda/S$
+
+:::{.absolute left=5% top=10%}
+$\lambda = tS_{\bar{x}}=\frac{tS}{\sqrt{N}}$
+:::
+
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/ConfIntVsN.png){.absolute top=25% right=5% width=90%}
+
+:::{.absolute top=20% left=15%}
+Normalized Conf. Int., $\lambda/S$ as a Function of $N$
 :::
 
 
-::: {.lowerstill .fragment}
-$\frac{1}{2}\mathrm{mu^2} = 2.87 \pm 0.13 \text{J (95% confidence)}$
-:::
+## $\mu,\ \bar{x},\ S\ ,\lambda$ Demo with Histogram
 
+$\ \ \ $
 
-::: {.lotslower .fragment}
-A future video will teach you how to propagate the uncertainty. $\textbf{Remember!}$ A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities.
-:::
+$\ \ \ $
 
-
-
-
-## Standard Error and Estimated Standard Error
-
-
-::: {.bitlower .fragment}
-$\mathrm{F_s = k(x_n-x_f)}$
-:::
-
-
-
-
-## William Gossett and Student's $\textit{t}$
-::: {.fragment}
-True value of a measured quantity $\rightarrow$ True Mean or Population Mean
-:::
-
-
-::: {.fragment}
-True/Population Mean $\equiv \mu$
-:::
-
-
-::: {.fragment}
-Average value from infinite-precision, full population measurement (almost never known) $\rightarrow \mu$
-:::
-
-
-::: {.fragment .littlelower}
-Distribution of data about the true mean $\rightarrow$ True Standard Deviation or Population Standard Deviation
-:::
-
-
-::: {.fragment .littlelower}
-True/Population Standard Deviation $\equiv \sigma$
-:::
-
-
-::: {.fragment .littlelower}
- Standard deviation given true mean and infinite-precision data points (also almost never known) $\rightarrow \sigma$
-:::
-
-
-
-
-## $\textit{t}$-test
-
-
-::: {.fragment .bitlower}
-Set of Measurements
-:::
-
-
-::: {.fragment .measurement1 .bitlower}
- $\{x_1,\ x_2,\ \ldots,\ x_N\}$
-:::
-
-
-::: {.fragment .xbar .lowerstill}
-$\bar{x}$
-:::
-
-
-::: {.fragment .tinybitright .hmlower}
-$=\frac{\sum_{i=1}^Nx_i}{N}$
-:::
-
-
-::: {.fragment .right .bitlower}
-$\approx\mu$
-:::
-
-
-::: {.fragment .evenlower .bitleft}
-How do we estimate $\mathrm{\mu - \bar{x}}$?
-:::
-
-
-::: {.fragment .toohigh .rightarrow}
-Can we calculate the </br> error $\text{ }\text{ }e_i =\mu-x_i$?
-:::
-
-
-## $\textit{t}$-table
-
-
-
-
-The set of errors $\{e_1,e_2,\ldots e_N\}$
-$\{x_1,x_2,\dots , x_N\}$ N
-åx x = i=1
-i N
-» μ
-How do we estimate μ -x ?
-Calculate the residual
-ei =x-xi The set of residuals {e1 ,e2 ,!eN }
-We lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.
-
-
-## Trade-Offs
-
-
-## $\textit{t}$ vs. N
-
-
-## Confidence Interval vs. N
-
-
-## Confidence Interval and $\textit{t}$ vs. Samples
+<center>
+<video autoplay="true">
+<source src="https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/HistogramAnimation4K.m4v"> 
+</video>
+</center>
 
 
 ## Key Takeaways

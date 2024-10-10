@@ -1,7 +1,4 @@
 ---
-title: "What Is A Mole? </br>
-       The Full Story"
-author: "DOFPro Team"
 format: 
   revealjs:
     width: 3840
@@ -12,6 +9,14 @@ format:
     theme: [serif, ../../gradient.scss]
     css: ../../slidecss.css
 ---
+
+# What Is A Mole? </br> The Full Story {style="text-align: center;"}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="28%" top="-50%"}
 
 ## Definition
 
@@ -65,7 +70,7 @@ format:
 - Requires three steps instead of five.
 - 40% fewer places to make mistakes.
 
-## The Summary
+## The Takeaways
 
 1. Different types of moles are for different types of mass units.
 2. The molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.
