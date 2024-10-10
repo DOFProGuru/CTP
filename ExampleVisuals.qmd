@@ -1,40 +1,61 @@
 ---
-title: "Basic Intro and Ending"
-author: "DOFPro Team"
 format:
   revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
     theme: [serif, gradient.scss]
 ---
 
+# Basic Intro and Ending
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-80%"}
 
 # The Full Story Intro
 
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-80%"}
 
 #
-
 
 ::: {.bigger .centered}
 *Insert Video Title* is an episode of the Degrees of Freedom Project, "The Full Story" videos on chemical and thermal principles. If you want the "Just the Facts" version without the in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
 :::
 
-
 # Just the Facts Intro
 
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-80%"}
+
+# The Full Story Intro
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-80%"}
 
 #
-
 
 ::: {.bigger .centered}
 *Insert Video Title* is an episode of the Degrees of Freedom Project, "Just the Facts" videos on chemical and thermal principles. If you want "The Full Story" version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
 :::
 
-
 # Ending
 
-
 #
-
 
 ::: {.bigger .centered}
  $\textbf{Thanks for watching!}$ </br> To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series.

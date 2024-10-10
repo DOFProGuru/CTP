@@ -1,7 +1,4 @@
 ---
-title: "What Is A Mole? </br>
-       Just the Facts"
-author: "DOFPro Team"
 format: 
   revealjs:
     width: 2700
@@ -10,7 +7,7 @@ format:
     logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
     
-    theme: [serif, ../../malina.scss]
+    theme: [serif, ../../gradient.scss]
 ---
 # What Is A Mole </br> Just The Facts {style="text-align: center;"}
 
@@ -183,9 +180,8 @@ $\text{lb-mol}$ constant:
 - Requires three steps instead of five.
 - 40% fewer places to make mistakes!
 
-# Summary
 
-## Summary
+## The Takeaways
 
 1. Different types of moles are for different types of mass units.
 2. The molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.
