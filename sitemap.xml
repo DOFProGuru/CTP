@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://DOFProGuru.github.io/CTP/phase/index.html</loc>
-    <lastmod>2024-10-10T19:45:50.524Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/index.html</loc>
-    <lastmod>2024-10-10T19:45:50.524Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/intro/IntroTopicsWebPage.html</loc>
-    <lastmod>2024-10-10T19:45:50.456Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/VolumeDensityFlowRateJTFVisuals.html</loc>
-    <lastmod>2024-10-10T19:45:50.512Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/WhatIsAMoleJTFVisuals.html</loc>
-    <lastmod>2024-10-10T19:45:50.516Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/WhatIsAMoleWebPage.html</loc>
-    <lastmod>2024-10-10T19:45:50.516Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/WhatIsAMoleTFSCC.html</loc>
-    <lastmod>2024-10-10T19:45:50.516Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/ProcessDataWebPage.html</loc>
-    <lastmod>2024-10-10T19:45:50.472Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/stats/WhyStatsJTF1Visuals.html</loc>
-    <lastmod>2024-10-10T19:45:50.520Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/stats/StatsMeasurementsWebPage.html</loc>
-    <lastmod>2024-10-10T19:45:50.520Z</lastmod>
+    <loc>https://DOFProGuru.github.io/CTP/boilerplates.html</loc>
+    <lastmod>2024-10-15T17:18:22.636Z</lastmod>
   </url>
   <url>
     <loc>https://DOFProGuru.github.io/CTP/appx/index.html</loc>
-    <lastmod>2024-10-10T19:45:50.456Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/balances/energy/index.html</loc>
-    <lastmod>2024-10-10T19:45:50.456Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/balances/general/index.html</loc>
-    <lastmod>2024-10-10T19:45:50.456Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/balances/entropy/index.html</loc>
-    <lastmod>2024-10-10T19:45:50.456Z</lastmod>
+    <lastmod>2024-10-15T17:18:22.578Z</lastmod>
   </url>
   <url>
     <loc>https://DOFProGuru.github.io/CTP/balances/exergy/index.html</loc>
-    <lastmod>2024-10-10T19:45:50.456Z</lastmod>
+    <lastmod>2024-10-15T17:18:22.578Z</lastmod>
   </url>
   <url>
-    <loc>https://DOFProGuru.github.io/CTP/balances/material/index.html</loc>
-    <lastmod>2024-10-10T19:45:50.456Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/appx/Nomenclature.html</loc>
-    <lastmod>2024-10-10T19:45:50.456Z</lastmod>
+    <loc>https://DOFProGuru.github.io/CTP/balances/general/index.html</loc>
+    <lastmod>2024-10-15T17:18:22.578Z</lastmod>
   </url>
   <url>
     <loc>https://DOFProGuru.github.io/CTP/ExampleVisuals.html</loc>
-    <lastmod>2024-10-10T19:45:50.428Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/stats/WhyStatsJTF2Visuals.html</loc>
-    <lastmod>2024-10-10T19:45:50.520Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/calculations/CalculationsWebPage.html</loc>
-    <lastmod>2024-10-10T19:45:50.456Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/WhatIsAMoleVisuals.html</loc>
-    <lastmod>2024-10-10T19:45:50.516Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/PressurePt2JTFVisuals.html</loc>
-    <lastmod>2024-10-10T19:45:50.472Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/PressurePt1JTFVisuals.html</loc>
-    <lastmod>2024-10-10T19:45:50.472Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/PressureWebPage.html</loc>
-    <lastmod>2024-10-10T19:45:50.472Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DOFProGuru.github.io/CTP/basics/index.html</loc>
-    <lastmod>2024-10-10T19:45:50.456Z</lastmod>
+    <lastmod>2024-10-15T17:18:22.552Z</lastmod>
   </url>
   <url>
     <loc>https://DOFProGuru.github.io/CTP/react/index.html</loc>
-    <lastmod>2024-10-10T19:45:50.524Z</lastmod>
+    <lastmod>2024-10-15T17:18:22.636Z</lastmod>
   </url>
   <url>
-    <loc>https://DOFProGuru.github.io/CTP/boilerplates.html</loc>
-    <lastmod>2024-10-10T19:45:50.524Z</lastmod>
+    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/WhatIsAMoleJTFVisuals.html</loc>
+    <lastmod>2024-10-15T17:18:22.630Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/WhatIsAMoleWebPage.html</loc>
+    <lastmod>2024-10-15T17:18:22.630Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/WhatIsAMoleTFSCC.html</loc>
+    <lastmod>2024-10-15T17:18:22.630Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/WhatIsAMoleVisuals.html</loc>
+    <lastmod>2024-10-15T17:18:22.630Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/ProcessDataWebPage.html</loc>
+    <lastmod>2024-10-15T17:18:22.594Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/stats/WhyStatsJTF1Visuals.html</loc>
+    <lastmod>2024-10-15T17:18:22.635Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/stats/WhyStatsJTF2Visuals.html</loc>
+    <lastmod>2024-10-15T17:18:22.635Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/calculations/CalculationsWebPage.html</loc>
+    <lastmod>2024-10-15T17:18:22.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/index.html</loc>
+    <lastmod>2024-10-15T17:18:22.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/stats/StatsMeasurementsWebPage.html</loc>
+    <lastmod>2024-10-15T17:18:22.634Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/intro/IntroTopicsWebPage.html</loc>
+    <lastmod>2024-10-15T17:18:22.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/PressurePt2JTFVisuals.html</loc>
+    <lastmod>2024-10-15T17:18:22.593Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/PressureWebPage.html</loc>
+    <lastmod>2024-10-15T17:18:22.594Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/VolumeDensityFlowRateJTFVisuals.html</loc>
+    <lastmod>2024-10-15T17:18:22.626Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/basics/processdata/PressurePt1JTFVisuals.html</loc>
+    <lastmod>2024-10-15T17:18:22.593Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/index.html</loc>
+    <lastmod>2024-10-15T17:18:22.636Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/phase/index.html</loc>
+    <lastmod>2024-10-15T17:18:22.636Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/balances/energy/index.html</loc>
+    <lastmod>2024-10-15T17:18:22.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/balances/entropy/index.html</loc>
+    <lastmod>2024-10-15T17:18:22.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/balances/material/index.html</loc>
+    <lastmod>2024-10-15T17:18:22.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DOFProGuru.github.io/CTP/appx/Nomenclature.html</loc>
+    <lastmod>2024-10-15T17:18:22.578Z</lastmod>
   </url>
 </urlset>
