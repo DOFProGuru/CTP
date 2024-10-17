@@ -1,0 +1,160 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+---
+
+# Converting Temperature </br> Just the Facts
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-35%"}
+
+#
+
+::: {.bigger .centered}
+Converting Temperature is an episode of the Degrees of Freedom Project, "Just the Facts" videos on chemical and thermal principles. If you want "The Full Story" version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
+:::
+
+
+## What temperature scales do we use?
+
+::: {.incremental}
+- Kelvin, K
+  - absolute scale (starts at zero)
+- Celcius, °C
+- Fahrenheit, °F
+- Rankine, °R
+  - absolute scale (starts at zero)
+  - used when working with American Engineering Units
+:::
+
+
+## Temperatures vs. Temperature Intervals
+
+::: {.incremental}
+- temperature: the *single* temperature of an object
+- temperature interval: the *difference* between two temperatures
+:::
+
+. . .
+
+![](IceCube.png){.absolute left="0%" width="35%"}
+
+</br> </br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <-- 180 °F -->
+
+</br> </br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 32 °F &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 212 °F
+
+![](BoilingWater.png){.absolute left="30%" width="80%" top="20%"}
+
+
+## Temperature Equations (1/2)
+
+</br>
+
+- Celcius -> Fahrenheit: *T*(°F) = $\frac{9}{5}$*T*(°C) + 32
+- Celcius -> Kelvin: *T*(K) = *T*(°C) + 273.15
+- Celcius -> Rankine: *T*(°R) = $\frac{9}{5}$*T*(°C) + 491.67
+
+</br>
+
+- Fahrenheit -> Celcius: *T*(°C) = $\frac{5}{9}$[*T*(°F) - 32]
+- Fahrenheit -> Kelvin: *T*(K) = $\frac{5}{9}$[*T*(°F) - 32] + 273.15
+- Fahrenheit -> Rankine: *T*(°R) = *T*(°F) + 459.67
+
+
+## Temperature Equations (2/2)
+
+</br>
+
+- Kelvin -> Fahrenheit: *T*(°F) = $\frac{9}{5}$*T*(K) - 459.67
+- Kelvin -> Celcius: *T*(°C) = *T*(K) - 273.15
+- Kelvin -> Rankine: *T*(°R) = $\frac{9}{5}$*T*(K)
+
+</br>
+
+- Rankine -> Fahrenheit: *T*(°F) = *T*(°R) - 459.67
+- Rankine -> Kelvin: *T*(K) = $\frac{5}{9}$*T*(°R)
+- Rankine -> Celcius: *T*(°R) = $\frac{5}{9}$[*T*(°R) - 491.67]
+
+
+## Temperature Interval Equations (1/2)
+
+</br>
+
+- ∆Celcius -> ∆Fahrenheit: ∆*T*(°F) = $\frac{9}{5}$∆*T*(°C)
+- ∆Celcius -> ∆Kelvin: ∆*T*(K) = ∆*T*(°C)
+- ∆Celcius -> ∆Rankine: ∆*T*(°R) = ∆$\frac{9}{5}$*T*(°C)
+
+</br>
+
+- ∆Fahrenheit -> ∆Celcius: ∆*T*(°C) = $\frac{5}{9}$∆*T*(°F)
+- ∆Fahrenheit -> ∆Kelvin: ∆*T*(K) = $\frac{5}{9}$∆*T*(°F)
+- ∆Fahrenheit -> ∆Rankine: ∆*T*(°R) = ∆*T*(°F)
+
+
+## Temperature Interval Equations (2/2)
+
+</br>
+
+- ∆Kelvin -> ∆Fahrenheit: ∆*T*(°F) = $\frac{9}{5}$∆*T*(K)
+- ∆Kelvin -> ∆Celcius: ∆*T*(°C) = ∆*T*(K)
+- ∆Kelvin -> ∆Rankine: ∆*T*(°R) = $\frac{9}{5}$∆*T*(K)
+
+</br>
+
+- ∆Rankine -> ∆Fahrenheit: ∆*T*(°F) = ∆*T*(°R)
+- ∆Rankine -> ∆Kelvin: ∆*T*(K) = $\frac{5}{9}$∆*T*(°R)
+- ∆Rankine -> ∆Celcius: ∆*T*(°R) = $\frac{5}{9}$∆*T*(°R)
+
+
+## Example 1 - Temperature (1/2)
+
+Convert 5 °C into Kelvin, Fahrenheit, and Rankine.
+
+- 5 °C -> ? K
+  - Remember: *T*(K) = *T*(°C) + 273.15
+  - So: *T*(K) = 5 °C + 273.15 = 278.15 K
+
+</br>
+
+- 5 °C -> ? °F
+  - Remember: *T*(°F) = $\frac{9}{5}$*T*(°F) + 32
+  - So: *T*(°F) = $\frac{9}{5}$(5) + 32 = 41 °F
+
+## Example 1 - Temperature (2/2)
+
+Convert 5 °C into Kelvin, Fahrenheit, and Rankine.
+
+- 5 °C -> ? °R
+  - Remember: When converting from Celcius to Rankine, we prefer to first convert to Kelvin, then Rankine.
+  - We can use what we got from our first conversion, 5 °C = 278.15 K
+    - Remember: *T*(°R) = $\frac{9}{5}$*T*(K)
+    - So: *T*(°R) = $\frac{9}{5}$(278.15) = 500.67 °R
+
+
+## Example 2 - Temp. & Temp. Intervals
+
+- temperature interval example from the original video
+
+
+## Summary
+
+- 4 units of temperature
+  - Kelvin, Rankine, Fahrenheit, and Celcius
+- most conversions between the units use addition and subtraction
+- Rankine and Kelvin are outliers that use multiplication
+
+
+#
+
+::: {.bigger .centered}
+ $\textbf{Thanks for watching!}$ </br> To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series.
+:::
