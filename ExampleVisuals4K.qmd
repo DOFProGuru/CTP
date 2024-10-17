@@ -1,0 +1,129 @@
+---
+format:
+  revealjs:
+    width: 3840
+    height: 2160
+    max-scale: 8
+    logo: DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, gradient.scss]
+---
+
+# Basic Intro and Ending
+
+::: {style="text-align: center;"}
+DOFPro Tean
+:::
+
+![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-80%"}
+
+# The Full Story Intro
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-80%"}
+
+#
+
+::: {.bigger .centered}
+*Insert Video Title* is an episode of the Degrees of Freedom Project, *The Full Story* videos on chemical and thermal principles. If you want the *Just the Facts* version without the in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
+:::
+
+# Just the Facts Intro
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-80%"}
+
+#
+
+::: {.bigger .centered}
+*Insert Video Title* is an episode of the Degrees of Freedom Project, *Just the Facts* videos on chemical and thermal principles. If you want *The Full Story* version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
+:::
+
+
+## Bulleted and Numbered Lists
+
+1. A numbered item
+2. Another numbered item
+3. Yet another numbered item
+
+- A bullet item
+- Another bullet item
+- Yet another bullet item
+
+![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png)
+
+## Fragment Items
+
+::: {.fragment}
+A fragment item
+:::
+
+::: {.fragment}
+Another fragment item
+:::
+
+::: {.fragment}
+Yet another fragment item
+:::
+
+::: {.fragment}
+A fragment item
+:::
+
+::: {.fragment}
+Another fragment item
+:::
+
+::: {.fragment}
+Yet another fragment item
+:::
+
+::: {.fragment}
+![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png)
+:::
+
+## Fragment and Absolute Items
+
+::: {.fragment .absolute top=40% left=55%}
+A fragment item
+:::
+
+::: {.fragment .absolute top=10% left=10%}
+Another fragment item
+:::
+
+::: {.fragment .absolute top=25% left=55%}
+Yet another fragment item
+:::
+
+::: {.fragment .absolute top=40% left=10%}
+A fragment item
+:::
+
+::: {.fragment .absolute top=10% left=55%}
+Another fragment item
+:::
+
+::: {.fragment .absolute top=25% left=10%}
+Yet another fragment item
+:::
+
+::: {.fragment .absolute top=55% left=55%}
+![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png)
+:::
+
+# Ending
+
+#
+
+::: {.centered .bigger}
+</br></br></br></br>**Thanks for watching!** </br> The JTF/TFS companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description.
+:::
+
+![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" bottom="-25%"}

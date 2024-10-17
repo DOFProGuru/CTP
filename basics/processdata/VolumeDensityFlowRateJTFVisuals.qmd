@@ -1,12 +1,30 @@
 ---
-title: "Volume, Density, Flow Rate </br>
-        Just the Facts"
-author: "DOFPro Team"
 format:
   revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
-    theme: [serif, ../../malina.scss]
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
 ---
+#
+
+::: {.bigbold180 style="text-align: center;"}
+Are You Dense? Crank Up the Volume and Go With the Flow!
+::: 
+
+::: {.bigbold style="text-align: center;"}
+Just the Facts
+:::
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="-40%" width=50%}
+
 # What is the relationship between density and specific volume?
 
 
@@ -15,131 +33,86 @@ format:
 
 ## Mass Density and Specific Volume
 
-
-::: {.fragment .bitlower}
-$\textbf{Mass Density (Density)}$ $\rightarrow$ measure of mass per volume
+::: {.fragment .absolute top=15% left=0%}
+**Mass Density (Density)** $\equiv$ mass per unit volume
 :::
 
-
-::: {.fragment .bitlower}
+::: {.fragment .absolute top=25% left=0%}
 SI units: $\mathrm{kg/m^3}$
 :::
 
-
-::: {.fragment .bitlower}
-$\rho$ $= \frac{m}{V}$ $= \frac{1}{}$
+::: {.fragment .absolute top=35% left=10%}
+$\rho = \frac{m}{V} = \frac{1}{\hat{V}}$
 :::
 
-
-::: {.fragment}
-![](Special_V.png){.absolute top="256" left="140" width="60" height="60"}
+::: {.fragment  .absolute top=50% left=0%}
+**Specific Volume** $\equiv$ volume per unit mass
 :::
 
-
-::: {.fragment .lower}
-$\textbf{Specific Volume}$ $\rightarrow$ Reciprocal of mass density
-:::
-
-
-::: {.fragment .lower}
+::: {.fragment  .absolute top=60% left=0%}
 SI units: $\mathrm{m^3/kg}$
 :::
 
-
-::: {.fragment}
-![](Special_V.png){.absolute top="465" left="-30" width="80" height="80"}
-:::
-
-
-
-
-::: {.fragment .lower}
-$\text{ }\text{ }$ $= \frac{V}{m}$ $= \frac{1}{\rho}$
+::: {.fragment  .absolute top=70% left=10%}
+$\hat{V} = \frac{V}{m} = \frac{1}{\rho}$
 :::
 
 
 ## Molar Density and Molar Volume
 
-
-::: {.fragment .bitlower}
-$\textbf{Molar Density}$ $\rightarrow$ measure of # of moles per volume
+::: {.fragment .absolute top=10% left=0%}
+**Molar Density** $\equiv$ moles per unit volume
 :::
 
-
-::: {.fragment .bitlower}
-SI units: $\text{g-mol}\mathrm{/m^3}$ (same units as concentration)
+::: {.fragment .absolute top=20% left=0%}
+SI units: $\text{g-mol}/\mathrm{m^3}$ (same units as concentration)
 :::
 
-
-::: {.fragment .bitlower}
-$\rho$ $= \frac{n}{V}$ $= \frac{1}{}$
+::: {.fragment .absolute top=30% left=10%}
+$\rho = \frac{n}{V} = \frac{1}{\hat{V}}$
 :::
 
-
-::: {.fragment}
-![](Special_V.png){.absolute top="256" left="140" width="60" height="60"}
+::: {.fragment .absolute top=45% left=0%}
+**Molar Volume** $\equiv$ volume per mole
 :::
 
-
-::: {.fragment .lower}
-$\textbf{Molar Volume}$ $\rightarrow$ reciprocal of molar density
-:::
-
-
-::: {.fragment .lower}
+::: {.fragment .absolute top=55% left=0%}
 SI units: $\mathrm{m^3/}\text{g-mol}$
 :::
 
-
-::: {.fragment}
-![](Special_V.png){.absolute top="465" left="-30" width="80" height="80"}
+::: {.fragment .absolute top=65% left=10%}
+$\hat{V} = \frac{V}{n} = \frac{1}{\rho}$
 :::
 
-
-::: {.fragment .lower}
-$\text{ }\text{ }$ $= \frac{V}{n}$ $= \frac{1}{\rho}$
-:::
-
-
-::: {.fragment .lower}
-
-
+::: {.fragment .absolute top=75% left=0%}
 We reuse the symbols for mass density and specific volume for molar density and molar volume. </br> Check the units to determine which is being used!
-
-
 :::
 
 
 ## Specific Gravity
 
-
-::: {.fragment}
-Specific Gravity $\rightarrow$ ratio of density to a reference density
+::: {.fragment .absolute top=15% left=0%}
+**Specific Gravity** $\equiv$ ratio of density to a reference density
 :::
 
-
-::: {.fragment .centered}
-Specific gravity = $\frac{\rho}{\mathrm{\rho_{ref}}}$
+::: {.fragment .absolute top=25% left=28%}
+$= \frac{\rho}{\rho_\mathrm{{ref}}}$
 :::
 
-
-:::{.fragment .bitlower}
-Most common reference density $\rightarrow$ liquid water at $4^{\circ}\text{C}$
+:::{.fragment .absolute top=40% left=0%}
+Most common reference density is liquid water at $4^{\circ}\text{C}$
 :::
 
-
-::: {.fragment .lower}
-$\rho \text{ } \mathrm{_{ H_2O(\textit{l})}} \text{ }4^{\circ}\text{C}$ = 1000 $\mathrm{kg/m^3}$
+::: {.fragment .absolute top=50% left=8%}
+$\rho\mathrm{_{ H_2O(\textit{l})}}(4^{\circ}\mathrm{C}) = 1000\ \mathrm{kg/m^3}$
 :::
 
-
-::: {.fragment .lower .bitright}
-= 1.000 $\mathrm{g/cm^3}$
+::: {.fragment .absolute top=58% left=28.8%}
+$= 1.000\ \mathrm{g/cm^3}$
 :::
 
-
-::: {.fragment .lower .bitright}
-= 62.43 $\mathrm{lb_m/ft^3}$
+::: {.fragment .absolute top=66% left=28.8%}
+$= 62.43\ \mathrm{lb_m/ft^3}$
 :::
 
 
@@ -152,147 +125,124 @@ $\rho \text{ } \mathrm{_{ H_2O(\textit{l})}} \text{ }4^{\circ}\text{C}$ = 1000 $
 ## Concentration
 
 
-::: {.fragment .bitlower}
-$\textbf{Molar Concentration}$ (Concentration) $\rightarrow$ # of moles per unit volume
+::: {.fragment .absolute top=10% left=0%}
+**Molar Concentration (Concentration)** $\equiv$ moles per unit volume
 :::
 
-
-::: {.fragment .bitlower .centered}
-$\mathrm{C_A =} \frac{\mathrm{n_A}}{V}$
+::: {.fragment .absolute top=25% left=10%}
+$C_\mathrm{A} = \frac{n_\mathrm{A}}{V}$
 :::
 
-
-::: {.fragment .bitlower}
+::: {.fragment .absolute top=35% left=0%}
 For an ideal gas, can be calculated as:
 :::
 
-
-::: {.fragment .bitlower .centered}
-$\mathrm{C_A =} \frac{\mathrm{n_A}}{V} = \frac{\mathrm{P_A}}{RT}$
+::: {.fragment .absolute top=45% left=10%}
+$C_\mathrm{A} = \frac{n_\mathrm{A}}{V} = \frac{p_\mathrm{A}}{RT}$
 :::
 
-
-::: {.fragment .lower}
-$\textbf{Mass Concentration}$ $\rightarrow$ mass per unit volume (same units as density)
+::: {.fragment .absolute top=55% left=0%}
+**Mass Concentration** $\equiv$ mass per unit volume (same units as density)
 :::
 
-
-::: {.fragment .lower}
+::: {.fragment .absolute top=70% left=0%}
 Most often used for quantities of salinity
 :::
 
-
-::: {.fragment .lower .centered}
-$\mathrm{C_A =} \frac{\mathrm{m_A}}{V}$
+::: {.fragment .absolute top=80% left=10%}
+$C_\mathrm{A} = \frac{m_\mathrm{A}}{V}$
 :::
 
 
-## Mass, Molar, and Volumetric Flow Rates
+##
 
-
-::: {.fragment .bitlower}
-$\textbf{Mass Flow Rate}$ $\rightarrow$ $\frac{\text{amount of mass flowing past a given location}}{\text{period of time}}$
+:::{.absolute top=0 left=0 .bigbold}
+Mass, Molar, and Volumetric Flow Rates
 :::
 
-
-::: {.fragment .lower .centered}
-$\sum \mathrm{\overset{.}{m}_{i_{in}}}$ = $\sum \mathrm{\overset{.}{m}_{i_{out}}}$ $\text{               (open, steady state)}$
+::: {.fragment .absolute top=14% left=0%}
+**Mass Flow Rate** $\dot{m} \equiv \frac{\text{mass flowing past a given location}}{\text{period of time}}$
 :::
 
-
-::: {.fragment .evenlower}
-$\textbf{Molar Flow Rate}$ $\rightarrow$ $\frac{\text{# of moles flowing past a given location}}{\text{period of time}}$
+::: {.fragment .absolute top=26% left=10%}
+$\sum \dot{m}_{i_\mathrm{in}} = \sum \dot{m}_{i_\mathrm{out}}$ (open, steady state)
 :::
 
-
-
-
-::: {.fragment .lotslower .centered}
-$\sum \mathrm{\overset{.}{n}_{i_{in}}}$ = $\sum \mathrm{\overset{.}{n}_{i_{out}}}$ ($\text{open, steady state,}$ $\textbf{no reactions}$)
+::: {.fragment .absolute top=38% left=0%}
+**Molar Flow Rate** $\dot{n} \equiv \frac{\text{moles flowing past a given location}}{\text{period of time}}$
 :::
 
-
-## Mass, Molar, and Volumetric Flow Rates (cont.)
-
-
-::: {.fragment .bitlower}
-$\textbf{Volumetric Flow Rate}$ $\rightarrow$ $\frac{\text{volume of fluid flowing past a given location}}{\text{period of time}}$
+::: {.fragment .absolute top=50% left=10%}
+$\sum \dot{n}_{i_\mathrm{in}} = \sum \dot{n}_{i_\mathrm{out}}$ (open, steady state, **no reactions**)
 :::
 
+::: {.fragment .absolute top=62% left=0%}
+**Volumetric Flow Rate** $\dot{V} \equiv$ $\frac{\text{volume flowing past a given location}}{\text{period of time}}$
+:::
 
-::: {.fragment .lower .centered}
-$\sum \mathrm{\overset{.}{V}_{i_{in}}}$ $\neq$ $\sum \mathrm{\overset{.}{V}_{i_{out}}}$ ($\text{in general}$)
+::: {.fragment .absolute top=74% left=10%}
+$\sum \dot{V}_{i_\mathrm{in}} \ne \sum \dot{V}_{i_\mathrm{out}}$ (in general)
 :::
 
 
 # How is the velocity of a fluid in a pipe or tube defined?
 
 
-::: {.longq}
+::: {.bigbold75}
 # You have a stopwatch, a measuring cup, a pair of calipers, and fluid flowing in a tube at a constant rate. </br> How would you measure the fluid velocity?
 :::
 
 
-## Mass, Molar, and Volumetric Flow Rates (cont.)
+##
 
-
-$\textbf{Volumetric Flow Rate}$ $\rightarrow$ $\frac{\text{volume of fluid flowing past a given location}}{\text{period of time}}$
-
-
-
-
-::: {.bitlower .centered}
-$\sum \mathrm{\overset{.}{V}_{i_{in}}}$ $\neq$ $\sum \mathrm{\overset{.}{V}_{i_{out}}}$ ($\text{in general}$)
+:::{.absolute top=0 left=0 .bigbold120}
+Mass, Molar, and Volumetric Flow Rates (cont.)
 :::
 
-
-
-
-::: {.fragment .lower}
-Given a specific location in space and instant in time, the following relationship exists betweenn the the volumetric flow rate ($\mathrm{\overset{.}{V}}$), the average fluid velocity ($\textit{u}$), and the cross-sectional area of the flow ($\textit{A}$):
+::: {.fragment .absolute top=10% left=0%}
+Given a specific location in space and instant in time, the following relationship exists between the the volumetric flow rate ($\dot{V}$), the average fluid velocity ($u$), and the cross-sectional area of the flow ($A$):
 :::
 
-
-::: {.fragment .lower .centered}
-$\mathrm{\overset{.}{V}}$ = $\textit{uA}$
+::: {.fragment .absolute top=40% left=10%}
+$\dot{V}$ = $uA$
 :::
 
-
-
-
-::: {.fragment .lower}
+::: {.fragment .absolute top=50% left=0%}
 For an open, steady state system, the previous expression is true at any location in the system.
 :::
 
+##
 
-## Mass, Molar, and Volumetric Flow Rates (cont.)
-
-
-::: { .bitlower .fragment}
-Relationship between mass flow rate ($\mathrm{\overset{.}{m}}$) and volumetric flow rate ($\mathrm{\overset{.}{V}}$):
+:::{.absolute top=0 left=0 .bigbold120}
+Mass, Molar, and Volumetric Flow Rates (cont.)
 :::
 
 
-::: {.fragment .bitlower .centered}
-$\mathrm{\overset{.}{m}}$ = $\mathrm{\overset{.}{V}}$ $\rho$
+::: { .absolute top=10% left=0%}
+Relationship between mass flow rate ($\dot{m}$) and volumetric flow rate ($\dot{V}$):
 :::
 
 
-::: {.fragment .bitlower .centered}
-$\mathrm{\overset{.}{V}_{in}}$ $\mathrm{\rho_{in}}$ =  $\mathrm{\overset{.}{V}_{out}}$ $\mathrm{\rho_{out}}$ (open, steady-state system, 1 inlet & 1 outlet)
+::: {.fragment .absolute top=25% left=11%}
+$\dot{m} = \rho \dot{V}$
 :::
 
 
-::: {.fragment .bitlower}
+::: {.fragment .absolute top=35% left=5%}
+$\rho_\mathrm{in} \dot{V}_\mathrm{in} = \rho_\mathrm{out} \dot{V}_\mathrm{out}$ (open, steady-state system, 1 inlet & 1 outlet)
+:::
+
+
+::: {.fragment .absolute top=40% left=0%}
 Don't Forget!
 :::
 
 
-::: {.fragment .bitlower}
+::: {.fragment .absolute top=50% left=0%}
 Volume $\neq$ conserved quantity
 :::
 
 
-::: {.fragment .bitlower}
+::: {.fragment .absolute top=60% left=0%}
 mass/molar flowrate $\rightarrow$ constant $\neq$ volumetric flowrate $\rightarrow$ constant
 :::
