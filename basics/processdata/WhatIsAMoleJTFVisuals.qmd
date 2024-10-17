@@ -6,7 +6,6 @@ format:
     max-scale: 8
     logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
-    
     theme: [serif, ../../gradient.scss]
 ---
 # What Is A Mole </br> Just The Facts {style="text-align: center;"}

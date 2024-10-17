@@ -108,6 +108,11 @@ $presentation-font-size-root: 100px;
  .bigger {
    font-size: 120px;
  }
+ .bigbold180 {
+  font-size: 180px;
+  font-weight: bold;
+  color: #404040;
+}
  .bigbold {
   font-size: 140px;
   font-weight: bold;
@@ -128,7 +133,11 @@ $presentation-font-size-root: 100px;
   font-weight: bold;
   color: #404040;
 }
-.smalltable {
+.bigbold75 {
+  font-size: 75px;
+  font-weight: bold;
+  color: #404040;
+}.smalltable {
   font-size: 75px;
 }
 .eqn1 {
@@ -146,8 +155,6 @@ $presentation-font-size-root: 100px;
 
 .slide-background-content{
   background: linear-gradient( rgb(196, 241, 249) 0%, rgb(249, 188, 139) 85%, rgb(80, 158, 254))
-}
-.fragment{
 }
 .bitsmall{
   font-size: 34px !important;
