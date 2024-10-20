@@ -9,152 +9,199 @@ format:
     theme: [serif, ../../gradient.scss]
 ---
 
-# Converting Temperature </br> Just the Facts
+# Converting Temperature</br>Just the Facts{.bigbold90}
 
 ::: {style="text-align: center;"}
 DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-35%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
 
 #
 
 ::: {.bigger .centered}
-Converting Temperature is an episode of the Degrees of Freedom Project, "Just the Facts" videos on chemical and thermal principles. If you want "The Full Story" version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
+Converting Temperature is an episode of the Degrees of Freedom Project, *Just the Facts* videos on chemical and thermal principles. If you want *The Full Story* version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
 :::
 
 
 ## What temperature scales do we use?
 
-::: {.incremental}
 - Kelvin, K
   - absolute scale (starts at zero)
-- Celcius, °C
+- Celsius, °C
 - Fahrenheit, °F
 - Rankine, °R
   - absolute scale (starts at zero)
   - used when working with American Engineering Units
-:::
 
 
-## Temperatures vs. Temperature Intervals
+## Temperatures vs. Temperature Intervals {.bigbold90}
 
-::: {.incremental}
-- temperature: the *single* temperature of an object
-- temperature interval: the *difference* between two temperatures
-:::
+- Temperature: the *single* temperature of an object
+- Temperature interval: the *difference* between two temperatures
 
 . . .
 
 ![](IceCube.png){.absolute left="0%" width="35%"}
 
-</br> </br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <-- 180 °F -->
 
-</br> </br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 32 °F &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 212 °F
+![](BoilingWater.png){.absolute left="32%" width="80%" top="20%"}
 
-![](BoilingWater.png){.absolute left="30%" width="80%" top="20%"}
+::: {.absolute top=31.5% left="30%"}
+*Temperature Interval*</br>$\longleftarrow\ \ 180\ \mathrm{^\circ F}\ \ \longrightarrow$
+:::
 
+::: {.absolute top=47.5% left="11.5%"}
+*Temperature*</br>$32\ \mathrm{^\circ F}$
+:::
+
+::: {.absolute top=47.5% left="60%"}
+*Temperature*</br>$212\ \mathrm{^\circ F}$
+:::
 
 ## Temperature Equations (1/2)
 
 </br>
 
-- Celcius -> Fahrenheit: *T*(°F) = $\frac{9}{5}$*T*(°C) + 32
-- Celcius -> Kelvin: *T*(K) = *T*(°C) + 273.15
-- Celcius -> Rankine: *T*(°R) = $\frac{9}{5}$*T*(°C) + 491.67
+- Celsius to Fahrenheit: $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{^\circ C}) + 32$
+- Celsius to Kelvin: $\ \ \ \ \ \ T(\mathrm{K}) = T(\mathrm{^\circ C}) + 273.15$
+- Celsius to Rankine: $\ \ \ T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{^\circ C}) + 491.67$
 
 </br>
 
-- Fahrenheit -> Celcius: *T*(°C) = $\frac{5}{9}$[*T*(°F) - 32]
-- Fahrenheit -> Kelvin: *T*(K) = $\frac{5}{9}$[*T*(°F) - 32] + 273.15
-- Fahrenheit -> Rankine: *T*(°R) = *T*(°F) + 459.67
+- Fahrenheit to Celsius: $\ \ T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ F}) - 32]$
+- Fahrenheit to Kelvin: $\ \ \ T(\mathrm{K}) = \frac{5}{9} [T(\mathrm{^\circ F}) - 32] + 273.15$
+- Fahrenheit -> Rankine: $T(\mathrm{^\circ R}) = T(\mathrm{^\circ F}) + 459.67$
 
 
 ## Temperature Equations (2/2)
 
 </br>
 
-- Kelvin -> Fahrenheit: *T*(°F) = $\frac{9}{5}$*T*(K) - 459.67
-- Kelvin -> Celcius: *T*(°C) = *T*(K) - 273.15
-- Kelvin -> Rankine: *T*(°R) = $\frac{9}{5}$*T*(K)
+- Kelvin to Fahrenheit: $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{K}) - 459.67$
+- Kelvin to Celsius: $\ \ \ \ \ T(\mathrm{^\circ C}) = T(\mathrm{K}) - 273.15$
+- Kelvin to Rankine: $\ \ \ \ T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{K})$
 
 </br>
 
-- Rankine -> Fahrenheit: *T*(°F) = *T*(°R) - 459.67
-- Rankine -> Kelvin: *T*(K) = $\frac{5}{9}$*T*(°R)
-- Rankine -> Celcius: *T*(°R) = $\frac{5}{9}$[*T*(°R) - 491.67]
+- Rankine to Fahrenheit: $\ T(\mathrm{^\circ F}) = T(\mathrm{^\circ R}) - 459.67$
+- Rankine to Kelvin: $\ \ \ \ \ \ \ \ \ T(\mathrm{K}) = \frac{5}{9} T(\mathrm{^\circ R})$
+- Rankine -> Celsius: $\ \ \ \ \ \ T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ R}) - 491.67]$
 
 
 ## Temperature Interval Equations (1/2)
 
 </br>
 
-- ∆Celcius -> ∆Fahrenheit: ∆*T*(°F) = $\frac{9}{5}$∆*T*(°C)
-- ∆Celcius -> ∆Kelvin: ∆*T*(K) = ∆*T*(°C)
-- ∆Celcius -> ∆Rankine: ∆*T*(°R) = ∆$\frac{9}{5}$*T*(°C)
+- $\Delta$Celsius to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$
+- $\Delta$Celsius to $\Delta$Kelvin: $\ \ \ \ \ \ \ \Delta T(\mathrm{K}) = \Delta T(\mathrm{^\circ C})$
+- $\Delta$Celsius to $\Delta$Rankine: $\ \ \ \ \Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$
 
 </br>
 
-- ∆Fahrenheit -> ∆Celcius: ∆*T*(°C) = $\frac{5}{9}$∆*T*(°F)
-- ∆Fahrenheit -> ∆Kelvin: ∆*T*(K) = $\frac{5}{9}$∆*T*(°F)
-- ∆Fahrenheit -> ∆Rankine: ∆*T*(°R) = ∆*T*(°F)
+- $\Delta$Fahrenheit to $\Delta$Celsius: $\ \ \Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$
+- $\Delta$Fahrenheit to $\Delta$Kelvin: $\ \ \ \ \Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$
+- $\Delta$Fahrenheit to $\Delta$Rankine: $\Delta T(\mathrm{^\circ R}) = \Delta T(\mathrm{^\circ F})$
 
 
 ## Temperature Interval Equations (2/2)
 
 </br>
 
-- ∆Kelvin -> ∆Fahrenheit: ∆*T*(°F) = $\frac{9}{5}$∆*T*(K)
-- ∆Kelvin -> ∆Celcius: ∆*T*(°C) = ∆*T*(K)
-- ∆Kelvin -> ∆Rankine: ∆*T*(°R) = $\frac{9}{5}$∆*T*(K)
+- $\Delta$Kelvin to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{K})$
+- $\Delta$Kelvin to $\Delta$Celsius: $\ \ \ \ \ \Delta T(\mathrm{^\circ C}) = \Delta T(\mathrm{K})$
+- $\Delta$Kelvin to $\Delta$Rankine: $\ \ \ \Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{K})$
 
 </br>
 
-- ∆Rankine -> ∆Fahrenheit: ∆*T*(°F) = ∆*T*(°R)
-- ∆Rankine -> ∆Kelvin: ∆*T*(K) = $\frac{5}{9}$∆*T*(°R)
-- ∆Rankine -> ∆Celcius: ∆*T*(°R) = $\frac{5}{9}$∆*T*(°R)
-
+- $\Delta$Rankine to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \Delta T(\mathrm{^\circ R})$
+- $\Delta$Rankine to $\Delta$Kelvin: $\ \ \ \ \ \ \ \Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$
+- $\Delta$Rankine to $\Delta$Celsius: $\ \ \ \ \ \Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$
 
 ## Example 1 - Temperature (1/2)
 
-Convert 5 °C into Kelvin, Fahrenheit, and Rankine.
+Convert $5\ \mathrm{^\circ C}$ into Kelvin, Fahrenheit, and Rankine.
 
-- 5 °C -> ? K
-  - Remember: *T*(K) = *T*(°C) + 273.15
-  - So: *T*(K) = 5 °C + 273.15 = 278.15 K
+- $5\ \mathrm{^\circ C} \implies ?\ \mathrm{K}$
+  - Remember: $T(\mathrm{K}) = T(\mathrm{^\circ C}) + 273.15$
+  - $\implies T(\mathrm{K}) = 5\ \mathrm{^\circ C} + 273.15= 278.15\ \mathrm{K}$
 
 </br>
 
-- 5 °C -> ? °F
-  - Remember: *T*(°F) = $\frac{9}{5}$*T*(°F) + 32
-  - So: *T*(°F) = $\frac{9}{5}$(5) + 32 = 41 °F
+- $5\ \mathrm{^\circ C} \implies ?\ \mathrm{^\circ F}$
+  - Remember: $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{^\circ C}) + 32$
+  - $\implies T(\mathrm{^\circ F}) = \frac{9}{5}(5\ \mathrm{^\circ C})+ 32 = 41\ \mathrm{^\circ F}$
+
 
 ## Example 1 - Temperature (2/2)
 
 Convert 5 °C into Kelvin, Fahrenheit, and Rankine.
 
+- $5\ \mathrm{^\circ C} \implies ?\ \mathrm{^\circ R}$
+  - Remember: When converting from Celsius to Rankine, we prefer to first convert to Kelvin, then Rankine.
+  - We can use what we got from our first conversion, $T(\mathrm{K}) = 278.15\ \mathrm{K}$
+  - $\implies T(\mathrm{^\circ R}) = \frac{9}{5}(278.15\ \mathrm{K}) = 500.67\ \mathrm{^\circ R}$
 - 5 °C -> ? °R
-  - Remember: When converting from Celcius to Rankine, we prefer to first convert to Kelvin, then Rankine.
-  - We can use what we got from our first conversion, 5 °C = 278.15 K
-    - Remember: *T*(°R) = $\frac{9}{5}$*T*(K)
-    - So: *T*(°R) = $\frac{9}{5}$(278.15) = 500.67 °R
 
+## Example 2 - Temp. & Temp. Intervals (1/2){.bigbold85}
 
-## Example 2 - Temp. & Temp. Intervals
+:::{.bigbold180}
+:::
 
-- temperature interval example from the original video
+:::{.fragment .absolute top=15% left=0%}
+Over a limited temperature range, the heat capacity of liquid acetone is
+:::
 
+:::{.fragment .absolute top=25% left=10%}
+$C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ C}} \right] =0.1230+0.000186T$ where $T$ is in $\mathrm{^\circ C}$.
+:::
 
-## Summary
+:::{.fragment .absolute top=35% left=0%}
+What is the heat capacity formula with $T$ in $K$, $\mathrm{^\circ R}$, and $\mathrm{^\circ F}$?
+:::
 
-- 4 units of temperature
-  - Kelvin, Rankine, Fahrenheit, and Celcius
-- most conversions between the units use addition and subtraction
-- Rankine and Kelvin are outliers that use multiplication
+:::{.fragment .absolute top=50% left=0%}
+To Kelvin</br>
+$C_p \left[\mathrm{\frac{kJ}{mol \cdot K}} \right]\mathrm{\frac{1\ K}{1\ \mathrm{^\circ C}}} =0.1230+0.000186(T-273.15)T$ where $T$ is in $\mathrm{K}$.
+:::
 
+:::{.fragment .absolute top=65% left=0%}
+$\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot K}} \right] =0.0722+0.000186T$ where $T$ is in $\mathrm{K}$.
+:::
+
+## Example 2 - Temp. & Temp. Intervals (2/2){.bigbold85}
+
+:::{.fragment .absolute top=15% left=0%}
+To Rankine</br>
+$C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ R}} \right]\mathrm{\frac{9\ ^\circ R}{5\ \mathrm{^\circ C}}} =0.1230+0.000186 \left( \frac{5}{9}[T-491.67] \right)$ where $T$ is in $\mathrm{^\circ R}$.
+:::
+
+:::{.fragment .absolute top=30% left=0%}
+$\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ R}} \right] =0.04011+0.00005741$ where $T$ is in $\mathrm{^\circ R}$.
+:::
+
+:::{.fragment .absolute top=45% left=0%}
+To Fahrenheit</br>
+$C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right]\mathrm{\frac{9\ ^\circ F}{5\ \mathrm{^\circ C}}} =0.1230+0.000186 \left( \frac{5}{9}[T-32] \right)$ where $T$ is in $\mathrm{^\circ F}$.
+:::
+
+:::{.fragment .absolute top=60% left=0%}
+$\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right] =0.06650+0.00005741$ where $T$ is in $\mathrm{^\circ F}$.
+:::
+## The Takeaways
+
+1. There are four common temperature scales:
+  - Kelvin, Rankine, Fahrenheit, and Celsius
+2. The conversions between *temperatures* are different from the conversion of *temperature differences*.
+3. Most *temperature* conversions requre both multiplication and addition/subtraction.
+  - Conversion between Rankine and Kelvin only require multiplication
+4. All of the *temperature-difference* conversions just require multiplication by 9/5, 5/9, or 1.
 
 #
 
-::: {.bigger .centered}
- $\textbf{Thanks for watching!}$ </br> To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series.
+
+::: {.centered .bigger}
+</br></br></br></br>**Thanks for watching!** </br> The JTF/TFS companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description.
 :::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" bottom="-25%"}
