@@ -42,21 +42,22 @@ Converting Temperature is an episode of the Degrees of Freedom Project, *Just th
 
 . . .
 
-![](IceCube.png){.absolute left="0%" width="35%"}
+![](IceCube.png){.absolute left="10%" top=35% width="25%"}
 
 
-![](BoilingWater.png){.absolute left="32%" width="80%" top="20%"}
+![](BoilingFire.png){.absolute left="62%" width="25%" top="27.5%"}
 
-::: {.absolute top=31.5% left="30%"}
-*Temperature Interval*</br>$\longleftarrow\ \ 180\ \mathrm{^\circ F}\ \ \longrightarrow$
-:::
-
-::: {.absolute top=47.5% left="11.5%"}
+::: {.fragment}
+::: {.absolute top=60% left="13%"}
 *Temperature*</br>$32\ \mathrm{^\circ F}$
 :::
-
-::: {.absolute top=47.5% left="60%"}
+::: {.absolute top=60% left="67%"}
 *Temperature*</br>$212\ \mathrm{^\circ F}$
+:::
+:::
+
+::: {.fragment .absolute top=45% left="36%"}
+*Temperature Interval*</br>$\longleftarrow\ \ 180\ \mathrm{^\circ F}\ \ \longrightarrow$
 :::
 
 ## Temperature Equations (1/2)
@@ -141,7 +142,6 @@ Convert 5 °C into Kelvin, Fahrenheit, and Rankine.
   - Remember: When converting from Celsius to Rankine, we prefer to first convert to Kelvin, then Rankine.
   - We can use what we got from our first conversion, $T(\mathrm{K}) = 278.15\ \mathrm{K}$
   - $\implies T(\mathrm{^\circ R}) = \frac{9}{5}(278.15\ \mathrm{K}) = 500.67\ \mathrm{^\circ R}$
-- 5 °C -> ? °R
 
 ## Example 2 - Temp. & Temp. Intervals (1/2){.bigbold85}
 
@@ -157,7 +157,7 @@ $C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ C}} \right] =0.1230+0.000186T$ whe
 :::
 
 :::{.fragment .absolute top=35% left=0%}
-What is the heat capacity formula with $T$ in $K$, $\mathrm{^\circ R}$, and $\mathrm{^\circ F}$?
+What are the heat-capacity formulas with $T$ in $K$, $\mathrm{^\circ R}$, and $\mathrm{^\circ F}$?
 :::
 
 :::{.fragment .absolute top=50% left=0%}
@@ -201,7 +201,7 @@ $\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right] =0.06650+0.00
 
 
 ::: {.centered .bigger}
-</br></br></br></br>**Thanks for watching!** </br> The JTF/TFS companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description.
+</br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" bottom="-25%"}
