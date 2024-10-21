@@ -158,7 +158,7 @@
     "href": "basics/processdata/ConvertingTemperatureVisuals.html#temperatures-vs.-temperature-intervals",
     "title": "Chemical and Thermal Processes",
     "section": "Temperatures vs. Temperature Intervals",
-    "text": "Temperatures vs. Temperature Intervals\n\nTemperature: the single temperature of an object\nTemperature interval: the difference between two temperatures\n\n\n\n\n\nTemperature Interval\\(\\longleftarrow\\ \\ 180\\ \\mathrm{^\\circ F}\\ \\ \\longrightarrow\\)\n\n\nTemperature\\(32\\ \\mathrm{^\\circ F}\\)\n\n\nTemperature\\(212\\ \\mathrm{^\\circ F}\\)"
+    "text": "Temperatures vs. Temperature Intervals\n\nTemperature: the single temperature of an object\nTemperature interval: the difference between two temperatures\n\n\n\n\n\n\nTemperature\\(32\\ \\mathrm{^\\circ F}\\)\n\n\nTemperature\\(212\\ \\mathrm{^\\circ F}\\)\n\n\n\nTemperature Interval\\(\\longleftarrow\\ \\ 180\\ \\mathrm{^\\circ F}\\ \\ \\longrightarrow\\)"
   },
   {
     "objectID": "basics/processdata/ConvertingTemperatureVisuals.html#temperature-equations-12",
@@ -200,14 +200,14 @@
     "href": "basics/processdata/ConvertingTemperatureVisuals.html#example-1---temperature-22",
     "title": "Chemical and Thermal Processes",
     "section": "Example 1 - Temperature (2/2)",
-    "text": "Example 1 - Temperature (2/2)\nConvert 5 °C into Kelvin, Fahrenheit, and Rankine.\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{^\\circ R}\\)\n\nRemember: When converting from Celsius to Rankine, we prefer to first convert to Kelvin, then Rankine.\nWe can use what we got from our first conversion, \\(T(\\mathrm{K}) = 278.15\\ \\mathrm{K}\\)\n\\(\\implies T(\\mathrm{^\\circ R}) = \\frac{9}{5}(278.15\\ \\mathrm{K}) = 500.67\\ \\mathrm{^\\circ R}\\)\n\n5 °C -&gt; ? °R"
+    "text": "Example 1 - Temperature (2/2)\nConvert 5 °C into Kelvin, Fahrenheit, and Rankine.\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{^\\circ R}\\)\n\nRemember: When converting from Celsius to Rankine, we prefer to first convert to Kelvin, then Rankine.\nWe can use what we got from our first conversion, \\(T(\\mathrm{K}) = 278.15\\ \\mathrm{K}\\)\n\\(\\implies T(\\mathrm{^\\circ R}) = \\frac{9}{5}(278.15\\ \\mathrm{K}) = 500.67\\ \\mathrm{^\\circ R}\\)"
   },
   {
     "objectID": "basics/processdata/ConvertingTemperatureVisuals.html#example-2---temp.-temp.-intervals-12",
     "href": "basics/processdata/ConvertingTemperatureVisuals.html#example-2---temp.-temp.-intervals-12",
     "title": "Chemical and Thermal Processes",
     "section": "Example 2 - Temp. & Temp. Intervals (1/2)",
-    "text": "Example 2 - Temp. & Temp. Intervals (1/2)\n\n\n\n\nOver a limited temperature range, the heat capacity of liquid acetone is\n\n\n\\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ C}} \\right] =0.1230+0.000186T\\) where \\(T\\) is in \\(\\mathrm{^\\circ C}\\).\n\n\nWhat is the heat capacity formula with \\(T\\) in \\(K\\), \\(\\mathrm{^\\circ R}\\), and \\(\\mathrm{^\\circ F}\\)?\n\n\nTo Kelvin \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right]\\mathrm{\\frac{1\\ K}{1\\ \\mathrm{^\\circ C}}} =0.1230+0.000186(T-273.15)T\\) where \\(T\\) is in \\(\\mathrm{K}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right] =0.0722+0.000186T\\) where \\(T\\) is in \\(\\mathrm{K}\\)."
+    "text": "Example 2 - Temp. & Temp. Intervals (1/2)\n\n\n\n\nOver a limited temperature range, the heat capacity of liquid acetone is\n\n\n\\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ C}} \\right] =0.1230+0.000186T\\) where \\(T\\) is in \\(\\mathrm{^\\circ C}\\).\n\n\nWhat are the heat-capacity formulas with \\(T\\) in \\(K\\), \\(\\mathrm{^\\circ R}\\), and \\(\\mathrm{^\\circ F}\\)?\n\n\nTo Kelvin \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right]\\mathrm{\\frac{1\\ K}{1\\ \\mathrm{^\\circ C}}} =0.1230+0.000186(T-273.15)T\\) where \\(T\\) is in \\(\\mathrm{K}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right] =0.0722+0.000186T\\) where \\(T\\) is in \\(\\mathrm{K}\\)."
   },
   {
     "objectID": "basics/processdata/ConvertingTemperatureVisuals.html#example-2---temp.-temp.-intervals-22",
