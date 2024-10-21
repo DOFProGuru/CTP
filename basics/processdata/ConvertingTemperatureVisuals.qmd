@@ -42,10 +42,10 @@ Converting Temperature is an episode of the Degrees of Freedom Project, *Just th
 
 . . .
 
-![](IceCube.png){.absolute left="10%" top=35% width="25%"}
+![](icecube.png){.absolute left="10%" top=35% width="25%"}
 
 
-![](BoilingFire.png){.absolute left="62%" width="25%" top="27.5%"}
+![](boilingfire.png){.absolute left="62%" width="25%" top="27.5%"}
 
 ::: {.fragment}
 ::: {.absolute top=60% left="13%"}
