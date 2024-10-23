@@ -9,30 +9,52 @@ format:
     theme: [serif, ../../gradient.scss]
 ---
 
-# Converting Temperature</br>Just the Facts{.bigbold90}
+# How Keen Is Your Rank?</br>Just the Facts{.bigbold90}
 
 ::: {style="text-align: center;"}
 DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
 
 #
 
 ::: {.bigger .centered}
-Converting Temperature is an episode of the Degrees of Freedom Project, *Just the Facts* videos on chemical and thermal principles. If you want *The Full Story* version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
+*How Keen Is Your Rank?* is an episode of the Degrees of Freedom Project, *Just the Facts* videos on chemical and thermal principles. If you want *The Full Story* version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
 :::
 
 
 ## What temperature scales do we use?
 
-- Kelvin, K
-  - absolute scale (starts at zero)
-- Celsius, °C
-- Fahrenheit, °F
-- Rankine, °R
-  - absolute scale (starts at zero)
-  - used when working with American Engineering Units
+:::{.fragment .absolute top=10% left=0%}
+$\bullet$ Kelvin, K
+:::
+
+:::{.fragment .absolute top=25% left=0%}
+$\bullet$ Celsius, °C
+:::
+
+:::{.fragment .absolute top=35% left=0%}
+$\bullet$ Fahrenheit, °F
+:::
+
+:::{.fragment .absolute top=45% left=0%}
+$\bullet$ Rankine, °R
+:::
+
+
+:::{.fragment}
+:::{.absolute top=15% left=5%}
+$\mathbf{-}$ absolute scale (starts at zero)
+:::
+:::{.absolute top=50% left=5%}
+$\mathbf{-}$ absolute scale (starts at zero)
+:::
+:::
+
+:::{.fragment .absolute top=55% left=5%}
+$\mathbf{-}$ used when working with gases in Am. Eng. Units
+:::
 
 
 ## Temperatures vs. Temperature Intervals {.bigbold90}
@@ -90,34 +112,55 @@ Converting Temperature is an episode of the Degrees of Freedom Project, *Just th
 - Rankine -> Celsius: $\ \ \ \ \ \ T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ R}) - 491.67]$
 
 
-## Temperature Interval Equations (1/2)
+## Temperature Interval Equations
 
-</br>
+:::{.fragment  fragment-index=10 .absolute top=7.5% left=2%}
+$\Delta$Celsius to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$
+:::
 
-- $\Delta$Celsius to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$
-- $\Delta$Celsius to $\Delta$Kelvin: $\ \ \ \ \ \ \ \Delta T(\mathrm{K}) = \Delta T(\mathrm{^\circ C})$
-- $\Delta$Celsius to $\Delta$Rankine: $\ \ \ \ \Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$
+:::{.fragment  fragment-index=1 .absolute top=15% left=2%}
+$\Delta$Celsius to $\Delta$Kelvin: $\ \ \ \ \ \ \ \Delta T(\mathrm{K}) = \Delta T(\mathrm{^\circ C})$
+:::
 
-</br>
+:::{.fragment  fragment-index=12 .absolute top=22.5% left=2%}
+$\Delta$Celsius to $\Delta$Rankine: $\ \ \ \ \Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$
+:::
 
-- $\Delta$Fahrenheit to $\Delta$Celsius: $\ \ \Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$
-- $\Delta$Fahrenheit to $\Delta$Kelvin: $\ \ \ \ \Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$
-- $\Delta$Fahrenheit to $\Delta$Rankine: $\Delta T(\mathrm{^\circ R}) = \Delta T(\mathrm{^\circ F})$
+:::{.fragment  fragment-index=8 .absolute top=30% left=2%}
+$\Delta$Fahrenheit to $\Delta$Celsius: $\ \ \Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$
+:::
 
+:::{.fragment  fragment-index=6 .absolute top=37.5% left=2%}
+$\Delta$Fahrenheit to $\Delta$Kelvin: $\ \ \ \ \Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$
+:::
 
-## Temperature Interval Equations (2/2)
+:::{.fragment  fragment-index=4 .absolute top=45% left=2%}
+$\Delta$Fahrenheit to $\Delta$Rankine: $\Delta T(\mathrm{^\circ R}) = \Delta T(\mathrm{^\circ F})$
+:::
 
-</br>
+:::{.fragment  fragment-index=9 .absolute top=52.5% left=2%}
+$\Delta$Kelvin to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{K})$
+:::
 
-- $\Delta$Kelvin to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{K})$
-- $\Delta$Kelvin to $\Delta$Celsius: $\ \ \ \ \ \Delta T(\mathrm{^\circ C}) = \Delta T(\mathrm{K})$
-- $\Delta$Kelvin to $\Delta$Rankine: $\ \ \ \Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{K})$
+:::{.fragment  fragment-index=2 .absolute top=60% left=2%}
+$\Delta$Kelvin to $\Delta$Celsius: $\ \ \ \ \ \Delta T(\mathrm{^\circ C}) = \Delta T(\mathrm{K})$
+:::
 
-</br>
+:::{.fragment  fragment-index=11 .absolute top=67.5% left=2%}
+$\Delta$Kelvin to $\Delta$Rankine: $\ \ \ \Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{K})$
+:::
 
-- $\Delta$Rankine to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \Delta T(\mathrm{^\circ R})$
-- $\Delta$Rankine to $\Delta$Kelvin: $\ \ \ \ \ \ \ \Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$
-- $\Delta$Rankine to $\Delta$Celsius: $\ \ \ \ \ \Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$
+:::{.fragment  fragment-index=3 .absolute top=75% left=2%}
+$\Delta$Rankine to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \Delta T(\mathrm{^\circ R})$
+:::
+
+:::{.fragment  fragment-index=5 .absolute top=82.5% left=2%}
+$\Delta$Rankine to $\Delta$Kelvin: $\ \ \ \ \ \ \ \Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$
+:::
+
+:::{.fragment  fragment-index=7 .absolute top=90% left=2%}
+$\Delta$Rankine to $\Delta$Celsius: $\ \ \ \ \ \Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$
+:::
 
 ## Example 1 - Temperature (1/2)
 
