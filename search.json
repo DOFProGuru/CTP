@@ -151,7 +151,7 @@
     "href": "basics/processdata/ConvertingTemperatureVisuals.html#what-temperature-scales-do-we-use",
     "title": "Chemical and Thermal Processes",
     "section": "What temperature scales do we use?",
-    "text": "What temperature scales do we use?\n\nKelvin, K\n\nabsolute scale (starts at zero)\n\nCelsius, °C\nFahrenheit, °F\nRankine, °R\n\nabsolute scale (starts at zero)\nused when working with American Engineering Units"
+    "text": "What temperature scales do we use?\n\n\\(\\bullet\\) Kelvin, K\n\n\n\\(\\bullet\\) Celsius, °C\n\n\n\\(\\bullet\\) Fahrenheit, °F\n\n\n\\(\\bullet\\) Rankine, °R\n\n\n\n\\(\\mathbf{-}\\) absolute scale (starts at zero)\n\n\n\\(\\mathbf{-}\\) absolute scale (starts at zero)\n\n\n\n\\(\\mathbf{-}\\) used when working with gases in Am. Eng. Units"
   },
   {
     "objectID": "basics/processdata/ConvertingTemperatureVisuals.html#temperatures-vs.-temperature-intervals",
@@ -175,18 +175,11 @@
     "text": "Temperature Equations (2/2)\n\n\nKelvin to Fahrenheit: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{K}) - 459.67\\)\nKelvin to Celsius: \\(\\ \\ \\ \\ \\ T(\\mathrm{^\\circ C}) = T(\\mathrm{K}) - 273.15\\)\nKelvin to Rankine: \\(\\ \\ \\ \\ T(\\mathrm{^\\circ R}) = \\frac{9}{5} T(\\mathrm{K})\\)\n\n\n\nRankine to Fahrenheit: \\(\\ T(\\mathrm{^\\circ F}) = T(\\mathrm{^\\circ R}) - 459.67\\)\nRankine to Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\ \\ T(\\mathrm{K}) = \\frac{5}{9} T(\\mathrm{^\\circ R})\\)\nRankine -&gt; Celsius: \\(\\ \\ \\ \\ \\ \\ T(\\mathrm{^\\circ C}) = \\frac{5}{9}[T(\\mathrm{^\\circ R}) - 491.67]\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureVisuals.html#temperature-interval-equations-12",
-    "href": "basics/processdata/ConvertingTemperatureVisuals.html#temperature-interval-equations-12",
+    "objectID": "basics/processdata/ConvertingTemperatureVisuals.html#temperature-interval-equations",
+    "href": "basics/processdata/ConvertingTemperatureVisuals.html#temperature-interval-equations",
     "title": "Chemical and Thermal Processes",
-    "section": "Temperature Interval Equations (1/2)",
-    "text": "Temperature Interval Equations (1/2)\n\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\Delta T(\\mathrm{^\\circ C})\\)\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Celsius: \\(\\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Rankine: \\(\\Delta T(\\mathrm{^\\circ R}) = \\Delta T(\\mathrm{^\\circ F})\\)"
-  },
-  {
-    "objectID": "basics/processdata/ConvertingTemperatureVisuals.html#temperature-interval-equations-22",
-    "href": "basics/processdata/ConvertingTemperatureVisuals.html#temperature-interval-equations-22",
-    "title": "Chemical and Thermal Processes",
-    "section": "Temperature Interval Equations (2/2)",
-    "text": "Temperature Interval Equations (2/2)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\Delta T(\\mathrm{K})\\)\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\Delta T(\\mathrm{^\\circ R})\\)\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)"
+    "section": "Temperature Interval Equations",
+    "text": "Temperature Interval Equations\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Celsius: \\(\\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Rankine: \\(\\Delta T(\\mathrm{^\\circ R}) = \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\Delta T(\\mathrm{^\\circ R})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)"
   },
   {
     "objectID": "basics/processdata/ConvertingTemperatureVisuals.html#example-1---temperature-12",
