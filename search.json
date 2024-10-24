@@ -214,7 +214,7 @@
     "href": "basics/processdata/ConvertingTemperatureVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nThere are four common temperature scales:\n\n\nKelvin, Rankine, Fahrenheit, and Celsius\n\n\nThe conversions between temperatures are different from the conversion of temperature differences.\nMost temperature conversions requre both multiplication and addition/subtraction.\n\n\nConversion between Rankine and Kelvin only require multiplication\n\n\nAll of the temperature-difference conversions just require multiplication by 9/5, 5/9, or 1."
+    "text": "The Takeaways\n\nThere are four common temperature scales:\n\n\nKelvin, Rankine, Fahrenheit, and Celsius\n\n\nThe conversions between temperatures are different from the conversion of temperature intervals.\nMost temperature conversions requre both multiplication and addition/subtraction.\n\n\nConversion between Rankine and Kelvin only require multiplication\n\n\nAll of the temperature-interval conversions just require multiplication by 9/5, 5/9, or 1."
   },
   {
     "objectID": "basics/processdata/WhatIsAMoleVisuals.html#definition",
