@@ -23,6 +23,11 @@ DOFPro Team
 *How Keen Is Your Rank?* is an episode of the Degrees of Freedom Project, *Just the Facts* videos on chemical and thermal principles. If you want *The Full Story* version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
 :::
 
+#
+
+- This Video – *How Keen Is Your Rank?* explains how to convert temperatures and temperature intervals.
+- Another Video – *Is Furlongs Per Fortnight a Thing?* explains how to convert a measured or calculated quantity from one set of units to another (except for temperatures).
+- A Third Video – *The Most Annoying Equation Conversion* explains how to convert an equation as opposed to a calculated or measured quantity from one set of units to another.
 
 ## What temperature scales do we use?
 
@@ -235,18 +240,19 @@ $\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right] =0.06650+0.00
 
 1. There are four common temperature scales:
   - Kelvin, Rankine, Fahrenheit, and Celsius
-2. The conversions between *temperatures* are different from the conversion of *temperature differences*.
+2. The conversions between *temperatures* are different from the conversion of *temperature intervals*.
 3. Most *temperature* conversions requre both multiplication and addition/subtraction.
   - Conversion between Rankine and Kelvin only require multiplication
-4. All of the *temperature-difference* conversions just require multiplication by 9/5, 5/9, or 1.
+4. All of the *temperature-interval* conversions just require multiplication by 9/5, 5/9, or 1.
 
 #
 ::: {.centered}
  </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
-::: {.absolute top=125% left=35%}
-The DOFPro Team
+
+::: {.centered .bigger}
+</br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
