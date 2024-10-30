@@ -75,3 +75,15 @@ DOFPro Team
 1. Different types of moles are for different types of mass units.
 2. The molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.
 3. Use gram moles for problems in grams. Use pound-moles for problems in pounds, etc.
+
+
+#
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story/Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=40%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}

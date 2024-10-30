@@ -4,7 +4,7 @@ format:
     width: 3840
     height: 2160
     max-scale: 8
-    logo: DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
     theme: [serif, gradient.scss]
 ---
@@ -15,7 +15,7 @@ format:
 DOFPro Tean
 :::
 
-![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-80%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-80%"}
 
 # The Full Story Intro
 
@@ -23,7 +23,7 @@ DOFPro Tean
 DOFPro Team
 :::
 
-![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-80%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-80%"}
 
 #
 
@@ -56,7 +56,7 @@ DOFPro Team
 - Another bullet item
 - Yet another bullet item
 
-![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png)
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png)
 
 ## Fragment Items
 
@@ -85,7 +85,7 @@ Yet another fragment item
 :::
 
 ::: {.fragment}
-![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png)
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png)
 :::
 
 ## Fragment and Absolute Items
@@ -115,15 +115,18 @@ Yet another fragment item
 :::
 
 ::: {.fragment .absolute top=55% left=55%}
-![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png)
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png)
 :::
 
 # Ending
 
 #
-
 ::: {.centered .bigger}
-</br></br></br></br>**Thanks for watching!** </br> The JTF/TFS companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description.
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story/Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
-![](DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" bottom="-25%"}
+::: {.absolute top=125% left=40%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}

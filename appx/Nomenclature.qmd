@@ -271,7 +271,7 @@ This page is to test web versions of the nomenclature or variable names for the 
 | $\xi$         | extent of reaction, reaction coordinate                                                                     | $\xi$ |$\epsilon$|       | $\xi$                     |
 | $\dot{\xi}$   | extent of reaction rate                                                                              | $\dot{\xi}$ |$\dot{\epsilon}$|       |                      |
 |$\displaystyle\prod_i$| product of the $i$ terms that follow                                                                      |       |     |       | $\displaystyle\prod_i$    |
-| $\rho$        | density                                                                                                          |$\rho$|$\rho$|       | $\rho$                    |
+| $\rho$        | density or mass concentration                                                                                                         |$\rho$|| $\rho_\mathrm{A}$        |  mass concentration of species A                                                                                                         |$\rho$|$\rho$|       | $\rho$                    |
 | $\rho_B$      | bulk density of catalyst                                                                                         |       |     |       | $\rho_B$                  |
 | $\sigma$      | true or population standard deviation (statistics)                                                                           |       |     |       |                           |
 | $\sigma^2$    | true or population variance (statistics)
