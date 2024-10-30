@@ -269,8 +269,12 @@ The discussion continues in How Deviant and Mean Are Your Data? Intro and Basics
 :::
 
 #
-::: {.bigger .centered}
- $\textbf{Thanks for watching!}$ </br> To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series.
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
+::: {.absolute top=125% left=35%}
+The DOFPro Team
+:::
 
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

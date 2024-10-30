@@ -1,0 +1,88 @@
+---
+format: 
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+---
+# What The Frac!</br>Just The Facts {style="text-align: center;"}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-50%"}
+
+## Mass
+
+Mass is both a property of a physical body and a measure of its
+resistance to acceleration (a change in its state of motion) when a net
+force is applied. An object's mass also determines the strength of its
+gravitational attraction to other bodies. (https://en.wikipedia.org/wiki/Mass)
+
+The SI unit of mass, the kilogram, is defined from Planck’s constant
+
+$$h=6.626070150 \times 10^{-34}\ \mathrm{m^2/s}$$
+
+or
+
+$$ 1\ \mathrm{kg}=\frac{h}{6.626070150 \times 10^{-34}\ \mathrm{kg \cdot m^2/s}} $$
+
+## Mass (cont.)
+
+For the curious, the second is defined as 9,192,631,770 times the
+period of the unperturbed ground-state hyperfine transition of the
+cesium 133 atom. And the meter is defined as 1/299,792,458th of the
+distance light travels in a vacuum in one second.
+The American engineering unit of mass, the pound mass, or $\mathrm{lb_m}$ is
+defined as
+
+$$1\ \mathrm{lb_m} \equiv 0.453\ 592\ 37\ \mathrm{kg}$$
+
+## Mole
+
+- See *What Ia A Mole?* for a more thorough explanation
+
+- The most common moles are
+  - $\text{g-mol}$ or $\text{mol}$
+  - $\text{kg-mol}$ or $\text{kmol}$
+  - $\text{lb-mol}$
+  - $\text{ton-mol}$
+  - $\text{tonne-mol}$
+
+You should NEVER convert your mass in kg or lbm to g, and then
+to g-mol. You should ALWAYS use the kind of mole your mass is
+in. The conversion factor is simply the molecular weight.
+
+## Mole (cont.)
+
+The molecular weight of methane is:
+
+MCH4
+=16.0425 g
+g-mol
+=16.0425 kg
+kg-mol
+=16.0425
+lbm
+lb-mol
+## The Takeaways
+
+1. Pressure is the second most commonly measured process variable.
+2. Hydrostatic pressure $= \rho g h$.
+3. Manometers measure $\Delta P$'s with hydrostatic pressure.
+
+
+#
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=35%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

@@ -1,7 +1,7 @@
 ---
 format:
   revealjs:
-    width: 2700
+    width: 3840
     height: 2160
     max-scale: 8
     logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
@@ -16,14 +16,19 @@ Are You Dense? Crank Up the Volume and Go With the Flow!
 ::: 
 
 ::: {.bigbold style="text-align: center;"}
-Just the Facts
+The Full Story
 :::
 
 ::: {style="text-align: center;"}
 DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="-40%" width=50%}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="-50%" width=50%}
+
+# What is the relationship between density and specific volume?
+
+
+# How do you use specific volume?
 
 
 ## Mass Density and Specific Volume
@@ -51,6 +56,12 @@ SI units: $\mathrm{m^3/kg}$
 ::: {.fragment  .absolute top=70% left=10%}
 $\hat{V} = \frac{V}{m} = \frac{1}{\rho}$
 :::
+
+
+# What is the relationship between molar density and molar concentration?
+
+
+# How would you use molar density?
 
 
 ## Molar Density and Molar Volume
@@ -90,7 +101,7 @@ We reuse the mass-density symbol for molar density and the specific-volume symbo
 **Specific Gravity** $\equiv$ ratio of density to a reference density
 :::
 
-::: {.fragment .absolute top=25% left=28%}
+::: {.fragment .absolute top=25% left=20%}
 $= \frac{\rho}{\rho_\mathrm{{ref}}}$
 :::
 
@@ -102,11 +113,11 @@ Most common reference density is liquid water at $4\ ^{\circ}\text{C}$
 $\rho\mathrm{_{ H_2O(\textit{l})}}(4\ ^{\circ}\mathrm{C}) = 1000\ \mathrm{kg/m^3}$
 :::
 
-::: {.fragment .absolute top=58% left=29.8%}
+::: {.fragment .absolute top=58% left=23.1%}
 $= 1.000\ \mathrm{g/cm^3}$
 :::
 
-::: {.fragment .absolute top=66% left=29.8%}
+::: {.fragment .absolute top=66% left=23.1%}
 $= 62.43\ \mathrm{lb_m/ft^3}$
 :::
 
@@ -149,7 +160,7 @@ Mass, Molar, and Volumetric Flow Rates
 :::
 
 ::: {.fragment .absolute top=14% left=0%}
-**Mass Flow Rate**, $\dot{m} \equiv \frac{\text{mass flowing past a given location}}{\text{period of time}}$
+**Mass Flow Rate**, $\dot{m} \equiv \frac{\text{mass flowing past a given location}}{\text{period of time}}$,&nbsp;&nbsp;&nbsp;SI units: $\mathrm{kg/s}$
 :::
 
 ::: {.fragment .absolute top=26% left=10%}
@@ -157,7 +168,7 @@ $\sum \dot{m}_{i_\mathrm{in}} = \sum \dot{m}_{i_\mathrm{out}}$ (open, steady sta
 :::
 
 ::: {.fragment .absolute top=38% left=0%}
-**Molar Flow Rate**, $\dot{n} \equiv \frac{\text{moles flowing past a given location}}{\text{period of time}}$
+**Molar Flow Rate**, $\dot{n} \equiv \frac{\text{moles flowing past a given location}}{\text{period of time}}$,&nbsp;&nbsp;&nbsp;SI units: $\text{g-mol/s}$
 :::
 
 ::: {.fragment .absolute top=50% left=10%}
@@ -165,12 +176,15 @@ $\sum \dot{n}_{i_\mathrm{in}} = \sum \dot{n}_{i_\mathrm{out}}$ (open, steady sta
 :::
 
 ::: {.fragment .absolute top=62% left=0%}
-**Volumetric Flow Rate**, $\dot{V} \equiv$ $\frac{\text{volume flowing past a given location}}{\text{period of time}}$
+**Volumetric Flow Rate**, $\dot{V} \equiv$ $\frac{\text{volume flowing past a given location}}{\text{period of time}}$,&nbsp;&nbsp;&nbsp;SI units: $\mathrm{m^3/s}$
 :::
 
 ::: {.fragment .absolute top=74% left=10%}
 $\sum \dot{V}_{i_\mathrm{in}} \ne \sum \dot{V}_{i_\mathrm{out}}$ (in general)
 :::
+
+
+# How is the velocity of a fluid in a pipe or tube defined?
 
 
 ##
@@ -183,7 +197,7 @@ Mass, Molar, and Volumetric Flow Rates (cont.)
 Given a specific location in space and instant in time, the following relationship exists between the the volumetric flow rate ($\dot{V}$), the average fluid velocity ($u$), and the cross-sectional area of the flow ($A$):
 :::
 
-::: {.fragment .absolute top=40% left=10%}
+::: {.fragment .absolute top=35% left=10%}
 $\dot{V}$ = $uA$
 :::
 
@@ -219,25 +233,30 @@ mass or molar flowrate is constant, *it does not follow* that the
 volumetric flow rate is constant.
 :::
 
+
+::: {.bigbold75}
+# You have a stopwatch, a measuring cup, a pair of calipers, and fluid flowing in a tube at a constant rate. </br> How would you measure the fluid velocity?
+:::
+
 ## Fluid Velocity
 
 ::: {.fragment .absolute top=10% left=5%}
 Recall $\dot{V}$ = $uA$
 :::
 
-::: {.fragment .absolute top=18% left=5%}
+::: {.fragment .absolute top=20% left=5%}
 $\implies u=\frac{\dot{V}}{A}$
 :::
 
-::: {.fragment .absolute top=26% left=5%}
+::: {.fragment .absolute top=30% left=5%}
 Measuring cup of volume, $V$, fills in time, $t$.
 :::
 
-::: {.fragment .absolute top=36% left=5%}
+::: {.fragment .absolute top=40% left=5%}
 Average fluid flow rate, $\dot{V} = \frac{V}{t}$.
 :::
 
-::: {.fragment .absolute top=46% left=5%}
+::: {.fragment .absolute top=50% left=5%}
 Cross-sectional area, $A\ (=\pi\frac{D^2}{4})$ for a tube or circular pipe
 :::
 
@@ -257,13 +276,14 @@ For reference, for laminar flow in a circular tube, $u_\mathrm{wall} = 0$, $u_{C
 3. The mass flow rate is equal to the density times the volumetric flow rate.
 4. Fluid velocity is defined as the volumetric flow rate divided by the cross-sectional area.
 
+
 #
-::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story/Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
-::: {.absolute top=125% left=35%}
+::: {.absolute top=125% left=40%}
 The DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}

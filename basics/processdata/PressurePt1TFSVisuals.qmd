@@ -1,20 +1,20 @@
 ---
 format: 
   revealjs:
-    width: 2700
+    width: 3840
     height: 2160
     max-scale: 8
     logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
     theme: [serif, ../../gradient.scss]
 ---
-# Under Pressure Part 1 </br> Just The Facts {style="text-align: center;"}
+# Under Pressure Part 1 </br> The Full Story {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
 DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-50%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-50%"}
 
 ## Under Pressure
 
@@ -30,21 +30,32 @@ DOFPro Team
  * Barometric Pressure
  * Gauge Pressure
  * Absolute Pressure
- * Vacuum Pressure
+ * Vacuum Pressure.
+
+
+# What Is Pressure?
+
+
+# Why would you want</br>to measure pressure?
+
 
 ## Pressure
 
 :::{.fragment}
+:::{.absolute top=10% left=0%}
 $\mathrm{Pressure} \equiv f_{\mathrm{normal}}/A$, with SI units of the Pascal ($\mathrm{Pa}$)
-
-$$1\ \mathrm{Pa} \equiv 1\ \mathrm{N}/\mathrm{m^2}$$
 :::
 
-:::{.fragment}
+:::{.absolute top=20% left=20%}
+$1\ \mathrm{Pa} \equiv 1\ \mathrm{N}/\mathrm{m^2}$
+:::
+:::
+
+:::{.fragment .absolute top=30% left=0%}
 Other common units are the $\mathrm{Torr}$ or $\mathrm{mmHg}$, the *atmosphere* $(\mathrm{atm}),$ the *kilopascal* $(\mathrm{kPa})$, the $\mathrm{bar}$, and the *pound per square inch* $(\mathrm{psi})$.
 :::
 
-:::{.fragment}
+:::{.fragment .absolute top=45% left=18%}
 $$
 \begin{aligned}
 1\ \mathrm{atm} & = 1.01325\ \mathrm{bar} = 101.325\ \mathrm{kPa} = 101325\ \mathrm{Pa} \\
@@ -53,9 +64,13 @@ $$
 \end{aligned}$$
 :::
 
+
+# In a swimming pool, how does the pressure change with depth?
+
+
 ## Hydrostatic Pressure
 
-![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/WaterColumn.png){.absolute top="10" left="30" height="90%"}
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/WaterColumn.png){.absolute top="10" left="9%" height="90%"}
 
 :::{.fragment .absolute top=35% left=29%}
 $h$
@@ -70,11 +85,11 @@ $A = \pi D^2 / 4$
 :::
 :::
 
-:::{.fragment .absolute top="18%" left="15%"}
+:::{.fragment .absolute top="18%" left="18%"}
 $P_0$
 :::
 
-:::{.fragment .absolute top="35%" left="23%"}
+:::{.fragment .absolute top="35%" left="24%"}
 $\rho$
 :::
 
@@ -82,15 +97,15 @@ $\rho$
 $m = \rho A h,\ F = mg$
 :::
 
-:::{.fragment .absolute top="31%" left="52%"}
+:::{.fragment .absolute top="31%" left="52.5%"}
 $\Delta P = \frac{mg}{A}=\frac{\rho A h g}{A} = \rho g h$
 :::
 
 :::{.fragment}
-:::{.absolute top="40%" left="55%"}
+:::{.absolute top="40%" left="54.5%"}
 $P = \Delta P + P_0 = \rho g h + P_0$
 :::
-:::{.absolute top="50%" left="15%"}
+:::{.absolute top="50%" left="18%"}
 $P$
 :::
 :::
@@ -105,28 +120,28 @@ $P$
 |$\mathrm{mH_2O}$|
 :::
 
+
+# What is a manometer</br>and how does it work?
+
+
 ## Manometer
 
 ![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/Manometer.png){.absolute top="10%" left="10" height="80%"}
 
 :::{.fragment}
 :::{.absolute top="23%" left="40%"}
-$P_1 + \rho_\mathrm{A}g(h_2+h_1)$
-
-$= \rho_\mathrm{B}g h_1 + \rho_\mathrm{C}g h_2 + P_2$
+$P_1 + \rho_\mathrm{A}g(h_2+h_1) = \rho_\mathrm{B}g h_1 + \rho_\mathrm{C}g h_2 + P_2$
 :::
 :::
 
 :::{.fragment}
 :::{.absolute top="40%" left="40%"}
-$\Delta P = P_1 - P_2$
-
-$= [\rho_\mathrm{B} h_1 + \rho_\mathrm{C} h_2 - \rho_\mathrm{A}(h_2+h_1)] g$
+$\Delta P = P_1 - P_2 = [\rho_\mathrm{B} h_1 + \rho_\mathrm{C} h_2 - \rho_\mathrm{A}(h_2+h_1)] g$
 :::
 :::
 
 :::{.fragment}
-:::{.absolute top="57%" left="40%"}
+:::{.absolute top="55%" left="40%"}
 For $\rho_\mathrm{A}=\rho_\mathrm{C}$
 :::
 :::
@@ -136,6 +151,28 @@ For $\rho_\mathrm{A}=\rho_\mathrm{C}$
 $\Delta P= (\rho_\mathrm{B}-\rho_\mathrm{A})g h_1$
 :::
 :::
+
+
+# What does a</br>sphygmomanometer</br>measure?
+
+
+## Sphygmomanometer (Blood Pressure Meter)
+
+:::: {.columns}
+
+::: {.column width="35%"}
+![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/Baumanometer.jpg){.absolute top=10% left=0% height=80%}
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) [File Link](https://commons.wikimedia.org/wiki/File:%22Baumanometer%22;_instrument_for_measuring_blood_pressure._Wellcome_L0011955.jpg)
+:::
+
+::: {.column width="65%"}
+- A sphygmomanometer measures blood pressure.
+- The original ones were a mercury manometer with a pressure cuff and a pump bulb.
+- Blood pressure is traditionally measured in mmHg.
+:::
+
+::::
+
 
 ## Example
 
@@ -155,19 +192,19 @@ $T = 68\ ^\circ\mathrm{F}$
 :::
 
 :::{.fragment}
-:::{.absolute top="15%" left="61%"}
+:::{.absolute top="15%" left="63.5%"}
 $\rho_\mathrm{benzene} = 879\ \frac{\mathrm{kg}}{\mathrm{m^3}}$
 :::
 :::
 
 :::{.fragment}
-:::{.absolute top="23%" left="67%"}
+:::{.absolute top="23%" left="67.8%"}
 $\rho_\mathrm{Hg} = 13,546\ \frac{\mathrm{kg}}{\mathrm{m^3}}$
 :::
 :::
 
 :::{.fragment}
-:::{.absolute top="32%" left="66%"}
+:::{.absolute top="32%" left="67%"}
 $P_\mathrm{atm} = 1.000\ \mathrm{atm}$
 :::
 :::
@@ -216,11 +253,11 @@ $\implies \rho_\mathrm{piston} = 11,500\ \frac{\mathrm{kg}}{\mathrm{m^3}}=11.50\
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
-::: {.absolute top=125% left=35%}
+::: {.absolute top=125% left=40%}
 The DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}
