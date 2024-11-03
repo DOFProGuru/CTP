@@ -279,7 +279,19 @@ For reference, for laminar flow in a circular tube, $u_\mathrm{wall} = 0$, $u_{C
 
 #
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story/Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=40%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}
+
+
+#
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> *The Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}

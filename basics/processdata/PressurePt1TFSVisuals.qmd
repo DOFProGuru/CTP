@@ -245,15 +245,29 @@ $\implies \rho_\mathrm{piston} = 11,500\ \frac{\mathrm{kg}}{\mathrm{m^3}}=11.50\
 ## Spreadsheet of Solution
 ![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/PressureExamples1.png){.absolute top="15%" left="2.5%" height="50%"}
 
+
 ## The Takeaways
 
 1. Pressure is the second most commonly measured process variable.
 2. Hydrostatic pressure $= \rho g h$.
 3. Manometers measure $\Delta P$'s with hydrostatic pressure.
 
+
 #
 ::: {.centered}
  </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=40%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}
+
+
+#
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> *The Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}
