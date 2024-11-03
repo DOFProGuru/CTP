@@ -1,0 +1,258 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+---
+
+# How Keen Is Your Rank?</br>Just the Facts{.bigbold90}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+#
+
+::: {.bigger .centered}
+*How Keen Is Your Rank?* is an episode of the Degrees of Freedom Project, *Just the Facts* videos on chemical and thermal principles. If you want *The Full Story* version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
+:::
+
+#
+
+- This Video – *How Keen Is Your Rank?* explains how to convert temperatures and temperature intervals.
+- Another Video – *Is Furlongs Per Fortnight a Thing?* explains how to convert a measured or calculated quantity from one set of units to another (except for temperatures).
+- A Third Video – *The Most Annoying Equation Conversion* explains how to convert an equation as opposed to a calculated or measured quantity from one set of units to another.
+
+## What temperature scales do we use?
+
+:::{.fragment .absolute top=10% left=0%}
+$\bullet$ Kelvin, K
+:::
+
+:::{.fragment .absolute top=25% left=0%}
+$\bullet$ Celsius, °C
+:::
+
+:::{.fragment .absolute top=35% left=0%}
+$\bullet$ Fahrenheit, °F
+:::
+
+:::{.fragment .absolute top=45% left=0%}
+$\bullet$ Rankine, °R
+:::
+
+
+:::{.fragment}
+:::{.absolute top=15% left=5%}
+$\mathbf{-}$ absolute scale (starts at zero)
+:::
+:::{.absolute top=50% left=5%}
+$\mathbf{-}$ absolute scale (starts at zero)
+:::
+:::
+
+:::{.fragment .absolute top=55% left=5%}
+$\mathbf{-}$ used when working with gases in Am. Eng. Units
+:::
+
+
+## Temperatures vs. Temperature Intervals {.bigbold90}
+
+- Temperature: the *single* temperature of an object
+- Temperature interval: the *difference* between two temperatures
+
+. . .
+
+![](icecube.png){.absolute left="10%" top=35% width="25%"}
+
+
+![](boilingfire.png){.absolute left="62%" width="25%" top="27.5%"}
+
+::: {.fragment}
+::: {.absolute top=60% left="13%"}
+*Temperature*</br>$32\ \mathrm{^\circ F}$
+:::
+::: {.absolute top=60% left="67%"}
+*Temperature*</br>$212\ \mathrm{^\circ F}$
+:::
+:::
+
+::: {.fragment .absolute top=45% left="36%"}
+*Temperature Interval*</br>$\longleftarrow\ \ 180\ \mathrm{^\circ F}\ \ \longrightarrow$
+:::
+
+## Temperature Equations (1/2)
+
+</br>
+
+- Celsius to Fahrenheit: $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{^\circ C}) + 32$
+- Celsius to Kelvin: $\ \ \ \ \ \ T(\mathrm{K}) = T(\mathrm{^\circ C}) + 273.15$
+- Celsius to Rankine: $\ \ \ T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{^\circ C}) + 491.67$
+
+</br>
+
+- Fahrenheit to Celsius: $\ \ T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ F}) - 32]$
+- Fahrenheit to Kelvin: $\ \ \ T(\mathrm{K}) = \frac{5}{9} [T(\mathrm{^\circ F}) - 32] + 273.15$
+- Fahrenheit -> Rankine: $T(\mathrm{^\circ R}) = T(\mathrm{^\circ F}) + 459.67$
+
+
+## Temperature Equations (2/2)
+
+</br>
+
+- Kelvin to Fahrenheit: $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{K}) - 459.67$
+- Kelvin to Celsius: $\ \ \ \ \ T(\mathrm{^\circ C}) = T(\mathrm{K}) - 273.15$
+- Kelvin to Rankine: $\ \ \ \ T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{K})$
+
+</br>
+
+- Rankine to Fahrenheit: $\ T(\mathrm{^\circ F}) = T(\mathrm{^\circ R}) - 459.67$
+- Rankine to Kelvin: $\ \ \ \ \ \ \ \ \ T(\mathrm{K}) = \frac{5}{9} T(\mathrm{^\circ R})$
+- Rankine -> Celsius: $\ \ \ \ \ \ T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ R}) - 491.67]$
+
+
+## Temperature Interval Equations
+
+:::{.fragment  fragment-index=10 .absolute top=7.5% left=2%}
+$\Delta$Celsius to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$
+:::
+
+:::{.fragment  fragment-index=1 .absolute top=15% left=2%}
+$\Delta$Celsius to $\Delta$Kelvin: $\ \ \ \ \ \ \ \Delta T(\mathrm{K}) = \Delta T(\mathrm{^\circ C})$
+:::
+
+:::{.fragment  fragment-index=12 .absolute top=22.5% left=2%}
+$\Delta$Celsius to $\Delta$Rankine: $\ \ \ \ \Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$
+:::
+
+:::{.fragment  fragment-index=8 .absolute top=30% left=2%}
+$\Delta$Fahrenheit to $\Delta$Celsius: $\ \ \Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$
+:::
+
+:::{.fragment  fragment-index=6 .absolute top=37.5% left=2%}
+$\Delta$Fahrenheit to $\Delta$Kelvin: $\ \ \ \ \Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$
+:::
+
+:::{.fragment  fragment-index=4 .absolute top=45% left=2%}
+$\Delta$Fahrenheit to $\Delta$Rankine: $\Delta T(\mathrm{^\circ R}) = \Delta T(\mathrm{^\circ F})$
+:::
+
+:::{.fragment  fragment-index=9 .absolute top=52.5% left=2%}
+$\Delta$Kelvin to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{K})$
+:::
+
+:::{.fragment  fragment-index=2 .absolute top=60% left=2%}
+$\Delta$Kelvin to $\Delta$Celsius: $\ \ \ \ \ \Delta T(\mathrm{^\circ C}) = \Delta T(\mathrm{K})$
+:::
+
+:::{.fragment  fragment-index=11 .absolute top=67.5% left=2%}
+$\Delta$Kelvin to $\Delta$Rankine: $\ \ \ \Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{K})$
+:::
+
+:::{.fragment  fragment-index=3 .absolute top=75% left=2%}
+$\Delta$Rankine to $\Delta$Fahrenheit: $\Delta T(\mathrm{^\circ F}) = \Delta T(\mathrm{^\circ R})$
+:::
+
+:::{.fragment  fragment-index=5 .absolute top=82.5% left=2%}
+$\Delta$Rankine to $\Delta$Kelvin: $\ \ \ \ \ \ \ \Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$
+:::
+
+:::{.fragment  fragment-index=7 .absolute top=90% left=2%}
+$\Delta$Rankine to $\Delta$Celsius: $\ \ \ \ \ \Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$
+:::
+
+## Example 1 - Temperature (1/2)
+
+Convert $5\ \mathrm{^\circ C}$ into Kelvin, Fahrenheit, and Rankine.
+
+- $5\ \mathrm{^\circ C} \implies ?\ \mathrm{K}$
+  - Remember: $T(\mathrm{K}) = T(\mathrm{^\circ C}) + 273.15$
+  - $\implies T(\mathrm{K}) = 5\ \mathrm{^\circ C} + 273.15= 278.15\ \mathrm{K}$
+
+</br>
+
+- $5\ \mathrm{^\circ C} \implies ?\ \mathrm{^\circ F}$
+  - Remember: $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{^\circ C}) + 32$
+  - $\implies T(\mathrm{^\circ F}) = \frac{9}{5}(5\ \mathrm{^\circ C})+ 32 = 41\ \mathrm{^\circ F}$
+
+
+## Example 1 - Temperature (2/2)
+
+Convert 5 °C into Kelvin, Fahrenheit, and Rankine.
+
+- $5\ \mathrm{^\circ C} \implies ?\ \mathrm{^\circ R}$
+  - Remember: When converting from Celsius to Rankine, we prefer to first convert to Kelvin, then Rankine.
+  - We can use what we got from our first conversion, $T(\mathrm{K}) = 278.15\ \mathrm{K}$
+  - $\implies T(\mathrm{^\circ R}) = \frac{9}{5}(278.15\ \mathrm{K}) = 500.67\ \mathrm{^\circ R}$
+
+## Example 2 - Temp. & Temp. Intervals (1/2){.bigbold85}
+
+:::{.bigbold180}
+:::
+
+:::{.fragment .absolute top=15% left=0%}
+Over a limited temperature range, the heat capacity of liquid acetone is
+:::
+
+:::{.fragment .absolute top=25% left=10%}
+$C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ C}} \right] =0.1230+0.000186T$ where $T$ is in $\mathrm{^\circ C}$.
+:::
+
+:::{.fragment .absolute top=35% left=0%}
+What are the heat-capacity formulas with $T$ in $K$, $\mathrm{^\circ R}$, and $\mathrm{^\circ F}$?
+:::
+
+:::{.fragment .absolute top=50% left=0%}
+To Kelvin</br>
+$C_p \left[\mathrm{\frac{kJ}{mol \cdot K}} \right]\mathrm{\frac{1\ K}{1\ \mathrm{^\circ C}}} =0.1230+0.000186(T-273.15)T$ where $T$ is in $\mathrm{K}$.
+:::
+
+:::{.fragment .absolute top=65% left=0%}
+$\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot K}} \right] =0.0722+0.000186T$ where $T$ is in $\mathrm{K}$.
+:::
+
+## Example 2 - Temp. & Temp. Intervals (2/2){.bigbold85}
+
+:::{.fragment .absolute top=15% left=0%}
+To Rankine</br>
+$C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ R}} \right]\mathrm{\frac{9\ ^\circ R}{5\ \mathrm{^\circ C}}} =0.1230+0.000186 \left( \frac{5}{9}[T-491.67] \right)$ where $T$ is in $\mathrm{^\circ R}$.
+:::
+
+:::{.fragment .absolute top=30% left=0%}
+$\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ R}} \right] =0.04011+0.00005741$ where $T$ is in $\mathrm{^\circ R}$.
+:::
+
+:::{.fragment .absolute top=45% left=0%}
+To Fahrenheit</br>
+$C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right]\mathrm{\frac{9\ ^\circ F}{5\ \mathrm{^\circ C}}} =0.1230+0.000186 \left( \frac{5}{9}[T-32] \right)$ where $T$ is in $\mathrm{^\circ F}$.
+:::
+
+:::{.fragment .absolute top=60% left=0%}
+$\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right] =0.06650+0.00005741$ where $T$ is in $\mathrm{^\circ F}$.
+:::
+## The Takeaways
+
+1. There are four common temperature scales:
+  - Kelvin, Rankine, Fahrenheit, and Celsius
+2. The conversions between *temperatures* are different from the conversion of *temperature intervals*.
+3. Most *temperature* conversions requre both multiplication and addition/subtraction.
+  - Conversion between Rankine and Kelvin only require multiplication
+4. All of the *temperature-interval* conversions just require multiplication by 9/5, 5/9, or 1.
+
+#
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+
+::: {.centered .bigger}
+</br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
