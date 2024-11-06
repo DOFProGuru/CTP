@@ -217,32 +217,39 @@
     "text": "Other Links\n\nThe Wikipedia discussion of the mole. The other mass unit moles are discussed under Similar units."
   },
   {
-    "objectID": "basics/processdata/InterpolationJTFVisuals.html#mass",
-    "href": "basics/processdata/InterpolationJTFVisuals.html#mass",
+    "objectID": "basics/processdata/InterpolationJTFVisuals.html#section-1",
+    "href": "basics/processdata/InterpolationJTFVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
-    "section": "Mass",
-    "text": "Mass\nMass is both a property of a physical body and a measure of its resistance to acceleration (a change in its state of motion) when a net force is applied. An object’s mass also determines the strength of its gravitational attraction to other bodies. (https://en.wikipedia.org/wiki/Mass)\nThe SI unit of mass, the kilogram, is defined from Planck’s constant\n\\[h=6.626070150 \\times 10^{-34}\\ \\mathrm{m^2/s}\\]\nor\n\\[ 1\\ \\mathrm{kg}=\\frac{h}{6.626070150 \\times 10^{-34}\\ \\mathrm{kg \\cdot m^2/s}} \\]"
+    "section": "",
+    "text": "Properties of Saturated Steam: Temperature Table"
   },
   {
-    "objectID": "basics/processdata/InterpolationJTFVisuals.html#mass-cont.",
-    "href": "basics/processdata/InterpolationJTFVisuals.html#mass-cont.",
+    "objectID": "basics/processdata/InterpolationJTFVisuals.html#linear-interpolation",
+    "href": "basics/processdata/InterpolationJTFVisuals.html#linear-interpolation",
     "title": "Chemical and Thermal Processes",
-    "section": "Mass (cont.)",
-    "text": "Mass (cont.)\nFor the curious, the second is defined as 9,192,631,770 times the period of the unperturbed ground-state hyperfine transition of the cesium 133 atom. And the meter is defined as 1/299,792,458th of the distance light travels in a vacuum in one second. The American engineering unit of mass, the pound mass, or \\(\\mathrm{lb_m}\\) is defined as\n\\[1\\ \\mathrm{lb_m} \\equiv 0.453\\ 592\\ 37\\ \\mathrm{kg}\\]"
+    "section": "Linear Interpolation",
+    "text": "Linear Interpolation\nProperties of Saturated Steam: Temperature Table\n\n\n\\[\\frac{y-y_1}{x-x_1}=\\frac{y_2-y_1}{x_2-x_1}\\]\n\n\n\\[y=\\frac{y_2-y_1}{x_2-x_1}({x-x_1})+y_1\\]\n\n\n\\[\\hat{V}=\\frac{\\hat{V}_2-\\hat{V}_1}{T_2-T_1}({T-T_1})+\\hat{V}_1\\]\n\n\n\\[\\hat{V}=\\frac{106.3-120.8}{10-8}({9-8})+120.8=113.55\\]"
   },
   {
-    "objectID": "basics/processdata/InterpolationJTFVisuals.html#mole",
-    "href": "basics/processdata/InterpolationJTFVisuals.html#mole",
+    "objectID": "basics/processdata/InterpolationJTFVisuals.html#double-linear-interpolation",
+    "href": "basics/processdata/InterpolationJTFVisuals.html#double-linear-interpolation",
     "title": "Chemical and Thermal Processes",
-    "section": "Mole",
-    "text": "Mole\n\nSee What Ia A Mole? for a more thorough explanation\nThe most common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)\n\\(\\text{tonne-mol}\\)\n\n\nYou should NEVER convert your mass in kg or lbm to g, and then to g-mol. You should ALWAYS use the kind of mole your mass is in. The conversion factor is simply the molecular weight."
+    "section": "Double Linear Interpolation",
+    "text": "Double Linear Interpolation\nWhat if you’re between values in two dimensions\n\n\\(T=125\\ \\mathrm{^\\circ C}\\)\n\\(P=0.3\\ \\mathrm{bar}\\)\n\\(\\hat{V}=?\\)"
   },
   {
-    "objectID": "basics/processdata/InterpolationJTFVisuals.html#mole-cont.",
-    "href": "basics/processdata/InterpolationJTFVisuals.html#mole-cont.",
+    "objectID": "basics/processdata/InterpolationJTFVisuals.html#double-linear-interpolation-1",
+    "href": "basics/processdata/InterpolationJTFVisuals.html#double-linear-interpolation-1",
     "title": "Chemical and Thermal Processes",
-    "section": "Mole (cont.)",
-    "text": "Mole (cont.)\nThe molecular weight of methane is:\nMCH4 =16.0425 g g-mol =16.0425 kg kg-mol =16.0425 lbm lb-mol ## The Takeaways\n\nPressure is the second most commonly measured process variable.\nHydrostatic pressure \\(= \\rho g h\\).\nManometers measure \\(\\Delta P\\)’s with hydrostatic pressure."
+    "section": "Double Linear Interpolation",
+    "text": "Double Linear Interpolation\n\nCalled double interpolation\nHave to do three"
+  },
+  {
+    "objectID": "basics/processdata/InterpolationJTFVisuals.html#the-takeaways",
+    "href": "basics/processdata/InterpolationJTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nLinear interpolation is often used in tables.\nRemember \\(slope = slope\\) to write formula.\nA one-dimensional table requires one interpolation.\nA two-dimensional table requires double interpolation, which is really three interpolations."
   },
   {
     "objectID": "basics/processdata/WhatIsAMoleTFSCC.html",
@@ -357,193 +364,18 @@
     "text": "Why Engineering Calculations"
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
+    "objectID": "basics/stats/BasicStatsByHandJTFVisuals.html#the-basic-statistics-videos",
+    "href": "basics/stats/BasicStatsByHandJTFVisuals.html#the-basic-statistics-videos",
     "title": "Chemical and Thermal Processes",
-    "section": "Summary from Part 1",
-    "text": "Summary from Part 1\n\nReport measured or calculated values with their confidence intervals.\nReport a measured value as the arithmetic mean of the measurements.\nCalculate the sample standard deviation of measured values.\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNot yet, but \\(S\\) is the key!\n\n\nAs a reminder 68% of the points in a normal distribution lie within \\(±\\sigma\\) of \\(\\mu\\), i.e., from \\(\\mu-\\sigma\\) to \\(\\mu+\\sigma\\)."
+    "section": "The Basic Statistics Videos",
+    "text": "The Basic Statistics Videos\n\nHow Deviant and Mean Are Your Data? Parts 1 & 2 Intro to \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\)\n\n\nBasic Statistics by Hand \\(\\Leftarrow\\) This video Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) by hand.\nBasic Statistics with a Spreadsheet Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with a spreadsheet.\nBasic Statistics with Python Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with Python.\nBasic Statistics With R Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with R."
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#section",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#section",
+    "objectID": "basics/stats/BasicStatsByHandJTFVisuals.html#basic-statistics-by-hand",
+    "href": "basics/stats/BasicStatsByHandJTFVisuals.html#basic-statistics-by-hand",
     "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Standard Error and Estimated Standard Error\n\n\n\\(\\mathrm{St.\\ Err.}=\\sigma_\\mu=\\frac{\\sigma}{\\sqrt{N}}\\approx\\frac{S}{\\sqrt{N}}\\)\n\n\n\\(\\mathrm{Est.\\ St.\\ Err.}=S_\\bar{x}=\\frac{S}{\\sqrt{N}}\\)\n\n\nFor enough points, \\(\\mu=\\bar{x} \\pm S_{\\bar{x}}(68\\%\\ \\mathrm{conf.})\\)\n\n\nFor example, \\(y=42.000 \\pm0.007(68\\%\\ \\mathrm{conf.})\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
-    "title": "Chemical and Thermal Processes",
-    "section": "William Gossett and Student’s \\(t\\)",
-    "text": "William Gossett and Student’s \\(t\\)\n\n\n\nHarald Bischoff, CC BY-SA 3.0  link, via Wikimedia Commons\n\n\n\n\n\n\nUser Wujaszek on pl.wikipedia, Public domain, via Wikimedia Commons\n\n\n\n\nCalculate \\(\\bar{x}\\) and \\(S\\).\n\n\nCalculate \\(S_{\\bar{x}}\\).\n\n\nChoose a confidence level, for example, \\(95\\%\\) or \\(p = 0.05\\).\n\n\nFind \\(t\\) given \\(p\\) and \\(df = N - 1\\).\n\n\nThen \\(\\lambda = tS_{\\bar{x}}\\)\n\n\nand \\(\\mu = \\bar{x} \\pm \\lambda(1- p\\ \\mathrm{ conf.})\\)\n\n\nFor example, \\(x = 42.000 \\pm 0.067(95\\%\\ \\mathrm{conf.})\\)\n\n\nSo \\(\\lambda\\) is 1/2 the width of the confidence interval and the confidence interval width is \\(2\\lambda\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#students-t-table",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#students-t-table",
-    "title": "Chemical and Thermal Processes",
-    "section": "Student’s \\(t\\) Table",
-    "text": "Student’s \\(t\\) Table\n\n\nFor example, \\(\\bar{x}\\) is \\(42.000 \\pm 0.067\\) with 95% confidence."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-t",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-t",
-    "title": "Chemical and Thermal Processes",
-    "section": "Effect of \\(N\\) on \\(t\\)",
-    "text": "Effect of \\(N\\) on \\(t\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\n\nStudent’s \\(t\\) as a Function of \\(N\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
-    "title": "Chemical and Thermal Processes",
-    "section": "Effect of \\(N\\) on \\(\\lambda/S\\)",
-    "text": "Effect of \\(N\\) on \\(\\lambda/S\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\nNormalized Conf. Int., \\(\\lambda/S\\) as a Function of \\(N\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
-    "title": "Chemical and Thermal Processes",
-    "section": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram",
-    "text": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram\n\\(\\ \\ \\ \\)\n\\(\\ \\ \\ \\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nWhen measuring something, make at least three measurements, which gives you the greatest decrease in uncertainty per additional measurement.\nUse the methods in this video to calculate your confidence interval from the estimated standard error and the Student’s t value.\nReport your results with the mean of your measurements, the confidence interval and the confidence level: for example 42.000 plus-or-minus 0.067 at a 95% confidence level.\n\n\nThere are four additional Just The Facts videos showing how to perform these calculations by hand, with a spreadsheet, using Python and NumPy/SciPy, and using R."
-  },
-  {
-    "objectID": "appx/index.html",
-    "href": "appx/index.html",
-    "title": "Appendices",
-    "section": "",
-    "text": "There are the following appendices:\n\nAppendix A – Nomenclature\nA list of nomenclature\n\n\nAppendix B\nAppendix B\n\n\nAppendix C\nAppendix C"
-  },
-  {
-    "objectID": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
-    "href": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
-    "title": "Chemical and Thermal Processes",
-    "section": "Bulleted and Numbered Lists",
-    "text": "Bulleted and Numbered Lists\n\nA numbered item\nAnother numbered item\nYet another numbered item\n\n\nA bullet item\nAnother bullet item\nYet another bullet item"
-  },
-  {
-    "objectID": "ExampleVisualsGreenScreen.html#fragment-items",
-    "href": "ExampleVisualsGreenScreen.html#fragment-items",
-    "title": "Chemical and Thermal Processes",
-    "section": "Fragment Items",
-    "text": "Fragment Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
-  },
-  {
-    "objectID": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
-    "href": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
-    "title": "Chemical and Thermal Processes",
-    "section": "Fragment and Absolute Items",
-    "text": "Fragment and Absolute Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
-  },
-  {
-    "objectID": "balances/material/index.html",
-    "href": "balances/material/index.html",
-    "title": "Material Balances",
-    "section": "",
-    "text": "Intro to Systems and Balances"
-  },
-  {
-    "objectID": "balances/exergy/index.html",
-    "href": "balances/exergy/index.html",
-    "title": "Exergy",
-    "section": "",
-    "text": "Intro to Systems and Balances"
-  },
-  {
-    "objectID": "balances/entropy/index.html",
-    "href": "balances/entropy/index.html",
-    "title": "Entropy Balances",
-    "section": "",
-    "text": "Intro to Systems and Balances"
-  },
-  {
-    "objectID": "balances/general/index.html#first-define-your-system",
-    "href": "balances/general/index.html#first-define-your-system",
-    "title": "The General Balance Equation",
-    "section": "First – Define Your System",
-    "text": "First – Define Your System\n\nTransient — The values of process variables are changing with time.\nSteadyState —The values of process variables do not change with time but may change with position. (What EE’s call a DC steady state)\nBatch (closed) — Throw stuff in. Wait. Pull products out.\nSemibatch — Neither batch nor continuous.\nContinuous (open) — Continually throw stuff in and pull stuff out."
-  },
-  {
-    "objectID": "balances/general/index.html#control-volume",
-    "href": "balances/general/index.html#control-volume",
-    "title": "The General Balance Equation",
-    "section": "Control Volume",
-    "text": "Control Volume\nSometimes for an open system, whether transient or steady state, the system boundary has a fixed volume and the different parts of the system maintain their relative positions. This fixed-volume boundary is known as a control volume. Inputs Outputs Control Volume (C.V.)"
-  },
-  {
-    "objectID": "balances/general/index.html#the-general-balance-equation",
-    "href": "balances/general/index.html#the-general-balance-equation",
-    "title": "The General Balance Equation",
-    "section": "The General Balance Equation",
-    "text": "The General Balance Equation\n\\[ \\mathrm{Input + Generation = Output + Consumption + Accumulation} \\]\n\nAll entities which can enter or exit a system are subject to the general balance equation.\nFor conserved quantities (energy, mass, atoms) the consumption and generation terms are zero\nFor steady-state systems the accumulation is zero."
-  },
-  {
-    "objectID": "balances/general/index.html#differential-or-integral",
-    "href": "balances/general/index.html#differential-or-integral",
-    "title": "The General Balance Equation",
-    "section": "Differential or Integral",
-    "text": "Differential or Integral\n\nDifferential Balances\n\nAll terms in the balance are rate terms e.g., mol/s, gal/hr, pg/yr.\nUsually used for continuous processes.\n\nIntegral Balances\n\nAll terms in the balance are amounts e.g., mol, gal, pg.\nUsually used for batch processes."
-  },
-  {
-    "objectID": "balances/general/index.html#intensive-and-extensive-properties",
-    "href": "balances/general/index.html#intensive-and-extensive-properties",
-    "title": "The General Balance Equation",
-    "section": "Intensive and Extensive Properties",
-    "text": "Intensive and Extensive Properties\nA property of a substance that does not depend on the mass or moles of a substance is an intensive property (such as temperature, pressure, density, or composition).\nA property of a substance that does depend on the mass or moles of a substance is an extensive property (such as volume or weight).\nIt is quite frequently useful to define an intensive property that is related to the extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume. \\(\\hat{V} = V/m\\)"
-  },
-  {
-    "objectID": "balances/general/index.html#definitions",
-    "href": "balances/general/index.html#definitions",
-    "title": "The General Balance Equation",
-    "section": "Definitions",
-    "text": "Definitions\n\nPFD\n\nProcess Flow Diagram or flowsheet. A schematic drawing of the mixers, dividers, separators and reactors used in the process.\n\nRecycle\n\nPart of a product stream is returned to the feed of a process.\n\nBypass\n\nPart of the feed is routed around a process and mixed with the product.\n\nPurge\n\nA stream used to prevent buildup of trace components in a recycle loop.\n\nTie Component\n\nA component of the feed which is unchanged by a process. Often useful for calculations but never necessary.\n\nOverall Balance\n\nTreating a PFD as a black box with only inputs and outputs."
-  },
-  {
-    "objectID": "balances/general/index.html#one-useful-technique",
-    "href": "balances/general/index.html#one-useful-technique",
-    "title": "The General Balance Equation",
-    "section": "One Useful Technique",
-    "text": "One Useful Technique\n1. Draw a flowchart and fill in all given variable values.\n2. Choose a basis of calculation (usually an amount or flow rate of one of the process streams).\n3. Label unknown stream variables on the chart. Use a consistent system of labeling.\n4. Convert stream volumes or volumetric flow rates to mass or molar flow rates.\n5. Convert mixed mass and mole units to either all mass or all mole units.\n6. Write material balance equations.\n7. Write other problem constraints as equations.\n8. Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget?\n9. Solve the equations.\n10. Convert the answers to the desired units."
-  },
-  {
-    "objectID": "balances/general/index.html#speed-tips",
-    "href": "balances/general/index.html#speed-tips",
-    "title": "The General Balance Equation",
-    "section": "Speed Tips",
-    "text": "Speed Tips\n1. Don’t solve for everything.\n2. Write equations in order of number of unknowns from fewest to most.\n3. Try overall balances first.\n4. Check out tie components.\n5. Remember mole fractions or mass fractions add up to 1.\n6. Usually, solving a recycle loop requires a complete set of equations around the loop."
-  },
-  {
-    "objectID": "balances/energy/index.html",
-    "href": "balances/energy/index.html",
-    "title": "Energy Balances",
-    "section": "",
-    "text": "The First Law of Thermodynamics and Energy Balances are synonymous.\nHere is the set of videos on the First Law\n\n\n\n\n\n\n\n\n\nThen for reacting systems …"
-  },
-  {
-    "objectID": "appx/Nomenclature.html",
-    "href": "appx/Nomenclature.html",
-    "title": "List of Nomenclature",
-    "section": "",
-    "text": "This page is to test web versions of the nomenclature or variable names for the videos and the website."
-  },
-  {
-    "objectID": "appx/Nomenclature.html#footnotes",
-    "href": "appx/Nomenclature.html#footnotes",
-    "title": "List of Nomenclature",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nElementary Principles of Chemical Processes, 4th Edition, Richard M. Felder, Ronald W. Rousseau, Lisa G. Bullard, ISBN: 978-1-119-19210-7, December 2018↩︎\nIntroduction to Chemical Engineering Thermodynamics, 9th Edition, Hendrick Van Ness, Michael Abbott, J.M. Smith, Mark Swihart, 2022, ISBN10: 1260721477 | ISBN13: 9781260721478↩︎\nThermodynamics: An Engineering Approach Edition: 9th, Yunus Çengel, Michael Boles, 2019, ISBN10:1260920445↩︎\nIntroduction to Chemical Engineering Kinetics & Reactor Design, 2nd Ed. Hill & Root, Wiley. ISBN: 978-1-118-36825-1↩︎\nFor example, \\(C_p= a + bt + cT^2 + dT^3\\) where \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are empirical constants.↩︎\nThere are two common friction factors in use. Mechanical Engineers tend to use the Moody friction factor, also known as the Darcy or Blasius friction factor. Chemical Engineers tend to use the Fanning friction factor. \\(f_\\mathrm{Fanning} = f_\\mathrm{Moody}/4\\). Be sure to identify which friction factor your tables, charts, and equations use.↩︎\nThere are subtle distictions between molar mass, molecular mass, and molecular weight. For a fairly full discussion read Wikipedia: Molar mass↩︎\n\\(S\\) is normally used when referring to the total surface area of a catalyst pellet or porous solid. \\(A\\) is normally used for other surface areas, such as a sphere, tube, or reactor.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎"
-  },
-  {
-    "objectID": "basics/stats/StatsMeasurementsWebPage.html",
-    "href": "basics/stats/StatsMeasurementsWebPage.html",
-    "title": "Statistics and Measurements",
-    "section": "",
-    "text": "Why Statistics and Measurements"
+    "section": "Basic Statistics by Hand",
+    "text": "Basic Statistics by Hand\nThis video shows how to calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) by hand and with a calculator."
   },
   {
     "objectID": "basics/stats/WhyStatsJTF1Visuals.html#scale-video-tba",
@@ -618,6 +450,349 @@
   {
     "objectID": "basics/stats/WhyStatsJTF1Visuals.html#the-takeaways",
     "href": "basics/stats/WhyStatsJTF1Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
+  },
+  {
+    "objectID": "basics/stats/StatsMeasurementsWebPage.html",
+    "href": "basics/stats/StatsMeasurementsWebPage.html",
+    "title": "Statistics and Measurements",
+    "section": "",
+    "text": "Why Statistics and Measurements"
+  },
+  {
+    "objectID": "appx/Nomenclature.html",
+    "href": "appx/Nomenclature.html",
+    "title": "List of Nomenclature",
+    "section": "",
+    "text": "This page is to test web versions of the nomenclature or variable names for the videos and the website."
+  },
+  {
+    "objectID": "appx/Nomenclature.html#footnotes",
+    "href": "appx/Nomenclature.html#footnotes",
+    "title": "List of Nomenclature",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nElementary Principles of Chemical Processes, 4th Edition, Richard M. Felder, Ronald W. Rousseau, Lisa G. Bullard, ISBN: 978-1-119-19210-7, December 2018↩︎\nIntroduction to Chemical Engineering Thermodynamics, 9th Edition, Hendrick Van Ness, Michael Abbott, J.M. Smith, Mark Swihart, 2022, ISBN10: 1260721477 | ISBN13: 9781260721478↩︎\nThermodynamics: An Engineering Approach Edition: 9th, Yunus Çengel, Michael Boles, 2019, ISBN10:1260920445↩︎\nIntroduction to Chemical Engineering Kinetics & Reactor Design, 2nd Ed. Hill & Root, Wiley. ISBN: 978-1-118-36825-1↩︎\nFor example, \\(C_p= a + bt + cT^2 + dT^3\\) where \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are empirical constants.↩︎\nThere are two common friction factors in use. Mechanical Engineers tend to use the Moody friction factor, also known as the Darcy or Blasius friction factor. Chemical Engineers tend to use the Fanning friction factor. \\(f_\\mathrm{Fanning} = f_\\mathrm{Moody}/4\\). Be sure to identify which friction factor your tables, charts, and equations use.↩︎\nThere are subtle distictions between molar mass, molecular mass, and molecular weight. For a fairly full discussion read Wikipedia: Molar mass↩︎\n\\(S\\) is normally used when referring to the total surface area of a catalyst pellet or porous solid. \\(A\\) is normally used for other surface areas, such as a sphere, tube, or reactor.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎"
+  },
+  {
+    "objectID": "balances/energy/index.html",
+    "href": "balances/energy/index.html",
+    "title": "Energy Balances",
+    "section": "",
+    "text": "The First Law of Thermodynamics and Energy Balances are synonymous.\nHere is the set of videos on the First Law\n\n\n\n\n\n\n\n\n\nThen for reacting systems …"
+  },
+  {
+    "objectID": "balances/general/index.html#first-define-your-system",
+    "href": "balances/general/index.html#first-define-your-system",
+    "title": "The General Balance Equation",
+    "section": "First – Define Your System",
+    "text": "First – Define Your System\n\nTransient — The values of process variables are changing with time.\nSteadyState —The values of process variables do not change with time but may change with position. (What EE’s call a DC steady state)\nBatch (closed) — Throw stuff in. Wait. Pull products out.\nSemibatch — Neither batch nor continuous.\nContinuous (open) — Continually throw stuff in and pull stuff out."
+  },
+  {
+    "objectID": "balances/general/index.html#control-volume",
+    "href": "balances/general/index.html#control-volume",
+    "title": "The General Balance Equation",
+    "section": "Control Volume",
+    "text": "Control Volume\nSometimes for an open system, whether transient or steady state, the system boundary has a fixed volume and the different parts of the system maintain their relative positions. This fixed-volume boundary is known as a control volume. Inputs Outputs Control Volume (C.V.)"
+  },
+  {
+    "objectID": "balances/general/index.html#the-general-balance-equation",
+    "href": "balances/general/index.html#the-general-balance-equation",
+    "title": "The General Balance Equation",
+    "section": "The General Balance Equation",
+    "text": "The General Balance Equation\n\\[ \\mathrm{Input + Generation = Output + Consumption + Accumulation} \\]\n\nAll entities which can enter or exit a system are subject to the general balance equation.\nFor conserved quantities (energy, mass, atoms) the consumption and generation terms are zero\nFor steady-state systems the accumulation is zero."
+  },
+  {
+    "objectID": "balances/general/index.html#differential-or-integral",
+    "href": "balances/general/index.html#differential-or-integral",
+    "title": "The General Balance Equation",
+    "section": "Differential or Integral",
+    "text": "Differential or Integral\n\nDifferential Balances\n\nAll terms in the balance are rate terms e.g., mol/s, gal/hr, pg/yr.\nUsually used for continuous processes.\n\nIntegral Balances\n\nAll terms in the balance are amounts e.g., mol, gal, pg.\nUsually used for batch processes."
+  },
+  {
+    "objectID": "balances/general/index.html#intensive-and-extensive-properties",
+    "href": "balances/general/index.html#intensive-and-extensive-properties",
+    "title": "The General Balance Equation",
+    "section": "Intensive and Extensive Properties",
+    "text": "Intensive and Extensive Properties\nA property of a substance that does not depend on the mass or moles of a substance is an intensive property (such as temperature, pressure, density, or composition).\nA property of a substance that does depend on the mass or moles of a substance is an extensive property (such as volume or weight).\nIt is quite frequently useful to define an intensive property that is related to the extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume. \\(\\hat{V} = V/m\\)"
+  },
+  {
+    "objectID": "balances/general/index.html#definitions",
+    "href": "balances/general/index.html#definitions",
+    "title": "The General Balance Equation",
+    "section": "Definitions",
+    "text": "Definitions\n\nPFD\n\nProcess Flow Diagram or flowsheet. A schematic drawing of the mixers, dividers, separators and reactors used in the process.\n\nRecycle\n\nPart of a product stream is returned to the feed of a process.\n\nBypass\n\nPart of the feed is routed around a process and mixed with the product.\n\nPurge\n\nA stream used to prevent buildup of trace components in a recycle loop.\n\nTie Component\n\nA component of the feed which is unchanged by a process. Often useful for calculations but never necessary.\n\nOverall Balance\n\nTreating a PFD as a black box with only inputs and outputs."
+  },
+  {
+    "objectID": "balances/general/index.html#one-useful-technique",
+    "href": "balances/general/index.html#one-useful-technique",
+    "title": "The General Balance Equation",
+    "section": "One Useful Technique",
+    "text": "One Useful Technique\n1. Draw a flowchart and fill in all given variable values.\n2. Choose a basis of calculation (usually an amount or flow rate of one of the process streams).\n3. Label unknown stream variables on the chart. Use a consistent system of labeling.\n4. Convert stream volumes or volumetric flow rates to mass or molar flow rates.\n5. Convert mixed mass and mole units to either all mass or all mole units.\n6. Write material balance equations.\n7. Write other problem constraints as equations.\n8. Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget?\n9. Solve the equations.\n10. Convert the answers to the desired units."
+  },
+  {
+    "objectID": "balances/general/index.html#speed-tips",
+    "href": "balances/general/index.html#speed-tips",
+    "title": "The General Balance Equation",
+    "section": "Speed Tips",
+    "text": "Speed Tips\n1. Don’t solve for everything.\n2. Write equations in order of number of unknowns from fewest to most.\n3. Try overall balances first.\n4. Check out tie components.\n5. Remember mole fractions or mass fractions add up to 1.\n6. Usually, solving a recycle loop requires a complete set of equations around the loop."
+  },
+  {
+    "objectID": "balances/entropy/index.html",
+    "href": "balances/entropy/index.html",
+    "title": "Entropy Balances",
+    "section": "",
+    "text": "Intro to Systems and Balances"
+  },
+  {
+    "objectID": "balances/exergy/index.html",
+    "href": "balances/exergy/index.html",
+    "title": "Exergy",
+    "section": "",
+    "text": "Intro to Systems and Balances"
+  },
+  {
+    "objectID": "balances/material/index.html",
+    "href": "balances/material/index.html",
+    "title": "Material Balances",
+    "section": "",
+    "text": "Intro to Systems and Balances"
+  },
+  {
+    "objectID": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
+    "href": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
+    "title": "Chemical and Thermal Processes",
+    "section": "Bulleted and Numbered Lists",
+    "text": "Bulleted and Numbered Lists\n\nA numbered item\nAnother numbered item\nYet another numbered item\n\n\nA bullet item\nAnother bullet item\nYet another bullet item"
+  },
+  {
+    "objectID": "ExampleVisualsGreenScreen.html#fragment-items",
+    "href": "ExampleVisualsGreenScreen.html#fragment-items",
+    "title": "Chemical and Thermal Processes",
+    "section": "Fragment Items",
+    "text": "Fragment Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
+  },
+  {
+    "objectID": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
+    "href": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
+    "title": "Chemical and Thermal Processes",
+    "section": "Fragment and Absolute Items",
+    "text": "Fragment and Absolute Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
+  },
+  {
+    "objectID": "appx/index.html",
+    "href": "appx/index.html",
+    "title": "Appendices",
+    "section": "",
+    "text": "There are the following appendices:\n\nAppendix A – Nomenclature\nA list of nomenclature\n\n\nAppendix B\nAppendix B\n\n\nAppendix C\nAppendix C"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Summary from Part 1",
+    "text": "Summary from Part 1\n\nReport measured or calculated values with their confidence intervals.\nReport a measured value as the arithmetic mean of the measurements.\nCalculate the sample standard deviation of measured values.\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNot yet, but \\(S\\) is the key!\n\n\nAs a reminder 68% of the points in a normal distribution lie within \\(±\\sigma\\) of \\(\\mu\\), i.e., from \\(\\mu-\\sigma\\) to \\(\\mu+\\sigma\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#section",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#section",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Standard Error and Estimated Standard Error\n\n\n\\(\\mathrm{St.\\ Err.}=\\sigma_\\mu=\\frac{\\sigma}{\\sqrt{N}}\\approx\\frac{S}{\\sqrt{N}}\\)\n\n\n\\(\\mathrm{Est.\\ St.\\ Err.}=S_\\bar{x}=\\frac{S}{\\sqrt{N}}\\)\n\n\nFor enough points, \\(\\mu=\\bar{x} \\pm S_{\\bar{x}}(68\\%\\ \\mathrm{conf.})\\)\n\n\nFor example, \\(y=42.000 \\pm0.007(68\\%\\ \\mathrm{conf.})\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
+    "title": "Chemical and Thermal Processes",
+    "section": "William Gossett and Student’s \\(t\\)",
+    "text": "William Gossett and Student’s \\(t\\)\n\n\n\nHarald Bischoff, CC BY-SA 3.0  link, via Wikimedia Commons\n\n\n\n\n\n\nUser Wujaszek on pl.wikipedia, Public domain, via Wikimedia Commons\n\n\n\n\nCalculate \\(\\bar{x}\\) and \\(S\\).\n\n\nCalculate \\(S_{\\bar{x}}\\).\n\n\nChoose a confidence level, for example, \\(95\\%\\) or \\(p = 0.05\\).\n\n\nFind \\(t\\) given \\(p\\) and \\(df = N - 1\\).\n\n\nThen \\(\\lambda = tS_{\\bar{x}}\\)\n\n\nand \\(\\mu = \\bar{x} \\pm \\lambda(1- p\\ \\mathrm{ conf.})\\)\n\n\nFor example, \\(x = 42.000 \\pm 0.067(95\\%\\ \\mathrm{conf.})\\)\n\n\nSo \\(\\lambda\\) is 1/2 the width of the confidence interval and the confidence interval width is \\(2\\lambda\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#students-t-table",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#students-t-table",
+    "title": "Chemical and Thermal Processes",
+    "section": "Student’s \\(t\\) Table",
+    "text": "Student’s \\(t\\) Table\n\n\nFor example, \\(\\bar{x}\\) is \\(42.000 \\pm 0.067\\) with 95% confidence."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-t",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-t",
+    "title": "Chemical and Thermal Processes",
+    "section": "Effect of \\(N\\) on \\(t\\)",
+    "text": "Effect of \\(N\\) on \\(t\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\n\nStudent’s \\(t\\) as a Function of \\(N\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
+    "title": "Chemical and Thermal Processes",
+    "section": "Effect of \\(N\\) on \\(\\lambda/S\\)",
+    "text": "Effect of \\(N\\) on \\(\\lambda/S\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\nNormalized Conf. Int., \\(\\lambda/S\\) as a Function of \\(N\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
+    "title": "Chemical and Thermal Processes",
+    "section": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram",
+    "text": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram\n\\(\\ \\ \\ \\)\n\\(\\ \\ \\ \\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nWhen measuring something, make at least three measurements, which gives you the greatest decrease in uncertainty per additional measurement.\nUse the methods in this video to calculate your confidence interval from the estimated standard error and the Student’s \\(t\\) value.\nReport your results with the mean of your measurements, the confidence interval and the confidence level: for example 42.000 plus-or-minus 0.067 at a 95% confidence level.\n\n\nThere are four additional Just The Facts videos showing how to perform these calculations by hand, with a spreadsheet, using Python and NumPy/SciPy, and using R."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#scale-video-tba",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#scale-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Scale Video TBA",
+    "text": "Scale Video TBA"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#ruler-video-tbs",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#ruler-video-tbs",
+    "title": "Chemical and Thermal Processes",
+    "section": "Ruler Video TBS",
+    "text": "Ruler Video TBS"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#voltmeter-video-tba",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#voltmeter-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Voltmeter Video TBA",
+    "text": "Voltmeter Video TBA"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#thermistor-video-tba",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#thermistor-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Thermistor Video TBA",
+    "text": "Thermistor Video TBA"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#reporting-uncertainty",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#reporting-uncertainty",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reporting Uncertainty",
+    "text": "Reporting Uncertainty\n\n\\(m = 1.03 \\pm 0.03\\ \\mathrm{kg}\\text{ (95% confidence)}\\)\n\n\n\\(u = 2.36 \\pm 0.04\\ \\mathrm{\\frac{m}{s}}\\text{ (95% confidence)}\\)\n\n\n\\(mu = 2.43 \\pm 0.08\\ \\mathrm{\\frac{(kg\\cdot m)}{s} }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}mu^2 = 2.87 \\pm 0.13\\ \\mathrm{J}\\text{ (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#reporting-functional-uncertainty",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#reporting-functional-uncertainty",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reporting Functional Uncertainty",
+    "text": "Reporting Functional Uncertainty\n\n\nCC BY-SA 3.0, link\n\n\n \n\n\n\n\n\n\\(F_\\mathrm{s} = k(x_\\mathrm{n}-x_\\mathrm{f})\\)\n\n\n\n\n\n\\(F_\\mathrm{_s} = 30.00 \\pm 2.50\\ \\mathrm{(95\\%\\ conf.)\\ N/m}(x\\mathrm{_n}-x\\mathrm{_f})\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#true-mean-and-standard-deviation",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#true-mean-and-standard-deviation",
+    "title": "Chemical and Thermal Processes",
+    "section": "True Mean and Standard Deviation",
+    "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(:=\\)1 True Mean or Population Mean.\n\n\n\\(\\mu \\equiv\\) True or Population Mean,\n\n\ni.e., \\(\\mu =\\ \\)average value from infinite-precision, full population measurement (almost never known).\n\n\nDistribution of data about the true mean \\(:=\\) True Standard Deviation or Population Standard Deviation.\n\n\n\\(\\sigma \\equiv\\) True or Population Standard Deviation\n\n\ni.e., \\(\\sigma =\\ \\)standard deviation given true mean and infinite-precision data points (also almost never known).\n\nMath has borrowed “:=” from Computer Science to mean is called."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#sample-mean-and-residuals",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#sample-mean-and-residuals",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample Mean and Residuals",
+    "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\ne.g., \\(x_1 = 43.15\\)\n\n\nA set of \\(N\\) measurements\n\n\nimplies a set of\n\n\n\\(N\\) independent equations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\bar{x} \\equiv\\) sample mean\n\n\nHow do we estimate \\(\\mu - \\bar{x}\\)?\n\n\n\nCan we calculate the error\n\n\n\\(\\varepsilon_i =\\mu-x_i\\)?\n\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(e\\mathrm{_i} = \\bar{x} - x_i\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#section",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#section",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Sample Variance and Standard Deviation\n\n\nTrue variance\n\n\n\\(\\sigma^2=\\frac{\\displaystyle{\\sum_{i=1}^N \\varepsilon^2_i}}{N}\\)\n\n\nSample variance\n\n\n\\(S^2=\\frac{\\displaystyle{\\sum_{i=1}^N e^2_i}}{N-1}\\)\n\n\n\\(\\bar{x},\\ e,\\) and \\(S^2\\) are calculated from the \\(x_i\\).\n\n\n\\(\\mu,\\ \\varepsilon,\\) and \\(\\sigma^2\\) are not.\n\n\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.\n\n\nThe true standard deviation, \\(\\sigma=\\sqrt{\\sigma^2}\\).\n\n\nThe sample standard deviation, \\(S=\\sqrt{S^2}\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#are-we-there-yet",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#are-we-there-yet",
+    "title": "Chemical and Thermal Processes",
+    "section": "Are We There Yet?",
+    "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#the-takeaways",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#scale-video-tba",
+    "href": "basics/stats/WhyStatsTFS1Visuals.html#scale-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Scale Video TBA",
+    "text": "Scale Video TBA"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#ruler-video-tbs",
+    "href": "basics/stats/WhyStatsTFS1Visuals.html#ruler-video-tbs",
+    "title": "Chemical and Thermal Processes",
+    "section": "Ruler Video TBS",
+    "text": "Ruler Video TBS"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#voltmeter-video-tba",
+    "href": "basics/stats/WhyStatsTFS1Visuals.html#voltmeter-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Voltmeter Video TBA",
+    "text": "Voltmeter Video TBA"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#thermistor-video-tba",
+    "href": "basics/stats/WhyStatsTFS1Visuals.html#thermistor-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Thermistor Video TBA",
+    "text": "Thermistor Video TBA"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#reporting-uncertainty",
+    "href": "basics/stats/WhyStatsTFS1Visuals.html#reporting-uncertainty",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reporting Uncertainty",
+    "text": "Reporting Uncertainty\n\n\\(m = 1.03 \\pm 0.03\\ \\mathrm{kg}\\text{ (95% confidence)}\\)\n\n\n\\(u = 2.36 \\pm 0.04\\ \\mathrm{\\frac{m}{s}}\\text{ (95% confidence)}\\)\n\n\n\\(mu = 2.43 \\pm 0.08\\ \\mathrm{\\frac{(kg\\cdot m)}{s} }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}mu^2 = 2.87 \\pm 0.13\\ \\mathrm{J}\\text{ (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#reporting-functional-uncertainty",
+    "href": "basics/stats/WhyStatsTFS1Visuals.html#reporting-functional-uncertainty",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reporting Functional Uncertainty",
+    "text": "Reporting Functional Uncertainty\n\n\nCC BY-SA 3.0, link\n\n\n \n\n\n\n\n\n\\(F_\\mathrm{s} = k(x_\\mathrm{n}-x_\\mathrm{f})\\)\n\n\n\n\n\n\\(F_\\mathrm{_s} = 30.00 \\pm 2.50\\ \\mathrm{(95\\%\\ conf.)\\ N/m}(x\\mathrm{_n}-x\\mathrm{_f})\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#true-mean-and-standard-deviation",
+    "href": "basics/stats/WhyStatsTFS1Visuals.html#true-mean-and-standard-deviation",
+    "title": "Chemical and Thermal Processes",
+    "section": "True Mean and Standard Deviation",
+    "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(:=\\)1 True Mean or Population Mean.\n\n\n\\(\\mu \\equiv\\) True or Population Mean,\n\n\ni.e., \\(\\mu =\\ \\)average value from infinite-precision, full population measurement (almost never known).\n\n\nDistribution of data about the true mean \\(:=\\) True Standard Deviation or Population Standard Deviation.\n\n\n\\(\\sigma \\equiv\\) True or Population Standard Deviation\n\n\ni.e., \\(\\sigma =\\ \\)standard deviation given true mean and infinite-precision data points (also almost never known).\n\nMath has borrowed “:=” from Computer Science to mean is called."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#sample-mean-and-residuals",
+    "href": "basics/stats/WhyStatsTFS1Visuals.html#sample-mean-and-residuals",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample Mean and Residuals",
+    "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\ne.g., \\(x_1 = 43.15\\)\n\n\nA set of \\(N\\) measurements\n\n\nimplies a set of\n\n\n\\(N\\) independent equations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\bar{x} \\equiv\\) sample mean\n\n\nHow do we estimate \\(\\mu - \\bar{x}\\)?\n\n\n\nCan we calculate the error\n\n\n\\(\\varepsilon_i =\\mu-x_i\\)?\n\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(e\\mathrm{_i} = \\bar{x} - x_i\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#section",
+    "href": "basics/stats/WhyStatsTFS1Visuals.html#section",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Sample Variance and Standard Deviation\n\n\nTrue variance\n\n\n\\(\\sigma^2=\\frac{\\displaystyle{\\sum_{i=1}^N \\varepsilon^2_i}}{N}\\)\n\n\nSample variance\n\n\n\\(S^2=\\frac{\\displaystyle{\\sum_{i=1}^N e^2_i}}{N-1}\\)\n\n\n\\(\\bar{x},\\ e,\\) and \\(S^2\\) are calculated from the \\(x_i\\).\n\n\n\\(\\mu,\\ \\varepsilon,\\) and \\(\\sigma^2\\) are not.\n\n\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.\n\n\nThe true standard deviation, \\(\\sigma=\\sqrt{\\sigma^2}\\).\n\n\nThe sample standard deviation, \\(S=\\sqrt{S^2}\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#are-we-there-yet",
+    "href": "basics/stats/WhyStatsTFS1Visuals.html#are-we-there-yet",
+    "title": "Chemical and Thermal Processes",
+    "section": "Are We There Yet?",
+    "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#the-takeaways",
+    "href": "basics/stats/WhyStatsTFS1Visuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
     "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"

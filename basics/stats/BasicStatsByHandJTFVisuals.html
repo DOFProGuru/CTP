@@ -10,7 +10,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <title>Chemical and Thermal Processes – whystatsjtf2visuals</title>
+  <title>Chemical and Thermal Processes – basicstatsbyhandjtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,146 +326,47 @@
 
 
 <section>
-<section id="how-deviant-and-mean-are-your-data" class="title-slide slide level1 center">
-<h1>How Deviant and Mean Are Your Data?</h1>
+<section id="basic-statisticsby-hand" class="title-slide slide level1 center">
+<h1>Basic Statistics<br>by Hand</h1>
 <div class="bigbold" style="text-align: center;">
-<p>Intro and Basics Part 2<br>Just the Facts</p>
+<p>Just the Facts</p>
 </div>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -30%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -40%; left: 22%; "></p>
 </section>
-<section id="summary-from-part-1" class="slide level2">
-<h2>Summary from Part 1</h2>
+<section id="the-basic-statistics-videos" class="slide level2">
+<h2>The Basic Statistics Videos</h2>
+<ul>
+<li class="fragment"><em>How Deviant and Mean Are Your Data? Parts 1 &amp; 2</em> <br>Intro to <span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_\bar{x}\)</span>, and <span class="math inline">\(\lambda\)</span></li>
+</ul>
 <ol type="1">
-<li class="fragment">Report measured or calculated values with their confidence intervals.</li>
-<li class="fragment">Report a measured value as the arithmetic mean of the measurements.</li>
-<li class="fragment">Calculate the sample standard deviation of measured values.</li>
+<li class="fragment"><p><strong><em>Basic Statistics by Hand</em></strong> <span class="math inline">\(\Leftarrow\)</span> This video <br>Calculate <span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_\bar{x}\)</span>, and <span class="math inline">\(\lambda\)</span> by hand.</p></li>
+<li class="fragment"><p><em>Basic Statistics with a Spreadsheet</em> <br>Calculate <span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_\bar{x}\)</span>, and <span class="math inline">\(\lambda\)</span> with a spreadsheet.</p></li>
+<li class="fragment"><p><em>Basic Statistics with Python</em> <br>Calculate <span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_\bar{x}\)</span>, and <span class="math inline">\(\lambda\)</span> with Python.</p></li>
+<li class="fragment"><p><em>Basic Statistics With R</em> <br>Calculate <span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_\bar{x}\)</span>, and <span class="math inline">\(\lambda\)</span> with R.</p></li>
 </ol>
-<div class="fragment">
-<p>Can we estimate <span class="math inline">\(\mu - \bar{x}\)</span> yet?</p>
-</div>
-<div class="fragment">
-<p>Not yet, but <span class="math inline">\(S\)</span> is the key!</p>
-</div>
-<div class="fragment">
-<p>As a reminder 68% of the points in a normal distribution lie within <span class="math inline">\(±\sigma\)</span> of <span class="math inline">\(\mu\)</span>, i.e., from <span class="math inline">\(\mu-\sigma\)</span> to <span class="math inline">\(\mu+\sigma\)</span>.</p>
-</div>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
-<div class="absolute bigbold120" style="top: 0%; left: 0%; ">
-<p>Standard Error and Estimated Standard Error</p>
-</div>
-<div class="fragment absolute" style="top: 15%; left: 20%; ">
-<p><span class="math inline">\(\mathrm{St.\ Err.}=\sigma_\mu=\frac{\sigma}{\sqrt{N}}\approx\frac{S}{\sqrt{N}}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 25%; left: 20%; ">
-<p><span class="math inline">\(\mathrm{Est.\ St.\ Err.}=S_\bar{x}=\frac{S}{\sqrt{N}}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 40%; left: 5%; ">
-<p>For enough points, <span class="math inline">\(\mu=\bar{x} \pm S_{\bar{x}}(68\%\ \mathrm{conf.})\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 50%; left: 5%; ">
-<p>For example, <span class="math inline">\(y=42.000 \pm0.007(68\%\ \mathrm{conf.})\)</span></p>
-</div>
-</section>
-<section id="william-gossett-and-students-t" class="slide level2">
-<h2>William Gossett and Student’s <span class="math inline">\(t\)</span></h2>
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Guinness_7686a.jpg" class="absolute" style="top: 10%; left: 0%; width: 25%; "></p>
-<div class="absolute" style="top: 40%; left: 0%; ">
-<div style="font-size: 45px">
-<p>Harald Bischoff, CC BY-SA 3.0 <br> <a href="https://creativecommons.org/licenses/by-sa/3.0">link</a>, via Wikimedia Commons</p>
-</div>
-</div>
-<div class="fragment">
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/4/42/William_Sealy_Gosset.jpg" class="absolute" style="top: 10%; left: 25%; width: 25%; "></p>
-<div class="absolute" style="top: 51%; left: 25%; ">
-<div style="font-size: 35px">
-<p>User Wujaszek on pl.wikipedia, <br>Public domain, via Wikimedia Commons</p>
-</div>
-</div>
-</div>
-<div class="fragment absolute" style="top: 9%; left: 55%; ">
-<p>Calculate <span class="math inline">\(\bar{x}\)</span> and <span class="math inline">\(S\)</span>.</p>
-</div>
-<div class="fragment absolute" style="top: 17%; left: 55%; ">
-<p>Calculate <span class="math inline">\(S_{\bar{x}}\)</span>.</p>
-</div>
-<div class="fragment absolute" style="top: 25%; left: 55%; ">
-<p>Choose a confidence level, <br>for example, <span class="math inline">\(95\%\)</span> or <span class="math inline">\(p = 0.05\)</span>.</p>
-</div>
-<div class="fragment absolute" style="top: 45%; left: 55%; ">
-<p>Find <span class="math inline">\(t\)</span> given <span class="math inline">\(p\)</span> and <span class="math inline">\(df = N - 1\)</span>.</p>
-</div>
-<div class="fragment absolute" style="top: 55%; left: 0%; ">
-<p>Then <span class="math inline">\(\lambda = tS_{\bar{x}}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 63%; left: 0%; ">
-<p>and <span class="math inline">\(\mu = \bar{x} \pm \lambda(1- p\ \mathrm{ conf.})\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 71%; left: 0%; ">
-<p>For example, <span class="math inline">\(x = 42.000 \pm 0.067(95\%\ \mathrm{conf.})\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 80%; left: 0%; ">
-<p>So <span class="math inline">\(\lambda\)</span> is 1/2 the width of the confidence interval and the confidence interval width is <span class="math inline">\(2\lambda\)</span>.</p>
-</div>
-</section>
-<section id="students-t-table" class="slide level2">
-<h2>Student’s <span class="math inline">\(t\)</span> Table</h2>
-<p><img data-src="https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/StudentsT-Table2Side.png" class="absolute" style="width: 100%; "></p>
-<div class="fragment absolute" style="top: 85%; ">
-<p>For example, <span class="math inline">\(\bar{x}\)</span> is <span class="math inline">\(42.000 \pm 0.067\)</span> with 95% confidence.</p>
-</div>
-</section>
-<section id="effect-of-n-on-t" class="slide level2">
-<h2>Effect of <span class="math inline">\(N\)</span> on <span class="math inline">\(t\)</span></h2>
-<div class="fragment absolute" style="top: 10%; left: 5%; ">
-<p><span class="math inline">\(\lambda = tS_{\bar{x}}=\frac{tS}{\sqrt{N}}\)</span></p>
-</div>
-<div class="fragment">
-<p><img data-src="https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/StudentTvsN.png" class="absolute" style="top: 25%; right: 5%; width: 90%; "></p>
-<div class="absolute" style="top: 20%; left: 28%; ">
-<p>Student’s <span class="math inline">\(t\)</span> as a Function of <span class="math inline">\(N\)</span></p>
-</div>
-</div>
-</section>
-<section id="effect-of-n-on-lambdas" class="slide level2">
-<h2>Effect of <span class="math inline">\(N\)</span> on <span class="math inline">\(\lambda/S\)</span></h2>
-<div class="absolute" style="top: 10%; left: 5%; ">
-<p><span class="math inline">\(\lambda = tS_{\bar{x}}=\frac{tS}{\sqrt{N}}\)</span></p>
-</div>
-<p><img data-src="https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/ConfIntVsN.png" class="absolute" style="top: 25%; right: 5%; width: 90%; "></p>
-<div class="absolute" style="top: 20%; left: 15%; ">
-<p>Normalized Conf. Int., <span class="math inline">\(\lambda/S\)</span> as a Function of <span class="math inline">\(N\)</span></p>
-</div>
-</section>
-<section id="mu-barx-s-lambda-demo-with-histogram" class="slide level2">
-<h2><span class="math inline">\(\mu,\ \bar{x},\ S\ ,\lambda\)</span> Demo with Histogram</h2>
-<p><span class="math inline">\(\ \ \ \)</span></p>
-<p><span class="math inline">\(\ \ \ \)</span></p>
-<center>
-<video autoplay="true">
-<source src="https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/HistogramAnimation4K.m4v">
-</video>
-</center>
-</section>
-<section id="the-takeaways" class="slide level2">
-<h2>The Takeaways</h2>
-<ol type="1">
-<li class="fragment">When measuring something, make at least three measurements, which gives you the greatest decrease in uncertainty per additional measurement.</li>
-<li class="fragment">Use the methods in this video to calculate your confidence interval from the estimated standard error and the Student’s <span class="math inline">\(t\)</span> value.</li>
-<li class="fragment">Report your results with the mean of your measurements, the confidence interval and the confidence level: for example 42.000 plus-or-minus 0.067 at a 95% confidence level.</li>
-</ol>
-<div class="fragment">
-<p>There are four additional <em>Just The Facts</em> videos showing how to perform these calculations by hand, with a spreadsheet, using Python and NumPy/SciPy, and using R.</p>
-</div>
+<section id="basic-statistics-by-hand" class="slide level2">
+<h2>Basic Statistics by Hand</h2>
+<p>This video shows how to calculate <span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_\bar{x}\)</span>, and <span class="math inline">\(\lambda\)</span> by hand and with a calculator.</p>
 </section></section>
+<section id="section" class="title-slide slide level1 center">
+<h1></h1>
+<div class="centered">
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>How Deviant and Mean Are Your Data?</em> companion video is in the link in the upper left. The link to <em>Basics on a Spreadsheet</em> is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.</p>
+</div>
+<div class="absolute" style="top: 125%; left: 40%; ">
+<p>The DOFPro Team</p>
+</div>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 29%; "></p>
+</section>
+
 <section id="section-1" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The first of the How To videos is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>How Deviant and Mean Are Your Data?</em> companion video is in the link in the upper left. The link to <em>Basics on a Spreadsheet</em> is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.</p>
 </div>
 <div class="absolute" style="top: 125%; left: 35%; ">
 <p>The DOFPro Team</p>
@@ -655,7 +556,7 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 2700,
+        width: 3840,
 
         height: 2160,
 
