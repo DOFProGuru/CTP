@@ -165,7 +165,7 @@ $\ \ \ $
 ## The Takeaways
 
 1. When measuring something, make at least three measurements, which gives you the greatest decrease in uncertainty per additional measurement.
-2. Use the methods in this video to calculate your confidence interval from the estimated standard error and the Student’s t value.
+2. Use the methods in this video to calculate your confidence interval from the estimated standard error and the Student’s $t$ value.
 3. Report your results with the mean of your measurements, the confidence interval and the confidence level: for example 42.000 plus-or-minus 0.067 at a 95% confidence level.
 
 :::{.fragment}

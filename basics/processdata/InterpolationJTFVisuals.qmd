@@ -7,8 +7,17 @@ format:
     logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
     theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
 ---
-# Interpol Is Late</br>Just The Facts {style="text-align: center;"}
+# 
+
+::: {.bigbold180 style="text-align: center;"}
+Interpol Is Late to a</br>Mind-Blowing Math Hack
+:::
+
+::: {.bigbold style="text-align: center;"}
+Just The Facts 
+:::
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -16,64 +25,67 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-50%"}
 
-## Mass
+## 
 
-Mass is both a property of a physical body and a measure of its
-resistance to acceleration (a change in its state of motion) when a net
-force is applied. An object's mass also determines the strength of its
-gravitational attraction to other bodies. (https://en.wikipedia.org/wiki/Mass)
+**Properties of Saturated Steam: Temperature Table**
 
-The SI unit of mass, the kilogram, is defined from Planck’s constant
+![](steamtable1d.png)
 
-$$h=6.626070150 \times 10^{-34}\ \mathrm{m^2/s}$$
+## Linear Interpolation
 
-or
+**Properties of Saturated Steam: Temperature Table**
 
-$$ 1\ \mathrm{kg}=\frac{h}{6.626070150 \times 10^{-34}\ \mathrm{kg \cdot m^2/s}} $$
+![](steamtable1dBlowUp.png){.absolute width=50%}
 
-## Mass (cont.)
+:::{.fragment .absolute top=15% left=60%}
+$$\frac{y-y_1}{x-x_1}=\frac{y_2-y_1}{x_2-x_1}$$
+:::
 
-For the curious, the second is defined as 9,192,631,770 times the
-period of the unperturbed ground-state hyperfine transition of the
-cesium 133 atom. And the meter is defined as 1/299,792,458th of the
-distance light travels in a vacuum in one second.
-The American engineering unit of mass, the pound mass, or $\mathrm{lb_m}$ is
-defined as
+:::{.fragment .absolute top=32% left=11%}
+$$y=\frac{y_2-y_1}{x_2-x_1}({x-x_1})+y_1$$
+:::
 
-$$1\ \mathrm{lb_m} \equiv 0.453\ 592\ 37\ \mathrm{kg}$$
+:::{.fragment .absolute top=50% left=10%}
+$$\hat{V}=\frac{\hat{V}_2-\hat{V}_1}{T_2-T_1}({T-T_1})+\hat{V}_1$$
+:::
 
-## Mole
+:::{.fragment .absolute top=70% left=10%}
+$$\hat{V}=\frac{106.3-120.8}{10-8}({9-8})+120.8=113.55$$
+:::
 
-- See *What Ia A Mole?* for a more thorough explanation
+## Double Linear Interpolation
 
-- The most common moles are
-  - $\text{g-mol}$ or $\text{mol}$
-  - $\text{kg-mol}$ or $\text{kmol}$
-  - $\text{lb-mol}$
-  - $\text{ton-mol}$
-  - $\text{tonne-mol}$
+What if you're between values in two dimensions
 
-You should NEVER convert your mass in kg or lbm to g, and then
-to g-mol. You should ALWAYS use the kind of mole your mass is
-in. The conversion factor is simply the molecular weight.
+![](steamtable2d.png)
 
-## Mole (cont.)
+$T=125\ \mathrm{^\circ C}$
 
-The molecular weight of methane is:
+$P=0.3\ \mathrm{bar}$
 
-MCH4
-=16.0425 g
-g-mol
-=16.0425 kg
-kg-mol
-=16.0425
-lbm
-lb-mol
+$\hat{V}=?$
+
+
+## Double Linear Interpolation
+
+ - Called double interpolation
+ - Have to do three
+
+:::{.fragment}
+![](DoubleInterpTfirst.png)
+:::
+
+:::{.fragment}
+![](DoubleInterpPfirst.png)
+:::
+
+
 ## The Takeaways
 
-1. Pressure is the second most commonly measured process variable.
-2. Hydrostatic pressure $= \rho g h$.
-3. Manometers measure $\Delta P$'s with hydrostatic pressure.
+1. Linear interpolation is often used in tables.
+2. Remember $slope = slope$ to write formula.
+3. A one-dimensional table requires one interpolation.
+4. A two-dimensional table requires double interpolation, which is really three interpolations.
 
 
 #

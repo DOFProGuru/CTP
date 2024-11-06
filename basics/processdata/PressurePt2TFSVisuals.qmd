@@ -8,6 +8,15 @@ format:
     incremental: true
     theme: [serif, ../../gradient.scss]
 ---
+# Under Pressure Part 2 </br> The Full Story {style="text-align: center;"}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-50%"}
+
+
 # Under Pressure Part 2 </br> Just The Facts {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
