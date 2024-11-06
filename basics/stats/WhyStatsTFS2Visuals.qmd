@@ -1,0 +1,304 @@
+---
+format:
+  revealjs:
+    width: 3840
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+---
+# How Deviant and Mean Are Your Data?
+
+::: {.bigbold style="text-align: center;"}
+Intro and Basics Part 2</br>Just the Facts
+:::
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-30%"}
+
+
+# How Deviant and Mean Are Your Data?
+
+::: {.bigbold style="text-align: center;"}
+Intro and Basics Part 2</br>The Full Story
+:::
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-30%"}
+
+## Scale Video TBA
+
+## Ruler Video TBS
+
+## Voltmeter Video TBA
+
+## Thermistor Video TBA
+
+## Reporting Uncertainty
+
+
+::: {.fragment .absolute top=12% left=10%}
+$m = 1.03 \pm 0.03\ \mathrm{kg}\text{ (95% confidence)}$
+:::
+
+::: {.fragment .absolute top=22% left=10.7%}
+$u = 2.36 \pm 0.04\ \mathrm{\frac{m}{s}}\text{ (95% confidence)}$
+:::
+
+::: {.fragment .absolute top=32% left=8%}
+$mu = 2.43 \pm 0.08\ \mathrm{\frac{(kg\cdot m)}{s} }\text{ (95% confidence)}$
+:::
+
+::: {.fragment .absolute top=42% left=3.3%}
+$\frac{1}{2}mu^2 = 2.87 \pm 0.13\ \mathrm{J}\text{ (95% confidence)}$
+:::
+
+::: {.fragment  .absolute top=55% left=0%}
+A future video will teach you how to propagate the uncertainty. $\textbf{Remember!}$ A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities.
+:::
+
+## Reporting Functional Uncertainty
+
+![](Spring.png){.absolute top=25% left=5% width=30%}
+
+:::{.absolute top=48% left=8.5% .smalltable}
+CC BY-SA 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=26544)
+:::
+
+::: {.fragment}
+![](X_f.png){.absolute top=15% left=5% width=15%}
+![](X_n.png){.absolute top=15% left=31% width=15%}
+:::
+
+::: {.fragment}
+![](F_s.png){.absolute top=11% left=29% width=15%}
+:::
+
+::: {.fragment .absolute top=55% left=7%}
+$F_\mathrm{s} = k(x_\mathrm{n}-x_\mathrm{f})$
+:::
+
+::: {.fragment}
+![](force-displacement-graph.png){.absolute top=24% left=40% width=50%}
+:::
+
+
+::: {.fragment .absolute top=72% left=30%}
+$F_\mathrm{_s} = 30.00 \pm 2.50\ \mathrm{(95\%\ conf.)\ N/m}(x\mathrm{_n}-x\mathrm{_f})$
+:::
+
+
+## True Mean and Standard Deviation
+
+::: {.absolute top=10% left=2%}
+True value of a measured quantity $:=$^[Math has borrowed ":=" from Computer Science to mean *is called*.] True Mean or Population Mean.
+:::
+
+::: {.fragment .absolute top=25% left=7%}
+$\mu \equiv$ True or Population Mean,
+:::
+
+::: {.fragment .absolute top=35% left=2%}
+i.e., $\mu =\ $average value from infinite-precision, full population measurement (almost never known).
+:::
+
+::: {.fragment .absolute top=50% left=2%}
+Distribution of data about the true mean $:=$ True Standard Deviation or Population Standard Deviation. 
+:::
+
+::: {.fragment .absolute top=65% left=7%}
+$\sigma \equiv$ True or Population Standard Deviation
+:::
+
+::: {.fragment .absolute top=75% left=2%}
+i.e., $\sigma =\ $standard deviation given true mean and infinite-precision data points (also almost never known).
+:::
+
+## Sample Mean and Residuals
+
+::: {.fragment}
+Set of Measurements
+:::
+
+::: {.fragment}
+$\{x_1,\ x_2,\ \ldots,\ x_N\}$
+:::
+
+::: {.fragment}
+e.g., $x_1 = 43.15$
+:::
+
+::: {.fragment .absolute top=33% left=0%}
+A set of $N$ measurements
+:::
+
+::: {.fragment .absolute top=38% left=0%}
+implies a set of
+:::
+
+::: {.fragment .absolute top=43% left=0%}
+$N$ independent equations
+:::
+
+::: {.fragment .absolute top=56.5% left=5%}
+$\bar{x}$
+:::
+
+::: {.fragment .absolute top=55% left=8%}
+$=\frac{\sum_{i=1}^Nx_i}{N}$
+:::
+
+::: {.fragment .absolute top=56.5% left=23%}
+$\approx\mu$
+:::
+
+::: {.fragment .absolute top=65% left=5%}
+$\bar{x} \equiv$ sample mean
+:::
+
+::: {.fragment .absolute top=75% left=0%}
+How do we estimate $\mu - \bar{x}$?
+:::
+
+::: {.fragment}
+::: {.absolute top=10% left=50%}
+Can we calculate the error
+:::
+:::{.absolute top=17.5% left=55%}
+$\varepsilon_i =\mu-x_i$?
+:::
+:::
+
+::: {.fragment .absolute top=25% left=50%}
+Set of Errors
+:::
+
+::: {.fragment .absolute top=25% left=72%}
+$\{\varepsilon_1,\ \varepsilon_2,\ \ldots,\ \varepsilon_N \}$
+:::
+
+::: {.fragment .absolute top=35% left=50%}
+We don't know $\mu$, so...
+:::
+
+::: {.fragment .absolute top=45% left=50%}
+Calculate the residuals:
+:::
+
+::: {.fragment .absolute top=52.5% left=55%}
+$e\mathrm{_i} = \bar{x} - x_i$
+:::
+
+::: {.fragment .absolute top=60% left=50%}
+Set of Residuals
+:::
+
+::: {.fragment .absolute top=65% left=55%}
+$\{e_1,\ e_2,\ \ldots,\ e_N \}$
+:::
+
+::: {.fragment}
+![](Sideways_bracket.png){.absolute top=70% left=55% width=28% }
+:::
+
+::: {.fragment .absolute top=75% left=52%}
+estimate of the errors
+:::
+
+::: {.fragment .absolute top=80% left=52%}
+based on $\bar{x}$, not $\mu$
+:::
+
+## 
+
+:::{.absolute top=0% left=0% .bigbold}
+Sample Variance and Standard Deviation
+:::
+
+:::{.fragment .absolute top=10% left=50%}
+True variance
+:::
+
+:::{.fragment .absolute top=17% left=50%}
+$\sigma^2=\frac{\displaystyle{\sum_{i=1}^N \varepsilon^2_i}}{N}$
+:::
+
+:::{.fragment .absolute top=10% left=0%}
+Sample variance
+:::
+
+:::{.fragment .absolute top=17% left=5%}
+$S^2=\frac{\displaystyle{\sum_{i=1}^N e^2_i}}{N-1}$
+:::
+
+:::{.fragment .absolute top=40% left=0%}
+$\bar{x},\ e,$ and $S^2$ are calculated from the $x_i$.
+:::
+
+:::{.fragment .absolute top=40% left=64%}
+$\mu,\ \varepsilon,$ and $\sigma^2$ are not.
+:::
+
+:::{.fragment .absolute top=51% left=0%}
+We lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.
+:::
+
+:::{.fragment .absolute top=66% left=0%}
+The true standard deviation, $\sigma=\sqrt{\sigma^2}$.
+:::
+
+:::{.fragment .absolute top=76% left=0%}
+The sample standard deviation, $S=\sqrt{S^2}$.
+:::
+
+## Are We There Yet?
+
+{{< video https://youtu.be/SEVGxD_Jqjs?si=ZOvRA7lUCqKJqY9w&t=16 width="100%" height="70%" >}}
+
+:::{.fragment}
+Can we estimate $\mu - \bar{x}$ yet?
+:::
+
+:::{.fragment}
+No, but we can estimate the spread of our data from $S$.
+:::
+
+## The Takeaways
+
+1. Responsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.
+2. The most common estimate for the central value of a set of measurements is the *sample mean*.
+3. The most commonly reported value for the spread of a set of measurements is the *sample standard deviation*.
+4. Most people don't know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.
+
+:::{.fragment}
+The discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2
+:::
+
+#
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=35%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+
+#
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> *The Full Story* companion video is in the link in the upper left. The first of the  *How To* videos, *Basic Statistics by Hand*  is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find additional previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=40%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}
