@@ -1,0 +1,96 @@
+---
+title: "*How Keen Is Your Rank?* Reference Page"
+author: "DOFPro group"
+format: html
+---
+# Purpose of *How Keen Is Your Rank?*
+
+Temperature is the most common measured and reported quatity in  in chemical processes. The concept of temperature is fundamental to modeling, designing, and monitoring chemical processes. The videos present the four common temperature scales, [Kelvin](https://en.wikipedia.org/wiki/Kelvin), [Celsius](https://en.wikipedia.org/wiki/Celsius), [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit), and [Rankine](https://en.wikipedia.org/wiki/Rankine_scale), and how to convert temperatures and temperature intervals among the four of them. The title is a pun on the name of the least well known of the four scales, the Rankine. The Wikipedia article on [Rankine](https://en.wikipedia.org/wiki/Rankine_scale) will provide you with much more information than you wanted to know.
+
+## *The Full Story* Video
+
+*The Full Story* Video examines common conceptions and misconceptions about temperatures and temperature intervals, compares the four scales, shows how to derive the conversions, lists the conversions, and then has two examples of their use. It is recommended for those who have not been exposed to temperature before or who have struggled with understanding what temperature is or how it is used.
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Kztw9GX9EL8?si=8FReigIAK_ILt8NN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+**Video Link Goes Here**
+[Images](ConvertingTemperatureTFSVisuals.qmd), [Transcript](WhatIsAMoleTFSCC.qmd), [Conversion Table](#conversion-tables)
+
+## The *Just The Facts* Video
+
+The *Just The Facts* Video explains the difference between temperature and temperature interval, presents the conversions among the four scales for both temperature and temperature intervals, and then has two examples of applying the conversions. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/wHEX0uY69rs?si=gI9jKO8lHPJ_2_EU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ -->
+**Video Link Goes Here**
+[Images](ConvertingTemperatureJTFVisuals.qmd), [Transcript](),  [Conversion Table](#conversion-tables)
+
+# Conversion Tables
+
+### Temperatures
+
+| Convert From $\rightarrow$ | Kelvin ($\mathrm{K}$) | Celsius ($\mathrm{^\circ C}$) | Fahrenheit ($\mathrm{^\circ F}$) | Rankine ($\mathrm{^\circ R}$) |
+|---:|:---:|:---:|:---:|:---:|
+| TO $\downarrow$| | | | |
+| $\mathrm{K}$ | N/A | $T(\mathrm{K}) = T(\mathrm{^\circ C}) + 273.15$ | $T(\mathrm{K}) = \frac{5}{9} [T(\mathrm{^\circ F}) - 32] + 273.15$ | $T(\mathrm{K}) = \frac{5}{9} T(\mathrm{^\circ R})$ |
+| $\mathrm{^\circ C}$ | $T(\mathrm{^\circ C}) = T(\mathrm{K}) - 273.15$ | N/A | $T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ F}) - 32]$ | $T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ R}) - 491.67]$ |
+| $\mathrm{^\circ F}$ | $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{K}) - 459.67$ | $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{^\circ C}) + 32$ | N/A | $T(\mathrm{^\circ F}) = T(\mathrm{^\circ R}) - 459.67$ |
+| $\mathrm{^\circ R}$ | $T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{K})$ | $T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{^\circ C}) + 491.67$ | $$T(\mathrm{^\circ R}) = T(\mathrm{^\circ F}) + 459.67$ | N/A |
+
+### Temperature Intervals
+
+| Convert From $\rightarrow$ | $\Delta T$ Kelvin ($\mathrm{K}$) | $\Delta T$ Celsius ($\mathrm{^\circ C}$) | $\Delta T$ Fahrenheit ($\mathrm{^\circ F}$) | $\Delta T$ Rankine ($\mathrm{^\circ R}$) |
+|---:|:---:|:---:|:---:|:---:|
+| TO $\downarrow$| | | | |
+| $\Delta T\ (\mathrm{K})$| N/A | equal | $\Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$ | $\Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$|
+| $\Delta T\ (\mathrm{^\circ C})$| equal | N/A | $\Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$ | $\Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$ |
+| $\Delta T\ (\mathrm{^\circ F})$| $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{K})$ | $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$ | N/A | equal |
+| $\Delta T\ (\mathrm{^\circ R})$| $\Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{K})$ | $\Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$ | equal | N/A |
+
+# Definitions
+
+[Temperature](https://en.wikipedia.org/wiki/Temperature)
+: A measure of the average kinetic energy of the colliding and/or vibrating atoms in a system.
+
+[Absolute Zero](https://en.wikipedia.org/wiki/Absolute_zero)
+: The lowest limit of the thermodynamic temperature scale. Determined by extrapolating the ideal gas law. Colloquially known as the lowest possible temperature.
+
+[Absolute Temperature Scale](https://en.wikipedia.org/wiki/Absolute_zero)
+: A temperature scale that begins at absolute zero.
+
+[Kelvin](https://en.wikipedia.org/wiki/Kelvin)
+: The SI absolute temperature scale. Named after Lord Kelvin, a British mathematisian and engineer.
+
+[Celsius](https://en.wikipedia.org/wiki/Celsius)
+: The SI common temperature scale. Named after Anders Celsius, a Swedish astronomer.
+
+[Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit)
+: The American Engineering common temperature scale. Named after Daniel Gabriel Fahrenheit, a physicist born in Poland.
+
+[Rankine](https://en.wikipedia.org/wiki/Rankine_scale)
+: The American Engineering absolute temperature scale. Named after William John Macquorn Rankine, a Scottish methematician and physicist.
+
+Ideal Gas Law
+: The bar ($\mathrm{bar}$) is $10,00\ \mathrm{Pa}$. $1\ \mathrm{bar} = 10^5\ \mathrm{Pa}$.
+
+Heat Capacity
+: The pound per square inch ($\mathrm{psi}$) is one pound of normal force per square inch of area. $1\ \mathrm{psi}= 6894.757\ \mathrm{Pa}$.
+
+
+# Additional Links
+
+## Preceding Videos
+
+As of this writing the two sets of videos preceding this set are:
+
+1. *Is Furlongs per Fortnight a Thing?* [The Full Story](), [Just The Facts](), [Reference Page]()
+2. *Data Fitting with Spreadsheets 2* [The Full Story](), [Just The Facts](), [Reference Page]()
+
+## Following Videos
+
+As of this writing the two sets of videos following this set are:
+
+1. *The Most Annoying Equation Conversion* [The Full Story](), [Just The Facts](), [Reference Page]()
+2. *Dimensionless Numbers 1* [The Full Story](), [Just The Facts](), [Reference Page]()
+
+## Other Links
+
