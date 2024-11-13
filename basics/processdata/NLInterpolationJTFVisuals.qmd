@@ -1,0 +1,100 @@
+---
+format: 
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+# 
+
+::: {.bigbold180 style="text-align: center;"}
+No Clear Interpretation</br>a Mind-Blowing Math Hack
+:::
+
+::: {.bigbold style="text-align: center;"}
+Just The Facts 
+:::
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-50%"}
+
+## 
+
+**Properties of Saturated Steam: Temperature Table**
+
+![](steamtable1d.png)
+
+## Linear Interpolation
+
+**Properties of Saturated Steam: Temperature Table**
+
+![](steamtable1dBlowUp.png){.absolute width=50%}
+
+:::{.fragment .absolute top=15% left=60%}
+$$\frac{y-y_1}{x-x_1}=\frac{y_2-y_1}{x_2-x_1}$$
+:::
+
+:::{.fragment .absolute top=32% left=11%}
+$$y=\frac{y_2-y_1}{x_2-x_1}({x-x_1})+y_1$$
+:::
+
+:::{.fragment .absolute top=50% left=10%}
+$$\hat{V}=\frac{\hat{V}_2-\hat{V}_1}{T_2-T_1}({T-T_1})+\hat{V}_1$$
+:::
+
+:::{.fragment .absolute top=70% left=10%}
+$$\hat{V}=\frac{106.3-120.8}{10-8}({9-8})+120.8=113.55$$
+:::
+
+## Double Linear Interpolation
+
+What if you're between values in two dimensions
+
+![](steamtable2d.png)
+
+$T=125\ \mathrm{^\circ C}$
+
+$P=0.3\ \mathrm{bar}$
+
+$\hat{V}=?$
+
+
+## Double Linear Interpolation
+
+ - Called double interpolation
+ - Have to do three
+
+:::{.fragment}
+![](DoubleInterpTfirst.png)
+:::
+
+:::{.fragment}
+![](DoubleInterpPfirst.png)
+:::
+
+
+## The Takeaways
+
+1. Linear interpolation is often used in tables.
+2. Remember $slope = slope$ to write formula.
+3. A one-dimensional table requires one interpolation.
+4. A two-dimensional table requires double interpolation, which is really three interpolations.
+
+
+#
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=35%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
