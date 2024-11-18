@@ -62,7 +62,8 @@ $35.7\ \mathrm{inch} = \frac{35.7\ \mathrm{inch}}{} | \frac{25.4\ \mathrm{mm}}{1
 <div style="color: red;">$\bcancel{\ \ \ \ }$</div>
 :::
 
-:::{.fragment .absolute top=66.5% left=48%}
+
+:::{.fragment .absolute top=66.5% left=48.5%}
 <div style="color: red;">$\bcancel{\ \ \ \ }$</div>
 :::
 
