@@ -315,529 +315,179 @@
     "text": "&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE: I would, uh, eat it!\n&gt;&gt; NARRATOR: What is a mole is an episode of the Degrees of Freedom Project, “The Full Story” videos on chemical and thermal principles. If you want the “Just The Facts” version without the in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.\n&gt;&gt;INTERVIEWER: When we are talking about Chemical Engineering, what is a mole?\n&gt;&gt; INTERVIEWEE1: What is a mole?\n&gt;&gt;INTERVIEWER: Yeah.\n&gt;&gt; INTERVIEWEE1: I have no idea.\n&gt;&gt; INTERVIEWEE2: Uhmmm, I forgot.\n&gt;&gt; INTERVIEWEE3: Like a size, like a use, like a metric, kinda? I forgot the number, it’s like six point six oh eight point zero two two one.\n&gt;&gt; INTERVIEWEE4: Some unit of like how many molecules there are. I guess it could also be an animal, but that’s not really a thing for Chemical Engineering.\n&gt;&gt; INTERVIEWEE5: A mole is a unit of measurement. So the mole is just a number. Uhmm 6.02 times 10 to the 23. basically it’s a way of measuring atoms so that uhmm we can put them on a scale that is somewhat reasonable like to have and like use in the lab\n&gt;&gt; INTERVIEWER: And then, when we are talking about Chemical Engineering, what is a pound-mole?\n&gt;&gt; INTERVIEWEE6: Uhh, I’m not too sure.\n&gt;&gt; INTERVIEWEE7: I have no clue.\n&gt;&gt; INTERVIEWEE8: No clue.\n&gt;&gt; INTERVIEWEE9: I have no clue what that is.\n&gt;&gt; INTERVIEWEE10: I presume it’s some horrific cursed unit that Engineers came up with where they they do this insane thing where they combine like US imperial units with like metric units, and it’s just like the worst thing ever.\n&gt;&gt; INTERVIEWEE11: Probably like a certain number of moles that weigh a pound.\n&gt;&gt; INTERVIEWEE12: A pound-mole would be the number of molecules of something in a pound of that something.\n&gt;&gt; NARRATOR: A mole is the name given to the mass equivalent of the molar mass of a molecule. For example, a molecule of carbon dioxide has a molar mass of approximately 44.01, that means a gram mole, or simply a mole, of carbon dioxide has a mass of 44.01 grams, subsequently a pound-mole of carbon dioxide has a mass of 44.01 pounds mass.\nTo help you understand, this is one gram mole of table salt, and this is one pound-mole of table salt.\n&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE1: How would I use it?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: Without knowing what it is?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: I would eat it?!\n&gt;&gt; INTERVIEWEE2: I have no idea actually. Like for problems? Like I don’t know.\n&gt;&gt; INTERVIEWEE3: Like you can convert it to other units.\n&gt;&gt; INTERVIEWEE4: One mole of this element plus two moles of some other element might go to, combine to form certain compounds, so like balancing equations.\n&gt;&gt; INTERVIEWEE5: Balancing like chemical equations, like in stoichiometry you want to make sure yout number of moles um in is equal to your number of moles out.\n&gt;&gt; NARRATOR: So how do I use a mole? A mole is most useful when planning out or preparing reagents for a chemical reaction. You really need to start with a balanced chemical equation for the reaction. For example, one carbon atom and one oxygen molecule react to form one molecule of carbon dioxide.\nIf you wanted to make 100 pounds of carbon dioxide, you would need to calculate what mass of carbon atoms you would need, and what mass of oxygen molecules you would need. For an atomic species like carbon, you are technically supposed to use the name pound-atom or gram-atom, but in casual conversation, if you use the term pound-mole or gram-mole most engineers will understand.\nThe chemical equation means that one pound-atom of carbon will react with one pound-mole of oxygen molecules (which is just two pound-atoms of oxygen atoms) in order to form one pound-mole of carbon dioxide. Given that the molar mass (also called molecular weight) of carbon dioxide is about 44.01, 100 pounds of carbon dioxide is 100 divided by 44.01 or 2.272 pound-moles of carbon dioxide.\nWe need 2.272 pound-atoms of carbon and 2.272 pound-moles of oxygen molecules.\nThe atomic mass of carbon is approximately 12.01, and the molar mass of oxygen is about 32.00, so we need 2.272 times 12.01\nand 2.272 times 32.00\nThat gives us totals of 27.29 pounds of carbon\nand 72.70 pounds of oxygen in order to make our 100 pounds of carbon dioxide\n&gt;&gt; INTERVIEWER: And then do you know what Avogadro’s number is?\n&gt;&gt; INTERVIEWEE1: I don’t.\n&gt;&gt; INTERVIEWEE2: I have no idea what exactly it is.\n&gt;&gt; INTERVIEWEE3: Something times 10 to the 27th.\n&gt;&gt; INTERVIEWEE4: 1.602 times 10 to the 23rd.\n&gt;&gt; INTERVIEWEE5: 6.02 times 10 to the 23 molecules per gram.\n&gt;&gt; INTERVIEWEE6: Avogadro’s number is the number you use to convert um moles to molecules back and forth.\n&gt;&gt; INTERVIEWEE7: Avogadro’s constant is 6.023 to 10 to the power 23 if I remember correctly.\n&gt;&gt; NARRATOR: For a gram-mole, which is what chemists mean when they say mole, the international standards agencies have agreed on how many molecules are in exactly one mole. In the US, our standards agency is the National Institute of Standards and Technology or N.I.S.T. The value from their website is 6.022 140 76 times 10 to the 23rd per mol. That number is known as Avogadro’s number or the Avogadro constant.\nHowever, there is a corresponding number for each mass unit. For pounds mass the exact number is 1.327 654 687 336 03 times 10 to the 27th per pound-mole.\nThe N.I.S.T. website lists at least 15 different mass units, so there are at least that many types of moles, ranging from the carat-mole through the pennyweight-mole. The most common moles are the gram mole or mole, the kilogram-mol or kilomole, the metric-ton-mole or tonne-mole, the pound-mole, and the ton-mole.\nThe big question is “Why Can’t I Just Use the Mol that I’m Familiar With?” Well, you can, but you are more likely to make an error because of the extra conversions you have to do. There is a long conversion process if you use any mass unit other than the gram (which isn’t the SI unit, by the way. The SI unit is the kilogram.) The process is as follows: Starting with mass: First, convert mass unit to grams\nSecond, convert from grams to gram moles with the molar mass.\nThird, use the chemical equation to find the resultant gram moles\nFourth, convert from gram-moles to grams, then.\nThen finally, five, convert from grams to your original mass unit.\nDon’t do this!\nRather, you should use the next three simple steps, instead:\nFirst, convert from mass to moles with the molar mass.\nSecond, use the chemical equation to find the resultant moles.\nThen third and finally, convert from moles to mass.\nInstead of five steps, you have three steps, resulting in 40% fewer places to make a mistake.\nThe key takeaways are: First, Engineers use different types of moles because they have to work with different types of mass units.\nSecond, the molar mass is just the conversion factor between moles and mass, and it has the same numerical value regardless of the mass units involved.\nFinally, only use gram moles if your problem is being worked in grams.\nThanks for watching! To learn more about chemical and thermal processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series."
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#what-temperature-scales-do-we-use",
-    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#what-temperature-scales-do-we-use",
+    "objectID": "basics/processdata/DimensionalEquationsJTFVisuals.html#conversion-videos",
+    "href": "basics/processdata/DimensionalEquationsJTFVisuals.html#conversion-videos",
+    "title": "Chemical and Thermal Processes",
+    "section": "Conversion Videos",
+    "text": "Conversion Videos\n\nThis Video – Is Furlongs Per Fortnight a Thing? explains how to convert a measured or calculated quantity from one set of units to another (except for temperatures).\nAnother Video – How Keen Is Your Rank? explains how to convert temperatures and temperature intervals.\nA Third Video – The Most Annoying Equation Conversion explains how to convert an equation as opposed to a calculated or measured quantity from one set of units to another."
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsJTFVisuals.html#changing-units",
+    "href": "basics/processdata/DimensionalEquationsJTFVisuals.html#changing-units",
+    "title": "Chemical and Thermal Processes",
+    "section": "Changing Units",
+    "text": "Changing Units\n\nMost physical quantities can be converted from one unit of measure (or set of units of measure) to another by the use of conversion factors, which are the number 1 disguised as the ratio of units.\nOrganizations such as the International Bureau of Weights and Measures (BIPM) and the National Institute of Standards and Technology (NIST) are responsible for maintaining the conversion factors.\nFor example, on the NIST website at\n\nhttps://www.nist.gov/si-redefinition/definitions-si-base-units\n\nis the current list of definitions for SI quantities.\nIn addition, the NIST website at\n\nhttps://www.nist.gov/pml/weights-and-measures/si-units-length\n\ndefines the inch as exactly 25.4 mm (as of 30 June 1959)."
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsJTFVisuals.html#changing-units-cont.",
+    "href": "basics/processdata/DimensionalEquationsJTFVisuals.html#changing-units-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Changing Units (cont.)",
+    "text": "Changing Units (cont.)\n\nNow if \\(1\\ \\mathrm{inch} = 25.4\\ \\mathrm{mm}\\), we can rearrange the equation as:\n\n\n\\(1 = \\frac{25.4\\ \\mathrm{mm}}{1\\ \\mathrm{inch}}\\) or \\(1 = \\frac{1\\ \\mathrm{inch}}{25.4\\ \\mathrm{mm}}\\)\n\n\nMultiplying a quantity by unity does not change its value but does change its units.\n\n\n\\(35.7\\ \\mathrm{inch} = \\frac{35.7\\ \\mathrm{inch}}{} | \\frac{25.4\\ \\mathrm{mm}}{1\\ \\mathrm{inch}}=906.78\\ \\mathrm{mm}\\)\n\n\n\n\\(\\bcancel{\\ \\ \\ \\ }\\)\n\n\n\n\n\\(\\bcancel{\\ \\ \\ \\ }\\)"
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsJTFVisuals.html#dimensional-equation",
+    "href": "basics/processdata/DimensionalEquationsJTFVisuals.html#dimensional-equation",
+    "title": "Chemical and Thermal Processes",
+    "section": "Dimensional Equation",
+    "text": "Dimensional Equation\n\nAn equation such as\n\n\n\\(35.7\\ \\mathrm{inch} = \\frac{35.7\\ \\mathrm{inch}}{} | \\frac{25.4\\ \\mathrm{mm}}{1\\ \\mathrm{inch}}=906.78\\ \\mathrm{mm}\\)\n\n\nis known as a dimensional equation and it will handle most of your unitconversion issues. Here is a dimensional equation to convert \\(344\\ \\mathrm{m/s}\\) to furlongs per fortnight using exact NIST values.\n\n\n\\(\\frac{344\\ \\mathrm{m}}{\\mathrm{s}} | \\frac{1\\ \\mathrm{yd}}{0.9144\\ \\mathrm{m}}  | \\frac{1\\ \\mathrm{furlong}}{220\\ \\mathrm{yd}} | \\frac{3600\\ \\mathrm{s}}{1\\ \\mathrm{hr}} | \\frac{24\\ \\mathrm{hr}}{1\\ \\mathrm{day}} | \\frac{14\\ \\mathrm{day}}{\\mathrm{fortnight}} |\\)  \\(\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ = 2,068.432.36\\ \\frac{\\mathrm{furlong}}{\\mathrm{fortnight}}\\)\n\n\n\n\\(\\bcancel{\\ }\\)\n\n\n\n\n\\(\\bcancel{\\ }\\)\n\n\n\n\n\\(\\bcancel{\\ \\ }\\)\n\n\n\n\n\\(\\bcancel{\\ \\ }\\)\n\n\n\n\n\\(\\bcancel{\\ }\\)\n\n\n\n\n\\(\\bcancel{\\ }\\)\n\n\n\n\n\\(\\bcancel{\\ \\ }\\)\n\n\n\n\n\\(\\bcancel{\\ \\ }\\)\n\n\n\n\n\\(\\bcancel{\\ \\ \\ }\\)\n\n\n\n\n\\(\\bcancel{\\ \\ \\ }\\)"
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsJTFVisuals.html#significant-figures",
+    "href": "basics/processdata/DimensionalEquationsJTFVisuals.html#significant-figures",
+    "title": "Chemical and Thermal Processes",
+    "section": "Significant Figures",
+    "text": "Significant Figures\nThere are precise rules for tracking significant figures, also known as sig figs or significant digits through a set of calculations. If you are curious, check out Wikipedia or the links on the website.\n\nDOFPro will do the following:\n\nCarry as many figures as possible throughout a set of calculations.\nRound to three or four sig figs for the answer and when displaying most intermediate calculations, e.g., the spreadsheet will display 3.142, but contain 3.1415926535793238.\nRounding will either use the function in the software, or rounding half up, which uses the first digit past the intended rounded digit to determine whether to round up or down. If the first digit past is five through 9, round up, if it’s zero through four, round down.\n\n\n\nUse whatever rounding method you prefer."
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsJTFVisuals.html#on-line-calculators",
+    "href": "basics/processdata/DimensionalEquationsJTFVisuals.html#on-line-calculators",
+    "title": "Chemical and Thermal Processes",
+    "section": "On-Line Calculators",
+    "text": "On-Line Calculators\nThe most common web search tool will do unit conversions for you. Try typing the following into your browser url bar or search engine.\n\n344 m/s in furlong/fortnight\n100 lb in kg\n100 ton in tonne\n50.8 mm/s in in/s\n1000 sq yd in hectare\n34 inHg in atm\n760 torr in psi\n\n\nHit return to get a calculator with available conversions and units."
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsJTFVisuals.html#common-conversions-worth-memorizing",
+    "href": "basics/processdata/DimensionalEquationsJTFVisuals.html#common-conversions-worth-memorizing",
+    "title": "Chemical and Thermal Processes",
+    "section": "Common Conversions Worth Memorizing",
+    "text": "Common Conversions Worth Memorizing\n\nExact\n\n\n\\(\\frac{25.4\\ \\mathrm{mm}}{1\\ \\mathrm{inch}}\\),\n\n\n\\(\\frac{101\\ 325\\ \\mathrm{Pa}}{1\\ \\mathrm{atm}}\\),\n\n\n\\(\\frac{4.184\\ \\mathrm{J}}{1\\ \\mathrm{cal_{th}}}\\),\n\n\n\\(\\frac{9\\ \\mathrm{^\\circ R}}{5\\ \\mathrm{K}}\\),\n\n\n\\(\\frac{4.184\\ \\mathrm{J/kg\\cdot K}}{1\\ \\mathrm{Btu_{th}/(lb_m \\cdot ^\\circ R)}}\\).\n\n\nClose to Exact (just memorize 3 or 4 sig figs)\n\n\n\\(\\frac{0.453\\ 592\\ 4\\ \\mathrm{kg}}{1\\ \\mathrm{lb_m}}\\),\n\n\n\\(\\frac{4.448\\ 222\\ \\mathrm{N}}{1\\ \\mathrm{lb_f}}\\),\n\n\n\\(\\frac{0.946\\ 352\\ 9\\ \\mathrm{L}}{1\\ \\mathrm{qt}}\\).\n\n\nApproximate\n\n\n\\(\\frac{2.2\\ \\mathrm{lb_m}}{1\\ \\mathrm{kg}}\\),\n\n\n\\(\\frac{1\\ \\mathrm{Btu/s}}{1\\ \\mathrm{kW}}\\)."
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsJTFVisuals.html#useful-links",
+    "href": "basics/processdata/DimensionalEquationsJTFVisuals.html#useful-links",
+    "title": "Chemical and Thermal Processes",
+    "section": "Useful Links",
+    "text": "Useful Links\n\nThe NIST conversions to SI in alphabetical order https://tinyurl.com/ydb2jcoc\nThe NIST conversions to SI by kind https://tinyurl.com/ycqe2ez7\nWeb search for on-line unit conversion calculators\nJust about any values of the molar gas constant you would want https://en.wikipedia.org/wiki/Gas_constant"
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsJTFVisuals.html#the-takeaways",
+    "href": "basics/processdata/DimensionalEquationsJTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nFor most quantities, you can convert from one set of units to another with conversion factors. e.g., \\(1\\ \\mathrm{inch} = 25.4\\ \\mathrm{mm}\\)\nA very accurate source of conversion factors is the N.I.S.T website.\nMany web search engines will do unit conversions for you.\nTemperature conversions are more complicated and require their own video.\n\n\nA final word of advice: Whenever possible, work the problem in the units given."
+  },
+  {
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#what-temperature-scales-do-we-use",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#what-temperature-scales-do-we-use",
     "title": "Chemical and Thermal Processes",
     "section": "What temperature scales do we use?",
     "text": "What temperature scales do we use?\n\n\\(\\bullet\\) Kelvin, K\n\n\n\\(\\bullet\\) Celsius, °C\n\n\n\\(\\bullet\\) Fahrenheit, °F\n\n\n\\(\\bullet\\) Rankine, °R\n\n\n\n\\(\\mathbf{-}\\) absolute scale (starts at zero)\n\n\n\\(\\mathbf{-}\\) absolute scale (starts at zero)\n\n\n\n\\(\\mathbf{-}\\) used when working with gases in Am. Eng. Units"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperatures-vs.-temperature-intervals",
-    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperatures-vs.-temperature-intervals",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperatures-vs.-temperature-intervals",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperatures-vs.-temperature-intervals",
     "title": "Chemical and Thermal Processes",
     "section": "Temperatures vs. Temperature Intervals",
     "text": "Temperatures vs. Temperature Intervals\n\nTemperature: the single temperature of an object\nTemperature interval: the difference between two temperatures\n\n\n\n\n\n\nTemperature\\(32\\ \\mathrm{^\\circ F}\\)\n\n\nTemperature\\(212\\ \\mathrm{^\\circ F}\\)\n\n\n\nTemperature Interval\\(\\longleftarrow\\ \\ 180\\ \\mathrm{^\\circ F}\\ \\ \\longrightarrow\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-equations-12",
-    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-equations-12",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-12",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-12",
     "title": "Chemical and Thermal Processes",
     "section": "Temperature Equations (1/2)",
     "text": "Temperature Equations (1/2)\n\n\nCelsius to Fahrenheit: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 32\\)\nCelsius to Kelvin: \\(\\ \\ \\ \\ \\ \\ T(\\mathrm{K}) = T(\\mathrm{^\\circ C}) + 273.15\\)\nCelsius to Rankine: \\(\\ \\ \\ T(\\mathrm{^\\circ R}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 491.67\\)\n\n\n\nFahrenheit to Celsius: \\(\\ \\ T(\\mathrm{^\\circ C}) = \\frac{5}{9}[T(\\mathrm{^\\circ F}) - 32]\\)\nFahrenheit to Kelvin: \\(\\ \\ \\ T(\\mathrm{K}) = \\frac{5}{9} [T(\\mathrm{^\\circ F}) - 32] + 273.15\\)\nFahrenheit -&gt; Rankine: \\(T(\\mathrm{^\\circ R}) = T(\\mathrm{^\\circ F}) + 459.67\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-equations-22",
-    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-equations-22",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-22",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-22",
     "title": "Chemical and Thermal Processes",
     "section": "Temperature Equations (2/2)",
     "text": "Temperature Equations (2/2)\n\n\nKelvin to Fahrenheit: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{K}) - 459.67\\)\nKelvin to Celsius: \\(\\ \\ \\ \\ \\ T(\\mathrm{^\\circ C}) = T(\\mathrm{K}) - 273.15\\)\nKelvin to Rankine: \\(\\ \\ \\ \\ T(\\mathrm{^\\circ R}) = \\frac{9}{5} T(\\mathrm{K})\\)\n\n\n\nRankine to Fahrenheit: \\(\\ T(\\mathrm{^\\circ F}) = T(\\mathrm{^\\circ R}) - 459.67\\)\nRankine to Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\ \\ T(\\mathrm{K}) = \\frac{5}{9} T(\\mathrm{^\\circ R})\\)\nRankine -&gt; Celsius: \\(\\ \\ \\ \\ \\ \\ T(\\mathrm{^\\circ C}) = \\frac{5}{9}[T(\\mathrm{^\\circ R}) - 491.67]\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-interval-equations",
-    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-interval-equations",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-interval-equations",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-interval-equations",
     "title": "Chemical and Thermal Processes",
     "section": "Temperature Interval Equations",
     "text": "Temperature Interval Equations\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Celsius: \\(\\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Rankine: \\(\\Delta T(\\mathrm{^\\circ R}) = \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\Delta T(\\mathrm{^\\circ R})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-1---temperature-12",
-    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-1---temperature-12",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-12",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-12",
     "title": "Chemical and Thermal Processes",
     "section": "Example 1 - Temperature (1/2)",
     "text": "Example 1 - Temperature (1/2)\nConvert \\(5\\ \\mathrm{^\\circ C}\\) into Kelvin, Fahrenheit, and Rankine.\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{K}\\)\n\nRemember: \\(T(\\mathrm{K}) = T(\\mathrm{^\\circ C}) + 273.15\\)\n\\(\\implies T(\\mathrm{K}) = 5\\ \\mathrm{^\\circ C} + 273.15= 278.15\\ \\mathrm{K}\\)\n\n\n\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{^\\circ F}\\)\n\nRemember: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 32\\)\n\\(\\implies T(\\mathrm{^\\circ F}) = \\frac{9}{5}(5\\ \\mathrm{^\\circ C})+ 32 = 41\\ \\mathrm{^\\circ F}\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-1---temperature-22",
-    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-1---temperature-22",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-22",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-22",
     "title": "Chemical and Thermal Processes",
     "section": "Example 1 - Temperature (2/2)",
     "text": "Example 1 - Temperature (2/2)\nConvert 5 °C into Kelvin, Fahrenheit, and Rankine.\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{^\\circ R}\\)\n\nRemember: When converting from Celsius to Rankine, we prefer to first convert to Kelvin, then Rankine.\nWe can use what we got from our first conversion, \\(T(\\mathrm{K}) = 278.15\\ \\mathrm{K}\\)\n\\(\\implies T(\\mathrm{^\\circ R}) = \\frac{9}{5}(278.15\\ \\mathrm{K}) = 500.67\\ \\mathrm{^\\circ R}\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-2---temp.-temp.-intervals-12",
-    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-2---temp.-temp.-intervals-12",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-12",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-12",
     "title": "Chemical and Thermal Processes",
     "section": "Example 2 - Temp. & Temp. Intervals (1/2)",
     "text": "Example 2 - Temp. & Temp. Intervals (1/2)\n\n\n\n\nOver a limited temperature range, the heat capacity of liquid acetone is\n\n\n\\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ C}} \\right] =0.1230+0.000186T\\) where \\(T\\) is in \\(\\mathrm{^\\circ C}\\).\n\n\nWhat are the heat-capacity formulas with \\(T\\) in \\(K\\), \\(\\mathrm{^\\circ R}\\), and \\(\\mathrm{^\\circ F}\\)?\n\n\nTo Kelvin \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right]\\mathrm{\\frac{1\\ K}{1\\ \\mathrm{^\\circ C}}} =0.1230+0.000186(T-273.15)T\\) where \\(T\\) is in \\(\\mathrm{K}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right] =0.0722+0.000186T\\) where \\(T\\) is in \\(\\mathrm{K}\\)."
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-2---temp.-temp.-intervals-22",
-    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-2---temp.-temp.-intervals-22",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-22",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-22",
     "title": "Chemical and Thermal Processes",
     "section": "Example 2 - Temp. & Temp. Intervals (2/2)",
     "text": "Example 2 - Temp. & Temp. Intervals (2/2)\n\nTo Rankine \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ R}} \\right]\\mathrm{\\frac{9\\ ^\\circ R}{5\\ \\mathrm{^\\circ C}}} =0.1230+0.000186 \\left( \\frac{5}{9}[T-491.67] \\right)\\) where \\(T\\) is in \\(\\mathrm{^\\circ R}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ R}} \\right] =0.04011+0.00005741\\) where \\(T\\) is in \\(\\mathrm{^\\circ R}\\).\n\n\nTo Fahrenheit \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ F}} \\right]\\mathrm{\\frac{9\\ ^\\circ F}{5\\ \\mathrm{^\\circ C}}} =0.1230+0.000186 \\left( \\frac{5}{9}[T-32] \\right)\\) where \\(T\\) is in \\(\\mathrm{^\\circ F}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ F}} \\right] =0.06650+0.00005741\\) where \\(T\\) is in \\(\\mathrm{^\\circ F}\\)."
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#the-takeaways",
-    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#the-takeaways",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#the-takeaways",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
     "text": "The Takeaways\n\nThere are four common temperature scales:\n\n\nKelvin, Rankine, Fahrenheit, and Celsius\n\n\nThe conversions between temperatures are different from the conversion of temperature intervals.\nMost temperature conversions requre both multiplication and addition/subtraction.\n\n\nConversion between Rankine and Kelvin only require multiplication\n\n\nAll of the temperature-interval conversions just require multiplication by 9/5, 5/9, or 1."
   },
   {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mass",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#mass",
-    "title": "Chemical and Thermal Processes",
-    "section": "Mass",
-    "text": "Mass\nMass is both a property of a physical body and a measure of its resistance to acceleration (a change in its state of motion) when a net force is applied. An object’s mass also determines the strength of its gravitational attraction to other bodies. (https://en.wikipedia.org/wiki/Mass)\nThe SI unit of mass, the kilogram, is defined from Planck’s constant\n\\[h=6.626070150 \\times 10^{-34}\\ \\mathrm{m^2/s}\\]\nor\n\\[ 1\\ \\mathrm{kg}=\\frac{h}{6.626070150 \\times 10^{-34}\\ \\mathrm{kg \\cdot m^2/s}} \\]"
-  },
-  {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mass-cont.",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#mass-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "Mass (cont.)",
-    "text": "Mass (cont.)\nFor the curious, the second is defined as 9,192,631,770 times the period of the unperturbed ground-state hyperfine transition of the cesium 133 atom. And the meter is defined as 1/299,792,458th of the distance light travels in a vacuum in one second. The American engineering unit of mass, the pound mass, or \\(\\mathrm{lb_m}\\) is defined as\n\\[1\\ \\mathrm{lb_m} \\equiv 0.453\\ 592\\ 37\\ \\mathrm{kg}\\]"
-  },
-  {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mole",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#mole",
-    "title": "Chemical and Thermal Processes",
-    "section": "Mole",
-    "text": "Mole\n\nSee What Ia A Mole? for a more thorough explanation\nThe most common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)\n\\(\\text{tonne-mol}\\)\n\n\nYou should NEVER convert your mass in kg or lbm to g, and then to g-mol. You should ALWAYS use the kind of mole your mass is in. The conversion factor is simply the molecular weight."
-  },
-  {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mole-cont.",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#mole-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "Mole (cont.)",
-    "text": "Mole (cont.)\nThe molecular weight of methane is:\nMCH4 =16.0425 g g-mol =16.0425 kg kg-mol =16.0425 lbm lb-mol ## The Takeaways\n\nPressure is the second most commonly measured process variable.\nHydrostatic pressure \\(= \\rho g h\\).\nManometers measure \\(\\Delta P\\)’s with hydrostatic pressure."
-  },
-  {
-    "objectID": "basics/calculations/CalculationsWebPage.html",
-    "href": "basics/calculations/CalculationsWebPage.html",
-    "title": "Engineering Calculations",
+    "objectID": "basics/processdata/ProcessDataWebPage.html",
+    "href": "basics/processdata/ProcessDataWebPage.html",
+    "title": "Process Data and Process Variables",
     "section": "",
-    "text": "Why Engineering Calculations"
+    "text": "Many engineers and chemical engineers in particular design, analyze, and create processes that transform inputs, such as chemical reagents, heat, and electricity, into outputs such a other chemical reagents. The design and analysis of processes requires a knowledge of the sorts of measurements or data that are made of the process, and the variables that are used to model the process. This section discusses many of the varibles, measurements, and data that are common to these processes, how they are defined, what they mean, and how they are used, presented, and analyzed.\n\n\nWe begin with units, conversions, and dimensionless numbers. In spite of a desire to perform all calculations in SI unts, the practicing engineer needs to be comfortable working with both familiar and obscure units. This set of videos discusses many of the common techniques for working with diverse units. The videos in this section are:\n\nIs Furlongs per Fortnight a Thing? The Full Story, Just The Facts, Reference Page. Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all of your unit conversion issues, but they will solve many of them. Google Calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are multiplicatively related to each other.\nThe Most Annoying Equation Conversion The Full Story, Just The Facts, Reference Page. When units have a more complex relationship than simply multiplicative, such as \\(^\\circ\\mathrm{C}\\) and \\(^\\circ\\mathrm{F}\\), the relationship is expressed in an equation with dimensions. In addition, there are at times equations, particularly empirical equations, where the varibles are in SI units, and you need an equivalent equation in American Engineering units. The procedure for deriving such equations with units is presented in this set of videos.\nConverting Temperatures The Full Story, Just The Facts, Reference Page. Converting temperatures and temperature intervals among \\(\\mathrm{K}\\), \\(^\\circ\\mathrm{C}\\), \\(^\\circ\\mathrm{F}\\), and \\(^\\circ\\mathrm{R}\\) applies the principles discussed in the previous two video sets. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.\nDimensionless Numbers The Full Story, Just The Facts, Reference Page. In the early days of engineering there were huge data sets that needed to be regressed and correlations found. The Buckingham pi theorem provided a way to reduce the dimensionality of these huge data sets and ease calculational complexity. In addition, normalizing ordinary and partial differential equations (which is basically making the variables dimensionless through choosing a scale) gives rise to dimensionless prarameters. The most well known of these is the Reynolds number, but there are scores of others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used.\n\n\n\n\nMeasuring Temperature The Full Story, Just The Facts, Reference Page. The most commonly measured process variable is temperature. This set of videos discusses different temperature-measurement techniques. It is optional because at this level it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or has to specify how a temperature measurement is to be made.\n\n\n\nThe second most commonly measured process variable is pressure.\n\nUnder Pressure Part 1 The Full Story, Just The Facts, Reference Page. Part 1 discusses the common pressure units and hydrostatic pressure.\nUnder Pressure Part 2 The Full Story, Just The Facts, Reference Page. Part 2 discusses absolute, atmospheric, barometric, gauge, and vacuum pressure.\n\n\n\n\nWhen purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page. This video set explains the different types of moles and how to use them.\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight.\n\n\n\n\nVolume, Density, and Flow Rates The Full Story, Just The Facts, Reference Page."
   },
   {
-    "objectID": "basics/stats/BasicStatsByHandJTFVisuals.html#the-basic-statistics-videos",
-    "href": "basics/stats/BasicStatsByHandJTFVisuals.html#the-basic-statistics-videos",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Basic Statistics Videos",
-    "text": "The Basic Statistics Videos\n\nHow Deviant and Mean Are Your Data? Parts 1 & 2 Intro to \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\)\n\n\nBasic Statistics by Hand \\(\\Leftarrow\\) This video Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) by hand.\nBasic Statistics with a Spreadsheet Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with a spreadsheet.\nBasic Statistics with Python Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with Python.\nBasic Statistics With R Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with R."
-  },
-  {
-    "objectID": "basics/stats/BasicStatsByHandJTFVisuals.html#basic-statistics-by-hand",
-    "href": "basics/stats/BasicStatsByHandJTFVisuals.html#basic-statistics-by-hand",
-    "title": "Chemical and Thermal Processes",
-    "section": "Basic Statistics by Hand",
-    "text": "Basic Statistics by Hand\nThis video shows how to calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) by hand and with a calculator."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#scale-video-tba",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#scale-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Scale Video TBA",
-    "text": "Scale Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#ruler-video-tbs",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#ruler-video-tbs",
-    "title": "Chemical and Thermal Processes",
-    "section": "Ruler Video TBS",
-    "text": "Ruler Video TBS"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#voltmeter-video-tba",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#voltmeter-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Voltmeter Video TBA",
-    "text": "Voltmeter Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#thermistor-video-tba",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#thermistor-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Thermistor Video TBA",
-    "text": "Thermistor Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#reporting-uncertainty",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#reporting-uncertainty",
-    "title": "Chemical and Thermal Processes",
-    "section": "Reporting Uncertainty",
-    "text": "Reporting Uncertainty\n\n\\(m = 1.03 \\pm 0.03\\ \\mathrm{kg}\\text{ (95% confidence)}\\)\n\n\n\\(u = 2.36 \\pm 0.04\\ \\mathrm{\\frac{m}{s}}\\text{ (95% confidence)}\\)\n\n\n\\(mu = 2.43 \\pm 0.08\\ \\mathrm{\\frac{(kg\\cdot m)}{s} }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}mu^2 = 2.87 \\pm 0.13\\ \\mathrm{J}\\text{ (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#reporting-functional-uncertainty",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#reporting-functional-uncertainty",
-    "title": "Chemical and Thermal Processes",
-    "section": "Reporting Functional Uncertainty",
-    "text": "Reporting Functional Uncertainty\n\n\nCC BY-SA 3.0, link\n\n\n \n\n\n\n\n\n\\(F_\\mathrm{s} = k(x_\\mathrm{n}-x_\\mathrm{f})\\)\n\n\n\n\n\n\\(F_\\mathrm{_s} = 30.00 \\pm 2.50\\ \\mathrm{(95\\%\\ conf.)\\ N/m}(x\\mathrm{_n}-x\\mathrm{_f})\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#true-mean-and-standard-deviation",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#true-mean-and-standard-deviation",
-    "title": "Chemical and Thermal Processes",
-    "section": "True Mean and Standard Deviation",
-    "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(:=\\)1 True Mean or Population Mean.\n\n\n\\(\\mu \\equiv\\) True or Population Mean,\n\n\ni.e., \\(\\mu =\\ \\)average value from infinite-precision, full population measurement (almost never known).\n\n\nDistribution of data about the true mean \\(:=\\) True Standard Deviation or Population Standard Deviation.\n\n\n\\(\\sigma \\equiv\\) True or Population Standard Deviation\n\n\ni.e., \\(\\sigma =\\ \\)standard deviation given true mean and infinite-precision data points (also almost never known).\n\nMath has borrowed “:=” from Computer Science to mean is called."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#sample-mean-and-residuals",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#sample-mean-and-residuals",
-    "title": "Chemical and Thermal Processes",
-    "section": "Sample Mean and Residuals",
-    "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\ne.g., \\(x_1 = 43.15\\)\n\n\nA set of \\(N\\) measurements\n\n\nimplies a set of\n\n\n\\(N\\) independent equations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\bar{x} \\equiv\\) sample mean\n\n\nHow do we estimate \\(\\mu - \\bar{x}\\)?\n\n\n\nCan we calculate the error\n\n\n\\(\\varepsilon_i =\\mu-x_i\\)?\n\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(e\\mathrm{_i} = \\bar{x} - x_i\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#section",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#section",
-    "title": "Chemical and Thermal Processes",
+    "objectID": "basics/processdata/ProcessDataWebPage.html#conversions",
+    "href": "basics/processdata/ProcessDataWebPage.html#conversions",
+    "title": "Process Data and Process Variables",
     "section": "",
-    "text": "Sample Variance and Standard Deviation\n\n\nTrue variance\n\n\n\\(\\sigma^2=\\frac{\\displaystyle{\\sum_{i=1}^N \\varepsilon^2_i}}{N}\\)\n\n\nSample variance\n\n\n\\(S^2=\\frac{\\displaystyle{\\sum_{i=1}^N e^2_i}}{N-1}\\)\n\n\n\\(\\bar{x},\\ e,\\) and \\(S^2\\) are calculated from the \\(x_i\\).\n\n\n\\(\\mu,\\ \\varepsilon,\\) and \\(\\sigma^2\\) are not.\n\n\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.\n\n\nThe true standard deviation, \\(\\sigma=\\sqrt{\\sigma^2}\\).\n\n\nThe sample standard deviation, \\(S=\\sqrt{S^2}\\)."
+    "text": "We begin with units, conversions, and dimensionless numbers. In spite of a desire to perform all calculations in SI unts, the practicing engineer needs to be comfortable working with both familiar and obscure units. This set of videos discusses many of the common techniques for working with diverse units. The videos in this section are:\n\nIs Furlongs per Fortnight a Thing? The Full Story, Just The Facts, Reference Page. Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all of your unit conversion issues, but they will solve many of them. Google Calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are multiplicatively related to each other.\nThe Most Annoying Equation Conversion The Full Story, Just The Facts, Reference Page. When units have a more complex relationship than simply multiplicative, such as \\(^\\circ\\mathrm{C}\\) and \\(^\\circ\\mathrm{F}\\), the relationship is expressed in an equation with dimensions. In addition, there are at times equations, particularly empirical equations, where the varibles are in SI units, and you need an equivalent equation in American Engineering units. The procedure for deriving such equations with units is presented in this set of videos.\nConverting Temperatures The Full Story, Just The Facts, Reference Page. Converting temperatures and temperature intervals among \\(\\mathrm{K}\\), \\(^\\circ\\mathrm{C}\\), \\(^\\circ\\mathrm{F}\\), and \\(^\\circ\\mathrm{R}\\) applies the principles discussed in the previous two video sets. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.\nDimensionless Numbers The Full Story, Just The Facts, Reference Page. In the early days of engineering there were huge data sets that needed to be regressed and correlations found. The Buckingham pi theorem provided a way to reduce the dimensionality of these huge data sets and ease calculational complexity. In addition, normalizing ordinary and partial differential equations (which is basically making the variables dimensionless through choosing a scale) gives rise to dimensionless prarameters. The most well known of these is the Reynolds number, but there are scores of others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used."
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#are-we-there-yet",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#are-we-there-yet",
-    "title": "Chemical and Thermal Processes",
-    "section": "Are We There Yet?",
-    "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#the-takeaways",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
-  },
-  {
-    "objectID": "basics/stats/StatsMeasurementsWebPage.html",
-    "href": "basics/stats/StatsMeasurementsWebPage.html",
-    "title": "Statistics and Measurements",
+    "objectID": "basics/processdata/ProcessDataWebPage.html#temperature-optional",
+    "href": "basics/processdata/ProcessDataWebPage.html#temperature-optional",
+    "title": "Process Data and Process Variables",
     "section": "",
-    "text": "Why Statistics and Measurements"
+    "text": "Measuring Temperature The Full Story, Just The Facts, Reference Page. The most commonly measured process variable is temperature. This set of videos discusses different temperature-measurement techniques. It is optional because at this level it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or has to specify how a temperature measurement is to be made."
   },
   {
-    "objectID": "appx/index.html",
-    "href": "appx/index.html",
-    "title": "Appendices",
+    "objectID": "basics/processdata/ProcessDataWebPage.html#pressure",
+    "href": "basics/processdata/ProcessDataWebPage.html#pressure",
+    "title": "Process Data and Process Variables",
     "section": "",
-    "text": "There are the following appendices:\n\nAppendix A – Nomenclature\nA list of nomenclature\n\n\nAppendix B\nAppendix B\n\n\nAppendix C\nAppendix C"
+    "text": "The second most commonly measured process variable is pressure.\n\nUnder Pressure Part 1 The Full Story, Just The Facts, Reference Page. Part 1 discusses the common pressure units and hydrostatic pressure.\nUnder Pressure Part 2 The Full Story, Just The Facts, Reference Page. Part 2 discusses absolute, atmospheric, barometric, gauge, and vacuum pressure."
   },
   {
-    "objectID": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
-    "href": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
-    "title": "Chemical and Thermal Processes",
-    "section": "Bulleted and Numbered Lists",
-    "text": "Bulleted and Numbered Lists\n\nA numbered item\nAnother numbered item\nYet another numbered item\n\n\nA bullet item\nAnother bullet item\nYet another bullet item"
-  },
-  {
-    "objectID": "ExampleVisualsGreenScreen.html#fragment-items",
-    "href": "ExampleVisualsGreenScreen.html#fragment-items",
-    "title": "Chemical and Thermal Processes",
-    "section": "Fragment Items",
-    "text": "Fragment Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
-  },
-  {
-    "objectID": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
-    "href": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
-    "title": "Chemical and Thermal Processes",
-    "section": "Fragment and Absolute Items",
-    "text": "Fragment and Absolute Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
-  },
-  {
-    "objectID": "balances/material/index.html",
-    "href": "balances/material/index.html",
-    "title": "Material Balances",
+    "objectID": "basics/processdata/ProcessDataWebPage.html#mass-moles-and-mass-and-mole-fractions",
+    "href": "basics/processdata/ProcessDataWebPage.html#mass-moles-and-mass-and-mole-fractions",
+    "title": "Process Data and Process Variables",
     "section": "",
-    "text": "Intro to Systems and Balances"
+    "text": "When purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page. This video set explains the different types of moles and how to use them.\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight."
   },
   {
-    "objectID": "balances/exergy/index.html",
-    "href": "balances/exergy/index.html",
-    "title": "Exergy",
+    "objectID": "basics/processdata/ProcessDataWebPage.html#volume-density-and-flow-rates",
+    "href": "basics/processdata/ProcessDataWebPage.html#volume-density-and-flow-rates",
+    "title": "Process Data and Process Variables",
     "section": "",
-    "text": "Intro to Systems and Balances"
-  },
-  {
-    "objectID": "balances/entropy/index.html",
-    "href": "balances/entropy/index.html",
-    "title": "Entropy Balances",
-    "section": "",
-    "text": "Intro to Systems and Balances"
-  },
-  {
-    "objectID": "balances/general/index.html#first-define-your-system",
-    "href": "balances/general/index.html#first-define-your-system",
-    "title": "The General Balance Equation",
-    "section": "First – Define Your System",
-    "text": "First – Define Your System\n\nTransient — The values of process variables are changing with time.\nSteadyState —The values of process variables do not change with time but may change with position. (What EE’s call a DC steady state)\nBatch (closed) — Throw stuff in. Wait. Pull products out.\nSemibatch — Neither batch nor continuous.\nContinuous (open) — Continually throw stuff in and pull stuff out."
-  },
-  {
-    "objectID": "balances/general/index.html#control-volume",
-    "href": "balances/general/index.html#control-volume",
-    "title": "The General Balance Equation",
-    "section": "Control Volume",
-    "text": "Control Volume\nSometimes for an open system, whether transient or steady state, the system boundary has a fixed volume and the different parts of the system maintain their relative positions. This fixed-volume boundary is known as a control volume. Inputs Outputs Control Volume (C.V.)"
-  },
-  {
-    "objectID": "balances/general/index.html#the-general-balance-equation",
-    "href": "balances/general/index.html#the-general-balance-equation",
-    "title": "The General Balance Equation",
-    "section": "The General Balance Equation",
-    "text": "The General Balance Equation\n\\[ \\mathrm{Input + Generation = Output + Consumption + Accumulation} \\]\n\nAll entities which can enter or exit a system are subject to the general balance equation.\nFor conserved quantities (energy, mass, atoms) the consumption and generation terms are zero\nFor steady-state systems the accumulation is zero."
-  },
-  {
-    "objectID": "balances/general/index.html#differential-or-integral",
-    "href": "balances/general/index.html#differential-or-integral",
-    "title": "The General Balance Equation",
-    "section": "Differential or Integral",
-    "text": "Differential or Integral\n\nDifferential Balances\n\nAll terms in the balance are rate terms e.g., mol/s, gal/hr, pg/yr.\nUsually used for continuous processes.\n\nIntegral Balances\n\nAll terms in the balance are amounts e.g., mol, gal, pg.\nUsually used for batch processes."
-  },
-  {
-    "objectID": "balances/general/index.html#intensive-and-extensive-properties",
-    "href": "balances/general/index.html#intensive-and-extensive-properties",
-    "title": "The General Balance Equation",
-    "section": "Intensive and Extensive Properties",
-    "text": "Intensive and Extensive Properties\nA property of a substance that does not depend on the mass or moles of a substance is an intensive property (such as temperature, pressure, density, or composition).\nA property of a substance that does depend on the mass or moles of a substance is an extensive property (such as volume or weight).\nIt is quite frequently useful to define an intensive property that is related to the extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume. \\(\\hat{V} = V/m\\)"
-  },
-  {
-    "objectID": "balances/general/index.html#definitions",
-    "href": "balances/general/index.html#definitions",
-    "title": "The General Balance Equation",
-    "section": "Definitions",
-    "text": "Definitions\n\nPFD\n\nProcess Flow Diagram or flowsheet. A schematic drawing of the mixers, dividers, separators and reactors used in the process.\n\nRecycle\n\nPart of a product stream is returned to the feed of a process.\n\nBypass\n\nPart of the feed is routed around a process and mixed with the product.\n\nPurge\n\nA stream used to prevent buildup of trace components in a recycle loop.\n\nTie Component\n\nA component of the feed which is unchanged by a process. Often useful for calculations but never necessary.\n\nOverall Balance\n\nTreating a PFD as a black box with only inputs and outputs."
-  },
-  {
-    "objectID": "balances/general/index.html#one-useful-technique",
-    "href": "balances/general/index.html#one-useful-technique",
-    "title": "The General Balance Equation",
-    "section": "One Useful Technique",
-    "text": "One Useful Technique\n1. Draw a flowchart and fill in all given variable values.\n2. Choose a basis of calculation (usually an amount or flow rate of one of the process streams).\n3. Label unknown stream variables on the chart. Use a consistent system of labeling.\n4. Convert stream volumes or volumetric flow rates to mass or molar flow rates.\n5. Convert mixed mass and mole units to either all mass or all mole units.\n6. Write material balance equations.\n7. Write other problem constraints as equations.\n8. Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget?\n9. Solve the equations.\n10. Convert the answers to the desired units."
-  },
-  {
-    "objectID": "balances/general/index.html#speed-tips",
-    "href": "balances/general/index.html#speed-tips",
-    "title": "The General Balance Equation",
-    "section": "Speed Tips",
-    "text": "Speed Tips\n1. Don’t solve for everything.\n2. Write equations in order of number of unknowns from fewest to most.\n3. Try overall balances first.\n4. Check out tie components.\n5. Remember mole fractions or mass fractions add up to 1.\n6. Usually, solving a recycle loop requires a complete set of equations around the loop."
-  },
-  {
-    "objectID": "balances/energy/index.html",
-    "href": "balances/energy/index.html",
-    "title": "Energy Balances",
-    "section": "",
-    "text": "The First Law of Thermodynamics and Energy Balances are synonymous.\nHere is the set of videos on the First Law\n\n\n\n\n\n\n\n\n\nThen for reacting systems …"
-  },
-  {
-    "objectID": "appx/Nomenclature.html",
-    "href": "appx/Nomenclature.html",
-    "title": "List of Nomenclature",
-    "section": "",
-    "text": "This page is to test web versions of the nomenclature or variable names for the videos and the website."
-  },
-  {
-    "objectID": "appx/Nomenclature.html#footnotes",
-    "href": "appx/Nomenclature.html#footnotes",
-    "title": "List of Nomenclature",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nElementary Principles of Chemical Processes, 4th Edition, Richard M. Felder, Ronald W. Rousseau, Lisa G. Bullard, ISBN: 978-1-119-19210-7, December 2018↩︎\nIntroduction to Chemical Engineering Thermodynamics, 9th Edition, Hendrick Van Ness, Michael Abbott, J.M. Smith, Mark Swihart, 2022, ISBN10: 1260721477 | ISBN13: 9781260721478↩︎\nThermodynamics: An Engineering Approach Edition: 9th, Yunus Çengel, Michael Boles, 2019, ISBN10:1260920445↩︎\nIntroduction to Chemical Engineering Kinetics & Reactor Design, 2nd Ed. Hill & Root, Wiley. ISBN: 978-1-118-36825-1↩︎\nFor example, \\(C_p= a + bt + cT^2 + dT^3\\) where \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are empirical constants.↩︎\nThere are two common friction factors in use. Mechanical Engineers tend to use the Moody friction factor, also known as the Darcy or Blasius friction factor. Chemical Engineers tend to use the Fanning friction factor. \\(f_\\mathrm{Fanning} = f_\\mathrm{Moody}/4\\). Be sure to identify which friction factor your tables, charts, and equations use.↩︎\nThere are subtle distictions between molar mass, molecular mass, and molecular weight. For a fairly full discussion read Wikipedia: Molar mass↩︎\n\\(S\\) is normally used when referring to the total surface area of a catalyst pellet or porous solid. \\(A\\) is normally used for other surface areas, such as a sphere, tube, or reactor.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎"
-  },
-  {
-    "objectID": "basics/stats/DataVisJTFVisuals.html#data-pairs",
-    "href": "basics/stats/DataVisJTFVisuals.html#data-pairs",
-    "title": "Chemical and Thermal Processes",
-    "section": "Data Pairs",
-    "text": "Data Pairs\n\nOften, engineering process data appear with a dependent, or measured, variable as a function of an independent, or set, variable i.e., pressure as a function of temperature, or flow rate as a function of time.\n\n\n\\[y = f(x)\\]\n\n\nDue to (always present) measurement uncertainty and/or process variability,\n\n\n\\[y_i = y_\\mathrm{true} + \\varepsilon_i = f(x_i) + \\varepsilon_i\\]\n\n\nThe question is how to determine \\(f(x)\\)."
-  },
-  {
-    "objectID": "basics/stats/DataVisJTFVisuals.html#data-plots",
-    "href": "basics/stats/DataVisJTFVisuals.html#data-plots",
-    "title": "Chemical and Thermal Processes",
-    "section": "Data Plots",
-    "text": "Data Plots\n\nThe human visual system is very good at seeing if a plot of data is a straight line or almost a straight line. A number of functions can be plotted as a straight line with a change of coordinates, typically from linear to logarithmic.\n\n\n\nOriginalFunction\n\n\nLinearForm\n\n\nCoordinate ScaleFor Linear Plot\n\n\n\n\n\\(y = b x + a\\)\n\n\n\\(y = b x + a\\)\n\n\n\\(x\\) – linear, \\(y\\) – linear\n\n\n\n\n\\(y = ae^{bx}\\)\n\n\n\\(\\ln y = \\ln a + b x\\)\n\n\n\\(x\\) – linear, \\(y\\) – log (semi-log)\n\n\n\n\n\\(y = a10^{bx}\\)\n\n\n\\(\\log_{10} y = \\log_{10} a + b x\\)\n\n\n\\(x\\) – linear, \\(y\\) – log (semi-log)\n\n\n\n\n\\(y = ax^b\\)\n\n\n\\(\\log y = \\log a +b\\log x\\)\n\n\n\\(x\\) – log, \\(y\\) – log (log-log)"
-  },
-  {
-    "objectID": "basics/stats/DataVisJTFVisuals.html#comparisons",
-    "href": "basics/stats/DataVisJTFVisuals.html#comparisons",
-    "title": "Chemical and Thermal Processes",
-    "section": "Comparisons",
-    "text": "Comparisons\n\nThe data are plotted on linear, semilog, and log-log plots, and fitted to all three functions.\nCompare noisy data generated by \\(y = ae^{bx}\\), \\(y = ae^{bx}\\), and \\(y = ax^b\\).\nFor each data set, the true values of \\(a\\) and \\(b\\) are \\(a=7\\) and \\(b=3\\).\nThe best or “correct” fit is the one that looks the straightest and has \\(a\\) and \\(b\\) values close to 7 and 3 respectively."
-  },
-  {
-    "objectID": "basics/stats/DataVisJTFVisuals.html#sample-linear-data",
-    "href": "basics/stats/DataVisJTFVisuals.html#sample-linear-data",
-    "title": "Chemical and Thermal Processes",
-    "section": "Sample Linear Data",
-    "text": "Sample Linear Data\n\n\n\n\n\\(x\\)\n\\(y\\)\n\n\n\n\n1\n9.44\n\n\n2\n13.24\n\n\n3\n16.32\n\n\n4\n19.77\n\n\n5\n22.08\n\n\n6\n24.15\n\n\n7\n27.52\n\n\n8\n30.99\n\n\n9\n33.33\n\n\n10\n37.83"
-  },
-  {
-    "objectID": "basics/stats/DataVisJTFVisuals.html#sample-semilog-data",
-    "href": "basics/stats/DataVisJTFVisuals.html#sample-semilog-data",
-    "title": "Chemical and Thermal Processes",
-    "section": "Sample Semilog Data",
-    "text": "Sample Semilog Data\n\n\n\n\n\\(x\\)\n\\(y\\)\n\n\n\n\n1\n1.38E+02\n\n\n2\n2.74E+03\n\n\n3\n5.42E+04\n\n\n4\n1.09E+06\n\n\n5\n2.38E+07\n\n\n6\n4.71E+08\n\n\n7\n9.39E+09\n\n\n8\n1.86E+11\n\n\n9\n3.74E+12\n\n\n10\n7.12E+13"
-  },
-  {
-    "objectID": "basics/stats/DataVisJTFVisuals.html#sample-log-log-data",
-    "href": "basics/stats/DataVisJTFVisuals.html#sample-log-log-data",
-    "title": "Chemical and Thermal Processes",
-    "section": "Sample Log-Log Data",
-    "text": "Sample Log-Log Data\n\n\n\n\n\\(x\\)\n\\(y\\)\n\n\n\n\n1\n6.706\n\n\n2\n75.22\n\n\n3\n146.2\n\n\n4\n504.7\n\n\n5\n868.2\n\n\n6\n1456\n\n\n7\n2349\n\n\n8\n3910\n\n\n9\n5377\n\n\n10\n7336"
-  },
-  {
-    "objectID": "basics/stats/DataVisJTFVisuals.html#nonlinear-least-squares",
-    "href": "basics/stats/DataVisJTFVisuals.html#nonlinear-least-squares",
-    "title": "Chemical and Thermal Processes",
-    "section": "Nonlinear Least Squares",
-    "text": "Nonlinear Least Squares\n\nA subtlety of data fitting on a transformed equation is that you have also transformed the errors, and so you are no longer fitting the original function. In other words, fitting\n\n\n\\(\\log y = \\log a +b\\log x\\)\n\n\nis different from fitting\n\n\n\\(y = ae^{bx}\\)\n\n\nWith a spreadsheet or math software, you can do nonlinear least squares data fitting, which gets around that issue."
-  },
-  {
-    "objectID": "basics/stats/DataVisJTFVisuals.html#nonlinear-least-squares-cont.",
-    "href": "basics/stats/DataVisJTFVisuals.html#nonlinear-least-squares-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "Nonlinear Least Squares (cont.)",
-    "text": "Nonlinear Least Squares (cont.)\n\nFor the above function and your data set, you would guess values for \\(a_\\mathrm{fit}\\) and \\(b_\\mathrm{fit}\\), then calculate for each data pair\n\n\n\\[y_{i_\\mathrm{fit}}=a_\\mathrm{fit} x_i^{b_\\mathrm{fit}}\\]\n\n\n\\[\\varepsilon_i=y_{i_\\mathrm{fit}}-y_i\\]\n\n\n\\[SSE=\\sum \\varepsilon_i^2\\]\n\n\nThen, by hook or by crook (or by using Solver) you would minimize SSE by varying \\(a_\\mathrm{fit}\\) and \\(b_\\mathrm{fit}\\)."
-  },
-  {
-    "objectID": "basics/stats/DataVisJTFVisuals.html#the-takeaways",
-    "href": "basics/stats/DataVisJTFVisuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nThe human eye is quite sensitive to straight lines and plotting data to examine for a linear relationship is a powerful way to estimate the functional relationship between pairs of data.\nA linear function such as \\(y=bx+a\\) appear as a straight line on a linear plot\nAn exponential function such as \\(y=ae^{bx}\\), or \\(a\\cdot 10^{bx}\\) appears as a straight line on a semi-log plot.\nA power law function such as \\(y=ax^b\\) appears as a straight line on a log-log plot.\nThere are many other relationships you can try to see if you can get a straight line."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Summary from Part 1",
-    "text": "Summary from Part 1\n\nReport measured or calculated values with their confidence intervals.\nReport a measured value as the arithmetic mean of the measurements.\nCalculate the sample standard deviation of measured values.\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNot yet, but \\(S\\) is the key!\n\n\nAs a reminder 68% of the points in a normal distribution lie within \\(±\\sigma\\) of \\(\\mu\\), i.e., from \\(\\mu-\\sigma\\) to \\(\\mu+\\sigma\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#section",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#section",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Standard Error and Estimated Standard Error\n\n\n\\(\\mathrm{St.\\ Err.}=\\sigma_\\mu=\\frac{\\sigma}{\\sqrt{N}}\\approx\\frac{S}{\\sqrt{N}}\\)\n\n\n\\(\\mathrm{Est.\\ St.\\ Err.}=S_\\bar{x}=\\frac{S}{\\sqrt{N}}\\)\n\n\nFor enough points, \\(\\mu=\\bar{x} \\pm S_{\\bar{x}}(68\\%\\ \\mathrm{conf.})\\)\n\n\nFor example, \\(y=42.000 \\pm0.007(68\\%\\ \\mathrm{conf.})\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
-    "title": "Chemical and Thermal Processes",
-    "section": "William Gossett and Student’s \\(t\\)",
-    "text": "William Gossett and Student’s \\(t\\)\n\n\n\nHarald Bischoff, CC BY-SA 3.0  link, via Wikimedia Commons\n\n\n\n\n\n\nUser Wujaszek on pl.wikipedia, Public domain, via Wikimedia Commons\n\n\n\n\nCalculate \\(\\bar{x}\\) and \\(S\\).\n\n\nCalculate \\(S_{\\bar{x}}\\).\n\n\nChoose a confidence level, for example, \\(95\\%\\) or \\(p = 0.05\\).\n\n\nFind \\(t\\) given \\(p\\) and \\(df = N - 1\\).\n\n\nThen \\(\\lambda = tS_{\\bar{x}}\\)\n\n\nand \\(\\mu = \\bar{x} \\pm \\lambda(1- p\\ \\mathrm{ conf.})\\)\n\n\nFor example, \\(x = 42.000 \\pm 0.067(95\\%\\ \\mathrm{conf.})\\)\n\n\nSo \\(\\lambda\\) is 1/2 the width of the confidence interval and the confidence interval width is \\(2\\lambda\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#students-t-table",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#students-t-table",
-    "title": "Chemical and Thermal Processes",
-    "section": "Student’s \\(t\\) Table",
-    "text": "Student’s \\(t\\) Table\n\n\nFor example, \\(\\bar{x}\\) is \\(42.000 \\pm 0.067\\) with 95% confidence."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-t",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-t",
-    "title": "Chemical and Thermal Processes",
-    "section": "Effect of \\(N\\) on \\(t\\)",
-    "text": "Effect of \\(N\\) on \\(t\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\n\nStudent’s \\(t\\) as a Function of \\(N\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
-    "title": "Chemical and Thermal Processes",
-    "section": "Effect of \\(N\\) on \\(\\lambda/S\\)",
-    "text": "Effect of \\(N\\) on \\(\\lambda/S\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\nNormalized Conf. Int., \\(\\lambda/S\\) as a Function of \\(N\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
-    "title": "Chemical and Thermal Processes",
-    "section": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram",
-    "text": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram\n\\(\\ \\ \\ \\)\n\\(\\ \\ \\ \\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nWhen measuring something, make at least three measurements, which gives you the greatest decrease in uncertainty per additional measurement.\nUse the methods in this video to calculate your confidence interval from the estimated standard error and the Student’s \\(t\\) value.\nReport your results with the mean of your measurements, the confidence interval and the confidence level: for example 42.000 plus-or-minus 0.067 at a 95% confidence level.\n\n\nThere are four additional Just The Facts videos showing how to perform these calculations by hand, with a spreadsheet, using Python and NumPy/SciPy, and using R."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#scale-video-tba",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#scale-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Scale Video TBA",
-    "text": "Scale Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#ruler-video-tbs",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#ruler-video-tbs",
-    "title": "Chemical and Thermal Processes",
-    "section": "Ruler Video TBS",
-    "text": "Ruler Video TBS"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#voltmeter-video-tba",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#voltmeter-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Voltmeter Video TBA",
-    "text": "Voltmeter Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#thermistor-video-tba",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#thermistor-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Thermistor Video TBA",
-    "text": "Thermistor Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#reporting-uncertainty",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#reporting-uncertainty",
-    "title": "Chemical and Thermal Processes",
-    "section": "Reporting Uncertainty",
-    "text": "Reporting Uncertainty\n\n\\(m = 1.03 \\pm 0.03\\ \\mathrm{kg}\\text{ (95% confidence)}\\)\n\n\n\\(u = 2.36 \\pm 0.04\\ \\mathrm{\\frac{m}{s}}\\text{ (95% confidence)}\\)\n\n\n\\(mu = 2.43 \\pm 0.08\\ \\mathrm{\\frac{(kg\\cdot m)}{s} }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}mu^2 = 2.87 \\pm 0.13\\ \\mathrm{J}\\text{ (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#reporting-functional-uncertainty",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#reporting-functional-uncertainty",
-    "title": "Chemical and Thermal Processes",
-    "section": "Reporting Functional Uncertainty",
-    "text": "Reporting Functional Uncertainty\n\n\nCC BY-SA 3.0, link\n\n\n \n\n\n\n\n\n\\(F_\\mathrm{s} = k(x_\\mathrm{n}-x_\\mathrm{f})\\)\n\n\n\n\n\n\\(F_\\mathrm{_s} = 30.00 \\pm 2.50\\ \\mathrm{(95\\%\\ conf.)\\ N/m}(x\\mathrm{_n}-x\\mathrm{_f})\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#true-mean-and-standard-deviation",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#true-mean-and-standard-deviation",
-    "title": "Chemical and Thermal Processes",
-    "section": "True Mean and Standard Deviation",
-    "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(:=\\)1 True Mean or Population Mean.\n\n\n\\(\\mu \\equiv\\) True or Population Mean,\n\n\ni.e., \\(\\mu =\\ \\)average value from infinite-precision, full population measurement (almost never known).\n\n\nDistribution of data about the true mean \\(:=\\) True Standard Deviation or Population Standard Deviation.\n\n\n\\(\\sigma \\equiv\\) True or Population Standard Deviation\n\n\ni.e., \\(\\sigma =\\ \\)standard deviation given true mean and infinite-precision data points (also almost never known).\n\nMath has borrowed “:=” from Computer Science to mean is called."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#sample-mean-and-residuals",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#sample-mean-and-residuals",
-    "title": "Chemical and Thermal Processes",
-    "section": "Sample Mean and Residuals",
-    "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\ne.g., \\(x_1 = 43.15\\)\n\n\nA set of \\(N\\) measurements\n\n\nimplies a set of\n\n\n\\(N\\) independent equations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\bar{x} \\equiv\\) sample mean\n\n\nHow do we estimate \\(\\mu - \\bar{x}\\)?\n\n\n\nCan we calculate the error\n\n\n\\(\\varepsilon_i =\\mu-x_i\\)?\n\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(e\\mathrm{_i} = \\bar{x} - x_i\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#section",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#section",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Sample Variance and Standard Deviation\n\n\nTrue variance\n\n\n\\(\\sigma^2=\\frac{\\displaystyle{\\sum_{i=1}^N \\varepsilon^2_i}}{N}\\)\n\n\nSample variance\n\n\n\\(S^2=\\frac{\\displaystyle{\\sum_{i=1}^N e^2_i}}{N-1}\\)\n\n\n\\(\\bar{x},\\ e,\\) and \\(S^2\\) are calculated from the \\(x_i\\).\n\n\n\\(\\mu,\\ \\varepsilon,\\) and \\(\\sigma^2\\) are not.\n\n\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.\n\n\nThe true standard deviation, \\(\\sigma=\\sqrt{\\sigma^2}\\).\n\n\nThe sample standard deviation, \\(S=\\sqrt{S^2}\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#are-we-there-yet",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#are-we-there-yet",
-    "title": "Chemical and Thermal Processes",
-    "section": "Are We There Yet?",
-    "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#the-takeaways",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
+    "text": "Volume, Density, and Flow Rates The Full Story, Just The Facts, Reference Page."
   },
   {
     "objectID": "basics/stats/WhyStatsTFS1Visuals.html#scale-video-tba",
@@ -917,113 +567,526 @@
     "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
   },
   {
-    "objectID": "basics/processdata/ProcessDataWebPage.html",
-    "href": "basics/processdata/ProcessDataWebPage.html",
-    "title": "Process Data and Process Variables",
-    "section": "",
-    "text": "Many engineers and chemical engineers in particular design, analyze, and create processes that transform inputs, such as chemical reagents, heat, and electricity, into outputs such a other chemical reagents. The design and analysis of processes requires a knowledge of the sorts of measurements or data that are made of the process, and the variables that are used to model the process. This section discusses many of the varibles, measurements, and data that are common to these processes, how they are defined, what they mean, and how they are used, presented, and analyzed.\n\n\nWe begin with units, conversions, and dimensionless numbers. In spite of a desire to perform all calculations in SI unts, the practicing engineer needs to be comfortable working with both familiar and obscure units. This set of videos discusses many of the common techniques for working with diverse units. The videos in this section are:\n\nIs Furlongs per Fortnight a Thing? The Full Story, Just The Facts, Reference Page. Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all of your unit conversion issues, but they will solve many of them. Google Calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are multiplicatively related to each other.\nThe Most Annoying Equation Conversion The Full Story, Just The Facts, Reference Page. When units have a more complex relationship than simply multiplicative, such as \\(^\\circ\\mathrm{C}\\) and \\(^\\circ\\mathrm{F}\\), the relationship is expressed in an equation with dimensions. In addition, there are at times equations, particularly empirical equations, where the varibles are in SI units, and you need an equivalent equation in American Engineering units. The procedure for deriving such equations with units is presented in this set of videos.\nConverting Temperatures The Full Story, Just The Facts, Reference Page. Converting temperatures and temperature intervals among \\(\\mathrm{K}\\), \\(^\\circ\\mathrm{C}\\), \\(^\\circ\\mathrm{F}\\), and \\(^\\circ\\mathrm{R}\\) applies the principles discussed in the previous two video sets. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.\nDimensionless Numbers The Full Story, Just The Facts, Reference Page. In the early days of engineering there were huge data sets that needed to be regressed and correlations found. The Buckingham pi theorem provided a way to reduce the dimensionality of these huge data sets and ease calculational complexity. In addition, normalizing ordinary and partial differential equations (which is basically making the variables dimensionless through choosing a scale) gives rise to dimensionless prarameters. The most well known of these is the Reynolds number, but there are scores of others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used.\n\n\n\n\nMeasuring Temperature The Full Story, Just The Facts, Reference Page. The most commonly measured process variable is temperature. This set of videos discusses different temperature-measurement techniques. It is optional because at this level it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or has to specify how a temperature measurement is to be made.\n\n\n\nThe second most commonly measured process variable is pressure.\n\nUnder Pressure Part 1 The Full Story, Just The Facts, Reference Page. Part 1 discusses the common pressure units and hydrostatic pressure.\nUnder Pressure Part 2 The Full Story, Just The Facts, Reference Page. Part 2 discusses absolute, atmospheric, barometric, gauge, and vacuum pressure.\n\n\n\n\nWhen purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page. This video set explains the different types of moles and how to use them.\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight.\n\n\n\n\nVolume, Density, and Flow Rates The Full Story, Just The Facts, Reference Page."
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#scale-video-tba",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#scale-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Scale Video TBA",
+    "text": "Scale Video TBA"
   },
   {
-    "objectID": "basics/processdata/ProcessDataWebPage.html#conversions",
-    "href": "basics/processdata/ProcessDataWebPage.html#conversions",
-    "title": "Process Data and Process Variables",
-    "section": "",
-    "text": "We begin with units, conversions, and dimensionless numbers. In spite of a desire to perform all calculations in SI unts, the practicing engineer needs to be comfortable working with both familiar and obscure units. This set of videos discusses many of the common techniques for working with diverse units. The videos in this section are:\n\nIs Furlongs per Fortnight a Thing? The Full Story, Just The Facts, Reference Page. Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all of your unit conversion issues, but they will solve many of them. Google Calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are multiplicatively related to each other.\nThe Most Annoying Equation Conversion The Full Story, Just The Facts, Reference Page. When units have a more complex relationship than simply multiplicative, such as \\(^\\circ\\mathrm{C}\\) and \\(^\\circ\\mathrm{F}\\), the relationship is expressed in an equation with dimensions. In addition, there are at times equations, particularly empirical equations, where the varibles are in SI units, and you need an equivalent equation in American Engineering units. The procedure for deriving such equations with units is presented in this set of videos.\nConverting Temperatures The Full Story, Just The Facts, Reference Page. Converting temperatures and temperature intervals among \\(\\mathrm{K}\\), \\(^\\circ\\mathrm{C}\\), \\(^\\circ\\mathrm{F}\\), and \\(^\\circ\\mathrm{R}\\) applies the principles discussed in the previous two video sets. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.\nDimensionless Numbers The Full Story, Just The Facts, Reference Page. In the early days of engineering there were huge data sets that needed to be regressed and correlations found. The Buckingham pi theorem provided a way to reduce the dimensionality of these huge data sets and ease calculational complexity. In addition, normalizing ordinary and partial differential equations (which is basically making the variables dimensionless through choosing a scale) gives rise to dimensionless prarameters. The most well known of these is the Reynolds number, but there are scores of others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used."
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#ruler-video-tbs",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#ruler-video-tbs",
+    "title": "Chemical and Thermal Processes",
+    "section": "Ruler Video TBS",
+    "text": "Ruler Video TBS"
   },
   {
-    "objectID": "basics/processdata/ProcessDataWebPage.html#temperature-optional",
-    "href": "basics/processdata/ProcessDataWebPage.html#temperature-optional",
-    "title": "Process Data and Process Variables",
-    "section": "",
-    "text": "Measuring Temperature The Full Story, Just The Facts, Reference Page. The most commonly measured process variable is temperature. This set of videos discusses different temperature-measurement techniques. It is optional because at this level it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or has to specify how a temperature measurement is to be made."
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#voltmeter-video-tba",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#voltmeter-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Voltmeter Video TBA",
+    "text": "Voltmeter Video TBA"
   },
   {
-    "objectID": "basics/processdata/ProcessDataWebPage.html#pressure",
-    "href": "basics/processdata/ProcessDataWebPage.html#pressure",
-    "title": "Process Data and Process Variables",
-    "section": "",
-    "text": "The second most commonly measured process variable is pressure.\n\nUnder Pressure Part 1 The Full Story, Just The Facts, Reference Page. Part 1 discusses the common pressure units and hydrostatic pressure.\nUnder Pressure Part 2 The Full Story, Just The Facts, Reference Page. Part 2 discusses absolute, atmospheric, barometric, gauge, and vacuum pressure."
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#thermistor-video-tba",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#thermistor-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Thermistor Video TBA",
+    "text": "Thermistor Video TBA"
   },
   {
-    "objectID": "basics/processdata/ProcessDataWebPage.html#mass-moles-and-mass-and-mole-fractions",
-    "href": "basics/processdata/ProcessDataWebPage.html#mass-moles-and-mass-and-mole-fractions",
-    "title": "Process Data and Process Variables",
-    "section": "",
-    "text": "When purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page. This video set explains the different types of moles and how to use them.\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight."
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#reporting-uncertainty",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#reporting-uncertainty",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reporting Uncertainty",
+    "text": "Reporting Uncertainty\n\n\\(m = 1.03 \\pm 0.03\\ \\mathrm{kg}\\text{ (95% confidence)}\\)\n\n\n\\(u = 2.36 \\pm 0.04\\ \\mathrm{\\frac{m}{s}}\\text{ (95% confidence)}\\)\n\n\n\\(mu = 2.43 \\pm 0.08\\ \\mathrm{\\frac{(kg\\cdot m)}{s} }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}mu^2 = 2.87 \\pm 0.13\\ \\mathrm{J}\\text{ (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
   },
   {
-    "objectID": "basics/processdata/ProcessDataWebPage.html#volume-density-and-flow-rates",
-    "href": "basics/processdata/ProcessDataWebPage.html#volume-density-and-flow-rates",
-    "title": "Process Data and Process Variables",
-    "section": "",
-    "text": "Volume, Density, and Flow Rates The Full Story, Just The Facts, Reference Page."
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#reporting-functional-uncertainty",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#reporting-functional-uncertainty",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reporting Functional Uncertainty",
+    "text": "Reporting Functional Uncertainty\n\n\nCC BY-SA 3.0, link\n\n\n \n\n\n\n\n\n\\(F_\\mathrm{s} = k(x_\\mathrm{n}-x_\\mathrm{f})\\)\n\n\n\n\n\n\\(F_\\mathrm{_s} = 30.00 \\pm 2.50\\ \\mathrm{(95\\%\\ conf.)\\ N/m}(x\\mathrm{_n}-x\\mathrm{_f})\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#what-temperature-scales-do-we-use",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#what-temperature-scales-do-we-use",
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#true-mean-and-standard-deviation",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#true-mean-and-standard-deviation",
+    "title": "Chemical and Thermal Processes",
+    "section": "True Mean and Standard Deviation",
+    "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(:=\\)1 True Mean or Population Mean.\n\n\n\\(\\mu \\equiv\\) True or Population Mean,\n\n\ni.e., \\(\\mu =\\ \\)average value from infinite-precision, full population measurement (almost never known).\n\n\nDistribution of data about the true mean \\(:=\\) True Standard Deviation or Population Standard Deviation.\n\n\n\\(\\sigma \\equiv\\) True or Population Standard Deviation\n\n\ni.e., \\(\\sigma =\\ \\)standard deviation given true mean and infinite-precision data points (also almost never known).\n\nMath has borrowed “:=” from Computer Science to mean is called."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#sample-mean-and-residuals",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#sample-mean-and-residuals",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample Mean and Residuals",
+    "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\ne.g., \\(x_1 = 43.15\\)\n\n\nA set of \\(N\\) measurements\n\n\nimplies a set of\n\n\n\\(N\\) independent equations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\bar{x} \\equiv\\) sample mean\n\n\nHow do we estimate \\(\\mu - \\bar{x}\\)?\n\n\n\nCan we calculate the error\n\n\n\\(\\varepsilon_i =\\mu-x_i\\)?\n\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(e\\mathrm{_i} = \\bar{x} - x_i\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#section",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#section",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Sample Variance and Standard Deviation\n\n\nTrue variance\n\n\n\\(\\sigma^2=\\frac{\\displaystyle{\\sum_{i=1}^N \\varepsilon^2_i}}{N}\\)\n\n\nSample variance\n\n\n\\(S^2=\\frac{\\displaystyle{\\sum_{i=1}^N e^2_i}}{N-1}\\)\n\n\n\\(\\bar{x},\\ e,\\) and \\(S^2\\) are calculated from the \\(x_i\\).\n\n\n\\(\\mu,\\ \\varepsilon,\\) and \\(\\sigma^2\\) are not.\n\n\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.\n\n\nThe true standard deviation, \\(\\sigma=\\sqrt{\\sigma^2}\\).\n\n\nThe sample standard deviation, \\(S=\\sqrt{S^2}\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#are-we-there-yet",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#are-we-there-yet",
+    "title": "Chemical and Thermal Processes",
+    "section": "Are We There Yet?",
+    "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#the-takeaways",
+    "href": "basics/stats/WhyStatsTFS2Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Summary from Part 1",
+    "text": "Summary from Part 1\n\nReport measured or calculated values with their confidence intervals.\nReport a measured value as the arithmetic mean of the measurements.\nCalculate the sample standard deviation of measured values.\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNot yet, but \\(S\\) is the key!\n\n\nAs a reminder 68% of the points in a normal distribution lie within \\(±\\sigma\\) of \\(\\mu\\), i.e., from \\(\\mu-\\sigma\\) to \\(\\mu+\\sigma\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#section",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#section",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Standard Error and Estimated Standard Error\n\n\n\\(\\mathrm{St.\\ Err.}=\\sigma_\\mu=\\frac{\\sigma}{\\sqrt{N}}\\approx\\frac{S}{\\sqrt{N}}\\)\n\n\n\\(\\mathrm{Est.\\ St.\\ Err.}=S_\\bar{x}=\\frac{S}{\\sqrt{N}}\\)\n\n\nFor enough points, \\(\\mu=\\bar{x} \\pm S_{\\bar{x}}(68\\%\\ \\mathrm{conf.})\\)\n\n\nFor example, \\(y=42.000 \\pm0.007(68\\%\\ \\mathrm{conf.})\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
+    "title": "Chemical and Thermal Processes",
+    "section": "William Gossett and Student’s \\(t\\)",
+    "text": "William Gossett and Student’s \\(t\\)\n\n\n\nHarald Bischoff, CC BY-SA 3.0  link, via Wikimedia Commons\n\n\n\n\n\n\nUser Wujaszek on pl.wikipedia, Public domain, via Wikimedia Commons\n\n\n\n\nCalculate \\(\\bar{x}\\) and \\(S\\).\n\n\nCalculate \\(S_{\\bar{x}}\\).\n\n\nChoose a confidence level, for example, \\(95\\%\\) or \\(p = 0.05\\).\n\n\nFind \\(t\\) given \\(p\\) and \\(df = N - 1\\).\n\n\nThen \\(\\lambda = tS_{\\bar{x}}\\)\n\n\nand \\(\\mu = \\bar{x} \\pm \\lambda(1- p\\ \\mathrm{ conf.})\\)\n\n\nFor example, \\(x = 42.000 \\pm 0.067(95\\%\\ \\mathrm{conf.})\\)\n\n\nSo \\(\\lambda\\) is 1/2 the width of the confidence interval and the confidence interval width is \\(2\\lambda\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#students-t-table",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#students-t-table",
+    "title": "Chemical and Thermal Processes",
+    "section": "Student’s \\(t\\) Table",
+    "text": "Student’s \\(t\\) Table\n\n\nFor example, \\(\\bar{x}\\) is \\(42.000 \\pm 0.067\\) with 95% confidence."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-t",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-t",
+    "title": "Chemical and Thermal Processes",
+    "section": "Effect of \\(N\\) on \\(t\\)",
+    "text": "Effect of \\(N\\) on \\(t\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\n\nStudent’s \\(t\\) as a Function of \\(N\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
+    "title": "Chemical and Thermal Processes",
+    "section": "Effect of \\(N\\) on \\(\\lambda/S\\)",
+    "text": "Effect of \\(N\\) on \\(\\lambda/S\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\nNormalized Conf. Int., \\(\\lambda/S\\) as a Function of \\(N\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
+    "title": "Chemical and Thermal Processes",
+    "section": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram",
+    "text": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram\n\\(\\ \\ \\ \\)\n\\(\\ \\ \\ \\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
+    "href": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nWhen measuring something, make at least three measurements, which gives you the greatest decrease in uncertainty per additional measurement.\nUse the methods in this video to calculate your confidence interval from the estimated standard error and the Student’s \\(t\\) value.\nReport your results with the mean of your measurements, the confidence interval and the confidence level: for example 42.000 plus-or-minus 0.067 at a 95% confidence level.\n\n\nThere are four additional Just The Facts videos showing how to perform these calculations by hand, with a spreadsheet, using Python and NumPy/SciPy, and using R."
+  },
+  {
+    "objectID": "basics/stats/DataVisJTFVisuals.html#data-pairs",
+    "href": "basics/stats/DataVisJTFVisuals.html#data-pairs",
+    "title": "Chemical and Thermal Processes",
+    "section": "Data Pairs",
+    "text": "Data Pairs\n\nOften, engineering process data appear with a dependent, or measured, variable as a function of an independent, or set, variable i.e., pressure as a function of temperature, or flow rate as a function of time.\n\n\n\\[y = f(x)\\]\n\n\nDue to (always present) measurement uncertainty and/or process variability,\n\n\n\\[y_i = y_\\mathrm{true} + \\varepsilon_i = f(x_i) + \\varepsilon_i\\]\n\n\nThe question is how to determine \\(f(x)\\)."
+  },
+  {
+    "objectID": "basics/stats/DataVisJTFVisuals.html#data-plots",
+    "href": "basics/stats/DataVisJTFVisuals.html#data-plots",
+    "title": "Chemical and Thermal Processes",
+    "section": "Data Plots",
+    "text": "Data Plots\n\nThe human visual system is very good at seeing if a plot of data is a straight line or almost a straight line. A number of functions can be plotted as a straight line with a change of coordinates, typically from linear to logarithmic.\n\n\n\nOriginalFunction\n\n\nLinearForm\n\n\nCoordinate ScaleFor Linear Plot\n\n\n\n\n\\(y = b x + a\\)\n\n\n\\(y = b x + a\\)\n\n\n\\(x\\) – linear, \\(y\\) – linear\n\n\n\n\n\\(y = ae^{bx}\\)\n\n\n\\(\\ln y = \\ln a + b x\\)\n\n\n\\(x\\) – linear, \\(y\\) – log (semi-log)\n\n\n\n\n\\(y = a10^{bx}\\)\n\n\n\\(\\log_{10} y = \\log_{10} a + b x\\)\n\n\n\\(x\\) – linear, \\(y\\) – log (semi-log)\n\n\n\n\n\\(y = ax^b\\)\n\n\n\\(\\log y = \\log a +b\\log x\\)\n\n\n\\(x\\) – log, \\(y\\) – log (log-log)"
+  },
+  {
+    "objectID": "basics/stats/DataVisJTFVisuals.html#comparisons",
+    "href": "basics/stats/DataVisJTFVisuals.html#comparisons",
+    "title": "Chemical and Thermal Processes",
+    "section": "Comparisons",
+    "text": "Comparisons\n\nThe data are plotted on linear, semilog, and log-log plots, and fitted to all three functions.\nCompare noisy data generated by \\(y = ae^{bx}\\), \\(y = ae^{bx}\\), and \\(y = ax^b\\).\nFor each data set, the true values of \\(a\\) and \\(b\\) are \\(a=7\\) and \\(b=3\\).\nThe best or “correct” fit is the one that looks the straightest and has \\(a\\) and \\(b\\) values close to 7 and 3 respectively."
+  },
+  {
+    "objectID": "basics/stats/DataVisJTFVisuals.html#sample-linear-data",
+    "href": "basics/stats/DataVisJTFVisuals.html#sample-linear-data",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample Linear Data",
+    "text": "Sample Linear Data\n\n\n\n\n\\(x\\)\n\\(y\\)\n\n\n\n\n1\n9.44\n\n\n2\n13.24\n\n\n3\n16.32\n\n\n4\n19.77\n\n\n5\n22.08\n\n\n6\n24.15\n\n\n7\n27.52\n\n\n8\n30.99\n\n\n9\n33.33\n\n\n10\n37.83"
+  },
+  {
+    "objectID": "basics/stats/DataVisJTFVisuals.html#sample-semilog-data",
+    "href": "basics/stats/DataVisJTFVisuals.html#sample-semilog-data",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample Semilog Data",
+    "text": "Sample Semilog Data\n\n\n\n\n\\(x\\)\n\\(y\\)\n\n\n\n\n1\n1.38E+02\n\n\n2\n2.74E+03\n\n\n3\n5.42E+04\n\n\n4\n1.09E+06\n\n\n5\n2.38E+07\n\n\n6\n4.71E+08\n\n\n7\n9.39E+09\n\n\n8\n1.86E+11\n\n\n9\n3.74E+12\n\n\n10\n7.12E+13"
+  },
+  {
+    "objectID": "basics/stats/DataVisJTFVisuals.html#sample-log-log-data",
+    "href": "basics/stats/DataVisJTFVisuals.html#sample-log-log-data",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample Log-Log Data",
+    "text": "Sample Log-Log Data\n\n\n\n\n\\(x\\)\n\\(y\\)\n\n\n\n\n1\n6.706\n\n\n2\n75.22\n\n\n3\n146.2\n\n\n4\n504.7\n\n\n5\n868.2\n\n\n6\n1456\n\n\n7\n2349\n\n\n8\n3910\n\n\n9\n5377\n\n\n10\n7336"
+  },
+  {
+    "objectID": "basics/stats/DataVisJTFVisuals.html#nonlinear-least-squares",
+    "href": "basics/stats/DataVisJTFVisuals.html#nonlinear-least-squares",
+    "title": "Chemical and Thermal Processes",
+    "section": "Nonlinear Least Squares",
+    "text": "Nonlinear Least Squares\n\nA subtlety of data fitting on a transformed equation is that you have also transformed the errors, and so you are no longer fitting the original function. In other words, fitting\n\n\n\\(\\log y = \\log a +b\\log x\\)\n\n\nis different from fitting\n\n\n\\(y = ae^{bx}\\)\n\n\nWith a spreadsheet or math software, you can do nonlinear least squares data fitting, which gets around that issue."
+  },
+  {
+    "objectID": "basics/stats/DataVisJTFVisuals.html#nonlinear-least-squares-cont.",
+    "href": "basics/stats/DataVisJTFVisuals.html#nonlinear-least-squares-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Nonlinear Least Squares (cont.)",
+    "text": "Nonlinear Least Squares (cont.)\n\nFor the above function and your data set, you would guess values for \\(a_\\mathrm{fit}\\) and \\(b_\\mathrm{fit}\\), then calculate for each data pair\n\n\n\\[y_{i_\\mathrm{fit}}=a_\\mathrm{fit} x_i^{b_\\mathrm{fit}}\\]\n\n\n\\[\\varepsilon_i=y_{i_\\mathrm{fit}}-y_i\\]\n\n\n\\[SSE=\\sum \\varepsilon_i^2\\]\n\n\nThen, by hook or by crook (or by using Solver) you would minimize SSE by varying \\(a_\\mathrm{fit}\\) and \\(b_\\mathrm{fit}\\)."
+  },
+  {
+    "objectID": "basics/stats/DataVisJTFVisuals.html#the-takeaways",
+    "href": "basics/stats/DataVisJTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nThe human eye is quite sensitive to straight lines and plotting data to examine for a linear relationship is a powerful way to estimate the functional relationship between pairs of data.\nA linear function such as \\(y=bx+a\\) appear as a straight line on a linear plot\nAn exponential function such as \\(y=ae^{bx}\\), or \\(a\\cdot 10^{bx}\\) appears as a straight line on a semi-log plot.\nA power law function such as \\(y=ax^b\\) appears as a straight line on a log-log plot.\nThere are many other relationships you can try to see if you can get a straight line."
+  },
+  {
+    "objectID": "appx/Nomenclature.html",
+    "href": "appx/Nomenclature.html",
+    "title": "List of Nomenclature",
+    "section": "",
+    "text": "This page is to test web versions of the nomenclature or variable names for the videos and the website."
+  },
+  {
+    "objectID": "appx/Nomenclature.html#footnotes",
+    "href": "appx/Nomenclature.html#footnotes",
+    "title": "List of Nomenclature",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nElementary Principles of Chemical Processes, 4th Edition, Richard M. Felder, Ronald W. Rousseau, Lisa G. Bullard, ISBN: 978-1-119-19210-7, December 2018↩︎\nIntroduction to Chemical Engineering Thermodynamics, 9th Edition, Hendrick Van Ness, Michael Abbott, J.M. Smith, Mark Swihart, 2022, ISBN10: 1260721477 | ISBN13: 9781260721478↩︎\nThermodynamics: An Engineering Approach Edition: 9th, Yunus Çengel, Michael Boles, 2019, ISBN10:1260920445↩︎\nIntroduction to Chemical Engineering Kinetics & Reactor Design, 2nd Ed. Hill & Root, Wiley. ISBN: 978-1-118-36825-1↩︎\nFor example, \\(C_p= a + bt + cT^2 + dT^3\\) where \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are empirical constants.↩︎\nThere are two common friction factors in use. Mechanical Engineers tend to use the Moody friction factor, also known as the Darcy or Blasius friction factor. Chemical Engineers tend to use the Fanning friction factor. \\(f_\\mathrm{Fanning} = f_\\mathrm{Moody}/4\\). Be sure to identify which friction factor your tables, charts, and equations use.↩︎\nThere are subtle distictions between molar mass, molecular mass, and molecular weight. For a fairly full discussion read Wikipedia: Molar mass↩︎\n\\(S\\) is normally used when referring to the total surface area of a catalyst pellet or porous solid. \\(A\\) is normally used for other surface areas, such as a sphere, tube, or reactor.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nThe standard sign convention for Mechanical Engineering is that work out is positive. The modern sign convention for Chemical Engineering is that work out is negative. Çengel and Boles choose whatever sign convention they feel makes the problem easiest.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎\nIn statistics, \\(x_i\\) is the \\(i\\)th measurement or data point and \\(\\bar{x}\\) is the arithmetic mean of the data points. For data pairs, \\(x_i\\) is the \\(i\\)th independent or specified value, and \\(y_i\\) is the \\(i\\)th dependent or measured value.↩︎\nOften you have to determine from context what sort of fraction it is. When discussing the relationship between mass and mole fractions, \\(x_i\\) is often used for the mass fraction of species \\(i\\) and \\(y_i\\) for mole fraction of species \\(i\\). When discussing vapor/liquid equlibrium, \\(x_i\\) is used for the liquid-phase mass or mole fraction of species \\(i\\) and \\(y_i\\) is used for the corresponding vapor-phase fraction of species \\(i\\). \\(z_i\\) is most often used as the overall mass or mole fraction of species \\(i\\) in a mixture of vapor and liquid. In such cases, \\(x_i\\) is used for the mass or mol fraction of species \\(i\\) in the liquid, and \\(y_i\\) is used for the mass or mol fraction of species \\(i\\) in the vapor.↩︎"
+  },
+  {
+    "objectID": "balances/energy/index.html",
+    "href": "balances/energy/index.html",
+    "title": "Energy Balances",
+    "section": "",
+    "text": "The First Law of Thermodynamics and Energy Balances are synonymous.\nHere is the set of videos on the First Law\n\n\n\n\n\n\n\n\n\nThen for reacting systems …"
+  },
+  {
+    "objectID": "balances/general/index.html#first-define-your-system",
+    "href": "balances/general/index.html#first-define-your-system",
+    "title": "The General Balance Equation",
+    "section": "First – Define Your System",
+    "text": "First – Define Your System\n\nTransient — The values of process variables are changing with time.\nSteadyState —The values of process variables do not change with time but may change with position. (What EE’s call a DC steady state)\nBatch (closed) — Throw stuff in. Wait. Pull products out.\nSemibatch — Neither batch nor continuous.\nContinuous (open) — Continually throw stuff in and pull stuff out."
+  },
+  {
+    "objectID": "balances/general/index.html#control-volume",
+    "href": "balances/general/index.html#control-volume",
+    "title": "The General Balance Equation",
+    "section": "Control Volume",
+    "text": "Control Volume\nSometimes for an open system, whether transient or steady state, the system boundary has a fixed volume and the different parts of the system maintain their relative positions. This fixed-volume boundary is known as a control volume. Inputs Outputs Control Volume (C.V.)"
+  },
+  {
+    "objectID": "balances/general/index.html#the-general-balance-equation",
+    "href": "balances/general/index.html#the-general-balance-equation",
+    "title": "The General Balance Equation",
+    "section": "The General Balance Equation",
+    "text": "The General Balance Equation\n\\[ \\mathrm{Input + Generation = Output + Consumption + Accumulation} \\]\n\nAll entities which can enter or exit a system are subject to the general balance equation.\nFor conserved quantities (energy, mass, atoms) the consumption and generation terms are zero\nFor steady-state systems the accumulation is zero."
+  },
+  {
+    "objectID": "balances/general/index.html#differential-or-integral",
+    "href": "balances/general/index.html#differential-or-integral",
+    "title": "The General Balance Equation",
+    "section": "Differential or Integral",
+    "text": "Differential or Integral\n\nDifferential Balances\n\nAll terms in the balance are rate terms e.g., mol/s, gal/hr, pg/yr.\nUsually used for continuous processes.\n\nIntegral Balances\n\nAll terms in the balance are amounts e.g., mol, gal, pg.\nUsually used for batch processes."
+  },
+  {
+    "objectID": "balances/general/index.html#intensive-and-extensive-properties",
+    "href": "balances/general/index.html#intensive-and-extensive-properties",
+    "title": "The General Balance Equation",
+    "section": "Intensive and Extensive Properties",
+    "text": "Intensive and Extensive Properties\nA property of a substance that does not depend on the mass or moles of a substance is an intensive property (such as temperature, pressure, density, or composition).\nA property of a substance that does depend on the mass or moles of a substance is an extensive property (such as volume or weight).\nIt is quite frequently useful to define an intensive property that is related to the extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume. \\(\\hat{V} = V/m\\)"
+  },
+  {
+    "objectID": "balances/general/index.html#definitions",
+    "href": "balances/general/index.html#definitions",
+    "title": "The General Balance Equation",
+    "section": "Definitions",
+    "text": "Definitions\n\nPFD\n\nProcess Flow Diagram or flowsheet. A schematic drawing of the mixers, dividers, separators and reactors used in the process.\n\nRecycle\n\nPart of a product stream is returned to the feed of a process.\n\nBypass\n\nPart of the feed is routed around a process and mixed with the product.\n\nPurge\n\nA stream used to prevent buildup of trace components in a recycle loop.\n\nTie Component\n\nA component of the feed which is unchanged by a process. Often useful for calculations but never necessary.\n\nOverall Balance\n\nTreating a PFD as a black box with only inputs and outputs."
+  },
+  {
+    "objectID": "balances/general/index.html#one-useful-technique",
+    "href": "balances/general/index.html#one-useful-technique",
+    "title": "The General Balance Equation",
+    "section": "One Useful Technique",
+    "text": "One Useful Technique\n1. Draw a flowchart and fill in all given variable values.\n2. Choose a basis of calculation (usually an amount or flow rate of one of the process streams).\n3. Label unknown stream variables on the chart. Use a consistent system of labeling.\n4. Convert stream volumes or volumetric flow rates to mass or molar flow rates.\n5. Convert mixed mass and mole units to either all mass or all mole units.\n6. Write material balance equations.\n7. Write other problem constraints as equations.\n8. Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget?\n9. Solve the equations.\n10. Convert the answers to the desired units."
+  },
+  {
+    "objectID": "balances/general/index.html#speed-tips",
+    "href": "balances/general/index.html#speed-tips",
+    "title": "The General Balance Equation",
+    "section": "Speed Tips",
+    "text": "Speed Tips\n1. Don’t solve for everything.\n2. Write equations in order of number of unknowns from fewest to most.\n3. Try overall balances first.\n4. Check out tie components.\n5. Remember mole fractions or mass fractions add up to 1.\n6. Usually, solving a recycle loop requires a complete set of equations around the loop."
+  },
+  {
+    "objectID": "balances/entropy/index.html",
+    "href": "balances/entropy/index.html",
+    "title": "Entropy Balances",
+    "section": "",
+    "text": "Intro to Systems and Balances"
+  },
+  {
+    "objectID": "balances/exergy/index.html",
+    "href": "balances/exergy/index.html",
+    "title": "Exergy",
+    "section": "",
+    "text": "Intro to Systems and Balances"
+  },
+  {
+    "objectID": "balances/material/index.html",
+    "href": "balances/material/index.html",
+    "title": "Material Balances",
+    "section": "",
+    "text": "Intro to Systems and Balances"
+  },
+  {
+    "objectID": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
+    "href": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
+    "title": "Chemical and Thermal Processes",
+    "section": "Bulleted and Numbered Lists",
+    "text": "Bulleted and Numbered Lists\n\nA numbered item\nAnother numbered item\nYet another numbered item\n\n\nA bullet item\nAnother bullet item\nYet another bullet item"
+  },
+  {
+    "objectID": "ExampleVisualsGreenScreen.html#fragment-items",
+    "href": "ExampleVisualsGreenScreen.html#fragment-items",
+    "title": "Chemical and Thermal Processes",
+    "section": "Fragment Items",
+    "text": "Fragment Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
+  },
+  {
+    "objectID": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
+    "href": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
+    "title": "Chemical and Thermal Processes",
+    "section": "Fragment and Absolute Items",
+    "text": "Fragment and Absolute Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
+  },
+  {
+    "objectID": "appx/index.html",
+    "href": "appx/index.html",
+    "title": "Appendices",
+    "section": "",
+    "text": "There are the following appendices:\n\nAppendix A – Nomenclature\nA list of nomenclature\n\n\nAppendix B\nAppendix B\n\n\nAppendix C\nAppendix C"
+  },
+  {
+    "objectID": "basics/stats/StatsMeasurementsWebPage.html",
+    "href": "basics/stats/StatsMeasurementsWebPage.html",
+    "title": "Statistics and Measurements",
+    "section": "",
+    "text": "Why Statistics and Measurements"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#scale-video-tba",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#scale-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Scale Video TBA",
+    "text": "Scale Video TBA"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#ruler-video-tbs",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#ruler-video-tbs",
+    "title": "Chemical and Thermal Processes",
+    "section": "Ruler Video TBS",
+    "text": "Ruler Video TBS"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#voltmeter-video-tba",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#voltmeter-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Voltmeter Video TBA",
+    "text": "Voltmeter Video TBA"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#thermistor-video-tba",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#thermistor-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Thermistor Video TBA",
+    "text": "Thermistor Video TBA"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#reporting-uncertainty",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#reporting-uncertainty",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reporting Uncertainty",
+    "text": "Reporting Uncertainty\n\n\\(m = 1.03 \\pm 0.03\\ \\mathrm{kg}\\text{ (95% confidence)}\\)\n\n\n\\(u = 2.36 \\pm 0.04\\ \\mathrm{\\frac{m}{s}}\\text{ (95% confidence)}\\)\n\n\n\\(mu = 2.43 \\pm 0.08\\ \\mathrm{\\frac{(kg\\cdot m)}{s} }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}mu^2 = 2.87 \\pm 0.13\\ \\mathrm{J}\\text{ (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#reporting-functional-uncertainty",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#reporting-functional-uncertainty",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reporting Functional Uncertainty",
+    "text": "Reporting Functional Uncertainty\n\n\nCC BY-SA 3.0, link\n\n\n \n\n\n\n\n\n\\(F_\\mathrm{s} = k(x_\\mathrm{n}-x_\\mathrm{f})\\)\n\n\n\n\n\n\\(F_\\mathrm{_s} = 30.00 \\pm 2.50\\ \\mathrm{(95\\%\\ conf.)\\ N/m}(x\\mathrm{_n}-x\\mathrm{_f})\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#true-mean-and-standard-deviation",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#true-mean-and-standard-deviation",
+    "title": "Chemical and Thermal Processes",
+    "section": "True Mean and Standard Deviation",
+    "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(:=\\)1 True Mean or Population Mean.\n\n\n\\(\\mu \\equiv\\) True or Population Mean,\n\n\ni.e., \\(\\mu =\\ \\)average value from infinite-precision, full population measurement (almost never known).\n\n\nDistribution of data about the true mean \\(:=\\) True Standard Deviation or Population Standard Deviation.\n\n\n\\(\\sigma \\equiv\\) True or Population Standard Deviation\n\n\ni.e., \\(\\sigma =\\ \\)standard deviation given true mean and infinite-precision data points (also almost never known).\n\nMath has borrowed “:=” from Computer Science to mean is called."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#sample-mean-and-residuals",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#sample-mean-and-residuals",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample Mean and Residuals",
+    "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\ne.g., \\(x_1 = 43.15\\)\n\n\nA set of \\(N\\) measurements\n\n\nimplies a set of\n\n\n\\(N\\) independent equations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\bar{x} \\equiv\\) sample mean\n\n\nHow do we estimate \\(\\mu - \\bar{x}\\)?\n\n\n\nCan we calculate the error\n\n\n\\(\\varepsilon_i =\\mu-x_i\\)?\n\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(e\\mathrm{_i} = \\bar{x} - x_i\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#section",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#section",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Sample Variance and Standard Deviation\n\n\nTrue variance\n\n\n\\(\\sigma^2=\\frac{\\displaystyle{\\sum_{i=1}^N \\varepsilon^2_i}}{N}\\)\n\n\nSample variance\n\n\n\\(S^2=\\frac{\\displaystyle{\\sum_{i=1}^N e^2_i}}{N-1}\\)\n\n\n\\(\\bar{x},\\ e,\\) and \\(S^2\\) are calculated from the \\(x_i\\).\n\n\n\\(\\mu,\\ \\varepsilon,\\) and \\(\\sigma^2\\) are not.\n\n\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.\n\n\nThe true standard deviation, \\(\\sigma=\\sqrt{\\sigma^2}\\).\n\n\nThe sample standard deviation, \\(S=\\sqrt{S^2}\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#are-we-there-yet",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#are-we-there-yet",
+    "title": "Chemical and Thermal Processes",
+    "section": "Are We There Yet?",
+    "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
+  },
+  {
+    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#the-takeaways",
+    "href": "basics/stats/WhyStatsJTF1Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
+  },
+  {
+    "objectID": "basics/stats/BasicStatsByHandJTFVisuals.html#the-basic-statistics-videos",
+    "href": "basics/stats/BasicStatsByHandJTFVisuals.html#the-basic-statistics-videos",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Basic Statistics Videos",
+    "text": "The Basic Statistics Videos\n\nHow Deviant and Mean Are Your Data? Parts 1 & 2 Intro to \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\)\n\n\nBasic Statistics by Hand \\(\\Leftarrow\\) This video Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) by hand.\nBasic Statistics with a Spreadsheet Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with a spreadsheet.\nBasic Statistics with Python Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with Python.\nBasic Statistics With R Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with R."
+  },
+  {
+    "objectID": "basics/stats/BasicStatsByHandJTFVisuals.html#basic-statistics-by-hand",
+    "href": "basics/stats/BasicStatsByHandJTFVisuals.html#basic-statistics-by-hand",
+    "title": "Chemical and Thermal Processes",
+    "section": "Basic Statistics by Hand",
+    "text": "Basic Statistics by Hand\nThis video shows how to calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) by hand and with a calculator."
+  },
+  {
+    "objectID": "basics/calculations/CalculationsWebPage.html",
+    "href": "basics/calculations/CalculationsWebPage.html",
+    "title": "Engineering Calculations",
+    "section": "",
+    "text": "Why Engineering Calculations"
+  },
+  {
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mass",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#mass",
+    "title": "Chemical and Thermal Processes",
+    "section": "Mass",
+    "text": "Mass\nMass is both a property of a physical body and a measure of its resistance to acceleration (a change in its state of motion) when a net force is applied. An object’s mass also determines the strength of its gravitational attraction to other bodies. (https://en.wikipedia.org/wiki/Mass)\nThe SI unit of mass, the kilogram, is defined from Planck’s constant\n\\[h=6.626070150 \\times 10^{-34}\\ \\mathrm{m^2/s}\\]\nor\n\\[ 1\\ \\mathrm{kg}=\\frac{h}{6.626070150 \\times 10^{-34}\\ \\mathrm{kg \\cdot m^2/s}} \\]"
+  },
+  {
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mass-cont.",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#mass-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Mass (cont.)",
+    "text": "Mass (cont.)\nFor the curious, the second is defined as 9,192,631,770 times the period of the unperturbed ground-state hyperfine transition of the cesium 133 atom. And the meter is defined as 1/299,792,458th of the distance light travels in a vacuum in one second. The American engineering unit of mass, the pound mass, or \\(\\mathrm{lb_m}\\) is defined as\n\\[1\\ \\mathrm{lb_m} \\equiv 0.453\\ 592\\ 37\\ \\mathrm{kg}\\]"
+  },
+  {
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mole",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#mole",
+    "title": "Chemical and Thermal Processes",
+    "section": "Mole",
+    "text": "Mole\n\nSee What Ia A Mole? for a more thorough explanation\nThe most common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)\n\\(\\text{tonne-mol}\\)\n\n\nYou should NEVER convert your mass in kg or lbm to g, and then to g-mol. You should ALWAYS use the kind of mole your mass is in. The conversion factor is simply the molecular weight."
+  },
+  {
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mole-cont.",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#mole-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Mole (cont.)",
+    "text": "Mole (cont.)\nThe molecular weight of methane is:\nMCH4 =16.0425 g g-mol =16.0425 kg kg-mol =16.0425 lbm lb-mol ## The Takeaways\n\nPressure is the second most commonly measured process variable.\nHydrostatic pressure \\(= \\rho g h\\).\nManometers measure \\(\\Delta P\\)’s with hydrostatic pressure."
+  },
+  {
+    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#what-temperature-scales-do-we-use",
+    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#what-temperature-scales-do-we-use",
     "title": "Chemical and Thermal Processes",
     "section": "What temperature scales do we use?",
     "text": "What temperature scales do we use?\n\n\\(\\bullet\\) Kelvin, K\n\n\n\\(\\bullet\\) Celsius, °C\n\n\n\\(\\bullet\\) Fahrenheit, °F\n\n\n\\(\\bullet\\) Rankine, °R\n\n\n\n\\(\\mathbf{-}\\) absolute scale (starts at zero)\n\n\n\\(\\mathbf{-}\\) absolute scale (starts at zero)\n\n\n\n\\(\\mathbf{-}\\) used when working with gases in Am. Eng. Units"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperatures-vs.-temperature-intervals",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperatures-vs.-temperature-intervals",
+    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperatures-vs.-temperature-intervals",
+    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperatures-vs.-temperature-intervals",
     "title": "Chemical and Thermal Processes",
     "section": "Temperatures vs. Temperature Intervals",
     "text": "Temperatures vs. Temperature Intervals\n\nTemperature: the single temperature of an object\nTemperature interval: the difference between two temperatures\n\n\n\n\n\n\nTemperature\\(32\\ \\mathrm{^\\circ F}\\)\n\n\nTemperature\\(212\\ \\mathrm{^\\circ F}\\)\n\n\n\nTemperature Interval\\(\\longleftarrow\\ \\ 180\\ \\mathrm{^\\circ F}\\ \\ \\longrightarrow\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-12",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-12",
+    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-equations-12",
+    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-equations-12",
     "title": "Chemical and Thermal Processes",
     "section": "Temperature Equations (1/2)",
     "text": "Temperature Equations (1/2)\n\n\nCelsius to Fahrenheit: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 32\\)\nCelsius to Kelvin: \\(\\ \\ \\ \\ \\ \\ T(\\mathrm{K}) = T(\\mathrm{^\\circ C}) + 273.15\\)\nCelsius to Rankine: \\(\\ \\ \\ T(\\mathrm{^\\circ R}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 491.67\\)\n\n\n\nFahrenheit to Celsius: \\(\\ \\ T(\\mathrm{^\\circ C}) = \\frac{5}{9}[T(\\mathrm{^\\circ F}) - 32]\\)\nFahrenheit to Kelvin: \\(\\ \\ \\ T(\\mathrm{K}) = \\frac{5}{9} [T(\\mathrm{^\\circ F}) - 32] + 273.15\\)\nFahrenheit -&gt; Rankine: \\(T(\\mathrm{^\\circ R}) = T(\\mathrm{^\\circ F}) + 459.67\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-22",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-22",
+    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-equations-22",
+    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-equations-22",
     "title": "Chemical and Thermal Processes",
     "section": "Temperature Equations (2/2)",
     "text": "Temperature Equations (2/2)\n\n\nKelvin to Fahrenheit: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{K}) - 459.67\\)\nKelvin to Celsius: \\(\\ \\ \\ \\ \\ T(\\mathrm{^\\circ C}) = T(\\mathrm{K}) - 273.15\\)\nKelvin to Rankine: \\(\\ \\ \\ \\ T(\\mathrm{^\\circ R}) = \\frac{9}{5} T(\\mathrm{K})\\)\n\n\n\nRankine to Fahrenheit: \\(\\ T(\\mathrm{^\\circ F}) = T(\\mathrm{^\\circ R}) - 459.67\\)\nRankine to Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\ \\ T(\\mathrm{K}) = \\frac{5}{9} T(\\mathrm{^\\circ R})\\)\nRankine -&gt; Celsius: \\(\\ \\ \\ \\ \\ \\ T(\\mathrm{^\\circ C}) = \\frac{5}{9}[T(\\mathrm{^\\circ R}) - 491.67]\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-interval-equations",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-interval-equations",
+    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-interval-equations",
+    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#temperature-interval-equations",
     "title": "Chemical and Thermal Processes",
     "section": "Temperature Interval Equations",
     "text": "Temperature Interval Equations\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Celsius: \\(\\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Rankine: \\(\\Delta T(\\mathrm{^\\circ R}) = \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\Delta T(\\mathrm{^\\circ R})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-12",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-12",
+    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-1---temperature-12",
+    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-1---temperature-12",
     "title": "Chemical and Thermal Processes",
     "section": "Example 1 - Temperature (1/2)",
     "text": "Example 1 - Temperature (1/2)\nConvert \\(5\\ \\mathrm{^\\circ C}\\) into Kelvin, Fahrenheit, and Rankine.\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{K}\\)\n\nRemember: \\(T(\\mathrm{K}) = T(\\mathrm{^\\circ C}) + 273.15\\)\n\\(\\implies T(\\mathrm{K}) = 5\\ \\mathrm{^\\circ C} + 273.15= 278.15\\ \\mathrm{K}\\)\n\n\n\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{^\\circ F}\\)\n\nRemember: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 32\\)\n\\(\\implies T(\\mathrm{^\\circ F}) = \\frac{9}{5}(5\\ \\mathrm{^\\circ C})+ 32 = 41\\ \\mathrm{^\\circ F}\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-22",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-22",
+    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-1---temperature-22",
+    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-1---temperature-22",
     "title": "Chemical and Thermal Processes",
     "section": "Example 1 - Temperature (2/2)",
     "text": "Example 1 - Temperature (2/2)\nConvert 5 °C into Kelvin, Fahrenheit, and Rankine.\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{^\\circ R}\\)\n\nRemember: When converting from Celsius to Rankine, we prefer to first convert to Kelvin, then Rankine.\nWe can use what we got from our first conversion, \\(T(\\mathrm{K}) = 278.15\\ \\mathrm{K}\\)\n\\(\\implies T(\\mathrm{^\\circ R}) = \\frac{9}{5}(278.15\\ \\mathrm{K}) = 500.67\\ \\mathrm{^\\circ R}\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-12",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-12",
+    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-2---temp.-temp.-intervals-12",
+    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-2---temp.-temp.-intervals-12",
     "title": "Chemical and Thermal Processes",
     "section": "Example 2 - Temp. & Temp. Intervals (1/2)",
     "text": "Example 2 - Temp. & Temp. Intervals (1/2)\n\n\n\n\nOver a limited temperature range, the heat capacity of liquid acetone is\n\n\n\\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ C}} \\right] =0.1230+0.000186T\\) where \\(T\\) is in \\(\\mathrm{^\\circ C}\\).\n\n\nWhat are the heat-capacity formulas with \\(T\\) in \\(K\\), \\(\\mathrm{^\\circ R}\\), and \\(\\mathrm{^\\circ F}\\)?\n\n\nTo Kelvin \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right]\\mathrm{\\frac{1\\ K}{1\\ \\mathrm{^\\circ C}}} =0.1230+0.000186(T-273.15)T\\) where \\(T\\) is in \\(\\mathrm{K}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right] =0.0722+0.000186T\\) where \\(T\\) is in \\(\\mathrm{K}\\)."
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-22",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-22",
+    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-2---temp.-temp.-intervals-22",
+    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#example-2---temp.-temp.-intervals-22",
     "title": "Chemical and Thermal Processes",
     "section": "Example 2 - Temp. & Temp. Intervals (2/2)",
     "text": "Example 2 - Temp. & Temp. Intervals (2/2)\n\nTo Rankine \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ R}} \\right]\\mathrm{\\frac{9\\ ^\\circ R}{5\\ \\mathrm{^\\circ C}}} =0.1230+0.000186 \\left( \\frac{5}{9}[T-491.67] \\right)\\) where \\(T\\) is in \\(\\mathrm{^\\circ R}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ R}} \\right] =0.04011+0.00005741\\) where \\(T\\) is in \\(\\mathrm{^\\circ R}\\).\n\n\nTo Fahrenheit \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ F}} \\right]\\mathrm{\\frac{9\\ ^\\circ F}{5\\ \\mathrm{^\\circ C}}} =0.1230+0.000186 \\left( \\frac{5}{9}[T-32] \\right)\\) where \\(T\\) is in \\(\\mathrm{^\\circ F}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ F}} \\right] =0.06650+0.00005741\\) where \\(T\\) is in \\(\\mathrm{^\\circ F}\\)."
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#the-takeaways",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#the-takeaways",
+    "objectID": "basics/processdata/ConvertingTemperatureJTFVisuals.html#the-takeaways",
+    "href": "basics/processdata/ConvertingTemperatureJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
     "text": "The Takeaways\n\nThere are four common temperature scales:\n\n\nKelvin, Rankine, Fahrenheit, and Celsius\n\n\nThe conversions between temperatures are different from the conversion of temperature intervals.\nMost temperature conversions requre both multiplication and addition/subtraction.\n\n\nConversion between Rankine and Kelvin only require multiplication\n\n\nAll of the temperature-interval conversions just require multiplication by 9/5, 5/9, or 1."
@@ -1386,32 +1449,32 @@
     "text": "Properties of Saturated Steam: Temperature Table"
   },
   {
-    "objectID": "basics/processdata/NLInterpolationJTFVisuals.html#linear-interpolation",
-    "href": "basics/processdata/NLInterpolationJTFVisuals.html#linear-interpolation",
+    "objectID": "basics/processdata/NLInterpolationJTFVisuals.html#nonlinear-interpolation",
+    "href": "basics/processdata/NLInterpolationJTFVisuals.html#nonlinear-interpolation",
     "title": "Chemical and Thermal Processes",
-    "section": "Linear Interpolation",
-    "text": "Linear Interpolation\nProperties of Saturated Steam: Temperature Table\n\n\n\\[\\frac{y-y_1}{x-x_1}=\\frac{y_2-y_1}{x_2-x_1}\\]\n\n\n\\[y=\\frac{y_2-y_1}{x_2-x_1}({x-x_1})+y_1\\]\n\n\n\\[\\hat{V}=\\frac{\\hat{V}_2-\\hat{V}_1}{T_2-T_1}({T-T_1})+\\hat{V}_1\\]\n\n\n\\[\\hat{V}=\\frac{106.3-120.8}{10-8}({9-8})+120.8=113.55\\]"
+    "section": "Nonlinear Interpolation",
+    "text": "Nonlinear Interpolation\nSaturated Steam: Temperature Table, Pressure Column\n\n\nPolynomial Interpolation\n\n2nd Order\n3rd Order\n4th Order\n\n\n\nCubic Spline Interpolation\n\n\nVariable Transformation\n\nAntoine Equation\n\nbased on Clausius-Clapeyron Equation \\(\\ln p^* = -\\frac{\\Delta \\hat{H}_v}{R} \\frac{1}{T} +B\\)\n\\(\\log p^*\\) vs. \\(1/T\\) close to linear."
   },
   {
-    "objectID": "basics/processdata/NLInterpolationJTFVisuals.html#double-linear-interpolation",
-    "href": "basics/processdata/NLInterpolationJTFVisuals.html#double-linear-interpolation",
+    "objectID": "basics/processdata/NLInterpolationJTFVisuals.html#change-of-variable-log-p-vs-1t",
+    "href": "basics/processdata/NLInterpolationJTFVisuals.html#change-of-variable-log-p-vs-1t",
     "title": "Chemical and Thermal Processes",
-    "section": "Double Linear Interpolation",
-    "text": "Double Linear Interpolation\nWhat if you’re between values in two dimensions\n\n\\(T=125\\ \\mathrm{^\\circ C}\\)\n\\(P=0.3\\ \\mathrm{bar}\\)\n\\(\\hat{V}=?\\)"
+    "section": "Change of Variable \\(\\log p^*\\) vs \\(1/T\\)",
+    "text": "Change of Variable \\(\\log p^*\\) vs \\(1/T\\)\nSaturated Steam: Temperature Table, Pressure Column\n\n\nUse table value at \\(10\\ ^\\circ \\mathrm{C}\\ (0.0123)\\) as true value.\n\n\nLinearly interpolate on \\(p^*\\) and \\(T\\ (^\\circ \\mathrm{C})\\) and compare with linear interpolation on \\(\\ln p^*\\) and \\(1/T\\ (\\mathrm{K})\\). Interpolate with endpoints at\n\n\\(8\\ ^\\circ \\mathrm{C}\\) and \\(12\\ ^\\circ \\mathrm{C}\\)\n\\(6\\ ^\\circ \\mathrm{C}\\) and \\(14\\ ^\\circ \\mathrm{C}\\)\n\\(4\\ ^\\circ \\mathrm{C}\\) and \\(16\\ ^\\circ \\mathrm{C}\\)\n\\(2\\ ^\\circ \\mathrm{C}\\) and \\(18\\ ^\\circ \\mathrm{C}\\)"
   },
   {
-    "objectID": "basics/processdata/NLInterpolationJTFVisuals.html#double-linear-interpolation-1",
-    "href": "basics/processdata/NLInterpolationJTFVisuals.html#double-linear-interpolation-1",
+    "objectID": "basics/processdata/NLInterpolationJTFVisuals.html#interpolation-fit-plots",
+    "href": "basics/processdata/NLInterpolationJTFVisuals.html#interpolation-fit-plots",
     "title": "Chemical and Thermal Processes",
-    "section": "Double Linear Interpolation",
-    "text": "Double Linear Interpolation\n\nCalled double interpolation\nHave to do three"
+    "section": "Interpolation Fit Plots",
+    "text": "Interpolation Fit Plots"
   },
   {
     "objectID": "basics/processdata/NLInterpolationJTFVisuals.html#the-takeaways",
     "href": "basics/processdata/NLInterpolationJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nLinear interpolation is often used in tables.\nRemember \\(slope = slope\\) to write formula.\nA one-dimensional table requires one interpolation.\nA two-dimensional table requires double interpolation, which is really three interpolations."
+    "text": "The Takeaways\n\nLinear interpolation is adequate with closely spaced tables or low accuracy requirements.\nHigher-order interpolation requires more than two data points.\nIf you have an approximate model for your table data, a change of variables can greatly increase the accuracy of your interpolation.\nHaving a program or an app with the full model is better than interpolating in a table."
   },
   {
     "objectID": "basics/index.html",

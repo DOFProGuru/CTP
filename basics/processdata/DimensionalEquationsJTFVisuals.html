@@ -10,7 +10,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <title>Chemical and Thermal Processes – nlinterpolationjtfvisuals</title>
+  <title>Chemical and Thermal Processes – dimensionalequationsjtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -325,92 +325,234 @@
     <div class="slides">
 
 
-<section>
-<section id="section" class="title-slide slide level1 center">
-<h1></h1>
-<div class="bigbold180" style="text-align: center;">
-<p>No Clear Interpretation<br>A Mind-Blowing Math Hack</p>
-</div>
-<div class="bigbold" style="text-align: center;">
-<p>Just The Facts</p>
-</div>
+<section id="is-furlongs-per-fortnight-a-thingjust-the-facts" class="title-slide slide level1 bigbold90 center">
+<h1>Is Furlongs Per Fortnight a Thing?<br>Just the Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -50%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
-<section id="section-1" class="slide level2">
-<h2></h2>
-<p><strong>Properties of Saturated Steam: Temperature Table</strong></p>
 
-<img data-src="steamtable1d.png" class="r-stretch"></section>
-<section id="nonlinear-interpolation" class="slide level2">
-<h2>Nonlinear Interpolation</h2>
-<p><strong>Saturated Steam: Temperature Table, Pressure Column</strong></p>
-<p><img data-src="steamtable1dTP.png" class="absolute" style="top: 15%; left: 0%; "></p>
-<div class="fragment absolute" style="top: 16%; left: 20%; ">
-<p><a href="https://en.wikipedia.org/wiki/Polynomial_interpolation">Polynomial Interpolation</a></p>
-<ul>
-<li class="fragment">2nd Order</li>
-<li class="fragment">3rd Order</li>
-<li class="fragment">4th Order</li>
-</ul>
-</div>
-<div class="fragment absolute" style="top: 50%; left: 20%; ">
-<p><a href="https://en.wikipedia.org/wiki/Spline_interpolation">Cubic Spline Interpolation</a></p>
-</div>
-<div class="fragment absolute" style="top: 60%; left: 20%; ">
-<p>Variable Transformation</p>
-<ul>
-<li class="fragment"><a href="https://en.wikipedia.org/wiki/Antoine_equation">Antoine Equation</a>
-<ul>
-<li class="fragment">based on <a href="https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation">Clausius-Clapeyron Equation</a> <span class="math inline">\(\ln p^* = -\frac{\Delta \hat{H}_v}{R} \frac{1}{T} +B\)</span></li>
-<li class="fragment"><span class="math inline">\(\log p^*\)</span> vs.&nbsp;<span class="math inline">\(1/T\)</span> close to linear.</li>
-</ul></li>
-</ul>
+<section>
+<section id="section" class="title-slide slide level1 center">
+<h1></h1>
+<div class="bigger centered">
+<p><em>Is Furlongs Per Fortnight a Thing?</em> is an episode of the Degrees of Freedom Project, <em>Just the Facts</em> videos on chemical and thermal principles. If you want <em>The Full Story</em> version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.</p>
 </div>
 </section>
-<section id="change-of-variable-log-p-vs-1t" class="slide level2">
-<h2>Change of Variable <span class="math inline">\(\log p^*\)</span> vs <span class="math inline">\(1/T\)</span></h2>
-<p><strong>Saturated Steam: Temperature Table, Pressure Column</strong></p>
-<p><img data-src="steamtable1dTP.png" class="absolute" style="top: 15%; left: 0%; "></p>
-<div class="fragment absolute" style="top: 15%; left: 20%; ">
-<p>Use table value at <span class="math inline">\(10\ ^\circ \mathrm{C}\ (0.0123)\)</span> as true value.</p>
-</div>
-<div class="fragment absolute" style="top: 25%; left: 20%; ">
-<p>Linearly interpolate on <span class="math inline">\(p^*\)</span> and <span class="math inline">\(T\ (^\circ \mathrm{C})\)</span> and compare with linear interpolation on <span class="math inline">\(\ln p^*\)</span> and <span class="math inline">\(1/T\ (\mathrm{K})\)</span>. Interpolate with endpoints at</p>
+<section id="conversion-videos" class="slide level2">
+<h2>Conversion Videos</h2>
 <ul>
-<li class="fragment"><span class="math inline">\(8\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(12\ ^\circ \mathrm{C}\)</span></li>
-<li class="fragment"><span class="math inline">\(6\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(14\ ^\circ \mathrm{C}\)</span></li>
-<li class="fragment"><span class="math inline">\(4\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(16\ ^\circ \mathrm{C}\)</span></li>
-<li class="fragment"><span class="math inline">\(2\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(18\ ^\circ \mathrm{C}\)</span></li>
+<li class="fragment">This Video – <em>Is Furlongs Per Fortnight a Thing?</em> explains how to convert a measured or calculated quantity from one set of units to another (except for temperatures).</li>
+<li class="fragment">Another Video – <em>How Keen Is Your Rank?</em> explains how to convert temperatures and temperature intervals.</li>
+<li class="fragment">A Third Video – <em>The Most Annoying Equation Conversion</em> explains how to convert an equation as opposed to a calculated or measured quantity from one set of units to another.</li>
 </ul>
+</section>
+<section id="changing-units" class="slide level2">
+<h2>Changing Units</h2>
+<ul>
+<li class="fragment">Most physical quantities can be converted from one unit of measure (or set of units of measure) to another by the use of conversion factors, which are the number 1 disguised as the ratio of units.</li>
+<li class="fragment">Organizations such as the International Bureau of Weights and Measures (BIPM) and the National Institute of Standards and Technology (NIST) are responsible for maintaining the conversion factors.</li>
+<li class="fragment">For example, on the NIST website at
+<div style="font-size: 60pt;">
+<a href="https://www.nist.gov/si-redefinition/definitions-si-base-units">https://www.nist.gov/si-redefinition/definitions-si-base-units</a>
+</div>
+is the current list of definitions for SI quantities.</li>
+<li class="fragment">In addition, the NIST website at
+<div style="font-size: 60pt;">
+<a href="https://www.nist.gov/pml/weights-and-measures/si-units-length">https://www.nist.gov/pml/weights-and-measures/si-units-length</a>
+</div>
+defines the inch as exactly 25.4 mm (as of 30 June 1959).</li>
+</ul>
+</section>
+<section id="changing-units-cont." class="slide level2">
+<h2>Changing Units (cont.)</h2>
+<div class="fragment absolute" style="top: 15%; left: 0%; ">
+<p>Now if <span class="math inline">\(1\ \mathrm{inch} = 25.4\ \mathrm{mm}\)</span>, we can rearrange the equation as:</p>
+</div>
+<div class="fragment absolute" style="top: 30%; left: 20%; ">
+<p><span class="math inline">\(1 = \frac{25.4\ \mathrm{mm}}{1\ \mathrm{inch}}\)</span> or <span class="math inline">\(1 = \frac{1\ \mathrm{inch}}{25.4\ \mathrm{mm}}\)</span></p>
+</div>
+<div class="fragment absolute" style="top: 45%; left: 0%; ">
+<p>Multiplying a quantity by unity does not change its value but does change its units.</p>
+</div>
+<div class="fragment absolute" style="top: 65%; left: 10%; ">
+<p><span class="math inline">\(35.7\ \mathrm{inch} = \frac{35.7\ \mathrm{inch}}{} | \frac{25.4\ \mathrm{mm}}{1\ \mathrm{inch}}=906.78\ \mathrm{mm}\)</span></p>
+</div>
+<div class="fragment absolute" style="top: 63%; left: 37%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ \ \ \ }\)</span>
+</div>
+</div>
+<div class="fragment absolute" style="top: 66.5%; left: 48%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ \ \ \ }\)</span>
+</div>
+</div>
+</section>
+<section id="dimensional-equation" class="slide level2">
+<h2>Dimensional Equation</h2>
+<div class="fragment absolute" style="top: 10%; left: 0%; ">
+<p>An equation such as</p>
+</div>
+<div class="fragment absolute" style="top: 23%; left: 10%; ">
+<p><span class="math inline">\(35.7\ \mathrm{inch} = \frac{35.7\ \mathrm{inch}}{} | \frac{25.4\ \mathrm{mm}}{1\ \mathrm{inch}}=906.78\ \mathrm{mm}\)</span></p>
+</div>
+<div class="fragment absolute" style="top: 36%; left: 0%; ">
+<p>is known as a dimensional equation and it will handle most of your unitconversion issues. Here is a dimensional equation to convert <span class="math inline">\(344\ \mathrm{m/s}\)</span> to furlongs per fortnight using exact NIST values.</p>
+</div>
+<div class="fragment absolute" style="top: 65%; left: 10%; ">
+<p><span class="math inline">\(\frac{344\ \mathrm{m}}{\mathrm{s}} | \frac{1\ \mathrm{yd}}{0.9144\ \mathrm{m}}  | \frac{1\ \mathrm{furlong}}{220\ \mathrm{yd}} | \frac{3600\ \mathrm{s}}{1\ \mathrm{hr}} | \frac{24\ \mathrm{hr}}{1\ \mathrm{day}} | \frac{14\ \mathrm{day}}{\mathrm{fortnight}} |\)</span> <br><br> <span class="math inline">\(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 2,068.432.36\ \frac{\mathrm{furlong}}{\mathrm{fortnight}}\)</span></p>
+</div>
+<div class="fragment absolute" style="top: 63.5%; left: 15.5%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ }\)</span>
+</div>
+</div>
+<div class="fragment absolute" style="top: 67%; left: 29%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ }\)</span>
+</div>
+</div>
+<div class="fragment absolute" style="top: 63.2%; left: 25.5%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ \ }\)</span>
+</div>
+</div>
+<div class="fragment absolute" style="top: 67%; left: 40.5%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ \ }\)</span>
+</div>
+</div>
+<div class="fragment absolute" style="top: 67%; left: 13%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ }\)</span>
+</div>
+</div>
+<div class="fragment absolute" style="top: 63.5%; left: 54%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ }\)</span>
+</div>
+</div>
+<div class="fragment absolute" style="top: 67%; left: 51%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ \ }\)</span>
+</div>
+</div>
+<div class="fragment absolute" style="top: 63.2%; left: 61.5%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ \ }\)</span>
+</div>
+</div>
+<div class="fragment absolute" style="top: 67%; left: 60%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ \ \ }\)</span>
+</div>
+</div>
+<div class="fragment absolute" style="top: 63.2%; left: 72.5%; ">
+<div style="color: red;">
+<span class="math inline">\(\bcancel{\ \ \ }\)</span>
+</div>
+</div>
+</section>
+<section id="significant-figures" class="slide level2">
+<h2>Significant Figures</h2>
+<p>There are precise rules for tracking significant figures, also known as sig figs or significant digits through a set of calculations. If you are curious, check out Wikipedia or the links on the website.</p>
+<div class="fragment" style="font-size: 60pt;">
+<p>DOFPro will do the following:</p>
+<ol type="1">
+<li class="fragment">Carry as many figures as possible throughout a set of calculations.</li>
+<li class="fragment">Round to three or four sig figs for the answer and when displaying most intermediate calculations, e.g., the spreadsheet will display 3.142, but contain 3.1415926535793238.</li>
+<li class="fragment">Rounding will either use the function in the software, or rounding half up, which uses the first digit past the intended rounded digit to determine whether to round up or down. If the first digit past is five through 9, round up, if it’s zero through four, round down.</li>
+</ol>
 </div>
 <div class="fragment">
-<p><img data-src="NonlinearSummary.png" class="absolute" style="top: 47%; left: 50%; width: 50%; "></p>
+<p>Use whatever rounding method you prefer.</p>
 </div>
 </section>
-<section id="interpolation-fit-plots" class="slide level2">
-<h2>Interpolation Fit Plots</h2>
-<p><img data-src="LinearInterpFit.png" class="absolute" style="top: 8%; left: 20%; width: 65%; "></p>
-<p><img data-src="NonlinearInterpFit.png" class="absolute" style="top: 53%; left: 20%; width: 65%; "></p>
+<section id="on-line-calculators" class="slide level2">
+<h2>On-Line Calculators</h2>
+<p>The most common web search tool will do unit conversions for you. Try typing the following into your browser url bar or search engine.</p>
+<ul>
+<li class="fragment">344 m/s in furlong/fortnight</li>
+<li class="fragment">100 lb in kg</li>
+<li class="fragment">100 ton in tonne</li>
+<li class="fragment">50.8 mm/s in in/s</li>
+<li class="fragment">1000 sq yd in hectare</li>
+<li class="fragment">34 inHg in atm</li>
+<li class="fragment">760 torr in psi</li>
+</ul>
+<div class="fragment">
+<p>Hit return to get a calculator with available conversions and units.</p>
+</div>
+</section>
+<section id="common-conversions-worth-memorizing" class="slide level2 bigbold75">
+<h2>Common Conversions Worth Memorizing</h2>
+<div class="absolute" style="top: 10%; left: 0%; ">
+<p>Exact</p>
+</div>
+<div class="fragment absolute" style="top: 15%; left: 10%; ">
+<p><span class="math inline">\(\frac{25.4\ \mathrm{mm}}{1\ \mathrm{inch}}\)</span>,</p>
+</div>
+<div class="fragment absolute" style="top: 15%; left: 25%; ">
+<p><span class="math inline">\(\frac{101\ 325\ \mathrm{Pa}}{1\ \mathrm{atm}}\)</span>,</p>
+</div>
+<div class="fragment absolute" style="top: 15%; left: 40%; ">
+<p><span class="math inline">\(\frac{4.184\ \mathrm{J}}{1\ \mathrm{cal_{th}}}\)</span>,</p>
+</div>
+<div class="fragment absolute" style="top: 15%; left: 52%; ">
+<p><span class="math inline">\(\frac{9\ \mathrm{^\circ R}}{5\ \mathrm{K}}\)</span>,</p>
+</div>
+<div class="fragment absolute" style="top: 14.4%; left: 60%; ">
+<p><span class="math inline">\(\frac{4.184\ \mathrm{J/kg\cdot K}}{1\ \mathrm{Btu_{th}/(lb_m \cdot ^\circ R)}}\)</span>.</p>
+</div>
+<div class="fragment absolute" style="top: 30%; left: 0%; ">
+<p>Close to Exact (just memorize 3 or 4 sig figs)</p>
+</div>
+<div class="fragment absolute" style="top: 40%; left: 10%; ">
+<p><span class="math inline">\(\frac{0.453\ 592\ 4\ \mathrm{kg}}{1\ \mathrm{lb_m}}\)</span>,</p>
+</div>
+<div class="fragment absolute" style="top: 40.4%; left: 30%; ">
+<p><span class="math inline">\(\frac{4.448\ 222\ \mathrm{N}}{1\ \mathrm{lb_f}}\)</span>,</p>
+</div>
+<div class="fragment absolute" style="top: 40.4%; left: 50%; ">
+<p><span class="math inline">\(\frac{0.946\ 352\ 9\ \mathrm{L}}{1\ \mathrm{qt}}\)</span>.</p>
+</div>
+<div class="fragment absolute" style="top: 55%; left: 0%; ">
+<p>Approximate</p>
+</div>
+<div class="fragment absolute" style="top: 65%; left: 10%; ">
+<p><span class="math inline">\(\frac{2.2\ \mathrm{lb_m}}{1\ \mathrm{kg}}\)</span>,</p>
+</div>
+<div class="fragment absolute" style="top: 65%; left: 25%; ">
+<p><span class="math inline">\(\frac{1\ \mathrm{Btu/s}}{1\ \mathrm{kW}}\)</span>.</p>
+</div>
+</section>
+<section id="useful-links" class="slide level2">
+<h2>Useful Links</h2>
+<ul>
+<li class="fragment">The NIST conversions to SI in alphabetical order <a href="https://tinyurl.com/ydb2jcoc">https://tinyurl.com/ydb2jcoc</a></li>
+<li class="fragment">The NIST conversions to SI by kind <a href="https://tinyurl.com/ycqe2ez7">https://tinyurl.com/ycqe2ez7</a></li>
+<li class="fragment">Web search for <em>on-line unit conversion calculators</em></li>
+<li class="fragment">Just about any values of the molar gas constant you would want <a href="https://en.wikipedia.org/wiki/Gas_constant">https://en.wikipedia.org/wiki/Gas_constant</a></li>
+</ul>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Linear interpolation is adequate with closely spaced tables or low accuracy requirements.</li>
-<li class="fragment">Higher-order interpolation requires more than two data points.</li>
-<li class="fragment">If you have an approximate model for your table data, a change of variables can greatly increase the accuracy of your interpolation.</li>
-<li class="fragment">Having a program or an app with the full model is better than interpolating in a table.</li>
+<li class="fragment">For most quantities, you can convert from one set of units to another with <em>conversion factors</em>. e.g., <span class="math inline">\(1\ \mathrm{inch} = 25.4\ \mathrm{mm}\)</span></li>
+<li class="fragment">A very accurate source of conversion factors is the <a href="https://www.nist.gov/pml/owm/metric-si/unit-conversion">N.I.S.T website</a>.</li>
+<li class="fragment">Many web search engines will do unit conversions for you.</li>
+<li class="fragment"><em>Temperature</em> conversions are more complicated and require their own video.</li>
 </ol>
-</section></section>
-<section id="section-2" class="title-slide slide level1 center">
-<h1></h1>
-<div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.</p>
+<div class="fragment">
+<p>A final word of advice: Whenever possible, work the problem in the units given.</p>
 </div>
-<div class="absolute" style="top: 125%; left: 35%; ">
-<p>The DOFPro Team</p>
+</section></section>
+<section id="section-1" class="title-slide slide level1 center">
+<h1></h1>
+<div class="centered bigger">
+<p><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 
