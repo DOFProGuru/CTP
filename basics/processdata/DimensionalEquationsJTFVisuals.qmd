@@ -1,0 +1,242 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Is Furlongs Per Fortnight a Thing?</br>Just the Facts{.bigbold90}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+#
+
+::: {.bigger .centered}
+*Is Furlongs Per Fortnight a Thing?* is an episode of the Degrees of Freedom Project, *Just the Facts* videos on chemical and thermal principles. If you want *The Full Story* version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
+:::
+
+## Conversion Videos
+
+- This Video – *Is Furlongs Per Fortnight a Thing?* explains how to convert a measured or calculated quantity from one set of units to another (except for temperatures).
+- Another Video – *How Keen Is Your Rank?* explains how to convert temperatures and temperature intervals.
+- A Third Video – *The Most Annoying Equation Conversion* explains how to convert an equation as opposed to a calculated or measured quantity from one set of units to another.
+
+## Changing Units
+
+* Most physical quantities can be converted from one unit of measure (or set of units of measure) to another by the use of
+  conversion factors, which are the number 1 disguised as the ratio of units.
+* Organizations such as the International Bureau of Weights and Measures (BIPM) and the National Institute of Standards and
+Technology (NIST) are responsible for maintaining the conversion
+factors.
+* For example, on the NIST website at <div style="font-size: 60pt;">[https://www.nist.gov/si-redefinition/definitions-si-base-units](https://www.nist.gov/si-redefinition/definitions-si-base-units)</div> is the current list of definitions for SI quantities.
+* In addition, the NIST website at<div style="font-size: 60pt;">[https://www.nist.gov/pml/weights-and-measures/si-units-length](https://www.nist.gov/pml/weights-and-measures/si-units-length)</div>defines the inch as exactly 25.4 mm (as of 30 June 1959).
+
+## Changing Units (cont.)
+
+:::{.fragment .absolute top=15% left=0%}
+Now if $1\ \mathrm{inch} = 25.4\ \mathrm{mm}$, we can rearrange the equation as:
+:::
+
+:::{.fragment .absolute top=30% left=20%}
+$1 = \frac{25.4\ \mathrm{mm}}{1\ \mathrm{inch}}$ or $1 = \frac{1\ \mathrm{inch}}{25.4\ \mathrm{mm}}$
+:::
+
+:::{.fragment .absolute top=45% left=0%}
+Multiplying a quantity by unity does not change its value but does change its units.
+:::
+
+:::{.fragment .absolute top=65% left=10%}
+$35.7\ \mathrm{inch} = \frac{35.7\ \mathrm{inch}}{} | \frac{25.4\ \mathrm{mm}}{1\ \mathrm{inch}}=906.78\ \mathrm{mm}$
+:::
+
+:::{.fragment .absolute top=63% left=37%}
+<div style="color: red;">$\bcancel{\ \ \ \ }$</div>
+:::
+
+:::{.fragment .absolute top=66.5% left=48%}
+<div style="color: red;">$\bcancel{\ \ \ \ }$</div>
+:::
+
+## Dimensional Equation
+
+:::{.fragment .absolute top=10% left=0%}
+An equation such as 
+:::
+
+:::{.fragment .absolute top=23% left=10%}
+$35.7\ \mathrm{inch} = \frac{35.7\ \mathrm{inch}}{} | \frac{25.4\ \mathrm{mm}}{1\ \mathrm{inch}}=906.78\ \mathrm{mm}$
+:::
+
+:::{.fragment .absolute top=36% left=0%}
+is known as a dimensional equation and it will handle most of your unitconversion issues. Here is a dimensional equation to convert $344\ \mathrm{m/s}$ to furlongs per fortnight using exact NIST values.
+:::
+
+:::{.fragment .absolute top=65% left=10%}
+$\frac{344\ \mathrm{m}}{\mathrm{s}} | \frac{1\ \mathrm{yd}}{0.9144\ \mathrm{m}}  | \frac{1\ \mathrm{furlong}}{220\ \mathrm{yd}} | \frac{3600\ \mathrm{s}}{1\ \mathrm{hr}} | \frac{24\ \mathrm{hr}}{1\ \mathrm{day}} | \frac{14\ \mathrm{day}}{\mathrm{fortnight}} |$
+</br></br>
+ $\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 2,068.432.36\ \frac{\mathrm{furlong}}{\mathrm{fortnight}}$
+:::
+
+:::{.fragment .absolute top=63.5% left=15.5%}
+<div style="color: red;">$\bcancel{\ }$</div>
+:::
+
+:::{.fragment .absolute top=67% left=29%}
+<div style="color: red;">$\bcancel{\ }$</div>
+:::
+
+:::{.fragment .absolute top=63.2% left=25.5%}
+<div style="color: red;">$\bcancel{\ \ }$</div>
+:::
+
+:::{.fragment .absolute top=67% left=40.5%}
+<div style="color: red;">$\bcancel{\ \ }$</div>
+:::
+
+:::{.fragment .absolute top=67% left=13%}
+<div style="color: red;">$\bcancel{\ }$</div>
+:::
+
+:::{.fragment .absolute top=63.5% left=54%}
+<div style="color: red;">$\bcancel{\ }$</div>
+:::
+
+:::{.fragment .absolute top=67% left=51%}
+<div style="color: red;">$\bcancel{\ \ }$</div>
+:::
+
+:::{.fragment .absolute top=63.2% left=61.5%}
+<div style="color: red;">$\bcancel{\ \ }$</div>
+:::
+
+:::{.fragment .absolute top=67% left=60%}
+<div style="color: red;">$\bcancel{\ \ \ }$</div>
+:::
+
+:::{.fragment .absolute top=63.2% left=72.5%}
+<div style="color: red;">$\bcancel{\ \ \ }$</div>
+:::
+
+
+## Significant Figures
+
+There are precise rules for tracking significant figures, also known as sig figs or significant digits through a set of calculations. If you are curious, check out Wikipedia or the links on the website.
+
+:::{.fragment style="font-size: 60pt;"}
+DOFPro will do the following:
+
+1. Carry as many figures as possible throughout a set of calculations.
+2. Round to three or four sig figs for the answer and when displaying most intermediate calculations, e.g., the spreadsheet will display 3.142, but contain 3.1415926535793238.
+3. Rounding will either use the function in the software, or rounding half up, which uses the first digit past the intended rounded digit to determine whether to round up or down. If the first digit past is five through 9, round up, if it's zero through four, round down.
+:::
+
+:::{.fragment}
+Use whatever rounding method you prefer.
+:::
+
+## On-Line Calculators
+
+The most common web search tool will do unit conversions for you. Try typing the following into your browser url bar or search engine.
+
+- 344 m/s in furlong/fortnight
+- 100 lb in kg
+- 100 ton in tonne
+- 50.8 mm/s in in/s
+- 1000 sq yd in hectare
+- 34 inHg in atm
+- 760 torr in psi
+
+:::{.fragment}
+Hit return to get a calculator with available conversions and units.
+:::
+
+
+## Common Conversions Worth Memorizing{.bigbold75}
+
+:::{.absolute top=10% left=0%}
+Exact
+:::
+
+:::{.fragment .absolute top=15% left=10%}
+$\frac{25.4\ \mathrm{mm}}{1\ \mathrm{inch}}$,
+:::
+
+:::{.fragment .absolute top=15% left=25%}
+$\frac{101\ 325\ \mathrm{Pa}}{1\ \mathrm{atm}}$,
+:::
+
+:::{.fragment .absolute top=15% left=40%}
+$\frac{4.184\ \mathrm{J}}{1\ \mathrm{cal_{th}}}$,
+:::
+
+:::{.fragment .absolute top=15% left=52%}
+$\frac{9\ \mathrm{^\circ R}}{5\ \mathrm{K}}$,
+:::
+
+:::{.fragment .absolute top=14.4% left=60%}
+$\frac{4.184\ \mathrm{J/kg\cdot K}}{1\ \mathrm{Btu_{th}/(lb_m \cdot ^\circ R)}}$.
+:::
+
+:::{.fragment .absolute top=30% left=0%}
+Close to Exact (just memorize 3 or 4 sig figs)
+:::
+
+:::{.fragment .absolute top=40% left=10%}
+$\frac{0.453\ 592\ 4\ \mathrm{kg}}{1\ \mathrm{lb_m}}$,
+:::
+
+:::{.fragment .absolute top=40.4% left=30%}
+$\frac{4.448\ 222\ \mathrm{N}}{1\ \mathrm{lb_f}}$,
+:::
+
+:::{.fragment .absolute top=40.4% left=50%}
+$\frac{0.946\ 352\ 9\ \mathrm{L}}{1\ \mathrm{qt}}$.
+:::
+
+:::{.fragment .absolute top=55% left=0%}
+Approximate
+:::
+
+:::{.fragment .absolute top=65% left=10%}
+$\frac{2.2\ \mathrm{lb_m}}{1\ \mathrm{kg}}$,
+:::
+
+:::{.fragment .absolute top=65% left=25%}
+$\frac{1\ \mathrm{Btu/s}}{1\ \mathrm{kW}}$.
+:::
+
+## Useful Links
+
+- The NIST conversions to SI in alphabetical order [https://tinyurl.com/ydb2jcoc](https://tinyurl.com/ydb2jcoc)
+- The NIST conversions to SI by kind [https://tinyurl.com/ycqe2ez7](https://tinyurl.com/ycqe2ez7)
+- Web search for *on-line unit conversion calculators*
+- Just about any values of the molar gas constant you would want [https://en.wikipedia.org/wiki/Gas_constant](https://en.wikipedia.org/wiki/Gas_constant)
+
+
+## The Takeaways
+
+1. For most quantities, you can convert from one set of units to another with *conversion factors*. e.g., $1\ \mathrm{inch} = 25.4\ \mathrm{mm}$
+2. A very accurate source of conversion factors is the [N.I.S.T website](https://www.nist.gov/pml/owm/metric-si/unit-conversion).
+3. Many web search engines will do unit conversions for you.
+4. *Temperature* conversions are more complicated and require their own video.
+
+:::{.fragment}
+A final word of advice: Whenever possible, work the problem in the units given.
+:::
+
+#
+
+::: {.centered .bigger}
+</br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

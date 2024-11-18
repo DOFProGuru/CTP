@@ -12,11 +12,11 @@ format:
 # 
 
 ::: {.bigbold180 style="text-align: center;"}
-No Clear Interpretation</br>a Mind-Blowing Math Hack
+No Clear Interpretation</br>A Mind-Blowing Math Hack
 :::
 
 ::: {.bigbold style="text-align: center;"}
-Just The Facts 
+Just The Facts
 :::
 
 ::: {style="text-align: center;"}
@@ -31,61 +31,68 @@ DOFPro Team
 
 ![](steamtable1d.png)
 
-## Linear Interpolation
+## Nonlinear Interpolation
 
-**Properties of Saturated Steam: Temperature Table**
+**Saturated Steam: Temperature Table, Pressure Column**
 
-![](steamtable1dBlowUp.png){.absolute width=50%}
+![](steamtable1dTP.png){.absolute top=15% left=0%}
 
-:::{.fragment .absolute top=15% left=60%}
-$$\frac{y-y_1}{x-x_1}=\frac{y_2-y_1}{x_2-x_1}$$
+:::{.fragment .absolute top=16% left=20%}
+[Polynomial Interpolation](https://en.wikipedia.org/wiki/Polynomial_interpolation)
+
+ - 2nd Order
+ - 3rd Order
+ - 4th Order
 :::
 
-:::{.fragment .absolute top=32% left=11%}
-$$y=\frac{y_2-y_1}{x_2-x_1}({x-x_1})+y_1$$
+:::{.fragment .absolute top=50% left=20%}
+[Cubic Spline Interpolation](https://en.wikipedia.org/wiki/Spline_interpolation)
 :::
 
-:::{.fragment .absolute top=50% left=10%}
-$$\hat{V}=\frac{\hat{V}_2-\hat{V}_1}{T_2-T_1}({T-T_1})+\hat{V}_1$$
+:::{.fragment .absolute top=60% left=20%}
+Variable Transformation
+
+- [Antoine Equation](https://en.wikipedia.org/wiki/Antoine_equation)
+  - based on [Clausius-Clapeyron Equation](https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation) $\ln p^* = -\frac{\Delta \hat{H}_v}{R} \frac{1}{T} +B$
+  - $\log p^*$ vs. $1/T$ close to linear.
 :::
 
-:::{.fragment .absolute top=70% left=10%}
-$$\hat{V}=\frac{106.3-120.8}{10-8}({9-8})+120.8=113.55$$
+
+## Change of Variable $\log p^*$ vs $1/T$
+
+**Saturated Steam: Temperature Table, Pressure Column**
+
+![](steamtable1dTP.png){.absolute top=15% left=0%}
+
+:::{.fragment .absolute top=15% left=20%}
+Use table value at $10\ ^\circ \mathrm{C}\ (0.0123)$ as true value.
 :::
 
-## Double Linear Interpolation
+:::{.fragment .absolute top=25% left=20%}
+Linearly interpolate on $p^*$ and $T\ (^\circ \mathrm{C})$ and compare with linear interpolation on $\ln p^*$ and $1/T\ (\mathrm{K})$. Interpolate with endpoints at
 
-What if you're between values in two dimensions
-
-![](steamtable2d.png)
-
-$T=125\ \mathrm{^\circ C}$
-
-$P=0.3\ \mathrm{bar}$
-
-$\hat{V}=?$
-
-
-## Double Linear Interpolation
-
- - Called double interpolation
- - Have to do three
+- $8\ ^\circ \mathrm{C}$ and $12\ ^\circ \mathrm{C}$
+- $6\ ^\circ \mathrm{C}$ and $14\ ^\circ \mathrm{C}$
+- $4\ ^\circ \mathrm{C}$ and $16\ ^\circ \mathrm{C}$
+- $2\ ^\circ \mathrm{C}$ and $18\ ^\circ \mathrm{C}$
+:::
 
 :::{.fragment}
-![](DoubleInterpTfirst.png)
+![](NonlinearSummary.png){.absolute top=47% left=50% width=50%}
 :::
 
-:::{.fragment}
-![](DoubleInterpPfirst.png)
-:::
+## Interpolation Fit Plots
 
+![](LinearInterpFit.png){.absolute top=8% left=20% width=65%}
+
+![](NonlinearInterpFit.png){.absolute top=53% left=20% width=65%}
 
 ## The Takeaways
 
-1. Linear interpolation is often used in tables.
-2. Remember $slope = slope$ to write formula.
-3. A one-dimensional table requires one interpolation.
-4. A two-dimensional table requires double interpolation, which is really three interpolations.
+1. Linear interpolation is adequate with closely spaced tables or low accuracy requirements.
+2. Higher-order interpolation requires more than two data points.
+3. If you have an approximate model for your table data, a change of variables can greatly increase the accuracy of your interpolation.
+4. Having a program or an app with the full model is better than interpolating in a table.
 
 
 #
