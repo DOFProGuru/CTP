@@ -6,3 +6,4 @@ format: html
 
 # Why Statistics and Measurements
 
+All chemical and thermal processes have one or more outputs, whether it be a chemical product such as benzene or electrical power. The goal of almost all process engineers is to maximize the output for a given cost or minimize the cost for a given output. Engineering is a quantitative discipline, and we have to quantitatively report our inputs and outputs. Since all processes experience random fluctuations from the process itself or from the measurement process, the engineer needs to be able to account for the noise. Statistical methods are the most common ways to report both the inputs and outputs, and the variations or noise in the inputs or outputs.
