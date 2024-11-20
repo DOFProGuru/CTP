@@ -1,0 +1,219 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# The Most Annoying Equation Conversion</br>Just the Facts{.bigbold90}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+#
+
+::: {.bigger .centered}
+*The Most Annoying Equation Conversion* is an episode of the Degrees of Freedom Project, *Just the Facts* videos on chemical and thermal principles. If you want *The Full Story* version with an in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.
+:::
+
+## Conversion Videos
+
+- This Video – *The Most Annoying Equation Conversion* explains how to convert an equation as opposed to a calculated or measured quantity from one set of units to another.
+- The First Video – *Is Furlongs Per Fortnight a Thing?* explains how to convert a measured or calculated quantity from one set of units to another (except for temperatures).
+- The Second Video – *How Keen Is Your Rank?* explains how to convert temperatures and temperature intervals.
+
+
+## Changing Units in an Equation
+
+:::{.fragment .absolute top=10% left=0%}
+An empirical equation for the enthalpy of nitrogen
+:::
+
+:::{.fragment .absolute top=20% left=10%}
+$\hat{H} = 1.04 T - 26$
+:::
+
+:::{.fragment .absolute top=30% left=0%}
+where $\hat{H}$ is in $\mathrm{kJ/kg}$ and $T$ is in $^\circ \mathrm{C}$.
+:::
+
+:::{.fragment .absolute top=40% left=0%}
+You’re doing work for a company that always uses gas enthalpies in $\text{Btu/lb-mol}$, and temperature in $^\circ \mathrm{F}$. They want an equation that
+will give
+:::
+
+:::{.fragment .absolute top=62% left=10%}
+$\hat{h} = f(t)$,
+:::
+
+:::{.fragment .absolute top=72% left=0%}
+where $\hat{h}$ is in $\text{Btu/lb-mol}$, and $t$ is in $^\circ \mathrm{F}$. How do you transform your equation into such an equation?
+:::
+
+## Changing Units (cont.)
+
+There are many methods to derive $f(t)$, but the following is a relatively easy and guaranteed method.
+
+1. Start with the variable in the target units (in our case  $\text{Btu/lb-mol}$ and $^\circ \mathrm{F}$).
+
+2. Convert them using dimensional equations and/or temperature equations to the original units (in our case $\mathrm{kJ/kg}$  and $^\circ \mathrm{C}$).
+
+3. Plug the converted expressions into the original equation.
+
+4. Simplify.
+
+
+## Apply Steps
+
+:::{.absolute top=10% left=0%}
+1. Start with $\hat{h}$ in  $\text{Btu/lb-mol}$ and $t$ in  $^\circ \mathrm{F}$.
+:::
+
+:::{.absolute top=20% left=0%}
+2. Convert $\hat{h}$ to $\mathrm{kJ/kg}$ and $t$ to $^\circ \mathrm{C}$
+:::
+
+:::{.fragment .absolute top=35% left=5%}
+$\hat{h}\ \frac{\mathrm{Btu}}{\text{lb-mol}} \vert \frac{1.054\ \mathrm{kJ}}{\mathrm{Btu}} \vert \frac{\text{lb-mol}}{28.01\ \mathrm{lb_m}} \vert \frac{2.205\ \mathrm{lb_m}}{\mathrm{kg}} = 0.08297\ \frac{\mathrm{kJ}}{\mathrm{kg}}(\hat{h})$
+:::
+:::{.fragment .absolute top=50% left=5%}
+$\frac{5}{9}(t-32)$
+:::
+
+:::{.absolute top=60% left=0%}
+3. Plug into $\hat{H} = 1.04 T -26$.
+:::
+
+## 
+
+4. Simplify
+
+:::{.fragment .absolute top=15% left=5%}
+$(0.08297 \hat{h}) = 1.04 \left[\frac{5}{9}(t-32)\right] - 26$
+:::
+
+:::{.fragment .absolute top=30% left=5%}
+$0.08297 \hat{h} = 1.04 \left(\frac{5t}{9}-\frac{160}{9}\right) - 26$
+:::
+
+:::{.fragment .absolute top=45% left=5%}
+$\hat{h} = \frac{1}{0.08297} \left[\left(\frac{5.20t}{9}-\frac{166.4}{9}\right) - 26\right]$
+:::
+
+:::{.fragment .absolute top=60% left=5%}
+$\boxed{\hat{h} = 6.964t-536.2}$ ,
+
+where $\hat{h}$ in $\text{Btu/lb-mol}$ and $t$ is in $^\circ \mathrm{F}$.
+:::
+
+
+## 
+
+You can verify the procedure by calculating a few values of enthalpy for values of $T$ with the original equation, convert the values to $\text{Btu/lb-mol}$ and $^\circ \mathrm{F}$ and compare with what you get for the converted equation.
+
+:::{.fragment .absolute top=30% left=0%}
+If you don’t follow this method, you are almost guaranteed to get things inverted or just plain wrong
+:::
+
+## Another Example
+
+:::{.absolute top=10% left=0%}
+The *Antoine equation*, as discussed in Wikipedia, is used to calculate the vapor pressure of a pure species. The Antoine equation in Wikipedia is:
+:::
+
+:::{.fragment .absolute top=35% left=10%}
+$\log_{10}p^* = A - \frac{B}{T + C}$
+:::
+
+:::{.fragment .absolute top=50% left=0%}
+where $p^*$ is in $\mathrm{mmHg}$ and $T$ is in $^\circ \mathrm{C}$. Convert the equation to the form
+:::
+
+:::{.fragment .absolute top=70% left=10%}
+$\ln P^{sat} = a - \frac{b}{t + c}$
+:::
+
+:::{.fragment .absolute top=85% left=0%}
+where $P^{sat}$ is in $\mathrm{kPa}$ and $t$ is in $\mathrm{K}$.
+:::
+
+## 
+
+:::{.absolute top=0% left=0%}
+1. Start with the variables in the *target* units:
+:::
+
+:::{.fragment .absolute top=15% left=7%}
+$\ln (P^{sat}\ \mathrm{kPa})$, $t\ \mathrm{K}$
+:::
+
+:::{.absolute top=28% left=0%}
+2. Convert them to the *original* units:
+:::
+
+:::{.fragment .absolute top=41% left=7%}
+$\log_{10} e \cdot \ln \left(P^{sat} \frac{\mathrm{kPa}}{} \vert \frac{760\ \mathrm{mmHg}}{101.325\ \mathrm{kPa}} \vert \right)$ , $(t\ \mathrm{K}) - 273.15$
+:::
+
+:::{.absolute top=54% left=0%}
+3. Plug the *converted* expressions into the *original* equation.
+:::
+
+:::{.fragment .absolute top=70% left=7%}
+$\log_{10} e \cdot \ln \left(P^{sat} \frac{\mathrm{kPa}}{} \vert \frac{760\ \mathrm{mmHg}}{101.325\ \mathrm{kPa}} \vert \right) = A - \frac{B}{(t\ \mathrm{K}) - 273.15 + C}$
+:::
+
+
+## 
+
+4. Simplify
+
+:::{.fragment .absolute top=15% left=5%}
+$\ln(7.50062 P^{sat}\ \mathrm{kPa}) = \frac{1}{\log_{10} e}\left[A - \frac{B}{(t\ \mathrm{K}) - 273.15 + C}\right]$
+:::
+
+:::{.fragment .absolute top=30% left=5%}
+$\ln(7.50062)+\ln(P^{sat}\ \mathrm{kPa}) = 2.30259 A - \frac{2.30259 B}{(t\ \mathrm{K}) + C- 273.15}$
+:::
+
+:::{.fragment .absolute top=45% left=5%}
+$\ln(P^{sat}\ \mathrm{kPa}) = 2.30259 A - 2.01499 - \frac{2.30259 B}{(t\ \mathrm{K}) + C- 273.15}$
+:::
+
+:::{.fragment .absolute top=60% left=5%}
+$a = 2.30259 A - 2.01499$ ,
+:::
+
+:::{.fragment .absolute top=70% left=5%}
+$b = 2.30259 B$ ,
+:::
+
+:::{.fragment .absolute top=80% left=5%}
+$c = C -273.15$
+:::
+
+## The Takeaways
+
+To convert an equation (as opposed to a value or a variable) from one set of units to another set of units, do the following steps:
+
+1. Start with the variables in the target units (the ones you want to end up in)
+2. Convert your target-unit variables to the original units with dimensional equations and/or temperature conversions. Don’t forget the difference between temperatures and temperature intervals. They get converted differently.
+3. Plug the converted variables into the original equations.
+4. Do the arithmetic and algebraic simplifications.
+
+
+#
+
+::: {.centered .bigger}
+</br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
