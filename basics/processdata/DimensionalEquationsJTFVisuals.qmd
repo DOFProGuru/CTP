@@ -78,7 +78,7 @@ $35.7\ \mathrm{inch} = \frac{35.7\ \mathrm{inch}}{} | \frac{25.4\ \mathrm{mm}}{1
 :::
 
 :::{.fragment .absolute top=36% left=0%}
-is known as a dimensional equation and it will handle most of your unitconversion issues. Here is a dimensional equation to convert $344\ \mathrm{m/s}$ to furlongs per fortnight using exact NIST values.
+is known as a dimensional equation and it will handle most of your unit-conversion issues. Here is a dimensional equation to convert $344\ \mathrm{m/s}$ to furlongs per fortnight using exact NIST values.
 :::
 
 :::{.fragment .absolute top=65% left=10%}
@@ -163,27 +163,29 @@ Hit return to get a calculator with available conversions and units.
 
 ## Common Conversions Worth Memorizing{.bigbold75}
 
-:::{.absolute top=10% left=0%}
+:::{style="font-size: 70pt;"}
+
+:::{.fragment .absolute top=10% left=0%}
 Exact
 :::
 
-:::{.fragment .absolute top=15% left=10%}
+:::{.fragment .absolute top=18% left=10%}
 $\frac{25.4\ \mathrm{mm}}{1\ \mathrm{inch}}$,
 :::
 
-:::{.fragment .absolute top=15% left=25%}
+:::{.fragment .absolute top=18% left=25%}
 $\frac{101\ 325\ \mathrm{Pa}}{1\ \mathrm{atm}}$,
 :::
 
-:::{.fragment .absolute top=15% left=40%}
+:::{.fragment .absolute top=18% left=43%}
 $\frac{4.184\ \mathrm{J}}{1\ \mathrm{cal_{th}}}$,
 :::
 
-:::{.fragment .absolute top=15% left=52%}
+:::{.fragment .absolute top=18% left=57%}
 $\frac{9\ \mathrm{^\circ R}}{5\ \mathrm{K}}$,
 :::
 
-:::{.fragment .absolute top=14.4% left=60%}
+:::{.fragment .absolute top=17.2% left=68%}
 $\frac{4.184\ \mathrm{J/kg\cdot K}}{1\ \mathrm{Btu_{th}/(lb_m \cdot ^\circ R)}}$.
 :::
 
@@ -195,7 +197,7 @@ Close to Exact (just memorize 3 or 4 sig figs)
 $\frac{0.453\ 592\ 4\ \mathrm{kg}}{1\ \mathrm{lb_m}}$,
 :::
 
-:::{.fragment .absolute top=40.4% left=30%}
+:::{.fragment .absolute top=40.4% left=31%}
 $\frac{4.448\ 222\ \mathrm{N}}{1\ \mathrm{lb_f}}$,
 :::
 
@@ -214,7 +216,7 @@ $\frac{2.2\ \mathrm{lb_m}}{1\ \mathrm{kg}}$,
 :::{.fragment .absolute top=65% left=25%}
 $\frac{1\ \mathrm{Btu/s}}{1\ \mathrm{kW}}$.
 :::
-
+:::
 ## Useful Links
 
 - The NIST conversions to SI in alphabetical order [https://tinyurl.com/ydb2jcoc](https://tinyurl.com/ydb2jcoc)
@@ -231,7 +233,10 @@ $\frac{1\ \mathrm{Btu/s}}{1\ \mathrm{kW}}$.
 4. *Temperature* conversions are more complicated and require their own video.
 
 :::{.fragment}
-A final word of advice: Whenever possible, work the problem in the units given.
+Some final words of advice: Whenever possible, work the problem in the units given.
+:::
+:::{.fragment}
+Don't confuse the *pound mass*, $\mathrm{lb_m}$, the *pound force*, $\mathrm{lb_f}$, and the *pound mole*, $\text{lb-mol}$.
 :::
 
 #

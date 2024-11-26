@@ -53,22 +53,60 @@ $$1\ \mathrm{lb_m} \equiv 0.453\ 592\ 37\ \mathrm{kg}$$
   - $\text{ton-mol}$
   - $\text{tonne-mol}$
 
-You should NEVER convert your mass in kg or lbm to g, and then
-to g-mol. You should ALWAYS use the kind of mole your mass is
+:::{.fragment .absolute Top=70% left=0%}
+You should NEVER convert your mass in $\text{kg}$ or $\mathrm{lb_m}$ to $\mathrm{g}$, and then
+to $\text{g-mol}$. You should ALWAYS use the kind of mole your mass is
 in. The conversion factor is simply the molecular weight.
+:::
+
 
 ## Mole (cont.)
 
 The molecular weight of methane is:
 
-MCH4
-=16.0425 g
-g-mol
-=16.0425 kg
-kg-mol
-=16.0425
-lbm
-lb-mol
+$M_\mathrm{CH_4} = 16.0425\ \frac{\text{g}}{\text{g-mol}} = 16.0425\ \frac{\text{kg}}{\text{kg-mol}} = 16.0425\ \frac{\mathrm{lb_m}}{\text{lb-mol}}$
+
+To calculate the pounds of oxygen ($M = 31.9988$) required to completely burn three pounds of methane:
+
+$\mathrm{CH_4} + 2 \mathrm{O_2} \rightarrow \mathrm{CO_2} + 2 \mathrm{H_2O} \implies \frac{2\ \text{lb-mol }\mathrm{O_2}}{1\ \text{lb-mol }\mathrm{CH_4}}$
+
+$\frac{3\ \mathrm{lb_m\ CH_4}}{16.0425\ \frac{\mathrm{lb_m\ CH_4}}{\text{lb-mol CH}_4}} \frac{2\ \text{lb-mol }\mathrm{O_2}}{1\ \text{lb-mol }\mathrm{CH_4}} \frac{31.9988\ \mathrm{lb_m\ O_2}}{1\ \text{lb-mol O}_2} = 11.9678\ \mathrm{lb_m\ O_2}$ 
+
+Calculating it any other way is just a waste of time and brain effort.
+
+## Mass Fractions and Mole Fractions
+
+$x$, $y$, and $z$ are all used for both *mass fractions* and *mole fractions*. $x_\mathrm{A}$ can be the mass fraction of species $\mathrm{A}$ or the mole fraction of species $\mathrm{A}$. Likewise for $y_\mathrm{A}$ and $z_\mathrm{A}$. Convention usually uses:
+
+- $x$ for fractions in a solid or liquid mixture,
+- $y$ for fractions in a gas mixture, and
+- $z$ for the overall fraction in a gas-liquid, liquid-solid, or gas-solid mixture.
+
+
+## Conversions
+
+To convert from mass fraction, $x$, to mole fraction, $y$:
+
+$y_\mathrm{A} = \frac{\frac{x_\mathrm{A}}{M_\mathrm{A}}}{\sum \frac{x_i}{M_i}}$
+
+To convert from mole fraction, $y$, to mass fraction, $x$:
+
+$x_\mathrm{A} = \frac{y_\mathrm{A} M_\mathrm{A}}{\sum y_i M_i}$
+
+## Mole-Averaged and Mass-Averaged Molecular Weight{.bigbold60}
+
+The mole-averaged (or number-averaged) molecular weight is
+
+$\bar{M} = \sum y_i M_i = \left(\sum \frac{x_i}{M_i}\right)^{-1}$
+
+The mass-averaged molecular weight is
+
+$\bar{M}_m = \sum x_i M_i = \frac{\sum y_i M_i^2}{\sum y_i M_i}$
+
+The mole-averaged molecular weight is most often used for
+mixtures of gases. The mass-averaged molecular weight is most
+often used for polymers.
+
 ## The Takeaways
 
 1. Pressure is the second most commonly measured process variable.
