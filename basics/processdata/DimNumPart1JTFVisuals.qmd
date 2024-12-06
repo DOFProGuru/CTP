@@ -1,0 +1,99 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Where Does Sherwood</br>Hide His Unit?</br>Just the Facts{.bigbold85}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+##
+
+This video covers three topics
+
+- Dimensionless numbers or dimensionless groups
+- Dimensional homogeneity
+- Arguments of transcendental functions are dimensionless.
+
+## Dimensinless Numbers
+
+- Reduce data complexity
+- Found using [Buckingham $\pi$ theorem](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem)
+- Example is Reynolds number, $Re$.
+
+$Re = \frac{\rho u D}{\mu} = \frac{u D}{\nu}$
+
+$\nu = \frac{\mu}{\rho}$
+
+$\mathrm{momentum} \propto \rho u$, $\mathrm{viscous\ force} \propto \mu/D$
+
+$Re$ is ratio of momentum to viscous drag.
+
+$Sh = \frac{k l}{\mathscr{D}}$ is ratio of convective to diffusive transport.
+
+## Dimensional Homogeneity
+
+All terms in an equation must have the same dimensions.
+
+$x - x_0 = v_0 t + \frac{1}{2} a t^2$
+
+$x$ and $x_0$ have units of length.
+
+$v_0 t$ must have units of length. If $t$ has units of time, then $v_0$ must have units of length per time or velocity.
+
+$\frac{1}{2}a t^2$ must have units of length. If $t^2$ has units of time squared, then $a$ or $\frac{1}{2}a$ must have units of length per time squared, or acceleration.
+
+More examples in next video.
+
+## Transcendental Functions
+
+- Arguments of transcendental functions are dimensionless.
+- Transcendental functions are dimensionless as well.
+
+- What are the dimensions of $\omega$ in $y = \sin \omega t$?
+    - Since $t$ is in [time] then $\omega$ must be in $[\mathrm{time}^{-1}]$.
+- What are the dimensions of $a$ and $\omega$ in $x = x_0 e^{-a t} \cos \omega t$?
+    - Since $t$ is in [time] then both $a$ and $\omega$ must be in $[\mathrm{time}^{-1}]$.
+- What are the dimensions of $\tau$ in $T = T_0 e^{-t / \tau }$
+    - Since $t$ is in [time] then $\tau$ must be in [time].
+
+## Implied Units
+
+If the argument of a transcendental function appears to have units, then there must be an implied unit, such as 1 milliwatt inside the function.
+
+$x\ \mathrm{dB} = 20 \log_{10} \frac{A}{A_0}$ or $x\ \mathrm{dB} = 10 \log_{10} \frac{P}{P_0}$
+
+If $A_0$ or $P_0$ are not explicitly given, they are implied, e.g.,
+
+For $\mathrm{dBm}$, $P_0 = 1\ \mathrm{mW}$.
+
+For $\mathrm{dBu}$, $A_0 = 0.7746\ \mathrm{V}$.
+
+
+## The Takeaways
+
+1. There are ways to combine variables or measured quantities to create *dimensionless numbers*, which help reduce the measurements you need to make to characterize your system.
+2. All of the terms in an equation must have the same dimensions. In other words, equations must have *dimensional homogeneity*.
+3. Arguments of *transcendental functions* must be *dimensionless*.
+4. Decibels often have an implicit reference or denominator used in their calculation.
+
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *What the Schmidt? Examples*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

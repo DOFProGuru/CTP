@@ -1,0 +1,146 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# What the Schmidt?</br>Just the Facts{.bigbold85}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+##
+
+This video gives examples of three topics
+
+- Dimensionless numbers or dimensionless groups
+- Dimensional homogeneity
+- Arguments of transcendental functions are dimensionless.
+
+## Dimensinless Numbers
+
+- Most famous is Reynolds number, $Re$.
+
+$Re = \frac{\rho u D}{\mu} = \frac{u D}{\nu}$
+
+$\mathrm{momentum} \propto \rho u$, $\mathrm{viscous\ force} \propto \mu/D$
+
+$Re$ is ratio of momentum to viscous drag.
+
+For a pipe, the transition from viscous flow to inertial flow occurs between $Re = 2000$ and $Re = 3000$.
+
+## Reynolds Number Example
+
+Pipe Picture with labels, $D$, $u$, $\rho$, $\mu$ in Am Eng and SI.
+
+American Engineering
+
+$Re = \frac{\rho u D}{\mu} = \frac{62.4\ \frac{\mathrm{lb_m}}{\mathrm{ft^3}}\cdot 10\ \frac{\mathrm{ft}}{\mathrm{s}}\cdot \frac{3}{12}\ \mathrm{ft}}{2.5791 \times 10^{-5}\ \frac{\mathrm{lb_f\ s}}{\mathrm{m^2}}} = 6.049 \times 10^6\ \frac{\mathrm{lb_m\ ft}}{\mathrm{lb_f\ s^2}}$
+
+$1 = \frac{1\ \mathrm{lb_f\ s^2}}{32.174\ \mathrm{lb_m\ ft}}$
+
+$Re =  6.049 \times 10^6\ \frac{\mathrm{lb_m\ ft}}{\mathrm{lb_f\ s^2}} \cdot \frac{1\ \mathrm{lb_f\ s^2}}{32.174\ \mathrm{lb_m\ ft}} = 1.880 \times 10^5$
+
+##
+
+In SI
+
+$Re = \frac{\rho u D}{\mu} = \frac{999.55\ \frac{\mathrm{kg}}{\mathrm{m^3}}\cdot 3.048\ \frac{\mathrm{m}}{\mathrm{s}}\cdot \frac{76.3}{1000}\ \mathrm{m}}{1.2349 \times 10^{-3}\ \frac{\mathrm{N\ s}}{\mathrm{ft^2}}} = 1.880 \times 10^5\ \frac{\mathrm{kg\ m}}{\mathrm{N\ s^2}}$
+
+$1 = \frac{1\ \mathrm{N\ s^2}}{\mathrm{kg\ m}}$
+
+$Re = 1.880 \times 10^5\ \frac{\mathrm{kg\ m}}{\mathrm{N\ s^2}} \cdot \frac{1\ \mathrm{N\ s^2}}{\mathrm{kg\ m}} = 1880 \times 10^5$
+
+## Table of Dimensionless Numbers
+
+Nusselt Number $Nu=\frac{h l}{k}$ ratio of convective to conductive heat transfer
+
+Prandtl Number $Pr = \frac{\nu}{\alpha}= \frac{C_P \mu}{k}$ ratio of viscous to thermal diffusion
+
+Fourier Number $Fo = \frac{\alpha t}{l^2}$ ratio of diffusive to storage rates
+
+Sherwood Number $Sh = \frac{k l}{\mathscr{D}}$ ratio of convective to diffusive mass transport
+
+Schmidt Number $Sc = \frac{\nu}{\mathscr{D}} = \frac{\mu}{\rho \mathscr{D}}$ ratio of viscous to mass diffusion
+
+## Dimensional Homogeneity
+
+First Example – The integrated rocket equation
+
+$\Delta v = I_\mathrm{sp} g_0 \ln \frac{m_0}{m_f}$
+
+As the argument to $\ln$, $m_0/m_f$ must be unitless, so $m_0$ and $m_f$ must have the same units, in this case, mass.
+
+$I_\mathrm{sp} g_0$ must have the same units as $v$, or in SI, \mathrm{m/s}. 
+
+$g_0$ (or $g$) has units of $\mathrm{m/s^2}$ So $I_\mathrm{sp}$ has units of seconds.
+
+Double check 
+
+$I_\mathrm{sp} = \frac{I_\mathrm{total}}{w_\mathrm{fuel}}$
+
+$I_\mathrm{total}$ has units of $\mathrm{N\ s}$, and $w_\mathrm{fuel}$ has units of ${\mathrm{N}}$.
+
+So, $I_\mathrm{sp}$ has units of seconds
+
+##
+
+Second Example – The rocket equation for gravity and constant $C_D$.
+
+$a = \frac{T}{m}-g-\frac{1}{2}C_D A_P \frac{\rho}{m}v^2$
+
+$a$ is in $\mathrm{m/s^2}$
+
+$T/m$ must be in $\mathrm{m/s^2}$. Since $m$ is in $\mathrm{kg}$, $T$ must be in $\mathrm{kg\ m/s^2}$ or $\mathrm{N}$, which it is.
+
+$g$ is in $\mathrm{m/s^2}$, as it must be.
+
+$\rho/m$ is in $\mathrm{m^{-3}}$. $A_P$ is in $\mathrm{m^2}$. $v^2$ is in $\mathrm{m^2/s^2}$.
+
+So $A_P \frac{\rho}{m}v^2$ is in units of $\mathrm{m^2/s^2}$ and $C_D$ is dimensioness.
+
+## Transcendental Functions
+
+Equation of the rocket altitude for constant thrust and constant $C_D$.
+
+$x-x_0= \frac{v^2_{\text{max}}}{b}\left\{\ln{\left[\cosh{\left(\frac{b}{v_{\text{max}}}(t-t_0)+\tanh^{-1}{\frac{v_0}{v_{\text{max}}}}\right)}\right] - \ln{\left[\cosh{\left(\tanh^{-1}{\frac{v_0}{v_{\text{max}}}}\right)}\right]}}\right\}$
+
+$v_0/v_\mathrm{max}$ is dimensionless, as it must be.
+
+$\tanh^{-1}$ is dimensionless.
+
+$\cosh$ is dimensionless.
+
+$\frac{b}{v_{\text{max}}}(t-t_0)$ must be dimensionless.
+
+$v_{\text{max}}$ is in $\mathrm{m/s}$. $t$ and $t_0$ are in seconds.
+
+So $b$ must have dimensions of $\mathrm{m/s^2}$
+
+So $v^2_{\mathrm{max}}/b$ has dimensions of $m$ like $x$ and $x_0$.
+
+## The Takeaways
+
+1. There are ways to combine variables or measured quantities to create *dimensionless numbers*, which help reduce the measurements you need to make to characterize your system.
+2. All of the terms in an equation must have the same dimensions. In other words, equations must have *dimensional homogeneity*.
+3. Arguments of *transcendental functions* must be *dimensionless*.
+
+
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *What the Schmidt? Examples*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
