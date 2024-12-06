@@ -1,0 +1,126 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Speed Balancing</br>Just the Facts
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+## Definitions
+
+PFD
+: Process Flow Diagram or flowsheet. A schematic drawing of the mixers, dividers, separators, reactors and other unit operations used in the process.
+
+Recycle
+: Part of a product stream is returned to the feed of a process.
+
+## Definitions (cont.)
+
+Bypass
+: Part of the feed is routed around a process and mixed with the product.
+
+Purge
+: A stream used to prevent buildup of trace components in a recycle loop.
+
+## Definitions (cont.)
+
+Tie Component
+: A component of the feed which is unchanged by a process. Often useful for calculations but never necessary.
+
+Overall Balance
+: Treating a PFD as a black box with only inputs and outputs.
+
+## Solving Your System Equations
+
+>Engineering is solving story problems where you often have to make up the story.
+
+>Bookkeeping is just arithmetic and definitions, but it needs to be done correctly.
+
+>There are many ways to solve a problem correctly. You want to develop a systematic approach, and not treat each problem as an isolated issue.
+
+#### One Useful Technique
+
+1. Draw a flowchart (PFD) and fill in all given variable values.
+2. Convert quantities to a consistent set of units. 
+3. Choose a basis of calculation (usually an amount or flow rate of one of the process streams).
+
+## Solving System Equations (cont.)
+
+4. Label unknown stream variables on the chart. Use a consistent system of labeling.
+5. Because volumes and volumetric flow rates are not conserved quantities, convert stream volumes to masses or moles, and volumetric flow rates to mass or molar flow rates.
+6. Convert mixed mass and mole units to either all mass or all mole units.
+7. Write material balance equations.
+8. Write other problem constraints as equations.
+
+## Solving System Equations (cont.)
+
+9. Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget?
+10. Solve the equations.
+11. Convert the answers to the desired units.
+
+
+## Example
+
+A bathtub with a partially open drain valve begins filling with water at a rate of 5 gallons per minute. The partially open valve has an equation relating the outlet flow rate to the depth of the water of (fill in equation) with the depth in centimeters and the flow rate in liters per hour. What is the steady-state depth of the water in inches?
+
+
+## Solution
+
+1. Draw a flowchart (PFD) and fill in all given variable values. Here is a PFD with all given information.
+2. Convert quantities to a consistent set of units. Since the units are mixed (not all SI or American Engineering), we’ll convert to SI to work the problem: Gallons per minute and liters per hour to cubic meters per second, centimeters and inches to meters.
+3. Choose a basis of calculation (usually an amount or flow rate of one of the process streams). The obvious basis is the input flow rate of 5 gallons per hour or 0.000315451 cubic meters per second. There are other less useful choices.
+
+## Solution (cont.)
+
+4. Label unknown stream variables on the chart. Use a consistent system of labeling. Here are the unknown streams.
+5. Because volumes and volumetric flow rates are not conserved quantities, convert stream volumes to masses or moles, and volumetric flow rates to mass or molar flow rates. There is no value in converting to a mass flow rate for this problem, because we are going to assume the temperature of the water, and therefore the specific volume doesn’t change appreciably. If we had to convert, we would use the approximate value of 1000 kg/m3 (true at 4 °C).
+6. Convert mixed mass and mole units to either all mass or all mole units. Not applicable for this problem.
+
+## Solution (cont.)
+
+7. Write material balance equations. The mass balance is that at steady state the mass flow rate in equals the mass flow rate out, and therefore the volumetric flow rate in equals the volumetric flow rate out because m_dot equals rho V_dot and we assume rho doesn’t change.
+8. Write other problem constraints as equations. The problem constraint is (eq) which we’ll convert to meters and cubic meters per second, as discussed in The Most Annoying Equation Conversion video.
+
+## Solution (cont.)
+
+9. Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget? We have two equations, the volume balance, and the valve equation, in two unknowns, the volumetric flow rate out and the steady-state depth.
+10. Solve the equations. The solution is
+11. Convert the answers to the desired units. The depth in meters converted to inches is.
+
+## Speed Tips
+
+1. If it’s not needed, Don’t solve for everything.
+2. Write equations in order of number of unknowns from fewest to most.
+3. Try overall balances first.
+4. Check out if any tie components would be useful.
+5. Remember mole fractions or mass fractions add up to 1.
+6. Usually, solving a recycle loop requires a complete set of equations around the loop.
+
+
+## The Takeaways
+
+1. Learn to recognize things given in the definitions like a PFD, recycle, and bypass.
+2. Develop a systematic style to set up and solve problems. Use the given style if you don’t have your own.
+3. Check out the speed tips and see if they help.
+
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *How to Keep Your Balance*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

@@ -1,0 +1,137 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# How to Keep Your Balance</br>Just the Facts{.bigbold85}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+##
+
+>Engineering is solving story problems where you often have to make up the story.
+
+>Bookkeeping is just arithmetic and definitions, but it needs to be done correctly.
+
+>There are many ways to solve a problem correctly. You want to develop a systematic approach, and not treat each problem as an isolated issue.
+
+ - This video, *How to Keep Your Balance*, discusses systems in chemical and thermal principles and defines the general balance equation.
+  - The companion video, *Speed Balancing*, gives additional definitions, hints and suggestions on how to quickly and correctly solve your balance equations for your systems.
+
+## What is a system?
+
+ - The terms *systems* and *processes* are used interchangably.
+ - It is a collection of inputs, outputs, and transformations.
+   - It may be a single unit process, e.g., a distillation column.
+   - It may be a collection, e.g., an oil refinery.
+   - It may be more abstract.
+ - It is modeled with sets of equations:
+   - Conservation laws or balance equations
+   - Constitutive equations
+
+## Working with systems
+
+### Define your system type and boundaries
+
+1. Transient or Steady State
+    a. Transient – Process variables change with time.
+    b. Steady State – Process variables *do not* change with time, but may change with position.
+2. How mass crosses the boundary
+    a. Batch or Closed – Mass does *not* cross system boundary during processing.
+        - In steady-state batch systems, nothing happens.
+    b. Continuous or Open – Mass crosses system boundary during processing.
+    c. Semibatch – Mass enters or exits, but not both.
+
+
+## Examples
+
+- Open Transient, filling bathtub with leak
+- Open Steady State, bathtub flow in equals flow out
+- Semibatch Transient, filling bathtub
+- Closed transient, cooling full bathtub
+- Closed steady State, Room Temperature full bathtub
+
+
+## Additional system definitions
+
+- Control Volume – Fixed size and shape volume containing process, almost always open
+- Insulated – No heat energy crosses the boundary.
+- Isolated – Neither mass nor energy cross the boundary.
+
+
+## General Balance Equations
+
+$$\mathrm{Input} + \mathrm{Gen.} = \mathrm{Consump.} + \mathrm{Accum.} + \mathrm{Output}$$
+
+- Input – what goes into a system
+- Generation – generated within the system
+- Output – what comes out of the system
+- Consumption – consumed within the system
+- Accumulation – accumulated within the system
+
+## Chemical and Thermal Process Order{.bigbold85}
+
+1. Material Balances
+    - Mass balances
+    - Mole balances
+2. Energy Balances a.k.a. 1st Law of Thermodynamics
+3. Entropy Balances a.k.a. 2nd Law of Thermodynamics
+4. Exergy Balances, used in process efficiency calculations
+
+For conserved quantities, $\mathrm{Generation} = \mathrm{Consumption} \equiv 0$.
+
+For steady-state systems, $\mathrm{Consumption} \equiv 0$
+
+## Differential and Integral Balances
+
+Differential
+
+- All terms are rate terms, e.g., mol/s, gal/hr, pg/yr.
+- Defined for an instant in time.
+- Often actual differential equations.
+- Most often for continuous systems.
+
+Integral
+
+- All terms are amounts e.g., mol, gal, pg.
+- Defined as change between two times.
+- Most often for batch processes.
+
+
+## Intensive and Extensive Properties
+
+- Intensive Property – Does *not* depend on the mass or moles present.
+    - Examples, $T$, $P$, $\rho$, $x_i$
+    - Specific or molar properties are intensive.
+- Extensive Property – *Depends* on the mass or moles present.
+    - Examples, weight, volume
+    - Usually has a related intensive property, e.g., $V$, $\hat{V}$.
+
+
+## The Takeaways
+
+1. Always define your system. You need to decide if it is open, closed, or semibatch, if it is transient or steady state, if it is a control volume or not, if it is insulated or not, and if it is isolated or not.
+2. Next you need your balance equation or equations for mass or moles, for energy, for entropy, and/or for exergy.
+3. Determine if you need a differential balance or an integral balance.
+4. For conserved quantities, the consumption and generation terms are zero.
+5. For steady-state systems, the accumulation term is zero.
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, Speed Balancing, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
