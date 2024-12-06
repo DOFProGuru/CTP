@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.39">
 
-  <title>Chemical and Thermal Processes – whystatstfs1visuals</title>
+  <title>Chemical and Thermal Processes – speedbalancingjtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -126,255 +126,152 @@
     <div class="slides">
 
 
-<section id="how-deviant-and-mean-are-your-data" class="title-slide slide level1 center">
-<h1>How Deviant and Mean Are Your Data?</h1>
-<div class="bigbold" style="text-align: center;">
-<p>Intro and Basics Part 1<br>Just the Facts</p>
-</div>
-<div style="text-align: center;">
-<p>DOFPro Team</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -30%; left: 26%; "></p>
-</section>
-
 <section>
-<section id="how-deviant-and-mean-are-your-data-1" class="title-slide slide level1 center">
-<h1>How Deviant and Mean Are Your Data?</h1>
-<div class="bigbold" style="text-align: center;">
-<p>Intro and Basics Part 1<br>The Full Story</p>
-</div>
+<section id="speed-balancingjust-the-facts" class="title-slide slide level1 center">
+<h1>Speed Balancing<br>Just the Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -30%; left: 26%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
-<section id="scale-video-tba" class="slide level2">
-<h2>Scale Video TBA</h2>
+<section id="definitions" class="slide level2">
+<h2>Definitions</h2>
+<dl>
+<dt class="fragment">PFD</dt>
+<dd class="fragment">
+Process Flow Diagram or flowsheet. A schematic drawing of the mixers, dividers, separators, reactors and other unit operations used in the process.
+</dd>
+<dt class="fragment">Recycle</dt>
+<dd class="fragment">
+Part of a product stream is returned to the feed of a process.
+</dd>
+</dl>
 </section>
-<section id="ruler-video-tbs" class="slide level2">
-<h2>Ruler Video TBS</h2>
+<section id="definitions-cont." class="slide level2">
+<h2>Definitions (cont.)</h2>
+<dl>
+<dt class="fragment">Bypass</dt>
+<dd class="fragment">
+Part of the feed is routed around a process and mixed with the product.
+</dd>
+<dt class="fragment">Purge</dt>
+<dd class="fragment">
+A stream used to prevent buildup of trace components in a recycle loop.
+</dd>
+</dl>
 </section>
-<section id="voltmeter-video-tba" class="slide level2">
-<h2>Voltmeter Video TBA</h2>
+<section id="definitions-cont.-1" class="slide level2">
+<h2>Definitions (cont.)</h2>
+<dl>
+<dt class="fragment">Tie Component</dt>
+<dd class="fragment">
+A component of the feed which is unchanged by a process. Often useful for calculations but never necessary.
+</dd>
+<dt class="fragment">Overall Balance</dt>
+<dd class="fragment">
+Treating a PFD as a black box with only inputs and outputs.
+</dd>
+</dl>
 </section>
-<section id="thermistor-video-tba" class="slide level2">
-<h2>Thermistor Video TBA</h2>
+<section id="solving-your-system-equations" class="slide level2">
+<h2>Solving Your System Equations</h2>
+<blockquote>
+<p>Engineering is solving story problems where you often have to make up the story.</p>
+</blockquote>
+<blockquote>
+<p>Bookkeeping is just arithmetic and definitions, but it needs to be done correctly.</p>
+</blockquote>
+<blockquote>
+<p>There are many ways to solve a problem correctly. You want to develop a systematic approach, and not treat each problem as an isolated issue.</p>
+</blockquote>
+<h4 id="one-useful-technique">One Useful Technique</h4>
+<ol type="1">
+<li class="fragment">Draw a flowchart (PFD) and fill in all given variable values.</li>
+<li class="fragment">Convert quantities to a consistent set of units.</li>
+<li class="fragment">Choose a basis of calculation (usually an amount or flow rate of one of the process streams).</li>
+</ol>
 </section>
-<section id="reporting-uncertainty" class="slide level2">
-<h2>Reporting Uncertainty</h2>
-<div class="fragment absolute" style="top: 12%; left: 10%; ">
-<p><span class="math inline">\(m = 1.03 \pm 0.03\ \mathrm{kg}\text{ (95% confidence)}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 22%; left: 10.7%; ">
-<p><span class="math inline">\(u = 2.36 \pm 0.04\ \mathrm{\frac{m}{s}}\text{ (95% confidence)}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 32%; left: 8%; ">
-<p><span class="math inline">\(mu = 2.43 \pm 0.08\ \mathrm{\frac{(kg\cdot m)}{s} }\text{ (95% confidence)}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 42%; left: 3.3%; ">
-<p><span class="math inline">\(\frac{1}{2}mu^2 = 2.87 \pm 0.13\ \mathrm{J}\text{ (95% confidence)}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 55%; left: 0%; ">
-<p>A future video will teach you how to propagate the uncertainty. <span class="math inline">\(\textbf{Remember!}\)</span> A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities.</p>
-</div>
+<section id="solving-system-equations-cont." class="slide level2">
+<h2>Solving System Equations (cont.)</h2>
+<ol start="4" type="1">
+<li class="fragment">Label unknown stream variables on the chart. Use a consistent system of labeling.</li>
+<li class="fragment">Because volumes and volumetric flow rates are not conserved quantities, convert stream volumes to masses or moles, and volumetric flow rates to mass or molar flow rates.</li>
+<li class="fragment">Convert mixed mass and mole units to either all mass or all mole units.</li>
+<li class="fragment">Write material balance equations.</li>
+<li class="fragment">Write other problem constraints as equations.</li>
+</ol>
 </section>
-<section id="reporting-functional-uncertainty" class="slide level2">
-<h2>Reporting Functional Uncertainty</h2>
-<p><img data-src="Spring.png" class="absolute" style="top: 25%; left: 5%; width: 30%; "></p>
-<div class="absolute smalltable" style="top: 48%; left: 8.5%; ">
-<p>CC BY-SA 3.0, <a href="https://commons.wikimedia.org/w/index.php?curid=26544">link</a></p>
-</div>
-<div class="fragment">
-<p><img data-src="X_f.png" class="absolute" style="top: 15%; left: 5%; width: 15%; "> <img data-src="X_n.png" class="absolute" style="top: 15%; left: 31%; width: 15%; "></p>
-</div>
-<div class="fragment">
-<p><img data-src="F_s.png" class="absolute" style="top: 11%; left: 29%; width: 15%; "></p>
-</div>
-<div class="fragment absolute" style="top: 55%; left: 7%; ">
-<p><span class="math inline">\(F_\mathrm{s} = k(x_\mathrm{n}-x_\mathrm{f})\)</span></p>
-</div>
-<div class="fragment">
-<p><img data-src="force-displacement-graph.png" class="absolute" style="top: 24%; left: 40%; width: 50%; "></p>
-</div>
-<div class="fragment absolute" style="top: 72%; left: 30%; ">
-<p><span class="math inline">\(F_\mathrm{_s} = 30.00 \pm 2.50\ \mathrm{(95\%\ conf.)\ N/m}(x\mathrm{_n}-x\mathrm{_f})\)</span></p>
-</div>
+<section id="solving-system-equations-cont.-1" class="slide level2">
+<h2>Solving System Equations (cont.)</h2>
+<ol start="9" type="1">
+<li class="fragment">Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget?</li>
+<li class="fragment">Solve the equations.</li>
+<li class="fragment">Convert the answers to the desired units.</li>
+</ol>
 </section>
-<section id="true-mean-and-standard-deviation" class="slide level2">
-<h2>True Mean and Standard Deviation</h2>
-<div class="absolute" style="top: 10%; left: 2%; ">
-<p>True value of a measured quantity <span class="math inline">\(:=\)</span><sup>1</sup> True Mean or Population Mean.</p>
-</div>
-<div class="fragment absolute" style="top: 25%; left: 7%; ">
-<p><span class="math inline">\(\mu \equiv\)</span> True or Population Mean,</p>
-</div>
-<div class="fragment absolute" style="top: 35%; left: 2%; ">
-<p>i.e., <span class="math inline">\(\mu =\ \)</span>average value from infinite-precision, full population measurement (almost never known).</p>
-</div>
-<div class="fragment absolute" style="top: 50%; left: 2%; ">
-<p>Distribution of data about the true mean <span class="math inline">\(:=\)</span> True Standard Deviation or Population Standard Deviation.</p>
-</div>
-<div class="fragment absolute" style="top: 65%; left: 7%; ">
-<p><span class="math inline">\(\sigma \equiv\)</span> True or Population Standard Deviation</p>
-</div>
-<div class="fragment absolute" style="top: 75%; left: 2%; ">
-<p>i.e., <span class="math inline">\(\sigma =\ \)</span>standard deviation given true mean and infinite-precision data points (also almost never known).</p>
-</div>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>Math has borrowed “:=” from Computer Science to mean <em>is called</em>.</p></li></ol></aside></section>
-<section id="sample-mean-and-residuals" class="slide level2">
-<h2>Sample Mean and Residuals</h2>
-<div class="fragment">
-<p>Set of Measurements</p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(\{x_1,\ x_2,\ \ldots,\ x_N\}\)</span></p>
-</div>
-<div class="fragment">
-<p>e.g., <span class="math inline">\(x_1 = 43.15\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 33%; left: 0%; ">
-<p>A set of <span class="math inline">\(N\)</span> measurements</p>
-</div>
-<div class="fragment absolute" style="top: 38%; left: 0%; ">
-<p>implies a set of</p>
-</div>
-<div class="fragment absolute" style="top: 43%; left: 0%; ">
-<p><span class="math inline">\(N\)</span> independent equations</p>
-</div>
-<div class="fragment absolute" style="top: 56.5%; left: 5%; ">
-<p><span class="math inline">\(\bar{x}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 55%; left: 8%; ">
-<p><span class="math inline">\(=\frac{\sum_{i=1}^Nx_i}{N}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 56.5%; left: 23%; ">
-<p><span class="math inline">\(\approx\mu\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 65%; left: 5%; ">
-<p><span class="math inline">\(\bar{x} \equiv\)</span> sample mean</p>
-</div>
-<div class="fragment absolute" style="top: 75%; left: 0%; ">
-<p>How do we estimate <span class="math inline">\(\mu - \bar{x}\)</span>?</p>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 10%; left: 50%; ">
-<p>Can we calculate the error</p>
-</div>
-<div class="absolute" style="top: 17.5%; left: 55%; ">
-<p><span class="math inline">\(\varepsilon_i =\mu-x_i\)</span>?</p>
-</div>
-</div>
-<div class="fragment absolute" style="top: 25%; left: 50%; ">
-<p>Set of Errors</p>
-</div>
-<div class="fragment absolute" style="top: 25%; left: 72%; ">
-<p><span class="math inline">\(\{\varepsilon_1,\ \varepsilon_2,\ \ldots,\ \varepsilon_N \}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 35%; left: 50%; ">
-<p>We don’t know <span class="math inline">\(\mu\)</span>, so…</p>
-</div>
-<div class="fragment absolute" style="top: 45%; left: 50%; ">
-<p>Calculate the residuals:</p>
-</div>
-<div class="fragment absolute" style="top: 52.5%; left: 55%; ">
-<p><span class="math inline">\(e\mathrm{_i} = \bar{x} - x_i\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 60%; left: 50%; ">
-<p>Set of Residuals</p>
-</div>
-<div class="fragment absolute" style="top: 65%; left: 55%; ">
-<p><span class="math inline">\(\{e_1,\ e_2,\ \ldots,\ e_N \}\)</span></p>
-</div>
-<div class="fragment">
-<p><img data-src="Sideways_bracket.png" class="absolute" style="top: 70%; left: 55%; width: 28%; "></p>
-</div>
-<div class="fragment absolute" style="top: 75%; left: 52%; ">
-<p>estimate of the errors</p>
-</div>
-<div class="fragment absolute" style="top: 80%; left: 52%; ">
-<p>based on <span class="math inline">\(\bar{x}\)</span>, not <span class="math inline">\(\mu\)</span></p>
-</div>
+<section id="example" class="slide level2">
+<h2>Example</h2>
+<p>A bathtub with a partially open drain valve begins filling with water at a rate of 5 gallons per minute. The partially open valve has an equation relating the outlet flow rate to the depth of the water of (fill in equation) with the depth in centimeters and the flow rate in liters per hour. What is the steady-state depth of the water in inches?</p>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
-<div class="absolute bigbold" style="top: 0%; left: 0%; ">
-<p>Sample Variance and Standard Deviation</p>
-</div>
-<div class="fragment absolute" style="top: 10%; left: 50%; ">
-<p>True variance</p>
-</div>
-<div class="fragment absolute" style="top: 17%; left: 50%; ">
-<p><span class="math inline">\(\sigma^2=\frac{\displaystyle{\sum_{i=1}^N \varepsilon^2_i}}{N}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 10%; left: 0%; ">
-<p>Sample variance</p>
-</div>
-<div class="fragment absolute" style="top: 17%; left: 5%; ">
-<p><span class="math inline">\(S^2=\frac{\displaystyle{\sum_{i=1}^N e^2_i}}{N-1}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 40%; left: 0%; ">
-<p><span class="math inline">\(\bar{x},\ e,\)</span> and <span class="math inline">\(S^2\)</span> are calculated from the <span class="math inline">\(x_i\)</span>.</p>
-</div>
-<div class="fragment absolute" style="top: 40%; left: 64%; ">
-<p><span class="math inline">\(\mu,\ \varepsilon,\)</span> and <span class="math inline">\(\sigma^2\)</span> are not.</p>
-</div>
-<div class="fragment absolute" style="top: 51%; left: 0%; ">
-<p>We lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.</p>
-</div>
-<div class="fragment absolute" style="top: 66%; left: 0%; ">
-<p>The true standard deviation, <span class="math inline">\(\sigma=\sqrt{\sigma^2}\)</span>.</p>
-</div>
-<div class="fragment absolute" style="top: 76%; left: 0%; ">
-<p>The sample standard deviation, <span class="math inline">\(S=\sqrt{S^2}\)</span>.</p>
-</div>
+<section id="solution" class="slide level2">
+<h2>Solution</h2>
+<ol type="1">
+<li class="fragment">Draw a flowchart (PFD) and fill in all given variable values. Here is a PFD with all given information.</li>
+<li class="fragment">Convert quantities to a consistent set of units. Since the units are mixed (not all SI or American Engineering), we’ll convert to SI to work the problem: Gallons per minute and liters per hour to cubic meters per second, centimeters and inches to meters.</li>
+<li class="fragment">Choose a basis of calculation (usually an amount or flow rate of one of the process streams). The obvious basis is the input flow rate of 5 gallons per hour or 0.000315451 cubic meters per second. There are other less useful choices.</li>
+</ol>
 </section>
-<section id="are-we-there-yet" class="slide level2">
-<h2>Are We There Yet?</h2>
-<iframe data-external="1" src="https://www.youtube.com/embed/SEVGxD_Jqjs?si=ZOvRA7lUCqKJqY9w&amp;t=16" width="100%" height="70%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-<div class="fragment">
-<p>Can we estimate <span class="math inline">\(\mu - \bar{x}\)</span> yet?</p>
-</div>
-<div class="fragment">
-<p>No, but we can estimate the spread of our data from <span class="math inline">\(S\)</span>.</p>
-</div>
+<section id="solution-cont." class="slide level2">
+<h2>Solution (cont.)</h2>
+<ol start="4" type="1">
+<li class="fragment">Label unknown stream variables on the chart. Use a consistent system of labeling. Here are the unknown streams.</li>
+<li class="fragment">Because volumes and volumetric flow rates are not conserved quantities, convert stream volumes to masses or moles, and volumetric flow rates to mass or molar flow rates. There is no value in converting to a mass flow rate for this problem, because we are going to assume the temperature of the water, and therefore the specific volume doesn’t change appreciably. If we had to convert, we would use the approximate value of 1000 kg/m3 (true at 4 °C).</li>
+<li class="fragment">Convert mixed mass and mole units to either all mass or all mole units. Not applicable for this problem.</li>
+</ol>
+</section>
+<section id="solution-cont.-1" class="slide level2">
+<h2>Solution (cont.)</h2>
+<ol start="7" type="1">
+<li class="fragment">Write material balance equations. The mass balance is that at steady state the mass flow rate in equals the mass flow rate out, and therefore the volumetric flow rate in equals the volumetric flow rate out because m_dot equals rho V_dot and we assume rho doesn’t change.</li>
+<li class="fragment">Write other problem constraints as equations. The problem constraint is (eq) which we’ll convert to meters and cubic meters per second, as discussed in The Most Annoying Equation Conversion video.</li>
+</ol>
+</section>
+<section id="solution-cont.-2" class="slide level2">
+<h2>Solution (cont.)</h2>
+<ol start="9" type="1">
+<li class="fragment">Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget? We have two equations, the volume balance, and the valve equation, in two unknowns, the volumetric flow rate out and the steady-state depth.</li>
+<li class="fragment">Solve the equations. The solution is</li>
+<li class="fragment">Convert the answers to the desired units. The depth in meters converted to inches is.</li>
+</ol>
+</section>
+<section id="speed-tips" class="slide level2">
+<h2>Speed Tips</h2>
+<ol type="1">
+<li class="fragment">If it’s not needed, Don’t solve for everything.</li>
+<li class="fragment">Write equations in order of number of unknowns from fewest to most.</li>
+<li class="fragment">Try overall balances first.</li>
+<li class="fragment">Check out if any tie components would be useful.</li>
+<li class="fragment">Remember mole fractions or mass fractions add up to 1.</li>
+<li class="fragment">Usually, solving a recycle loop requires a complete set of equations around the loop.</li>
+</ol>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Responsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.</li>
-<li class="fragment">The most common estimate for the central value of a set of measurements is the <em>sample mean</em>.</li>
-<li class="fragment">The most commonly reported value for the spread of a set of measurements is the <em>sample standard deviation</em>.</li>
-<li class="fragment">Most people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.</li>
+<li class="fragment">Learn to recognize things given in the definitions like a PFD, recycle, and bypass.</li>
+<li class="fragment">Develop a systematic style to set up and solve problems. Use the given style if you don’t have your own.</li>
+<li class="fragment">Check out the speed tips and see if they help.</li>
 </ol>
-<div class="fragment">
-<p>The discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2</p>
-</div>
 </section></section>
-<section id="section-1" class="title-slide slide level1 center">
+<section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Just The Facts</em> companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.</p>
-</div>
-<div class="absolute" style="top: 125%; left: 35%; ">
-<p>The DOFPro Team</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The companion video in the series, <em>How to Keep Your Balance</em>, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
-</section>
-
-<section id="section-2" class="title-slide slide level1 center">
-<h1></h1>
-<div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> <em>The Full Story</em> companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.</p>
-</div>
-<div class="absolute" style="top: 125%; left: 40%; ">
-<p>The DOFPro Team</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 29%; "></p>
 
 
 </section>
-
-
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png" class="slide-logo"></p>
@@ -557,7 +454,7 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 3840,
+        width: 2700,
 
         height: 2160,
 
@@ -567,7 +464,7 @@
         maxScale: 8,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
