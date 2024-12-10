@@ -88,14 +88,14 @@
     "href": "basics/processdata/DimNumPart1JTFVisuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "This video covers three topics\n\nDimensionless numbers or dimensionless groups\nDimensional homogeneity\nArguments of transcendental functions are dimensionless."
+    "text": "This video covers three concepts\n\n1 – Dimensionless numbers or dimensionless groups\n\n\n2 – Dimensional homogeneity\n\n\n3 – Arguments of transcendental functions are      dimensionless."
   },
   {
-    "objectID": "basics/processdata/DimNumPart1JTFVisuals.html#dimensinless-numbers",
-    "href": "basics/processdata/DimNumPart1JTFVisuals.html#dimensinless-numbers",
+    "objectID": "basics/processdata/DimNumPart1JTFVisuals.html#dimensionless-numbers",
+    "href": "basics/processdata/DimNumPart1JTFVisuals.html#dimensionless-numbers",
     "title": "Chemical and Thermal Processes",
-    "section": "Dimensinless Numbers",
-    "text": "Dimensinless Numbers\n\nReduce data complexity\nFound using Buckingham \\(\\pi\\) theorem\nExample is Reynolds number, \\(Re\\).\n\n\\(Re = \\frac{\\rho u D}{\\mu} = \\frac{u D}{\\nu}\\)\n\\(\\nu = \\frac{\\mu}{\\rho}\\)\n\\(\\mathrm{momentum} \\propto \\rho u\\), \\(\\mathrm{viscous\\ force} \\propto \\mu/D\\)\n\\(Re\\) is ratio of momentum to viscous drag.\n\\(Sh = \\frac{k l}{\\mathscr{D}}\\) is ratio of convective to diffusive transport."
+    "section": "Dimensionless Numbers",
+    "text": "Dimensionless Numbers\n\nReduce data complexity\n\n\nFound using Buckingham \\(\\pi\\) theorem\n\n\nExample is Reynolds number, \\(Re\\).\n\n\n\\(Re = \\frac{\\rho u D}{\\mu} = \\frac{u D}{\\nu}\\)\n\n\n\\(\\nu = \\frac{\\mu}{\\rho}\\)\n\n\n\\(\\mathrm{Momentum} \\propto \\rho u\\)\n\\(\\mathrm{Viscous\\ force} \\propto \\mu/D\\)\n\n\n\\(Re\\) is ratio of momentum to viscous drag.\n\n\n\\(Sh = \\frac{k l}{\\mathscr{D}}\\) is ratio of convective to diffusive transport."
   },
   {
     "objectID": "basics/processdata/DimNumPart1JTFVisuals.html#dimensional-homogeneity",
