@@ -1,7 +1,7 @@
 ---
 format:
   revealjs:
-    width: 2700
+    width: 3840
     height: 2160
     max-scale: 8
     logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
@@ -10,13 +10,22 @@ format:
     html-math-method: mathjax
 ---
 
+# Is Furlongs Per Fortnight a Thing?</br>The Full Story{.bigbold90}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="-55%"}
+
 # Is Furlongs Per Fortnight a Thing?</br>Just the Facts{.bigbold90}
 
 ::: {style="text-align: center;"}
 DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="-55%"}
+
 
 #
 
