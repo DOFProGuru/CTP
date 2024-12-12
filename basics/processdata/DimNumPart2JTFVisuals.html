@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-e8beadede1e70cab3b288efb965a0893.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-fefa623d29087b318469404c06f0966e.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -137,21 +137,33 @@
 <section id="section" class="slide level2">
 <h2></h2>
 <p>This video gives examples of three topics</p>
-<ul>
-<li class="fragment">Dimensionless numbers or dimensionless groups</li>
-<li class="fragment">Dimensional homogeneity</li>
-<li class="fragment">Arguments of transcendental functions are dimensionless.</li>
-</ul>
+<div class="absolute" style="top: 15%; left: 2%; ">
+<p>• Dimensionless numbers or dimensionless groups</p>
+</div>
+<div class="absolute" style="top: 30%; left: 2%; ">
+<p>• Dimensional homogeneity</p>
+</div>
+<div class="absolute" style="top: 45%; left: 2%; ">
+<p>• Arguments of transcendental functions are &nbsp;&nbsp;&nbsp;dimensionless.</p>
+</div>
 </section>
 <section id="dimensinless-numbers" class="slide level2">
 <h2>Dimensinless Numbers</h2>
-<ul>
-<li class="fragment">Most famous is Reynolds number, <span class="math inline">\(Re\)</span>.</li>
-</ul>
+<div class="absolute" style="top: 10%; left: 2%; ">
+<p>Most famous is Reynolds number, <span class="math inline">\(Re\)</span>.</p>
+</div>
+<div class="absolute" style="top: 20%; left: 5%; ">
 <p><span class="math inline">\(Re = \frac{\rho u D}{\mu} = \frac{u D}{\nu}\)</span></p>
-<p><span class="math inline">\(\mathrm{momentum} \propto \rho u\)</span>, <span class="math inline">\(\mathrm{viscous\ force} \propto \mu/D\)</span></p>
+</div>
+<div class="absolute" style="top: 30%; left: 5%; ">
+<p><span class="math inline">\(\mathrm{momentum} \propto \rho u\)</span>,<br><span class="math inline">\(\mathrm{viscous\ force} \propto \mu/D\)</span></p>
+</div>
+<div class="absolute" style="top: 45%; left: 2%; ">
 <p><span class="math inline">\(Re\)</span> is ratio of momentum to viscous drag.</p>
+</div>
+<div class="absolute" style="top: 55%; left: 2%; ">
 <p>For a pipe, the transition from viscous flow to inertial flow occurs between <span class="math inline">\(Re = 2000\)</span> and <span class="math inline">\(Re = 3000\)</span>.</p>
+</div>
 </section>
 <section id="reynolds-number-example" class="slide level2">
 <h2>Reynolds Number Example</h2>
@@ -170,15 +182,26 @@
 </section>
 <section id="table-of-dimensionless-numbers" class="slide level2">
 <h2>Table of Dimensionless Numbers</h2>
-<p>Nusselt Number <span class="math inline">\(Nu=\frac{h l}{k}\)</span> ratio of convective to conductive heat transfer</p>
-<p>Prandtl Number <span class="math inline">\(Pr = \frac{\nu}{\alpha}= \frac{C_P \mu}{k}\)</span> ratio of viscous to thermal diffusion</p>
-<p>Fourier Number <span class="math inline">\(Fo = \frac{\alpha t}{l^2}\)</span> ratio of diffusive to storage rates</p>
-<p>Sherwood Number <span class="math inline">\(Sh = \frac{k l}{\mathscr{D}}\)</span> ratio of convective to diffusive mass transport</p>
-<p>Schmidt Number <span class="math inline">\(Sc = \frac{\nu}{\mathscr{D}} = \frac{\mu}{\rho \mathscr{D}}\)</span> ratio of viscous to mass diffusion</p>
+<div class="absolute" style="top: 10%; left: 0%; ">
+<p>Nusselt Number: <span class="math inline">\(Nu=\frac{h l}{k}\)</span><br>&nbsp;&nbsp;• Ratio of convective to conductive heat transfer</p>
+</div>
+<div class="absolute" style="top: 25%; left: 0%; ">
+<p>Prandtl Number: <span class="math inline">\(Pr = \frac{\nu}{\alpha}= \frac{C_P \mu}{k}\)</span><br>&nbsp;&nbsp;• Ratio of viscous to thermal diffusion</p>
+</div>
+<div class="absolute" style="top: 40%; left: 0%; ">
+<p>Fourier Number: <span class="math inline">\(Fo = \frac{\alpha t}{l^2}\)</span><br>&nbsp;&nbsp;• Ratio of diffusive to storage rates</p>
+</div>
+<div class="absolute" style="top: 55%; left: 0%; ">
+<p>Sherwood Number: <span class="math inline">\(Sh = \frac{k l}{\mathscr{D}}\)</span><br>&nbsp;&nbsp;• Ratio of convective to diffusive mass transport</p>
+</div>
+<div class="absolute" style="top: 70%; left: 0%; ">
+<p>Schmidt Number: <span class="math inline">\(Sc = \frac{\nu}{\mathscr{D}} = \frac{\mu}{\rho \mathscr{D}}\)</span><br>&nbsp;&nbsp;• Ratio of viscous to mass diffusion</p>
+</div>
 </section>
 <section id="dimensional-homogeneity" class="slide level2">
 <h2>Dimensional Homogeneity</h2>
-<p>First Example – The integrated rocket equation</p>
+<p>As explained in <em>Where Does Sherwood Hide His Unit?</em>, all terms in an equation must be dimensionally homogeneous.</p>
+<h4 id="first-example-the-integrated-rocket-equation">First Example – The integrated rocket equation</h4>
 <p><span class="math inline">\(\Delta v = I_\mathrm{sp} g_0 \ln \frac{m_0}{m_f}\)</span></p>
 <p>As the argument to <span class="math inline">\(\ln\)</span>, <span class="math inline">\(m_0/m_f\)</span> must be unitless, so <span class="math inline">\(m_0\)</span> and <span class="math inline">\(m_f\)</span> must have the same units, in this case, mass.</p>
 <p><span class="math inline">\(I_\mathrm{sp} g_0\)</span> must have the same units as <span class="math inline">\(v\)</span>, or in SI, .</p>
