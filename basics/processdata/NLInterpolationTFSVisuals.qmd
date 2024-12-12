@@ -1,0 +1,135 @@
+---
+format: 
+  revealjs:
+    width: 3840
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+# 
+
+::: {.bigbold180 style="text-align: center;"}
+No Clear Interpretation</br>A Mind-Blowing Math Hack
+:::
+
+::: {.bigbold style="text-align: center;"}
+The Full Story
+:::
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="-50%"}
+
+# 
+
+::: {.bigbold180 style="text-align: center;"}
+No Clear Interpretation</br>A Mind-Blowing Math Hack
+:::
+
+::: {.bigbold style="text-align: center;"}
+Just The Facts
+:::
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="-50%"}
+
+## 
+
+**Properties of Saturated Steam: Temperature Table**
+
+![](steamtable1d.png)
+
+## Nonlinear Interpolation
+
+**Saturated Steam: Temperature Table, Pressure Column**
+
+![](steamtable1dTP.png){.absolute top=15% left=0%}
+
+:::{.fragment .absolute top=16% left=20%}
+[Polynomial Interpolation](https://en.wikipedia.org/wiki/Polynomial_interpolation)
+
+ - 2nd Order
+ - 3rd Order
+ - 4th Order
+:::
+
+:::{.fragment .absolute top=50% left=20%}
+[Cubic Spline Interpolation](https://en.wikipedia.org/wiki/Spline_interpolation)
+:::
+
+:::{.fragment .absolute top=60% left=20%}
+Variable Transformation
+
+- [Antoine Equation](https://en.wikipedia.org/wiki/Antoine_equation)
+  - based on [Clausius-Clapeyron Equation](https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation) $\ln p^* = -\frac{\Delta \hat{H}_v}{R} \frac{1}{T} +B$
+  - $\log p^*$ vs. $1/T$ close to linear.
+:::
+
+
+## Change of Variable $\log p^*$ vs $1/T$
+
+**Saturated Steam: Temperature Table, Pressure Column**
+
+![](steamtable1dTP.png){.absolute top=15% left=0%}
+
+:::{.fragment .absolute top=15% left=20%}
+Use table value at $10\ ^\circ \mathrm{C}\ (0.0123)$ as true value.
+:::
+
+:::{.fragment .absolute top=25% left=20%}
+Linearly interpolate on $p^*$ and $T\ (^\circ \mathrm{C})$ and compare with linear interpolation on $\ln p^*$ and $1/T\ (\mathrm{K})$. Interpolate with endpoints at
+
+- $8\ ^\circ \mathrm{C}$ and $12\ ^\circ \mathrm{C}$
+- $6\ ^\circ \mathrm{C}$ and $14\ ^\circ \mathrm{C}$
+- $4\ ^\circ \mathrm{C}$ and $16\ ^\circ \mathrm{C}$
+- $2\ ^\circ \mathrm{C}$ and $18\ ^\circ \mathrm{C}$
+:::
+
+:::{.fragment}
+![](NonlinearSummary.png){.absolute top=47% left=50% width=50%}
+:::
+
+## Interpolation Fit Plots
+
+![](LinearInterpFit.png){.absolute top=8% left=20% width=65%}
+
+![](NonlinearInterpFit.png){.absolute top=53% left=20% width=65%}
+
+## The Takeaways
+
+1. Linear interpolation is adequate with closely spaced tables or low accuracy requirements.
+2. Higher-order interpolation requires more than two data points.
+3. If you have an approximate model for your table data, a change of variables can greatly increase the accuracy of your interpolation.
+4. Having a program or an app with the full model is better than interpolating in a table.
+
+
+#
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=40%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="100%"}
+
+
+#
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=40%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="100%"}

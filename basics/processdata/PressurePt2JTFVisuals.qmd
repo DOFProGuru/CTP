@@ -209,7 +209,7 @@ Background CC BY-SA 3.0 [link](https://commons.wikimedia.org/wiki/File:VacuumCha
 |---------|------------------------|------------|------------|
 | HV      | High Vacuum            | $10^{-1}$  | $10^{-5}$  |
 | UHV     | Ultrahigh Vacuum       | $10^{-5}$  | $10^{-10}$ |
-| EHV     | Extrememly High Vacuum | $10^{-10}$ | $<10^{-10}$|
+| XHV     | eXtrememly High Vacuum | $10^{-10}$ | $<10^{-10}$|
 
 :Pressure ranges
 :::
@@ -219,7 +219,7 @@ Background CC BY-SA 3.0 [link](https://commons.wikimedia.org/wiki/File:VacuumCha
 1. Absolute, gauge, and atmospheric pressure are related by $P_\mathrm{abs} = P_\mathrm{g}+P_\mathrm{atm}$.
 2. Barometric and atmospheric pressure are related through the Standard Atmospheric Model.
 3. The vacuum pressure is the absolute value of the gauge pressure below atmospheric.
-4. The High Vacuum (HV) range is from $10^{-1}$ to $10^{-5}\ \mathrm{Pa}$, Ultrahigh Vacuum (UHV) from $10^{-5}$ to $10^{-10}\ \mathrm{Pa}$, and Extremely High Vacuum (EHV) is $10^{-10}\ \mathrm{Pa}$ and below.
+4. The High Vacuum (HV) range is from $10^{-1}$ to $10^{-5}\ \mathrm{Pa}$, Ultrahigh Vacuum (UHV) from $10^{-5}$ to $10^{-10}\ \mathrm{Pa}$, and eXtremely High Vacuum (XHV) is $10^{-10}\ \mathrm{Pa}$ and below.
 
 
 #

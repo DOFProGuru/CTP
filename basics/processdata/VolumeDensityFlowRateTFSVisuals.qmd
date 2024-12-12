@@ -25,6 +25,22 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="-50%" width=50%}
 
+#
+
+::: {.bigbold180 style="text-align: center;"}
+Are You Dense? Crank Up the Volume and Go With the Flow!
+::: 
+
+::: {.bigbold style="text-align: center;"}
+Just The Facts
+:::
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="-50%" width=50%}
+
 # What is the relationship between density and specific volume?
 
 
@@ -291,7 +307,7 @@ The DOFPro Team
 
 #
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}

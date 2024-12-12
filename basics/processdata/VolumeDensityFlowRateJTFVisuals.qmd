@@ -32,26 +32,29 @@ DOFPro Team
 **Mass Density (Density)**, $\rho\ \equiv$ mass per unit volume
 :::
 
-::: {.fragment .absolute top=25% left=0%}
+::: {.fragment}
+:::{.absolute top=25% left=0%}
 SI units: $\mathrm{kg/m^3}$
 :::
 
-::: {.fragment .absolute top=35% left=10%}
+::: {.absolute top=35% left=10%}
 $\rho = \frac{m}{V} = \frac{1}{\hat{V}}$
+:::
 :::
 
 ::: {.fragment  .absolute top=50% left=0%}
 **Specific Volume**, $\hat{V}\ \equiv$ volume per unit mass
 :::
 
-::: {.fragment  .absolute top=60% left=0%}
+::: {.fragment}
+::: {.absolute top=60% left=0%}
 SI units: $\mathrm{m^3/kg}$
 :::
 
-::: {.fragment  .absolute top=70% left=10%}
+::: {.absolute top=70% left=10%}
 $\hat{V} = \frac{V}{m} = \frac{1}{\rho}$
 :::
-
+:::
 
 ## Molar Density and Molar Volume
 
@@ -59,27 +62,35 @@ $\hat{V} = \frac{V}{m} = \frac{1}{\rho}$
 **Molar Density**, $\rho\ \equiv$ moles per unit volume
 :::
 
-::: {.fragment .absolute top=20% left=0%}
+::: {.fragment}
+::: {.absolute top=20% left=0%}
 SI units: $\text{g-mol}/\mathrm{m^3}$ (same units as concentration)
 :::
 
-::: {.fragment .absolute top=30% left=10%}
-$\rho = \frac{n}{V} = \frac{1}{\hat{V}}$
+::: {.absolute top=26% left=0%}
+Chemist units: $\text{mole}/\mathrm{liter}$
 :::
 
-::: {.fragment .absolute top=45% left=0%}
+::: {.absolute top=36% left=10%}
+$\rho = \frac{n}{V} = \frac{1}{\hat{V}}$
+:::
+:::
+
+::: {.fragment .absolute top=51% left=0%}
 **Molar Volume**, $\hat{V}\ \equiv$ volume per mole
 :::
 
-::: {.fragment .absolute top=55% left=0%}
+::: {.fragment}
+::: {.absolute top=61% left=0%}
 SI units: $\mathrm{m^3/}\text{g-mol}$
 :::
 
-::: {.fragment .absolute top=65% left=10%}
+::: {.absolute top=71% left=10%}
 $\hat{V} = \frac{V}{n} = \frac{1}{\rho}$
 :::
+:::
 
-::: {.fragment .absolute top=75% left=0%}
+::: {.fragment .absolute top=81% left=0%}
 We reuse the mass-density symbol for molar density and the specific-volume symbol for molar volume. </br> Check the units to determine which is being used!
 :::
 
