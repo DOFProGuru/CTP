@@ -22,21 +22,39 @@ DOFPro Team
 
 This video gives examples of three topics
 
-- Dimensionless numbers or dimensionless groups
-- Dimensional homogeneity
-- Arguments of transcendental functions are dimensionless.
+::: {.absolute top=15% left=2%}
+• Dimensionless numbers or dimensionless groups
+:::
+
+::: {.absolute top=30% left=2%}
+• Dimensional homogeneity
+:::
+
+::: {.absolute top=45% left=2%}
+• Arguments of transcendental functions are &nbsp;&nbsp;&nbsp;dimensionless.
+:::
 
 ## Dimensinless Numbers
 
-- Most famous is Reynolds number, $Re$.
+::: {.absolute top=10% left=2%}
+Most famous is Reynolds number, $Re$.
+:::
 
+::: {.absolute top=20% left=5%}
 $Re = \frac{\rho u D}{\mu} = \frac{u D}{\nu}$
+:::
 
-$\mathrm{momentum} \propto \rho u$, $\mathrm{viscous\ force} \propto \mu/D$
+::: {.absolute top=30% left=5%}
+$\mathrm{momentum} \propto \rho u$,</br>$\mathrm{viscous\ force} \propto \mu/D$
+:::
 
+::: {.absolute top=45% left=2%}
 $Re$ is ratio of momentum to viscous drag.
+:::
 
+::: {.absolute top=55% left=2%}
 For a pipe, the transition from viscous flow to inertial flow occurs between $Re = 2000$ and $Re = 3000$.
+:::
 
 ## Reynolds Number Example
 
@@ -62,19 +80,31 @@ $Re = 1.880 \times 10^5\ \frac{\mathrm{kg\ m}}{\mathrm{N\ s^2}} \cdot \frac{1\ \
 
 ## Table of Dimensionless Numbers
 
-Nusselt Number $Nu=\frac{h l}{k}$ ratio of convective to conductive heat transfer
+:::{.absolute top=10% left=0%}
+Nusselt Number: $Nu=\frac{h l}{k}$</br>&nbsp;&nbsp;• Ratio of convective to conductive heat transfer
+:::
 
-Prandtl Number $Pr = \frac{\nu}{\alpha}= \frac{C_P \mu}{k}$ ratio of viscous to thermal diffusion
+:::{.absolute top=25% left=0%}
+Prandtl Number: $Pr = \frac{\nu}{\alpha}= \frac{C_P \mu}{k}$</br>&nbsp;&nbsp;• Ratio of viscous to thermal diffusion
+:::
 
-Fourier Number $Fo = \frac{\alpha t}{l^2}$ ratio of diffusive to storage rates
+:::{.absolute top=40% left=0%}
+Fourier Number: $Fo = \frac{\alpha t}{l^2}$</br>&nbsp;&nbsp;• Ratio of diffusive to storage rates
+:::
 
-Sherwood Number $Sh = \frac{k l}{\mathscr{D}}$ ratio of convective to diffusive mass transport
+:::{.absolute top=55% left=0%}
+Sherwood Number: $Sh = \frac{k l}{\mathscr{D}}$</br>&nbsp;&nbsp;• Ratio of convective to diffusive mass transport
+:::
 
-Schmidt Number $Sc = \frac{\nu}{\mathscr{D}} = \frac{\mu}{\rho \mathscr{D}}$ ratio of viscous to mass diffusion
+:::{.absolute top=70% left=0%}
+Schmidt Number: $Sc = \frac{\nu}{\mathscr{D}} = \frac{\mu}{\rho \mathscr{D}}$</br>&nbsp;&nbsp;• Ratio of viscous to mass diffusion
+:::
 
 ## Dimensional Homogeneity
 
-First Example – The integrated rocket equation
+As explained in *Where Does Sherwood Hide His Unit?*, all terms in an equation must be dimensionally homogeneous.
+
+#### First Example – The integrated rocket equation
 
 $\Delta v = I_\mathrm{sp} g_0 \ln \frac{m_0}{m_f}$
 

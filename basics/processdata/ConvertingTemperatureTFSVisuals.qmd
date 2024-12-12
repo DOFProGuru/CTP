@@ -15,7 +15,15 @@ format:
 DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26.5%" top="-55%"}
+
+# How Keen Is Your Rank?</br>Just The Facts{.bigbold90}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26.5%" top="-55%"}
 
 #
 
