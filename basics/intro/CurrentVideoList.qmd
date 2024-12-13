@@ -1,0 +1,27 @@
+---
+title: "Current List of Videos on YouTube"
+author: "DOFPro group"
+format: html
+---
+
+Links to the current videos on YouTube will be maintained here. These are current as of 2024-12-12.
+
+# Table of Videos
+
+| Vid. \# | Title | JTF Link | TFS Link | Info Page | Subject|
+|---------|-------|----------|----------|-----------|--------|
+| 5 | How Deviant and Mean Are Your Data? Intro and Basics Part 1 | [Link](https://youtu.be/3rCYZ8QHRec) | No | [Page](../stats/BasicStatisticsWebPage.qmd) | Mean and Standard Deviation |
+| 5A | How Deviant and Mean Are Your Data? Part 2 | [Link](https://youtu.be/hybGh8oPU_0) | No | [Page](../stats/BasicStatisticsWebPage.qmd) | Standard Error and Confidence Interval |
+| 6 | Basics Statistics by Hand | [Link](https://youtu.be/h7WoWiVLzaw) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ by hand|
+| 21 | Is Your Process Data Spread Smooth or Chunky? | [Link](https://youtu.be/qHsOz7af-GA) | No | [Page](../calculations/DataVisWebPage.qmd) | Data Visualization |
+| 22 | Interpol Is Late to a Mind-Blowing Math Hack | [Link](https://youtu.be/dWMh0ZJc874) | No | [Page](../calculations/InterpolationWebPage.qmd) | Linear Interpolation |
+| 23 | No Clear Interpretation a Mind-Blowing Math Hack | [Link](https://youtu.be/uaxzUbWi7Iw) | No | [Page](../calculations/InterpolationWebPage.qmd) | Nonlinear Interpolation |
+| 27 | Is Furlongs Per Fortnight a Thing? | [Link](https://youtu.be/Rmv1jLhdQ0I) | No | [Page](../processdata/DimensionalEquationsWebPage.qmd) | Unit Conversion |
+| 28 | How Keen Is Your Rank? | [Link](https://youtu.be/0l5akaQvBbE) | No | [Page](../processdata/ConvertingTemperatureWebPage.qmd) | Temperature Conversion |
+| 29 | The Most Annoying Equation Conversion | [Link](https://youtu.be/JE4llgDsy9E) | No | [Page] | Unit Conversion of Equations |
+| 33 | Under Pressure Part 1 | [Link](https://youtu.be/eZFMP-Dt48g) | No | [Page](../processdata/PressureWebPage.qmd) | Pressure Basics |
+| 34 | Under Pressure Part 2 | [Link](https://youtu.be/z8DJ4kpvCMU) | No | [Page](../processdata/PressureWebPage.qmd) | Abs., Atm., Gauge, Barometric Pressure |
+| 35 | What is a Mole? | [Link](https://youtu.be/wHEX0uY69rs) | [Link](https://youtu.be/Kztw9GX9EL8) | [Page](../processdata/WhatIsAMoleWebPage.qmd) | What a mole is |
+| 37 | Are You Dense? Crank Up the Volume and Go With the Flow! | [Link](https://youtu.be/EsPSVVYWQlE) | No | [Page] | Mass, Moles, Density, Volume, and Flow Rates|
+
+
