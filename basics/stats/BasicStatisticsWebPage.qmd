@@ -1,0 +1,129 @@
+---
+title: "*How Deviant and Mean Are Your Data?* (Basic Statistics) Reference Page"
+author: "DOFPro group"
+format: html
+---
+# Purpose of *How Deviant and Mean Are Your Data?*
+
+Engineers must measure and evaluate lots of data. To evaluate data sets, there are basic statistical calculations that must be applied. The most common ones are evaluation of the mean, and determination of the confidence interval around the mean. This set of videos explains the fundamentals of making these calculations and demonstrates how to make them by hand, on a spreadsheet, by using Python, and by using R.
+
+## Intro and Basics, Part 1
+
+*How Deviant and Mean Are Your Data? Intro and Basics Part 1* discusses both *population* or *true mean* and *standard deviation*, and *sample mean* and *standard deviation*, and explains how to calculate them.
+
+### *The Full Story* Video
+
+*The Full Story* Video examines common conceptions and misconceptions about mean and standard deviation, explains how to calculate both true and sample mean and standard deviation, and sets the stage for their use. It is recommended for those who have not been exposed to basic statistics before or who have struggled with understanding what mean and standard deviation are, or how they are used.
+
+**Video Link Goes Here**
+[Visuals](WhyStatsTFS1Visuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+### The *Just The Facts* Video
+
+The *Just The Facts* Video explains how to calculate both true mean and standard deviation, and sample mean and standard deviation, and sets the stage for their use. It is recommended for those who have a reasonably good understanding of mean and standard deviation and are just looking for a refresher or a review.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3rCYZ8QHRec?si=5Oacsu5se4hpU2ft" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](WhyStatsJTF1Visuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Intro and Basics, Part 2
+
+*How Deviant and Mean Are Your Data? Intro and Basics Part 2* discusses *standard error*, *confidence intervals*, and *Student's $t$*, and explains how to calculate them.
+
+### *The Full Story* Video
+
+*The Full Story* Video examines common conceptions and misconceptions about standard error, confidence intervals, and Student's $t$, explains how to calculate them, and explains how they are used. It is recommended for those who have not been exposed to basic statistics before or who have struggled with understanding what standard error, confidence intervals, and Student's $t$ are, or how they are used.
+
+**Video Link Goes Here**
+[Visuals](WhyStatsTFS2Visuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+### The *Just The Facts* Video
+
+The *Just The Facts* Video explains how to calculate standard error, confidence intervals, and Student's $t$, and explains their use. It is recommended for those who have a reasonably good understanding of standard error, confidence intervals, and Student's $t$ and are just looking for a refresher or a review.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hybGh8oPU_0?si=YnGopbr0z9xvlS4l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](WhyStatsJTF2Visuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+
+## The *How To* Videos
+
+### Basic Statistics by Hand
+
+*Basic Statistics by Hand* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by hand with just a calculator and a Student's $t$ table.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h7WoWiVLzaw?si=RxUChj8l7OkyQvTO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Student's $t$ table PDF](../../NotYetHere.qmd), [Student's $t$ table spreadsheet](../../NotYetHere.qmd)
+
+### Basic Statistics with a Spreadsheet
+
+*Basic Statistics with a Spreadsheet* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by first using the spreadsheet as just a calculator, and then by using the built-in statistical functions.
+
+**Video Link goes here**
+[Spreadsheet Link](../../NotYetHere.qmd)
+
+### Basic Statistics in Python
+
+*Basic Statistics in Python* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by using the command line, and by using a script.
+
+**Video Link goes here**
+[Python script](../../NotYetHere.qmd)
+
+### Basic Statistics in R
+
+*Basic Statistics in R* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by using the command line, and by using a script.
+
+**Video Link goes here**
+[R script](../../NotYetHere.qmd)
+
+# Definitions
+
+[True or Population Mean, $\mu$](https://en.wikipedia.org/wiki/Statistical_population#Mean)
+: The exact value of a quantity to be measured, or the arithmetic average value of the set of measurements of an entire population
+
+[Sample Mean, $\bar{x}$](https://en.wikipedia.org/wiki/Sample_mean_and_covariance)
+: The arithmetic mean of a set of sample data, e.g., a set of measurements. $\bar{x}=\frac{\sum_{i=1}^Nx_i}{N}$
+
+[True Variance, $\sigma^2$](https://en.wikipedia.org/wiki/Variance#Population_variance)
+: A measure of the spread of a data set about the true mean. $\sigma^2=\frac{{\sum_{i=1}^N \varepsilon^2_i}}{N}$
+
+[True or Population Standard Deviation, $\sigma$](https://en.wikipedia.org/wiki/Standard_deviation#Definition_of_population_values)
+: Another measure of the spread of a set of data about the true mean. $\sigma = \sqrt{\sigma^2}$
+
+[Sample Variance, $S^2$](https://en.wikipedia.org/wiki/Variance#Sample_variance)
+: A measure of the spread of a data set about the sample mean. $S^2=\frac{{\sum_{i=1}^N e^2_i}}{N-1}$
+
+[Sample Standard Deviation, $S$](https://en.wikipedia.org/wiki/Standard_deviation#Corrected_sample_standard_deviation)
+: Another measure of the spread of a set of data about the sample mean. $S = \sqrt{S^2}$
+
+[Error, $\varepsilon_i$](https://en.wikipedia.org/wiki/Errors_and_residuals)
+: The difference between the true mean and a sample, $\varepsilon = \mu - x_i$.
+
+[Residual, $e_i$](https://en.wikipedia.org/wiki/Errors_and_residuals)
+: The difference between the sample mean and a sample, $e = \bar{x} - x_i$.
+
+[Estimated Standard Error, $S_\bar{x}$](https://en.wikipedia.org/wiki/Standard_error#Estimate)
+: A measure of the spread of the possible sample means about the true mean. $S_\bar{x}=\frac{S}{\sqrt{N}}$
+
+[Student's $t$](https://en.wikipedia.org/wiki/Student%27s_t-distribution)
+: A statistical distribution calculated for small numbers of samples. It approaches the normal distribution for large numbers of samples.
+
+[Confidence interval,  $\bar{x} \pm \lambda$](https://en.wikipedia.org/wiki/Normal_distribution#Confidence_intervals)
+: The interval about the sample mean with a given probability that the true mean lies within it. $\lambda = t S_\bar{x}$
+
+# Additional Links
+
+## Preceding Videos
+
+As of this writing the two sets of videos preceding this set are:
+
+1. *Website Components 1* [The Full Story](../../NotYetHere.qmd), [Just The Facts](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+2. *Website Components 2* [The Full Story](../../NotYetHere.qmd), [Just The Facts](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+
+## Following Videos
+
+As of this writing the two sets of videos following this set are:
+
+1. *Linear Regression* [The Full Story](../../NotYetHere.qmd), [Just The Facts](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+2. *Linear Regression with a Spreadsheet* [How To Video](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+
+## Other Links
+

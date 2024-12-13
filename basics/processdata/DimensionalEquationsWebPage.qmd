@@ -1,0 +1,93 @@
+---
+title: "*Is Furlongs Per Fortnight a Thing?* Reference Page"
+author: "DOFPro group"
+format: html
+---
+# Purpose of *Is Furlongs Per Fortnight a Thing?*
+
+Engineers often have to work with different sets of units. The United States still uses American Engineering units, also known as the US Customary system or Imperial Units in many of its industries. Even in countries that largely use SI units, there are often conversions among kilograms and grams, millimeters, centimeters, meters, and kilometers, and weight is measured in kilograms, not newtons. Engineers must be comfortable in converting from one set of units to another as needed, and do so without making errors. This video explains how to do the most common sort of unit conversion, involving dimensional equations or unit-conversion equations.
+
+A second video, *How Keen Is Your Rank?* [JTF](https://youtu.be/Rmv1jLhdQ0I), [TFS](../../NotYetHere.qmd), [Ref page](../processdata/ConvertingTemperatureWebPage.qmd), explains how to do temperature conversions and temperature interval conversions, many of which can't be done using the methods in this video.
+
+A third video, *The Most Annoying Equation Conversion*, [JTF](https://youtu.be/JE4llgDsy9E), [TFS](../../NotYetHere.qmd), [Ref page](../../NotYetHere.qmd), explains how to convert an equation, as opposed to a measurement or temperature, from one set of units to another.
+
+## *The Full Story* Video
+
+*The Full Story* Video examines common conceptions and misconceptions about unit conversions, explains dimensional equations and then has  examples of their use. It is recommended for those who have not been exposed to unit conversions before or who have struggled to understand how to use them.
+
+**Video Link Goes Here**
+[Images](ConvertingTemperatureTFSVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+## The *Just The Facts* Video
+
+The *Just The Facts* Video discusses unit conversions, explains dimensional equations and then has examples of their use. It is recommended for those who have a reasonably good understanding of unit conversion and are just looking for a refresher or a review.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rmv1jLhdQ0I?si=w3wrNsu4G8J5D6nv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Images](ConvertingTemperatureJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Some Common Conversions
+
+### Exact
+
+$\frac{25.4\ \mathrm{mm}}{1\ \mathrm{inch}}$,&nbsp;&nbsp;
+$\frac{101\ 325\ \mathrm{Pa}}{1\ \mathrm{atm}}$,&nbsp;&nbsp;
+$\frac{4.184\ \mathrm{J}}{1\ \mathrm{cal_{th}}}$,&nbsp;&nbsp;
+$\frac{9\ \mathrm{^\circ R}}{5\ \mathrm{K}}$,&nbsp;&nbsp;
+$\frac{4.184\ \mathrm{J/kg\cdot K}}{1\ \mathrm{Btu_{th}/(lb_m \cdot ^\circ R)}}$.
+
+### Close to Exact (just memorize 3 or 4 sig figs)
+
+$\frac{0.453\ 592\ 4\ \mathrm{kg}}{1\ \mathrm{lb_m}}$,&nbsp;&nbsp;
+$\frac{4.448\ 222\ \mathrm{N}}{1\ \mathrm{lb_f}}$,&nbsp;&nbsp;
+$\frac{0.946\ 352\ 9\ \mathrm{L}}{1\ \mathrm{qt}}$.
+
+### Mass to Weight and Vice Versa
+
+American Engineering: $\frac{1\ \mathrm{lb_f\ s^2}}{32.174\ \mathrm{lb_m\ ft}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SI: $\frac{1\ \mathrm{N\ s^2}}{\mathrm{kg\ m}}$
+
+### Approximate
+
+$\frac{2.2\ \mathrm{lb_m}}{1\ \mathrm{kg}}$,&nbsp;&nbsp
+$\frac{1\ \mathrm{Btu/s}}{1\ \mathrm{kW}}$.
+
+
+# Definitions
+
+[Pound Mass, $\mathrm{lb_m}$](https://en.wikipedia.org/wiki/Pound_(mass))
+: The mass that exerts one pound force in the standard gravitational field of $32.174\ \mathrm{ft/s^2}$ 
+
+[Pound Force, $\mathrm{lb_f}$](https://en.wikipedia.org/wiki/Pound_(force))
+: The force exerted by one pound mass in the standard gravitational field of $32.174\ \mathrm{ft/s^2}$
+
+[Kilogram Mass, $\mathrm{kg}$](https://en.wikipedia.org/wiki/Kilogram)
+: The SI unit of mass
+
+[Kilogram Force, $\mathrm{kg_f}$](https://en.wikipedia.org/wiki/Kilogram-force)
+: The force exerted by a kilogram mass in the standard gravitational field of $9.80665\ \mathrm{m^2/s}$. It is  $9.80665\ \mathrm{N}$.
+
+[Celsius](https://en.wikipedia.org/wiki/Celsius)
+: The SI common temperature scale. Named after Anders Celsius, a Swedish astronomer.
+
+# Additional Links
+
+## Preceding Videos
+
+As of this writing the two sets of videos preceding this set are:
+
+1. *Data Fitting with Spreadsheets 2* [The Full Story](../../NotYetHere.qmd), [Just The Facts](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+2. *Data Fitting with Spreadsheets 2* [The Full Story](../../NotYetHere.qmd), [Just The Facts](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+
+## Following Videos
+
+As of this writing the two sets of videos following this set are:
+1. *How Keen Is Your Rank?* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/0l5akaQvBbE?si=xcSMtu_fBAhrObPV), [Reference Page](../processdata/ConvertingTemperatureWebPage.qmd)
+2. *The Most Annoying Equation Conversion* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/JE4llgDsy9E?si=yJrGOhxDuIP9JhQJ), [Reference Page]()
+
+
+## Other Links
+
+- The NIST conversions to SI in alphabetical order [https://tinyurl.com/ydb2jcoc](https://tinyurl.com/ydb2jcoc)
+- The NIST conversions to SI by kind [https://tinyurl.com/ycqe2ez7](https://tinyurl.com/ycqe2ez7)
+- Web search for *on-line unit conversion calculators*
+- Just about any values of the molar gas constant you would want [https://en.wikipedia.org/wiki/Gas_constant](https://en.wikipedia.org/wiki/Gas_constant)

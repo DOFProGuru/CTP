@@ -1,0 +1,64 @@
+---
+title: "*Is Your Process Data Spread Smooth or Chunky?* (Data Visualization) Web Page"
+author: "DOFPro group"
+format: html
+---
+# Purpose of *Is Your Process Data Spread Smooth or Chunky?*
+
+Presentation and analysis of process data from Chemical and Thermal Processes is one of the fundamental activities for Process Engineers. For determining the functional form of a data set, it turns out that the human visual system is very good at seeing if the trend in a plot of data is a straight line or almost a straight line. If your data plot doesn’t appear as a straight line, it’s possible that a change of coordinates will make it appear as a straight line. This video discusses common transformation of coordinates to make your data set appear straight.
+
+### *The Full Story* Video
+
+*The Full Story* Video examines common conceptions and misconceptions about data presentation and plotting and explains how to transform coordinates to get linear, semi-log and log-log plots, and how to calculate model parameters from the data. It is recommended for those who have not been exposed to data plotting and coordinate transformations before or who have struggled with understanding and performing the transformations and calculations.
+
+**Video Link Goes Here**
+[Visuals](../calculations/DataVisTFSVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+### The *Just The Facts* Video
+
+The *Just The Facts* Video discusses data presentation techniques and plotting and explains how to transform coordinates to get linear, semi-log and log-log plots, and how to calculate model parameters from the data. It is recommended for those who have a reasonably good understanding of data visualization and coordinate transformation and are just looking for a refresher or a review.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qHsOz7af-GA?si=LsErtlwUf9bAqws3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../calculations/DataVisJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Definitions
+
+[Data Visualization](https://en.wikipedia.org/wiki/Data_and_information_visualization)
+: The process of presenting or plotting your data to make trends and functional behavior more obvious.
+
+[Linear Plot](https://www.cuemath.com/data/linear-graph/)
+: A plot where the $x$ and $y$ coordinates are both on a linear scale. The data plot may or may not appear as a straight line depending on how close the data come to fitting the equation of a line.
+
+[Semi-log plot](https://en.wikipedia.org/wiki/Semi-log_plot)
+: A plot where either the $x$-coordinate scale is linear and the $y$-coordinate scale is logarithmic or the data are plotted as $\log y$ versus $x$ on linear scales. The data plot may or may not appear as a straight line depending on how close the data come to fitting the equation of an exponential function.
+
+[Log-Log Plot](https://en.wikipedia.org/wiki/Log%E2%80%93log_plot)
+: A plot where either the $x$-coordinate scale and the $y$-coordinate scales are both logarithmic or the data are plotted as $\log y$ versus $\log x$ on linear scales. The data plot may or may not appear as a straight line depending on how close the data come to fitting a power law.
+
+[Exponential Function](https://en.wikipedia.org/wiki/Exponential_function)
+: A function of the form $y = ae^{bx}$ or $y = a10^{bx}$ where $a$ and $b$ are constants.
+
+[Power Law](https://en.wikipedia.org/wiki/Power_law)
+: A function of the form $y = ax^b$ where $a$ and $b$ are constants.
+
+[Nonlinear Least-Squares Fit](https://en.wikipedia.org/wiki/Non-linear_least_squares)
+: The process of fitting data to a function that is not linear in the fitting parameters without a change of variables. It must usually be done with a computer.
+
+# Additional Links
+
+## Preceding Videos
+
+As of this writing the two sets of videos preceding this set are:
+
+1. *Error Propagation in Integrals and Derivatives* [The Full Story](../../NotYetHere.qmd), [Just The Facts](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+2. *What Goes Into a Number?* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/qHsOz7af-GA?si=Kkm2mvlWf_bc9gNk), [Reference Page](../../NotYetHere.qmd)
+
+## Following Videos
+
+As of this writing the two sets of videos following this set are:
+
+1. *Interpolation* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/dWMh0ZJc874?si=DZ79ExaXpHXWZDmj), [Reference Page](../calculations/InterpolationWebPage.qmd)
+2. *Data Fitting with Spreadsheets* [How To Video](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+
+## Other Links
+

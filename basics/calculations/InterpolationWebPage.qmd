@@ -1,0 +1,87 @@
+---
+title: "*Interpolation* Reference Page"
+author: "DOFPro group"
+format: html
+---
+# Purpose of The Interpolation Videos
+
+Before the age of readily available computers most engineering data were only available as tabulations, usually in handbooks, but sometimes in text books or journal articles. While not as common as they used to be, data tables still find extensive use. The two videos, *Interpol Is Late to a Mind-Blowing Math Hack* and *No Clear Interpretation a Mind-Blowing Math Hack* explain the principles of linear and nonlinear interpolation respectively.
+
+## Interpol Is Late to a Mind-Blowing Math Hack
+
+*Interpol Is Late to a Mind-Blowing Math Hack* explains both 1-D and 2-D linear interpolation and contains example of each.
+
+### *The Full Story* Video
+
+*The Full Story* Video examines common conceptions and misconceptions about linear interpolation and explains how to perform both 1-D and 2-D (double) linear interpolation. It is recommended for those who have not been exposed to linear interpolation before or who have struggled with understanding and performing the calculations.
+
+**Video Link Goes Here**
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+### The *Just The Facts* Video
+
+The *Just The Facts* Video explains how to perform both 1-D and 2-D (double) linear interpolation. It is recommended for those who have a reasonably good understanding of linear interpolation and are just looking for a refresher or a review.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dWMh0ZJc874?si=dcd21BnaKDsOnS0j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](InterpolationJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+## No Clear Interpretation a Mind-Blowing Math Hack
+
+*No Clear Interpretation a Mind-Blowing Math Hack* discusses nonlinear interpolation and presents an example of change of variables.
+
+### *The Full Story* Video
+
+*The Full Story* Video examines common conceptions and misconceptions about nonlinear interpolation, discusses several different methods, and goes into detail about the change-of-variables method. It is recommended for those who have not been exposed to nonlinear interpolation before or who have struggled with understanding the methods, or how they are used.
+
+**Video Link Goes Here**
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+### The *Just The Facts* Video
+
+The *Just The Facts* Video explains how to calculate standard error, confidence intervals, and Student's $t$, and explains their use. It is recommended for those who have a reasonably good understanding of standard error, confidence intervals, and Student's $t$ and are just looking for a refresher or a review.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uaxzUbWi7Iw?si=paPZ6gRmF73kyRaX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../calculations/NLInterpolationJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+
+# Definitions
+
+[Interpolation](https://en.wikipedia.org/wiki/Interpolation)
+: Fitting a function to a set of tabular data for the purpose of calculating or estimating a function value that is between two or more of the tabulated values.
+
+[Linear Interpolation](https://en.wikipedia.org/wiki/Interpolation#Linear_interpolation)
+: Fitting a linear function to tabular data for the purpose of calculating or estimating a function value that is not at one of the tabular entries.
+
+[Nonlinear Interpolation](https://en.wikipedia.org/wiki/Interpolation)
+: Fitting a nonlinear function to tabular data for the purpose of calculating or estimating a function value that is not at one of the tabular entries.
+
+[2-D Interpolation](https://en.wikipedia.org/wiki/Multivariate_interpolation)
+: In a data table with two independent variables, fitting a two-dimensional function to tabular data for the purpose of calculating or estimating a function value that is not at one of the tabular entries.
+
+[Steam Table](https://en.wikipedia.org/wiki/Variance#Sample_variance)
+: A data table for looking up the thermodynamic properties of saturated water, saturated steam, or superheated steam. It is typically arranged by temperature or pressure for saturated properties, and temperature and pressure for superheated properties.
+
+[Antoine Equation](https://en.wikipedia.org/wiki/Antoine_equation)
+: An empirical equation for calculating the vapor pressure of a liquid as a function of the temperature.
+
+[Clausius-Clapeyron Equation](https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation)
+: A thermodynamic relation between the pressure and temperature at a phase transition.
+
+# Additional Links
+
+## Preceding Videos
+
+As of this writing the two sets of videos preceding this set are:
+
+1. *What Goes Into a Number* [The Full Story](../../NotYetHere.qmd), [Just The Facts](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+2. *Is Your Process Data Spread Smooth or Chunky?* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/qHsOz7af-GA?si=Kkm2mvlWf_bc9gNk), [Reference Page](../../NotYetHere.qmd)
+
+## Following Videos
+
+As of this writing the two sets of videos following this set are:
+
+1. *Basic Spreadsheet Techniques* [The Full Story](../../NotYetHere.qmd), [Just The Facts](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+2. *Data Fitting with Spreadsheets* [How To Video](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+
+## Other Links
+
