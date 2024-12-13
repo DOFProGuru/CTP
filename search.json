@@ -224,6 +224,41 @@
     "text": "Why Engineering Calculations"
   },
   {
+    "objectID": "basics/calculations/InterpolationJTFVisuals.html#section-1",
+    "href": "basics/calculations/InterpolationJTFVisuals.html#section-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Properties of Saturated Steam: Temperature Table"
+  },
+  {
+    "objectID": "basics/calculations/InterpolationJTFVisuals.html#linear-interpolation",
+    "href": "basics/calculations/InterpolationJTFVisuals.html#linear-interpolation",
+    "title": "Chemical and Thermal Processes",
+    "section": "Linear Interpolation",
+    "text": "Linear Interpolation\nProperties of Saturated Steam: Temperature Table\n\n\n\\[\\frac{y-y_1}{x-x_1}=\\frac{y_2-y_1}{x_2-x_1}\\]\n\n\n\\[y=\\frac{y_2-y_1}{x_2-x_1}({x-x_1})+y_1\\]\n\n\n\\[\\hat{V}=\\frac{\\hat{V}_2-\\hat{V}_1}{T_2-T_1}({T-T_1})+\\hat{V}_1\\]\n\n\n\\[\\hat{V}=\\frac{106.3-120.8}{10-8}({9-8})+120.8=113.55\\]"
+  },
+  {
+    "objectID": "basics/calculations/InterpolationJTFVisuals.html#double-linear-interpolation",
+    "href": "basics/calculations/InterpolationJTFVisuals.html#double-linear-interpolation",
+    "title": "Chemical and Thermal Processes",
+    "section": "Double Linear Interpolation",
+    "text": "Double Linear Interpolation\nWhat if you’re between values in two dimensions\n\n\\(T=125\\ \\mathrm{^\\circ C}\\)\n\\(P=0.3\\ \\mathrm{bar}\\)\n\\(\\hat{V}=?\\)"
+  },
+  {
+    "objectID": "basics/calculations/InterpolationJTFVisuals.html#double-linear-interpolation-1",
+    "href": "basics/calculations/InterpolationJTFVisuals.html#double-linear-interpolation-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Double Linear Interpolation",
+    "text": "Double Linear Interpolation\n\nCalled double interpolation\nHave to do three"
+  },
+  {
+    "objectID": "basics/calculations/InterpolationJTFVisuals.html#the-takeaways",
+    "href": "basics/calculations/InterpolationJTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nLinear interpolation is often used in tables.\nRemember \\(slope = slope\\) to write formula.\nA one-dimensional table requires one interpolation.\nA two-dimensional table requires double interpolation, which is really three interpolations."
+  },
+  {
     "objectID": "basics/processdata/NLInterpolationJTFVisuals.html#section-1",
     "href": "basics/processdata/NLInterpolationJTFVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
@@ -700,81 +735,67 @@
     "text": "The Takeaways\n\nPressure is the second most commonly measured process variable.\nHydrostatic pressure \\(= \\rho g h\\).\nManometers measure \\(\\Delta P\\)’s with hydrostatic pressure."
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#what-temperature-scales-do-we-use",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#what-temperature-scales-do-we-use",
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-density-and-specific-volume",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-density-and-specific-volume",
     "title": "Chemical and Thermal Processes",
-    "section": "What temperature scales do we use?",
-    "text": "What temperature scales do we use?\n\n\\(\\bullet\\) Kelvin, K\n\n\n\\(\\bullet\\) Celsius, °C\n\n\n\\(\\bullet\\) Fahrenheit, °F\n\n\n\\(\\bullet\\) Rankine, °R\n\n\n\n\\(\\mathbf{-}\\) absolute scale (starts at zero)\n\n\n\\(\\mathbf{-}\\) absolute scale (starts at zero)\n\n\n\n\\(\\mathbf{-}\\) used when working with gases in Am. Eng. Units"
+    "section": "Mass Density and Specific Volume",
+    "text": "Mass Density and Specific Volume\n\nMass Density (Density), \\(\\rho\\ \\equiv\\) mass per unit volume\n\n\n\nSI units: \\(\\mathrm{kg/m^3}\\)\n\n\n\\(\\rho = \\frac{m}{V} = \\frac{1}{\\hat{V}}\\)\n\n\n\nSpecific Volume, \\(\\hat{V}\\ \\equiv\\) volume per unit mass\n\n\n\nSI units: \\(\\mathrm{m^3/kg}\\)\n\n\n\\(\\hat{V} = \\frac{V}{m} = \\frac{1}{\\rho}\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperatures-vs.-temperature-intervals",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperatures-vs.-temperature-intervals",
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#molar-density-and-molar-volume",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#molar-density-and-molar-volume",
     "title": "Chemical and Thermal Processes",
-    "section": "Temperatures vs. Temperature Intervals",
-    "text": "Temperatures vs. Temperature Intervals\n\nTemperature: the single temperature of an object\nTemperature interval: the difference between two temperatures\n\n\n\n\n\n\nTemperature\\(32\\ \\mathrm{^\\circ F}\\)\n\n\nTemperature\\(212\\ \\mathrm{^\\circ F}\\)\n\n\n\nTemperature Interval\\(\\longleftarrow\\ \\ 180\\ \\mathrm{^\\circ F}\\ \\ \\longrightarrow\\)"
+    "section": "Molar Density and Molar Volume",
+    "text": "Molar Density and Molar Volume\n\nMolar Density, \\(\\rho\\ \\equiv\\) moles per unit volume\n\n\n\nSI units: \\(\\text{g-mol}/\\mathrm{m^3}\\) (same units as concentration)\n\n\nChemist units: \\(\\text{mole}/\\mathrm{liter}\\)\n\n\n\\(\\rho = \\frac{n}{V} = \\frac{1}{\\hat{V}}\\)\n\n\n\nMolar Volume, \\(\\hat{V}\\ \\equiv\\) volume per mole\n\n\n\nSI units: \\(\\mathrm{m^3/}\\text{g-mol}\\)\n\n\n\\(\\hat{V} = \\frac{V}{n} = \\frac{1}{\\rho}\\)\n\n\n\nWe reuse the mass-density symbol for molar density and the specific-volume symbol for molar volume.  Check the units to determine which is being used!"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-12",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-12",
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#specific-gravity",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#specific-gravity",
     "title": "Chemical and Thermal Processes",
-    "section": "Temperature Equations (1/2)",
-    "text": "Temperature Equations (1/2)\n\n\nCelsius to Fahrenheit: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 32\\)\nCelsius to Kelvin: \\(\\ \\ \\ \\ \\ \\ T(\\mathrm{K}) = T(\\mathrm{^\\circ C}) + 273.15\\)\nCelsius to Rankine: \\(\\ \\ \\ T(\\mathrm{^\\circ R}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 491.67\\)\n\n\n\nFahrenheit to Celsius: \\(\\ \\ T(\\mathrm{^\\circ C}) = \\frac{5}{9}[T(\\mathrm{^\\circ F}) - 32]\\)\nFahrenheit to Kelvin: \\(\\ \\ \\ T(\\mathrm{K}) = \\frac{5}{9} [T(\\mathrm{^\\circ F}) - 32] + 273.15\\)\nFahrenheit -&gt; Rankine: \\(T(\\mathrm{^\\circ R}) = T(\\mathrm{^\\circ F}) + 459.67\\)"
+    "section": "Specific Gravity",
+    "text": "Specific Gravity\n\nSpecific Gravity \\(\\equiv\\) ratio of density to a reference density\n\n\n\\(= \\frac{\\rho}{\\rho_\\mathrm{{ref}}}\\)\n\n\nMost common reference density is liquid water at \\(4\\ ^{\\circ}\\text{C}\\)\n\n\n\\(\\rho\\mathrm{_{ H_2O(\\textit{l})}}(4\\ ^{\\circ}\\mathrm{C}) = 1000\\ \\mathrm{kg/m^3}\\)\n\n\n\\(= 1.000\\ \\mathrm{g/cm^3}\\)\n\n\n\\(= 62.43\\ \\mathrm{lb_m/ft^3}\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-22",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-22",
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#concentration",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#concentration",
     "title": "Chemical and Thermal Processes",
-    "section": "Temperature Equations (2/2)",
-    "text": "Temperature Equations (2/2)\n\n\nKelvin to Fahrenheit: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{K}) - 459.67\\)\nKelvin to Celsius: \\(\\ \\ \\ \\ \\ T(\\mathrm{^\\circ C}) = T(\\mathrm{K}) - 273.15\\)\nKelvin to Rankine: \\(\\ \\ \\ \\ T(\\mathrm{^\\circ R}) = \\frac{9}{5} T(\\mathrm{K})\\)\n\n\n\nRankine to Fahrenheit: \\(\\ T(\\mathrm{^\\circ F}) = T(\\mathrm{^\\circ R}) - 459.67\\)\nRankine to Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\ \\ T(\\mathrm{K}) = \\frac{5}{9} T(\\mathrm{^\\circ R})\\)\nRankine -&gt; Celsius: \\(\\ \\ \\ \\ \\ \\ T(\\mathrm{^\\circ C}) = \\frac{5}{9}[T(\\mathrm{^\\circ R}) - 491.67]\\)"
+    "section": "Concentration",
+    "text": "Concentration\n\nMolar Concentration (Concentration), \\(C\\ \\equiv\\) moles per unit volume\n\n\n\\(C_\\mathrm{A} = \\frac{n_\\mathrm{A}}{V}\\)\n\n\nFor an ideal gas, can be calculated as:\n\n\n\\(C_\\mathrm{A} = \\frac{n_\\mathrm{A}}{V} = \\frac{p_\\mathrm{A}}{RT}\\)\n\n\nMass Concentration, \\(\\rho\\ \\equiv\\) mass per unit volume (same units as density)\n\n\nMost often used for quantities such as salinity\n\n\n\\(\\rho_\\mathrm{A} = \\frac{m_\\mathrm{A}}{V}\\)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-interval-equations",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-interval-equations",
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-1",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
-    "section": "Temperature Interval Equations",
-    "text": "Temperature Interval Equations\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Celsius: \\(\\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Rankine: \\(\\Delta T(\\mathrm{^\\circ R}) = \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\Delta T(\\mathrm{^\\circ R})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)"
+    "section": "",
+    "text": "Mass, Molar, and Volumetric Flow Rates\n\n\nMass Flow Rate, \\(\\dot{m} \\equiv \\frac{\\text{mass flowing past a given location}}{\\text{period of time}}\\)\n\n\n\\(\\sum \\dot{m}_{i_\\mathrm{in}} = \\sum \\dot{m}_{i_\\mathrm{out}}\\) (open, steady state)\n\n\nMolar Flow Rate, \\(\\dot{n} \\equiv \\frac{\\text{moles flowing past a given location}}{\\text{period of time}}\\)\n\n\n\\(\\sum \\dot{n}_{i_\\mathrm{in}} = \\sum \\dot{n}_{i_\\mathrm{out}}\\) (open, steady state, no reactions)\n\n\nVolumetric Flow Rate, \\(\\dot{V} \\equiv\\) \\(\\frac{\\text{volume flowing past a given location}}{\\text{period of time}}\\)\n\n\n\\(\\sum \\dot{V}_{i_\\mathrm{in}} \\ne \\sum \\dot{V}_{i_\\mathrm{out}}\\) (in general)"
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-12",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-12",
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-2",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-2",
     "title": "Chemical and Thermal Processes",
-    "section": "Example 1 - Temperature (1/2)",
-    "text": "Example 1 - Temperature (1/2)\nConvert \\(5\\ \\mathrm{^\\circ C}\\) into Kelvin, Fahrenheit, and Rankine.\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{K}\\)\n\nRemember: \\(T(\\mathrm{K}) = T(\\mathrm{^\\circ C}) + 273.15\\)\n\\(\\implies T(\\mathrm{K}) = 5\\ \\mathrm{^\\circ C} + 273.15= 278.15\\ \\mathrm{K}\\)\n\n\n\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{^\\circ F}\\)\n\nRemember: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 32\\)\n\\(\\implies T(\\mathrm{^\\circ F}) = \\frac{9}{5}(5\\ \\mathrm{^\\circ C})+ 32 = 41\\ \\mathrm{^\\circ F}\\)"
+    "section": "",
+    "text": "Mass, Molar, and Volumetric Flow Rates (cont.)\n\n\nGiven a specific location in space and instant in time, the following relationship exists between the the volumetric flow rate (\\(\\dot{V}\\)), the average fluid velocity (\\(u\\)), and the cross-sectional area of the flow (\\(A\\)):\n\n\n\\(\\dot{V}\\) = \\(uA\\)\n\n\nFor an open, steady state system, the previous expression is true at any location in the system."
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-22",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-22",
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-3",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-3",
     "title": "Chemical and Thermal Processes",
-    "section": "Example 1 - Temperature (2/2)",
-    "text": "Example 1 - Temperature (2/2)\nConvert 5 °C into Kelvin, Fahrenheit, and Rankine.\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{^\\circ R}\\)\n\nRemember: When converting from Celsius to Rankine, we prefer to first convert to Kelvin, then Rankine.\nWe can use what we got from our first conversion, \\(T(\\mathrm{K}) = 278.15\\ \\mathrm{K}\\)\n\\(\\implies T(\\mathrm{^\\circ R}) = \\frac{9}{5}(278.15\\ \\mathrm{K}) = 500.67\\ \\mathrm{^\\circ R}\\)"
+    "section": "",
+    "text": "Mass, Molar, and Volumetric Flow Rates (cont.)\n\n\nRelationship between mass flow rate (\\(\\dot{m}\\)) and volumetric flow rate (\\(\\dot{V}\\)):\n\n\n\\(\\dot{m} = \\rho \\dot{V}\\)\n\n\n\\(\\rho_\\mathrm{in} \\dot{V}_\\mathrm{in} = \\rho_\\mathrm{out} \\dot{V}_\\mathrm{out}\\) (open, steady-state system, 1 inlet & 1 outlet)\n\n\nDon’t Forget! Volume is not a conserved quantity. Just because the mass or molar flowrate is constant, it does not follow that the volumetric flow rate is constant."
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-12",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-12",
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#fluid-velocity",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#fluid-velocity",
     "title": "Chemical and Thermal Processes",
-    "section": "Example 2 - Temp. & Temp. Intervals (1/2)",
-    "text": "Example 2 - Temp. & Temp. Intervals (1/2)\n\n\n\n\nOver a limited temperature range, the heat capacity of liquid acetone is\n\n\n\\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ C}} \\right] =0.1230+0.000186T\\) where \\(T\\) is in \\(\\mathrm{^\\circ C}\\).\n\n\nWhat are the heat-capacity formulas with \\(T\\) in \\(K\\), \\(\\mathrm{^\\circ R}\\), and \\(\\mathrm{^\\circ F}\\)?\n\n\nTo Kelvin \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right]\\mathrm{\\frac{1\\ K}{1\\ \\mathrm{^\\circ C}}} =0.1230+0.000186(T-273.15)T\\) where \\(T\\) is in \\(\\mathrm{K}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right] =0.0722+0.000186T\\) where \\(T\\) is in \\(\\mathrm{K}\\)."
+    "section": "Fluid Velocity",
+    "text": "Fluid Velocity\n\nRecall \\(\\dot{V}\\) = \\(uA\\)\n\n\n\\(\\implies u=\\frac{\\dot{V}}{A}\\)\n\n\nMeasuring cup of volume, \\(V\\), fills in time, \\(t\\).\n\n\nAverage fluid flow rate, \\(\\dot{V} = \\frac{V}{t}\\).\n\n\nCross-sectional area, \\(A\\ (=\\pi\\frac{D^2}{4})\\) for a tube or circular pipe\n\n\n\\(\\implies u=\\frac{V}{At}\\)\n\n\nFor reference, for laminar flow in a circular tube, \\(u_\\mathrm{wall} = 0\\), \\(u_{CL} = 2 u\\)."
   },
   {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-22",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-22",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example 2 - Temp. & Temp. Intervals (2/2)",
-    "text": "Example 2 - Temp. & Temp. Intervals (2/2)\n\nTo Rankine \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ R}} \\right]\\mathrm{\\frac{9\\ ^\\circ R}{5\\ \\mathrm{^\\circ C}}} =0.1230+0.000186 \\left( \\frac{5}{9}[T-491.67] \\right)\\) where \\(T\\) is in \\(\\mathrm{^\\circ R}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ R}} \\right] =0.04011+0.00005741\\) where \\(T\\) is in \\(\\mathrm{^\\circ R}\\).\n\n\nTo Fahrenheit \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ F}} \\right]\\mathrm{\\frac{9\\ ^\\circ F}{5\\ \\mathrm{^\\circ C}}} =0.1230+0.000186 \\left( \\frac{5}{9}[T-32] \\right)\\) where \\(T\\) is in \\(\\mathrm{^\\circ F}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ F}} \\right] =0.06650+0.00005741\\) where \\(T\\) is in \\(\\mathrm{^\\circ F}\\)."
-  },
-  {
-    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#the-takeaways",
-    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#the-takeaways",
+    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#the-takeaways",
+    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nThere are four common temperature scales:\n\n\nKelvin, Rankine, Fahrenheit, and Celsius\n\n\nThe conversions between temperatures are different from the conversion of temperature intervals.\nMost temperature conversions requre both multiplication and addition/subtraction.\n\n\nConversion between Rankine and Kelvin only require multiplication\n\n\nAll of the temperature-interval conversions just require multiplication by 9/5, 5/9, or 1."
-  },
-  {
-    "objectID": "basics/processdata/WhatIsAMoleTFSCC.html",
-    "href": "basics/processdata/WhatIsAMoleTFSCC.html",
-    "title": "CC Transcript of What Is a Mole? TFS",
-    "section": "",
-    "text": "&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE: I would, uh, eat it!\n&gt;&gt; NARRATOR: What is a mole is an episode of the Degrees of Freedom Project, “The Full Story” videos on chemical and thermal principles. If you want the “Just The Facts” version without the in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.\n&gt;&gt;INTERVIEWER: When we are talking about Chemical Engineering, what is a mole?\n&gt;&gt; INTERVIEWEE1: What is a mole?\n&gt;&gt;INTERVIEWER: Yeah.\n&gt;&gt; INTERVIEWEE1: I have no idea.\n&gt;&gt; INTERVIEWEE2: Uhmmm, I forgot.\n&gt;&gt; INTERVIEWEE3: Like a size, like a use, like a metric, kinda? I forgot the number, it’s like six point six oh eight point zero two two one.\n&gt;&gt; INTERVIEWEE4: Some unit of like how many molecules there are. I guess it could also be an animal, but that’s not really a thing for Chemical Engineering.\n&gt;&gt; INTERVIEWEE5: A mole is a unit of measurement. So the mole is just a number. Uhmm 6.02 times 10 to the 23. basically it’s a way of measuring atoms so that uhmm we can put them on a scale that is somewhat reasonable like to have and like use in the lab\n&gt;&gt; INTERVIEWER: And then, when we are talking about Chemical Engineering, what is a pound-mole?\n&gt;&gt; INTERVIEWEE6: Uhh, I’m not too sure.\n&gt;&gt; INTERVIEWEE7: I have no clue.\n&gt;&gt; INTERVIEWEE8: No clue.\n&gt;&gt; INTERVIEWEE9: I have no clue what that is.\n&gt;&gt; INTERVIEWEE10: I presume it’s some horrific cursed unit that Engineers came up with where they they do this insane thing where they combine like US imperial units with like metric units, and it’s just like the worst thing ever.\n&gt;&gt; INTERVIEWEE11: Probably like a certain number of moles that weigh a pound.\n&gt;&gt; INTERVIEWEE12: A pound-mole would be the number of molecules of something in a pound of that something.\n&gt;&gt; NARRATOR: A mole is the name given to the mass equivalent of the molar mass of a molecule. For example, a molecule of carbon dioxide has a molar mass of approximately 44.01, that means a gram mole, or simply a mole, of carbon dioxide has a mass of 44.01 grams, subsequently a pound-mole of carbon dioxide has a mass of 44.01 pounds mass.\nTo help you understand, this is one gram mole of table salt, and this is one pound-mole of table salt.\n&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE1: How would I use it?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: Without knowing what it is?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: I would eat it?!\n&gt;&gt; INTERVIEWEE2: I have no idea actually. Like for problems? Like I don’t know.\n&gt;&gt; INTERVIEWEE3: Like you can convert it to other units.\n&gt;&gt; INTERVIEWEE4: One mole of this element plus two moles of some other element might go to, combine to form certain compounds, so like balancing equations.\n&gt;&gt; INTERVIEWEE5: Balancing like chemical equations, like in stoichiometry you want to make sure yout number of moles um in is equal to your number of moles out.\n&gt;&gt; NARRATOR: So how do I use a mole? A mole is most useful when planning out or preparing reagents for a chemical reaction. You really need to start with a balanced chemical equation for the reaction. For example, one carbon atom and one oxygen molecule react to form one molecule of carbon dioxide.\nIf you wanted to make 100 pounds of carbon dioxide, you would need to calculate what mass of carbon atoms you would need, and what mass of oxygen molecules you would need. For an atomic species like carbon, you are technically supposed to use the name pound-atom or gram-atom, but in casual conversation, if you use the term pound-mole or gram-mole most engineers will understand.\nThe chemical equation means that one pound-atom of carbon will react with one pound-mole of oxygen molecules (which is just two pound-atoms of oxygen atoms) in order to form one pound-mole of carbon dioxide. Given that the molar mass (also called molecular weight) of carbon dioxide is about 44.01, 100 pounds of carbon dioxide is 100 divided by 44.01 or 2.272 pound-moles of carbon dioxide.\nWe need 2.272 pound-atoms of carbon and 2.272 pound-moles of oxygen molecules.\nThe atomic mass of carbon is approximately 12.01, and the molar mass of oxygen is about 32.00, so we need 2.272 times 12.01\nand 2.272 times 32.00\nThat gives us totals of 27.29 pounds of carbon\nand 72.70 pounds of oxygen in order to make our 100 pounds of carbon dioxide\n&gt;&gt; INTERVIEWER: And then do you know what Avogadro’s number is?\n&gt;&gt; INTERVIEWEE1: I don’t.\n&gt;&gt; INTERVIEWEE2: I have no idea what exactly it is.\n&gt;&gt; INTERVIEWEE3: Something times 10 to the 27th.\n&gt;&gt; INTERVIEWEE4: 1.602 times 10 to the 23rd.\n&gt;&gt; INTERVIEWEE5: 6.02 times 10 to the 23 molecules per gram.\n&gt;&gt; INTERVIEWEE6: Avogadro’s number is the number you use to convert um moles to molecules back and forth.\n&gt;&gt; INTERVIEWEE7: Avogadro’s constant is 6.023 to 10 to the power 23 if I remember correctly.\n&gt;&gt; NARRATOR: For a gram-mole, which is what chemists mean when they say mole, the international standards agencies have agreed on how many molecules are in exactly one mole. In the US, our standards agency is the National Institute of Standards and Technology or N.I.S.T. The value from their website is 6.022 140 76 times 10 to the 23rd per mol. That number is known as Avogadro’s number or the Avogadro constant.\nHowever, there is a corresponding number for each mass unit. For pounds mass the exact number is 1.327 654 687 336 03 times 10 to the 27th per pound-mole.\nThe N.I.S.T. website lists at least 15 different mass units, so there are at least that many types of moles, ranging from the carat-mole through the pennyweight-mole. The most common moles are the gram mole or mole, the kilogram-mol or kilomole, the metric-ton-mole or tonne-mole, the pound-mole, and the ton-mole.\nThe big question is “Why Can’t I Just Use the Mol that I’m Familiar With?” Well, you can, but you are more likely to make an error because of the extra conversions you have to do. There is a long conversion process if you use any mass unit other than the gram (which isn’t the SI unit, by the way. The SI unit is the kilogram.) The process is as follows: Starting with mass: First, convert mass unit to grams\nSecond, convert from grams to gram moles with the molar mass.\nThird, use the chemical equation to find the resultant gram moles\nFourth, convert from gram-moles to grams, then.\nThen finally, five, convert from grams to your original mass unit.\nDon’t do this!\nRather, you should use the next three simple steps, instead:\nFirst, convert from mass to moles with the molar mass.\nSecond, use the chemical equation to find the resultant moles.\nThen third and finally, convert from moles to mass.\nInstead of five steps, you have three steps, resulting in 40% fewer places to make a mistake.\nThe key takeaways are: First, Engineers use different types of moles because they have to work with different types of mass units.\nSecond, the molar mass is just the conversion factor between moles and mass, and it has the same numerical value regardless of the mass units involved.\nFinally, only use gram moles if your problem is being worked in grams.\nThanks for watching! To learn more about chemical and thermal processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series."
+    "text": "The Takeaways\n\nMass density or density and specific volume are reciprocals.\nMolar density and molar volume are reciprocals.\nThe mass flow rate is equal to the density times the volumetric flow rate.\nFluid velocity is defined as the volumetric flow rate divided by the cross-sectional area."
   },
   {
     "objectID": "basics/processdata/DimensionalEquationsJTFVisuals.html#conversion-videos",
@@ -1344,137 +1365,81 @@
     "text": "The principles in Chemical and Thermal Processes are applicable in\n\nChemical Engineering\nPetroleum Engineering\nMechanical Engineering\nMaterials Engineering\nBioengineering\nEnvironmental Engineering\nEnergy Engineering\nSustainability\nManufacturing Engineering\nIndustrial Engineering\nMarine and Aerospace Engineering"
   },
   {
-    "objectID": "basics/processdata/InterpolationJTFVisuals.html#section-2",
-    "href": "basics/processdata/InterpolationJTFVisuals.html#section-2",
-    "title": "Chemical and Thermal Processes",
+    "objectID": "basics/processdata/WhatIsAMoleTFSCC.html",
+    "href": "basics/processdata/WhatIsAMoleTFSCC.html",
+    "title": "CC Transcript of What Is a Mole? TFS",
     "section": "",
-    "text": "Properties of Saturated Steam: Temperature Table"
+    "text": "&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE: I would, uh, eat it!\n&gt;&gt; NARRATOR: What is a mole is an episode of the Degrees of Freedom Project, “The Full Story” videos on chemical and thermal principles. If you want the “Just The Facts” version without the in-depth discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.\n&gt;&gt;INTERVIEWER: When we are talking about Chemical Engineering, what is a mole?\n&gt;&gt; INTERVIEWEE1: What is a mole?\n&gt;&gt;INTERVIEWER: Yeah.\n&gt;&gt; INTERVIEWEE1: I have no idea.\n&gt;&gt; INTERVIEWEE2: Uhmmm, I forgot.\n&gt;&gt; INTERVIEWEE3: Like a size, like a use, like a metric, kinda? I forgot the number, it’s like six point six oh eight point zero two two one.\n&gt;&gt; INTERVIEWEE4: Some unit of like how many molecules there are. I guess it could also be an animal, but that’s not really a thing for Chemical Engineering.\n&gt;&gt; INTERVIEWEE5: A mole is a unit of measurement. So the mole is just a number. Uhmm 6.02 times 10 to the 23. basically it’s a way of measuring atoms so that uhmm we can put them on a scale that is somewhat reasonable like to have and like use in the lab\n&gt;&gt; INTERVIEWER: And then, when we are talking about Chemical Engineering, what is a pound-mole?\n&gt;&gt; INTERVIEWEE6: Uhh, I’m not too sure.\n&gt;&gt; INTERVIEWEE7: I have no clue.\n&gt;&gt; INTERVIEWEE8: No clue.\n&gt;&gt; INTERVIEWEE9: I have no clue what that is.\n&gt;&gt; INTERVIEWEE10: I presume it’s some horrific cursed unit that Engineers came up with where they they do this insane thing where they combine like US imperial units with like metric units, and it’s just like the worst thing ever.\n&gt;&gt; INTERVIEWEE11: Probably like a certain number of moles that weigh a pound.\n&gt;&gt; INTERVIEWEE12: A pound-mole would be the number of molecules of something in a pound of that something.\n&gt;&gt; NARRATOR: A mole is the name given to the mass equivalent of the molar mass of a molecule. For example, a molecule of carbon dioxide has a molar mass of approximately 44.01, that means a gram mole, or simply a mole, of carbon dioxide has a mass of 44.01 grams, subsequently a pound-mole of carbon dioxide has a mass of 44.01 pounds mass.\nTo help you understand, this is one gram mole of table salt, and this is one pound-mole of table salt.\n&gt;&gt; INTERVIEWER: How would you use a mole?\n&gt;&gt; INTERVIEWEE1: How would I use it?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: Without knowing what it is?\n&gt;&gt; INTERVIEWER: Uh Huh\n&gt;&gt; INTERVIEWEE1: I would eat it?!\n&gt;&gt; INTERVIEWEE2: I have no idea actually. Like for problems? Like I don’t know.\n&gt;&gt; INTERVIEWEE3: Like you can convert it to other units.\n&gt;&gt; INTERVIEWEE4: One mole of this element plus two moles of some other element might go to, combine to form certain compounds, so like balancing equations.\n&gt;&gt; INTERVIEWEE5: Balancing like chemical equations, like in stoichiometry you want to make sure yout number of moles um in is equal to your number of moles out.\n&gt;&gt; NARRATOR: So how do I use a mole? A mole is most useful when planning out or preparing reagents for a chemical reaction. You really need to start with a balanced chemical equation for the reaction. For example, one carbon atom and one oxygen molecule react to form one molecule of carbon dioxide.\nIf you wanted to make 100 pounds of carbon dioxide, you would need to calculate what mass of carbon atoms you would need, and what mass of oxygen molecules you would need. For an atomic species like carbon, you are technically supposed to use the name pound-atom or gram-atom, but in casual conversation, if you use the term pound-mole or gram-mole most engineers will understand.\nThe chemical equation means that one pound-atom of carbon will react with one pound-mole of oxygen molecules (which is just two pound-atoms of oxygen atoms) in order to form one pound-mole of carbon dioxide. Given that the molar mass (also called molecular weight) of carbon dioxide is about 44.01, 100 pounds of carbon dioxide is 100 divided by 44.01 or 2.272 pound-moles of carbon dioxide.\nWe need 2.272 pound-atoms of carbon and 2.272 pound-moles of oxygen molecules.\nThe atomic mass of carbon is approximately 12.01, and the molar mass of oxygen is about 32.00, so we need 2.272 times 12.01\nand 2.272 times 32.00\nThat gives us totals of 27.29 pounds of carbon\nand 72.70 pounds of oxygen in order to make our 100 pounds of carbon dioxide\n&gt;&gt; INTERVIEWER: And then do you know what Avogadro’s number is?\n&gt;&gt; INTERVIEWEE1: I don’t.\n&gt;&gt; INTERVIEWEE2: I have no idea what exactly it is.\n&gt;&gt; INTERVIEWEE3: Something times 10 to the 27th.\n&gt;&gt; INTERVIEWEE4: 1.602 times 10 to the 23rd.\n&gt;&gt; INTERVIEWEE5: 6.02 times 10 to the 23 molecules per gram.\n&gt;&gt; INTERVIEWEE6: Avogadro’s number is the number you use to convert um moles to molecules back and forth.\n&gt;&gt; INTERVIEWEE7: Avogadro’s constant is 6.023 to 10 to the power 23 if I remember correctly.\n&gt;&gt; NARRATOR: For a gram-mole, which is what chemists mean when they say mole, the international standards agencies have agreed on how many molecules are in exactly one mole. In the US, our standards agency is the National Institute of Standards and Technology or N.I.S.T. The value from their website is 6.022 140 76 times 10 to the 23rd per mol. That number is known as Avogadro’s number or the Avogadro constant.\nHowever, there is a corresponding number for each mass unit. For pounds mass the exact number is 1.327 654 687 336 03 times 10 to the 27th per pound-mole.\nThe N.I.S.T. website lists at least 15 different mass units, so there are at least that many types of moles, ranging from the carat-mole through the pennyweight-mole. The most common moles are the gram mole or mole, the kilogram-mol or kilomole, the metric-ton-mole or tonne-mole, the pound-mole, and the ton-mole.\nThe big question is “Why Can’t I Just Use the Mol that I’m Familiar With?” Well, you can, but you are more likely to make an error because of the extra conversions you have to do. There is a long conversion process if you use any mass unit other than the gram (which isn’t the SI unit, by the way. The SI unit is the kilogram.) The process is as follows: Starting with mass: First, convert mass unit to grams\nSecond, convert from grams to gram moles with the molar mass.\nThird, use the chemical equation to find the resultant gram moles\nFourth, convert from gram-moles to grams, then.\nThen finally, five, convert from grams to your original mass unit.\nDon’t do this!\nRather, you should use the next three simple steps, instead:\nFirst, convert from mass to moles with the molar mass.\nSecond, use the chemical equation to find the resultant moles.\nThen third and finally, convert from moles to mass.\nInstead of five steps, you have three steps, resulting in 40% fewer places to make a mistake.\nThe key takeaways are: First, Engineers use different types of moles because they have to work with different types of mass units.\nSecond, the molar mass is just the conversion factor between moles and mass, and it has the same numerical value regardless of the mass units involved.\nFinally, only use gram moles if your problem is being worked in grams.\nThanks for watching! To learn more about chemical and thermal processes from the DOFPro team, visit the website linked in the description to find previous and following videos in this series."
   },
   {
-    "objectID": "basics/processdata/InterpolationJTFVisuals.html#linear-interpolation",
-    "href": "basics/processdata/InterpolationJTFVisuals.html#linear-interpolation",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#what-temperature-scales-do-we-use",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#what-temperature-scales-do-we-use",
     "title": "Chemical and Thermal Processes",
-    "section": "Linear Interpolation",
-    "text": "Linear Interpolation\nProperties of Saturated Steam: Temperature Table\n\n\n\\[\\frac{y-y_1}{x-x_1}=\\frac{y_2-y_1}{x_2-x_1}\\]\n\n\n\\[y=\\frac{y_2-y_1}{x_2-x_1}({x-x_1})+y_1\\]\n\n\n\\[\\hat{V}=\\frac{\\hat{V}_2-\\hat{V}_1}{T_2-T_1}({T-T_1})+\\hat{V}_1\\]\n\n\n\\[\\hat{V}=\\frac{106.3-120.8}{10-8}({9-8})+120.8=113.55\\]"
+    "section": "What temperature scales do we use?",
+    "text": "What temperature scales do we use?\n\n\\(\\bullet\\) Kelvin, K\n\n\n\\(\\bullet\\) Celsius, °C\n\n\n\\(\\bullet\\) Fahrenheit, °F\n\n\n\\(\\bullet\\) Rankine, °R\n\n\n\n\\(\\mathbf{-}\\) absolute scale (starts at zero)\n\n\n\\(\\mathbf{-}\\) absolute scale (starts at zero)\n\n\n\n\\(\\mathbf{-}\\) used when working with gases in Am. Eng. Units"
   },
   {
-    "objectID": "basics/processdata/InterpolationJTFVisuals.html#double-linear-interpolation",
-    "href": "basics/processdata/InterpolationJTFVisuals.html#double-linear-interpolation",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperatures-vs.-temperature-intervals",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperatures-vs.-temperature-intervals",
     "title": "Chemical and Thermal Processes",
-    "section": "Double Linear Interpolation",
-    "text": "Double Linear Interpolation\nWhat if you’re between values in two dimensions\n\n\\(T=125\\ \\mathrm{^\\circ C}\\)\n\\(P=0.3\\ \\mathrm{bar}\\)\n\\(\\hat{V}=?\\)"
+    "section": "Temperatures vs. Temperature Intervals",
+    "text": "Temperatures vs. Temperature Intervals\n\nTemperature: the single temperature of an object\nTemperature interval: the difference between two temperatures\n\n\n\n\n\n\nTemperature\\(32\\ \\mathrm{^\\circ F}\\)\n\n\nTemperature\\(212\\ \\mathrm{^\\circ F}\\)\n\n\n\nTemperature Interval\\(\\longleftarrow\\ \\ 180\\ \\mathrm{^\\circ F}\\ \\ \\longrightarrow\\)"
   },
   {
-    "objectID": "basics/processdata/InterpolationJTFVisuals.html#double-linear-interpolation-1",
-    "href": "basics/processdata/InterpolationJTFVisuals.html#double-linear-interpolation-1",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-12",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-12",
     "title": "Chemical and Thermal Processes",
-    "section": "Double Linear Interpolation",
-    "text": "Double Linear Interpolation\n\nCalled double interpolation\nHave to do three"
+    "section": "Temperature Equations (1/2)",
+    "text": "Temperature Equations (1/2)\n\n\nCelsius to Fahrenheit: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 32\\)\nCelsius to Kelvin: \\(\\ \\ \\ \\ \\ \\ T(\\mathrm{K}) = T(\\mathrm{^\\circ C}) + 273.15\\)\nCelsius to Rankine: \\(\\ \\ \\ T(\\mathrm{^\\circ R}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 491.67\\)\n\n\n\nFahrenheit to Celsius: \\(\\ \\ T(\\mathrm{^\\circ C}) = \\frac{5}{9}[T(\\mathrm{^\\circ F}) - 32]\\)\nFahrenheit to Kelvin: \\(\\ \\ \\ T(\\mathrm{K}) = \\frac{5}{9} [T(\\mathrm{^\\circ F}) - 32] + 273.15\\)\nFahrenheit -&gt; Rankine: \\(T(\\mathrm{^\\circ R}) = T(\\mathrm{^\\circ F}) + 459.67\\)"
   },
   {
-    "objectID": "basics/processdata/InterpolationJTFVisuals.html#the-takeaways",
-    "href": "basics/processdata/InterpolationJTFVisuals.html#the-takeaways",
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-22",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-equations-22",
+    "title": "Chemical and Thermal Processes",
+    "section": "Temperature Equations (2/2)",
+    "text": "Temperature Equations (2/2)\n\n\nKelvin to Fahrenheit: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{K}) - 459.67\\)\nKelvin to Celsius: \\(\\ \\ \\ \\ \\ T(\\mathrm{^\\circ C}) = T(\\mathrm{K}) - 273.15\\)\nKelvin to Rankine: \\(\\ \\ \\ \\ T(\\mathrm{^\\circ R}) = \\frac{9}{5} T(\\mathrm{K})\\)\n\n\n\nRankine to Fahrenheit: \\(\\ T(\\mathrm{^\\circ F}) = T(\\mathrm{^\\circ R}) - 459.67\\)\nRankine to Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\ \\ T(\\mathrm{K}) = \\frac{5}{9} T(\\mathrm{^\\circ R})\\)\nRankine -&gt; Celsius: \\(\\ \\ \\ \\ \\ \\ T(\\mathrm{^\\circ C}) = \\frac{5}{9}[T(\\mathrm{^\\circ R}) - 491.67]\\)"
+  },
+  {
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-interval-equations",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#temperature-interval-equations",
+    "title": "Chemical and Thermal Processes",
+    "section": "Temperature Interval Equations",
+    "text": "Temperature Interval Equations\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Celsius to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{^\\circ C})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Celsius: \\(\\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Fahrenheit to \\(\\Delta\\)Rankine: \\(\\Delta T(\\mathrm{^\\circ R}) = \\Delta T(\\mathrm{^\\circ F})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Kelvin to \\(\\Delta\\)Rankine: \\(\\ \\ \\ \\Delta T(\\mathrm{^\\circ R}) = \\frac{9}{5} \\Delta T(\\mathrm{K})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Fahrenheit: \\(\\Delta T(\\mathrm{^\\circ F}) = \\Delta T(\\mathrm{^\\circ R})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Kelvin: \\(\\ \\ \\ \\ \\ \\ \\ \\Delta T(\\mathrm{K}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)\n\n\n\\(\\Delta\\)Rankine to \\(\\Delta\\)Celsius: \\(\\ \\ \\ \\ \\ \\Delta T(\\mathrm{^\\circ C}) = \\frac{5}{9} \\Delta T(\\mathrm{^\\circ R})\\)"
+  },
+  {
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-12",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-12",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example 1 - Temperature (1/2)",
+    "text": "Example 1 - Temperature (1/2)\nConvert \\(5\\ \\mathrm{^\\circ C}\\) into Kelvin, Fahrenheit, and Rankine.\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{K}\\)\n\nRemember: \\(T(\\mathrm{K}) = T(\\mathrm{^\\circ C}) + 273.15\\)\n\\(\\implies T(\\mathrm{K}) = 5\\ \\mathrm{^\\circ C} + 273.15= 278.15\\ \\mathrm{K}\\)\n\n\n\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{^\\circ F}\\)\n\nRemember: \\(T(\\mathrm{^\\circ F}) = \\frac{9}{5} T(\\mathrm{^\\circ C}) + 32\\)\n\\(\\implies T(\\mathrm{^\\circ F}) = \\frac{9}{5}(5\\ \\mathrm{^\\circ C})+ 32 = 41\\ \\mathrm{^\\circ F}\\)"
+  },
+  {
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-22",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-1---temperature-22",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example 1 - Temperature (2/2)",
+    "text": "Example 1 - Temperature (2/2)\nConvert 5 °C into Kelvin, Fahrenheit, and Rankine.\n\n\\(5\\ \\mathrm{^\\circ C} \\implies ?\\ \\mathrm{^\\circ R}\\)\n\nRemember: When converting from Celsius to Rankine, we prefer to first convert to Kelvin, then Rankine.\nWe can use what we got from our first conversion, \\(T(\\mathrm{K}) = 278.15\\ \\mathrm{K}\\)\n\\(\\implies T(\\mathrm{^\\circ R}) = \\frac{9}{5}(278.15\\ \\mathrm{K}) = 500.67\\ \\mathrm{^\\circ R}\\)"
+  },
+  {
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-12",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-12",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example 2 - Temp. & Temp. Intervals (1/2)",
+    "text": "Example 2 - Temp. & Temp. Intervals (1/2)\n\n\n\n\nOver a limited temperature range, the heat capacity of liquid acetone is\n\n\n\\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ C}} \\right] =0.1230+0.000186T\\) where \\(T\\) is in \\(\\mathrm{^\\circ C}\\).\n\n\nWhat are the heat-capacity formulas with \\(T\\) in \\(K\\), \\(\\mathrm{^\\circ R}\\), and \\(\\mathrm{^\\circ F}\\)?\n\n\nTo Kelvin \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right]\\mathrm{\\frac{1\\ K}{1\\ \\mathrm{^\\circ C}}} =0.1230+0.000186(T-273.15)T\\) where \\(T\\) is in \\(\\mathrm{K}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot K}} \\right] =0.0722+0.000186T\\) where \\(T\\) is in \\(\\mathrm{K}\\)."
+  },
+  {
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-22",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#example-2---temp.-temp.-intervals-22",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example 2 - Temp. & Temp. Intervals (2/2)",
+    "text": "Example 2 - Temp. & Temp. Intervals (2/2)\n\nTo Rankine \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ R}} \\right]\\mathrm{\\frac{9\\ ^\\circ R}{5\\ \\mathrm{^\\circ C}}} =0.1230+0.000186 \\left( \\frac{5}{9}[T-491.67] \\right)\\) where \\(T\\) is in \\(\\mathrm{^\\circ R}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ R}} \\right] =0.04011+0.00005741\\) where \\(T\\) is in \\(\\mathrm{^\\circ R}\\).\n\n\nTo Fahrenheit \\(C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ F}} \\right]\\mathrm{\\frac{9\\ ^\\circ F}{5\\ \\mathrm{^\\circ C}}} =0.1230+0.000186 \\left( \\frac{5}{9}[T-32] \\right)\\) where \\(T\\) is in \\(\\mathrm{^\\circ F}\\).\n\n\n\\(\\implies C_p \\left[\\mathrm{\\frac{kJ}{mol \\cdot ^\\circ F}} \\right] =0.06650+0.00005741\\) where \\(T\\) is in \\(\\mathrm{^\\circ F}\\)."
+  },
+  {
+    "objectID": "basics/processdata/ConvertingTemperatureTFSVisuals.html#the-takeaways",
+    "href": "basics/processdata/ConvertingTemperatureTFSVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nLinear interpolation is often used in tables.\nRemember \\(slope = slope\\) to write formula.\nA one-dimensional table requires one interpolation.\nA two-dimensional table requires double interpolation, which is really three interpolations."
-  },
-  {
-    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-density-and-specific-volume",
-    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#mass-density-and-specific-volume",
-    "title": "Chemical and Thermal Processes",
-    "section": "Mass Density and Specific Volume",
-    "text": "Mass Density and Specific Volume\n\nMass Density (Density), \\(\\rho\\ \\equiv\\) mass per unit volume\n\n\n\nSI units: \\(\\mathrm{kg/m^3}\\)\n\n\n\\(\\rho = \\frac{m}{V} = \\frac{1}{\\hat{V}}\\)\n\n\n\nSpecific Volume, \\(\\hat{V}\\ \\equiv\\) volume per unit mass\n\n\n\nSI units: \\(\\mathrm{m^3/kg}\\)\n\n\n\\(\\hat{V} = \\frac{V}{m} = \\frac{1}{\\rho}\\)"
-  },
-  {
-    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#molar-density-and-molar-volume",
-    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#molar-density-and-molar-volume",
-    "title": "Chemical and Thermal Processes",
-    "section": "Molar Density and Molar Volume",
-    "text": "Molar Density and Molar Volume\n\nMolar Density, \\(\\rho\\ \\equiv\\) moles per unit volume\n\n\n\nSI units: \\(\\text{g-mol}/\\mathrm{m^3}\\) (same units as concentration)\n\n\nChemist units: \\(\\text{mole}/\\mathrm{liter}\\)\n\n\n\\(\\rho = \\frac{n}{V} = \\frac{1}{\\hat{V}}\\)\n\n\n\nMolar Volume, \\(\\hat{V}\\ \\equiv\\) volume per mole\n\n\n\nSI units: \\(\\mathrm{m^3/}\\text{g-mol}\\)\n\n\n\\(\\hat{V} = \\frac{V}{n} = \\frac{1}{\\rho}\\)\n\n\n\nWe reuse the mass-density symbol for molar density and the specific-volume symbol for molar volume.  Check the units to determine which is being used!"
-  },
-  {
-    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#specific-gravity",
-    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#specific-gravity",
-    "title": "Chemical and Thermal Processes",
-    "section": "Specific Gravity",
-    "text": "Specific Gravity\n\nSpecific Gravity \\(\\equiv\\) ratio of density to a reference density\n\n\n\\(= \\frac{\\rho}{\\rho_\\mathrm{{ref}}}\\)\n\n\nMost common reference density is liquid water at \\(4\\ ^{\\circ}\\text{C}\\)\n\n\n\\(\\rho\\mathrm{_{ H_2O(\\textit{l})}}(4\\ ^{\\circ}\\mathrm{C}) = 1000\\ \\mathrm{kg/m^3}\\)\n\n\n\\(= 1.000\\ \\mathrm{g/cm^3}\\)\n\n\n\\(= 62.43\\ \\mathrm{lb_m/ft^3}\\)"
-  },
-  {
-    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#concentration",
-    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#concentration",
-    "title": "Chemical and Thermal Processes",
-    "section": "Concentration",
-    "text": "Concentration\n\nMolar Concentration (Concentration), \\(C\\ \\equiv\\) moles per unit volume\n\n\n\\(C_\\mathrm{A} = \\frac{n_\\mathrm{A}}{V}\\)\n\n\nFor an ideal gas, can be calculated as:\n\n\n\\(C_\\mathrm{A} = \\frac{n_\\mathrm{A}}{V} = \\frac{p_\\mathrm{A}}{RT}\\)\n\n\nMass Concentration, \\(\\rho\\ \\equiv\\) mass per unit volume (same units as density)\n\n\nMost often used for quantities such as salinity\n\n\n\\(\\rho_\\mathrm{A} = \\frac{m_\\mathrm{A}}{V}\\)"
-  },
-  {
-    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-1",
-    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Mass, Molar, and Volumetric Flow Rates\n\n\nMass Flow Rate, \\(\\dot{m} \\equiv \\frac{\\text{mass flowing past a given location}}{\\text{period of time}}\\)\n\n\n\\(\\sum \\dot{m}_{i_\\mathrm{in}} = \\sum \\dot{m}_{i_\\mathrm{out}}\\) (open, steady state)\n\n\nMolar Flow Rate, \\(\\dot{n} \\equiv \\frac{\\text{moles flowing past a given location}}{\\text{period of time}}\\)\n\n\n\\(\\sum \\dot{n}_{i_\\mathrm{in}} = \\sum \\dot{n}_{i_\\mathrm{out}}\\) (open, steady state, no reactions)\n\n\nVolumetric Flow Rate, \\(\\dot{V} \\equiv\\) \\(\\frac{\\text{volume flowing past a given location}}{\\text{period of time}}\\)\n\n\n\\(\\sum \\dot{V}_{i_\\mathrm{in}} \\ne \\sum \\dot{V}_{i_\\mathrm{out}}\\) (in general)"
-  },
-  {
-    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-2",
-    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-2",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Mass, Molar, and Volumetric Flow Rates (cont.)\n\n\nGiven a specific location in space and instant in time, the following relationship exists between the the volumetric flow rate (\\(\\dot{V}\\)), the average fluid velocity (\\(u\\)), and the cross-sectional area of the flow (\\(A\\)):\n\n\n\\(\\dot{V}\\) = \\(uA\\)\n\n\nFor an open, steady state system, the previous expression is true at any location in the system."
-  },
-  {
-    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-3",
-    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#section-3",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Mass, Molar, and Volumetric Flow Rates (cont.)\n\n\nRelationship between mass flow rate (\\(\\dot{m}\\)) and volumetric flow rate (\\(\\dot{V}\\)):\n\n\n\\(\\dot{m} = \\rho \\dot{V}\\)\n\n\n\\(\\rho_\\mathrm{in} \\dot{V}_\\mathrm{in} = \\rho_\\mathrm{out} \\dot{V}_\\mathrm{out}\\) (open, steady-state system, 1 inlet & 1 outlet)\n\n\nDon’t Forget! Volume is not a conserved quantity. Just because the mass or molar flowrate is constant, it does not follow that the volumetric flow rate is constant."
-  },
-  {
-    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#fluid-velocity",
-    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#fluid-velocity",
-    "title": "Chemical and Thermal Processes",
-    "section": "Fluid Velocity",
-    "text": "Fluid Velocity\n\nRecall \\(\\dot{V}\\) = \\(uA\\)\n\n\n\\(\\implies u=\\frac{\\dot{V}}{A}\\)\n\n\nMeasuring cup of volume, \\(V\\), fills in time, \\(t\\).\n\n\nAverage fluid flow rate, \\(\\dot{V} = \\frac{V}{t}\\).\n\n\nCross-sectional area, \\(A\\ (=\\pi\\frac{D^2}{4})\\) for a tube or circular pipe\n\n\n\\(\\implies u=\\frac{V}{At}\\)\n\n\nFor reference, for laminar flow in a circular tube, \\(u_\\mathrm{wall} = 0\\), \\(u_{CL} = 2 u\\)."
-  },
-  {
-    "objectID": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#the-takeaways",
-    "href": "basics/processdata/VolumeDensityFlowRateJTFVisuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nMass density or density and specific volume are reciprocals.\nMolar density and molar volume are reciprocals.\nThe mass flow rate is equal to the density times the volumetric flow rate.\nFluid velocity is defined as the volumetric flow rate divided by the cross-sectional area."
-  },
-  {
-    "objectID": "basics/processdata/InterpolationTFSVisuals.html#section-1",
-    "href": "basics/processdata/InterpolationTFSVisuals.html#section-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Properties of Saturated Steam: Temperature Table"
-  },
-  {
-    "objectID": "basics/processdata/InterpolationTFSVisuals.html#linear-interpolation",
-    "href": "basics/processdata/InterpolationTFSVisuals.html#linear-interpolation",
-    "title": "Chemical and Thermal Processes",
-    "section": "Linear Interpolation",
-    "text": "Linear Interpolation\nProperties of Saturated Steam: Temperature Table\n\n\n\\[\\frac{y-y_1}{x-x_1}=\\frac{y_2-y_1}{x_2-x_1}\\]\n\n\n\\[y=\\frac{y_2-y_1}{x_2-x_1}({x-x_1})+y_1\\]\n\n\n\\[\\hat{V}=\\frac{\\hat{V}_2-\\hat{V}_1}{T_2-T_1}({T-T_1})+\\hat{V}_1\\]\n\n\n\\[\\hat{V}=\\frac{106.3-120.8}{10-8}({9-8})+120.8=113.55\\]"
-  },
-  {
-    "objectID": "basics/processdata/InterpolationTFSVisuals.html#double-linear-interpolation",
-    "href": "basics/processdata/InterpolationTFSVisuals.html#double-linear-interpolation",
-    "title": "Chemical and Thermal Processes",
-    "section": "Double Linear Interpolation",
-    "text": "Double Linear Interpolation\nWhat if you’re between values in two dimensions\n\n\\(T=125\\ \\mathrm{^\\circ C}\\)\n\\(P=0.3\\ \\mathrm{bar}\\)\n\\(\\hat{V}=?\\)"
-  },
-  {
-    "objectID": "basics/processdata/InterpolationTFSVisuals.html#double-linear-interpolation-1",
-    "href": "basics/processdata/InterpolationTFSVisuals.html#double-linear-interpolation-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Double Linear Interpolation",
-    "text": "Double Linear Interpolation\n\nCalled double interpolation\nHave to do three"
-  },
-  {
-    "objectID": "basics/processdata/InterpolationTFSVisuals.html#the-takeaways",
-    "href": "basics/processdata/InterpolationTFSVisuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nLinear interpolation is often used in tables.\nRemember \\(slope = slope\\) to write formula.\nA one-dimensional table requires one interpolation.\nA two-dimensional table requires double interpolation, which is really three interpolations."
+    "text": "The Takeaways\n\nThere are four common temperature scales:\n\n\nKelvin, Rankine, Fahrenheit, and Celsius\n\n\nThe conversions between temperatures are different from the conversion of temperature intervals.\nMost temperature conversions requre both multiplication and addition/subtraction.\n\n\nConversion between Rankine and Kelvin only require multiplication\n\n\nAll of the temperature-interval conversions just require multiplication by 9/5, 5/9, or 1."
   },
   {
     "objectID": "basics/processdata/EquationConversionTFSVisuals.html#conversion-videos",
@@ -2084,6 +2049,41 @@
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
     "text": "The Takeaways\n\nAbsolute, gauge, and atmospheric pressure are related by \\(P_\\mathrm{abs} = P_\\mathrm{g}+P_\\mathrm{atm}\\).\nBarometric and atmospheric pressure are related through the Standard Atmospheric Model.\nThe vacuum pressure is the absolute value of the gauge pressure below atmospheric.\nThe High Vacuum (HV) range is from \\(10^{-1}\\) to \\(10^{-5}\\ \\mathrm{Pa}\\), Ultrahigh Vacuum (UHV) from \\(10^{-5}\\) to \\(10^{-10}\\ \\mathrm{Pa}\\), and eXtremely High Vacuum (XHV) is \\(10^{-10}\\ \\mathrm{Pa}\\) and below."
+  },
+  {
+    "objectID": "basics/calculations/InterpolationTFSVisuals.html#section-2",
+    "href": "basics/calculations/InterpolationTFSVisuals.html#section-2",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Properties of Saturated Steam: Temperature Table"
+  },
+  {
+    "objectID": "basics/calculations/InterpolationTFSVisuals.html#linear-interpolation",
+    "href": "basics/calculations/InterpolationTFSVisuals.html#linear-interpolation",
+    "title": "Chemical and Thermal Processes",
+    "section": "Linear Interpolation",
+    "text": "Linear Interpolation\nProperties of Saturated Steam: Temperature Table\n\n\n\\[\\frac{y-y_1}{x-x_1}=\\frac{y_2-y_1}{x_2-x_1}\\]\n\n\n\\[y=\\frac{y_2-y_1}{x_2-x_1}({x-x_1})+y_1\\]\n\n\n\\[\\hat{V}=\\frac{\\hat{V}_2-\\hat{V}_1}{T_2-T_1}({T-T_1})+\\hat{V}_1\\]\n\n\n\\[\\hat{V}=\\frac{106.3-120.8}{10-8}({9-8})+120.8=113.55\\]"
+  },
+  {
+    "objectID": "basics/calculations/InterpolationTFSVisuals.html#double-linear-interpolation",
+    "href": "basics/calculations/InterpolationTFSVisuals.html#double-linear-interpolation",
+    "title": "Chemical and Thermal Processes",
+    "section": "Double Linear Interpolation",
+    "text": "Double Linear Interpolation\nWhat if you’re between values in two dimensions\n\n\\(T=125\\ \\mathrm{^\\circ C}\\)\n\\(P=0.3\\ \\mathrm{bar}\\)\n\\(\\hat{V}=?\\)"
+  },
+  {
+    "objectID": "basics/calculations/InterpolationTFSVisuals.html#double-linear-interpolation-1",
+    "href": "basics/calculations/InterpolationTFSVisuals.html#double-linear-interpolation-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Double Linear Interpolation",
+    "text": "Double Linear Interpolation\n\nCalled double interpolation\nHave to do three"
+  },
+  {
+    "objectID": "basics/calculations/InterpolationTFSVisuals.html#the-takeaways",
+    "href": "basics/calculations/InterpolationTFSVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nLinear interpolation is often used in tables.\nRemember \\(slope = slope\\) to write formula.\nA one-dimensional table requires one interpolation.\nA two-dimensional table requires double interpolation, which is really three interpolations."
   },
   {
     "objectID": "basics/intro/IntroTopicsWebPage.html",
