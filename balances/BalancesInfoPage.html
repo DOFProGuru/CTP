@@ -8,7 +8,7 @@
 
 <meta name="author" content="DOFPro group">
 
-<title>Process Data and Process Variables – Chemical and Thermal Processes</title>
+<title>Engineering Calculations – Chemical and Thermal Processes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,22 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-fa0687f3f0ef05e2ea74ba66881bbcd9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-fa0687f3f0ef05e2ea74ba66881bbcd9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,37 +68,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -109,7 +80,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://dofpro.org" class="navbar-brand navbar-brand-logo">
-    <img src="../../DOFPro_D7_White_Red_Flame_No_Background_Cropped.png" alt="DOFPro Logo" class="navbar-logo">
+    <img src="../DOFPro_D7_White_Red_Flame_No_Background_Cropped.png" alt="DOFPro Logo" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="https://dofpro.org">
     <span class="navbar-title">Chemical and Thermal Processes</span>
@@ -122,7 +93,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="../../basics/"> 
+    <a class="nav-link" href="../basics/"> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -131,23 +102,23 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-overview">    
         <li>
-    <a class="dropdown-item" href="../../basics/index.html">
+    <a class="dropdown-item" href="../basics/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../basics/intro/IntroTopicsWebPage.html">
+    <a class="dropdown-item" href="../basics/intro/IntroTopicsWebPage.html">
  <span class="dropdown-text">Intro and Disciplines</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../basics/stats/StatsMeasurementsWebPage.html">
+    <a class="dropdown-item" href="../basics/stats/StatsMeasurementsWebPage.html">
  <span class="dropdown-text">Statistics &amp; Measurements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../basics/calculations/CalculationsWebPage.html">
+    <a class="dropdown-item" href="../basics/calculations/CalculationsWebPage.html">
  <span class="dropdown-text">Calculations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../basics/processdata/ProcessDataWebPage.html">
+    <a class="dropdown-item" href="../basics/processdata/ProcessDataWebPage.html">
  <span class="dropdown-text">Process Data &amp; Variables</span></a>
   </li>  
     </ul>
@@ -158,37 +129,37 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-balances">    
         <li>
-    <a class="dropdown-item" href="../../balances/general/">
+    <a class="dropdown-item" href="../balances/general/">
  <span class="dropdown-text">General</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../balances/material/">
+    <a class="dropdown-item" href="../balances/material/">
  <span class="dropdown-text">Material</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../balances/energy/">
+    <a class="dropdown-item" href="../balances/energy/">
  <span class="dropdown-text">Energy</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../balances/entropy/">
+    <a class="dropdown-item" href="../balances/entropy/">
  <span class="dropdown-text">Entropy</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../balances/exergy/">
+    <a class="dropdown-item" href="../balances/exergy/">
  <span class="dropdown-text">Exergy</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../phase/"> 
+    <a class="nav-link" href="../phase/"> 
 <span class="menu-text">Phase Equilibria</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../react/"> 
+    <a class="nav-link" href="../react/"> 
 <span class="menu-text">Reactors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../appx/"> 
+    <a class="nav-link" href="../appx/"> 
 <span class="menu-text">Appendices</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -222,14 +193,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-process-data-and-process-variables" id="toc-why-process-data-and-process-variables" class="nav-link active" data-scroll-target="#why-process-data-and-process-variables">Why Process Data and Process Variables</a>
-  <ul class="collapse">
-  <li><a href="#conversions" id="toc-conversions" class="nav-link" data-scroll-target="#conversions">Conversions</a></li>
-  <li><a href="#temperature-optional" id="toc-temperature-optional" class="nav-link" data-scroll-target="#temperature-optional">Temperature (Optional)</a></li>
-  <li><a href="#pressure" id="toc-pressure" class="nav-link" data-scroll-target="#pressure">Pressure</a></li>
-  <li><a href="#mass-moles-and-mass-and-mole-fractions" id="toc-mass-moles-and-mass-and-mole-fractions" class="nav-link" data-scroll-target="#mass-moles-and-mass-and-mole-fractions">Mass, Moles, and Mass and Mole Fractions</a></li>
-  <li><a href="#volume-density-and-flow-rates" id="toc-volume-density-and-flow-rates" class="nav-link" data-scroll-target="#volume-density-and-flow-rates">Volume, Density, and Flow Rates</a></li>
-  </ul></li>
+  <li><a href="#why-engineering-calculations" id="toc-why-engineering-calculations" class="nav-link active" data-scroll-target="#why-engineering-calculations">Why Engineering Calculations</a></li>
   </ul>
 </nav>
     </div>
@@ -238,7 +202,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Process Data and Process Variables</h1>
+<h1 class="title">Engineering Calculations</h1>
 </div>
 
 
@@ -261,45 +225,10 @@ window.Quarto = {
 </header>
 
 
-<section id="why-process-data-and-process-variables" class="level1">
-<h1>Why Process Data and Process Variables</h1>
-<p>Many engineers and chemical engineers in particular design, analyze, and create processes that transform inputs, such as chemical reagents, heat, and electricity, into outputs such a other chemical reagents. The design and analysis of processes requires a knowledge of the sorts of measurements or data that are made of the process, and the variables that are used to model the process. This section discusses many of the varibles, measurements, and data that are common to these processes, how they are defined, what they mean, and how they are used, presented, and analyzed.</p>
-<section id="conversions" class="level2">
-<h2 class="anchored" data-anchor-id="conversions">Conversions</h2>
-<p>We begin with units, conversions, and dimensionless numbers. In spite of a desire to perform all calculations in SI unts, the practicing engineer needs to be comfortable working with both familiar and obscure units. This set of videos discusses many of the common techniques for working with diverse units. The videos in this section are:</p>
-<ol type="1">
-<li><em>Is Furlongs per Fortnight a Thing?</em> <a href="../../NotYetHere.html">The Full Story</a>, <a href="https://youtu.be/Rmv1jLhdQ0I">Just The Facts</a>, <a href="../../basics/processdata/DimensionalEquationsWebPage.html">Reference Page</a>. Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all of your unit conversion issues, but they will solve many of them. Google Calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are multiplicatively related to each other.</li>
-<li><em>Converting Temperatures</em> <a href="../../NotYetHere.html">The Full Story</a>, <a href="https://youtu.be/0l5akaQvBbE">Just The Facts</a>, <a href="../../basics/processdata/ConvertingTemperatureWebPage.html">Reference Page</a>. Converting temperatures and temperature intervals among <span class="math inline">\(\mathrm{K}\)</span>, <span class="math inline">\(^\circ\mathrm{C}\)</span>, <span class="math inline">\(^\circ\mathrm{F}\)</span>, and <span class="math inline">\(^\circ\mathrm{R}\)</span> applies the principles discussed in the previous two video sets. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.</li>
-<li><em>The Most Annoying Equation Conversion</em> <a href="../../NotYetHere.html">The Full Story</a>, <a href="https://youtu.be/JE4llgDsy9E">Just The Facts</a>, <a href="../../NotYetHere.html">Reference Page</a>. When units have a more complex relationship than simply multiplicative, such as <span class="math inline">\(^\circ\mathrm{C}\)</span> and <span class="math inline">\(^\circ\mathrm{F}\)</span>, the relationship is expressed in an equation with dimensions. In addition, there are at times equations, particularly empirical equations, where the varibles are in SI units, and you need an equivalent equation in American Engineering units. The procedure for deriving such equations with units is presented in this set of videos.</li>
-<li><em>Dimensionless Numbers</em> <a href="../../NotYetHere.html">The Full Story</a>, <a href="../../NotYetHere.html">Just The Facts</a>, <a href="../../NotYetHere.html">Reference Page</a>. In the early days of engineering there were huge data sets that needed to be regressed and correlations found. The <a href="https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem">Buckingham pi theorem</a> provided a way to reduce the dimensionality of these huge data sets and ease calculational complexity. In addition, normalizing ordinary and partial differential equations (which is basically making the variables dimensionless through choosing a scale) gives rise to dimensionless prarameters. The most well known of these is the Reynolds number, but there are scores of others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used.</li>
-</ol>
-</section>
-<section id="temperature-optional" class="level2">
-<h2 class="anchored" data-anchor-id="temperature-optional">Temperature (Optional)</h2>
-<p><em>Measuring Temperature</em> <a href="../../NotYetHere.html">The Full Story</a>, <a href="../../NotYetHere.html">Just The Facts</a>, <a href="../../NotYetHere.html">Reference Page</a>. The most commonly measured process variable is temperature. This set of videos discusses different temperature-measurement techniques. It is optional because at this level it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or has to specify how a temperature measurement is to be made.</p>
-</section>
-<section id="pressure" class="level2">
-<h2 class="anchored" data-anchor-id="pressure">Pressure</h2>
-<p>The second most commonly measured process variable is pressure.</p>
-<ol type="1">
-<li><em>Under Pressure Part 1</em> <a href="../../NotYetHere.html">The Full Story</a>, <a href="https://youtu.be/eZFMP-Dt48g">Just The Facts</a>, <a href="../../basics/processdata/PressureWebPage.html">Reference Page</a>. <em>Part 1</em> discusses the common pressure units and hydrostatic pressure.</li>
-<li><em>Under Pressure Part 2</em> <a href="../../NotYetHere.html">The Full Story</a>, <a href="https://youtu.be/z8DJ4kpvCMU">Just The Facts</a>, <a href="../../basics/processdata/PressureWebPage.html">Reference Page</a>. <em>Part 2</em> discusses absolute, atmospheric, barometric, gauge, and vacuum pressure.</li>
-</ol>
-</section>
-<section id="mass-moles-and-mass-and-mole-fractions" class="level2">
-<h2 class="anchored" data-anchor-id="mass-moles-and-mass-and-mole-fractions">Mass, Moles, and Mass and Mole Fractions</h2>
-<p>When purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:</p>
-<ol type="1">
-<li><em>What Is a Mole?</em> <a href="https://youtu.be/Kztw9GX9EL8">The Full Story</a>, <a href="https://youtu.be/wHEX0uY69rs?si=ZutkXqeAfcDqFdPB">Just The Facts</a>, <a href="../../basics/processdata/WhatIsAMoleWebPage.html">Reference Page</a>. This video set explains the different types of moles and how to use them.</li>
-<li><em>Mass, Moles, and Mass and Mole Fractions</em> <a href="../../NotYetHere.html">The Full Story</a>, <a href="../../NotYetHere.html">Just The Facts</a>, <a href="../../NotYetHere.html">Reference Page</a> When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight.</li>
-</ol>
-</section>
-<section id="volume-density-and-flow-rates" class="level2">
-<h2 class="anchored" data-anchor-id="volume-density-and-flow-rates">Volume, Density, and Flow Rates</h2>
-<p>In Chemical and Thermal Processes, the flows are often calculated and/or measured as mass flow rates, molar flow rates and/or volumetric flow rates. The video explains how the three flow rates are defined, and how to convert among them. The video is <em>Volume, Density, and Flow Rates</em> <a href="../../NotYetHere.html">The Full Story</a>, <a href="../../NotYetHere.html">Just The Facts</a>, <a href="../../NotYetHere.html">Reference Page</a>.</p>
+<section id="why-engineering-calculations" class="level1">
+<h1>Why Engineering Calculations</h1>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

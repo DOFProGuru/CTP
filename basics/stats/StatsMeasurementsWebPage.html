@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -194,6 +223,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#why-statistics-and-measurements" id="toc-why-statistics-and-measurements" class="nav-link active" data-scroll-target="#why-statistics-and-measurements">Why Statistics and Measurements</a></li>
+  <li><a href="#basic-statistics" id="toc-basic-statistics" class="nav-link" data-scroll-target="#basic-statistics">Basic Statistics</a></li>
+  <li><a href="#linear-regression" id="toc-linear-regression" class="nav-link" data-scroll-target="#linear-regression">Linear Regression</a></li>
+  <li><a href="#error-propagation" id="toc-error-propagation" class="nav-link" data-scroll-target="#error-propagation">Error Propagation</a></li>
+  <li><a href="#nonlinear-regression" id="toc-nonlinear-regression" class="nav-link" data-scroll-target="#nonlinear-regression">Nonlinear Regression</a></li>
   </ul>
 </nav>
     </div>
@@ -227,7 +260,239 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="why-statistics-and-measurements" class="level1">
 <h1>Why Statistics and Measurements</h1>
-<p>All chemical and thermal processes have one or more outputs, whether it be a chemical product such as benzene or electrical power. The goal of almost all process engineers is to maximize the output for a given cost or minimize the cost for a given output. Engineering is a quantitative discipline, and we have to quantitatively report our inputs and outputs. Since all processes experience random fluctuations from the process itself or from the measurement process, the engineer needs to be able to account for the noise. Statistical methods are the most common ways to report both the inputs and outputs, and the variations or noise in the inputs or outputs.</p>
+<p>All chemical and thermal processes have one or more outputs, whether it be a chemical product such as benzene or electrical power. The goal of almost all process engineers is to maximize the output for a given cost or minimize the cost for a given output. Engineering is a quantitative discipline, and we have to quantitatively report our inputs and outputs. Since all processes experience random fluctuations from the process itself or from the measurement process, the engineer needs to be able to account for the noise. Statistical methods are the most common ways to report both the inputs and outputs, and the variations or noise in the inputs or outputs. There are seventeen videos discussing common statistical methods used in Chemical and Thermal Processing and other fields of engineering, divided up into <em>basic statistics</em>, <em>linear regression</em>, <em>error propagation</em>, <em>nonlinear regression</em>, and <em>error propagation in integrals and derivatives</em></p>
+</section>
+<section id="basic-statistics" class="level1">
+<h1>Basic Statistics</h1>
+<p>The most commonly used basic statistics are the <em>arithmetic mean</em>, the <em>standard deviation</em>, and the <em>confidence interval</em>. These three are covered in the videos and web pages listed in the table below. The column labeled <em>JTF</em> contains links to the <em>Just The Facts</em> videos, intended mainly for review. The <em>TFS</em> videos are <em>The Full Story</em> videos, with more explanation and discussion. The <em>Info Page</em> contains additional information and definitions for the videos.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Title</th>
+<th>JTF Link</th>
+<th>TFS Link</th>
+<th>Info Page</th>
+<th>Subject</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>How Deviant and Mean Are Your Data? Intro and Basics Part 1</td>
+<td><a href="https://youtu.be/3rCYZ8QHRec">Link</a></td>
+<td>No</td>
+<td><a href="../../basics/stats/BasicStatisticsWebPage.html">Page</a></td>
+<td>Mean and Standard Deviation</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>How Deviant and Mean Are Your Data? Part 2</td>
+<td><a href="https://youtu.be/hybGh8oPU_0">Link</a></td>
+<td>No</td>
+<td><a href="../../basics/stats/BasicStatisticsWebPage.html">Page</a></td>
+<td>Standard Error and Confidence Interval</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Basics Statistics by Hand</td>
+<td><a href="https://youtu.be/h7WoWiVLzaw">Link</a></td>
+<td>N/A</td>
+<td><a href="../../basics/stats/BasicStatisticsWebPage.html">Page</a></td>
+<td><span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_{\bar{x}}\)</span>, <span class="math inline">\(\lambda\)</span> by hand</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Basics Statistics with a Spreadsheet</td>
+<td>No</td>
+<td>N/A</td>
+<td><a href="../../basics/stats/BasicStatisticsWebPage.html">Page</a></td>
+<td><span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_{\bar{x}}\)</span>, <span class="math inline">\(\lambda\)</span> with a spreadsheet</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Basics Statistics in Python</td>
+<td>No</td>
+<td>N/A</td>
+<td><a href="../../basics/stats/BasicStatisticsWebPage.html">Page</a></td>
+<td><span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_{\bar{x}}\)</span>, <span class="math inline">\(\lambda\)</span> in Python</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Basics Statistics in R</td>
+<td>No</td>
+<td>N/A</td>
+<td><a href="../../basics/stats/BasicStatisticsWebPage.html">Page</a></td>
+<td><span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_{\bar{x}}\)</span>, <span class="math inline">\(\lambda\)</span> in R</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="linear-regression" class="level1">
+<h1>Linear Regression</h1>
+<p>A very common means of presenting and analyzing sets of data pairs is <em>linear regression</em> or fitting a linear function to the data. We only present methods for least-squares linear regression. The method is covered in the videos listed in the table below. The column labeled <em>JTF</em> contains links to the <em>Just The Facts</em> videos, intended mainly for review. The <em>TFS</em> videos are <em>The Full Story</em> videos, with more explanation and discussion. The <em>Info Page</em> contains additional information and definitions for the videos.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 12%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 20%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Title</th>
+<th>JTF Link</th>
+<th>TFS Link</th>
+<th>Info Page</th>
+<th>Subject</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TBD</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Linear Regression</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Linear Regression with a Spreadsheet</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>Slope, Intercept, and Functional Bounds with a spreadsheet</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Linear Regression in Python</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>Slope, Intercept, and Functional Bounds in Python</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Linear Regression in R</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>Slope, Intercept, and Functional Bounds in R</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="error-propagation" class="level1">
+<h1>Error Propagation</h1>
+<p>Experimental data taken by engineers are usually further processed as part of design or analysis procedures. The question often arises as to how the uncertainty in the measured data affect the uncertainty in the final calculation. There are both analytical and numerical methods for evaluating how the undertainty or error propagates. These methods are explored in the videos listed in the table below. The column labeled <em>JTF</em> contains links to the <em>Just The Facts</em> videos, intended mainly for review. The <em>TFS</em> videos are <em>The Full Story</em> videos, with more explanation and discussion. The <em>Info Page</em> contains additional information and definitions for the videos.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 12%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 20%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Title</th>
+<th>JTF Link</th>
+<th>TFS Link</th>
+<th>Info Page</th>
+<th>Subject</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TBD</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Error Propagation in Algebraic and Transcendental Functions</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>TBD</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Error Propagation when integrating and Differentiating Time Series, Part 1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>TBD</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Error Propagation when integrating and Differentiating Time Series, Part 2</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nonlinear-regression" class="level1">
+<h1>Nonlinear Regression</h1>
+<p>When the model for fitting data contains parameters that are non-linearly related to the fitting function, the model parameters may be determined through <em>nonlinear regression</em>. The method is covered in the videos listed in the table below. The column labeled <em>JTF</em> contains links to the <em>Just The Facts</em> videos, intended mainly for review. The <em>TFS</em> videos are <em>The Full Story</em> videos, with more explanation and discussion. The <em>Info Page</em> contains additional information and definitions for the videos.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 12%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 20%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Title</th>
+<th>JTF Link</th>
+<th>TFS Link</th>
+<th>Info Page</th>
+<th>Subject</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TBD</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Noninear Regression, Parameter Fitting, and functional and observational bounds</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Noninear Regression with a Spreadsheet</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>Parameter, and Functional Bounds with a spreadsheet</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Linear Regression in Python</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>Slope, Intercept, and Functional Bounds in Python</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Linear Regression in R</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>Slope, Intercept, and Functional Bounds in R</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
