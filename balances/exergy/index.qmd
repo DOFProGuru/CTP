@@ -1,5 +1,5 @@
 ---
-title: "Exergy"
+title: "Exergy or Availability Balances"
 author: "DOFPro group"
 ---
 

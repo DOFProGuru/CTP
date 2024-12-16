@@ -1,5 +1,5 @@
 ---
-title: "Energy Balances"
+title: "Energy Balances or The 1st Law"
 author: "DOFPro group"
 ---
 

@@ -6,4 +6,50 @@ format: html
 
 # Why Statistics and Measurements
 
-All chemical and thermal processes have one or more outputs, whether it be a chemical product such as benzene or electrical power. The goal of almost all process engineers is to maximize the output for a given cost or minimize the cost for a given output. Engineering is a quantitative discipline, and we have to quantitatively report our inputs and outputs. Since all processes experience random fluctuations from the process itself or from the measurement process, the engineer needs to be able to account for the noise. Statistical methods are the most common ways to report both the inputs and outputs, and the variations or noise in the inputs or outputs.
+All chemical and thermal processes have one or more outputs, whether it be a chemical product such as benzene or electrical power. The goal of almost all process engineers is to maximize the output for a given cost or minimize the cost for a given output. Engineering is a quantitative discipline, and we have to quantitatively report our inputs and outputs. Since all processes experience random fluctuations from the process itself or from the measurement process, the engineer needs to be able to account for the noise. Statistical methods are the most common ways to report both the inputs and outputs, and the variations or noise in the inputs or outputs. There are seventeen videos discussing common statistical methods used in Chemical and Thermal Processing and other fields of engineering, divided up into *basic statistics*, *linear regression*, *error propagation*, *nonlinear regression*, and *error propagation in integrals and derivatives*
+
+# Basic Statistics
+
+The most commonly used basic statistics are the *arithmetic mean*, the *standard deviation*, and the *confidence interval*. These three are covered in the videos and web pages listed in the table below. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
+
+| Title | JTF Link | TFS Link | Info Page | Subject|
+|---------|-------|----------|----------|-----------|--------|
+| How Deviant and Mean Are Your Data? Intro and Basics Part 1 | [Link](https://youtu.be/3rCYZ8QHRec) | No | [Page](../stats/BasicStatisticsWebPage.qmd) | Mean and Standard Deviation |
+| How Deviant and Mean Are Your Data? Part 2 | [Link](https://youtu.be/hybGh8oPU_0) | No | [Page](../stats/BasicStatisticsWebPage.qmd) | Standard Error and Confidence Interval |
+| Basics Statistics by Hand | [Link](https://youtu.be/h7WoWiVLzaw) |  N/A | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ by hand|
+| Basics Statistics with a Spreadsheet | No |  N/A | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with a spreadsheet|
+| Basics Statistics in Python | No |  N/A | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in Python|
+| Basics Statistics in R | No |  N/A | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R|
+
+# Linear Regression
+
+A very common means of presenting and analyzing sets of data pairs is *linear regression* or fitting a linear function to the data. We only present methods for least-squares linear regression. The method is covered in the videos listed in the table below. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
+
+
+| Title | JTF Link | TFS Link | Info Page | Subject|
+|---------|-------|----------|----------|-----------|--------|
+| TBD | No | No | No | Linear Regression |
+| Linear Regression with a Spreadsheet | No |  N/A | No | Slope, Intercept, and Functional Bounds with a spreadsheet|
+| Linear Regression in Python | No |  N/A | No | Slope, Intercept, and Functional Bounds in Python|
+| Linear Regression in R | No |  N/A | No | Slope, Intercept, and Functional Bounds in R|
+
+# Error Propagation
+
+Experimental data taken by engineers are usually further processed as part of design or analysis procedures. The question often arises as to how the uncertainty in the measured data affect the uncertainty in the final calculation. There are both analytical and numerical methods for evaluating how the undertainty or error propagates. These methods are explored in the videos listed in the table below. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
+
+ Title | JTF Link | TFS Link | Info Page | Subject|
+|---------|-------|----------|----------|-----------|--------|
+| TBD | No | No | No | Error Propagation in Algebraic and Transcendental Functions |
+| TBD | No |  No | No | Error Propagation when integrating and Differentiating Time Series, Part 1 |
+| TBD | No |  No | No | Error Propagation when integrating and Differentiating Time Series, Part 2 |
+
+# Nonlinear Regression
+
+When the model for fitting data contains parameters that are non-linearly related to the fitting function, the model parameters may be determined through *nonlinear regression*. The method is covered in the videos listed in the table below. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
+
+| Title | JTF Link | TFS Link | Info Page | Subject|
+|---------|-------|----------|----------|-----------|--------|
+| TBD | No | No | No | Noninear Regression, Parameter Fitting, and functional and observational bounds |
+| Noninear Regression with a Spreadsheet | No |  N/A | No | Parameter, and Functional Bounds with a spreadsheet|
+| Linear Regression in Python | No |  N/A | No | Slope, Intercept, and Functional Bounds in Python|
+| Linear Regression in R | No |  N/A | No | Slope, Intercept, and Functional Bounds in R|

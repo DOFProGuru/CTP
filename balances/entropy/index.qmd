@@ -1,5 +1,5 @@
 ---
-title: "Entropy Balances"
+title: "Entropy Balances or The 2nd Law"
 author: "DOFPro group"
 ---
 

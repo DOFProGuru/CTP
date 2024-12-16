@@ -3,6 +3,10 @@ title: "Chemical and Thermal Processes"
 author: "DOFPro group"
 ---
 
+# [Current List of Posted Videos](basics/intro/CurrentVideoList.qmd)
+
+The Degrees of Freedom Project is still in the early Alpha stage. It is possible, but extremely difficult, to find links to the currently posted videos on YouTube. To make the process easier while we are in the development process, the list of videos that have been posted on YouTube will be maintained at [this link](basics/intro/CurrentVideoList.qmd). The link will be removed or modified once the full set of videos is available.
+
 # Overview of Chemical and Thermal Processes
 
 Chemical and Thermal Processes starts with the basics of stoichiometry and thermodynamics as covered in many Introduction to Chemical Engineering courses. It continues with topics typically covered in an advanced Engineering Thermodynamics course and in a Chemical Reactor Engineering course. The material is labeled as to whether it is introductory (Sophomore level), intermediate (Junior level) or advanced (Senior level).
