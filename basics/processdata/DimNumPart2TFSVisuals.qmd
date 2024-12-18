@@ -1,7 +1,7 @@
 ---
 format:
   revealjs:
-    width: 2700
+    width: 3840
     height: 2160
     max-scale: 8
     logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
@@ -10,13 +10,22 @@ format:
     html-math-method: mathjax
 ---
 
-# What the Schmidt?</br>Just the Facts{.bigbold85}
+# What the Schmidt?</br>The Full Story
 
 ::: {style="text-align: center;"}
 DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="-55%"}
+
+
+# What the Schmidt?</br>Just the Facts
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="-55%"}
 
 ##
 
@@ -265,7 +274,16 @@ So $v^2_{\mathrm{max}}/b$ has dimensions of $\mathrm{m}$ like $x$ and $x_0$.
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *What the Schmidt? Examples*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The companion video in the series, *What the Schmidt? Examples*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *Where Does Sherwood Hide His Unit?*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
