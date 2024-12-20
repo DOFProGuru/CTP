@@ -1,20 +1,28 @@
 ---
 format: 
   revealjs:
-    width: 2700
+    width: 3840
     height: 2160
     max-scale: 8
     logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
     theme: [serif, ../../gradient.scss]
 ---
+# What The Frac!</br>The Full Story {style="text-align: center;"}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="-50%"}
+
 # What The Frac!</br>Just The Facts {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
 DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-50%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="-50%"}
 
 ## Mass
 
@@ -179,11 +187,22 @@ often used for polymers.
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
-::: {.absolute top=125% left=35%}
+::: {.absolute top=125% left=39%}
 The DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}
+
+#
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=39%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}

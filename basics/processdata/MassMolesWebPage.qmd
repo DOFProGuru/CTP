@@ -1,0 +1,98 @@
+---
+title: "*What the Frac?* Reference Page"
+author: "DOFPro group"
+format: html
+---
+# Purpose of *What the Frac?*
+
+Chemical reagents and other materials are often bought and sold by mass. Their flows are often measured or specified in terms of mass per time. For gases and reacting reagents, quantities are often specified in terms of moles, and flows are specified in terms of moles per time.
+
+Mixtures are very common in chemical and thermal processes. It is often necessary to measure or specify the composition of these mixtures. The two standards for specifying composition are by mass fraction and by mole fraction. The purpose of this video is to discuss mass, review the mole as used in engineering, explain how to calculate mass fractions and mole fractions, and how to convert bach and forth between them. Finally, it discusses how to calculate both mass-averaged and mole- or number-averaged molecular weight for a mixture. The engineering use of moles was discussed at length in [*What Is a Mole?*](WhatIsAMoleWebPage.qmd).
+
+# *The Full Story* Video
+
+*The Full Story* Video examines common conceptions and misconceptions about mass, moles, mass and mole fractions, and molecular weights of mixtures. It is recommended for those who have not been exposed to these concepts before or who have struggled with understanding what they are or how to use them.
+
+
+**Video Link goes here** [Visuals](MassMolesTFSVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+# The *Just The Facts* Video
+
+The *Just The Facts* Video gets straight to explaining what mass, moles, and mass and mole fractions are and how they are used. It is recommended for those who have a reasonably good understanding of mass, moles, and mass and mole fractions and are just looking for a refresher or a review.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tdeuf0quJUs?si=DM4eg80CBlbi6ocD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](MassMolesJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Definitions
+
+[Mass](https://en.wikipedia.org/wiki/Mass)
+: Mass, $m$, is both a property of a physical body and a measure of its
+resistance to acceleration (a change in its state of motion) when a net
+force is applied. An object's mass also determines the strength of its
+gravitational attraction to other bodies.
+
+[Pound Mass](https://en.wikipedia.org/wiki/Pound_(mass))
+: A pound mass is the mass that exerts a force of one pound force when accelerated at the standard
+  gravitational acceleration rate of $32.174\ \mathrm{ft/s^2}$. N.I.S.T lists the pound mass as being the same as $0.453\ 592\ 37\ \mathrm{kg}$. It is abbreviated as $\mathrm{lb_m}$.
+  
+[Mass Fraction](https://en.wikipedia.org/wiki/Mass_fraction_(chemistry))
+: The mass of a component of a mixture divided by the total mass of the mixture. The mass fraction of species $\mathrm{A}$ in a mixture, $x_\mathrm{A}$, is calculated as: $x_\mathrm{A} = m_\mathrm{A}/\sum m_i$.
+
+[Mass-Averaged Molecular Weight](https://en.wikipedia.org/wiki/Molar_mass_distribution#Mass_average_molar_mass)
+: The molecular weight of a mixture calculated as the molecular weight of each species times its mass fraction. The mass-averaged molecular weight, $\bar{M}_m$ is calculated as $\bar{M}_m = \sum x_i M_i$ where $x_i$ is the mass fraction of species $i$.
+
+Mole
+:
+
+[Mole Fraction](https://en.wikipedia.org/wiki/Mole_fraction)
+: The number of moles of a component of a mixture divided by the total number of moles of the mixture. The mole fraction of species $\mathrm{A}$ in a mixture, $y_\mathrm{A}$, is calculated as: $y_\mathrm{A} = n_\mathrm{A}/\sum n_i$.
+
+[Mole- or Number-Averaged Molecular Weight](https://en.wikipedia.org/wiki/Molar_mass_distribution#Number_average_molar_mass)
+: The molecular weight of a mixture calculated as the molecular weight of each species times its nole or number fraction. The mole-averaged molecular weight, $\bar{M}_m$ is calculated as $\bar{M} = \sum y_i M_i$ where $y_i$ is the mole fraction of species $i$.
+
+[Molar mass](https://en.wikipedia.org/wiki/Molar_mass)
+: The molar mass of a chemical compound is the ratio between the number of moles of a compound and
+  its mass.
+
+[Mole or Gram Mole](https://en.wikipedia.org/wiki/Mole_(unit))
+: A mole (abbreviation $\mathrm{mol}$) or gram mole (abbreviation $\textrm{g-mol}$) is the mass in grams of an Avogadro's number of molecules of a chemical species. For example,
+  a mole of $\mathrm{NaCl}$ has a mass of $58.443\ \mathrm{g}$.
+
+[Pound Mole](https://en.wikipedia.org/wiki/Mole_(unit)#Similar_units)
+: A pound mole (abbreviation $\textrm{lb-mol}$) is the mass equivalent in pounds mass of the
+  molar mass of a chemical species. For
+  example, a pound mole of $\mathrm{NaCl}$ has a mass of $58.443\ \mathrm{lb_m}$.
+
+# Additional Formulas
+
+## Mass Fraction to Mole Fraction for Binary Mixtures
+
+For a binary mixture of species $\mathrm{A}$ and species $\mathrm{B}$, with mass fractions $x_\mathrm{A}$ and $x_\mathrm{B} = 1 - x_\mathrm{A}$, and $x_\mathrm{A}>0$, the mole fraction of species $\mathrm{A}$, $y_\mathrm{A}$, can be calculated as
+
+$$y_\mathrm{A} = \frac{1}{\left(\frac{1}{x_\mathrm{A}}-1\right)\frac{M_\mathrm{A}}{M_\mathrm{B}}+1}$$
+
+## Mole Fraction to Mass Fraction for Binary Mixtures
+
+For a binary mixture of species $\mathrm{A}$ and species $\mathrm{B}$, with mole fractions $y_\mathrm{A}$ and $y_\mathrm{B} = 1 - y_\mathrm{A}$, and $y_\mathrm{A}>0$, the mass fraction of species $\mathrm{A}$, $x_\mathrm{A}$, can be calculated as
+
+$$x_\mathrm{A} = \frac{1}{\left(\frac{1}{y_\mathrm{A}}-1\right)\frac{M_\mathrm{B}}{M_\mathrm{A}}+1}$$
+
+# Additional Links
+
+## Preceding Videos
+
+As of this writing the two sets of videos preceding this set are:
+
+1. *Under Pressure Part 1* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/eZFMP-Dt48g), [Reference Page](http://localhost:6195/basics/processdata/PressureWebPage.html)
+2. *Under Pressure Part 2* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/z8DJ4kpvCMU), [Reference Page](http://localhost:6195/basics/processdata/PressureWebPage.html)
+
+## Following Videos
+
+As of this writing the two sets of videos following this set are:
+
+1. *What the Frac?* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/Tdeuf0quJUs), [Reference Page](../../NotYetHere.qmd)
+2. *Are You Dense? Crank Up the Volume and Go With the Flow!* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/EsPSVVYWQlE), [Reference Page](../../NotYetHere.qmd)
+
+## Other Links
+
+1. The Wikipedia discussion of the [mole](https://en.wikipedia.org/wiki/Mole_(unit)). The other mass unit moles are discussed under [Similar units](https://en.wikipedia.org/wiki/Mole_(unit)#Similar_units).

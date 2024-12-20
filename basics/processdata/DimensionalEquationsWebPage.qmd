@@ -48,7 +48,7 @@ American Engineering: $\frac{1\ \mathrm{lb_f\ s^2}}{32.174\ \mathrm{lb_m\ ft}}$
 
 ### Approximate
 
-$\frac{2.2\ \mathrm{lb_m}}{1\ \mathrm{kg}}$,&nbsp;&nbsp
+$\frac{2.2\ \mathrm{lb_m}}{1\ \mathrm{kg}}$,&nbsp;&nbsp;
 $\frac{1\ \mathrm{Btu/s}}{1\ \mathrm{kW}}$.
 
 
