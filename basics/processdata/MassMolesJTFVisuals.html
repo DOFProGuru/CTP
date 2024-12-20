@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-fefa623d29087b318469404c06f0966e.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-76ba42aaa80d0d79a36d4e6c08e8675a.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -137,15 +137,29 @@
 <section id="mass" class="slide level2">
 <h2>Mass</h2>
 <p>Mass is both a property of a physical body and a measure of its resistance to acceleration (a change in its state of motion) when a net force is applied. An object’s mass also determines the strength of its gravitational attraction to other bodies. (https://en.wikipedia.org/wiki/Mass)</p>
+<div class="fragment">
 <p>The SI unit of mass, the kilogram, is defined from Planck’s constant</p>
-<p><span class="math display">\[h=6.626070150 \times 10^{-34}\ \mathrm{m^2/s}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[h=6.626070150 \times 10^{-34}\ \mathrm{kg \cdot m^2/s}\]</span></p>
+</div>
+<div class="fragment">
 <p>or</p>
-<p><span class="math display">\[ 1\ \mathrm{kg}=\frac{h}{6.626070150 \times 10^{-34}\ \mathrm{kg \cdot m^2/s}} \]</span></p>
+<p><span class="math display">\[ 1\ \mathrm{kg}=\frac{h}{6.626070150 \times 10^{-34}\ \mathrm{m^2/s}} \]</span></p>
+</div>
 </section>
 <section id="mass-cont." class="slide level2">
 <h2>Mass (cont.)</h2>
-<p>For the curious, the second is defined as 9,192,631,770 times the period of the unperturbed ground-state hyperfine transition of the cesium 133 atom. And the meter is defined as 1/299,792,458th of the distance light travels in a vacuum in one second. The American engineering unit of mass, the pound mass, or <span class="math inline">\(\mathrm{lb_m}\)</span> is defined as</p>
+<p>For the curious, the second is defined as 9&nbsp;192&nbsp;631&nbsp;770 times the period of the unperturbed ground-state hyperfine transition of the cesium 133 atom, <span class="math inline">\(\Delta \nu_\mathrm{Cs}\)</span>. And the meter is defined as 1/299 792&nbsp;458th of the distance light travels in a vacuum in one second, <span class="math inline">\(c\)</span>, or</p>
+<div class="fragment">
+<p><span class="math display">\[1\ \mathrm{kg} = \frac{(299\ 792\ 458)^2}{(6.626\ 070\ 150 \times 10^{-34})(9\ 192\ 631\ 770)} \frac{h\ \Delta \nu_\mathrm{Cs}}{c^2}\]</span></p>
+</div>
+<div class="fragment">
+<p>The American engineering unit of mass, the pound mass, or <span class="math inline">\(\mathrm{lb_m}\)</span> is defined as</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[1\ \mathrm{lb_m} \equiv 0.453\ 592\ 37\ \mathrm{kg}\]</span></p>
+</div>
 </section>
 <section id="mole" class="slide level2">
 <h2>Mole</h2>
@@ -164,18 +178,39 @@
 <p>You should NEVER convert your mass in <span class="math inline">\(\text{kg}\)</span> or <span class="math inline">\(\mathrm{lb_m}\)</span> to <span class="math inline">\(\mathrm{g}\)</span>, and then to <span class="math inline">\(\text{g-mol}\)</span>. You should ALWAYS use the kind of mole your mass is in. The conversion factor is simply the molecular weight.</p>
 </div>
 </section>
-<section id="mole-cont." class="slide level2">
+<section id="mole-cont." class="slide level2 bigbold90">
 <h2>Mole (cont.)</h2>
 <p>The molecular weight of methane is:</p>
-<p><span class="math inline">\(M_\mathrm{CH_4} = 16.0425\ \frac{\text{g}}{\text{g-mol}} = 16.0425\ \frac{\text{kg}}{\text{kg-mol}} = 16.0425\ \frac{\mathrm{lb_m}}{\text{lb-mol}}\)</span></p>
+<div class="fragment">
+<p><span class="math display">\[M_\mathrm{CH_4} = 16.0425\ \frac{\text{g}}{\text{g-mol}} = 16.0425\ \frac{\text{kg}}{\text{kg-mol}} = 16.0425\ \frac{\mathrm{lb_m}}{\text{lb-mol}}\]</span></p>
+</div>
+<div class="fragment">
 <p>To calculate the pounds of oxygen (<span class="math inline">\(M = 31.9988\)</span>) required to completely burn three pounds of methane:</p>
-<p><span class="math inline">\(\mathrm{CH_4} + 2 \mathrm{O_2} \rightarrow \mathrm{CO_2} + 2 \mathrm{H_2O} \implies \frac{2\ \text{lb-mol }\mathrm{O_2}}{1\ \text{lb-mol }\mathrm{CH_4}}\)</span></p>
-<p><span class="math inline">\(\frac{3\ \mathrm{lb_m\ CH_4}}{16.0425\ \frac{\mathrm{lb_m\ CH_4}}{\text{lb-mol CH}_4}} \frac{2\ \text{lb-mol }\mathrm{O_2}}{1\ \text{lb-mol }\mathrm{CH_4}} \frac{31.9988\ \mathrm{lb_m\ O_2}}{1\ \text{lb-mol O}_2} = 11.9678\ \mathrm{lb_m\ O_2}\)</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\mathrm{CH_4} + 2 \mathrm{O_2} \rightarrow \mathrm{CO_2} + 2 \mathrm{H_2O} \implies \frac{2\ \text{lb-mol }\mathrm{O_2}}{1\ \text{lb-mol }\mathrm{CH_4}}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\frac{3\ \mathrm{lb_m\ CH_4}}{16.0425\ \frac{\mathrm{lb_m\ CH_4}}{\text{lb-mol CH}_4}} \frac{2\ \text{lb-mol }\mathrm{O_2}}{1\ \text{lb-mol }\mathrm{CH_4}} \frac{31.9988\ \mathrm{lb_m\ O_2}}{1\ \text{lb-mol O}_2} = 11.9678\ \mathrm{lb_m\ O_2}\]</span></p>
+</div>
+<div class="fragment">
 <p>Calculating it any other way is just a waste of time and brain effort.</p>
+</div>
 </section>
 <section id="mass-fractions-and-mole-fractions" class="slide level2">
 <h2>Mass Fractions and Mole Fractions</h2>
-<p><span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>, and <span class="math inline">\(z\)</span> are all used for both <em>mass fractions</em> and <em>mole fractions</em>. <span class="math inline">\(x_\mathrm{A}\)</span> can be the mass fraction of species <span class="math inline">\(\mathrm{A}\)</span> or the mole fraction of species <span class="math inline">\(\mathrm{A}\)</span>. Likewise for <span class="math inline">\(y_\mathrm{A}\)</span> and <span class="math inline">\(z_\mathrm{A}\)</span>. Convention usually uses:</p>
+<div class="fragment">
+<p><span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>, and <span class="math inline">\(z\)</span> are all used for both <em>mass fractions</em> and <em>mole fractions</em>.<br><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(x_\mathrm{A}\)</span> can be the <em>mass fraction</em> of species <span class="math inline">\(\mathrm{A}\)</span> or the <em>mole fraction</em> of species <span class="math inline">\(\mathrm{A}\)</span>.<br><br></p>
+</div>
+<div class="fragment">
+<p>Likewise for <span class="math inline">\(y_\mathrm{A}\)</span> and <span class="math inline">\(z_\mathrm{A}\)</span>.<br><br></p>
+</div>
+<div class="fragment">
+<p>Convention usually uses:</p>
+</div>
 <ul>
 <li class="fragment"><span class="math inline">\(x\)</span> for fractions in a solid or liquid mixture,</li>
 <li class="fragment"><span class="math inline">\(y\)</span> for fractions in a gas mixture, and</li>
@@ -184,25 +219,49 @@
 </section>
 <section id="conversions" class="slide level2">
 <h2>Conversions</h2>
+<div class="fragment">
 <p>To convert from mass fraction, <span class="math inline">\(x\)</span>, to mole fraction, <span class="math inline">\(y\)</span>:</p>
-<p><span class="math inline">\(y_\mathrm{A} = \frac{\frac{x_\mathrm{A}}{M_\mathrm{A}}}{\sum \frac{x_i}{M_i}}\)</span></p>
-<p>To convert from mole fraction, <span class="math inline">\(y\)</span>, to mass fraction, <span class="math inline">\(x\)</span>:</p>
-<p><span class="math inline">\(x_\mathrm{A} = \frac{y_\mathrm{A} M_\mathrm{A}}{\sum y_i M_i}\)</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[y_\mathrm{A} = \frac{\frac{x_\mathrm{A}}{M_\mathrm{A}}}{\sum \frac{x_i}{M_i}}\]</span></p>
+</div>
+<div class="fragment">
+<p><br>To convert from mole fraction, <span class="math inline">\(y\)</span>, to mass fraction, <span class="math inline">\(x\)</span>:</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[x_\mathrm{A} = \frac{y_\mathrm{A} M_\mathrm{A}}{\sum y_i M_i}\]</span></p>
+</div>
 </section>
-<section id="mole-averaged-and-mass-averaged-molecular-weight" class="slide level2 bigbold60">
+<section id="mole-averaged-and-mass-averaged-molecular-weight" class="slide level2 bigbold65">
 <h2>Mole-Averaged and Mass-Averaged Molecular Weight</h2>
-<p>The mole-averaged (or number-averaged) molecular weight is</p>
-<p><span class="math inline">\(\bar{M} = \sum y_i M_i = \left(\sum \frac{x_i}{M_i}\right)^{-1}\)</span></p>
+<div style="font-size:90px">
+<div class="fragment">
+<p><br>The mole-averaged (or number-averaged) molecular weight is</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\bar{M} = \sum y_i M_i = \left(\sum \frac{x_i}{M_i}\right)^{-1}\]</span></p>
+</div>
+<div class="fragment">
 <p>The mass-averaged molecular weight is</p>
-<p><span class="math inline">\(\bar{M}_m = \sum x_i M_i = \frac{\sum y_i M_i^2}{\sum y_i M_i}\)</span></p>
-<p>The mole-averaged molecular weight is most often used for mixtures of gases. The mass-averaged molecular weight is most often used for polymers.</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\bar{M}_m = \sum x_i M_i = \frac{\sum y_i M_i^2}{\sum y_i M_i}\]</span></p>
+</div>
+<div class="fragment">
+<p>The mole-averaged molecular weight is most often used for mixtures of gases.</p>
+</div>
+<div class="fragment">
+<p><br>The mass-averaged molecular weight is most often used for polymers.</p>
+</div>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Pressure is the second most commonly measured process variable.</li>
-<li class="fragment">Hydrostatic pressure <span class="math inline">\(= \rho g h\)</span>.</li>
-<li class="fragment">Manometers measure <span class="math inline">\(\Delta P\)</span>’s with hydrostatic pressure.</li>
+<li class="fragment">Materials in chemical processes are measured in mass, moles, or both.</li>
+<li class="fragment">Always use the mole unit, e.g.&nbsp;<span class="math inline">\(\text{lb-mol}\)</span>, corresponding to your mass unit, e.g., <span class="math inline">\(\mathrm{lb_m}\)</span>.</li>
+<li class="fragment">Learn how to convert from mass fractions to mole fractions and back.</li>
+<li class="fragment">Learn how to calculate mole- or number-averaged molecular weights, and mass-averaged molecular weights.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">

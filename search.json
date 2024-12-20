@@ -235,7 +235,7 @@
     "href": "basics/intro/CurrentVideoList.html",
     "title": "Current List of Videos on YouTube",
     "section": "",
-    "text": "Links to the current videos on YouTube will be maintained here. These are current as of 2024-12-12.\n\nTable of Videos\n\n\n\nVid. #\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n5\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean and Standard Deviation\n\n\n5A\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error and Confidence Interval\n\n\n6\nBasics Statistics by Hand\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n21\nIs Your Process Data Spread Smooth or Chunky?\nLink\nNo\nPage\nData Visualization\n\n\n22\nInterpol Is Late to a Mind-Blowing Math Hack\nLink\nNo\nPage\nLinear Interpolation\n\n\n23\nNo Clear Interpretation a Mind-Blowing Math Hack\nLink\nNo\nPage\nNonlinear Interpolation\n\n\n27\nIs Furlongs Per Fortnight a Thing?\nLink\nNo\nPage\nUnit Conversion\n\n\n28\nHow Keen Is Your Rank?\nLink\nNo\nPage\nTemperature Conversion\n\n\n29\nThe Most Annoying Equation Conversion\nLink\nNo\n[Page]\nUnit Conversion of Equations\n\n\n31\nWhat the Schmidt? Examples\nLink\nNo\nNo\nExamples of Dimensionless Numbers and Dimensional Homogeneity\n\n\n33\nUnder Pressure Part 1\nLink\nNo\nPage\nPressure Basics\n\n\n34\nUnder Pressure Part 2\nLink\nNo\nPage\nAbs., Atm., Gauge, Barometric Pressure\n\n\n35\nWhat is a Mole?\nLink\nLink\nPage\nWhat a mole is\n\n\n37\nAre You Dense? Crank Up the Volume and Go With the Flow!\nLink\nNo\n[Page]\nMass, Moles, Density, Volume, and Flow Rates"
+    "text": "Links to the current videos on YouTube will be maintained here. These are current as of 2024-12-20.\n\nTable of Videos\n\n\n\nVid. #\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n5\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean (\\(\\mu,\\ \\bar{x}\\)) and Standard Deviation (\\(\\sigma,\\ S\\))\n\n\n5A\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error (\\(S_{\\bar{x}}\\)) and Confidence Interval (\\(2\\lambda\\))\n\n\n6\nBasics Statistics by Hand\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n21\nIs Your Process Data Spread Smooth or Chunky?\nLink\nNo\nPage\nData Visualization, linear and Log Coordinates\n\n\n22\nInterpol Is Late to a Mind-Blowing Math Hack\nLink\nNo\nPage\nLinear Interpolation\n\n\n23\nNo Clear Interpretation a Mind-Blowing Math Hack\nLink\nNo\nPage\nNonlinear Interpolation\n\n\n27\nIs Furlongs Per Fortnight a Thing?\nLink\nNo\nPage\nUnit Conversion\n\n\n28\nHow Keen Is Your Rank?\nLink\nNo\nPage\nTemperature Conversion\n\n\n29\nThe Most Annoying Equation Conversion\nLink\nNo\n[Page]\nUnit Conversion of Equations\n\n\n31\nWhat the Schmidt? Examples\nLink\nNo\n[Page]\nApplications of Dimensionless Numbers\n\n\n33\nUnder Pressure Part 1\nLink\nNo\nPage\nPressure Basics\n\n\n34\nUnder Pressure Part 2\nLink\nNo\nPage\nAbs., Atm., Gauge, Barometric Pressure\n\n\n35\nWhat is a Mole?\nLink\nLink\nPage\nWhat a mole is\n\n\n36\nWhat the Frac?\nLink\nNo\nPage\nMass, Moles, Mass Fractions, Mole Fractions\n\n\n37\nAre You Dense? Crank Up the Volume and Go With the Flow!\nLink\nNo\n[Page]\nMass, Moles, Density, Volume, and Flow Rates\n\n\n38\nHow to Keep Your Balance\nLink\nNo\n[Page]\nSystem Definition and the General Balance Equation"
   },
   {
     "objectID": "basics/calculations/NLInterpolationJTFVisuals.html#section-1",
@@ -683,7 +683,7 @@
     "href": "basics/processdata/ProcessDataWebPage.html",
     "title": "Process Data and Process Variables",
     "section": "",
-    "text": "Many engineers and chemical engineers in particular design, analyze, and create processes that transform inputs, such as chemical reagents, heat, and electricity, into outputs such a other chemical reagents. The design and analysis of processes requires a knowledge of the sorts of measurements or data that are made of the process, and the variables that are used to model the process. This section discusses many of the varibles, measurements, and data that are common to these processes, how they are defined, what they mean, and how they are used, presented, and analyzed.\n\n\nWe begin with units, conversions, and dimensionless numbers. In spite of a desire to perform all calculations in SI unts, the practicing engineer needs to be comfortable working with both familiar and obscure units. This set of videos discusses many of the common techniques for working with diverse units. The videos in this section are:\n\nIs Furlongs per Fortnight a Thing? The Full Story, Just The Facts, Reference Page. Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all of your unit conversion issues, but they will solve many of them. Google Calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are multiplicatively related to each other.\nConverting Temperatures The Full Story, Just The Facts, Reference Page. Converting temperatures and temperature intervals among \\(\\mathrm{K}\\), \\(^\\circ\\mathrm{C}\\), \\(^\\circ\\mathrm{F}\\), and \\(^\\circ\\mathrm{R}\\) applies the principles discussed in the previous two video sets. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.\nThe Most Annoying Equation Conversion The Full Story, Just The Facts, Reference Page. When units have a more complex relationship than simply multiplicative, such as \\(^\\circ\\mathrm{C}\\) and \\(^\\circ\\mathrm{F}\\), the relationship is expressed in an equation with dimensions. In addition, there are at times equations, particularly empirical equations, where the varibles are in SI units, and you need an equivalent equation in American Engineering units. The procedure for deriving such equations with units is presented in this set of videos.\nDimensionless Numbers The Full Story, Just The Facts, Reference Page. In the early days of engineering there were huge data sets that needed to be regressed and correlations found. The Buckingham pi theorem provided a way to reduce the dimensionality of these huge data sets and ease calculational complexity. In addition, normalizing ordinary and partial differential equations (which is basically making the variables dimensionless through choosing a scale) gives rise to dimensionless prarameters. The most well known of these is the Reynolds number, but there are scores of others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used.\n\n\n\n\nMeasuring Temperature The Full Story, Just The Facts, Reference Page. The most commonly measured process variable is temperature. This set of videos discusses different temperature-measurement techniques. It is optional because at this level it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or has to specify how a temperature measurement is to be made.\n\n\n\nThe second most commonly measured process variable is pressure.\n\nUnder Pressure Part 1 The Full Story, Just The Facts, Reference Page. Part 1 discusses the common pressure units and hydrostatic pressure.\nUnder Pressure Part 2 The Full Story, Just The Facts, Reference Page. Part 2 discusses absolute, atmospheric, barometric, gauge, and vacuum pressure.\n\n\n\n\nWhen purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page. This video set explains the different types of moles and how to use them.\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight.\n\n\n\n\nIn Chemical and Thermal Processes, the flows are often calculated and/or measured as mass flow rates, molar flow rates and/or volumetric flow rates. The video explains how the three flow rates are defined, and how to convert among them. The video is Volume, Density, and Flow Rates The Full Story, Just The Facts, Reference Page."
+    "text": "Many engineers and chemical engineers in particular design, analyze, and create processes that transform inputs, such as chemical reagents, heat, and electricity, into outputs such a other chemical reagents. The design and analysis of processes requires a knowledge of the sorts of measurements or data that are made of the process, and the variables that are used to model the process. This section discusses many of the varibles, measurements, and data that are common to these processes, how they are defined, what they mean, and how they are used, presented, and analyzed.\n\n\nWe begin with units, conversions, and dimensionless numbers. In spite of a desire to perform all calculations in SI unts, the practicing engineer needs to be comfortable working with both familiar and obscure units. This set of videos discusses many of the common techniques for working with diverse units. The videos in this section are:\n\nIs Furlongs per Fortnight a Thing? The Full Story, Just The Facts, Reference Page. Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all of your unit conversion issues, but they will solve many of them. Google Calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are multiplicatively related to each other.\nConverting Temperatures The Full Story, Just The Facts, Reference Page. Converting temperatures and temperature intervals among \\(\\mathrm{K}\\), \\(^\\circ\\mathrm{C}\\), \\(^\\circ\\mathrm{F}\\), and \\(^\\circ\\mathrm{R}\\) applies the principles discussed in the previous two video sets. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.\nThe Most Annoying Equation Conversion The Full Story, Just The Facts, Reference Page. When units have a more complex relationship than simply multiplicative, such as \\(^\\circ\\mathrm{C}\\) and \\(^\\circ\\mathrm{F}\\), the relationship is expressed in an equation with dimensions. In addition, there are at times equations, particularly empirical equations, where the varibles are in SI units, and you need an equivalent equation in American Engineering units. The procedure for deriving such equations with units is presented in this set of videos.\nDimensionless Numbers The Full Story, Just The Facts, Reference Page. In the early days of engineering there were huge data sets that needed to be regressed and correlations found. The Buckingham pi theorem provided a way to reduce the dimensionality of these huge data sets and ease calculational complexity. In addition, normalizing ordinary and partial differential equations (which is basically making the variables dimensionless through choosing a scale) gives rise to dimensionless prarameters. The most well known of these is the Reynolds number, but there are scores of others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used.\n\n\n\n\nMeasuring Temperature The Full Story, Just The Facts, Reference Page. The most commonly measured process variable is temperature. This set of videos discusses different temperature-measurement techniques. It is optional because at this level it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or has to specify how a temperature measurement is to be made.\n\n\n\nThe second most commonly measured process variable is pressure.\n\nUnder Pressure Part 1 The Full Story, Just The Facts, Reference Page. Part 1 discusses the common pressure units and hydrostatic pressure.\nUnder Pressure Part 2 The Full Story, Just The Facts, Reference Page. Part 2 discusses absolute, atmospheric, barometric, gauge, and vacuum pressure.\n\n\n\n\nWhen purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page. This video set explains the different types of moles and how to use them.\nWhat the Frac? The Full Story, Just The Facts, Reference Page When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight.\n\n\n\n\nIn Chemical and Thermal Processes, the flows are often calculated and/or measured as mass flow rates, molar flow rates and/or volumetric flow rates. The video explains how the three flow rates are defined, and how to convert among them. The video is Are You Dense? Crank Up the Volume and Go With the Flow! The Full Story, Just The Facts, Reference Page."
   },
   {
     "objectID": "basics/processdata/ProcessDataWebPage.html#conversions",
@@ -711,152 +711,208 @@
     "href": "basics/processdata/ProcessDataWebPage.html#mass-moles-and-mass-and-mole-fractions",
     "title": "Process Data and Process Variables",
     "section": "",
-    "text": "When purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page. This video set explains the different types of moles and how to use them.\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight."
+    "text": "When purchasing, ordering, selling, or processing raw materials and chemical reagents, one has to specify the mass or weight of solids, the mass, weight, or volume of liquids, and the mass or pressure and volume of gases. However, when calculating the amount needed for a given chemical reaction, the number of moles needed needs to be calculated. The practicing engineer needs to be able to convert back and forth between mass and moles. The two video sets in this series are:\n\nWhat Is a Mole? The Full Story, Just The Facts, Reference Page. This video set explains the different types of moles and how to use them.\nWhat the Frac? The Full Story, Just The Facts, Reference Page When dealing with mixtures, there are times that one needs to calcuate what mass fraction of each species is present and times to calculate the mole fraction of each species. This video explains how to calculate mass and mole fractions, how to convert between the two, and how to calculate mass- and mole-averaged molecular weight."
   },
   {
     "objectID": "basics/processdata/ProcessDataWebPage.html#volume-density-and-flow-rates",
     "href": "basics/processdata/ProcessDataWebPage.html#volume-density-and-flow-rates",
     "title": "Process Data and Process Variables",
     "section": "",
-    "text": "In Chemical and Thermal Processes, the flows are often calculated and/or measured as mass flow rates, molar flow rates and/or volumetric flow rates. The video explains how the three flow rates are defined, and how to convert among them. The video is Volume, Density, and Flow Rates The Full Story, Just The Facts, Reference Page."
+    "text": "In Chemical and Thermal Processes, the flows are often calculated and/or measured as mass flow rates, molar flow rates and/or volumetric flow rates. The video explains how the three flow rates are defined, and how to convert among them. The video is Are You Dense? Crank Up the Volume and Go With the Flow! The Full Story, Just The Facts, Reference Page."
   },
   {
-    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#section",
-    "href": "basics/processdata/DimNumPart2JTFVisuals.html#section",
+    "objectID": "basics/processdata/MassMolesTFSVisuals.html#mass",
+    "href": "basics/processdata/MassMolesTFSVisuals.html#mass",
     "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "This video gives examples of three topics\n\n• Dimensionless numbers or dimensionless groups\n\n\n• Dimensional homogeneity\n\n\n• Arguments of transcendental functions are    dimensionless."
+    "section": "Mass",
+    "text": "Mass\nMass is both a property of a physical body and a measure of its resistance to acceleration (a change in its state of motion) when a net force is applied. An object’s mass also determines the strength of its gravitational attraction to other bodies. (https://en.wikipedia.org/wiki/Mass)\n\nThe SI unit of mass, the kilogram, is defined from Planck’s constant\n\n\n\\[h=6.626070150 \\times 10^{-34}\\ \\mathrm{kg \\cdot m^2/s}\\]\n\n\nor\n\\[ 1\\ \\mathrm{kg}=\\frac{h}{6.626070150 \\times 10^{-34}\\ \\mathrm{m^2/s}} \\]"
   },
   {
-    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#dimensionless-numbers",
-    "href": "basics/processdata/DimNumPart2JTFVisuals.html#dimensionless-numbers",
+    "objectID": "basics/processdata/MassMolesTFSVisuals.html#mass-cont.",
+    "href": "basics/processdata/MassMolesTFSVisuals.html#mass-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Dimensionless Numbers",
-    "text": "Dimensionless Numbers\n\nMost famous is Reynolds number, \\(Re\\).\n\n\n\\(Re = \\frac{\\rho u D}{\\mu} = \\frac{u D}{\\nu}\\)\n\n\n\\(\\mathrm{momentum} \\propto \\rho u\\),\\(\\mathrm{viscous\\ force} \\propto \\mu/D\\)\n\n\n\\(Re\\) is ratio of momentum to viscous drag.\n\n\nFor a pipe, the transition from viscous flow to inertial flow occurs between \\(Re = 2000\\) and \\(Re = 3000\\)."
+    "section": "Mass (cont.)",
+    "text": "Mass (cont.)\nFor the curious, the second is defined as 9 192 631 770 times the period of the unperturbed ground-state hyperfine transition of the cesium 133 atom, \\(\\Delta \\nu_\\mathrm{Cs}\\). And the meter is defined as 1/299 792 458th of the distance light travels in a vacuum in one second, \\(c\\), or\n\n\\[1\\ \\mathrm{kg} = \\frac{(299\\ 792\\ 458)^2}{(6.626\\ 070\\ 150 \\times 10^{-34})(9\\ 192\\ 631\\ 770)} \\frac{h\\ \\Delta \\nu_\\mathrm{Cs}}{c^2}\\]\n\n\nThe American engineering unit of mass, the pound mass, or \\(\\mathrm{lb_m}\\) is defined as\n\n\n\\[1\\ \\mathrm{lb_m} \\equiv 0.453\\ 592\\ 37\\ \\mathrm{kg}\\]"
   },
   {
-    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#reynolds-number-example",
-    "href": "basics/processdata/DimNumPart2JTFVisuals.html#reynolds-number-example",
+    "objectID": "basics/processdata/MassMolesTFSVisuals.html#mole",
+    "href": "basics/processdata/MassMolesTFSVisuals.html#mole",
     "title": "Chemical and Thermal Processes",
-    "section": "Reynolds Number Example",
-    "text": "Reynolds Number Example\n\n\n\\(D = 3\\ \\mathrm{in}\\)\n\n\n\\(u = 10\\ \\mathrm{ft/s}\\)\n\n\n\\(\\rho = 62.4\\ \\mathrm{lb_m/ft^3}\\)\n\n\n\\(\\mu = 2.5791 \\times 10^{-5}\\ \\frac{\\mathrm{lb_f \\cdot s}}{\\mathrm{ft^2}}\\)\n\n\nAmerican Engineering\n\n\n\\(Re = \\frac{\\rho u D}{\\mu} = \\frac{62.4\\ \\frac{\\mathrm{lb_m}}{\\mathrm{ft^3}}\\cdot 10\\ \\frac{\\mathrm{ft}}{\\mathrm{s}}\\cdot \\frac{3}{12}\\ \\mathrm{ft}}{2.5791 \\times 10^{-5}\\ \\frac{\\mathrm{lb_f\\ s}}{\\mathrm{m^2}}} = 6.049 \\times 10^6\\ \\frac{\\mathrm{lb_m\\ ft}}{\\mathrm{lb_f\\ s^2}}\\)\n\n\n\\(1 = \\frac{1\\ \\mathrm{lb_f\\ s^2}}{32.174\\ \\mathrm{lb_m\\ ft}}\\)\n\n\n\\(Re =  6.049 \\times 10^6\\ \\frac{\\mathrm{lb_m\\ ft}}{\\mathrm{lb_f\\ s^2}} \\cdot \\frac{1\\ \\mathrm{lb_f\\ s^2}}{32.174\\ \\mathrm{lb_m\\ ft}} = 1.880 \\times 10^5\\)"
+    "section": "Mole",
+    "text": "Mole\n\nSee What Ia A Mole? for a more thorough explanation\nThe most common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)\n\\(\\text{tonne-mol}\\)\n\n\n\nYou should NEVER convert your mass in \\(\\text{kg}\\) or \\(\\mathrm{lb_m}\\) to \\(\\mathrm{g}\\), and then to \\(\\text{g-mol}\\). You should ALWAYS use the kind of mole your mass is in. The conversion factor is simply the molecular weight."
   },
   {
-    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#section-1",
-    "href": "basics/processdata/DimNumPart2JTFVisuals.html#section-1",
+    "objectID": "basics/processdata/MassMolesTFSVisuals.html#mole-cont.",
+    "href": "basics/processdata/MassMolesTFSVisuals.html#mole-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "In SI\n\n\n\\(D = 76.3\\ \\mathrm{mm}\\)\n\n\n\\(u = 3.048\\ \\mathrm{ft/s}\\)\n\n\n\\(\\rho = 999.55\\ \\mathrm{kg/m^3}\\)\n\n\n\\(\\mu = 1.2349 \\times 10^{-3}\\ \\frac{\\mathrm{N \\cdot s}}{\\mathrm{m^2}}\\)\n\n\n\\(Re = \\frac{\\rho u D}{\\mu} = \\frac{999.55\\ \\frac{\\mathrm{kg}}{\\mathrm{m^3}}\\cdot 3.048\\ \\frac{\\mathrm{m}}{\\mathrm{s}}\\cdot \\frac{76.3}{1000}\\ \\mathrm{m}}{1.2349 \\times 10^{-3}\\ \\frac{\\mathrm{N\\ s}}{\\mathrm{m^2}}} = 1.880 \\times 10^5\\ \\frac{\\mathrm{kg\\ m}}{\\mathrm{N\\ s^2}}\\)\n\n\n\\(1 = \\frac{1\\ \\mathrm{N\\ s^2}}{\\mathrm{kg\\ m}}\\)\n\n\n\\(Re = 1.880 \\times 10^5\\ \\frac{\\mathrm{kg\\ m}}{\\mathrm{N\\ s^2}} \\cdot \\frac{1\\ \\mathrm{N\\ s^2}}{\\mathrm{kg\\ m}} = 1.880 \\times 10^5\\)"
+    "section": "Mole (cont.)",
+    "text": "Mole (cont.)\nThe molecular weight of methane is:\n\n\\[M_\\mathrm{CH_4} = 16.0425\\ \\frac{\\text{g}}{\\text{g-mol}} = 16.0425\\ \\frac{\\text{kg}}{\\text{kg-mol}} = 16.0425\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\]\n\n\nTo calculate the pounds of oxygen (\\(M = 31.9988\\)) required to completely burn three pounds of methane:\n\n\n\\[\\mathrm{CH_4} + 2 \\mathrm{O_2} \\rightarrow \\mathrm{CO_2} + 2 \\mathrm{H_2O} \\implies \\frac{2\\ \\text{lb-mol }\\mathrm{O_2}}{1\\ \\text{lb-mol }\\mathrm{CH_4}}\\]\n\n\n\\[\\frac{3\\ \\mathrm{lb_m\\ CH_4}}{16.0425\\ \\frac{\\mathrm{lb_m\\ CH_4}}{\\text{lb-mol CH}_4}} \\frac{2\\ \\text{lb-mol }\\mathrm{O_2}}{1\\ \\text{lb-mol }\\mathrm{CH_4}} \\frac{31.9988\\ \\mathrm{lb_m\\ O_2}}{1\\ \\text{lb-mol O}_2} = 11.9678\\ \\mathrm{lb_m\\ O_2}\\]\n\n\nCalculating it any other way is just a waste of time and brain effort."
   },
   {
-    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#table-of-dimensionless-numbers",
-    "href": "basics/processdata/DimNumPart2JTFVisuals.html#table-of-dimensionless-numbers",
+    "objectID": "basics/processdata/MassMolesTFSVisuals.html#mass-fractions-and-mole-fractions",
+    "href": "basics/processdata/MassMolesTFSVisuals.html#mass-fractions-and-mole-fractions",
     "title": "Chemical and Thermal Processes",
-    "section": "Table of Dimensionless Numbers",
-    "text": "Table of Dimensionless Numbers\n\nNusselt Number: \\(Nu=\\frac{h l}{k}\\)  • Ratio of convective to conductive heat transfer\n\n\nPrandtl Number: \\(Pr = \\frac{\\nu}{\\alpha}= \\frac{C_P \\mu}{k}\\)  • Ratio of viscous to thermal diffusion\n\n\nFourier Number: \\(Fo = \\frac{\\alpha t}{l^2}\\)  • Ratio of diffusive to storage rates\n\n\nSherwood Number: \\(Sh = \\frac{k l}{\\mathscr{D}}\\)  • Ratio of convective to diffusive mass transport\n\n\nSchmidt Number: \\(Sc = \\frac{\\nu}{\\mathscr{D}} = \\frac{\\mu}{\\rho \\mathscr{D}}\\)  • Ratio of viscous to mass diffusion"
+    "section": "Mass Fractions and Mole Fractions",
+    "text": "Mass Fractions and Mole Fractions\n\n\\(x\\), \\(y\\), and \\(z\\) are all used for both mass fractions and mole fractions.\n\n\n\\(x_\\mathrm{A}\\) can be the mass fraction of species \\(\\mathrm{A}\\) or the mole fraction of species \\(\\mathrm{A}\\).\n\n\nLikewise for \\(y_\\mathrm{A}\\) and \\(z_\\mathrm{A}\\).\n\n\nConvention usually uses:\n\n\n\\(x\\) for fractions in a solid or liquid mixture,\n\\(y\\) for fractions in a gas mixture, and\n\\(z\\) for the overall fraction in a gas-liquid, liquid-solid, or gas-solid mixture."
   },
   {
-    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#dimensional-homogeneity",
-    "href": "basics/processdata/DimNumPart2JTFVisuals.html#dimensional-homogeneity",
+    "objectID": "basics/processdata/MassMolesTFSVisuals.html#conversions",
+    "href": "basics/processdata/MassMolesTFSVisuals.html#conversions",
     "title": "Chemical and Thermal Processes",
-    "section": "Dimensional Homogeneity",
-    "text": "Dimensional Homogeneity\nAs explained in Where Does Sherwood Hide His Unit?, all terms in an equation must be dimensionally homogeneous.\n\nFirst Example – The integrated rocket equation\n\n\n\\(\\Delta v = I_\\mathrm{sp} g_0 \\ln \\frac{m_0}{m_f}\\)\n\n\nAs the argument to \\(\\ln\\), \\(m_0/m_f\\) must be unitless, so \\(m_0\\) and \\(m_f\\) must have the same units, in this case, mass.\n\n\n\\(I_\\mathrm{sp} g_0\\) must have the same units as \\(v\\), or in SI, \\(\\mathrm{m/s}\\).\n\n\n\\(g_0\\) (or \\(g\\)) has units of \\(\\mathrm{m/s^2}\\) So \\(I_\\mathrm{sp}\\) has units of seconds."
+    "section": "Conversions",
+    "text": "Conversions\n\nTo convert from mass fraction, \\(x\\), to mole fraction, \\(y\\):\n\n\n\\[y_\\mathrm{A} = \\frac{\\frac{x_\\mathrm{A}}{M_\\mathrm{A}}}{\\sum \\frac{x_i}{M_i}}\\]\n\n\nTo convert from mole fraction, \\(y\\), to mass fraction, \\(x\\):\n\n\n\\[x_\\mathrm{A} = \\frac{y_\\mathrm{A} M_\\mathrm{A}}{\\sum y_i M_i}\\]"
   },
   {
-    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#section-2",
-    "href": "basics/processdata/DimNumPart2JTFVisuals.html#section-2",
+    "objectID": "basics/processdata/MassMolesTFSVisuals.html#mole-averaged-and-mass-averaged-molecular-weight",
+    "href": "basics/processdata/MassMolesTFSVisuals.html#mole-averaged-and-mass-averaged-molecular-weight",
     "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Double check\n\n\\(I_\\mathrm{sp} = \\frac{I_\\mathrm{total}}{w_\\mathrm{fuel}}\\)\n\n\n\\(I_\\mathrm{total}\\) has units of \\(\\mathrm{N\\ s}\\), and \\(w_\\mathrm{fuel}\\) has units of \\({\\mathrm{N}}\\).\n\n\nSo, \\(I_\\mathrm{sp}\\) has units of seconds, same as before."
+    "section": "Mole-Averaged and Mass-Averaged Molecular Weight",
+    "text": "Mole-Averaged and Mass-Averaged Molecular Weight\n\n\nThe mole-averaged (or number-averaged) molecular weight is\n\n\n\\[\\bar{M} = \\sum y_i M_i = \\left(\\sum \\frac{x_i}{M_i}\\right)^{-1}\\]\n\n\nThe mass-averaged molecular weight is\n\n\n\\[\\bar{M}_m = \\sum x_i M_i = \\frac{\\sum y_i M_i^2}{\\sum y_i M_i}\\]\n\n\nThe mole-averaged molecular weight is most often used for mixtures of gases.\n\n\nThe mass-averaged molecular weight is most often used for polymers."
   },
   {
-    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#section-3",
-    "href": "basics/processdata/DimNumPart2JTFVisuals.html#section-3",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Second Example – The rocket equation for gravity and constant \\(C_D\\).\n\n\\(a = \\frac{T}{m}-g-\\frac{1}{2}C_D A_P \\frac{\\rho}{m}v^2\\)\n\n\n\\(a\\) is in \\(\\mathrm{m/s^2}\\)\n\n\n\\(T/m\\) must be in \\(\\mathrm{m/s^2}\\). Since \\(m\\) is in \\(\\mathrm{kg}\\), \\(T\\) must be in \\(\\mathrm{kg\\ m/s^2}\\) or \\(\\mathrm{N}\\), which it is.\n\n\n\\(g\\) is in \\(\\mathrm{m/s^2}\\), as it must be.\n\n\n\\(\\rho/m\\) is in \\(\\mathrm{m^{-3}}\\). \\(A_P\\) is in \\(\\mathrm{m^2}\\). \\(v^2\\) is in \\(\\mathrm{m^2/s^2}\\).\n\n\nSo \\(A_P \\frac{\\rho}{m}v^2\\) is in units of \\(\\mathrm{m^2/s^2}\\) and \\(C_D\\) is dimensioness."
-  },
-  {
-    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#transcendental-functions",
-    "href": "basics/processdata/DimNumPart2JTFVisuals.html#transcendental-functions",
-    "title": "Chemical and Thermal Processes",
-    "section": "Transcendental Functions",
-    "text": "Transcendental Functions\nEquation of the rocket altitude for constant thrust and constant \\(C_D\\).\n\n\n\\(x-x_0= \\frac{v^2_{\\text{max}}}{b}\\left\\{\\ln{\\left[\\cosh{\\left(\\frac{b}{v_{\\text{max}}}(t-t_0)+\\tanh^{-1}{\\frac{v_0}{v_{\\text{max}}}}\\right)}\\right]}\\right.\\)\n\n\n\\(\\left.- \\ln{\\left[\\cosh{\\left(\\tanh^{-1}{\\frac{v_0}{v_{\\text{max}}}}\\right)}\\right]}\\right\\}\\)\n\n\n\n\\(v_0/v_\\mathrm{max}\\) is dimensionless, as it must be.\n\n\n\\(\\tanh^{-1}\\) is dimensionless.\n\n\n\\(\\cosh\\) is dimensionless.\n\n\n\\(\\frac{b}{v_{\\text{max}}}(t-t_0)\\) must be dimensionless.\n\n\n\\(v_{\\text{max}}\\) is in \\(\\mathrm{m/s}\\). \\(t\\) and \\(t_0\\) are in seconds.\n\n\nSo \\(b\\) must have dimensions of \\(\\mathrm{m/s^2}\\)\n\n\nSo \\(v^2_{\\mathrm{max}}/b\\) has dimensions of \\(\\mathrm{m}\\) like \\(x\\) and \\(x_0\\)."
-  },
-  {
-    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#the-takeaways",
-    "href": "basics/processdata/DimNumPart2JTFVisuals.html#the-takeaways",
+    "objectID": "basics/processdata/MassMolesTFSVisuals.html#the-takeaways",
+    "href": "basics/processdata/MassMolesTFSVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nThere are ways to combine variables or measured quantities to create dimensionless numbers, which help reduce the measurements you need to make to characterize your system.\nAll of the terms in an equation must have the same dimensions. In other words, equations must have dimensional homogeneity.\nArguments of transcendental functions must be dimensionless."
+    "text": "The Takeaways\n\nMaterials in chemical processes are measured in mass, moles, or both.\nAlways use the mole unit, e.g. \\(\\text{lb-mol}\\), corresponding to your mass unit, e.g., \\(\\mathrm{lb_m}\\).\nLearn how to convert from mass fractions to mole fractions and back.\nLearn how to calculate mole- or number-averaged molecular weights, and mass-averaged molecular weights."
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#definition",
-    "href": "basics/processdata/WhatIsAMoleVisuals.html#definition",
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mass",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#mass",
     "title": "Chemical and Thermal Processes",
-    "section": "Definition",
-    "text": "Definition\n\nThe mass equivalent of the molar mass of a molecule\nThe molar mass of \\(\\mathrm{CO_2}\\) is \\(44.010\\ \\frac{\\mathrm{g}}{\\mathrm{mol}}\\) or \\(44.010\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\), etc.\n15 mass units on N.I.S.T website\nMost common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{tonne-mol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)"
+    "section": "Mass",
+    "text": "Mass\nMass is both a property of a physical body and a measure of its resistance to acceleration (a change in its state of motion) when a net force is applied. An object’s mass also determines the strength of its gravitational attraction to other bodies. (https://en.wikipedia.org/wiki/Mass)\n\nThe SI unit of mass, the kilogram, is defined from Planck’s constant\n\n\n\\[h=6.626070150 \\times 10^{-34}\\ \\mathrm{kg \\cdot m^2/s}\\]\n\n\nor\n\\[ 1\\ \\mathrm{kg}=\\frac{h}{6.626070150 \\times 10^{-34}\\ \\mathrm{m^2/s}} \\]"
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#using-a-mole",
-    "href": "basics/processdata/WhatIsAMoleVisuals.html#using-a-mole",
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mass-cont.",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#mass-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Using a Mole",
-    "text": "Using a Mole\n\nStart with a balanced chemical equation.\n\\[\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}\\]\nTo make \\(100\\ \\mathrm{lb_m}\\) of \\(\\mathrm{CO_2}\\)\n\n\\(100\\ \\mathrm{lb_m\\ CO_2} / 44.010\\ \\frac{\\mathrm{lb_m\\ CO_2}}{\\text{lb-mol}} = 2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{CO_2}\\)\nNeed \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{C}\\) and \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{O_2}\\).\n\\(2.272\\ \\text{lb-mol C} \\cdot 12.011\\ \\frac{\\mathrm{lb_m\\ C}}{\\text{lb-mol}} = 27.29  \\mathrm{lb_m\\ C}\\)\n\\(2.272\\ \\text{lb-mol 0}_2 \\cdot 31.999\\ \\frac{\\mathrm{lb_m\\ O}_2}{\\text{lb-mol}} = 72.70  \\mathrm{lb_m\\ O}_2\\)"
+    "section": "Mass (cont.)",
+    "text": "Mass (cont.)\nFor the curious, the second is defined as 9 192 631 770 times the period of the unperturbed ground-state hyperfine transition of the cesium 133 atom, \\(\\Delta \\nu_\\mathrm{Cs}\\). And the meter is defined as 1/299 792 458th of the distance light travels in a vacuum in one second, \\(c\\), or\n\n\\[1\\ \\mathrm{kg} = \\frac{(299\\ 792\\ 458)^2}{(6.626\\ 070\\ 150 \\times 10^{-34})(9\\ 192\\ 631\\ 770)} \\frac{h\\ \\Delta \\nu_\\mathrm{Cs}}{c^2}\\]\n\n\nThe American engineering unit of mass, the pound mass, or \\(\\mathrm{lb_m}\\) is defined as\n\n\n\\[1\\ \\mathrm{lb_m} \\equiv 0.453\\ 592\\ 37\\ \\mathrm{kg}\\]"
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#avogadros-number",
-    "href": "basics/processdata/WhatIsAMoleVisuals.html#avogadros-number",
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mole",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#mole",
     "title": "Chemical and Thermal Processes",
-    "section": "Avogadro’s Number",
-    "text": "Avogadro’s Number\n\n\\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\mathrm{mol}}\\) or \\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\text{g-mol}}\\)\n\\(1.327 654 687 336 \\times 10^{27}\\ \\frac{\\mathrm{molecules}}{\\text{lb-mol}}\\)"
+    "section": "Mole",
+    "text": "Mole\n\nSee What Ia A Mole? for a more thorough explanation\nThe most common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)\n\\(\\text{tonne-mol}\\)\n\n\n\nYou should NEVER convert your mass in \\(\\text{kg}\\) or \\(\\mathrm{lb_m}\\) to \\(\\mathrm{g}\\), and then to \\(\\text{g-mol}\\). You should ALWAYS use the kind of mole your mass is in. The conversion factor is simply the molecular weight."
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#use-the-correct-moles",
-    "href": "basics/processdata/WhatIsAMoleVisuals.html#use-the-correct-moles",
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mole-cont.",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#mole-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Use the Correct Moles",
-    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using gram moles incorrectly.\n\nStart with mass in units other than grams.\n\nConvert to grams.\nConvert to gram-moles.\nUse balanced chemical equation to solve for the other species in gram-moles.\nConvert the other species’ gram-moles to grams.\nConvert the grams to the starting mass species.\n\nRequires five steps."
+    "section": "Mole (cont.)",
+    "text": "Mole (cont.)\nThe molecular weight of methane is:\n\n\\[M_\\mathrm{CH_4} = 16.0425\\ \\frac{\\text{g}}{\\text{g-mol}} = 16.0425\\ \\frac{\\text{kg}}{\\text{kg-mol}} = 16.0425\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\]\n\n\nTo calculate the pounds of oxygen (\\(M = 31.9988\\)) required to completely burn three pounds of methane:\n\n\n\\[\\mathrm{CH_4} + 2 \\mathrm{O_2} \\rightarrow \\mathrm{CO_2} + 2 \\mathrm{H_2O} \\implies \\frac{2\\ \\text{lb-mol }\\mathrm{O_2}}{1\\ \\text{lb-mol }\\mathrm{CH_4}}\\]\n\n\n\\[\\frac{3\\ \\mathrm{lb_m\\ CH_4}}{16.0425\\ \\frac{\\mathrm{lb_m\\ CH_4}}{\\text{lb-mol CH}_4}} \\frac{2\\ \\text{lb-mol }\\mathrm{O_2}}{1\\ \\text{lb-mol }\\mathrm{CH_4}} \\frac{31.9988\\ \\mathrm{lb_m\\ O_2}}{1\\ \\text{lb-mol O}_2} = 11.9678\\ \\mathrm{lb_m\\ O_2}\\]\n\n\nCalculating it any other way is just a waste of time and brain effort."
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#use-the-correct-moles-1",
-    "href": "basics/processdata/WhatIsAMoleVisuals.html#use-the-correct-moles-1",
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mass-fractions-and-mole-fractions",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#mass-fractions-and-mole-fractions",
     "title": "Chemical and Thermal Processes",
-    "section": "Use the Correct Moles",
-    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using moles.\n\nStart with mass in units other than grams.\n\nConvert to the mass unit’s moles.\nUse balanced chemical equation to solve for the other species in the mass unit’s moles.\nConvert the other species’ moles to mass units.\n\n\nRequires three steps instead of five.\n40% fewer places to make mistakes."
+    "section": "Mass Fractions and Mole Fractions",
+    "text": "Mass Fractions and Mole Fractions\n\n\\(x\\), \\(y\\), and \\(z\\) are all used for both mass fractions and mole fractions.\n\n\n\\(x_\\mathrm{A}\\) can be the mass fraction of species \\(\\mathrm{A}\\) or the mole fraction of species \\(\\mathrm{A}\\).\n\n\nLikewise for \\(y_\\mathrm{A}\\) and \\(z_\\mathrm{A}\\).\n\n\nConvention usually uses:\n\n\n\\(x\\) for fractions in a solid or liquid mixture,\n\\(y\\) for fractions in a gas mixture, and\n\\(z\\) for the overall fraction in a gas-liquid, liquid-solid, or gas-solid mixture."
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#the-takeaways",
-    "href": "basics/processdata/WhatIsAMoleVisuals.html#the-takeaways",
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#conversions",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#conversions",
+    "title": "Chemical and Thermal Processes",
+    "section": "Conversions",
+    "text": "Conversions\n\nTo convert from mass fraction, \\(x\\), to mole fraction, \\(y\\):\n\n\n\\[y_\\mathrm{A} = \\frac{\\frac{x_\\mathrm{A}}{M_\\mathrm{A}}}{\\sum \\frac{x_i}{M_i}}\\]\n\n\nTo convert from mole fraction, \\(y\\), to mass fraction, \\(x\\):\n\n\n\\[x_\\mathrm{A} = \\frac{y_\\mathrm{A} M_\\mathrm{A}}{\\sum y_i M_i}\\]"
+  },
+  {
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mole-averaged-and-mass-averaged-molecular-weight",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#mole-averaged-and-mass-averaged-molecular-weight",
+    "title": "Chemical and Thermal Processes",
+    "section": "Mole-Averaged and Mass-Averaged Molecular Weight",
+    "text": "Mole-Averaged and Mass-Averaged Molecular Weight\n\n\nThe mole-averaged (or number-averaged) molecular weight is\n\n\n\\[\\bar{M} = \\sum y_i M_i = \\left(\\sum \\frac{x_i}{M_i}\\right)^{-1}\\]\n\n\nThe mass-averaged molecular weight is\n\n\n\\[\\bar{M}_m = \\sum x_i M_i = \\frac{\\sum y_i M_i^2}{\\sum y_i M_i}\\]\n\n\nThe mole-averaged molecular weight is most often used for mixtures of gases.\n\n\nThe mass-averaged molecular weight is most often used for polymers."
+  },
+  {
+    "objectID": "basics/processdata/MassMolesJTFVisuals.html#the-takeaways",
+    "href": "basics/processdata/MassMolesJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nDifferent types of moles are for different types of mass units.\nThe molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.\nUse gram moles for problems in grams. Use pound-moles for problems in pounds, etc."
+    "text": "The Takeaways\n\nMaterials in chemical processes are measured in mass, moles, or both.\nAlways use the mole unit, e.g. \\(\\text{lb-mol}\\), corresponding to your mass unit, e.g., \\(\\mathrm{lb_m}\\).\nLearn how to convert from mass fractions to mole fractions and back.\nLearn how to calculate mole- or number-averaged molecular weights, and mass-averaged molecular weights."
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleWebPage.html",
-    "href": "basics/processdata/WhatIsAMoleWebPage.html",
-    "title": "What Is a Mole? Reference Page",
+    "objectID": "basics/processdata/DimensionalEquationsWebPage.html",
+    "href": "basics/processdata/DimensionalEquationsWebPage.html",
+    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
     "section": "",
-    "text": "A mole is a basic concept in Chemical Engineering. It’s purpose is to determine the masses of reagents needed in chemical reactions. Unlike in Chemistry, where a mole is a mole is a mole, in Chemical Engineering engineers need to work with different mass units such as pounds-mass \\((\\mathrm{lb_m})\\), tons, and kilograms. For each mass unit there is a corresponding mole. For a chemical species, the numerical value of a mole in a given mass unit doesn’t change with the mass unit, but the unit does. For example, with \\(\\mathrm{NaCl}\\) that has a molecular mass of \\(58.443\\), a gram-mole (or simply mole) has a mass of \\(58.443\\ \\mathrm{g}\\), a pound-mole has a mass of \\(58.443\\ \\mathrm{lb_m}\\) and a ton-mole has a mass of \\(58.443\\ \\mathrm{ton}\\) (one might have to specify whether the ton is a long ton or a short ton).\nThe videos explain what a mole is and how it is used in basic Chemical Engineering calculations."
+    "text": "Engineers often have to work with different sets of units. The United States still uses American Engineering units, also known as the US Customary system or Imperial Units in many of its industries. Even in countries that largely use SI units, there are often conversions among kilograms and grams, millimeters, centimeters, meters, and kilometers, and weight is measured in kilograms, not newtons. Engineers must be comfortable in converting from one set of units to another as needed, and do so without making errors. This video explains how to do the most common sort of unit conversion, involving dimensional equations or unit-conversion equations.\nA second video, How Keen Is Your Rank? JTF, TFS, Ref page, explains how to do temperature conversions and temperature interval conversions, many of which can’t be done using the methods in this video.\nA third video, The Most Annoying Equation Conversion, JTF, TFS, Ref page, explains how to convert an equation, as opposed to a measurement or temperature, from one set of units to another.\n\n\nThe Full Story Video examines common conceptions and misconceptions about unit conversions, explains dimensional equations and then has examples of their use. It is recommended for those who have not been exposed to unit conversions before or who have struggled to understand how to use them.\nVideo Link Goes Here Images, Transcript\n\n\n\nThe Just The Facts Video discusses unit conversions, explains dimensional equations and then has examples of their use. It is recommended for those who have a reasonably good understanding of unit conversion and are just looking for a refresher or a review.\n\n\nImages, Transcript"
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#preceding-videos",
-    "href": "basics/processdata/WhatIsAMoleWebPage.html#preceding-videos",
-    "title": "What Is a Mole? Reference Page",
+    "objectID": "basics/processdata/DimensionalEquationsWebPage.html#the-full-story-video",
+    "href": "basics/processdata/DimensionalEquationsWebPage.html#the-full-story-video",
+    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
+    "section": "",
+    "text": "The Full Story Video examines common conceptions and misconceptions about unit conversions, explains dimensional equations and then has examples of their use. It is recommended for those who have not been exposed to unit conversions before or who have struggled to understand how to use them.\nVideo Link Goes Here Images, Transcript"
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsWebPage.html#the-just-the-facts-video",
+    "href": "basics/processdata/DimensionalEquationsWebPage.html#the-just-the-facts-video",
+    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
+    "section": "",
+    "text": "The Just The Facts Video discusses unit conversions, explains dimensional equations and then has examples of their use. It is recommended for those who have a reasonably good understanding of unit conversion and are just looking for a refresher or a review.\n\n\nImages, Transcript"
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsWebPage.html#preceding-videos",
+    "href": "basics/processdata/DimensionalEquationsWebPage.html#preceding-videos",
+    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
+    "section": "Preceding Videos",
+    "text": "Preceding Videos\nAs of this writing the two sets of videos preceding this set are:\n\nData Fitting with Spreadsheets 2 The Full Story, Just The Facts, Reference Page\nData Fitting with Spreadsheets 2 The Full Story, Just The Facts, Reference Page"
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsWebPage.html#following-videos",
+    "href": "basics/processdata/DimensionalEquationsWebPage.html#following-videos",
+    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
+    "section": "Following Videos",
+    "text": "Following Videos\nAs of this writing the two sets of videos following this set are: 1. How Keen Is Your Rank? The Full Story, Just The Facts, Reference Page 2. The Most Annoying Equation Conversion The Full Story, Just The Facts, Reference Page"
+  },
+  {
+    "objectID": "basics/processdata/DimensionalEquationsWebPage.html#other-links",
+    "href": "basics/processdata/DimensionalEquationsWebPage.html#other-links",
+    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
+    "section": "Other Links",
+    "text": "Other Links\n\nThe NIST conversions to SI in alphabetical order https://tinyurl.com/ydb2jcoc\nThe NIST conversions to SI by kind https://tinyurl.com/ycqe2ez7\nWeb search for on-line unit conversion calculators\nJust about any values of the molar gas constant you would want https://en.wikipedia.org/wiki/Gas_constant"
+  },
+  {
+    "objectID": "basics/processdata/MassMolesWebPage.html",
+    "href": "basics/processdata/MassMolesWebPage.html",
+    "title": "What the Frac? Reference Page",
+    "section": "",
+    "text": "Chemical reagents and other materials are often bought and sold by mass. Their flows are often measured or specified in terms of mass per time. For gases and reacting reagents, quantities are often specified in terms of moles, and flows are specified in terms of moles per time.\nMixtures are very common in chemical and thermal processes. It is often necessary to measure or specify the composition of these mixtures. The two standards for specifying composition are by mass fraction and by mole fraction. The purpose of this video is to discuss mass, review the mole as used in engineering, explain how to calculate mass fractions and mole fractions, and how to convert bach and forth between them. Finally, it discusses how to calculate both mass-averaged and mole- or number-averaged molecular weight for a mixture. The engineering use of moles was discussed at length in What Is a Mole?."
+  },
+  {
+    "objectID": "basics/processdata/MassMolesWebPage.html#mass-fraction-to-mole-fraction-for-binary-mixtures",
+    "href": "basics/processdata/MassMolesWebPage.html#mass-fraction-to-mole-fraction-for-binary-mixtures",
+    "title": "What the Frac? Reference Page",
+    "section": "Mass Fraction to Mole Fraction for Binary Mixtures",
+    "text": "Mass Fraction to Mole Fraction for Binary Mixtures\nFor a binary mixture of species \\(\\mathrm{A}\\) and species \\(\\mathrm{B}\\), with mass fractions \\(x_\\mathrm{A}\\) and \\(x_\\mathrm{B} = 1 - x_\\mathrm{A}\\), and \\(x_\\mathrm{A}&gt;0\\), the mole fraction of species \\(\\mathrm{A}\\), \\(y_\\mathrm{A}\\), can be calculated as\n\\[y_\\mathrm{A} = \\frac{1}{\\left(\\frac{1}{x_\\mathrm{A}}-1\\right)\\frac{M_\\mathrm{A}}{M_\\mathrm{B}}+1}\\]"
+  },
+  {
+    "objectID": "basics/processdata/MassMolesWebPage.html#mole-fraction-to-mass-fraction-for-binary-mixtures",
+    "href": "basics/processdata/MassMolesWebPage.html#mole-fraction-to-mass-fraction-for-binary-mixtures",
+    "title": "What the Frac? Reference Page",
+    "section": "Mole Fraction to Mass Fraction for Binary Mixtures",
+    "text": "Mole Fraction to Mass Fraction for Binary Mixtures\nFor a binary mixture of species \\(\\mathrm{A}\\) and species \\(\\mathrm{B}\\), with mole fractions \\(y_\\mathrm{A}\\) and \\(y_\\mathrm{B} = 1 - y_\\mathrm{A}\\), and \\(y_\\mathrm{A}&gt;0\\), the mass fraction of species \\(\\mathrm{A}\\), \\(x_\\mathrm{A}\\), can be calculated as\n\\[x_\\mathrm{A} = \\frac{1}{\\left(\\frac{1}{y_\\mathrm{A}}-1\\right)\\frac{M_\\mathrm{B}}{M_\\mathrm{A}}+1}\\]"
+  },
+  {
+    "objectID": "basics/processdata/MassMolesWebPage.html#preceding-videos",
+    "href": "basics/processdata/MassMolesWebPage.html#preceding-videos",
+    "title": "What the Frac? Reference Page",
     "section": "Preceding Videos",
     "text": "Preceding Videos\nAs of this writing the two sets of videos preceding this set are:\n\nUnder Pressure Part 1 The Full Story, Just The Facts, Reference Page\nUnder Pressure Part 2 The Full Story, Just The Facts, Reference Page"
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#following-videos",
-    "href": "basics/processdata/WhatIsAMoleWebPage.html#following-videos",
-    "title": "What Is a Mole? Reference Page",
+    "objectID": "basics/processdata/MassMolesWebPage.html#following-videos",
+    "href": "basics/processdata/MassMolesWebPage.html#following-videos",
+    "title": "What the Frac? Reference Page",
     "section": "Following Videos",
-    "text": "Following Videos\nAs of this writing the two sets of videos following this set are:\n\nMass, Moles, and Mass and Mole Fractions The Full Story, Just The Facts, Reference Page\nVolume, Densit, Flow Rates The Full Story, Just The Facts, Reference Page"
+    "text": "Following Videos\nAs of this writing the two sets of videos following this set are:\n\nWhat the Frac? The Full Story, Just The Facts, Reference Page\nAre You Dense? Crank Up the Volume and Go With the Flow! The Full Story, Just The Facts, Reference Page"
   },
   {
-    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#other-links",
-    "href": "basics/processdata/WhatIsAMoleWebPage.html#other-links",
-    "title": "What Is a Mole? Reference Page",
+    "objectID": "basics/processdata/MassMolesWebPage.html#other-links",
+    "href": "basics/processdata/MassMolesWebPage.html#other-links",
+    "title": "What the Frac? Reference Page",
     "section": "Other Links",
     "text": "Other Links\n\nThe Wikipedia discussion of the mole. The other mass unit moles are discussed under Similar units."
   },
@@ -1827,102 +1883,144 @@
     "text": "The Takeaways\n\nPressure is the second most commonly measured process variable.\nHydrostatic pressure \\(= \\rho g h\\).\nManometers measure \\(\\Delta P\\)’s with hydrostatic pressure."
   },
   {
-    "objectID": "basics/processdata/DimensionalEquationsWebPage.html",
-    "href": "basics/processdata/DimensionalEquationsWebPage.html",
-    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html",
+    "title": "What Is a Mole? Reference Page",
     "section": "",
-    "text": "Engineers often have to work with different sets of units. The United States still uses American Engineering units, also known as the US Customary system or Imperial Units in many of its industries. Even in countries that largely use SI units, there are often conversions among kilograms and grams, millimeters, centimeters, meters, and kilometers, and weight is measured in kilograms, not newtons. Engineers must be comfortable in converting from one set of units to another as needed, and do so without making errors. This video explains how to do the most common sort of unit conversion, involving dimensional equations or unit-conversion equations.\nA second video, How Keen Is Your Rank? JTF, TFS, Ref page, explains how to do temperature conversions and temperature interval conversions, many of which can’t be done using the methods in this video.\nA third video, The Most Annoying Equation Conversion, JTF, TFS, Ref page, explains how to convert an equation, as opposed to a measurement or temperature, from one set of units to another.\n\n\nThe Full Story Video examines common conceptions and misconceptions about unit conversions, explains dimensional equations and then has examples of their use. It is recommended for those who have not been exposed to unit conversions before or who have struggled to understand how to use them.\nVideo Link Goes Here Images, Transcript\n\n\n\nThe Just The Facts Video discusses unit conversions, explains dimensional equations and then has examples of their use. It is recommended for those who have a reasonably good understanding of unit conversion and are just looking for a refresher or a review.\n\n\nImages, Transcript"
+    "text": "A mole is a basic concept in Chemical Engineering. It’s purpose is to determine the masses of reagents needed in chemical reactions. Unlike in Chemistry, where a mole is a mole is a mole, in Chemical Engineering engineers need to work with different mass units such as pounds-mass \\((\\mathrm{lb_m})\\), tons, and kilograms. For each mass unit there is a corresponding mole. For a chemical species, the numerical value of a mole in a given mass unit doesn’t change with the mass unit, but the unit does. For example, with \\(\\mathrm{NaCl}\\) that has a molecular mass of \\(58.443\\), a gram-mole (or simply mole) has a mass of \\(58.443\\ \\mathrm{g}\\), a pound-mole has a mass of \\(58.443\\ \\mathrm{lb_m}\\) and a ton-mole has a mass of \\(58.443\\ \\mathrm{ton}\\) (one might have to specify whether the ton is a long ton or a short ton).\nThe videos explain what a mole is and how it is used in basic Chemical Engineering calculations."
   },
   {
-    "objectID": "basics/processdata/DimensionalEquationsWebPage.html#the-full-story-video",
-    "href": "basics/processdata/DimensionalEquationsWebPage.html#the-full-story-video",
-    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
-    "section": "",
-    "text": "The Full Story Video examines common conceptions and misconceptions about unit conversions, explains dimensional equations and then has examples of their use. It is recommended for those who have not been exposed to unit conversions before or who have struggled to understand how to use them.\nVideo Link Goes Here Images, Transcript"
-  },
-  {
-    "objectID": "basics/processdata/DimensionalEquationsWebPage.html#the-just-the-facts-video",
-    "href": "basics/processdata/DimensionalEquationsWebPage.html#the-just-the-facts-video",
-    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
-    "section": "",
-    "text": "The Just The Facts Video discusses unit conversions, explains dimensional equations and then has examples of their use. It is recommended for those who have a reasonably good understanding of unit conversion and are just looking for a refresher or a review.\n\n\nImages, Transcript"
-  },
-  {
-    "objectID": "basics/processdata/DimensionalEquationsWebPage.html#preceding-videos",
-    "href": "basics/processdata/DimensionalEquationsWebPage.html#preceding-videos",
-    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#preceding-videos",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html#preceding-videos",
+    "title": "What Is a Mole? Reference Page",
     "section": "Preceding Videos",
-    "text": "Preceding Videos\nAs of this writing the two sets of videos preceding this set are:\n\nData Fitting with Spreadsheets 2 The Full Story, Just The Facts, Reference Page\nData Fitting with Spreadsheets 2 The Full Story, Just The Facts, Reference Page"
+    "text": "Preceding Videos\nAs of this writing the two sets of videos preceding this set are:\n\nUnder Pressure Part 1 The Full Story, Just The Facts, Reference Page\nUnder Pressure Part 2 The Full Story, Just The Facts, Reference Page"
   },
   {
-    "objectID": "basics/processdata/DimensionalEquationsWebPage.html#following-videos",
-    "href": "basics/processdata/DimensionalEquationsWebPage.html#following-videos",
-    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#following-videos",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html#following-videos",
+    "title": "What Is a Mole? Reference Page",
     "section": "Following Videos",
-    "text": "Following Videos\nAs of this writing the two sets of videos following this set are: 1. How Keen Is Your Rank? The Full Story, Just The Facts, Reference Page 2. The Most Annoying Equation Conversion The Full Story, Just The Facts, Reference Page"
+    "text": "Following Videos\nAs of this writing the two sets of videos following this set are:\n\nWhat the Frac? The Full Story, Just The Facts, Reference Page\nAre You Dense? Crank Up the Volume and Go With the Flow! The Full Story, Just The Facts, Reference Page"
   },
   {
-    "objectID": "basics/processdata/DimensionalEquationsWebPage.html#other-links",
-    "href": "basics/processdata/DimensionalEquationsWebPage.html#other-links",
-    "title": "Is Furlongs Per Fortnight a Thing? Reference Page",
+    "objectID": "basics/processdata/WhatIsAMoleWebPage.html#other-links",
+    "href": "basics/processdata/WhatIsAMoleWebPage.html#other-links",
+    "title": "What Is a Mole? Reference Page",
     "section": "Other Links",
-    "text": "Other Links\n\nThe NIST conversions to SI in alphabetical order https://tinyurl.com/ydb2jcoc\nThe NIST conversions to SI by kind https://tinyurl.com/ycqe2ez7\nWeb search for on-line unit conversion calculators\nJust about any values of the molar gas constant you would want https://en.wikipedia.org/wiki/Gas_constant"
+    "text": "Other Links\n\nThe Wikipedia discussion of the mole. The other mass unit moles are discussed under Similar units."
   },
   {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mass",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#mass",
+    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#definition",
+    "href": "basics/processdata/WhatIsAMoleVisuals.html#definition",
     "title": "Chemical and Thermal Processes",
-    "section": "Mass",
-    "text": "Mass\nMass is both a property of a physical body and a measure of its resistance to acceleration (a change in its state of motion) when a net force is applied. An object’s mass also determines the strength of its gravitational attraction to other bodies. (https://en.wikipedia.org/wiki/Mass)\nThe SI unit of mass, the kilogram, is defined from Planck’s constant\n\\[h=6.626070150 \\times 10^{-34}\\ \\mathrm{m^2/s}\\]\nor\n\\[ 1\\ \\mathrm{kg}=\\frac{h}{6.626070150 \\times 10^{-34}\\ \\mathrm{kg \\cdot m^2/s}} \\]"
+    "section": "Definition",
+    "text": "Definition\n\nThe mass equivalent of the molar mass of a molecule\nThe molar mass of \\(\\mathrm{CO_2}\\) is \\(44.010\\ \\frac{\\mathrm{g}}{\\mathrm{mol}}\\) or \\(44.010\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\), etc.\n15 mass units on N.I.S.T website\nMost common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{tonne-mol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)"
   },
   {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mass-cont.",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#mass-cont.",
+    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#using-a-mole",
+    "href": "basics/processdata/WhatIsAMoleVisuals.html#using-a-mole",
     "title": "Chemical and Thermal Processes",
-    "section": "Mass (cont.)",
-    "text": "Mass (cont.)\nFor the curious, the second is defined as 9,192,631,770 times the period of the unperturbed ground-state hyperfine transition of the cesium 133 atom. And the meter is defined as 1/299,792,458th of the distance light travels in a vacuum in one second. The American engineering unit of mass, the pound mass, or \\(\\mathrm{lb_m}\\) is defined as\n\\[1\\ \\mathrm{lb_m} \\equiv 0.453\\ 592\\ 37\\ \\mathrm{kg}\\]"
+    "section": "Using a Mole",
+    "text": "Using a Mole\n\nStart with a balanced chemical equation.\n\\[\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}\\]\nTo make \\(100\\ \\mathrm{lb_m}\\) of \\(\\mathrm{CO_2}\\)\n\n\\(100\\ \\mathrm{lb_m\\ CO_2} / 44.010\\ \\frac{\\mathrm{lb_m\\ CO_2}}{\\text{lb-mol}} = 2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{CO_2}\\)\nNeed \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{C}\\) and \\(2.272\\ \\text{lb-mol}\\) of \\(\\mathrm{O_2}\\).\n\\(2.272\\ \\text{lb-mol C} \\cdot 12.011\\ \\frac{\\mathrm{lb_m\\ C}}{\\text{lb-mol}} = 27.29  \\mathrm{lb_m\\ C}\\)\n\\(2.272\\ \\text{lb-mol 0}_2 \\cdot 31.999\\ \\frac{\\mathrm{lb_m\\ O}_2}{\\text{lb-mol}} = 72.70  \\mathrm{lb_m\\ O}_2\\)"
   },
   {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mole",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#mole",
+    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#avogadros-number",
+    "href": "basics/processdata/WhatIsAMoleVisuals.html#avogadros-number",
     "title": "Chemical and Thermal Processes",
-    "section": "Mole",
-    "text": "Mole\n\nSee What Ia A Mole? for a more thorough explanation\nThe most common moles are\n\n\\(\\text{g-mol}\\) or \\(\\text{mol}\\)\n\\(\\text{kg-mol}\\) or \\(\\text{kmol}\\)\n\\(\\text{lb-mol}\\)\n\\(\\text{ton-mol}\\)\n\\(\\text{tonne-mol}\\)\n\n\n\nYou should NEVER convert your mass in \\(\\text{kg}\\) or \\(\\mathrm{lb_m}\\) to \\(\\mathrm{g}\\), and then to \\(\\text{g-mol}\\). You should ALWAYS use the kind of mole your mass is in. The conversion factor is simply the molecular weight."
+    "section": "Avogadro’s Number",
+    "text": "Avogadro’s Number\n\n\\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\mathrm{mol}}\\) or \\(6.02214076 \\times 10^{23}\\ \\frac{\\mathrm{molecules}}{\\text{g-mol}}\\)\n\\(1.327 654 687 336 \\times 10^{27}\\ \\frac{\\mathrm{molecules}}{\\text{lb-mol}}\\)"
   },
   {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mole-cont.",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#mole-cont.",
+    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#use-the-correct-moles",
+    "href": "basics/processdata/WhatIsAMoleVisuals.html#use-the-correct-moles",
     "title": "Chemical and Thermal Processes",
-    "section": "Mole (cont.)",
-    "text": "Mole (cont.)\nThe molecular weight of methane is:\n\\(M_\\mathrm{CH_4} = 16.0425\\ \\frac{\\text{g}}{\\text{g-mol}} = 16.0425\\ \\frac{\\text{kg}}{\\text{kg-mol}} = 16.0425\\ \\frac{\\mathrm{lb_m}}{\\text{lb-mol}}\\)\nTo calculate the pounds of oxygen (\\(M = 31.9988\\)) required to completely burn three pounds of methane:\n\\(\\mathrm{CH_4} + 2 \\mathrm{O_2} \\rightarrow \\mathrm{CO_2} + 2 \\mathrm{H_2O} \\implies \\frac{2\\ \\text{lb-mol }\\mathrm{O_2}}{1\\ \\text{lb-mol }\\mathrm{CH_4}}\\)\n\\(\\frac{3\\ \\mathrm{lb_m\\ CH_4}}{16.0425\\ \\frac{\\mathrm{lb_m\\ CH_4}}{\\text{lb-mol CH}_4}} \\frac{2\\ \\text{lb-mol }\\mathrm{O_2}}{1\\ \\text{lb-mol }\\mathrm{CH_4}} \\frac{31.9988\\ \\mathrm{lb_m\\ O_2}}{1\\ \\text{lb-mol O}_2} = 11.9678\\ \\mathrm{lb_m\\ O_2}\\)\nCalculating it any other way is just a waste of time and brain effort."
+    "section": "Use the Correct Moles",
+    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using gram moles incorrectly.\n\nStart with mass in units other than grams.\n\nConvert to grams.\nConvert to gram-moles.\nUse balanced chemical equation to solve for the other species in gram-moles.\nConvert the other species’ gram-moles to grams.\nConvert the grams to the starting mass species.\n\nRequires five steps."
   },
   {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mass-fractions-and-mole-fractions",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#mass-fractions-and-mole-fractions",
+    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#use-the-correct-moles-1",
+    "href": "basics/processdata/WhatIsAMoleVisuals.html#use-the-correct-moles-1",
     "title": "Chemical and Thermal Processes",
-    "section": "Mass Fractions and Mole Fractions",
-    "text": "Mass Fractions and Mole Fractions\n\\(x\\), \\(y\\), and \\(z\\) are all used for both mass fractions and mole fractions. \\(x_\\mathrm{A}\\) can be the mass fraction of species \\(\\mathrm{A}\\) or the mole fraction of species \\(\\mathrm{A}\\). Likewise for \\(y_\\mathrm{A}\\) and \\(z_\\mathrm{A}\\). Convention usually uses:\n\n\\(x\\) for fractions in a solid or liquid mixture,\n\\(y\\) for fractions in a gas mixture, and\n\\(z\\) for the overall fraction in a gas-liquid, liquid-solid, or gas-solid mixture."
+    "section": "Use the Correct Moles",
+    "text": "Use the Correct Moles\n\nUnless the problem is in grams, don’t use gram moles!\nSteps for using moles.\n\nStart with mass in units other than grams.\n\nConvert to the mass unit’s moles.\nUse balanced chemical equation to solve for the other species in the mass unit’s moles.\nConvert the other species’ moles to mass units.\n\n\nRequires three steps instead of five.\n40% fewer places to make mistakes."
   },
   {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#conversions",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#conversions",
-    "title": "Chemical and Thermal Processes",
-    "section": "Conversions",
-    "text": "Conversions\nTo convert from mass fraction, \\(x\\), to mole fraction, \\(y\\):\n\\(y_\\mathrm{A} = \\frac{\\frac{x_\\mathrm{A}}{M_\\mathrm{A}}}{\\sum \\frac{x_i}{M_i}}\\)\nTo convert from mole fraction, \\(y\\), to mass fraction, \\(x\\):\n\\(x_\\mathrm{A} = \\frac{y_\\mathrm{A} M_\\mathrm{A}}{\\sum y_i M_i}\\)"
-  },
-  {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#mole-averaged-and-mass-averaged-molecular-weight",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#mole-averaged-and-mass-averaged-molecular-weight",
-    "title": "Chemical and Thermal Processes",
-    "section": "Mole-Averaged and Mass-Averaged Molecular Weight",
-    "text": "Mole-Averaged and Mass-Averaged Molecular Weight\nThe mole-averaged (or number-averaged) molecular weight is\n\\(\\bar{M} = \\sum y_i M_i = \\left(\\sum \\frac{x_i}{M_i}\\right)^{-1}\\)\nThe mass-averaged molecular weight is\n\\(\\bar{M}_m = \\sum x_i M_i = \\frac{\\sum y_i M_i^2}{\\sum y_i M_i}\\)\nThe mole-averaged molecular weight is most often used for mixtures of gases. The mass-averaged molecular weight is most often used for polymers."
-  },
-  {
-    "objectID": "basics/processdata/MassMolesJTFVisuals.html#the-takeaways",
-    "href": "basics/processdata/MassMolesJTFVisuals.html#the-takeaways",
+    "objectID": "basics/processdata/WhatIsAMoleVisuals.html#the-takeaways",
+    "href": "basics/processdata/WhatIsAMoleVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nPressure is the second most commonly measured process variable.\nHydrostatic pressure \\(= \\rho g h\\).\nManometers measure \\(\\Delta P\\)’s with hydrostatic pressure."
+    "text": "The Takeaways\n\nDifferent types of moles are for different types of mass units.\nThe molar mass is just the conversion factor between moles and mass. It has the same numerical value for all mass/mole pairs.\nUse gram moles for problems in grams. Use pound-moles for problems in pounds, etc."
+  },
+  {
+    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#section",
+    "href": "basics/processdata/DimNumPart2JTFVisuals.html#section",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "This video gives examples of three topics\n\n• Dimensionless numbers or dimensionless groups\n\n\n• Dimensional homogeneity\n\n\n• Arguments of transcendental functions are    dimensionless."
+  },
+  {
+    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#dimensionless-numbers",
+    "href": "basics/processdata/DimNumPart2JTFVisuals.html#dimensionless-numbers",
+    "title": "Chemical and Thermal Processes",
+    "section": "Dimensionless Numbers",
+    "text": "Dimensionless Numbers\n\nMost famous is Reynolds number, \\(Re\\).\n\n\n\\(Re = \\frac{\\rho u D}{\\mu} = \\frac{u D}{\\nu}\\)\n\n\n\\(\\mathrm{momentum} \\propto \\rho u\\),\\(\\mathrm{viscous\\ force} \\propto \\mu/D\\)\n\n\n\\(Re\\) is ratio of momentum to viscous drag.\n\n\nFor a pipe, the transition from viscous flow to inertial flow occurs between \\(Re = 2000\\) and \\(Re = 3000\\)."
+  },
+  {
+    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#reynolds-number-example",
+    "href": "basics/processdata/DimNumPart2JTFVisuals.html#reynolds-number-example",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reynolds Number Example",
+    "text": "Reynolds Number Example\n\n\n\\(D = 3\\ \\mathrm{in}\\)\n\n\n\\(u = 10\\ \\mathrm{ft/s}\\)\n\n\n\\(\\rho = 62.4\\ \\mathrm{lb_m/ft^3}\\)\n\n\n\\(\\mu = 2.5791 \\times 10^{-5}\\ \\frac{\\mathrm{lb_f \\cdot s}}{\\mathrm{ft^2}}\\)\n\n\nAmerican Engineering\n\n\n\\(Re = \\frac{\\rho u D}{\\mu} = \\frac{62.4\\ \\frac{\\mathrm{lb_m}}{\\mathrm{ft^3}}\\cdot 10\\ \\frac{\\mathrm{ft}}{\\mathrm{s}}\\cdot \\frac{3}{12}\\ \\mathrm{ft}}{2.5791 \\times 10^{-5}\\ \\frac{\\mathrm{lb_f\\ s}}{\\mathrm{m^2}}} = 6.049 \\times 10^6\\ \\frac{\\mathrm{lb_m\\ ft}}{\\mathrm{lb_f\\ s^2}}\\)\n\n\n\\(1 = \\frac{1\\ \\mathrm{lb_f\\ s^2}}{32.174\\ \\mathrm{lb_m\\ ft}}\\)\n\n\n\\(Re =  6.049 \\times 10^6\\ \\frac{\\mathrm{lb_m\\ ft}}{\\mathrm{lb_f\\ s^2}} \\cdot \\frac{1\\ \\mathrm{lb_f\\ s^2}}{32.174\\ \\mathrm{lb_m\\ ft}} = 1.880 \\times 10^5\\)"
+  },
+  {
+    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#section-1",
+    "href": "basics/processdata/DimNumPart2JTFVisuals.html#section-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "In SI\n\n\n\\(D = 76.3\\ \\mathrm{mm}\\)\n\n\n\\(u = 3.048\\ \\mathrm{ft/s}\\)\n\n\n\\(\\rho = 999.55\\ \\mathrm{kg/m^3}\\)\n\n\n\\(\\mu = 1.2349 \\times 10^{-3}\\ \\frac{\\mathrm{N \\cdot s}}{\\mathrm{m^2}}\\)\n\n\n\\(Re = \\frac{\\rho u D}{\\mu} = \\frac{999.55\\ \\frac{\\mathrm{kg}}{\\mathrm{m^3}}\\cdot 3.048\\ \\frac{\\mathrm{m}}{\\mathrm{s}}\\cdot \\frac{76.3}{1000}\\ \\mathrm{m}}{1.2349 \\times 10^{-3}\\ \\frac{\\mathrm{N\\ s}}{\\mathrm{m^2}}} = 1.880 \\times 10^5\\ \\frac{\\mathrm{kg\\ m}}{\\mathrm{N\\ s^2}}\\)\n\n\n\\(1 = \\frac{1\\ \\mathrm{N\\ s^2}}{\\mathrm{kg\\ m}}\\)\n\n\n\\(Re = 1.880 \\times 10^5\\ \\frac{\\mathrm{kg\\ m}}{\\mathrm{N\\ s^2}} \\cdot \\frac{1\\ \\mathrm{N\\ s^2}}{\\mathrm{kg\\ m}} = 1.880 \\times 10^5\\)"
+  },
+  {
+    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#table-of-dimensionless-numbers",
+    "href": "basics/processdata/DimNumPart2JTFVisuals.html#table-of-dimensionless-numbers",
+    "title": "Chemical and Thermal Processes",
+    "section": "Table of Dimensionless Numbers",
+    "text": "Table of Dimensionless Numbers\n\nNusselt Number: \\(Nu=\\frac{h l}{k}\\)  • Ratio of convective to conductive heat transfer\n\n\nPrandtl Number: \\(Pr = \\frac{\\nu}{\\alpha}= \\frac{C_P \\mu}{k}\\)  • Ratio of viscous to thermal diffusion\n\n\nFourier Number: \\(Fo = \\frac{\\alpha t}{l^2}\\)  • Ratio of diffusive to storage rates\n\n\nSherwood Number: \\(Sh = \\frac{k l}{\\mathscr{D}}\\)  • Ratio of convective to diffusive mass transport\n\n\nSchmidt Number: \\(Sc = \\frac{\\nu}{\\mathscr{D}} = \\frac{\\mu}{\\rho \\mathscr{D}}\\)  • Ratio of viscous to mass diffusion"
+  },
+  {
+    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#dimensional-homogeneity",
+    "href": "basics/processdata/DimNumPart2JTFVisuals.html#dimensional-homogeneity",
+    "title": "Chemical and Thermal Processes",
+    "section": "Dimensional Homogeneity",
+    "text": "Dimensional Homogeneity\nAs explained in Where Does Sherwood Hide His Unit?, all terms in an equation must be dimensionally homogeneous.\n\nFirst Example – The integrated rocket equation\n\n\n\\(\\Delta v = I_\\mathrm{sp} g_0 \\ln \\frac{m_0}{m_f}\\)\n\n\nAs the argument to \\(\\ln\\), \\(m_0/m_f\\) must be unitless, so \\(m_0\\) and \\(m_f\\) must have the same units, in this case, mass.\n\n\n\\(I_\\mathrm{sp} g_0\\) must have the same units as \\(v\\), or in SI, \\(\\mathrm{m/s}\\).\n\n\n\\(g_0\\) (or \\(g\\)) has units of \\(\\mathrm{m/s^2}\\) So \\(I_\\mathrm{sp}\\) has units of seconds."
+  },
+  {
+    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#section-2",
+    "href": "basics/processdata/DimNumPart2JTFVisuals.html#section-2",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Double check\n\n\\(I_\\mathrm{sp} = \\frac{I_\\mathrm{total}}{w_\\mathrm{fuel}}\\)\n\n\n\\(I_\\mathrm{total}\\) has units of \\(\\mathrm{N\\ s}\\), and \\(w_\\mathrm{fuel}\\) has units of \\({\\mathrm{N}}\\).\n\n\nSo, \\(I_\\mathrm{sp}\\) has units of seconds, same as before."
+  },
+  {
+    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#section-3",
+    "href": "basics/processdata/DimNumPart2JTFVisuals.html#section-3",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Second Example – The rocket equation for gravity and constant \\(C_D\\).\n\n\\(a = \\frac{T}{m}-g-\\frac{1}{2}C_D A_P \\frac{\\rho}{m}v^2\\)\n\n\n\\(a\\) is in \\(\\mathrm{m/s^2}\\)\n\n\n\\(T/m\\) must be in \\(\\mathrm{m/s^2}\\). Since \\(m\\) is in \\(\\mathrm{kg}\\), \\(T\\) must be in \\(\\mathrm{kg\\ m/s^2}\\) or \\(\\mathrm{N}\\), which it is.\n\n\n\\(g\\) is in \\(\\mathrm{m/s^2}\\), as it must be.\n\n\n\\(\\rho/m\\) is in \\(\\mathrm{m^{-3}}\\). \\(A_P\\) is in \\(\\mathrm{m^2}\\). \\(v^2\\) is in \\(\\mathrm{m^2/s^2}\\).\n\n\nSo \\(A_P \\frac{\\rho}{m}v^2\\) is in units of \\(\\mathrm{m^2/s^2}\\) and \\(C_D\\) is dimensioness."
+  },
+  {
+    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#transcendental-functions",
+    "href": "basics/processdata/DimNumPart2JTFVisuals.html#transcendental-functions",
+    "title": "Chemical and Thermal Processes",
+    "section": "Transcendental Functions",
+    "text": "Transcendental Functions\nEquation of the rocket altitude for constant thrust and constant \\(C_D\\).\n\n\n\\(x-x_0= \\frac{v^2_{\\text{max}}}{b}\\left\\{\\ln{\\left[\\cosh{\\left(\\frac{b}{v_{\\text{max}}}(t-t_0)+\\tanh^{-1}{\\frac{v_0}{v_{\\text{max}}}}\\right)}\\right]}\\right.\\)\n\n\n\\(\\left.- \\ln{\\left[\\cosh{\\left(\\tanh^{-1}{\\frac{v_0}{v_{\\text{max}}}}\\right)}\\right]}\\right\\}\\)\n\n\n\n\\(v_0/v_\\mathrm{max}\\) is dimensionless, as it must be.\n\n\n\\(\\tanh^{-1}\\) is dimensionless.\n\n\n\\(\\cosh\\) is dimensionless.\n\n\n\\(\\frac{b}{v_{\\text{max}}}(t-t_0)\\) must be dimensionless.\n\n\n\\(v_{\\text{max}}\\) is in \\(\\mathrm{m/s}\\). \\(t\\) and \\(t_0\\) are in seconds.\n\n\nSo \\(b\\) must have dimensions of \\(\\mathrm{m/s^2}\\)\n\n\nSo \\(v^2_{\\mathrm{max}}/b\\) has dimensions of \\(\\mathrm{m}\\) like \\(x\\) and \\(x_0\\)."
+  },
+  {
+    "objectID": "basics/processdata/DimNumPart2JTFVisuals.html#the-takeaways",
+    "href": "basics/processdata/DimNumPart2JTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nThere are ways to combine variables or measured quantities to create dimensionless numbers, which help reduce the measurements you need to make to characterize your system.\nAll of the terms in an equation must have the same dimensions. In other words, equations must have dimensional homogeneity.\nArguments of transcendental functions must be dimensionless."
   },
   {
     "objectID": "basics/processdata/DimNumPart2TFSVisuals.html#section",
