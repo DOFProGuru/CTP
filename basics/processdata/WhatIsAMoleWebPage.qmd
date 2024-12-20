@@ -20,7 +20,7 @@ The videos explain what a mole is and how it is used in basic Chemical Engineeri
 
 # The *Just The Facts* Video
 
-The *Just The Facts* Video gets straignt to explaining what a mole is and how it is used. It is recommended for those who have a reasonably good understanding of moles and are just looking for a refresher or a review.
+The *Just The Facts* Video gets straight to explaining what a mole is and how it is used. It is recommended for those who have a reasonably good understanding of moles and are just looking for a refresher or a review.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wHEX0uY69rs?si=gI9jKO8lHPJ_2_EU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -58,15 +58,15 @@ Pound Mole
 
 As of this writing the two sets of videos preceding this set are:
 
-1. *Under Pressure Part 1* [The Full Story](), [Just The Facts](), [Reference Page]()
-2. *Under Pressure Part 2* [The Full Story](), [Just The Facts](), [Reference Page]()
+1. *Under Pressure Part 1* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/eZFMP-Dt48g), [Reference Page](http://localhost:6195/basics/processdata/PressureWebPage.html)
+2. *Under Pressure Part 2* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/z8DJ4kpvCMU), [Reference Page](http://localhost:6195/basics/processdata/PressureWebPage.html)
 
 ## Following Videos
 
 As of this writing the two sets of videos following this set are:
 
-1. *Mass, Moles, and Mass and Mole Fractions* [The Full Story](), [Just The Facts](), [Reference Page]()
-2. *Volume, Densit, Flow Rates* [The Full Story](), [Just The Facts](), [Reference Page]()
+1. *What the Frac?* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/Tdeuf0quJUs), [Reference Page](../../NotYetHere.qmd)
+2. *Are You Dense? Crank Up the Volume and Go With the Flow!* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/EsPSVVYWQlE), [Reference Page](../../NotYetHere.qmd)
 
 ## Other Links
 
