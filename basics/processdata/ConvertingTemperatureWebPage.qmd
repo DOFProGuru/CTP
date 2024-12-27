@@ -11,18 +11,16 @@ Temperature is the most common measured and reported quantity in  in chemical pr
 
 *The Full Story* Video examines common conceptions and misconceptions about temperatures and temperature intervals, compares the four scales, shows how to derive the conversions, lists the conversions, and then has two examples of their use. It is recommended for those who have not been exposed to temperature before or who have struggled with understanding what temperature is or how it is used.
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Kztw9GX9EL8?si=8FReigIAK_ILt8NN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
 **Video Link Goes Here**
-[Images](ConvertingTemperatureTFSVisuals.qmd), [Transcript](WhatIsAMoleTFSCC.qmd), [Conversion Table](#conversion-tables)
+[Visuals](ConvertingTemperatureTFSVisuals.qmd), [Transcript](WhatIsAMoleTFSCC.qmd), [Conversion Table](#conversion-tables)
 
 ## The *Just The Facts* Video
 
 The *Just The Facts* Video explains the difference between temperature and temperature interval, presents the conversions among the four scales for both temperature and temperature intervals, and then has two examples of applying the conversions. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/wHEX0uY69rs?si=gI9jKO8lHPJ_2_EU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
- -->
-**Video Link Goes Here**
-[Images](ConvertingTemperatureJTFVisuals.qmd), [Transcript](),  [Conversion Table](#conversion-tables)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0l5akaQvBbE?si=3Ebr6ZPfr8fRQpyb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](ConvertingTemperatureJTFVisuals.qmd), [Transcript](),  [Conversion Table](#conversion-tables)
 
 # Conversion Tables
 
@@ -69,11 +67,11 @@ The *Just The Facts* Video explains the difference between temperature and tempe
 [Rankine](https://en.wikipedia.org/wiki/Rankine_scale)
 : The American Engineering absolute temperature scale. Named after William John Macquorn Rankine, a Scottish methematician and physicist.
 
-Ideal Gas Law
-: The bar ($\mathrm{bar}$) is $10,00\ \mathrm{Pa}$. $1\ \mathrm{bar} = 10^5\ \mathrm{Pa}$.
+[Ideal Gas Law](https://en.wikipedia.org/wiki/Ideal_gas_law)
+: For gas-phase components, and low enough pressures and high enough temperatures, the relationship among absolute temperature, $T$, absolute pressure, $P$, total volume, $V$, and number of moles, $n$. The relationship is usually written as $PV=nRT$, where $R$ is the [universal gas constant](https://en.wikipedia.org/wiki/Gas_constant). It can also be written as $P\hat{V}=RT$, where $\hat{V}=V/n$ is the molar volume.
 
-Heat Capacity
-: The pound per square inch ($\mathrm{psi}$) is one pound of normal force per square inch of area. $1\ \mathrm{psi}= 6894.757\ \mathrm{Pa}$.
+[Heat Capacity](https://en.wikipedia.org/wiki/Heat_capacity)
+: The change in internal energy required to change the temperature of a specified amount of a substance by one degree in a specified temperature scale. The two most common ones are at constant pressure, $C_P$, and a constant volume, $C_V$.
 
 
 # Additional Links
