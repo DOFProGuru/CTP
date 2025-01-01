@@ -37,6 +37,8 @@ DOFPro Team
 - Another Video – *Is Furlongs Per Fortnight a Thing?* explains how to convert a measured or calculated quantity from one set of units to another (except for temperatures).
 - A Third Video – *The Most Annoying Equation Conversion* explains how to convert an equation as opposed to a calculated or measured quantity from one set of units to another.
 
+# What are the common units of temperature used in Chemical and Thermal Processing?
+
 ## What temperature scales do we use?
 
 :::{.fragment .absolute top=10% left=0%}
@@ -69,6 +71,9 @@ $\mathbf{-}$ absolute scale (starts at zero)
 $\mathbf{-}$ used when working with gases in Am. Eng. Units
 :::
 
+# What two common temperature scales are absolute scales, starting at absolute zero?
+
+# What is the difference between the temperature of an object and a temperature interval?
 
 ## Temperatures vs. Temperature Intervals {.bigbold90}
 
@@ -254,13 +259,16 @@ $\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right] =0.06650+0.00
 4. All of the *temperature-interval* conversions just require multiplication by 9/5, 5/9, or 1.
 
 #
-::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description .
 :::
 
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}
+
+#
 
 ::: {.centered .bigger}
 </br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}
