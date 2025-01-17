@@ -1,0 +1,202 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Recycle Symbolic Solution</br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Recycle Example Symbolic Only
+
+$\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}$
+
+(image)
+
+Assume that the knowns or givens are:
+
+$\dot{n}_\mathrm{A1}$, $\dot{n}_\mathrm{B1}$, $\dot{n}_\mathrm{C1}$, $f_\mathrm{A}$ (in reactor), $t_\mathrm{A4}$, $t_\mathrm{C4}$, $t_\mathrm{C4}$
+
+Find a full set of equations for all of the flows, extent of reaction, and overall conversion in terms of the knowns.
+
+In general, you have to calculate a set of mass balances completely around the recycle loop before you can eliminate the unknowns. Each known will be circled, and each equation that has a single unknown in terms of knowns will be circled.
+
+## "A" Balance
+
+$\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}$
+
+(Image)
+
+$$
+\dot{n}_\mathrm{A1} = \mathrm{given}
+$$
+
+**Mixer**
+
+$$
+\dot{n}_\mathrm{A5} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}
+$$
+
+**Reactor**
+
+$$
+\dot{n}_\mathrm{A2} = (1-f_\mathrm{A})\dot{n}_\mathrm{A5} = (1-f_\mathrm{A})(\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
+$$
+
+$$
+\dot{n}_\mathrm{A2} = \dot{n}_\mathrm{A5} + \nu_\mathrm{A} \dot{\xi} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}+ \nu_\mathrm{A} \dot{\xi} 
+$$
+
+or
+
+$$
+\dot{\xi} = (\dot{n}_\mathrm{A2} - \dot{n}_\mathrm{A5})/\nu_\mathrm{A}
+$$
+
+**Separator**
+
+$$
+\dot{n}_\mathrm{A4} = t_\mathrm{A4} \dot{n}_\mathrm{A2} = t_\mathrm{A4} (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
+$$
+
+$$
+\dot{n}_\mathrm{A3} = (1-t_\mathrm{A4}) \dot{n}_\mathrm{A2} = (1-t_\mathrm{A4}) (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
+$$
+
+## "A" Balance (cont.)
+
+**Separator (cont.)**
+
+$$
+\dot{n}_\mathrm{A3} = (1-t_\mathrm{A4}) (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
+$$
+
+$$
+\implies \dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A1} \left[\frac{(1-f_\mathrm{A}) (1-t_\mathrm{A4})}{f_\mathrm{A} + t_\mathrm{A4} - f_\mathrm{A} t_\mathrm{A4}}\right]
+$$
+
+Once we have $\dot{n}_\mathrm{A3}$
+
+$$
+\dot{n}_\mathrm{A5} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}
+$$
+
+$$
+\dot{n}_\mathrm{A2} = (1-f_\mathrm{A}) \dot{n}_\mathrm{A5}
+$$
+
+$$
+\dot{\xi} = (\dot{n}_\mathrm{A2} - \dot{n}_\mathrm{A5})/\nu_\mathrm{A}
+$$
+
+$\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}$
+
+(image)
+
+## "B" & "C" Balances
+
+For $\mathrm{B}$ and $\mathrm{C}$ we'll use extent of reaction. The $\mathrm{B}$ and $\mathrm{C}$ equations are identical except for the change from $\mathrm{B}$ to $\mathrm{C}$ subscripts.
+
+**Overall**
+
+$$
+\dot{n}_\mathrm{B4} = \dot{n}_\mathrm{B1} + \nu_\mathrm{B} \dot{\xi}
+$$
+
+$$
+\dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C1} + \nu_\mathrm{C} \dot{\xi}
+$$
+
+**Separator**
+
+$$
+\dot{n}_\mathrm{B2} = \frac{\dot{n}_\mathrm{B4}}{t_\mathrm{B4} }
+$$
+
+$$
+\dot{n}_\mathrm{C2} = \frac{\dot{n}_\mathrm{C4}}{t_\mathrm{C4} }
+$$
+
+$$
+\dot{n}_\mathrm{B3} = (1-t_\mathrm{B4}) \dot{n}_\mathrm{B2} = \frac{1-t_\mathrm{B4}}{t_\mathrm{B4}} \dot{n}_\mathrm{B4}
+$$
+
+$$
+\dot{n}_\mathrm{C3} = (1-t_\mathrm{C4}) \dot{n}_\mathrm{C2} = \frac{1-t_\mathrm{C4}}{t_\mathrm{C4}} \dot{n}_\mathrm{C4}
+$$
+
+**Mixer**
+
+$$
+\dot{n}_\mathrm{B5} = \dot{n}_\mathrm{B1} + \dot{n}_\mathrm{B3}
+$$
+
+$$
+\dot{n}_\mathrm{C5} = \dot{n}_\mathrm{C1} + \dot{n}_\mathrm{C3}
+$$
+
+$\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}$
+
+(Image)
+
+## Summary
+
+Finally, the overall fractional conversion of $\mathrm{A}$, and the product flow rates
+
+**Overall Fractional Conversion**
+
+$$
+f_\text{A–overall} = 1-\frac{\dot{n}_\mathrm{A1}}{\dot{n}_\mathrm{A4}} = \frac{f_\mathrm{A}}{f_\mathrm{A} + t_\mathrm{A4} - f_\mathrm{A} t_\mathrm{A4}}
+$$
+
+**Output Flows** (from overall and $\dot{\xi}$)
+
+$$
+\dot{n}_\mathrm{A4} = \dot{n}_\mathrm{A1} + \nu_\mathrm{A} \dot{\xi}
+$$
+$$
+\dot{n}_\mathrm{B4} = \dot{n}_\mathrm{B1} + \nu_\mathrm{B} \dot{\xi}
+$$
+
+$$
+\dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C1} + \nu_\mathrm{C} \dot{\xi}
+$$
+
+$\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}$
+
+(Image)
+
+## Spreadsheet Summary
+
+$\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}$
+
+(Image)
+
+## Parametric Plot of $f_\text{A–overall}$
+
+## The Takeaways
+
+1. Learn to recognize things given in the definitions like a PFD, recycle, and bypass.
+2. Develop a systematic style to set up and solve problems. Use the given style if you don’t have your own.
+3. Check out the speed tips and see if they help.
+
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *How to Keep Your Balance*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

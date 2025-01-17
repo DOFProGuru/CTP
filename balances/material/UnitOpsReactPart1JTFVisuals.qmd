@@ -1,0 +1,562 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# When You Saw It, What Was<br/>the Extent of Your Reaction? Part 1</br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
+
+## Chemical Reactions
+
+$$
+\mathrm{Reactants} \rightarrow \mathrm{Products}
+$$
+
+$$
+\nu_\mathrm{A} \mathrm{A} + \nu_\mathrm{B} \mathrm{B} \rightarrow \nu_\mathrm{P} \mathrm{P} + \nu_\mathrm{S} \mathrm{S}
+$$
+
+
+$\nu_i$ – stoichometric coefficient for component $i$.
+
+$\nu_i$ is positive for products (right side) and negative for reactants (left side).
+
+e.g., for
+$$
+\mathrm{C_2H_6} + \frac{7}{2}\mathrm{O_2} \rightarrow  2\mathrm{CO_2} + 3\mathrm{H_2O}
+$$
+
+then $\nu_\mathrm{C_2H_6} = -1$, $\nu_\mathrm{O_2} = -\frac{7}{2}$, $\nu_\mathrm{CO_2} = 2$, and $\nu_\mathrm{H_2O} = 3$.
+
+## Chemical Reactions (cont.)
+
+Other stoichiometric coefficient definitions are possible, but this one makes the formulas very easy to implement, e.g.,
+
+$$
+\sum \nu_i \mathrm{A}_i = 0
+$$
+
+where $\mathrm{A}_i$ is chemical species $i$, e.g., $\mathrm{C_2H_6}$, $\mathrm{O_2}$, $\mathrm{CO_2}$, or $\mathrm{H_2O}$.
+
+## Differential Balance
+### e.g., Open, Steady-State System
+
+If $\dot{n}_i$ is the *rate* of *generation* of $\mathrm{A}_i$, then
+
+$$
+\frac{\dot{n}_\mathrm{A}}{\nu_\mathrm{A}}= \frac{\dot{n}_\mathrm{B}}{\nu_\mathrm{B}} = \frac{\dot{n}_\mathrm{P}}{\nu_\mathrm{P}} = \frac{\dot{n}_\mathrm{S}}{\nu_\mathrm{S}} = \frac{\dot{n}_i}{\nu_i} = \dot{\xi}
+$$
+ (Don't try to use this form. We'll show you a better one later)
+
+$\dot{\xi}$ is the *extent of reaction* as a rate, e.g., $\mathrm{mol}/\mathrm{s}$.
+
+Note that for a *reactant*, the rate of generation is *negative*, and the stoichiometric coefficient is *negative*, so the ratio is *positive*.
+
+The value of $\dot{\xi}$ does not depend on the reactant or product chosen.
+
+## Integral Balance
+### e.g., Closed System
+
+If $n_i$ is the *amount* of *generation* of $\mathrm{A}_i$, then
+
+$$
+\frac{n_\mathrm{A}}{\nu_\mathrm{A}}= \frac{n_\mathrm{B}}{\nu_\mathrm{B}} = \frac{n_\mathrm{P}}{\nu_\mathrm{P}} = \frac{n_\mathrm{S}}{\nu_\mathrm{S}} = \frac{n_i}{\nu_i} = \xi
+$$
+ (Don't try to use this form. We'll show you a better one later)
+
+$\xi$ is the *extent of reaction* as an amount, e.g., $\mathrm{mol}$.
+
+Note that for a *reactant*, the amount generated is *negative*, and the stoichiometric coefficient is *negative*, so the ratio is *positive*.
+
+Again, the value of $\xi$ does not depend on the reactant or product chosen.
+
+## Reactor Mole Balance Equation
+
+![](SampleReactorPFD.png){.absolute top=10% left=30% width=30%}
+
+:::{.absolute top=9% left=24%}
+$\dot{n}_{i_\mathrm{in}}$
+:::
+
+:::{.absolute top=16.5% left=62%}
+$\dot{n}_{i_\mathrm{in}}$
+:::
+
+<br/><br/><br/>
+
+:::: {.columns}
+
+::: {.column width=50%}
+Differential Balance<br/>e.g., open, steady state
+
+$$
+\dot{n}_{i_\mathrm{out}} = \dot{n}_{i_\mathrm{in}} + \nu_i \dot{\xi}
+$$
+
+$$
+\dot{n}_\mathrm{out} = \dot{n}_\mathrm{in} + \nu \dot{\xi}
+$$
+
+$$
+\dot{n}_\mathrm{in} = \sum \dot{n}_{i_\mathrm{in}}
+$$
+
+$$
+\dot{n}_\mathrm{out} = \sum \dot{n}_{i_\mathrm{out}}
+$$
+
+$$
+\nu = \sum \nu_i
+$$
+:::
+
+::: {.column width=50%}
+Integral Balance<br/>e.g., closed
+
+$$
+n_{i_\mathrm{out}} = n_{i_\mathrm{in}} + \nu_i \dot{\xi}
+$$
+
+$$
+n_\mathrm{out} = n_\mathrm{in} + \nu \dot{\xi}
+$$
+
+$$
+n_\mathrm{in} = \sum n_{i_\mathrm{in}}
+$$
+
+$$
+n_\mathrm{out} = \sum n_{i_\mathrm{out}}
+$$
+
+$$
+\nu = \sum \nu_i
+$$
+:::
+
+::::
+
+## Stoichiometric Coefficient Example
+
+:::: {.columns}
+
+::: {.column width=45%}
+Remember
+
+$\nu_i$ is *positive* for product.
+
+$\nu_i$ is *negative* for reactant.
+
+$\nu_i$ is *zero* for inerts.
+
+:::
+
+::: {.column width=55%}
+
+$$
+8 \mathrm{N_2} + 2 \mathrm{O_2} + 2 \mathrm{C} \rightarrow  8 \mathrm{N_2} + 2 \mathrm{CO_2}
+$$
+
+$$
+\nu_{\mathrm{O}_2} = -2
+$$
+
+$$
+\nu_\mathrm{C} = -2
+$$
+
+$$
+\nu_{\mathrm{CO_2}} = 2
+$$
+
+$$
+\nu_{\mathrm{N}_2} = -8+8=0
+$$
+
+$$
+\nu = 8 + 2 - 8 - 2 - 2 = -2
+$$
+
+:::
+
+::::
+
+
+## *Fractional Conversion* of Reactant *k*
+
+:::: {.columns}
+
+::: {.column width=50%}
+Differential Balance
+
+$$
+f_k = \frac{\dot{n}_{k_\mathrm{in}} - \dot{n}_{k_\mathrm{out}}}{\dot{n}_{k_\mathrm{in}}}
+$$
+$$
+= 1- \frac{\dot{n}_{k_\mathrm{out}}}{\dot{n}_{k_\mathrm{in}}}
+$$
+
+$$
+= \frac{-\nu_k \dot{\xi}}{\dot{n}_{k_\mathrm{in}}}
+$$
+
+$$
+\implies \dot{\xi} = \frac{f_k \dot{n}_{k_\mathrm{in}}}{-\nu_k}
+$$
+:::
+
+::: {.column width=50%}
+Integral Balance
+
+$$
+f_k = \frac{n_{k_\mathrm{in}} - n_{k_\mathrm{out}}}{n_{k_\mathrm{in}}}
+$$
+$$
+= 1- \frac{n_{k_\mathrm{out}}}{n_{k_\mathrm{in}}}
+$$
+
+$$
+= \frac{-\nu_k \xi}{n_{k_\mathrm{in}}}
+$$
+
+$$
+\implies \xi = \frac{f_k n_{k_\mathrm{in}}}{-\nu_k}
+$$
+:::
+
+::::
+
+Fractional conversion only works for *reactants*, not products. Unlike extent of reaction, in general it is different for each reactant.
+
+## *Limiting Reactant*
+
+:::: {.columns}
+
+::: {.column width=50%}
+$$
+\nu_\mathrm{A} \mathrm{A} + \nu_\mathrm{B} \mathrm{B} \rightarrow \cdots
+$$
+
+If we had 100% conversion of $\mathrm{A}$,
+
+$$
+\dot{\xi} = \frac{\dot{n}_{\mathrm{A_{in}}}}{-\nu_\mathrm{A}} \text{ or } \xi = \frac{n_{\mathrm{A_{in}}}}{-\nu_\mathrm{A}}
+$$
+
+If we had 100% conversion of $\mathrm{B}$,
+
+$$
+\dot{\xi} = \frac{\dot{n}_{\mathrm{B_{in}}}}{-\nu_\mathrm{B}} \text{ or } \xi = \frac{n_{\mathrm{B_{in}}}}{-\nu_\mathrm{B}}
+$$
+:::
+
+::: {.column width=50%}
+<br/>The reactant yielding the *smallest* value for $\xi$ is the *limiting reactant*. All other reactants are *excess reactants*. The *fractional excess* is the fraction in excess of stoichiometric.
+
+$$
+\mathrm{frac.\ xs} = \frac{n_{k_\mathrm{feed}} - n_{k_\mathrm{stoic}}}{n_{k_\mathrm{stoic}}}
+$$
+:::
+
+::::
+
+::: {.callout-important}
+These numbers are calculated regardless of the actual extent of reaction or fractional conversion in the process.
+:::
+
+## Limiting Reactant Example
+
+$$
+\mathrm{N_2+3H_2 = 2NH_3}
+$$
+
+If $\dot{n}_\mathrm{N_2in}= 100\ \mathrm{mol/s}$ and $\dot{n}_\mathrm{H_2in}= 200\ \mathrm{mol/s}$,
+
+Then
+
+$$
+\frac{200}{3} < \frac{100}{1}
+$$
+
+and $\mathrm{H_2}$ is the limiting reactant.
+
+Also $\dot{\xi} = \frac{200}{3}$ for 100% conversion of $\mathrm{H_2}$
+
+and $\dot{n}_\mathrm{N_2stoic}=\dot{\xi}(-\nu_\mathrm{N_2}) = \frac{200}{3}(1)$.
+
+So the fractional excess of $\mathrm{N_2}$ is
+
+$$
+\frac{\dot{n}_\mathrm{N_2in} - \dot{n}_\mathrm{N_2stoic}}{\dot{n}_\mathrm{N_2stoic}} = \frac{100-\frac{200}{3}}{\frac{200}{3}} = \frac{1}{2} = 50\%
+$$
+
+## Mole Balance for Multiple Reactions
+
+![](SampleReactorPFD.png){.absolute top=10% left=30% width=30%}
+
+:::{.absolute top=9% left=24%}
+$\dot{n}_{i_\mathrm{in}}$
+:::
+
+:::{.absolute top=16.5% left=62%}
+$\dot{n}_{i_\mathrm{in}}$
+:::
+
+<br/><br/><br/>
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+Differential Balance
+
+$$
+\dot{n}_{i_\mathrm{out}} = \dot{n}_{i_\mathrm{in}} + \sum_{j=1}^J \nu_{ij} \dot{\xi}_j
+$$
+
+$$
+\dot{n}_\mathrm{out} = \dot{n}_\mathrm{in} + \sum_{j=1}^J \nu_{j} \dot{\xi}_j
+$$
+:::
+
+::: {.column width=50%}
+
+Integral Balance
+
+$$
+n_{i_\mathrm{out}} = n_{i_\mathrm{in}} + \sum_{j=1}^J \nu_{ij} \xi_j
+$$
+
+$$
+n_\mathrm{out} = n_\mathrm{in} + \sum_{j=1}^J \nu_{j} \xi_j
+$$
+:::
+
+::::
+
+$\nu_{ij}$ is the stoichiometric coefficient for reactant $i$ in reaction $j$.
+
+$\nu_{j}$ is the overall stoichiometric coefficient for reaction $j$.
+
+$\dot{\xi}_j,\ \xi_j$ is the extent of reaction j.
+
+## Sample with Multiple Reactions
+
+$2.00\ \mathrm{kmol/s}$ of propane are burned in 25% excess oxygen in a faulty
+combustor. 100% of the hydrogen combusts to form water, but only
+80% of the carbon combusts completely to $\mathrm{CO_2}$. The remainder
+combusts to $\mathrm{CO}$.
+
+ a. Calculate the molar flow rate of oxygen into the combustor.
+ b. Calculate the molar flow rates of each of the combustion products.
+ c. Calculate the total molar flow rate of the exhaust.
+ 
+## Solution
+
+There are multiple sets of chemical equations we could write. We will
+use the following:
+
+$$
+\mathrm{C_3H_8 + 5O_2} \rightarrow \mathrm{3CO_2 + 4 H_2O}
+$$ {#eq-1}
+
+$$
+\mathrm{C_3H_8 + \frac{7}{2}O_2} \rightarrow \mathrm{3CO + 4H_2O}
+$$ {#eq-2}
+
+
+To calculate excess oxygen, you need to calculate complete combustion. The appropriate equation is @eq-1.
+
+$$
+\dot{n}_\mathrm{O_2stoic} = \frac{\nu_\mathrm{O_2}}{\nu_\mathrm{C_3H_8}} \dot{n}_\mathrm{C_3H_8stoic} = \frac{-5}{-1}(2\ \mathrm{kmol/s}) = 10\ \mathrm{kmol/s}
+$$
+
+## Solution (cont.)
+$$
+\mathrm{frac.\ xs} = 0.25 = \frac{ \dot{n}_\mathrm{O_2in} - \dot{n}_\mathrm{O_2stoic} }{\dot{n}_\mathrm{O_2stoic}}
+$$
+
+$$
+\dot{n}_\mathrm{O_2in} = (1 + \mathrm{frac.\ xs})\dot{n}_\mathrm{O_2stoic} = 1.25(10\ \mathrm{kmol/s})
+$$
+$$
+ = 12.5\ \mathrm{kmol/s}
+$$
+
+for 25% excess oxygen.
+
+## Solution (cont.)
+
+The full set of multiple reaction mole balances with @eq-1 and @eq-2 is
+
+$$
+\dot{n}_\mathrm{C_3H_8out} = \dot{n}_\mathrm{C_3H_8in} - \dot{\xi}_1 - \dot{\xi}_2 \implies \dot{\xi}_1 + \dot{\xi}_2 = 2\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{CO_2out} = \dot{n}_\mathrm{CO_2in} + 3\dot{\xi}_1 + 0 \boldsymbol{\cdot} \dot{\xi}_2 \implies \dot{n}_\mathrm{CO_2out} = 3\dot{\xi}_1 
+$$
+
+$$
+\dot{n}_\mathrm{COout} = \dot{n}_\mathrm{COin} + 0 \boldsymbol{\cdot} \dot{\xi}_1 + 3 \dot{\xi}_2 \implies \dot{n}_\mathrm{COout} = 3\dot{\xi}_2 
+$$
+
+$$
+\dot{n}_\mathrm{O_2out} = \dot{n}_\mathrm{O_2in} - 5\dot{\xi}_1 - 3.5 \dot{\xi}_2 = 12.50\ \mathrm{kmol/s} - 5\dot{\xi}_1 - 3.5 \dot{\xi}_2
+$$
+
+$$
+\dot{n}_\mathrm{H_2Oout} = \dot{n}_\mathrm{H_2Oin} + 4 \dot{\xi}_1 + 4 \dot{\xi}_2 = 4 \dot{\xi}_1 + 4 \dot{\xi}_2
+$$
+
+Five equations in six unknowns, $\dot{\xi}_1$, $\dot{\xi}_2$, $\dot{n}_\mathrm{CO_2out}$, $\dot{n}_\mathrm{COout}$, $\dot{n}_\mathrm{O_2out}$, and $\dot{n}_\mathrm{H_2Oout}$.
+
+## Solution (cont.)
+
+Applying the $\mathrm{CO_2}$-to-$\mathrm{CO}$ constraint
+
+$$
+\frac{\dot{n}_\mathrm{COout}}{\dot{n}_\mathrm{CO_2out}} = \frac{1 - 0.80}{0.80}=0.25 = \frac{3\dot{\xi}_2}{3\dot{\xi}_1} = \frac{\dot{\xi}_2}{\dot{\xi}_1}
+$$
+
+$$
+\dot{\xi}_1 + \dot{\xi}_2 = 2\ \mathrm{kmol/s} = \dot{\xi}_1 + 0.25 \dot{\xi}_1 = 1.25 \dot{\xi}_1
+$$
+
+$$
+ \implies \dot{\xi}_1 = 1.6\ \mathrm{kmol/s},\ \dot{\xi}_2 = 0.4\ \mathrm{kmol/s}
+$$
+
+$$
+\implies \dot{n}_\mathrm{CO_2out} = 3 \boldsymbol{\cdot} 1.6\ \mathrm{kmol/s} = 4.8\ \mathrm{kmol/s}, 
+$$
+
+$$
+\dot{n}_\mathrm{COout} = 3 \boldsymbol{\cdot} 0.4\ \mathrm{kmol/s} = 1.2\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{O_2out} = 12.5\ \mathrm{kmol/s} - 5 \boldsymbol{\cdot} 1.6 - 3.5 \boldsymbol{\cdot} 0.4 = 3.10\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{H_2Oout} = 4 \boldsymbol{\cdot} 1.6 + 4 \boldsymbol{\cdot} 0.4 = 8.00\ \mathrm{kmol/s}
+$$
+
+## Solution (cont.)
+
+Solve for the total molar output flow rate two different ways. Sum the output flows
+<br/>
+
+$\dot{n}_\mathrm{CO_2out} + \dot{n}_\mathrm{COout} + \dot{n}_\mathrm{O_2out}+\dot{n}_\mathrm{H_2Oout} = 4.8+1.2 +3.1+8$
+$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 17.1\ \mathrm{kmol/s}$
+
+or calculate the overall stoichiometric coefficients and use the equation for overall flows
+
+$$
+\nu_1 = 3 + 4 -1 - 5 = 1
+$$
+
+$$
+\nu_2 = 3 + 4 -1 - \frac{7}{2} = 2.5
+$$
+
+$$
+\dot{n}_\mathrm{in} = \dot{n}_\mathrm{C_3H_8in} + \dot{n}_\mathrm{O_2in} = 2 + 12.5 = 14.5\ \mathrm{kmol/s}
+$$
+
+
+$\dot{n}_\mathrm{out} = \dot{n}_\mathrm{out} + 1 \boldsymbol{\cdot} \dot{\xi}_1 + 2.5 \dot{\xi}_1 = 14.5 + 1.6 + 2.5\boldsymbol{\cdot} 0.4$
+$\ \ \ \ \ \ = 17.1\ \mathrm{kmol/s}$
+
+
+## Yield and Selectivity
+
+There are usually multiple reaction generating one desired product and one or more undesired products. We then define for desired species $\mathrm{R}$,
+
+#### *Yield*
+
+$$
+Y_\mathrm{R} = \frac{n_{\mathrm{R_{actual}}}}{n_{\mathrm{R_{possible}}}}
+$$
+
+#### *Selectivity*
+
+$$
+S_\mathrm{R} = \frac{n_{\mathrm{R}}}{n_{\mathrm{products_{undesired}}}}
+$$
+
+The goal is almost always high yield and high selectivity.
+
+## Yield & Selectivity Example
+
+Assume that the desired product in the previous example was $\mathrm{CO_2}$ and that the undesired product was $\mathrm{CO}$.
+
+**Yield**
+
+If all of the propane were converted to $\mathrm{CO_2}$, then
+
+$$
+\dot{n}_\mathrm{CO_2possible} = \frac{\nu_\mathrm{CO_2}}{-\nu_\mathrm{C_3H_8}}\dot{n}_\mathrm{C_3H_8in}=\frac{3}{-(-1)}2 = 6\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{CO_2actual} = \dot{n}_\mathrm{CO_2out} = 4.8\ \mathrm{kmol/s}
+$$
+
+$$
+Y_\mathrm{CO_2} = \frac{\dot{n}_\mathrm{CO_2actual}}{\dot{n}_\mathrm{CO_2actual} } = \frac{4.8}{6.0} = 0.80 = 80\%
+$$
+
+Which we also could have gotten from the problem statement.
+
+## Yield & Selectivity Example
+
+**Selectivity**
+
+$$
+S_\mathrm{CO_2} = \frac{\dot{n}_\mathrm{CO_2out}}{\dot{n}_\mathrm{COout}} = \frac{4.8}{1.2} = 4
+$$
+
+We don't count the water as an undesired product because it uses none of the $\mathrm{C}$ in the propane, which is the only species that goes to our desired product. If there had been other carbon containing compounds, e.g., $\mathrm{CH_4}$, we would have included their flows in the denominator.
+
+## Mole Fraction, Split Fraction, and Fractional Conversion
+
+It's easy to get *mole fraction*, *split fraction*, and *fractional conversion* confused.
+
+**Mole Fraction**
+: Also called composition, the moles of a species, such as $\mathrm{A}$ divided by the total number of moles, $x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)$.
+
+**Split Fraction**
+: The moles of a species, such as $\mathrm{A}$, coming out of a separator in a given stream, such as stream 1, divided by the moles of $\mathrm{A}$ going into a separator, $t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}$.
+
+**Fractional Conversion**
+: The moles of a *reactant*, such as $\mathrm{A}$, converted to products in a reactor or process, $f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}} = 1 - (\dot{n}_\mathrm{A_{out}}/\dot{n}_\mathrm{A_{in}})$
+
+## The Takeaways
+
+1. Learn to recognize things given in the definitions like a PFD, recycle, and bypass.
+2. Develop a systematic style to set up and solve problems. Use the given style if you don’t have your own.
+3. Check out the speed tips and see if they help.
+
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *How to Keep Your Balance*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
