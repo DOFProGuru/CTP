@@ -1,0 +1,240 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Gotta Keep ’Em Separated</br>Just the Facts{.bigbold90}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
+
+## Common Processing Units
+
+ - Mixer
+ - Divider
+ - Separator
+ - Reactor (Next three videos)
+
+:::{.fragment}
+For *open steady-state systems* it is useful to use the following definitions and constitutive relationships:
+:::
+
+## Mixer
+
+:::{.fragment}
+![](SampleMixer.png){.absolute left=75% top=10% width=30%}
+:::
+
+:::{.fragment}
+For each component, $i$,
+
+$$
+\dot{n}_{i_\mathrm{out}} = \dot{n}_{i_1} + \dot{n}_{i_2} + \cdots +\dot{n}_{i_k}
+$$
+:::
+
+:::{.fragment}
+Overall
+
+$$
+\dot{n}_\mathrm{out} = \dot{n}_1 + \dot{n}_2 + \cdots +\dot{n}_k
+$$
+:::
+
+:::{.fragment}
+where
+
+$$
+\dot{n} = \sum_\mathrm{All} \dot{n}_i
+$$
+:::
+
+## Mixer Usage
+
+:::{.fragment}
+A mixer combines (or mixes) the input streams together, so that the output stream is just the sum of all of the input streams.
+:::
+
+:::{.fragment}
+The mass equations for a mixer are the same as the mole equations, with the $n$’s or $\dot{n}$'s replaced by $m$’s or $\dot{m}$'s.
+
+$$
+\dot{m}_{i_\mathrm{out}} = \dot{m}_{i_1} + \dot{n}_{i_2} + \cdots +\dot{m}_{i_k}
+$$
+
+Overall
+
+$$
+\dot{m}_\mathrm{out} = \dot{m}_1 + \dot{m}_2 + \cdots +\dot{m}_k
+$$
+
+where
+
+$$
+\dot{m} = \sum_\mathrm{All} \dot{m}_i
+$$
+:::
+
+## Divider
+
+:::{.fragment}
+![](SampleDivider.png){.absolute left=65% top=10% width=35%}
+:::
+
+:::{.fragment}
+:::{.absolute left=0% top=10%}
+For each component, $i$,
+:::
+:::{.absolute left=20% top=17%}
+$$
+\dot{n}_{i_\mathrm{in}} = \dot{n}_{i_1} + \dot{n}_{i_2}
+$$
+:::
+:::
+:::{.fragment}
+:::{.absolute left=0% top=30%}
+Overall
+:::
+:::{.absolute left=20% top=37%}
+$$
+\dot{n}_\mathrm{in} = \dot{n}_1 + \dot{n}_2
+$$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute left=0% top=50%}
+where
+:::
+:::{.absolute left=20% top=57%}
+$$
+\dot{n} = \sum_\mathrm{All} \dot{n}_i
+$$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute left=0% top=70%}
+Also
+:::
+:::{.absolute left=20% top=77%}
+$$
+x_{i_1} = x_{i_2} = x_{i_\mathrm{in}}
+$$
+:::
+:::{.absolute left=0% top=90%}
+where the *mole fraction*, $x_i \equiv \frac{n_i}{m_\mathrm{Total}} = \frac{\dot{n}_i}{\dot{n}}$ .
+:::
+:::
+
+## Divider Usage
+
+:::{.fragment}
+:::{.absolute left=0% top=7%}
+A divider is used when a single stream needs to be divided up into two or more streams. The mass equations for a divider are the same as the mole equations, with the $n$’s or<br/>$\dot{n}$'s replaced by $m$’s or $\dot{m}$'s.
+:::
+:::
+
+:::{.fragment}
+:::{.absolute left=0% top=32%}
+For each component, $i$,
+:::
+:::{.absolute left=25% top=38%}
+$$
+\dot{m}_{i_\mathrm{in}} = \dot{m}_{i_1} + \dot{m}_{i_2}
+$$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute left=0% top=47%}
+Overall
+:::
+:::{.absolute left=25% top=50%}
+$$
+\dot{m}_\mathrm{in} = \dot{m}_1 + \dot{m}_2
+$$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute left=0% top=60%}
+where
+:::
+:::{.absolute left=25% top=63%}
+$$
+\dot{m} = \sum_\mathrm{All} \dot{m}_i
+$$
+:::
+:::
+
+:::{.fragment}
+:::{.absolute left=0% top=78%}
+Also
+:::
+:::{.absolute left=25% top=81%}
+$$
+x_{i_1} = x_{i_2} = x_{i_\mathrm{in}}
+$$
+:::
+:::{.absolute left=0% top=92%}
+where the *mass fraction*, $x_i \equiv \frac{m_i}{m_\mathrm{Total}} = \frac{\dot{m}_i}{\dot{m}}$ .
+:::
+:::
+
+## Separator
+
+:::{.fragment}
+![](SampleSeparator.png){.absolute left=65% top=10% width=35%}
+:::
+
+:::{.fragment}
+You often specify the *split fraction*,
+
+$$
+t_{is} \equiv \frac{\dot{n}_{i_s}}{\dot{n}_{i_\mathrm{in}}}
+$$
+:::
+
+:::{.fragment}
+$t_{i1}$ is the split fraction of species $i$ with respect to Stream 1.
+:::
+:::{.fragment}
+$$
+\dot{n}_{i_1} = t_{i1} \dot{n}_{i_\mathrm{in}}
+$$
+:::
+:::{.fragment}
+$$
+\dot{n}_{i_2} = (1-t_{i1}) \dot{n}_{i_\mathrm{in}}
+$$
+:::
+:::{.fragment}
+If the split fraction is the same for all species, then the separator is just a divider. The split fractions must be different for the different species to effect a separation.
+:::
+
+## The Takeaways
+
+1. In a mixer the molar or mass flow in the output stream is the sum of the molar or mass input flows.
+2. In a divider the molar or mass flow in the input stream is the sum of the molar or mass input flows. Also, the composition of each stream is the same.
+3. In a separator the molar or mass flow of a given species in an output stream is the split fraction for that species and stream times the molar or mass flow of that species in the input stream.
+
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, *When You Saw It, What Was the Extent of Your Reaction? Part 1*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

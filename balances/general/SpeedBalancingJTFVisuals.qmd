@@ -23,6 +23,10 @@ DOFPro Team
 PFD
 : Process Flow Diagram or flowsheet. A schematic drawing of the mixers, dividers, separators, reactors and other unit operations used in the process.
 
+:::{.fragment}
+![](SamplePFD.png)
+:::
+
 Recycle
 : Part of a product stream is returned to the feed of a process.
 
@@ -31,16 +35,30 @@ Recycle
 Bypass
 : Part of the feed is routed around a process and mixed with the product.
 
+:::{.r-stack}
+![](SampleBypassPFD.png){.fragment width=50%}
+:::
+
 Purge
 : A stream used to prevent buildup of trace components in a recycle loop.
+
+:::{.r-stack}
+![](SamplePFD.png){.fragment width=60%}
+:::
 
 ## Definitions (cont.)
 
 Tie Component
 : A component of the feed which is unchanged by a process. Often useful for calculations but never necessary.
 
+<br/>
+
 Overall Balance
 : Treating a PFD as a black box with only inputs and outputs.
+
+:::{.fragment}
+![](SampleOverallPFD.png)
+:::
 
 ## Solving Your System Equations
 
@@ -73,35 +91,77 @@ Overall Balance
 
 ## Example
 
-A bathtub with a partially open drain valve begins filling with water at a rate of 5 gallons per minute. The partially open valve has an equation relating the outlet flow rate to the depth of the water of (fill in equation) with the depth in centimeters and the flow rate in liters per hour. What is the steady-state depth of the water in inches?
+A bathtub with a partially open drain valve begins filling with water at a rate of 5 gallons per minute. The partially open valve is modeled by an equation relating the outlet flow rate to the depth of the water, $\dot{V}_\mathrm{out} = 205.7 \sqrt{h}$ with the depth, $h$, in centimeters and the flow rate, $\dot{V}_\mathrm{out}$, in liters per hour. What is the steady-state depth of the water in inches?
 
+:::{.fragment .callout-note}
+The solution given below is for the steady state, where the flow in equals the flow out. Solving the transient problem for the time to reach steady state involves using a transient mass (or volume) balance with an accumulation term. It requires the cross-sectional area of the bathtub, and results in a nonlinear ordinary differential equation that must be solved.
+:::
 
 ## Solution
 
-1. Draw a flowchart (PFD) and fill in all given variable values. Here is a PFD with all given information.
-2. Convert quantities to a consistent set of units. Since the units are mixed (not all SI or American Engineering), we’ll convert to SI to work the problem: Gallons per minute and liters per hour to cubic meters per second, centimeters and inches to meters.
-3. Choose a basis of calculation (usually an amount or flow rate of one of the process streams). The obvious basis is the input flow rate of 5 gallons per hour or 0.000315451 cubic meters per second. There are other less useful choices.
+1. *Draw a flowchart (PFD) and fill in all given variable values.* Here is a PFD with all given information.
+
+::: {.r-stack}
+![](BathtubsForBalancesSteadyState.png){.fragment width=50%}
+:::
+
+:::{.fragment}
+:::{.absolute top=26% left=8%}
+$\dot{V}_\mathrm{in} = 5\ \mathrm{gpm}$
+:::
+:::{.absolute top=41% left=45%}
+$\dot{V}_\mathrm{out} = 205.7 \sqrt{h}$
+:::
+:::{.absolute top=40% left=25%}
+$\updownarrow h$
+:::
+:::
+
+2. *Convert quantities to a consistent set of units.* Since the units are mixed (not all SI or American Engineering), we’ll convert to SI to work the problem: Gallons per minute and liters per hour to cubic meters per second, centimeters and inches to meters.<br/>$5\ \mathrm{gpm} = 3.155 \times 10^{-4}\ \mathrm{m^3/s}$,&nbsp;&nbsp;$1\ \mathrm{lit/h} = 2.778 \times 10^{-7}\ \mathrm{m^3/s}$<br/>$1\ \mathrm{cm} = 0.01\ \mathrm{m}$,&nbsp;&nbsp;&nbsp;&nbsp;$1\ \mathrm{in} = 0.0254\ \mathrm{m}$
 
 ## Solution (cont.)
 
-4. Label unknown stream variables on the chart. Use a consistent system of labeling. Here are the unknown streams.
-5. Because volumes and volumetric flow rates are not conserved quantities, convert stream volumes to masses or moles, and volumetric flow rates to mass or molar flow rates. There is no value in converting to a mass flow rate for this problem, because we are going to assume the temperature of the water, and therefore the specific volume doesn’t change appreciably. If we had to convert, we would use the approximate value of 1000 kg/m3 (true at 4 °C).
-6. Convert mixed mass and mole units to either all mass or all mole units. Not applicable for this problem.
+3. *Choose a basis of calculation (usually an amount or flow rate of one of the process streams).* The most useful basis is the input flow rate of $5$ gallons per hour or $3.155 \times 10^{-4}$ cubic meters per second. There are other less useful choices.
+4. *Label unknown stream variables on the chart. Use a consistent system of labeling.* We already did this in step 1.
+5. *Because volumes and volumetric flow rates are not conserved quantities, convert stream volumes to masses or moles, and volumetric flow rates to mass or molar flow rates.* There is no value in converting to a mass flow rate for this problem, because we are going to assume the temperature of the water, and therefore the specific volume doesn’t change appreciably. If we had to convert, we would use the approximate value of $1000\ \mathrm{kg/m^3}$ (true at 4 °C).
 
 ## Solution (cont.)
 
-7. Write material balance equations. The mass balance is that at steady state the mass flow rate in equals the mass flow rate out, and therefore the volumetric flow rate in equals the volumetric flow rate out because m_dot equals rho V_dot and we assume rho doesn’t change.
-8. Write other problem constraints as equations. The problem constraint is (eq) which we’ll convert to meters and cubic meters per second, as discussed in The Most Annoying Equation Conversion video.
+6. *Convert mixed mass and mole units to either all mass or all mole units.* Not applicable for this problem.
+7. *Write material balance equations.* The mass balance is that at steady state the mass flow rate in equals the mass flow rate out, $\dot{m}_\mathrm{in} = \dot{m}_\mathrm{out}$, and therefore the volumetric flow rate in equals the volumetric flow rate out because $\dot{m}$ equals $\rho \dot{V}$ and we assume that $\rho$ doesn’t change, $\dot{V}_\mathrm{in} = \dot{V}_\mathrm{out}$.
+8. *Write other problem constraints as equations.* The problem constraint is $\dot{V}_\mathrm{out} = 205.7 \sqrt{h}$ which we’ll convert to meters and cubic meters per second, as discussed in The Most Annoying Equation Conversion video. The result is $\dot{V}_\mathrm{out} = 5.714 \times 10^{-4} \sqrt{h}$, with $\dot{V}_\mathrm{out}$ in $\mathrm{m^3/s}$ and $h$ in $\mathrm{cm}$.
 
 ## Solution (cont.)
 
-9. Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget? We have two equations, the volume balance, and the valve equation, in two unknowns, the volumetric flow rate out and the steady-state depth.
-10. Solve the equations. The solution is
-11. Convert the answers to the desired units. The depth in meters converted to inches is.
+9. *Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget?* We have two equations, the volume balance, and the valve equation, in two unknowns, the volumetric flow rate out, $\dot{V}_\mathrm{out}$, and the steady-state depth, $h$.
+10. *Solve the equations.* The solution is $\dot{V}_\mathrm{out} = 3.155 \times 10^{-4}\ \mathrm{m^3/s}$, $h = 0.3049\ \mathrm{m}$.
+11. *Convert the answers to the desired units.* The depth in meters converted to inches is $12.00\ \mathrm{in}$.
+
+## Solution Notes
+
+The note number corresponds to the solution step number.
+
+:::{.fragment}
+1) If there were more species than one (water) we would have labeled the PFD with the species, and, if known, the flows or compositions.
+:::
+:::{.fragment}
+2) See *Is Furlongs per Fortnight a Thing?* for details on conversions.
+:::
+:::{.fragment}
+5) Neglecting the change in density with temperature will only affect the answer in the fourth significant figure, so it will not appreciably affect the answer.
+:::
+:::{.fragment}
+8) The details of the conversion of the equation are on the web page for the video.
+:::
+:::{.fragment}
+10) A more detailed solution is on the web page for the video.
+:::
+
+
 
 ## Speed Tips
 
-1. If it’s not needed, Don’t solve for everything.
+1. If it’s not needed, don’t solve for everything.
 2. Write equations in order of number of unknowns from fewest to most.
 3. Try overall balances first.
 4. Check out if any tie components would be useful.

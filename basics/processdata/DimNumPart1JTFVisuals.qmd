@@ -36,18 +36,19 @@ This video covers three concepts
 
 ## Dimensionless Numbers
 
-:::{.absolute top=8% left=5%}
+:::{.fragment .absolute top=8% left=5%}
 Reduce data complexity
 :::
 
-:::{.absolute top=16% left=5%}
+:::{.fragment .absolute top=16% left=5%}
 Found using [Buckingham $\pi$ theorem](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem)
 :::
 
-:::{.absolute top=24% left=5%}
+:::{.fragment .absolute top=24% left=5%}
 Example is Reynolds number, $Re$.
 :::
 
+:::{.fragment}
 :::{.absolute top=34% left=10%}
 $Re = \frac{\rho u D}{\mu} = \frac{u D}{\nu}$
 :::
@@ -55,34 +56,49 @@ $Re = \frac{\rho u D}{\mu} = \frac{u D}{\nu}$
 :::{.absolute top=44% left=10%}
 $\nu = \frac{\mu}{\rho}$
 :::
+:::
 
+:::{.fragment}
 :::{.absolute top=52% left=5%}
+$Re$ is ratio of momentum to viscous drag.
+:::
+:::{.absolute top=58% left=5%}
 $\mathrm{Momentum} \propto \rho u$
 
 $\mathrm{Viscous\ force} \propto \mu/D$
 :::
-
-:::{.absolute top=68% left=5%}
-$Re$ is ratio of momentum to viscous drag.
 :::
 
-:::{.absolute top=76% left=5%}
+
+:::{.fragment .absolute top=76% left=5%}
 $Sh = \frac{k l}{\mathscr{D}}$ is ratio of convective to diffusive transport.
 :::
 
 ## Dimensional Homogeneity
 
+:::{.fragment}
 All terms in an equation must have the same dimensions.
+:::
 
+:::{.fragment}
 $x - x_0 = v_0 t + \frac{1}{2} a t^2$
+:::
 
+:::{.fragment}
 $x$ and $x_0$ have units of length.
+:::
 
+:::{.fragment}
 $v_0 t$ must have units of length. If $t$ has units of time, then $v_0$ must have units of length per time or velocity.
+:::
 
+:::{.fragment}
 $\frac{1}{2}a t^2$ must have units of length. If $t^2$ has units of time squared, then $a$ or $\frac{1}{2}a$ must have units of length per time squared, or acceleration.
+:::
 
+:::{.fragment}
 More examples in next video.
+:::
 
 ## Transcendental Functions
 

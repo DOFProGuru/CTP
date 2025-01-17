@@ -1,0 +1,289 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Flame On, Torch!</br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Combustion Reactions
+
+Combustion reactions are rapid oxidation reactions. One usually burns a fuel (typically coal, oil or natural gas) in air (or rarely pure oxygen). The principal atomic species in combustion reactions are carbon, hydrogen, sulfur and oxygen.
+
+## Definitions
+
+### Complete combustion
+
+If all of the fuel is completely oxidized, we have complete combustion. For the principal species, the combustion products are $\mathrm{CO_2}$, $\mathrm{H_2O}$, and $\mathrm{SO_2}$.
+
+### Partial or incomplete combustion
+
+If not all of the fuel is completely oxidized, or if some is not oxidized at all, we have partial or incomplete combustion. A typical product of incomplete combustion is $\mathrm{CO}$.
+
+### Stack or Flue gas
+
+The combustion products along with any remaining reactants are referred to as stack gas or flue gas. The composition of the flue gas is reported in one of two bases.
+
+## Definitions (cont.)
+### Wet basis
+
+Wet basis includes the water vapor in the flue gas composition.
+
+### Dry basis (Orsat analysis)
+
+Dry basis does not include water vapor in the flue gas composition. One apparatus for measuring flue gas composition was named after Orsat. It reports compositions on a dry basis.
+
+### Relative, Absolute, Molal, and Percentage Humidity
+
+We discuss humidity and how to calculate it in the *Oh, Henry!* video. See link in description or on web page.
+
+## Definitions (cont.)
+### Air Composition
+
+Dry air contains $\mathrm{N_2}$, $\mathrm{O_2}$, $\mathrm{Ar}$, $\mathrm{CO_2}$, $\mathrm{H_2}$, $\mathrm{He}$, $\mathrm{Ne}$, $\mathrm{Kr}$, $\mathrm{Xe}$ and other trace gases. Search Wikipedia for Atmospheric Chemistry for a detailed list. For DOFPro calculations we
+will simplify this list to say that dry air is $79\%\ \mathrm{N_2}$ and $21\%\ \mathrm{O_2}$.
+
+## Definitions (cont.)
+### Theoretical air
+
+Theoretical air is the amount of air containing the stoichiometric oxygen needed for complete combustion.
+
+### Excess air
+
+Excess air is calculated in the same manner as any excess reactant. It is the fraction above stoichiometric.
+
+ - Burning in excess air does not guarantee complete combustion.
+ - Burning with less than theoretical air is known as burning rich (as in fuel
+rich).
+ - Burning with excess air is known as burning lean.
+
+## Sample Combustion Calculations
+
+$2.00\ \mathrm{kmol/s}$ of propane are burned in 25% excess dry air in a faulty
+combustor. 100% of the hydrogen combusts to form water, but only
+80% of the carbon combusts completely to $\mathrm{CO_2}$. The remainder
+combusts to $\mathrm{CO}$.
+
+ a. Calculate the molar flow rate of air into the combustor.
+ b. Calculate the molar flow rates of each of the combustion products.
+ c. Calculate the molar flow rate of the exhaust.
+ d. Report the composition of the exhaust on both a wet and dry basis.
+ 
+## Solution
+
+There are multiple sets of chemical equations we could write. We will
+consider two sets:
+
+$$
+\mathrm{C_3H_8 + 5O_2} \rightarrow \mathrm{3CO_2 + 4 H_2O}
+$$ {#eq-1}
+
+$$
+\mathrm{C_3H_8 + \frac{7}{2}O_2} \rightarrow \mathrm{3CO + 4H_2O}
+$$ {#eq-2}
+
+or
+
+$$
+\mathrm{C_3H_8 + \frac{7}{2}O_2} \rightarrow \mathrm{3CO + 4H_2O}
+$$ {#eq-3}
+
+$$
+\mathrm{CO + \frac{1}{2}O_2} \rightarrow \mathrm{CO_2}
+$$ {#eq-4}
+
+## Solution (cont.)
+
+To calculate excess, you need to calculate complete combustion. The appropriate equation is @eq-1.
+
+$$
+\dot{n}_\mathrm{O_2stoic} = \frac{\nu_\mathrm{O_2}}{\nu_\mathrm{C_3H_8}} \dot{n}_\mathrm{C_3H_8stoic} = \frac{-5}{-1}(2\ \mathrm{kmol/s}) = 10\ \mathrm{kmol/s}
+$$
+
+$$
+\mathrm{frac.\ xs} = 0.25 = \frac{ \dot{n}_\mathrm{O_2in} - \dot{n}_\mathrm{O_2stoic} }{\dot{n}_\mathrm{O_2stoic}}
+$$
+
+$$
+\dot{n}_\mathrm{O_2in} = (1 + \mathrm{frac.\ xs})\dot{n}_\mathrm{O_2stoic} = 1.25(10\ \mathrm{kmol/s})= 12.5\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{N_2in} = \frac{79}{21}\dot{n}_\mathrm{O_2in} = \frac{79}{21}(12.5\ \mathrm{kmol/s}) = 47.0\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\text{Air-in} = \dot{n}_\mathrm{O_2in} + \dot{n}_\mathrm{N_2in} = 12.5 + 47.0 = 59.5\ \mathrm{kmol/s}
+$$
+
+## Solution (cont.)
+
+The full set of mole balances with @eq-1 and @eq-2 is
+
+$$
+\dot{n}_\mathrm{C_3H_8out} = \dot{n}_\mathrm{C_3H_8in} - \dot{\xi}_1 - \dot{\xi}_2 \implies \dot{\xi}_1 + \dot{\xi}_2 = 2\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{CO_2out} = \dot{n}_\mathrm{CO_2in} + 3\dot{\xi}_1 + 0 \boldsymbol{\cdot} \dot{\xi}_2 \implies \dot{n}_\mathrm{CO_2out} = 3\dot{\xi}_1 
+$$
+
+$$
+\dot{n}_\mathrm{COout} = \dot{n}_\mathrm{COin} + 0 \boldsymbol{\cdot} \dot{\xi}_1 + 3 \dot{\xi}_2 \implies \dot{n}_\mathrm{COout} = 3\dot{\xi}_2 
+$$
+
+$$
+\dot{n}_\mathrm{O_2out} = \dot{n}_\mathrm{O_2in} - 5\dot{\xi}_1 - 3.5 \dot{\xi}_2 = 12.50\ \mathrm{kmol/s} - 5\dot{\xi}_1 - 3.5 \dot{\xi}_2
+$$
+
+$$
+\dot{n}_\mathrm{N_2out} = \dot{n}_\mathrm{N_2in} + 0 \boldsymbol{\cdot} \dot{\xi}_1 +0 \boldsymbol{\cdot}  \dot{\xi}_2 = 47.0\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{H_2Oout} = \dot{n}_\mathrm{H_2Oin} + 4 \dot{\xi}_1 + 4 \dot{\xi}_2 = 4 \dot{\xi}_1 + 4 \dot{\xi}_2
+$$
+
+## Solution (cont.)
+
+Applying the $\mathrm{CO_2}$-to-$\mathrm{CO}$ constraint
+
+$$
+\frac{\dot{n}_\mathrm{COout}}{\dot{n}_\mathrm{CO_2out}} = \frac{1 - 0.80}{0.80}=0.25 = \frac{3\dot{\xi}_2}{3\dot{\xi}_1} = \frac{\dot{\xi}_2}{\dot{\xi}_1}
+$$
+
+$$
+\dot{\xi}_1 + \dot{\xi}_2 = 2\ \mathrm{kmol/s} = \dot{\xi}_1 + 0.25 \dot{\xi}_1 = 1.25 \dot{\xi}_1
+$$
+
+$$
+ \implies \dot{\xi}_1 = 1.6\ \mathrm{kmol/s},\ \dot{\xi}_2 = 0.4\ \mathrm{kmol/s}
+$$
+
+$$
+\implies \dot{n}_\mathrm{CO_2out} = 3 \boldsymbol{\cdot} 1.6\ \mathrm{kmol/s} = 4.8\ \mathrm{kmol/s}, 
+$$
+
+$$
+\dot{n}_\mathrm{COout} = 3 \boldsymbol{\cdot} 0.4\ \mathrm{kmol/s} = 1.2\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{O_2out} = 12.5\ \mathrm{kmol/s} - 5 \boldsymbol{\cdot} 1.6 - 3.5 \boldsymbol{\cdot} 0.4 = 3.10\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{H_2Oout} = 4 \boldsymbol{\cdot} 1.6 + 4 \boldsymbol{\cdot} 0.4 = 8.00\ \mathrm{kmol/s}
+$$
+
+## Solution (cont.)
+
+To get the dry and wet compositions, divide the species molar flow rate by either the sum of the species molar flow rates minus the water flow rate, or by the sum of the species molar flow rates. The results are on the spreadsheet.
+
+$$
+x_{i\ (\mathrm{dry})} = \frac{\dot{n}_i}{(\sum \dot{n}_j) - \dot{n}_\mathrm{H_2O}}
+$$
+
+$$
+x_{i\ (\mathrm{wet})} = \frac{\dot{n}_i}{\sum \dot{n}_j}
+$$
+
+## Solution (cont.)
+
+A spreadsheet of the solution is shown below
+
+## Solution (cont.)
+
+The full set of mole balances with @eq-3 and @eq-4 is
+
+$$
+\dot{n}_\mathrm{C_3H_8out} = \dot{n}_\mathrm{C_3H_8in} - \dot{\xi}_3 \implies \dot{\xi}_3 = 2\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{CO_2out} = \dot{n}_\mathrm{CO_2in} + \dot{\xi}_4 \implies \dot{n}_\mathrm{CO_2out} = \dot{\xi}_4
+$$
+
+$$
+\dot{n}_\mathrm{COout} = \dot{n}_\mathrm{COin} + 3 \dot{\xi}_3 - \dot{\xi}_4 \implies \dot{n}_\mathrm{COout} = 6\ \mathrm{kmol/s} - \dot{\xi}_4
+$$
+
+$$
+\dot{n}_\mathrm{O_2out} = \dot{n}_\mathrm{O_2in} - 3.5 \dot{\xi}_3 - 0.5 \dot{\xi}_4 = 12.50\ \mathrm{kmol/s} - 7\ \mathrm{kmol/s} - 0.5 \dot{\xi}_4
+$$
+
+$$
+\dot{n}_\mathrm{N_2out} = \dot{n}_\mathrm{N_2in} = 47.0\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{H_2Oout} = \dot{n}_\mathrm{H_2Oin} + 4 \dot{\xi}_3 = 8\ \mathrm{kmol/s}
+$$
+
+## Solution (cont.)
+
+Applying the $\mathrm{CO_2}$-to-$\mathrm{CO}$ constraint
+
+$$
+\frac{\dot{n}_\mathrm{COout}}{\dot{n}_\mathrm{CO_2out}} = \frac{1 - 0.80}{0.80}=0.25 = \frac{6 - \dot{\xi}_4}{\dot{\xi}_4} \implies \dot{\xi}_4 = 4.8\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{CO_2out} = \dot{\xi}_4 = 4.8\ \mathrm{kmol/s}, 
+$$
+
+$$
+\dot{n}_\mathrm{COout} = 6\ \mathrm{kmol/s} - \dot{\xi}_4 = 1.2\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{O_2out} = 5.5\ \mathrm{kmol/s} - 0.5 \dot{\xi}_4 = 3.10\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{H_2Oout} = 4 \dot{\xi}_3 = 8.00\ \mathrm{kmol/s}
+$$
+
+## Solution (cont.)
+
+To get the dry and wet compositions, divide the species molar flow rate by either the sum of the species molar flow rates minus the water flow rate, or by the sum of the species molar flow rates. The results are on the spreadsheet.
+
+$$
+x_{i\ (\mathrm{dry})} = \frac{\dot{n}_i}{(\sum \dot{n}_j) - \dot{n}_\mathrm{H_2O}}
+$$
+
+$$
+x_{i\ (\mathrm{wet})} = \frac{\dot{n}_i}{\sum \dot{n}_j}
+$$
+
+## Solution (cont.)
+
+A spreadsheet of the solution is shown below
+
+## The Takeaways
+
+1. Learn to recognize things given in the definitions like a PFD, recycle, and bypass.
+2. Develop a systematic style to set up and solve problems. Use the given style if you don’t have your own.
+3. Check out the speed tips and see if they help.
+
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *How to Keep Your Balance*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
