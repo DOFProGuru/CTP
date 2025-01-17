@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>Chemical and Thermal Processes – convertingtemperaturetfsvisuals</title>
+  <title>Chemical and Thermal Processes – recyclesymbsoljtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -126,270 +126,149 @@
     <div class="slides">
 
 
-<section id="how-keen-is-your-rankthe-full-story" class="title-slide slide level1 bigbold90 center">
-<h1>How Keen Is Your Rank?<br>The Full Story</h1>
+<section>
+<section id="recycle-symbolic-solutionjust-the-facts" class="title-slide slide level1 bigbold75 center">
+<h1>Recycle Symbolic Solution<br>Just the Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 26.5%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
-
-<section id="how-keen-is-your-rankjust-the-facts" class="title-slide slide level1 bigbold90 center">
-<h1>How Keen Is Your Rank?<br>Just The Facts</h1>
-<div style="text-align: center;">
-<p>DOFPro Team</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 26.5%; "></p>
+<section id="recycle-example-symbolic-only" class="slide level2">
+<h2>Recycle Example Symbolic Only</h2>
+<p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
+<p>(image)</p>
+<p>Assume that the knowns or givens are:</p>
+<p><span class="math inline">\(\dot{n}_\mathrm{A1}\)</span>, <span class="math inline">\(\dot{n}_\mathrm{B1}\)</span>, <span class="math inline">\(\dot{n}_\mathrm{C1}\)</span>, <span class="math inline">\(f_\mathrm{A}\)</span> (in reactor), <span class="math inline">\(t_\mathrm{A4}\)</span>, <span class="math inline">\(t_\mathrm{C4}\)</span>, <span class="math inline">\(t_\mathrm{C4}\)</span></p>
+<p>Find a full set of equations for all of the flows, extent of reaction, and overall conversion in terms of the knowns.</p>
+<p>In general, you have to calculate a set of mass balances completely around the recycle loop before you can eliminate the unknowns. Each known will be circled, and each equation that has a single unknown in terms of knowns will be circled.</p>
 </section>
-
-<section id="section" class="title-slide slide level1 center">
-<h1></h1>
-<div class="bigger centered">
-<p><em>How Keen Is Your Rank?</em> is an episode of the Degrees of Freedom Project, <em>The Full Story</em> videos on chemical and thermal principles with additional in-depth discussion. If you want the <em>Just The Facts</em> version without additional discussion, use the link in the description. Definitions and additional details can be found in the web-page link in the description as well.</p>
-</div>
+<section id="a-balance" class="slide level2">
+<h2>“A” Balance</h2>
+<p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
+<p>(Image)</p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{A1} = \mathrm{given}
+\]</span></p>
+<p><strong>Mixer</strong></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{A5} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}
+\]</span></p>
+<p><strong>Reactor</strong></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{A2} = (1-f_\mathrm{A})\dot{n}_\mathrm{A5} = (1-f_\mathrm{A})(\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{A2} = \dot{n}_\mathrm{A5} + \nu_\mathrm{A} \dot{\xi} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}+ \nu_\mathrm{A} \dot{\xi}
+\]</span></p>
+<p>or</p>
+<p><span class="math display">\[
+\dot{\xi} = (\dot{n}_\mathrm{A2} - \dot{n}_\mathrm{A5})/\nu_\mathrm{A}
+\]</span></p>
+<p><strong>Separator</strong></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{A4} = t_\mathrm{A4} \dot{n}_\mathrm{A2} = t_\mathrm{A4} (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{A3} = (1-t_\mathrm{A4}) \dot{n}_\mathrm{A2} = (1-t_\mathrm{A4}) (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
+\]</span></p>
 </section>
-
-<section id="section-1" class="title-slide slide level1 center">
-<h1></h1>
-<ul>
-<li class="fragment">This Video – <em>How Keen Is Your Rank?</em> explains how to convert temperatures and temperature intervals.</li>
-<li class="fragment">Another Video – <em>Is Furlongs Per Fortnight a Thing?</em> explains how to convert a measured or calculated quantity from one set of units to another (except for temperatures).</li>
-<li class="fragment">A Third Video – <em>The Most Annoying Equation Conversion</em> explains how to convert an equation as opposed to a calculated or measured quantity from one set of units to another.</li>
-</ul>
+<section id="a-balance-cont." class="slide level2">
+<h2>“A” Balance (cont.)</h2>
+<p><strong>Separator (cont.)</strong></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{A3} = (1-t_\mathrm{A4}) (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
+\]</span></p>
+<p><span class="math display">\[
+\implies \dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A1} \left[\frac{(1-f_\mathrm{A}) (1-t_\mathrm{A4})}{f_\mathrm{A} + t_\mathrm{A4} - f_\mathrm{A} t_\mathrm{A4}}\right]
+\]</span></p>
+<p>Once we have <span class="math inline">\(\dot{n}_\mathrm{A3}\)</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{A5} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{A2} = (1-f_\mathrm{A}) \dot{n}_\mathrm{A5}
+\]</span></p>
+<p><span class="math display">\[
+\dot{\xi} = (\dot{n}_\mathrm{A2} - \dot{n}_\mathrm{A5})/\nu_\mathrm{A}
+\]</span></p>
+<p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
+<p>(image)</p>
 </section>
-
-<section>
-<section id="what-are-the-common-units-of-temperature-used-in-chemical-and-thermal-processing" class="title-slide slide level1 center">
-<h1>What are the common units of temperature used in Chemical and Thermal Processing?</h1>
-
+<section id="b-c-balances" class="slide level2">
+<h2>“B” &amp; “C” Balances</h2>
+<p>For <span class="math inline">\(\mathrm{B}\)</span> and <span class="math inline">\(\mathrm{C}\)</span> we’ll use extent of reaction. The <span class="math inline">\(\mathrm{B}\)</span> and <span class="math inline">\(\mathrm{C}\)</span> equations are identical except for the change from <span class="math inline">\(\mathrm{B}\)</span> to <span class="math inline">\(\mathrm{C}\)</span> subscripts.</p>
+<p><strong>Overall</strong></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{B4} = \dot{n}_\mathrm{B1} + \nu_\mathrm{B} \dot{\xi}
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C1} + \nu_\mathrm{C} \dot{\xi}
+\]</span></p>
+<p><strong>Separator</strong></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{B2} = \frac{\dot{n}_\mathrm{B4}}{t_\mathrm{B4} }
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{C2} = \frac{\dot{n}_\mathrm{C4}}{t_\mathrm{C4} }
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{B3} = (1-t_\mathrm{B4}) \dot{n}_\mathrm{B2} = \frac{1-t_\mathrm{B4}}{t_\mathrm{B4}} \dot{n}_\mathrm{B4}
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{C3} = (1-t_\mathrm{C4}) \dot{n}_\mathrm{C2} = \frac{1-t_\mathrm{C4}}{t_\mathrm{C4}} \dot{n}_\mathrm{C4}
+\]</span></p>
+<p><strong>Mixer</strong></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{B5} = \dot{n}_\mathrm{B1} + \dot{n}_\mathrm{B3}
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{C5} = \dot{n}_\mathrm{C1} + \dot{n}_\mathrm{C3}
+\]</span></p>
+<p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
+<p>(Image)</p>
 </section>
-<section id="what-temperature-scales-do-we-use" class="slide level2">
-<h2>What temperature scales do we use?</h2>
-<div class="fragment absolute" style="top: 10%; left: 0%; ">
-<p><span class="math inline">\(\bullet\)</span> Kelvin, K</p>
-</div>
-<div class="fragment absolute" style="top: 25%; left: 0%; ">
-<p><span class="math inline">\(\bullet\)</span> Celsius, °C</p>
-</div>
-<div class="fragment absolute" style="top: 35%; left: 0%; ">
-<p><span class="math inline">\(\bullet\)</span> Fahrenheit, °F</p>
-</div>
-<div class="fragment absolute" style="top: 45%; left: 0%; ">
-<p><span class="math inline">\(\bullet\)</span> Rankine, °R</p>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 15%; left: 5%; ">
-<p><span class="math inline">\(\mathbf{-}\)</span> absolute scale (starts at zero)</p>
-</div>
-<div class="absolute" style="top: 50%; left: 5%; ">
-<p><span class="math inline">\(\mathbf{-}\)</span> absolute scale (starts at zero)</p>
-</div>
-</div>
-<div class="fragment absolute" style="top: 55%; left: 5%; ">
-<p><span class="math inline">\(\mathbf{-}\)</span> used when working with gases in Am. Eng. Units</p>
-</div>
-</section></section>
-<section id="what-two-common-temperature-scales-are-absolute-scales-starting-at-absolute-zero" class="title-slide slide level1 center">
-<h1>What two common temperature scales are absolute scales, starting at absolute zero?</h1>
-
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<p>Finally, the overall fractional conversion of <span class="math inline">\(\mathrm{A}\)</span>, and the product flow rates</p>
+<p><strong>Overall Fractional Conversion</strong></p>
+<p><span class="math display">\[
+f_\text{A–overall} = 1-\frac{\dot{n}_\mathrm{A1}}{\dot{n}_\mathrm{A4}} = \frac{f_\mathrm{A}}{f_\mathrm{A} + t_\mathrm{A4} - f_\mathrm{A} t_\mathrm{A4}}
+\]</span></p>
+<p><strong>Output Flows</strong> (from overall and <span class="math inline">\(\dot{\xi}\)</span>)</p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{A4} = \dot{n}_\mathrm{A1} + \nu_\mathrm{A} \dot{\xi}
+\]</span> <span class="math display">\[
+\dot{n}_\mathrm{B4} = \dot{n}_\mathrm{B1} + \nu_\mathrm{B} \dot{\xi}
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C1} + \nu_\mathrm{C} \dot{\xi}
+\]</span></p>
+<p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
+<p>(Image)</p>
 </section>
-
-<section>
-<section id="what-is-the-difference-between-the-temperature-of-an-object-and-a-temperature-interval" class="title-slide slide level1 center">
-<h1>What is the difference between the temperature of an object and a temperature interval?</h1>
-
+<section id="spreadsheet-summary" class="slide level2">
+<h2>Spreadsheet Summary</h2>
+<p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
+<p>(Image)</p>
 </section>
-<section id="temperatures-vs.-temperature-intervals" class="slide level2 bigbold90">
-<h2>Temperatures vs.&nbsp;Temperature Intervals</h2>
-<ul>
-<li class="fragment">Temperature: the <em>single</em> temperature of an object</li>
-<li class="fragment">Temperature interval: the <em>difference</em> between two temperatures</li>
-</ul>
-<div class="fragment">
-<p><img data-src="icecube.png" class="absolute" style="top: 35%; left: 10%; width: 25%; "></p>
-<p><img data-src="boilingfire.png" class="absolute" style="top: 27.5%; left: 62%; width: 25%; "></p>
-<div class="fragment">
-<div class="absolute" style="top: 60%; left: 13%; ">
-<p><em>Temperature</em><br><span class="math inline">\(32\ \mathrm{^\circ F}\)</span></p>
-</div>
-<div class="absolute" style="top: 60%; left: 67%; ">
-<p><em>Temperature</em><br><span class="math inline">\(212\ \mathrm{^\circ F}\)</span></p>
-</div>
-</div>
-<div class="fragment absolute" style="top: 45%; left: 36%; ">
-<p><em>Temperature Interval</em><br><span class="math inline">\(\longleftarrow\ \ 180\ \mathrm{^\circ F}\ \ \longrightarrow\)</span></p>
-</div>
-</div>
-</section>
-<section id="temperature-equations-12" class="slide level2">
-<h2>Temperature Equations (1/2)</h2>
-<p><br></p>
-<ul>
-<li class="fragment">Celsius to Fahrenheit: <span class="math inline">\(T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{^\circ C}) + 32\)</span></li>
-<li class="fragment">Celsius to Kelvin: <span class="math inline">\(\ \ \ \ \ \ T(\mathrm{K}) = T(\mathrm{^\circ C}) + 273.15\)</span></li>
-<li class="fragment">Celsius to Rankine: <span class="math inline">\(\ \ \ T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{^\circ C}) + 491.67\)</span></li>
-</ul>
-<p><br></p>
-<ul>
-<li class="fragment">Fahrenheit to Celsius: <span class="math inline">\(\ \ T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ F}) - 32]\)</span></li>
-<li class="fragment">Fahrenheit to Kelvin: <span class="math inline">\(\ \ \ T(\mathrm{K}) = \frac{5}{9} [T(\mathrm{^\circ F}) - 32] + 273.15\)</span></li>
-<li class="fragment">Fahrenheit -&gt; Rankine: <span class="math inline">\(T(\mathrm{^\circ R}) = T(\mathrm{^\circ F}) + 459.67\)</span></li>
-</ul>
-</section>
-<section id="temperature-equations-22" class="slide level2">
-<h2>Temperature Equations (2/2)</h2>
-<p><br></p>
-<ul>
-<li class="fragment">Kelvin to Fahrenheit: <span class="math inline">\(T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{K}) - 459.67\)</span></li>
-<li class="fragment">Kelvin to Celsius: <span class="math inline">\(\ \ \ \ \ T(\mathrm{^\circ C}) = T(\mathrm{K}) - 273.15\)</span></li>
-<li class="fragment">Kelvin to Rankine: <span class="math inline">\(\ \ \ \ T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{K})\)</span></li>
-</ul>
-<p><br></p>
-<ul>
-<li class="fragment">Rankine to Fahrenheit: <span class="math inline">\(\ T(\mathrm{^\circ F}) = T(\mathrm{^\circ R}) - 459.67\)</span></li>
-<li class="fragment">Rankine to Kelvin: <span class="math inline">\(\ \ \ \ \ \ \ \ \ T(\mathrm{K}) = \frac{5}{9} T(\mathrm{^\circ R})\)</span></li>
-<li class="fragment">Rankine -&gt; Celsius: <span class="math inline">\(\ \ \ \ \ \ T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ R}) - 491.67]\)</span></li>
-</ul>
-</section>
-<section id="temperature-interval-equations" class="slide level2">
-<h2>Temperature Interval Equations</h2>
-<div class="fragment absolute" data-fragment-index="10" style="top: 7.5%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Celsius to <span class="math inline">\(\Delta\)</span>Fahrenheit: <span class="math inline">\(\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})\)</span></p>
-</div>
-<div class="fragment absolute" data-fragment-index="1" style="top: 15%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Celsius to <span class="math inline">\(\Delta\)</span>Kelvin: <span class="math inline">\(\ \ \ \ \ \ \ \Delta T(\mathrm{K}) = \Delta T(\mathrm{^\circ C})\)</span></p>
-</div>
-<div class="fragment absolute" data-fragment-index="12" style="top: 22.5%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Celsius to <span class="math inline">\(\Delta\)</span>Rankine: <span class="math inline">\(\ \ \ \ \Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})\)</span></p>
-</div>
-<div class="fragment absolute" data-fragment-index="8" style="top: 30%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Fahrenheit to <span class="math inline">\(\Delta\)</span>Celsius: <span class="math inline">\(\ \ \Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})\)</span></p>
-</div>
-<div class="fragment absolute" data-fragment-index="6" style="top: 37.5%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Fahrenheit to <span class="math inline">\(\Delta\)</span>Kelvin: <span class="math inline">\(\ \ \ \ \Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})\)</span></p>
-</div>
-<div class="fragment absolute" data-fragment-index="4" style="top: 45%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Fahrenheit to <span class="math inline">\(\Delta\)</span>Rankine: <span class="math inline">\(\Delta T(\mathrm{^\circ R}) = \Delta T(\mathrm{^\circ F})\)</span></p>
-</div>
-<div class="fragment absolute" data-fragment-index="9" style="top: 52.5%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Kelvin to <span class="math inline">\(\Delta\)</span>Fahrenheit: <span class="math inline">\(\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{K})\)</span></p>
-</div>
-<div class="fragment absolute" data-fragment-index="2" style="top: 60%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Kelvin to <span class="math inline">\(\Delta\)</span>Celsius: <span class="math inline">\(\ \ \ \ \ \Delta T(\mathrm{^\circ C}) = \Delta T(\mathrm{K})\)</span></p>
-</div>
-<div class="fragment absolute" data-fragment-index="11" style="top: 67.5%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Kelvin to <span class="math inline">\(\Delta\)</span>Rankine: <span class="math inline">\(\ \ \ \Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{K})\)</span></p>
-</div>
-<div class="fragment absolute" data-fragment-index="3" style="top: 75%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Rankine to <span class="math inline">\(\Delta\)</span>Fahrenheit: <span class="math inline">\(\Delta T(\mathrm{^\circ F}) = \Delta T(\mathrm{^\circ R})\)</span></p>
-</div>
-<div class="fragment absolute" data-fragment-index="5" style="top: 82.5%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Rankine to <span class="math inline">\(\Delta\)</span>Kelvin: <span class="math inline">\(\ \ \ \ \ \ \ \Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})\)</span></p>
-</div>
-<div class="fragment absolute" data-fragment-index="7" style="top: 90%; left: 2%; ">
-<p><span class="math inline">\(\Delta\)</span>Rankine to <span class="math inline">\(\Delta\)</span>Celsius: <span class="math inline">\(\ \ \ \ \ \Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})\)</span></p>
-</div>
-</section>
-<section id="example-1---temperature-12" class="slide level2">
-<h2>Example 1 - Temperature (1/2)</h2>
-<p>Convert <span class="math inline">\(5\ \mathrm{^\circ C}\)</span> into Kelvin, Fahrenheit, and Rankine.</p>
-<ul>
-<li class="fragment"><span class="math inline">\(5\ \mathrm{^\circ C} \implies ?\ \mathrm{K}\)</span>
-<ul>
-<li class="fragment">Remember: <span class="math inline">\(T(\mathrm{K}) = T(\mathrm{^\circ C}) + 273.15\)</span></li>
-<li class="fragment"><span class="math inline">\(\implies T(\mathrm{K}) = 5\ \mathrm{^\circ C} + 273.15= 278.15\ \mathrm{K}\)</span></li>
-</ul></li>
-</ul>
-<p><br></p>
-<ul>
-<li class="fragment"><span class="math inline">\(5\ \mathrm{^\circ C} \implies ?\ \mathrm{^\circ F}\)</span>
-<ul>
-<li class="fragment">Remember: <span class="math inline">\(T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{^\circ C}) + 32\)</span></li>
-<li class="fragment"><span class="math inline">\(\implies T(\mathrm{^\circ F}) = \frac{9}{5}(5\ \mathrm{^\circ C})+ 32 = 41\ \mathrm{^\circ F}\)</span></li>
-</ul></li>
-</ul>
-</section>
-<section id="example-1---temperature-22" class="slide level2">
-<h2>Example 1 - Temperature (2/2)</h2>
-<p>Convert 5 °C into Kelvin, Fahrenheit, and Rankine.</p>
-<ul>
-<li class="fragment"><span class="math inline">\(5\ \mathrm{^\circ C} \implies ?\ \mathrm{^\circ R}\)</span>
-<ul>
-<li class="fragment">Remember: When converting from Celsius to Rankine, we prefer to first convert to Kelvin, then Rankine.</li>
-<li class="fragment">We can use what we got from our first conversion, <span class="math inline">\(T(\mathrm{K}) = 278.15\ \mathrm{K}\)</span></li>
-<li class="fragment"><span class="math inline">\(\implies T(\mathrm{^\circ R}) = \frac{9}{5}(278.15\ \mathrm{K}) = 500.67\ \mathrm{^\circ R}\)</span></li>
-</ul></li>
-</ul>
-</section>
-<section id="example-2---temp.-temp.-intervals-12" class="slide level2 bigbold85">
-<h2>Example 2 - Temp. &amp; Temp. Intervals (1/2)</h2>
-<div class="bigbold180">
-
-</div>
-<div class="fragment absolute" style="top: 15%; left: 0%; ">
-<p>Over a limited temperature range, the heat capacity of liquid acetone is</p>
-</div>
-<div class="fragment absolute" style="top: 25%; left: 10%; ">
-<p><span class="math inline">\(C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ C}} \right] =0.1230+0.000186T\)</span> where <span class="math inline">\(T\)</span> is in <span class="math inline">\(\mathrm{^\circ C}\)</span>.</p>
-</div>
-<div class="fragment absolute" style="top: 35%; left: 0%; ">
-<p>What are the heat-capacity formulas with <span class="math inline">\(T\)</span> in <span class="math inline">\(K\)</span>, <span class="math inline">\(\mathrm{^\circ R}\)</span>, and <span class="math inline">\(\mathrm{^\circ F}\)</span>?</p>
-</div>
-<div class="fragment absolute" style="top: 50%; left: 0%; ">
-<p>To Kelvin<br> <span class="math inline">\(C_p \left[\mathrm{\frac{kJ}{mol \cdot K}} \right]\mathrm{\frac{1\ K}{1\ \mathrm{^\circ C}}} =0.1230+0.000186(T-273.15)T\)</span> where <span class="math inline">\(T\)</span> is in <span class="math inline">\(\mathrm{K}\)</span>.</p>
-</div>
-<div class="fragment absolute" style="top: 65%; left: 0%; ">
-<p><span class="math inline">\(\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot K}} \right] =0.0722+0.000186T\)</span> where <span class="math inline">\(T\)</span> is in <span class="math inline">\(\mathrm{K}\)</span>.</p>
-</div>
-</section>
-<section id="example-2---temp.-temp.-intervals-22" class="slide level2 bigbold85">
-<h2>Example 2 - Temp. &amp; Temp. Intervals (2/2)</h2>
-<div class="fragment absolute" style="top: 15%; left: 0%; ">
-<p>To Rankine<br> <span class="math inline">\(C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ R}} \right]\mathrm{\frac{9\ ^\circ R}{5\ \mathrm{^\circ C}}} =0.1230+0.000186 \left( \frac{5}{9}[T-491.67] \right)\)</span> where <span class="math inline">\(T\)</span> is in <span class="math inline">\(\mathrm{^\circ R}\)</span>.</p>
-</div>
-<div class="fragment absolute" style="top: 30%; left: 0%; ">
-<p><span class="math inline">\(\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ R}} \right] =0.04011+0.00005741\)</span> where <span class="math inline">\(T\)</span> is in <span class="math inline">\(\mathrm{^\circ R}\)</span>.</p>
-</div>
-<div class="fragment absolute" style="top: 45%; left: 0%; ">
-<p>To Fahrenheit<br> <span class="math inline">\(C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right]\mathrm{\frac{9\ ^\circ F}{5\ \mathrm{^\circ C}}} =0.1230+0.000186 \left( \frac{5}{9}[T-32] \right)\)</span> where <span class="math inline">\(T\)</span> is in <span class="math inline">\(\mathrm{^\circ F}\)</span>.</p>
-</div>
-<div class="fragment absolute" style="top: 60%; left: 0%; ">
-<p><span class="math inline">\(\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right] =0.06650+0.00005741\)</span> where <span class="math inline">\(T\)</span> is in <span class="math inline">\(\mathrm{^\circ F}\)</span>.</p>
-</div>
+<section id="parametric-plot-of-f_textaoverall" class="slide level2">
+<h2>Parametric Plot of <span class="math inline">\(f_\text{A–overall}\)</span></h2>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">There are four common temperature scales:</li>
-</ol>
-<ul>
-<li class="fragment">Kelvin, Rankine, Fahrenheit, and Celsius</li>
-</ul>
-<ol start="2" type="1">
-<li class="fragment">The conversions between <em>temperatures</em> are different from the conversion of <em>temperature intervals</em>.</li>
-<li class="fragment">Most <em>temperature</em> conversions requre both multiplication and addition/subtraction.</li>
-</ol>
-<ul>
-<li class="fragment">Conversion between Rankine and Kelvin only require multiplication</li>
-</ul>
-<ol start="4" type="1">
-<li class="fragment">All of the <em>temperature-interval</em> conversions just require multiplication by 9/5, 5/9, or 1.</li>
+<li class="fragment">Learn to recognize things given in the definitions like a PFD, recycle, and bypass.</li>
+<li class="fragment">Develop a systematic style to set up and solve problems. Use the given style if you don’t have your own.</li>
+<li class="fragment">Check out the speed tips and see if they help.</li>
 </ol>
 </section></section>
-<section id="section-2" class="title-slide slide level1 center">
+<section id="section" class="title-slide slide level1 center">
 <h1></h1>
-<div class="centered bigger">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Just The Facts</em> companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description .</p>
+<div class="centered">
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The companion video in the series, <em>How to Keep Your Balance</em>, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 29%; "></p>
-</section>
-
-<section id="section-3" class="title-slide slide level1 center">
-<h1></h1>
-<div class="centered bigger">
-<p><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 29%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 
 
 </section>
@@ -575,7 +454,7 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 3840,
+        width: 2700,
 
         height: 2160,
 
@@ -585,7 +464,7 @@
         maxScale: 8,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
