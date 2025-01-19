@@ -1,0 +1,140 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# When You Saw It, What Was<br/>the Extent of Your Reaction? Part 3</br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
+
+
+## Summary of  Multiple Reactions
+
+The problem statement was:<br/><br/>
+
+$2.00\ \mathrm{kmol/s}$ of propane are burned in 25% excess oxygen in a faulty
+combustor. 100% of the hydrogen combusts to form water, but only
+80% of the carbon combusts completely to $\mathrm{CO_2}$. The remainder
+combusts to $\mathrm{CO}$.
+
+ a. Calculate the molar flow rate of oxygen into the combustor.
+ b. Calculate the molar flow rates of each of the combustion products.
+ c. Calculate the total molar flow rate of the exhaust.
+ 
+## Solution
+
+Part a.
+$$
+\dot{n}_\mathrm{O_2in} = 12.5\ \mathrm{kmol/s}
+$$
+
+Part b.
+
+$$
+\dot{n}_\mathrm{CO_2out} = 4.8\ \mathrm{kmol/s}, 
+$$
+
+$$
+\dot{n}_\mathrm{COout} = 1.2\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{O_2out} = 3.10\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{H_2Oout} = 8.00\ \mathrm{kmol/s}
+$$
+
+Part c.
+
+$$
+\dot{n}_\mathrm{out} = 17.1\ \mathrm{kmol/s}
+$$
+
+## Yield and Selectivity
+
+There are usually multiple reactions generating one desired product and one or more undesired products. We then define for desired species $\mathrm{R}$,
+
+#### *Yield*
+
+$$
+Y_\mathrm{R} = \frac{n_{\mathrm{R_{actual}}}}{n_{\mathrm{R_{possible}}}}
+$$
+
+#### *Selectivity*
+
+$$
+S_\mathrm{R} = \frac{n_{\mathrm{R}}}{n_{\mathrm{products_{undesired}}}}
+$$
+
+The goal is almost always high yield and high selectivity.
+
+## Yield Example
+
+Assume that the desired product in the previous example was $\mathrm{CO_2}$ and that the undesired product was $\mathrm{CO}$.
+
+If all of the propane were converted to $\mathrm{CO_2}$, then
+
+$$
+\dot{n}_\mathrm{CO_2possible} = \frac{\nu_\mathrm{CO_2}}{-\nu_\mathrm{C_3H_8}}\dot{n}_\mathrm{C_3H_8in}=\frac{3}{-(-1)}2 = 6\ \mathrm{kmol/s}
+$$
+
+$$
+\dot{n}_\mathrm{CO_2actual} = \dot{n}_\mathrm{CO_2out} = 4.8\ \mathrm{kmol/s}
+$$
+
+$$
+Y_\mathrm{CO_2} = \frac{\dot{n}_\mathrm{CO_2actual}}{\dot{n}_\mathrm{CO_2actual} } = \frac{4.8}{6.0} = 0.80 = 80\%
+$$
+
+Which we also could have gotten from the problem statement.
+
+## Selectivity Example
+
+Assume that the desired product in the propane example was $\mathrm{CO_2}$ and that the undesired product was $\mathrm{CO}$.
+
+$$
+S_\mathrm{CO_2} = \frac{\dot{n}_\mathrm{CO_2out}}{\dot{n}_\mathrm{COout}} = \frac{4.8}{1.2} = 4
+$$
+
+We don't count the water as an undesired product because it uses none of the $\mathrm{C}$ in the propane, which is the only species that goes to our desired product. If there had been other carbon containing compounds, e.g., $\mathrm{CH_4}$, we would have included their flows in the denominator.
+
+## Mole Fraction, Split Fraction, and Fractional Conversion
+
+It's easy to get *mole fraction*, *split fraction*, and *fractional conversion* confused.
+
+**Mole Fraction**
+: Also called composition, the moles of a species, such as $\mathrm{A}$ divided by the total number of moles, $x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)$.
+
+**Split Fraction**
+: The moles of a species, such as $\mathrm{A}$, coming out of a separator in a given stream, such as stream 1, divided by the moles of $\mathrm{A}$ going into a separator, $t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}$.
+
+**Fractional Conversion**
+: The moles of a *reactant*, such as $\mathrm{A}$, converted to products in a reactor or process, $f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}} = 1 - (\dot{n}_\mathrm{A_{out}}/\dot{n}_\mathrm{A_{in}})$
+
+## The Takeaways
+
+1. For reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.
+2. The yield is the fraction of the desired product that could be produced that is actually produced..
+3. The selectivity is the ratio of the desired product to the undesired products.
+4. Don’t confuse mole fraction, $x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)$, split fraction, $t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}$, and fractional conversion.$f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}}$.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. *Recycling Before Recycling Was Cool*, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
