@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>Chemical and Thermal Processes – unitopsreactpart1jtfvisuals</title>
+  <title>Chemical and Thermal Processes – unitopsreactpart3jtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,232 +127,113 @@
 
 
 <section>
-<section id="when-you-saw-it-what-was-the-extent-of-your-reaction-part-1just-the-facts" class="title-slide slide level1 bigbold75 center">
-<h1>When You Saw It, What Was<br>the Extent of Your Reaction? Part 1<br>Just the Facts</h1>
+<section id="when-you-saw-it-what-was-the-extent-of-your-reaction-part-3just-the-facts" class="title-slide slide level1 bigbold75 center">
+<h1>When You Saw It, What Was<br>the Extent of Your Reaction? Part 3<br>Just the Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -45%; left: 22%; "></p>
 </section>
-<section id="chemical-reactions" class="slide level2">
-<h2>Chemical Reactions</h2>
-<p><span class="math display">\[
-\mathrm{Reactants} \rightarrow \mathrm{Products}
-\]</span></p>
-<p><span class="math display">\[
-\nu_\mathrm{A} \mathrm{A} + \nu_\mathrm{B} \mathrm{B} \rightarrow \nu_\mathrm{P} \mathrm{P} + \nu_\mathrm{S} \mathrm{S}
-\]</span></p>
-<p><span class="math inline">\(\nu_i\)</span> – stoichometric coefficient for component <span class="math inline">\(i\)</span>.</p>
-<p><span class="math inline">\(\nu_i\)</span> is positive for products (right side) and negative for reactants (left side).</p>
-<p>e.g., for <span class="math display">\[
-\mathrm{C_2H_6} + \frac{7}{2}\mathrm{O_2} \rightarrow  2\mathrm{CO_2} + 3\mathrm{H_2O}
-\]</span></p>
-<p>then <span class="math inline">\(\nu_\mathrm{C_2H_6} = -1\)</span>, <span class="math inline">\(\nu_\mathrm{O_2} = -\frac{7}{2}\)</span>, <span class="math inline">\(\nu_\mathrm{CO_2} = 2\)</span>, and <span class="math inline">\(\nu_\mathrm{H_2O} = 3\)</span>.</p>
+<section id="summary-of-multiple-reactions" class="slide level2">
+<h2>Summary of Multiple Reactions</h2>
+<p>The problem statement was:<br><br></p>
+<p><span class="math inline">\(2.00\ \mathrm{kmol/s}\)</span> of propane are burned in 25% excess oxygen in a faulty combustor. 100% of the hydrogen combusts to form water, but only 80% of the carbon combusts completely to <span class="math inline">\(\mathrm{CO_2}\)</span>. The remainder combusts to <span class="math inline">\(\mathrm{CO}\)</span>.</p>
+<ol type="a">
+<li class="fragment">Calculate the molar flow rate of oxygen into the combustor.</li>
+<li class="fragment">Calculate the molar flow rates of each of the combustion products.</li>
+<li class="fragment">Calculate the total molar flow rate of the exhaust.</li>
+</ol>
 </section>
-<section id="chemical-reactions-cont." class="slide level2">
-<h2>Chemical Reactions (cont.)</h2>
-<p>Other stoichiometric coefficient definitions are possible, but this one makes the formulas very easy to implement, e.g.,</p>
-<p><span class="math display">\[
-\sum \nu_i \mathrm{A}_i = 0
+<section id="solution" class="slide level2">
+<h2>Solution</h2>
+<p>Part a. <span class="math display">\[
+\dot{n}_\mathrm{O_2in} = 12.5\ \mathrm{kmol/s}
 \]</span></p>
-<p>where <span class="math inline">\(\mathrm{A}_i\)</span> is chemical species <span class="math inline">\(i\)</span>, e.g., <span class="math inline">\(\mathrm{C_2H_6}\)</span>, <span class="math inline">\(\mathrm{O_2}\)</span>, <span class="math inline">\(\mathrm{CO_2}\)</span>, or <span class="math inline">\(\mathrm{H_2O}\)</span>.</p>
+<p>Part b.</p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{CO_2out} = 4.8\ \mathrm{kmol/s},
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{COout} = 1.2\ \mathrm{kmol/s}
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{O_2out} = 3.10\ \mathrm{kmol/s}
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{H_2Oout} = 8.00\ \mathrm{kmol/s}
+\]</span></p>
+<p>Part c.</p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{out} = 17.1\ \mathrm{kmol/s}
+\]</span></p>
 </section>
-<section id="differential-balance" class="slide level2">
-<h2>Differential Balance</h2>
-<h3 id="e.g.-open-steady-state-system">e.g., Open, Steady-State System</h3>
-<p>If <span class="math inline">\(\dot{n}_i\)</span> is the <em>rate</em> of <em>generation</em> of <span class="math inline">\(\mathrm{A}_i\)</span>, then</p>
+<section id="yield-and-selectivity" class="slide level2">
+<h2>Yield and Selectivity</h2>
+<p>There are usually multiple reactions generating one desired product and one or more undesired products. We then define for desired species <span class="math inline">\(\mathrm{R}\)</span>,</p>
+<h4 id="yield"><em>Yield</em></h4>
 <p><span class="math display">\[
-\frac{\dot{n}_\mathrm{A}}{\nu_\mathrm{A}}= \frac{\dot{n}_\mathrm{B}}{\nu_\mathrm{B}} = \frac{\dot{n}_\mathrm{P}}{\nu_\mathrm{P}} = \frac{\dot{n}_\mathrm{S}}{\nu_\mathrm{S}} = \frac{\dot{n}_i}{\nu_i} = \dot{\xi}
-\]</span> (Don’t try to use this form. We’ll show you a better one later)</p>
-<p><span class="math inline">\(\dot{\xi}\)</span> is the <em>extent of reaction</em> as a rate, e.g., <span class="math inline">\(\mathrm{mol}/\mathrm{s}\)</span>.</p>
-<p>Note that for a <em>reactant</em>, the rate of generation is <em>negative</em>, and the stoichiometric coefficient is <em>negative</em>, so the ratio is <em>positive</em>.</p>
-<p>The value of <span class="math inline">\(\dot{\xi}\)</span> does not depend on the reactant or product chosen.</p>
+Y_\mathrm{R} = \frac{n_{\mathrm{R_{actual}}}}{n_{\mathrm{R_{possible}}}}
+\]</span></p>
+<h4 id="selectivity"><em>Selectivity</em></h4>
+<p><span class="math display">\[
+S_\mathrm{R} = \frac{n_{\mathrm{R}}}{n_{\mathrm{products_{undesired}}}}
+\]</span></p>
+<p>The goal is almost always high yield and high selectivity.</p>
 </section>
-<section id="integral-balance" class="slide level2">
-<h2>Integral Balance</h2>
-<h3 id="e.g.-closed-system">e.g., Closed System</h3>
-<p>If <span class="math inline">\(n_i\)</span> is the <em>amount</em> of <em>generation</em> of <span class="math inline">\(\mathrm{A}_i\)</span>, then</p>
+<section id="yield-example" class="slide level2">
+<h2>Yield Example</h2>
+<p>Assume that the desired product in the previous example was <span class="math inline">\(\mathrm{CO_2}\)</span> and that the undesired product was <span class="math inline">\(\mathrm{CO}\)</span>.</p>
+<p>If all of the propane were converted to <span class="math inline">\(\mathrm{CO_2}\)</span>, then</p>
 <p><span class="math display">\[
-\frac{n_\mathrm{A}}{\nu_\mathrm{A}}= \frac{n_\mathrm{B}}{\nu_\mathrm{B}} = \frac{n_\mathrm{P}}{\nu_\mathrm{P}} = \frac{n_\mathrm{S}}{\nu_\mathrm{S}} = \frac{n_i}{\nu_i} = \xi
-\]</span> (Don’t try to use this form. We’ll show you a better one later)</p>
-<p><span class="math inline">\(\xi\)</span> is the <em>extent of reaction</em> as an amount, e.g., <span class="math inline">\(\mathrm{mol}\)</span>.</p>
-<p>Note that for a <em>reactant</em>, the amount generated is <em>negative</em>, and the stoichiometric coefficient is <em>negative</em>, so the ratio is <em>positive</em>.</p>
-<p>Again, the value of <span class="math inline">\(\xi\)</span> does not depend on the reactant or product chosen.</p>
+\dot{n}_\mathrm{CO_2possible} = \frac{\nu_\mathrm{CO_2}}{-\nu_\mathrm{C_3H_8}}\dot{n}_\mathrm{C_3H_8in}=\frac{3}{-(-1)}2 = 6\ \mathrm{kmol/s}
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{CO_2actual} = \dot{n}_\mathrm{CO_2out} = 4.8\ \mathrm{kmol/s}
+\]</span></p>
+<p><span class="math display">\[
+Y_\mathrm{CO_2} = \frac{\dot{n}_\mathrm{CO_2actual}}{\dot{n}_\mathrm{CO_2actual} } = \frac{4.8}{6.0} = 0.80 = 80\%
+\]</span></p>
+<p>Which we also could have gotten from the problem statement.</p>
 </section>
-<section id="reactor-mole-balance-equation" class="slide level2">
-<h2>Reactor Mole Balance Equation</h2>
-<p><img data-src="SampleReactorPFD.png" class="absolute" style="top: 10%; left: 30%; width: 30%; "></p>
-<div class="absolute" style="top: 9%; left: 24%; ">
-<p><span class="math inline">\(\dot{n}_{i_\mathrm{in}}\)</span></p>
-</div>
-<div class="absolute" style="top: 16.5%; left: 62%; ">
-<p><span class="math inline">\(\dot{n}_{i_\mathrm{in}}\)</span></p>
-</div>
-<p><br><br><br></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Differential Balance<br>e.g., open, steady state</p>
+<section id="selectivity-example" class="slide level2">
+<h2>Selectivity Example</h2>
+<p>Assume that the desired product in the propane example was <span class="math inline">\(\mathrm{CO_2}\)</span> and that the undesired product was <span class="math inline">\(\mathrm{CO}\)</span>.</p>
 <p><span class="math display">\[
-\dot{n}_{i_\mathrm{out}} = \dot{n}_{i_\mathrm{in}} + \nu_i \dot{\xi}
+S_\mathrm{CO_2} = \frac{\dot{n}_\mathrm{CO_2out}}{\dot{n}_\mathrm{COout}} = \frac{4.8}{1.2} = 4
 \]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{out} = \dot{n}_\mathrm{in} + \nu \dot{\xi}
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{in} = \sum \dot{n}_{i_\mathrm{in}}
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{out} = \sum \dot{n}_{i_\mathrm{out}}
-\]</span></p>
-<p><span class="math display">\[
-\nu = \sum \nu_i
-\]</span></p>
-</div><div class="column" style="width:50%;">
-<p>Integral Balance<br>e.g., closed</p>
-<p><span class="math display">\[
-n_{i_\mathrm{out}} = n_{i_\mathrm{in}} + \nu_i \dot{\xi}
-\]</span></p>
-<p><span class="math display">\[
-n_\mathrm{out} = n_\mathrm{in} + \nu \dot{\xi}
-\]</span></p>
-<p><span class="math display">\[
-n_\mathrm{in} = \sum n_{i_\mathrm{in}}
-\]</span></p>
-<p><span class="math display">\[
-n_\mathrm{out} = \sum n_{i_\mathrm{out}}
-\]</span></p>
-<p><span class="math display">\[
-\nu = \sum \nu_i
-\]</span></p>
-</div></div>
+<p>We don’t count the water as an undesired product because it uses none of the <span class="math inline">\(\mathrm{C}\)</span> in the propane, which is the only species that goes to our desired product. If there had been other carbon containing compounds, e.g., <span class="math inline">\(\mathrm{CH_4}\)</span>, we would have included their flows in the denominator.</p>
 </section>
-<section id="stoichiometric-coefficient-example" class="slide level2">
-<h2>Stoichiometric Coefficient Example</h2>
-<div class="columns">
-<div class="column" style="width:45%;">
-<p>Remember</p>
-<p><span class="math inline">\(\nu_i\)</span> is <em>positive</em> for product.</p>
-<p><span class="math inline">\(\nu_i\)</span> is <em>negative</em> for reactant.</p>
-<p><span class="math inline">\(\nu_i\)</span> is <em>zero</em> for inerts.</p>
-</div><div class="column" style="width:55%;">
-<p><span class="math display">\[
-8 \mathrm{N_2} + 2 \mathrm{O_2} + 2 \mathrm{C} \rightarrow  8 \mathrm{N_2} + 2 \mathrm{CO_2}
-\]</span></p>
-<p><span class="math display">\[
-\nu_{\mathrm{O}_2} = -2
-\]</span></p>
-<p><span class="math display">\[
-\nu_\mathrm{C} = -2
-\]</span></p>
-<p><span class="math display">\[
-\nu_{\mathrm{CO_2}} = 2
-\]</span></p>
-<p><span class="math display">\[
-\nu_{\mathrm{N}_2} = -8+8=0
-\]</span></p>
-<p><span class="math display">\[
-\nu = 8 + 2 - 8 - 2 - 2 = -2
-\]</span></p>
-</div></div>
-</section>
-<section id="fractional-conversion-of-reactant-k" class="slide level2">
-<h2><em>Fractional Conversion</em> of Reactant <em>k</em></h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Differential Balance</p>
-<p><span class="math display">\[
-f_k = \frac{\dot{n}_{k_\mathrm{in}} - \dot{n}_{k_\mathrm{out}}}{\dot{n}_{k_\mathrm{in}}}
-\]</span> <span class="math display">\[
-= 1- \frac{\dot{n}_{k_\mathrm{out}}}{\dot{n}_{k_\mathrm{in}}}
-\]</span></p>
-<p><span class="math display">\[
-= \frac{-\nu_k \dot{\xi}}{\dot{n}_{k_\mathrm{in}}}
-\]</span></p>
-<p><span class="math display">\[
-\implies \dot{\xi} = \frac{f_k \dot{n}_{k_\mathrm{in}}}{-\nu_k}
-\]</span></p>
-</div><div class="column" style="width:50%;">
-<p>Integral Balance</p>
-<p><span class="math display">\[
-f_k = \frac{n_{k_\mathrm{in}} - n_{k_\mathrm{out}}}{n_{k_\mathrm{in}}}
-\]</span> <span class="math display">\[
-= 1- \frac{n_{k_\mathrm{out}}}{n_{k_\mathrm{in}}}
-\]</span></p>
-<p><span class="math display">\[
-= \frac{-\nu_k \xi}{n_{k_\mathrm{in}}}
-\]</span></p>
-<p><span class="math display">\[
-\implies \xi = \frac{f_k n_{k_\mathrm{in}}}{-\nu_k}
-\]</span></p>
-</div></div>
-<p>Fractional conversion only works for <em>reactants</em>, not products. Unlike extent of reaction, in general it is different for each reactant.</p>
-</section>
-<section id="limiting-reactant" class="slide level2">
-<h2><em>Limiting Reactant</em></h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">\[
-\nu_\mathrm{A} \mathrm{A} + \nu_\mathrm{B} \mathrm{B} \rightarrow \cdots
-\]</span></p>
-<p>If we had 100% conversion of <span class="math inline">\(\mathrm{A}\)</span>,</p>
-<p><span class="math display">\[
-\dot{\xi} = \frac{\dot{n}_{\mathrm{A_{in}}}}{-\nu_\mathrm{A}} \text{ or } \xi = \frac{n_{\mathrm{A_{in}}}}{-\nu_\mathrm{A}}
-\]</span></p>
-<p>If we had 100% conversion of <span class="math inline">\(\mathrm{B}\)</span>,</p>
-<p><span class="math display">\[
-\dot{\xi} = \frac{\dot{n}_{\mathrm{B_{in}}}}{-\nu_\mathrm{B}} \text{ or } \xi = \frac{n_{\mathrm{B_{in}}}}{-\nu_\mathrm{B}}
-\]</span></p>
-</div><div class="column" style="width:50%;">
-<p><br>The reactant yielding the <em>smallest</em> value for <span class="math inline">\(\xi\)</span> is the <em>limiting reactant</em>. All other reactants are <em>excess reactants</em>. The <em>fractional excess</em> is the fraction in excess of stoichiometric.</p>
-<p><span class="math display">\[
-\mathrm{frac.\ xs} = \frac{n_{k_\mathrm{feed}} - n_{k_\mathrm{stoic}}}{n_{k_\mathrm{stoic}}}
-\]</span></p>
-</div></div>
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Important</strong></p>
-</div>
-<div class="callout-content">
-<p>These numbers are calculated regardless of the actual extent of reaction or fractional conversion in the process.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="limiting-reactant-example" class="slide level2">
-<h2>Limiting Reactant Example</h2>
-<p><span class="math display">\[
-\mathrm{N_2+3H_2 = 2NH_3}
-\]</span></p>
-<p>If <span class="math inline">\(\dot{n}_\mathrm{N_2in}= 100\ \mathrm{mol/s}\)</span> and <span class="math inline">\(\dot{n}_\mathrm{H_2in}= 200\ \mathrm{mol/s}\)</span>,</p>
-<p>Then</p>
-<p><span class="math display">\[
-\frac{200}{3} &lt; \frac{100}{1}
-\]</span></p>
-<p>and <span class="math inline">\(\mathrm{H_2}\)</span> is the limiting reactant.</p>
-<p>Also <span class="math inline">\(\dot{\xi} = \frac{200}{3}\)</span> for 100% conversion of <span class="math inline">\(\mathrm{H_2}\)</span></p>
-<p>and <span class="math inline">\(\dot{n}_\mathrm{N_2stoic}=\dot{\xi}(-\nu_\mathrm{N_2}) = \frac{200}{3}(1)\)</span>.</p>
-<p>So the fractional excess of <span class="math inline">\(\mathrm{N_2}\)</span> is</p>
-<p><span class="math display">\[
-\frac{\dot{n}_\mathrm{N_2in} - \dot{n}_\mathrm{N_2stoic}}{\dot{n}_\mathrm{N_2stoic}} = \frac{100-\frac{200}{3}}{\frac{200}{3}} = \frac{1}{2} = 50\%
-\]</span></p>
+<section id="mole-fraction-split-fraction-and-fractional-conversion" class="slide level2">
+<h2>Mole Fraction, Split Fraction, and Fractional Conversion</h2>
+<p>It’s easy to get <em>mole fraction</em>, <em>split fraction</em>, and <em>fractional conversion</em> confused.</p>
+<dl>
+<dt class="fragment"><strong>Mole Fraction</strong></dt>
+<dd class="fragment">
+Also called composition, the moles of a species, such as <span class="math inline">\(\mathrm{A}\)</span> divided by the total number of moles, <span class="math inline">\(x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)\)</span>.
+</dd>
+<dt class="fragment"><strong>Split Fraction</strong></dt>
+<dd class="fragment">
+The moles of a species, such as <span class="math inline">\(\mathrm{A}\)</span>, coming out of a separator in a given stream, such as stream 1, divided by the moles of <span class="math inline">\(\mathrm{A}\)</span> going into a separator, <span class="math inline">\(t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}\)</span>.
+</dd>
+<dt class="fragment"><strong>Fractional Conversion</strong></dt>
+<dd class="fragment">
+The moles of a <em>reactant</em>, such as <span class="math inline">\(\mathrm{A}\)</span>, converted to products in a reactor or process, <span class="math inline">\(f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}} = 1 - (\dot{n}_\mathrm{A_{out}}/\dot{n}_\mathrm{A_{in}})\)</span>
+</dd>
+</dl>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Stoichiometric coefficients for reactants are negative and for products are positive.</li>
-<li class="fragment">The mole balance for a given species in a reactor is that the output is the input plus the stoichiometric coefficient for that species times the extent of reaction.</li>
-<li class="fragment">Fractional conversion is for reactants only and is the fraction of the reactant converted to products in the reactor.</li>
-<li class="fragment">The limiting reactant is the one that would be totally consumed first it the reaction went to completion. All other reactants are excess reactants.</li>
+<li class="fragment">For reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.</li>
+<li class="fragment">The yield is the fraction of the desired product that could be produced that is actually produced..</li>
+<li class="fragment">The selectivity is the ratio of the desired product to the undesired products.</li>
+<li class="fragment">Don’t confuse mole fraction, <span class="math inline">\(x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)\)</span>, split fraction, <span class="math inline">\(t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}\)</span>, and fractional conversion.<span class="math inline">\(f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}}\)</span>.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. <em>When You Saw It, What Was the Extent of Your Reaction? Part 2</em>, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. <em>Recycling Before Recycling Was Cool</em>, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 

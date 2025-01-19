@@ -49,106 +49,211 @@
     "text": "More in depth study of chemical reactor engineering"
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#common-processing-units",
-    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#common-processing-units",
+    "objectID": "balances/material/UnitOpsReactPart2JTFVisuals.html#mole-balance-for-multiple-reactions",
+    "href": "balances/material/UnitOpsReactPart2JTFVisuals.html#mole-balance-for-multiple-reactions",
     "title": "Chemical and Thermal Processes",
-    "section": "Common Processing Units",
-    "text": "Common Processing Units\n\nMixer\nDivider\nSeparator\nReactor (Next three videos)\n\n\nFor open steady-state systems it is useful to use the following definitions and constitutive relationships:"
+    "section": "Mole Balance for Multiple Reactions",
+    "text": "Mole Balance for Multiple Reactions\n\n\n\\(\\dot{n}_{i_\\mathrm{in}}\\)\n\n\n\\(\\dot{n}_{i_\\mathrm{in}}\\)\n\n\n\n\nDifferential Balance\n\\[\n\\dot{n}_{i_\\mathrm{out}} = \\dot{n}_{i_\\mathrm{in}} + \\sum_{j=1}^J \\nu_{ij} \\dot{\\xi}_j\n\\]\n\\[\n\\dot{n}_\\mathrm{out} = \\dot{n}_\\mathrm{in} + \\sum_{j=1}^J \\nu_{j} \\dot{\\xi}_j\n\\]\n\nIntegral Balance\n\\[\nn_{i_\\mathrm{out}} = n_{i_\\mathrm{in}} + \\sum_{j=1}^J \\nu_{ij} \\xi_j\n\\]\n\\[\nn_\\mathrm{out} = n_\\mathrm{in} + \\sum_{j=1}^J \\nu_{j} \\xi_j\n\\]\n\n\\(\\nu_{ij}\\) is the stoichiometric coefficient for reactant \\(i\\) in reaction \\(j\\).\n\\(\\nu_{j}\\) is the overall stoichiometric coefficient for reaction \\(j\\).\n\\(\\dot{\\xi}_j,\\ \\xi_j\\) is the extent of reaction j."
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#mixer",
-    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#mixer",
+    "objectID": "balances/material/UnitOpsReactPart2JTFVisuals.html#sample-with-multiple-reactions",
+    "href": "balances/material/UnitOpsReactPart2JTFVisuals.html#sample-with-multiple-reactions",
     "title": "Chemical and Thermal Processes",
-    "section": "Mixer",
-    "text": "Mixer\n\n\n\n\nFor each component, \\(i\\),\n\\[\n\\dot{n}_{i_\\mathrm{out}} = \\dot{n}_{i_1} + \\dot{n}_{i_2} + \\cdots +\\dot{n}_{i_k}\n\\]\n\n\nOverall\n\\[\n\\dot{n}_\\mathrm{out} = \\dot{n}_1 + \\dot{n}_2 + \\cdots +\\dot{n}_k\n\\]\n\n\nwhere\n\\[\n\\dot{n} = \\sum_\\mathrm{All} \\dot{n}_i\n\\]"
+    "section": "Sample with Multiple Reactions",
+    "text": "Sample with Multiple Reactions\n\\(2.00\\ \\mathrm{kmol/s}\\) of propane are burned in 25% excess oxygen in a faulty combustor. 100% of the hydrogen combusts to form water, but only 80% of the carbon combusts completely to \\(\\mathrm{CO_2}\\). The remainder combusts to \\(\\mathrm{CO}\\).\n\nCalculate the molar flow rate of oxygen into the combustor.\nCalculate the molar flow rates of each of the combustion products.\nCalculate the total molar flow rate of the exhaust."
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#mixer-usage",
-    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#mixer-usage",
+    "objectID": "balances/material/UnitOpsReactPart2JTFVisuals.html#solution",
+    "href": "balances/material/UnitOpsReactPart2JTFVisuals.html#solution",
     "title": "Chemical and Thermal Processes",
-    "section": "Mixer Usage",
-    "text": "Mixer Usage\n\nA mixer combines (or mixes) the input streams together, so that the output stream is just the sum of all of the input streams.\n\n\nThe mass equations for a mixer are the same as the mole equations, with the \\(n\\)’s or \\(\\dot{n}\\)’s replaced by \\(m\\)’s or \\(\\dot{m}\\)’s.\n\\[\n\\dot{m}_{i_\\mathrm{out}} = \\dot{m}_{i_1} + \\dot{n}_{i_2} + \\cdots +\\dot{m}_{i_k}\n\\]\nOverall\n\\[\n\\dot{m}_\\mathrm{out} = \\dot{m}_1 + \\dot{m}_2 + \\cdots +\\dot{m}_k\n\\]\nwhere\n\\[\n\\dot{m} = \\sum_\\mathrm{All} \\dot{m}_i\n\\]"
+    "section": "Solution",
+    "text": "Solution\nThere are multiple sets of chemical equations we could write. We will use the following:\n\\[\n\\mathrm{C_3H_8 + 5O_2} \\rightarrow \\mathrm{3CO_2 + 4 H_2O}\n\\tag{1}\\]\n\\[\n\\mathrm{C_3H_8 + \\frac{7}{2}O_2} \\rightarrow \\mathrm{3CO + 4H_2O}\n\\tag{2}\\]\nTo calculate excess oxygen, you need to calculate complete combustion. The appropriate equation is Equation 1.\n\\[\n\\dot{n}_\\mathrm{O_2stoic} = \\frac{\\nu_\\mathrm{O_2}}{\\nu_\\mathrm{C_3H_8}} \\dot{n}_\\mathrm{C_3H_8stoic} = \\frac{-5}{-1}(2\\ \\mathrm{kmol/s}) = 10\\ \\mathrm{kmol/s}\n\\]"
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#divider",
-    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#divider",
+    "objectID": "balances/material/UnitOpsReactPart2JTFVisuals.html#solution-cont.",
+    "href": "balances/material/UnitOpsReactPart2JTFVisuals.html#solution-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Divider",
-    "text": "Divider\n\n\n\n\n\nFor each component, \\(i\\),\n\n\n\\[\n\\dot{n}_{i_\\mathrm{in}} = \\dot{n}_{i_1} + \\dot{n}_{i_2}\n\\]\n\n\n\n\nOverall\n\n\n\\[\n\\dot{n}_\\mathrm{in} = \\dot{n}_1 + \\dot{n}_2\n\\]\n\n\n\n\nwhere\n\n\n\\[\n\\dot{n} = \\sum_\\mathrm{All} \\dot{n}_i\n\\]\n\n\n\n\nAlso\n\n\n\\[\nx_{i_1} = x_{i_2} = x_{i_\\mathrm{in}}\n\\]\n\n\nwhere the mole fraction, \\(x_i \\equiv \\frac{n_i}{m_\\mathrm{Total}} = \\frac{\\dot{n}_i}{\\dot{n}}\\) ."
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\n\\[\n\\mathrm{frac.\\ xs} = 0.25 = \\frac{ \\dot{n}_\\mathrm{O_2in} - \\dot{n}_\\mathrm{O_2stoic} }{\\dot{n}_\\mathrm{O_2stoic}}\n\\]\n\\[\n\\dot{n}_\\mathrm{O_2in} = (1 + \\mathrm{frac.\\ xs})\\dot{n}_\\mathrm{O_2stoic} = 1.25(10\\ \\mathrm{kmol/s})\n\\] \\[\n= 12.5\\ \\mathrm{kmol/s}\n\\]\nfor 25% excess oxygen."
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#divider-usage",
-    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#divider-usage",
+    "objectID": "balances/material/UnitOpsReactPart2JTFVisuals.html#solution-cont.-1",
+    "href": "balances/material/UnitOpsReactPart2JTFVisuals.html#solution-cont.-1",
     "title": "Chemical and Thermal Processes",
-    "section": "Divider Usage",
-    "text": "Divider Usage\n\n\nA divider is used when a single stream needs to be divided up into two or more streams. The mass equations for a divider are the same as the mole equations, with the \\(n\\)’s or\\(\\dot{n}\\)’s replaced by \\(m\\)’s or \\(\\dot{m}\\)’s.\n\n\n\n\nFor each component, \\(i\\),\n\n\n\\[\n\\dot{m}_{i_\\mathrm{in}} = \\dot{m}_{i_1} + \\dot{m}_{i_2}\n\\]\n\n\n\n\nOverall\n\n\n\\[\n\\dot{m}_\\mathrm{in} = \\dot{m}_1 + \\dot{m}_2\n\\]\n\n\n\n\nwhere\n\n\n\\[\n\\dot{m} = \\sum_\\mathrm{All} \\dot{m}_i\n\\]\n\n\n\n\nAlso\n\n\n\\[\nx_{i_1} = x_{i_2} = x_{i_\\mathrm{in}}\n\\]\n\n\nwhere the mass fraction, \\(x_i \\equiv \\frac{m_i}{m_\\mathrm{Total}} = \\frac{\\dot{m}_i}{\\dot{m}}\\) ."
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nThe full set of multiple reaction mole balances with Equation 1 and Equation 2 is\n\\[\n\\dot{n}_\\mathrm{C_3H_8out} = \\dot{n}_\\mathrm{C_3H_8in} - \\dot{\\xi}_1 - \\dot{\\xi}_2 \\implies \\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{n}_\\mathrm{CO_2in} + 3\\dot{\\xi}_1 + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{CO_2out} = 3\\dot{\\xi}_1\n\\]\n\\[\n\\dot{n}_\\mathrm{COout} = \\dot{n}_\\mathrm{COin} + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_1 + 3 \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{COout} = 3\\dot{\\xi}_2\n\\]\n\\[\n\\dot{n}_\\mathrm{O_2out} = \\dot{n}_\\mathrm{O_2in} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2 = 12.50\\ \\mathrm{kmol/s} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2\n\\]\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = \\dot{n}_\\mathrm{H_2Oin} + 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2 = 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2\n\\]\nFive equations in six unknowns, \\(\\dot{\\xi}_1\\), \\(\\dot{\\xi}_2\\), \\(\\dot{n}_\\mathrm{CO_2out}\\), \\(\\dot{n}_\\mathrm{COout}\\), \\(\\dot{n}_\\mathrm{O_2out}\\), and \\(\\dot{n}_\\mathrm{H_2Oout}\\)."
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#separator",
-    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#separator",
+    "objectID": "balances/material/UnitOpsReactPart2JTFVisuals.html#solution-cont.-2",
+    "href": "balances/material/UnitOpsReactPart2JTFVisuals.html#solution-cont.-2",
     "title": "Chemical and Thermal Processes",
-    "section": "Separator",
-    "text": "Separator\n\n\n\n\nYou often specify the split fraction,\n\\[\nt_{is} \\equiv \\frac{\\dot{n}_{i_s}}{\\dot{n}_{i_\\mathrm{in}}}\n\\]\n\n\n\\(t_{i1}\\) is the split fraction of species \\(i\\) with respect to Stream 1.\n\n\n\\[\n\\dot{n}_{i_1} = t_{i1} \\dot{n}_{i_\\mathrm{in}}\n\\]\n\n\n\\[\n\\dot{n}_{i_2} = (1-t_{i1}) \\dot{n}_{i_\\mathrm{in}}\n\\]\n\n\nIf the split fraction is the same for all species, then the separator is just a divider. The split fractions must be different for the different species to effect a separation."
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nApplying the \\(\\mathrm{CO_2}\\)-to-\\(\\mathrm{CO}\\) constraint\n\\[\n\\frac{\\dot{n}_\\mathrm{COout}}{\\dot{n}_\\mathrm{CO_2out}} = \\frac{1 - 0.80}{0.80}=0.25 = \\frac{3\\dot{\\xi}_2}{3\\dot{\\xi}_1} = \\frac{\\dot{\\xi}_2}{\\dot{\\xi}_1}\n\\]\n\\[\n\\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s} = \\dot{\\xi}_1 + 0.25 \\dot{\\xi}_1 = 1.25 \\dot{\\xi}_1\n\\]\n\\[\n\\implies \\dot{\\xi}_1 = 1.6\\ \\mathrm{kmol/s},\\ \\dot{\\xi}_2 = 0.4\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\implies \\dot{n}_\\mathrm{CO_2out} = 3 \\boldsymbol{\\cdot} 1.6\\ \\mathrm{kmol/s} = 4.8\\ \\mathrm{kmol/s},\n\\]\n\\[\n\\dot{n}_\\mathrm{COout} = 3 \\boldsymbol{\\cdot} 0.4\\ \\mathrm{kmol/s} = 1.2\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{O_2out} = 12.5\\ \\mathrm{kmol/s} - 5 \\boldsymbol{\\cdot} 1.6 - 3.5 \\boldsymbol{\\cdot} 0.4 = 3.10\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = 4 \\boldsymbol{\\cdot} 1.6 + 4 \\boldsymbol{\\cdot} 0.4 = 8.00\\ \\mathrm{kmol/s}\n\\]"
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#the-takeaways",
-    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#the-takeaways",
+    "objectID": "balances/material/UnitOpsReactPart2JTFVisuals.html#solution-cont.-3",
+    "href": "balances/material/UnitOpsReactPart2JTFVisuals.html#solution-cont.-3",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nSolve for the total molar output flow rate two different ways. Sum the output flows \n\\(\\dot{n}_\\mathrm{CO_2out} + \\dot{n}_\\mathrm{COout} + \\dot{n}_\\mathrm{O_2out}+\\dot{n}_\\mathrm{H_2Oout} = 4.8+1.2 +3.1+8\\) \\(\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ = 17.1\\ \\mathrm{kmol/s}\\)\nor calculate the overall stoichiometric coefficients and use the equation for overall flows\n\\[\n\\nu_1 = 3 + 4 -1 - 5 = 1\n\\]\n\\[\n\\nu_2 = 3 + 4 -1 - \\frac{7}{2} = 2.5\n\\]\n\\[\n\\dot{n}_\\mathrm{in} = \\dot{n}_\\mathrm{C_3H_8in} + \\dot{n}_\\mathrm{O_2in} = 2 + 12.5 = 14.5\\ \\mathrm{kmol/s}\n\\]\n\\(\\dot{n}_\\mathrm{out} = \\dot{n}_\\mathrm{out} + 1 \\boldsymbol{\\cdot} \\dot{\\xi}_1 + 2.5 \\dot{\\xi}_1 = 14.5 + 1.6 + 2.5\\boldsymbol{\\cdot} 0.4\\) \\(\\ \\ \\ \\ \\ \\ = 17.1\\ \\mathrm{kmol/s}\\)"
+  },
+  {
+    "objectID": "balances/material/UnitOpsReactPart2JTFVisuals.html#the-takeaways",
+    "href": "balances/material/UnitOpsReactPart2JTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nIn a mixer the molar or mass flow in the output stream is the sum of the molar or mass input flows.\nIn a divider the molar or mass flow in the input stream is the sum of the molar or mass input flows. Also, the composition of each stream is the same.\nIn a separator the molar or mass flow of a given species in an output stream is the split fraction for that species and stream times the molar or mass flow of that species in the input stream."
+    "text": "The Takeaways\n\nMost reactors have multiple reactions going on simultaneously.\nFor multiple reactions, the mole balance sums over all of the reactions, the stoichiometric coefficient for a reactant in a given reaction times the extent of that reaction."
   },
   {
-    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#recycle-example-symbolic-only",
-    "href": "balances/material/RecycleSymbSolJTFVisuals.html#recycle-example-symbolic-only",
+    "objectID": "balances/material/index.html",
+    "href": "balances/material/index.html",
+    "title": "Material Balances",
+    "section": "",
+    "text": "Intro to Systems and Balances"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle",
     "title": "Chemical and Thermal Processes",
-    "section": "Recycle Example Symbolic Only",
-    "text": "Recycle Example Symbolic Only\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(image)\nAssume that the knowns or givens are:\n\\(\\dot{n}_\\mathrm{A1}\\), \\(\\dot{n}_\\mathrm{B1}\\), \\(\\dot{n}_\\mathrm{C1}\\), \\(f_\\mathrm{A}\\) (in reactor), \\(t_\\mathrm{A4}\\), \\(t_\\mathrm{C4}\\), \\(t_\\mathrm{C4}\\)\nFind a full set of equations for all of the flows, extent of reaction, and overall conversion in terms of the knowns.\nIn general, you have to calculate a set of mass balances completely around the recycle loop before you can eliminate the unknowns. Each known will be circled, and each equation that has a single unknown in terms of knowns will be circled."
+    "section": "Recycle",
+    "text": "Recycle\n\nNo reactors go to completion.\nNo separators have perfect separation.\nWasted reagents are wasted money.\nRecycle (like feedback) can improve performance.\n\nNo Recycle\nRecycle"
   },
   {
-    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance",
-    "href": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance",
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example",
     "title": "Chemical and Thermal Processes",
-    "section": "“A” Balance",
-    "text": "“A” Balance\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)\n\\[\n\\dot{n}_\\mathrm{A1} = \\mathrm{given}\n\\]\nMixer\n\\[\n\\dot{n}_\\mathrm{A5} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}\n\\]\nReactor\n\\[\n\\dot{n}_\\mathrm{A2} = (1-f_\\mathrm{A})\\dot{n}_\\mathrm{A5} = (1-f_\\mathrm{A})(\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]\n\\[\n\\dot{n}_\\mathrm{A2} = \\dot{n}_\\mathrm{A5} + \\nu_\\mathrm{A} \\dot{\\xi} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}+ \\nu_\\mathrm{A} \\dot{\\xi}\n\\]\nor\n\\[\n\\dot{\\xi} = (\\dot{n}_\\mathrm{A2} - \\dot{n}_\\mathrm{A5})/\\nu_\\mathrm{A}\n\\]\nSeparator\n\\[\n\\dot{n}_\\mathrm{A4} = t_\\mathrm{A4} \\dot{n}_\\mathrm{A2} = t_\\mathrm{A4} (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]\n\\[\n\\dot{n}_\\mathrm{A3} = (1-t_\\mathrm{A4}) \\dot{n}_\\mathrm{A2} = (1-t_\\mathrm{A4}) (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]"
+    "section": "Recycle Example",
+    "text": "Recycle Example\n(Image)\n\\[\n\\mathrm{C_3H_8 \\rightarrow C_3H_6 + H_2}\n\\]\n\\[\n\\mathrm{A \\rightarrow B + C}\n\\]\nGiven: Feed \\(\\mathrm{100\\ mol/s\\ A}\\)\nReactor: \\(f_\\mathrm{A}=0.10\\ (10\\%)\\)\nSeparator: \\(t_\\mathrm{A3} = 0.995,\\ t_\\mathrm{B4} = 0.950,\\ t_\\mathrm{C4} = 1\\)."
   },
   {
-    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance-cont.",
-    "href": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance-cont.",
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-cont.",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "“A” Balance (cont.)",
-    "text": "“A” Balance (cont.)\nSeparator (cont.)\n\\[\n\\dot{n}_\\mathrm{A3} = (1-t_\\mathrm{A4}) (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]\n\\[\n\\implies \\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A1} \\left[\\frac{(1-f_\\mathrm{A}) (1-t_\\mathrm{A4})}{f_\\mathrm{A} + t_\\mathrm{A4} - f_\\mathrm{A} t_\\mathrm{A4}}\\right]\n\\]\nOnce we have \\(\\dot{n}_\\mathrm{A3}\\)\n\\[\n\\dot{n}_\\mathrm{A5} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}\n\\]\n\\[\n\\dot{n}_\\mathrm{A2} = (1-f_\\mathrm{A}) \\dot{n}_\\mathrm{A5}\n\\]\n\\[\n\\dot{\\xi} = (\\dot{n}_\\mathrm{A2} - \\dot{n}_\\mathrm{A5})/\\nu_\\mathrm{A}\n\\]\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(image)"
+    "section": "Recycle Example (cont.)",
+    "text": "Recycle Example (cont.)\nMaterial Balances\n\n\nReactor\n\\[\n\\dot{\\xi} = f_\\mathrm{A} \\dot{n}_\\mathrm{A1} /(-\\nu_\\mathrm{A})\n\\] \\[\n\\dot{\\xi} = (0.10)(100) = 10\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{i2} = \\dot{n}_\\mathrm{i1} + \\nu_i \\dot{\\xi}\n\\] \\[\n\\dot{n}_\\mathrm{A2} = 100 - 10 = 90\\ \\mathrm{mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{B2} = 0 + 10 = 10\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{C2} = 0 + 10 = 10\\ \\mathrm{mol/s}\n\\]\n\nSeparator\n\\[\n\\dot{n}_\\mathrm{i3} = t_{i3} \\dot{n}_\\mathrm{i2},\\ \\ t_{i4} = 1 - t_{i3}\n\\]\n\\[\n\\dot{n}_\\mathrm{A3}=(0.995)(90) = 89.55\\ \\mathrm{mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{B3}=(0.05)(10) = 0.5\\ \\mathrm{mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{C3}=(0)(10) = 0\\ \\mathrm{mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{A4} = \\dot{n}_\\mathrm{A2} - \\dot{n}_\\mathrm{A3} = 0.45\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{B4} = \\dot{n}_\\mathrm{B2} - \\dot{n}_\\mathrm{B3} = 9.5\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{C4} = \\dot{n}_\\mathrm{C2} - \\dot{n}_\\mathrm{C3} = 10\\ \\mathrm{mol/s}\n\\]"
   },
   {
-    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#b-c-balances",
-    "href": "balances/material/RecycleSymbSolJTFVisuals.html#b-c-balances",
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-spreadsheet",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-spreadsheet",
     "title": "Chemical and Thermal Processes",
-    "section": "“B” & “C” Balances",
-    "text": "“B” & “C” Balances\nFor \\(\\mathrm{B}\\) and \\(\\mathrm{C}\\) we’ll use extent of reaction. The \\(\\mathrm{B}\\) and \\(\\mathrm{C}\\) equations are identical except for the change from \\(\\mathrm{B}\\) to \\(\\mathrm{C}\\) subscripts.\nOverall\n\\[\n\\dot{n}_\\mathrm{B4} = \\dot{n}_\\mathrm{B1} + \\nu_\\mathrm{B} \\dot{\\xi}\n\\]\n\\[\n\\dot{n}_\\mathrm{C4} = \\dot{n}_\\mathrm{C1} + \\nu_\\mathrm{C} \\dot{\\xi}\n\\]\nSeparator\n\\[\n\\dot{n}_\\mathrm{B2} = \\frac{\\dot{n}_\\mathrm{B4}}{t_\\mathrm{B4} }\n\\]\n\\[\n\\dot{n}_\\mathrm{C2} = \\frac{\\dot{n}_\\mathrm{C4}}{t_\\mathrm{C4} }\n\\]\n\\[\n\\dot{n}_\\mathrm{B3} = (1-t_\\mathrm{B4}) \\dot{n}_\\mathrm{B2} = \\frac{1-t_\\mathrm{B4}}{t_\\mathrm{B4}} \\dot{n}_\\mathrm{B4}\n\\]\n\\[\n\\dot{n}_\\mathrm{C3} = (1-t_\\mathrm{C4}) \\dot{n}_\\mathrm{C2} = \\frac{1-t_\\mathrm{C4}}{t_\\mathrm{C4}} \\dot{n}_\\mathrm{C4}\n\\]\nMixer\n\\[\n\\dot{n}_\\mathrm{B5} = \\dot{n}_\\mathrm{B1} + \\dot{n}_\\mathrm{B3}\n\\]\n\\[\n\\dot{n}_\\mathrm{C5} = \\dot{n}_\\mathrm{C1} + \\dot{n}_\\mathrm{C3}\n\\]\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)"
+    "section": "Recycle Example Spreadsheet",
+    "text": "Recycle Example Spreadsheet\n\\[\n\\mathrm{C_3H_8 \\rightarrow C_3H_6 + H_2}\n\\]\n\\[\n\\mathrm{A \\rightarrow B + C}\n\\]"
   },
   {
-    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#summary",
-    "href": "balances/material/RecycleSymbSolJTFVisuals.html#summary",
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle",
     "title": "Chemical and Thermal Processes",
-    "section": "Summary",
-    "text": "Summary\nFinally, the overall fractional conversion of \\(\\mathrm{A}\\), and the product flow rates\nOverall Fractional Conversion\n\\[\nf_\\text{A–overall} = 1-\\frac{\\dot{n}_\\mathrm{A1}}{\\dot{n}_\\mathrm{A4}} = \\frac{f_\\mathrm{A}}{f_\\mathrm{A} + t_\\mathrm{A4} - f_\\mathrm{A} t_\\mathrm{A4}}\n\\]\nOutput Flows (from overall and \\(\\dot{\\xi}\\))\n\\[\n\\dot{n}_\\mathrm{A4} = \\dot{n}_\\mathrm{A1} + \\nu_\\mathrm{A} \\dot{\\xi}\n\\] \\[\n\\dot{n}_\\mathrm{B4} = \\dot{n}_\\mathrm{B1} + \\nu_\\mathrm{B} \\dot{\\xi}\n\\]\n\\[\n\\dot{n}_\\mathrm{C4} = \\dot{n}_\\mathrm{C1} + \\nu_\\mathrm{C} \\dot{\\xi}\n\\]\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)"
+    "section": "Same System with Recycle",
+    "text": "Same System with Recycle\nReactor\n\\[\n\\dot{\\xi} = 0.10 \\dot{n}_\\mathrm{A5}\\ \\mathrm{mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{A2} = \\dot{n}_\\mathrm{A5} - 0.1 \\dot{n}_\\mathrm{A5} = 0.90 \\dot{n}_\\mathrm{A5}\n\\]\nSeparator\n\\[\n\\dot{n}_\\mathrm{A3} = 0.995 \\dot{n}_\\mathrm{A2}\n\\]\n\\[\n\\dot{n}_\\mathrm{A4} = 0.005 \\dot{n}_\\mathrm{A2}\n\\]\nMixer\n\\[\n\\dot{n}_\\mathrm{A5} = 100 + \\dot{n}_\\mathrm{A3}\n\\]\nMaterial balance for component A\nFour equations in four unknowns, \\(\\dot{n}_\\mathrm{A2}\\), \\(\\dot{n}_\\mathrm{A3}\\), \\(\\dot{n}_\\mathrm{A4}\\), and \\(\\dot{n}_\\mathrm{A5}\\)."
   },
   {
-    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#spreadsheet-summary",
-    "href": "balances/material/RecycleSymbSolJTFVisuals.html#spreadsheet-summary",
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle-cont.",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Spreadsheet Summary",
-    "text": "Spreadsheet Summary\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)"
+    "section": "Same System with Recycle (cont.)",
+    "text": "Same System with Recycle (cont.)\nSuccessive substitution for solution\n\\[\n\\dot{n}_\\mathrm{A2} = 0.90 \\dot{n}_\\mathrm{A5}\n\\]\n\\[\n\\dot{n}_\\mathrm{A3} = 0.995 \\dot{n}_\\mathrm{A2} = 0.995(0.90 \\dot{n}_\\mathrm{A5})\n\\]\n\\[\n\\dot{n}_\\mathrm{A5} = 100 + \\dot{n}_\\mathrm{A3}= 100 + 0.995(0.90 \\dot{n}_\\mathrm{A5})\n\\]\n\\[\n\\dot{n}_\\mathrm{A5}[1-0.995(0.90)] = 100\n\\]\n\\[\n\\dot{n}_\\mathrm{A5} = \\frac{100}{[1-0.995(0.90)]} = 956.9\n\\]"
   },
   {
-    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#parametric-plot-of-f_textaoverall",
-    "href": "balances/material/RecycleSymbSolJTFVisuals.html#parametric-plot-of-f_textaoverall",
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle-cont.-1",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle-cont.-1",
     "title": "Chemical and Thermal Processes",
-    "section": "Parametric Plot of \\(f_\\text{A–overall}\\)",
-    "text": "Parametric Plot of \\(f_\\text{A–overall}\\)"
+    "section": "Same System with Recycle (cont.)",
+    "text": "Same System with Recycle (cont.)\nSolution\nSimilar approach for B and C\n\n\n\\[\n\\dot{n}_\\mathrm{A2} = 861\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{A3} = 857\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{A4} = 4.3\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{A5} = 957\\ \\mathrm{mol/s}\n\\]\n\n\\[\n\\dot{n}_\\mathrm{B2} = 101\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{B3} = 5.0\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{B4} = 96\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{B5} = 5.0\\ \\mathrm{mol/s}\n\\]\n\n\\[\n\\dot{n}_\\mathrm{C2} = 96\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{C3} = 0\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{C4} = 96\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{C5} = 0\\ \\mathrm{mol/s}\n\\]"
   },
   {
-    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#the-takeaways",
-    "href": "balances/material/RecycleSymbSolJTFVisuals.html#the-takeaways",
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-cont.-1",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Recycle Example (cont.)",
+    "text": "Recycle Example (cont.)\nWhat did recycle buy us?\nOverall fractional conversion \\(= \\frac{\\dot{n}_\\mathrm{A1} - \\dot{n}_\\mathrm{A4}}{\\dot{n}_\\mathrm{A4}}\\)\n\\[\nf_\\mathrm{A} = \\frac{100-4.3}{100} = 0.957\\ \\mathrm{vs.\\ 0.10}\n\\]\nOverall extent of reaction (same as extent of reaction in the reactor, unlike fractional conversion) \\[\n\\dot{\\xi}_\\mathrm{overall} = 100-4.3 = 95.7\\ \\mathrm{mol/s\\ vs.\\ 10\\ mol/s}\n\\]\nWhat did it cost?\n\\[\n\\dot{n}_\\mathrm{2} = 1058\\ \\mathrm{mol/s\\ vs.\\ 110\\ mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{3} = 862\\ \\mathrm{mol/s\\ vs.\\ 90\\ mol/s}\n\\]"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-spreadsheet-1",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-spreadsheet-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Recycle Example Spreadsheet",
+    "text": "Recycle Example Spreadsheet\n\\[\n\\mathrm{C_3H_8 \\rightarrow C_3H_6 + H_2}\n\\]\n\\[\n\\mathrm{A \\rightarrow B + C}\n\\]"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#bypass",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#bypass",
+    "title": "Chemical and Thermal Processes",
+    "section": "Bypass",
+    "text": "Bypass\n\nLess common than recycle\nCommon example is fruit-juice concentrator.\n\n(image)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#purge",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#purge",
+    "title": "Chemical and Thermal Processes",
+    "section": "Purge",
+    "text": "Purge\n\nOften necessary to remove trace species in the feed\nUsed with recycle when the separator has a split fraction of 0 on a trace species\nLess expensive than an additional separator\n\n(images)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#actual-vs.-instructional-pfd",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#actual-vs.-instructional-pfd",
+    "title": "Chemical and Thermal Processes",
+    "section": "Actual vs. Instructional PFD",
+    "text": "Actual vs. Instructional PFD\nMixers and dividers are almost never shown on actual PFDs.\n(images)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds",
+    "title": "Chemical and Thermal Processes",
+    "section": "Simplifying PFDs",
+    "text": "Simplifying PFDs\nFlowsheets can be simplified by drawing a surrounding box and only dealing with the inputs and outputs. For example, the process flowsheet for the dehydrogenation of propane to propene.\n(image)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds-cont.",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Simplifying PFDs (cont.)",
+    "text": "Simplifying PFDs (cont.)\nThe absorber and stripper can be combined into one separator for calculation purposes.\n(image)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds-cont.-1",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Simplifying PFDs (cont.)",
+    "text": "Simplifying PFDs (cont.)\nThe reactor, separator, distillation column, and recycle loop can be combined into an overall process block for calculation purposes.\n(image)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example of Simplifying",
+    "text": "Example of Simplifying\nLet’s look at the calculations for this slightly more realistic dehydrogenation process.\nProduct flow rate – \\(100\\ \\mathrm{mol/s}\\)\nProduct stream 6 – \\(98\\%\\) propene\nRecycle stream 5 – \\(97\\%\\) propane\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)\n\\(\\mathrm{C_3H_8 \\rightarrow C_3H_6 + H_2}\\) \\(f_\\mathrm{C_3H_8} = 0.35\\) (in reactor)\n\\(\\mathrm{C_3H_8 + 2H_2 \\rightarrow 3CH_4}\\) \\(S = \\frac{\\dot{n}_{\\mathrm{C_3H_6}_\\text{–gen}}}{\\dot{n}_{\\mathrm{CH_3}_\\text{–gen}}} = 2\\) (in reactor)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example of Simplifying (cont.)",
+    "text": "Example of Simplifying (cont.)\nIf there is only one reactor in the process, the extents of reaction overall have to be the same as the extents of reaction in the reactor.\nPropene is produced by reaction 1 only, so\n\\(\\dot{\\xi}_1 = (0.98)(100\\ \\mathrm{mol/s}) = 98\\ \\mathrm{mol/s}\\)\n\\(\\dot{n}_\\text{B–gen} =\\dot{n}_\\mathrm{B6} - \\dot{n}_\\mathrm{B1} = \\dot{n}_\\mathrm{B6}\\)\n\\(\\dot{n}_\\text{C–gen} =\\dot{n}_\\mathrm{C7} - \\dot{n}_\\mathrm{C1} = \\dot{n}_\\mathrm{C7}\\)\n\\(S = \\frac{\\dot{n}_\\text{B–gen}}{\\dot{n}_\\text{C–gen}} = \\frac{\\dot{n}_\\mathrm{B6}}{\\dot{n}_\\mathrm{C7}} = \\frac{\\nu_\\mathrm{B,1} \\dot{\\xi}_1}{\\nu_\\mathrm{C,2} \\dot{\\xi}_2} = \\frac{\\dot{\\xi}_1}{3 \\dot{\\xi}_2} = 2\\)\n\\(\\dot{\\xi}_2 = \\frac{\\dot{\\xi}_1}{6} = \\frac{98}{6}\\)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.-1",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example of Simplifying (cont.)",
+    "text": "Example of Simplifying (cont.)\nMole balance on \\(\\mathrm{A}\\)\n\\(\\dot{n}_\\mathrm{A6} = \\dot{n}_\\mathrm{A1} + \\nu_\\mathrm{A1} \\dot{\\xi}_1 + \\nu_\\mathrm{A2} \\dot{\\xi}_2\\)\n\\(2 = \\dot{n}_\\mathrm{A1} - 98 - 16.3\\)\n\\(\\implies \\dot{n}_\\mathrm{A1} = 116.3\\ \\mathrm{mol/s}\\)\n\\(f_\\mathrm{A} = 1 - \\frac{\\dot{n}_\\mathrm{A3}}{\\dot{n}_\\mathrm{A2}}\\)\n\\(\\implies \\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A2}(1-f_\\mathrm{A})\\)\n\\(\\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A2} + \\nu_\\mathrm{A1} \\dot{\\xi}_1 + \\nu_\\mathrm{A2} \\dot{\\xi}_2 = \\dot{n}_\\mathrm{A2} - \\dot{\\xi}_1 - \\dot{\\xi}_2\\)\n\\(\\dot{n}_\\mathrm{A2}(1-f_\\mathrm{A}) = \\dot{n}_\\mathrm{A2} - \\dot{\\xi}_1 - \\dot{\\xi}_2\\)\n\\(\\dot{n}_\\mathrm{A2} = \\frac{\\dot{\\xi}_1 + \\dot{\\xi}_2}{f_\\mathrm{A}} = \\frac{98 + \\frac{98}{6}}{0.35} = 326.7\\)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.-2",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.-2",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example of Simplifying (cont.)",
+    "text": "Example of Simplifying (cont.)\nMaterial Balance on \\(\\mathrm{A}\\) around each element\nM: \\(\\dot{n}_\\mathrm{A2} = 116.3 + \\dot{n}_\\mathrm{A5}\\)\nR: \\(\\dot{n}_\\mathrm{A3} = 0.65 \\dot{n}_\\mathrm{A2}\\)\nS1: \\(\\dot{n}_\\mathrm{A4} = \\dot{n}_\\mathrm{A3} - \\dot{n}_\\mathrm{A7} = \\dot{n}_\\mathrm{A3}\\)\nS2: \\(2 = \\dot{n}_\\mathrm{A4} - \\dot{n}_\\mathrm{A5}\\)\nSolution\n\\(\\dot{n}_\\mathrm{A2} = 326.6\\ \\mathrm{mol/s}\\)\n\\(\\dot{n}_\\mathrm{A3} = 212.3\\ \\mathrm{mol/s}\\)\n\\(\\dot{n}_\\mathrm{A4} = 212.3\\ \\mathrm{mol/s}\\)\n\\(\\dot{n}_\\mathrm{A5} = 210.3\\ \\mathrm{mol/s}\\)\nRecycle \\(97\\%\\ \\mathrm{A}\\)\n\\(\\therefore\\ \\dot{n}_5 = \\frac{210.3}{0.97} = 216.8\\ \\mathrm{mol/s}\\)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-spreadsheet",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-spreadsheet",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example of Simplifying Spreadsheet",
+    "text": "Example of Simplifying Spreadsheet\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#the-takeaways",
+    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
     "text": "The Takeaways\n\nLearn to recognize things given in the definitions like a PFD, recycle, and bypass.\nDevelop a systematic style to set up and solve problems. Use the given style if you don’t have your own.\nCheck out the speed tips and see if they help."
@@ -2828,158 +2933,158 @@
     "text": "Why Engineering Calculations"
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle",
+    "objectID": "balances/material/UnitOpsReactPart3JTFVisuals.html#summary-of-multiple-reactions",
+    "href": "balances/material/UnitOpsReactPart3JTFVisuals.html#summary-of-multiple-reactions",
     "title": "Chemical and Thermal Processes",
-    "section": "Recycle",
-    "text": "Recycle\n\nNo reactors go to completion.\nNo separators have perfect separation.\nWasted reagents are wasted money.\nRecycle (like feedback) can improve performance.\n\nNo Recycle\nRecycle"
+    "section": "Summary of Multiple Reactions",
+    "text": "Summary of Multiple Reactions\nThe problem statement was:\n\\(2.00\\ \\mathrm{kmol/s}\\) of propane are burned in 25% excess oxygen in a faulty combustor. 100% of the hydrogen combusts to form water, but only 80% of the carbon combusts completely to \\(\\mathrm{CO_2}\\). The remainder combusts to \\(\\mathrm{CO}\\).\n\nCalculate the molar flow rate of oxygen into the combustor.\nCalculate the molar flow rates of each of the combustion products.\nCalculate the total molar flow rate of the exhaust."
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example",
+    "objectID": "balances/material/UnitOpsReactPart3JTFVisuals.html#solution",
+    "href": "balances/material/UnitOpsReactPart3JTFVisuals.html#solution",
     "title": "Chemical and Thermal Processes",
-    "section": "Recycle Example",
-    "text": "Recycle Example\n(Image)\n\\[\n\\mathrm{C_3H_8 \\rightarrow C_3H_6 + H_2}\n\\]\n\\[\n\\mathrm{A \\rightarrow B + C}\n\\]\nGiven: Feed \\(\\mathrm{100\\ mol/s\\ A}\\)\nReactor: \\(f_\\mathrm{A}=0.10\\ (10\\%)\\)\nSeparator: \\(t_\\mathrm{A3} = 0.995,\\ t_\\mathrm{B4} = 0.950,\\ t_\\mathrm{C4} = 1\\)."
+    "section": "Solution",
+    "text": "Solution\nPart a. \\[\n\\dot{n}_\\mathrm{O_2in} = 12.5\\ \\mathrm{kmol/s}\n\\]\nPart b.\n\\[\n\\dot{n}_\\mathrm{CO_2out} = 4.8\\ \\mathrm{kmol/s},\n\\]\n\\[\n\\dot{n}_\\mathrm{COout} = 1.2\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{O_2out} = 3.10\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = 8.00\\ \\mathrm{kmol/s}\n\\]\nPart c.\n\\[\n\\dot{n}_\\mathrm{out} = 17.1\\ \\mathrm{kmol/s}\n\\]"
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-cont.",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-cont.",
+    "objectID": "balances/material/UnitOpsReactPart3JTFVisuals.html#yield-and-selectivity",
+    "href": "balances/material/UnitOpsReactPart3JTFVisuals.html#yield-and-selectivity",
     "title": "Chemical and Thermal Processes",
-    "section": "Recycle Example (cont.)",
-    "text": "Recycle Example (cont.)\nMaterial Balances\n\n\nReactor\n\\[\n\\dot{\\xi} = f_\\mathrm{A} \\dot{n}_\\mathrm{A1} /(-\\nu_\\mathrm{A})\n\\] \\[\n\\dot{\\xi} = (0.10)(100) = 10\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{i2} = \\dot{n}_\\mathrm{i1} + \\nu_i \\dot{\\xi}\n\\] \\[\n\\dot{n}_\\mathrm{A2} = 100 - 10 = 90\\ \\mathrm{mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{B2} = 0 + 10 = 10\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{C2} = 0 + 10 = 10\\ \\mathrm{mol/s}\n\\]\n\nSeparator\n\\[\n\\dot{n}_\\mathrm{i3} = t_{i3} \\dot{n}_\\mathrm{i2},\\ \\ t_{i4} = 1 - t_{i3}\n\\]\n\\[\n\\dot{n}_\\mathrm{A3}=(0.995)(90) = 89.55\\ \\mathrm{mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{B3}=(0.05)(10) = 0.5\\ \\mathrm{mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{C3}=(0)(10) = 0\\ \\mathrm{mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{A4} = \\dot{n}_\\mathrm{A2} - \\dot{n}_\\mathrm{A3} = 0.45\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{B4} = \\dot{n}_\\mathrm{B2} - \\dot{n}_\\mathrm{B3} = 9.5\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{C4} = \\dot{n}_\\mathrm{C2} - \\dot{n}_\\mathrm{C3} = 10\\ \\mathrm{mol/s}\n\\]"
+    "section": "Yield and Selectivity",
+    "text": "Yield and Selectivity\nThere are usually multiple reactions generating one desired product and one or more undesired products. We then define for desired species \\(\\mathrm{R}\\),\nYield\n\\[\nY_\\mathrm{R} = \\frac{n_{\\mathrm{R_{actual}}}}{n_{\\mathrm{R_{possible}}}}\n\\]\nSelectivity\n\\[\nS_\\mathrm{R} = \\frac{n_{\\mathrm{R}}}{n_{\\mathrm{products_{undesired}}}}\n\\]\nThe goal is almost always high yield and high selectivity."
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-spreadsheet",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-spreadsheet",
+    "objectID": "balances/material/UnitOpsReactPart3JTFVisuals.html#yield-example",
+    "href": "balances/material/UnitOpsReactPart3JTFVisuals.html#yield-example",
     "title": "Chemical and Thermal Processes",
-    "section": "Recycle Example Spreadsheet",
-    "text": "Recycle Example Spreadsheet\n\\[\n\\mathrm{C_3H_8 \\rightarrow C_3H_6 + H_2}\n\\]\n\\[\n\\mathrm{A \\rightarrow B + C}\n\\]"
+    "section": "Yield Example",
+    "text": "Yield Example\nAssume that the desired product in the previous example was \\(\\mathrm{CO_2}\\) and that the undesired product was \\(\\mathrm{CO}\\).\nIf all of the propane were converted to \\(\\mathrm{CO_2}\\), then\n\\[\n\\dot{n}_\\mathrm{CO_2possible} = \\frac{\\nu_\\mathrm{CO_2}}{-\\nu_\\mathrm{C_3H_8}}\\dot{n}_\\mathrm{C_3H_8in}=\\frac{3}{-(-1)}2 = 6\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{CO_2actual} = \\dot{n}_\\mathrm{CO_2out} = 4.8\\ \\mathrm{kmol/s}\n\\]\n\\[\nY_\\mathrm{CO_2} = \\frac{\\dot{n}_\\mathrm{CO_2actual}}{\\dot{n}_\\mathrm{CO_2actual} } = \\frac{4.8}{6.0} = 0.80 = 80\\%\n\\]\nWhich we also could have gotten from the problem statement."
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle",
+    "objectID": "balances/material/UnitOpsReactPart3JTFVisuals.html#selectivity-example",
+    "href": "balances/material/UnitOpsReactPart3JTFVisuals.html#selectivity-example",
     "title": "Chemical and Thermal Processes",
-    "section": "Same System with Recycle",
-    "text": "Same System with Recycle\nReactor\n\\[\n\\dot{\\xi} = 0.10 \\dot{n}_\\mathrm{A5}\\ \\mathrm{mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{A2} = \\dot{n}_\\mathrm{A5} - 0.1 \\dot{n}_\\mathrm{A5} = 0.90 \\dot{n}_\\mathrm{A5}\n\\]\nSeparator\n\\[\n\\dot{n}_\\mathrm{A3} = 0.995 \\dot{n}_\\mathrm{A2}\n\\]\n\\[\n\\dot{n}_\\mathrm{A4} = 0.005 \\dot{n}_\\mathrm{A2}\n\\]\nMixer\n\\[\n\\dot{n}_\\mathrm{A5} = 100 + \\dot{n}_\\mathrm{A3}\n\\]\nMaterial balance for component A\nFour equations in four unknowns, \\(\\dot{n}_\\mathrm{A2}\\), \\(\\dot{n}_\\mathrm{A3}\\), \\(\\dot{n}_\\mathrm{A4}\\), and \\(\\dot{n}_\\mathrm{A5}\\)."
+    "section": "Selectivity Example",
+    "text": "Selectivity Example\nAssume that the desired product in the propane example was \\(\\mathrm{CO_2}\\) and that the undesired product was \\(\\mathrm{CO}\\).\n\\[\nS_\\mathrm{CO_2} = \\frac{\\dot{n}_\\mathrm{CO_2out}}{\\dot{n}_\\mathrm{COout}} = \\frac{4.8}{1.2} = 4\n\\]\nWe don’t count the water as an undesired product because it uses none of the \\(\\mathrm{C}\\) in the propane, which is the only species that goes to our desired product. If there had been other carbon containing compounds, e.g., \\(\\mathrm{CH_4}\\), we would have included their flows in the denominator."
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle-cont.",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle-cont.",
+    "objectID": "balances/material/UnitOpsReactPart3JTFVisuals.html#mole-fraction-split-fraction-and-fractional-conversion",
+    "href": "balances/material/UnitOpsReactPart3JTFVisuals.html#mole-fraction-split-fraction-and-fractional-conversion",
     "title": "Chemical and Thermal Processes",
-    "section": "Same System with Recycle (cont.)",
-    "text": "Same System with Recycle (cont.)\nSuccessive substitution for solution\n\\[\n\\dot{n}_\\mathrm{A2} = 0.90 \\dot{n}_\\mathrm{A5}\n\\]\n\\[\n\\dot{n}_\\mathrm{A3} = 0.995 \\dot{n}_\\mathrm{A2} = 0.995(0.90 \\dot{n}_\\mathrm{A5})\n\\]\n\\[\n\\dot{n}_\\mathrm{A5} = 100 + \\dot{n}_\\mathrm{A3}= 100 + 0.995(0.90 \\dot{n}_\\mathrm{A5})\n\\]\n\\[\n\\dot{n}_\\mathrm{A5}[1-0.995(0.90)] = 100\n\\]\n\\[\n\\dot{n}_\\mathrm{A5} = \\frac{100}{[1-0.995(0.90)]} = 956.9\n\\]"
+    "section": "Mole Fraction, Split Fraction, and Fractional Conversion",
+    "text": "Mole Fraction, Split Fraction, and Fractional Conversion\nIt’s easy to get mole fraction, split fraction, and fractional conversion confused.\n\nMole Fraction\n\nAlso called composition, the moles of a species, such as \\(\\mathrm{A}\\) divided by the total number of moles, \\(x_\\mathrm{A} = n_\\mathrm{A}/(\\sum n_i)\\).\n\nSplit Fraction\n\nThe moles of a species, such as \\(\\mathrm{A}\\), coming out of a separator in a given stream, such as stream 1, divided by the moles of \\(\\mathrm{A}\\) going into a separator, \\(t_{A1} = \\dot{n}_\\mathrm{A1}/\\dot{n}_\\mathrm{Ain}\\).\n\nFractional Conversion\n\nThe moles of a reactant, such as \\(\\mathrm{A}\\), converted to products in a reactor or process, \\(f_\\mathrm{A} = (\\dot{n}_\\mathrm{A_{in}} - \\dot{n}_\\mathrm{A_{out}})/\\dot{n}_\\mathrm{A_{in}} = 1 - (\\dot{n}_\\mathrm{A_{out}}/\\dot{n}_\\mathrm{A_{in}})\\)"
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle-cont.-1",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#same-system-with-recycle-cont.-1",
+    "objectID": "balances/material/UnitOpsReactPart3JTFVisuals.html#the-takeaways",
+    "href": "balances/material/UnitOpsReactPart3JTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
-    "section": "Same System with Recycle (cont.)",
-    "text": "Same System with Recycle (cont.)\nSolution\nSimilar approach for B and C\n\n\n\\[\n\\dot{n}_\\mathrm{A2} = 861\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{A3} = 857\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{A4} = 4.3\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{A5} = 957\\ \\mathrm{mol/s}\n\\]\n\n\\[\n\\dot{n}_\\mathrm{B2} = 101\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{B3} = 5.0\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{B4} = 96\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{B5} = 5.0\\ \\mathrm{mol/s}\n\\]\n\n\\[\n\\dot{n}_\\mathrm{C2} = 96\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{C3} = 0\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{C4} = 96\\ \\mathrm{mol/s}\n\\] \\[\n\\dot{n}_\\mathrm{C5} = 0\\ \\mathrm{mol/s}\n\\]"
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nFor reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.\nThe yield is the fraction of the desired product that could be produced that is actually produced..\nThe selectivity is the ratio of the desired product to the undesired products.\nDon’t confuse mole fraction, \\(x_\\mathrm{A} = n_\\mathrm{A}/(\\sum n_i)\\), split fraction, \\(t_{A1} = \\dot{n}_\\mathrm{A1}/\\dot{n}_\\mathrm{Ain}\\), and fractional conversion.\\(f_\\mathrm{A} = (\\dot{n}_\\mathrm{A_{in}} - \\dot{n}_\\mathrm{A_{out}})/\\dot{n}_\\mathrm{A_{in}}\\)."
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-cont.-1",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-cont.-1",
+    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#recycle-example-symbolic-only",
+    "href": "balances/material/RecycleSymbSolJTFVisuals.html#recycle-example-symbolic-only",
     "title": "Chemical and Thermal Processes",
-    "section": "Recycle Example (cont.)",
-    "text": "Recycle Example (cont.)\nWhat did recycle buy us?\nOverall fractional conversion \\(= \\frac{\\dot{n}_\\mathrm{A1} - \\dot{n}_\\mathrm{A4}}{\\dot{n}_\\mathrm{A4}}\\)\n\\[\nf_\\mathrm{A} = \\frac{100-4.3}{100} = 0.957\\ \\mathrm{vs.\\ 0.10}\n\\]\nOverall extent of reaction (same as extent of reaction in the reactor, unlike fractional conversion) \\[\n\\dot{\\xi}_\\mathrm{overall} = 100-4.3 = 95.7\\ \\mathrm{mol/s\\ vs.\\ 10\\ mol/s}\n\\]\nWhat did it cost?\n\\[\n\\dot{n}_\\mathrm{2} = 1058\\ \\mathrm{mol/s\\ vs.\\ 110\\ mol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{3} = 862\\ \\mathrm{mol/s\\ vs.\\ 90\\ mol/s}\n\\]"
+    "section": "Recycle Example Symbolic Only",
+    "text": "Recycle Example Symbolic Only\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(image)\nAssume that the knowns or givens are:\n\\(\\dot{n}_\\mathrm{A1}\\), \\(\\dot{n}_\\mathrm{B1}\\), \\(\\dot{n}_\\mathrm{C1}\\), \\(f_\\mathrm{A}\\) (in reactor), \\(t_\\mathrm{A4}\\), \\(t_\\mathrm{C4}\\), \\(t_\\mathrm{C4}\\)\nFind a full set of equations for all of the flows, extent of reaction, and overall conversion in terms of the knowns.\nIn general, you have to calculate a set of mass balances completely around the recycle loop before you can eliminate the unknowns. Each known will be circled, and each equation that has a single unknown in terms of knowns will be circled."
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-spreadsheet-1",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle-example-spreadsheet-1",
+    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance",
+    "href": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance",
     "title": "Chemical and Thermal Processes",
-    "section": "Recycle Example Spreadsheet",
-    "text": "Recycle Example Spreadsheet\n\\[\n\\mathrm{C_3H_8 \\rightarrow C_3H_6 + H_2}\n\\]\n\\[\n\\mathrm{A \\rightarrow B + C}\n\\]"
+    "section": "“A” Balance",
+    "text": "“A” Balance\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)\n\\[\n\\dot{n}_\\mathrm{A1} = \\mathrm{given}\n\\]\nMixer\n\\[\n\\dot{n}_\\mathrm{A5} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}\n\\]\nReactor\n\\[\n\\dot{n}_\\mathrm{A2} = (1-f_\\mathrm{A})\\dot{n}_\\mathrm{A5} = (1-f_\\mathrm{A})(\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]\n\\[\n\\dot{n}_\\mathrm{A2} = \\dot{n}_\\mathrm{A5} + \\nu_\\mathrm{A} \\dot{\\xi} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}+ \\nu_\\mathrm{A} \\dot{\\xi}\n\\]\nor\n\\[\n\\dot{\\xi} = (\\dot{n}_\\mathrm{A2} - \\dot{n}_\\mathrm{A5})/\\nu_\\mathrm{A}\n\\]\nSeparator\n\\[\n\\dot{n}_\\mathrm{A4} = t_\\mathrm{A4} \\dot{n}_\\mathrm{A2} = t_\\mathrm{A4} (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]\n\\[\n\\dot{n}_\\mathrm{A3} = (1-t_\\mathrm{A4}) \\dot{n}_\\mathrm{A2} = (1-t_\\mathrm{A4}) (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]"
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#bypass",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#bypass",
+    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance-cont.",
+    "href": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Bypass",
-    "text": "Bypass\n\nLess common than recycle\nCommon example is fruit-juice concentrator.\n\n(image)"
+    "section": "“A” Balance (cont.)",
+    "text": "“A” Balance (cont.)\nSeparator (cont.)\n\\[\n\\dot{n}_\\mathrm{A3} = (1-t_\\mathrm{A4}) (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]\n\\[\n\\implies \\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A1} \\left[\\frac{(1-f_\\mathrm{A}) (1-t_\\mathrm{A4})}{f_\\mathrm{A} + t_\\mathrm{A4} - f_\\mathrm{A} t_\\mathrm{A4}}\\right]\n\\]\nOnce we have \\(\\dot{n}_\\mathrm{A3}\\)\n\\[\n\\dot{n}_\\mathrm{A5} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}\n\\]\n\\[\n\\dot{n}_\\mathrm{A2} = (1-f_\\mathrm{A}) \\dot{n}_\\mathrm{A5}\n\\]\n\\[\n\\dot{\\xi} = (\\dot{n}_\\mathrm{A2} - \\dot{n}_\\mathrm{A5})/\\nu_\\mathrm{A}\n\\]\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(image)"
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#purge",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#purge",
+    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#b-c-balances",
+    "href": "balances/material/RecycleSymbSolJTFVisuals.html#b-c-balances",
     "title": "Chemical and Thermal Processes",
-    "section": "Purge",
-    "text": "Purge\n\nOften necessary to remove trace species in the feed\nUsed with recycle when the separator has a split fraction of 0 on a trace species\nLess expensive than an additional separator\n\n(images)"
+    "section": "“B” & “C” Balances",
+    "text": "“B” & “C” Balances\nFor \\(\\mathrm{B}\\) and \\(\\mathrm{C}\\) we’ll use extent of reaction. The \\(\\mathrm{B}\\) and \\(\\mathrm{C}\\) equations are identical except for the change from \\(\\mathrm{B}\\) to \\(\\mathrm{C}\\) subscripts.\nOverall\n\\[\n\\dot{n}_\\mathrm{B4} = \\dot{n}_\\mathrm{B1} + \\nu_\\mathrm{B} \\dot{\\xi}\n\\]\n\\[\n\\dot{n}_\\mathrm{C4} = \\dot{n}_\\mathrm{C1} + \\nu_\\mathrm{C} \\dot{\\xi}\n\\]\nSeparator\n\\[\n\\dot{n}_\\mathrm{B2} = \\frac{\\dot{n}_\\mathrm{B4}}{t_\\mathrm{B4} }\n\\]\n\\[\n\\dot{n}_\\mathrm{C2} = \\frac{\\dot{n}_\\mathrm{C4}}{t_\\mathrm{C4} }\n\\]\n\\[\n\\dot{n}_\\mathrm{B3} = (1-t_\\mathrm{B4}) \\dot{n}_\\mathrm{B2} = \\frac{1-t_\\mathrm{B4}}{t_\\mathrm{B4}} \\dot{n}_\\mathrm{B4}\n\\]\n\\[\n\\dot{n}_\\mathrm{C3} = (1-t_\\mathrm{C4}) \\dot{n}_\\mathrm{C2} = \\frac{1-t_\\mathrm{C4}}{t_\\mathrm{C4}} \\dot{n}_\\mathrm{C4}\n\\]\nMixer\n\\[\n\\dot{n}_\\mathrm{B5} = \\dot{n}_\\mathrm{B1} + \\dot{n}_\\mathrm{B3}\n\\]\n\\[\n\\dot{n}_\\mathrm{C5} = \\dot{n}_\\mathrm{C1} + \\dot{n}_\\mathrm{C3}\n\\]\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)"
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#actual-vs.-instructional-pfd",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#actual-vs.-instructional-pfd",
+    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#summary",
+    "href": "balances/material/RecycleSymbSolJTFVisuals.html#summary",
     "title": "Chemical and Thermal Processes",
-    "section": "Actual vs. Instructional PFD",
-    "text": "Actual vs. Instructional PFD\nMixers and dividers are almost never shown on actual PFDs.\n(images)"
+    "section": "Summary",
+    "text": "Summary\nFinally, the overall fractional conversion of \\(\\mathrm{A}\\), and the product flow rates\nOverall Fractional Conversion\n\\[\nf_\\text{A–overall} = 1-\\frac{\\dot{n}_\\mathrm{A1}}{\\dot{n}_\\mathrm{A4}} = \\frac{f_\\mathrm{A}}{f_\\mathrm{A} + t_\\mathrm{A4} - f_\\mathrm{A} t_\\mathrm{A4}}\n\\]\nOutput Flows (from overall and \\(\\dot{\\xi}\\))\n\\[\n\\dot{n}_\\mathrm{A4} = \\dot{n}_\\mathrm{A1} + \\nu_\\mathrm{A} \\dot{\\xi}\n\\] \\[\n\\dot{n}_\\mathrm{B4} = \\dot{n}_\\mathrm{B1} + \\nu_\\mathrm{B} \\dot{\\xi}\n\\]\n\\[\n\\dot{n}_\\mathrm{C4} = \\dot{n}_\\mathrm{C1} + \\nu_\\mathrm{C} \\dot{\\xi}\n\\]\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)"
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds",
+    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#spreadsheet-summary",
+    "href": "balances/material/RecycleSymbSolJTFVisuals.html#spreadsheet-summary",
     "title": "Chemical and Thermal Processes",
-    "section": "Simplifying PFDs",
-    "text": "Simplifying PFDs\nFlowsheets can be simplified by drawing a surrounding box and only dealing with the inputs and outputs. For example, the process flowsheet for the dehydrogenation of propane to propene.\n(image)"
+    "section": "Spreadsheet Summary",
+    "text": "Spreadsheet Summary\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)"
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds-cont.",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds-cont.",
+    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#parametric-plot-of-f_textaoverall",
+    "href": "balances/material/RecycleSymbSolJTFVisuals.html#parametric-plot-of-f_textaoverall",
     "title": "Chemical and Thermal Processes",
-    "section": "Simplifying PFDs (cont.)",
-    "text": "Simplifying PFDs (cont.)\nThe absorber and stripper can be combined into one separator for calculation purposes.\n(image)"
+    "section": "Parametric Plot of \\(f_\\text{A–overall}\\)",
+    "text": "Parametric Plot of \\(f_\\text{A–overall}\\)"
   },
   {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds-cont.-1",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#simplifying-pfds-cont.-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Simplifying PFDs (cont.)",
-    "text": "Simplifying PFDs (cont.)\nThe reactor, separator, distillation column, and recycle loop can be combined into an overall process block for calculation purposes.\n(image)"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example of Simplifying",
-    "text": "Example of Simplifying\nLet’s look at the calculations for this slightly more realistic dehydrogenation process.\nProduct flow rate – \\(100\\ \\mathrm{mol/s}\\)\nProduct stream 6 – \\(98\\%\\) propene\nRecycle stream 5 – \\(97\\%\\) propane\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)\n\\(\\mathrm{C_3H_8 \\rightarrow C_3H_6 + H_2}\\) \\(f_\\mathrm{C_3H_8} = 0.35\\) (in reactor)\n\\(\\mathrm{C_3H_8 + 2H_2 \\rightarrow 3CH_4}\\) \\(S = \\frac{\\dot{n}_{\\mathrm{C_3H_6}_\\text{–gen}}}{\\dot{n}_{\\mathrm{CH_3}_\\text{–gen}}} = 2\\) (in reactor)"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example of Simplifying (cont.)",
-    "text": "Example of Simplifying (cont.)\nIf there is only one reactor in the process, the extents of reaction overall have to be the same as the extents of reaction in the reactor.\nPropene is produced by reaction 1 only, so\n\\(\\dot{\\xi}_1 = (0.98)(100\\ \\mathrm{mol/s}) = 98\\ \\mathrm{mol/s}\\)\n\\(\\dot{n}_\\text{B–gen} =\\dot{n}_\\mathrm{B6} - \\dot{n}_\\mathrm{B1} = \\dot{n}_\\mathrm{B6}\\)\n\\(\\dot{n}_\\text{C–gen} =\\dot{n}_\\mathrm{C7} - \\dot{n}_\\mathrm{C1} = \\dot{n}_\\mathrm{C7}\\)\n\\(S = \\frac{\\dot{n}_\\text{B–gen}}{\\dot{n}_\\text{C–gen}} = \\frac{\\dot{n}_\\mathrm{B6}}{\\dot{n}_\\mathrm{C7}} = \\frac{\\nu_\\mathrm{B,1} \\dot{\\xi}_1}{\\nu_\\mathrm{C,2} \\dot{\\xi}_2} = \\frac{\\dot{\\xi}_1}{3 \\dot{\\xi}_2} = 2\\)\n\\(\\dot{\\xi}_2 = \\frac{\\dot{\\xi}_1}{6} = \\frac{98}{6}\\)"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.-1",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example of Simplifying (cont.)",
-    "text": "Example of Simplifying (cont.)\nMole balance on \\(\\mathrm{A}\\)\n\\(\\dot{n}_\\mathrm{A6} = \\dot{n}_\\mathrm{A1} + \\nu_\\mathrm{A1} \\dot{\\xi}_1 + \\nu_\\mathrm{A2} \\dot{\\xi}_2\\)\n\\(2 = \\dot{n}_\\mathrm{A1} - 98 - 16.3\\)\n\\(\\implies \\dot{n}_\\mathrm{A1} = 116.3\\ \\mathrm{mol/s}\\)\n\\(f_\\mathrm{A} = 1 - \\frac{\\dot{n}_\\mathrm{A3}}{\\dot{n}_\\mathrm{A2}}\\)\n\\(\\implies \\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A2}(1-f_\\mathrm{A})\\)\n\\(\\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A2} + \\nu_\\mathrm{A1} \\dot{\\xi}_1 + \\nu_\\mathrm{A2} \\dot{\\xi}_2 = \\dot{n}_\\mathrm{A2} - \\dot{\\xi}_1 - \\dot{\\xi}_2\\)\n\\(\\dot{n}_\\mathrm{A2}(1-f_\\mathrm{A}) = \\dot{n}_\\mathrm{A2} - \\dot{\\xi}_1 - \\dot{\\xi}_2\\)\n\\(\\dot{n}_\\mathrm{A2} = \\frac{\\dot{\\xi}_1 + \\dot{\\xi}_2}{f_\\mathrm{A}} = \\frac{98 + \\frac{98}{6}}{0.35} = 326.7\\)"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.-2",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-cont.-2",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example of Simplifying (cont.)",
-    "text": "Example of Simplifying (cont.)\nMaterial Balance on \\(\\mathrm{A}\\) around each element\nM: \\(\\dot{n}_\\mathrm{A2} = 116.3 + \\dot{n}_\\mathrm{A5}\\)\nR: \\(\\dot{n}_\\mathrm{A3} = 0.65 \\dot{n}_\\mathrm{A2}\\)\nS1: \\(\\dot{n}_\\mathrm{A4} = \\dot{n}_\\mathrm{A3} - \\dot{n}_\\mathrm{A7} = \\dot{n}_\\mathrm{A3}\\)\nS2: \\(2 = \\dot{n}_\\mathrm{A4} - \\dot{n}_\\mathrm{A5}\\)\nSolution\n\\(\\dot{n}_\\mathrm{A2} = 326.6\\ \\mathrm{mol/s}\\)\n\\(\\dot{n}_\\mathrm{A3} = 212.3\\ \\mathrm{mol/s}\\)\n\\(\\dot{n}_\\mathrm{A4} = 212.3\\ \\mathrm{mol/s}\\)\n\\(\\dot{n}_\\mathrm{A5} = 210.3\\ \\mathrm{mol/s}\\)\nRecycle \\(97\\%\\ \\mathrm{A}\\)\n\\(\\therefore\\ \\dot{n}_5 = \\frac{210.3}{0.97} = 216.8\\ \\mathrm{mol/s}\\)"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-spreadsheet",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#example-of-simplifying-spreadsheet",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example of Simplifying Spreadsheet",
-    "text": "Example of Simplifying Spreadsheet\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#the-takeaways",
-    "href": "balances/material/RecycleBypassPart1JTFVisuals.html#the-takeaways",
+    "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#the-takeaways",
+    "href": "balances/material/RecycleSymbSolJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
     "text": "The Takeaways\n\nLearn to recognize things given in the definitions like a PFD, recycle, and bypass.\nDevelop a systematic style to set up and solve problems. Use the given style if you don’t have your own.\nCheck out the speed tips and see if they help."
   },
   {
-    "objectID": "balances/material/index.html",
-    "href": "balances/material/index.html",
-    "title": "Material Balances",
-    "section": "",
-    "text": "Intro to Systems and Balances"
+    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#common-processing-units",
+    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#common-processing-units",
+    "title": "Chemical and Thermal Processes",
+    "section": "Common Processing Units",
+    "text": "Common Processing Units\n\nMixer\nDivider\nSeparator\nReactor (Next three videos)\n\n\nFor open steady-state systems it is useful to use the following definitions and constitutive relationships:"
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#mixer",
+    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#mixer",
+    "title": "Chemical and Thermal Processes",
+    "section": "Mixer",
+    "text": "Mixer\n\n\n\n\nFor each component, \\(i\\),\n\\[\n\\dot{n}_{i_\\mathrm{out}} = \\dot{n}_{i_1} + \\dot{n}_{i_2} + \\cdots +\\dot{n}_{i_k}\n\\]\n\n\nOverall\n\\[\n\\dot{n}_\\mathrm{out} = \\dot{n}_1 + \\dot{n}_2 + \\cdots +\\dot{n}_k\n\\]\n\n\nwhere\n\\[\n\\dot{n} = \\sum_\\mathrm{All} \\dot{n}_i\n\\]"
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#mixer-usage",
+    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#mixer-usage",
+    "title": "Chemical and Thermal Processes",
+    "section": "Mixer Usage",
+    "text": "Mixer Usage\n\nA mixer combines (or mixes) the input streams together, so that the output stream is just the sum of all of the input streams.\n\n\nThe mass equations for a mixer are the same as the mole equations, with the \\(n\\)’s or \\(\\dot{n}\\)’s replaced by \\(m\\)’s or \\(\\dot{m}\\)’s.\n\\[\n\\dot{m}_{i_\\mathrm{out}} = \\dot{m}_{i_1} + \\dot{n}_{i_2} + \\cdots +\\dot{m}_{i_k}\n\\]\nOverall\n\\[\n\\dot{m}_\\mathrm{out} = \\dot{m}_1 + \\dot{m}_2 + \\cdots +\\dot{m}_k\n\\]\nwhere\n\\[\n\\dot{m} = \\sum_\\mathrm{All} \\dot{m}_i\n\\]"
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#divider",
+    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#divider",
+    "title": "Chemical and Thermal Processes",
+    "section": "Divider",
+    "text": "Divider\n\n\n\n\n\nFor each component, \\(i\\),\n\n\n\\[\n\\dot{n}_{i_\\mathrm{in}} = \\dot{n}_{i_1} + \\dot{n}_{i_2}\n\\]\n\n\n\n\nOverall\n\n\n\\[\n\\dot{n}_\\mathrm{in} = \\dot{n}_1 + \\dot{n}_2\n\\]\n\n\n\n\nwhere\n\n\n\\[\n\\dot{n} = \\sum_\\mathrm{All} \\dot{n}_i\n\\]\n\n\n\n\nAlso\n\n\n\\[\nx_{i_1} = x_{i_2} = x_{i_\\mathrm{in}}\n\\]\n\n\nwhere the mole fraction, \\(x_i \\equiv \\frac{n_i}{m_\\mathrm{Total}} = \\frac{\\dot{n}_i}{\\dot{n}}\\) ."
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#divider-usage",
+    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#divider-usage",
+    "title": "Chemical and Thermal Processes",
+    "section": "Divider Usage",
+    "text": "Divider Usage\n\n\nA divider is used when a single stream needs to be divided up into two or more streams. The mass equations for a divider are the same as the mole equations, with the \\(n\\)’s or\\(\\dot{n}\\)’s replaced by \\(m\\)’s or \\(\\dot{m}\\)’s.\n\n\n\n\nFor each component, \\(i\\),\n\n\n\\[\n\\dot{m}_{i_\\mathrm{in}} = \\dot{m}_{i_1} + \\dot{m}_{i_2}\n\\]\n\n\n\n\nOverall\n\n\n\\[\n\\dot{m}_\\mathrm{in} = \\dot{m}_1 + \\dot{m}_2\n\\]\n\n\n\n\nwhere\n\n\n\\[\n\\dot{m} = \\sum_\\mathrm{All} \\dot{m}_i\n\\]\n\n\n\n\nAlso\n\n\n\\[\nx_{i_1} = x_{i_2} = x_{i_\\mathrm{in}}\n\\]\n\n\nwhere the mass fraction, \\(x_i \\equiv \\frac{m_i}{m_\\mathrm{Total}} = \\frac{\\dot{m}_i}{\\dot{m}}\\) ."
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#separator",
+    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#separator",
+    "title": "Chemical and Thermal Processes",
+    "section": "Separator",
+    "text": "Separator\n\n\n\n\nYou often specify the split fraction,\n\\[\nt_{is} \\equiv \\frac{\\dot{n}_{i_s}}{\\dot{n}_{i_\\mathrm{in}}}\n\\]\n\n\n\\(t_{i1}\\) is the split fraction of species \\(i\\) with respect to Stream 1.\n\n\n\\[\n\\dot{n}_{i_1} = t_{i1} \\dot{n}_{i_\\mathrm{in}}\n\\]\n\n\n\\[\n\\dot{n}_{i_2} = (1-t_{i1}) \\dot{n}_{i_\\mathrm{in}}\n\\]\n\n\nIf the split fraction is the same for all species, then the separator is just a divider. The split fractions must be different for the different species to effect a separation."
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#the-takeaways",
+    "href": "balances/material/UnitOpsMixDivSepJTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nIn a mixer the molar or mass flow in the output stream is the sum of the molar or mass input flows.\nIn a divider the molar or mass flow in the input stream is the sum of the molar or mass input flows. Also, the composition of each stream is the same.\nIn a separator the molar or mass flow of a given species in an output stream is the split fraction for that species and stream times the molar or mass flow of that species in the input stream."
   },
   {
     "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#chemical-reactions",
@@ -3045,88 +3150,11 @@
     "text": "Limiting Reactant Example\n\\[\n\\mathrm{N_2+3H_2 = 2NH_3}\n\\]\nIf \\(\\dot{n}_\\mathrm{N_2in}= 100\\ \\mathrm{mol/s}\\) and \\(\\dot{n}_\\mathrm{H_2in}= 200\\ \\mathrm{mol/s}\\),\nThen\n\\[\n\\frac{200}{3} &lt; \\frac{100}{1}\n\\]\nand \\(\\mathrm{H_2}\\) is the limiting reactant.\nAlso \\(\\dot{\\xi} = \\frac{200}{3}\\) for 100% conversion of \\(\\mathrm{H_2}\\)\nand \\(\\dot{n}_\\mathrm{N_2stoic}=\\dot{\\xi}(-\\nu_\\mathrm{N_2}) = \\frac{200}{3}(1)\\).\nSo the fractional excess of \\(\\mathrm{N_2}\\) is\n\\[\n\\frac{\\dot{n}_\\mathrm{N_2in} - \\dot{n}_\\mathrm{N_2stoic}}{\\dot{n}_\\mathrm{N_2stoic}} = \\frac{100-\\frac{200}{3}}{\\frac{200}{3}} = \\frac{1}{2} = 50\\%\n\\]"
   },
   {
-    "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#mole-balance-for-multiple-reactions",
-    "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#mole-balance-for-multiple-reactions",
-    "title": "Chemical and Thermal Processes",
-    "section": "Mole Balance for Multiple Reactions",
-    "text": "Mole Balance for Multiple Reactions\n\n\n\\(\\dot{n}_{i_\\mathrm{in}}\\)\n\n\n\\(\\dot{n}_{i_\\mathrm{in}}\\)\n\n\n\n\nDifferential Balance\n\\[\n\\dot{n}_{i_\\mathrm{out}} = \\dot{n}_{i_\\mathrm{in}} + \\sum_{j=1}^J \\nu_{ij} \\dot{\\xi}_j\n\\]\n\\[\n\\dot{n}_\\mathrm{out} = \\dot{n}_\\mathrm{in} + \\sum_{j=1}^J \\nu_{j} \\dot{\\xi}_j\n\\]\n\nIntegral Balance\n\\[\nn_{i_\\mathrm{out}} = n_{i_\\mathrm{in}} + \\sum_{j=1}^J \\nu_{ij} \\xi_j\n\\]\n\\[\nn_\\mathrm{out} = n_\\mathrm{in} + \\sum_{j=1}^J \\nu_{j} \\xi_j\n\\]\n\n\\(\\nu_{ij}\\) is the stoichiometric coefficient for reactant \\(i\\) in reaction \\(j\\).\n\\(\\nu_{j}\\) is the overall stoichiometric coefficient for reaction \\(j\\).\n\\(\\dot{\\xi}_j,\\ \\xi_j\\) is the extent of reaction j."
-  },
-  {
-    "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#sample-with-multiple-reactions",
-    "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#sample-with-multiple-reactions",
-    "title": "Chemical and Thermal Processes",
-    "section": "Sample with Multiple Reactions",
-    "text": "Sample with Multiple Reactions\n\\(2.00\\ \\mathrm{kmol/s}\\) of propane are burned in 25% excess oxygen in a faulty combustor. 100% of the hydrogen combusts to form water, but only 80% of the carbon combusts completely to \\(\\mathrm{CO_2}\\). The remainder combusts to \\(\\mathrm{CO}\\).\n\nCalculate the molar flow rate of oxygen into the combustor.\nCalculate the molar flow rates of each of the combustion products.\nCalculate the total molar flow rate of the exhaust."
-  },
-  {
-    "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#solution",
-    "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#solution",
-    "title": "Chemical and Thermal Processes",
-    "section": "Solution",
-    "text": "Solution\nThere are multiple sets of chemical equations we could write. We will use the following:\n\\[\n\\mathrm{C_3H_8 + 5O_2} \\rightarrow \\mathrm{3CO_2 + 4 H_2O}\n\\tag{1}\\]\n\\[\n\\mathrm{C_3H_8 + \\frac{7}{2}O_2} \\rightarrow \\mathrm{3CO + 4H_2O}\n\\tag{2}\\]\nTo calculate excess oxygen, you need to calculate complete combustion. The appropriate equation is Equation 1.\n\\[\n\\dot{n}_\\mathrm{O_2stoic} = \\frac{\\nu_\\mathrm{O_2}}{\\nu_\\mathrm{C_3H_8}} \\dot{n}_\\mathrm{C_3H_8stoic} = \\frac{-5}{-1}(2\\ \\mathrm{kmol/s}) = 10\\ \\mathrm{kmol/s}\n\\]"
-  },
-  {
-    "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#solution-cont.",
-    "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#solution-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\n\\[\n\\mathrm{frac.\\ xs} = 0.25 = \\frac{ \\dot{n}_\\mathrm{O_2in} - \\dot{n}_\\mathrm{O_2stoic} }{\\dot{n}_\\mathrm{O_2stoic}}\n\\]\n\\[\n\\dot{n}_\\mathrm{O_2in} = (1 + \\mathrm{frac.\\ xs})\\dot{n}_\\mathrm{O_2stoic} = 1.25(10\\ \\mathrm{kmol/s})\n\\] \\[\n= 12.5\\ \\mathrm{kmol/s}\n\\]\nfor 25% excess oxygen."
-  },
-  {
-    "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#solution-cont.-1",
-    "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#solution-cont.-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nThe full set of multiple reaction mole balances with Equation 1 and Equation 2 is\n\\[\n\\dot{n}_\\mathrm{C_3H_8out} = \\dot{n}_\\mathrm{C_3H_8in} - \\dot{\\xi}_1 - \\dot{\\xi}_2 \\implies \\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{n}_\\mathrm{CO_2in} + 3\\dot{\\xi}_1 + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{CO_2out} = 3\\dot{\\xi}_1\n\\]\n\\[\n\\dot{n}_\\mathrm{COout} = \\dot{n}_\\mathrm{COin} + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_1 + 3 \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{COout} = 3\\dot{\\xi}_2\n\\]\n\\[\n\\dot{n}_\\mathrm{O_2out} = \\dot{n}_\\mathrm{O_2in} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2 = 12.50\\ \\mathrm{kmol/s} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2\n\\]\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = \\dot{n}_\\mathrm{H_2Oin} + 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2 = 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2\n\\]\nFive equations in six unknowns, \\(\\dot{\\xi}_1\\), \\(\\dot{\\xi}_2\\), \\(\\dot{n}_\\mathrm{CO_2out}\\), \\(\\dot{n}_\\mathrm{COout}\\), \\(\\dot{n}_\\mathrm{O_2out}\\), and \\(\\dot{n}_\\mathrm{H_2Oout}\\)."
-  },
-  {
-    "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#solution-cont.-2",
-    "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#solution-cont.-2",
-    "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nApplying the \\(\\mathrm{CO_2}\\)-to-\\(\\mathrm{CO}\\) constraint\n\\[\n\\frac{\\dot{n}_\\mathrm{COout}}{\\dot{n}_\\mathrm{CO_2out}} = \\frac{1 - 0.80}{0.80}=0.25 = \\frac{3\\dot{\\xi}_2}{3\\dot{\\xi}_1} = \\frac{\\dot{\\xi}_2}{\\dot{\\xi}_1}\n\\]\n\\[\n\\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s} = \\dot{\\xi}_1 + 0.25 \\dot{\\xi}_1 = 1.25 \\dot{\\xi}_1\n\\]\n\\[\n\\implies \\dot{\\xi}_1 = 1.6\\ \\mathrm{kmol/s},\\ \\dot{\\xi}_2 = 0.4\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\implies \\dot{n}_\\mathrm{CO_2out} = 3 \\boldsymbol{\\cdot} 1.6\\ \\mathrm{kmol/s} = 4.8\\ \\mathrm{kmol/s},\n\\]\n\\[\n\\dot{n}_\\mathrm{COout} = 3 \\boldsymbol{\\cdot} 0.4\\ \\mathrm{kmol/s} = 1.2\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{O_2out} = 12.5\\ \\mathrm{kmol/s} - 5 \\boldsymbol{\\cdot} 1.6 - 3.5 \\boldsymbol{\\cdot} 0.4 = 3.10\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = 4 \\boldsymbol{\\cdot} 1.6 + 4 \\boldsymbol{\\cdot} 0.4 = 8.00\\ \\mathrm{kmol/s}\n\\]"
-  },
-  {
-    "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#solution-cont.-3",
-    "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#solution-cont.-3",
-    "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nSolve for the total molar output flow rate two different ways. Sum the output flows \n\\(\\dot{n}_\\mathrm{CO_2out} + \\dot{n}_\\mathrm{COout} + \\dot{n}_\\mathrm{O_2out}+\\dot{n}_\\mathrm{H_2Oout} = 4.8+1.2 +3.1+8\\) \\(\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ = 17.1\\ \\mathrm{kmol/s}\\)\nor calculate the overall stoichiometric coefficients and use the equation for overall flows\n\\[\n\\nu_1 = 3 + 4 -1 - 5 = 1\n\\]\n\\[\n\\nu_2 = 3 + 4 -1 - \\frac{7}{2} = 2.5\n\\]\n\\[\n\\dot{n}_\\mathrm{in} = \\dot{n}_\\mathrm{C_3H_8in} + \\dot{n}_\\mathrm{O_2in} = 2 + 12.5 = 14.5\\ \\mathrm{kmol/s}\n\\]\n\\(\\dot{n}_\\mathrm{out} = \\dot{n}_\\mathrm{out} + 1 \\boldsymbol{\\cdot} \\dot{\\xi}_1 + 2.5 \\dot{\\xi}_1 = 14.5 + 1.6 + 2.5\\boldsymbol{\\cdot} 0.4\\) \\(\\ \\ \\ \\ \\ \\ = 17.1\\ \\mathrm{kmol/s}\\)"
-  },
-  {
-    "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#yield-and-selectivity",
-    "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#yield-and-selectivity",
-    "title": "Chemical and Thermal Processes",
-    "section": "Yield and Selectivity",
-    "text": "Yield and Selectivity\nThere are usually multiple reaction generating one desired product and one or more undesired products. We then define for desired species \\(\\mathrm{R}\\),\nYield\n\\[\nY_\\mathrm{R} = \\frac{n_{\\mathrm{R_{actual}}}}{n_{\\mathrm{R_{possible}}}}\n\\]\nSelectivity\n\\[\nS_\\mathrm{R} = \\frac{n_{\\mathrm{R}}}{n_{\\mathrm{products_{undesired}}}}\n\\]\nThe goal is almost always high yield and high selectivity."
-  },
-  {
-    "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#yield-selectivity-example",
-    "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#yield-selectivity-example",
-    "title": "Chemical and Thermal Processes",
-    "section": "Yield & Selectivity Example",
-    "text": "Yield & Selectivity Example\nAssume that the desired product in the previous example was \\(\\mathrm{CO_2}\\) and that the undesired product was \\(\\mathrm{CO}\\).\nYield\nIf all of the propane were converted to \\(\\mathrm{CO_2}\\), then\n\\[\n\\dot{n}_\\mathrm{CO_2possible} = \\frac{\\nu_\\mathrm{CO_2}}{-\\nu_\\mathrm{C_3H_8}}\\dot{n}_\\mathrm{C_3H_8in}=\\frac{3}{-(-1)}2 = 6\\ \\mathrm{kmol/s}\n\\]\n\\[\n\\dot{n}_\\mathrm{CO_2actual} = \\dot{n}_\\mathrm{CO_2out} = 4.8\\ \\mathrm{kmol/s}\n\\]\n\\[\nY_\\mathrm{CO_2} = \\frac{\\dot{n}_\\mathrm{CO_2actual}}{\\dot{n}_\\mathrm{CO_2actual} } = \\frac{4.8}{6.0} = 0.80 = 80\\%\n\\]\nWhich we also could have gotten from the problem statement."
-  },
-  {
-    "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#yield-selectivity-example-1",
-    "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#yield-selectivity-example-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Yield & Selectivity Example",
-    "text": "Yield & Selectivity Example\nSelectivity\n\\[\nS_\\mathrm{CO_2} = \\frac{\\dot{n}_\\mathrm{CO_2out}}{\\dot{n}_\\mathrm{COout}} = \\frac{4.8}{1.2} = 4\n\\]\nWe don’t count the water as an undesired product because it uses none of the \\(\\mathrm{C}\\) in the propane, which is the only species that goes to our desired product. If there had been other carbon containing compounds, e.g., \\(\\mathrm{CH_4}\\), we would have included their flows in the denominator."
-  },
-  {
-    "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#mole-fraction-split-fraction-and-fractional-conversion",
-    "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#mole-fraction-split-fraction-and-fractional-conversion",
-    "title": "Chemical and Thermal Processes",
-    "section": "Mole Fraction, Split Fraction, and Fractional Conversion",
-    "text": "Mole Fraction, Split Fraction, and Fractional Conversion\nIt’s easy to get mole fraction, split fraction, and fractional conversion confused.\n\nMole Fraction\n\nAlso called composition, the moles of a species, such as \\(\\mathrm{A}\\) divided by the total number of moles, \\(x_\\mathrm{A} = n_\\mathrm{A}/(\\sum n_i)\\).\n\nSplit Fraction\n\nThe moles of a species, such as \\(\\mathrm{A}\\), coming out of a separator in a given stream, such as stream 1, divided by the moles of \\(\\mathrm{A}\\) going into a separator, \\(t_{A1} = \\dot{n}_\\mathrm{A1}/\\dot{n}_\\mathrm{Ain}\\).\n\nFractional Conversion\n\nThe moles of a reactant, such as \\(\\mathrm{A}\\), converted to products in a reactor or process, \\(f_\\mathrm{A} = (\\dot{n}_\\mathrm{A_{in}} - \\dot{n}_\\mathrm{A_{out}})/\\dot{n}_\\mathrm{A_{in}} = 1 - (\\dot{n}_\\mathrm{A_{out}}/\\dot{n}_\\mathrm{A_{in}})\\)"
-  },
-  {
     "objectID": "balances/material/UnitOpsReactPart1JTFVisuals.html#the-takeaways",
     "href": "balances/material/UnitOpsReactPart1JTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nLearn to recognize things given in the definitions like a PFD, recycle, and bypass.\nDevelop a systematic style to set up and solve problems. Use the given style if you don’t have your own.\nCheck out the speed tips and see if they help."
+    "text": "The Takeaways\n\nStoichiometric coefficients for reactants are negative and for products are positive.\nThe mole balance for a given species in a reactor is that the output is the input plus the stoichiometric coefficient for that species times the extent of reaction.\nFractional conversion is for reactants only and is the fraction of the reactant converted to products in the reactor.\nThe limiting reactant is the one that would be totally consumed first it the reaction went to completion. All other reactants are excess reactants."
   },
   {
     "objectID": "NotYetHere.html",
