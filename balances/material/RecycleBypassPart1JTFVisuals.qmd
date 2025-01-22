@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Recycling Before Recycling Was Cool – Part 1</br>Just the Facts{.bigbold75}
+# Recycling Before<br/>Recycling Was Cool</br>Just the Facts{.bigbold75}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -25,14 +25,54 @@ DOFPro Team
  - Wasted reagents are wasted money.
  - Recycle (like feedback) can improve performance.
 
- No Recycle
+:::{.fragment}
+:::{.absolute top=50% left=0%}
+No Recycle
+:::
 
- Recycle
+![](RecycDemo1.png){.absolute left=0% top=52% width=45%}
+:::
 
-## Recycle Example
+:::{.fragment}
+:::{.absolute top=50% left=50%}
+Recycle
+:::
 
-(Image)
+![](RecycDemo2.png){.absolute left=50% top=51% width=55%}
+:::
 
+## Recycle Comparison – No Recycle
+
+![](RecycDemo1.png){.absolute left=0% top=10% width=60%}
+
+:::{style="font-size: 60px"}
+:::{.absolute top=20% left=7%}
+$\enclose{circle}{1}$
+:::
+:::{.absolute top=20% left=20%}
+$\enclose{circle}{2}$
+:::
+:::{.absolute top=14% left=48%}
+$\enclose{circle}{4}$
+:::
+:::{.absolute top=34% left=48%}
+$\enclose{circle}{3}$
+:::
+:::{.absolute top=24% left=1%}
+$\mathrm{A}$
+:::
+:::{.absolute top=12.5% left=24%}
+$\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
+:::
+:::{.absolute top=14% left=58%}
+$\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
+:::
+:::{.absolute top=33% left=58%}
+$\begin{array}{c}\mathrm{A}\\\mathrm{B}\end{array}$
+:::
+:::
+
+:::{.absolute top=19% left=65%}
 $$
 \mathrm{C_3H_8 \rightarrow C_3H_6 + H_2}
 $$
@@ -40,15 +80,17 @@ $$
 $$
 \mathrm{A \rightarrow B + C}
 $$
+:::
 
+:::{.absolute top=50% left=0%}
 Given: Feed $\mathrm{100\ mol/s\ A}$
-
+<br/><br/>
 Reactor: $f_\mathrm{A}=0.10\ (10\%)$
-
+<br/><br/>
 Separator: $t_\mathrm{A3} = 0.995,\ t_\mathrm{B4} = 0.950,\ t_\mathrm{C4} = 1$.
+:::
 
-
-## Recycle Example (cont.)
+## No Recycle (cont.)
 
 ### Material Balances
 
@@ -57,6 +99,7 @@ Separator: $t_\mathrm{A3} = 0.995,\ t_\mathrm{B4} = 0.950,\ t_\mathrm{C4} = 1$.
 ::: {.column width=50%}
 **Reactor**
 
+:::{style="font-size: 90px"}
 $$
 \dot{\xi} = f_\mathrm{A} \dot{n}_\mathrm{A1} /(-\nu_\mathrm{A})
 $$
@@ -77,10 +120,12 @@ $$
 \dot{n}_\mathrm{C2} = 0 + 10 = 10\ \mathrm{mol/s}
 $$
 :::
+:::
 
 ::: {.column width=50%}
 **Separator**
 
+:::{style="font-size: 90px"}
 $$
 \dot{n}_\mathrm{i3} = t_{i3} \dot{n}_\mathrm{i2},\ \ t_{i4} = 1 - t_{i3}
 $$
@@ -107,10 +152,41 @@ $$
 \dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C2} - \dot{n}_\mathrm{C3} = 10\ \mathrm{mol/s}
 $$
 :::
+:::
 ::::
 
-## Recycle Example Spreadsheet
+## No Recycle Spreadsheet
 
+![](RecycDemo1.png){.absolute left=0% top=10% width=60%}
+
+:::{style="font-size: 60px"}
+:::{.absolute top=20% left=7%}
+$\enclose{circle}{1}$
+:::
+:::{.absolute top=20% left=20%}
+$\enclose{circle}{2}$
+:::
+:::{.absolute top=14% left=48%}
+$\enclose{circle}{4}$
+:::
+:::{.absolute top=34% left=48%}
+$\enclose{circle}{3}$
+:::
+:::{.absolute top=24% left=1%}
+$\mathrm{A}$
+:::
+:::{.absolute top=12.5% left=24%}
+$\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
+:::
+:::{.absolute top=14% left=58%}
+$\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
+:::
+:::{.absolute top=33% left=58%}
+$\begin{array}{c}\mathrm{A}\\\mathrm{B}\end{array}$
+:::
+:::
+
+:::{.absolute top=19% left=65%}
 $$
 \mathrm{C_3H_8 \rightarrow C_3H_6 + H_2}
 $$
@@ -118,69 +194,87 @@ $$
 $$
 \mathrm{A \rightarrow B + C}
 $$
+:::
 
+![](NoRecycle.png){.absolute top=50% left=0%}
 
 ## Same System with Recycle
 
+![](RecycDemo2.png){.absolute left=0% top=10% width=60%}
+
+:::{style="font-size: 60px"}
+:::{.absolute top=19.5% left=5%}
+$\enclose{circle}{1}$
+:::
+:::{.absolute top=20% left=34%}
+$\enclose{circle}{2}$
+:::
+:::{.absolute top=15% left=54%}
+$\enclose{circle}{4}$
+:::
+:::{.absolute top=36% left=23%}
+$\enclose{circle}{3}$
+:::
+:::{.absolute top=20% left=13%}
+$\enclose{circle}{5}$
+:::
+:::{.absolute top=22% left=-1%}
+$\mathrm{A}$
+:::
+:::{.absolute top=14% left=59%}
+$\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
+:::
+:::
+:::{style="font-size: 90px"}
+:::{.absolute top=50% left=0%}
 **Reactor**
 
-$$
-\dot{\xi} = 0.10 \dot{n}_\mathrm{A5}\ \mathrm{mol/s}
-$$
+&nbsp;&nbsp;&nbsp;&nbsp;$\dot{\xi} = 0.10 \dot{n}_\mathrm{A5}\ \mathrm{mol/s}$
 
-$$
-\dot{n}_\mathrm{A2} = \dot{n}_\mathrm{A5} - 0.1 \dot{n}_\mathrm{A5} = 0.90 \dot{n}_\mathrm{A5}
-$$
+&nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A2} = \dot{n}_\mathrm{A5} - 0.1 \dot{n}_\mathrm{A5} = 0.90 \dot{n}_\mathrm{A5}$
+:::
 
+:::{.absolute top=20% left=67%}
 **Separator**
 
-$$
-\dot{n}_\mathrm{A3} = 0.995 \dot{n}_\mathrm{A2}
-$$
+&nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A3} = 0.995 \dot{n}_\mathrm{A2}$
 
-$$
-\dot{n}_\mathrm{A4} = 0.005 \dot{n}_\mathrm{A2}
-$$
-
+&nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A4} = 0.005 \dot{n}_\mathrm{A2}$
+:::
+:::{.absolute top=50% left=67%}
 **Mixer**
 
-$$
-\dot{n}_\mathrm{A5} = 100 + \dot{n}_\mathrm{A3}
-$$
+&nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A5} = 100 + \dot{n}_\mathrm{A3}$
+:::
+:::
 
+:::{.absolute top=75% left=0%}
 Material balance for component A
 
 Four equations in four unknowns, $\dot{n}_\mathrm{A2}$, $\dot{n}_\mathrm{A3}$, $\dot{n}_\mathrm{A4}$, and $\dot{n}_\mathrm{A5}$.
+:::
+## Same System with Recycle (cont.)
+
+Successive substitution on $\mathrm{A}$ for solution
+
+:::{.absolute left=5%}
+<br/>
+$\dot{n}_\mathrm{A2} = 0.90 \dot{n}_\mathrm{A5}$
+<br/><br/>
+$\dot{n}_\mathrm{A3} = 0.995 \dot{n}_\mathrm{A2} = 0.995(0.90 \dot{n}_\mathrm{A5})$
+<br/><br/>
+$\dot{n}_\mathrm{A5} = 100 + \dot{n}_\mathrm{A3}= 100 + 0.995(0.90 \dot{n}_\mathrm{A5})$
+<br/><br/>
+$\dot{n}_\mathrm{A5}[1-0.995(0.90)] = 100$
+<br/><br/>
+$\dot{n}_\mathrm{A5} = \frac{100}{[1-0.995(0.90)]} = 956.9$
+:::
 
 ## Same System with Recycle (cont.)
 
-Successive substitution for solution
+Use similar approach for B and C
 
-$$
-\dot{n}_\mathrm{A2} = 0.90 \dot{n}_\mathrm{A5}
-$$
-
-$$
-\dot{n}_\mathrm{A3} = 0.995 \dot{n}_\mathrm{A2} = 0.995(0.90 \dot{n}_\mathrm{A5})
-$$
-
-$$
-\dot{n}_\mathrm{A5} = 100 + \dot{n}_\mathrm{A3}= 100 + 0.995(0.90 \dot{n}_\mathrm{A5})
-$$
-
-$$
-\dot{n}_\mathrm{A5}[1-0.995(0.90)] = 100
-$$
-
-$$
-\dot{n}_\mathrm{A5} = \frac{100}{[1-0.995(0.90)]} = 956.9
-$$
-
-## Same System with Recycle (cont.)
-
-Solution
-
-Similar approach for B and C
+**Solution:**
 
 :::: {.columns}
 
@@ -260,6 +354,33 @@ $$
 
 ## Recycle Example Spreadsheet
 
+![](RecycDemo2.png){.absolute left=0% top=10% width=60%}
+
+:::{style="font-size: 60px"}
+:::{.absolute top=19.5% left=5%}
+$\enclose{circle}{1}$
+:::
+:::{.absolute top=20% left=34%}
+$\enclose{circle}{2}$
+:::
+:::{.absolute top=15% left=54%}
+$\enclose{circle}{4}$
+:::
+:::{.absolute top=36% left=23%}
+$\enclose{circle}{3}$
+:::
+:::{.absolute top=20% left=13%}
+$\enclose{circle}{5}$
+:::
+:::{.absolute top=22% left=-1%}
+$\mathrm{A}$
+:::
+:::{.absolute top=14% left=59%}
+$\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
+:::
+:::
+
+:::{.absolute top=17% left=65%}
 $$
 \mathrm{C_3H_8 \rightarrow C_3H_6 + H_2}
 $$
@@ -267,151 +388,39 @@ $$
 $$
 \mathrm{A \rightarrow B + C}
 $$
+:::
 
-## Bypass
-
- - Less common than recycle
- - Common example is fruit-juice concentrator.
-
-(image)
+![](Recycle.png){.absolute top=50% left=0%}
 
 ## Purge
+
+![](PurgeExample.png)
 
  - Often necessary to remove trace species in the feed
  - Used with recycle when the separator has a split fraction of 0 on a trace species
  - Less expensive than an additional separator
- 
- (images)
+
 
 ## Actual vs. Instructional PFD
 
 Mixers and dividers are almost never shown on actual PFDs.
 
-(images)
+![](MixDivRealLearn.png)
 
-## Simplifying PFDs
-
-Flowsheets can be simplified by drawing a surrounding box and only dealing with the inputs and outputs. For example, the process flowsheet for the dehydrogenation of propane to propene.
-
-(image)
-
-## Simplifying PFDs (cont.)
-
-The absorber and stripper can be combined into one separator for calculation purposes.
-
-(image)
-
-## Simplifying PFDs (cont.)
-
-The reactor, separator, distillation column, and recycle loop can be combined into an overall process block for calculation purposes.
-
-(image)
-
-## Example of Simplifying
-
-Let’s look at the calculations for this slightly more realistic dehydrogenation process. 
-
-Product flow rate – $100\ \mathrm{mol/s}$
-
-Product stream 6 – $98\%$ propene
-
-Recycle stream 5 – $97\%$ propane
-
-$\mathrm{C_3H_8 - A}$
-
-$\mathrm{C_3H_6 - B}$
-
-$\mathrm{CH_4 - C}$
-
-$\mathrm{H_2 - D}$
-
-$\mathrm{C_3H_8 \rightarrow C_3H_6 + H_2}$ $f_\mathrm{C_3H_8} = 0.35$ (in reactor)
-
-$\mathrm{C_3H_8 + 2H_2 \rightarrow 3CH_4}$ $S = \frac{\dot{n}_{\mathrm{C_3H_6}_\text{–gen}}}{\dot{n}_{\mathrm{CH_3}_\text{–gen}}} = 2$ (in reactor)
-
-## Example of Simplifying (cont.)
-
-If there is only one reactor in the process, the extents of reaction overall have to be the same as the extents of reaction in the reactor.
-
-Propene is produced by reaction 1 only, so
-
-$\dot{\xi}_1 = (0.98)(100\ \mathrm{mol/s}) = 98\ \mathrm{mol/s}$
-
-$\dot{n}_\text{B–gen} =\dot{n}_\mathrm{B6} - \dot{n}_\mathrm{B1} = \dot{n}_\mathrm{B6}$
-
-$\dot{n}_\text{C–gen} =\dot{n}_\mathrm{C7} - \dot{n}_\mathrm{C1} = \dot{n}_\mathrm{C7}$
-
-$S = \frac{\dot{n}_\text{B–gen}}{\dot{n}_\text{C–gen}} = \frac{\dot{n}_\mathrm{B6}}{\dot{n}_\mathrm{C7}} = \frac{\nu_\mathrm{B,1} \dot{\xi}_1}{\nu_\mathrm{C,2} \dot{\xi}_2} = \frac{\dot{\xi}_1}{3 \dot{\xi}_2} = 2$
-
-$\dot{\xi}_2 = \frac{\dot{\xi}_1}{6} = \frac{98}{6}$
-
-## Example of Simplifying (cont.)
-
-Mole balance on $\mathrm{A}$
-
-$\dot{n}_\mathrm{A6} = \dot{n}_\mathrm{A1} + \nu_\mathrm{A1} \dot{\xi}_1 + \nu_\mathrm{A2} \dot{\xi}_2$
-
-$2 = \dot{n}_\mathrm{A1} - 98 - 16.3$
-
-$\implies \dot{n}_\mathrm{A1} = 116.3\ \mathrm{mol/s}$
-
-$f_\mathrm{A} = 1 - \frac{\dot{n}_\mathrm{A3}}{\dot{n}_\mathrm{A2}}$
-
-$\implies \dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A2}(1-f_\mathrm{A})$
-
-$\dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A2} + \nu_\mathrm{A1} \dot{\xi}_1 + \nu_\mathrm{A2} \dot{\xi}_2 = \dot{n}_\mathrm{A2} - \dot{\xi}_1 - \dot{\xi}_2$
-
-$\dot{n}_\mathrm{A2}(1-f_\mathrm{A}) = \dot{n}_\mathrm{A2} - \dot{\xi}_1 - \dot{\xi}_2$
-
-$\dot{n}_\mathrm{A2} = \frac{\dot{\xi}_1 + \dot{\xi}_2}{f_\mathrm{A}} = \frac{98 + \frac{98}{6}}{0.35} = 326.7$
-
-## Example of Simplifying (cont.)
-
-Material Balance on $\mathrm{A}$ around each element
-
-M: $\dot{n}_\mathrm{A2} = 116.3 + \dot{n}_\mathrm{A5}$
-
-R: $\dot{n}_\mathrm{A3} = 0.65 \dot{n}_\mathrm{A2}$
-
-S1: $\dot{n}_\mathrm{A4} = \dot{n}_\mathrm{A3} - \dot{n}_\mathrm{A7} = \dot{n}_\mathrm{A3}$
-
-S2: $2 = \dot{n}_\mathrm{A4} - \dot{n}_\mathrm{A5}$
-
-Solution
-
-$\dot{n}_\mathrm{A2} = 326.6\ \mathrm{mol/s}$
-
-$\dot{n}_\mathrm{A3} = 212.3\ \mathrm{mol/s}$
-
-$\dot{n}_\mathrm{A4} = 212.3\ \mathrm{mol/s}$
-
-$\dot{n}_\mathrm{A5} = 210.3\ \mathrm{mol/s}$
-
-Recycle $97\%\ \mathrm{A}$
-
-$\therefore\ \dot{n}_5 = \frac{210.3}{0.97} = 216.8\ \mathrm{mol/s}$
-
-## Example of Simplifying Spreadsheet
-$\mathrm{C_3H_8 - A}$
-
-$\mathrm{C_3H_6 - B}$
-
-$\mathrm{CH_4 - C}$
-
-$\mathrm{H_2 - D}$
 
 ## The Takeaways
 
-1. Learn to recognize things given in the definitions like a PFD, recycle, and bypass.
-2. Develop a systematic style to set up and solve problems. Use the given style if you don’t have your own.
-3. Check out the speed tips and see if they help.
+1. Recycle is used extensively in the chemical process industry to improve overall efficiency and cut down on waste.
+2. Analyzing a recycle loop almost always requires a symbolic solution around the loop before the equations can be solved.
+3. A purge line is often required in a recycle loop to prevent the buildup of trace components.
+4. Mixers and dividers are often represented by tee-junctions in PFDs.
 
 
 
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *How to Keep Your Balance*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *Leaving Radiator Springs In the Dust*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
