@@ -1,0 +1,348 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Leaving Radiator Springs<br/>in the Dust</br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
+
+
+## Bypass
+
+![](BypassExample.png)
+
+ - Less common than recycle
+ - Common example is fruit-juice concentrator.
+
+
+## Simplifying PFDs {auto-animate=true}
+
+Flowsheets can be simplified by drawing a surrounding box and only dealing with the inputs and outputs. For example, the process flowsheet for the dehydrogenation of propane to propene.
+
+![](RecycleStartNoBox.png)
+
+## Simplifying PFDs {auto-animate=true}
+
+Flowsheets can be simplified by drawing a surrounding box and only dealing with the inputs and outputs. For example, the process flowsheet for the dehydrogenation of propane to propene.
+
+![](RecycleStartBox.png)
+
+## Simplifying PFDs (cont.)
+
+The absorber and stripper can be combined into one separator for calculation purposes.
+
+![](RecycleMidwayNoBox.png)
+
+## Simplifying PFDs (cont.)
+
+The absorber and stripper can be combined into one separator for calculation purposes.
+
+![](RecycleMidwayBox.png)
+
+## Simplifying PFDs (cont.){auto-animate=true}
+
+The reactor, separator, distillation column, and recycle loop can be combined into an overall process block for calculation purposes.
+
+![](RecycleEndJustBox.png)
+
+## Simplifying PFDs (cont.){auto-animate=true}
+
+The reactor, separator, distillation column, and recycle loop can be combined into an overall process block for calculation purposes.
+
+![](Overall.png)
+
+:::{.absolute top=60% left=10%}
+$\enclose{circle}{1}$
+:::
+
+:::{.absolute top=37% left=45%}
+$\enclose{circle}{7}$
+:::
+:::{.absolute top=60% left=70%}
+$\enclose{circle}{6}$
+:::
+
+## Example of Simplifying
+
+![](RecycleMidwayNoBox.png){.absolute left=45% top=10% width=55%}
+
+:::{style="font-size: 60px"}
+:::{.absolute top=20% left=43.5%}
+propane
+:::
+:::{.absolute top=3% left=80%}
+hydrogen<br/>methane
+:::
+:::{.absolute top=3% left=93%}
+propane<br/>propene
+:::
+:::
+
+:::{style="font-size: 80px"}
+:::: {.columns}
+::: {.column width=45%}
+Let’s look at the calculations for this slightly more realistic dehydrogenation process. 
+
+<br/><br/>
+Product flow rate – $100\ \mathrm{mol/s}$
+
+Product stream 6 – $98\%$ propene
+
+Recycle stream 5 – $97\%$ propane
+
+:::
+::::
+
+:::{.absolute top=55% left=7%}
+$\mathrm{C_3H_8 - A}$
+
+$\mathrm{C_3H_6 - B}$
+
+$\mathrm{CH_4 - C}$
+
+$\mathrm{H_2 - D}$
+:::
+
+:::{.absolute top=55% left=28%}
+$\mathrm{C_3H_8 \rightarrow C_3H_6 + H_2}$
+
+$\mathrm{C_3H_8 + 2H_2 \rightarrow 3CH_4}$
+
+$f_\mathrm{C_3H_8} = 0.35$ (in reactor)
+
+$S = \frac{\dot{n}_{\mathrm{C_3H_6}_\text{–gen}}}{\dot{n}_{\mathrm{CH_3}_\text{–gen}}} = 2$ (in reactor)
+:::
+:::
+
+## Example of Simplifying (cont.)
+
+![](Overall.png){.absolute left=50% top=15% width=40%}
+
+:::{style="font-size: 60px"}
+:::{.absolute top=29% left=55%}
+$\enclose{circle}{1}$
+:::
+:::{.absolute top=18% left=71%}
+$\enclose{circle}{7}$
+:::
+:::{.absolute top=29% left=82%}
+$\enclose{circle}{6}$
+:::
+:::{.absolute top=34% left=51%}
+propane
+:::
+:::{.absolute top=8.5% left=65.5%}
+hydrogen<br/>methane
+:::
+:::{.absolute top=34% left=80%}
+propane<br/>propene
+:::
+:::{.absolute top=45% left=65%}
+$\mathrm{C_3H_8 - A}$
+
+$\mathrm{C_3H_6 - B}$
+
+$\mathrm{CH_4 - C}$
+
+$\mathrm{H_2 - D}$
+:::
+:::
+
+
+::::{.columns}
+:::{.column width=50%}
+If there is only one reactor in the process, the extents of reaction *overall* have to be the same as the extents of reaction *in the reactor*.
+
+Propene is produced by reaction 1 only, so
+:::
+::::
+
+$\dot{\xi}_1 = (0.98)(100\ \mathrm{mol/s}) = 98\ \mathrm{mol/s}$
+
+$\dot{n}_\text{B–gen} =\dot{n}_\mathrm{B6} - \dot{n}_\mathrm{B1} = \dot{n}_\mathrm{B6}$
+
+$\dot{n}_\text{C–gen} =\dot{n}_\mathrm{C7} - \dot{n}_\mathrm{C1} = \dot{n}_\mathrm{C7}$
+
+$S = \frac{\dot{n}_\text{B–gen}}{\dot{n}_\text{C–gen}} = \frac{\dot{n}_\mathrm{B6}}{\dot{n}_\mathrm{C7}} = \frac{\nu_\mathrm{B,1} \dot{\xi}_1}{\nu_\mathrm{C,2} \dot{\xi}_2} = \frac{\dot{\xi}_1}{3 \dot{\xi}_2} = 2$
+
+$\dot{\xi}_2 = \frac{\dot{\xi}_1}{6} = \frac{98}{6}$
+
+## Example of Simplifying (cont.)
+
+![](Overall.png){.absolute left=60% top=15% width=40%}
+![](Reactor.png){.absolute left=10% top=7% width=30%}
+
+:::{style="font-size: 60px"}
+:::{.absolute top=29% left=65%}
+$\enclose{circle}{1}$
+:::
+:::{.absolute top=10% left=14%}
+$\enclose{circle}{2}$
+:::
+:::{.absolute top=10% left=35%}
+$\enclose{circle}{3}$
+:::
+:::{.absolute top=18% left=81%}
+$\enclose{circle}{7}$
+:::
+:::{.absolute top=29% left=92%}
+$\enclose{circle}{6}$
+:::
+:::{.absolute top=15% left=12%}
+$\mathrm{A,\ B}$
+:::
+:::{.absolute top=15% left=33%}
+$\mathrm{A,\ B,\ C,\ D}$
+:::
+:::{.absolute top=13% left=22%}
+Reactor
+:::
+:::{.absolute top=34% left=61%}
+propane
+:::
+:::{.absolute top=8.5% left=75.5%}
+hydrogen<br/>methane
+:::
+:::{.absolute top=34% left=90%}
+propane<br/>propene
+:::
+:::{.absolute top=45% left=75%}
+$\mathrm{C_3H_8 - A}$
+
+$\mathrm{C_3H_6 - B}$
+
+$\mathrm{CH_4 - C}$
+
+$\mathrm{H_2 - D}$
+:::
+:::
+
+:::{.absolute top=25% left=3%}
+Mole balance on $\mathrm{A}$
+
+$\dot{n}_\mathrm{A6} = \dot{n}_\mathrm{A1} + \nu_\mathrm{A1} \dot{\xi}_1 + \nu_\mathrm{A2} \dot{\xi}_2$
+
+$2 = \dot{n}_\mathrm{A1} - 98 - 16.3$
+
+$\implies \dot{n}_\mathrm{A1} = 116.3\ \mathrm{mol/s}$
+
+$f_\mathrm{A} = 1 - \frac{\dot{n}_\mathrm{A3}}{\dot{n}_\mathrm{A2}}$
+
+$\implies \dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A2}(1-f_\mathrm{A})$
+
+$\dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A2} + \nu_\mathrm{A1} \dot{\xi}_1 + \nu_\mathrm{A2} \dot{\xi}_2 = \dot{n}_\mathrm{A2} - \dot{\xi}_1 - \dot{\xi}_2$
+
+$\dot{n}_\mathrm{A2}(1-f_\mathrm{A}) = \dot{n}_\mathrm{A2} - \dot{\xi}_1 - \dot{\xi}_2$
+
+$\dot{n}_\mathrm{A2} = \frac{\dot{\xi}_1 + \dot{\xi}_2}{f_\mathrm{A}} = \frac{98 + \frac{98}{6}}{0.35} = 326.7$
+:::
+
+## Example of Simplifying (cont.)
+
+![](RecycleMidwayNoBox.png){.absolute left=45% top=15% width=55%}
+
+:::{style="font-size: 60px"}
+:::{.absolute top=25% left=43.5%}
+propane
+:::
+:::{.absolute top=8% left=80%}
+hydrogen<br/>methane
+:::
+:::{.absolute top=8% left=93%}
+propane<br/>propene
+:::
+:::{.absolute top=46% left=85%}
+$\mathrm{C_3H_8 - A}$
+
+$\mathrm{C_3H_6 - B}$
+
+$\mathrm{CH_4 - C}$
+
+$\mathrm{H_2 - D}$
+:::
+:::
+
+Material Balance on $\mathrm{A}$ around each element
+
+:::{.absolute top=20% left=3%}
+M: $\dot{n}_\mathrm{A2} = 116.3 + \dot{n}_\mathrm{A5}$
+
+R: $\dot{n}_\mathrm{A3} = 0.65 \dot{n}_\mathrm{A2}$
+
+S1: $\dot{n}_\mathrm{A4} = \dot{n}_\mathrm{A3} - \dot{n}_\mathrm{A7} = \dot{n}_\mathrm{A3}$
+
+S2: $2 = \dot{n}_\mathrm{A4} - \dot{n}_\mathrm{A5}$
+:::
+
+:::{.absolute top=50% left=5%}
+Solution
+
+&nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A2} = 326.6\ \mathrm{mol/s}$
+
+&nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A3} = 212.3\ \mathrm{mol/s}$
+
+&nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A4} = 212.3\ \mathrm{mol/s}$
+
+&nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A5} = 210.3\ \mathrm{mol/s}$
+:::
+:::{.absolute top=70% left=50%}
+Recycle $97\%\ \mathrm{A}$
+
+$\therefore\ \dot{n}_5 = \frac{210.3}{0.97} = 216.8\ \mathrm{mol/s}$
+:::
+
+## Example of Simplifying Spreadsheet
+![](RecycleMidwayNoBox.png){.absolute left=5% top=15% width=55%}
+
+:::{style="font-size: 60px"}
+:::{.absolute top=25% left=3.5%}
+propane
+:::
+:::{.absolute top=8% left=40%}
+hydrogen<br/>methane
+:::
+:::{.absolute top=8% left=53%}
+propane<br/>propene
+:::
+:::{.absolute top=10% left=16%}
+$\mathrm{C_3H_8 - A}$
+
+$\mathrm{C_3H_6 - B}$
+
+$\mathrm{CH_4 - C}$
+
+$\mathrm{H_2 - D}$
+:::
+:::
+
+![](Recycle2Part1.png){.absolute top=55% left=0% width=90%}
+![](Recycle2Part2.png){.absolute top=15% left=65% width=35%}
+
+## The Takeaways
+
+1. Bypass is less common than recycle, but can be analyzed the same way.
+2. Often the quickest way to analyze a PFD is to do overall balances and partial balances first.
+3. If there is only one reactor (with possibly multiple reactions) in a process, the extents of reaction are the same for the overall process and for the reactor.
+4. If there is only one reactor (with possibly multiple reactions) in a process with recycle, the overall fractional conversion of is almost certainly much higher than the fractional conversion in the reactor.
+
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *The Symbolic Meaning of Recycling*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
