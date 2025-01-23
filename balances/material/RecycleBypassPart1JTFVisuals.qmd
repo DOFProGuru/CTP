@@ -107,7 +107,7 @@ $$
 \dot{\xi} = (0.10)(100) = 10\ \mathrm{mol/s}
 $$
 $$
-\dot{n}_\mathrm{i2} = \dot{n}_\mathrm{i1} + \nu_i \dot{\xi}
+\dot{n}_{i2} = \dot{n}_{i1} + \nu_i \dot{\xi}
 $$
 $$
 \dot{n}_\mathrm{A2} = 100 - 10 = 90\ \mathrm{mol/s}
@@ -127,7 +127,7 @@ $$
 
 :::{style="font-size: 90px"}
 $$
-\dot{n}_\mathrm{i3} = t_{i3} \dot{n}_\mathrm{i2},\ \ t_{i4} = 1 - t_{i3}
+\dot{n}_{i3} = t_{i3} \dot{n}_{i2},\ \ \ \ \ t_{i4} = 1 - t_{i3}
 $$
 
 $$
@@ -397,13 +397,13 @@ $$
 ![](PurgeExample.png)
 
  - Often necessary to remove trace species in the feed
- - Used with recycle when the separator has a split fraction of 0 on a trace species
+ - Used with recycle when the separator has a split fraction of zero on a trace species
  - Less expensive than an additional separator
 
 
 ## Actual vs. Instructional PFD
 
-Mixers and dividers are almost never shown on actual PFDs.
+Mixers with only two inputs and dividers with only two outputs are almost never shown on actual PFDs. They are represented by piping tees, instead.
 
 ![](MixDivRealLearn.png)
 

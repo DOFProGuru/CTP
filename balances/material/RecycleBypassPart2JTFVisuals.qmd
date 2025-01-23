@@ -33,11 +33,35 @@ Flowsheets can be simplified by drawing a surrounding box and only dealing with 
 
 ![](RecycleStartNoBox.png)
 
+:::{style="font-size: 60px"}
+:::{.absolute top=54% left=0%}
+propane
+:::
+:::{.absolute top=30% left=56%}
+hydrogen<br/>methane
+:::
+:::{.absolute top=29% left=92%}
+propane<br/>propene
+:::
+:::
+
 ## Simplifying PFDs {auto-animate=true}
 
 Flowsheets can be simplified by drawing a surrounding box and only dealing with the inputs and outputs. For example, the process flowsheet for the dehydrogenation of propane to propene.
 
 ![](RecycleStartBox.png)
+
+:::{style="font-size: 60px"}
+:::{.absolute top=54% left=0%}
+propane
+:::
+:::{.absolute top=30% left=56%}
+hydrogen<br/>methane
+:::
+:::{.absolute top=29% left=92%}
+propane<br/>propene
+:::
+:::
 
 ## Simplifying PFDs (cont.)
 
@@ -45,17 +69,53 @@ The absorber and stripper can be combined into one separator for calculation pur
 
 ![](RecycleMidwayNoBox.png)
 
+:::{style="font-size: 60px"}
+:::{.absolute top=44% left=0%}
+propane
+:::
+:::{.absolute top=16% left=68%}
+hydrogen<br/>methane
+:::
+:::{.absolute top=15% left=91%}
+propane<br/>propene
+:::
+:::
+
 ## Simplifying PFDs (cont.)
 
 The absorber and stripper can be combined into one separator for calculation purposes.
 
 ![](RecycleMidwayBox.png)
 
+:::{style="font-size: 60px"}
+:::{.absolute top=44% left=0%}
+propane
+:::
+:::{.absolute top=16% left=68%}
+hydrogen<br/>methane
+:::
+:::{.absolute top=15% left=91%}
+propane<br/>propene
+:::
+:::
+
 ## Simplifying PFDs (cont.){auto-animate=true}
 
 The reactor, separator, distillation column, and recycle loop can be combined into an overall process block for calculation purposes.
 
 ![](RecycleEndJustBox.png)
+
+:::{style="font-size: 60px"}
+:::{.absolute top=49% left=0%}
+propane
+:::
+:::{.absolute top=22% left=68%}
+hydrogen<br/>methane
+:::
+:::{.absolute top=21% left=91%}
+propane<br/>propene
+:::
+:::
 
 ## Simplifying PFDs (cont.){auto-animate=true}
 
@@ -72,6 +132,16 @@ $\enclose{circle}{7}$
 :::
 :::{.absolute top=60% left=70%}
 $\enclose{circle}{6}$
+:::
+
+:::{.absolute top=70% left=5%}
+propane
+:::
+:::{.absolute top=33% left=25%}
+hydrogen<br/>methane
+:::
+:::{.absolute top=70% left=66%}
+propane<br/>propene
 :::
 
 ## Example of Simplifying
@@ -335,7 +405,7 @@ $\mathrm{H_2 - D}$
 1. Bypass is less common than recycle, but can be analyzed the same way.
 2. Often the quickest way to analyze a PFD is to do overall balances and partial balances first.
 3. If there is only one reactor (with possibly multiple reactions) in a process, the extents of reaction are the same for the overall process and for the reactor.
-4. If there is only one reactor (with possibly multiple reactions) in a process with recycle, the overall fractional conversion of is almost certainly much higher than the fractional conversion in the reactor.
+4. If there is only one reactor (with possibly multiple reactions) in a process with recycle, the overall fractional conversion is almost certainly much higher than the fractional conversion in the reactor.
 
 
 
