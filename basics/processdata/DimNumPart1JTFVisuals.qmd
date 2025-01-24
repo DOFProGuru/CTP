@@ -81,7 +81,7 @@ All terms in an equation must have the same dimensions.
 :::
 
 :::{.fragment}
-$x - x_0 = v_0 t + \frac{1}{2} a t^2$
+$\ \ \ \ x - x_0 = v_0 t + \frac{1}{2} a t^2$
 :::
 
 :::{.fragment}
@@ -113,17 +113,21 @@ More examples in next video.
     - Since $t$ is in [time] then $\tau$ must be in [time].
 
 ## Implied Units
-
-If the argument of a transcendental function appears to have units, then there must be an implied unit, such as 1 milliwatt inside the function.
-
-$x\ \mathrm{dB} = 20 \log_{10} \frac{A}{A_0}$ or $x\ \mathrm{dB} = 10 \log_{10} \frac{P}{P_0}$
-
-If $A_0$ or $P_0$ are not explicitly given, they are implied, e.g.,
-
-For $\mathrm{dBm}$, $P_0 = 1\ \mathrm{mW}$.
-
-For $\mathrm{dBu}$, $A_0 = 0.7746\ \mathrm{V}$.
-
+:::{.fragment}
+If the argument of a transcendental function appears to have units, then there must be an implied unit, such as 1 milliwatt inside the function.<br/><br/>
+:::
+:::{.fragment}
+$\ \ \ \ x\ \mathrm{dB} = 20 \log_{10} \frac{A}{A_0}$ or $x\ \mathrm{dB} = 10 \log_{10} \frac{P}{P_0}$<br/><br/>
+:::
+:::{.fragment}
+If $A_0$ or $P_0$ are not explicitly given, they are implied, e.g.,<br/><br/>
+:::
+:::{.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;For $\mathrm{dBm}$, $P_0 = 1\ \mathrm{mW}$.<br/><br/>
+:::
+:::{.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;For $\mathrm{dBu}$, $A_0 = 0.7746\ \mathrm{V}$.
+:::
 
 ## The Takeaways
 
