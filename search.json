@@ -662,7 +662,7 @@
     "href": "basics/processdata/DimNumPart1JTFVisuals.html#dimensional-homogeneity",
     "title": "Chemical and Thermal Processes",
     "section": "Dimensional Homogeneity",
-    "text": "Dimensional Homogeneity\n\nAll terms in an equation must have the same dimensions.\n\n\n\\(x - x_0 = v_0 t + \\frac{1}{2} a t^2\\)\n\n\n\\(x\\) and \\(x_0\\) have units of length.\n\n\n\\(v_0 t\\) must have units of length. If \\(t\\) has units of time, then \\(v_0\\) must have units of length per time or velocity.\n\n\n\\(\\frac{1}{2}a t^2\\) must have units of length. If \\(t^2\\) has units of time squared, then \\(a\\) or \\(\\frac{1}{2}a\\) must have units of length per time squared, or acceleration.\n\n\nMore examples in next video."
+    "text": "Dimensional Homogeneity\n\nAll terms in an equation must have the same dimensions.\n\n\n\\(\\ \\ \\ \\ x - x_0 = v_0 t + \\frac{1}{2} a t^2\\)\n\n\n\\(x\\) and \\(x_0\\) have units of length.\n\n\n\\(v_0 t\\) must have units of length. If \\(t\\) has units of time, then \\(v_0\\) must have units of length per time or velocity.\n\n\n\\(\\frac{1}{2}a t^2\\) must have units of length. If \\(t^2\\) has units of time squared, then \\(a\\) or \\(\\frac{1}{2}a\\) must have units of length per time squared, or acceleration.\n\n\nMore examples in next video."
   },
   {
     "objectID": "basics/processdata/DimNumPart1JTFVisuals.html#transcendental-functions",
@@ -676,7 +676,7 @@
     "href": "basics/processdata/DimNumPart1JTFVisuals.html#implied-units",
     "title": "Chemical and Thermal Processes",
     "section": "Implied Units",
-    "text": "Implied Units\nIf the argument of a transcendental function appears to have units, then there must be an implied unit, such as 1 milliwatt inside the function.\n\\(x\\ \\mathrm{dB} = 20 \\log_{10} \\frac{A}{A_0}\\) or \\(x\\ \\mathrm{dB} = 10 \\log_{10} \\frac{P}{P_0}\\)\nIf \\(A_0\\) or \\(P_0\\) are not explicitly given, they are implied, e.g.,\nFor \\(\\mathrm{dBm}\\), \\(P_0 = 1\\ \\mathrm{mW}\\).\nFor \\(\\mathrm{dBu}\\), \\(A_0 = 0.7746\\ \\mathrm{V}\\)."
+    "text": "Implied Units\n\nIf the argument of a transcendental function appears to have units, then there must be an implied unit, such as 1 milliwatt inside the function.\n\n\n\\(\\ \\ \\ \\ x\\ \\mathrm{dB} = 20 \\log_{10} \\frac{A}{A_0}\\) or \\(x\\ \\mathrm{dB} = 10 \\log_{10} \\frac{P}{P_0}\\)\n\n\nIf \\(A_0\\) or \\(P_0\\) are not explicitly given, they are implied, e.g.,\n\n\n    For \\(\\mathrm{dBm}\\), \\(P_0 = 1\\ \\mathrm{mW}\\).\n\n\n    For \\(\\mathrm{dBu}\\), \\(A_0 = 0.7746\\ \\mathrm{V}\\)."
   },
   {
     "objectID": "basics/processdata/DimNumPart1JTFVisuals.html#the-takeaways",
@@ -2993,56 +2993,56 @@
     "href": "balances/material/RecycleSymbSolJTFVisuals.html#recycle-example-symbolic-only",
     "title": "Chemical and Thermal Processes",
     "section": "Recycle Example Symbolic Only",
-    "text": "Recycle Example Symbolic Only\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(image)\nAssume that the knowns or givens are:\n\\(\\dot{n}_\\mathrm{A1}\\), \\(\\dot{n}_\\mathrm{B1}\\), \\(\\dot{n}_\\mathrm{C1}\\), \\(f_\\mathrm{A}\\) (in reactor), \\(t_\\mathrm{A4}\\), \\(t_\\mathrm{C4}\\), \\(t_\\mathrm{C4}\\)\nFind a full set of equations for all of the flows, extent of reaction, and overall conversion in terms of the knowns.\nIn general, you have to calculate a set of mass balances completely around the recycle loop before you can eliminate the unknowns. Each known will be circled, and each equation that has a single unknown in terms of knowns will be circled."
+    "text": "Recycle Example Symbolic Only\n\n\n\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n\n\n\\(\\mathrm{A}\\)\n\n\n\\(\\begin{array}{c}\\mathrm{A}\\\\\\mathrm{B}\\\\\\mathrm{C}\\end{array}\\)\n\n\n\nAssume that the knowns or givens are:\n\\(\\dot{n}_\\mathrm{A1}\\), \\(\\dot{n}_\\mathrm{B1}\\), \\(\\dot{n}_\\mathrm{C1}\\), \\(f_\\mathrm{A}\\) (in reactor), \\(t_\\mathrm{A4}\\), \\(t_\\mathrm{C4}\\), \\(t_\\mathrm{C4}\\)\n\n\nFind a full set of equations for all of the flows, extent of reaction, and overall conversion in terms of the knowns.  In general, you have to calculate a set of mass balances completely around the recycle loop before you can eliminate the unknowns. Each known will be circled, and each equation that has a single unknown in terms of knowns will be circled."
   },
   {
     "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance",
     "href": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance",
     "title": "Chemical and Thermal Processes",
     "section": "“A” Balance",
-    "text": "“A” Balance\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)\n\\[\n\\dot{n}_\\mathrm{A1} = \\mathrm{given}\n\\]\nMixer\n\\[\n\\dot{n}_\\mathrm{A5} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}\n\\]\nReactor\n\\[\n\\dot{n}_\\mathrm{A2} = (1-f_\\mathrm{A})\\dot{n}_\\mathrm{A5} = (1-f_\\mathrm{A})(\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]\n\\[\n\\dot{n}_\\mathrm{A2} = \\dot{n}_\\mathrm{A5} + \\nu_\\mathrm{A} \\dot{\\xi} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}+ \\nu_\\mathrm{A} \\dot{\\xi}\n\\]\nor\n\\[\n\\dot{\\xi} = (\\dot{n}_\\mathrm{A2} - \\dot{n}_\\mathrm{A5})/\\nu_\\mathrm{A}\n\\]\nSeparator\n\\[\n\\dot{n}_\\mathrm{A4} = t_\\mathrm{A4} \\dot{n}_\\mathrm{A2} = t_\\mathrm{A4} (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]\n\\[\n\\dot{n}_\\mathrm{A3} = (1-t_\\mathrm{A4}) \\dot{n}_\\mathrm{A2} = (1-t_\\mathrm{A4}) (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]"
+    "text": "“A” Balance\n\n\n\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n\n\n\\(\\mathrm{A}\\)\n\n\n\\(\\begin{array}{c}\\mathrm{A}\\\\\\mathrm{B}\\\\\\mathrm{C}\\end{array}\\)\n\n\n\nInput\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A1} = \\mathrm{given}\\)\nMixer\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A5} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}\\)\n\n\nReactor\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A2} = (1-f_\\mathrm{A})\\dot{n}_\\mathrm{A5} = (1-f_\\mathrm{A})(\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A2} = \\dot{n}_\\mathrm{A5} + \\nu_\\mathrm{A} \\dot{\\xi} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}+ \\nu_\\mathrm{A} \\dot{\\xi}\\)\nor\n\\(\\ \\ \\ \\ \\dot{\\xi} = (\\dot{n}_\\mathrm{A2} - \\dot{n}_\\mathrm{A5})/\\nu_\\mathrm{A}\\)\nSeparator\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A4} = t_\\mathrm{A4} \\dot{n}_\\mathrm{A2} = t_\\mathrm{A4} (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A3} = (1-t_\\mathrm{A4}) \\dot{n}_\\mathrm{A2} = (1-t_\\mathrm{A4}) (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\\)"
   },
   {
     "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance-cont.",
     "href": "balances/material/RecycleSymbSolJTFVisuals.html#a-balance-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "“A” Balance (cont.)",
-    "text": "“A” Balance (cont.)\nSeparator (cont.)\n\\[\n\\dot{n}_\\mathrm{A3} = (1-t_\\mathrm{A4}) (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\n\\]\n\\[\n\\implies \\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A1} \\left[\\frac{(1-f_\\mathrm{A}) (1-t_\\mathrm{A4})}{f_\\mathrm{A} + t_\\mathrm{A4} - f_\\mathrm{A} t_\\mathrm{A4}}\\right]\n\\]\nOnce we have \\(\\dot{n}_\\mathrm{A3}\\)\n\\[\n\\dot{n}_\\mathrm{A5} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}\n\\]\n\\[\n\\dot{n}_\\mathrm{A2} = (1-f_\\mathrm{A}) \\dot{n}_\\mathrm{A5}\n\\]\n\\[\n\\dot{\\xi} = (\\dot{n}_\\mathrm{A2} - \\dot{n}_\\mathrm{A5})/\\nu_\\mathrm{A}\n\\]\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(image)"
+    "text": "“A” Balance (cont.)\n\n\n\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n\n\n\\(\\mathrm{A}\\)\n\n\n\\(\\begin{array}{c}\\mathrm{A}\\\\\\mathrm{B}\\\\\\mathrm{C}\\end{array}\\)\n\n\n Separator (cont.)  \\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A3} = (1-t_\\mathrm{A4}) (1-f_\\mathrm{A}) (\\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3})\\)  \\(\\ \\ \\ \\ \\implies \\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A1} \\left[\\frac{(1-f_\\mathrm{A}) (1-t_\\mathrm{A4})}{f_\\mathrm{A} + t_\\mathrm{A4} - f_\\mathrm{A} t_\\mathrm{A4}}\\right]\\)\n Once we have \\(\\dot{n}_\\mathrm{A3}\\),\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A5} = \\dot{n}_\\mathrm{A1} + \\dot{n}_\\mathrm{A3}\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A2} = (1-f_\\mathrm{A}) \\dot{n}_\\mathrm{A5}\\)\n\\(\\ \\ \\ \\ \\dot{\\xi} = (\\dot{n}_\\mathrm{A2} - \\dot{n}_\\mathrm{A5})/\\nu_\\mathrm{A}\\)"
   },
   {
     "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#b-c-balances",
     "href": "balances/material/RecycleSymbSolJTFVisuals.html#b-c-balances",
     "title": "Chemical and Thermal Processes",
     "section": "“B” & “C” Balances",
-    "text": "“B” & “C” Balances\nFor \\(\\mathrm{B}\\) and \\(\\mathrm{C}\\) we’ll use extent of reaction. The \\(\\mathrm{B}\\) and \\(\\mathrm{C}\\) equations are identical except for the change from \\(\\mathrm{B}\\) to \\(\\mathrm{C}\\) subscripts.\nOverall\n\\[\n\\dot{n}_\\mathrm{B4} = \\dot{n}_\\mathrm{B1} + \\nu_\\mathrm{B} \\dot{\\xi}\n\\]\n\\[\n\\dot{n}_\\mathrm{C4} = \\dot{n}_\\mathrm{C1} + \\nu_\\mathrm{C} \\dot{\\xi}\n\\]\nSeparator\n\\[\n\\dot{n}_\\mathrm{B2} = \\frac{\\dot{n}_\\mathrm{B4}}{t_\\mathrm{B4} }\n\\]\n\\[\n\\dot{n}_\\mathrm{C2} = \\frac{\\dot{n}_\\mathrm{C4}}{t_\\mathrm{C4} }\n\\]\n\\[\n\\dot{n}_\\mathrm{B3} = (1-t_\\mathrm{B4}) \\dot{n}_\\mathrm{B2} = \\frac{1-t_\\mathrm{B4}}{t_\\mathrm{B4}} \\dot{n}_\\mathrm{B4}\n\\]\n\\[\n\\dot{n}_\\mathrm{C3} = (1-t_\\mathrm{C4}) \\dot{n}_\\mathrm{C2} = \\frac{1-t_\\mathrm{C4}}{t_\\mathrm{C4}} \\dot{n}_\\mathrm{C4}\n\\]\nMixer\n\\[\n\\dot{n}_\\mathrm{B5} = \\dot{n}_\\mathrm{B1} + \\dot{n}_\\mathrm{B3}\n\\]\n\\[\n\\dot{n}_\\mathrm{C5} = \\dot{n}_\\mathrm{C1} + \\dot{n}_\\mathrm{C3}\n\\]\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)"
+    "text": "“B” & “C” Balances\n\n\n\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n\n\n\\(\\mathrm{A}\\)\n\n\n\\(\\begin{array}{c}\\mathrm{A}\\\\\\mathrm{B}\\\\\\mathrm{C}\\end{array}\\)\n\n\nFor \\(\\mathrm{B}\\) and \\(\\mathrm{C}\\) we’ll use extent of reaction. The \\(\\mathrm{B}\\) and \\(\\mathrm{C}\\) equations are identical except for the change from \\(\\mathrm{B}\\) to \\(\\mathrm{C}\\) subscripts.\nOverall\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{B4} = \\dot{n}_\\mathrm{B1} + \\nu_\\mathrm{B} \\dot{\\xi}\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{C4} = \\dot{n}_\\mathrm{C1} + \\nu_\\mathrm{C} \\dot{\\xi}\\)\n\nSeparator\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{B2} = \\frac{\\dot{n}_\\mathrm{B4}}{t_\\mathrm{B4} }\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{C2} = \\frac{\\dot{n}_\\mathrm{C4}}{t_\\mathrm{C4} }\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{B3} = (1-t_\\mathrm{B4}) \\dot{n}_\\mathrm{B2} = \\frac{1-t_\\mathrm{B4}}{t_\\mathrm{B4}} \\dot{n}_\\mathrm{B4}\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{C3} = (1-t_\\mathrm{C4}) \\dot{n}_\\mathrm{C2} = \\frac{1-t_\\mathrm{C4}}{t_\\mathrm{C4}} \\dot{n}_\\mathrm{C4}\\)\n\n Mixer\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{B5} = \\dot{n}_\\mathrm{B1} + \\dot{n}_\\mathrm{B3}\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{C5} = \\dot{n}_\\mathrm{C1} + \\dot{n}_\\mathrm{C3}\\)"
   },
   {
     "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#summary",
     "href": "balances/material/RecycleSymbSolJTFVisuals.html#summary",
     "title": "Chemical and Thermal Processes",
     "section": "Summary",
-    "text": "Summary\nFinally, the overall fractional conversion of \\(\\mathrm{A}\\), and the product flow rates\nOverall Fractional Conversion\n\\[\nf_\\text{A–overall} = 1-\\frac{\\dot{n}_\\mathrm{A1}}{\\dot{n}_\\mathrm{A4}} = \\frac{f_\\mathrm{A}}{f_\\mathrm{A} + t_\\mathrm{A4} - f_\\mathrm{A} t_\\mathrm{A4}}\n\\]\nOutput Flows (from overall and \\(\\dot{\\xi}\\))\n\\[\n\\dot{n}_\\mathrm{A4} = \\dot{n}_\\mathrm{A1} + \\nu_\\mathrm{A} \\dot{\\xi}\n\\] \\[\n\\dot{n}_\\mathrm{B4} = \\dot{n}_\\mathrm{B1} + \\nu_\\mathrm{B} \\dot{\\xi}\n\\]\n\\[\n\\dot{n}_\\mathrm{C4} = \\dot{n}_\\mathrm{C1} + \\nu_\\mathrm{C} \\dot{\\xi}\n\\]\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)"
+    "text": "Summary\n\n\n\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n\n\n\\(\\mathrm{A}\\)\n\n\n\\(\\begin{array}{c}\\mathrm{A}\\\\\\mathrm{B}\\\\\\mathrm{C}\\end{array}\\)\n\n\nFinally, the overall fractional conversion of \\(\\mathrm{A}\\), and the product flow rates  Overall Fractional Conversion\n\\(\\ \\ \\ \\ f_\\text{A–overall} = 1-\\frac{\\dot{n}_\\mathrm{A1}}{\\dot{n}_\\mathrm{A4}} = \\frac{f_\\mathrm{A}}{f_\\mathrm{A} + t_\\mathrm{A4} - f_\\mathrm{A} t_\\mathrm{A4}}\\)  Output Flows (from overall and \\(\\dot{\\xi}\\))\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A4} = \\dot{n}_\\mathrm{A1} + \\nu_\\mathrm{A} \\dot{\\xi}\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{B4} = \\dot{n}_\\mathrm{B1} + \\nu_\\mathrm{B} \\dot{\\xi}\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{C4} = \\dot{n}_\\mathrm{C1} + \\nu_\\mathrm{C} \\dot{\\xi}\\)"
   },
   {
     "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#spreadsheet-summary",
     "href": "balances/material/RecycleSymbSolJTFVisuals.html#spreadsheet-summary",
     "title": "Chemical and Thermal Processes",
     "section": "Spreadsheet Summary",
-    "text": "Spreadsheet Summary\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n(Image)"
+    "text": "Spreadsheet Summary\n\n\n\n\\(\\nu_\\mathrm{A} \\mathrm{A} \\rightarrow \\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C}\\)\n\n\n\\(\\mathrm{A}\\)\n\n\n\\(\\begin{array}{c}\\mathrm{A}\\\\\\mathrm{B}\\\\\\mathrm{C}\\end{array}\\)"
   },
   {
     "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#parametric-plot-of-f_textaoverall",
     "href": "balances/material/RecycleSymbSolJTFVisuals.html#parametric-plot-of-f_textaoverall",
     "title": "Chemical and Thermal Processes",
     "section": "Parametric Plot of \\(f_\\text{A–overall}\\)",
-    "text": "Parametric Plot of \\(f_\\text{A–overall}\\)"
+    "text": "Parametric Plot of \\(f_\\text{A–overall}\\)\n \n\nLinearScale\n\n\nLogScale"
   },
   {
     "objectID": "balances/material/RecycleSymbSolJTFVisuals.html#the-takeaways",
     "href": "balances/material/RecycleSymbSolJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nLearn to recognize things given in the definitions like a PFD, recycle, and bypass.\nDevelop a systematic style to set up and solve problems. Use the given style if you don’t have your own.\nCheck out the speed tips and see if they help."
+    "text": "The Takeaways\n\nIt is possible to develop the general equations for a PFD with a reactor and a separator.\nAs the fractional conversion in the reactor goes up, the overall fractional conversion goes up.\nAs the split fraction of the reactant in the product stream goes down, the overall fractional conversion goes up."
   },
   {
     "objectID": "balances/material/UnitOpsReactPart3JTFVisuals.html#summary-of-multiple-reactions",

@@ -127,8 +127,8 @@
 
 
 <section>
-<section id="recycle-symbolic-solutionjust-the-facts" class="title-slide slide level1 bigbold75 center">
-<h1>Recycle Symbolic Solution<br>Just the Facts</h1>
+<section id="the-symbolic-meaning-of-recyclingjust-the-facts" class="title-slide slide level1 bigbold75 center">
+<h1>The Symbolic Meaning<br>of Recycling<br>Just the Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
@@ -136,137 +136,165 @@
 </section>
 <section id="recycle-example-symbolic-only" class="slide level2">
 <h2>Recycle Example Symbolic Only</h2>
+<p><img data-src="SymbRecyclePFD.png" class="absolute" style="top: 16%; left: 2%; width: 50%; "></p>
+<div style="font-size: 60px">
+<div class="absolute" style="top: 14%; left: 17%; ">
 <p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
-<p>(image)</p>
+</div>
+<div class="absolute" style="top: 21%; left: 0%; ">
+<p><span class="math inline">\(\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 14%; left: 52%; ">
+<p><span class="math inline">\(\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}\)</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 10%; left: 60%; ">
 <p>Assume that the knowns or givens are:</p>
-<p><span class="math inline">\(\dot{n}_\mathrm{A1}\)</span>, <span class="math inline">\(\dot{n}_\mathrm{B1}\)</span>, <span class="math inline">\(\dot{n}_\mathrm{C1}\)</span>, <span class="math inline">\(f_\mathrm{A}\)</span> (in reactor), <span class="math inline">\(t_\mathrm{A4}\)</span>, <span class="math inline">\(t_\mathrm{C4}\)</span>, <span class="math inline">\(t_\mathrm{C4}\)</span></p>
-<p>Find a full set of equations for all of the flows, extent of reaction, and overall conversion in terms of the knowns.</p>
-<p>In general, you have to calculate a set of mass balances completely around the recycle loop before you can eliminate the unknowns. Each known will be circled, and each equation that has a single unknown in terms of knowns will be circled.</p>
+<p><span class="math inline">\(\dot{n}_\mathrm{A1}\)</span>, <span class="math inline">\(\dot{n}_\mathrm{B1}\)</span>, <span class="math inline">\(\dot{n}_\mathrm{C1}\)</span>,<br> <span class="math inline">\(f_\mathrm{A}\)</span> (in reactor),<br> <span class="math inline">\(t_\mathrm{A4}\)</span>, <span class="math inline">\(t_\mathrm{C4}\)</span>, <span class="math inline">\(t_\mathrm{C4}\)</span></p>
+</div>
+<div class="absolute" style="top: 45%; left: 2%; ">
+<p>Find a full set of equations for all of the flows, extent of reaction, and overall conversion in terms of the knowns. <br><br> In general, you have to calculate a set of mass balances completely around the recycle loop before you can eliminate the unknowns. Each known will be circled, and each equation that has a single unknown in terms of knowns will be circled.</p>
+</div>
 </section>
 <section id="a-balance" class="slide level2">
 <h2>“A” Balance</h2>
+<p><img data-src="SymbRecyclePFD.png" class="absolute" style="top: 16%; left: 2%; width: 50%; "></p>
+<div style="font-size: 60px">
+<div class="absolute" style="top: 14%; left: 17%; ">
 <p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
-<p>(Image)</p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{A1} = \mathrm{given}
-\]</span></p>
+</div>
+<div class="absolute" style="top: 21%; left: 0%; ">
+<p><span class="math inline">\(\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 14%; left: 52%; ">
+<p><span class="math inline">\(\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}\)</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 10%; left: 60%; ">
+<p><strong>Input</strong></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A1} = \mathrm{given}\)</span></p>
 <p><strong>Mixer</strong></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{A5} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}
-\]</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A5} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}\)</span></p>
+</div>
+<div class="absolute" style="top: 40%; ">
 <p><strong>Reactor</strong></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{A2} = (1-f_\mathrm{A})\dot{n}_\mathrm{A5} = (1-f_\mathrm{A})(\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{A2} = \dot{n}_\mathrm{A5} + \nu_\mathrm{A} \dot{\xi} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}+ \nu_\mathrm{A} \dot{\xi}
-\]</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A2} = (1-f_\mathrm{A})\dot{n}_\mathrm{A5} = (1-f_\mathrm{A})(\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A2} = \dot{n}_\mathrm{A5} + \nu_\mathrm{A} \dot{\xi} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}+ \nu_\mathrm{A} \dot{\xi}\)</span></p>
 <p>or</p>
-<p><span class="math display">\[
-\dot{\xi} = (\dot{n}_\mathrm{A2} - \dot{n}_\mathrm{A5})/\nu_\mathrm{A}
-\]</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{\xi} = (\dot{n}_\mathrm{A2} - \dot{n}_\mathrm{A5})/\nu_\mathrm{A}\)</span></p>
 <p><strong>Separator</strong></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{A4} = t_\mathrm{A4} \dot{n}_\mathrm{A2} = t_\mathrm{A4} (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{A3} = (1-t_\mathrm{A4}) \dot{n}_\mathrm{A2} = (1-t_\mathrm{A4}) (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
-\]</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A4} = t_\mathrm{A4} \dot{n}_\mathrm{A2} = t_\mathrm{A4} (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A3} = (1-t_\mathrm{A4}) \dot{n}_\mathrm{A2} = (1-t_\mathrm{A4}) (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})\)</span></p>
+</div>
 </section>
 <section id="a-balance-cont." class="slide level2">
 <h2>“A” Balance (cont.)</h2>
-<p><strong>Separator (cont.)</strong></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{A3} = (1-t_\mathrm{A4}) (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})
-\]</span></p>
-<p><span class="math display">\[
-\implies \dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A1} \left[\frac{(1-f_\mathrm{A}) (1-t_\mathrm{A4})}{f_\mathrm{A} + t_\mathrm{A4} - f_\mathrm{A} t_\mathrm{A4}}\right]
-\]</span></p>
-<p>Once we have <span class="math inline">\(\dot{n}_\mathrm{A3}\)</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{A5} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{A2} = (1-f_\mathrm{A}) \dot{n}_\mathrm{A5}
-\]</span></p>
-<p><span class="math display">\[
-\dot{\xi} = (\dot{n}_\mathrm{A2} - \dot{n}_\mathrm{A5})/\nu_\mathrm{A}
-\]</span></p>
+<p><img data-src="SymbRecyclePFD.png" class="absolute" style="top: 60%; left: 50%; width: 50%; "></p>
+<div style="font-size: 60px">
+<div class="absolute" style="top: 58%; left: 67%; ">
 <p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
-<p>(image)</p>
+</div>
+<div class="absolute" style="top: 61%; left: 51%; ">
+<p><span class="math inline">\(\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 58%; left: 100%; ">
+<p><span class="math inline">\(\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}\)</span></p>
+</div>
+</div>
+<p><br> <strong>Separator (cont.)</strong> <br><br> <span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A3} = (1-t_\mathrm{A4}) (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})\)</span> <br><br> <span class="math inline">\(\ \ \ \ \implies \dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A1} \left[\frac{(1-f_\mathrm{A}) (1-t_\mathrm{A4})}{f_\mathrm{A} + t_\mathrm{A4} - f_\mathrm{A} t_\mathrm{A4}}\right]\)</span></p>
+<p><br> Once we have <span class="math inline">\(\dot{n}_\mathrm{A3}\)</span>,</p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A5} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A2} = (1-f_\mathrm{A}) \dot{n}_\mathrm{A5}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{\xi} = (\dot{n}_\mathrm{A2} - \dot{n}_\mathrm{A5})/\nu_\mathrm{A}\)</span></p>
 </section>
 <section id="b-c-balances" class="slide level2">
 <h2>“B” &amp; “C” Balances</h2>
+<p><img data-src="SymbRecyclePFD.png" class="absolute" style="top: 70%; left: 50%; width: 50%; "></p>
+<div style="font-size: 60px">
+<div class="absolute" style="top: 68%; left: 67%; ">
+<p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
+</div>
+<div class="absolute" style="top: 71%; left: 51%; ">
+<p><span class="math inline">\(\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 68%; left: 100%; ">
+<p><span class="math inline">\(\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}\)</span></p>
+</div>
+</div>
 <p>For <span class="math inline">\(\mathrm{B}\)</span> and <span class="math inline">\(\mathrm{C}\)</span> we’ll use extent of reaction. The <span class="math inline">\(\mathrm{B}\)</span> and <span class="math inline">\(\mathrm{C}\)</span> equations are identical except for the change from <span class="math inline">\(\mathrm{B}\)</span> to <span class="math inline">\(\mathrm{C}\)</span> subscripts.</p>
 <p><strong>Overall</strong></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{B4} = \dot{n}_\mathrm{B1} + \nu_\mathrm{B} \dot{\xi}
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C1} + \nu_\mathrm{C} \dot{\xi}
-\]</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{B4} = \dot{n}_\mathrm{B1} + \nu_\mathrm{B} \dot{\xi}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C1} + \nu_\mathrm{C} \dot{\xi}\)</span></p>
+<div class="absolute" style="top: 27%; left: 40%; ">
 <p><strong>Separator</strong></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{B2} = \frac{\dot{n}_\mathrm{B4}}{t_\mathrm{B4} }
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{C2} = \frac{\dot{n}_\mathrm{C4}}{t_\mathrm{C4} }
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{B3} = (1-t_\mathrm{B4}) \dot{n}_\mathrm{B2} = \frac{1-t_\mathrm{B4}}{t_\mathrm{B4}} \dot{n}_\mathrm{B4}
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{C3} = (1-t_\mathrm{C4}) \dot{n}_\mathrm{C2} = \frac{1-t_\mathrm{C4}}{t_\mathrm{C4}} \dot{n}_\mathrm{C4}
-\]</span></p>
-<p><strong>Mixer</strong></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{B5} = \dot{n}_\mathrm{B1} + \dot{n}_\mathrm{B3}
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{C5} = \dot{n}_\mathrm{C1} + \dot{n}_\mathrm{C3}
-\]</span></p>
-<p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
-<p>(Image)</p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{B2} = \frac{\dot{n}_\mathrm{B4}}{t_\mathrm{B4} }\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{C2} = \frac{\dot{n}_\mathrm{C4}}{t_\mathrm{C4} }\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{B3} = (1-t_\mathrm{B4}) \dot{n}_\mathrm{B2} = \frac{1-t_\mathrm{B4}}{t_\mathrm{B4}} \dot{n}_\mathrm{B4}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{C3} = (1-t_\mathrm{C4}) \dot{n}_\mathrm{C2} = \frac{1-t_\mathrm{C4}}{t_\mathrm{C4}} \dot{n}_\mathrm{C4}\)</span></p>
+</div>
+<p><br><br> <strong>Mixer</strong></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{B5} = \dot{n}_\mathrm{B1} + \dot{n}_\mathrm{B3}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{C5} = \dot{n}_\mathrm{C1} + \dot{n}_\mathrm{C3}\)</span></p>
 </section>
 <section id="summary" class="slide level2">
 <h2>Summary</h2>
-<p>Finally, the overall fractional conversion of <span class="math inline">\(\mathrm{A}\)</span>, and the product flow rates</p>
-<p><strong>Overall Fractional Conversion</strong></p>
-<p><span class="math display">\[
-f_\text{A–overall} = 1-\frac{\dot{n}_\mathrm{A1}}{\dot{n}_\mathrm{A4}} = \frac{f_\mathrm{A}}{f_\mathrm{A} + t_\mathrm{A4} - f_\mathrm{A} t_\mathrm{A4}}
-\]</span></p>
-<p><strong>Output Flows</strong> (from overall and <span class="math inline">\(\dot{\xi}\)</span>)</p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{A4} = \dot{n}_\mathrm{A1} + \nu_\mathrm{A} \dot{\xi}
-\]</span> <span class="math display">\[
-\dot{n}_\mathrm{B4} = \dot{n}_\mathrm{B1} + \nu_\mathrm{B} \dot{\xi}
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C1} + \nu_\mathrm{C} \dot{\xi}
-\]</span></p>
+<p><img data-src="SymbRecyclePFD.png" class="absolute" style="top: 60%; left: 45%; width: 50%; "></p>
+<div style="font-size: 60px">
+<div class="absolute" style="top: 58%; left: 62%; ">
 <p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
-<p>(Image)</p>
+</div>
+<div class="absolute" style="top: 61%; left: 46%; ">
+<p><span class="math inline">\(\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 58%; left: 95%; ">
+<p><span class="math inline">\(\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}\)</span></p>
+</div>
+</div>
+<p>Finally, the overall fractional conversion of <span class="math inline">\(\mathrm{A}\)</span>, and the product flow rates <br><br> <strong>Overall Fractional Conversion</strong></p>
+<p><span class="math inline">\(\ \ \ \ f_\text{A–overall} = 1-\frac{\dot{n}_\mathrm{A1}}{\dot{n}_\mathrm{A4}} = \frac{f_\mathrm{A}}{f_\mathrm{A} + t_\mathrm{A4} - f_\mathrm{A} t_\mathrm{A4}}\)</span> <br><br> <strong>Output Flows</strong> (from overall and <span class="math inline">\(\dot{\xi}\)</span>)</p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A4} = \dot{n}_\mathrm{A1} + \nu_\mathrm{A} \dot{\xi}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{B4} = \dot{n}_\mathrm{B1} + \nu_\mathrm{B} \dot{\xi}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C1} + \nu_\mathrm{C} \dot{\xi}\)</span></p>
 </section>
 <section id="spreadsheet-summary" class="slide level2">
 <h2>Spreadsheet Summary</h2>
+<p><img data-src="SymbRecyclePFD.png" class="absolute" style="top: 13%; left: 2%; width: 50%; "></p>
+<div style="font-size: 60px">
+<div class="absolute" style="top: 11%; left: 17%; ">
 <p><span class="math inline">\(\nu_\mathrm{A} \mathrm{A} \rightarrow \nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C}\)</span></p>
-<p>(Image)</p>
+</div>
+<div class="absolute" style="top: 18%; left: 0%; ">
+<p><span class="math inline">\(\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 11%; left: 52%; ">
+<p><span class="math inline">\(\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}\)</span></p>
+</div>
+</div>
+<p><img data-src="SymbSpreadsheet1.png" class="absolute" style="top: 42%; left: 0%; width: 80%; "></p>
+<p><img data-src="SymbSpreadsheet2.png" class="absolute" style="top: 10%; left: 65%; width: 30%; "></p>
 </section>
 <section id="parametric-plot-of-f_textaoverall" class="slide level2">
 <h2>Parametric Plot of <span class="math inline">\(f_\text{A–overall}\)</span></h2>
+<p><img data-src="SymbParaPlotLin.png" class="absolute" style="top: 7%; left: 10%; width: 80%; "> <img data-src="SymbParaPlotLog.png" class="absolute" style="top: 54%; left: 10%; width: 80%; "></p>
+<div class="absolute" style="top: 27%; left: 0%; ">
+<p>Linear<br>Scale</p>
+</div>
+<div class="absolute" style="top: 73%; left: 0%; ">
+<p>Log<br>Scale</p>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Learn to recognize things given in the definitions like a PFD, recycle, and bypass.</li>
-<li class="fragment">Develop a systematic style to set up and solve problems. Use the given style if you don’t have your own.</li>
-<li class="fragment">Check out the speed tips and see if they help.</li>
+<li class="fragment">It is possible to develop the general equations for a PFD with a reactor and a separator.</li>
+<li class="fragment">As the fractional conversion in the reactor goes up, the overall fractional conversion goes up.</li>
+<li class="fragment">As the split fraction of the reactant in the product stream goes down, the overall fractional conversion goes up.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The companion video in the series, <em>How to Keep Your Balance</em>, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The next video in the series, <em>How Did You Think I Would React?</em>, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 
