@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>Chemical and Thermal Processes – speedbalancingjtfvisuals</title>
+  <title>Chemical and Thermal Processes – batchcstrpfrintrojtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,111 +127,35 @@
 
 
 <section>
-<section id="speed-balancingjust-the-facts" class="title-slide slide level1 center">
-<h1>Speed Balancing<br>Just the Facts</h1>
+<section id="wishing-upon-a-cstrjust-the-facts" class="title-slide slide level1 bigbold75 center">
+<h1>Wishing Upon a CSTR<br>Just the Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
-<section id="definitions" class="slide level2">
-<h2>Definitions</h2>
-<dl>
-<dt class="fragment">PFD</dt>
-<dd class="fragment">
-Process Flow Diagram or flowsheet. A schematic drawing of the mixers, dividers, separators, reactors and other unit operations used in the process.
-</dd>
-</dl>
-<div class="fragment">
-<p><img data-src="SamplePFD.png"></p>
-</div>
-<dl>
-<dt class="fragment">Recycle</dt>
-<dd class="fragment">
-Part of a product stream is returned to the feed of a process.
-</dd>
-</dl>
-</section>
-<section id="definitions-cont." class="slide level2">
-<h2>Definitions (cont.)</h2>
-<dl>
-<dt class="fragment">Bypass</dt>
-<dd class="fragment">
-Part of the feed is routed around a process and mixed with the product.
-</dd>
-</dl>
-<div class="r-stack">
-<p><img data-src="SampleBypassPFD.png" class="fragment" style="width:50.0%"></p>
-</div>
-<dl>
-<dt class="fragment">Purge</dt>
-<dd class="fragment">
-A stream used to prevent buildup of trace components in a recycle loop.
-</dd>
-</dl>
-<div class="r-stack">
-<p><img data-src="SamplePFD.png" class="fragment" style="width:60.0%"></p>
-</div>
-</section>
-<section id="definitions-cont.-1" class="slide level2">
-<h2>Definitions (cont.)</h2>
-<dl>
-<dt class="fragment">Tie Component</dt>
-<dd class="fragment">
-A component of the feed which is unchanged by a process. Often useful for calculations but never necessary.
-</dd>
-</dl>
-<p><br></p>
-<dl>
-<dt class="fragment">Overall Balance</dt>
-<dd class="fragment">
-Treating a PFD as a black box with only inputs and outputs.
-</dd>
-</dl>
-<div class="fragment">
-<p><img data-src="SamplePFD.png"></p>
-</div>
-</section>
-<section id="solving-your-system-equations" class="slide level2">
-<h2>Solving Your System Equations</h2>
-<blockquote>
-<p>Engineering is solving story problems where you often have to make up the story.</p>
-</blockquote>
-<blockquote>
-<p>Bookkeeping is just arithmetic and definitions, but it needs to be done correctly.</p>
-</blockquote>
-<blockquote>
-<p>There are many ways to solve a problem correctly. You want to develop a systematic approach, and not treat each problem as an isolated issue.</p>
-</blockquote>
-<h4 id="one-useful-technique">One Useful Technique</h4>
-<ol type="1">
-<li class="fragment">Draw a flowchart (PFD) and fill in all given variable values.</li>
-<li class="fragment">Convert quantities to a consistent set of units.</li>
-<li class="fragment">Choose a basis of calculation (usually an amount or flow rate of one of the process streams).</li>
-</ol>
-</section>
-<section id="solving-system-equations-cont." class="slide level2">
-<h2>Solving System Equations (cont.)</h2>
-<ol start="4" type="1">
-<li class="fragment">Label unknown stream variables on the chart. Use a consistent system of labeling.</li>
-<li class="fragment">Because volumes and volumetric flow rates are not conserved quantities, convert stream volumes to masses or moles, and volumetric flow rates to mass or molar flow rates.</li>
-<li class="fragment">Convert mixed mass and mole units to either all mass or all mole units.</li>
-<li class="fragment">Write material balance equations.</li>
-<li class="fragment">Write other problem constraints as equations.</li>
-</ol>
-</section>
-<section id="solving-system-equations-cont.-1" class="slide level2">
-<h2>Solving System Equations (cont.)</h2>
-<ol start="9" type="1">
-<li class="fragment">Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget?</li>
-<li class="fragment">Solve the equations.</li>
-<li class="fragment">Convert the answers to the desired units.</li>
-</ol>
-</section>
-<section id="example" class="slide level2">
-<h2>Example</h2>
-<p>A bathtub with a partially open drain valve begins filling with water at a rate of 5 gallons per minute. The partially open valve is modeled by an equation relating the outlet flow rate to the depth of the water, <span class="math inline">\(\dot{V}_\mathrm{out} = 205.7 \sqrt{h}\)</span> with the depth, <span class="math inline">\(h\)</span>, in centimeters and the flow rate, <span class="math inline">\(\dot{V}_\mathrm{out}\)</span>, in liters per hour. What is the steady-state depth of the water in inches?</p>
-<div class="fragment">
+<section id="ideal-homogeneous-reactors" class="slide level2">
+<h2>Ideal Homogeneous Reactors</h2>
+<p>Most commercial reactors are <em>heterogeneous</em> reactors.</p>
+<p>We will focus first on the ideal <em>homogeneous</em> reactors.</p>
+<ul>
+<li class="fragment">Batch (Transient)
+<ul>
+<li class="fragment">Properties are <em>uniform</em> throughout the volume.</li>
+<li class="fragment">Properties are <em>evolving</em> in time.</li>
+</ul></li>
+<li class="fragment">CSTR (Mixed, Steady State)
+<ul>
+<li class="fragment">Properties are <em>uniform</em> throughout the volume.</li>
+<li class="fragment">Properties are <em>constant</em> in time.</li>
+</ul></li>
+<li class="fragment">PFR (Steady State)
+<ul>
+<li class="fragment">Properties are <em>uniform</em> in the radial direction, <span class="math inline">\(r\)</span>.</li>
+<li class="fragment">Properties are <em>evolving</em> in the axial direction, <span class="math inline">\(r\)</span>.</li>
+<li class="fragment">Properties are <em>constant</em> in time.</li>
+</ul></li>
+</ul>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -241,113 +165,118 @@ Treating a PFD as a black box with only inputs and outputs.
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>The solution given below is for the steady state, where the flow in equals the flow out. Solving the transient problem for the time to reach steady state involves using a transient mass (or volume) balance with an accumulation term. It requires the cross-sectional area of the bathtub, and results in a nonlinear ordinary differential equation that must be solved.</p>
+<p>We will not derive the transient cases for CSTRs or PFRs, but they are critically important during plant start-up and shut-down.</p>
 </div>
 </div>
 </div>
-</div>
+<p>$$</p>
 </section>
-<section id="solution" class="slide level2">
-<h2>Solution</h2>
-<ol type="1">
-<li class="fragment"><em>Draw a flowchart (PFD) and fill in all given variable values.</em> Here is a PFD with all given information.</li>
-</ol>
-<div class="r-stack">
-<p><img data-src="BathtubsForBalancesSteadyState.png" class="fragment" style="width:50.0%"></p>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 26%; left: 8%; ">
-<p><span class="math inline">\(\dot{V}_\mathrm{in} = 5\ \mathrm{gpm}\)</span></p>
-</div>
-<div class="absolute" style="top: 41%; left: 45%; ">
-<p><span class="math inline">\(\dot{V}_\mathrm{out} = 205.7 \sqrt{h}\)</span></p>
-</div>
-<div class="absolute" style="top: 40%; left: 25%; ">
-<p><span class="math inline">\(\updownarrow h\)</span></p>
-</div>
-</div>
-<ol start="2" type="1">
-<li class="fragment"><em>Convert quantities to a consistent set of units.</em> Since the units are mixed (not all SI or American Engineering), we’ll convert to SI to work the problem: Gallons per minute and liters per hour to cubic meters per second, centimeters and inches to meters.<br><span class="math inline">\(5\ \mathrm{gpm} = 3.155 \times 10^{-4}\ \mathrm{m^3/s}\)</span>,&nbsp;&nbsp;<span class="math inline">\(1\ \mathrm{lit/h} = 2.778 \times 10^{-7}\ \mathrm{m^3/s}\)</span><br><span class="math inline">\(1\ \mathrm{cm} = 0.01\ \mathrm{m}\)</span>,&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(1\ \mathrm{in} = 0.0254\ \mathrm{m}\)</span></li>
-</ol>
+<section id="batch-reactor" class="slide level2">
+<h2>Batch Reactor</h2>
+<p>(image)</p>
+<p>Transient, spatially uniform</p>
+<p><span class="math display">\[
+\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
+\]</span></p>
+<p><span class="math display">\[
+r_j \ne r_j(\mathrm{position)}) \implies \int_{V_R} r_j dV = r_j \int_{V_R} dV = r_j V_R
+\]</span></p>
 </section>
-<section id="solution-cont." class="slide level2">
-<h2>Solution (cont.)</h2>
-<ol start="3" type="1">
-<li class="fragment"><em>Choose a basis of calculation (usually an amount or flow rate of one of the process streams).</em> The most useful basis is the input flow rate of <span class="math inline">\(5\)</span> gallons per hour or <span class="math inline">\(3.155 \times 10^{-4}\)</span> cubic meters per second. There are other less useful choices.</li>
-<li class="fragment"><em>Label unknown stream variables on the chart. Use a consistent system of labeling.</em> We already did this in step 1.</li>
-<li class="fragment"><em>Because volumes and volumetric flow rates are not conserved quantities, convert stream volumes to masses or moles, and volumetric flow rates to mass or molar flow rates.</em> There is no value in converting to a mass flow rate for this problem, because we are going to assume the temperature of the water, and therefore the specific volume doesn’t change appreciably. If we had to convert, we would use the approximate value of <span class="math inline">\(1000\ \mathrm{kg/m^3}\)</span> (true at 4 °C).</li>
-</ol>
+<section id="batch-reactor-cont." class="slide level2">
+<h2>Batch Reactor (cont.)</h2>
+<p>For Species A, <span class="math inline">\(n_\mathrm{A} = n_\mathrm{A_0} (1- f_\mathrm{A})\)</span></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="math display">\[
+(-r_\mathrm{A}) V_R = - \frac{dn_\mathrm{A}}{dt}
+\]</span> <span class="math display">\[
+\int^{t_2}_{t_1} dt = \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R}
+\]</span> <span class="math display">\[
+\boxed{ t_2 - t_1 =  \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R} }
+\]</span></p>
+</div><div class="column" style="width:50%;">
+<p><span class="math display">\[
+(-r_\mathrm{A}) V_R = n_\mathrm{A_0}\frac{df_\mathrm{A}}{dt}
+\]</span> <span class="math display">\[
+\int^{t_2}_{t_1} dt = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
+\]</span> <span class="math display">\[
+\boxed{ t_2 - t_1 = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R} }
+\]</span></p>
+</div></div>
+<p>for <span class="math inline">\(t_1 = 0,\ f_\mathrm{A_1} = 0\)</span></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="math display">\[
+t =  \int^{n_{\mathrm{A}}}_{n_{\mathrm{A_0}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R}
+\]</span></p>
+</div><div class="column" style="width:50%;">
+<p><span class="math display">\[
+t = n_\mathrm{A_0}\int^{f_{\mathrm{A}}}_0 \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
+\]</span></p>
+</div></div>
 </section>
-<section id="solution-cont.-1" class="slide level2">
-<h2>Solution (cont.)</h2>
-<ol start="6" type="1">
-<li class="fragment"><em>Convert mixed mass and mole units to either all mass or all mole units.</em> Not applicable for this problem.</li>
-<li class="fragment"><em>Write material balance equations.</em> The mass balance is that at steady state the mass flow rate in equals the mass flow rate out, <span class="math inline">\(\dot{m}_\mathrm{in} = \dot{m}_\mathrm{out}\)</span>, and therefore the volumetric flow rate in equals the volumetric flow rate out because <span class="math inline">\(\dot{m}\)</span> equals <span class="math inline">\(\rho \dot{V}\)</span> and we assume that <span class="math inline">\(\rho\)</span> doesn’t change, <span class="math inline">\(\dot{V}_\mathrm{in} = \dot{V}_\mathrm{out}\)</span>.</li>
-<li class="fragment"><em>Write other problem constraints as equations.</em> The problem constraint is <span class="math inline">\(\dot{V}_\mathrm{out} = 205.7 \sqrt{h}\)</span> which we’ll convert to meters and cubic meters per second, as discussed in The Most Annoying Equation Conversion video. The result is <span class="math inline">\(\dot{V}_\mathrm{out} = 5.714 \times 10^{-4} \sqrt{h}\)</span>, with <span class="math inline">\(\dot{V}_\mathrm{out}\)</span> in <span class="math inline">\(\mathrm{m^3/s}\)</span> and <span class="math inline">\(h\)</span> in <span class="math inline">\(\mathrm{cm}\)</span>.</li>
-</ol>
+<section id="batch-reactor-cont.-1" class="slide level2">
+<h2>Batch Reactor (cont.)</h2>
+<p>In terms of concentration:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="math display">\[
+t = - \int^{C_{\mathrm{A}}}_{C_{\mathrm{A_0}}} \frac{dC_\mathrm{A}}{(-r_\mathrm{A})}
+\]</span></p>
+</div><div class="column" style="width:50%;">
+<p><span class="math display">\[
+t =  C_\mathrm{A_0} \int^{f_{\mathrm{A}}}_{0} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
+\]</span></p>
+</div></div>
 </section>
-<section id="solution-cont.-2" class="slide level2">
-<h2>Solution (cont.)</h2>
-<ol start="9" type="1">
-<li class="fragment"><em>Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget?</em> We have two equations, the volume balance, and the valve equation, in two unknowns, the volumetric flow rate out, <span class="math inline">\(\dot{V}_\mathrm{out}\)</span>, and the steady-state depth, <span class="math inline">\(h\)</span>.</li>
-<li class="fragment"><em>Solve the equations.</em> The solution is <span class="math inline">\(\dot{V}_\mathrm{out} = 3.155 \times 10^{-4}\ \mathrm{m^3/s}\)</span>, <span class="math inline">\(h = 0.3049\ \mathrm{m}\)</span>.</li>
-<li class="fragment"><em>Convert the answers to the desired units.</em> The depth in meters converted to inches is <span class="math inline">\(12.00\ \mathrm{in}\)</span>.</li>
-</ol>
+<section id="cstr-mixed" class="slide level2">
+<h2>CSTR (Mixed)</h2>
+<p>(image)</p>
+<p>Steady state, spatially uniform</p>
+<p><span class="math display">\[
+\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
+\]</span></p>
+<p><span class="math display">\[
+r_j \ne r_j(\mathrm{position)} \implies \dot{n}_{j_0} - \dot{n}_j + r_j V_R = 0
+\]</span></p>
+<p><span class="math display">\[
+\dot{n}_{j_0} = \dot{n}_j + (-r_j) V_R
+\]</span></p>
+<p>For species <span class="math inline">\(\mathrm{A}\)</span>,</p>
+<p><span class="math display">\[
+\boxed{ V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}}
+\]</span></p>
 </section>
-<section id="solution-notes" class="slide level2">
-<h2>Solution Notes</h2>
-<div style="font-size: 93px">
-<p>The note number corresponds to the solution step number.</p>
-<div class="fragment">
-<ol type="1">
-<li class="fragment">If there were more species than one (water) we would have labeled the PFD with the species, and, if known, the flows or compositions.</li>
-</ol>
-</div>
-<div class="fragment">
-<ol start="2" type="1">
-<li class="fragment">See <em>Is Furlongs per Fortnight a Thing?</em> for details on conversions.</li>
-</ol>
-</div>
-<div class="fragment">
-<ol start="5" type="1">
-<li class="fragment">Neglecting the change in density with temperature will only affect the answer in the fourth significant figure, so it will not appreciably affect the answer.</li>
-</ol>
-</div>
-<div class="fragment">
-<ol start="8" type="1">
-<li class="fragment">The details of the conversion of the equation are on the web page for the video.</li>
-</ol>
-</div>
-<div class="fragment">
-<ol start="10" type="1">
-<li class="fragment">A more detailed solution is on the web page for the video.</li>
-</ol>
-</div>
-</div>
+<section id="fractional-conversion" class="slide level2">
+<h2>Fractional Conversion</h2>
 </section>
-<section id="speed-tips" class="slide level2">
-<h2>Speed Tips</h2>
-<ol type="1">
-<li class="fragment">If it’s not needed, don’t solve for everything.</li>
-<li class="fragment">Write equations in order of number of unknowns from fewest to most.</li>
-<li class="fragment">Try overall balances first.</li>
-<li class="fragment">Check out if any tie components would be useful.</li>
-<li class="fragment">Remember mole fractions or mass fractions add up to 1.</li>
-<li class="fragment">Usually, solving a recycle loop requires a complete set of equations around the loop.</li>
-</ol>
+<section id="r-as-a-function-of-t-and-c" class="slide level2">
+<h2><span class="math inline">\(r\)</span> as a Function of <span class="math inline">\(T\)</span> and <span class="math inline">\(C\)</span></h2>
+</section>
+<section id="mole-balance-on-reactor" class="slide level2">
+<h2>Mole Balance on Reactor</h2>
+<p>Reactor volume, <span class="math inline">\(V_R\)</span> (image)</p>
+<p><strong>General Balance Equation</strong></p>
+<p><span class="math inline">\(\ \ \ \ \mathrm{In - Out + Generation = Accumulation}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_{j_0} - \dot{n}_j + \mathrm{Gen}_j = \frac{dn_j}{dt}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \mathrm{Gen}_j = \int_{V_R} r_j dV,\ \ \ \ r_j = \nu_j r\)</span></p>
+<p><span class="math display">\[
+\boxed{ \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt} }
+\]</span></p>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Learn to recognize things given in the definitions like a PFD, recycle, and bypass.</li>
-<li class="fragment">Develop a systematic style to set up and solve problems. Use the given style if you don’t have your own.</li>
-<li class="fragment">Check out the speed tips and see if they help.</li>
+<li class="fragment">For reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.</li>
+<li class="fragment">The yield is the fraction of the desired product that could be produced that is actually produced..</li>
+<li class="fragment">The selectivity is the ratio of the desired product to the undesired products.</li>
+<li class="fragment">Don’t confuse mole fraction, <span class="math inline">\(x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)\)</span>, split fraction, <span class="math inline">\(t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}\)</span>, and fractional conversion.<span class="math inline">\(f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}}\)</span>.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The companion video in the series, <em>How to Keep Your Balance</em>, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. <em>Recycling Before Recycling Was Cool</em>, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 
