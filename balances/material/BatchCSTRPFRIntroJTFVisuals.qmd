@@ -1,0 +1,185 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Wishing Upon a CSTR</br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+
+## Ideal Homogeneous Reactors
+
+Most commercial reactors are *heterogeneous* reactors.
+
+We will focus first on the ideal *homogeneous* reactors.
+
+ - Batch (Transient)
+   - Properties are *uniform* throughout the volume.
+   - Properties are *evolving* in time.
+ - CSTR (Mixed, Steady State)
+   - Properties are *uniform* throughout the volume.
+   - Properties are *constant* in time.
+ - PFR (Steady State)
+   - Properties are *uniform* in the radial direction, $r$.
+   - Properties are *evolving* in the axial direction, $r$.
+   - Properties are *constant* in time.
+
+:::{.callout-note}
+We will not derive the transient cases for CSTRs or PFRs, but they are critically important during plant start-up and shut-down.
+:::
+$$
+
+## Batch Reactor
+
+(image)
+
+Transient, spatially uniform
+
+$$
+\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
+$$
+
+$$
+r_j \ne r_j(\mathrm{position)}) \implies \int_{V_R} r_j dV = r_j \int_{V_R} dV = r_j V_R
+$$
+
+## Batch Reactor (cont.)
+
+For Species A, $n_\mathrm{A} = n_\mathrm{A_0} (1- f_\mathrm{A})$
+
+::::{.columns}
+:::{.column width=50%}
+$$
+(-r_\mathrm{A}) V_R = - \frac{dn_\mathrm{A}}{dt}
+$$
+$$
+\int^{t_2}_{t_1} dt = \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R}
+$$
+$$
+\boxed{ t_2 - t_1 =  \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R} }
+$$
+:::
+:::{.column width=50%}
+$$
+(-r_\mathrm{A}) V_R = n_\mathrm{A_0}\frac{df_\mathrm{A}}{dt}
+$$
+$$
+\int^{t_2}_{t_1} dt = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
+$$
+$$
+\boxed{ t_2 - t_1 = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R} }
+$$
+:::
+::::
+
+for $t_1 = 0,\ f_\mathrm{A_1} = 0$
+
+::::{.columns}
+:::{.column width=50%}
+$$
+t =  \int^{n_{\mathrm{A}}}_{n_{\mathrm{A_0}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R} 
+$$
+:::
+:::{.column width=50%}
+$$
+t = n_\mathrm{A_0}\int^{f_{\mathrm{A}}}_0 \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
+$$
+:::
+::::
+
+## Batch Reactor (cont.)
+
+In terms of concentration:
+
+::::{.columns}
+:::{.column width=50%}
+$$
+t = - \int^{C_{\mathrm{A}}}_{C_{\mathrm{A_0}}} \frac{dC_\mathrm{A}}{(-r_\mathrm{A})}
+$$
+:::
+:::{.column width=50%}
+$$
+t =  C_\mathrm{A_0} \int^{f_{\mathrm{A}}}_{0} \frac{df_\mathrm{A}}{(-r_\mathrm{A})} 
+$$
+
+:::
+::::
+
+
+## CSTR (Mixed)
+
+(image)
+
+Steady state, spatially uniform
+
+$$
+\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
+$$
+
+$$
+r_j \ne r_j(\mathrm{position)} \implies \dot{n}_{j_0} - \dot{n}_j + r_j V_R = 0
+$$
+
+$$
+\dot{n}_{j_0} = \dot{n}_j + (-r_j) V_R
+$$
+
+For species $\mathrm{A}$,
+
+
+$$
+\boxed{ V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}}
+$$
+
+
+## Fractional Conversion
+
+
+
+## $r$ as a Function of $T$ and $C$
+
+
+
+## Mole Balance on Reactor
+
+Reactor volume, $V_R$
+(image)
+
+**General Balance Equation**
+
+$\ \ \ \ \mathrm{In - Out + Generation = Accumulation}$
+
+$\ \ \ \ \dot{n}_{j_0} - \dot{n}_j + \mathrm{Gen}_j = \frac{dn_j}{dt}$
+
+$\ \ \ \ \mathrm{Gen}_j = \int_{V_R} r_j dV,\ \ \ \ r_j = \nu_j r$
+
+$$
+\boxed{ \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt} }
+$$
+
+## The Takeaways
+
+1. For reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.
+2. The yield is the fraction of the desired product that could be produced that is actually produced..
+3. The selectivity is the ratio of the desired product to the undesired products.
+4. Don’t confuse mole fraction, $x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)$, split fraction, $t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}$, and fractional conversion.$f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}}$.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. *Recycling Before Recycling Was Cool*, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

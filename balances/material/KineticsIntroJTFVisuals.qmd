@@ -1,0 +1,160 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# How Did You Think<br/>I Would React?</br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
+
+
+## A Single Chemical Reaction
+
+$$
+\nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C} + \cdots \rightarrow \nu_\mathrm{P} \mathrm{P} + \nu_\mathrm{S} \mathrm{S} + \cdots
+$$
+
+$$
+\sum \nu_i \mathrm{A}_i = 0
+$$
+
+$\nu_i$ – stoichometric coefficient for component $i$.
+
+$\nu_i$ is positive for products (right side) and negative for reactants (left side).
+
+**Reaction Rate**
+
+$\ \ \ \ r \equiv \frac{1}{\nu_i} \frac{1}{V} \frac{dn_i}{dt}$
+
+$\ \ \ \ r_i = \nu_i r$
+
+:::{.absolute top=53.7% left=50%}
+**Individual Reaction Rates**
+
+$\ \ \ \ r_\mathrm{B} \equiv \frac{1}{V} \frac{dn_\mathrm{B}}{dt} = \nu_\mathrm{B} r$
+
+$\ \ \ \ r_\mathrm{C} \equiv \frac{1}{V} \frac{dn_\mathrm{C}}{dt}  = \nu_\mathrm{C} r$
+
+$\ \ \ \ r_\mathrm{P} \equiv \frac{1}{V} \frac{dn_\mathrm{P}}{dt}  = \nu_\mathrm{P} r$
+
+$\ \ \ \ r_\mathrm{S} \equiv \frac{1}{V} \frac{dn_\mathrm{S}}{dt} = \nu_\mathrm{S} r$
+:::
+
+## Constant Density Reactors
+
+If the mass density, $\rho$ doesn't change appreciably during reaction (e.g., aqueous solutions) or the total number of moles is fixed, i.e., $\nu = \sum \nu_j = 0$, then 
+
+$\ \ \ \ \frac{1}{V} \frac{dn_\mathrm{B}}{dt}$
+
+can be written as
+
+$\ \ \ \ \frac{1}{V} \frac{dn_\mathrm{B}}{dt} = \frac{d}{dt}\left(\frac{n_\mathrm{B}}{V}\right) = \frac{dC_\mathrm{B}}{dt}$
+
+or
+
+$\ \ \ \ r_\mathrm{B} = \frac{dC_\mathrm{B}}{dt}$
+
+:::{.callout-note}
+We will limit ourselves to constant density reactors for most of the DOFPro videos. The ones that delve deeper into chemical reactor engineering will relax this constraint.
+:::
+
+## Extent of Reaction
+
+The reaction rate can vary with position. The extent of reaction is for the reactor as a whole, so the reaction rate is integrated over the reaction volume to get the extent.
+
+$\ \ \ \ \xi = \frac{n_i - n_{i_0}}{\nu_i}$
+
+$\ \ \ \ \dot{\xi} = \frac{\dot{n}_i - \dot{n}_{i_0}}{\nu_i}$
+
+$\ \ \ \ \frac{d \xi}{dt} = \frac{1}{\nu_i} \frac{dn_i}{dt}$
+
+$\ \ \ \ r = \frac{1}{\nu_i} \frac{1}{V} \frac{dn_i}{dt} = \frac{1}{V} \frac{d \xi}{dt}$
+
+## Multiple Reactions
+
+$$
+n_i = n_{i_0} + \sum_{j=1}^J \nu_{ij} \xi_j
+$$
+
+
+$$
+\dot{n}_i = \dot{n}_{i_0} + \sum_{j=1}^J \nu_{ij} \dot{\xi}_j
+$$
+
+
+## Fractional Conversion
+
+$$
+f_k = \frac{n_{k_0} - n_k}{n_{k_0}}
+$$
+
+$$
+f_k = \frac{\dot{n}_{k_0} - \dot{n}_k}{\dot{n}_{k_0}}
+$$
+
+
+## $r$ as a Function of $T$ and $C$
+
+In general, $r$ varies as a function of $T$ and $C$ or $a$ (activity).
+
+$\ \ \ \ r=r(T,\ C_\mathrm{B},\ C_\mathrm{C},\ \dots)$
+
+There are many forms. We will only work with
+
+$\ \ \ \ r = k C_\mathrm{B}^n C_\mathrm{C}^m$
+
+where the *rate coefficient*, $k$, is
+
+$\ \ \ \ k = k_0 e^{\frac{-E_a}{RT}}$
+
+and the *order of reaction* with respect to $\mathrm{B}$ is $n$, the order of reaction with respect to $\mathrm{C}$ is $m$, and the overall order is $n + m$.
+
+:::{style="font-size: 60px;"}
+Yes, we know that using $n$ for both number of moles, and order of reaction is confusing. That's just how it's done. Deal with it.
+
+Did we mention that $C$ is concentration, and $\mathrm{C}$ is species $\mathrm{C}$ as well as carbon? It's like why the main streets in Boston don't have street signs. It's obvious what street  you're on and if it isn't you don't belong here.
+:::
+
+
+## Mole Balance on Reactor
+
+Reactor volume, $V_R$
+(image)
+
+**General Balance Equation**
+
+$\ \ \ \ \mathrm{In - Out + Generation = Accumulation}$
+
+$\ \ \ \ \dot{n}_{j_0} - \dot{n}_j + \mathrm{Gen}_j = \frac{dn_j}{dt}$
+
+$\ \ \ \ \mathrm{Gen}_j = \int_{V_R} r_j dV,\ \ \ \ r_j = \nu_j r$
+
+$$
+\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
+$$
+
+## The Takeaways
+
+1. For reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.
+2. The yield is the fraction of the desired product that could be produced that is actually produced..
+3. The selectivity is the ratio of the desired product to the undesired products.
+4. Don’t confuse mole fraction, $x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)$, split fraction, $t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}$, and fractional conversion.$f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}}$.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. *Recycling Before Recycling Was Cool*, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
