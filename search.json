@@ -1999,7 +1999,7 @@
     "href": "basics/intro/CurrentVideoList.html",
     "title": "Current List of Videos on YouTube",
     "section": "",
-    "text": "Links to the current videos on YouTube will be maintained here. These are current as of 2024-12-20.\n\nTable of Videos\n\n\n\nVid. #\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n5\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean (\\(\\mu,\\ \\bar{x}\\)) and Standard Deviation (\\(\\sigma,\\ S\\))\n\n\n5A\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error (\\(S_{\\bar{x}}\\)) and Confidence Interval (\\(2\\lambda\\))\n\n\n6\nBasics Statistics by Hand\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n21\nIs Your Process Data Spread Smooth or Chunky?\nLink\nNo\nPage\nData Visualization, linear and Log Coordinates\n\n\n22\nInterpol Is Late to a Mind-Blowing Math Hack\nLink\nNo\nPage\nLinear Interpolation\n\n\n23\nNo Clear Interpretation a Mind-Blowing Math Hack\nLink\nNo\nPage\nNonlinear Interpolation\n\n\n27\nIs Furlongs Per Fortnight a Thing?\nLink\nNo\nPage\nUnit Conversion\n\n\n28\nHow Keen Is Your Rank?\nLink\nNo\nPage\nTemperature Conversion\n\n\n29\nThe Most Annoying Equation Conversion\nLink\nNo\n[Page]\nUnit Conversion of Equations\n\n\n30\nWhere Does Sherwood Hide His Unit?\nLink\nNo\n[Page]\nDimensionless Numbers Principles\n\n\n31\nWhat the Schmidt? Examples\nLink\nNo\n[Page]\nApplications of Dimensionless Numbers\n\n\n33\nUnder Pressure Part 1\nLink\nNo\nPage\nPressure Basics\n\n\n34\nUnder Pressure Part 2\nLink\nNo\nPage\nAbs., Atm., Gauge, Barometric Pressure\n\n\n35\nWhat is a Mole?\nLink\nLink\nPage\nWhat a mole is\n\n\n36\nWhat the Frac?\nLink\nNo\nPage\nMass, Moles, Mass Fractions, Mole Fractions\n\n\n37\nAre You Dense? Crank Up the Volume and Go With the Flow!\nLink\nNo\n[Page]\nMass, Moles, Density, Volume, and Flow Rates\n\n\n38\nHow to Keep Your Balance\nLink\nNo\n[Page]\nSystem Definition and the General Balance Equation"
+    "text": "Links to the current videos on YouTube will be maintained here. These are current as of 2024-12-20.\n\nTable of Videos\n\n\n\nVid. #\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n5\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean (\\(\\mu,\\ \\bar{x}\\)) and Standard Deviation (\\(\\sigma,\\ S\\))\n\n\n5A\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error (\\(S_{\\bar{x}}\\)) and Confidence Interval (\\(2\\lambda\\))\n\n\n6\nBasics Statistics by Hand\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n21\nIs Your Process Data Spread Smooth or Chunky?\nLink\nNo\nPage\nData Visualization, linear and Log Coordinates\n\n\n22\nInterpol Is Late to a Mind-Blowing Math Hack\nLink\nNo\nPage\nLinear Interpolation\n\n\n23\nNo Clear Interpretation a Mind-Blowing Math Hack\nLink\nNo\nPage\nNonlinear Interpolation\n\n\n27\nIs Furlongs Per Fortnight a Thing?\nLink\nNo\nPage\nUnit Conversion\n\n\n28\nHow Keen Is Your Rank?\nLink\nNo\nPage\nTemperature Conversion\n\n\n29\nThe Most Annoying Equation Conversion\nLink\nNo\n[Page]\nUnit Conversion of Equations\n\n\n30\nWhere Does Sherwood Hide His Unit?\nLink\nNo\n[Page]\nDimensionless Numbers Principles\n\n\n31\nWhat the Schmidt? Examples\nLink\nNo\n[Page]\nApplications of Dimensionless Numbers\n\n\n33\nUnder Pressure Part 1\nLink\nNo\nPage\nPressure Basics\n\n\n34\nUnder Pressure Part 2\nLink\nNo\nPage\nAbs., Atm., Gauge, Barometric Pressure\n\n\n35\nWhat is a Mole?\nLink\nLink\nPage\nWhat a mole is\n\n\n36\nWhat the Frac?\nLink\nNo\nPage\nMass, Moles, Mass Fractions, Mole Fractions\n\n\n37\nAre You Dense? Crank Up the Volume and Go With the Flow!\nLink\nNo\n[Page]\nMass, Moles, Density, Volume, and Flow Rates\n\n\n38\nHow to Keep Your Balance\nLink\nNo\n[Page]\nSystem Definition and the General Balance Equation\n\n\n39\nSpeed Balancing\nLink\nNo\n[Page]\nExamples and Strategy for the General Balance Equation"
   },
   {
     "objectID": "basics/processdata/WhatIsAMoleTFSCC.html",
@@ -3392,7 +3392,7 @@
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#ideal-homogeneous-reactors",
     "title": "Chemical and Thermal Processes",
     "section": "Ideal Homogeneous Reactors",
-    "text": "Ideal Homogeneous Reactors\nMost commercial reactors are heterogeneous reactors.\nWe will focus first on the ideal homogeneous reactors.\n\nBatch (Transient)\n\nProperties are uniform throughout the volume.\nProperties are evolving in time.\n\nCSTR (Mixed, Steady State)\n\nProperties are uniform throughout the volume.\nProperties are constant in time.\n\nPFR (Steady State)\n\nProperties are uniform in the radial direction, \\(r\\).\nProperties are evolving in the axial direction, \\(r\\).\nProperties are constant in time.\n\n\n\n\n\n\n\n\nNote\n\n\nWe will not derive the transient cases for CSTRs or PFRs, but they are critically important during plant start-up and shut-down.\n\n\n\n$$"
+    "text": "Ideal Homogeneous Reactors\nMost commercial reactors are heterogeneous reactors.\nWe will focus first on the ideal homogeneous reactors.\n\nBatch (Transient)\n\nProperties are uniform throughout the volume.\nProperties are evolving in time.\n\nCSTR (Mixed, Steady State)\n\nProperties are uniform throughout the volume.\nProperties are constant in time.\n\nPFR (Steady State)\n\nProperties are uniform in the radial direction, \\(r\\).\nProperties are evolving in the axial direction, \\(r\\).\nProperties are constant in time.\n\n\n\n\n\n\n\n\nNote\n\n\nWe will not derive the transient cases for CSTRs or PFRs, but they are critically important during plant start-up and shut-down."
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#batch-reactor",
@@ -3413,7 +3413,7 @@
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#batch-reactor-cont.-1",
     "title": "Chemical and Thermal Processes",
     "section": "Batch Reactor (cont.)",
-    "text": "Batch Reactor (cont.)\nIn terms of concentration:\n\n\n\\[\nt = - \\int^{C_{\\mathrm{A}}}_{C_{\\mathrm{A_0}}} \\frac{dC_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\n\n\\[\nt =  C_\\mathrm{A_0} \\int^{f_{\\mathrm{A}}}_{0} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]"
+    "text": "Batch Reactor (cont.)\nIn terms of concentration:\n\n\n\\[\nt = - \\int^{C_{\\mathrm{A}}}_{C_{\\mathrm{A_0}}} \\frac{dC_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\n\n\\[\nt =  C_\\mathrm{A_0} \\int^{f_{\\mathrm{A}}}_{0} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\n\nIn terms of \\(f_\\mathrm{A}\\) (image)\nIn terms of \\(C_\\mathrm{A}\\) (image)"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#cstr-mixed",
@@ -3423,11 +3423,25 @@
     "text": "CSTR (Mixed)\n(image)\nSteady state, spatially uniform\n\\[\n\\dot{n}_{j_0} - \\dot{n}_j + \\int_{V_R} r_j dV = \\frac{dn_j}{dt}\n\\]\n\\[\nr_j \\ne r_j(\\mathrm{position)} \\implies \\dot{n}_{j_0} - \\dot{n}_j + r_j V_R = 0\n\\]\n\\[\n\\dot{n}_{j_0} = \\dot{n}_j + (-r_j) V_R\n\\]\nFor species \\(\\mathrm{A}\\),\n\\[\n\\boxed{ V_R = \\frac{\\dot{n}_\\mathrm{A_0}-\\dot{n}_\\mathrm{A}}{-r_\\mathrm{A}}}\n\\]"
   },
   {
-    "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#fractional-conversion",
-    "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#fractional-conversion",
+    "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#cstr-cont.",
+    "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#cstr-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Fractional Conversion",
-    "text": "Fractional Conversion"
+    "section": "CSTR (cont.)",
+    "text": "CSTR (cont.)\nSince\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A} = \\dot{n}_\\mathrm{A_0}(1 - f_\\mathrm{A})\\)\nthen\n\\(\\ \\ \\ \\ (-r_\\mathrm{A}) V_R = \\dot{n}_\\mathrm{A_0}(f_\\mathrm{A})\\)\nalso\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A_0}=\\dot{V}_0 C_\\mathrm{A_0}\\)\nDefine\n\\(\\ \\ \\ \\ \\tau \\equiv \\frac{V_R}{\\dot{V}_0}\\)\nthen\n\\(\\ \\ \\ \\ \\boxed{ \\tau = \\frac{V_R}{\\dot{V}_0} = \\frac{C_\\mathrm{A_0}f_\\mathrm{A}}{{-r_\\mathrm{A}}}}\\)"
+  },
+  {
+    "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#cstr-cont.-1",
+    "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#cstr-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "CSTR (cont.)",
+    "text": "CSTR (cont.)\nSince we’re assuming constant density\n\\(\\ \\ \\ \\ \\dot{V}_0 = \\dot{V},\\ \\ \\ \\ \\dot{n}_\\mathrm{A_0} = \\dot{V}C_\\mathrm{A_0},\\ \\ \\ \\ \\dot{n}_\\mathrm{A} = \\dot{V}C_\\mathrm{A}\\)\nand\n\\(\\ \\ \\ \\ \\boxed{ \\tau = \\frac{V_R}{\\dot{V}_0} = \\frac{C_\\mathrm{A_0}- C_\\mathrm{A}}{{-r_\\mathrm{A}}}}\\)\nIn terms of \\(f_\\mathrm{A}\\) (image)\nIn terms of \\(C_\\mathrm{A}\\) (image)"
+  },
+  {
+    "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#pfr-tubular",
+    "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#pfr-tubular",
+    "title": "Chemical and Thermal Processes",
+    "section": "PFR (Tubular)",
+    "text": "PFR (Tubular)\n(image)\nSteady state, radially uniform, axially varies\nDifferential Element\n(image) \\(\\dot{n}_j\\) \\(\\dot{n}_j+d\\dot{n}_j\\) \\(dV\\)\n\\[\n\\dot{n}_{j_0} - (\\dot{n}_j + d\\dot{n}_j) + r_j dV = \\frac{dn_j}{dt}\n\\]"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#r-as-a-function-of-t-and-c",
@@ -3441,7 +3455,7 @@
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#mole-balance-on-reactor",
     "title": "Chemical and Thermal Processes",
     "section": "Mole Balance on Reactor",
-    "text": "Mole Balance on Reactor\nReactor volume, \\(V_R\\) (image)\nGeneral Balance Equation\n\\(\\ \\ \\ \\ \\mathrm{In - Out + Generation = Accumulation}\\)\n\\(\\ \\ \\ \\ \\dot{n}_{j_0} - \\dot{n}_j + \\mathrm{Gen}_j = \\frac{dn_j}{dt}\\)\n\\(\\ \\ \\ \\ \\mathrm{Gen}_j = \\int_{V_R} r_j dV,\\ \\ \\ \\ r_j = \\nu_j r\\)\n\\[\n\\boxed{ \\dot{n}_{j_0} - \\dot{n}_j + \\int_{V_R} r_j dV = \\frac{dn_j}{dt} }\n\\]"
+    "text": "Mole Balance on Reactor"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#the-takeaways",

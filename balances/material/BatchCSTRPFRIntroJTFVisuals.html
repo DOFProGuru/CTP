@@ -139,17 +139,17 @@
 <p>Most commercial reactors are <em>heterogeneous</em> reactors.</p>
 <p>We will focus first on the ideal <em>homogeneous</em> reactors.</p>
 <ul>
-<li class="fragment">Batch (Transient)
+<li class="fragment"><strong>Batch</strong> (Transient)
 <ul>
 <li class="fragment">Properties are <em>uniform</em> throughout the volume.</li>
 <li class="fragment">Properties are <em>evolving</em> in time.</li>
 </ul></li>
-<li class="fragment">CSTR (Mixed, Steady State)
+<li class="fragment"><strong>CSTR</strong> (Mixed, Steady State)
 <ul>
 <li class="fragment">Properties are <em>uniform</em> throughout the volume.</li>
 <li class="fragment">Properties are <em>constant</em> in time.</li>
 </ul></li>
-<li class="fragment">PFR (Steady State)
+<li class="fragment"><strong>PFR</strong> (Steady State)
 <ul>
 <li class="fragment">Properties are <em>uniform</em> in the radial direction, <span class="math inline">\(r\)</span>.</li>
 <li class="fragment">Properties are <em>evolving</em> in the axial direction, <span class="math inline">\(r\)</span>.</li>
@@ -169,7 +169,6 @@
 </div>
 </div>
 </div>
-<p>$$</p>
 </section>
 <section id="batch-reactor" class="slide level2">
 <h2>Batch Reactor</h2>
@@ -228,6 +227,8 @@ t = - \int^{C_{\mathrm{A}}}_{C_{\mathrm{A_0}}} \frac{dC_\mathrm{A}}{(-r_\mathrm{
 t =  C_\mathrm{A_0} \int^{f_{\mathrm{A}}}_{0} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
 \]</span></p>
 </div></div>
+<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> (image)</p>
+<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> (image)</p>
 </section>
 <section id="cstr-mixed" class="slide level2">
 <h2>CSTR (Mixed)</h2>
@@ -247,22 +248,43 @@ r_j \ne r_j(\mathrm{position)} \implies \dot{n}_{j_0} - \dot{n}_j + r_j V_R = 0
 \boxed{ V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}}
 \]</span></p>
 </section>
-<section id="fractional-conversion" class="slide level2">
-<h2>Fractional Conversion</h2>
+<section id="cstr-cont." class="slide level2">
+<h2>CSTR (cont.)</h2>
+<p>Since</p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A} = \dot{n}_\mathrm{A_0}(1 - f_\mathrm{A})\)</span></p>
+<p>then</p>
+<p><span class="math inline">\(\ \ \ \ (-r_\mathrm{A}) V_R = \dot{n}_\mathrm{A_0}(f_\mathrm{A})\)</span></p>
+<p>also</p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A_0}=\dot{V}_0 C_\mathrm{A_0}\)</span></p>
+<p>Define</p>
+<p><span class="math inline">\(\ \ \ \ \tau \equiv \frac{V_R}{\dot{V}_0}\)</span></p>
+<p>then</p>
+<p><span class="math inline">\(\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}}}\)</span></p>
+</section>
+<section id="cstr-cont.-1" class="slide level2">
+<h2>CSTR (cont.)</h2>
+<p>Since we’re assuming constant density</p>
+<p><span class="math inline">\(\ \ \ \ \dot{V}_0 = \dot{V},\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}C_\mathrm{A_0},\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}C_\mathrm{A}\)</span></p>
+<p>and</p>
+<p><span class="math inline">\(\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}}\)</span></p>
+<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> (image)</p>
+<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> (image)</p>
+</section>
+<section id="pfr-tubular" class="slide level2">
+<h2>PFR (Tubular)</h2>
+<p>(image)</p>
+<p>Steady state, radially uniform, axially varies</p>
+<p>Differential Element</p>
+<p>(image) <span class="math inline">\(\dot{n}_j\)</span> <span class="math inline">\(\dot{n}_j+d\dot{n}_j\)</span> <span class="math inline">\(dV\)</span></p>
+<p><span class="math display">\[
+\dot{n}_{j_0} - (\dot{n}_j + d\dot{n}_j) + r_j dV = \frac{dn_j}{dt}
+\]</span></p>
 </section>
 <section id="r-as-a-function-of-t-and-c" class="slide level2">
 <h2><span class="math inline">\(r\)</span> as a Function of <span class="math inline">\(T\)</span> and <span class="math inline">\(C\)</span></h2>
 </section>
 <section id="mole-balance-on-reactor" class="slide level2">
 <h2>Mole Balance on Reactor</h2>
-<p>Reactor volume, <span class="math inline">\(V_R\)</span> (image)</p>
-<p><strong>General Balance Equation</strong></p>
-<p><span class="math inline">\(\ \ \ \ \mathrm{In - Out + Generation = Accumulation}\)</span></p>
-<p><span class="math inline">\(\ \ \ \ \dot{n}_{j_0} - \dot{n}_j + \mathrm{Gen}_j = \frac{dn_j}{dt}\)</span></p>
-<p><span class="math inline">\(\ \ \ \ \mathrm{Gen}_j = \int_{V_R} r_j dV,\ \ \ \ r_j = \nu_j r\)</span></p>
-<p><span class="math display">\[
-\boxed{ \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt} }
-\]</span></p>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
