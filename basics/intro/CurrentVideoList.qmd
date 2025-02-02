@@ -27,4 +27,5 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 36 | What the Frac? | [Link](https://youtu.be/Tdeuf0quJUs) | No | [Page](../processdata/MassMolesWebPage.qmd) | Mass, Moles, Mass Fractions, Mole Fractions |
 | 37 | Are You Dense? Crank Up the Volume and Go With the Flow! | [Link](https://youtu.be/EsPSVVYWQlE) | No | [Page] | Mass, Moles, Density, Volume, and Flow Rates|
 | 38 | How to Keep Your Balance | [Link](https://youtu.be/mEodkChctgM) | No | [Page] | System Definition and the General Balance Equation|
-
+| 39 | Speed Balancing | [Link](https://youtu.be/uzwNAzYHGVM) | No | [Page] | General Balance Equation Definitions and Suggestions|
+| 40 | Gotta Keep ‘Em Separated | [Link](https://youtu.be/I_G3AAv95zg) | No | [Page] | Mixer, Divider, and Separator mole balances|

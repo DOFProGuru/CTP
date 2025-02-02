@@ -204,6 +204,8 @@ $$
 
 A spreadsheet of the solution is shown below
 
+![](CombExSpread12.png)
+
 ## Solution (cont.)
 
 The full set of mole balances with @eq-3 and @eq-4 is
@@ -271,6 +273,8 @@ $$
 ## Solution (cont.)
 
 A spreadsheet of the solution is shown below
+
+![](CombExSpread34.png)
 
 ## The Takeaways
 
