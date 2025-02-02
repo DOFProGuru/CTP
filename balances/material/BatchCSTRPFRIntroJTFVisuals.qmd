@@ -25,13 +25,13 @@ Most commercial reactors are *heterogeneous* reactors.
 
 We will focus first on the ideal *homogeneous* reactors.
 
- - Batch (Transient)
+ - **Batch** (Transient)
    - Properties are *uniform* throughout the volume.
    - Properties are *evolving* in time.
- - CSTR (Mixed, Steady State)
+ - **CSTR** (Mixed, Steady State)
    - Properties are *uniform* throughout the volume.
    - Properties are *constant* in time.
- - PFR (Steady State)
+ - **PFR** (Steady State)
    - Properties are *uniform* in the radial direction, $r$.
    - Properties are *evolving* in the axial direction, $r$.
    - Properties are *constant* in time.
@@ -39,7 +39,6 @@ We will focus first on the ideal *homogeneous* reactors.
 :::{.callout-note}
 We will not derive the transient cases for CSTRs or PFRs, but they are critically important during plant start-up and shut-down.
 :::
-$$
 
 ## Batch Reactor
 
@@ -117,6 +116,9 @@ $$
 :::
 ::::
 
+In terms of $f_\mathrm{A}$ (image)
+
+In terms of $C_\mathrm{A}$ (image)
 
 ## CSTR (Mixed)
 
@@ -143,8 +145,58 @@ $$
 \boxed{ V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}}
 $$
 
+## CSTR (cont.)
 
-## Fractional Conversion
+Since
+
+$\ \ \ \ \dot{n}_\mathrm{A} = \dot{n}_\mathrm{A_0}(1 - f_\mathrm{A})$
+
+then
+
+$\ \ \ \ (-r_\mathrm{A}) V_R = \dot{n}_\mathrm{A_0}(f_\mathrm{A})$
+
+also
+
+$\ \ \ \ \dot{n}_\mathrm{A_0}=\dot{V}_0 C_\mathrm{A_0}$
+
+Define
+
+$\ \ \ \ \tau \equiv \frac{V_R}{\dot{V}_0}$
+
+then
+
+$\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}}}$
+
+## CSTR (cont.)
+
+Since we're assuming constant density
+
+$\ \ \ \ \dot{V}_0 = \dot{V},\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}C_\mathrm{A_0},\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}C_\mathrm{A}$
+
+and
+
+$\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}}$
+
+In terms of $f_\mathrm{A}$ (image)
+
+In terms of $C_\mathrm{A}$ (image)
+
+## PFR (Tubular)
+
+(image)
+
+Steady state, radially uniform, axially varies
+
+Differential Element
+
+(image)
+$\dot{n}_j$
+$\dot{n}_j+d\dot{n}_j$
+$dV$
+
+$$
+\dot{n}_{j_0} - (\dot{n}_j + d\dot{n}_j) + r_j dV = \frac{dn_j}{dt}
+$$
 
 
 
@@ -154,20 +206,6 @@ $$
 
 ## Mole Balance on Reactor
 
-Reactor volume, $V_R$
-(image)
-
-**General Balance Equation**
-
-$\ \ \ \ \mathrm{In - Out + Generation = Accumulation}$
-
-$\ \ \ \ \dot{n}_{j_0} - \dot{n}_j + \mathrm{Gen}_j = \frac{dn_j}{dt}$
-
-$\ \ \ \ \mathrm{Gen}_j = \int_{V_R} r_j dV,\ \ \ \ r_j = \nu_j r$
-
-$$
-\boxed{ \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt} }
-$$
 
 ## The Takeaways
 
