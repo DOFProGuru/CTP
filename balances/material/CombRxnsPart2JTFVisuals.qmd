@@ -1,0 +1,319 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# A Combustible Mixture!</br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+
+## Sample Combustion Calculations
+
+$2.00\ \mathrm{kmol/s}$ of propane are burned in 25% excess dry air in a faulty
+combustor. 100% of the hydrogen combusts to form water, but only
+80% of the carbon combusts completely to $\mathrm{CO_2}$. The remainder
+combusts to $\mathrm{CO}$.
+
+ a. Calculate the molar flow rate of air into the combustor.
+ b. Calculate the molar flow rates of each of the combustion products.
+ c. Calculate the molar flow rate of the exhaust.
+ d. Report the composition of the exhaust on both a wet and dry basis.
+ 
+## Solution
+
+There are multiple sets of chemical equations we could write. We will
+consider two sets:
+
+:::{.fragment}
+$$
+\mathrm{C_3H_8 + 5O_2} \rightarrow \mathrm{3CO_2 + 4 H_2O}
+$$ {#eq-1}
+
+$$
+\mathrm{C_3H_8 + \frac{7}{2}O_2} \rightarrow \mathrm{3CO + 4H_2O}
+$$ {#eq-2}
+
+or
+:::
+
+:::{.fragment}
+$$
+\mathrm{C_3H_8 + \frac{7}{2}O_2} \rightarrow \mathrm{3CO + 4H_2O}
+$$ {#eq-3}
+
+$$
+\mathrm{CO + \frac{1}{2}O_2} \rightarrow \mathrm{CO_2}
+$$ {#eq-4}
+:::
+
+## Solution (cont.)
+
+To calculate excess, you need to calculate complete combustion. The appropriate equation is @eq-1.
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{O_2stoic} = \frac{\nu_\mathrm{O_2}}{\nu_\mathrm{C_3H_8}} \dot{n}_\mathrm{C_3H_8stoic} = \frac{-5}{-1}(2\ \mathrm{kmol/s}) = 10\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\mathrm{frac.\ xs} = 0.25 = \frac{ \dot{n}_\mathrm{O_2in} - \dot{n}_\mathrm{O_2stoic} }{\dot{n}_\mathrm{O_2stoic}}
+$$
+:::
+:::{.fragment style="font-size: 90px;"}
+$$
+\dot{n}_\mathrm{O_2in} = (1 + \mathrm{frac.\ xs})\dot{n}_\mathrm{O_2stoic} = 1.25(10\ \mathrm{kmol/s})= 12.5\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{N_2in} = \frac{79}{21}\dot{n}_\mathrm{O_2in} = \frac{79}{21}(12.5\ \mathrm{kmol/s}) = 47.0\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\text{Air-in} = \dot{n}_\mathrm{O_2in} + \dot{n}_\mathrm{N_2in} = 12.5 + 47.0 = 59.5\ \mathrm{kmol/s}
+$$
+:::
+
+## Solution (cont.)
+
+The full set of mole balances with @eq-1 and @eq-2 is
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{C_3H_8out} = \dot{n}_\mathrm{C_3H_8in} - \dot{\xi}_1 - \dot{\xi}_2 \implies \dot{\xi}_1 + \dot{\xi}_2 = 2\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{CO_2out} = \dot{n}_\mathrm{CO_2in} + 3\dot{\xi}_1 + 0 \boldsymbol{\cdot} \dot{\xi}_2 \implies \dot{n}_\mathrm{CO_2out} = 3\dot{\xi}_1 
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{COout} = \dot{n}_\mathrm{COin} + 0 \boldsymbol{\cdot} \dot{\xi}_1 + 3 \dot{\xi}_2 \implies \dot{n}_\mathrm{COout} = 3\dot{\xi}_2 
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{O_2out} = \dot{n}_\mathrm{O_2in} - 5\dot{\xi}_1 - 3.5 \dot{\xi}_2 = 12.50\ \mathrm{kmol/s} - 5\dot{\xi}_1 - 3.5 \dot{\xi}_2
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{N_2out} = \dot{n}_\mathrm{N_2in} + 0 \boldsymbol{\cdot} \dot{\xi}_1 +0 \boldsymbol{\cdot}  \dot{\xi}_2 = 47.0\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{H_2Oout} = \dot{n}_\mathrm{H_2Oin} + 4 \dot{\xi}_1 + 4 \dot{\xi}_2 = 4 \dot{\xi}_1 + 4 \dot{\xi}_2
+$$
+:::
+
+## Solution (cont.)
+
+Applying the $\mathrm{CO_2}$-to-$\mathrm{CO}$ constraint
+
+:::{.fragment}
+$$
+\frac{\dot{n}_\mathrm{COout}}{\dot{n}_\mathrm{CO_2out}} = \frac{1 - 0.80}{0.80}=0.25 = \frac{3\dot{\xi}_2}{3\dot{\xi}_1} = \frac{\dot{\xi}_2}{\dot{\xi}_1}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{\xi}_1 + \dot{\xi}_2 = 2\ \mathrm{kmol/s} = \dot{\xi}_1 + 0.25 \dot{\xi}_1 = 1.25 \dot{\xi}_1
+$$
+:::
+
+:::{.fragment}
+$$
+ \implies \dot{\xi}_1 = 1.6\ \mathrm{kmol/s},\ \dot{\xi}_2 = 0.4\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\implies \dot{n}_\mathrm{CO_2out} = 3 \boldsymbol{\cdot} 1.6\ \mathrm{kmol/s} = 4.8\ \mathrm{kmol/s}, 
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{COout} = 3 \boldsymbol{\cdot} 0.4\ \mathrm{kmol/s} = 1.2\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{O_2out} = 12.5\ \mathrm{kmol/s} - 5 \boldsymbol{\cdot} 1.6 - 3.5 \boldsymbol{\cdot} 0.4 = 3.10\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{H_2Oout} = 4 \boldsymbol{\cdot} 1.6 + 4 \boldsymbol{\cdot} 0.4 = 8.00\ \mathrm{kmol/s}
+$$
+:::
+
+## Solution (cont.)
+
+To get the dry and wet compositions, divide the species molar flow rate by either the sum of the species molar flow rates minus the water flow rate, or by the sum of the species molar flow rates. The results are on the spreadsheet.
+
+:::{.fragment}
+$$
+x_{i\ (\mathrm{dry})} = \frac{\dot{n}_i}{(\sum \dot{n}_j) - \dot{n}_\mathrm{H_2O}}
+$$
+:::
+
+:::{.fragment}
+$$
+x_{i\ (\mathrm{wet})} = \frac{\dot{n}_i}{\sum \dot{n}_j}
+$$
+:::
+
+## Solution (cont.)
+
+A spreadsheet of the solution is shown below
+
+![](CombExSpread12.png)
+
+## Solution (cont.)
+
+The full set of mole balances with @eq-3 and @eq-4 is
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{C_3H_8out} = \dot{n}_\mathrm{C_3H_8in} - \dot{\xi}_3 \implies \dot{\xi}_3 = 2\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{CO_2out} = \dot{n}_\mathrm{CO_2in} + \dot{\xi}_4 \implies \dot{n}_\mathrm{CO_2out} = \dot{\xi}_4
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{COout} = \dot{n}_\mathrm{COin} + 3 \dot{\xi}_3 - \dot{\xi}_4 \implies \dot{n}_\mathrm{COout} = 6\ \mathrm{kmol/s} - \dot{\xi}_4
+$$
+:::
+
+:::{.fragment style="font-size: 90px;"}
+$$
+\dot{n}_\mathrm{O_2out} = \dot{n}_\mathrm{O_2in} - 3.5 \dot{\xi}_3 - 0.5 \dot{\xi}_4 = 12.50\ \mathrm{kmol/s} - 7\ \mathrm{kmol/s} - 0.5 \dot{\xi}_4
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{N_2out} = \dot{n}_\mathrm{N_2in} = 47.0\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{H_2Oout} = \dot{n}_\mathrm{H_2Oin} + 4 \dot{\xi}_3 = 8\ \mathrm{kmol/s}
+$$
+:::
+
+## Solution (cont.)
+
+Applying the $\mathrm{CO_2}$-to-$\mathrm{CO}$ constraint
+
+:::{.fragment style="font-size: 92px;"}
+$$
+\frac{\dot{n}_\mathrm{COout}}{\dot{n}_\mathrm{CO_2out}} = \frac{1 - 0.80}{0.80}=0.25 = \frac{6 - \dot{\xi}_4}{\dot{\xi}_4} \implies \dot{\xi}_4 = 4.8\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{CO_2out} = \dot{\xi}_4 = 4.8\ \mathrm{kmol/s}, 
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{COout} = 6\ \mathrm{kmol/s} - \dot{\xi}_4 = 1.2\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{O_2out} = 5.5\ \mathrm{kmol/s} - 0.5 \dot{\xi}_4 = 3.10\ \mathrm{kmol/s}
+$$
+:::
+
+:::{.fragment}
+$$
+\dot{n}_\mathrm{H_2Oout} = 4 \dot{\xi}_3 = 8.00\ \mathrm{kmol/s}
+$$
+:::
+
+## Solution (cont.)
+
+To get the dry and wet compositions, divide the species molar flow rate by either the sum of the species molar flow rates minus the water flow rate, or by the sum of the species molar flow rates. The results are on the spreadsheet.
+
+:::{.fragment}
+$$
+x_{i\ (\mathrm{dry})} = \frac{\dot{n}_i}{(\sum \dot{n}_j) - \dot{n}_\mathrm{H_2O}}
+$$
+:::
+
+:::{.fragment}
+$$
+x_{i\ (\mathrm{wet})} = \frac{\dot{n}_i}{\sum \dot{n}_j}
+$$
+:::
+
+## Solution (cont.)
+
+A spreadsheet of the solution is shown below
+
+![](CombExSpread34.png)
+
+:::{style="font-size: 65px"}
+:::{.fragment .absolute top=72% left=33%}
+The molar flows and the mole fractions or compositions are identical to those in the version with @eq-1 and @eq-2. However, the stoichiometric coefficients and extents of reaction are different.As long as you set up a linearly independent balanced set of equations that uses all of the species, it doesn't matter what set you use. The flows and compositions will all come out the same.
+:::
+:::
+
+## The Takeaways
+
+1. Choose a linearly independent consistent set of chemical equations that involve all reacting species.
+2. The mole balance equations using the extents of reaction are usually valuable.
+3. Know how to calculate excess air or excess fuel.
+4. Spreadsheets are useful for keeping track of everything.
+
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *Flame On, Torch!*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
