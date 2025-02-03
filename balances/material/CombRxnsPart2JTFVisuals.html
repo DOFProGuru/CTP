@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>Chemical and Thermal Processes – combrxnspart1jtfvisuals</title>
+  <title>Chemical and Thermal Processes – combrxnspart2jtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,95 +127,265 @@
 
 
 <section>
-<section id="flame-on-torchjust-the-facts" class="title-slide slide level1 bigbold75 center">
-<h1>Flame On, Torch!<br>Just the Facts</h1>
+<section id="a-combustible-mixturejust-the-facts" class="title-slide slide level1 bigbold75 center">
+<h1>A Combustible Mixture!<br>Just the Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
-<section id="combustion-reactions" class="slide level2">
-<h2>Combustion Reactions</h2>
-<p>Combustion reactions are rapid oxidation reactions. One usually burns a fuel (typically coal, oil or natural gas) in air (or rarely pure oxygen). The principal atomic species in combustion reactions are:</p>
-<ul>
-<li class="fragment">carbon,</li>
-<li class="fragment">hydrogen,</li>
-<li class="fragment">sulfur, and</li>
-<li class="fragment">oxygen.</li>
-</ul>
+<section id="sample-combustion-calculations" class="slide level2">
+<h2>Sample Combustion Calculations</h2>
+<p><span class="math inline">\(2.00\ \mathrm{kmol/s}\)</span> of propane are burned in 25% excess dry air in a faulty combustor. 100% of the hydrogen combusts to form water, but only 80% of the carbon combusts completely to <span class="math inline">\(\mathrm{CO_2}\)</span>. The remainder combusts to <span class="math inline">\(\mathrm{CO}\)</span>.</p>
+<ol type="a">
+<li class="fragment">Calculate the molar flow rate of air into the combustor.</li>
+<li class="fragment">Calculate the molar flow rates of each of the combustion products.</li>
+<li class="fragment">Calculate the molar flow rate of the exhaust.</li>
+<li class="fragment">Report the composition of the exhaust on both a wet and dry basis.</li>
+</ol>
 </section>
-<section id="definitions" class="slide level2">
-<h2>Definitions</h2>
+<section id="solution" class="slide level2">
+<h2>Solution</h2>
+<p>There are multiple sets of chemical equations we could write. We will consider two sets:</p>
 <div class="fragment">
-<h3 id="complete-combustion">Complete combustion</h3>
-<p>If all of the fuel is completely oxidized, we have complete combustion. For the principal species, the combustion products are <span class="math inline">\(\mathrm{CO_2}\)</span>, <span class="math inline">\(\mathrm{H_2O}\)</span>, and <span class="math inline">\(\mathrm{SO_2}\)</span>.</p>
+<p><span id="eq-1"><span class="math display">\[
+\mathrm{C_3H_8 + 5O_2} \rightarrow \mathrm{3CO_2 + 4 H_2O}
+\tag{1}\]</span></span></p>
+<p><span id="eq-2"><span class="math display">\[
+\mathrm{C_3H_8 + \frac{7}{2}O_2} \rightarrow \mathrm{3CO + 4H_2O}
+\tag{2}\]</span></span></p>
+<p>or</p>
 </div>
 <div class="fragment">
-<h3 id="partial-or-incomplete-combustion">Partial or incomplete combustion</h3>
-<p>If not all of the fuel is completely oxidized, or if some is not oxidized at all, we have partial or incomplete combustion. A typical product of incomplete combustion is <span class="math inline">\(\mathrm{CO}\)</span>.</p>
-</div>
-<div class="fragment">
-<h3 id="stack-or-flue-gas">Stack or Flue gas</h3>
-<p>The combustion products along with any remaining reactants are referred to as stack gas or flue gas. The composition of the flue gas is reported in one of two bases.</p>
-</div>
-</section>
-<section id="definitions-cont." class="slide level2">
-<h2>Definitions (cont.)</h2>
-<div class="fragment">
-<h3 id="wet-basis">Wet basis</h3>
-<p>Wet basis includes the water vapor in the flue gas composition.</p>
-</div>
-<div class="fragment">
-<h3 id="dry-basis-orsat-analysis">Dry basis (Orsat analysis)</h3>
-<p>Dry basis does not include water vapor in the flue gas composition. One apparatus for measuring flue gas composition was named after Orsat. It reports compositions on a dry basis.</p>
-</div>
-<div class="fragment">
-<h3 id="relative-absolute-molal-and-percentage-humidity">Relative, Absolute, Molal, and Percentage Humidity</h3>
-<p>We discuss humidity and how to calculate it in the <em>Oh, Henry!</em> video. See link in description or on web page.</p>
+<p><span id="eq-3"><span class="math display">\[
+\mathrm{C_3H_8 + \frac{7}{2}O_2} \rightarrow \mathrm{3CO + 4H_2O}
+\tag{3}\]</span></span></p>
+<p><span id="eq-4"><span class="math display">\[
+\mathrm{CO + \frac{1}{2}O_2} \rightarrow \mathrm{CO_2}
+\tag{4}\]</span></span></p>
 </div>
 </section>
-<section id="a-quick-wet--and-dry-basis-example" class="slide level2 bigbold90">
-<h2>A Quick Wet- and Dry-Basis Example</h2>
-<p>The table below shows a gas mixture converted from wet (or total) moles to wet composition, dry moles, and dry composition.</p>
+<section id="solution-cont." class="slide level2">
+<h2>Solution (cont.)</h2>
+<p>To calculate excess, you need to calculate complete combustion. The appropriate equation is <a href="#/eq-1" class="quarto-xref">Equation&nbsp;1</a>.</p>
 <div class="fragment">
-<p><img data-src="QuickWetDryComp.png"></p>
-</div>
-</section>
-<section id="definitions-cont.-1" class="slide level2">
-<h2>Definitions (cont.)</h2>
-<h3 id="air-composition">Air Composition</h3>
-<p>Dry air contains <span class="math inline">\(\mathrm{N_2}\)</span>, <span class="math inline">\(\mathrm{O_2}\)</span>, <span class="math inline">\(\mathrm{Ar}\)</span>, <span class="math inline">\(\mathrm{CO_2}\)</span>, <span class="math inline">\(\mathrm{H_2}\)</span>, <span class="math inline">\(\mathrm{He}\)</span>, <span class="math inline">\(\mathrm{Ne}\)</span>, <span class="math inline">\(\mathrm{Kr}\)</span>, <span class="math inline">\(\mathrm{Xe}\)</span> and other trace gases. Search Wikipedia for Atmospheric Chemistry for a detailed list. For DOFPro calculations we will simplify this list to say that dry air is <span class="math inline">\(79\%\ \mathrm{N_2}\)</span> and <span class="math inline">\(21\%\ \mathrm{O_2}\)</span>. Also, we’ll assume that the value of the <span class="math inline">\(\mathrm{N_2}\)</span>:<span class="math inline">\(\mathrm{O_2}\)</span> ratio is <span class="math inline">\(79\)</span>:<span class="math inline">\(21\)</span> or <span class="math inline">\(3.76\)</span> to three sig figs.</p>
-</section>
-<section id="definitions-cont.-2" class="slide level2">
-<h2>Definitions (cont.)</h2>
-<div class="fragment">
-<h3 id="theoretical-air">Theoretical air</h3>
-<p>Theoretical air is the amount of air containing the stoichiometric oxygen needed for complete combustion.</p>
+<p><span class="math display">\[
+\dot{n}_\mathrm{O_2stoic} = \frac{\nu_\mathrm{O_2}}{\nu_\mathrm{C_3H_8}} \dot{n}_\mathrm{C_3H_8stoic} = \frac{-5}{-1}(2\ \mathrm{kmol/s}) = 10\ \mathrm{kmol/s}
+\]</span></p>
 </div>
 <div class="fragment">
-<h3 id="excess-air">Excess air</h3>
-<p>Excess air is calculated in the same manner as any excess reactant. It is the fraction above stoichiometric.</p>
-<ul>
-<li class="fragment">Burning in excess air does not guarantee complete combustion.</li>
-<li class="fragment">Burning with less than theoretical air is known as burning rich (as in fuel rich).</li>
-<li class="fragment">Burning with excess air is known as burning lean.</li>
-</ul>
+<p><span class="math display">\[
+\mathrm{frac.\ xs} = 0.25 = \frac{ \dot{n}_\mathrm{O_2in} - \dot{n}_\mathrm{O_2stoic} }{\dot{n}_\mathrm{O_2stoic}}
+\]</span></p>
+</div>
+<div class="fragment" style="font-size: 90px;">
+<p><span class="math display">\[
+\dot{n}_\mathrm{O_2in} = (1 + \mathrm{frac.\ xs})\dot{n}_\mathrm{O_2stoic} = 1.25(10\ \mathrm{kmol/s})= 12.5\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{N_2in} = \frac{79}{21}\dot{n}_\mathrm{O_2in} = \frac{79}{21}(12.5\ \mathrm{kmol/s}) = 47.0\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\text{Air-in} = \dot{n}_\mathrm{O_2in} + \dot{n}_\mathrm{N_2in} = 12.5 + 47.0 = 59.5\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+</section>
+<section id="solution-cont.-1" class="slide level2">
+<h2>Solution (cont.)</h2>
+<p>The full set of mole balances with <a href="#/eq-1" class="quarto-xref">Equation&nbsp;1</a> and <a href="#/eq-2" class="quarto-xref">Equation&nbsp;2</a> is</p>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{C_3H_8out} = \dot{n}_\mathrm{C_3H_8in} - \dot{\xi}_1 - \dot{\xi}_2 \implies \dot{\xi}_1 + \dot{\xi}_2 = 2\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{CO_2out} = \dot{n}_\mathrm{CO_2in} + 3\dot{\xi}_1 + 0 \boldsymbol{\cdot} \dot{\xi}_2 \implies \dot{n}_\mathrm{CO_2out} = 3\dot{\xi}_1
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{COout} = \dot{n}_\mathrm{COin} + 0 \boldsymbol{\cdot} \dot{\xi}_1 + 3 \dot{\xi}_2 \implies \dot{n}_\mathrm{COout} = 3\dot{\xi}_2
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{O_2out} = \dot{n}_\mathrm{O_2in} - 5\dot{\xi}_1 - 3.5 \dot{\xi}_2 = 12.50\ \mathrm{kmol/s} - 5\dot{\xi}_1 - 3.5 \dot{\xi}_2
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{N_2out} = \dot{n}_\mathrm{N_2in} + 0 \boldsymbol{\cdot} \dot{\xi}_1 +0 \boldsymbol{\cdot}  \dot{\xi}_2 = 47.0\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{H_2Oout} = \dot{n}_\mathrm{H_2Oin} + 4 \dot{\xi}_1 + 4 \dot{\xi}_2 = 4 \dot{\xi}_1 + 4 \dot{\xi}_2
+\]</span></p>
+</div>
+</section>
+<section id="solution-cont.-2" class="slide level2">
+<h2>Solution (cont.)</h2>
+<p>Applying the <span class="math inline">\(\mathrm{CO_2}\)</span>-to-<span class="math inline">\(\mathrm{CO}\)</span> constraint</p>
+<div class="fragment">
+<p><span class="math display">\[
+\frac{\dot{n}_\mathrm{COout}}{\dot{n}_\mathrm{CO_2out}} = \frac{1 - 0.80}{0.80}=0.25 = \frac{3\dot{\xi}_2}{3\dot{\xi}_1} = \frac{\dot{\xi}_2}{\dot{\xi}_1}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{\xi}_1 + \dot{\xi}_2 = 2\ \mathrm{kmol/s} = \dot{\xi}_1 + 0.25 \dot{\xi}_1 = 1.25 \dot{\xi}_1
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\implies \dot{\xi}_1 = 1.6\ \mathrm{kmol/s},\ \dot{\xi}_2 = 0.4\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\implies \dot{n}_\mathrm{CO_2out} = 3 \boldsymbol{\cdot} 1.6\ \mathrm{kmol/s} = 4.8\ \mathrm{kmol/s},
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{COout} = 3 \boldsymbol{\cdot} 0.4\ \mathrm{kmol/s} = 1.2\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{O_2out} = 12.5\ \mathrm{kmol/s} - 5 \boldsymbol{\cdot} 1.6 - 3.5 \boldsymbol{\cdot} 0.4 = 3.10\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{H_2Oout} = 4 \boldsymbol{\cdot} 1.6 + 4 \boldsymbol{\cdot} 0.4 = 8.00\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+</section>
+<section id="solution-cont.-3" class="slide level2">
+<h2>Solution (cont.)</h2>
+<p>To get the dry and wet compositions, divide the species molar flow rate by either the sum of the species molar flow rates minus the water flow rate, or by the sum of the species molar flow rates. The results are on the spreadsheet.</p>
+<div class="fragment">
+<p><span class="math display">\[
+x_{i\ (\mathrm{dry})} = \frac{\dot{n}_i}{(\sum \dot{n}_j) - \dot{n}_\mathrm{H_2O}}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+x_{i\ (\mathrm{wet})} = \frac{\dot{n}_i}{\sum \dot{n}_j}
+\]</span></p>
+</div>
+</section>
+<section id="solution-cont.-4" class="slide level2">
+<h2>Solution (cont.)</h2>
+<p>A spreadsheet of the solution is shown below</p>
+
+<img data-src="CombExSpread12.png" class="r-stretch"></section>
+<section id="solution-cont.-5" class="slide level2">
+<h2>Solution (cont.)</h2>
+<p>The full set of mole balances with <a href="#/eq-3" class="quarto-xref">Equation&nbsp;3</a> and <a href="#/eq-4" class="quarto-xref">Equation&nbsp;4</a> is</p>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{C_3H_8out} = \dot{n}_\mathrm{C_3H_8in} - \dot{\xi}_3 \implies \dot{\xi}_3 = 2\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{CO_2out} = \dot{n}_\mathrm{CO_2in} + \dot{\xi}_4 \implies \dot{n}_\mathrm{CO_2out} = \dot{\xi}_4
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{COout} = \dot{n}_\mathrm{COin} + 3 \dot{\xi}_3 - \dot{\xi}_4 \implies \dot{n}_\mathrm{COout} = 6\ \mathrm{kmol/s} - \dot{\xi}_4
+\]</span></p>
+</div>
+<div class="fragment" style="font-size: 90px;">
+<p><span class="math display">\[
+\dot{n}_\mathrm{O_2out} = \dot{n}_\mathrm{O_2in} - 3.5 \dot{\xi}_3 - 0.5 \dot{\xi}_4 = 12.50\ \mathrm{kmol/s} - 7\ \mathrm{kmol/s} - 0.5 \dot{\xi}_4
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{N_2out} = \dot{n}_\mathrm{N_2in} = 47.0\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{H_2Oout} = \dot{n}_\mathrm{H_2Oin} + 4 \dot{\xi}_3 = 8\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+</section>
+<section id="solution-cont.-6" class="slide level2">
+<h2>Solution (cont.)</h2>
+<p>Applying the <span class="math inline">\(\mathrm{CO_2}\)</span>-to-<span class="math inline">\(\mathrm{CO}\)</span> constraint</p>
+<div class="fragment" style="font-size: 92px;">
+<p><span class="math display">\[
+\frac{\dot{n}_\mathrm{COout}}{\dot{n}_\mathrm{CO_2out}} = \frac{1 - 0.80}{0.80}=0.25 = \frac{6 - \dot{\xi}_4}{\dot{\xi}_4} \implies \dot{\xi}_4 = 4.8\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{CO_2out} = \dot{\xi}_4 = 4.8\ \mathrm{kmol/s},
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{COout} = 6\ \mathrm{kmol/s} - \dot{\xi}_4 = 1.2\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{O_2out} = 5.5\ \mathrm{kmol/s} - 0.5 \dot{\xi}_4 = 3.10\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{n}_\mathrm{H_2Oout} = 4 \dot{\xi}_3 = 8.00\ \mathrm{kmol/s}
+\]</span></p>
+</div>
+</section>
+<section id="solution-cont.-7" class="slide level2">
+<h2>Solution (cont.)</h2>
+<p>To get the dry and wet compositions, divide the species molar flow rate by either the sum of the species molar flow rates minus the water flow rate, or by the sum of the species molar flow rates. The results are on the spreadsheet.</p>
+<div class="fragment">
+<p><span class="math display">\[
+x_{i\ (\mathrm{dry})} = \frac{\dot{n}_i}{(\sum \dot{n}_j) - \dot{n}_\mathrm{H_2O}}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+x_{i\ (\mathrm{wet})} = \frac{\dot{n}_i}{\sum \dot{n}_j}
+\]</span></p>
+</div>
+</section>
+<section id="solution-cont.-8" class="slide level2">
+<h2>Solution (cont.)</h2>
+<p>A spreadsheet of the solution is shown below</p>
+
+<img data-src="CombExSpread34.png" class="r-stretch"><div style="font-size: 65px">
+<div class="fragment absolute" style="top: 72%; left: 33%; ">
+<p>The molar flows and the mole fractions or compositions are identical to those in the version with <a href="#/eq-1" class="quarto-xref">Equation&nbsp;1</a> and <a href="#/eq-2" class="quarto-xref">Equation&nbsp;2</a>. However, the stoichiometric coefficients and extents of reaction are different.As long as you set up a linearly independent balanced set of equations that uses all of the species, it doesn’t matter what set you use. The flows and compositions will all come out the same.</p>
+</div>
 </div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">The principal species for combustion reactions are carbon, hydrogen, sulfur, and water.</li>
-<li class="fragment">The products of complete combustion of the principal species are carbon dioxide, water, and sulfur dioxide.</li>
-<li class="fragment">Theoretical and excess air are calculated by treating the oxygen in air as a stoichiometric or excess reagent.</li>
-<li class="fragment">Excess air does <em>not</em> guarantee complete combustion.</li>
-<li class="fragment">The composition of combustion gases are reported on either a wet or dry basis.</li>
+<li class="fragment">Choose a linearly independent consistent set of chemical equations that involve all reacting species.</li>
+<li class="fragment">The mole balance equations using the extents of reaction are usually valuable.</li>
+<li class="fragment">Know how to calculate excess air or excess fuel.</li>
+<li class="fragment">Spreadsheets are useful for keeping track of everything.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The companion video in the series, <em>A Combustible Mixture!</em>, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The companion video in the series, <em>Flame On, Torch!</em>, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 
