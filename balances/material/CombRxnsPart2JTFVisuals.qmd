@@ -133,6 +133,7 @@ $$
 
 ## Solution (cont.)
 
+:::{style="font-size: 90px;"}
 Applying the $\mathrm{CO_2}$-to-$\mathrm{CO}$ constraint
 
 :::{.fragment}
@@ -175,6 +176,7 @@ $$
 $$
 \dot{n}_\mathrm{H_2Oout} = 4 \boldsymbol{\cdot} 1.6 + 4 \boldsymbol{\cdot} 0.4 = \boxed{ 8.00\ \mathrm{kmol/s} }
 $$
+:::
 :::
 
 ## Solution (cont.)
