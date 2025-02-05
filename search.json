@@ -221,7 +221,7 @@
     "href": "balances/material/KineticsIntroJTFVisuals.html#constant-density-reactors",
     "title": "Chemical and Thermal Processes",
     "section": "Constant Density Reactors",
-    "text": "Constant Density Reactors\nIf the mass density, \\(\\rho\\) doesn’t change appreciably during reaction (e.g., aqueous solutions) or the total number of moles is fixed, i.e., \\(\\nu = \\sum \\nu_j = 0\\), then\n\\(\\ \\ \\ \\ \\frac{1}{V} \\frac{dn_\\mathrm{B}}{dt}\\)\ncan be written as\n\\(\\ \\ \\ \\ \\frac{1}{V} \\frac{dn_\\mathrm{B}}{dt} = \\frac{d}{dt}\\left(\\frac{n_\\mathrm{B}}{V}\\right) = \\frac{dC_\\mathrm{B}}{dt}\\)\nor\n\\(\\ \\ \\ \\ r_\\mathrm{B} = \\frac{dC_\\mathrm{B}}{dt}\\)\n\n\n\n\n\n\nNote\n\n\nWe will limit ourselves to constant density reactors for most of the DOFPro videos. The ones that delve deeper into chemical reactor engineering will relax this constraint."
+    "text": "Constant Density Reactors\nIf the mass density, \\(\\rho\\) doesn’t change appreciably during reaction (e.g., aqueous solutions) or the total number of moles is fixed, i.e., \\(\\nu = \\sum \\nu_j = 0\\), then\n\\(\\ \\ \\ \\ \\frac{1}{V} \\frac{dn_\\mathrm{B}}{dt}\\)\ncan be written as\n\\(\\ \\ \\ \\ \\frac{1}{V} \\frac{dn_\\mathrm{B}}{dt} = \\frac{d}{dt}\\left(\\frac{n_\\mathrm{B}}{V}\\right) = \\frac{dC_\\mathrm{B}}{dt}\\)\nor\n\\(\\ \\ \\ \\ r_\\mathrm{B} = \\frac{dC_\\mathrm{B}}{dt}\\)\n\n\n\n\n\n\nNote\n\n\nWe will limit ourselves to constant density reactors for most of the DOFPro videos. The videos that delve deeper into chemical reactor engineering will relax this constraint."
   },
   {
     "objectID": "balances/material/KineticsIntroJTFVisuals.html#extent-of-reaction",
@@ -333,7 +333,7 @@
     "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-7",
     "title": "Chemical and Thermal Processes",
     "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nA spreadsheet of the solution is shown below\n\n\n\nThe stoichiometric coefficients and extents of reaction are different from the first spreadsheet. However, The molar flows and the mole fractions or compositions are identical to those in the version with Equation 1 and Equation 2. As long as you set up a linearly independent balanced set of equations that uses all of the species, it doesn’t matter what set you use. The flows and compositions will all come out the same."
+    "text": "Solution (cont.)\nA spreadsheet of the solution is shown below\n\n\n\nThe stoichiometric coefficients and extents of reaction are different from the first spreadsheet. However, the molar flows and the mole fractions or compositions are identical to those in the version with Equation 1 and Equation 2. As long as you set up a linearly independent balanced set of equations that uses all of the species, it doesn’t matter what set you use. The flows and compositions will all come out the same."
   },
   {
     "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#the-takeaways",
@@ -1582,32 +1582,25 @@
     "text": "Basic Statistics by Hand\nThis video shows how to calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) by hand and with a calculator."
   },
   {
-    "objectID": "basics/stats/StatsMeasurementsWebPage.html",
-    "href": "basics/stats/StatsMeasurementsWebPage.html",
-    "title": "Statistics and Measurements",
-    "section": "",
-    "text": "Why Statistics and Measurements\nAll chemical and thermal processes have one or more outputs, whether it be a chemical product such as benzene or electrical power. The goal of almost all process engineers is to maximize the output for a given cost or minimize the cost for a given output. Engineering is a quantitative discipline, and we have to quantitatively report our inputs and outputs. Since all processes experience random fluctuations from the process itself or from the measurement process, the engineer needs to be able to account for the noise. Statistical methods are the most common ways to report both the inputs and outputs, and the variations or noise in the inputs or outputs. There are seventeen videos discussing common statistical methods used in Chemical and Thermal Processing and other fields of engineering, divided up into basic statistics, linear regression, error propagation, nonlinear regression, and error propagation in integrals and derivatives\n\n\nBasic Statistics\nThe most commonly used basic statistics are the arithmetic mean, the standard deviation, and the confidence interval. These three are covered in the videos and web pages listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean and Standard Deviation\n\n\n\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error and Confidence Interval\n\n\n\nBasics Statistics by Hand\nLink\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n\nBasics Statistics with a Spreadsheet\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) with a spreadsheet\n\n\n\nBasics Statistics in Python\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) in Python\n\n\n\nBasics Statistics in R\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) in R\n\n\n\n\n\n\nLinear Regression\nA very common means of presenting and analyzing sets of data pairs is linear regression or fitting a linear function to the data. We only present methods for least-squares linear regression. The method is covered in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nLinear Regression\n\n\n\nLinear Regression with a Spreadsheet\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds with a spreadsheet\n\n\n\nLinear Regression in Python\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in Python\n\n\n\nLinear Regression in R\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in R\n\n\n\n\n\n\nError Propagation\nExperimental data taken by engineers are usually further processed as part of design or analysis procedures. The question often arises as to how the uncertainty in the measured data affect the uncertainty in the final calculation. There are both analytical and numerical methods for evaluating how the undertainty or error propagates. These methods are explored in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation in Algebraic and Transcendental Functions\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation when integrating and Differentiating Time Series, Part 1\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation when integrating and Differentiating Time Series, Part 2\n\n\n\n\n\n\nNonlinear Regression\nWhen the model for fitting data contains parameters that are non-linearly related to the fitting function, the model parameters may be determined through nonlinear regression. The method is covered in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nNoninear Regression, Parameter Fitting, and functional and observational bounds\n\n\n\nNoninear Regression with a Spreadsheet\nNo\nN/A\nNo\nParameter, and Functional Bounds with a spreadsheet\n\n\n\nLinear Regression in Python\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in Python\n\n\n\nLinear Regression in R\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in R"
+    "objectID": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
+    "href": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
+    "title": "Chemical and Thermal Processes",
+    "section": "Bulleted and Numbered Lists",
+    "text": "Bulleted and Numbered Lists\n\nA numbered item\nAnother numbered item\nYet another numbered item\n\n\nA bullet item\nAnother bullet item\nYet another bullet item"
   },
   {
-    "objectID": "phase/index.html",
-    "href": "phase/index.html",
-    "title": "Advanced Phase Equilibria Calculations",
-    "section": "",
-    "text": "Intro to advanced phase equilibria calculations"
+    "objectID": "ExampleVisualsGreenScreen.html#fragment-items",
+    "href": "ExampleVisualsGreenScreen.html#fragment-items",
+    "title": "Chemical and Thermal Processes",
+    "section": "Fragment Items",
+    "text": "Fragment Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
   },
   {
-    "objectID": "NotYetHere.html",
-    "href": "NotYetHere.html",
-    "title": "This Link Target Is Not Yet Here",
-    "section": "",
-    "text": "Note\n\n\n\nThe Degrees of Freedom Project (DOFPro) is still in the early alpha stage of development. Many of the videos, visuals, and web pages have not been created yet. However, we have placeholder links in many of the existing documents, so that we can see how the entire structure will look once we finish. The version 1.0 site is set for release in mid-May 2025. If it is before then, expect to see lots of these placeholder links.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nIf it is after mid-May 2025, then we didn’t find and fix the placeholder link that you clicked on. Please send an email to comments informing us of the incorrect link and the location on the originating page. Thank you. The DOFPro Team"
-  },
-  {
-    "objectID": "react/index.html",
-    "href": "react/index.html",
-    "title": "Chemical Kinetics and Reactors",
-    "section": "",
-    "text": "More in depth study of chemical reactor engineering"
+    "objectID": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
+    "href": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
+    "title": "Chemical and Thermal Processes",
+    "section": "Fragment and Absolute Items",
+    "text": "Fragment and Absolute Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
   },
   {
     "objectID": "ExampleVisuals4K.html#bulleted-and-numbered-lists",
@@ -1631,25 +1624,32 @@
     "text": "Fragment and Absolute Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
   },
   {
-    "objectID": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
-    "href": "ExampleVisualsGreenScreen.html#bulleted-and-numbered-lists",
-    "title": "Chemical and Thermal Processes",
-    "section": "Bulleted and Numbered Lists",
-    "text": "Bulleted and Numbered Lists\n\nA numbered item\nAnother numbered item\nYet another numbered item\n\n\nA bullet item\nAnother bullet item\nYet another bullet item"
+    "objectID": "react/index.html",
+    "href": "react/index.html",
+    "title": "Chemical Kinetics and Reactors",
+    "section": "",
+    "text": "More in depth study of chemical reactor engineering"
   },
   {
-    "objectID": "ExampleVisualsGreenScreen.html#fragment-items",
-    "href": "ExampleVisualsGreenScreen.html#fragment-items",
-    "title": "Chemical and Thermal Processes",
-    "section": "Fragment Items",
-    "text": "Fragment Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
+    "objectID": "NotYetHere.html",
+    "href": "NotYetHere.html",
+    "title": "This Link Target Is Not Yet Here",
+    "section": "",
+    "text": "Note\n\n\n\nThe Degrees of Freedom Project (DOFPro) is still in the early alpha stage of development. Many of the videos, visuals, and web pages have not been created yet. However, we have placeholder links in many of the existing documents, so that we can see how the entire structure will look once we finish. The version 1.0 site is set for release in mid-May 2025. If it is before then, expect to see lots of these placeholder links.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nIf it is after mid-May 2025, then we didn’t find and fix the placeholder link that you clicked on. Please send an email to comments informing us of the incorrect link and the location on the originating page. Thank you. The DOFPro Team"
   },
   {
-    "objectID": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
-    "href": "ExampleVisualsGreenScreen.html#fragment-and-absolute-items",
-    "title": "Chemical and Thermal Processes",
-    "section": "Fragment and Absolute Items",
-    "text": "Fragment and Absolute Items\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item\n\n\nA fragment item\n\n\nAnother fragment item\n\n\nYet another fragment item"
+    "objectID": "phase/index.html",
+    "href": "phase/index.html",
+    "title": "Advanced Phase Equilibria Calculations",
+    "section": "",
+    "text": "Intro to advanced phase equilibria calculations"
+  },
+  {
+    "objectID": "basics/stats/StatsMeasurementsWebPage.html",
+    "href": "basics/stats/StatsMeasurementsWebPage.html",
+    "title": "Statistics and Measurements",
+    "section": "",
+    "text": "Why Statistics and Measurements\nAll chemical and thermal processes have one or more outputs, whether it be a chemical product such as benzene or electrical power. The goal of almost all process engineers is to maximize the output for a given cost or minimize the cost for a given output. Engineering is a quantitative discipline, and we have to quantitatively report our inputs and outputs. Since all processes experience random fluctuations from the process itself or from the measurement process, the engineer needs to be able to account for the noise. Statistical methods are the most common ways to report both the inputs and outputs, and the variations or noise in the inputs or outputs. There are seventeen videos discussing common statistical methods used in Chemical and Thermal Processing and other fields of engineering, divided up into basic statistics, linear regression, error propagation, nonlinear regression, and error propagation in integrals and derivatives\n\n\nBasic Statistics\nThe most commonly used basic statistics are the arithmetic mean, the standard deviation, and the confidence interval. These three are covered in the videos and web pages listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean and Standard Deviation\n\n\n\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error and Confidence Interval\n\n\n\nBasics Statistics by Hand\nLink\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n\nBasics Statistics with a Spreadsheet\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) with a spreadsheet\n\n\n\nBasics Statistics in Python\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) in Python\n\n\n\nBasics Statistics in R\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) in R\n\n\n\n\n\n\nLinear Regression\nA very common means of presenting and analyzing sets of data pairs is linear regression or fitting a linear function to the data. We only present methods for least-squares linear regression. The method is covered in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nLinear Regression\n\n\n\nLinear Regression with a Spreadsheet\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds with a spreadsheet\n\n\n\nLinear Regression in Python\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in Python\n\n\n\nLinear Regression in R\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in R\n\n\n\n\n\n\nError Propagation\nExperimental data taken by engineers are usually further processed as part of design or analysis procedures. The question often arises as to how the uncertainty in the measured data affect the uncertainty in the final calculation. There are both analytical and numerical methods for evaluating how the undertainty or error propagates. These methods are explored in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation in Algebraic and Transcendental Functions\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation when integrating and Differentiating Time Series, Part 1\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation when integrating and Differentiating Time Series, Part 2\n\n\n\n\n\n\nNonlinear Regression\nWhen the model for fitting data contains parameters that are non-linearly related to the fitting function, the model parameters may be determined through nonlinear regression. The method is covered in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nNoninear Regression, Parameter Fitting, and functional and observational bounds\n\n\n\nNoninear Regression with a Spreadsheet\nNo\nN/A\nNo\nParameter, and Functional Bounds with a spreadsheet\n\n\n\nLinear Regression in Python\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in Python\n\n\n\nLinear Regression in R\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in R"
   },
   {
     "objectID": "basics/stats/WhyStatsTFS1Visuals.html#scale-video-tba",
@@ -2069,7 +2069,7 @@
     "href": "basics/intro/CurrentVideoList.html",
     "title": "Current List of Videos on YouTube",
     "section": "",
-    "text": "Links to the current videos on YouTube will be maintained here. These are current as of 2024-12-20.\n\nTable of Videos\n\n\n\nVid. #\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n5\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean (\\(\\mu,\\ \\bar{x}\\)) and Standard Deviation (\\(\\sigma,\\ S\\))\n\n\n5A\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error (\\(S_{\\bar{x}}\\)) and Confidence Interval (\\(2\\lambda\\))\n\n\n6\nBasics Statistics by Hand\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n21\nIs Your Process Data Spread Smooth or Chunky?\nLink\nNo\nPage\nData Visualization, linear and Log Coordinates\n\n\n22\nInterpol Is Late to a Mind-Blowing Math Hack\nLink\nNo\nPage\nLinear Interpolation\n\n\n23\nNo Clear Interpretation a Mind-Blowing Math Hack\nLink\nNo\nPage\nNonlinear Interpolation\n\n\n27\nIs Furlongs Per Fortnight a Thing?\nLink\nNo\nPage\nUnit Conversion\n\n\n28\nHow Keen Is Your Rank?\nLink\nNo\nPage\nTemperature Conversion\n\n\n29\nThe Most Annoying Equation Conversion\nLink\nNo\n[Page]\nUnit Conversion of Equations\n\n\n30\nWhere Does Sherwood Hide His Unit?\nLink\nNo\n[Page]\nDimensionless Numbers Principles\n\n\n31\nWhat the Schmidt? Examples\nLink\nNo\n[Page]\nApplications of Dimensionless Numbers\n\n\n33\nUnder Pressure Part 1\nLink\nNo\nPage\nPressure Basics\n\n\n34\nUnder Pressure Part 2\nLink\nNo\nPage\nAbs., Atm., Gauge, Barometric Pressure\n\n\n35\nWhat is a Mole?\nLink\nLink\nPage\nWhat a mole is\n\n\n36\nWhat the Frac?\nLink\nNo\nPage\nMass, Moles, Mass Fractions, Mole Fractions\n\n\n37\nAre You Dense? Crank Up the Volume and Go With the Flow!\nLink\nNo\n[Page]\nMass, Moles, Density, Volume, and Flow Rates\n\n\n38\nHow to Keep Your Balance\nLink\nNo\n[Page]\nSystem Definition and the General Balance Equation\n\n\n39\nSpeed Balancing\nLink\nNo\n[Page]\nGeneral Balance Equation Definitions and Suggestions\n\n\n40\nGotta Keep ’Em Separated\nLink\nNo\n[Page]\nMixer, Divider, and Separator mole balances"
+    "text": "Links to the current videos on YouTube will be maintained here. These are current as of 2024-12-20.\n\nTable of Videos\n\n\n\nVid. #\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n5\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean (\\(\\mu,\\ \\bar{x}\\)) and Standard Deviation (\\(\\sigma,\\ S\\))\n\n\n5A\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error (\\(S_{\\bar{x}}\\)) and Confidence Interval (\\(2\\lambda\\))\n\n\n6\nBasics Statistics by Hand\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n7\nBasics Statistics with a Spreadsheet\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) with a spreadsheet\n\n\n21\nIs Your Process Data Spread Smooth or Chunky?\nLink\nNo\nPage\nData Visualization, linear and Log Coordinates\n\n\n22\nInterpol Is Late to a Mind-Blowing Math Hack\nLink\nNo\nPage\nLinear Interpolation\n\n\n23\nNo Clear Interpretation a Mind-Blowing Math Hack\nLink\nNo\nPage\nNonlinear Interpolation\n\n\n27\nIs Furlongs Per Fortnight a Thing?\nLink\nNo\nPage\nUnit Conversion\n\n\n28\nHow Keen Is Your Rank?\nLink\nNo\nPage\nTemperature Conversion\n\n\n29\nThe Most Annoying Equation Conversion\nLink\nNo\n[Page]\nUnit Conversion of Equations\n\n\n30\nWhere Does Sherwood Hide His Unit?\nLink\nNo\n[Page]\nDimensionless Numbers Principles\n\n\n31\nWhat the Schmidt? Examples\nLink\nNo\n[Page]\nApplications of Dimensionless Numbers\n\n\n33\nUnder Pressure Part 1\nLink\nNo\nPage\nPressure Basics\n\n\n34\nUnder Pressure Part 2\nLink\nNo\nPage\nAbs., Atm., Gauge, Barometric Pressure\n\n\n35\nWhat is a Mole?\nLink\nLink\nPage\nWhat a mole is\n\n\n36\nWhat the Frac?\nLink\nNo\nPage\nMass, Moles, Mass Fractions, Mole Fractions\n\n\n37\nAre You Dense? Crank Up the Volume and Go With the Flow!\nLink\nNo\n[Page]\nMass, Moles, Density, Volume, and Flow Rates\n\n\n38\nHow to Keep Your Balance\nLink\nNo\n[Page]\nSystem Definition and the General Balance Equation\n\n\n39\nSpeed Balancing\nLink\nNo\n[Page]\nGeneral Balance Equation Definitions and Suggestions\n\n\n40\nGotta Keep ’Em Separated\nLink\nNo\n[Page]\nMixer, Divider, and Separator mole balances"
   },
   {
     "objectID": "basics/processdata/WhatIsAMoleTFSCC.html",
@@ -3441,7 +3441,7 @@
     "href": "balances/material/CombRxnsPart1JTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nThe principal species for combustion reactions are carbon, hydrogen, sulfur, and water.\nThe products of complete combustion of the principal species are carbon dioxide, water, and sulfur dioxide.\nTheoretical and excess air are calculated by treating the oxygen in air as a stoichiometric or excess reagent.\nExcess air does not guarantee complete combustion.\nThe composition of combustion gases are reported on either a wet or dry basis."
+    "text": "The Takeaways\n\nThe principal species for combustion reactions are carbon, hydrogen, sulfur, and oxygen.\nThe products of complete combustion of the principal species are carbon dioxide, water, and sulfur dioxide.\nTheoretical and excess air are calculated by treating the oxygen in air as a stoichiometric or excess reagent.\nExcess air does not guarantee complete combustion.\nThe composition of combustion gases are reported on either a wet or dry basis."
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#ideal-homogeneous-reactors",
