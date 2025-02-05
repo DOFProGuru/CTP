@@ -1,0 +1,28 @@
+---
+format:
+  revealjs:
+    width: 3840
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Basic Statistics on a Spreadsheet{.bigbold90}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="-90%"}
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!**</br>The *How Deviant and Mean Are Your Data? Introduction and Basics* companion video is in the link in the upper left. The link to *Basic Statistics in Python* is in the upper right. To learn more about Chemical and Thermal Processes from the DOFPro team, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}

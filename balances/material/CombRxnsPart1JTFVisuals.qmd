@@ -106,7 +106,7 @@ rich).
 
 ## The Takeaways
 
-1. The principal species for combustion reactions are carbon, hydrogen, sulfur, and water.
+1. The principal species for combustion reactions are carbon, hydrogen, sulfur, and oxygen.
 2. The products of complete combustion of the principal species are carbon dioxide, water, and sulfur dioxide.
 3. Theoretical and excess air are calculated by treating the oxygen in air as a stoichiometric or excess reagent.
 4. Excess air does *not* guarantee complete combustion.
