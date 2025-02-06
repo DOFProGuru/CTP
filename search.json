@@ -228,7 +228,7 @@
     "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Standard Conditions (cont.)",
-    "text": "Standard Conditions (cont.)\nThe molar volume calculated at the standard temperature and pressure is the standard molar volume,\n\\[\\hat{V}_\\mathrm{S} = \\frac{R T_\\mathrm{S}}{P_\\mathrm{S}}.\\]\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\):\n\\[\\hat{V}_\\mathrm{S} = 22.414\\ \\mathrm{\\frac{m^3(STP)}{kmol}} = 22.414\\ \\mathrm{\\frac{L(STP)}{mol}} = 359.04\\ \\frac{\\mathrm{m^3(STP)}}{\\text{lb-mol}}\\]"
+    "text": "Standard Conditions (cont.)\nThe molar volume calculated at the standard temperature and pressure is the standard molar volume,\n\\[\\hat{V}_\\mathrm{S} = \\frac{R T_\\mathrm{S}}{P_\\mathrm{S}}.\\]\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\):\n\n\\[\\hat{V}_\\mathrm{S} = 22.414\\ \\mathrm{\\frac{m^3(STP)}{kmol}} = 22.414\\ \\mathrm{\\frac{L(STP)}{mol}} = 359.04\\ \\frac{\\mathrm{m^3(STP)}}{\\text{lb-mol}}\\]"
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.-1",
@@ -242,7 +242,7 @@
     "href": "balances/material/IdealGasJTFVisuals.html#example",
     "title": "Chemical and Thermal Processes",
     "section": "Example",
-    "text": "Example\n\nFor a flow rate of \\(3.95 \\times 10^5\\ \\mathrm{SCFH}\\) at \\(285\\ ^\\circ F\\) and \\(1.300\\ \\mathrm{atm}\\),\n\nCalculate the molar flow rate in \\(\\mathrm{kmol/min}\\) and \\(\\text{lb-mol/h}\\).\nCalculate the true volumetric flow rate in \\(\\mathrm{m^3/s}\\).\n\n\n\\[\n\\dot{n} = \\frac{3.95 \\times 10^5\\ \\mathrm{SCFH}}{\\left(359.04\\frac{\\mathrm{ft^3(STP)}}{\\text{lb-mol}}\\right)} = 1100\\ \\frac{\\text{lb-mol}}{\\mathrm{h}} = 8.32\\ \\frac{\\mathrm{kmol}}{\\mathrm{min}}\n\\]\n\n\n\\[\n\\dot{V} = \\frac{\\dot{n}RT}{P} = \\frac{8317 \\boldsymbol{\\cdot} 8.3145 \\boldsymbol{\\cdot} 413.71}{131722 \\boldsymbol{\\cdot} 60} = 3.62\\ \\frac{\\mathrm{m^3}}{\\mathrm{s}}\n\\]\n\n\n\nor \\[\n\\dot{V} = \\dot{V}_\\mathrm{S}\\ \\frac{T}{T_\\mathrm{S}}\\ \\frac{P_\\mathrm{S}}{P} = 3.95 \\times 10^5 \\boldsymbol{\\cdot} \\frac{744.67}{491.67} \\boldsymbol{\\cdot} \\frac{1.00}{1.30} = 460 \\times 10^5\\ \\mathrm{\\frac{ft^3}{h}} = 3.62\\ \\frac{\\mathrm{m^3}}{\\mathrm{s}}\n\\]"
+    "text": "Example\n\nFor a flow rate of \\(3.95 \\times 10^5\\ \\mathrm{SCFH}\\) at \\(285\\ ^\\circ \\mathrm{F}\\) and \\(1.300\\ \\mathrm{atm}\\),\n\nCalculate the molar flow rate in \\(\\mathrm{kmol/min}\\) and \\(\\text{lb-mol/h}\\).\nCalculate the true volumetric flow rate in \\(\\mathrm{m^3/s}\\).\n\n\n\\[\n\\dot{n} = \\frac{3.95 \\times 10^5\\ \\mathrm{SCFH}}{\\left(359.04\\frac{\\mathrm{ft^3(STP)}}{\\text{lb-mol}}\\right)} = 1100\\ \\frac{\\text{lb-mol}}{\\mathrm{h}} = 8.32\\ \\frac{\\mathrm{kmol}}{\\mathrm{min}}\n\\]\n\n\n\\[\n\\dot{V} = \\frac{\\dot{n}RT}{P} = \\frac{8317 \\boldsymbol{\\cdot} 8.3145 \\boldsymbol{\\cdot} 413.71}{131722 \\boldsymbol{\\cdot} 60} = 3.62\\ \\frac{\\mathrm{m^3}}{\\mathrm{s}}\n\\]\n\n\n\nor \\[\n\\dot{V} = \\dot{V}_\\mathrm{S}\\ \\frac{T}{T_\\mathrm{S}}\\ \\frac{P_\\mathrm{S}}{P} = 3.95 \\times 10^5 \\boldsymbol{\\cdot} \\frac{744.67}{491.67} \\boldsymbol{\\cdot} \\frac{1.00}{1.30} = 460 \\times 10^5\\ \\mathrm{\\frac{ft^3}{h}} = 3.62\\ \\frac{\\mathrm{m^3}}{\\mathrm{s}}\n\\]"
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#daltons-and-amagats-laws",
@@ -263,7 +263,7 @@
     "href": "balances/material/IdealGasJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nThere are two parts to the ideal gas law: The equation of state, \\(PV = nRT\\), and the internal energy is only a function of temperature..\nThe ideal gas law is in error by no more than 1% if the ideal molar volume is greater than 5 L/mol for diatomic gases or greater than 20 L/mol for other gases.\nWe are using an STP of \\(0\\ ^\\circ\\mathrm{C}\\) and \\(101.325\\ \\mathrm{kPa}\\).\nMolar flow rates are often given in SCM or SCF per time.\nThe partial pressure of a species in an ideal gas is the mole fraction times the total pressure.\nThe partial molar volume of a species in an ideal gas is the mole fraction times the total volume."
+    "text": "The Takeaways\n\nThere are two parts to the ideal gas law: The equation of state, \\(PV = nRT\\), and the internal energy is only a function of temperature..\nThe ideal gas law is in error by no more than 1% if the ideal molar volume is greater than 5 L/mol for diatomic gases or greater than 20 L/mol for other gases.\nWe are using an STP of \\(0\\ ^\\circ\\mathrm{C}\\) and \\(101.325\\ \\mathrm{kPa}\\).\nMolar flow rates are often given in SCM or SCF per time.\nThe partial pressure of a species in an ideal gas is the mole fraction times the total pressure.\nThe pure-component volume of a species in an ideal gas is the mole fraction times the total volume."
   },
   {
     "objectID": "balances/material/KineticsIntroJTFVisuals.html#a-single-chemical-reaction",
