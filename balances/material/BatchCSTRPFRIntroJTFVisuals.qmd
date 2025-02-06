@@ -198,7 +198,9 @@ $$
 \dot{n}_{j_0} - (\dot{n}_j + d\dot{n}_j) + r_j dV = \frac{dn_j}{dt}
 $$
 
+$$
 
+$$
 
 ## $r$ as a Function of $T$ and $C$
 
