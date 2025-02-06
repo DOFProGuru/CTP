@@ -74,7 +74,9 @@ $$\hat{V}_\mathrm{S} = \frac{R T_\mathrm{S}}{P_\mathrm{S}}.$$
 
 For the common case of $T_\mathrm{S} = 0\ ^\circ \mathrm{C}$ and $P_\mathrm{S} = 101.325\ \mathrm{kPa}$:
 
+:::{style="font-size: 90px;"}
 $$\hat{V}_\mathrm{S} = 22.414\ \mathrm{\frac{m^3(STP)}{kmol}} = 22.414\ \mathrm{\frac{L(STP)}{mol}} = 359.04\ \frac{\mathrm{m^3(STP)}}{\text{lb-mol}}$$
+:::
 
 ## Standard Conditions (cont.)
 
@@ -91,7 +93,7 @@ You can always determine the true volumetric flow rate with either the ideal gas
 ## Example
 
 :::{style="font-size: 90px;"}
-For a flow rate of $3.95 \times 10^5\ \mathrm{SCFH}$ at $285\ ^\circ F$ and $1.300\ \mathrm{atm}$,
+For a flow rate of $3.95 \times 10^5\ \mathrm{SCFH}$ at $285\ ^\circ \mathrm{F}$ and $1.300\ \mathrm{atm}$,
 
  a. Calculate the molar flow rate in $\mathrm{kmol/min}$ and $\text{lb-mol/h}$.
  b. Calculate the true volumetric flow rate in $\mathrm{m^3/s}$.
@@ -155,7 +157,7 @@ $$\rho = \frac{nM}{V} = \frac{PM}{RT}$$
 3. We are using an STP of $0\ ^\circ\mathrm{C}$ and $101.325\ \mathrm{kPa}$.
 4. Molar flow rates are often given in SCM or SCF per time.
 5. The partial pressure of a species in an ideal gas is the mole fraction times the total pressure.
-6. The partial molar volume of a species in an ideal gas is the mole fraction times the total volume.
+6. The pure-component volume of a species in an ideal gas is the mole fraction times the total volume.
 
 
 #
