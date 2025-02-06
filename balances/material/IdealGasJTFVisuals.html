@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>Chemical and Thermal Processes – batchcstrpfrintrojtfvisuals</title>
+  <title>Chemical and Thermal Processes – idealgasjtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,180 +127,124 @@
 
 
 <section>
-<section id="wishing-upon-a-cstrjust-the-facts" class="title-slide slide level1 bigbold75 center">
-<h1>Wishing Upon a CSTR<br>Just the Facts</h1>
+<section id="ideal-gases-exposed-are-they-even-realjust-the-facts" class="title-slide slide level1 bigbold75 center">
+<h1>Ideal Gases EXPOSED:<br>Are They Even Real?!!<br>Just the Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
-<section id="ideal-homogeneous-reactors" class="slide level2">
-<h2>Ideal Homogeneous Reactors</h2>
-<p>Most commercial reactors are <em>heterogeneous</em> reactors.</p>
-<p>We will focus first on the ideal <em>homogeneous</em> reactors.</p>
-<ul>
-<li class="fragment"><strong>Batch</strong> (Transient)
-<ul>
-<li class="fragment">Properties are <em>uniform</em> throughout the volume.</li>
-<li class="fragment">Properties are <em>evolving</em> in time.</li>
-</ul></li>
-<li class="fragment"><strong>CSTR</strong> (Mixed, Steady State)
-<ul>
-<li class="fragment">Properties are <em>uniform</em> throughout the volume.</li>
-<li class="fragment">Properties are <em>constant</em> in time.</li>
-</ul></li>
-<li class="fragment"><strong>PFR</strong> (Steady State)
-<ul>
-<li class="fragment">Properties are <em>uniform</em> in the radial direction, <span class="math inline">\(r\)</span>.</li>
-<li class="fragment">Properties are <em>evolving</em> in the axial direction, <span class="math inline">\(r\)</span>.</li>
-<li class="fragment">Properties are <em>constant</em> in time.</li>
-</ul></li>
-</ul>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="the-ideal-gas" class="slide level2">
+<h2>The Ideal Gas</h2>
+<p>There are two parts to the definition of an ideal gas: First, the equation of state.</p>
+<p><span class="math display">\[PV = nRT\]</span></p>
+<p>Second, the enthalpy or internal energy is a function of temperature only. We’ll revisit this part when we get to the First Law. <br><br> In terms of molar volume the ideal gas equation of state is</p>
+<p><span class="math display">\[P\hat{V} = R T\]</span></p>
+<p>The current (2019) definition of R is <span class="math inline">\(8.314\ 462\ 618\ 153\ 24\ \mathrm{J/mol\ K}\)</span>. The value is exact.</p>
+</section>
+<section id="the-ideal-gas-cont." class="slide level2">
+<h2>The Ideal Gas (cont.)</h2>
+<p>The ideal gas equation of state is in error by no more than 1% if</p>
+<span class="math inline">\(\ \ \hat{V}_\mathrm{ideal} = \frac{RT}{P} &gt; 5\ \mathrm{L/mol}\)</span>
+<div style="font-size: 60px; display: inline-block;">
+(<span class="math inline">\(5 \times 10^{−3}\ \mathrm{m^3/mol}\)</span> or <span class="math inline">\(80\ \mathrm{ft^3}/\text{lb-mol}\)</span>) (diatomic gases)
 </div>
-<p><strong>Note</strong></p>
+<br><br> <span class="math inline">\(\ \ \hat{V}_\mathrm{ideal} = \frac{RT}{P} &gt; 20\ \mathrm{L/mol}\)</span>
+<div style="font-size: 60px; display: inline-block;">
+(<span class="math inline">\(20 \times 10^{−3}\ \mathrm{m^3/mol}\)</span> or <span class="math inline">\(320\ \mathrm{ft^3}/\text{lb-mol}\)</span>) (other gases)
 </div>
-<div class="callout-content">
-<p>We will not derive the transient cases for CSTRs or PFRs, but they are critically important during plant start-up and shut-down.</p>
+<p><br> Mechanical Engineers often define the ideal gas equation of state as</p>
+<p><span class="math display">\[P V = m R T\]</span></p>
+<p>where <span class="math inline">\(m\)</span> is the mass of gas. They are then required to have a different value of <span class="math inline">\(R\)</span> for each gas, which is <span class="math inline">\(R/M\)</span>. For dry air, <span class="math inline">\(R = 287.058\ \mathrm{J/kg\ K}\)</span>.</p>
+</section>
+<section id="standard-conditions" class="slide level2">
+<h2>Standard Conditions</h2>
+<blockquote>
+<p>The nice thing about standards is that you have so many to choose from.</p>
+<div style="font-size: 80px; display: inline-block;">
+<p>(Attributed to everybody <em>especially Grace Hopper and Andrew S. Tanenbaum</em>)</p>
+</div>
+</blockquote>
+<p><br> Wikipedia lists 21 different combinations of temperature and pressure used as STP.</p>
+<p><img data-src="RefTempsIG.png" class="absolute" style="top: 50%; left: 50%; width: 50%; "> <img data-src="RefPressIG.png" class="absolute" style="top: 50%; left: 0%; width: 50%; "></p>
+</section>
+<section id="standard-conditions-cont." class="slide level2">
+<h2>Standard Conditions (cont.)</h2>
+<p>The molar volume calculated at the standard temperature and pressure is the standard molar volume,</p>
+<p><span class="math display">\[\hat{V}_\mathrm{S} = \frac{R T_\mathrm{S}}{P_\mathrm{S}}.\]</span></p>
+<p>For the common case of <span class="math inline">\(T_\mathrm{S} = 0\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(P_\mathrm{S} = 101.325\ \mathrm{kPa}\)</span>:</p>
+<p><span class="math display">\[\hat{V}_\mathrm{S} = 22.414\ \mathrm{\frac{m^3(STP)}{kmol}} = 22.414\ \mathrm{\frac{L(STP)}{mol}} = 359.04\ \frac{\mathrm{m^3(STP)}}{\text{lb-mol}}\]</span></p>
+</section>
+<section id="standard-conditions-cont.-1" class="slide level2">
+<h2>Standard Conditions (cont.)</h2>
+<p>For historical reasons, the molar flow of a gas is often measured in <em>standard cubic meters</em> (SCM) per time or <em>standard cubic feet</em> (SCF) per time.</p>
+<p>For the common case of <span class="math inline">\(T_\mathrm{S} = 0\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(P_\mathrm{S} = 101.325\ \mathrm{kPa}\)</span>:</p>
+<p><span class="math display">\[1\ \mathrm{SCM} = 44.615\ \mathrm{mol} = 0.04462\ \mathrm{kmol}\]</span></p>
+<p><span class="math display">\[1\ \mathrm{SCF} = 2.785 \times 10^{−3}\ \text{lb-mol}\]</span></p>
+<p>You can always determine the true volumetric flow rate with either the ideal gas law or by using ratios of absolute temperatures and pressures.</p>
+</section>
+<section id="example" class="slide level2">
+<h2>Example</h2>
+<div style="font-size: 90px;">
+<p>For a flow rate of <span class="math inline">\(3.95 \times 10^5\ \mathrm{SCFH}\)</span> at <span class="math inline">\(285\ ^\circ F\)</span> and <span class="math inline">\(1.300\ \mathrm{atm}\)</span>,</p>
+<ol type="a">
+<li class="fragment">Calculate the molar flow rate in <span class="math inline">\(\mathrm{kmol/min}\)</span> and <span class="math inline">\(\text{lb-mol/h}\)</span>.</li>
+<li class="fragment">Calculate the true volumetric flow rate in <span class="math inline">\(\mathrm{m^3/s}\)</span>.</li>
+</ol>
+<div class="absolute" style="top: 30%; left: 3%; ">
+<p><span class="math display">\[
+\dot{n} = \frac{3.95 \times 10^5\ \mathrm{SCFH}}{\left(359.04\frac{\mathrm{ft^3(STP)}}{\text{lb-mol}}\right)} = 1100\ \frac{\text{lb-mol}}{\mathrm{h}} = 8.32\ \frac{\mathrm{kmol}}{\mathrm{min}}
+\]</span></p>
+</div>
+<div class="absolute" style="top: 52%; left: 3%; ">
+<p><span class="math display">\[
+\dot{V} = \frac{\dot{n}RT}{P} = \frac{8317 \boldsymbol{\cdot} 8.3145 \boldsymbol{\cdot} 413.71}{131722 \boldsymbol{\cdot} 60} = 3.62\ \frac{\mathrm{m^3}}{\mathrm{s}}
+\]</span></p>
 </div>
 </div>
+<div class="absolute" style="font-size: 80px;top: 70%; left: 0%; ">
+<p>or <span class="math display">\[
+\dot{V} = \dot{V}_\mathrm{S}\ \frac{T}{T_\mathrm{S}}\ \frac{P_\mathrm{S}}{P} = 3.95 \times 10^5 \boldsymbol{\cdot} \frac{744.67}{491.67} \boldsymbol{\cdot} \frac{1.00}{1.30} = 460 \times 10^5\ \mathrm{\frac{ft^3}{h}} = 3.62\ \frac{\mathrm{m^3}}{\mathrm{s}}
+\]</span></p>
 </div>
 </section>
-<section id="batch-reactor" class="slide level2">
-<h2>Batch Reactor</h2>
-<p>(image)</p>
-<p>Transient, spatially uniform</p>
+<section id="daltons-and-amagats-laws" class="slide level2">
+<h2>Dalton’s and Amagat’s Laws</h2>
+<p>For an ideal gas mixture, the partial pressure of pure component <span class="math inline">\(\mathrm{A}\)</span> is defined as</p>
 <p><span class="math display">\[
-\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
+p_\mathrm{A} = \frac{n_\mathrm{A} RT}{V} = \frac{n_\mathrm{A} RT}{V} \boldsymbol{\cdot} \frac{PV}{nRT} = \left(\frac{n_\mathrm{A}}{n}\right)P =y_\mathrm{A}P
 \]</span></p>
+<p>For an ideal gas mixture, the pure-component volume of pure component <span class="math inline">\(\mathrm{A}\)</span> is defined as</p>
 <p><span class="math display">\[
-r_j \ne r_j(\mathrm{position)}) \implies \int_{V_R} r_j dV = r_j \int_{V_R} dV = r_j V_R
+v_\mathrm{A} = \frac{n_\mathrm{A} RT}{P} = \frac{n_\mathrm{A} RT}{P} \boldsymbol{\cdot} \frac{PV}{nRT} = \left(\frac{n_\mathrm{A}}{n}\right)V =y_\mathrm{A}V
 \]</span></p>
+<p>Summing over all of the species, <span class="math inline">\(\sum p_i = P\)</span>, <span class="math inline">\(\sum v_i = V\)</span></p>
+<p>which are known as Dalton’s law and Amagat’s law respectively.</p>
 </section>
-<section id="batch-reactor-cont." class="slide level2">
-<h2>Batch Reactor (cont.)</h2>
-<p>For Species A, <span class="math inline">\(n_\mathrm{A} = n_\mathrm{A_0} (1- f_\mathrm{A})\)</span></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">\[
-(-r_\mathrm{A}) V_R = - \frac{dn_\mathrm{A}}{dt}
-\]</span> <span class="math display">\[
-\int^{t_2}_{t_1} dt = \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R}
-\]</span> <span class="math display">\[
-\boxed{ t_2 - t_1 =  \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R} }
-\]</span></p>
-</div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-(-r_\mathrm{A}) V_R = n_\mathrm{A_0}\frac{df_\mathrm{A}}{dt}
-\]</span> <span class="math display">\[
-\int^{t_2}_{t_1} dt = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
-\]</span> <span class="math display">\[
-\boxed{ t_2 - t_1 = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R} }
-\]</span></p>
-</div></div>
-<p>for <span class="math inline">\(t_1 = 0,\ f_\mathrm{A_1} = 0\)</span></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">\[
-t =  \int^{n_{\mathrm{A}}}_{n_{\mathrm{A_0}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R}
-\]</span></p>
-</div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-t = n_\mathrm{A_0}\int^{f_{\mathrm{A}}}_0 \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
-\]</span></p>
-</div></div>
-</section>
-<section id="batch-reactor-cont.-1" class="slide level2">
-<h2>Batch Reactor (cont.)</h2>
-<p>In terms of concentration:</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">\[
-t = - \int^{C_{\mathrm{A}}}_{C_{\mathrm{A_0}}} \frac{dC_\mathrm{A}}{(-r_\mathrm{A})}
-\]</span></p>
-</div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-t =  C_\mathrm{A_0} \int^{f_{\mathrm{A}}}_{0} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
-\]</span></p>
-</div></div>
-<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> (image)</p>
-<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> (image)</p>
-</section>
-<section id="cstr-mixed" class="slide level2">
-<h2>CSTR (Mixed)</h2>
-<p>(image)</p>
-<p>Steady state, spatially uniform</p>
-<p><span class="math display">\[
-\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
-\]</span></p>
-<p><span class="math display">\[
-r_j \ne r_j(\mathrm{position)} \implies \dot{n}_{j_0} - \dot{n}_j + r_j V_R = 0
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_{j_0} = \dot{n}_j + (-r_j) V_R
-\]</span></p>
-<p>For species <span class="math inline">\(\mathrm{A}\)</span>,</p>
-<p><span class="math display">\[
-\boxed{ V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}}
-\]</span></p>
-</section>
-<section id="cstr-cont." class="slide level2">
-<h2>CSTR (cont.)</h2>
-<p>Since</p>
-<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A} = \dot{n}_\mathrm{A_0}(1 - f_\mathrm{A})\)</span></p>
-<p>then</p>
-<p><span class="math inline">\(\ \ \ \ (-r_\mathrm{A}) V_R = \dot{n}_\mathrm{A_0}(f_\mathrm{A})\)</span></p>
-<p>also</p>
-<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A_0}=\dot{V}_0 C_\mathrm{A_0}\)</span></p>
-<p>Define</p>
-<p><span class="math inline">\(\ \ \ \ \tau \equiv \frac{V_R}{\dot{V}_0}\)</span></p>
-<p>then</p>
-<p><span class="math inline">\(\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}}}\)</span></p>
-</section>
-<section id="cstr-cont.-1" class="slide level2">
-<h2>CSTR (cont.)</h2>
-<p>Since we’re assuming constant density</p>
-<p><span class="math inline">\(\ \ \ \ \dot{V}_0 = \dot{V},\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}C_\mathrm{A_0},\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}C_\mathrm{A}\)</span></p>
-<p>and</p>
-<p><span class="math inline">\(\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}}\)</span></p>
-<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> (image)</p>
-<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> (image)</p>
-</section>
-<section id="pfr-tubular" class="slide level2">
-<h2>PFR (Tubular)</h2>
-<p>(image)</p>
-<p>Steady state, radially uniform, axially varies</p>
-<p>Differential Element</p>
-<p>(image) <span class="math inline">\(\dot{n}_j\)</span> <span class="math inline">\(\dot{n}_j+d\dot{n}_j\)</span> <span class="math inline">\(dV\)</span></p>
-<p><span class="math display">\[
-\dot{n}_{j_0} - (\dot{n}_j + d\dot{n}_j) + r_j dV = \frac{dn_j}{dt}
-\]</span></p>
-<p>$$</p>
-<p>$$</p>
-</section>
-<section id="r-as-a-function-of-t-and-c" class="slide level2">
-<h2><span class="math inline">\(r\)</span> as a Function of <span class="math inline">\(T\)</span> and <span class="math inline">\(C\)</span></h2>
-</section>
-<section id="mole-balance-on-reactor" class="slide level2">
-<h2>Mole Balance on Reactor</h2>
+<section id="some-handy-relationships" class="slide level2">
+<h2>Some Handy Relationships</h2>
+<p>Molar concentration of an ideal gas</p>
+<p><span class="math display">\[C_\mathrm{A} = \frac{n_\mathrm{A}}{V} = \frac{p_\mathrm{A}}{RT}\]</span></p>
+<p>Molar density of an ideal gas</p>
+<p><span class="math display">\[\rho = \frac{n}{V} = \frac{P}{RT}\]</span></p>
+<p>Mass density of an ideal gas</p>
+<p><span class="math display">\[\rho = \frac{nM}{V} = \frac{PM}{RT}\]</span></p>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">For reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.</li>
-<li class="fragment">The yield is the fraction of the desired product that could be produced that is actually produced..</li>
-<li class="fragment">The selectivity is the ratio of the desired product to the undesired products.</li>
-<li class="fragment">Don’t confuse mole fraction, <span class="math inline">\(x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)\)</span>, split fraction, <span class="math inline">\(t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}\)</span>, and fractional conversion.<span class="math inline">\(f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}}\)</span>.</li>
+<li class="fragment">There are two parts to the ideal gas law: The equation of state, <span class="math inline">\(PV = nRT\)</span>, and the internal energy is only a function of temperature..</li>
+<li class="fragment">The ideal gas law is in error by no more than 1% if the ideal molar volume is greater than 5 L/mol for diatomic gases or greater than 20 L/mol for other gases.</li>
+<li class="fragment">We are using an STP of <span class="math inline">\(0\ ^\circ\mathrm{C}\)</span> and <span class="math inline">\(101.325\ \mathrm{kPa}\)</span>.</li>
+<li class="fragment">Molar flow rates are often given in SCM or SCF per time.</li>
+<li class="fragment">The partial pressure of a species in an ideal gas is the mole fraction times the total pressure.</li>
+<li class="fragment">The partial molar volume of a species in an ideal gas is the mole fraction times the total volume.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. <em>Recycling Before Recycling Was Cool</em>, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 

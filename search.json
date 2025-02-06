@@ -161,53 +161,109 @@
     "text": "The Takeaways\n\nFor reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.\nThe yield is the fraction of the desired product that could be produced that is actually produced..\nThe selectivity is the ratio of the desired product to the undesired products.\nDon’t confuse mole fraction, \\(x_\\mathrm{A} = n_\\mathrm{A}/(\\sum n_i)\\), split fraction, \\(t_{A1} = \\dot{n}_\\mathrm{A1}/\\dot{n}_\\mathrm{Ain}\\), and fractional conversion.\\(f_\\mathrm{A} = (\\dot{n}_\\mathrm{A_{in}} - \\dot{n}_\\mathrm{A_{out}})/\\dot{n}_\\mathrm{A_{in}}\\)."
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#common-processing-units",
-    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#common-processing-units",
+    "objectID": "balances/material/LiqSolDenJTFVisuals.html#variations-with-temperature-and-pressure",
+    "href": "balances/material/LiqSolDenJTFVisuals.html#variations-with-temperature-and-pressure",
     "title": "Chemical and Thermal Processes",
-    "section": "Common Processing Units",
-    "text": "Common Processing Units\n\nMixer\nDivider\nSeparator\nReactor (Next three videos)\n\n\nFor open steady-state systems it is useful to use the following definitions and constitutive relationships:"
+    "section": "Variations with Temperature and Pressure",
+    "text": "Variations with Temperature and Pressure\nFor most purposes solids and liquids are treated as incompressible, meaning the density is not a function of pressure. They are also regarded as having a low coefficient of thermal expansion, so variations of density with temperature are often ignored. However, it is not always safe to do so. For example, designing a liquid thermometer is impossible without a knowledge of how the density changes with temperature. From thermodynamics we have the volume expansivity\n\\[\n\\beta \\equiv \\frac{1}{V} \\left( \\frac{\\partial V}{\\partial T}\\right)_P\n\\]\nand the isothermal compressibility\n\\[\n\\kappa \\equiv - \\frac{1}{V} \\left( \\frac{\\partial V}{\\partial P}\\right)_T\n\\]"
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#mixer",
-    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#mixer",
+    "objectID": "balances/material/LiqSolDenJTFVisuals.html#variations-with-temperature-and-pressure-cont.",
+    "href": "balances/material/LiqSolDenJTFVisuals.html#variations-with-temperature-and-pressure-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Mixer",
-    "text": "Mixer\n\n\n\n\nFor each component, \\(i\\),\n\\[\n\\dot{n}_{i_\\mathrm{out}} = \\dot{n}_{i_1} + \\dot{n}_{i_2} + \\cdots +\\dot{n}_{i_k}\n\\]\n\n\nOverall\n\\[\n\\dot{n}_\\mathrm{out} = \\dot{n}_1 + \\dot{n}_2 + \\cdots +\\dot{n}_k\n\\]\n\n\nwhere\n\\[\n\\dot{n} = \\sum_\\mathrm{All} \\dot{n}_i\n\\]"
+    "section": "Variations with Temperature and Pressure (cont.)",
+    "text": "Variations with Temperature and Pressure (cont.)\nValues for \\(\\beta\\) and \\(\\kappa\\) come from experimental data, websites, handbooks, and tables, and equations of state. A web search can prove to be quite fruitful.  In later more advanced videos, we will discuss in more detail \\(\\beta\\) and \\(\\kappa\\) as well as partial molar volume, which is a method for calculating molar volumes for liquid mixtures."
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#mixer-usage",
-    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#mixer-usage",
+    "objectID": "balances/material/LiqSolDenJTFVisuals.html#density-of-mixtures-of-liquids-and-solids",
+    "href": "balances/material/LiqSolDenJTFVisuals.html#density-of-mixtures-of-liquids-and-solids",
     "title": "Chemical and Thermal Processes",
-    "section": "Mixer Usage",
-    "text": "Mixer Usage\n\nA mixer combines (or mixes) the input streams together, so that the output stream is just the sum of all of the input streams.\n\n\nThe mass equations for a mixer are the same as the mole equations, with the \\(n\\)’s or \\(\\dot{n}\\)’s replaced by \\(m\\)’s or \\(\\dot{m}\\)’s.\n\\[\n\\dot{m}_{i_\\mathrm{out}} = \\dot{m}_{i_1} + \\dot{n}_{i_2} + \\cdots +\\dot{m}_{i_k}\n\\]\nOverall\n\\[\n\\dot{m}_\\mathrm{out} = \\dot{m}_1 + \\dot{m}_2 + \\cdots +\\dot{m}_k\n\\]\nwhere\n\\[\n\\dot{m} = \\sum_\\mathrm{All} \\dot{m}_i\n\\]"
+    "section": "Density of Mixtures of Liquids and Solids",
+    "text": "Density of Mixtures of Liquids and Solids\nFor ideal mixtures (the attraction between like molecules is essentially the same as between unlike molecules) the density of a mixture can be calculated with volume additivity.\n\n\n\\[\\hat{V}_\\mathrm{mix} = \\sum_{i=1}^n x_i \\hat{V}_i\\]\n\\[\\hat{V} = \\frac{1}{\\rho}\\]\n\\[\\frac{1}{\\rho_\\mathrm{mix}} = \\sum_{i=1}^n \\frac{x_i}{\\rho_i}\\]\n\nFor a binary\n\\[\\frac{1}{\\rho_\\mathrm{mix}} = \\frac{x_1}{\\rho_1}+\\frac{1-x_1}{\\rho_2}\\]\n\\[\\rho_\\mathrm{mix} = \\frac{\\rho_1 \\rho_2}{(1-x_1)\\rho_1 + x_1 \\rho_2}\\]\n\nMixtures of aliphatic hydrocarbons are often close to ideal."
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#divider",
-    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#divider",
+    "objectID": "balances/material/LiqSolDenJTFVisuals.html#density-of-mixtures-of-liquids-and-solids-cont.",
+    "href": "balances/material/LiqSolDenJTFVisuals.html#density-of-mixtures-of-liquids-and-solids-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Divider",
-    "text": "Divider\n\n\n\n\n\nFor each component, \\(i\\),\n\n\n\\[\n\\dot{n}_{i_\\mathrm{in}} = \\dot{n}_{i_1} + \\dot{n}_{i_2}\n\\]\n\n\n\n\nOverall\n\n\n\\[\n\\dot{n}_\\mathrm{in} = \\dot{n}_1 + \\dot{n}_2\n\\]\n\n\n\n\nwhere\n\n\n\\[\n\\dot{n} = \\sum_\\mathrm{All} \\dot{n}_i\n\\]\n\n\n\n\nAlso\n\n\n\\[\nx_{i_1} = x_{i_2} = x_{i_\\mathrm{in}}\n\\]\n\n\nwhere the mole fraction, \\(x_i \\equiv \\frac{n_i}{n_\\mathrm{Total}} = \\frac{\\dot{n}_i}{\\dot{n}}\\) ."
+    "section": "Density of Mixtures of Liquids and Solids (cont.)",
+    "text": "Density of Mixtures of Liquids and Solids (cont.)\nLacking any better information, you can use a density average\n\\[\\rho_\\mathrm{mix} = \\sum_{i=1}^n x_i \\rho_i\\]\nIt would be really nice if the true values were bracketed by volume additivity and density average, but values can be way outside these two formulas. See ethanol and water on the next slide.  Experimental data, websites, handbooks, and tables, and equations of state are always your best bet if you can find them."
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#divider-usage",
-    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#divider-usage",
+    "objectID": "balances/material/LiqSolDenJTFVisuals.html#example-of-ethanol-and-water",
+    "href": "balances/material/LiqSolDenJTFVisuals.html#example-of-ethanol-and-water",
     "title": "Chemical and Thermal Processes",
-    "section": "Divider Usage",
-    "text": "Divider Usage\n\n\nA divider is used when a single stream needs to be divided up into two or more streams. The mass equations for a divider are the same as the mole equations, with the \\(n\\)’s or\\(\\dot{n}\\)’s replaced by \\(m\\)’s or \\(\\dot{m}\\)’s.\n\n\n\n\nFor each component, \\(i\\),\n\n\n\\[\n\\dot{m}_{i_\\mathrm{in}} = \\dot{m}_{i_1} + \\dot{m}_{i_2}\n\\]\n\n\n\n\nOverall\n\n\n\\[\n\\dot{m}_\\mathrm{in} = \\dot{m}_1 + \\dot{m}_2\n\\]\n\n\n\n\nwhere\n\n\n\\[\n\\dot{m} = \\sum_\\mathrm{All} \\dot{m}_i\n\\]\n\n\n\n\nAlso\n\n\n\\[\nx_{i_1} = x_{i_2} = x_{i_\\mathrm{in}}\n\\]\n\n\nwhere the mass fraction, \\(x_i \\equiv \\frac{m_i}{m_\\mathrm{Total}} = \\frac{\\dot{m}_i}{\\dot{m}}\\) ."
+    "section": "Example of Ethanol and Water",
+    "text": "Example of Ethanol and Water\n\n\n\n\n\nVolume Additivity \\[\\rho_\\mathrm{mix} = \\frac{\\rho_1 \\rho_2}{(1-x_1)\\rho_1 + x_1 \\rho_2}\\]  Density Average \\[\\rho_\\mathrm{mix} = x_1 \\rho_1 + (1-x_1) \\rho_2\\]"
   },
   {
-    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#separator",
-    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#separator",
-    "title": "Chemical and Thermal Processes",
-    "section": "Separator",
-    "text": "Separator\n\n\n\n\nYou often specify the split fraction,\n\\[\nt_{is} \\equiv \\frac{\\dot{n}_{i_s}}{\\dot{n}_{i_\\mathrm{in}}}\n\\]\n\n\n\\(t_{i1}\\) is the split fraction of species \\(i\\) with respect to Stream 1.\n\n\n\\[\n\\dot{n}_{i_1} = t_{i1} \\dot{n}_{i_\\mathrm{in}}\n\\]\n\n\n\\[\n\\dot{n}_{i_2} = (1-t_{i1}) \\dot{n}_{i_\\mathrm{in}}\n\\]\n\n\nIf the split fraction is the same for all species, then the separator is just a divider. The split fractions must be different for the different species to effect a separation."
-  },
-  {
-    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#the-takeaways",
-    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#the-takeaways",
+    "objectID": "balances/material/LiqSolDenJTFVisuals.html#the-takeaways",
+    "href": "balances/material/LiqSolDenJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nIn a mixer the molar or mass flow in the output stream is the sum of the molar or mass input flows.\nIn a divider the molar or mass flow in the input stream is the sum of the molar or mass input flows. Also, the composition of each stream is the same.\nIn a separator the molar or mass flow of a given species in an output stream is the split fraction for that species and stream times the molar or mass flow of that species in the input stream."
+    "text": "The Takeaways\n\nWebsites, handbooks, tables, and equations of state are the best sources for the density of liquid or solid mixtures.\nIf the mixture is ideal, volume additivity should be fairly accurate.\nLacking any other option, density average will at least give you a number.\nThe densities of mixtures of ethanol and water lie way outside both volume additivity and density average."
+  },
+  {
+    "objectID": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas",
+    "href": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Ideal Gas",
+    "text": "The Ideal Gas\nThere are two parts to the definition of an ideal gas: First, the equation of state.\n\\[PV = nRT\\]\nSecond, the enthalpy or internal energy is a function of temperature only. We’ll revisit this part when we get to the First Law.  In terms of molar volume the ideal gas equation of state is\n\\[P\\hat{V} = R T\\]\nThe current (2019) definition of R is \\(8.314\\ 462\\ 618\\ 153\\ 24\\ \\mathrm{J/mol\\ K}\\). The value is exact."
+  },
+  {
+    "objectID": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas-cont.",
+    "href": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Ideal Gas (cont.)",
+    "text": "The Ideal Gas (cont.)\nThe ideal gas equation of state is in error by no more than 1% if\n\\(\\ \\ \\hat{V}_\\mathrm{ideal} = \\frac{RT}{P} &gt; 5\\ \\mathrm{L/mol}\\)\n\n(\\(5 \\times 10^{−3}\\ \\mathrm{m^3/mol}\\) or \\(80\\ \\mathrm{ft^3}/\\text{lb-mol}\\)) (diatomic gases)\n\n \\(\\ \\ \\hat{V}_\\mathrm{ideal} = \\frac{RT}{P} &gt; 20\\ \\mathrm{L/mol}\\)\n\n(\\(20 \\times 10^{−3}\\ \\mathrm{m^3/mol}\\) or \\(320\\ \\mathrm{ft^3}/\\text{lb-mol}\\)) (other gases)\n\n Mechanical Engineers often define the ideal gas equation of state as\n\\[P V = m R T\\]\nwhere \\(m\\) is the mass of gas. They are then required to have a different value of \\(R\\) for each gas, which is \\(R/M\\). For dry air, \\(R = 287.058\\ \\mathrm{J/kg\\ K}\\)."
+  },
+  {
+    "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions",
+    "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions",
+    "title": "Chemical and Thermal Processes",
+    "section": "Standard Conditions",
+    "text": "Standard Conditions\n\nThe nice thing about standards is that you have so many to choose from.\n\n(Attributed to everybody especially Grace Hopper and Andrew S. Tanenbaum)\n\n\n Wikipedia lists 21 different combinations of temperature and pressure used as STP."
+  },
+  {
+    "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.",
+    "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Standard Conditions (cont.)",
+    "text": "Standard Conditions (cont.)\nThe molar volume calculated at the standard temperature and pressure is the standard molar volume,\n\\[\\hat{V}_\\mathrm{S} = \\frac{R T_\\mathrm{S}}{P_\\mathrm{S}}.\\]\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\):\n\\[\\hat{V}_\\mathrm{S} = 22.414\\ \\mathrm{\\frac{m^3(STP)}{kmol}} = 22.414\\ \\mathrm{\\frac{L(STP)}{mol}} = 359.04\\ \\frac{\\mathrm{m^3(STP)}}{\\text{lb-mol}}\\]"
+  },
+  {
+    "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.-1",
+    "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Standard Conditions (cont.)",
+    "text": "Standard Conditions (cont.)\nFor historical reasons, the molar flow of a gas is often measured in standard cubic meters (SCM) per time or standard cubic feet (SCF) per time.\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\):\n\\[1\\ \\mathrm{SCM} = 44.615\\ \\mathrm{mol} = 0.04462\\ \\mathrm{kmol}\\]\n\\[1\\ \\mathrm{SCF} = 2.785 \\times 10^{−3}\\ \\text{lb-mol}\\]\nYou can always determine the true volumetric flow rate with either the ideal gas law or by using ratios of absolute temperatures and pressures."
+  },
+  {
+    "objectID": "balances/material/IdealGasJTFVisuals.html#example",
+    "href": "balances/material/IdealGasJTFVisuals.html#example",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example",
+    "text": "Example\n\nFor a flow rate of \\(3.95 \\times 10^5\\ \\mathrm{SCFH}\\) at \\(285\\ ^\\circ F\\) and \\(1.300\\ \\mathrm{atm}\\),\n\nCalculate the molar flow rate in \\(\\mathrm{kmol/min}\\) and \\(\\text{lb-mol/h}\\).\nCalculate the true volumetric flow rate in \\(\\mathrm{m^3/s}\\).\n\n\n\\[\n\\dot{n} = \\frac{3.95 \\times 10^5\\ \\mathrm{SCFH}}{\\left(359.04\\frac{\\mathrm{ft^3(STP)}}{\\text{lb-mol}}\\right)} = 1100\\ \\frac{\\text{lb-mol}}{\\mathrm{h}} = 8.32\\ \\frac{\\mathrm{kmol}}{\\mathrm{min}}\n\\]\n\n\n\\[\n\\dot{V} = \\frac{\\dot{n}RT}{P} = \\frac{8317 \\boldsymbol{\\cdot} 8.3145 \\boldsymbol{\\cdot} 413.71}{131722 \\boldsymbol{\\cdot} 60} = 3.62\\ \\frac{\\mathrm{m^3}}{\\mathrm{s}}\n\\]\n\n\n\nor \\[\n\\dot{V} = \\dot{V}_\\mathrm{S}\\ \\frac{T}{T_\\mathrm{S}}\\ \\frac{P_\\mathrm{S}}{P} = 3.95 \\times 10^5 \\boldsymbol{\\cdot} \\frac{744.67}{491.67} \\boldsymbol{\\cdot} \\frac{1.00}{1.30} = 460 \\times 10^5\\ \\mathrm{\\frac{ft^3}{h}} = 3.62\\ \\frac{\\mathrm{m^3}}{\\mathrm{s}}\n\\]"
+  },
+  {
+    "objectID": "balances/material/IdealGasJTFVisuals.html#daltons-and-amagats-laws",
+    "href": "balances/material/IdealGasJTFVisuals.html#daltons-and-amagats-laws",
+    "title": "Chemical and Thermal Processes",
+    "section": "Dalton’s and Amagat’s Laws",
+    "text": "Dalton’s and Amagat’s Laws\nFor an ideal gas mixture, the partial pressure of pure component \\(\\mathrm{A}\\) is defined as\n\\[\np_\\mathrm{A} = \\frac{n_\\mathrm{A} RT}{V} = \\frac{n_\\mathrm{A} RT}{V} \\boldsymbol{\\cdot} \\frac{PV}{nRT} = \\left(\\frac{n_\\mathrm{A}}{n}\\right)P =y_\\mathrm{A}P\n\\]\nFor an ideal gas mixture, the pure-component volume of pure component \\(\\mathrm{A}\\) is defined as\n\\[\nv_\\mathrm{A} = \\frac{n_\\mathrm{A} RT}{P} = \\frac{n_\\mathrm{A} RT}{P} \\boldsymbol{\\cdot} \\frac{PV}{nRT} = \\left(\\frac{n_\\mathrm{A}}{n}\\right)V =y_\\mathrm{A}V\n\\]\nSumming over all of the species, \\(\\sum p_i = P\\), \\(\\sum v_i = V\\)\nwhich are known as Dalton’s law and Amagat’s law respectively."
+  },
+  {
+    "objectID": "balances/material/IdealGasJTFVisuals.html#some-handy-relationships",
+    "href": "balances/material/IdealGasJTFVisuals.html#some-handy-relationships",
+    "title": "Chemical and Thermal Processes",
+    "section": "Some Handy Relationships",
+    "text": "Some Handy Relationships\nMolar concentration of an ideal gas\n\\[C_\\mathrm{A} = \\frac{n_\\mathrm{A}}{V} = \\frac{p_\\mathrm{A}}{RT}\\]\nMolar density of an ideal gas\n\\[\\rho = \\frac{n}{V} = \\frac{P}{RT}\\]\nMass density of an ideal gas\n\\[\\rho = \\frac{nM}{V} = \\frac{PM}{RT}\\]"
+  },
+  {
+    "objectID": "balances/material/IdealGasJTFVisuals.html#the-takeaways",
+    "href": "balances/material/IdealGasJTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nThere are two parts to the ideal gas law: The equation of state, \\(PV = nRT\\), and the internal energy is only a function of temperature..\nThe ideal gas law is in error by no more than 1% if the ideal molar volume is greater than 5 L/mol for diatomic gases or greater than 20 L/mol for other gases.\nWe are using an STP of \\(0\\ ^\\circ\\mathrm{C}\\) and \\(101.325\\ \\mathrm{kPa}\\).\nMolar flow rates are often given in SCM or SCF per time.\nThe partial pressure of a species in an ideal gas is the mole fraction times the total pressure.\nThe partial molar volume of a species in an ideal gas is the mole fraction times the total volume."
   },
   {
     "objectID": "balances/material/KineticsIntroJTFVisuals.html#a-single-chemical-reaction",
@@ -3262,6 +3318,55 @@
     "text": "The Takeaways\n\nIt is possible to develop the general equations for a PFD with a reactor and a separator.\nAs the fractional conversion in the reactor goes up, the overall fractional conversion goes up.\nAs the split fraction of the reactant in the product stream goes down, the overall fractional conversion goes up."
   },
   {
+    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#common-processing-units",
+    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#common-processing-units",
+    "title": "Chemical and Thermal Processes",
+    "section": "Common Processing Units",
+    "text": "Common Processing Units\n\nMixer\nDivider\nSeparator\nReactor (Next three videos)\n\n\nFor open steady-state systems it is useful to use the following definitions and constitutive relationships:"
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#mixer",
+    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#mixer",
+    "title": "Chemical and Thermal Processes",
+    "section": "Mixer",
+    "text": "Mixer\n\n\n\n\nFor each component, \\(i\\),\n\\[\n\\dot{n}_{i_\\mathrm{out}} = \\dot{n}_{i_1} + \\dot{n}_{i_2} + \\cdots +\\dot{n}_{i_k}\n\\]\n\n\nOverall\n\\[\n\\dot{n}_\\mathrm{out} = \\dot{n}_1 + \\dot{n}_2 + \\cdots +\\dot{n}_k\n\\]\n\n\nwhere\n\\[\n\\dot{n} = \\sum_\\mathrm{All} \\dot{n}_i\n\\]"
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#mixer-usage",
+    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#mixer-usage",
+    "title": "Chemical and Thermal Processes",
+    "section": "Mixer Usage",
+    "text": "Mixer Usage\n\nA mixer combines (or mixes) the input streams together, so that the output stream is just the sum of all of the input streams.\n\n\nThe mass equations for a mixer are the same as the mole equations, with the \\(n\\)’s or \\(\\dot{n}\\)’s replaced by \\(m\\)’s or \\(\\dot{m}\\)’s.\n\\[\n\\dot{m}_{i_\\mathrm{out}} = \\dot{m}_{i_1} + \\dot{n}_{i_2} + \\cdots +\\dot{m}_{i_k}\n\\]\nOverall\n\\[\n\\dot{m}_\\mathrm{out} = \\dot{m}_1 + \\dot{m}_2 + \\cdots +\\dot{m}_k\n\\]\nwhere\n\\[\n\\dot{m} = \\sum_\\mathrm{All} \\dot{m}_i\n\\]"
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#divider",
+    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#divider",
+    "title": "Chemical and Thermal Processes",
+    "section": "Divider",
+    "text": "Divider\n\n\n\n\n\nFor each component, \\(i\\),\n\n\n\\[\n\\dot{n}_{i_\\mathrm{in}} = \\dot{n}_{i_1} + \\dot{n}_{i_2}\n\\]\n\n\n\n\nOverall\n\n\n\\[\n\\dot{n}_\\mathrm{in} = \\dot{n}_1 + \\dot{n}_2\n\\]\n\n\n\n\nwhere\n\n\n\\[\n\\dot{n} = \\sum_\\mathrm{All} \\dot{n}_i\n\\]\n\n\n\n\nAlso\n\n\n\\[\nx_{i_1} = x_{i_2} = x_{i_\\mathrm{in}}\n\\]\n\n\nwhere the mole fraction, \\(x_i \\equiv \\frac{n_i}{n_\\mathrm{Total}} = \\frac{\\dot{n}_i}{\\dot{n}}\\) ."
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#divider-usage",
+    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#divider-usage",
+    "title": "Chemical and Thermal Processes",
+    "section": "Divider Usage",
+    "text": "Divider Usage\n\n\nA divider is used when a single stream needs to be divided up into two or more streams. The mass equations for a divider are the same as the mole equations, with the \\(n\\)’s or\\(\\dot{n}\\)’s replaced by \\(m\\)’s or \\(\\dot{m}\\)’s.\n\n\n\n\nFor each component, \\(i\\),\n\n\n\\[\n\\dot{m}_{i_\\mathrm{in}} = \\dot{m}_{i_1} + \\dot{m}_{i_2}\n\\]\n\n\n\n\nOverall\n\n\n\\[\n\\dot{m}_\\mathrm{in} = \\dot{m}_1 + \\dot{m}_2\n\\]\n\n\n\n\nwhere\n\n\n\\[\n\\dot{m} = \\sum_\\mathrm{All} \\dot{m}_i\n\\]\n\n\n\n\nAlso\n\n\n\\[\nx_{i_1} = x_{i_2} = x_{i_\\mathrm{in}}\n\\]\n\n\nwhere the mass fraction, \\(x_i \\equiv \\frac{m_i}{m_\\mathrm{Total}} = \\frac{\\dot{m}_i}{\\dot{m}}\\) ."
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#separator",
+    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#separator",
+    "title": "Chemical and Thermal Processes",
+    "section": "Separator",
+    "text": "Separator\n\n\n\n\nYou often specify the split fraction,\n\\[\nt_{is} \\equiv \\frac{\\dot{n}_{i_s}}{\\dot{n}_{i_\\mathrm{in}}}\n\\]\n\n\n\\(t_{i1}\\) is the split fraction of species \\(i\\) with respect to Stream 1.\n\n\n\\[\n\\dot{n}_{i_1} = t_{i1} \\dot{n}_{i_\\mathrm{in}}\n\\]\n\n\n\\[\n\\dot{n}_{i_2} = (1-t_{i1}) \\dot{n}_{i_\\mathrm{in}}\n\\]\n\n\nIf the split fraction is the same for all species, then the separator is just a divider. The split fractions must be different for the different species to effect a separation."
+  },
+  {
+    "objectID": "balances/material/UnitOpsMixDivSepTFSVisuals.html#the-takeaways",
+    "href": "balances/material/UnitOpsMixDivSepTFSVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nIn a mixer the molar or mass flow in the output stream is the sum of the molar or mass input flows.\nIn a divider the molar or mass flow in the input stream is the sum of the molar or mass input flows. Also, the composition of each stream is the same.\nIn a separator the molar or mass flow of a given species in an output stream is the split fraction for that species and stream times the molar or mass flow of that species in the input stream."
+  },
+  {
     "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle",
     "href": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle",
     "title": "Chemical and Thermal Processes",
@@ -3497,7 +3602,7 @@
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#pfr-tubular",
     "title": "Chemical and Thermal Processes",
     "section": "PFR (Tubular)",
-    "text": "PFR (Tubular)\n(image)\nSteady state, radially uniform, axially varies\nDifferential Element\n(image) \\(\\dot{n}_j\\) \\(\\dot{n}_j+d\\dot{n}_j\\) \\(dV\\)\n\\[\n\\dot{n}_{j_0} - (\\dot{n}_j + d\\dot{n}_j) + r_j dV = \\frac{dn_j}{dt}\n\\]"
+    "text": "PFR (Tubular)\n(image)\nSteady state, radially uniform, axially varies\nDifferential Element\n(image) \\(\\dot{n}_j\\) \\(\\dot{n}_j+d\\dot{n}_j\\) \\(dV\\)\n\\[\n\\dot{n}_{j_0} - (\\dot{n}_j + d\\dot{n}_j) + r_j dV = \\frac{dn_j}{dt}\n\\]\n$$\n$$"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#r-as-a-function-of-t-and-c",

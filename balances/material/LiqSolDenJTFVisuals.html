@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>Chemical and Thermal Processes – batchcstrpfrintrojtfvisuals</title>
+  <title>Chemical and Thermal Processes – liqsoldenjtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,180 +127,73 @@
 
 
 <section>
-<section id="wishing-upon-a-cstrjust-the-facts" class="title-slide slide level1 bigbold75 center">
-<h1>Wishing Upon a CSTR<br>Just the Facts</h1>
+<section id="alcohol-and-water-do-mixjust-the-facts" class="title-slide slide level1 bigbold75 center">
+<h1>Alcohol and Water DO Mix!<br>Just the Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
-<section id="ideal-homogeneous-reactors" class="slide level2">
-<h2>Ideal Homogeneous Reactors</h2>
-<p>Most commercial reactors are <em>heterogeneous</em> reactors.</p>
-<p>We will focus first on the ideal <em>homogeneous</em> reactors.</p>
-<ul>
-<li class="fragment"><strong>Batch</strong> (Transient)
-<ul>
-<li class="fragment">Properties are <em>uniform</em> throughout the volume.</li>
-<li class="fragment">Properties are <em>evolving</em> in time.</li>
-</ul></li>
-<li class="fragment"><strong>CSTR</strong> (Mixed, Steady State)
-<ul>
-<li class="fragment">Properties are <em>uniform</em> throughout the volume.</li>
-<li class="fragment">Properties are <em>constant</em> in time.</li>
-</ul></li>
-<li class="fragment"><strong>PFR</strong> (Steady State)
-<ul>
-<li class="fragment">Properties are <em>uniform</em> in the radial direction, <span class="math inline">\(r\)</span>.</li>
-<li class="fragment">Properties are <em>evolving</em> in the axial direction, <span class="math inline">\(r\)</span>.</li>
-<li class="fragment">Properties are <em>constant</em> in time.</li>
-</ul></li>
-</ul>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>We will not derive the transient cases for CSTRs or PFRs, but they are critically important during plant start-up and shut-down.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="batch-reactor" class="slide level2">
-<h2>Batch Reactor</h2>
-<p>(image)</p>
-<p>Transient, spatially uniform</p>
+<section id="variations-with-temperature-and-pressure" class="slide level2">
+<h2>Variations with Temperature and Pressure</h2>
+<p>For most purposes solids and liquids are treated as incompressible, meaning the density is not a function of pressure. They are also regarded as having a low coefficient of thermal expansion, so variations of density with temperature are often ignored. However, it is not always safe to do so. For example, designing a liquid thermometer is impossible without a knowledge of how the density changes with temperature. From thermodynamics we have the volume expansivity</p>
 <p><span class="math display">\[
-\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
+\beta \equiv \frac{1}{V} \left( \frac{\partial V}{\partial T}\right)_P
 \]</span></p>
+<p>and the isothermal compressibility</p>
 <p><span class="math display">\[
-r_j \ne r_j(\mathrm{position)}) \implies \int_{V_R} r_j dV = r_j \int_{V_R} dV = r_j V_R
+\kappa \equiv - \frac{1}{V} \left( \frac{\partial V}{\partial P}\right)_T
 \]</span></p>
 </section>
-<section id="batch-reactor-cont." class="slide level2">
-<h2>Batch Reactor (cont.)</h2>
-<p>For Species A, <span class="math inline">\(n_\mathrm{A} = n_\mathrm{A_0} (1- f_\mathrm{A})\)</span></p>
+<section id="variations-with-temperature-and-pressure-cont." class="slide level2">
+<h2>Variations with Temperature and Pressure (cont.)</h2>
+<p>Values for <span class="math inline">\(\beta\)</span> and <span class="math inline">\(\kappa\)</span> come from experimental data, websites, handbooks, and tables, and equations of state. A web search can prove to be quite fruitful. <br><br> In later more advanced videos, we will discuss in more detail <span class="math inline">\(\beta\)</span> and <span class="math inline">\(\kappa\)</span> as well as partial molar volume, which is a method for calculating molar volumes for liquid mixtures.</p>
+</section>
+<section id="density-of-mixtures-of-liquids-and-solids" class="slide level2">
+<h2>Density of Mixtures of Liquids and Solids</h2>
+<p>For ideal mixtures (the attraction between like molecules is essentially the same as between unlike molecules) the density of a mixture can be calculated with volume additivity.</p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><span class="math display">\[
-(-r_\mathrm{A}) V_R = - \frac{dn_\mathrm{A}}{dt}
-\]</span> <span class="math display">\[
-\int^{t_2}_{t_1} dt = \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R}
-\]</span> <span class="math display">\[
-\boxed{ t_2 - t_1 =  \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R} }
-\]</span></p>
+<p><span class="math display">\[\hat{V}_\mathrm{mix} = \sum_{i=1}^n x_i \hat{V}_i\]</span></p>
+<p><span class="math display">\[\hat{V} = \frac{1}{\rho}\]</span></p>
+<p><span class="math display">\[\frac{1}{\rho_\mathrm{mix}} = \sum_{i=1}^n \frac{x_i}{\rho_i}\]</span></p>
 </div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-(-r_\mathrm{A}) V_R = n_\mathrm{A_0}\frac{df_\mathrm{A}}{dt}
-\]</span> <span class="math display">\[
-\int^{t_2}_{t_1} dt = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
-\]</span> <span class="math display">\[
-\boxed{ t_2 - t_1 = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R} }
-\]</span></p>
+<p>For a binary</p>
+<p><span class="math display">\[\frac{1}{\rho_\mathrm{mix}} = \frac{x_1}{\rho_1}+\frac{1-x_1}{\rho_2}\]</span></p>
+<p><span class="math display">\[\rho_\mathrm{mix} = \frac{\rho_1 \rho_2}{(1-x_1)\rho_1 + x_1 \rho_2}\]</span></p>
 </div></div>
-<p>for <span class="math inline">\(t_1 = 0,\ f_\mathrm{A_1} = 0\)</span></p>
+<p>Mixtures of aliphatic hydrocarbons are often close to ideal.</p>
+</section>
+<section id="density-of-mixtures-of-liquids-and-solids-cont." class="slide level2">
+<h2>Density of Mixtures of Liquids and Solids (cont.)</h2>
+<p>Lacking any better information, you can use a density average</p>
+<p><span class="math display">\[\rho_\mathrm{mix} = \sum_{i=1}^n x_i \rho_i\]</span></p>
+<p>It would be really nice if the true values were bracketed by volume additivity and density average, but values can be way outside these two formulas. See ethanol and water on the next slide. <br><br> Experimental data, websites, handbooks, and tables, and equations of state are always your best bet if you can find them.</p>
+</section>
+<section id="example-of-ethanol-and-water" class="slide level2">
+<h2>Example of Ethanol and Water</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">\[
-t =  \int^{n_{\mathrm{A}}}_{n_{\mathrm{A_0}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R}
-\]</span></p>
-</div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-t = n_\mathrm{A_0}\int^{f_{\mathrm{A}}}_0 \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
-\]</span></p>
+<div class="column" style="width:60%;">
+<p><img data-src="EtOH-H2ODensity.png"></p>
+</div><div class="column" style="width:40%;">
+<div style="font-size: 90px;">
+<p>Volume Additivity <span class="math display">\[\rho_\mathrm{mix} = \frac{\rho_1 \rho_2}{(1-x_1)\rho_1 + x_1 \rho_2}\]</span> <br><br> Density Average <span class="math display">\[\rho_\mathrm{mix} = x_1 \rho_1 + (1-x_1) \rho_2\]</span></p>
+</div>
 </div></div>
-</section>
-<section id="batch-reactor-cont.-1" class="slide level2">
-<h2>Batch Reactor (cont.)</h2>
-<p>In terms of concentration:</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">\[
-t = - \int^{C_{\mathrm{A}}}_{C_{\mathrm{A_0}}} \frac{dC_\mathrm{A}}{(-r_\mathrm{A})}
-\]</span></p>
-</div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-t =  C_\mathrm{A_0} \int^{f_{\mathrm{A}}}_{0} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
-\]</span></p>
-</div></div>
-<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> (image)</p>
-<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> (image)</p>
-</section>
-<section id="cstr-mixed" class="slide level2">
-<h2>CSTR (Mixed)</h2>
-<p>(image)</p>
-<p>Steady state, spatially uniform</p>
-<p><span class="math display">\[
-\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
-\]</span></p>
-<p><span class="math display">\[
-r_j \ne r_j(\mathrm{position)} \implies \dot{n}_{j_0} - \dot{n}_j + r_j V_R = 0
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_{j_0} = \dot{n}_j + (-r_j) V_R
-\]</span></p>
-<p>For species <span class="math inline">\(\mathrm{A}\)</span>,</p>
-<p><span class="math display">\[
-\boxed{ V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}}
-\]</span></p>
-</section>
-<section id="cstr-cont." class="slide level2">
-<h2>CSTR (cont.)</h2>
-<p>Since</p>
-<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A} = \dot{n}_\mathrm{A_0}(1 - f_\mathrm{A})\)</span></p>
-<p>then</p>
-<p><span class="math inline">\(\ \ \ \ (-r_\mathrm{A}) V_R = \dot{n}_\mathrm{A_0}(f_\mathrm{A})\)</span></p>
-<p>also</p>
-<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A_0}=\dot{V}_0 C_\mathrm{A_0}\)</span></p>
-<p>Define</p>
-<p><span class="math inline">\(\ \ \ \ \tau \equiv \frac{V_R}{\dot{V}_0}\)</span></p>
-<p>then</p>
-<p><span class="math inline">\(\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}}}\)</span></p>
-</section>
-<section id="cstr-cont.-1" class="slide level2">
-<h2>CSTR (cont.)</h2>
-<p>Since we’re assuming constant density</p>
-<p><span class="math inline">\(\ \ \ \ \dot{V}_0 = \dot{V},\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}C_\mathrm{A_0},\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}C_\mathrm{A}\)</span></p>
-<p>and</p>
-<p><span class="math inline">\(\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}}\)</span></p>
-<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> (image)</p>
-<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> (image)</p>
-</section>
-<section id="pfr-tubular" class="slide level2">
-<h2>PFR (Tubular)</h2>
-<p>(image)</p>
-<p>Steady state, radially uniform, axially varies</p>
-<p>Differential Element</p>
-<p>(image) <span class="math inline">\(\dot{n}_j\)</span> <span class="math inline">\(\dot{n}_j+d\dot{n}_j\)</span> <span class="math inline">\(dV\)</span></p>
-<p><span class="math display">\[
-\dot{n}_{j_0} - (\dot{n}_j + d\dot{n}_j) + r_j dV = \frac{dn_j}{dt}
-\]</span></p>
-<p>$$</p>
-<p>$$</p>
-</section>
-<section id="r-as-a-function-of-t-and-c" class="slide level2">
-<h2><span class="math inline">\(r\)</span> as a Function of <span class="math inline">\(T\)</span> and <span class="math inline">\(C\)</span></h2>
-</section>
-<section id="mole-balance-on-reactor" class="slide level2">
-<h2>Mole Balance on Reactor</h2>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">For reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.</li>
-<li class="fragment">The yield is the fraction of the desired product that could be produced that is actually produced..</li>
-<li class="fragment">The selectivity is the ratio of the desired product to the undesired products.</li>
-<li class="fragment">Don’t confuse mole fraction, <span class="math inline">\(x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)\)</span>, split fraction, <span class="math inline">\(t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}\)</span>, and fractional conversion.<span class="math inline">\(f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}}\)</span>.</li>
+<li class="fragment">Websites, handbooks, tables, and equations of state are the best sources for the density of liquid or solid mixtures.</li>
+<li class="fragment">If the mixture is ideal, <em>volume additivity</em> should be fairly accurate.</li>
+<li class="fragment">Lacking any other option, <em>density average</em> will at least give you a number.</li>
+<li class="fragment">The densities of mixtures of ethanol and water lie way outside both volume additivity and density average.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. <em>Recycling Before Recycling Was Cool</em>, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 
