@@ -71,6 +71,8 @@ $\frac{1\ \mathrm{Btu/s}}{1\ \mathrm{kW}}$.
 
 # Additional Links
 
+[Uncancelled Units](https://xkcd.com/3038)
+
 ## Preceding Videos
 
 As of this writing the two sets of videos preceding this set are:

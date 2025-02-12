@@ -195,17 +195,87 @@ $\dot{n}_j+d\dot{n}_j$
 $dV$
 
 $$
-\dot{n}_{j_0} - (\dot{n}_j + d\dot{n}_j) + r_j dV = \frac{dn_j}{dt}
+\dot{n}_j - (\dot{n}_j + d\dot{n}_j) + r_j dV = \frac{dn_j}{dt}
 $$
 
 $$
-
+\frac{d\dot{n}_j}{dV} = r_j
 $$
 
-## $r$ as a Function of $T$ and $C$
+## PFR (cont.)
 
+For reactant $\mathrm{A}$
 
+$$
+\int_0^{V_R} dV = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}}
+$$
 
+$$
+\boxed{ V_R = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}} }
+$$
+
+$\dot{n}{_\mathrm{A}} = \dot{n}{_\mathrm{A0}} ( 1 - f_\mathrm{A})$
+
+$d\dot{n}{_\mathrm{A}} = -\dot{n}{_\mathrm{A0}} df_\mathrm{A}$
+
+$$
+\boxed{ \frac{V_R}{\dot{n}_\mathrm{A0}} = \frac{\tau}{C_\mathrm{A0}} = \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})} }
+$$
+
+$$
+\tau = C_\mathrm{A0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})} 
+$$
+
+For $\rho = \text{constant}$
+
+$$
+\tau = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{(-r_\mathrm{A})} 
+$$
+
+## Example, $-r_\mathrm{A} = k C_\mathrm{A}$
+
+::::{.columns}
+:::{.column width=33%}
+
+:::{style="text-align: center;"}
+**Batch**
+:::
+$$
+t = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{k C_\mathrm{A}} 
+$$
+
+$$
+t=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
+$$
+:::
+:::{.column width=33%}
+
+:::{style="text-align: center;"}
+**PFR**
+:::
+
+$$
+\tau = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{k C_\mathrm{A}} 
+$$
+
+$$
+\tau=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
+$$
+:::
+:::{.column width=33%}
+
+:::{style="text-align: center;"}
+**CSTR**
+:::
+
+$$
+\tau = - \frac{C_\mathrm{A0} - C_\mathrm{A}} {k C_\mathrm{A}} 
+$$
+$$
+\tau=\frac{1}{k} \left( \frac{C_\mathrm{A0}}{C_\mathrm{A}} - 1 \right)
+$$
+:::
+::::
 ## Mole Balance on Reactor
 
 
