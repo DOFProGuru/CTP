@@ -19,6 +19,40 @@ DOFPro Team
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
 
 
+## Types of Reactor Models
+
+:::{.fragment}
+### Extent of Reaction and Fractional Conversion
+:::
+
+- $\dot{\xi}$, $\xi$, and $f_\mathrm{A}$ are treated as parameters that are either given or calculated from other given information.
+- Does not deal directly with either chemical kinetics or chemical thermodynamics
+
+:::{.fragment}
+### Chemical Equilibrium
+:::
+
+- Assumes reaction reaches equilibrium
+- $\dot{\xi}$, $\xi$, and $f_\mathrm{A}$ are determined by temperature, pressure, and feed concentrations
+
+## Types of Reactor Models (cont.)
+### Homogeneous Chemical Kinetics
+
+- Starts with the three idealized chemical reactors
+  - Batch
+  - CSTR (mixed or stirred tank)
+  - PFR (Plug Flow Reactor)
+- Uses chemical-kinetics expressions such as $-r_\mathrm{A} = kC_\mathrm{A}^n$
+- $\dot{\xi}$, $\xi$, and $f_\mathrm{A}$ are determined by the kinetic expression, feed conditions, reactor volume, and temperature.
+
+## Types of Reactor Models (cont.)
+### Heterogeneous Chemical Kinetics
+
+- Typically two or more phases, Gas-Solid, Liquid-Solid, or Gas-Liquid
+- Catalyzed reactions are the most common
+- Requires simultaneous solution of chemical-kinetic, mass-transfer, and heat-transfer equations
+- $\dot{\xi}$ and $f_\mathrm{A}$ are determined by the kinetic expression, catalyst amount, particle sizes, feed conditions, reactor volume, and temperature.
+
 ## A Single Chemical Reaction
 
 $$
@@ -110,21 +144,51 @@ In general, $r$ varies as a function of $T$ and $C$ or $a$ (activity).
 
 $\ \ \ \ r=r(T,\ C_\mathrm{B},\ C_\mathrm{C},\ \dots)$
 
-There are many forms. We will only work with
+## Kinetic Expressions
 
-$\ \ \ \ r = k C_\mathrm{B}^n C_\mathrm{C}^m$
+Experimentally and from theoretical considerations, a reaction such as $\nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C} = \nu_\mathrm{P} \mathrm{P} + \nu_\mathrm{Q} \mathrm{Q}$ follows a rate law such as
 
-where the *rate coefficient*, $k$, is
+$$
+r = k_f C_\mathrm{B}^n C_\mathrm{C}^m - k_r C_\mathrm{P}^p C_\mathrm{Q}^q
+$$
 
-$\ \ \ \ k = k_0 e^{\frac{-E_a}{RT}}$
 
-and the *order of reaction* with respect to $\mathrm{B}$ is $n$, the order of reaction with respect to $\mathrm{C}$ is $m$, and the overall order is $n + m$.
+where $k_f$ and $k_r$ are the forward and reverse rate coefficients
+respectively. The exponents $n$, $m$, $p$, and $q$ are known as the order of
+reaction with respect to the reactants $\mathrm{B}$, $\mathrm{C}$, $\mathrm{P}$, and $\mathrm{Q}$. They are not
+necessarily the same as the stoichiometric coefficients $-\nu_\mathrm{B}$, $-\nu_\mathrm{C}$, $\nu_\mathrm{P}$, and $\nu_\mathrm{Q}$.
+
+## Kinetic Expressions (cont.)
+
+For an irreversible reaction the overall order of reaction is the sum of
+the exponents e.g., if $n = 1$, and $m = 2$ then the forward reaction is
+first order in $\mathrm{B}$, second order in $\mathrm{C}$ and overall third order. A reaction
+does not have to have an integral order (i.e., $n$, $m$, etc. do not have to
+be integers) but  non-integral orders imply a complex mechanism for
+the reaction.
 
 :::{style="font-size: 60px;"}
 Yes, we know that using $n$ for both number of moles, and order of reaction is confusing. That's just how it's done. Deal with it.
 
-Did we mention that $C$ is concentration, and $\mathrm{C}$ is species $\mathrm{C}$ as well as carbon? It's like why the main streets in Boston don't have street signs. It's obvious what street  you're on and if it isn't you don't belong here.
+Did we mention that $C$ is concentration, and $\mathrm{C}$ is species $\mathrm{C}$ as well as carbon? It's similar to why the [main streets in Boston](https://archboston.com/community/threads/street-signs-and-helping-people-navigate.5101/) don't have street signs. It's obvious what street you're on and if it isn't, you don't belong here.
 :::
+
+## Temperature Dependence
+
+The *rate coefficients*, $k_f$ and $k_r$, are functions of temperature. Both collision theory and transition-state theory provide models, but experimental data are rarely accurate enough to use anything other than the Arrhenius expression:
+
+$$
+k = k_0 e^{\frac{-E_a}{RT}}
+$$
+
+where $k_0$ is known as the *frequency factor* or the *pre-exponential* and $E_a$ is known as the *activation energy*.
+
+For ideal gases, the concentration,
+
+$$C = \frac{n}{V} =  \frac{P}{RT}$$
+
+is a weak function of temperature, as well.
+
 
 
 ## Mole Balance on Reactor
@@ -144,12 +208,14 @@ $$
 \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
 $$
 
+The next video will develop this expression for the Batch, CSTR, and PFR reactors.
+
 ## The Takeaways
 
-1. For reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.
-2. The yield is the fraction of the desired product that could be produced that is actually produced..
-3. The selectivity is the ratio of the desired product to the undesired products.
-4. Don’t confuse mole fraction, $x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)$, split fraction, $t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}$, and fractional conversion.$f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}}$.
+1. The fractional conversion and extent of reaction can be specified as parameters, determined from chemical kinetics, or determined from chemical equilibrium depending on the need.
+2. The reaction rate, $r$, is independent of species, and the reaction rate for species $i$ is given as $r_i = \nu_i r$.
+3. The extent of reaction, $\dot{\xi}$, is the volume integral of the reaction rate, $r$.
+4. The general mole balance for a reactor is $$\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}$$
 
 #
 
