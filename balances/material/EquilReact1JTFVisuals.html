@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>Chemical and Thermal Processes – batchcstrpfrintrojtfvisuals</title>
+  <title>Chemical and Thermal Processes – equilreact1jtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,221 +127,134 @@
 
 
 <section>
-<section id="wishing-upon-a-cstrjust-the-facts" class="title-slide slide level1 bigbold75 center">
-<h1>Wishing Upon a CSTR<br>Just the Facts</h1>
+<section id="react-but-maintain-your-equilibrium-part-1-just-the-facts" class="title-slide slide level1 center">
+<h1>React But Maintain Your Equilibrium<br>Part 1<br>Just The Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -30%; left: 22%; "></p>
 </section>
-<section id="ideal-homogeneous-reactors" class="slide level2">
-<h2>Ideal Homogeneous Reactors</h2>
-<p>Most commercial reactors are <em>heterogeneous</em> reactors.</p>
-<p>We will focus first on the ideal <em>homogeneous</em> reactors.</p>
-<ul>
-<li class="fragment"><strong>Batch</strong> (Transient)
-<ul>
-<li class="fragment">Properties are <em>uniform</em> throughout the volume.</li>
-<li class="fragment">Properties are <em>evolving</em> in time.</li>
-</ul></li>
-<li class="fragment"><strong>CSTR</strong> (Mixed, Steady State)
-<ul>
-<li class="fragment">Properties are <em>uniform</em> throughout the volume.</li>
-<li class="fragment">Properties are <em>constant</em> in time.</li>
-</ul></li>
-<li class="fragment"><strong>PFR</strong> (Steady State)
-<ul>
-<li class="fragment">Properties are <em>uniform</em> in the radial direction, <span class="math inline">\(r\)</span>.</li>
-<li class="fragment">Properties are <em>evolving</em> in the axial direction, <span class="math inline">\(r\)</span>.</li>
-<li class="fragment">Properties are <em>constant</em> in time.</li>
-</ul></li>
-</ul>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>We will not derive the transient cases for CSTRs or PFRs, but they are critically important during plant start-up and shut-down.</p>
-</div>
-</div>
-</div>
+<section id="chemical-equilibrium" class="slide level2">
+<h2>Chemical Equilibrium</h2>
+<p>From Thermodynamics, equilibrium is reached when the total Gibbs Energy is minimized. Mathematically the criterion is:</p>
+<p><span class="math display">\[
+\sum \nu_i G^\circ_i + RT \sum \ln \hat{a}_i^{\nu_i} = 0
+\]</span></p>
+<p>or rearranged</p>
+<p><span class="math display">\[
+\prod \hat{a}_i^{\nu_i} = \exp \left( - \frac{\sum \nu_i G^\circ_i}{RT}\right) \equiv K
+\]</span></p>
+<p>The <span class="math inline">\(\hat{a}_i\)</span> are the activities of the various species where</p>
 </section>
-<section id="batch-reactor" class="slide level2">
-<h2>Batch Reactor</h2>
-<p>(image)</p>
-<p>Transient, spatially uniform</p>
+<section id="chemical-equilibrium-cont." class="slide level2">
+<h2>Chemical Equilibrium (cont.)</h2>
 <p><span class="math display">\[
-\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
+\hat{a}_i \equiv \frac{\hat{f}_i}{f^\circ_i}
 \]</span></p>
-<p><span class="math display">\[
-r_j \ne r_j(\mathrm{position)}) \implies \int_{V_R} r_j dV = r_j \int_{V_R} dV = r_j V_R
-\]</span></p>
+<p><span class="math inline">\(\hat{f}_i\)</span> is the fugacity of species i in solution.</p>
+<p><span class="math inline">\(f^\circ_i\)</span> is the reference fugacity of species i.</p>
+<p><span class="math inline">\(\sum \nu_i G^\circ_i\)</span> is often written as <span class="math inline">\(\Delta G^\circ\)</span> and is similar to <span class="math inline">\(\Delta H^\circ\)</span>.</p>
+<p><span class="math inline">\(K\)</span> is the equilibrium constant. It varies <strong>only</strong> with temperature.</p>
 </section>
-<section id="batch-reactor-cont." class="slide level2">
-<h2>Batch Reactor (cont.)</h2>
-<p>For Species A, <span class="math inline">\(n_\mathrm{A} = n_\mathrm{A_0} (1- f_\mathrm{A})\)</span></p>
-<div class="columns">
-<div class="column" style="width:50%;">
+<section id="chemical-equilibrium-cont.-1" class="slide level2">
+<h2>Chemical Equilibrium (cont.)</h2>
+<p>What are the units of <span class="math inline">\(K\)</span>?</p>
+<p>For ideal gases (see upcoming videos) the fugacity in solution is numerically equal to the partial pressure, and the reference fugacity is the ideal gas state at the system <span class="math inline">\(T\)</span> and a pressure of 1 bar.</p>
+<p>With these substitutions:</p>
 <p><span class="math display">\[
-(-r_\mathrm{A}) V_R = - \frac{dn_\mathrm{A}}{dt}
-\]</span> <span class="math display">\[
-\int^{t_2}_{t_1} dt = \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R}
-\]</span> <span class="math display">\[
-\boxed{ t_2 - t_1 =  \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R} }
+K = \prod \hat{a}_i^{\nu_i} = \prod \left( \frac{p_i}{\mathrm{1\ bar}}\right)^{\nu_i}
 \]</span></p>
-</div><div class="column" style="width:50%;">
+<p>or</p>
 <p><span class="math display">\[
-(-r_\mathrm{A}) V_R = n_\mathrm{A_0}\frac{df_\mathrm{A}}{dt}
-\]</span> <span class="math display">\[
-\int^{t_2}_{t_1} dt = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
-\]</span> <span class="math display">\[
-\boxed{ t_2 - t_1 = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R} }
+K\ (\mathrm{1\ bar})^\nu = \prod p_i^{\nu_i}
 \]</span></p>
-</div></div>
-<p>for <span class="math inline">\(t_1 = 0,\ f_\mathrm{A_1} = 0\)</span></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">\[
-t =  \int^{n_{\mathrm{A}}}_{n_{\mathrm{A_0}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R}
-\]</span></p>
-</div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-t = n_\mathrm{A_0}\int^{f_{\mathrm{A}}}_0 \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
-\]</span></p>
-</div></div>
+<p><span class="math inline">\(K\)</span> is still dimensionless but may not appear to be.</p>
 </section>
-<section id="batch-reactor-cont.-1" class="slide level2">
-<h2>Batch Reactor (cont.)</h2>
-<p>In terms of concentration:</p>
-<div class="columns">
-<div class="column" style="width:50%;">
+<section id="mole-fractions" class="slide level2">
+<h2>Mole Fractions</h2>
+<p>Often problems are posed in mole fractions instead of partial pressures. Since for an ideal gas (see <em>Ideal Gases EXPOSED: Are They Even Real?!</em>)</p>
 <p><span class="math display">\[
-t = - \int^{C_{\mathrm{A}}}_{C_{\mathrm{A_0}}} \frac{dC_\mathrm{A}}{(-r_\mathrm{A})}
+y_i = \frac{p_i}{P}
 \]</span></p>
-</div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-t =  C_\mathrm{A_0} \int^{f_{\mathrm{A}}}_{0} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
-\]</span></p>
-</div></div>
-<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> (image)</p>
-<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> (image)</p>
-</section>
-<section id="cstr-mixed" class="slide level2">
-<h2>CSTR (Mixed)</h2>
-<p>(image)</p>
-<p>Steady state, spatially uniform</p>
-<p><span class="math display">\[
-\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
-\]</span></p>
-<p><span class="math display">\[
-r_j \ne r_j(\mathrm{position)} \implies \dot{n}_{j_0} - \dot{n}_j + r_j V_R = 0
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_{j_0} = \dot{n}_j + (-r_j) V_R
-\]</span></p>
-<p>For species <span class="math inline">\(\mathrm{A}\)</span>,</p>
-<p><span class="math display">\[
-\boxed{ V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}}
-\]</span></p>
-</section>
-<section id="cstr-cont." class="slide level2">
-<h2>CSTR (cont.)</h2>
-<p>Since</p>
-<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A} = \dot{n}_\mathrm{A_0}(1 - f_\mathrm{A})\)</span></p>
 <p>then</p>
-<p><span class="math inline">\(\ \ \ \ (-r_\mathrm{A}) V_R = \dot{n}_\mathrm{A_0}(f_\mathrm{A})\)</span></p>
-<p>also</p>
-<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A_0}=\dot{V}_0 C_\mathrm{A_0}\)</span></p>
-<p>Define</p>
-<p><span class="math inline">\(\ \ \ \ \tau \equiv \frac{V_R}{\dot{V}_0}\)</span></p>
-<p>then</p>
-<p><span class="math inline">\(\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}}}\)</span></p>
-</section>
-<section id="cstr-cont.-1" class="slide level2">
-<h2>CSTR (cont.)</h2>
-<p>Since we’re assuming constant density</p>
-<p><span class="math inline">\(\ \ \ \ \dot{V}_0 = \dot{V},\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}C_\mathrm{A_0},\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}C_\mathrm{A}\)</span></p>
-<p>and</p>
-<p><span class="math inline">\(\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}}\)</span></p>
-<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> (image)</p>
-<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> (image)</p>
-</section>
-<section id="pfr-tubular" class="slide level2">
-<h2>PFR (Tubular)</h2>
-<p>(image)</p>
-<p>Steady state, radially uniform, axially varies</p>
-<p>Differential Element</p>
-<p>(image) <span class="math inline">\(\dot{n}_j\)</span> <span class="math inline">\(\dot{n}_j+d\dot{n}_j\)</span> <span class="math inline">\(dV\)</span></p>
 <p><span class="math display">\[
-\dot{n}_j - (\dot{n}_j + d\dot{n}_j) + r_j dV = \frac{dn_j}{dt}
+p_i = y_i P
 \]</span></p>
+<p>Substituting</p>
 <p><span class="math display">\[
-\frac{d\dot{n}_j}{dV} = r_j
+K\ (\mathrm{1\ bar})^\nu = \prod (y_i P)^{\nu_i} =P^\nu \prod (y_i)^{\nu_i}
+\]</span></p>
+<p>or</p>
+</section>
+<section id="mole-fractions-cont." class="slide level2">
+<h2>Mole Fractions (cont.)</h2>
+<p><span class="math display">\[
+K\ (\mathrm{1\ bar})^\nu P^{-\nu}  =\prod (y_i)^{\nu_i}
+\]</span></p>
+<p>which is where we will begin. There are later videos that go into more detail about the earlier steps and explain when you’d need them. For the present we’ll only deal with equilibrium reactions involving ideal gases and pure solids.</p>
+<p>As a reminder, <span class="math inline">\(K\)</span> depends only on temperature but the equilibrium composition depends on total pressure and the presence of inerts.</p>
+<p>With a fair amount of calculus one can show that</p>
+<p><span class="math display">\[
+\frac{d \ln K}{dT} = -\frac{\Delta \hat{H}^\circ_r}{RT^2}
+\]</span></p>
+<p>which, if the enthalpy of reaction is constant with temperature integrates to</p>
+<p><span class="math display">\[
+\ln\frac{K}{K_1} = -\frac{\Delta \hat{H}^\circ_r}{R} \left(\frac{1}{T} - \frac{1}{T_1} \right)
 \]</span></p>
 </section>
-<section id="pfr-cont." class="slide level2">
-<h2>PFR (cont.)</h2>
-<p>For reactant <span class="math inline">\(\mathrm{A}\)</span></p>
+<section id="example" class="slide level2">
+<h2>Example</h2>
+<p>Carbon monoxide and oxygen are fed in equimolar ratios to an isothermal combustor. If the reaction proceeds to equilibrium calculate the fractional conversion of <span class="math inline">\(\mathrm{CO}\)</span> and <span class="math inline">\(\mathrm{O_2}\)</span> as the reactor temperature varies from <span class="math inline">\(300\ \mathrm{K}\)</span> to <span class="math inline">\(2500\ \mathrm{K}\)</span>.</p>
+<h3 id="solution">Solution</h3>
+<p><span class="math inline">\(\mathrm{CO +\frac{1}{2} O_2 = CO_2}\)</span> <span class="math inline">\(\Delta G^\circ = -281,885 + 85.678 T\ \mathrm{[J/mol]}\)</span></p>
+<p><span class="math inline">\(\nu_\mathrm{CO} = -1\)</span> <span class="math inline">\(\nu_{\mathrm{O_2}} = -0.5\)</span> <span class="math inline">\(\nu_{\mathrm{CO_2}} = 1\)</span> <span class="math inline">\(\nu = -1 - 0.5 + 1 = -0.5\)</span></p>
 <p><span class="math display">\[
-\int_0^{V_R} dV = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}}
+K\ (\mathrm{1\ bar})^\nu P^{-\nu}  =\prod (y_i)^{\nu_i}
 \]</span></p>
 <p><span class="math display">\[
-\boxed{ V_R = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}} }
-\]</span></p>
-<p><span class="math inline">\(\dot{n}{_\mathrm{A}} = \dot{n}{_\mathrm{A0}} ( 1 - f_\mathrm{A})\)</span></p>
-<p><span class="math inline">\(d\dot{n}{_\mathrm{A}} = -\dot{n}{_\mathrm{A0}} df_\mathrm{A}\)</span></p>
-<p><span class="math display">\[
-\boxed{ \frac{V_R}{\dot{n}_\mathrm{A0}} = \frac{\tau}{C_\mathrm{A0}} = \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})} }
-\]</span></p>
-<p><span class="math display">\[
-\tau = C_\mathrm{A0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
-\]</span></p>
-<p>For <span class="math inline">\(\rho = \text{constant}\)</span></p>
-<p><span class="math display">\[
-\tau = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{(-r_\mathrm{A})}
+K\ (\mathrm{1\ bar})^{-0.5} P^{0.5}  = \frac{y_{\mathrm{CO}_2}}{y_{\mathrm{CO}} y^{0.5}_{\mathrm{O}_2}}
 \]</span></p>
 </section>
-<section id="example--r_mathrma-k-c_mathrma" class="slide level2">
-<h2>Example, <span class="math inline">\(-r_\mathrm{A} = k C_\mathrm{A}\)</span></h2>
+<section id="example-cont." class="slide level2">
+<h2>Example (cont.)</h2>
 <div class="columns">
-<div class="column" style="width:33%;">
-<div style="text-align: center;">
-<p><strong>Batch</strong></p>
-</div>
+<div class="column" style="width:60%;">
 <p><span class="math display">\[
-t = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{k C_\mathrm{A}}
+y_\mathrm{CO} = \frac{n_\mathrm{CO_{out}}}{n_\mathrm{out}} = \frac{n_\mathrm{CO_{in}} + \nu_\mathrm{CO}\xi}{n_\mathrm{in} + \nu \xi}
 \]</span></p>
 <p><span class="math display">\[
-t=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
-\]</span></p>
-</div><div class="column" style="width:33%;">
-<div style="text-align: center;">
-<p><strong>PFR</strong></p>
-</div>
-<p><span class="math display">\[
-\tau = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{k C_\mathrm{A}}
+y_\mathrm{CO_2} = \frac{n_\mathrm{CO_{2_{out}}}}{n_\mathrm{out}} = \frac{n_\mathrm{CO_{2_{in}}} + \nu_\mathrm{CO_2}\xi}{n_\mathrm{in} + \nu \xi}
 \]</span></p>
 <p><span class="math display">\[
-\tau=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
+y_\mathrm{O_2} = \frac{n_\mathrm{O_{2_{out}}}}{n_\mathrm{out}} = \frac{n_\mathrm{O_{2_{in}}} + \nu_\mathrm{O_2}\xi}{n_\mathrm{in} + \nu \xi}
 \]</span></p>
-</div><div class="column" style="width:33%;">
-<div style="text-align: center;">
-<p><strong>CSTR</strong></p>
-</div>
-<p><span class="math display">\[
-\tau = - \frac{C_\mathrm{A0} - C_\mathrm{A}} {k C_\mathrm{A}}
-\]</span> <span class="math display">\[
-\tau=\frac{1}{k} \left( \frac{C_\mathrm{A0}}{C_\mathrm{A}} - 1 \right)
-\]</span></p>
+</div><div class="column" style="width:40%;">
+<p>What is missing? <br><br> <span class="math inline">\(P\)</span> and either <span class="math inline">\(n_\mathrm{O_{2_{in}}}\)</span> or <span class="math inline">\(n_\mathrm{CO_{in}}\)</span>. <br><br> Pick a basis of one mole. <br><br> Assume <span class="math inline">\(P = 1\ \mathrm{bar}\)</span>.</p>
 </div></div>
 </section>
-<section id="mole-balance-on-reactor" class="slide level2">
-<h2>Mole Balance on Reactor</h2>
+<section id="example-cont.-1" class="slide level2">
+<h2>Example (cont.)</h2>
+<p><span class="math display">\[
+\frac{\left(\frac{0+\xi}{2-0.5\xi}\right)}{\left(\frac{1-\xi}{2-0.5\xi}\right)\left(\frac{1-0.5\xi}{2-0.5\xi}\right)^{0.5}} = K(\mathrm{1\ bar})^{-0.5}(\mathrm{1\ bar})^{0.5}
+\]</span></p>
+<p><span class="math display">\[
+\frac{\left( 2 - 0.5 \xi \right)^{0.5}}{\left( 1-0.5 \xi \right)^{0.5}}\frac{\xi}{1-\xi} = K
+\]</span></p>
+<p>For <span class="math inline">\(\xi \rightarrow 0\)</span>, <span class="math inline">\(\xi = K/\sqrt{2}\)</span>.</p>
+<p>For <span class="math inline">\(\xi \rightarrow 1\)</span>, <span class="math inline">\(\xi = \frac{K / \sqrt{3}}{1 + K / \sqrt{3}}\)</span> or <span class="math inline">\(1 - \xi = \frac{1}{1+K/\sqrt{3}}\)</span>.</p>
 </section>
+<section id="results" class="slide level2">
+<h2>Results</h2>
+
+<img data-src="EqRxnKandExtent.png" class="r-stretch"></section>
+<section id="results-cont." class="slide level2">
+<h2>Results (cont.)</h2>
+
+<img data-src="EqRxnMoleFrac.png" class="r-stretch"></section>
+<section id="results-cont.-1" class="slide level2">
+<h2>Results (cont.)</h2>
+
+<img data-src="EqRxnFracConv.png" class="r-stretch"></section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
@@ -354,7 +267,7 @@ t=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. <em>Recycling Before Recycling Was Cool</em>, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The companion video, <em>React But Maintain Your Equilibrium Part 1</em>, in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 

@@ -134,6 +134,47 @@
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -45%; left: 22%; "></p>
 </section>
+<section id="types-of-reactor-models" class="slide level2">
+<h2>Types of Reactor Models</h2>
+<div class="fragment">
+<h3 id="extent-of-reaction-and-fractional-conversion">Extent of Reaction and Fractional Conversion</h3>
+</div>
+<ul>
+<li class="fragment"><span class="math inline">\(\dot{\xi}\)</span>, <span class="math inline">\(\xi\)</span>, and <span class="math inline">\(f_\mathrm{A}\)</span> are treated as parameters that are either given or calculated from other given information.</li>
+<li class="fragment">Does not deal directly with either chemical kinetics or chemical thermodynamics</li>
+</ul>
+<div class="fragment">
+<h3 id="chemical-equilibrium">Chemical Equilibrium</h3>
+</div>
+<ul>
+<li class="fragment">Assumes reaction reaches equilibrium</li>
+<li class="fragment"><span class="math inline">\(\dot{\xi}\)</span>, <span class="math inline">\(\xi\)</span>, and <span class="math inline">\(f_\mathrm{A}\)</span> are determined by temperature, pressure, and feed concentrations</li>
+</ul>
+</section>
+<section id="types-of-reactor-models-cont." class="slide level2">
+<h2>Types of Reactor Models (cont.)</h2>
+<h3 id="homogeneous-chemical-kinetics">Homogeneous Chemical Kinetics</h3>
+<ul>
+<li class="fragment">Starts with the three idealized chemical reactors
+<ul>
+<li class="fragment">Batch</li>
+<li class="fragment">CSTR (mixed or stirred tank)</li>
+<li class="fragment">PFR (Plug Flow Reactor)</li>
+</ul></li>
+<li class="fragment">Uses chemical-kinetics expressions such as <span class="math inline">\(-r_\mathrm{A} = kC_\mathrm{A}^n\)</span></li>
+<li class="fragment"><span class="math inline">\(\dot{\xi}\)</span>, <span class="math inline">\(\xi\)</span>, and <span class="math inline">\(f_\mathrm{A}\)</span> are determined by the kinetic expression, feed conditions, reactor volume, and temperature.</li>
+</ul>
+</section>
+<section id="types-of-reactor-models-cont.-1" class="slide level2">
+<h2>Types of Reactor Models (cont.)</h2>
+<h3 id="heterogeneous-chemical-kinetics">Heterogeneous Chemical Kinetics</h3>
+<ul>
+<li class="fragment">Typically two or more phases, Gas-Solid, Liquid-Solid, or Gas-Liquid</li>
+<li class="fragment">Catalyzed reactions are the most common</li>
+<li class="fragment">Requires simultaneous solution of chemical-kinetic, mass-transfer, and heat-transfer equations</li>
+<li class="fragment"><span class="math inline">\(\dot{\xi}\)</span> and <span class="math inline">\(f_\mathrm{A}\)</span> are determined by the kinetic expression, catalyst amount, particle sizes, feed conditions, reactor volume, and temperature.</li>
+</ul>
+</section>
 <section id="a-single-chemical-reaction" class="slide level2">
 <h2>A Single Chemical Reaction</h2>
 <p><span class="math display">\[
@@ -207,15 +248,33 @@ f_k = \frac{\dot{n}_{k_0} - \dot{n}_k}{\dot{n}_{k_0}}
 <h2><span class="math inline">\(r\)</span> as a Function of <span class="math inline">\(T\)</span> and <span class="math inline">\(C\)</span></h2>
 <p>In general, <span class="math inline">\(r\)</span> varies as a function of <span class="math inline">\(T\)</span> and <span class="math inline">\(C\)</span> or <span class="math inline">\(a\)</span> (activity).</p>
 <p><span class="math inline">\(\ \ \ \ r=r(T,\ C_\mathrm{B},\ C_\mathrm{C},\ \dots)\)</span></p>
-<p>There are many forms. We will only work with</p>
-<p><span class="math inline">\(\ \ \ \ r = k C_\mathrm{B}^n C_\mathrm{C}^m\)</span></p>
-<p>where the <em>rate coefficient</em>, <span class="math inline">\(k\)</span>, is</p>
-<p><span class="math inline">\(\ \ \ \ k = k_0 e^{\frac{-E_a}{RT}}\)</span></p>
-<p>and the <em>order of reaction</em> with respect to <span class="math inline">\(\mathrm{B}\)</span> is <span class="math inline">\(n\)</span>, the order of reaction with respect to <span class="math inline">\(\mathrm{C}\)</span> is <span class="math inline">\(m\)</span>, and the overall order is <span class="math inline">\(n + m\)</span>.</p>
+</section>
+<section id="kinetic-expressions" class="slide level2">
+<h2>Kinetic Expressions</h2>
+<p>Experimentally and from theoretical considerations, a reaction such as <span class="math inline">\(\nu_\mathrm{B} \mathrm{B} + \nu_\mathrm{C} \mathrm{C} = \nu_\mathrm{P} \mathrm{P} + \nu_\mathrm{Q} \mathrm{Q}\)</span> follows a rate law such as</p>
+<p><span class="math display">\[
+r = k_f C_\mathrm{B}^n C_\mathrm{C}^m - k_r C_\mathrm{P}^p C_\mathrm{Q}^q
+\]</span></p>
+<p>where <span class="math inline">\(k_f\)</span> and <span class="math inline">\(k_r\)</span> are the forward and reverse rate coefficients respectively. The exponents <span class="math inline">\(n\)</span>, <span class="math inline">\(m\)</span>, <span class="math inline">\(p\)</span>, and <span class="math inline">\(q\)</span> are known as the order of reaction with respect to the reactants <span class="math inline">\(\mathrm{B}\)</span>, <span class="math inline">\(\mathrm{C}\)</span>, <span class="math inline">\(\mathrm{P}\)</span>, and <span class="math inline">\(\mathrm{Q}\)</span>. They are not necessarily the same as the stoichiometric coefficients <span class="math inline">\(-\nu_\mathrm{B}\)</span>, <span class="math inline">\(-\nu_\mathrm{C}\)</span>, <span class="math inline">\(\nu_\mathrm{P}\)</span>, and <span class="math inline">\(\nu_\mathrm{Q}\)</span>.</p>
+</section>
+<section id="kinetic-expressions-cont." class="slide level2">
+<h2>Kinetic Expressions (cont.)</h2>
+<p>For an irreversible reaction the overall order of reaction is the sum of the exponents e.g., if <span class="math inline">\(n = 1\)</span>, and <span class="math inline">\(m = 2\)</span> then the forward reaction is first order in <span class="math inline">\(\mathrm{B}\)</span>, second order in <span class="math inline">\(\mathrm{C}\)</span> and overall third order. A reaction does not have to have an integral order (i.e., <span class="math inline">\(n\)</span>, <span class="math inline">\(m\)</span>, etc. do not have to be integers) but non-integral orders imply a complex mechanism for the reaction.</p>
 <div style="font-size: 60px;">
 <p>Yes, we know that using <span class="math inline">\(n\)</span> for both number of moles, and order of reaction is confusing. That’s just how it’s done. Deal with it.</p>
-<p>Did we mention that <span class="math inline">\(C\)</span> is concentration, and <span class="math inline">\(\mathrm{C}\)</span> is species <span class="math inline">\(\mathrm{C}\)</span> as well as carbon? It’s like why the main streets in Boston don’t have street signs. It’s obvious what street you’re on and if it isn’t you don’t belong here.</p>
+<p>Did we mention that <span class="math inline">\(C\)</span> is concentration, and <span class="math inline">\(\mathrm{C}\)</span> is species <span class="math inline">\(\mathrm{C}\)</span> as well as carbon? It’s similar to why the <a href="https://archboston.com/community/threads/street-signs-and-helping-people-navigate.5101/">main streets in Boston</a> don’t have street signs. It’s obvious what street you’re on and if it isn’t, you don’t belong here.</p>
 </div>
+</section>
+<section id="temperature-dependence" class="slide level2">
+<h2>Temperature Dependence</h2>
+<p>The <em>rate coefficients</em>, <span class="math inline">\(k_f\)</span> and <span class="math inline">\(k_r\)</span>, are functions of temperature. Both collision theory and transition-state theory provide models, but experimental data are rarely accurate enough to use anything other than the Arrhenius expression:</p>
+<p><span class="math display">\[
+k = k_0 e^{\frac{-E_a}{RT}}
+\]</span></p>
+<p>where <span class="math inline">\(k_0\)</span> is known as the <em>frequency factor</em> or the <em>pre-exponential</em> and <span class="math inline">\(E_a\)</span> is known as the <em>activation energy</em>.</p>
+<p>For ideal gases, the concentration,</p>
+<p><span class="math display">\[C = \frac{n}{V} =  \frac{P}{RT}\]</span></p>
+<p>is a weak function of temperature, as well.</p>
 </section>
 <section id="mole-balance-on-reactor" class="slide level2">
 <h2>Mole Balance on Reactor</h2>
@@ -227,14 +286,15 @@ f_k = \frac{\dot{n}_{k_0} - \dot{n}_k}{\dot{n}_{k_0}}
 <p><span class="math display">\[
 \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
 \]</span></p>
+<p>The next video will develop this expression for the Batch, CSTR, and PFR reactors.</p>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">For reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.</li>
-<li class="fragment">The yield is the fraction of the desired product that could be produced that is actually produced..</li>
-<li class="fragment">The selectivity is the ratio of the desired product to the undesired products.</li>
-<li class="fragment">Don’t confuse mole fraction, <span class="math inline">\(x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)\)</span>, split fraction, <span class="math inline">\(t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}\)</span>, and fractional conversion.<span class="math inline">\(f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}}\)</span>.</li>
+<li class="fragment">The fractional conversion and extent of reaction can be specified as parameters, determined from chemical kinetics, or determined from chemical equilibrium depending on the need.</li>
+<li class="fragment">The reaction rate, <span class="math inline">\(r\)</span>, is independent of species, and the reaction rate for species <span class="math inline">\(i\)</span> is given as <span class="math inline">\(r_i = \nu_i r\)</span>.</li>
+<li class="fragment">The extent of reaction, <span class="math inline">\(\dot{\xi}\)</span>, is the volume integral of the reaction rate, <span class="math inline">\(r\)</span>.</li>
+<li class="fragment">The general mole balance for a reactor is <span class="math display">\[\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}\]</span></li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
