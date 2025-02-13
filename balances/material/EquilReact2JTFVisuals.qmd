@@ -1,0 +1,137 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# React But Maintain Your Equilibrium<br/>Part 2<br/>Just The Facts
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-30%"}
+
+
+## From Part 1
+
+$$
+K\ (\mathrm{1\ bar})^\nu P^{-\nu}  =\prod (y_i)^{\nu_i}
+$$
+
+$$
+K = \exp \left( - \frac{\Delta G^\circ}{RT}\right)
+$$
+
+### Example
+
+Carbon monoxide and oxygen are fed in equimolar ratios to an
+isothermal combustor. If the reaction proceeds to equilibrium
+calculate the fractional conversion of $\mathrm{CO}$ and $\mathrm{O_2}$ as the reactor
+temperature varies from $300\ \mathrm{K}$ to $2500\ \mathrm{K}$.
+
+### Data
+
+$\ \ \ \ \mathrm{CO +\frac{1}{2} O_2 = CO_2}$
+<br/><br/>
+$\ \ \ \ \Delta G^\circ = -281,885 + 85.678 T\ \mathrm{[J/mol]}$
+
+## Solution
+
+$$
+\ln K = - \frac{\Delta G^\circ}{RT} = \frac{33,903}{T} - 10.3047
+$$
+
+$$
+\nu_\mathrm{CO} = -1,\ \ \ \ \nu_{\mathrm{O_2}} = -0.5,\ \ \ \ \nu_{\mathrm{CO_2}} = 1
+$$
+
+$$
+\nu = -1 - 0.5 + 1 = -0.5
+$$
+
+$$
+K\ (\mathrm{1\ bar})^\nu P^{-\nu}  =\prod (y_i)^{\nu_i}
+$$
+
+$$
+K\ (\mathrm{1\ bar})^{-0.5} P^{0.5}  = \frac{y_{\mathrm{CO}_2}}{y_{\mathrm{CO}} y^{0.5}_{\mathrm{O}_2}}
+$$
+
+## Solution (cont.)
+
+
+::::{.columns}
+:::{.column width=60%}
+
+$$
+y_\mathrm{CO} = \frac{n_\mathrm{CO_{out}}}{n_\mathrm{out}} = \frac{n_\mathrm{CO_{in}} + \nu_\mathrm{CO}\xi}{n_\mathrm{in} + \nu \xi}
+$$
+
+$$
+y_\mathrm{CO_2} = \frac{n_\mathrm{CO_{2_{out}}}}{n_\mathrm{out}} = \frac{n_\mathrm{CO_{2_{in}}} + \nu_\mathrm{CO_2}\xi}{n_\mathrm{in} + \nu \xi}
+$$
+
+$$
+y_\mathrm{O_2} = \frac{n_\mathrm{O_{2_{out}}}}{n_\mathrm{out}} = \frac{n_\mathrm{O_{2_{in}}} + \nu_\mathrm{O_2}\xi}{n_\mathrm{in} + \nu \xi}
+$$
+:::
+:::{.column width=40%}
+<br/>
+What is missing?
+<br/><br/>
+$P$ and either $n_\mathrm{O_{2_{in}}}$ or $n_\mathrm{CO_{in}}$.
+<br/><br/>
+Pick a basis of one mole.
+<br/><br/>
+Assume $P = 1\ \mathrm{bar}$.
+:::
+::::
+
+## Solution (cont.)
+
+$$
+\frac{\left(\frac{0+\xi}{2-0.5\xi}\right)}{\left(\frac{1-\xi}{2-0.5\xi}\right)\left(\frac{1-0.5\xi}{2-0.5\xi}\right)^{0.5}} = K(\mathrm{1\ bar})^{-0.5}(\mathrm{1\ bar})^{0.5}
+$$
+
+$$
+\frac{\left( 2 - 0.5 \xi \right)^{0.5}}{\left( 1-0.5 \xi \right)^{0.5}}\frac{\xi}{1-\xi} = K
+$$
+<br/><br/>
+For $\xi \rightarrow 0$, $\xi = K/\sqrt{2}$.
+<br/><br/>
+For $\xi \rightarrow 1$, $\xi = \frac{K / \sqrt{3}}{1 + K / \sqrt{3}}$ or $1 - \xi = \frac{1}{1+K/\sqrt{3}}$.
+
+
+## Results
+
+![](EqRxnKandExtent.png)
+
+## Results (cont.)
+
+![](EqRxnMoleFrac.png)
+
+## Results (cont.)
+
+![](EqRxnFracConv.png)
+
+## The Takeaways
+
+1. For ideal gases the equilibrium extent of reaction can be calculated from the equations for the equilibrium constant, $K$ in terms of mole fractions and temperatures.
+2. Equilibrium constants change by orders of magnitude for relatively small changes in temperature.
+3. Solutions of these types of equations often require finding numerical roots of nonlinear equations.
+4. Chemical equilibrium predictions without kinetic information can be seriously wrong.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The previous companion video, *React But Maintain Your Equilibrium Part 1*, in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
