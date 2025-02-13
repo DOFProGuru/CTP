@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>Chemical and Thermal Processes – equilreact1jtfvisuals</title>
+  <title>Chemical and Thermal Processes – equilreact2jtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,123 +127,95 @@
 
 
 <section>
-<section id="react-but-maintain-your-equilibrium-part-1-just-the-facts" class="title-slide slide level1 center">
-<h1>React But Maintain Your Equilibrium<br>Part 1<br>Just The Facts</h1>
+<section id="react-but-maintain-your-equilibrium-part-2-just-the-facts" class="title-slide slide level1 center">
+<h1>React But Maintain Your Equilibrium<br>Part 2<br>Just The Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -30%; left: 22%; "></p>
 </section>
-<section id="types-of-reactor-models" class="slide level2">
-<h2>Types of Reactor Models</h2>
-<div style="font-size: 78px;">
-<div class="fragment">
-<h3 id="extent-of-reaction-and-fractional-conversion">Extent of Reaction and Fractional Conversion</h3>
-</div>
-<ul>
-<li class="fragment"><span class="math inline">\(\dot{\xi}\)</span>, <span class="math inline">\(\xi\)</span>, and <span class="math inline">\(f_\mathrm{A}\)</span> are treated as parameters that are either given or calculated from other given information.</li>
-<li class="fragment">Does not deal directly with either chemical kinetics or chemical thermodynamics</li>
-</ul>
-<div class="fragment">
-<h3 id="chemical-equilibrium">Chemical Equilibrium</h3>
-</div>
-<ul>
-<li class="fragment">Assumes reaction reaches equilibrium</li>
-<li class="fragment"><span class="math inline">\(\dot{\xi}\)</span>, <span class="math inline">\(\xi\)</span>, and <span class="math inline">\(f_\mathrm{A}\)</span> are determined by temperature, pressure, and feed concentrations</li>
-</ul>
-<div class="fragment">
-<h3 id="homogeneous-chemical-kinetics">Homogeneous Chemical Kinetics</h3>
-</div>
-<ul>
-<li class="fragment">Starts with the three idealized chemical reactors
-<ul>
-<li class="fragment">Batch, CSTR (mixed or stirred tank), or PFR (Plug Flow Reactor)</li>
-</ul></li>
-<li class="fragment">Uses chemical-kinetics expressions such as <span class="math inline">\(-r_\mathrm{A} = kC_\mathrm{A}^n\)</span></li>
-<li class="fragment"><span class="math inline">\(\dot{\xi}\)</span>, <span class="math inline">\(\xi\)</span>, and <span class="math inline">\(f_\mathrm{A}\)</span> are determined by the kinetic expression, feed conditions, reactor volume, and temperature.</li>
-</ul>
-</div>
-</section>
-<section id="chemical-equilibrium-1" class="slide level2">
-<h2>Chemical Equilibrium</h2>
-<p>From Thermodynamics, equilibrium is reached when the total Gibbs Energy is minimized. Mathematically the criterion is:</p>
-<p><span class="math display">\[
-\sum \nu_i G^\circ_i + RT \sum \ln \hat{a}_i^{\nu_i} = 0
-\]</span></p>
-<p>or rearranged</p>
-<p><span class="math display">\[
-\prod \hat{a}_i^{\nu_i} = \exp \left( - \frac{\sum \nu_i G^\circ_i}{RT}\right) \equiv K
-\]</span></p>
-<p>The <span class="math inline">\(\hat{a}_i\)</span> are the activities of the various species where</p>
-</section>
-<section id="chemical-equilibrium-cont." class="slide level2">
-<h2>Chemical Equilibrium (cont.)</h2>
-<p><span class="math display">\[
-\hat{a}_i \equiv \frac{\hat{f}_i}{f^\circ_i}
-\]</span></p>
-<p><span class="math inline">\(\hat{f}_i\)</span> is the fugacity of species i in solution. <br><br> <span class="math inline">\(f^\circ_i\)</span> is the reference fugacity of species <span class="math inline">\(i\)</span>. <br><br> <span class="math inline">\(\sum \nu_i G^\circ_i\)</span> is often written as <span class="math inline">\(\Delta G^\circ\)</span> and is similar to <span class="math inline">\(\Delta H^\circ\)</span>. <br><br> <span class="math inline">\(K\)</span> is the equilibrium constant. It varies <strong>only</strong> with temperature.</p>
-</section>
-<section id="chemical-equilibrium-cont.-1" class="slide level2">
-<h2>Chemical Equilibrium (cont.)</h2>
-<p>What are the units of <span class="math inline">\(K\)</span>? <br><br> For ideal gases (see upcoming videos) the fugacity in solution is numerically equal to the partial pressure, and the reference fugacity is the ideal gas state at the system <span class="math inline">\(T\)</span> and a pressure of 1 bar. <br><br> With these substitutions:</p>
-<div style="font-size: 85px;">
-<p><span class="math display">\[
-K = \prod \hat{a}_i^{\nu_i} = \prod \left( \frac{p_i}{\mathrm{1\ bar}}\right)^{\nu_i}
-\]</span></p>
-<p>or</p>
-<p><span class="math display">\[
-K\ (\mathrm{1\ bar})^\nu = \prod p_i^{\nu_i}
-\]</span></p>
-</div>
-<p><span class="math inline">\(K\)</span> is still dimensionless but may not appear to be.</p>
-</section>
-<section id="mole-fractions" class="slide level2">
-<h2>Mole Fractions</h2>
-<p>Often problems are posed in mole fractions instead of partial pressures. Since for an ideal gas (see <em>Ideal Gases EXPOSED: Are They Even Real?!</em>)</p>
-<p><span class="math display">\[
-y_i = \frac{p_i}{P}
-\]</span></p>
-<p>then</p>
-<p><span class="math display">\[
-p_i = y_i P
-\]</span></p>
-<p>Substituting</p>
-<p><span class="math display">\[
-K\ (\mathrm{1\ bar})^\nu = \prod (y_i P)^{\nu_i} =P^\nu \prod (y_i)^{\nu_i}
-\]</span></p>
-<p>or</p>
-</section>
-<section id="mole-fractions-cont." class="slide level2">
-<h2>Mole Fractions (cont.)</h2>
+<section id="from-part-1" class="slide level2">
+<h2>From Part 1</h2>
 <p><span class="math display">\[
 K\ (\mathrm{1\ bar})^\nu P^{-\nu}  =\prod (y_i)^{\nu_i}
 \]</span></p>
-<p>which is where we will begin. There are later videos that go into more detail about the earlier steps and explain when you’d need them. For the present we’ll only deal with equilibrium reactions involving ideal gases and pure solids. <br><br> As a reminder, <span class="math inline">\(K\)</span> depends only on temperature but the equilibrium composition depends on total pressure and the presence of inerts.</p>
-</section>
-<section id="temperature-dependence" class="slide level2">
-<h2>Temperature Dependence</h2>
-<p>With a fair amount of calculus one can show that</p>
 <p><span class="math display">\[
-\frac{d \ln K}{dT} = -\frac{\Delta \hat{H}^\circ_r}{RT^2}
+K = \exp \left( - \frac{\Delta G^\circ}{RT}\right)
 \]</span></p>
-<p>which, if the enthalpy of reaction is constant with temperature integrates to</p>
+<h3 id="example">Example</h3>
+<p>Carbon monoxide and oxygen are fed in equimolar ratios to an isothermal combustor. If the reaction proceeds to equilibrium calculate the fractional conversion of <span class="math inline">\(\mathrm{CO}\)</span> and <span class="math inline">\(\mathrm{O_2}\)</span> as the reactor temperature varies from <span class="math inline">\(300\ \mathrm{K}\)</span> to <span class="math inline">\(2500\ \mathrm{K}\)</span>.</p>
+<h3 id="data">Data</h3>
+<p><span class="math inline">\(\ \ \ \ \mathrm{CO +\frac{1}{2} O_2 = CO_2}\)</span> <br><br> <span class="math inline">\(\ \ \ \ \Delta G^\circ = -281,885 + 85.678 T\ \mathrm{[J/mol]}\)</span></p>
+</section>
+<section id="solution" class="slide level2">
+<h2>Solution</h2>
 <p><span class="math display">\[
-\ln\frac{K}{K_1} = -\frac{\Delta \hat{H}^\circ_r}{R} \left(\frac{1}{T} - \frac{1}{T_1} \right)
+\ln K = - \frac{\Delta G^\circ}{RT} = \frac{33,903}{T} - 10.3047
+\]</span></p>
+<p><span class="math display">\[
+\nu_\mathrm{CO} = -1,\ \ \ \ \nu_{\mathrm{O_2}} = -0.5,\ \ \ \ \nu_{\mathrm{CO_2}} = 1
+\]</span></p>
+<p><span class="math display">\[
+\nu = -1 - 0.5 + 1 = -0.5
+\]</span></p>
+<p><span class="math display">\[
+K\ (\mathrm{1\ bar})^\nu P^{-\nu}  =\prod (y_i)^{\nu_i}
+\]</span></p>
+<p><span class="math display">\[
+K\ (\mathrm{1\ bar})^{-0.5} P^{0.5}  = \frac{y_{\mathrm{CO}_2}}{y_{\mathrm{CO}} y^{0.5}_{\mathrm{O}_2}}
 \]</span></p>
 </section>
+<section id="solution-cont." class="slide level2">
+<h2>Solution (cont.)</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><span class="math display">\[
+y_\mathrm{CO} = \frac{n_\mathrm{CO_{out}}}{n_\mathrm{out}} = \frac{n_\mathrm{CO_{in}} + \nu_\mathrm{CO}\xi}{n_\mathrm{in} + \nu \xi}
+\]</span></p>
+<p><span class="math display">\[
+y_\mathrm{CO_2} = \frac{n_\mathrm{CO_{2_{out}}}}{n_\mathrm{out}} = \frac{n_\mathrm{CO_{2_{in}}} + \nu_\mathrm{CO_2}\xi}{n_\mathrm{in} + \nu \xi}
+\]</span></p>
+<p><span class="math display">\[
+y_\mathrm{O_2} = \frac{n_\mathrm{O_{2_{out}}}}{n_\mathrm{out}} = \frac{n_\mathrm{O_{2_{in}}} + \nu_\mathrm{O_2}\xi}{n_\mathrm{in} + \nu \xi}
+\]</span></p>
+</div><div class="column" style="width:40%;">
+<p><br> What is missing? <br><br> <span class="math inline">\(P\)</span> and either <span class="math inline">\(n_\mathrm{O_{2_{in}}}\)</span> or <span class="math inline">\(n_\mathrm{CO_{in}}\)</span>. <br><br> Pick a basis of one mole. <br><br> Assume <span class="math inline">\(P = 1\ \mathrm{bar}\)</span>.</p>
+</div></div>
+</section>
+<section id="solution-cont.-1" class="slide level2">
+<h2>Solution (cont.)</h2>
+<p><span class="math display">\[
+\frac{\left(\frac{0+\xi}{2-0.5\xi}\right)}{\left(\frac{1-\xi}{2-0.5\xi}\right)\left(\frac{1-0.5\xi}{2-0.5\xi}\right)^{0.5}} = K(\mathrm{1\ bar})^{-0.5}(\mathrm{1\ bar})^{0.5}
+\]</span></p>
+<p><span class="math display">\[
+\frac{\left( 2 - 0.5 \xi \right)^{0.5}}{\left( 1-0.5 \xi \right)^{0.5}}\frac{\xi}{1-\xi} = K
+\]</span> <br><br> For <span class="math inline">\(\xi \rightarrow 0\)</span>, <span class="math inline">\(\xi = K/\sqrt{2}\)</span>. <br><br> For <span class="math inline">\(\xi \rightarrow 1\)</span>, <span class="math inline">\(\xi = \frac{K / \sqrt{3}}{1 + K / \sqrt{3}}\)</span> or <span class="math inline">\(1 - \xi = \frac{1}{1+K/\sqrt{3}}\)</span>.</p>
+</section>
+<section id="results" class="slide level2">
+<h2>Results</h2>
+
+<img data-src="EqRxnKandExtent.png" class="r-stretch"></section>
+<section id="results-cont." class="slide level2">
+<h2>Results (cont.)</h2>
+
+<img data-src="EqRxnMoleFrac.png" class="r-stretch"></section>
+<section id="results-cont.-1" class="slide level2">
+<h2>Results (cont.)</h2>
+
+<img data-src="EqRxnFracConv.png" class="r-stretch"></section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">The criterion for chemical equilibrium is that the total Gibbs energy of the system is minimized.</li>
-<li class="fragment">The <em>equilibrium constant</em>, <span class="math inline">\(K\)</span>, is equal to the product of the species activities raised to their stoichiometric coefficients.</li>
-<li class="fragment">The equilibrium constant is calculated as the exponential of the negative of the Gibbs energy of reaction over <span class="math inline">\(RT\)</span>.</li>
-<li class="fragment">The activity of an ideal gas is the partial pressure over the reference pressure of 1 bar.</li>
+<li class="fragment">For ideal gases the equilibrium extent of reaction can be calculated from the equations for the equilibrium constant, <span class="math inline">\(K\)</span> in terms of mole fractions and temperatures.</li>
+<li class="fragment">Equilibrium constants change by orders of magnitude for relatively small changes in temperature.</li>
+<li class="fragment">Solutions of these types of equations often require finding numerical roots of nonlinear equations.</li>
+<li class="fragment">Chemical equilibrium predictions without kinetic information can be seriously wrong.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The companion video, <em>React But Maintain Your Equilibrium Part 2</em>, in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The previous companion video, <em>React But Maintain Your Equilibrium Part 1</em>, in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 
