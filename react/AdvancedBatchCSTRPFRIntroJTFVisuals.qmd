@@ -6,7 +6,7 @@ format:
     max-scale: 8
     logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
-    theme: [serif, ../../gradient.scss]
+    theme: [serif, ../gradient.scss]
     html-math-method: mathjax
 ---
 
