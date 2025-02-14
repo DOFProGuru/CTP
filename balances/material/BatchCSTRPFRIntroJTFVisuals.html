@@ -136,6 +136,7 @@
 </section>
 <section id="ideal-homogeneous-reactors" class="slide level2">
 <h2>Ideal Homogeneous Reactors</h2>
+<div style="font-size: 80px;">
 <p>Most commercial reactors are <em>heterogeneous</em> reactors.</p>
 <p>We will focus first on the ideal <em>homogeneous</em> reactors.</p>
 <ul>
@@ -156,6 +157,8 @@
 <li class="fragment">Properties are <em>constant</em> in time.</li>
 </ul></li>
 </ul>
+</div>
+<div class="fragment absolute" style="font-size: 70px;top: 87%; left: 0%; ">
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -165,70 +168,87 @@
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>We will not derive the transient cases for CSTRs or PFRs, but they are critically important during plant start-up and shut-down.</p>
+<p>We will not derive the transient cases for CSTRs or PFRs, but they are critically important during<br>plant start-up and shut-down.</p>
+</div>
 </div>
 </div>
 </div>
 </section>
+<section id="kinetic-expressions" class="slide level2">
+<h2>Kinetic Expressions</h2>
+<p>We will rewrite our chemical reactions by dividing through by the absolute value of the stoichiometric coefficient for species <span class="math inline">\(\mathrm{A}\)</span>, giving a result of the form,</p>
+<p><span class="math display">\[
+\mathrm{A} + \frac{\nu_\mathrm{B}}{|\nu_\mathrm{A}|} \mathrm{B} + \cdots \rightarrow \frac{\nu_\mathrm{P}}{|\nu_\mathrm{A}|} \mathrm{P} + \frac{\nu_\mathrm{S}}{|\nu_\mathrm{A}|} \mathrm{S} + \cdots
+\]</span></p>
+<p>Essentially every chemical reactor class ever follows this practice.</p>
+<p>With <span class="math inline">\(r_\mathrm{A}\)</span> equal to <span class="math inline">\(\nu_\mathrm{A} r = - r\)</span>, we will limit ourselves at the present time to irreversible reactions with kinetics of the form</p>
+<p><span class="math display">\[
+-r_\mathrm{A} = k C_\mathrm{A}^n C_\mathrm{B}^m
+\]</span></p>
+</section>
 <section id="batch-reactor" class="slide level2">
 <h2>Batch Reactor</h2>
+<p>For our transient, spatially uniform, constant-volume batch reactor</p>
 <p>(image)</p>
-<p>Transient, spatially uniform</p>
 <p><span class="math display">\[
 \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
 \]</span></p>
 <p><span class="math display">\[
 r_j \ne r_j(\mathrm{position)}) \implies \int_{V_R} r_j dV = r_j \int_{V_R} dV = r_j V_R
 \]</span></p>
+<p>or</p>
+<p><span class="math display">\[
+\frac{1}{V_R} \frac{dn_j}{dt} = r_j\ \  \text{  or  }\ \  \frac{dC_j}{dt} = r_j
+\]</span></p>
 </section>
 <section id="batch-reactor-cont." class="slide level2">
 <h2>Batch Reactor (cont.)</h2>
-<p>For Species A, <span class="math inline">\(n_\mathrm{A} = n_\mathrm{A_0} (1- f_\mathrm{A})\)</span></p>
-<div class="columns">
-<div class="column" style="width:50%;">
+<p>For Species A (constant <span class="math inline">\(V_R\)</span>)</p>
 <p><span class="math display">\[
-(-r_\mathrm{A}) V_R = - \frac{dn_\mathrm{A}}{dt}
-\]</span> <span class="math display">\[
-\int^{t_2}_{t_1} dt = \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R}
-\]</span> <span class="math display">\[
-\boxed{ t_2 - t_1 =  \int^{n_{\mathrm{A_2}}}_{n_{\mathrm{A_1}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R} }
+n_\mathrm{A} = n_\mathrm{A_0} (1- f_\mathrm{A})
 \]</span></p>
-</div><div class="column" style="width:50%;">
+<p>and</p>
 <p><span class="math display">\[
-(-r_\mathrm{A}) V_R = n_\mathrm{A_0}\frac{df_\mathrm{A}}{dt}
-\]</span> <span class="math display">\[
-\int^{t_2}_{t_1} dt = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
-\]</span> <span class="math display">\[
-\boxed{ t_2 - t_1 = n_\mathrm{A_0}\int^{f_{\mathrm{A_2}}}_{f_{\mathrm{A_1}}} \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R} }
+\frac{1}{V_R}\frac{dn_\mathrm{A}}{dt} = \frac{n_\mathrm{A_0}}{V_R}\frac{d(1- f_\mathrm{A})}{dt} = -C_\mathrm{A_0} \frac{df_\mathrm{A}}{dt}
 \]</span></p>
-</div></div>
-<p>for <span class="math inline">\(t_1 = 0,\ f_\mathrm{A_1} = 0\)</span></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">\[
-t =  \int^{n_{\mathrm{A}}}_{n_{\mathrm{A_0}}} \frac{dn_\mathrm{A}}{r_\mathrm{A} V_R}
+<p>or <span class="math display">\[
+\frac{1}{V_R}\frac{dn_\mathrm{A}}{dt} = \frac{dC_\mathrm{A}}{dt}
 \]</span></p>
-</div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-t = n_\mathrm{A_0}\int^{f_{\mathrm{A}}}_0 \frac{df_\mathrm{A}}{(-r_\mathrm{A}) V_R}
-\]</span></p>
-</div></div>
 </section>
 <section id="batch-reactor-cont.-1" class="slide level2">
 <h2>Batch Reactor (cont.)</h2>
-<p>In terms of concentration:</p>
 <div class="columns">
 <div class="column" style="width:50%;">
+<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> <span class="math display">\[
+-C_\mathrm{A_0} \frac{df_\mathrm{A}}{dt} = r_\mathrm{A}
+\]</span></p>
 <p><span class="math display">\[
-t = - \int^{C_{\mathrm{A}}}_{C_{\mathrm{A_0}}} \frac{dC_\mathrm{A}}{(-r_\mathrm{A})}
+\int_0^t dt = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
+\]</span> <span class="math display">\[
+t = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
 \]</span></p>
 </div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-t =  C_\mathrm{A_0} \int^{f_{\mathrm{A}}}_{0} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
+<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> <span class="math display">\[
+\frac{dC_\mathrm{A}}{dt} = r_\mathrm{A}
+\]</span> <span class="math display">\[
+\int_0^t dt = \int_{C_\mathrm{A_0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
+\]</span> <span class="math display">\[
+t = \int_{C_\mathrm{A_0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
 \]</span></p>
 </div></div>
-<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> (image)</p>
-<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> (image)</p>
+</section>
+<section id="batch-reactor-cont.-2" class="slide level2">
+<h2>Batch Reactor (cont.)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> <span class="math display">\[
+t = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
+\]</span> (image)</p>
+</div><div class="column" style="width:50%;">
+<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> <span class="math display">\[
+t = \int_{C_\mathrm{A_0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
+\]</span> (image)</p>
+</div></div>
 </section>
 <section id="cstr-mixed" class="slide level2">
 <h2>CSTR (Mixed)</h2>
@@ -245,30 +265,42 @@ r_j \ne r_j(\mathrm{position)} \implies \dot{n}_{j_0} - \dot{n}_j + r_j V_R = 0
 \]</span></p>
 <p>For species <span class="math inline">\(\mathrm{A}\)</span>,</p>
 <p><span class="math display">\[
-\boxed{ V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}}
+V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}
 \]</span></p>
 </section>
 <section id="cstr-cont." class="slide level2">
 <h2>CSTR (cont.)</h2>
-<p>Since</p>
+<p><br><br> Define the <em>space time</em>, <span class="math inline">\(\tau \equiv \frac{V_R}{\dot{V}_0}\)</span> <br><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span></p>
 <p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A} = \dot{n}_\mathrm{A_0}(1 - f_\mathrm{A})\)</span></p>
-<p>then</p>
 <p><span class="math inline">\(\ \ \ \ (-r_\mathrm{A}) V_R = \dot{n}_\mathrm{A_0}(f_\mathrm{A})\)</span></p>
-<p>also</p>
+<p>and</p>
 <p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A_0}=\dot{V}_0 C_\mathrm{A_0}\)</span></p>
-<p>Define</p>
-<p><span class="math inline">\(\ \ \ \ \tau \equiv \frac{V_R}{\dot{V}_0}\)</span></p>
 <p>then</p>
-<p><span class="math inline">\(\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}}}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}}\)</span></p>
+</div><div class="column" style="width:50%;">
+<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{V}_0 = \dot{V}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}C_\mathrm{A_0}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}C_\mathrm{A}\)</span></p>
+<p>then</p>
+<p><span class="math inline">\(\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}\)</span></p>
+</div></div>
 </section>
 <section id="cstr-cont.-1" class="slide level2">
 <h2>CSTR (cont.)</h2>
-<p>Since we’re assuming constant density</p>
-<p><span class="math inline">\(\ \ \ \ \dot{V}_0 = \dot{V},\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}C_\mathrm{A_0},\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}C_\mathrm{A}\)</span></p>
-<p>and</p>
-<p><span class="math inline">\(\ \ \ \ \boxed{ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}}\)</span></p>
-<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> (image)</p>
-<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> (image)</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}}\)</span></p>
+<p>(image)</p>
+</div><div class="column" style="width:50%;">
+<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}\)</span></p>
+<p>(image)</p>
+</div></div>
 </section>
 <section id="pfr-tubular" class="slide level2">
 <h2>PFR (Tubular)</h2>
@@ -290,23 +322,41 @@ r_j \ne r_j(\mathrm{position)} \implies \dot{n}_{j_0} - \dot{n}_j + r_j V_R = 0
 \int_0^{V_R} dV = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}}
 \]</span></p>
 <p><span class="math display">\[
-\boxed{ V_R = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}} }
+V_R = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}}
 \]</span></p>
-<p><span class="math inline">\(\dot{n}{_\mathrm{A}} = \dot{n}{_\mathrm{A0}} ( 1 - f_\mathrm{A})\)</span></p>
-<p><span class="math inline">\(d\dot{n}{_\mathrm{A}} = -\dot{n}{_\mathrm{A0}} df_\mathrm{A}\)</span></p>
+</section>
+<section id="pfr-cont.-1" class="slide level2">
+<h2>PFR (cont.)</h2>
+<p>To get the expression in terms of <span class="math inline">\(f_\mathrm{A}\)</span>,</p>
+<p>as before</p>
+<p><span class="math inline">\(\ \ \ \ \ \ \ \dot{n}{_\mathrm{A}} = \dot{n}{_\mathrm{A0}} ( 1 - f_\mathrm{A})\)</span></p>
+<p>and</p>
+<p><span class="math inline">\(\ \ \ \ \ \ \ d\dot{n}{_\mathrm{A}} = -\dot{n}{_\mathrm{A0}} df_\mathrm{A}\)</span></p>
+<p>Making the substitutions and dividing by <span class="math inline">\(\dot{n}_\mathrm{A0}\)</span></p>
+<div class="absolute" style="top: 50%; left: 0%; ">
 <p><span class="math display">\[
-\boxed{ \frac{V_R}{\dot{n}_\mathrm{A0}} = \frac{\tau}{C_\mathrm{A0}} = \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})} }
+\frac{V_R}{\dot{n}_\mathrm{A0}} = \frac{\tau}{C_\mathrm{A0}} = \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
 \]</span></p>
+</div>
+<div class="absolute" style="top: 58%; left: 54%; ">
+<p>or</p>
+</div>
+<div class="absolute" style="top: 50%; left: 65%; ">
 <p><span class="math display">\[
 \tau = C_\mathrm{A0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
 \]</span></p>
-<p>For <span class="math inline">\(\rho = \text{constant}\)</span></p>
+</div>
+<div class="absolute" style="top: 75%; left: 0%; ">
+<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 80%; left: 7%; ">
 <p><span class="math display">\[
-\tau = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{(-r_\mathrm{A})}
+\tau = \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
 \]</span></p>
+</div>
 </section>
-<section id="example--r_mathrma-k-c_mathrma" class="slide level2">
-<h2>Example, <span class="math inline">\(-r_\mathrm{A} = k C_\mathrm{A}\)</span></h2>
+<section id="example--r_mathrma-k-c_mathrma-k-c_mathrma_01-f_mathrma" class="slide level2">
+<h2>Example, <span class="math inline">\(-r_\mathrm{A} = k C_\mathrm{A} = k C_\mathrm{A_0}(1-f_\mathrm{A})\)</span></h2>
 <div class="columns">
 <div class="column" style="width:33%;">
 <div style="text-align: center;">
@@ -338,17 +388,44 @@ t=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
 \tau=\frac{1}{k} \left( \frac{C_\mathrm{A0}}{C_\mathrm{A}} - 1 \right)
 \]</span></p>
 </div></div>
-</section>
-<section id="mole-balance-on-reactor" class="slide level2">
-<h2>Mole Balance on Reactor</h2>
+<p>or</p>
+<div class="columns">
+<div class="column" style="width:33%;">
+<div style="font-size: 65px;">
+<p><span class="math display">\[
+t = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{d_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})}
+\]</span></p>
+</div>
+<p><span class="math display">\[
+t = - \frac{1}{k}\ln (f_\mathrm{A}-1)
+\]</span></p>
+</div><div class="column" style="width:33%;">
+<div style="font-size: 65px;">
+<p><span class="math display">\[
+\tau = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{d_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})}
+\]</span></p>
+</div>
+<p><span class="math display">\[
+\tau = - \frac{1}{k}\ln (f_\mathrm{A}-1)
+\]</span></p>
+</div><div class="column" style="width:33%;">
+<div style="font-size: 70px;">
+<p><span class="math display">\[
+\tau = \frac{{C_\mathrm{A0}f_\mathrm{A}} } {k C_\mathrm{A0}(1-f_\mathrm{A})}
+\]</span></p>
+</div>
+<p><span class="math display">\[
+\tau = \frac{{f_\mathrm{A}} } {k (1-f_\mathrm{A})}
+\]</span></p>
+</div></div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">For reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.</li>
-<li class="fragment">The yield is the fraction of the desired product that could be produced that is actually produced..</li>
-<li class="fragment">The selectivity is the ratio of the desired product to the undesired products.</li>
-<li class="fragment">Don’t confuse mole fraction, <span class="math inline">\(x_\mathrm{A} = n_\mathrm{A}/(\sum n_i)\)</span>, split fraction, <span class="math inline">\(t_{A1} = \dot{n}_\mathrm{A1}/\dot{n}_\mathrm{Ain}\)</span>, and fractional conversion.<span class="math inline">\(f_\mathrm{A} = (\dot{n}_\mathrm{A_{in}} - \dot{n}_\mathrm{A_{out}})/\dot{n}_\mathrm{A_{in}}\)</span>.</li>
+<li class="fragment">The three ideal homogeneous reactor are batch, CSTR, and PFR.</li>
+<li class="fragment">For constant density or constant volume reactors, with the processing time, <span class="math inline">\(t\)</span>, in the batch being replaced by the space time, <span class="math inline">\(\tau\)</span>, in the PFR.</li>
+<li class="fragment">The CSTR model results in (often nonlinear) algebraic equations instead of ordinary differential equations for the batch and PFR.</li>
+<li class="fragment">The equations can be expressed in terms of fractional conversion or concentration.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">

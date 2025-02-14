@@ -1530,14 +1530,14 @@
     "href": "balances/material/KineticsIntroJTFVisuals.html#a-single-chemical-reaction",
     "title": "Chemical and Thermal Processes",
     "section": "A Single Chemical Reaction",
-    "text": "A Single Chemical Reaction\n\\[\n\\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C} + \\cdots \\rightarrow \\nu_\\mathrm{P} \\mathrm{P} + \\nu_\\mathrm{S} \\mathrm{S} + \\cdots\n\\]\n\\[\n\\sum \\nu_i \\mathrm{A}_i = 0\n\\]\n\\(\\nu_i\\) – stoichometric coefficient for component \\(i\\).\n\\(\\nu_i\\) is positive for products (right side) and negative for reactants (left side).\nReaction Rate\n\\(\\ \\ \\ \\ r \\equiv \\frac{1}{\\nu_i} \\frac{1}{V} \\frac{dn_i}{dt}\\)\n\\(\\ \\ \\ \\ r_i = \\nu_i r\\)\n\nIndividual Reaction Rates\n\\(\\ \\ \\ \\ r_\\mathrm{B} \\equiv \\frac{1}{V} \\frac{dn_\\mathrm{B}}{dt} = \\nu_\\mathrm{B} r\\)\n\\(\\ \\ \\ \\ r_\\mathrm{C} \\equiv \\frac{1}{V} \\frac{dn_\\mathrm{C}}{dt}  = \\nu_\\mathrm{C} r\\)\n\\(\\ \\ \\ \\ r_\\mathrm{P} \\equiv \\frac{1}{V} \\frac{dn_\\mathrm{P}}{dt}  = \\nu_\\mathrm{P} r\\)\n\\(\\ \\ \\ \\ r_\\mathrm{S} \\equiv \\frac{1}{V} \\frac{dn_\\mathrm{S}}{dt} = \\nu_\\mathrm{S} r\\)"
+    "text": "A Single Chemical Reaction\n\\[\n\\nu_\\mathrm{A} \\mathrm{A} + \\nu_\\mathrm{B} \\mathrm{B} + \\cdots \\rightarrow \\nu_\\mathrm{P} \\mathrm{P} + \\nu_\\mathrm{S} \\mathrm{S} + \\cdots\n\\]\n\\[\n\\sum \\nu_i \\mathrm{A}_i = 0\n\\]\n\\(\\nu_i\\) – stoichometric coefficient for component \\(i\\).\n\\(\\nu_i\\) is positive for products (right side) and negative for reactants (left side).\nReaction Rate\n\\(\\ \\ \\ \\ r \\equiv \\frac{1}{\\nu_i} \\frac{1}{V} \\frac{dn_i}{dt}\\)\n\\(\\ \\ \\ \\ r_i = \\nu_i r\\)\n\nIndividual Reaction Rates\n\\(\\ \\ \\ \\ r_\\mathrm{A} \\equiv \\frac{1}{V} \\frac{dn_\\mathrm{A}}{dt}  = \\nu_\\mathrm{A} r\\)\n\\(\\ \\ \\ \\ r_\\mathrm{B} \\equiv \\frac{1}{V} \\frac{dn_\\mathrm{B}}{dt} = \\nu_\\mathrm{B} r\\)\n\\(\\ \\ \\ \\ r_\\mathrm{P} \\equiv \\frac{1}{V} \\frac{dn_\\mathrm{P}}{dt}  = \\nu_\\mathrm{P} r\\)\n\\(\\ \\ \\ \\ r_\\mathrm{S} \\equiv \\frac{1}{V} \\frac{dn_\\mathrm{S}}{dt} = \\nu_\\mathrm{S} r\\)"
   },
   {
     "objectID": "balances/material/KineticsIntroJTFVisuals.html#constant-density-reactors",
     "href": "balances/material/KineticsIntroJTFVisuals.html#constant-density-reactors",
     "title": "Chemical and Thermal Processes",
     "section": "Constant Density Reactors",
-    "text": "Constant Density Reactors\nIf the mass density, \\(\\rho\\) doesn’t change appreciably during reaction (e.g., aqueous solutions) or the total number of moles is fixed, i.e., \\(\\nu = \\sum \\nu_j = 0\\), then\n\\(\\ \\ \\ \\ \\frac{1}{V} \\frac{dn_\\mathrm{B}}{dt}\\)\ncan be written as\n\\(\\ \\ \\ \\ \\frac{1}{V} \\frac{dn_\\mathrm{B}}{dt} = \\frac{d}{dt}\\left(\\frac{n_\\mathrm{B}}{V}\\right) = \\frac{dC_\\mathrm{B}}{dt}\\)\nor\n\\(\\ \\ \\ \\ r_\\mathrm{B} = \\frac{dC_\\mathrm{B}}{dt}\\)\n\n\n\n\n\n\nNote\n\n\nWe will limit ourselves to constant density reactors for most of the DOFPro videos. The videos that delve deeper into chemical reactor engineering will relax this constraint."
+    "text": "Constant Density Reactors\nIf the mass density, \\(\\rho\\) doesn’t change appreciably during reaction (e.g., aqueous solutions), or the total number of moles is fixed, i.e., \\(\\nu = \\sum \\nu_j = 0\\), or a batch rector is a fixed volume, then\n\\(\\ \\ \\ \\ \\frac{1}{V} \\frac{dn_\\mathrm{A}}{dt}\\)\ncan be written as\n\\(\\ \\ \\ \\ \\frac{1}{V} \\frac{dn_\\mathrm{A}}{dt} = \\frac{d}{dt}\\left(\\frac{n_\\mathrm{A}}{V}\\right) = \\frac{dC_\\mathrm{A}}{dt}\\)\nor\n\\(\\ \\ \\ \\ r_\\mathrm{A} = \\frac{dC_\\mathrm{A}}{dt}\\)\n\n\n\n\n\n\nNote\n\n\nWe will limit ourselves to constant density reactors for most of the DOFPro videos. The videos that delve deeper into chemical reactor engineering will relax this constraint."
   },
   {
     "objectID": "balances/material/KineticsIntroJTFVisuals.html#extent-of-reaction",
@@ -1565,21 +1565,21 @@
     "href": "balances/material/KineticsIntroJTFVisuals.html#r-as-a-function-of-t-and-c",
     "title": "Chemical and Thermal Processes",
     "section": "\\(r\\) as a Function of \\(T\\) and \\(C\\)",
-    "text": "\\(r\\) as a Function of \\(T\\) and \\(C\\)\nIn general, \\(r\\) varies as a function of \\(T\\) and \\(C\\) or \\(a\\) (activity).\n\\(\\ \\ \\ \\ r=r(T,\\ C_\\mathrm{B},\\ C_\\mathrm{C},\\ \\dots)\\)"
+    "text": "\\(r\\) as a Function of \\(T\\) and \\(C\\)\nIn general, \\(r\\) varies as a function of \\(T\\) and \\(C\\) or \\(\\hat{a}\\) (activity).\n\\(\\ \\ \\ \\ r=r(T,\\ C_\\mathrm{A},\\ C_\\mathrm{B},\\ \\dots)\\)"
   },
   {
     "objectID": "balances/material/KineticsIntroJTFVisuals.html#kinetic-expressions",
     "href": "balances/material/KineticsIntroJTFVisuals.html#kinetic-expressions",
     "title": "Chemical and Thermal Processes",
     "section": "Kinetic Expressions",
-    "text": "Kinetic Expressions\nExperimentally and from theoretical considerations, a reaction such as \\(\\nu_\\mathrm{B} \\mathrm{B} + \\nu_\\mathrm{C} \\mathrm{C} = \\nu_\\mathrm{P} \\mathrm{P} + \\nu_\\mathrm{Q} \\mathrm{Q}\\) follows a rate law such as\n\\[\nr = k_f C_\\mathrm{B}^n C_\\mathrm{C}^m - k_r C_\\mathrm{P}^p C_\\mathrm{Q}^q\n\\]\nwhere \\(k_f\\) and \\(k_r\\) are the forward and reverse rate coefficients respectively. The exponents \\(n\\), \\(m\\), \\(p\\), and \\(q\\) are known as the order of reaction with respect to the reactants \\(\\mathrm{B}\\), \\(\\mathrm{C}\\), \\(\\mathrm{P}\\), and \\(\\mathrm{Q}\\). They are not necessarily the same as the stoichiometric coefficients \\(-\\nu_\\mathrm{B}\\), \\(-\\nu_\\mathrm{C}\\), \\(\\nu_\\mathrm{P}\\), and \\(\\nu_\\mathrm{Q}\\)."
+    "text": "Kinetic Expressions\nExperimentally and from theoretical considerations, a reaction such as \\(\\nu_\\mathrm{A} \\mathrm{A} + \\nu_\\mathrm{B} \\mathrm{B} = \\nu_\\mathrm{P} \\mathrm{P} + \\nu_\\mathrm{Q} \\mathrm{Q}\\) follows a rate law such as\n\\[\nr = k_f C_\\mathrm{A}^n C_\\mathrm{B}^m - k_r C_\\mathrm{P}^p C_\\mathrm{Q}^q\n\\]\nwhere \\(k_f\\) and \\(k_r\\) are the forward and reverse rate coefficients respectively. The exponents \\(n\\), \\(m\\), \\(p\\), and \\(q\\) are known as the order of reaction with respect to the reactants \\(\\mathrm{A}\\), \\(\\mathrm{B}\\), \\(\\mathrm{P}\\), and \\(\\mathrm{Q}\\). They are not necessarily the same as the stoichiometric coefficients \\(-\\nu_\\mathrm{A}\\), \\(-\\nu_\\mathrm{B}\\), \\(\\nu_\\mathrm{P}\\), and \\(\\nu_\\mathrm{Q}\\)."
   },
   {
     "objectID": "balances/material/KineticsIntroJTFVisuals.html#kinetic-expressions-cont.",
     "href": "balances/material/KineticsIntroJTFVisuals.html#kinetic-expressions-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Kinetic Expressions (cont.)",
-    "text": "Kinetic Expressions (cont.)\nFor an irreversible reaction the overall order of reaction is the sum of the exponents e.g., if \\(n = 1\\), and \\(m = 2\\) then the forward reaction is first order in \\(\\mathrm{B}\\), second order in \\(\\mathrm{C}\\) and overall third order. A reaction does not have to have an integral order (i.e., \\(n\\), \\(m\\), etc. do not have to be integers) but non-integral orders imply a complex mechanism for the reaction.\n\nYes, we know that using \\(n\\) for both number of moles, and order of reaction is confusing. That’s just how it’s done. Deal with it.\nDid we mention that \\(C\\) is concentration, and \\(\\mathrm{C}\\) is species \\(\\mathrm{C}\\) as well as carbon? It’s similar to why the main streets in Boston don’t have street signs. It’s obvious what street you’re on and if it isn’t, you don’t belong here."
+    "text": "Kinetic Expressions (cont.)\nFor an irreversible reaction the overall order of reaction is the sum of the exponents e.g., if \\(n = 1\\), and \\(m = 2\\) then the forward reaction is first order in \\(\\mathrm{A}\\), second order in \\(\\mathrm{B}\\) and overall third order. A reaction does not have to have an integral order (i.e., \\(n\\), \\(m\\), etc. do not have to be integers) but non-integral orders imply a complex mechanism for the reaction.\n\nYes, we know that using \\(n\\) for both number of moles, and order of reaction is confusing. That’s just how it’s done. Deal with it.\nDid we mention that \\(C\\) is concentration, and \\(\\mathrm{C}\\) is species \\(\\mathrm{C}\\) as well as carbon? It’s similar to why the main streets in Boston don’t have street signs. It’s obvious what street you’re on and if it isn’t, you don’t belong here."
   },
   {
     "objectID": "balances/material/KineticsIntroJTFVisuals.html#temperature-dependence",
@@ -1859,49 +1859,63 @@
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#ideal-homogeneous-reactors",
     "title": "Chemical and Thermal Processes",
     "section": "Ideal Homogeneous Reactors",
-    "text": "Ideal Homogeneous Reactors\nMost commercial reactors are heterogeneous reactors.\nWe will focus first on the ideal homogeneous reactors.\n\nBatch (Transient)\n\nProperties are uniform throughout the volume.\nProperties are evolving in time.\n\nCSTR (Mixed, Steady State)\n\nProperties are uniform throughout the volume.\nProperties are constant in time.\n\nPFR (Steady State)\n\nProperties are uniform in the radial direction, \\(r\\).\nProperties are evolving in the axial direction, \\(r\\).\nProperties are constant in time.\n\n\n\n\n\n\n\n\nNote\n\n\nWe will not derive the transient cases for CSTRs or PFRs, but they are critically important during plant start-up and shut-down."
+    "text": "Ideal Homogeneous Reactors\n\nMost commercial reactors are heterogeneous reactors.\nWe will focus first on the ideal homogeneous reactors.\n\nBatch (Transient)\n\nProperties are uniform throughout the volume.\nProperties are evolving in time.\n\nCSTR (Mixed, Steady State)\n\nProperties are uniform throughout the volume.\nProperties are constant in time.\n\nPFR (Steady State)\n\nProperties are uniform in the radial direction, \\(r\\).\nProperties are evolving in the axial direction, \\(r\\).\nProperties are constant in time.\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nWe will not derive the transient cases for CSTRs or PFRs, but they are critically important duringplant start-up and shut-down."
+  },
+  {
+    "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#kinetic-expressions",
+    "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#kinetic-expressions",
+    "title": "Chemical and Thermal Processes",
+    "section": "Kinetic Expressions",
+    "text": "Kinetic Expressions\nWe will rewrite our chemical reactions by dividing through by the absolute value of the stoichiometric coefficient for species \\(\\mathrm{A}\\), giving a result of the form,\n\\[\n\\mathrm{A} + \\frac{\\nu_\\mathrm{B}}{|\\nu_\\mathrm{A}|} \\mathrm{B} + \\cdots \\rightarrow \\frac{\\nu_\\mathrm{P}}{|\\nu_\\mathrm{A}|} \\mathrm{P} + \\frac{\\nu_\\mathrm{S}}{|\\nu_\\mathrm{A}|} \\mathrm{S} + \\cdots\n\\]\nEssentially every chemical reactor class ever follows this practice.\nWith \\(r_\\mathrm{A}\\) equal to \\(\\nu_\\mathrm{A} r = - r\\), we will limit ourselves at the present time to irreversible reactions with kinetics of the form\n\\[\n-r_\\mathrm{A} = k C_\\mathrm{A}^n C_\\mathrm{B}^m\n\\]"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#batch-reactor",
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#batch-reactor",
     "title": "Chemical and Thermal Processes",
     "section": "Batch Reactor",
-    "text": "Batch Reactor\n(image)\nTransient, spatially uniform\n\\[\n\\dot{n}_{j_0} - \\dot{n}_j + \\int_{V_R} r_j dV = \\frac{dn_j}{dt}\n\\]\n\\[\nr_j \\ne r_j(\\mathrm{position)}) \\implies \\int_{V_R} r_j dV = r_j \\int_{V_R} dV = r_j V_R\n\\]"
+    "text": "Batch Reactor\nFor our transient, spatially uniform, constant-volume batch reactor\n(image)\n\\[\n\\dot{n}_{j_0} - \\dot{n}_j + \\int_{V_R} r_j dV = \\frac{dn_j}{dt}\n\\]\n\\[\nr_j \\ne r_j(\\mathrm{position)}) \\implies \\int_{V_R} r_j dV = r_j \\int_{V_R} dV = r_j V_R\n\\]\nor\n\\[\n\\frac{1}{V_R} \\frac{dn_j}{dt} = r_j\\ \\  \\text{  or  }\\ \\  \\frac{dC_j}{dt} = r_j\n\\]"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#batch-reactor-cont.",
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#batch-reactor-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Batch Reactor (cont.)",
-    "text": "Batch Reactor (cont.)\nFor Species A, \\(n_\\mathrm{A} = n_\\mathrm{A_0} (1- f_\\mathrm{A})\\)\n\n\n\\[\n(-r_\\mathrm{A}) V_R = - \\frac{dn_\\mathrm{A}}{dt}\n\\] \\[\n\\int^{t_2}_{t_1} dt = \\int^{n_{\\mathrm{A_2}}}_{n_{\\mathrm{A_1}}} \\frac{dn_\\mathrm{A}}{r_\\mathrm{A} V_R}\n\\] \\[\n\\boxed{ t_2 - t_1 =  \\int^{n_{\\mathrm{A_2}}}_{n_{\\mathrm{A_1}}} \\frac{dn_\\mathrm{A}}{r_\\mathrm{A} V_R} }\n\\]\n\n\\[\n(-r_\\mathrm{A}) V_R = n_\\mathrm{A_0}\\frac{df_\\mathrm{A}}{dt}\n\\] \\[\n\\int^{t_2}_{t_1} dt = n_\\mathrm{A_0}\\int^{f_{\\mathrm{A_2}}}_{f_{\\mathrm{A_1}}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A}) V_R}\n\\] \\[\n\\boxed{ t_2 - t_1 = n_\\mathrm{A_0}\\int^{f_{\\mathrm{A_2}}}_{f_{\\mathrm{A_1}}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A}) V_R} }\n\\]\n\nfor \\(t_1 = 0,\\ f_\\mathrm{A_1} = 0\\)\n\n\n\\[\nt =  \\int^{n_{\\mathrm{A}}}_{n_{\\mathrm{A_0}}} \\frac{dn_\\mathrm{A}}{r_\\mathrm{A} V_R}\n\\]\n\n\\[\nt = n_\\mathrm{A_0}\\int^{f_{\\mathrm{A}}}_0 \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A}) V_R}\n\\]"
+    "text": "Batch Reactor (cont.)\nFor Species A (constant \\(V_R\\))\n\\[\nn_\\mathrm{A} = n_\\mathrm{A_0} (1- f_\\mathrm{A})\n\\]\nand\n\\[\n\\frac{1}{V_R}\\frac{dn_\\mathrm{A}}{dt} = \\frac{n_\\mathrm{A_0}}{V_R}\\frac{d(1- f_\\mathrm{A})}{dt} = -C_\\mathrm{A_0} \\frac{df_\\mathrm{A}}{dt}\n\\]\nor \\[\n\\frac{1}{V_R}\\frac{dn_\\mathrm{A}}{dt} = \\frac{dC_\\mathrm{A}}{dt}\n\\]"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#batch-reactor-cont.-1",
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#batch-reactor-cont.-1",
     "title": "Chemical and Thermal Processes",
     "section": "Batch Reactor (cont.)",
-    "text": "Batch Reactor (cont.)\nIn terms of concentration:\n\n\n\\[\nt = - \\int^{C_{\\mathrm{A}}}_{C_{\\mathrm{A_0}}} \\frac{dC_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\n\n\\[\nt =  C_\\mathrm{A_0} \\int^{f_{\\mathrm{A}}}_{0} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\n\nIn terms of \\(f_\\mathrm{A}\\) (image)\nIn terms of \\(C_\\mathrm{A}\\) (image)"
+    "text": "Batch Reactor (cont.)\n\n\nIn terms of \\(f_\\mathrm{A}\\) \\[\n-C_\\mathrm{A_0} \\frac{df_\\mathrm{A}}{dt} = r_\\mathrm{A}\n\\]\n\\[\n\\int_0^t dt = C_\\mathrm{A_0} \\int_0^{f_\\mathrm{A}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\] \\[\nt = C_\\mathrm{A_0} \\int_0^{f_\\mathrm{A}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\n\nIn terms of \\(C_\\mathrm{A}\\) \\[\n\\frac{dC_\\mathrm{A}}{dt} = r_\\mathrm{A}\n\\] \\[\n\\int_0^t dt = \\int_{C_\\mathrm{A_0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{r_\\mathrm{A}}\n\\] \\[\nt = \\int_{C_\\mathrm{A_0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{r_\\mathrm{A}}\n\\]"
+  },
+  {
+    "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#batch-reactor-cont.-2",
+    "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#batch-reactor-cont.-2",
+    "title": "Chemical and Thermal Processes",
+    "section": "Batch Reactor (cont.)",
+    "text": "Batch Reactor (cont.)\n\n\nIn terms of \\(f_\\mathrm{A}\\) \\[\nt = C_\\mathrm{A_0} \\int_0^{f_\\mathrm{A}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\] (image)\n\nIn terms of \\(C_\\mathrm{A}\\) \\[\nt = \\int_{C_\\mathrm{A_0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{r_\\mathrm{A}}\n\\] (image)"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#cstr-mixed",
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#cstr-mixed",
     "title": "Chemical and Thermal Processes",
     "section": "CSTR (Mixed)",
-    "text": "CSTR (Mixed)\n(image)\nSteady state, spatially uniform\n\\[\n\\dot{n}_{j_0} - \\dot{n}_j + \\int_{V_R} r_j dV = \\frac{dn_j}{dt}\n\\]\n\\[\nr_j \\ne r_j(\\mathrm{position)} \\implies \\dot{n}_{j_0} - \\dot{n}_j + r_j V_R = 0\n\\]\n\\[\n\\dot{n}_{j_0} = \\dot{n}_j + (-r_j) V_R\n\\]\nFor species \\(\\mathrm{A}\\),\n\\[\n\\boxed{ V_R = \\frac{\\dot{n}_\\mathrm{A_0}-\\dot{n}_\\mathrm{A}}{-r_\\mathrm{A}}}\n\\]"
+    "text": "CSTR (Mixed)\n(image)\nSteady state, spatially uniform\n\\[\n\\dot{n}_{j_0} - \\dot{n}_j + \\int_{V_R} r_j dV = \\frac{dn_j}{dt}\n\\]\n\\[\nr_j \\ne r_j(\\mathrm{position)} \\implies \\dot{n}_{j_0} - \\dot{n}_j + r_j V_R = 0\n\\]\n\\[\n\\dot{n}_{j_0} = \\dot{n}_j + (-r_j) V_R\n\\]\nFor species \\(\\mathrm{A}\\),\n\\[\nV_R = \\frac{\\dot{n}_\\mathrm{A_0}-\\dot{n}_\\mathrm{A}}{-r_\\mathrm{A}}\n\\]"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#cstr-cont.",
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#cstr-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "CSTR (cont.)",
-    "text": "CSTR (cont.)\nSince\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A} = \\dot{n}_\\mathrm{A_0}(1 - f_\\mathrm{A})\\)\nthen\n\\(\\ \\ \\ \\ (-r_\\mathrm{A}) V_R = \\dot{n}_\\mathrm{A_0}(f_\\mathrm{A})\\)\nalso\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A_0}=\\dot{V}_0 C_\\mathrm{A_0}\\)\nDefine\n\\(\\ \\ \\ \\ \\tau \\equiv \\frac{V_R}{\\dot{V}_0}\\)\nthen\n\\(\\ \\ \\ \\ \\boxed{ \\tau = \\frac{V_R}{\\dot{V}_0} = \\frac{C_\\mathrm{A_0}f_\\mathrm{A}}{{-r_\\mathrm{A}}}}\\)"
+    "text": "CSTR (cont.)\n Define the space time, \\(\\tau \\equiv \\frac{V_R}{\\dot{V}_0}\\) \n\n\nIn terms of \\(f_\\mathrm{A}\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A} = \\dot{n}_\\mathrm{A_0}(1 - f_\\mathrm{A})\\)\n\\(\\ \\ \\ \\ (-r_\\mathrm{A}) V_R = \\dot{n}_\\mathrm{A_0}(f_\\mathrm{A})\\)\nand\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A_0}=\\dot{V}_0 C_\\mathrm{A_0}\\)\nthen\n\\(\\ \\ \\ \\ \\tau = \\frac{V_R}{\\dot{V}_0} = \\frac{C_\\mathrm{A_0}f_\\mathrm{A}}{{-r_\\mathrm{A}}}\\)\n\nIn terms of \\(C_\\mathrm{A}\\)\n\\(\\ \\ \\ \\ \\dot{V}_0 = \\dot{V}\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A_0} = \\dot{V}C_\\mathrm{A_0}\\)\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A} = \\dot{V}C_\\mathrm{A}\\)\nthen\n\\(\\ \\ \\ \\ \\tau = \\frac{V_R}{\\dot{V}_0} = \\frac{C_\\mathrm{A_0}- C_\\mathrm{A}}{{-r_\\mathrm{A}}}\\)"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#cstr-cont.-1",
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#cstr-cont.-1",
     "title": "Chemical and Thermal Processes",
     "section": "CSTR (cont.)",
-    "text": "CSTR (cont.)\nSince we’re assuming constant density\n\\(\\ \\ \\ \\ \\dot{V}_0 = \\dot{V},\\ \\ \\ \\ \\dot{n}_\\mathrm{A_0} = \\dot{V}C_\\mathrm{A_0},\\ \\ \\ \\ \\dot{n}_\\mathrm{A} = \\dot{V}C_\\mathrm{A}\\)\nand\n\\(\\ \\ \\ \\ \\boxed{ \\tau = \\frac{V_R}{\\dot{V}_0} = \\frac{C_\\mathrm{A_0}- C_\\mathrm{A}}{{-r_\\mathrm{A}}}}\\)\nIn terms of \\(f_\\mathrm{A}\\) (image)\nIn terms of \\(C_\\mathrm{A}\\) (image)"
+    "text": "CSTR (cont.)\n\n\nIn terms of \\(f_\\mathrm{A}\\)\n\\(\\ \\ \\ \\ \\tau = \\frac{V_R}{\\dot{V}_0} = \\frac{C_\\mathrm{A_0}f_\\mathrm{A}}{{-r_\\mathrm{A}}}\\)\n(image)\n\nIn terms of \\(C_\\mathrm{A}\\)\n\\(\\ \\ \\ \\ \\tau = \\frac{V_R}{\\dot{V}_0} = \\frac{C_\\mathrm{A_0}- C_\\mathrm{A}}{{-r_\\mathrm{A}}}\\)\n(image)"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#pfr-tubular",
@@ -1915,28 +1929,28 @@
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#pfr-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "PFR (cont.)",
-    "text": "PFR (cont.)\nFor reactant \\(\\mathrm{A}\\)\n\\[\n\\int_0^{V_R} dV = \\int_{\\dot{n}_\\mathrm{A0}}^{\\dot{n}_\\mathrm{A}} \\frac{d\\dot{n}_\\mathrm{A}}{r_\\mathrm{A}}\n\\]\n\\[\n\\boxed{ V_R = \\int_{\\dot{n}_\\mathrm{A0}}^{\\dot{n}_\\mathrm{A}} \\frac{d\\dot{n}_\\mathrm{A}}{r_\\mathrm{A}} }\n\\]\n\\(\\dot{n}{_\\mathrm{A}} = \\dot{n}{_\\mathrm{A0}} ( 1 - f_\\mathrm{A})\\)\n\\(d\\dot{n}{_\\mathrm{A}} = -\\dot{n}{_\\mathrm{A0}} df_\\mathrm{A}\\)\n\\[\n\\boxed{ \\frac{V_R}{\\dot{n}_\\mathrm{A0}} = \\frac{\\tau}{C_\\mathrm{A0}} = \\int_0^{f_\\mathrm{A}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})} }\n\\]\n\\[\n\\tau = C_\\mathrm{A0} \\int_0^{f_\\mathrm{A}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\nFor \\(\\rho = \\text{constant}\\)\n\\[\n\\tau = - \\int_{C_\\mathrm{A0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]"
+    "text": "PFR (cont.)\nFor reactant \\(\\mathrm{A}\\)\n\\[\n\\int_0^{V_R} dV = \\int_{\\dot{n}_\\mathrm{A0}}^{\\dot{n}_\\mathrm{A}} \\frac{d\\dot{n}_\\mathrm{A}}{r_\\mathrm{A}}\n\\]\n\\[\nV_R = \\int_{\\dot{n}_\\mathrm{A0}}^{\\dot{n}_\\mathrm{A}} \\frac{d\\dot{n}_\\mathrm{A}}{r_\\mathrm{A}}\n\\]"
   },
   {
-    "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#example--r_mathrma-k-c_mathrma",
-    "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#example--r_mathrma-k-c_mathrma",
+    "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#pfr-cont.-1",
+    "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#pfr-cont.-1",
     "title": "Chemical and Thermal Processes",
-    "section": "Example, \\(-r_\\mathrm{A} = k C_\\mathrm{A}\\)",
-    "text": "Example, \\(-r_\\mathrm{A} = k C_\\mathrm{A}\\)\n\n\n\nBatch\n\n\\[\nt = - \\int_{C_\\mathrm{A0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{k C_\\mathrm{A}}\n\\]\n\\[\nt=\\frac{1}{k}\\ln \\frac{C_\\mathrm{A0}}{C_\\mathrm{A}}\n\\]\n\n\nPFR\n\n\\[\n\\tau = - \\int_{C_\\mathrm{A0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{k C_\\mathrm{A}}\n\\]\n\\[\n\\tau=\\frac{1}{k}\\ln \\frac{C_\\mathrm{A0}}{C_\\mathrm{A}}\n\\]\n\n\nCSTR\n\n\\[\n\\tau = - \\frac{C_\\mathrm{A0} - C_\\mathrm{A}} {k C_\\mathrm{A}}\n\\] \\[\n\\tau=\\frac{1}{k} \\left( \\frac{C_\\mathrm{A0}}{C_\\mathrm{A}} - 1 \\right)\n\\]"
+    "section": "PFR (cont.)",
+    "text": "PFR (cont.)\nTo get the expression in terms of \\(f_\\mathrm{A}\\),\nas before\n\\(\\ \\ \\ \\ \\ \\ \\ \\dot{n}{_\\mathrm{A}} = \\dot{n}{_\\mathrm{A0}} ( 1 - f_\\mathrm{A})\\)\nand\n\\(\\ \\ \\ \\ \\ \\ \\ d\\dot{n}{_\\mathrm{A}} = -\\dot{n}{_\\mathrm{A0}} df_\\mathrm{A}\\)\nMaking the substitutions and dividing by \\(\\dot{n}_\\mathrm{A0}\\)\n\n\\[\n\\frac{V_R}{\\dot{n}_\\mathrm{A0}} = \\frac{\\tau}{C_\\mathrm{A0}} = \\int_0^{f_\\mathrm{A}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\n\n\nor\n\n\n\\[\n\\tau = C_\\mathrm{A0} \\int_0^{f_\\mathrm{A}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\n\n\nIn terms of \\(C_\\mathrm{A}\\)\n\n\n\\[\n\\tau = \\int_{C_\\mathrm{A0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{r_\\mathrm{A}}\n\\]"
   },
   {
-    "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#mole-balance-on-reactor",
-    "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#mole-balance-on-reactor",
+    "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#example--r_mathrma-k-c_mathrma-k-c_mathrma_01-f_mathrma",
+    "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#example--r_mathrma-k-c_mathrma-k-c_mathrma_01-f_mathrma",
     "title": "Chemical and Thermal Processes",
-    "section": "Mole Balance on Reactor",
-    "text": "Mole Balance on Reactor"
+    "section": "Example, \\(-r_\\mathrm{A} = k C_\\mathrm{A} = k C_\\mathrm{A_0}(1-f_\\mathrm{A})\\)",
+    "text": "Example, \\(-r_\\mathrm{A} = k C_\\mathrm{A} = k C_\\mathrm{A_0}(1-f_\\mathrm{A})\\)\n\n\n\nBatch\n\n\\[\nt = - \\int_{C_\\mathrm{A0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{k C_\\mathrm{A}}\n\\]\n\\[\nt=\\frac{1}{k}\\ln \\frac{C_\\mathrm{A0}}{C_\\mathrm{A}}\n\\]\n\n\nPFR\n\n\\[\n\\tau = - \\int_{C_\\mathrm{A0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{k C_\\mathrm{A}}\n\\]\n\\[\n\\tau=\\frac{1}{k}\\ln \\frac{C_\\mathrm{A0}}{C_\\mathrm{A}}\n\\]\n\n\nCSTR\n\n\\[\n\\tau = - \\frac{C_\\mathrm{A0} - C_\\mathrm{A}} {k C_\\mathrm{A}}\n\\] \\[\n\\tau=\\frac{1}{k} \\left( \\frac{C_\\mathrm{A0}}{C_\\mathrm{A}} - 1 \\right)\n\\]\n\nor\n\n\n\n\\[\nt = {C_\\mathrm{A0}} \\int_0^{f_\\mathrm{A}} \\frac{d_\\mathrm{A}}{k C_\\mathrm{A0}(1-f_\\mathrm{A})}\n\\]\n\n\\[\nt = - \\frac{1}{k}\\ln (f_\\mathrm{A}-1)\n\\]\n\n\n\\[\n\\tau = {C_\\mathrm{A0}} \\int_0^{f_\\mathrm{A}} \\frac{d_\\mathrm{A}}{k C_\\mathrm{A0}(1-f_\\mathrm{A})}\n\\]\n\n\\[\n\\tau = - \\frac{1}{k}\\ln (f_\\mathrm{A}-1)\n\\]\n\n\n\\[\n\\tau = \\frac{{C_\\mathrm{A0}f_\\mathrm{A}} } {k C_\\mathrm{A0}(1-f_\\mathrm{A})}\n\\]\n\n\\[\n\\tau = \\frac{{f_\\mathrm{A}} } {k (1-f_\\mathrm{A})}\n\\]"
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#the-takeaways",
     "href": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nFor reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.\nThe yield is the fraction of the desired product that could be produced that is actually produced..\nThe selectivity is the ratio of the desired product to the undesired products.\nDon’t confuse mole fraction, \\(x_\\mathrm{A} = n_\\mathrm{A}/(\\sum n_i)\\), split fraction, \\(t_{A1} = \\dot{n}_\\mathrm{A1}/\\dot{n}_\\mathrm{Ain}\\), and fractional conversion.\\(f_\\mathrm{A} = (\\dot{n}_\\mathrm{A_{in}} - \\dot{n}_\\mathrm{A_{out}})/\\dot{n}_\\mathrm{A_{in}}\\)."
+    "text": "The Takeaways\n\nThe three ideal homogeneous reactor are batch, CSTR, and PFR.\nFor constant density or constant volume reactors, with the processing time, \\(t\\), in the batch being replaced by the space time, \\(\\tau\\), in the PFR.\nThe CSTR model results in (often nonlinear) algebraic equations instead of ordinary differential equations for the batch and PFR.\nThe equations can be expressed in terms of fractional conversion or concentration."
   },
   {
     "objectID": "balances/exergy/index.html",
@@ -1951,6 +1965,90 @@
     "title": "Chemical Kinetics and Reactors",
     "section": "",
     "text": "More in depth study of chemical reactor engineering"
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#ideal-homogeneous-reactors",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#ideal-homogeneous-reactors",
+    "title": "Chemical and Thermal Processes",
+    "section": "Ideal Homogeneous Reactors",
+    "text": "Ideal Homogeneous Reactors\nMost commercial reactors are heterogeneous reactors.\nWe will focus first on the ideal homogeneous reactors.\n\nBatch (Transient)\n\nProperties are uniform throughout the volume.\nProperties are evolving in time.\n\nCSTR (Mixed, Steady State)\n\nProperties are uniform throughout the volume.\nProperties are constant in time.\n\nPFR (Steady State)\n\nProperties are uniform in the radial direction, \\(r\\).\nProperties are evolving in the axial direction, \\(r\\).\nProperties are constant in time.\n\n\n\n\n\n\n\n\nNote\n\n\nWe will not derive the transient cases for CSTRs or PFRs, but they are critically important during plant start-up and shut-down."
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#batch-reactor",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#batch-reactor",
+    "title": "Chemical and Thermal Processes",
+    "section": "Batch Reactor",
+    "text": "Batch Reactor\n(image)\nTransient, spatially uniform\n\\[\n\\dot{n}_{j_0} - \\dot{n}_j + \\int_{V_R} r_j dV = \\frac{dn_j}{dt}\n\\]\n\\[\nr_j \\ne r_j(\\mathrm{position)}) \\implies \\int_{V_R} r_j dV = r_j \\int_{V_R} dV = r_j V_R\n\\]"
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#batch-reactor-cont.",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#batch-reactor-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Batch Reactor (cont.)",
+    "text": "Batch Reactor (cont.)\nFor Species A, \\(n_\\mathrm{A} = n_\\mathrm{A_0} (1- f_\\mathrm{A})\\)\n\n\n\\[\n(-r_\\mathrm{A}) V_R = - \\frac{dn_\\mathrm{A}}{dt}\n\\] \\[\n\\int^{t_2}_{t_1} dt = \\int^{n_{\\mathrm{A_2}}}_{n_{\\mathrm{A_1}}} \\frac{dn_\\mathrm{A}}{r_\\mathrm{A} V_R}\n\\] \\[\n\\boxed{ t_2 - t_1 =  \\int^{n_{\\mathrm{A_2}}}_{n_{\\mathrm{A_1}}} \\frac{dn_\\mathrm{A}}{r_\\mathrm{A} V_R} }\n\\]\n\n\\[\n(-r_\\mathrm{A}) V_R = n_\\mathrm{A_0}\\frac{df_\\mathrm{A}}{dt}\n\\] \\[\n\\int^{t_2}_{t_1} dt = n_\\mathrm{A_0}\\int^{f_{\\mathrm{A_2}}}_{f_{\\mathrm{A_1}}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A}) V_R}\n\\] \\[\n\\boxed{ t_2 - t_1 = n_\\mathrm{A_0}\\int^{f_{\\mathrm{A_2}}}_{f_{\\mathrm{A_1}}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A}) V_R} }\n\\]\n\nfor \\(t_1 = 0,\\ f_\\mathrm{A_1} = 0\\)\n\n\n\\[\nt =  \\int^{n_{\\mathrm{A}}}_{n_{\\mathrm{A_0}}} \\frac{dn_\\mathrm{A}}{r_\\mathrm{A} V_R}\n\\]\n\n\\[\nt = n_\\mathrm{A_0}\\int^{f_{\\mathrm{A}}}_0 \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A}) V_R}\n\\]"
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#batch-reactor-cont.-1",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#batch-reactor-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Batch Reactor (cont.)",
+    "text": "Batch Reactor (cont.)\nIn terms of concentration:\n\n\n\\[\nt = - \\int^{C_{\\mathrm{A}}}_{C_{\\mathrm{A_0}}} \\frac{dC_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\n\n\\[\nt =  C_\\mathrm{A_0} \\int^{f_{\\mathrm{A}}}_{0} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\n\nIn terms of \\(f_\\mathrm{A}\\) (image)\nIn terms of \\(C_\\mathrm{A}\\) (image)"
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#cstr-mixed",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#cstr-mixed",
+    "title": "Chemical and Thermal Processes",
+    "section": "CSTR (Mixed)",
+    "text": "CSTR (Mixed)\n(image)\nSteady state, spatially uniform\n\\[\n\\dot{n}_{j_0} - \\dot{n}_j + \\int_{V_R} r_j dV = \\frac{dn_j}{dt}\n\\]\n\\[\nr_j \\ne r_j(\\mathrm{position)} \\implies \\dot{n}_{j_0} - \\dot{n}_j + r_j V_R = 0\n\\]\n\\[\n\\dot{n}_{j_0} = \\dot{n}_j + (-r_j) V_R\n\\]\nFor species \\(\\mathrm{A}\\),\n\\[\n\\boxed{ V_R = \\frac{\\dot{n}_\\mathrm{A_0}-\\dot{n}_\\mathrm{A}}{-r_\\mathrm{A}}}\n\\]"
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#cstr-cont.",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#cstr-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "CSTR (cont.)",
+    "text": "CSTR (cont.)\nSince\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A} = \\dot{n}_\\mathrm{A_0}(1 - f_\\mathrm{A})\\)\nthen\n\\(\\ \\ \\ \\ (-r_\\mathrm{A}) V_R = \\dot{n}_\\mathrm{A_0}(f_\\mathrm{A})\\)\nalso\n\\(\\ \\ \\ \\ \\dot{n}_\\mathrm{A_0}=\\dot{V}_0 C_\\mathrm{A_0}\\)\nDefine\n\\(\\ \\ \\ \\ \\tau \\equiv \\frac{V_R}{\\dot{V}_0}\\)\nthen\n\\(\\ \\ \\ \\ \\boxed{ \\tau = \\frac{V_R}{\\dot{V}_0} = \\frac{C_\\mathrm{A_0}f_\\mathrm{A}}{{-r_\\mathrm{A}}}}\\)"
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#cstr-cont.-1",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#cstr-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "CSTR (cont.)",
+    "text": "CSTR (cont.)\nSince we’re assuming constant density\n\\(\\ \\ \\ \\ \\dot{V}_0 = \\dot{V},\\ \\ \\ \\ \\dot{n}_\\mathrm{A_0} = \\dot{V}C_\\mathrm{A_0},\\ \\ \\ \\ \\dot{n}_\\mathrm{A} = \\dot{V}C_\\mathrm{A}\\)\nand\n\\(\\ \\ \\ \\ \\boxed{ \\tau = \\frac{V_R}{\\dot{V}_0} = \\frac{C_\\mathrm{A_0}- C_\\mathrm{A}}{{-r_\\mathrm{A}}}}\\)\nIn terms of \\(f_\\mathrm{A}\\) (image)\nIn terms of \\(C_\\mathrm{A}\\) (image)"
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#pfr-tubular",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#pfr-tubular",
+    "title": "Chemical and Thermal Processes",
+    "section": "PFR (Tubular)",
+    "text": "PFR (Tubular)\n(image)\nSteady state, radially uniform, axially varies\nDifferential Element\n(image) \\(\\dot{n}_j\\) \\(\\dot{n}_j+d\\dot{n}_j\\) \\(dV\\)\n\\[\n\\dot{n}_j - (\\dot{n}_j + d\\dot{n}_j) + r_j dV = \\frac{dn_j}{dt}\n\\]\n\\[\n\\frac{d\\dot{n}_j}{dV} = r_j\n\\]"
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#pfr-cont.",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#pfr-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "PFR (cont.)",
+    "text": "PFR (cont.)\nFor reactant \\(\\mathrm{A}\\)\n\\[\n\\int_0^{V_R} dV = \\int_{\\dot{n}_\\mathrm{A0}}^{\\dot{n}_\\mathrm{A}} \\frac{d\\dot{n}_\\mathrm{A}}{r_\\mathrm{A}}\n\\]\n\\[\n\\boxed{ V_R = \\int_{\\dot{n}_\\mathrm{A0}}^{\\dot{n}_\\mathrm{A}} \\frac{d\\dot{n}_\\mathrm{A}}{r_\\mathrm{A}} }\n\\]\n\\(\\dot{n}{_\\mathrm{A}} = \\dot{n}{_\\mathrm{A0}} ( 1 - f_\\mathrm{A})\\)\n\\(d\\dot{n}{_\\mathrm{A}} = -\\dot{n}{_\\mathrm{A0}} df_\\mathrm{A}\\)\n\\[\n\\boxed{ \\frac{V_R}{\\dot{n}_\\mathrm{A0}} = \\frac{\\tau}{C_\\mathrm{A0}} = \\int_0^{f_\\mathrm{A}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})} }\n\\]\n\\[\n\\tau = C_\\mathrm{A0} \\int_0^{f_\\mathrm{A}} \\frac{df_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]\nFor \\(\\rho = \\text{constant}\\)\n\\[\n\\tau = - \\int_{C_\\mathrm{A0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{(-r_\\mathrm{A})}\n\\]"
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#example--r_mathrma-k-c_mathrma",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#example--r_mathrma-k-c_mathrma",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example, \\(-r_\\mathrm{A} = k C_\\mathrm{A}\\)",
+    "text": "Example, \\(-r_\\mathrm{A} = k C_\\mathrm{A}\\)\n\n\n\nBatch\n\n\\[\nt = - \\int_{C_\\mathrm{A0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{k C_\\mathrm{A}}\n\\]\n\\[\nt=\\frac{1}{k}\\ln \\frac{C_\\mathrm{A0}}{C_\\mathrm{A}}\n\\]\n\n\nPFR\n\n\\[\n\\tau = - \\int_{C_\\mathrm{A0}}^{C_\\mathrm{A}} \\frac{dC_\\mathrm{A}}{k C_\\mathrm{A}}\n\\]\n\\[\n\\tau=\\frac{1}{k}\\ln \\frac{C_\\mathrm{A0}}{C_\\mathrm{A}}\n\\]\n\n\nCSTR\n\n\\[\n\\tau = - \\frac{C_\\mathrm{A0} - C_\\mathrm{A}} {k C_\\mathrm{A}}\n\\] \\[\n\\tau=\\frac{1}{k} \\left( \\frac{C_\\mathrm{A0}}{C_\\mathrm{A}} - 1 \\right)\n\\]"
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#mole-balance-on-reactor",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#mole-balance-on-reactor",
+    "title": "Chemical and Thermal Processes",
+    "section": "Mole Balance on Reactor",
+    "text": "Mole Balance on Reactor"
+  },
+  {
+    "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#the-takeaways",
+    "href": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nFor reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.\nThe yield is the fraction of the desired product that could be produced that is actually produced..\nThe selectivity is the ratio of the desired product to the undesired products.\nDon’t confuse mole fraction, \\(x_\\mathrm{A} = n_\\mathrm{A}/(\\sum n_i)\\), split fraction, \\(t_{A1} = \\dot{n}_\\mathrm{A1}/\\dot{n}_\\mathrm{Ain}\\), and fractional conversion.\\(f_\\mathrm{A} = (\\dot{n}_\\mathrm{A_{in}} - \\dot{n}_\\mathrm{A_{out}})/\\dot{n}_\\mathrm{A_{in}}\\)."
   },
   {
     "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#sample-combustion-calculations",
