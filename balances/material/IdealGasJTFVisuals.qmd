@@ -56,7 +56,10 @@ value of $R$ for each gas, which is $R/M$. For dry air, $R = 287.058\ \mathrm{J/
 from.
 >
 :::{style="font-size: 80px; display: inline-block;"}
-(Attributed to everybody *especially Grace Hopper and Andrew S. Tanenbaum*)
+Attributed to everybody
+:::
+:::{style = "font-size: 60 px; display: inline-block;"}
+(especially Grace Hopper and Andrew S. Tanenbaum)
 :::
 
 <br/>
@@ -84,9 +87,9 @@ For historical reasons, the molar flow of a gas is often measured in *standard c
 
 For the common case of $T_\mathrm{S} = 0\ ^\circ \mathrm{C}$ and $P_\mathrm{S} = 101.325\ \mathrm{kPa}$:
 
-$$1\ \mathrm{SCM} = 44.615\ \mathrm{mol} = 0.04462\ \mathrm{kmol}$$
+$$\center{1\ \mathrm{SCM} = 44.615\ \mathrm{mol} = 0.04462\ \mathrm{kmol}}$$
 
-$$1\ \mathrm{SCF} = 2.785 \times 10^{−3}\ \text{lb-mol}$$
+$$\center{1\ \mathrm{SCF} = 2.785 \times 10^{−3}\ \text{lb-mol}}$$
 
 You can always determine the true volumetric flow rate with either the ideal gas law or by using ratios of absolute temperatures and pressures.
 
@@ -152,12 +155,13 @@ $$\rho = \frac{nM}{V} = \frac{PM}{RT}$$
 
 ## The Takeaways
 
-1. There are two parts to the ideal gas law: The equation of state, $PV = nRT$, and the internal energy is only a function of temperature..
-2. The ideal gas law is in error by no more than 1% if the ideal molar volume is greater than 5 L/mol for diatomic gases or greater than 20 L/mol for other gases.
-3. We are using an STP of $0\ ^\circ\mathrm{C}$ and $101.325\ \mathrm{kPa}$.
-4. Molar flow rates are often given in SCM or SCF per time.
-5. The partial pressure of a species in an ideal gas is the mole fraction times the total pressure.
-6. The pure-component volume of a species in an ideal gas is the mole fraction times the total volume.
+:::{style="font-size: 90px;"}
+ 1. There are two parts to the ideal gas law: The equation of state, $PV = nRT$, and the internal energy is only a function of temperature..
+ 2. The ideal gas law is in error by no more than 1% if the ideal molar volume is greater than 5 L/mol for diatomic gases or greater than 20 L/mol for other gases.
+ 3. We are using an STP of $0\ ^\circ\mathrm{C}$ and $101.325\ \mathrm{kPa}$.
+ 4. Molar flow rates are often given in SCM or SCF per time.
+ 5. The partial pressure of a species in an ideal gas is the mole fraction times the total pressure.
+ 6. The pure-component volume of a species in an ideal gas is the mole fraction times the total volume.
 
 
 #
