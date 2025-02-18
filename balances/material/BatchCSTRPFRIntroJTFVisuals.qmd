@@ -10,13 +10,13 @@ format:
     html-math-method: mathjax
 ---
 
-# Wishing Upon a CSTR</br>Just the Facts{.bigbold75}
+# Wishing Upon a CSTR
 
 ::: {style="text-align: center;"}
 DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-80%"}
 
 
 ## Ideal Homogeneous Reactors
@@ -64,23 +64,29 @@ $$
 ## Batch Reactor
 For our transient, spatially uniform, constant-volume batch reactor
 
-(image)
+![](BatchImage.png){.absolute top=15% left=14% width=15%}
 
-
-
+:::{.absolute left=35% top=18%}
 $$
 \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
 $$
+:::
 
+:::{.absolute left=5% top=45%}
 $$
 r_j \ne r_j(\mathrm{position)}) \implies \int_{V_R} r_j dV = r_j \int_{V_R} dV = r_j V_R
 $$
+:::
 
+:::{.absolute left=0% top=65%}
 or
+:::
 
+:::{.absolute left=10% top=75%}
 $$
 \frac{1}{V_R} \frac{dn_j}{dt} = r_j\ \  \text{  or  }\ \  \frac{dC_j}{dt} = r_j
 $$
+:::
 
 ## Batch Reactor (cont.)
 
@@ -141,44 +147,80 @@ In terms of $f_\mathrm{A}$
 $$
 t = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
 $$
-(image)
+![](FAvsRatePlot.png)
 :::
 :::{.column width=50%}
 In terms of $C_\mathrm{A}$
 $$
 t = \int_{C_\mathrm{A_0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
 $$
-(image)
+![](CAvsRatePlot.png)
 :::
 ::::
 
+:::{.absolute top=90% left=5%}
+$0$
+:::
+:::{.absolute top=90% left=30%}
+$f_\mathrm{A}$
+:::
+:::{.absolute top=68% left=-4%}
+$\frac{C_\mathrm{A_0}}{(-r_\mathrm{A})}$
+:::
+:::{.absolute top=82% left=10%}
+$\mathrm{Area} = t$
+:::
+
+:::{.absolute top=91% left=57%}
+$0$
+:::
+:::{.absolute top=91% left=81%}
+$C_\mathrm{A_0}$
+:::
+:::{.absolute top=91% left=62.5%}
+$C_\mathrm{A}$
+:::
+:::{.absolute top=68% left=48.5%}
+$\frac{1}{(-r_\mathrm{A})}$
+:::
+:::{.absolute top=82% left=65.5%}
+$\mathrm{Area} = t$
+:::
+
 ## CSTR (Mixed)
 
-(image)
+![](CSTRImage.png){.absolute top=15% left=5% width=35%}
 
 Steady state, spatially uniform
 
+:::{.absolute top=15% left=45%}
 $$
 \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
 $$
+:::
 
+:::{.absolute top=40% left=5%}
 $$
 r_j \ne r_j(\mathrm{position)} \implies \dot{n}_{j_0} - \dot{n}_j + r_j V_R = 0
 $$
-
+:::
+:::{.absolute top=52% left=44%}
 $$
 \dot{n}_{j_0} = \dot{n}_j + (-r_j) V_R
 $$
-
+:::
+:::{.absolute top=65% left=5%}
 For species $\mathrm{A}$,
-
+:::
+:::{.absolute top=70% left=44%}
 $$
 V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}
 $$
+:::
 
 ## CSTR (cont.)
 
-<br/><br/>
+<br/>
 Define the *space time*, $\tau \equiv \frac{V_R}{\dot{V}_0}$
 <br/><br/>
 
@@ -207,9 +249,9 @@ In terms of $C_\mathrm{A}$
 
 $\ \ \ \ \dot{V}_0 = \dot{V}$
 
-$\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}C_\mathrm{A_0}$
+$\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}_0C_\mathrm{A_0}$
 
-$\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}C_\mathrm{A}$
+$\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}_0C_\mathrm{A}$
 
 then
 
@@ -226,7 +268,7 @@ In terms of $f_\mathrm{A}$
 
 $\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}}$
 
-(image)
+![](FAvsRatePlotCSTR.png)
 
 :::
 
@@ -237,43 +279,87 @@ In terms of $C_\mathrm{A}$
 
 $\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}$
 
-(image)
+![](CAvsRatePlotCSTR.png)
 
 :::
 ::::
 
+
+:::{.absolute top=77% left=5%}
+$0$
+:::
+:::{.absolute top=77% left=30%}
+$f_\mathrm{A}$
+:::
+:::{.absolute top=53% left=-4%}
+$\frac{C_\mathrm{A_0}}{(-r_\mathrm{A})}$
+:::
+:::{.absolute top=69% left=12%}
+$\mathrm{Area} = \tau$
+:::
+
+:::{.absolute top=77% left=57%}
+$0$
+:::
+:::{.absolute top=77% left=81%}
+$C_\mathrm{A_0}$
+:::
+:::{.absolute top=77% left=62.5%}
+$C_\mathrm{A}$
+:::
+:::{.absolute top=53% left=48%}
+$\frac{1}{(-r_\mathrm{A})}$
+:::
+:::{.absolute top=67% left=65.5%}
+$\mathrm{Area} = \tau$
+:::
+
 ## PFR (Tubular)
 
-(image)
+![](PFRImage.png){.absolute top=17.5% left=5% width=45%}
 
 Steady state, radially uniform, axially varies
 
+:::{.absolute top=19% left=60%}
 Differential Element
+:::
 
-(image)
+
+![](DVElement.png){.absolute top=27% left=64% width=25%}
+
+:::{.absolute top=35% left=65%}
 $\dot{n}_j$
+:::
+:::{.absolute top=35% left=84%}
 $\dot{n}_j+d\dot{n}_j$
+:::
+:::{.absolute top=58% left=74%}
 $dV$
-
+:::
+:::{.absolute top=45% left=0%}
 $$
 \dot{n}_j - (\dot{n}_j + d\dot{n}_j) + r_j dV = \frac{dn_j}{dt}
 $$
-
+:::
+:::{.absolute top=60% left=0%}
 $$
 \frac{d\dot{n}_j}{dV} = r_j
 $$
+:::
 
-## PFR (cont.)
-
+:::{.absolute top=70% left=25%}
 For reactant $\mathrm{A}$
-
+:::
+:::{.absolute top=75% left=25%}
 $$
-\int_0^{V_R} dV = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}}
+\int_0^{V_R} dV = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}},
 $$
-
+:::
+:::{.absolute top=75% left=70%}
 $$
 V_R = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}}
 $$
+:::
 
 ## PFR (cont.)
 
@@ -312,14 +398,66 @@ $$
 $$
 :::
 
-## Example, $-r_\mathrm{A} = k C_\mathrm{A} = k C_\mathrm{A_0}(1-f_\mathrm{A})$
+## PFR (cont.)
+
+::::{.columns}
+:::{.column width=50%}
+In terms of $f_\mathrm{A}$
+$$
+\tau = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
+$$
+![](FAvsRatePlot.png)
+:::
+:::{.column width=50%}
+In terms of $C_\mathrm{A}$
+$$
+\tau = \int_{C_\mathrm{A_0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
+$$
+![](CAvsRatePlot.png)
+:::
+::::
+
+:::{.absolute top=90% left=5%}
+$0$
+:::
+:::{.absolute top=90% left=30%}
+$f_\mathrm{A}$
+:::
+:::{.absolute top=68% left=-4%}
+$\frac{C_\mathrm{A_0}}{(-r_\mathrm{A})}$
+:::
+:::{.absolute top=82% left=10%}
+$\mathrm{Area} = \tau$
+:::
+
+:::{.absolute top=91.5% left=57%}
+$0$
+:::
+:::{.absolute top=91.5% left=81%}
+$C_\mathrm{A_0}$
+:::
+:::{.absolute top=91.5% left=62.5%}
+$C_\mathrm{A}$
+:::
+:::{.absolute top=68% left=48%}
+$\frac{1}{(-r_\mathrm{A})}$
+:::
+:::{.absolute top=82% left=65.5%}
+$\mathrm{Area} = \tau$
+:::
+
+
+## Example, $-r_\mathrm{A} = k C_\mathrm{A} = k C_\mathrm{A_0}(1-f_\mathrm{A})${.bigbold75}
+
+<br/>
 
 ::::{.columns}
 :::{.column width=33%}
 
-:::{style="text-align: center;"}
+:::{style="text-align: center; font-size: 95px;"}
 **Batch**
 :::
+:::{style="font-size: 95px;"}
 $$
 t = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{k C_\mathrm{A}} 
 $$
@@ -328,12 +466,13 @@ $$
 t=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
 $$
 :::
+:::
 :::{.column width=33%}
 
-:::{style="text-align: center;"}
+:::{style="text-align: center; font-size: 95px;"}
 **PFR**
 :::
-
+:::{style="font-size: 95px;"}
 $$
 \tau = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{k C_\mathrm{A}} 
 $$
@@ -342,18 +481,20 @@ $$
 \tau=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
 $$
 :::
+:::
 :::{.column width=33%}
 
-:::{style="text-align: center;"}
+:::{style="text-align: center; font-size: 95px;"}
 **CSTR**
 :::
-
+:::{style="font-size: 95px;"}
 $$
 \tau = - \frac{C_\mathrm{A0} - C_\mathrm{A}} {k C_\mathrm{A}} 
 $$
 $$
 \tau=\frac{1}{k} \left( \frac{C_\mathrm{A0}}{C_\mathrm{A}} - 1 \right)
 $$
+:::
 :::
 ::::
 
@@ -364,24 +505,24 @@ or
 
 :::{style="font-size: 65px;"}
 $$
-t = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{d_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})} 
+t = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})} 
 $$
 :::
 
 $$
-t = - \frac{1}{k}\ln (f_\mathrm{A}-1)
+t = - \frac{1}{k}\ln (1-f_\mathrm{A})
 $$
 :::
 :::{.column width=33%}
 
 :::{style="font-size: 65px;"}
 $$
-\tau = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{d_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})} 
+\tau = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})} 
 $$
 :::
 
 $$
-\tau = - \frac{1}{k}\ln (f_\mathrm{A}-1)
+\tau = - \frac{1}{k}\ln (1-f_\mathrm{A})
 $$
 :::
 :::{.column width=33%}
@@ -401,14 +542,14 @@ $$
 ## The Takeaways
 
 1. The three ideal homogeneous reactor are batch, CSTR, and PFR.
-2. For constant density or constant volume reactors, with the processing time, $t$, in the batch being replaced by the space time, $\tau$, in the PFR.
-3. The CSTR model results in (often nonlinear) algebraic equations instead of ordinary differential equations for the batch and PFR.
-4. The equations can be expressed in terms of fractional conversion or concentration.
+2. For constant-density or constant-volume batch and PFR reactors, the design equations are the same, except for the processing time, $t$, in the batch being replaced by the space time, $\tau$, in the PFR.
+3. The CSTR model results in (often nonlinear) algebraic equations instead of the ordinary differential equations for the batch and PFR.
+4. The design equations can be expressed in terms of fractional conversion or concentration.
 
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. *Recycling Before Recycling Was Cool*, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
