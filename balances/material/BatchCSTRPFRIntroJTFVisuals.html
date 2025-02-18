@@ -127,12 +127,12 @@
 
 
 <section>
-<section id="wishing-upon-a-cstrjust-the-facts" class="title-slide slide level1 bigbold75 center">
-<h1>Wishing Upon a CSTR<br>Just the Facts</h1>
+<section id="wishing-upon-a-cstr" class="title-slide slide level1 center">
+<h1>Wishing Upon a CSTR</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -80%; left: 22%; "></p>
 </section>
 <section id="ideal-homogeneous-reactors" class="slide level2">
 <h2>Ideal Homogeneous Reactors</h2>
@@ -189,17 +189,25 @@
 <section id="batch-reactor" class="slide level2">
 <h2>Batch Reactor</h2>
 <p>For our transient, spatially uniform, constant-volume batch reactor</p>
-<p>(image)</p>
+<p><img data-src="BatchImage.png" class="absolute" style="top: 15%; left: 14%; width: 15%; "></p>
+<div class="absolute" style="top: 18%; left: 35%; ">
 <p><span class="math display">\[
 \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
 \]</span></p>
+</div>
+<div class="absolute" style="top: 45%; left: 5%; ">
 <p><span class="math display">\[
 r_j \ne r_j(\mathrm{position)}) \implies \int_{V_R} r_j dV = r_j \int_{V_R} dV = r_j V_R
 \]</span></p>
+</div>
+<div class="absolute" style="top: 65%; left: 0%; ">
 <p>or</p>
+</div>
+<div class="absolute" style="top: 75%; left: 10%; ">
 <p><span class="math display">\[
 \frac{1}{V_R} \frac{dn_j}{dt} = r_j\ \  \text{  or  }\ \  \frac{dC_j}{dt} = r_j
 \]</span></p>
+</div>
 </section>
 <section id="batch-reactor-cont." class="slide level2">
 <h2>Batch Reactor (cont.)</h2>
@@ -243,34 +251,71 @@ t = \int_{C_\mathrm{A_0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
 <div class="column" style="width:50%;">
 <p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> <span class="math display">\[
 t = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
-\]</span> (image)</p>
+\]</span> <img data-src="FAvsRatePlot.png"></p>
 </div><div class="column" style="width:50%;">
 <p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> <span class="math display">\[
 t = \int_{C_\mathrm{A_0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
-\]</span> (image)</p>
+\]</span> <img data-src="CAvsRatePlot.png"></p>
 </div></div>
+<div class="absolute" style="top: 90%; left: 5%; ">
+<p><span class="math inline">\(0\)</span></p>
+</div>
+<div class="absolute" style="top: 90%; left: 30%; ">
+<p><span class="math inline">\(f_\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 68%; left: -4%; ">
+<p><span class="math inline">\(\frac{C_\mathrm{A_0}}{(-r_\mathrm{A})}\)</span></p>
+</div>
+<div class="absolute" style="top: 82%; left: 10%; ">
+<p><span class="math inline">\(\mathrm{Area} = t\)</span></p>
+</div>
+<div class="absolute" style="top: 91%; left: 57%; ">
+<p><span class="math inline">\(0\)</span></p>
+</div>
+<div class="absolute" style="top: 91%; left: 81%; ">
+<p><span class="math inline">\(C_\mathrm{A_0}\)</span></p>
+</div>
+<div class="absolute" style="top: 91%; left: 62.5%; ">
+<p><span class="math inline">\(C_\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 68%; left: 48.5%; ">
+<p><span class="math inline">\(\frac{1}{(-r_\mathrm{A})}\)</span></p>
+</div>
+<div class="absolute" style="top: 82%; left: 65.5%; ">
+<p><span class="math inline">\(\mathrm{Area} = t\)</span></p>
+</div>
 </section>
 <section id="cstr-mixed" class="slide level2">
 <h2>CSTR (Mixed)</h2>
-<p>(image)</p>
+<p><img data-src="CSTRImage.png" class="absolute" style="top: 15%; left: 5%; width: 35%; "></p>
 <p>Steady state, spatially uniform</p>
+<div class="absolute" style="top: 15%; left: 45%; ">
 <p><span class="math display">\[
 \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
 \]</span></p>
+</div>
+<div class="absolute" style="top: 40%; left: 5%; ">
 <p><span class="math display">\[
 r_j \ne r_j(\mathrm{position)} \implies \dot{n}_{j_0} - \dot{n}_j + r_j V_R = 0
 \]</span></p>
+</div>
+<div class="absolute" style="top: 52%; left: 44%; ">
 <p><span class="math display">\[
 \dot{n}_{j_0} = \dot{n}_j + (-r_j) V_R
 \]</span></p>
+</div>
+<div class="absolute" style="top: 65%; left: 5%; ">
 <p>For species <span class="math inline">\(\mathrm{A}\)</span>,</p>
+</div>
+<div class="absolute" style="top: 70%; left: 44%; ">
 <p><span class="math display">\[
 V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}
 \]</span></p>
+</div>
 </section>
 <section id="cstr-cont." class="slide level2">
 <h2>CSTR (cont.)</h2>
-<p><br><br> Define the <em>space time</em>, <span class="math inline">\(\tau \equiv \frac{V_R}{\dot{V}_0}\)</span> <br><br></p>
+<p><br> Define the <em>space time</em>, <span class="math inline">\(\tau \equiv \frac{V_R}{\dot{V}_0}\)</span> <br><br></p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span></p>
@@ -283,8 +328,8 @@ V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}
 </div><div class="column" style="width:50%;">
 <p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span></p>
 <p><span class="math inline">\(\ \ \ \ \dot{V}_0 = \dot{V}\)</span></p>
-<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}C_\mathrm{A_0}\)</span></p>
-<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}C_\mathrm{A}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}_0C_\mathrm{A_0}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}_0C_\mathrm{A}\)</span></p>
 <p>then</p>
 <p><span class="math inline">\(\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}\)</span></p>
 </div></div>
@@ -295,37 +340,82 @@ V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}
 <div class="column" style="width:50%;">
 <p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span></p>
 <p><span class="math inline">\(\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}}\)</span></p>
-<p>(image)</p>
+<p><img data-src="FAvsRatePlotCSTR.png"></p>
 </div><div class="column" style="width:50%;">
 <p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span></p>
 <p><span class="math inline">\(\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}\)</span></p>
-<p>(image)</p>
+<p><img data-src="CAvsRatePlotCSTR.png"></p>
 </div></div>
+<div class="absolute" style="top: 77%; left: 5%; ">
+<p><span class="math inline">\(0\)</span></p>
+</div>
+<div class="absolute" style="top: 77%; left: 30%; ">
+<p><span class="math inline">\(f_\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 53%; left: -4%; ">
+<p><span class="math inline">\(\frac{C_\mathrm{A_0}}{(-r_\mathrm{A})}\)</span></p>
+</div>
+<div class="absolute" style="top: 69%; left: 12%; ">
+<p><span class="math inline">\(\mathrm{Area} = \tau\)</span></p>
+</div>
+<div class="absolute" style="top: 77%; left: 57%; ">
+<p><span class="math inline">\(0\)</span></p>
+</div>
+<div class="absolute" style="top: 77%; left: 81%; ">
+<p><span class="math inline">\(C_\mathrm{A_0}\)</span></p>
+</div>
+<div class="absolute" style="top: 77%; left: 62.5%; ">
+<p><span class="math inline">\(C_\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 53%; left: 48%; ">
+<p><span class="math inline">\(\frac{1}{(-r_\mathrm{A})}\)</span></p>
+</div>
+<div class="absolute" style="top: 67%; left: 65.5%; ">
+<p><span class="math inline">\(\mathrm{Area} = \tau\)</span></p>
+</div>
 </section>
 <section id="pfr-tubular" class="slide level2">
 <h2>PFR (Tubular)</h2>
-<p>(image)</p>
+<p><img data-src="PFRImage.png" class="absolute" style="top: 17.5%; left: 5%; width: 45%; "></p>
 <p>Steady state, radially uniform, axially varies</p>
+<div class="absolute" style="top: 19%; left: 60%; ">
 <p>Differential Element</p>
-<p>(image) <span class="math inline">\(\dot{n}_j\)</span> <span class="math inline">\(\dot{n}_j+d\dot{n}_j\)</span> <span class="math inline">\(dV\)</span></p>
+</div>
+<p><img data-src="DVElement.png" class="absolute" style="top: 27%; left: 64%; width: 25%; "></p>
+<div class="absolute" style="top: 35%; left: 65%; ">
+<p><span class="math inline">\(\dot{n}_j\)</span></p>
+</div>
+<div class="absolute" style="top: 35%; left: 84%; ">
+<p><span class="math inline">\(\dot{n}_j+d\dot{n}_j\)</span></p>
+</div>
+<div class="absolute" style="top: 58%; left: 74%; ">
+<p><span class="math inline">\(dV\)</span></p>
+</div>
+<div class="absolute" style="top: 45%; left: 0%; ">
 <p><span class="math display">\[
 \dot{n}_j - (\dot{n}_j + d\dot{n}_j) + r_j dV = \frac{dn_j}{dt}
 \]</span></p>
+</div>
+<div class="absolute" style="top: 60%; left: 0%; ">
 <p><span class="math display">\[
 \frac{d\dot{n}_j}{dV} = r_j
 \]</span></p>
-</section>
-<section id="pfr-cont." class="slide level2">
-<h2>PFR (cont.)</h2>
+</div>
+<div class="absolute" style="top: 70%; left: 25%; ">
 <p>For reactant <span class="math inline">\(\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 75%; left: 25%; ">
 <p><span class="math display">\[
-\int_0^{V_R} dV = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}}
+\int_0^{V_R} dV = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}},
 \]</span></p>
+</div>
+<div class="absolute" style="top: 75%; left: 70%; ">
 <p><span class="math display">\[
 V_R = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}}
 \]</span></p>
+</div>
 </section>
-<section id="pfr-cont.-1" class="slide level2">
+<section id="pfr-cont." class="slide level2">
 <h2>PFR (cont.)</h2>
 <p>To get the expression in terms of <span class="math inline">\(f_\mathrm{A}\)</span>,</p>
 <p>as before</p>
@@ -355,58 +445,105 @@ V_R = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}
 \]</span></p>
 </div>
 </section>
-<section id="example--r_mathrma-k-c_mathrma-k-c_mathrma_01-f_mathrma" class="slide level2">
+<section id="pfr-cont.-1" class="slide level2">
+<h2>PFR (cont.)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>In terms of <span class="math inline">\(f_\mathrm{A}\)</span> <span class="math display">\[
+\tau = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
+\]</span> <img data-src="FAvsRatePlot.png"></p>
+</div><div class="column" style="width:50%;">
+<p>In terms of <span class="math inline">\(C_\mathrm{A}\)</span> <span class="math display">\[
+\tau = \int_{C_\mathrm{A_0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
+\]</span> <img data-src="CAvsRatePlot.png"></p>
+</div></div>
+<div class="absolute" style="top: 90%; left: 5%; ">
+<p><span class="math inline">\(0\)</span></p>
+</div>
+<div class="absolute" style="top: 90%; left: 30%; ">
+<p><span class="math inline">\(f_\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 68%; left: -4%; ">
+<p><span class="math inline">\(\frac{C_\mathrm{A_0}}{(-r_\mathrm{A})}\)</span></p>
+</div>
+<div class="absolute" style="top: 82%; left: 10%; ">
+<p><span class="math inline">\(\mathrm{Area} = \tau\)</span></p>
+</div>
+<div class="absolute" style="top: 91.5%; left: 57%; ">
+<p><span class="math inline">\(0\)</span></p>
+</div>
+<div class="absolute" style="top: 91.5%; left: 81%; ">
+<p><span class="math inline">\(C_\mathrm{A_0}\)</span></p>
+</div>
+<div class="absolute" style="top: 91.5%; left: 62.5%; ">
+<p><span class="math inline">\(C_\mathrm{A}\)</span></p>
+</div>
+<div class="absolute" style="top: 68%; left: 48%; ">
+<p><span class="math inline">\(\frac{1}{(-r_\mathrm{A})}\)</span></p>
+</div>
+<div class="absolute" style="top: 82%; left: 65.5%; ">
+<p><span class="math inline">\(\mathrm{Area} = \tau\)</span></p>
+</div>
+</section>
+<section id="example--r_mathrma-k-c_mathrma-k-c_mathrma_01-f_mathrma" class="slide level2 bigbold75">
 <h2>Example, <span class="math inline">\(-r_\mathrm{A} = k C_\mathrm{A} = k C_\mathrm{A_0}(1-f_\mathrm{A})\)</span></h2>
+<p><br></p>
 <div class="columns">
 <div class="column" style="width:33%;">
-<div style="text-align: center;">
+<div style="text-align: center; font-size: 95px;">
 <p><strong>Batch</strong></p>
 </div>
+<div style="font-size: 95px;">
 <p><span class="math display">\[
 t = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{k C_\mathrm{A}}
 \]</span></p>
 <p><span class="math display">\[
 t=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
 \]</span></p>
+</div>
 </div><div class="column" style="width:33%;">
-<div style="text-align: center;">
+<div style="text-align: center; font-size: 95px;">
 <p><strong>PFR</strong></p>
 </div>
+<div style="font-size: 95px;">
 <p><span class="math display">\[
 \tau = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{k C_\mathrm{A}}
 \]</span></p>
 <p><span class="math display">\[
 \tau=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
 \]</span></p>
+</div>
 </div><div class="column" style="width:33%;">
-<div style="text-align: center;">
+<div style="text-align: center; font-size: 95px;">
 <p><strong>CSTR</strong></p>
 </div>
+<div style="font-size: 95px;">
 <p><span class="math display">\[
 \tau = - \frac{C_\mathrm{A0} - C_\mathrm{A}} {k C_\mathrm{A}}
 \]</span> <span class="math display">\[
 \tau=\frac{1}{k} \left( \frac{C_\mathrm{A0}}{C_\mathrm{A}} - 1 \right)
 \]</span></p>
+</div>
 </div></div>
 <p>or</p>
 <div class="columns">
 <div class="column" style="width:33%;">
 <div style="font-size: 65px;">
 <p><span class="math display">\[
-t = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{d_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})}
+t = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})}
 \]</span></p>
 </div>
 <p><span class="math display">\[
-t = - \frac{1}{k}\ln (f_\mathrm{A}-1)
+t = - \frac{1}{k}\ln (1-f_\mathrm{A})
 \]</span></p>
 </div><div class="column" style="width:33%;">
 <div style="font-size: 65px;">
 <p><span class="math display">\[
-\tau = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{d_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})}
+\tau = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})}
 \]</span></p>
 </div>
 <p><span class="math display">\[
-\tau = - \frac{1}{k}\ln (f_\mathrm{A}-1)
+\tau = - \frac{1}{k}\ln (1-f_\mathrm{A})
 \]</span></p>
 </div><div class="column" style="width:33%;">
 <div style="font-size: 70px;">
@@ -423,15 +560,15 @@ t = - \frac{1}{k}\ln (f_\mathrm{A}-1)
 <h2>The Takeaways</h2>
 <ol type="1">
 <li class="fragment">The three ideal homogeneous reactor are batch, CSTR, and PFR.</li>
-<li class="fragment">For constant density or constant volume reactors, with the processing time, <span class="math inline">\(t\)</span>, in the batch being replaced by the space time, <span class="math inline">\(\tau\)</span>, in the PFR.</li>
-<li class="fragment">The CSTR model results in (often nonlinear) algebraic equations instead of ordinary differential equations for the batch and PFR.</li>
-<li class="fragment">The equations can be expressed in terms of fractional conversion or concentration.</li>
+<li class="fragment">For constant-density or constant-volume batch and PFR reactors, the design equations are the same, except for the processing time, <span class="math inline">\(t\)</span>, in the batch being replaced by the space time, <span class="math inline">\(\tau\)</span>, in the PFR.</li>
+<li class="fragment">The CSTR model results in (often nonlinear) algebraic equations instead of the ordinary differential equations for the batch and PFR.</li>
+<li class="fragment">The design equations can be expressed in terms of fractional conversion or concentration.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. <em>Recycling Before Recycling Was Cool</em>, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 
