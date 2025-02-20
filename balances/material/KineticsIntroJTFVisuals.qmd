@@ -10,13 +10,13 @@ format:
     html-math-method: mathjax
 ---
 
-# How Did You Think<br/>I Would React?</br>Just the Facts{.bigbold75}
+# How Did You Think<br/>I Would React?
 
 ::: {style="text-align: center;"}
 DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
 
 
 ## Types of Reactor Models
