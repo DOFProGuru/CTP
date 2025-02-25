@@ -1,0 +1,117 @@
+---
+format:
+  revealjs:
+    width: 3840
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Video 46 Intro and Outro
+
+# How Did You Think<br/>I Would React?
+
+::: {.absolute top=100% left=40% style="font-size: 130px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="-60%"}
+
+
+#
+
+::: {.centered style="font-size: 110px;"}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}
+
+
+
+# Video 47 Intro and Outro
+
+# Wishing Upon a CSTR
+
+::: {.absolute top=120% left=40% style="font-size: 130px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="31%" top="-105%"}
+
+
+#
+
+::: {.centered style="font-size: 110px;"}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}
+
+
+
+# Video 47A Intro and Outro
+
+# It’s Totally Tubular, Man!
+
+::: {.absolute top=120% left=40% style="font-size: 130px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="32%" top="-105%"}
+
+
+#
+
+::: {.centered style="font-size: 110px;"}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}
+
+
+
+
+# Video 65 Intro and Outro
+
+# REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1
+
+::: {.absolute top=105% left=40% style="font-size: 130px;"}
+DOFPro Team
+:::
+
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="-45%"}
+
+
+#
+
+::: {.centered style="font-size: 110px;"}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}
+
+
+
+
+# Video 66 Intro and Outro
+
+# REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2
+
+::: {.absolute top=105% left=40% style="font-size: 130px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="-45%"}
+
+
+#
+
+::: {.centered style="font-size: 110px;"}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}
