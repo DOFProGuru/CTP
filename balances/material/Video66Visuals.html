@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
-  <title>Chemical and Thermal Processes – unitopsmixdivsepjtfvisuals</title>
+  <title>Chemical and Thermal Processes – video66visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,209 +127,138 @@
 
 
 <section>
-<section id="gotta-keep-em-separatedjust-the-facts" class="title-slide slide level1 bigbold90 center">
-<h1>Gotta Keep ’Em Separated<br>Just the Facts</h1>
-<div style="text-align: center;">
+<section id="real-gas-mixtures-explained-dont-let-this-cost-you-points-on-your-exam-part-2" class="title-slide slide level1 bigbold70 center">
+<h1>REAL Gas Mixtures EXPLAINED<br>Don’t Let This Cost You Points<br>on Your Exam! Part 2</h1>
+<div style="text-align: center; font-size: 120px;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -45%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
-<section id="common-processing-units" class="slide level2">
-<h2>Common Processing Units</h2>
-<ul>
-<li class="fragment">Mixer</li>
-<li class="fragment">Divider</li>
-<li class="fragment">Separator</li>
-<li class="fragment">Reactor (Next three videos)</li>
-</ul>
-<div class="fragment">
-<p>For <em>open steady-state systems</em> it is useful to use the following definitions and constitutive relationships:</p>
-</div>
+<section id="kays-rule-review" class="slide level2">
+<h2>Kay’s Rule Review</h2>
+<ol type="1">
+<li class="fragment">Calculate the pseudocritical temperature.</li>
+<li class="fragment">Calculate the pseudocritical pressure.</li>
+<li class="fragment">Calculate the pseudoreduced temperature.</li>
+<li class="fragment">Calculate the pseudoreduced pressure.</li>
+<li class="fragment">Use the generalized compressibility charts to calculate <span class="math inline">\(z_m\)</span>.</li>
+<li class="fragment">Use <span class="math inline">\(z_m\)</span> to calculate anything else needed.</li>
+</ol>
 </section>
-<section id="mixer" class="slide level2">
-<h2>Mixer</h2>
-<div class="fragment">
-<p><img data-src="SampleMixer.png" class="absolute" style="top: 10%; left: 75%; width: 30%; "></p>
+<section id="kays-rule-cont." class="slide level2">
+<h2>Kay’s Rule (cont.)</h2>
+<p><img data-src="CompGenDiaTemp.png" class="absolute" style="top: 15%; left: 35%; width: 65%; "></p>
+<div class="absolute" style="top: 76%; left: 58%; ">
+<p>CC BY-SA 3.0</p>
 </div>
-<div class="fragment">
-<p>For each component, <span class="math inline">\(i\)</span>,</p>
+<div class="absolute" style="top: 15%; left: 2%; ">
 <p><span class="math display">\[
-\dot{n}_{i_\mathrm{out}} = \dot{n}_{i_1} + \dot{n}_{i_2} + \cdots +\dot{n}_{i_k}
+P_r' =\frac{P}{P_c'}
 \]</span></p>
-</div>
-<div class="fragment">
-<p>Overall</p>
 <p><span class="math display">\[
-\dot{n}_\mathrm{out} = \dot{n}_1 + \dot{n}_2 + \cdots +\dot{n}_k
+T_r' = \frac{T}{T_c'}
 \]</span></p>
-</div>
-<div class="fragment">
-<p>where</p>
 <p><span class="math display">\[
-\dot{n} = \sum_\mathrm{All} \dot{n}_i
+z_m = z_m(T_r', P_r')
 \]</span></p>
 </div>
 </section>
-<section id="mixer-usage" class="slide level2">
-<h2>Mixer Usage</h2>
-<div class="fragment">
-<p>A mixer combines (or mixes) the input streams together, so that the output stream is just the sum of all of the input streams.</p>
-</div>
-<div class="fragment">
-<p>The mass equations for a mixer are the same as the mole equations, with the <span class="math inline">\(n\)</span>’s or <span class="math inline">\(\dot{n}\)</span>’s replaced by <span class="math inline">\(m\)</span>’s or <span class="math inline">\(\dot{m}\)</span>’s.</p>
-<p><span class="math display">\[
-\dot{m}_{i_\mathrm{out}} = \dot{m}_{i_1} + \dot{n}_{i_2} + \cdots +\dot{m}_{i_k}
-\]</span></p>
-<p>Overall</p>
-<p><span class="math display">\[
-\dot{m}_\mathrm{out} = \dot{m}_1 + \dot{m}_2 + \cdots +\dot{m}_k
-\]</span></p>
-<p>where</p>
-<p><span class="math display">\[
-\dot{m} = \sum_\mathrm{All} \dot{m}_i
-\]</span></p>
-</div>
+<section id="dwsim-and-equation-of-state" class="slide level2">
+<h2>DWSIM and Equation of State</h2>
+
+<img data-src="DWSIMScreen.png" class="r-stretch"></section>
+<section id="real-gas-example" class="slide level2">
+<h2>Real Gas Example</h2>
+<p>A stream of 20% methane, 30% ethane, and 50% propane at <span class="math inline">\(T = 423\ \mathrm{K}\)</span> and <span class="math inline">\(P = 70\ \mathrm{atm}\)</span> flows at <span class="math inline">\(100.0\ \mathrm{kmol/h}\)</span>.</p>
+<p>Estimate the volumetric flow rate using Kay’s rule and compare with the ideal gas law and the Peng-Robinson, Soave-Redlich-Kwong, and Lee-Kesler-Plöcker equations of state.</p>
+<p>Data from Wikipedia</p>
+<p><a href="https://en.wikipedia.org/wiki/Methane">methane</a>: <span class="math inline">\(T_c = 190.56\ \mathrm{K}\)</span>, <span class="math inline">\(P_c = 4.5992\ \mathrm{MPa}\)</span></p>
+<p><a href="https://en.wikipedia.org/wiki/Ethane">ethane</a>: <span class="math inline">\(T_c = 305.32\ \mathrm{K}\)</span>, <span class="math inline">\(P_c = 4.8714\ \mathrm{MPa}\)</span></p>
+<p><a href="https://en.wikipedia.org/wiki/Propane">propane</a>: <span class="math inline">\(T_c = 370\ \mathrm{K}\)</span>, <span class="math inline">\(P_c = 4.23\ \mathrm{MPa}\)</span></p>
 </section>
-<section id="divider" class="slide level2">
-<h2>Divider</h2>
-<div class="fragment">
-<p><img data-src="SampleDivider.png" class="absolute" style="top: 10%; left: 65%; width: 35%; "></p>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 10%; left: 0%; ">
-<p>For each component, <span class="math inline">\(i\)</span>,</p>
-</div>
-<div class="absolute" style="top: 17%; left: 20%; ">
+<section id="example-cont." class="slide level2 absolute" data-top="5%" data-left="5%">
+<h2>Example (cont.)</h2>
+<p><span class="math display">\[70\ \mathrm{atm} \boldsymbol{\cdot} 0.101325\ \mathrm{\frac{MPa}{atm}}= 7.093\ \mathrm{MPa}\]</span></p>
+<h3 class="absolute" data-top="15%" data-left="10%" id="ideal-gas">Ideal Gas</h3>
+<div style="font-size: 85px;">
+<div class="absolute" style="top: 35%; left: 5%; ">
 <p><span class="math display">\[
-\dot{n}_{i_\mathrm{in}} = \dot{n}_{i_1} + \dot{n}_{i_2}
+\hat{V}=\frac{RT}{P}=\frac{8.314\mathrm{\frac{J}{mol \cdot K}}\boldsymbol{\cdot}423\ \mathrm{K}}{7.093\times10^{6}\ \mathrm{Pa}}=4.959\times10^{-4}\ \mathrm{\frac{m^{3}}{mol}}=0.4959\ \mathrm{\frac{L}{mol}}
 \]</span></p>
 </div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 30%; left: 0%; ">
-<p>Overall</p>
-</div>
-<div class="absolute" style="top: 37%; left: 20%; ">
+<div class="absolute" style="top: 55%; left: 5%; ">
 <p><span class="math display">\[
-\dot{n}_\mathrm{in} = \dot{n}_1 + \dot{n}_2
+\dot{V}=\dot{n}\hat{V}=100\ \mathrm{\frac{kmol}{h}}\boldsymbol{\cdot}\frac{1000\ \mathrm{mol}}{1\ \mathrm{kmol}}\boldsymbol{\cdot}4.959\times10^{-4}\ \mathrm{\frac{m^{3}}{mol}}=49.59\ \mathrm{\frac{m^{3}}{h}}
 \]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 50%; left: 0%; ">
-<p>where</p>
-</div>
-<div class="absolute" style="top: 57%; left: 20%; ">
-<p><span class="math display">\[
-\dot{n} = \sum_\mathrm{All} \dot{n}_i
-\]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 70%; left: 0%; ">
-<p>Also</p>
-</div>
-<div class="absolute" style="top: 77%; left: 20%; ">
-<p><span class="math display">\[
-x_{i_1} = x_{i_2} = x_{i_\mathrm{in}}
-\]</span></p>
-</div>
-<div class="absolute" style="top: 90%; left: 0%; ">
-<p>where the <em>mole fraction</em>, <span class="math inline">\(x_i \equiv \frac{n_i}{n_\mathrm{Total}} = \frac{\dot{n}_i}{\dot{n}}\)</span> .</p>
 </div>
 </div>
 </section>
-<section id="divider-usage" class="slide level2">
-<h2>Divider Usage</h2>
-<div class="fragment">
-<div class="absolute" style="top: 7%; left: 0%; ">
-<p>A divider is used when a single stream needs to be divided up into two or more streams. The mass equations for a divider are the same as the mole equations, with the <span class="math inline">\(n\)</span>’s or<br><span class="math inline">\(\dot{n}\)</span>’s replaced by <span class="math inline">\(m\)</span>’s or <span class="math inline">\(\dot{m}\)</span>’s.</p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 32%; left: 0%; ">
-<p>For each component, <span class="math inline">\(i\)</span>,</p>
-</div>
-<div class="absolute" style="top: 38%; left: 25%; ">
+<section id="kays-rule-calculation" class="slide level2">
+<h2>Kay’s Rule Calculation</h2>
 <p><span class="math display">\[
-\dot{m}_{i_\mathrm{in}} = \dot{m}_{i_1} + \dot{m}_{i_2}
+T_c' = 0.200(4.23) + 0.300(305.32) + 0.500(370) = 314.71\ \mathrm{K}
 \]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 47%; left: 0%; ">
-<p>Overall</p>
-</div>
-<div class="absolute" style="top: 50%; left: 25%; ">
 <p><span class="math display">\[
-\dot{m}_\mathrm{in} = \dot{m}_1 + \dot{m}_2
+P_c' = 0.200(4.5992) + 0.300(4.8714) + 0.500(4.23) = 4.496\ \mathrm{MPa}
 \]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 60%; left: 0%; ">
-<p>where</p>
-</div>
-<div class="absolute" style="top: 63%; left: 25%; ">
 <p><span class="math display">\[
-\dot{m} = \sum_\mathrm{All} \dot{m}_i
+T_r' = \frac{T}{T_c'} = \frac{423}{314.7} = 1.344
 \]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 78%; left: 0%; ">
-<p>Also</p>
-</div>
-<div class="absolute" style="top: 81%; left: 25%; ">
 <p><span class="math display">\[
-x_{i_1} = x_{i_2} = x_{i_\mathrm{in}}
+P_r' = \frac{P}{P_c'} = \frac{7.093}{4.496} = 1.577
 \]</span></p>
-</div>
-<div class="absolute" style="top: 92%; left: 0%; ">
-<p>where the <em>mass fraction</em>, <span class="math inline">\(x_i \equiv \frac{m_i}{m_\mathrm{Total}} = \frac{\dot{m}_i}{\dot{m}}\)</span> .</p>
-</div>
-</div>
 </section>
-<section id="separator" class="slide level2">
-<h2>Separator</h2>
-<div class="fragment">
-<p><img data-src="SampleSeparator.png" class="absolute" style="top: 10%; left: 65%; width: 35%; "></p>
+<section id="example-cont.-1" class="slide level2">
+<h2>Example (cont.)</h2>
+<h3 id="using-kays-rule">Using Kay’s rule</h3>
+<p><img data-src="CompGenDiaTemp.png" class="absolute" style="top: 15%; left: 40%; width: 60%; "></p>
+<div class="absolute" style="top: 70%; left: 61%; ">
+<p>CC BY-SA 3.0</p>
 </div>
-<div class="fragment">
-<p>You often specify the <em>split fraction</em>,</p>
+<div style="font-size: 80px;">
+<div class="absolute" style="top: 35%; left: 2%; ">
 <p><span class="math display">\[
-t_{is} \equiv \frac{\dot{n}_{i_s}}{\dot{n}_{i_\mathrm{in}}}
+P_r' = \frac{P}{P_c'} = \frac{7.093}{4.496} = 1.577
 \]</span></p>
 </div>
-<div class="fragment">
-<p><span class="math inline">\(t_{i1}\)</span> is the split fraction of species <span class="math inline">\(i\)</span> with respect to Stream 1.</p>
-</div>
-<div class="fragment">
+<div class="absolute" style="top: 50%; left: 2%; ">
 <p><span class="math display">\[
-\dot{n}_{i_1} = t_{i1} \dot{n}_{i_\mathrm{in}}
+T_r' = \frac{T}{T_c'} = \frac{423}{314.7} = 1.344
 \]</span></p>
 </div>
-<div class="fragment">
+<div class="absolute" style="top: 27%; left: 23%; ">
 <p><span class="math display">\[
-\dot{n}_{i_2} = (1-t_{i1}) \dot{n}_{i_\mathrm{in}}
+z_{m}=0.7833
 \]</span></p>
 </div>
-<div class="fragment">
-<p>If the split fraction is the same for all species, then the separator is just a divider. The split fractions must be different for the different species to effect a separation.</p>
+<div class="absolute" style="top: 65%; left: 2%; ">
+<p><span class="math display">\[
+\dot{V}_{KR}=z_{m}\dot{V}_{IG}=38.84\ \mathrm{\frac{m^{3}}{h}}
+\]</span></p>
 </div>
+</div>
+</section></section>
+<section>
+<section id="dwsim-video" class="title-slide slide level1 center">
+<h1>DWSIM Video</h1>
+
 </section>
+<section id="example-spreadsheet" class="slide level2">
+<h2>Example Spreadsheet</h2>
+
+<img data-src="MixRealGasSpread.png" class="r-stretch"></section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">In a mixer the molar or mass flow in the output stream is the sum of the molar or mass input flows.</li>
-<li class="fragment">In a divider the molar or mass flow in the input stream is the sum of the molar or mass input flows. Also, the composition of each stream is the same.</li>
-<li class="fragment">In a separator the molar or mass flow of a given species in an output stream is the split fraction for that species and stream times the molar or mass flow of that species in the input stream.</li>
+<li class="fragment">Kay’s rule is the simplest method for calculating properties of mixtures of real gases by hand, and it is very good for aliphatic hydrocarbons, but it is still a fair amount of work</li>
+<li class="fragment">DWSIM or some other software application is the easiest way to calculate properties of mixtures of real gases using equations of state.</li>
+<li class="fragment">Life gets much more interesting than the ideal gas law when you have mixtures of real gases.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The next video in the series, <em>When You Saw It, What Was the Extent of Your Reaction? Part 1</em>, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 

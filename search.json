@@ -1659,11 +1659,151 @@
     "text": "The Takeaways\n\nStoichiometric coefficients for reactants are negative and for products are positive.\nThe mole balance for a given species in a reactor is that the output is the input plus the stoichiometric coefficient for that species times the extent of reaction.\nFractional conversion is for reactants only and is the fraction of the reactant converted to products in the reactor.\nThe limiting reactant is the one that would be totally consumed first it the reaction went to completion. All other reactants are excess reactants."
   },
   {
-    "objectID": "balances/material/index.html",
-    "href": "balances/material/index.html",
-    "title": "Material Balances",
-    "section": "",
-    "text": "Intro to Systems and Balances"
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#bypass",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#bypass",
+    "title": "Chemical and Thermal Processes",
+    "section": "Bypass",
+    "text": "Bypass\n\n\nLess common than recycle\nCommon example is fruit-juice concentrator."
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds",
+    "title": "Chemical and Thermal Processes",
+    "section": "Simplifying PFDs",
+    "text": "Simplifying PFDs\nFlowsheets can be simplified by drawing a surrounding box and only dealing with the inputs and outputs. For example, the process flowsheet for the dehydrogenation of propane to propene.\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-1",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Simplifying PFDs",
+    "text": "Simplifying PFDs\nFlowsheets can be simplified by drawing a surrounding box and only dealing with the inputs and outputs. For example, the process flowsheet for the dehydrogenation of propane to propene.\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Simplifying PFDs (cont.)",
+    "text": "Simplifying PFDs (cont.)\nThe absorber and stripper can be combined into one separator for calculation purposes.\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-1",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Simplifying PFDs (cont.)",
+    "text": "Simplifying PFDs (cont.)\nThe absorber and stripper can be combined into one separator for calculation purposes.\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-2",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-2",
+    "title": "Chemical and Thermal Processes",
+    "section": "Simplifying PFDs (cont.)",
+    "text": "Simplifying PFDs (cont.)\nThe reactor, separator, distillation column, and recycle loop can be combined into an overall process block for calculation purposes.\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-3",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-3",
+    "title": "Chemical and Thermal Processes",
+    "section": "Simplifying PFDs (cont.)",
+    "text": "Simplifying PFDs (cont.)\nThe reactor, separator, distillation column, and recycle loop can be combined into an overall process block for calculation purposes.\n\n\n\\(\\enclose{circle}{1}\\)\n\n\n\\(\\enclose{circle}{7}\\)\n\n\n\\(\\enclose{circle}{6}\\)\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example of Simplifying",
+    "text": "Example of Simplifying\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene\n\n\n\n\n\nLet’s look at the calculations for this slightly more realistic dehydrogenation process.\n Product flow rate – \\(100\\ \\mathrm{mol/s}\\)\nProduct stream 6 – \\(98\\%\\) propene\nRecycle stream 5 – \\(97\\%\\) propane\n\n\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)\n\n\n\\(\\mathrm{C_3H_8 \\rightarrow C_3H_6 + H_2}\\)\n\\(\\mathrm{C_3H_8 + 2H_2 \\rightarrow 3CH_4}\\)\n\\(f_\\mathrm{C_3H_8} = 0.35\\) (in reactor)\n\\(S = \\frac{\\dot{n}_{\\mathrm{C_3H_6}_\\text{–gen}}}{\\dot{n}_{\\mathrm{CH_3}_\\text{–gen}}} = 2\\) (in reactor)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example of Simplifying (cont.)",
+    "text": "Example of Simplifying (cont.)\n\n\n\n\\(\\enclose{circle}{1}\\)\n\n\n\\(\\enclose{circle}{7}\\)\n\n\n\\(\\enclose{circle}{6}\\)\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene\n\n\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)\n\n\n\n\nIf there is only one reactor in the process, the extents of reaction overall have to be the same as the extents of reaction in the reactor.\nPropene is produced by reaction 1 only, so\n\n\\(\\dot{\\xi}_1 = (0.98)(100\\ \\mathrm{mol/s}) = 98\\ \\mathrm{mol/s}\\)\n\\(\\dot{n}_\\text{B–gen} =\\dot{n}_\\mathrm{B6} - \\dot{n}_\\mathrm{B1} = \\dot{n}_\\mathrm{B6}\\)\n\\(\\dot{n}_\\text{C–gen} =\\dot{n}_\\mathrm{C7} - \\dot{n}_\\mathrm{C1} = \\dot{n}_\\mathrm{C7}\\)\n\\(S = \\frac{\\dot{n}_\\text{B–gen}}{\\dot{n}_\\text{C–gen}} = \\frac{\\dot{n}_\\mathrm{B6}}{\\dot{n}_\\mathrm{C7}} = \\frac{\\nu_\\mathrm{B,1} \\dot{\\xi}_1}{\\nu_\\mathrm{C,2} \\dot{\\xi}_2} = \\frac{\\dot{\\xi}_1}{3 \\dot{\\xi}_2} = 2\\)\n\\(\\dot{\\xi}_2 = \\frac{\\dot{\\xi}_1}{6} = \\frac{98}{6}\\)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.-1",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example of Simplifying (cont.)",
+    "text": "Example of Simplifying (cont.)\n \n\n\n\\(\\enclose{circle}{1}\\)\n\n\n\\(\\enclose{circle}{2}\\)\n\n\n\\(\\enclose{circle}{3}\\)\n\n\n\\(\\enclose{circle}{7}\\)\n\n\n\\(\\enclose{circle}{6}\\)\n\n\n\\(\\mathrm{A,\\ B}\\)\n\n\n\\(\\mathrm{A,\\ B,\\ C,\\ D}\\)\n\n\nReactor\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene\n\n\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)\n\n\n\nMole balance on \\(\\mathrm{A}\\)\n\\(\\dot{n}_\\mathrm{A6} = \\dot{n}_\\mathrm{A1} + \\nu_\\mathrm{A1} \\dot{\\xi}_1 + \\nu_\\mathrm{A2} \\dot{\\xi}_2\\)\n\\(2 = \\dot{n}_\\mathrm{A1} - 98 - 16.3\\)\n\\(\\implies \\dot{n}_\\mathrm{A1} = 116.3\\ \\mathrm{mol/s}\\)\n\\(f_\\mathrm{A} = 1 - \\frac{\\dot{n}_\\mathrm{A3}}{\\dot{n}_\\mathrm{A2}}\\)\n\\(\\implies \\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A2}(1-f_\\mathrm{A})\\)\n\\(\\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A2} + \\nu_\\mathrm{A1} \\dot{\\xi}_1 + \\nu_\\mathrm{A2} \\dot{\\xi}_2 = \\dot{n}_\\mathrm{A2} - \\dot{\\xi}_1 - \\dot{\\xi}_2\\)\n\\(\\dot{n}_\\mathrm{A2}(1-f_\\mathrm{A}) = \\dot{n}_\\mathrm{A2} - \\dot{\\xi}_1 - \\dot{\\xi}_2\\)\n\\(\\dot{n}_\\mathrm{A2} = \\frac{\\dot{\\xi}_1 + \\dot{\\xi}_2}{f_\\mathrm{A}} = \\frac{98 + \\frac{98}{6}}{0.35} = 326.7\\)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.-2",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.-2",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example of Simplifying (cont.)",
+    "text": "Example of Simplifying (cont.)\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene\n\n\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)\n\n\nMaterial Balance on \\(\\mathrm{A}\\) around each element\n\nM: \\(\\dot{n}_\\mathrm{A2} = 116.3 + \\dot{n}_\\mathrm{A5}\\)\nR: \\(\\dot{n}_\\mathrm{A3} = 0.65 \\dot{n}_\\mathrm{A2}\\)\nS1: \\(\\dot{n}_\\mathrm{A4} = \\dot{n}_\\mathrm{A3} - \\dot{n}_\\mathrm{A7} = \\dot{n}_\\mathrm{A3}\\)\nS2: \\(2 = \\dot{n}_\\mathrm{A4} - \\dot{n}_\\mathrm{A5}\\)\n\n\nSolution\n    \\(\\dot{n}_\\mathrm{A2} = 326.6\\ \\mathrm{mol/s}\\)\n    \\(\\dot{n}_\\mathrm{A3} = 212.3\\ \\mathrm{mol/s}\\)\n    \\(\\dot{n}_\\mathrm{A4} = 212.3\\ \\mathrm{mol/s}\\)\n    \\(\\dot{n}_\\mathrm{A5} = 210.3\\ \\mathrm{mol/s}\\)\n\n\nRecycle \\(97\\%\\ \\mathrm{A}\\)\n\\(\\therefore\\ \\dot{n}_5 = \\frac{210.3}{0.97} = 216.8\\ \\mathrm{mol/s}\\)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-spreadsheet",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-spreadsheet",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example of Simplifying Spreadsheet",
+    "text": "Example of Simplifying Spreadsheet\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene\n\n\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)"
+  },
+  {
+    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#the-takeaways",
+    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nBypass is less common than recycle, but can be analyzed the same way.\nOften the quickest way to analyze a PFD is to do overall balances and partial balances first.\nIf there is only one reactor (with possibly multiple reactions) in a process, the extents of reaction are the same for the overall process and for the reactor.\nIf there is only one reactor (with possibly multiple reactions) in a process with recycle, the overall fractional conversion is almost certainly much higher than the fractional conversion in the reactor."
+  },
+  {
+    "objectID": "balances/material/Video65Visuals.html#compressibility-and-ideal-gas",
+    "href": "balances/material/Video65Visuals.html#compressibility-and-ideal-gas",
+    "title": "Chemical and Thermal Processes",
+    "section": "Compressibility and Ideal Gas",
+    "text": "Compressibility and Ideal Gas\nAs a reminder, we can categorize the non-ideality of the gas with the compressibility, \\(z\\).\n\\[\nz \\equiv \\frac{P\\hat{V}}{RT}\n\\]\nFor ideal gas mixtures, the mole fraction equals the pressure fraction equals the volume fraction.\n\\[\ny_i = \\frac{n_i}{n} = \\frac{p_i}{P} = \\frac{v_i}{V}\n\\]\nIn addition, the molecular weight is just the mole-averaged molecular weight:\n\\[\nM = \\sum y_i M_i\n\\]"
+  },
+  {
+    "objectID": "balances/material/Video65Visuals.html#mixtures-of-real-gases",
+    "href": "balances/material/Video65Visuals.html#mixtures-of-real-gases",
+    "title": "Chemical and Thermal Processes",
+    "section": "Mixtures of Real Gases",
+    "text": "Mixtures of Real Gases\n\nSo what do you do with real gases?\nWhat is \\(z\\)?\nDo partial pressures work?\nHow about molar volumes?\n\nThere are advanced phase-equilibria videos that discuss fugacity coefficients, activity coefficients, and necessary modeling methods.  For these videos, we use Kay’s rule or DWSIM.  This video will also explore the Peng-Robinson mixing rules, although we will not use them. You should use Peng-Robinson in DWSIM instead."
+  },
+  {
+    "objectID": "balances/material/Video65Visuals.html#kays-rule",
+    "href": "balances/material/Video65Visuals.html#kays-rule",
+    "title": "Chemical and Thermal Processes",
+    "section": "Kay’s Rule",
+    "text": "Kay’s Rule\n\nCalculate the pseudocritical temperature.\nCalculate the pseudocritical pressure.\nCalculate the pseudoreduced temperature.\nCalculate the pseudoreduced pressure.\nUse the generalized compressibility charts to calculate \\(z_m\\).\nUse \\(z_m\\) to calculate anything else needed.\n\n\nNeither partial pressures nor molar volumes work.\nHowever, the molecular weight is still just the mole-averaged molecular weight.\n\n\n\\[\nM = \\sum y_i M_i\n\\]"
+  },
+  {
+    "objectID": "balances/material/Video65Visuals.html#pseudo-pseudo",
+    "href": "balances/material/Video65Visuals.html#pseudo-pseudo",
+    "title": "Chemical and Thermal Processes",
+    "section": "Pseudo Pseudo",
+    "text": "Pseudo Pseudo\n\nThe pseudocritical temperature is \\[\nT_c' = \\sum y_i T_{ci}\n\\]\nThe pseudocritical pressure is\n\\[\nP_c' = \\sum y_i P_{ci}\n\\]\nThe pseudoreduced temperature is\n\\[\nT_r' = \\frac{T}{T_c'}\n\\]\nThe pseudoreduced pressure is\n\\[\nP_r' = \\frac{P}{P_c'}\n\\]"
+  },
+  {
+    "objectID": "balances/material/Video65Visuals.html#kays-rule-1",
+    "href": "balances/material/Video65Visuals.html#kays-rule-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Kay’s Rule",
+    "text": "Kay’s Rule\n\n\nCC BY-SA 3.0\n\n\n\\[\nP_r' =\\frac{P}{P_c'}\n\\]\n\\[\nT_r' = \\frac{T}{T_c'}\n\\]\n\\[\nz_m = z_m(T_r', P_r')\n\\]"
+  },
+  {
+    "objectID": "balances/material/Video65Visuals.html#peng-robinson-equation-of-state",
+    "href": "balances/material/Video65Visuals.html#peng-robinson-equation-of-state",
+    "title": "Chemical and Thermal Processes",
+    "section": "Peng-Robinson Equation of State",
+    "text": "Peng-Robinson Equation of State\nFrom the family of cubic equations of state \\[\nP = \\frac{RT}{\\hat{V} - b} - \\frac{a}{\\hat{V}^2 + 2\\hat{V}b - b^2}\n\\]\nwhere:\n\\[\na = 0.45724 \\alpha \\frac{(RT_c)^2}{P_c}\n\\]\n\\[\nb = 0.07780 \\frac{RT_c}{P_c}\n\\]\n\\[\n\\alpha = \\left[1 + m(1 - \\sqrt{T_r})\\right]^2\n\\]\n\\[\nm = 0.37464 + 1.54226\\omega - 0.26992\\omega^2\n\\]"
+  },
+  {
+    "objectID": "balances/material/Video65Visuals.html#the-peng-robinson-mixing-rules",
+    "href": "balances/material/Video65Visuals.html#the-peng-robinson-mixing-rules",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Peng-Robinson Mixing Rules",
+    "text": "The Peng-Robinson Mixing Rules\n\\[\nP=\\frac{RT}{\\hat{V}-b_{m}}-\\frac{a_{m}}{\\hat{V}^{2}+2\\hat{V}b_{m}-b_{m}^{2}}\n\\] where \\[\na_{m}=\\sum_{i=1}^{2}\\sum_{j=1}^{2}y_{i}y_{j}(1-k_{ij})\\sqrt{a_{i}a_{j}}\n\\] \\[\nb_{m}=\\sum_{i=1}^{2}y_{i}b_{i}\n\\] \\[\nk_{ij}=1-\\frac{1}{2}\\frac{b_{2}}{b_{1}}\\sqrt{\\frac{a_{1}}{a_{2}}}-\\frac{1}{2}\\frac{b_{1}}{b_{2}}\\sqrt{\\frac{a_{2}}{a_{1}}}+\\frac{1}{2}\\frac{b_{2}RT}{\\sqrt{a_{1}a_{2}}}\\frac{\\theta_{1}}{T_{r_{1}}^{\\theta_{1}}P_{r1}^{\\theta_{3}}}\n\\] \\(\\theta_{1}\\), \\(\\theta_{2}\\), \\(\\theta_{3}\\) from table 3 in the linked reference"
+  },
+  {
+    "objectID": "balances/material/Video65Visuals.html#the-takeaways",
+    "href": "balances/material/Video65Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nMixtures of real gases don’t follow the ideal-gas mixing rules, except for average molecular weight.\nKay’s rule is a method for calculating properties of real-gas mixtures that is simple enough to do by hand.\nKay’s rule calculates pseudocritical temperature and pressure, and then pseudoreduced temperature and pressure for use with the generalized compressibility charts.\nApplying equation-of-state methods to mixtures of real gases is easiest with a computer or app."
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas",
@@ -1911,81 +2051,81 @@
     "text": "The Takeaways\n\nMost reactors have multiple reactions going on simultaneously.\nFor multiple reactions, the mole balance sums over all of the reactions, the stoichiometric coefficient for a reactant in a given reaction times the extent of that reaction."
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#sample-combustion-calculations",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#sample-combustion-calculations",
+    "objectID": "balances/material/Video66Visuals.html#kays-rule-review",
+    "href": "balances/material/Video66Visuals.html#kays-rule-review",
     "title": "Chemical and Thermal Processes",
-    "section": "Sample Combustion Calculations",
-    "text": "Sample Combustion Calculations\n\\(2.00\\ \\mathrm{kmol/s}\\) of propane are burned in 25% excess dry air in a faulty combustor. 100% of the hydrogen combusts to form water, but only 80% of the carbon combusts completely to \\(\\mathrm{CO_2}\\). The remainder combusts to \\(\\mathrm{CO}\\).\n\nCalculate the molar flow rate of air into the combustor.\nCalculate the molar flow rates of each of the combustion products.\nCalculate the molar flow rate of the exhaust.\nReport the composition of the exhaust on both a wet and dry basis."
+    "section": "Kay’s Rule Review",
+    "text": "Kay’s Rule Review\n\nCalculate the pseudocritical temperature.\nCalculate the pseudocritical pressure.\nCalculate the pseudoreduced temperature.\nCalculate the pseudoreduced pressure.\nUse the generalized compressibility charts to calculate \\(z_m\\).\nUse \\(z_m\\) to calculate anything else needed."
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution",
+    "objectID": "balances/material/Video66Visuals.html#kays-rule-cont.",
+    "href": "balances/material/Video66Visuals.html#kays-rule-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution",
-    "text": "Solution\nThere are multiple sets of chemical equations we could write. We will consider two sets:\n\n\\[\n\\mathrm{C_3H_8 + 5O_2} \\rightarrow \\mathrm{3CO_2 + 4 H_2O}\n\\tag{1}\\]\n\\[\n\\mathrm{C_3H_8 + \\frac{7}{2}O_2} \\rightarrow \\mathrm{3CO + 4H_2O}\n\\tag{2}\\]\nor\n\n\n\\[\n\\mathrm{C_3H_8 + \\frac{7}{2}O_2} \\rightarrow \\mathrm{3CO + 4H_2O}\n\\tag{3}\\]\n\\[\n\\mathrm{CO + \\frac{1}{2}O_2} \\rightarrow \\mathrm{CO_2}\n\\tag{4}\\]"
+    "section": "Kay’s Rule (cont.)",
+    "text": "Kay’s Rule (cont.)\n\n\nCC BY-SA 3.0\n\n\n\\[\nP_r' =\\frac{P}{P_c'}\n\\]\n\\[\nT_r' = \\frac{T}{T_c'}\n\\]\n\\[\nz_m = z_m(T_r', P_r')\n\\]"
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.",
+    "objectID": "balances/material/Video66Visuals.html#dwsim-and-equation-of-state",
+    "href": "balances/material/Video66Visuals.html#dwsim-and-equation-of-state",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nTo calculate excess, you need to calculate complete combustion. The appropriate equation is Equation 1.\n\n\\[\n\\dot{n}_\\mathrm{O_2stoic} = \\frac{\\nu_\\mathrm{O_2}}{\\nu_\\mathrm{C_3H_8}} \\dot{n}_\\mathrm{C_3H_8stoic} = \\frac{-5}{-1}(2\\ \\mathrm{kmol/s}) = 10\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\mathrm{frac.\\ xs} = 0.25 = \\frac{ \\dot{n}_\\mathrm{O_2in} - \\dot{n}_\\mathrm{O_2stoic} }{\\dot{n}_\\mathrm{O_2stoic}}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2in} = (1 + \\mathrm{frac.\\ xs})\\dot{n}_\\mathrm{O_2stoic} = 1.25(10\\ \\mathrm{kmol/s})= 12.5\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2in} = \\frac{79}{21}\\dot{n}_\\mathrm{O_2in} = \\frac{79}{21}(12.5\\ \\mathrm{kmol/s}) = 47.0\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\text{Air-in} = \\dot{n}_\\mathrm{O_2in} + \\dot{n}_\\mathrm{N_2in} = 12.5 + 47.0 = \\boxed{  59.5\\ \\mathrm{kmol/s}}\n\\]"
+    "section": "DWSIM and Equation of State",
+    "text": "DWSIM and Equation of State"
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-1",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-1",
+    "objectID": "balances/material/Video66Visuals.html#real-gas-example",
+    "href": "balances/material/Video66Visuals.html#real-gas-example",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nThe full set of mole balances with Equation 1 and Equation 2 is\n\n\\[\n\\dot{n}_\\mathrm{C_3H_8out} = \\dot{n}_\\mathrm{C_3H_8in} - \\dot{\\xi}_1 - \\dot{\\xi}_2 \\implies \\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{n}_\\mathrm{CO_2in} + 3\\dot{\\xi}_1 + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{CO_2out} = 3\\dot{\\xi}_1\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = \\dot{n}_\\mathrm{COin} + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_1 + 3 \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{COout} = 3\\dot{\\xi}_2\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = \\dot{n}_\\mathrm{O_2in} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2 = 12.50\\ \\mathrm{kmol/s} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2out} = \\dot{n}_\\mathrm{N_2in} + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_1 +0 \\boldsymbol{\\cdot}  \\dot{\\xi}_2 = \\boxed{ 47.0\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = \\dot{n}_\\mathrm{H_2Oin} + 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2 = 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2\n\\]"
+    "section": "Real Gas Example",
+    "text": "Real Gas Example\nA stream of 20% methane, 30% ethane, and 50% propane at \\(T = 423\\ \\mathrm{K}\\) and \\(P = 70\\ \\mathrm{atm}\\) flows at \\(100.0\\ \\mathrm{kmol/h}\\).\nEstimate the volumetric flow rate using Kay’s rule and compare with the ideal gas law and the Peng-Robinson, Soave-Redlich-Kwong, and Lee-Kesler-Plöcker equations of state.\nData from Wikipedia\nmethane: \\(T_c = 190.56\\ \\mathrm{K}\\), \\(P_c = 4.5992\\ \\mathrm{MPa}\\)\nethane: \\(T_c = 305.32\\ \\mathrm{K}\\), \\(P_c = 4.8714\\ \\mathrm{MPa}\\)\npropane: \\(T_c = 370\\ \\mathrm{K}\\), \\(P_c = 4.23\\ \\mathrm{MPa}\\)"
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-2",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-2",
+    "objectID": "balances/material/Video66Visuals.html#example-cont.",
+    "href": "balances/material/Video66Visuals.html#example-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\n\nApplying the \\(\\mathrm{CO_2}\\)-to-\\(\\mathrm{CO}\\) constraint\n\n\\[\n\\frac{\\dot{n}_\\mathrm{COout}}{\\dot{n}_\\mathrm{CO_2out}} = \\frac{1 - 0.80}{0.80}=0.25 = \\frac{3\\dot{\\xi}_2}{3\\dot{\\xi}_1} = \\frac{\\dot{\\xi}_2}{\\dot{\\xi}_1}\n\\]\n\n\n\\[\n\\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s} = \\dot{\\xi}_1 + 0.25 \\dot{\\xi}_1 = 1.25 \\dot{\\xi}_1\n\\]\n\n\n\\[\n\\implies \\dot{\\xi}_1 = 1.6\\ \\mathrm{kmol/s},\\ \\dot{\\xi}_2 = 0.4\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\implies \\dot{n}_\\mathrm{CO_2out} = 3 \\boldsymbol{\\cdot} 1.6\\ \\mathrm{kmol/s} = \\boxed{ 4.8\\ \\mathrm{kmol/s} },\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = 3 \\boldsymbol{\\cdot} 0.4\\ \\mathrm{kmol/s} = \\boxed{ 1.2\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = 12.5\\ \\mathrm{kmol/s} - 5 \\boldsymbol{\\cdot} 1.6 - 3.5 \\boldsymbol{\\cdot} 0.4 = \\boxed{ 3.10\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = 4 \\boldsymbol{\\cdot} 1.6 + 4 \\boldsymbol{\\cdot} 0.4 = \\boxed{ 8.00\\ \\mathrm{kmol/s} }\n\\]"
+    "section": "Example (cont.)",
+    "text": "Example (cont.)\n\\[70\\ \\mathrm{atm} \\boldsymbol{\\cdot} 0.101325\\ \\mathrm{\\frac{MPa}{atm}}= 7.093\\ \\mathrm{MPa}\\]\nIdeal Gas\n\n\n\\[\n\\hat{V}=\\frac{RT}{P}=\\frac{8.314\\mathrm{\\frac{J}{mol \\cdot K}}\\boldsymbol{\\cdot}423\\ \\mathrm{K}}{7.093\\times10^{6}\\ \\mathrm{Pa}}=4.959\\times10^{-4}\\ \\mathrm{\\frac{m^{3}}{mol}}=0.4959\\ \\mathrm{\\frac{L}{mol}}\n\\]\n\n\n\\[\n\\dot{V}=\\dot{n}\\hat{V}=100\\ \\mathrm{\\frac{kmol}{h}}\\boldsymbol{\\cdot}\\frac{1000\\ \\mathrm{mol}}{1\\ \\mathrm{kmol}}\\boldsymbol{\\cdot}4.959\\times10^{-4}\\ \\mathrm{\\frac{m^{3}}{mol}}=49.59\\ \\mathrm{\\frac{m^{3}}{h}}\n\\]"
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-3",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-3",
+    "objectID": "balances/material/Video66Visuals.html#kays-rule-calculation",
+    "href": "balances/material/Video66Visuals.html#kays-rule-calculation",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nTo get the dry and wet compositions, divide the species molar flow rate by either the sum of the species molar flow rates minus the water flow rate, or by the sum of the species molar flow rates. The results are on the spreadsheet.\n\n\\[\nx_{i\\ (\\mathrm{dry})} = \\frac{\\dot{n}_i}{(\\sum \\dot{n}_j) - \\dot{n}_\\mathrm{H_2O}}\n\\]\n\n\n\\[\nx_{i\\ (\\mathrm{wet})} = \\frac{\\dot{n}_i}{\\sum \\dot{n}_j}\n\\]"
+    "section": "Kay’s Rule Calculation",
+    "text": "Kay’s Rule Calculation\n\\[\nT_c' = 0.200(4.23) + 0.300(305.32) + 0.500(370) = 314.71\\ \\mathrm{K}\n\\]\n\\[\nP_c' = 0.200(4.5992) + 0.300(4.8714) + 0.500(4.23) = 4.496\\ \\mathrm{MPa}\n\\]\n\\[\nT_r' = \\frac{T}{T_c'} = \\frac{423}{314.7} = 1.344\n\\]\n\\[\nP_r' = \\frac{P}{P_c'} = \\frac{7.093}{4.496} = 1.577\n\\]"
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-4",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-4",
+    "objectID": "balances/material/Video66Visuals.html#example-cont.-1",
+    "href": "balances/material/Video66Visuals.html#example-cont.-1",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nA spreadsheet of the solution is shown below"
+    "section": "Example (cont.)",
+    "text": "Example (cont.)\nUsing Kay’s rule\n\n\nCC BY-SA 3.0\n\n\n\n\\[\nP_r' = \\frac{P}{P_c'} = \\frac{7.093}{4.496} = 1.577\n\\]\n\n\n\\[\nT_r' = \\frac{T}{T_c'} = \\frac{423}{314.7} = 1.344\n\\]\n\n\n\\[\nz_{m}=0.7833\n\\]\n\n\n\\[\n\\dot{V}_{KR}=z_{m}\\dot{V}_{IG}=38.84\\ \\mathrm{\\frac{m^{3}}{h}}\n\\]"
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-5",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-5",
+    "objectID": "balances/material/Video66Visuals.html#example-spreadsheet",
+    "href": "balances/material/Video66Visuals.html#example-spreadsheet",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nThe full set of mole balances with Equation 3 and Equation 4 is\n\n\\[\n\\dot{n}_\\mathrm{C_3H_8out} = \\dot{n}_\\mathrm{C_3H_8in} - \\dot{\\xi}_3 \\implies \\dot{\\xi}_3 = 2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{n}_\\mathrm{CO_2in} + \\dot{\\xi}_4 \\implies \\dot{n}_\\mathrm{CO_2out} = \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = \\dot{n}_\\mathrm{COin} + 3 \\dot{\\xi}_3 - \\dot{\\xi}_4 \\implies \\dot{n}_\\mathrm{COout} = 6\\ \\mathrm{kmol/s} - \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = \\dot{n}_\\mathrm{O_2in} - 3.5 \\dot{\\xi}_3 - 0.5 \\dot{\\xi}_4 = 12.50\\ \\mathrm{kmol/s} - 7\\ \\mathrm{kmol/s} - 0.5 \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2out} = \\dot{n}_\\mathrm{N_2in} = 47.0\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = \\dot{n}_\\mathrm{H_2Oin} + 4 \\dot{\\xi}_3 = 8\\ \\mathrm{kmol/s}\n\\]"
+    "section": "Example Spreadsheet",
+    "text": "Example Spreadsheet"
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-6",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-6",
-    "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nApplying the \\(\\mathrm{CO_2}\\)-to-\\(\\mathrm{CO}\\) constraint\n\n\\[\n\\frac{\\dot{n}_\\mathrm{COout}}{\\dot{n}_\\mathrm{CO_2out}} = \\frac{1 - 0.80}{0.80}=0.25 = \\frac{6 - \\dot{\\xi}_4}{\\dot{\\xi}_4} \\implies \\dot{\\xi}_4 = 4.8\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{\\xi}_4 = 4.8\\ \\mathrm{kmol/s},\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = 6\\ \\mathrm{kmol/s} - \\dot{\\xi}_4 = 1.2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = 5.5\\ \\mathrm{kmol/s} - 0.5 \\dot{\\xi}_4 = 3.10\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = 4 \\dot{\\xi}_3 = 8.00\\ \\mathrm{kmol/s}\n\\]"
-  },
-  {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-7",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-7",
-    "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nA spreadsheet of the solution is shown below\n\n\n\nThe stoichiometric coefficients and extents of reaction are different from the first spreadsheet. However, the molar flows and the mole fractions or compositions are identical to those in the version with Equation 1 and Equation 2. As long as you set up a linearly independent balanced set of equations that uses all of the species, it doesn’t matter what set you use. The flows and compositions will all come out the same."
-  },
-  {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#the-takeaways",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#the-takeaways",
+    "objectID": "balances/material/Video66Visuals.html#the-takeaways",
+    "href": "balances/material/Video66Visuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nChoose a linearly independent consistent set of chemical equations that involve all reacting species.\nThe mole balance equations using the extents of reaction are usually valuable.\nKnow how to calculate excess air or excess fuel.\nSpreadsheets are useful for keeping track of everything."
+    "text": "The Takeaways\n\nKay’s rule is the simplest method for calculating properties of mixtures of real gases by hand, and it is very good for aliphatic hydrocarbons, but it is still a fair amount of work\nDWSIM or some other software application is the easiest way to calculate properties of mixtures of real gases using equations of state.\nLife gets much more interesting than the ideal gas law when you have mixtures of real gases."
+  },
+  {
+    "objectID": "balances/exergy/index.html",
+    "href": "balances/exergy/index.html",
+    "title": "Exergy or Availability Balances",
+    "section": "",
+    "text": "Intro to Systems and Balances"
+  },
+  {
+    "objectID": "react/index.html",
+    "href": "react/index.html",
+    "title": "Chemical Kinetics and Reactors",
+    "section": "",
+    "text": "More in depth study of chemical reactor engineering"
   },
   {
     "objectID": "react/AdvancedBatchCSTRPFRIntroJTFVisuals.html#ideal-homogeneous-reactors",
@@ -2072,18 +2212,81 @@
     "text": "The Takeaways\n\nFor reactors with multiple reactions occurring, there is often one desired reaction product and one or more undesired reaction product.\nThe yield is the fraction of the desired product that could be produced that is actually produced..\nThe selectivity is the ratio of the desired product to the undesired products.\nDon’t confuse mole fraction, \\(x_\\mathrm{A} = n_\\mathrm{A}/(\\sum n_i)\\), split fraction, \\(t_{A1} = \\dot{n}_\\mathrm{A1}/\\dot{n}_\\mathrm{Ain}\\), and fractional conversion.\\(f_\\mathrm{A} = (\\dot{n}_\\mathrm{A_{in}} - \\dot{n}_\\mathrm{A_{out}})/\\dot{n}_\\mathrm{A_{in}}\\)."
   },
   {
-    "objectID": "react/index.html",
-    "href": "react/index.html",
-    "title": "Chemical Kinetics and Reactors",
-    "section": "",
-    "text": "More in depth study of chemical reactor engineering"
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#sample-combustion-calculations",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#sample-combustion-calculations",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample Combustion Calculations",
+    "text": "Sample Combustion Calculations\n\\(2.00\\ \\mathrm{kmol/s}\\) of propane are burned in 25% excess dry air in a faulty combustor. 100% of the hydrogen combusts to form water, but only 80% of the carbon combusts completely to \\(\\mathrm{CO_2}\\). The remainder combusts to \\(\\mathrm{CO}\\).\n\nCalculate the molar flow rate of air into the combustor.\nCalculate the molar flow rates of each of the combustion products.\nCalculate the molar flow rate of the exhaust.\nReport the composition of the exhaust on both a wet and dry basis."
   },
   {
-    "objectID": "balances/exergy/index.html",
-    "href": "balances/exergy/index.html",
-    "title": "Exergy or Availability Balances",
-    "section": "",
-    "text": "Intro to Systems and Balances"
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution",
+    "text": "Solution\nThere are multiple sets of chemical equations we could write. We will consider two sets:\n\n\\[\n\\mathrm{C_3H_8 + 5O_2} \\rightarrow \\mathrm{3CO_2 + 4 H_2O}\n\\tag{1}\\]\n\\[\n\\mathrm{C_3H_8 + \\frac{7}{2}O_2} \\rightarrow \\mathrm{3CO + 4H_2O}\n\\tag{2}\\]\nor\n\n\n\\[\n\\mathrm{C_3H_8 + \\frac{7}{2}O_2} \\rightarrow \\mathrm{3CO + 4H_2O}\n\\tag{3}\\]\n\\[\n\\mathrm{CO + \\frac{1}{2}O_2} \\rightarrow \\mathrm{CO_2}\n\\tag{4}\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nTo calculate excess, you need to calculate complete combustion. The appropriate equation is Equation 1.\n\n\\[\n\\dot{n}_\\mathrm{O_2stoic} = \\frac{\\nu_\\mathrm{O_2}}{\\nu_\\mathrm{C_3H_8}} \\dot{n}_\\mathrm{C_3H_8stoic} = \\frac{-5}{-1}(2\\ \\mathrm{kmol/s}) = 10\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\mathrm{frac.\\ xs} = 0.25 = \\frac{ \\dot{n}_\\mathrm{O_2in} - \\dot{n}_\\mathrm{O_2stoic} }{\\dot{n}_\\mathrm{O_2stoic}}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2in} = (1 + \\mathrm{frac.\\ xs})\\dot{n}_\\mathrm{O_2stoic} = 1.25(10\\ \\mathrm{kmol/s})= 12.5\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2in} = \\frac{79}{21}\\dot{n}_\\mathrm{O_2in} = \\frac{79}{21}(12.5\\ \\mathrm{kmol/s}) = 47.0\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\text{Air-in} = \\dot{n}_\\mathrm{O_2in} + \\dot{n}_\\mathrm{N_2in} = 12.5 + 47.0 = \\boxed{  59.5\\ \\mathrm{kmol/s}}\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-1",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nThe full set of mole balances with Equation 1 and Equation 2 is\n\n\\[\n\\dot{n}_\\mathrm{C_3H_8out} = \\dot{n}_\\mathrm{C_3H_8in} - \\dot{\\xi}_1 - \\dot{\\xi}_2 \\implies \\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{n}_\\mathrm{CO_2in} + 3\\dot{\\xi}_1 + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{CO_2out} = 3\\dot{\\xi}_1\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = \\dot{n}_\\mathrm{COin} + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_1 + 3 \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{COout} = 3\\dot{\\xi}_2\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = \\dot{n}_\\mathrm{O_2in} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2 = 12.50\\ \\mathrm{kmol/s} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2out} = \\dot{n}_\\mathrm{N_2in} + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_1 +0 \\boldsymbol{\\cdot}  \\dot{\\xi}_2 = \\boxed{ 47.0\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = \\dot{n}_\\mathrm{H_2Oin} + 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2 = 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-2",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-2",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\n\nApplying the \\(\\mathrm{CO_2}\\)-to-\\(\\mathrm{CO}\\) constraint\n\n\\[\n\\frac{\\dot{n}_\\mathrm{COout}}{\\dot{n}_\\mathrm{CO_2out}} = \\frac{1 - 0.80}{0.80}=0.25 = \\frac{3\\dot{\\xi}_2}{3\\dot{\\xi}_1} = \\frac{\\dot{\\xi}_2}{\\dot{\\xi}_1}\n\\]\n\n\n\\[\n\\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s} = \\dot{\\xi}_1 + 0.25 \\dot{\\xi}_1 = 1.25 \\dot{\\xi}_1\n\\]\n\n\n\\[\n\\implies \\dot{\\xi}_1 = 1.6\\ \\mathrm{kmol/s},\\ \\dot{\\xi}_2 = 0.4\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\implies \\dot{n}_\\mathrm{CO_2out} = 3 \\boldsymbol{\\cdot} 1.6\\ \\mathrm{kmol/s} = \\boxed{ 4.8\\ \\mathrm{kmol/s} },\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = 3 \\boldsymbol{\\cdot} 0.4\\ \\mathrm{kmol/s} = \\boxed{ 1.2\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = 12.5\\ \\mathrm{kmol/s} - 5 \\boldsymbol{\\cdot} 1.6 - 3.5 \\boldsymbol{\\cdot} 0.4 = \\boxed{ 3.10\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = 4 \\boldsymbol{\\cdot} 1.6 + 4 \\boldsymbol{\\cdot} 0.4 = \\boxed{ 8.00\\ \\mathrm{kmol/s} }\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-3",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-3",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nTo get the dry and wet compositions, divide the species molar flow rate by either the sum of the species molar flow rates minus the water flow rate, or by the sum of the species molar flow rates. The results are on the spreadsheet.\n\n\\[\nx_{i\\ (\\mathrm{dry})} = \\frac{\\dot{n}_i}{(\\sum \\dot{n}_j) - \\dot{n}_\\mathrm{H_2O}}\n\\]\n\n\n\\[\nx_{i\\ (\\mathrm{wet})} = \\frac{\\dot{n}_i}{\\sum \\dot{n}_j}\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-4",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-4",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nA spreadsheet of the solution is shown below"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-5",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-5",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nThe full set of mole balances with Equation 3 and Equation 4 is\n\n\\[\n\\dot{n}_\\mathrm{C_3H_8out} = \\dot{n}_\\mathrm{C_3H_8in} - \\dot{\\xi}_3 \\implies \\dot{\\xi}_3 = 2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{n}_\\mathrm{CO_2in} + \\dot{\\xi}_4 \\implies \\dot{n}_\\mathrm{CO_2out} = \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = \\dot{n}_\\mathrm{COin} + 3 \\dot{\\xi}_3 - \\dot{\\xi}_4 \\implies \\dot{n}_\\mathrm{COout} = 6\\ \\mathrm{kmol/s} - \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = \\dot{n}_\\mathrm{O_2in} - 3.5 \\dot{\\xi}_3 - 0.5 \\dot{\\xi}_4 = 12.50\\ \\mathrm{kmol/s} - 7\\ \\mathrm{kmol/s} - 0.5 \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2out} = \\dot{n}_\\mathrm{N_2in} = 47.0\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = \\dot{n}_\\mathrm{H_2Oin} + 4 \\dot{\\xi}_3 = 8\\ \\mathrm{kmol/s}\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-6",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-6",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nApplying the \\(\\mathrm{CO_2}\\)-to-\\(\\mathrm{CO}\\) constraint\n\n\\[\n\\frac{\\dot{n}_\\mathrm{COout}}{\\dot{n}_\\mathrm{CO_2out}} = \\frac{1 - 0.80}{0.80}=0.25 = \\frac{6 - \\dot{\\xi}_4}{\\dot{\\xi}_4} \\implies \\dot{\\xi}_4 = 4.8\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{\\xi}_4 = 4.8\\ \\mathrm{kmol/s},\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = 6\\ \\mathrm{kmol/s} - \\dot{\\xi}_4 = 1.2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = 5.5\\ \\mathrm{kmol/s} - 0.5 \\dot{\\xi}_4 = 3.10\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = 4 \\dot{\\xi}_3 = 8.00\\ \\mathrm{kmol/s}\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-7",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-7",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nA spreadsheet of the solution is shown below\n\n\n\nThe stoichiometric coefficients and extents of reaction are different from the first spreadsheet. However, the molar flows and the mole fractions or compositions are identical to those in the version with Equation 1 and Equation 2. As long as you set up a linearly independent balanced set of equations that uses all of the species, it doesn’t matter what set you use. The flows and compositions will all come out the same."
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#the-takeaways",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nChoose a linearly independent consistent set of chemical equations that involve all reacting species.\nThe mole balance equations using the extents of reaction are usually valuable.\nKnow how to calculate excess air or excess fuel.\nSpreadsheets are useful for keeping track of everything."
   },
   {
     "objectID": "balances/material/BatchCSTRPFRIntroJTFVisuals.html#ideal-homogeneous-reactors",
@@ -2422,95 +2625,11 @@
     "text": "The Takeaways\n\nUsually the PFR had a smaller space time and a smaller volume for the processing requirements than the CSTR.\nCSTR calculations don’t require calculus.\nBatch reactors require accounting for switchover times."
   },
   {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#bypass",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#bypass",
-    "title": "Chemical and Thermal Processes",
-    "section": "Bypass",
-    "text": "Bypass\n\n\nLess common than recycle\nCommon example is fruit-juice concentrator."
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds",
-    "title": "Chemical and Thermal Processes",
-    "section": "Simplifying PFDs",
-    "text": "Simplifying PFDs\nFlowsheets can be simplified by drawing a surrounding box and only dealing with the inputs and outputs. For example, the process flowsheet for the dehydrogenation of propane to propene.\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-1",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Simplifying PFDs",
-    "text": "Simplifying PFDs\nFlowsheets can be simplified by drawing a surrounding box and only dealing with the inputs and outputs. For example, the process flowsheet for the dehydrogenation of propane to propene.\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "Simplifying PFDs (cont.)",
-    "text": "Simplifying PFDs (cont.)\nThe absorber and stripper can be combined into one separator for calculation purposes.\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-1",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Simplifying PFDs (cont.)",
-    "text": "Simplifying PFDs (cont.)\nThe absorber and stripper can be combined into one separator for calculation purposes.\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-2",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-2",
-    "title": "Chemical and Thermal Processes",
-    "section": "Simplifying PFDs (cont.)",
-    "text": "Simplifying PFDs (cont.)\nThe reactor, separator, distillation column, and recycle loop can be combined into an overall process block for calculation purposes.\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-3",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#simplifying-pfds-cont.-3",
-    "title": "Chemical and Thermal Processes",
-    "section": "Simplifying PFDs (cont.)",
-    "text": "Simplifying PFDs (cont.)\nThe reactor, separator, distillation column, and recycle loop can be combined into an overall process block for calculation purposes.\n\n\n\\(\\enclose{circle}{1}\\)\n\n\n\\(\\enclose{circle}{7}\\)\n\n\n\\(\\enclose{circle}{6}\\)\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example of Simplifying",
-    "text": "Example of Simplifying\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene\n\n\n\n\n\nLet’s look at the calculations for this slightly more realistic dehydrogenation process.\n Product flow rate – \\(100\\ \\mathrm{mol/s}\\)\nProduct stream 6 – \\(98\\%\\) propene\nRecycle stream 5 – \\(97\\%\\) propane\n\n\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)\n\n\n\\(\\mathrm{C_3H_8 \\rightarrow C_3H_6 + H_2}\\)\n\\(\\mathrm{C_3H_8 + 2H_2 \\rightarrow 3CH_4}\\)\n\\(f_\\mathrm{C_3H_8} = 0.35\\) (in reactor)\n\\(S = \\frac{\\dot{n}_{\\mathrm{C_3H_6}_\\text{–gen}}}{\\dot{n}_{\\mathrm{CH_3}_\\text{–gen}}} = 2\\) (in reactor)"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example of Simplifying (cont.)",
-    "text": "Example of Simplifying (cont.)\n\n\n\n\\(\\enclose{circle}{1}\\)\n\n\n\\(\\enclose{circle}{7}\\)\n\n\n\\(\\enclose{circle}{6}\\)\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene\n\n\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)\n\n\n\n\nIf there is only one reactor in the process, the extents of reaction overall have to be the same as the extents of reaction in the reactor.\nPropene is produced by reaction 1 only, so\n\n\\(\\dot{\\xi}_1 = (0.98)(100\\ \\mathrm{mol/s}) = 98\\ \\mathrm{mol/s}\\)\n\\(\\dot{n}_\\text{B–gen} =\\dot{n}_\\mathrm{B6} - \\dot{n}_\\mathrm{B1} = \\dot{n}_\\mathrm{B6}\\)\n\\(\\dot{n}_\\text{C–gen} =\\dot{n}_\\mathrm{C7} - \\dot{n}_\\mathrm{C1} = \\dot{n}_\\mathrm{C7}\\)\n\\(S = \\frac{\\dot{n}_\\text{B–gen}}{\\dot{n}_\\text{C–gen}} = \\frac{\\dot{n}_\\mathrm{B6}}{\\dot{n}_\\mathrm{C7}} = \\frac{\\nu_\\mathrm{B,1} \\dot{\\xi}_1}{\\nu_\\mathrm{C,2} \\dot{\\xi}_2} = \\frac{\\dot{\\xi}_1}{3 \\dot{\\xi}_2} = 2\\)\n\\(\\dot{\\xi}_2 = \\frac{\\dot{\\xi}_1}{6} = \\frac{98}{6}\\)"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.-1",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example of Simplifying (cont.)",
-    "text": "Example of Simplifying (cont.)\n \n\n\n\\(\\enclose{circle}{1}\\)\n\n\n\\(\\enclose{circle}{2}\\)\n\n\n\\(\\enclose{circle}{3}\\)\n\n\n\\(\\enclose{circle}{7}\\)\n\n\n\\(\\enclose{circle}{6}\\)\n\n\n\\(\\mathrm{A,\\ B}\\)\n\n\n\\(\\mathrm{A,\\ B,\\ C,\\ D}\\)\n\n\nReactor\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene\n\n\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)\n\n\n\nMole balance on \\(\\mathrm{A}\\)\n\\(\\dot{n}_\\mathrm{A6} = \\dot{n}_\\mathrm{A1} + \\nu_\\mathrm{A1} \\dot{\\xi}_1 + \\nu_\\mathrm{A2} \\dot{\\xi}_2\\)\n\\(2 = \\dot{n}_\\mathrm{A1} - 98 - 16.3\\)\n\\(\\implies \\dot{n}_\\mathrm{A1} = 116.3\\ \\mathrm{mol/s}\\)\n\\(f_\\mathrm{A} = 1 - \\frac{\\dot{n}_\\mathrm{A3}}{\\dot{n}_\\mathrm{A2}}\\)\n\\(\\implies \\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A2}(1-f_\\mathrm{A})\\)\n\\(\\dot{n}_\\mathrm{A3} = \\dot{n}_\\mathrm{A2} + \\nu_\\mathrm{A1} \\dot{\\xi}_1 + \\nu_\\mathrm{A2} \\dot{\\xi}_2 = \\dot{n}_\\mathrm{A2} - \\dot{\\xi}_1 - \\dot{\\xi}_2\\)\n\\(\\dot{n}_\\mathrm{A2}(1-f_\\mathrm{A}) = \\dot{n}_\\mathrm{A2} - \\dot{\\xi}_1 - \\dot{\\xi}_2\\)\n\\(\\dot{n}_\\mathrm{A2} = \\frac{\\dot{\\xi}_1 + \\dot{\\xi}_2}{f_\\mathrm{A}} = \\frac{98 + \\frac{98}{6}}{0.35} = 326.7\\)"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.-2",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-cont.-2",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example of Simplifying (cont.)",
-    "text": "Example of Simplifying (cont.)\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene\n\n\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)\n\n\nMaterial Balance on \\(\\mathrm{A}\\) around each element\n\nM: \\(\\dot{n}_\\mathrm{A2} = 116.3 + \\dot{n}_\\mathrm{A5}\\)\nR: \\(\\dot{n}_\\mathrm{A3} = 0.65 \\dot{n}_\\mathrm{A2}\\)\nS1: \\(\\dot{n}_\\mathrm{A4} = \\dot{n}_\\mathrm{A3} - \\dot{n}_\\mathrm{A7} = \\dot{n}_\\mathrm{A3}\\)\nS2: \\(2 = \\dot{n}_\\mathrm{A4} - \\dot{n}_\\mathrm{A5}\\)\n\n\nSolution\n    \\(\\dot{n}_\\mathrm{A2} = 326.6\\ \\mathrm{mol/s}\\)\n    \\(\\dot{n}_\\mathrm{A3} = 212.3\\ \\mathrm{mol/s}\\)\n    \\(\\dot{n}_\\mathrm{A4} = 212.3\\ \\mathrm{mol/s}\\)\n    \\(\\dot{n}_\\mathrm{A5} = 210.3\\ \\mathrm{mol/s}\\)\n\n\nRecycle \\(97\\%\\ \\mathrm{A}\\)\n\\(\\therefore\\ \\dot{n}_5 = \\frac{210.3}{0.97} = 216.8\\ \\mathrm{mol/s}\\)"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-spreadsheet",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#example-of-simplifying-spreadsheet",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example of Simplifying Spreadsheet",
-    "text": "Example of Simplifying Spreadsheet\n\n\n\npropane\n\n\nhydrogenmethane\n\n\npropanepropene\n\n\n\\(\\mathrm{C_3H_8 - A}\\)\n\\(\\mathrm{C_3H_6 - B}\\)\n\\(\\mathrm{CH_4 - C}\\)\n\\(\\mathrm{H_2 - D}\\)"
-  },
-  {
-    "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#the-takeaways",
-    "href": "balances/material/RecycleBypassPart2JTFVisuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nBypass is less common than recycle, but can be analyzed the same way.\nOften the quickest way to analyze a PFD is to do overall balances and partial balances first.\nIf there is only one reactor (with possibly multiple reactions) in a process, the extents of reaction are the same for the overall process and for the reactor.\nIf there is only one reactor (with possibly multiple reactions) in a process with recycle, the overall fractional conversion is almost certainly much higher than the fractional conversion in the reactor."
+    "objectID": "balances/material/index.html",
+    "href": "balances/material/index.html",
+    "title": "Material Balances",
+    "section": "",
+    "text": "Intro to Systems and Balances"
   },
   {
     "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#common-processing-units",
