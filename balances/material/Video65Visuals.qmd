@@ -1,0 +1,200 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# REAL Gas Mixtures EXPLAINED<br/>Don’t Let This Cost You Points<br/>on Your Exam! Part 1{.bigbold70}
+
+::: {style="text-align: center; font-size: 120px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+
+## Compressibility and Ideal Gas
+
+As a reminder, we can categorize the non-ideality of the gas with the compressibility, $z$.
+
+$$
+z \equiv \frac{P\hat{V}}{RT}
+$$
+
+
+For ideal gas mixtures, the mole fraction equals the pressure fraction
+equals the volume fraction.
+
+$$
+y_i = \frac{n_i}{n} = \frac{p_i}{P} = \frac{v_i}{V}
+$$
+
+In addition, the molecular weight is just the mole-averaged molecular weight:
+
+$$
+M = \sum y_i M_i
+$$
+
+---
+
+## Mixtures of Real Gases
+
+- So what do you do with real gases?
+- What is $z$?
+- Do partial pressures work?
+- How about molar volumes?
+
+
+There are advanced phase-equilibria videos that discuss fugacity coefficients, activity coefficients, and necessary modeling methods.
+<br/><br/>
+For these videos, we use Kay’s rule or DWSIM.
+<br/><br/>
+This video will also explore the Peng-Robinson mixing rules, although we
+will not use them. You should use Peng-Robinson in DWSIM instead.
+
+---
+
+## Kay’s Rule
+
+1. Calculate the pseudocritical temperature.
+2. Calculate the pseudocritical pressure.
+3. Calculate the pseudoreduced temperature.
+4. Calculate the pseudoreduced pressure.
+5. Use the generalized compressibility charts to calculate $z_m$.
+6. Use $z_m$ to calculate anything else needed.
+
+- Neither partial pressures nor molar volumes work.
+- However, the molecular weight is still just the mole-averaged
+molecular weight.
+
+:::{.fragment}
+$$
+M = \sum y_i M_i
+$$
+:::
+
+---
+
+## Pseudo Pseudo
+
+:::{style="font-size: 95px;"}
+The pseudocritical temperature is
+$$
+T_c' = \sum y_i T_{ci}
+$$
+
+The pseudocritical pressure is
+
+$$
+P_c' = \sum y_i P_{ci}
+$$
+
+The pseudoreduced temperature is
+
+$$
+T_r' = \frac{T}{T_c'}
+$$
+
+The pseudoreduced pressure is
+
+$$
+P_r' = \frac{P}{P_c'}
+$$
+
+:::
+---
+
+
+
+## Kay's Rule
+
+![](CompGenDiaTemp.png){.absolute top=15% left=35% width=65%}
+
+:::{.absolute top=76% left=58%}
+CC BY-SA 3.0
+:::
+
+:::{.absolute top=15% left=2%}
+$$
+P_r' =\frac{P}{P_c'}
+$$
+
+$$
+T_r' = \frac{T}{T_c'}
+$$
+
+$$
+z_m = z_m(T_r', P_r')
+$$
+:::
+
+
+---
+
+## Peng-Robinson Equation of State
+
+From the family of cubic equations of state
+$$
+P = \frac{RT}{\hat{V} - b} - \frac{a}{\hat{V}^2 + 2\hat{V}b - b^2}
+$$
+
+where:
+
+$$
+a = 0.45724 \alpha \frac{(RT_c)^2}{P_c}
+$$
+
+$$
+b = 0.07780 \frac{RT_c}{P_c}
+$$
+
+$$
+\alpha = \left[1 + m(1 - \sqrt{T_r})\right]^2
+$$
+
+$$
+m = 0.37464 + 1.54226\omega - 0.26992\omega^2
+$$
+
+---
+
+## The Peng-Robinson Mixing Rules 
+
+$$
+P=\frac{RT}{\hat{V}-b_{m}}-\frac{a_{m}}{\hat{V}^{2}+2\hat{V}b_{m}-b_{m}^{2}}
+$$ 
+where 
+$$
+a_{m}=\sum_{i=1}^{2}\sum_{j=1}^{2}y_{i}y_{j}(1-k_{ij})\sqrt{a_{i}a_{j}}
+$$
+$$
+b_{m}=\sum_{i=1}^{2}y_{i}b_{i}
+$$ 
+$$
+k_{ij}=1-\frac{1}{2}\frac{b_{2}}{b_{1}}\sqrt{\frac{a_{1}}{a_{2}}}-\frac{1}{2}\frac{b_{1}}{b_{2}}\sqrt{\frac{a_{2}}{a_{1}}}+\frac{1}{2}\frac{b_{2}RT}{\sqrt{a_{1}a_{2}}}\frac{\theta_{1}}{T_{r_{1}}^{\theta_{1}}P_{r1}^{\theta_{3}}}
+$$ 
+$\theta_{1}$, $\theta_{2}$, $\theta_{3}$ from [table 3](https://www.sciencedirect.com/science/article/pii/S2090123212000264?via%3Dihub) in the [linked reference](https://www.sciencedirect.com/science/article/pii/S2090123212000264?via%3Dihub)
+
+---
+
+
+## The Takeaways
+
+1. Mixtures of real gases don’t follow the ideal-gas mixing rules, except for average molecular weight.
+2. Kay’s rule is a method for calculating properties of real-gas mixtures that is simple enough to do by hand.
+3. Kay’s rule calculates pseudocritical temperature and pressure, and then pseudoreduced temperature and pressure for use with the generalized compressibility charts.
+4. Applying equation-of-state methods to mixtures of real gases is easiest with a computer or app.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

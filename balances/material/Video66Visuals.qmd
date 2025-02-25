@@ -1,0 +1,177 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# REAL Gas Mixtures EXPLAINED<br/>Don’t Let This Cost You Points<br/>on Your Exam! Part 2{.bigbold70}
+
+::: {style="text-align: center; font-size: 120px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+
+
+## Kay’s Rule Review
+
+1. Calculate the pseudocritical temperature.
+2. Calculate the pseudocritical pressure.
+3. Calculate the pseudoreduced temperature.
+4. Calculate the pseudoreduced pressure.
+5. Use the generalized compressibility charts to calculate $z_m$.
+6. Use $z_m$ to calculate anything else needed.
+
+---
+
+
+
+## Kay's Rule (cont.)
+
+![](CompGenDiaTemp.png){.absolute top=15% left=35% width=65%}
+
+:::{.absolute top=76% left=58%}
+CC BY-SA 3.0
+:::
+
+:::{.absolute top=15% left=2%}
+$$
+P_r' =\frac{P}{P_c'}
+$$
+
+$$
+T_r' = \frac{T}{T_c'}
+$$
+
+$$
+z_m = z_m(T_r', P_r')
+$$
+:::
+
+
+---
+
+## DWSIM and Equation of State
+
+![](DWSIMScreen.png)
+
+---
+
+## Real Gas Example
+
+A stream of 20% methane, 30% ethane, and 50% propane at $T = 423\ \mathrm{K}$ and $P = 70\ \mathrm{atm}$ flows at $100.0\ \mathrm{kmol/h}$.
+
+Estimate the volumetric flow rate using Kay’s rule and compare with the ideal gas law and the Peng-Robinson, Soave-Redlich-Kwong, and Lee-Kesler-Plöcker equations of state.
+
+
+Data from Wikipedia
+
+[methane](https://en.wikipedia.org/wiki/Methane): $T_c = 190.56\ \mathrm{K}$, $P_c = 4.5992\ \mathrm{MPa}$
+
+[ethane](https://en.wikipedia.org/wiki/Ethane): $T_c = 305.32\ \mathrm{K}$, $P_c = 4.8714\ \mathrm{MPa}$
+
+[propane](https://en.wikipedia.org/wiki/Propane): $T_c = 370\ \mathrm{K}$, $P_c = 4.23\ \mathrm{MPa}$
+
+---
+
+## Example (cont.) {.absolute top="5%" left="5%"}
+
+$$70\ \mathrm{atm} \boldsymbol{\cdot} 0.101325\ \mathrm{\frac{MPa}{atm}}= 7.093\ \mathrm{MPa}$$
+
+### Ideal Gas {.absolute top="15%" left="10%"}
+
+:::{style="font-size: 85px;"}
+:::{.absolute top=35% left=5%}
+$$
+\hat{V}=\frac{RT}{P}=\frac{8.314\mathrm{\frac{J}{mol \cdot K}}\boldsymbol{\cdot}423\ \mathrm{K}}{7.093\times10^{6}\ \mathrm{Pa}}=4.959\times10^{-4}\ \mathrm{\frac{m^{3}}{mol}}=0.4959\ \mathrm{\frac{L}{mol}}
+$$
+:::
+:::{.absolute top=55% left=5%}
+$$
+\dot{V}=\dot{n}\hat{V}=100\ \mathrm{\frac{kmol}{h}}\boldsymbol{\cdot}\frac{1000\ \mathrm{mol}}{1\ \mathrm{kmol}}\boldsymbol{\cdot}4.959\times10^{-4}\ \mathrm{\frac{m^{3}}{mol}}=49.59\ \mathrm{\frac{m^{3}}{h}}
+$$
+:::
+:::
+---
+
+## Kay’s Rule Calculation
+
+$$
+T_c' = 0.200(4.23) + 0.300(305.32) + 0.500(370) = 314.71\ \mathrm{K}
+$$
+
+$$
+P_c' = 0.200(4.5992) + 0.300(4.8714) + 0.500(4.23) = 4.496\ \mathrm{MPa}
+$$
+
+$$
+T_r' = \frac{T}{T_c'} = \frac{423}{314.7} = 1.344
+$$
+
+$$
+P_r' = \frac{P}{P_c'} = \frac{7.093}{4.496} = 1.577
+$$
+
+---
+
+## Example (cont.)
+
+### Using Kay's rule
+
+![](CompGenDiaTemp.png){.absolute top=15% left=40% width=60%}
+
+:::{.absolute top=70% left=61%}
+CC BY-SA 3.0
+:::
+
+:::{style="font-size: 80px;"}
+:::{.absolute top=35% left=2%}
+$$
+P_r' = \frac{P}{P_c'} = \frac{7.093}{4.496} = 1.577
+$$
+:::
+:::{.absolute top=50% left=2%}
+$$
+T_r' = \frac{T}{T_c'} = \frac{423}{314.7} = 1.344
+$$
+:::
+:::{.absolute top=27% left=23%}
+$$
+z_{m}=0.7833
+$$
+:::
+:::{.absolute top=65% left=2%}
+$$
+\dot{V}_{KR}=z_{m}\dot{V}_{IG}=38.84\ \mathrm{\frac{m^{3}}{h}}
+$$
+:::
+:::
+
+# DWSIM Video
+
+## Example Spreadsheet
+
+![](MixRealGasSpread.png)
+---
+
+## The Takeaways
+
+1. Kay’s rule is the simplest method for calculating properties of mixtures of real gases by hand, and it is very good for aliphatic hydrocarbons, but it is still a fair amount of work
+2. DWSIM or some other software application is the easiest way to calculate properties of mixtures of real gases using equations of state.
+3. Life gets much more interesting than the ideal gas law when you have mixtures of real gases.
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
