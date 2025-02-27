@@ -50,7 +50,7 @@ DOFPro Team
 
 - Typically two or more phases, Gas-Solid, Liquid-Solid, or Gas-Liquid
 - Catalyzed reactions are the most common
-- Requires simultaneous solution of chemical-kinetic, mass-transfer, and heat-transfer equations
+- Requires simultaneous solution of chemical-kinetic, mass-transfer,  heat-transfer, and fluid-flow equations
 - $\dot{\xi}$ and $f_\mathrm{A}$ are determined by the kinetic expression, catalyst amount, particle sizes, feed conditions, reactor volume, and temperature.
 
 ## A Single Chemical Reaction
@@ -165,7 +165,7 @@ $$
 
 where $k_f$ and $k_r$ are the forward and reverse rate coefficients
 respectively. The exponents $n$, $m$, $p$, and $q$ are known as the order of
-reaction with respect to the reactants $\mathrm{A}$, $\mathrm{B}$, $\mathrm{P}$, and $\mathrm{Q}$. They are not
+reaction with respect to the reactants $\mathrm{A}$, $\mathrm{B}$, $\mathrm{P}$, and $\mathrm{Q}.$ They are not
 necessarily the same as the stoichiometric coefficients $-\nu_\mathrm{A}$, $-\nu_\mathrm{B}$, $\nu_\mathrm{P}$, and $\nu_\mathrm{Q}$.
 
 ## Kinetic Expressions (cont.)

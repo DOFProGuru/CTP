@@ -153,6 +153,7 @@ We have to process $V = \dot{V} t_\mathrm{total} = 0.2 \cdot 4.416 = 0.8832\ \ma
 
 ## Comparison
 
+:::{style="font-size: 85px;"}
 - The PFR had a small space time and a smaller volume for the processing requirements than the CSTR. For any positive-order overall kinetics, the PFR will always have a smaller space time. The advantage grows as the fractional conversion increases.
 - The PFR required calculus, but the CSTR just needed algebra. This is a general result.
 - Because of the switchover time, and switchover labor, batch reactors are almost always more expensive than continuous reactors.
@@ -162,6 +163,7 @@ We have to process $V = \dot{V} t_\mathrm{total} = 0.2 \cdot 4.416 = 0.8832\ \ma
   - From $\dot{n}_\mathrm{P}$
   - From the fractional conversions
   - As $-r_\mathrm{A} V_R$ for the CSTR
+:::
 
 ## The Takeaways
 
