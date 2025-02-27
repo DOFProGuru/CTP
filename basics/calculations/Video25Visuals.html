@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
-  <title>Chemical and Thermal Processes – kineticsintrojtfvisuals</title>
+  <title>Chemical and Thermal Processes – video25visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,187 +127,101 @@
 
 
 <section>
-<section id="how-did-you-think-i-would-react" class="title-slide slide level1 center">
-<h1>How Did You Think<br>I Would React?</h1>
+<section id="basic-spreadsheet-techniques-basic-statistics-and-linear-and-nonlinear-data-fittingjust-the-facts" class="title-slide slide level1 bigbold75 center">
+<h1>Basic Spreadsheet Techniques<br>Basic Statistics and Linear and Nonlinear Data Fitting<br>Just the Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
-<section id="types-of-reactor-models" class="slide level2">
-<h2>Types of Reactor Models</h2>
-<div class="fragment">
-<h3 id="extent-of-reaction-and-fractional-conversion">Extent of Reaction and Fractional Conversion</h3>
-</div>
+<section id="data-fitting-tools" class="slide level2">
+<h2>Data Fitting Tools</h2>
 <ul>
-<li class="fragment"><span class="math inline">\(\dot{\xi}\)</span>, <span class="math inline">\(\xi\)</span>, and <span class="math inline">\(f_\mathrm{A}\)</span> are treated as parameters that are either given or calculated from other given information.</li>
-<li class="fragment">Does not deal directly with either chemical kinetics or chemical thermodynamics</li>
-</ul>
-<div class="fragment">
-<h3 id="chemical-equilibrium">Chemical Equilibrium</h3>
-</div>
+<li class="fragment">=average(values) and =stdev(values)</li>
+<li class="fragment">=slope(y-values,x-values) and =intercept(y-values,x-values)</li>
+<li class="fragment">Solver
 <ul>
-<li class="fragment">Assumes reaction reaches equilibrium</li>
-<li class="fragment"><span class="math inline">\(\dot{\xi}\)</span>, <span class="math inline">\(\xi\)</span>, and <span class="math inline">\(f_\mathrm{A}\)</span> are determined by temperature, pressure, and feed concentrations</li>
-</ul>
-</section>
-<section id="types-of-reactor-models-cont." class="slide level2">
-<h2>Types of Reactor Models (cont.)</h2>
-<h3 id="homogeneous-chemical-kinetics">Homogeneous Chemical Kinetics</h3>
-<ul>
-<li class="fragment">Starts with the three idealized chemical reactors
-<ul>
-<li class="fragment">Batch</li>
-<li class="fragment">CSTR (mixed or stirred tank)</li>
-<li class="fragment">PFR (Plug Flow Reactor)</li>
+<li class="fragment">Set up fitting function</li>
+<li class="fragment">Set up array of fitting values. Keep magnitudes roughly equal.</li>
+<li class="fragment">Calculate <span class="math inline">\(\Sigma{(y_i – y_{i-fit})^2}\)</span>. SSE</li>
+<li class="fragment">Minimize with Solver</li>
 </ul></li>
-<li class="fragment">Uses chemical-kinetics expressions such as <span class="math inline">\(-r_\mathrm{A} = kC_\mathrm{A}^n\)</span></li>
-<li class="fragment"><span class="math inline">\(\dot{\xi}\)</span>, <span class="math inline">\(\xi\)</span>, and <span class="math inline">\(f_\mathrm{A}\)</span> are determined by the kinetic expression, feed conditions, reactor volume, and temperature.</li>
 </ul>
 </section>
-<section id="types-of-reactor-models-cont.-1" class="slide level2">
-<h2>Types of Reactor Models (cont.)</h2>
-<h3 id="heterogeneous-chemical-kinetics">Heterogeneous Chemical Kinetics</h3>
+<section id="demo-for-average-and-stdev" class="slide level2">
+<h2>Demo for Average and Stdev</h2>
+<p>{image}</p>
+</section>
+<section id="demo-for-slope-and-intercept" class="slide level2">
+<h2>Demo for Slope and Intercept</h2>
+<p>Have data for <span class="math inline">\(2^{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_{A0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
+<p><span class="math inline">\(\hspace{3mm} C_A = \dfrac{C_A0}{1+C_{A0} kt}\)</span> <span class="math inline">\(\hspace{3mm} \dfrac{1}{C_A} = \dfrac{1}{C_{A0}} + kt\)</span> <span class="math inline">\(\hspace{3mm}\)</span> slope = k <span class="math inline">\(\hspace{3mm}\)</span> intercept <span class="math inline">\(= \dfrac{1}{C_A0}\)</span></p>
+<p>{image}</p>
+</section>
+<section id="nonlinear-demo-for-solver" class="slide level2">
+<h2>Nonlinear Demo for Solver</h2>
+<p>Have data for <span class="math inline">\(2^{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_{A0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
 <ul>
-<li class="fragment">Typically two or more phases, Gas-Solid, Liquid-Solid, or Gas-Liquid</li>
-<li class="fragment">Catalyzed reactions are the most common</li>
-<li class="fragment">Requires simultaneous solution of chemical-kinetic, mass-transfer, heat-transfer, and fluid-flow equations</li>
-<li class="fragment"><span class="math inline">\(\dot{\xi}\)</span> and <span class="math inline">\(f_\mathrm{A}\)</span> are determined by the kinetic expression, catalyst amount, particle sizes, feed conditions, reactor volume, and temperature.</li>
+<li class="fragment">Set up fitting function</li>
+<li class="fragment">Set up array of fitting values. Keep magnitudes roughly equal.</li>
+<li class="fragment">Calculate <span class="math inline">\(\Sigma{(y_i – y_{i-fit})^2}\)</span>. SSE</li>
+<li class="fragment">Minimize with Solver</li>
 </ul>
+<p>{image}</p>
 </section>
-<section id="a-single-chemical-reaction" class="slide level2">
-<h2>A Single Chemical Reaction</h2>
-<p><span class="math display">\[
-\nu_\mathrm{A} \mathrm{A} + \nu_\mathrm{B} \mathrm{B} + \cdots \rightarrow \nu_\mathrm{P} \mathrm{P} + \nu_\mathrm{S} \mathrm{S} + \cdots
-\]</span></p>
-<p><span class="math display">\[
-\sum \nu_i \mathrm{A}_i = 0
-\]</span></p>
-<p><span class="math inline">\(\nu_i\)</span> – stoichometric coefficient for component <span class="math inline">\(i\)</span>.</p>
-<p><span class="math inline">\(\nu_i\)</span> is positive for products (right side) and negative for reactants (left side).</p>
-<p><strong>Reaction Rate</strong></p>
-<p><span class="math inline">\(\ \ \ \ r \equiv \frac{1}{\nu_i} \frac{1}{V} \frac{dn_i}{dt}\)</span></p>
-<p><span class="math inline">\(\ \ \ \ r_i = \nu_i r\)</span></p>
-<div class="absolute" style="top: 53.7%; left: 50%; ">
-<p><strong>Individual Reaction Rates</strong></p>
-<p><span class="math inline">\(\ \ \ \ r_\mathrm{A} \equiv \frac{1}{V} \frac{dn_\mathrm{A}}{dt}  = \nu_\mathrm{A} r\)</span></p>
-<p><span class="math inline">\(\ \ \ \ r_\mathrm{B} \equiv \frac{1}{V} \frac{dn_\mathrm{B}}{dt} = \nu_\mathrm{B} r\)</span></p>
-<p><span class="math inline">\(\ \ \ \ r_\mathrm{P} \equiv \frac{1}{V} \frac{dn_\mathrm{P}}{dt}  = \nu_\mathrm{P} r\)</span></p>
-<p><span class="math inline">\(\ \ \ \ r_\mathrm{S} \equiv \frac{1}{V} \frac{dn_\mathrm{S}}{dt} = \nu_\mathrm{S} r\)</span></p>
-</div>
+<section id="nonlinear-demo-for-solver-1" class="slide level2">
+<h2>Nonlinear Demo for Solver</h2>
+<p>Have data for <span class="math inline">\(2^{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_{A0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
+<ul>
+<li class="fragment"><span class="math inline">\(\textbf{Set up fitting function}\)</span></li>
+<li class="fragment">Set up array of fitting values. Keep magnitudes roughly equal.</li>
+<li class="fragment">Calculate <span class="math inline">\(\Sigma{(y_i – y_{i-fit})^2}\)</span>. SSE</li>
+<li class="fragment">Minimize with Solver</li>
+</ul>
+<p><span class="math inline">\(\hspace{3mm} C_{A0-fit} = \dfrac{C_{A0-fit}}{1+C_{A0-fit} {k_fit}t}\)</span> <span class="math inline">\(\hspace{3mm} k_fit = k_{0-fit} e^{\dfrac{-E_{A-fit}}{RT}}\)</span></p>
+<p>{image}</p>
 </section>
-<section id="constant-density-reactors" class="slide level2">
-<h2>Constant Density Reactors</h2>
-<p>If the mass density, <span class="math inline">\(\rho\)</span> doesn’t change appreciably during reaction (e.g., aqueous solutions), or the total number of moles is fixed, i.e., <span class="math inline">\(\nu = \sum \nu_j = 0\)</span>, or a batch rector is a fixed volume, then</p>
-<p><span class="math inline">\(\ \ \ \ \frac{1}{V} \frac{dn_\mathrm{A}}{dt}\)</span></p>
-<p>can be written as</p>
-<p><span class="math inline">\(\ \ \ \ \frac{1}{V} \frac{dn_\mathrm{A}}{dt} = \frac{d}{dt}\left(\frac{n_\mathrm{A}}{V}\right) = \frac{dC_\mathrm{A}}{dt}\)</span></p>
-<p>or</p>
-<p><span class="math inline">\(\ \ \ \ r_\mathrm{A} = \frac{dC_\mathrm{A}}{dt}\)</span></p>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>We will limit ourselves to constant density reactors for most of the DOFPro videos. The videos that delve deeper into chemical reactor engineering will relax this constraint.</p>
-</div>
-</div>
-</div>
+<section id="nonlinear-demo-for-solver-2" class="slide level2">
+<h2>Nonlinear Demo for Solver</h2>
+<p>Have data for <span class="math inline">\(2^{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_{A0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
+<ul>
+<li class="fragment">Set up fitting function</li>
+<li class="fragment"><span class="math inline">\(\textbf{Set up array of fitting values. Keep magnitudes roughly equal.}\)</span></li>
+<li class="fragment">Calculate <span class="math inline">\(\Sigma{(y_i – y_{i-fit})^2}\)</span>. SSE</li>
+<li class="fragment">Minimize with Solver</li>
+</ul>
+<p>{image}</p>
 </section>
-<section id="extent-of-reaction" class="slide level2">
-<h2>Extent of Reaction</h2>
-<p>The reaction rate can vary with position. The extent of reaction is for the reactor as a whole, so the reaction rate is integrated over the reaction volume to get the extent.</p>
-<p><span class="math inline">\(\ \ \ \ \xi = \frac{n_i - n_{i_0}}{\nu_i}\)</span></p>
-<p><span class="math inline">\(\ \ \ \ \dot{\xi} = \frac{\dot{n}_i - \dot{n}_{i_0}}{\nu_i}\)</span></p>
-<p><span class="math inline">\(\ \ \ \ \frac{d \xi}{dt} = \frac{1}{\nu_i} \frac{dn_i}{dt}\)</span></p>
-<p><span class="math inline">\(\ \ \ \ r = \frac{1}{\nu_i} \frac{1}{V} \frac{dn_i}{dt} = \frac{1}{V} \frac{d \xi}{dt}\)</span></p>
+<section id="nonlinear-demo-for-solver-3" class="slide level2">
+<h2>Nonlinear Demo for Solver</h2>
+<p>Have data for <span class="math inline">\(2^{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_{A0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
+<ul>
+<li class="fragment">Set up fitting function</li>
+<li class="fragment">Set up array of fitting values. Keep magnitudes roughly equal.</li>
+<li class="fragment"><span class="math inline">\(\textbf{Calculate \Sigma{(y_i – y_{i-fit})^2}}\)</span>. SSE</li>
+<li class="fragment">Minimize with Solver</li>
+</ul>
+<p><span class="math inline">\((C_A - C_{A-fiti})^2 = (C_A - \dfrac{C_{A0-fit}}{1+C_{A0-fit} {k_fit}t_i})^2\)</span> <span class="math inline">\(\hspace{2mm} SSE = \Sigma{(C_Ai - C_{A-fiti})^2}\)</span></p>
 </section>
-<section id="multiple-reactions" class="slide level2">
-<h2>Multiple Reactions</h2>
-<p><span class="math display">\[
-n_i = n_{i_0} + \sum_{j=1}^J \nu_{ij} \xi_j
-\]</span></p>
-<p><span class="math display">\[
-\dot{n}_i = \dot{n}_{i_0} + \sum_{j=1}^J \nu_{ij} \dot{\xi}_j
-\]</span></p>
+<section id="nonlinear-demo-for-solver-4" class="slide level2">
+<h2>Nonlinear Demo for Solver</h2>
+<p>Have data for <span class="math inline">\(2^{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_{A0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
+<ul>
+<li class="fragment">Set up fitting function</li>
+<li class="fragment">Set up array of fitting values. Keep magnitudes roughly equal.</li>
+<li class="fragment">Calculate <span class="math inline">\(\Sigma{(y_i – y_{i-fit})^2}\)</span>. SSE</li>
+<li class="fragment"><span class="math inline">\(\textbf{Minimize with Solver}\)</span></li>
+</ul>
+<p>{image}</p>
 </section>
-<section id="fractional-conversion" class="slide level2">
-<h2>Fractional Conversion</h2>
-<p><span class="math display">\[
-f_k = \frac{n_{k_0} - n_k}{n_{k_0}}
-\]</span></p>
-<p><span class="math display">\[
-f_k = \frac{\dot{n}_{k_0} - \dot{n}_k}{\dot{n}_{k_0}}
-\]</span></p>
-</section>
-<section id="r-as-a-function-of-t-and-c" class="slide level2">
-<h2><span class="math inline">\(r\)</span> as a Function of <span class="math inline">\(T\)</span> and <span class="math inline">\(C\)</span></h2>
-<p>In general, <span class="math inline">\(r\)</span> varies as a function of <span class="math inline">\(T\)</span> and <span class="math inline">\(C\)</span> or <span class="math inline">\(\hat{a}\)</span> (activity).</p>
-<p><span class="math display">\[r=r(T,\ C_\mathrm{A},\ C_\mathrm{B},\ \dots)\]</span></p>
-<p>e.g.</p>
-<p><span class="math display">\[
-r = k C_\mathrm{A}^n C_\mathrm{B}^m
-\]</span></p>
-<p><span class="math display">\[
-k = k_0 e^{\frac{-E_a}{RT}}
-\]</span></p>
-</section>
-<section id="kinetic-expressions" class="slide level2">
-<h2>Kinetic Expressions</h2>
-<p>Experimentally and from theoretical considerations, a reaction such as <span class="math inline">\(\nu_\mathrm{A} \mathrm{A} + \nu_\mathrm{B} \mathrm{B} = \nu_\mathrm{P} \mathrm{P} + \nu_\mathrm{Q} \mathrm{Q}\)</span> follows a rate law such as</p>
-<p><span class="math display">\[
-r = k_f C_\mathrm{A}^n C_\mathrm{B}^m - k_r C_\mathrm{P}^p C_\mathrm{Q}^q
-\]</span></p>
-<p>where <span class="math inline">\(k_f\)</span> and <span class="math inline">\(k_r\)</span> are the forward and reverse rate coefficients respectively. The exponents <span class="math inline">\(n\)</span>, <span class="math inline">\(m\)</span>, <span class="math inline">\(p\)</span>, and <span class="math inline">\(q\)</span> are known as the order of reaction with respect to the reactants <span class="math inline">\(\mathrm{A}\)</span>, <span class="math inline">\(\mathrm{B}\)</span>, <span class="math inline">\(\mathrm{P}\)</span>, and <span class="math inline">\(\mathrm{Q}.\)</span> They are not necessarily the same as the stoichiometric coefficients <span class="math inline">\(-\nu_\mathrm{A}\)</span>, <span class="math inline">\(-\nu_\mathrm{B}\)</span>, <span class="math inline">\(\nu_\mathrm{P}\)</span>, and <span class="math inline">\(\nu_\mathrm{Q}\)</span>.</p>
-</section>
-<section id="kinetic-expressions-cont." class="slide level2">
-<h2>Kinetic Expressions (cont.)</h2>
-<p>For an irreversible reaction the overall order of reaction is the sum of the exponents e.g., if <span class="math inline">\(n = 1\)</span>, and <span class="math inline">\(m = 2\)</span> then the forward reaction is first order in <span class="math inline">\(\mathrm{A}\)</span>, second order in <span class="math inline">\(\mathrm{B}\)</span> and overall third order. A reaction does not have to have an integral order (i.e., <span class="math inline">\(n\)</span>, <span class="math inline">\(m\)</span>, etc. do not have to be integers) but non-integral orders imply a complex mechanism for the reaction.</p>
-<div style="font-size: 60px;">
-<p>Yes, we know that using <span class="math inline">\(n\)</span> for both number of moles, and order of reaction is confusing. That’s just how it’s done. Deal with it.</p>
-<p>Did we mention that <span class="math inline">\(C\)</span> is concentration, and <span class="math inline">\(\mathrm{C}\)</span> is species <span class="math inline">\(\mathrm{C}\)</span> as well as carbon? It’s similar to why the <a href="https://archboston.com/community/threads/street-signs-and-helping-people-navigate.5101/">main streets in Boston</a> don’t have street signs. It’s obvious what street you’re on and if it isn’t, you don’t belong here.</p>
-</div>
-</section>
-<section id="temperature-dependence" class="slide level2">
-<h2>Temperature Dependence</h2>
-<p>The <em>rate coefficients</em>, <span class="math inline">\(k_f\)</span> and <span class="math inline">\(k_r\)</span>, are functions of temperature. Both collision theory and transition-state theory provide models, but experimental data are rarely accurate enough to use anything other than the Arrhenius expression:</p>
-<p><span class="math display">\[
-k = k_0 e^{\frac{-E_a}{RT}}
-\]</span></p>
-<p>where <span class="math inline">\(k_0\)</span> is known as the <em>frequency factor</em> or the <em>pre-exponential</em> and <span class="math inline">\(E_a\)</span> is known as the <em>activation energy</em>.</p>
-<p>For ideal gases, the concentration,</p>
-<p><span class="math display">\[C = \frac{n}{V} =  \frac{P}{RT}\]</span></p>
-<p>is a weak function of temperature, as well.</p>
-</section>
-<section id="mole-balance-on-reactor" class="slide level2">
-<h2>Mole Balance on Reactor</h2>
-<p>Reactor volume, <span class="math inline">\(V_R\)</span> (image)</p>
-<p><strong>General Balance Equation</strong></p>
-<p><span class="math inline">\(\ \ \ \ \mathrm{In - Out + Generation = Accumulation}\)</span></p>
-<p><span class="math inline">\(\ \ \ \ \dot{n}_{j_0} - \dot{n}_j + \mathrm{Gen}_j = \frac{dn_j}{dt}\)</span></p>
-<p><span class="math inline">\(\ \ \ \ \mathrm{Gen}_j = \int_{V_R} r_j dV,\ \ \ \ r_j = \nu_j r\)</span></p>
-<p><span class="math display">\[
-\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
-\]</span></p>
-<p>The next video will develop this expression for the Batch, CSTR, and PFR reactors.</p>
-</section>
-<section id="the-takeaways" class="slide level2">
-<h2>The Takeaways</h2>
-<ol type="1">
-<li class="fragment">The fractional conversion and extent of reaction can be specified as parameters, determined from chemical kinetics, or determined from chemical equilibrium depending on the need.</li>
-<li class="fragment">The reaction rate, <span class="math inline">\(r\)</span>, is independent of species, and the reaction rate for species <span class="math inline">\(i\)</span> is given as <span class="math inline">\(r_i = \nu_i r\)</span>.</li>
-<li class="fragment">The extent of reaction, <span class="math inline">\(\dot{\xi}\)</span>, is the volume integral of the reaction rate, <span class="math inline">\(r\)</span>.</li>
-<li class="fragment">The general mole balance for a reactor is <span class="math display">\[\dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}\]</span></li>
-</ol>
+<section id="comparison" class="slide level2">
+<h2>Comparison</h2>
+<p>{image}</p>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 
