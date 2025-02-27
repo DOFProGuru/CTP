@@ -1,0 +1,115 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Basic Spreadsheet Techniques<br/>Basic Statistics and Linear and Nonlinear Data Fitting</br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Data Fitting Tools
+
+* =average(values) and =stdev(values)
+* =slope(y-values,x-values) and =intercept(y-values,x-values)
+* Solver
+  * Set up fitting function
+  * Set up array of fitting values. Keep magnitudes roughly equal.
+  * Calculate $\Sigma{(y_i – y_{i-fit})^2}$. SSE
+  * Minimize with Solver
+
+## Demo for Average and Stdev
+
+{image}
+
+## Demo for Slope and Intercept
+
+Have data for $2^{nd}$-order kinetics. Fit for $C_{A0}$, $k$, $k_0$, and $E_A$.
+
+$\hspace{3mm} C_A = \dfrac{C_A0}{1+C_{A0} kt}$
+$\hspace{3mm} \dfrac{1}{C_A} = \dfrac{1}{C_{A0}} + kt$
+$\hspace{3mm}$ slope = k
+$\hspace{3mm}$ intercept $= \dfrac{1}{C_A0}$
+
+{image}
+
+## Nonlinear Demo for Solver
+
+Have data for $2^{nd}$-order kinetics. Fit for $C_{A0}$, $k$, $k_0$, and $E_A$.
+
+* Set up fitting function
+* Set up array of fitting values. Keep magnitudes roughly equal.
+* Calculate $\Sigma{(y_i – y_{i-fit})^2}$. SSE
+* Minimize with Solver
+
+{image}
+
+## Nonlinear Demo for Solver
+
+Have data for $2^{nd}$-order kinetics. Fit for $C_{A0}$, $k$, $k_0$, and $E_A$.
+
+* $\textbf{Set up fitting function}$
+* Set up array of fitting values. Keep magnitudes roughly equal.
+* Calculate $\Sigma{(y_i – y_{i-fit})^2}$. SSE
+* Minimize with Solver
+
+$\hspace{3mm} C_{A0-fit} = \dfrac{C_{A0-fit}}{1+C_{A0-fit} {k_fit}t}$
+$\hspace{3mm} k_fit = k_{0-fit} e^{\dfrac{-E_{A-fit}}{RT}}$
+
+{image}
+
+## Nonlinear Demo for Solver
+
+Have data for $2^{nd}$-order kinetics. Fit for $C_{A0}$, $k$, $k_0$, and $E_A$.
+
+* Set up fitting function
+* $\textbf{Set up array of fitting values. Keep magnitudes roughly equal.}$
+* Calculate $\Sigma{(y_i – y_{i-fit})^2}$. SSE
+* Minimize with Solver
+
+{image}
+
+## Nonlinear Demo for Solver
+
+Have data for $2^{nd}$-order kinetics. Fit for $C_{A0}$, $k$, $k_0$, and $E_A$.
+
+* Set up fitting function
+* Set up array of fitting values. Keep magnitudes roughly equal.
+* $\textbf{Calculate \Sigma{(y_i – y_{i-fit})^2}}$. SSE
+* Minimize with Solver
+
+$(C_A - C_{A-fiti})^2 = (C_A - \dfrac{C_{A0-fit}}{1+C_{A0-fit} {k_fit}t_i})^2$
+$\hspace{2mm} SSE = \Sigma{(C_Ai - C_{A-fiti})^2}$
+
+## Nonlinear Demo for Solver
+
+Have data for $2^{nd}$-order kinetics. Fit for $C_{A0}$, $k$, $k_0$, and $E_A$.
+
+* Set up fitting function
+* Set up array of fitting values. Keep magnitudes roughly equal.
+* Calculate $\Sigma{(y_i – y_{i-fit})^2}$. SSE
+* $\textbf{Minimize with Solver}$
+
+{image}
+
+## Comparison
+
+{image}
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
