@@ -1,0 +1,60 @@
+---
+format:
+  revealjs:
+    width: 3840
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+---
+# Basic Statistics</br>by Hand
+
+::: {.bigbold style="text-align: center;"}
+Just the Facts
+:::
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-40%"}
+
+## The Basic Statistics Videos
+
+ - *How Deviant and Mean Are Your Data? Parts 1 & 2* </br>Intro to $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$
+
+ 1. ***Basic Statistics by Hand*** $\Leftarrow$ This video </br>Calculate $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$ by hand.
+
+ 2. *Basic Statistics with a Spreadsheet* </br>Calculate $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$ with a spreadsheet.
+
+ 3. *Basic Statistics with Python* </br>Calculate $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$ with Python.
+
+ 4. *Basic Statistics With R* </br>Calculate $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$ with R.
+
+
+## Basic Statistics by Hand
+
+This video shows how to calculate $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$ by hand and with a calculator.
+
+#
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *How Deviant and Mean Are Your Data?* companion video is in the link in the upper left. The link to *Basics on a Spreadsheet* is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=40%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}
+
+#
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *How Deviant and Mean Are Your Data?* companion video is in the link in the upper left. The link to *Basics on a Spreadsheet* is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+:::
+
+::: {.absolute top=125% left=35%}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
