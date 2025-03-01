@@ -1,0 +1,65 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Bubble Point, Dew Point, and Flash Calculations
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+
+## $Pxy$ and $Txy$ Binary Phase Diagrams
+
+{image}
+
+## The Lever Rule for Phase Diagrams
+
+ 1. If </br> $n_o = n_α + n_β$
+
+ 2. Then </br> $n_α l_1 = n_β l_2$ </br> $\dfrac{n_α}{n_o} = \dfrac{l_2}{l_3}$ </br> $\dfrac{n_β}{n_o} = \dfrac{l_1}{l_3}$
+
+ {image}
+
+## For binary VLE mixtures, five types of calculations are usually performed:
+
+ 1. BUBL P – Given all $x_i$’s and T, calculate P at which the first
+bubble forms, and $y_i$’s of the bubble.
+ 2. BUBL T – Given all $x_i$’s and P, calculate T at which the first
+bubble forms, and $y_i$’s of the bubble.
+ 3. DEW P – Given all $y_i$’s and T, calculate P at which the first
+droplet condenses, and $x_i$’s of the droplet.
+ 4. DEW T – Given all $y_i$’s and P, calculate T at which the first
+droplet condenses, and $x_i$’s of the droplet.
+ 5. FLASH – Given overall composition ($z_i$’s) and T and P, calculate
+$x_i$’s and $y_i$’s, and relative amounts of vapor, V, and liquid, L.
+
+## Graphical BUBL P, DEW P
+
+{image}
+
+## Graphical FLASH
+
+{image}
+
+## Graphical BUBL T, DEW T
+
+{image}
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
