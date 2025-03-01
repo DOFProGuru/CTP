@@ -8,7 +8,7 @@ format:
     incremental: true
     theme: [serif, ../../gradient.scss]
 ---
-# Basic Statistics</br>by Hand
+# Solving Nonlinear Equations</br>with Spreadsheets
 
 ::: {.bigbold style="text-align: center;"}
 Just the Facts
@@ -20,22 +20,48 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-40%"}
 
-## The Basic Statistics Videos
+## Some Nonlinear Equations in Chemical Engineering
 
- - *How Deviant and Mean Are Your Data? Parts 1 & 2* </br>Intro to $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$
+ 1. The Antoine equation </br> $log_{10} (p^*) = A - \dfrac{B}{T+C}$
 
- 1. ***Basic Statistics by Hand*** $\Leftarrow$ This video </br>Calculate $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$ by hand.
+ 2. The Arrhenius equation </br> $k = k_0 \exp(-E_a / RT)$
 
- 2. *Basic Statistics with a Spreadsheet* </br>Calculate $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$ with a spreadsheet.
-
- 3. *Basic Statistics with Python* </br>Calculate $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$ with Python.
-
- 4. *Basic Statistics With R* </br>Calculate $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$ with R.
+ 3. The Benedict-Webb-Rubin equation </br> $P = \frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2} + \left( bRT - a \right) \frac{1}{\hat{V}^3} + \frac{\alpha a}{\hat{V}^6} +$ </br> $\frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right)$
 
 
-## Basic Statistics by Hand
 
-This video shows how to calculate $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$ by hand and with a calculator.
+## How Do You Solve Them on a Spreadsheet?
+
+  - Set up as $f(x) = 0$. 
+
+
+  - Guess and Check </br> $\hspace{2mm}$ Root is between sign changes 
+
+
+  - Graph it and Guess and Check
+
+
+  - Goal Seek
+
+## Set Up as f(x) = 0
+
+ 1. The Antoine equation </br> $f(p*)$ or $f(T) = log_{10} (p^*) - A + \dfrac{B}{T+C}$
+
+ 2. The Arrhenius equation </br> $f(T) = k - k_0 \exp(-E_a / RT)$
+
+ 3. The Benedict-Webb-Rubin equation </br> $f(\hat{V}) = P - [\frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2} + \left( bRT - a \right) \frac{1}{\hat{V}^3} + \frac{\alpha a}{\hat{V}^6} +$ </br> $\frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right)]$
+
+## Technique Demos
+
+{image}
+
+## Goal Seek Suggestions
+
+• Increase accuracy of x in f(x)=0 by multiplying f(x) by 108.
+
+• Mark or label cell to set to 0 (the f(x) value).
+
+• Mark or label cell to adjust (the x value).
 
 #
 ::: {.centered}
