@@ -529,7 +529,7 @@
     "href": "balances/material/Video66Visuals.html#kays-rule-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Kay’s Rule (cont.)",
-    "text": "Kay’s Rule (cont.)\n\n\nCC BY-SA 3.0\n\n\n\\[\nP_r' =\\frac{P}{P_c'}\n\\]\n\\[\nT_r' = \\frac{T}{T_c'}\n\\]\n\\[\nz_m = z_m(T_r', P_r')\n\\]"
+    "text": "Kay’s Rule (cont.)\n\n\n\\[\nP_r' =\\frac{P}{P_c'}\n\\]\n\n\n\\[\nT_r' = \\frac{T}{T_c'}\n\\]\n\n\n\\[\nz_m = z_m(T_r', P_r')\n\\]"
   },
   {
     "objectID": "balances/material/Video66Visuals.html#dwsim-and-equation-of-state",
@@ -543,28 +543,28 @@
     "href": "balances/material/Video66Visuals.html#real-gas-example",
     "title": "Chemical and Thermal Processes",
     "section": "Real Gas Example",
-    "text": "Real Gas Example\nA stream of 20% methane, 30% ethane, and 50% propane at \\(T = 423\\ \\mathrm{K}\\) and \\(P = 70\\ \\mathrm{atm}\\) flows at \\(100.0\\ \\mathrm{kmol/h}\\).\nEstimate the volumetric flow rate using Kay’s rule and compare with the ideal gas law and the Peng-Robinson, Soave-Redlich-Kwong, and Lee-Kesler-Plöcker equations of state.\nData from Wikipedia\nmethane: \\(T_c = 190.56\\ \\mathrm{K}\\), \\(P_c = 4.5992\\ \\mathrm{MPa}\\)\nethane: \\(T_c = 305.32\\ \\mathrm{K}\\), \\(P_c = 4.8714\\ \\mathrm{MPa}\\)\npropane: \\(T_c = 370\\ \\mathrm{K}\\), \\(P_c = 4.23\\ \\mathrm{MPa}\\)"
+    "text": "Real Gas Example\nA stream of\n\n20% methane,\n\n\n30% ethane, and\n\n\n50% propane\n\n\nat \\(T = 423\\ \\mathrm{K}\\) and \\(P = 70\\ \\mathrm{atm}\\) flows at \\(100.0\\ \\mathrm{kmol/h}\\).\n\n\nEstimate the volumetric flow rate using Kay’s rule and compare with the ideal gas law and the Peng-Robinson, Soave-Redlich-Kwong, and Lee-Kesler-Plöcker equations of state.\n\n\nData from Wikipedia\n\n\n\nmethane:\n\\(T_c = 190.56\\ \\mathrm{K}\\)\n\\(P_c = 4.5992\\ \\mathrm{MPa}\\)\n\n\nethane:\n\\(T_c = 305.32\\ \\mathrm{K}\\)\n\\(P_c = 4.8714\\ \\mathrm{MPa}\\)\n\n\npropane:\n\\(T_c = 370\\ \\mathrm{K}\\)\n\\(P_c = 4.23\\ \\mathrm{MPa}\\)"
   },
   {
     "objectID": "balances/material/Video66Visuals.html#example-cont.",
     "href": "balances/material/Video66Visuals.html#example-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Example (cont.)",
-    "text": "Example (cont.)\n\\[70\\ \\mathrm{atm} \\boldsymbol{\\cdot} 0.101325\\ \\mathrm{\\frac{MPa}{atm}}= 7.093\\ \\mathrm{MPa}\\]\nIdeal Gas\n\n\n\\[\n\\hat{V}=\\frac{RT}{P}=\\frac{8.314\\mathrm{\\frac{J}{mol \\cdot K}}\\boldsymbol{\\cdot}423\\ \\mathrm{K}}{7.093\\times10^{6}\\ \\mathrm{Pa}}=4.959\\times10^{-4}\\ \\mathrm{\\frac{m^{3}}{mol}}=0.4959\\ \\mathrm{\\frac{L}{mol}}\n\\]\n\n\n\\[\n\\dot{V}=\\dot{n}\\hat{V}=100\\ \\mathrm{\\frac{kmol}{h}}\\boldsymbol{\\cdot}\\frac{1000\\ \\mathrm{mol}}{1\\ \\mathrm{kmol}}\\boldsymbol{\\cdot}4.959\\times10^{-4}\\ \\mathrm{\\frac{m^{3}}{mol}}=49.59\\ \\mathrm{\\frac{m^{3}}{h}}\n\\]"
+    "text": "Example (cont.)\n\n\\[70\\ \\mathrm{atm} \\boldsymbol{\\cdot} 0.101325\\ \\mathrm{\\frac{MPa}{atm}}= 7.093\\ \\mathrm{MPa} = 7,093,750\\ \\mathrm{Pa}\\]\n\n\nIdeal Gas\n\n\n\n\\[\n\\hat{V}=\\frac{RT}{P}=\\frac{8.314\\mathrm{\\frac{J}{mol \\cdot K}}\\boldsymbol{\\cdot}423\\ \\mathrm{K}}{7.093\\times10^{6}\\ \\mathrm{Pa}}=4.959\\times10^{-4}\\ \\mathrm{\\frac{m^{3}}{mol}}=0.4959\\ \\mathrm{\\frac{L}{mol}}\n\\]\n\n\n\\[\n\\dot{V}=\\dot{n}\\hat{V}=100\\ \\mathrm{\\frac{kmol}{h}}\\boldsymbol{\\cdot}\\frac{1000\\ \\mathrm{mol}}{1\\ \\mathrm{kmol}}\\boldsymbol{\\cdot}4.959\\times10^{-4}\\ \\mathrm{\\frac{m^{3}}{mol}}=49.59\\ \\mathrm{\\frac{m^{3}}{h}}\n\\]"
   },
   {
     "objectID": "balances/material/Video66Visuals.html#kays-rule-calculation",
     "href": "balances/material/Video66Visuals.html#kays-rule-calculation",
     "title": "Chemical and Thermal Processes",
     "section": "Kay’s Rule Calculation",
-    "text": "Kay’s Rule Calculation\n\\[\nT_c' = 0.200(4.23) + 0.300(305.32) + 0.500(370) = 314.71\\ \\mathrm{K}\n\\]\n\\[\nP_c' = 0.200(4.5992) + 0.300(4.8714) + 0.500(4.23) = 4.496\\ \\mathrm{MPa}\n\\]\n\\[\nT_r' = \\frac{T}{T_c'} = \\frac{423}{314.7} = 1.344\n\\]\n\\[\nP_r' = \\frac{P}{P_c'} = \\frac{7.093}{4.496} = 1.577\n\\]"
+    "text": "Kay’s Rule Calculation\n\n\n\\[\nT_c' = 0.200(4.23) + 0.300(305.32) + 0.500(370) = 314.71\\ \\mathrm{K}\n\\]\n\n\n\\[\nP_c' = 0.200(4.5992) + 0.300(4.8714) + 0.500(4.23) = 4.496\\ \\mathrm{MPa}\n\\]\n\n\n\\[\nT_r' = \\frac{T}{T_c'} = \\frac{423}{314.7} = 1.344\n\\]\n\n\n\\[\nP_r' = \\frac{P}{P_c'} = \\frac{7.093}{4.496} = 1.577\n\\]"
   },
   {
     "objectID": "balances/material/Video66Visuals.html#example-cont.-1",
     "href": "balances/material/Video66Visuals.html#example-cont.-1",
     "title": "Chemical and Thermal Processes",
     "section": "Example (cont.)",
-    "text": "Example (cont.)\nUsing Kay’s rule\n\n\nCC BY-SA 3.0\n\n\n\n\\[\nP_r' = \\frac{P}{P_c'} = \\frac{7.093}{4.496} = 1.577\n\\]\n\n\n\\[\nT_r' = \\frac{T}{T_c'} = \\frac{423}{314.7} = 1.344\n\\]\n\n\n\\[\nz_{m}=0.7833\n\\]\n\n\n\\[\n\\dot{V}_{KR}=z_{m}\\dot{V}_{IG}=38.84\\ \\mathrm{\\frac{m^{3}}{h}}\n\\]"
+    "text": "Example (cont.)\nUsing Kay’s rule\n\n\n\n\\[\nP_r' = \\frac{P}{P_c'} = \\frac{7.093}{4.496} = 1.577\n\\]\n\n\n\\[\nT_r' = \\frac{T}{T_c'} = \\frac{423}{314.7} = 1.344\n\\]\n\n\n\\[\nz_{m}=0.7833\n\\]\n\n\n\\[\n\\dot{V}_{KR}=z_{m}\\dot{V}_{IG}=38.84\\ \\mathrm{\\frac{m^{3}}{h}}\n\\]"
   },
   {
     "objectID": "balances/material/Video66Visuals.html#example-spreadsheet",
