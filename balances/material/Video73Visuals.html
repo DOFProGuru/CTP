@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
-  <title>Chemical and Thermal Processes – video25visuals</title>
+  <title>Chemical and Thermal Processes – video73visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,63 +127,132 @@
 
 
 <section>
-<section id="how-to-have-a-quickie-with-your-data-part-1" class="title-slide slide level1 center">
-<h1>How to Have a Quickie with Your Data Part 1</h1>
-<div style="text-align: center;">
+<section id="single-component-and-one-condensable-component-systems" class="title-slide slide level1 bigbold70 center">
+<h1>Single-Component and One-Condensable-Component Systems</h1>
+<div style="text-align: center; font-size: 120px;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
-<section id="data-fitting-tools" class="slide level2">
-<h2>Data Fitting Tools</h2>
+<section class="slide level2">
+
+<p>For one component, how do you calculate phase equilibria?</p>
+</section>
+<section id="component-vapor-liquid-equilibrium-vle" class="slide level2">
+<h2>1-Component Vapor-Liquid Equilibrium (VLE)</h2>
+<p>From Thermodynamics (p 651 in Çengel &amp; Boles) comes the <em>Clapeyron equation</em>:</p>
+<p><span class="math display">\[
+\frac{d(p^{*})}{dT} = \frac{\Delta \hat{H}_{v}}{T(\hat{V}_{g} - \hat{V}_l)}
+\]</span></p>
+<p>Where <span class="math inline">\(p^*\)</span> is the vapor pressure.</p>
+<p>If <span class="math inline">\(\hat{V}_g \gg \hat{V}_l\)</span>, and the vapor is ideal, then:</p>
+<p><span class="math display">\[
+\frac{d(ln p^{*})}{d(1/T)} = - \frac{\Delta \hat{H}_{v}}{R}
+\]</span></p>
+</section>
+<section class="slide level2">
+
+<p>If in addition, <span class="math inline">\(\Delta \hat{H}_v\)</span> is constant, we can integrate to</p>
+<p><span class="math display">\[
+ln p^{*} = \frac{\Delta \hat{H}_v}{RT} + B
+\]</span></p>
+<p>which is the Clausius-Clapeyron equation.</p>
 <ul>
-<li class="fragment">Statistics Videos much more complete</li>
-<li class="fragment">Functions
+<li class="fragment">Empirical equations are also used. The simplest with reasonable accuracy is the Antoine equation:</li>
+</ul>
+<p><span class="math display">\[
+log_{10} P^{*} = A - \frac{B}{T + C}
+\]</span></p>
+<p>where A, B, and C are constants from a table (e.g., Table B.4 on p.&nbsp;390 in Felder). What are A, B, and C if the substance obeys the ClausiusClapeyron equation?</p>
+</section>
+<section id="component-vle" class="slide level2">
+<h2>2-Component VLE</h2>
+<p>1-Condensable component, e.g., ethanol-argon. Assume <em>ideal gas</em> behavior and that species i is the condensable one, then at saturation (e.g., two-phases present):</p>
+<p><span class="math display">\[
+p_i = y_{i}P = p^{*}_{i}(T)
+\]</span></p>
+<p>If the temperature is high enough (or pressure low enough) that only one phase is present then:</p>
+<p><span class="math display">\[
+p_i = y_{i}P &lt; p^{*}_{i}(T)
+\]</span></p>
+<p>At what temperature will condensation begin?</p>
+</section>
+<section class="slide level2">
+
+<p><span class="math display">\[
+p_i = y_{i}P = p^{*}_{i}(T_{dp})
+\]</span></p>
+<p><span class="math inline">\(T_{dp}\)</span> is the dew-point temperature. The difference between <span class="math inline">\(T\)</span> and <span class="math inline">\(T_{dp}\)</span> is the degree(s) of superheat.</p>
+</section>
+<section class="slide level2">
+
+<p><strong>Example</strong>: You are standing in the shower with the air and water temperature at 35 °C. What mole-fraction of the air that you are breathing is water?</p>
+<p><span class="math display">\[
+p_{i} = y_{i}P = p^{*}_{i}(T)
+\]</span></p>
+<p><span class="math display">\[
+y_{i} = \frac{p_{i}^{*}(T)}{P}
+\]</span></p>
+<p>Get <span class="math inline">\(p_{i}^{*}\)</span> from either Antoine equation or from Table B.3 in Felder.</p>
+</section>
+<section class="slide level2">
+
+<p>It is far too simple to use mole fraction when talking to other people so we have the following definitions (saturation is any gas-vapor system, humidity is specifically air-water):</p>
+<p><em>Relative Saturation or Relative Humidity</em></p>
+<p><span class="math inline">\(s_r\)</span> or <span class="math inline">\(h_r = \frac{p_i}{p_i^*(T)}*100%\)</span></p>
+<p><em>Molal Saturation or Molal Humidity</em></p>
+<p><span class="math inline">\(s_m\)</span> or <span class="math inline">\(h_m = \frac{p_i} {P-p_i} = \frac{moles of vapor}{moles of vapor-free (dry)gas}\)</span></p>
+</section>
+<section class="slide level2">
+
+<p><em>Absolute Saturation or Absolute Humidity</em> <span class="math inline">\(s_m\)</span> or <span class="math inline">\(h_m = \frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \frac{moles of vapor}{moles of vapor-free (dry)gas}\)</span></p>
+<p><em>Percentage Saturation or Percentage Humidity</em></p>
+<p><span class="math inline">\(s_p\)</span> or <span class="math inline">\(h_p = 100\% \times \frac{s_m} {s_m^*} = 100\% \times \frac{\frac{p_i}{p_i(T)}}{\frac{p_i^*}{p_i^*(T)}}\)</span></p>
+</section>
+<section class="slide level2">
+
+<p><strong>Example</strong>: You set out a cold (root)brew on a day when the temperature is 86 °F and the relative humidity is 30%.</p>
+<ol type="1">
+<li class="fragment">At what temperature is the brew when water quits condensing on the can?</li>
+<li class="fragment">What is the dew point?</li>
+<li class="fragment">What are the degrees of superheat?</li>
+</ol>
+<p><strong>Solution:</strong> Need p* at 86 °F (30 °C)</p>
+<p>Antoine Equation or Table B.3 in FRB?</p>
+</section>
+<section class="slide level2">
+
+<p><strong>Example(cont):</strong> Antotine Equation</p>
 <ul>
-<li class="fragment"><code>average(</code><em>values</em><code>)</code> and <code>stdev.s(</code><em>values</em><code>)</code></li>
-<li class="fragment"><code>slope(</code><em>y-values</em><code>,</code><em>x-values</em><code>)</code> and <code>intercept(</code><em>y-values</em><code>,</code><em>x-values</em><code>)</code></li>
-</ul></li>
-<li class="fragment">Solver
-<ul>
-<li class="fragment">Set up fitting function</li>
-<li class="fragment">Set up array of fitting values. Keep magnitudes roughly equal.</li>
-<li class="fragment">Calculate <span class="math inline">\(\Sigma{(y_i – y_{i\text{-fit}})^2}\)</span>. SSE</li>
-<li class="fragment">Minimize with Solver</li>
-</ul></li>
+<li class="fragment"><p><span class="math inline">\(log_10P^* = 8.10765 - \frac{1750.286}{T + 235.000} = 8.10765 - \frac{1750.286}{30 + 235.000} = 1.5028\)</span></p></li>
+<li class="fragment"><p><span class="math inline">\(p^* = 10^{1.5028} = 31.827 mm Hg\)</span></p></li>
+<li class="fragment"><p><span class="math inline">\(p = h_rp^* = 0.30 \times 31.827 mm Hg = 9.548 mm Hg\)</span></p></li>
+<li class="fragment"><p><span class="math inline">\(T_{dp} = \frac{B}{A-log_{10}P} - C = \frac{1750.286}{8.10765 − log_{10} 9.548} - 235.000 = 10.56°C or 51.01 °F\)</span></p></li>
+<li class="fragment"><p><span class="math inline">\(T-T_{dp} = 30-10.56\)</span> = 19.44 °C or 34.99 °F of Superheat</p></li>
 </ul>
 </section>
-<section id="demo-for-average-and-std.-dev." class="slide level2">
-<h2>Demo for Average and Std. Dev.</h2>
-<p><img data-src="DataFittingPoints.png" class="absolute" style="top: 15%; left: 40%; "></p>
+<section class="slide level2">
+
+<p><strong>Example(cont):</strong></p>
+<p>Table B.3</p>
+<ul>
+<li class="fragment"><span class="math inline">\(p^*\)</span> = = 31.824 mm Hg (Table B.3)</li>
+<li class="fragment"><span class="math inline">\(p = h_{r}p^{*} = 0.30 i 31.824 mm Hg = 9.547 mm Hg\)</span></li>
+<li class="fragment"><span class="math inline">\(T_{dp}\)</span> =10.54 °C or 50.97 °F</li>
+<li class="fragment"><span class="math inline">\(T - T_{dp}\)</span> = = 30 −10.54 =19.46 °C or 35.03 °F of Superheat</li>
+</ul>
 </section>
-<section id="demo-for-slope-and-intercept" class="slide level2">
-<h2>Demo for Slope and Intercept</h2>
-<p>Have data for <span class="math inline">\(2^\mathrm{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_{\mathrm{A}0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">\[C_\mathrm{A} = \dfrac{C_\mathrm{A}0}{1+C_{\mathrm{A}0} kt}\]</span></p>
-<p><span class="math display">\[\dfrac{1}{\mathrm{C}_A} = \dfrac{1}{C_{\mathrm{A}0}} + kt\]</span></p>
-<p><span class="math display">\[\mathrm{slope} = k\]</span></p>
-<p><span class="math display">\[\mathrm{intercept} = \dfrac{1}{C_\mathrm{A}0}\]</span></p>
-</div></div>
-<p><img data-src="DataFittingLinear.png" class="absolute" style="top: 17.5%; right: 0%; width: 50%; "></p>
+<section class="slide level2">
+
+<p>What about a gas dissolved in a liquid? For dilute solutions, Henry’s Law holds (A dilute solution is one for which Henry’s law holds).</p>
+<p><span class="math inline">\(P_A \equiv y_{A}P = x_{A}H_{A}(T)\)</span></p>
+<p>In words, the fraction of A dissolved in the liquid phase is directly proportional to the partial pressure of A in the vapor phase. The proportionality constant (which can change with temperature) is the <em>Henry’s Law Constant</em>. (See Example 6.4-2 part 1 in <em>Felder</em>)</p>
 </section>
-<section id="the-takeaways" class="slide level2">
-<h2>The Takeaways</h2>
-<ol type="1">
-<li class="fragment">Spreadsheets have built-in functions to calculate the mean and the standard deviation of a set of data.</li>
-<li class="fragment">Spreadsheets have built-in functions to calculate the slope and intercept of a set of paired data.</li>
-</ol>
+<section class="slide level2">
+
+
+
 </section></section>
-<section id="section" class="title-slide slide level1 center">
-<h1></h1>
-<div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
-
-
-</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png" class="slide-logo"></p>

@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
-  <title>Chemical and Thermal Processes – video25visuals</title>
+  <title>Chemical and Thermal Processes – video26visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,8 +127,8 @@
 
 
 <section>
-<section id="how-to-have-a-quickie-with-your-data-part-1" class="title-slide slide level1 center">
-<h1>How to Have a Quickie with Your Data Part 1</h1>
+<section id="how-to-have-a-quickie-with-your-data-part-2" class="title-slide slide level1 center">
+<h1>How to Have a Quickie with Your Data Part 2</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
@@ -143,42 +143,109 @@
 <li class="fragment"><code>average(</code><em>values</em><code>)</code> and <code>stdev.s(</code><em>values</em><code>)</code></li>
 <li class="fragment"><code>slope(</code><em>y-values</em><code>,</code><em>x-values</em><code>)</code> and <code>intercept(</code><em>y-values</em><code>,</code><em>x-values</em><code>)</code></li>
 </ul></li>
-<li class="fragment">Solver
+<li class="fragment">Solver</li>
+</ul>
+</section>
+<section id="nonlinear-demo-for-solver" class="slide level2">
+<h2>Nonlinear Demo for Solver</h2>
+<p>Have data for 2<span class="math inline">\(^\mathrm{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_\mathrm{{A}0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li class="fragment">Set up fitting function</li>
 <li class="fragment">Set up array of fitting values. Keep magnitudes roughly equal.</li>
 <li class="fragment">Calculate <span class="math inline">\(\Sigma{(y_i – y_{i\text{-fit}})^2}\)</span>. SSE</li>
 <li class="fragment">Minimize with Solver</li>
-</ul></li>
 </ul>
+</div></div>
+<p><img data-src="DataFittingNonlinear.png" class="absolute" style="top: 17.5%; right: 0%; width: 50%; "></p>
 </section>
-<section id="demo-for-average-and-std.-dev." class="slide level2">
-<h2>Demo for Average and Std. Dev.</h2>
-<p><img data-src="DataFittingPoints.png" class="absolute" style="top: 15%; left: 40%; "></p>
-</section>
-<section id="demo-for-slope-and-intercept" class="slide level2">
-<h2>Demo for Slope and Intercept</h2>
-<p>Have data for <span class="math inline">\(2^\mathrm{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_{\mathrm{A}0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
+<section id="nonlinear-demo-for-solver-1" class="slide level2">
+<h2>Nonlinear Demo for Solver</h2>
+<p>Have data for 2<span class="math inline">\(^\mathrm{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_\mathrm{{A}0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><span class="math display">\[C_\mathrm{A} = \dfrac{C_\mathrm{A}0}{1+C_{\mathrm{A}0} kt}\]</span></p>
-<p><span class="math display">\[\dfrac{1}{\mathrm{C}_A} = \dfrac{1}{C_{\mathrm{A}0}} + kt\]</span></p>
-<p><span class="math display">\[\mathrm{slope} = k\]</span></p>
-<p><span class="math display">\[\mathrm{intercept} = \dfrac{1}{C_\mathrm{A}0}\]</span></p>
+<ul>
+<li class="fragment"><strong>Set up fitting function</strong></li>
+<li class="fragment">Set up array of fitting values. Keep magnitudes roughly equal.</li>
+<li class="fragment">Calculate <span class="math inline">\(\Sigma{(y_i – y_{i\text{-fit}})^2}\)</span>. SSE</li>
+<li class="fragment">Minimize with Solver.</li>
+</ul>
+<div class="fragment">
+<p><span class="math display">\[C_{\text{A-fit}} = \frac{C_{\text{A0-fit}}}{1+C_{\text{A0-fit}} {k_\mathrm{fit}}t}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[k_\mathrm{fit} = k_{0\text{-fit}} \exp\left({\frac{-E_{A\text{-fit}}}{RT}}\right)\]</span></p>
+</div>
 </div></div>
-<p><img data-src="DataFittingLinear.png" class="absolute" style="top: 17.5%; right: 0%; width: 50%; "></p>
+<p><img data-src="DataFittingNonlinear.png" class="absolute" style="top: 17.5%; right: 0%; width: 50%; "></p>
 </section>
+<section id="nonlinear-demo-for-solver-2" class="slide level2">
+<h2>Nonlinear Demo for Solver</h2>
+<p>Have data for 2<span class="math inline">\(^\mathrm{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_\mathrm{{A}0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Set up fitting function</li>
+<li class="fragment"><strong>Set up array of fitting values. Keep magnitudes roughly equal.</strong></li>
+<li class="fragment">Calculate <span class="math inline">\(\sum {(y_i – y_{i\text{-fit}})^2}\)</span>. SSE</li>
+<li class="fragment">Minimize with Solver.</li>
+</ul>
+</div></div>
+<p><img data-src="DataFittingNonlinear.png" class="absolute" style="top: 17.5%; right: 0%; width: 50%; "></p>
+</section>
+<section id="nonlinear-demo-for-solver-3" class="slide level2">
+<h2>Nonlinear Demo for Solver</h2>
+<p>Have data for 2<span class="math inline">\(^\mathrm{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_\mathrm{{A}0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Set up fitting function</li>
+<li class="fragment">Set up array of fitting values. Keep magnitudes roughly equal.</li>
+<li class="fragment"><strong>Calculate <span class="math inline">\(\mathbf{\Sigma{(y_i - y_{i\text{-fit}})^2}}\)</span>. SSE</strong></li>
+<li class="fragment">Minimize with Solver. <br><br></li>
+</ul>
+<div class="fragment">
+<p><span class="math display">\[SSE = \Sigma{(C_{\mathrm{A}_i}- C_{\text{A-fit}_i})^2}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[(C_{\mathrm{A}_i} - C_{\text{A-fit}_i})^2 = (C_{\mathrm{A}_i} - \dfrac{C_{\text{A0-fit}}}{1+C_{\text{A0-fit}} {k_\mathrm{fit}}t_i})^2\]</span></p>
+</div>
+</div></div>
+<p><img data-src="DataFittingNonlinear.png" class="absolute" style="top: 17.5%; right: 0%; width: 50%; "></p>
+</section>
+<section id="nonlinear-demo-for-solver-4" class="slide level2">
+<h2>Nonlinear Demo for Solver</h2>
+<p>Have data for 2<span class="math inline">\(^\mathrm{nd}\)</span>-order kinetics. Fit for <span class="math inline">\(C_\mathrm{{A}0}\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(k_0\)</span>, and <span class="math inline">\(E_A\)</span>.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Set up fitting function</li>
+<li class="fragment">Set up array of fitting values. Keep magnitudes roughly equal.</li>
+<li class="fragment">Calculate <span class="math inline">\(\Sigma{(y_i – y_{i\text{-fit}})^2}\)</span>. SSE</li>
+<li class="fragment"><strong>Minimize with Solver</strong></li>
+</ul>
+</div></div>
+<p><img data-src="DataFittingNonlinear.png" class="absolute" style="top: 17.5%; right: 0%; width: 50%; "></p>
+<div class="fragment">
+<p><img data-src="DataFittingSolver.png"></p>
+</div>
+</section>
+<section id="comparison" class="slide level2">
+<h2>Comparison</h2>
+
+<img data-src="DataFittingComparison.png" class="r-stretch"></section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Spreadsheets have built-in functions to calculate the mean and the standard deviation of a set of data.</li>
-<li class="fragment">Spreadsheets have built-in functions to calculate the slope and intercept of a set of paired data.</li>
+<li class="fragment">Spreadsheets have built-in tools for minimizing or maximizing multivariate functions.</li>
+<li class="fragment">With proper set up, the multivariate optimization tool can be used to do nonlinear least-squares data fitting.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 
