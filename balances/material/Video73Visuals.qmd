@@ -1,0 +1,198 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Single-Component and One-Condensable-Component Systems{.bigbold70}
+
+::: {style="text-align: center; font-size: 120px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+
+---
+
+For one component, how do you calculate phase equilibria?
+
+---
+
+
+## 1-Component Vapor-Liquid Equilibrium (VLE)
+
+From Thermodynamics (p 651 in Çengel & Boles) comes the
+*Clapeyron equation*:
+
+
+$$
+\frac{d(p^{*})}{dT} = \frac{\Delta \hat{H}_{v}}{T(\hat{V}_{g} - \hat{V}_l)}
+$$
+
+Where $p^*$ is the vapor pressure.
+
+If $\hat{V}_g \gg \hat{V}_l$, and the vapor is ideal, then:
+
+$$
+\frac{d(ln p^{*})}{d(1/T)} = - \frac{\Delta \hat{H}_{v}}{R}
+$$
+
+---
+
+If in addition, $\Delta \hat{H}_v$ is constant, we can integrate to
+
+$$
+ln p^{*} = \frac{\Delta \hat{H}_v}{RT} + B
+$$
+
+which is the Clausius-Clapeyron equation.
+
+* Empirical equations are also used. The simplest with reasonable accuracy is the Antoine equation:
+
+$$
+log_{10} P^{*} = A - \frac{B}{T + C}
+$$
+
+where A, B, and C are constants from a table (e.g., Table B.4 on p. 390
+in Felder). What are A, B, and C if the substance obeys the ClausiusClapeyron equation?
+
+---
+
+## 2-Component VLE
+
+1-Condensable component, e.g., ethanol-argon. Assume *ideal gas* behavior and that species i is the condensable one, then at saturation
+(e.g., two-phases present):
+
+$$
+p_i = y_{i}P = p^{*}_{i}(T)
+$$
+
+If the temperature is high enough (or pressure low enough) that only
+one phase is present then:
+
+$$
+p_i = y_{i}P < p^{*}_{i}(T)
+$$
+
+At what temperature will condensation begin?
+
+---
+
+$$
+p_i = y_{i}P = p^{*}_{i}(T_{dp})
+$$
+
+
+$T_{dp}$ is the dew-point temperature. The difference between $T$ and $T_{dp}$ is the degree(s) of superheat.
+
+---
+
+**Example**: You are standing in the shower with the air and water temperature at 35 °C. What mole-fraction of the air that you are breathing is water?
+
+
+$$
+p_{i} = y_{i}P = p^{*}_{i}(T)
+$$
+
+$$
+y_{i} = \frac{p_{i}^{*}(T)}{P} 
+$$
+
+Get $p_{i}^{*}$ from either Antoine equation or
+from Table B.3 in Felder.
+
+
+---
+
+
+It is far too simple to use mole fraction when talking to other people
+so we have the following definitions (saturation is any gas-vapor
+system, humidity is specifically air-water):
+
+*Relative Saturation or Relative Humidity*
+
+$s_r$ or $h_r = \frac{p_i}{p_i^*(T)}*100%$
+
+*Molal Saturation or Molal Humidity*
+
+$s_m$ or $h_m = \frac{p_i} {P-p_i} = \frac{moles of vapor}{moles of vapor-free (dry)gas}$
+
+---
+
+
+*Absolute Saturation or Absolute Humidity*
+$s_m$ or $h_m = \frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \frac{moles of vapor}{moles of vapor-free (dry)gas}$
+
+
+
+*Percentage Saturation or Percentage Humidity*
+
+$s_p$ or $h_p = 100\% \times \frac{s_m} {s_m^*} = 100\% \times \frac{\frac{p_i}{p_i(T)}}{\frac{p_i^*}{p_i^*(T)}}$
+
+
+---
+
+
+**Example**: You set out a cold (root)brew on a day when the
+temperature is 86 °F and the relative humidity is 30%.
+
+1. At what temperature is the brew when water quits condensing
+on the can?
+2. What is the dew point?
+3. What are the degrees of superheat?
+
+**Solution:**
+Need p* at 86 °F (30 °C)
+
+Antoine Equation or Table B.3 in FRB?
+
+
+---
+
+
+**Example(cont):**
+Antotine Equation
+
+- $log_10P^* = 8.10765 - \frac{1750.286}{T + 235.000} = 8.10765 - \frac{1750.286}{30 + 235.000} = 1.5028$
+
+- $p^* = 10^{1.5028} = 31.827 mm Hg$
+
+- $p = h_rp^* = 0.30 \times 31.827 mm Hg = 9.548 mm Hg$
+
+- $T_{dp} = \frac{B}{A-log_{10}P} - C = \frac{1750.286}{8.10765 − log_{10} 9.548} - 235.000 = 10.56°C or 51.01 °F$
+
+- $T-T_{dp} = 30-10.56$ = 19.44 °C or 34.99 °F of Superheat
+
+---
+
+**Example(cont):**
+
+Table B.3
+
+- $p^*$ = = 31.824 mm Hg (Table B.3)
+- $p = h_{r}p^{*} = 0.30 i 31.824 mm Hg = 9.547 mm Hg$
+- $T_{dp}$ =10.54 °C or 50.97 °F
+- $T - T_{dp}$ = = 30 −10.54 =19.46 °C or 35.03 °F of Superheat
+
+---
+
+What about a gas dissolved in a liquid? For dilute solutions,
+Henry’s Law holds (A dilute solution is one for which Henry’s law
+holds).
+
+$P_A \equiv y_{A}P = x_{A}H_{A}(T)$
+
+In words, the fraction of A dissolved in the liquid phase is directly
+proportional to the partial pressure of A in the vapor phase. The
+proportionality constant (which can change with temperature) is
+the *Henry’s Law Constant*. (See Example 6.4-2 part 1 in *Felder*)
+
+
+---

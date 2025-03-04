@@ -1,0 +1,138 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# How to Have a Quickie with Your Data Part 2
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Data Fitting Tools
+
+* Statistics Videos much more complete
+* Functions
+  * `average(`*values*`)` and `stdev.s(`*values*`)`
+  * `slope(`*y-values*`,`*x-values*`)` and `intercept(`*y-values*`,`*x-values*`)`
+* Solver
+
+## Nonlinear Demo for Solver
+
+Have data for 2$^\mathrm{nd}$-order kinetics. Fit for $C_\mathrm{{A}0}$, $k$, $k_0$, and $E_A$.
+
+::::{.columns}
+:::{.column width=50%}
+* Set up fitting function
+* Set up array of fitting values. Keep magnitudes roughly equal.
+* Calculate $\Sigma{(y_i – y_{i\text{-fit}})^2}$. SSE
+* Minimize with Solver
+:::
+::::
+![](DataFittingNonlinear.png){.absolute right=0% top=17.5% width=50%}
+
+## Nonlinear Demo for Solver
+
+Have data for 2$^\mathrm{nd}$-order kinetics. Fit for $C_\mathrm{{A}0}$, $k$, $k_0$, and $E_A$.
+
+::::{.columns}
+:::{.column width=50%}
+* **Set up fitting function**
+* Set up array of fitting values. Keep magnitudes roughly equal.
+* Calculate $\Sigma{(y_i – y_{i\text{-fit}})^2}$. SSE
+* Minimize with Solver.
+
+:::{.fragment}
+$$C_{\text{A-fit}} = \frac{C_{\text{A0-fit}}}{1+C_{\text{A0-fit}} {k_\mathrm{fit}}t}$$
+:::
+
+:::{.fragment}
+$$k_\mathrm{fit} = k_{0\text{-fit}} \exp\left({\frac{-E_{A\text{-fit}}}{RT}}\right)$$
+:::
+:::
+::::
+
+![](DataFittingNonlinear.png){.absolute right=0% top=17.5% width=50%}
+
+## Nonlinear Demo for Solver
+
+Have data for 2$^\mathrm{nd}$-order kinetics. Fit for $C_\mathrm{{A}0}$, $k$, $k_0$, and $E_A$.
+
+::::{.columns}
+:::{.column width=50%}
+* Set up fitting function
+* **Set up array of fitting values. Keep magnitudes roughly equal.**
+* Calculate $\sum {(y_i – y_{i\text{-fit}})^2}$. SSE
+* Minimize with Solver.
+:::
+::::
+
+![](DataFittingNonlinear.png){.absolute right=0% top=17.5% width=50%}
+
+## Nonlinear Demo for Solver
+
+Have data for 2$^\mathrm{nd}$-order kinetics. Fit for $C_\mathrm{{A}0}$, $k$, $k_0$, and $E_A$.
+
+::::{.columns}
+:::{.column width=50%}
+* Set up fitting function
+* Set up array of fitting values. Keep magnitudes roughly equal.
+* **Calculate $\mathbf{\Sigma{(y_i - y_{i\text{-fit}})^2}}$. SSE**
+* Minimize with Solver.
+<br/><br/>
+
+:::{.fragment}
+$$SSE = \Sigma{(C_{\mathrm{A}_i}- C_{\text{A-fit}_i})^2}$$
+:::
+:::{.fragment}
+$$(C_{\mathrm{A}_i} - C_{\text{A-fit}_i})^2 = (C_{\mathrm{A}_i} - \dfrac{C_{\text{A0-fit}}}{1+C_{\text{A0-fit}} {k_\mathrm{fit}}t_i})^2$$
+:::
+:::
+::::
+
+![](DataFittingNonlinear.png){.absolute right=0% top=17.5% width=50%}
+
+## Nonlinear Demo for Solver
+
+Have data for 2$^\mathrm{nd}$-order kinetics. Fit for $C_\mathrm{{A}0}$, $k$, $k_0$, and $E_A$.
+
+::::{.columns}
+:::{.column width=50%}
+* Set up fitting function
+* Set up array of fitting values. Keep magnitudes roughly equal.
+* Calculate $\Sigma{(y_i – y_{i\text{-fit}})^2}$. SSE
+* **Minimize with Solver**
+:::
+::::
+
+![](DataFittingNonlinear.png){.absolute right=0% top=17.5% width=50%}
+
+:::{.fragment}
+![](DataFittingSolver.png)
+:::
+
+## Comparison
+
+![](DataFittingComparison.png)
+
+## The Takeaways
+
+1. Spreadsheets have built-in tools for minimizing or maximizing multivariate functions.
+2. With proper set up, the multivariate optimization tool can be used to do nonlinear least-squares data fitting.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
