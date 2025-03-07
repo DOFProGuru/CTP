@@ -129,9 +129,6 @@
 <section>
 <section id="solving-nonlinear-equationswith-spreadsheets" class="title-slide slide level1 center">
 <h1>Solving Nonlinear Equations<br>with Spreadsheets</h1>
-<div class="bigbold" style="text-align: center;">
-<p>Just the Facts</p>
-</div>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
@@ -139,28 +136,29 @@
 </section>
 <section id="some-nonlinear-equations-in-chemical-engineering" class="slide level2">
 <h2>Some Nonlinear Equations in Chemical Engineering</h2>
-<ol type="1">
-<li class="fragment"><p>The Antoine equation <br> <span class="math inline">\(log_{10} (p^*) = A - \dfrac{B}{T+C}\)</span></p></li>
-<li class="fragment"><p>The Arrhenius equation <br> <span class="math inline">\(k = k_0 \exp(-E_a / RT)\)</span></p></li>
-<li class="fragment"><p>The Benedict-Webb-Rubin equation <br> <span class="math inline">\(P = \frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2} + \left( bRT - a \right) \frac{1}{\hat{V}^3} + \frac{\alpha a}{\hat{V}^6} +\)</span> <br> <span class="math inline">\(\frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right)\)</span></p></li>
-</ol>
+<p>The Antoine equation</p>
+<p><span class="math inline">\(\log_{10} p^* = A - \dfrac{B}{T+C}\)</span></p>
+<p>The Arrhenius equation</p>
+<p><span class="math inline">\(k = k_0 \exp(-E_a / RT)\)</span></p>
+<p>The Benedict-Webb-Rubin equation <span class="math display">\[P = \frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2} + \left( bRT - a \right) \frac{1}{\hat{V}^3}\]</span> <span class="math display">\[+ \frac{\alpha a}{\hat{V}^6} + \frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right)\]</span></p>
 </section>
 <section id="how-do-you-solve-them-on-a-spreadsheet" class="slide level2">
 <h2>How Do You Solve Them on a Spreadsheet?</h2>
 <ul>
 <li class="fragment"><p>Set up as <span class="math inline">\(f(x) = 0\)</span>.</p></li>
-<li class="fragment"><p>Guess and Check <br> <span class="math inline">\(\hspace{2mm}\)</span> Root is between sign changes</p></li>
+<li class="fragment"><p>Guess and Check <br> &nbsp;&nbsp;&nbsp; Root is between sign changes</p></li>
 <li class="fragment"><p>Graph it and Guess and Check</p></li>
 <li class="fragment"><p>Goal Seek</p></li>
 </ul>
 </section>
-<section id="set-up-as-fx-0" class="slide level2">
-<h2>Set Up as f(x) = 0</h2>
+<section id="set-up-as-mathbfmathitfmathitx-0" class="slide level2">
+<h2>Set Up as <span class="math inline">\(\mathbf{\mathit{f}(\mathit{x}) = 0}\)</span></h2>
 <ol type="1">
-<li class="fragment"><p>The Antoine equation <br> <span class="math inline">\(f(p*)\)</span> or <span class="math inline">\(f(T) = log_{10} (p^*) - A + \dfrac{B}{T+C}\)</span></p></li>
+<li class="fragment"><p>The Antoine equation <br> <span class="math inline">\(f(p^*)\)</span> or <span class="math inline">\(f(T) = \log_{10} (p^*) - A + \dfrac{B}{T+C}\)</span></p></li>
 <li class="fragment"><p>The Arrhenius equation <br> <span class="math inline">\(f(T) = k - k_0 \exp(-E_a / RT)\)</span></p></li>
-<li class="fragment"><p>The Benedict-Webb-Rubin equation <br> <span class="math inline">\(f(\hat{V}) = P - [\frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2} + \left( bRT - a \right) \frac{1}{\hat{V}^3} + \frac{\alpha a}{\hat{V}^6} +\)</span> <br> <span class="math inline">\(\frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right)]\)</span></p></li>
+<li class="fragment"><p>The Benedict-Webb-Rubin equation</p></li>
 </ol>
+<p><span class="math display">\[f(\hat{V}) = P - \left[\frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2}\right. \]</span> <span class="math display">\[+ \left. \left( bRT - a \right) \frac{1}{\hat{V}^3} + \frac{\alpha a}{\hat{V}^6} + \frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right) \right]\]</span></p>
 </section>
 <section id="technique-demos" class="slide level2">
 <h2>Technique Demos</h2>
@@ -168,14 +166,16 @@
 </section>
 <section id="goal-seek-suggestions" class="slide level2">
 <h2>Goal Seek Suggestions</h2>
-<p>• Increase accuracy of x in f(x)=0 by multiplying f(x) by 108.</p>
-<p>• Mark or label cell to set to 0 (the f(x) value).</p>
-<p>• Mark or label cell to adjust (the x value).</p>
+<ul>
+<li class="fragment"><p>Increase accuracy of <span class="math inline">\(x\)</span> in <span class="math inline">\(f(x)=0\)</span> by multiplying <span class="math inline">\(f(x)\)</span> by <span class="math inline">\(10^8\)</span>.</p></li>
+<li class="fragment"><p>Mark or label cell to set to 0 (the <span class="math inline">\(f(x)\)</span> value).</p></li>
+<li class="fragment"><p>Mark or label cell to adjust (the <span class="math inline">\(x\)</span> value).</p></li>
+</ul>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>How Deviant and Mean Are Your Data?</em> companion video is in the link in the upper left. The link to <em>Basics on a Spreadsheet</em> is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the links in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <div class="absolute" style="top: 125%; left: 40%; ">
 <p>The DOFPro Team</p>
@@ -186,7 +186,7 @@
 <section id="section-1" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>How Deviant and Mean Are Your Data?</em> companion video is in the link in the upper left. The link to <em>Basics on a Spreadsheet</em> is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the links in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <div class="absolute" style="top: 125%; left: 35%; ">
 <p>The DOFPro Team</p>
@@ -377,7 +377,7 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 3840,
+        width: 2700,
 
         height: 2160,
 
@@ -387,7 +387,7 @@
         maxScale: 8,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],

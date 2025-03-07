@@ -3056,21 +3056,21 @@
     "href": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#some-nonlinear-equations-in-chemical-engineering",
     "title": "Chemical and Thermal Processes",
     "section": "Some Nonlinear Equations in Chemical Engineering",
-    "text": "Some Nonlinear Equations in Chemical Engineering\n\nThe Antoine equation  \\(log_{10} (p^*) = A - \\dfrac{B}{T+C}\\)\nThe Arrhenius equation  \\(k = k_0 \\exp(-E_a / RT)\\)\nThe Benedict-Webb-Rubin equation  \\(P = \\frac{RT}{\\hat{V}} + \\left( B_0 RT - A_0 - \\frac{C_0}{T^2} \\right) \\frac{1}{\\hat{V}^2} + \\left( bRT - a \\right) \\frac{1}{\\hat{V}^3} + \\frac{\\alpha a}{\\hat{V}^6} +\\)  \\(\\frac{c}{\\hat{V}^3 T^2} \\left( 1 + \\frac{\\gamma}{\\hat{V}^2} \\right) \\exp \\left( -\\frac{\\gamma}{\\hat{V}^2} \\right)\\)"
+    "text": "Some Nonlinear Equations in Chemical Engineering\nThe Antoine equation\n\\(\\log_{10} p^* = A - \\dfrac{B}{T+C}\\)\nThe Arrhenius equation\n\\(k = k_0 \\exp(-E_a / RT)\\)\nThe Benedict-Webb-Rubin equation \\[P = \\frac{RT}{\\hat{V}} + \\left( B_0 RT - A_0 - \\frac{C_0}{T^2} \\right) \\frac{1}{\\hat{V}^2} + \\left( bRT - a \\right) \\frac{1}{\\hat{V}^3}\\] \\[+ \\frac{\\alpha a}{\\hat{V}^6} + \\frac{c}{\\hat{V}^3 T^2} \\left( 1 + \\frac{\\gamma}{\\hat{V}^2} \\right) \\exp \\left( -\\frac{\\gamma}{\\hat{V}^2} \\right)\\]"
   },
   {
     "objectID": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#how-do-you-solve-them-on-a-spreadsheet",
     "href": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#how-do-you-solve-them-on-a-spreadsheet",
     "title": "Chemical and Thermal Processes",
     "section": "How Do You Solve Them on a Spreadsheet?",
-    "text": "How Do You Solve Them on a Spreadsheet?\n\nSet up as \\(f(x) = 0\\).\nGuess and Check  \\(\\hspace{2mm}\\) Root is between sign changes\nGraph it and Guess and Check\nGoal Seek"
+    "text": "How Do You Solve Them on a Spreadsheet?\n\nSet up as \\(f(x) = 0\\).\nGuess and Check      Root is between sign changes\nGraph it and Guess and Check\nGoal Seek"
   },
   {
-    "objectID": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#set-up-as-fx-0",
-    "href": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#set-up-as-fx-0",
+    "objectID": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#set-up-as-mathbfmathitfmathitx-0",
+    "href": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#set-up-as-mathbfmathitfmathitx-0",
     "title": "Chemical and Thermal Processes",
-    "section": "Set Up as f(x) = 0",
-    "text": "Set Up as f(x) = 0\n\nThe Antoine equation  \\(f(p*)\\) or \\(f(T) = log_{10} (p^*) - A + \\dfrac{B}{T+C}\\)\nThe Arrhenius equation  \\(f(T) = k - k_0 \\exp(-E_a / RT)\\)\nThe Benedict-Webb-Rubin equation  \\(f(\\hat{V}) = P - [\\frac{RT}{\\hat{V}} + \\left( B_0 RT - A_0 - \\frac{C_0}{T^2} \\right) \\frac{1}{\\hat{V}^2} + \\left( bRT - a \\right) \\frac{1}{\\hat{V}^3} + \\frac{\\alpha a}{\\hat{V}^6} +\\)  \\(\\frac{c}{\\hat{V}^3 T^2} \\left( 1 + \\frac{\\gamma}{\\hat{V}^2} \\right) \\exp \\left( -\\frac{\\gamma}{\\hat{V}^2} \\right)]\\)"
+    "section": "Set Up as \\(\\mathbf{\\mathit{f}(\\mathit{x}) = 0}\\)",
+    "text": "Set Up as \\(\\mathbf{\\mathit{f}(\\mathit{x}) = 0}\\)\n\nThe Antoine equation  \\(f(p^*)\\) or \\(f(T) = \\log_{10} (p^*) - A + \\dfrac{B}{T+C}\\)\nThe Arrhenius equation  \\(f(T) = k - k_0 \\exp(-E_a / RT)\\)\nThe Benedict-Webb-Rubin equation\n\n\\[f(\\hat{V}) = P - \\left[\\frac{RT}{\\hat{V}} + \\left( B_0 RT - A_0 - \\frac{C_0}{T^2} \\right) \\frac{1}{\\hat{V}^2}\\right. \\] \\[+ \\left. \\left( bRT - a \\right) \\frac{1}{\\hat{V}^3} + \\frac{\\alpha a}{\\hat{V}^6} + \\frac{c}{\\hat{V}^3 T^2} \\left( 1 + \\frac{\\gamma}{\\hat{V}^2} \\right) \\exp \\left( -\\frac{\\gamma}{\\hat{V}^2} \\right) \\right]\\]"
   },
   {
     "objectID": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#technique-demos",
@@ -3084,7 +3084,7 @@
     "href": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#goal-seek-suggestions",
     "title": "Chemical and Thermal Processes",
     "section": "Goal Seek Suggestions",
-    "text": "Goal Seek Suggestions\n• Increase accuracy of x in f(x)=0 by multiplying f(x) by 108.\n• Mark or label cell to set to 0 (the f(x) value).\n• Mark or label cell to adjust (the x value)."
+    "text": "Goal Seek Suggestions\n\nIncrease accuracy of \\(x\\) in \\(f(x)=0\\) by multiplying \\(f(x)\\) by \\(10^8\\).\nMark or label cell to set to 0 (the \\(f(x)\\) value).\nMark or label cell to adjust (the \\(x\\) value)."
   },
   {
     "objectID": "basics/calculations/CalculationsWebPage.html",
@@ -4116,60 +4116,81 @@
     "text": "The Takeaways\n\nUsually the PFR had a smaller space time and a smaller volume for the processing requirements than the CSTR.\nCSTR calculations don’t require calculus.\nBatch reactors require accounting for switchover times."
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#multicomponent-systems-1",
-    "href": "balances/material/Video74Visuals.html#multicomponent-systems-1",
+    "objectID": "balances/material/Video74Visuals.html#multicomponent-systems",
+    "href": "balances/material/Video74Visuals.html#multicomponent-systems",
     "title": "Chemical and Thermal Processes",
     "section": "Multicomponent Systems",
-    "text": "Multicomponent Systems\nIf the vapor phase is an ideal-gas mixture and the liquid phase is an ideal solution then Raoult’s Law holds.\n\\[\nP_A \\equiv y_{A}P = x_{A}p_{A}^{*}(T)\n\\]\nor in terms of species i,\n\\[\ny_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)\n\\]\nIn words, the partial pressure of a component is equal to the liquid mole fraction of the component times its vapor pressure. (If the vapor phase is not an ideal-gas mixture or the liquid phase is not an ideal solution then we are led to the realms of activity coefficients, fugacities and Poynting factors, i.e., E134)"
+    "text": "Multicomponent Systems\nIf the vapor phase is an ideal-gas mixture and the liquid phase is an ideal solution then Raoult’s Law holds.\n\\[\np_\\mathrm{A} \\equiv y_\\mathrm{A}P = x_\\mathrm{A}p_\\mathrm{A}^*(T)\n\\]\nor in terms of species \\(i\\),\n\\[\ny_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)\n\\tag{1}\\]\nIn words, the partial pressure of a component is equal to the liquid mole fraction of the component times its vapor pressure. (If the vapor phase is not an ideal-gas mixture or the liquid phase is not an ideal solution then we are led to the realms of activity coefficients, fugacities and Poynting factors, i.e., the advanced phase equilibria videos)"
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#for-multicomponent-mixtures-five-types-of-calculations-are-usually-performed-using-raoults-law",
-    "href": "balances/material/Video74Visuals.html#for-multicomponent-mixtures-five-types-of-calculations-are-usually-performed-using-raoults-law",
+    "objectID": "balances/material/Video74Visuals.html#bubl-dew-flash",
+    "href": "balances/material/Video74Visuals.html#bubl-dew-flash",
     "title": "Chemical and Thermal Processes",
-    "section": "For multicomponent mixtures, five types of calculations are usually performed using Raoult’s law:",
-    "text": "For multicomponent mixtures, five types of calculations are usually performed using Raoult’s law:\n\nBUBL P – Given all \\(x_{i}\\)’s and T, calculate P at which the first bubble forms, and \\(y_{i}\\)’s of the bubble.\nBUBL T – Given all \\(x_{i}\\)’s and P, calculate T at which the first bubble forms, and \\(y_{i}\\)’s of the bubble.\nDEW P – Given all \\(y_{i}\\)’s and T, calculate P at which the first droplet condenses, and \\(x_{i}\\)’s of the droplet.\nDEW T – Given all \\(y_{i}\\)’s and P, calculate T at which the first droplet condenses, and \\(x_{i}\\)’s of the droplet.\nFLASH – Given overall composition (\\(z_{i}\\)’s) and T and P, calculate \\(x_{i}\\)’s and \\(y_{i}\\)’s, and relative amounts of vapor, V, and liquid, L."
+    "section": "BUBL, DEW, FLASH",
+    "text": "BUBL, DEW, FLASH\nFor multicomponent mixtures, five types of calculations are usually performed using Raoult’s law:\n\nBUBL P – Given all \\(x_{i}\\)’s and \\(T\\), calculate \\(P\\) at which the first bubble forms, and \\(y_{i}\\)’s of the bubble.\nBUBL T – Given all \\(x_{i}\\)’s and \\(P\\), calculate \\(T\\) at which the first bubble forms, and \\(y_{i}\\)’s of the bubble.\nDEW P – Given all \\(y_{i}\\)’s and \\(T\\), calculate \\(P\\) at which the first droplet condenses, and \\(x_{i}\\)’s of the droplet.\nDEW T – Given all \\(y_{i}\\)’s and \\(P\\), calculate \\(T\\) at which the first droplet condenses, and \\(x_{i}\\)’s of the droplet.\nFLASH – Given overall composition (\\(z_{i}\\)’s) and \\(T\\) and \\(P\\), calculate \\(x_{i}\\)’s and \\(y_{i}\\)’s, and relative amounts of vapor, \\(\\mathcal{V}\\), and liquid, \\(\\mathcal{L}\\)."
   },
   {
     "objectID": "balances/material/Video74Visuals.html#bubl-p",
     "href": "balances/material/Video74Visuals.html#bubl-p",
     "title": "Chemical and Thermal Processes",
     "section": "BUBL P",
-    "text": "BUBL P\nGiven all \\(x_{i}\\)’s and \\(T\\), calculate \\(P\\) and \\(y_{i}\\)’s.\nIf necessary, begin by calculating all of the vapor pressures from the Antoine Equation.\n\\[\np_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\n\\] (BP 1)\nRaoult’s Law, \\(y_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)\\) (BP 2)\ncan be rearranged as:\n\\[ \\sum_{n=1}^{N} x_{i}p_{i}^{*}\n\\] (BP 3)\nto calculate \\(P\\). Then calculate \\(y_{i}\\)’s from:\n\\(y_{i} = \\frac{x_{i} p_{i}^*} {P} (i = 1, 2, 3, ..., N)\\) (BP 4)"
+    "text": "BUBL P\nGiven all \\(x_{i}\\)’s and \\(T\\), calculate \\(P\\) and \\(y_{i}\\)’s.\nIf necessary, begin by calculating all of the vapor pressures from the Antoine equation.\n\\[\np_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\n\\tag{2}\\]\nRaoult’s Law, Equation 1, \\[y_{i}P = x_{i}p_{i}^{*}(T)\\ \\ \\ (i=1, 2, 3, .., N)\\]\ncan be rearranged as:\n\\[P =  \\sum_{n=1}^{N} x_{i}p_{i}^{*}\n\\tag{3}\\]\nto calculate \\(P\\). Then calculate \\(y_{i}\\)’s from:\n\\[y_{i} = \\frac{x_{i} p_{i}^*} {P}\\ \\ \\ (i = 1, 2, 3, ..., N) \\tag{4}\\]"
   },
   {
     "objectID": "balances/material/Video74Visuals.html#dew-p",
     "href": "balances/material/Video74Visuals.html#dew-p",
     "title": "Chemical and Thermal Processes",
     "section": "DEW P",
-    "text": "DEW P\nGiven all \\(y_{i}\\)’s and \\(T\\), calculate \\(P\\) and \\(x_{i}\\)’s. If necessary, begin by calculating all of the vapor pressures from the Antoine Equation.\n\\[p_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\\] (DP 1)\nGiven from Raoult’s Law,\n\\[x_{i} = \\frac{y_{i} P} {p_{i}^{*}} (i = 1, 2, 3, ..., N)\n\\] (DP 2)\nand\n\\[\n\\sum_{i=1}^{N} x_i =1\n\\] (DP 3)"
+    "text": "DEW P\nGiven all \\(y_{i}\\)’s and \\(T\\), calculate \\(P\\) and \\(x_{i}\\)’s. If necessary, begin by calculating all of the vapor pressures from the Antoine equation, Equation 2.\n\\[p_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\\]\nRaoult’s Law, Equation 1, rearranged, gives\n\\[x_{i} = \\frac{y_{i} P} {p_{i}^{*}}\\ \\ \\ (i = 1, 2, 3, ..., N).\n\\tag{5}\\]\nAlso\n\\[\n\\sum_{i=1}^{N} x_i =1\n\\tag{6}\\]"
+  },
+  {
+    "objectID": "balances/material/Video74Visuals.html#the-takeaways",
+    "href": "balances/material/Video74Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nVapor-Liquid Equilibria (VLE) calculations for binaries can be done with a \\(Pxy\\) or \\(Txy\\) phase diagram.\nFor binary mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.\nThe five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.\nHowever, flash calculations for binary mixtures are relatively straightforward."
   },
   {
     "objectID": "balances/material/Video74Visuals.html#bubl-t",
     "href": "balances/material/Video74Visuals.html#bubl-t",
     "title": "Chemical and Thermal Processes",
     "section": "BUBL T",
-    "text": "BUBL T\nGiven all \\(x_{i}\\)’s and \\(P\\), calculate \\(T\\) and \\(y_i\\)’s\nIn general, an iterative solution is required. With a spreadsheet, the easiest method is to guess a temperature \\(T_{guess}\\).\nCalculate all of the vapor pressures from the Antoine Equation\n\\[\np_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}} (i=1,2,3,.., N)\n\\] (BP 1)\nThen calculate the pressure from the guessed temperature\n\\[\nP_{guess} = \\sum_{i=1}^{N} x_{i}p_{i}^{*}$ (BT 2)\n\\]"
+    "text": "BUBL T\nGiven all \\(x_{i}\\)’s and \\(P\\), calculate \\(T\\) and \\(y_i\\)’s\nIn general, an iterative solution is required. With a spreadsheet, the easiest method is to guess a temperature \\(T_\\mathrm{guess}\\).\nCalculate all of the vapor pressures from the Antoine equation, Equation 2,\n\\[\np_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\\ \\ \\ (i=1,2,3,.., N)\n\\]\nThen calculate the pressure from the guessed temperature\n\\[\nP_\\mathrm{guess} = \\sum_{i=1}^{N} x_{i}p_{i}^{*}\n\\tag{9}\\]"
   },
   {
     "objectID": "balances/material/Video74Visuals.html#dew-t",
     "href": "balances/material/Video74Visuals.html#dew-t",
     "title": "Chemical and Thermal Processes",
     "section": "DEW T",
-    "text": "DEW T\nGiven all yi’s and P, calculate T and xi’s.\nIn general, an iterative solution very similar to BUBL T is required. With a spreadsheet, the easiest method is to guess a temperature Tguess .\nCalculate all of the vapor pressures, pi* , from the Antoine Equation\n\\[\nP_{i}^{*} = 10 ^ {A - \\frac{B_i}{T+C_i}} (i = 1, 2, 3, ..., N) (DT 1)\n\\]\nThen calculate the pressure from the guessed temperature,\n\\[\nP_{guess} = \\frac{1}{\\sum_{i=1}^{N}\\frac{y_i}{p_{i}^{*}}} (DT 2)\n\\]"
+    "text": "DEW T\nGiven all \\(y_i\\)’s and \\(P\\), calculate \\(T\\) and \\(x_i\\)’s.\nIn general, an iterative solution very similar to BUBL T is required. With a spreadsheet, the easiest method is to guess a temperature \\(T_\\mathrm{guess}\\) .\nCalculate all of the vapor pressures, \\(p_i^*\\)’s, from the Antoine equation, Equation 2\n\\[\nP_{i}^{*} = 10 ^ {A - \\frac{B_i}{T+C_i}}\\ \\ \\ (i = 1, 2, 3, ..., N)\n\\]\nThen calculate the pressure from the guessed temperature using Equation 8,\n\\[\nP_\\mathrm{guess} = \\frac{1}{\\sum\\limits_{i=1}^{N}\\frac{y_i}{p_{i}^{*}}}\n\\]"
+  },
+  {
+    "objectID": "balances/material/Video74Visuals.html#the-takeaways-1",
+    "href": "balances/material/Video74Visuals.html#the-takeaways-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nVapor-Liquid Equilibria (VLE) calculations for binaries can be done with a \\(Pxy\\) or \\(Txy\\) phase diagram.\nFor binary mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.\nThe five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.\nHowever, flash calculations for binary mixtures are relatively straightforward."
   },
   {
     "objectID": "balances/material/Video74Visuals.html#flash",
     "href": "balances/material/Video74Visuals.html#flash",
     "title": "Chemical and Thermal Processes",
     "section": "FlASH",
-    "text": "FlASH\nGiven \\(z_i\\)’s and \\(T\\) and \\(P\\), calculate \\(x_i\\)’s and \\(y_{i}\\)’s, and relative amounts of vapor, \\(V\\), and liquid, \\(L\\).\nChen’s question\nAre V and L the notation from the slides\n\\[\nV \\equiv \\frac{n_{vapor}}{n_{total}}\n\\] (F1)\nand\n\\[\nL \\equiv \\frac{n_{liquid}}{n_{total}}\n\\] (F2)\nso\n\\[\nL + V = 1\n\\] (F3)"
+    "text": "FlASH\nGiven \\(z_i\\)’s and \\(T\\) and \\(P\\), calculate \\(x_i\\)’s and \\(y_{i}\\)’s, and relative amounts of vapor, \\(\\mathcal{V}\\), and liquid, \\(\\mathcal{L}\\).\n\\[\n\\mathcal{V} \\equiv \\frac{n_\\mathrm{{vapor}}}{n_\\mathrm{{total}}}\n\\tag{19}\\]\nand\n\\[\n\\mathcal{L} \\equiv \\frac{n_\\mathrm{{liquid}}}{n_\\mathrm{{total}}}\n\\tag{20}\\]\nso\n\\[\n\\mathcal{L} + \\mathcal{V} = 1\n\\tag{21}\\]"
   },
   {
     "objectID": "balances/material/Video74Visuals.html#example",
     "href": "balances/material/Video74Visuals.html#example",
     "title": "Chemical and Thermal Processes",
     "section": "Example",
-    "text": "Example\nThe binary system benzene(1)/toluene(2) conform closely to Raoult’s law. Vapor pressures for the pure species are given by the following Antoine equations:\n\\[\n\\log_{10} p_{b}^{*} / mmHg = 6.89272 - \\frac{1203.531}{T / °C + 219.888}\n\\]\n\\[\n\\log_{10}p_{t}^{*} / mmHg = 6.5805 - /frac{1346.773}{T / °C + 219.693}\n\\]\n\nPrepare a graph showing \\(P\\) vs. \\(x_b\\) and \\(P\\) vs. \\(y_b\\) for a temperature of 100°C.\nPrepare a graph showing \\(T\\) vs. \\(x_b\\) and \\(T\\) vs. \\(y_b\\) for a pressure of 1 atm"
+    "text": "Example\nThe binary system benzene(1)/toluene(2) conforms closely to Raoult’s law. Vapor pressures for the pure species are given by the following Antoine equations:\n\\[\n\\log_{10} p_\\mathrm{b}^{*} / \\mathrm{bar} = 4.01814 - \\frac{1203.835}{T /\\mathrm{K}  - 53.226}\n\\]\n\\[\n\\log_{10}p_\\mathrm{t}^{*} / \\mathrm{bar} = 4.07827 - \\frac{1343.943}{T / \\mathrm{K} - 53.773}\n\\]\n\nPrepare a graph showing \\(P\\) vs. \\(x_b\\) and \\(P\\) vs. \\(y_b\\) for a temperature of 100°C.\nPrepare a graph showing \\(T\\) vs. \\(x_b\\) and \\(T\\) vs. \\(y_b\\) for a pressure of 1 bar"
+  },
+  {
+    "objectID": "balances/material/Video74Visuals.html#the-takeaways-2",
+    "href": "balances/material/Video74Visuals.html#the-takeaways-2",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nVapor-Liquid Equilibria (VLE) calculations for binaries can be done with a Pxy or Txy phase diagram.\nFor binary mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.\nThe five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.\nHowever, flash calculations for binary mixtures are relatively straightforward."
   },
   {
     "objectID": "balances/material/UnitOpsMixDivSepJTFVisuals.html#common-processing-units",
@@ -4347,18 +4368,88 @@
     "text": "The Takeaways\n\nFor ideal gases the equilibrium extent of reaction can be calculated from the equations for the equilibrium constant, \\(K\\) in terms of mole fractions and temperatures.\nEquilibrium constants change by orders of magnitude for relatively small changes in temperature.\nSolutions of these types of equations often require finding numerical roots of nonlinear equations.\nChemical equilibrium predictions without kinetic information can be seriously wrong."
   },
   {
+    "objectID": "balances/material/Video73Visuals.html#sample-1-component-pt-diagram",
+    "href": "balances/material/Video73Visuals.html#sample-1-component-pt-diagram",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample 1-Component \\(PT\\) Diagram",
+    "text": "Sample 1-Component \\(PT\\) Diagram\nFor one component, how do you calculate phase equilibria?\n\nhttps://commons.wikimedia.org/wiki/File:Phase-diag2.svg"
+  },
+  {
     "objectID": "balances/material/Video73Visuals.html#component-vapor-liquid-equilibrium-vle",
     "href": "balances/material/Video73Visuals.html#component-vapor-liquid-equilibrium-vle",
     "title": "Chemical and Thermal Processes",
     "section": "1-Component Vapor-Liquid Equilibrium (VLE)",
-    "text": "1-Component Vapor-Liquid Equilibrium (VLE)\nFrom Thermodynamics (p 651 in Çengel & Boles) comes the Clapeyron equation:\n\\[\n\\frac{d(p^{*})}{dT} = \\frac{\\Delta \\hat{H}_{v}}{T(\\hat{V}_{g} - \\hat{V}_l)}\n\\]\nWhere \\(p^*\\) is the vapor pressure.\nIf \\(\\hat{V}_g \\gg \\hat{V}_l\\), and the vapor is ideal, then:\n\\[\n\\frac{d(ln p^{*})}{d(1/T)} = - \\frac{\\Delta \\hat{H}_{v}}{R}\n\\]"
+    "text": "1-Component Vapor-Liquid Equilibrium (VLE)\nFrom Wikipedia comes the Clapeyron equation:\n\\[\n\\frac{dp^*}{dT} = \\frac{\\Delta \\hat{H}_{v}}{T(\\hat{V}_{g} - \\hat{V}_l)}\n\\]\nWhere \\(p^*\\) is the vapor pressure.\nIf \\(\\hat{V}_g \\gg \\hat{V}_l\\), and the vapor is ideal, then:\n\\[\n\\frac{d(\\ln p^{*})}{d(1/T)} = - \\frac{\\Delta \\hat{H}_{v}}{R}\n\\]"
+  },
+  {
+    "objectID": "balances/material/Video73Visuals.html#vle-cont.",
+    "href": "balances/material/Video73Visuals.html#vle-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "VLE (cont.)",
+    "text": "VLE (cont.)\nIf in addition, \\(\\Delta \\hat{H}_v\\) is constant, we can integrate to\n\\[\n\\ln p^{*} = \\frac{\\Delta \\hat{H}_v}{RT} + B\n\\]\nwhich is the Clausius-Clapeyron equation.\nEmpirical equations are also used. The simplest with reasonable accuracy is the Antoine equation:\n\\[\n\\log_{10} p^{*} = A - \\frac{B}{T + C}\n\\]\nwhere \\(A\\), \\(B\\), and \\(C\\) are constants from a reference source such as the NIST Chemistry WebBook. What are \\(A\\), \\(B\\), and \\(C\\) if the substance obeys the Clausius-Clapeyron equation and \\(T\\) is in \\(^\\circ\\mathrm{C}\\)?"
   },
   {
     "objectID": "balances/material/Video73Visuals.html#component-vle",
     "href": "balances/material/Video73Visuals.html#component-vle",
     "title": "Chemical and Thermal Processes",
     "section": "2-Component VLE",
-    "text": "2-Component VLE\n1-Condensable component, e.g., ethanol-argon. Assume ideal gas behavior and that species i is the condensable one, then at saturation (e.g., two-phases present):\n\\[\np_i = y_{i}P = p^{*}_{i}(T)\n\\]\nIf the temperature is high enough (or pressure low enough) that only one phase is present then:\n\\[\np_i = y_{i}P &lt; p^{*}_{i}(T)\n\\]\nAt what temperature will condensation begin?"
+    "text": "2-Component VLE\n1-Condensable component, e.g., ethanol-argon. Assume ideal gas behavior and that species \\(i\\) is the condensable one, then at saturation (e.g., two-phases present):\n\\[\np_i = y_{i}P = p^{*}_{i}(T)\n\\]\nIf the temperature is high enough (or pressure low enough) that only one phase is present then:\n\\[\np_i = y_{i}P &lt; p^{*}_{i}(T)\n\\]\nAt what temperature will condensation begin?\n\\[\np_i = y_{i}P = p^{*}_{i}(T_{dp})\n\\]\n\\(T_{dp}\\) is the dew-point temperature. The difference between \\(T\\) and \\(T_{dp}\\) is the degree(s) of superheat."
+  },
+  {
+    "objectID": "balances/material/Video73Visuals.html#example-1",
+    "href": "balances/material/Video73Visuals.html#example-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example 1:",
+    "text": "Example 1:\nYou are standing in the shower with the air and water temperature at 35 °C. What mole-fraction of the air that you are breathing is water?\n\n\n\\[\np_{i} = y_{i}P = p^{*}_{i}(T)\n\\]\n\\[\ny_{i} = \\frac{p_{i}^{*}(T)}{P}\n\\]\nGet \\(p_{i}^{*}\\) from the Antoine equation, from the Steam Table, or from DWSIM."
+  },
+  {
+    "objectID": "balances/material/Video73Visuals.html#additional-definitions",
+    "href": "balances/material/Video73Visuals.html#additional-definitions",
+    "title": "Chemical and Thermal Processes",
+    "section": "Additional Definitions",
+    "text": "Additional Definitions\nMost people don’t understand mole fractions, and we don’t have enough parameter names yet, so we have the following definitions (saturation is any gas-vapor system, humidity is specifically air-water):\nRelative Saturation or Relative Humidity\n\\[s_r \\text{ or }h_r = \\frac{p_i}{p_i^*(T)}*100%\\]\nMolal Saturation or Molal Humidity\n\\[s_m\\text{ or }h_m = \\frac{p_i} {P-p_i} = \\frac{\\text{moles of vapor}}{\\text{moles of vapor-free (dry)gas}}\\]"
+  },
+  {
+    "objectID": "balances/material/Video73Visuals.html#definitions-cont.",
+    "href": "balances/material/Video73Visuals.html#definitions-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Definitions (cont.)",
+    "text": "Definitions (cont.)\nAbsolute Saturation or Absolute Humidity\n\\[s_a\\text{ or }h_a = \\frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \\frac{\\text{moles of vapor}}{\\text{moles of vapor-free (dry)gas}}\\]\nPercentage Saturation or Percentage Humidity\n\\[s_p\\text{ or }h_p = 100\\% \\times \\frac{s_m} {s_m^*} = 100\\% \\times \\frac{\\frac{p_i}{P-p_i}}{\\frac{p_i^*}{P-p_i^*}}\\]"
+  },
+  {
+    "objectID": "balances/material/Video73Visuals.html#example-2",
+    "href": "balances/material/Video73Visuals.html#example-2",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example 2:",
+    "text": "Example 2:\nYou set out a cold (root)brew on a day when the temperature is \\(86\\ ^\\circ\\mathrm{F}\\) and the relative humidity is \\(30\\%\\).\n\nAt what temperature is the brew when water quits condensing on the can?\nWhat is the dew point?\nWhat are the degrees of superheat?\n\nSolution: Need \\(p^*\\) at \\(86\\ ^\\circ\\mathrm{F}\\) (\\(30\\ ^\\circ\\mathrm{C}\\))\nFrom Antoine Equation or Steam Table or DWSIM."
+  },
+  {
+    "objectID": "balances/material/Video73Visuals.html#example-2-cont",
+    "href": "balances/material/Video73Visuals.html#example-2-cont",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example 2 (cont):",
+    "text": "Example 2 (cont):\nAntotine Equation\n\n\\[\\log_{10}p^* = 4.6543 - \\frac{1435.264}{T - 64.848}\\] \\[= 4.6543 - \\frac{1435.264}{30 - 64.848} = -1.3686\\]\n\\[p^* = 10^{-1.3686} = 0.04280\\ \\mathrm{bar}\\]\n\\[p = h_rp^* = 0.30 \\times 0.04280\\ \\mathrm{bar} = 0.01284\\ \\mathrm{bar}\\]\n\\[T_{dp} = \\frac{B}{A-\\log_{10}p^*} - C\\] \\[= \\frac{1435.264}{4.6543 − \\log_{10} 0.01284} + 64.848 = 10.96\\ ^\\circ\\mathrm{C}\\text{ or }51.74\\ ^\\circ\\mathrm{F}\\]\n\\[T-T_{dp} = 30-10.96 = 19.04\\ ^\\circ\\mathrm{C}\\text{ or }34.26\\ ^\\circ\\mathrm{F}\\text{ of Superheat}\\]"
+  },
+  {
+    "objectID": "balances/material/Video73Visuals.html#example-2-cont-1",
+    "href": "balances/material/Video73Visuals.html#example-2-cont-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Example 2 (cont):",
+    "text": "Example 2 (cont):\nSteam Table or DWSIM\n\\[p^* = 0.04247\\ \\mathrm{bar}\\] \\[p = h_{r}p^{*} = 0.30 \\times 0.04247\\ \\mathrm{bar} = 0.01274\\ \\mathrm{bar}\\]\n\n\\[T_{dp} = 10.55\\ ^\\circ\\mathrm{C}\\text{ or }50.99\\ ^\\circ\\mathrm{F}\\] \\[T - T_{dp} = 30-10.55 = 19.45\\ ^\\circ\\mathrm{C}\\text{ or }35.01\\ ^\\circ\\mathrm{F}\\text{ of Superheat}\\]"
+  },
+  {
+    "objectID": "balances/material/Video73Visuals.html#henrys-law",
+    "href": "balances/material/Video73Visuals.html#henrys-law",
+    "title": "Chemical and Thermal Processes",
+    "section": "Henry’s law",
+    "text": "Henry’s law\nWhat about a gas dissolved in a liquid? For dilute solutions, Henry’s Law holds (A dilute solution is one for which Henry’s law holds).\n\\[p_\\mathrm{A} \\equiv y_\\mathrm{A}P = x_\\mathrm{A}H_\\mathrm{A}(T)\\]\nIn words, the fraction of A dissolved in the liquid phase is directly proportional to the partial pressure of A in the vapor phase. The proportionality constant (which can change with temperature) is the Henry’s Law Constant. (See Wikipedia)"
+  },
+  {
+    "objectID": "balances/material/Video73Visuals.html#the-takeaways",
+    "href": "balances/material/Video73Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nThere are semi-empirical relationships, such as the Antoine equation that will let you calculate the vapor pressure as a function of temperature, and vice versa.\nIn a two-component mixture where one of the components can condense, condensation starts once the mixture hits the dew-point temperature, where the partial pressure equals the vapor pressure.\nIn a two-component mixture where one of the components can condense, if the partial pressure is below the vapor pressure, we use the terms relative saturation, or relative humidity for the ratio of the partial pressure to the vapor pressure.\nFor a gas dissolving in a liquid, the mole fraction of the gas in the liquid is the partial pressure of the gas times the Henry’s law constant."
   },
   {
     "objectID": "balances/material/RecycleBypassPart1JTFVisuals.html#recycle",
