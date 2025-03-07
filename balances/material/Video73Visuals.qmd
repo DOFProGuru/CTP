@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Single-Component and One-Condensable-Component Systems{.bigbold70}
+# Oh, Henry!
 
 ::: {style="text-align: center; font-size: 120px;"}
 DOFPro Team
@@ -21,19 +21,25 @@ DOFPro Team
 
 ---
 
+## Sample 1-Component $PT$ Diagram
+
 For one component, how do you calculate phase equilibria?
+
+![](OneCompPhaseTemp.png)
+
+https://commons.wikimedia.org/wiki/File:Phase-diag2.svg
 
 ---
 
 
 ## 1-Component Vapor-Liquid Equilibrium (VLE)
 
-From Thermodynamics (p 651 in Çengel & Boles) comes the
+From [Wikipedia](https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation#Exact_Clapeyron_equation) comes the
 *Clapeyron equation*:
 
 
 $$
-\frac{d(p^{*})}{dT} = \frac{\Delta \hat{H}_{v}}{T(\hat{V}_{g} - \hat{V}_l)}
+\frac{dp^*}{dT} = \frac{\Delta \hat{H}_{v}}{T(\hat{V}_{g} - \hat{V}_l)}
 $$
 
 Where $p^*$ is the vapor pressure.
@@ -41,34 +47,34 @@ Where $p^*$ is the vapor pressure.
 If $\hat{V}_g \gg \hat{V}_l$, and the vapor is ideal, then:
 
 $$
-\frac{d(ln p^{*})}{d(1/T)} = - \frac{\Delta \hat{H}_{v}}{R}
+\frac{d(\ln p^{*})}{d(1/T)} = - \frac{\Delta \hat{H}_{v}}{R}
 $$
 
 ---
 
+## VLE (cont.)
+
 If in addition, $\Delta \hat{H}_v$ is constant, we can integrate to
 
 $$
-ln p^{*} = \frac{\Delta \hat{H}_v}{RT} + B
+\ln p^{*} = \frac{\Delta \hat{H}_v}{RT} + B
 $$
 
-which is the Clausius-Clapeyron equation.
+which is the *Clausius-Clapeyron* equation.
 
-* Empirical equations are also used. The simplest with reasonable accuracy is the Antoine equation:
+Empirical equations are also used. The simplest with reasonable accuracy is the *Antoine equation*:
 
 $$
-log_{10} P^{*} = A - \frac{B}{T + C}
+\log_{10} p^{*} = A - \frac{B}{T + C}
 $$
 
-where A, B, and C are constants from a table (e.g., Table B.4 on p. 390
-in Felder). What are A, B, and C if the substance obeys the ClausiusClapeyron equation?
+where $A$, $B$, and $C$ are constants from a reference source such as the [NIST Chemistry WebBook](https://webbook.nist.gov/chemistry/). What are $A$, $B$, and $C$ if the substance obeys the Clausius-Clapeyron equation and $T$ is in $^\circ\mathrm{C}$?
 
 ---
 
 ## 2-Component VLE
 
-1-Condensable component, e.g., ethanol-argon. Assume *ideal gas* behavior and that species i is the condensable one, then at saturation
-(e.g., two-phases present):
+1-Condensable component, e.g., ethanol-argon. Assume *ideal gas* behavior and that species $i$ is the condensable one, then at saturation (e.g., two-phases present):
 
 $$
 p_i = y_{i}P = p^{*}_{i}(T)
@@ -83,8 +89,6 @@ $$
 
 At what temperature will condensation begin?
 
----
-
 $$
 p_i = y_{i}P = p^{*}_{i}(T_{dp})
 $$
@@ -94,9 +98,12 @@ $T_{dp}$ is the dew-point temperature. The difference between $T$ and $T_{dp}$ i
 
 ---
 
-**Example**: You are standing in the shower with the air and water temperature at 35 °C. What mole-fraction of the air that you are breathing is water?
+## Example 1:
 
+You are standing in the shower with the air and water temperature at 35 °C. What mole-fraction of the air that you are breathing is water?
 
+::::{.columns}
+:::{.column width=55%}
 $$
 p_{i} = y_{i}P = p^{*}_{i}(T)
 $$
@@ -105,43 +112,44 @@ $$
 y_{i} = \frac{p_{i}^{*}(T)}{P} 
 $$
 
-Get $p_{i}^{*}$ from either Antoine equation or
-from Table B.3 in Felder.
+Get $p_{i}^{*}$ from the Antoine equation, from the Steam Table, or from DWSIM.
+:::
+::::
 
-
+![](H2OMoleFracOneConden.png){.absolute top=25% right=0% width=40%}
 ---
 
+## Additional Definitions
 
-It is far too simple to use mole fraction when talking to other people
-so we have the following definitions (saturation is any gas-vapor
-system, humidity is specifically air-water):
+Most people don’t understand mole fractions, and we don’t have enough parameter names yet, so we have the following definitions (saturation is any gas-vapor system, humidity is specifically air-water):
 
 *Relative Saturation or Relative Humidity*
 
-$s_r$ or $h_r = \frac{p_i}{p_i^*(T)}*100%$
+$$s_r \text{ or }h_r = \frac{p_i}{p_i^*(T)}*100%$$
 
 *Molal Saturation or Molal Humidity*
 
-$s_m$ or $h_m = \frac{p_i} {P-p_i} = \frac{moles of vapor}{moles of vapor-free (dry)gas}$
+$$s_m\text{ or }h_m = \frac{p_i} {P-p_i} = \frac{\text{moles of vapor}}{\text{moles of vapor-free (dry)gas}}$$
 
 ---
 
-
+## Definitions (cont.)
 *Absolute Saturation or Absolute Humidity*
-$s_m$ or $h_m = \frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \frac{moles of vapor}{moles of vapor-free (dry)gas}$
 
-
+$$s_a\text{ or }h_a = \frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \frac{\text{moles of vapor}}{\text{moles of vapor-free (dry)gas}}$$
 
 *Percentage Saturation or Percentage Humidity*
 
-$s_p$ or $h_p = 100\% \times \frac{s_m} {s_m^*} = 100\% \times \frac{\frac{p_i}{p_i(T)}}{\frac{p_i^*}{p_i^*(T)}}$
+$$s_p\text{ or }h_p = 100\% \times \frac{s_m} {s_m^*} = 100\% \times \frac{\frac{p_i}{P-p_i}}{\frac{p_i^*}{P-p_i^*}}$$
 
 
 ---
 
 
-**Example**: You set out a cold (root)brew on a day when the
-temperature is 86 °F and the relative humidity is 30%.
+## Example 2:
+
+You set out a cold (root)brew on a day when the
+temperature is $86\ ^\circ\mathrm{F}$ and the relative humidity is $30\%$.
 
 1. At what temperature is the brew when water quits condensing
 on the can?
@@ -149,50 +157,76 @@ on the can?
 3. What are the degrees of superheat?
 
 **Solution:**
-Need p* at 86 °F (30 °C)
+Need $p^*$ at $86\ ^\circ\mathrm{F}$ ($30\ ^\circ\mathrm{C}$)
 
-Antoine Equation or Table B.3 in FRB?
+From Antoine Equation or Steam Table or DWSIM.
 
 
 ---
 
 
-**Example(cont):**
+## Example 2 (cont):
+
 Antotine Equation
 
-- $log_10P^* = 8.10765 - \frac{1750.286}{T + 235.000} = 8.10765 - \frac{1750.286}{30 + 235.000} = 1.5028$
+:::{style="font-size: 90px;"}
+$$\log_{10}p^* = 4.6543 - \frac{1435.264}{T - 64.848}$$
+$$= 4.6543 - \frac{1435.264}{30 - 64.848} = -1.3686$$
 
-- $p^* = 10^{1.5028} = 31.827 mm Hg$
+$$p^* = 10^{-1.3686} = 0.04280\ \mathrm{bar}$$
 
-- $p = h_rp^* = 0.30 \times 31.827 mm Hg = 9.548 mm Hg$
+$$p = h_rp^* = 0.30 \times 0.04280\ \mathrm{bar} = 0.01284\ \mathrm{bar}$$
 
-- $T_{dp} = \frac{B}{A-log_{10}P} - C = \frac{1750.286}{8.10765 − log_{10} 9.548} - 235.000 = 10.56°C or 51.01 °F$
+$$T_{dp} = \frac{B}{A-\log_{10}p^*} - C$$
+$$= \frac{1435.264}{4.6543 − \log_{10} 0.01284} + 64.848 = 10.96\ ^\circ\mathrm{C}\text{ or }51.74\ ^\circ\mathrm{F}$$
 
-- $T-T_{dp} = 30-10.56$ = 19.44 °C or 34.99 °F of Superheat
+$$T-T_{dp} = 30-10.96 = 19.04\ ^\circ\mathrm{C}\text{ or }34.26\ ^\circ\mathrm{F}\text{ of Superheat}$$
+:::
+---
+
+## Example 2 (cont):
+
+Steam Table or DWSIM
+
+$$p^* = 0.04247\ \mathrm{bar}$$
+$$p = h_{r}p^{*} = 0.30 \times 0.04247\ \mathrm{bar} = 0.01274\ \mathrm{bar}$$
+
+![](InterpSteamTableH2OVapPress.png)
+
+$$T_{dp} = 10.55\ ^\circ\mathrm{C}\text{ or }50.99\ ^\circ\mathrm{F}$$
+$$T - T_{dp} = 30-10.55 = 19.45\ ^\circ\mathrm{C}\text{ or }35.01\ ^\circ\mathrm{F}\text{ of Superheat}$$
 
 ---
 
-**Example(cont):**
-
-Table B.3
-
-- $p^*$ = = 31.824 mm Hg (Table B.3)
-- $p = h_{r}p^{*} = 0.30 i 31.824 mm Hg = 9.547 mm Hg$
-- $T_{dp}$ =10.54 °C or 50.97 °F
-- $T - T_{dp}$ = = 30 −10.54 =19.46 °C or 35.03 °F of Superheat
-
----
+## Henry's law
 
 What about a gas dissolved in a liquid? For dilute solutions,
 Henry’s Law holds (A dilute solution is one for which Henry’s law
 holds).
 
-$P_A \equiv y_{A}P = x_{A}H_{A}(T)$
+$$p_\mathrm{A} \equiv y_\mathrm{A}P = x_\mathrm{A}H_\mathrm{A}(T)$$
 
 In words, the fraction of A dissolved in the liquid phase is directly
 proportional to the partial pressure of A in the vapor phase. The
 proportionality constant (which can change with temperature) is
-the *Henry’s Law Constant*. (See Example 6.4-2 part 1 in *Felder*)
+the *Henry’s Law Constant*. (See [Wikipedia](https://en.wikipedia.org/wiki/Henry%27s_law))
 
 
 ---
+
+## The Takeaways
+
+1. There are semi-empirical relationships, such as the Antoine equation that will let you calculate the vapor pressure as a function of temperature, and vice versa.
+2. In a two-component mixture where one of the components can condense, condensation starts once the mixture hits the dew-point temperature, where the partial pressure equals the vapor pressure.
+3. In a two-component mixture where one of the components can condense, if the partial pressure is below the vapor pressure, we use the terms relative saturation, or relative humidity for the ratio of the partial pressure to the vapor pressure.
+4. For a gas dissolving in a liquid, the mole fraction of the gas in the liquid is the partial pressure of the gas times the Henry’s law constant.
+
+---
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

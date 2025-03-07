@@ -1,18 +1,15 @@
 ---
 format:
-  revealjs:
-    width: 3840
+   revealjs:
+    width: 2700
     height: 2160
     max-scale: 8
     logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
     incremental: true
     theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
 ---
 # Solving Nonlinear Equations</br>with Spreadsheets
-
-::: {.bigbold style="text-align: center;"}
-Just the Facts
-:::
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -22,11 +19,17 @@ DOFPro Team
 
 ## Some Nonlinear Equations in Chemical Engineering
 
- 1. The Antoine equation </br> $log_{10} (p^*) = A - \dfrac{B}{T+C}$
+ The Antoine equation
+ 
+ $\log_{10} p^* = A - \dfrac{B}{T+C}$
 
- 2. The Arrhenius equation </br> $k = k_0 \exp(-E_a / RT)$
+ The Arrhenius equation
+ 
+ $k = k_0 \exp(-E_a / RT)$
 
- 3. The Benedict-Webb-Rubin equation </br> $P = \frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2} + \left( bRT - a \right) \frac{1}{\hat{V}^3} + \frac{\alpha a}{\hat{V}^6} +$ </br> $\frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right)$
+ The Benedict-Webb-Rubin equation
+ $$P = \frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2} + \left( bRT - a \right) \frac{1}{\hat{V}^3}$$
+ $$+ \frac{\alpha a}{\hat{V}^6} + \frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right)$$
 
 
 
@@ -35,7 +38,7 @@ DOFPro Team
   - Set up as $f(x) = 0$. 
 
 
-  - Guess and Check </br> $\hspace{2mm}$ Root is between sign changes 
+  - Guess and Check </br> &nbsp;&nbsp;&nbsp; Root is between sign changes 
 
 
   - Graph it and Guess and Check
@@ -43,13 +46,17 @@ DOFPro Team
 
   - Goal Seek
 
-## Set Up as f(x) = 0
+## Set Up as $\mathbf{\mathit{f}(\mathit{x}) = 0}$
 
- 1. The Antoine equation </br> $f(p*)$ or $f(T) = log_{10} (p^*) - A + \dfrac{B}{T+C}$
+ 1. The Antoine equation </br> $f(p^*)$ or $f(T) = \log_{10} (p^*) - A + \dfrac{B}{T+C}$
 
  2. The Arrhenius equation </br> $f(T) = k - k_0 \exp(-E_a / RT)$
 
- 3. The Benedict-Webb-Rubin equation </br> $f(\hat{V}) = P - [\frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2} + \left( bRT - a \right) \frac{1}{\hat{V}^3} + \frac{\alpha a}{\hat{V}^6} +$ </br> $\frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right)]$
+ 3. The Benedict-Webb-Rubin equation
+
+ 
+ $$f(\hat{V}) = P - \left[\frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2}\right. $$
+ $$+ \left. \left( bRT - a \right) \frac{1}{\hat{V}^3} + \frac{\alpha a}{\hat{V}^6} + \frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right) \right]$$
 
 ## Technique Demos
 
@@ -57,15 +64,15 @@ DOFPro Team
 
 ## Goal Seek Suggestions
 
-• Increase accuracy of x in f(x)=0 by multiplying f(x) by 108.
+- Increase accuracy of $x$ in $f(x)=0$ by multiplying $f(x)$ by $10^8$.
 
-• Mark or label cell to set to 0 (the f(x) value).
+- Mark or label cell to set to 0 (the $f(x)$ value).
 
-• Mark or label cell to adjust (the x value).
+- Mark or label cell to adjust (the $x$ value).
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *How Deviant and Mean Are Your Data?* companion video is in the link in the upper left. The link to *Basics on a Spreadsheet* is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+</br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the links in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute top=125% left=40%}
@@ -76,7 +83,7 @@ The DOFPro Team
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *How Deviant and Mean Are Your Data?* companion video is in the link in the upper left. The link to *Basics on a Spreadsheet* is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the links in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute top=125% left=35%}
