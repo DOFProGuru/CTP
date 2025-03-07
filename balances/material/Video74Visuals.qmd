@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Multicomponent Systems{.bigbold70}
+# Dew Your Bubbles Have Flash? Part 1
 
 ::: {style="text-align: center; font-size: 120px;"}
 DOFPro Team
@@ -25,42 +25,44 @@ If the vapor phase is an ideal-gas mixture and the liquid phase is
 an ideal solution then Raoult’s Law holds.
 
 $$
-P_A \equiv y_{A}P = x_{A}p_{A}^{*}(T)
+p_\mathrm{A} \equiv y_\mathrm{A}P = x_\mathrm{A}p_\mathrm{A}^*(T)
 $$
 
-or in terms of species i,
+or in terms of species $i$,
 
 $$
 y_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)
-$$
+$$ {#eq-raoults}
 
 In words, the partial pressure of a component is equal to the liquid
 mole fraction of the component times its vapor pressure.
 (If the vapor phase is not an ideal-gas mixture or the liquid phase
 is not an ideal solution then we are led to the realms of activity
-coefficients, fugacities and Poynting factors, i.e., E134)
+coefficients, fugacities and Poynting factors, i.e., the advanced phase equilibria videos)
 
 ---
 
-## For multicomponent mixtures, five types of calculations are usually performed using Raoult’s law:
+## BUBL, DEW, FLASH
 
-1. BUBL P – Given all $x_{i}$’s and T, calculate P at which the first
+For multicomponent mixtures, five types of calculations are usually performed using Raoult’s law:
+
+1. BUBL P – Given all $x_{i}$’s and $T$, calculate $P$ at which the first
 bubble forms, and $y_{i}$’s of the bubble.
-2. BUBL T – Given all $x_{i}$’s and P, calculate T at which the first
+2. BUBL T – Given all $x_{i}$’s and $P$, calculate $T$ at which the first
 bubble forms, and $y_{i}$’s of the bubble.
-3. DEW P – Given all $y_{i}$’s and T, calculate P at which the first
+3. DEW P – Given all $y_{i}$’s and $T$, calculate $P$ at which the first
 droplet condenses, and $x_{i}$’s of the droplet.
-4. DEW T – Given all $y_{i}$’s and P, calculate T at which the first
+4. DEW T – Given all $y_{i}$’s and $P$, calculate $T$ at which the first
 droplet condenses, and $x_{i}$’s of the droplet.
-5. FLASH – Given overall composition ($z_{i}$’s) and T and P, calculate
-$x_{i}$’s and $y_{i}$’s, and relative amounts of vapor, V, and liquid, L. 
+5. FLASH – Given overall composition ($z_{i}$’s) and $T$ and $P$, calculate
+$x_{i}$’s and $y_{i}$’s, and relative amounts of vapor, $\mathcal{V}$, and liquid, $\mathcal{L}$. 
 
 
 ---
 
 Graphical BUBL P, DEW P
 
-{image}
+![](PxyDiagram320KTemp.png)
 
 
 ---
@@ -70,75 +72,99 @@ Graphical BUBL P, DEW P
 Given all $x_{i}$’s and $T$, calculate $P$ and $y_{i}$’s.
 
 If necessary, begin by calculating all of the vapor pressures from the
-Antoine Equation.
+Antoine equation.
 
 $$
 p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}
-$$ 
-(BP 1)
+$$ {#eq-BP1}
 
-Raoult's Law, $y_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)$ (BP 2)
+Raoult's Law, @eq-raoults, $$y_{i}P = x_{i}p_{i}^{*}(T)\ \ \ (i=1, 2, 3, .., N)$$
 
 can be rearranged as: 
 
-$$ \sum_{n=1}^{N} x_{i}p_{i}^{*}
-$$
- (BP 3)
+$$P =  \sum_{n=1}^{N} x_{i}p_{i}^{*}
+$$ {#eq-BP3}
 
 to calculate $P$. Then calculate $y_{i}$'s from:
 
-$y_{i} = \frac{x_{i} p_{i}^*} {P} (i = 1, 2, 3, ..., N)$ (BP 4)
+$$y_{i} = \frac{x_{i} p_{i}^*} {P}\ \ \ (i = 1, 2, 3, ..., N)$$ {#eq-BP4}
 
 ---
-
 
 ## DEW P
 
 Given all $y_{i}$'s and $T$, calculate $P$ and $x_{i}$'s.
 If necessary, begin by calculating all of the vapor pressures from the
-Antoine Equation.
+Antoine equation, @eq-BP1.
 
 
 $$p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}$$
- (DP 1)
 
 
-Given from Raoult's Law,
 
-$$x_{i} = \frac{y_{i} P} {p_{i}^{*}} (i = 1, 2, 3, ..., N)
-$$ 
-(DP 2)
+Raoult's Law, @eq-raoults, rearranged, gives
 
-and
+$$x_{i} = \frac{y_{i} P} {p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N).
+$$ {#eq-DP2}
+
+Also
 
 $$
 \sum_{i=1}^{N} x_i =1
-$$
-(DP 3)
+$$ {#eq-DP3}
 
 ---
 
 Then,
 
 $$
-1 =P \sum_{i=i}^{N}\frac{y_i} {p_{i}^{*}}
-$$ 
-(DP 4)
+1 =P \sum_{i=1}^{N}\frac{y_i} {p_{i}^{*}}
+$$ {#eq-DP4}
 
 
 and
 
 $$
-P = \frac {1} {\sum_{i=i}^{N}\frac{y_i} {p_{i}^{*}}}
-$$ 
-(DP 5)
+P = \frac {1} {\sum\limits_{i=i}^{N}\frac{y_i} {p_{i}^{*}}}
+$$ {#eq-DP5}
 
 
-to caluclate $P$. Then calculate $x_i$'s from (DP 2).
+to calculate $P$. Then calculate $x_i$'s from @eq-DP2.
+
+---
+
+## The Takeaways
+
+1. Vapor-Liquid Equilibria (VLE) calculations for binaries can be done with a $Pxy$ or $Txy$ phase diagram.
+2. For binary mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult's law and the Antoine equation.
+3. The five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.
+4. However, flash calculations for binary mixtures are relatively straightforward.
+
+---
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+
+---
+
+# Dew Your Bubbles Have Flash? Part 2
+
+::: {style="text-align: center; font-size: 120px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
 
 ---
 
 Graphical BUBL $T$, DEW $T$
+
+![](TxyDiagram320KTemp.png)
 
 ---
 
@@ -147,41 +173,39 @@ Graphical BUBL $T$, DEW $T$
 Given all $x_{i}$’s and $P$, calculate $T$ and $y_i$’s
 
 In general, an iterative solution is required. With a spreadsheet, the
-easiest method is to guess a temperature $T_{guess}$.
+easiest method is to guess a temperature $T_\mathrm{guess}$.
 
-Calculate all of the vapor pressures from the Antoine Equation
+Calculate all of the vapor pressures from the Antoine equation, @eq-BP1,
 
 $$
-p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}} (i=1,2,3,.., N)
-$$ 
-(BP 1)
+p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}\ \ \ (i=1,2,3,.., N)
+$$
 
 Then calculate the pressure from the guessed temperature
 
 $$
-P_{guess} = \sum_{i=1}^{N} x_{i}p_{i}^{*}$ (BT 2)
-$$
+P_\mathrm{guess} = \sum_{i=1}^{N} x_{i}p_{i}^{*}
+$$ {#eq-BT2}
 
 ---
 
 
 Set up a cell to calculate the difference between the actual pressure
-and the guessed pressure, $P_{actual} - P_{guess}$.
+and the guessed pressure, $P_\mathrm{actual} - P_\mathrm{guess}$.
 
-Have *Goal Seek* set the difference to 0 by varying $T_{guess}$.
+Have *Goal Seek* set the difference to 0 by varying $T_\mathrm{guess}$.
 
-$T_{guess}$ is now the correct temperature. You can calculate the $y_i$’s from Raoult’s law,
+$T_\mathrm{guess}$ is now the correct temperature. You can calculate the $y_i$’s from Raoult’s law, @eq-DP2,
 
 
 $$
-y_{i} = \frac{x_{i}p_{i}^{*}}{P} (i=1,2,3,...,N)
+y_{i} = \frac{x_{i}p_{i}^{*}}{P}\ \ \ (i=1,2,3,...,N)
 $$
- (BT 3)
 
 **Alternate Method:** In a spreadsheet, guess a $T$. For one component
-calculate $p_{k}^{*}$ from BT 5 and calculate $p_{i}^{*}$ from BT 1. Set a cell as the error between the two and goal seek to set that cell to 0 by varying T.
+calculate $p_{k}^{*}$ from @eq-BT5 and calculate $p_{i}^{*}$ from the Antoine equation, @eq-BP1. Set a cell as the error between the two and goal seek to set that cell to $0$ by varying $T$.
 
-**Note:** For a two-component system, if you are determining the $y_i$’s as a function of $T$ at constant $P$, you don’t need to iterate. Choose values of $T$ between $T_{b1}$ and $T_{b2}$, and calculate the $y_i$’s using (BT 1) and (BT 3).
+**Note:** For a two-component system, if you are determining the $y_i$’s as a function of $T$ at constant $P$, you don’t need to iterate. Choose values of $T$ between $T_\mathrm{b1}$ and $T_\mathrm{b2}$, and calculate the $y_i$’s using the Antoine equation, @eq-BP1 and Raoult’s law, @eq-DP2.
 
 
 ---
@@ -191,111 +215,102 @@ arbitrary component, $k$, then:
 
 $$
 P = p_{k}^{*} \sum_{i=1}^{N} x_{i} \frac{p_{i}^{*}}{p_{k}^{*}}
-$$ 
-(BT4)
+$$ {#eq-BT4}
 
 or
 
 
 $$
-p_{k}^{*} = \frac{P}{\sum_{i=1}^{N} x_{i} a_{ik}}
-$$ 
-(BT 5)
+p_{k}^{*} = \frac{P}{\sum\limits_{i=1}^{N} x_{i} \alpha_{ik}}
+$$ {#eq-BT5}
 
 
-where the relative voltatility, $a_{ik}$, is defined as:
+where the relative voltatility, $\alpha_{ik}$, is defined as:
 
 
 $$
-a_{ik} \equiv \frac{p_{i}^{*}}{p_{k}^{*}}
-$$ 
-(BT6)
+\alpha_{ik} \equiv \frac{p_{i}^{*}}{p_{k}^{*}}
+$$ {#eq-BT6}
 
 
 ---
 
-If the vapor pressures are related by the Antoine equation:
+If the vapor pressures are related by the Antoine equation, @eq-BP1:
 
 $$
 \log_{10} p^* = A - \frac{B}{T + C}
 $$ 
-(BT 7)
 
 then we can calculate,
 
 $$
-\log_{10}a_{ik} = A_i - A_k - \frac{B_i}{T + C_i} + \frac{B_k}{T + C_k}
-$$ 
-
-(BT 8)
+\log_{10}\alpha_{ik} = A_i - A_k - \frac{B_i}{T + C_i} + \frac{B_k}{T + C_k}
+$$ {#eq-BT8}
 
 One can begin the iteration with an initial guess
 
 $$
 T_{0} = \sum_{i=1}^{N} x_{i}T_{i}^{*}
-$$
-(BT 9)
+$$ {#eq-BT9}
 
 
 ---
 
-This $T_{0}$ can be used to evaluate all of the a_{ik}’s in (BT 6) which are then
-used in (BT 5) to calculate $pk*$, from which a new value of $T$ can be
+This $T_{0}$ can be used to evaluate all of the $\alpha_{ik}$’s in @eq-BT6, which are then
+used in @eq-BT5 to calculate $p_k^*$, from which a new value of $T$ can be
 calculated from:
 
 
 $$
 T_1 = \frac{B_k} {A_{k} - \log_{10} p_{k}^{*} - C_{k}}
-$$ 
-
-(BT 10)
+$$ \{#eq-BT10}
 
 The iteration is repeated until $T$ doesn’t change much from one
-iteration to the next. (BT 7) is then used to calculate all $p_i$*’s, then use
-(BT 3) to calculate the $y_i$’s.
+iteration to the next. The Antoine equation, @eq-BP1 is then used to calculate all $p_i^*$, then use
+Raoult’s law, @eq-DP2 to calculate the $y_i$’s.
 
 
 ---
 
 ## DEW T
 
-Given all yi’s and P, calculate T and xi’s.
+Given all $y_i$’s and $P$, calculate $T$ and $x_i$’s.
 
 In general, an iterative solution very similar to BUBL T is required.
-With a spreadsheet, the easiest method is to guess a temperature Tguess .
+With a spreadsheet, the easiest method is to guess a temperature $T_\mathrm{guess}$ .
 
-Calculate all of the vapor pressures, pi* , from the Antoine Equation
+Calculate all of the vapor pressures, $p_i^*$'s, from the Antoine equation, @eq-BP1
 
 
 $$
-P_{i}^{*} = 10 ^ {A - \frac{B_i}{T+C_i}} (i = 1, 2, 3, ..., N) (DT 1)
+P_{i}^{*} = 10 ^ {A - \frac{B_i}{T+C_i}}\ \ \ (i = 1, 2, 3, ..., N)
 $$
 
 
-Then calculate the pressure from the guessed temperature,
+Then calculate the pressure from the guessed temperature using @eq-DP5,
 
 $$
-P_{guess} = \frac{1}{\sum_{i=1}^{N}\frac{y_i}{p_{i}^{*}}} (DT 2)
+P_\mathrm{guess} = \frac{1}{\sum\limits_{i=1}^{N}\frac{y_i}{p_{i}^{*}}}
 $$
 
 
 ---
 
 Set up a cell to calculate the difference between the actual pressure
-and the guessed pressure, $P_{actual}$ – $P_{guess}$.
+and the guessed pressure, $P_\mathrm{actual} - P_\mathrm{guess}$.
 
-Have Goal Seek set the difference to 0 by varying T_{guess}.
+Have Goal Seek set the difference to $0$ by varying $T_\mathrm{guess}$.
 
-T_{guess} is now the correct temperature. You can calculate the $x_i$’s from
-Raoult’s law,
+$T_\mathrm{guess}$ is now the correct temperature. You can calculate the $x_i$’s from
+Raoult’s law, @eq-DP2,
 
 $$
-x_i = \frac{y_{i} P} {p_{i}^{*}} (i = 1,2,3, ..., N) (DT 3)
+x_i = \frac{y_{i} P} {p_{i}^{*}}\ \ \ (i = 1,2,3, ..., N)
 $$
 
 
 **Alternate Method**: As before, in a spreadsheet, guess a $T$. For one
-component calculate $p_{k}^{*}$ from DT 5 and calculate $p_{i}^{*}$ from DT 1. Set a
+component calculate $p_{k}^{*}$ from @eq-DT5 and calculate $p_{i}^{*}$ from the Antoine equation, @eq-BP1. Set a
 cell as the error between the two and goal seek to set that cell to 0 by
 varying $T$.
 
@@ -303,23 +318,20 @@ varying $T$.
 ---
 
 If you prefer programming to spreadsheets, begin by picking an
-arbitrary component, k, then:
+arbitrary component, $k$, then:
 
 $$
-P = \frac{p_{k}^{*}}{\sum_{i=1}^{N}y_{i}\frac{p_{k}^{*}}{p_{i}^{*}}}
-$$
-(DT 4)
+P = \frac{p_{k}^{*}}{\sum\limits_{i=1}^{N}y_{i}\frac{p_{k}^{*}}{p_{i}^{*}}}
+$$ {#eq-DT4}
 
 or
 
 $$
-p_{k}^{*} = P \sum_{i=1}^{N} \frac{y_j}{a_{ik}}
-$$
+p_{k}^{*} = P \sum_{i=1}^{N} \frac{y_j}{\alpha_{ik}}
+$$ {#eq-DT5}
 
-(DT 5)
-
-where the relative volatility, $a_{ki}$, is defined in (BT 6) and calculated
-using (BT 8).
+where the relative volatility, $\alpha_{ki}$, is defined in @eq-BT6 and calculated
+using @eq-BT8.
 
 ---
 
@@ -327,37 +339,61 @@ The initial guess is:
 
 $$
 T_0 = \sum_{i=1}^{N} y_{i}T_{i}^{*}
-$$
-
-(DT 6)
+$$ {#eq-DT6}
 
 
-This $T_0$ can be used to evaluate all of the $a_{ik}$’s in (BT 6) which are then
-used in (BT 5) to calculate $p_{k}^{*}$, from which a new value of T can be
-calculated from:
+This $T_0$ can be used to evaluate all of the $a_{ik}$’s in @eq-BT6 which are then
+used in @eq-BT5 to calculate $p_{k}^{*}$, from which a new value of $T$ can be
+calculated from @eq-BT10:
 
 
 $$
 T_1 = \frac{B_k}{A_k - \log_{10} p_{k}^{*}} - C_k
 $$
 
-(DT 7)
 
 
-After convergence we evaluate the $x_i$’s from:
+After convergence we evaluate the $x_i$’s from Raoult’s law, @eq-DP2:
 
 $$
-x_i = \frac {y_{i}P}{p_{i}^{*}} (i = 1, 2, 3, ..., N)
+x_i = \frac {y_{i}P}{p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N)
 $$
 
-(DT 8)
 
+---
+
+## The Takeaways
+
+1. Vapor-Liquid Equilibria (VLE) calculations for binaries can be done with a $Pxy$ or $Txy$ phase diagram.
+2. For binary mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult's law and the Antoine equation.
+3. The five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.
+4. However, flash calculations for binary mixtures are relatively straightforward.
+
+---
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+
+---
+
+# Dew Your Bubbles Have Flash Part 3
+
+::: {style="text-align: center; font-size: 120px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
 
 ---
 
 Graphical FLASH
 
-
+![](PxyFlashDiagram320KTemp.png)
 
 ---
 
@@ -365,30 +401,23 @@ Graphical FLASH
 
 
 Given $z_i$’s and $T$ and $P$, calculate $x_i$’s and $y_{i}$’s, and relative amounts of
-vapor, $V$, and liquid, $L$.
-
-#### Chen's question
-#### Are V and L the notation from the slides
-
+vapor, $\mathcal{V}$, and liquid, $\mathcal{L}$.
 
 $$
-V \equiv \frac{n_{vapor}}{n_{total}}
-$$
-(F1)
+\mathcal{V} \equiv \frac{n_\mathrm{{vapor}}}{n_\mathrm{{total}}}
+$$ {#eq-F1}
 
 and
 
 $$
-L \equiv \frac{n_{liquid}}{n_{total}}
-$$
-(F2)
+\mathcal{L} \equiv \frac{n_\mathrm{{liquid}}}{n_\mathrm{{total}}}
+$$ {#eq-F2}
 
 so
 
 $$
-L + V = 1
-$$
-(F3)
+\mathcal{L} + \mathcal{V} = 1
+$$ {#eq-F3}
 
 
 ---
@@ -396,23 +425,21 @@ $$
 and 
 
 $$
-z_{i} = x_{i}L + y_{i}V (i=1, 2, 3, ..., N)
-$$
-(F 4)
+z_{i} = x_{i}\mathcal{L} + y_{i}\mathcal{V}\ \ \ (i=1, 2, 3, ..., N)
+$$ {#eq-F4}
 
 or
 
 $$
-z_{i} = x_{i}(1-V) y_{i}V (i= 1, 2, 3, ..., N) (F 5)
-$$
+z_{i} = x_{i}(1-\mathcal{V}) + y_{i}\mathcal{V}\ \ \ (i= 1, 2, 3, ..., N)
+$$ {#eq-F5}
 
-We will now use the*K-value* or distribution coefficient, defined
+We will now use the *K-value* or distribution coefficient, defined
 as
 
 $$
 K_{i} \equiv \frac{p_{i}^{*}}{P}
-$$
-(F 6)
+$$ {#eq-F6}
 
 
 
@@ -422,24 +449,21 @@ which for Raoult’s law yields
 
 $$
 K_{i} = \frac{y_i}{x_i}
-$$
-(F 7)
+$$ {#eq-F7}
 
 or
 
 
 $$
 x_{i} = \frac{y_i}{K_i}
-$$
-(F 8)
+$$ {#eq-F8}
 
 
-Substitution into (F 5) yields
+Substitution into @eq-F5 yields
 
 $$
-y_{i} = \frac{z_{i}K_{i}}{1+\nu (K_{i} - 1) } (i = 1, 2, 3, ..., N)
-$$
-(F 9)
+y_{i} = \frac{z_{i}K_{i}}{1+\mathcal{V} (K_{i} - 1) }\ \ \ (i = 1, 2, 3, ..., N)
+$$ {#eq-F9}
 
 
 
@@ -449,15 +473,13 @@ or
 
 
 $$
-\sum_{i=1}^{N} \frac{z_{i}K_{i}}{1 + \nu (K_{i} -1)} = 1
-$$
+\sum_{i=1}^{N} \frac{z_{i}K_{i}}{1 + \mathcal{V} (K_{i} -1)} = 1
+$$ {#eq-F10}
 
-(F 10)
+which is solved for $\mathcal{V}$ by numerical methods (such as Goal Seek). Then
+find the $y_{i}$ from @eq-F9 and the $x_{i}$ from @eq-F8.
 
-which is solved for $\nu$ by numerical methods (such as Goal Seek). Then
-find the $y_{i}$ from (F 9) and the $x_{i}$ from (F 8).
-
-For a binary, there is an analytical method for solving for $L$ and $\nu$.
+For a binary, there is an analytical method for solving for $\mathcal{L}$ and $\mathcal{V}$.
 Discovering the method is left as an exercise to the viewer.
 
 
@@ -467,17 +489,17 @@ Discovering the method is left as an exercise to the viewer.
 
 ## Example
 
-The binary system benzene(1)/toluene(2) conform closely to Raoult’s law.
+The binary system benzene(1)/toluene(2) conforms closely to Raoult’s law.
 Vapor pressures for the pure species are given by the following Antoine
 equations:
 
 
 $$
-\log_{10} p_{b}^{*} / mmHg = 6.89272 - \frac{1203.531}{T / °C + 219.888}
+\log_{10} p_\mathrm{b}^{*} / \mathrm{bar} = 4.01814 - \frac{1203.835}{T /\mathrm{K}  - 53.226}
 $$
 
 $$
-\log_{10}p_{t}^{*} / mmHg = 6.5805 - /frac{1346.773}{T / °C + 219.693}
+\log_{10}p_\mathrm{t}^{*} / \mathrm{bar} = 4.07827 - \frac{1343.943}{T / \mathrm{K} - 53.773}
 $$
 
 
@@ -485,12 +507,12 @@ $$
 1. Prepare a graph showing $P$ vs. $x_b$ and $P$ vs. $y_b$ for a temperature of
 100°C.
 
-2. Prepare a graph showing $T$ vs. $x_b$ and $T$ vs. $y_b$ for a pressure of 1 atm
+2. Prepare a graph showing $T$ vs. $x_b$ and $T$ vs. $y_b$ for a pressure of 1 bar
 
 ---
 
-For a $P_{xy}$ diagram, we need $P$ as a function of $x_1$, and $P$ as a function
-of $y_1$, or $x_1$ and $y_1$ as a function of $P$. From Equation (BP 3)
+For a $Pxy$ diagram, we need $P$ as a function of $x_1$, and $P$ as a function
+of $y_1$, or $x_1$ and $y_1$ as a function of $P$. From @eq-BP3
 
 $$
 P = \sum_{i=1}^{N} x_{i}p_{i}^{*} + (1-x_{i})p_{2}^{*} = (p_{1}^{*} - p_{2}^{*}) x_1 + p_{2}^{*}
@@ -499,26 +521,26 @@ $$
 which is a linear function of $x_1$ that runs from $p_{2}^{*}$ at $x_1$ = 0
 to $p_{1}^{*}$ at $x_1$ =1.
 
-From Equation (DP 5)
+From @eq-DP5
 
 $$
-P = \frac{1}{\sum_{i=1}^{N} \frac{y_i}{p_{1}^{*}}} = \frac{1}{\frac{y_1}{p_{1}^{*}} + \frac{1-y_1}{p_{2}^{*}}} = \frac{p_{1}^{*}p_{2}^{*}}{(p_{2}^{*} - p_{1}^{*}) y_1 + p_{1}^{}*}
+P = \frac{1}{\sum\limits_{i=1}^{N} \frac{y_i}{p_{1}^{*}}} = \frac{1}{\frac{y_1}{p_{1}^{*}} + \frac{1-y_1}{p_{2}^{*}}} = \frac{p_{1}^{*}p_{2}^{*}}{(p_{2}^{*} - p_{1}^{*}) y_1 + p_{1}^{}*}
 $$
 
-$p_{1}^{*}$ and $p_{2}^{*}$ are determined from the Antoine equation.
+$p_{1}^{*}$ and $p_{2}^{*}$ are determined from the Antoine equations.
 
 
---
+---
 
-Prepare a graph showing $P$ vs. $x_1$ and $P$ vs. $y_1$ for a temperature of 100°C.
+$P$ vs. $x_1$ and $P$ vs. $y_1$ for a temperature of 100°C.
 
-{image}
+![](PxyBenzeneToluene.png)
 
 
 ---
 
 For a $T_{xy}$ diagram, we either need to use Goal Seek or we need $x_1$ and
-$y_1$ as a function of $T$. From Equation (BP 3)
+$y_1$ as a function of $T$. From From @eq-BP3
 
 
 $$
@@ -529,11 +551,11 @@ $$
 \Rightarrow x_1 = \frac{P-p_{2}^{*}}{p_{1}^{*} - p_{2}^{*}}
 $$
 
-Picka a series of temperatures between $T_{1-bp}$ and $T_{2-bp}$ and calculate $p_{1}^{*}$
+Pick a a series of temperatures between $T_\text{1-bp}$ and $T_\text{2-bp}$ and calculate $p_{1}^{*}$
 and $p_{2}^{*}$ and then $x_1$.
 
 
-From Equation (DP 5)
+From @eq-DP5
 
 $$
 P = \frac{p_{1}^{*}p_{2}^{*}}{(p_{2}^{*}-p_{1}^{*}) y_{1} + p_{1}^{*}}
@@ -544,7 +566,7 @@ $$
 \Rightarrow y_1 = \frac{p_{1}^{*}}{P} \frac{P-p_{2}^{*}}{p_{1}^{*} - p_{2}^{*}}
 $$
 
-Pick a series of temperatures between $T_{1-bp}$ and $T_{2-bp}$ and calculate $p_{1}^{*}$
+Pick a series of temperatures between $T_\text{1-bp}$ and $T_\text{2-bp}$ and calculate $p_{1}^{*}$
 and $p_{2}^{*}$ and then $y_1$.
 
 
@@ -553,6 +575,24 @@ and $p_{2}^{*}$ and then $y_1$.
 
 ---
 
-Prepare a graph showing $T$ vs. $x_1$ and $T$ vs. $y_1$ for a pressure of 1 atm.
+$T$ vs. $x_1$ and $T$ vs. $y_1$ for a pressure of 1 bar.
+
+![](TxyBenzeneToluene.png)
+---
+
+## The Takeaways
+
+1. Vapor-Liquid Equilibria (VLE) calculations for binaries can be done with a Pxy or Txy phase diagram.
+2. For binary mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult's law and the Antoine equation.
+3. The five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.
+4. However, flash calculations for binary mixtures are relatively straightforward.
 
 ---
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
