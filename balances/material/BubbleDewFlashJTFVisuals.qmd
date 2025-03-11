@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Bubble Point, Dew Point, and Flash Calculations
+# Show Some Flash and Dew the Dew with a Little Bubbly!
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -19,42 +19,328 @@ DOFPro Team
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
 
 
-## $Pxy$ and $Txy$ Binary Phase Diagrams
+## *Txy* and *Pxy* Binary Phase Diagrams
 
-{image}
+![](TxyChloroformMethano.png){.absolute top=10% left=0% width=45%}
+
+![](PxyChloroformMethanol.png){.absolute top=10% right=0% width=45%}
+
+:::{.absolute top=40% left=20% style="font-size: 75px;"}
+$\mathrm{vapor}$
+:::
+
+:::{.absolute top=50% left=13% style="font-size: 75px;"}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=65% left=8% style="font-size: 75px;"}
+$\mathrm{liquid}$
+:::
+
+:::{.absolute top=35% left=62% style="font-size: 75px;"}
+$\mathrm{vapor}$
+:::
+
+:::{.absolute top=46% left=68% style="font-size: 75px;"}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=55% left=72% style="font-size: 75px;"}
+$\mathrm{liquid}$
+:::
 
 ## The Lever Rule for Phase Diagrams
 
- 1. If </br> $n_o = n_α + n_β$
+![](TxyBlowUpFull.png){.absolute top=15% left=0% width=65%}
 
- 2. Then </br> $n_α l_1 = n_β l_2$ </br> $\dfrac{n_α}{n_o} = \dfrac{l_2}{l_3}$ </br> $\dfrac{n_β}{n_o} = \dfrac{l_1}{l_3}$
+:::{.absolute top=50% left=7%}
+$\text{Phase }\alpha$
+:::
 
- {image}
+:::{.absolute top=26% left=43%}
+$\text{Phase }\beta$
+:::
 
-## For binary VLE mixtures, five types of calculations are usually performed:
+:::{.absolute top=30% left=33%}
+$2\text{–}\phi$
+:::
 
- 1. BUBL P – Given all $x_i$’s and T, calculate P at which the first
+:::{.absolute top=39.5% left=26.5%}
+$x_\mathrm{O}$
+:::
+
+:::{.absolute top=39.5% left=14%}
+$x_\alpha$
+:::
+
+:::{.absolute top=39.5% left=42%}
+$x_\beta$
+:::
+
+:::{.absolute top=58% left=-4%}
+$l_1 = x_\mathrm{O} - x_\alpha$
+:::
+
+:::{.absolute top=58% left=47%}
+$l_2 = x_\beta - x_\mathrm{O}$
+:::
+
+:::{.absolute top=66.5% left=21%}
+$l_3 = x_\beta - x_\alpha$
+:::
+
+:::{.absolute left=70% top=10%}
+If </br> $\ \ \ \ n_\mathrm{total} = n_\alpha + n_\beta$
+:::
+
+:::{.absolute left=70% top=25%}
+Then </br> $\ \ \ \ n_\alpha l_1 = n_\beta l_2$
+:::
+:::{.absolute left=70% top=40%}
+$\ \ \ \ \dfrac{n_\alpha}{n_\mathrm{total}} = \dfrac{l_2}{l_3}$
+:::
+:::{.absolute left=70% top=55%}
+$\ \ \ \ \dfrac{n_\beta}{n_\mathrm{total}} = \dfrac{l_1}{l_3}$
+:::
+
+:::{.absolute left=2% top=75%}
+If $\alpha$ is a liquid and $\beta$ is a vapor, then<br/>
+$\mathcal{V} \equiv \dfrac{n_\beta}{n_\mathrm{total}} = \dfrac{l_1}{l_3}$
+and 
+$\mathcal{L} \equiv \dfrac{n_\alpha}{n_\mathrm{total}} = \dfrac{l_2}{l_3}$
+:::
+
+
+## BUBL P, BUBL T, DEW P, DEW T, and FLASH{.bigbold80}
+
+:::{style="font-size: 100px;"}
+For binary VLE mixtures, five types of calculations are usually performed:
+
+ 1. BUBL P – Given all $x_i$’s and $T$, calculate $P$ at which the first
 bubble forms, and $y_i$’s of the bubble.
- 2. BUBL T – Given all $x_i$’s and P, calculate T at which the first
+ 2. BUBL T – Given all $x_i$’s and $P$, calculate $T$ at which the first
 bubble forms, and $y_i$’s of the bubble.
- 3. DEW P – Given all $y_i$’s and T, calculate P at which the first
+ 3. DEW P – Given all $y_i$’s and $T$, calculate $P$ at which the first
 droplet condenses, and $x_i$’s of the droplet.
- 4. DEW T – Given all $y_i$’s and P, calculate T at which the first
+ 4. DEW T – Given all $y_i$’s and $P$, calculate $T$ at which the first
 droplet condenses, and $x_i$’s of the droplet.
- 5. FLASH – Given overall composition ($z_i$’s) and T and P, calculate
-$x_i$’s and $y_i$’s, and relative amounts of vapor, V, and liquid, L.
-
+ 5. FLASH – Given overall composition ($z_i$’s) and $T$ and $P$, calculate
+$x_i$’s and $y_i$’s, and relative amounts of vapor, $\mathcal{V}$, and liquid, $\mathcal{L}$.
+:::
 ## Graphical BUBL P, DEW P
 
-{image}
+![](PxyBubbleDew.png){.absolute left=10% top=10% width=80%}
 
-## Graphical FLASH
+:::{style="font-size: 65px;"}
 
-{image}
+:::{.absolute top=27% left=23%}
+Subcooled<br/>Liquid
+:::
+
+:::{.absolute top=55% left=60%}
+Superheated<br/>Vapor
+:::
+
+:::{.absolute top=45% left=38%}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=15% left=28%}
+Overall<br/> Composition
+:::
+
+:::{.absolute top=36.5% left=8%}
+Bubble<br/> Pressure
+:::
+
+:::{.absolute top=70% left=51%}
+Bubble<br/> Composition
+:::
+
+:::{.absolute top=59% left=8%}
+Dew<br/> Pressure
+:::
+
+:::{.absolute top=81% left=19%}
+Dew<br/> Composition
+:::
+
+:::{.absolute top=23% left=56%}
+Low Boiling<br/>Azeotrope
+:::
+
+:::
+
+---
+
+## Graphical FLASH on *Pxy*
+
+![](PxyFlash.png){.absolute left=10% top=10% width=80%}
+
+:::{style="font-size: 65px;"}
+
+:::{.absolute top=27% left=22%}
+Subcooled<br/>Liquid
+:::
+
+:::{.absolute top=45% left=47%}
+Superheated<br/>Vapor
+:::
+
+:::{.absolute top=40% left=38%}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=14.5% left=27%}
+Overall<br/> Composition
+:::
+
+:::{.absolute top=17% left=52.5%}
+Flash Temperature
+:::
+
+:::{.absolute top=43.5% left=8%}
+Flash<br/> Pressure
+:::
+
+:::{.absolute top=81% left=20%}
+Liquid<br/> Composition
+:::
+
+:::{.absolute top=81% left=36%}
+Vapor<br/> Composition
+:::
+
+:::{.absolute top=47.5% left=30.5%}
+$a$
+:::
+
+:::{.absolute top=47.5% left=38%}
+$b$
+:::
+
+
+:::{.absolute top=55% left=60%}
+$\mathcal{V} = \dfrac{a}{a+b}$
+:::
+
+:::{.absolute top=65% left=60%}
+$\mathcal{L} = 1-\mathcal{V} = \dfrac{b}{a+b}$
+:::
+
+:::
+
+---
+
+## Graphical FLASH on *Txy*
+
+![](TxyFlash.png){.absolute left=10% top=10% width=80%}
+
+:::{style="font-size: 65px;"}
+
+:::{.absolute top=72.5% left=57%}
+Subcooled<br/>Liquid
+:::
+
+:::{.absolute top=55% left=57%}
+Superheated<br/>Vapor
+:::
+
+:::{.absolute top=65% left=46%}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=14.5% left=27%}
+Overall<br/> Composition
+:::
+
+:::{.absolute top=53.5% left=8%}
+Flash<br/> Temperature
+:::
+
+:::{.absolute top=16% left=52.5%}
+Flash Pressure
+:::
+
+:::{.absolute top=84% left=20%}
+Liquid<br/> Composition
+:::
+
+:::{.absolute top=84% left=36%}
+Vapor<br/> Composition
+:::
+
+:::{.absolute top=54% left=30.5%}
+$a$
+:::
+
+:::{.absolute top=54% left=38%}
+$b$
+:::
+
+
+:::{.absolute top=25% left=60%}
+$\mathcal{V} = \dfrac{a}{a+b}$
+:::
+
+:::{.absolute top=35% left=60%}
+$\mathcal{L} = 1-\mathcal{V} = \dfrac{b}{a+b}$
+:::
+
+:::
+
+---
 
 ## Graphical BUBL T, DEW T
 
-{image}
+![](TxyBubbleDew.png){.absolute left=10% top=10% width=80%}
+
+:::{style="font-size: 65px;"}
+
+:::{.absolute top=23% left=35%}
+Superheated<br/>Vapor
+:::
+
+:::{.absolute top=70% left=75%}
+Subcooled<br/>Liquid
+:::
+
+:::{.absolute top=55% left=38%}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=13.5% left=28%}
+Overall<br/> Composition
+:::
+
+:::{.absolute top=59.5% left=8%}
+Bubble<br/> Temperature
+:::
+
+:::{.absolute top=83% left=18%}
+Dew<br/> Composition
+:::
+
+:::{.absolute top=38.5% left=8%}
+Dew<br/> Temperature
+:::
+
+:::{.absolute top=83% left=44%}
+Bubble<br/> Composition
+:::
+
+
+:::{.absolute top=72% left=55%}
+Low Boiling<br/>Azeotrope
+:::
+
+:::
+
+## The Takeaways
+
+1. A $Pxy$ binary phase diagram can be used for Bubble P and Dew P graphical calculations.
+2. A $Txy$ binary phase diagram can be used for Bubble T and Dew T graphical calculations.
+3. Either a $Pxy$ or $Txy$ binary phase diagram can be used for a Flash calculation, and when using the same $T$ and $P$ they should agree with each other.
 
 #
 
