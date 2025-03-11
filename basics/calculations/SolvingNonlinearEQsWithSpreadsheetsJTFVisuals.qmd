@@ -82,7 +82,7 @@ DOFPro Team
 
 1. You can find the roots of a nonlinear equation on a spreadsheet with guess-and-check, graphically, or with Goal Seek. If you’re close enough to a root, Goal Seek is fastest, easiest, and most accurate.
 2. Rewrite your function as $f(x) = 0$.
-2. Multiply your $f(x)$ cell by $10^8$$ to increase the sig figs in your x-value.
+2. Multiply your $f(x)$ cell by $10^8$ to increase the sig figs in your x-value.
 3. Label your $x$ and $f(x)$ cells so you can find them quickly.
 
 

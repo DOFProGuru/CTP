@@ -1,0 +1,194 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# When Getting Gassed Isn’t Ideal, Part 1
+
+::: {style="text-align: center; font-size: 120px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+
+## Real Gases
+
+The ideal gas equation of state is inaccurate at high pressures and
+low temperatures. In these cases, the $PVT$ relationship is more
+complex. We can categorize the non-ideality of the gas with the
+compressibility, $z$.
+
+$$
+z \equiv \frac{P\hat{V}}{RT}
+$$
+
+The lowest temperature at which there is no transition from liquid
+phase to vapor phase with changing pressure is called the critical
+temperature, $T_{c\ }$, and the pressure where the liquid and vapor phase
+boundaries meet is called the critical pressure, $P_{c\ }$.
+
+---
+
+## Real Gases (cont.)
+
+::::{.columns}
+:::{.column width=45%}
+At the critical temperature, pressure and molar volume, one can
+calculate the critical compressibility, $z_c$.
+
+$$
+z_c \equiv \frac{P_c\hat{V}_c}{RT_c}
+$$
+
+:::
+::::
+<br/>On the right is a table of critical compressibilities for a number of substances, calculated from [this table](https://www.kaylaiacovino.com/Petrology_Tools/Critical_Constants_and_Acentric_Factors.htm). They
+range from $0.230$ to $0.308$. A table or chart
+for $z_c = 0.27$ would be close for many substances.
+
+![](SmallTableCriticalConstants.png){.absolute top=12% right=0% width=55%}
+
+:::{.absolute top=7% left=65%}
+Table 1
+:::
+
+---
+
+## Real Gases (cont.)
+
+$$
+P_r \equiv \frac{P}{P_c},\ \ \ \ \ \ T_r \equiv \frac{T}{T_c}
+$$
+
+
+
+![](GenCompChart.png){.absolute top=25% right=5% width=90%}
+
+---
+
+## Equations of State
+
+A number of models have been developed to fit experimental $PVT$
+data. Many of them use three parameters to fit the data, the critical
+pressure, $P_{c\ }$, the critical temperature, $T_{c\ }$, and the acentric factor, $\omega$. All
+three are determined experimentally. $P_c$ and $T_c$ are usually used to calculate
+the reduced temperature, $T_r$, and the reduced pressure, $P_r$. Many other
+equations of state, such as Benedict-Webb-Rubin, have additional or
+different fitting parameters.
+
+---
+
+## The Virial Equations of State
+
+The virial equation of state is a series expansion in the specific molar
+volume:
+
+$$
+z = \frac{P\hat{V}}{RT}+1+\frac{B}{\hat{V}}+\frac{C}{\hat{V}^2}+\frac{D}{\hat{V}^3}+ \dots\ \ .
+$$
+
+The series can be truncated depending of the level of accuracy
+required. Including just the first term gives:
+
+$$
+\frac{P\hat{V}}{RT}=1+\frac{B}{\hat{V}}=1+\frac{BP}{RT}
+$$
+
+where $B$ is a function of $P_{c\ }$, $T_{c\ }$, and $\omega$
+
+## The Virial Equations of State (cont.)
+
+For moderate temperatures and pressures, B can be calculated as:
+
+$$
+B_0 = 0.083 - \frac{0.422}{T_r^{1.6}}
+$$
+
+$$
+B_1 =  0.139 - \frac{0.172}{T_r^{4.2}}
+$$
+
+$$
+B = \frac{RT_c}{P_c}(B_0 + \omega B_1)
+$$
+
+The truncated virial equation has a less than 2% error for $P_r < 2.0$
+and $1 + B_0P_r/T_r > 0.8$.
+
+## The Virial Equations of State (cont.)
+
+Using the compressibility, z, the truncated virial equation can be
+written as
+
+$$
+z = z_0 + \omega z_1
+$$
+
+where
+
+$$
+z_0 = 1 + B_0 \frac{P_r}{T_r}
+$$
+
+and
+
+$$
+z_1 = B_1 \frac{P_r}{T_r}
+$$
+
+
+## The Soave-Redlich-Kwong Equation of State{.bigbold80}
+
+:::{style="font-size: 90px;"}
+From family of cubic equations of state
+
+$$
+P = \frac{RT}{\hat{V} - b} - \frac{\alpha a}{\hat{V}(\hat{V}+b)}
+$$
+
+where
+
+$$
+a = 042747 \frac{(RT_c)^2}{P_c},\ \ \ b = 0.08664 \frac{RT_c}{P_c},\ \ \ \alpha = [1+m(1-\sqrt{T_r})]^2
+$$
+
+and
+
+$$
+m = 0.48508 + 1.5517 \omega - 0.1561 \omega^2
+$$
+:::
+
+## Example
+
+In Part 2, we will do the following example:
+
+
+> A stream of propane at $T = 423\ \mathrm{K}$ and $P = 70\ \mathrm{atm}$, is flowing at a
+rate of $100.0\ \mathrm{kmol/h}$. Estimate the volumetric flow rate with ideal
+gas, generalized compressibility charts, and SRK. The measured specific volume of
+propane at $423\ \mathrm{K}$ and $70\ \mathrm{atm}$ is $0.2579\ \mathrm{L/mol}$.
+
+
+## The Takeaways
+
+1. Real gases are characterized by at least two experimental parameters, $P_c$ and $T_c$.
+2. When a third parameter is needed for greater accuracy, the acentric factor, $\omega$, is used.
+3. Real-gas properties can be characterized graphically with the generalized compressibility charts.
+4. Real-gas properties can also be characterized by equations of state, such as the virial equation and the Soave-Redlich-Kwong equation.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
