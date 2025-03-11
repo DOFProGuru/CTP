@@ -1,0 +1,154 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# When Getting Gassed Isn’t Ideal, Part 2
+
+::: {style="text-align: center; font-size: 120px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+
+## Real Gases Review
+
+The ideal gas equation of state is inaccurate at high pressures and
+low temperatures. In these cases, the $PVT$ relationship is more
+complex. We can categorize the non-ideality of the gas with the
+compressibility, $z$.
+
+$$
+z \equiv \frac{P\hat{V}}{RT}
+$$
+
+The lowest temperature at which there is no transition from liquid
+phase to vapor phase with changing pressure is called the critical
+temperature, $T_{c\ }$, and the pressure where the liquid and vapor phase
+boundaries meet is called the critical pressure, $P_{c\ }$.
+
+---
+
+## Real Gas Calculations
+
+1. Graphically with the Generalized Compressibility Charts
+2. With Equations of State
+   a. Virial equation
+   b. Soave-Redlich-Kwong equation
+   c. Others
+
+
+## Example Problem
+
+A stream of propane at $T = 423\ \mathrm{K}$ and $P = 70\ \mathrm{atm}$, is flowing at a
+rate of $100.0\ \mathrm{kmol/h}$. Estimate the volumetric flow rate with ideal
+gas, generalized compressibility charts, and SRK. The measured molar volume of
+propane at $423\ \mathrm{K}$ and $70\ \mathrm{atm}$ is $0.2579\ \mathrm{L/mol}$.
+
+Data from Table 1.
+
+$$
+T_c = 370\ \mathrm{K},\ \ \ \ P_c = 4.23\ \mathrm{MPa}.
+$$
+
+Data from [this link](https://www.kaylaiacovino.com/Petrology_Tools/Critical_Constants_and_Acentric_Factors.htm)
+
+$$
+\omega = 0.153
+$$
+
+## Example (cont.)
+
+Ideal Gas
+
+$$
+\hat{V}=\frac{RT}{P} = \frac{8.314\ \mathrm{\frac{J}{mol\ K}\mathbf{\cdot}423\mathrm{K}}}{7.09 \times 10^6\ \mathrm{Pa}} = 4.959 \times 10^{-4}\ \mathrm{\frac{m^3}{mol}} = 0.4959\ \mathrm{\frac{L}{mol}}
+$$
+
+$$
+\dot{V}=\dot{n}\hat{V}=100\ \mathrm{\frac{kmol}{h}\mathbf{\cdot}}\mathrm{\frac{1000\ mol}{1\ kmol}} \mathbf{\cdot}4.959 \times 10^{-4}\ \mathrm{\frac{m^3}{mol}} = 49.59\ \mathrm{\frac{m^3}{h}}
+$$
+
+$$
+z_\mathrm{emp} = \frac{\hat{V}_\mathrm{emp}}{\hat{V}_\mathrm{IG}}=\frac{0.2579\ \mathrm{\frac{L}{mol}}}{0.4959\ \mathrm{\frac{L}{mol}}} = 0.5201
+$$
+
+$$
+\dot{V}_\mathrm{emp} = z_\mathrm{emp} \dot{V}_\mathrm{IG} = 0.5201 \mathbf{\cdot} 49.59\ \mathrm{\frac{m^3}{h}} = 25.79\ \mathrm{\frac{m^3}{h}}
+$$
+
+## Example (cont.)
+
+Generalized Compressibility
+
+![](GenCompChart.png){.absolute bottom=10% right=5% width=50%}
+$$
+P_r = \frac{P}{P_c}=\frac{70}{41.7} = 1.677
+$$
+
+$$
+T_r = \frac{T}{T_c}=\frac{423}{370} = 1.143
+$$
+
+$z = 0.5139$
+
+$$
+\dot{V}_\mathrm{GC} = z_\mathrm{GC} \dot{V}_\mathrm{IG} = 25.48\ \mathrm{\frac{m^3}{h}}
+$$
+
+## Example (cont.)
+
+Soave Redlich Kwong (all SI units)
+
+$a = 042747 \dfrac{(RT_c)^2}{P_c} = 042747 \dfrac{(8.314 \mathbf{\cdot} 370)^2}{4.23 \times 10^6} =  0.9564$
+
+$b = 0.08664 \dfrac{RT_c}{P_c} = 0.08664 \dfrac{8.314 \mathbf{\cdot} 370}{4.23 \times 10^6} = 6.301 \times 10^{-5}$
+
+$m = 0.48508 + 1.5517 \omega - 0.1561 \omega^2 = 0.7188$
+
+$\alpha = [1+m(1-\sqrt{T_r})]^2 = [1+0.7188(1-\sqrt{370})]^2  = 0.9030$
+
+## Example (cont.)
+
+Soave Redlich Kwong (all SI units)
+
+$$
+P = \frac{RT}{\hat{V} - b} - \frac{\alpha a}{\hat{V}(\hat{V}+b)} \implies f(\hat{V}) = P - \frac{RT}{\hat{V} - b} + \frac{\alpha a}{\hat{V}(\hat{V}+b)}
+$$
+
+Set to 0 with Goal Seek
+
+$\implies \hat{V} = 2.878 \times 10^{-4}\ \mathrm{\frac{m^3}{mol}}$
+
+$z_\mathrm{SRK} = 0.5804$
+
+$\dot{V}_\mathrm{SRK} = 28.78\ \mathrm{\frac{m^3}{h}}$
+
+![](RealGasSummary.png){.absolute top=80% right=0% width=60%}
+
+## Example Spreadsheet
+
+![](RealGasSpreadsheet.png)
+
+## The Takeaways
+
+1. Real gases are characterized by at least two experimental parameters, $P_c$ and $T_c$.
+2. When a third parameter is needed for greater accuracy, the acentric factor, $\omega$, is used.
+3. Real-gas properties can be characterized graphically with the generalized compressibility charts.
+4. Real-gas properties can also be characterized by equations of state, such as the virial equation and the Soave-Redlich-Kwong equation.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
