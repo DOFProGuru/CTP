@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
-  <title>Chemical and Thermal Processes – solvingnonlineareqswithspreadsheetsjtfvisuals</title>
+  <title>Chemical and Thermal Processes – video63visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,73 +127,125 @@
 
 
 <section>
-<section id="solving-nonlinear-equationswith-spreadsheets" class="title-slide slide level1 center">
-<h1>Solving Nonlinear Equations<br>with Spreadsheets</h1>
-<div style="text-align: center;">
+<section id="when-getting-gassed-isnt-ideal-part-1" class="title-slide slide level1 center">
+<h1>When Getting Gassed Isn’t Ideal, Part 1</h1>
+<div style="text-align: center; font-size: 120px;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -40%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
-<section id="some-nonlinear-equations-in-chemical-engineering" class="slide level2 bigbold65">
-<h2>Some Nonlinear Equations in Chemical Engineering</h2>
-<div style="font-size: 95px;">
-<p>The Antoine equation</p>
-<p><span class="math display">\[\log_{10} p^* = A - \dfrac{B}{T+C}\]</span></p>
-<p>The Arrhenius equation</p>
-<p><span class="math display">\[k = k_0 \exp(-E_a / RT)\]</span></p>
-<p>The Benedict-Webb-Rubin equation <span class="math display">\[P = \frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2} + \left( bRT - a \right) \frac{1}{\hat{V}^3}\]</span> <span class="math display">\[+ \frac{\alpha a}{\hat{V}^6} + \frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right)\]</span></p>
+<section id="real-gases" class="slide level2">
+<h2>Real Gases</h2>
+<p>The ideal gas equation of state is inaccurate at high pressures and low temperatures. In these cases, the <span class="math inline">\(PVT\)</span> relationship is more complex. We can categorize the non-ideality of the gas with the compressibility, <span class="math inline">\(z\)</span>.</p>
+<p><span class="math display">\[
+z \equiv \frac{P\hat{V}}{RT}
+\]</span></p>
+<p>The lowest temperature at which there is no transition from liquid phase to vapor phase with changing pressure is called the critical temperature, <span class="math inline">\(T_{c\ }\)</span>, and the pressure where the liquid and vapor phase boundaries meet is called the critical pressure, <span class="math inline">\(P_{c\ }\)</span>.</p>
+</section>
+<section id="real-gases-cont." class="slide level2">
+<h2>Real Gases (cont.)</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p>At the critical temperature, pressure and molar volume, one can calculate the critical compressibility, <span class="math inline">\(z_c\)</span>.</p>
+<p><span class="math display">\[
+z_c \equiv \frac{P_c\hat{V}_c}{RT_c}
+\]</span></p>
+</div></div>
+<p><br>On the right is a table of critical compressibilities for a number of substances, calculated from <a href="https://www.kaylaiacovino.com/Petrology_Tools/Critical_Constants_and_Acentric_Factors.htm">this table</a>. They range from <span class="math inline">\(0.230\)</span> to <span class="math inline">\(0.308\)</span>. A table or chart for <span class="math inline">\(z_c = 0.27\)</span> would be close for many substances.</p>
+<p><img data-src="SmallTableCriticalConstants.png" class="absolute" style="top: 12%; right: 0%; width: 55%; "></p>
+<div class="absolute" style="top: 7%; left: 65%; ">
+<p>Table 1</p>
 </div>
 </section>
-<section id="how-do-you-solve-them-on-a-spreadsheet" class="slide level2 bigbold80">
-<h2>How Do You Solve Them on a Spreadsheet?</h2>
-<div style="font-size: 95px;">
-<ul>
-<li class="fragment"><p>Set up as <span class="math inline">\(f(x) = 0\)</span>.</p></li>
-<li class="fragment"><p>Guess and Check <br> &nbsp;&nbsp;&nbsp; Root is between sign changes</p></li>
-<li class="fragment"><p>Graph it and Guess and Check</p></li>
-<li class="fragment"><p>Goal Seek</p></li>
-</ul>
+<section id="real-gases-cont.-1" class="slide level2">
+<h2>Real Gases (cont.)</h2>
+<p><span class="math display">\[
+P_r \equiv \frac{P}{P_c},\ \ \ \ \ \ T_r \equiv \frac{T}{T_c}
+\]</span></p>
+<p><img data-src="GenCompChart.png" class="absolute" style="top: 25%; right: 5%; width: 90%; "></p>
+</section>
+<section id="equations-of-state" class="slide level2">
+<h2>Equations of State</h2>
+<p>A number of models have been developed to fit experimental <span class="math inline">\(PVT\)</span> data. Many of them use three parameters to fit the data, the critical pressure, <span class="math inline">\(P_{c\ }\)</span>, the critical temperature, <span class="math inline">\(T_{c\ }\)</span>, and the acentric factor, <span class="math inline">\(\omega\)</span>. All three are determined experimentally. <span class="math inline">\(P_c\)</span> and <span class="math inline">\(T_c\)</span> are usually used to calculate the reduced temperature, <span class="math inline">\(T_r\)</span>, and the reduced pressure, <span class="math inline">\(P_r\)</span>. Many other equations of state, such as Benedict-Webb-Rubin, have additional or different fitting parameters.</p>
+</section>
+<section id="the-virial-equations-of-state" class="slide level2">
+<h2>The Virial Equations of State</h2>
+<p>The virial equation of state is a series expansion in the specific molar volume:</p>
+<p><span class="math display">\[
+z = \frac{P\hat{V}}{RT}+1+\frac{B}{\hat{V}}+\frac{C}{\hat{V}^2}+\frac{D}{\hat{V}^3}+ \dots\ \ .
+\]</span></p>
+<p>The series can be truncated depending of the level of accuracy required. Including just the first term gives:</p>
+<p><span class="math display">\[
+\frac{P\hat{V}}{RT}=1+\frac{B}{\hat{V}}=1+\frac{BP}{RT}
+\]</span></p>
+<p>where <span class="math inline">\(B\)</span> is a function of <span class="math inline">\(P_{c\ }\)</span>, <span class="math inline">\(T_{c\ }\)</span>, and <span class="math inline">\(\omega\)</span></p>
+</section>
+<section id="the-virial-equations-of-state-cont." class="slide level2">
+<h2>The Virial Equations of State (cont.)</h2>
+<p>For moderate temperatures and pressures, B can be calculated as:</p>
+<p><span class="math display">\[
+B_0 = 0.083 - \frac{0.422}{T_r^{1.6}}
+\]</span></p>
+<p><span class="math display">\[
+B_1 =  0.139 - \frac{0.172}{T_r^{4.2}}
+\]</span></p>
+<p><span class="math display">\[
+B = \frac{RT_c}{P_c}(B_0 + \omega B_1)
+\]</span></p>
+<p>The truncated virial equation has a less than 2% error for <span class="math inline">\(P_r &lt; 2.0\)</span> and <span class="math inline">\(1 + B_0P_r/T_r &gt; 0.8\)</span>.</p>
+</section>
+<section id="the-virial-equations-of-state-cont.-1" class="slide level2">
+<h2>The Virial Equations of State (cont.)</h2>
+<p>Using the compressibility, z, the truncated virial equation can be written as</p>
+<p><span class="math display">\[
+z = z_0 + \omega z_1
+\]</span></p>
+<p>where</p>
+<p><span class="math display">\[
+z_0 = 1 + B_0 \frac{P_r}{T_r}
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+z_1 = B_1 \frac{P_r}{T_r}
+\]</span></p>
+</section>
+<section id="the-soave-redlich-kwong-equation-of-state" class="slide level2 bigbold80">
+<h2>The Soave-Redlich-Kwong Equation of State</h2>
+<div style="font-size: 90px;">
+<p>From family of cubic equations of state</p>
+<p><span class="math display">\[
+P = \frac{RT}{\hat{V} - b} - \frac{\alpha a}{\hat{V}(\hat{V}+b)}
+\]</span></p>
+<p>where</p>
+<p><span class="math display">\[
+a = 042747 \frac{(RT_c)^2}{P_c},\ \ \ b = 0.08664 \frac{RT_c}{P_c},\ \ \ \alpha = [1+m(1-\sqrt{T_r})]^2
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+m = 0.48508 + 1.5517 \omega - 0.1561 \omega^2
+\]</span></p>
 </div>
 </section>
-<section id="set-up-as-mathbfmathitfmathitx-0" class="slide level2">
-<h2>Set Up as <span class="math inline">\(\mathbf{\mathit{f}(\mathit{x}) = 0}\)</span></h2>
-<div style="font-size: 95px;">
-<p>The Antoine equation <span class="math display">\[f(p^*)\text{ or }f(T) = \log_{10} (p^*) - A + \dfrac{B}{T+C}\]</span></p>
-<p>The Arrhenius equation</p>
-<p><span class="math display">\[f(T) = k - k_0 \exp(-E_a / RT)\]</span></p>
-<p>The Benedict-Webb-Rubin equation</p>
-<p><span class="math display">\[f(\hat{V}) = P - \left[\frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2}\right. \]</span> <span class="math display">\[+ \left. \left( bRT - a \right) \frac{1}{\hat{V}^3} + \frac{\alpha a}{\hat{V}^6} + \frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right) \right]\]</span></p>
-</div>
+<section id="example" class="slide level2">
+<h2>Example</h2>
+<p>In Part 2, we will do the following example:</p>
+<blockquote>
+<p>A stream of propane at <span class="math inline">\(T = 423\ \mathrm{K}\)</span> and <span class="math inline">\(P = 70\ \mathrm{atm}\)</span>, is flowing at a rate of <span class="math inline">\(100.0\ \mathrm{kmol/h}\)</span>. Estimate the volumetric flow rate with ideal gas, generalized compressibility charts, and SRK. The measured specific volume of propane at <span class="math inline">\(423\ \mathrm{K}\)</span> and <span class="math inline">\(70\ \mathrm{atm}\)</span> is <span class="math inline">\(0.2579\ \mathrm{L/mol}\)</span>.</p>
+</blockquote>
 </section>
-<section id="technique-demos" class="slide level2">
-<h2>Technique Demos</h2>
-
-<img data-src="NonlinearScreenshot.png" class="r-stretch"></section>
-<section id="goal-seek-suggestions" class="slide level2">
-<h2>Goal Seek Suggestions</h2>
-<ul>
-<li class="fragment"><p>Increase accuracy of <span class="math inline">\(x\)</span> in <span class="math inline">\(f(x)=0\)</span> by multiplying <span class="math inline">\(f(x)\)</span> by <span class="math inline">\(10^8\)</span>.</p></li>
-<li class="fragment"><p>Mark or label cell to set to 0 (the <span class="math inline">\(f(x)\)</span> value).</p></li>
-<li class="fragment"><p>Mark or label cell to adjust (the <span class="math inline">\(x\)</span> value).</p></li>
-</ul>
-
-<img data-src="NonlinearXandFXAreas.png" class="r-stretch"></section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">You can find the roots of a nonlinear equation on a spreadsheet with guess-and-check, graphically, or with Goal Seek. If you’re close enough to a root, Goal Seek is fastest, easiest, and most accurate.</li>
-<li class="fragment">Rewrite your function as <span class="math inline">\(f(x) = 0\)</span>.</li>
-<li class="fragment">Multiply your <span class="math inline">\(f(x)\)</span> cell by <span class="math inline">\(10^8\)</span> to increase the sig figs in your x-value.</li>
-<li class="fragment">Label your <span class="math inline">\(x\)</span> and <span class="math inline">\(f(x)\)</span> cells so you can find them quickly.</li>
+<li class="fragment">Real gases are characterized by at least two experimental parameters, <span class="math inline">\(P_c\)</span> and <span class="math inline">\(T_c\)</span>.</li>
+<li class="fragment">When a third parameter is needed for greater accuracy, the acentric factor, <span class="math inline">\(\omega\)</span>, is used.</li>
+<li class="fragment">Real-gas properties can be characterized graphically with the generalized compressibility charts.</li>
+<li class="fragment">Real-gas properties can also be characterized by equations of state, such as the virial equation and the Soave-Redlich-Kwong equation.</li>
 </ol>
 </section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the links in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
-</div>
-<div class="absolute" style="top: 125%; left: 35%; ">
-<p>The DOFPro Team</p>
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 
