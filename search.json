@@ -3056,28 +3056,28 @@
     "href": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#some-nonlinear-equations-in-chemical-engineering",
     "title": "Chemical and Thermal Processes",
     "section": "Some Nonlinear Equations in Chemical Engineering",
-    "text": "Some Nonlinear Equations in Chemical Engineering\nThe Antoine equation\n\\(\\log_{10} p^* = A - \\dfrac{B}{T+C}\\)\nThe Arrhenius equation\n\\(k = k_0 \\exp(-E_a / RT)\\)\nThe Benedict-Webb-Rubin equation \\[P = \\frac{RT}{\\hat{V}} + \\left( B_0 RT - A_0 - \\frac{C_0}{T^2} \\right) \\frac{1}{\\hat{V}^2} + \\left( bRT - a \\right) \\frac{1}{\\hat{V}^3}\\] \\[+ \\frac{\\alpha a}{\\hat{V}^6} + \\frac{c}{\\hat{V}^3 T^2} \\left( 1 + \\frac{\\gamma}{\\hat{V}^2} \\right) \\exp \\left( -\\frac{\\gamma}{\\hat{V}^2} \\right)\\]"
+    "text": "Some Nonlinear Equations in Chemical Engineering\n\nThe Antoine equation\n\\[\\log_{10} p^* = A - \\dfrac{B}{T+C}\\]\nThe Arrhenius equation\n\\[k = k_0 \\exp(-E_a / RT)\\]\nThe Benedict-Webb-Rubin equation \\[P = \\frac{RT}{\\hat{V}} + \\left( B_0 RT - A_0 - \\frac{C_0}{T^2} \\right) \\frac{1}{\\hat{V}^2} + \\left( bRT - a \\right) \\frac{1}{\\hat{V}^3}\\] \\[+ \\frac{\\alpha a}{\\hat{V}^6} + \\frac{c}{\\hat{V}^3 T^2} \\left( 1 + \\frac{\\gamma}{\\hat{V}^2} \\right) \\exp \\left( -\\frac{\\gamma}{\\hat{V}^2} \\right)\\]"
   },
   {
     "objectID": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#how-do-you-solve-them-on-a-spreadsheet",
     "href": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#how-do-you-solve-them-on-a-spreadsheet",
     "title": "Chemical and Thermal Processes",
     "section": "How Do You Solve Them on a Spreadsheet?",
-    "text": "How Do You Solve Them on a Spreadsheet?\n\nSet up as \\(f(x) = 0\\).\nGuess and Check      Root is between sign changes\nGraph it and Guess and Check\nGoal Seek"
+    "text": "How Do You Solve Them on a Spreadsheet?\n\n\nSet up as \\(f(x) = 0\\).\nGuess and Check      Root is between sign changes\nGraph it and Guess and Check\nGoal Seek"
   },
   {
     "objectID": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#set-up-as-mathbfmathitfmathitx-0",
     "href": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#set-up-as-mathbfmathitfmathitx-0",
     "title": "Chemical and Thermal Processes",
     "section": "Set Up as \\(\\mathbf{\\mathit{f}(\\mathit{x}) = 0}\\)",
-    "text": "Set Up as \\(\\mathbf{\\mathit{f}(\\mathit{x}) = 0}\\)\n\nThe Antoine equation  \\(f(p^*)\\) or \\(f(T) = \\log_{10} (p^*) - A + \\dfrac{B}{T+C}\\)\nThe Arrhenius equation  \\(f(T) = k - k_0 \\exp(-E_a / RT)\\)\nThe Benedict-Webb-Rubin equation\n\n\\[f(\\hat{V}) = P - \\left[\\frac{RT}{\\hat{V}} + \\left( B_0 RT - A_0 - \\frac{C_0}{T^2} \\right) \\frac{1}{\\hat{V}^2}\\right. \\] \\[+ \\left. \\left( bRT - a \\right) \\frac{1}{\\hat{V}^3} + \\frac{\\alpha a}{\\hat{V}^6} + \\frac{c}{\\hat{V}^3 T^2} \\left( 1 + \\frac{\\gamma}{\\hat{V}^2} \\right) \\exp \\left( -\\frac{\\gamma}{\\hat{V}^2} \\right) \\right]\\]"
+    "text": "Set Up as \\(\\mathbf{\\mathit{f}(\\mathit{x}) = 0}\\)\n\nThe Antoine equation \\[f(p^*)\\text{ or }f(T) = \\log_{10} (p^*) - A + \\dfrac{B}{T+C}\\]\nThe Arrhenius equation\n\\[f(T) = k - k_0 \\exp(-E_a / RT)\\]\nThe Benedict-Webb-Rubin equation\n\\[f(\\hat{V}) = P - \\left[\\frac{RT}{\\hat{V}} + \\left( B_0 RT - A_0 - \\frac{C_0}{T^2} \\right) \\frac{1}{\\hat{V}^2}\\right. \\] \\[+ \\left. \\left( bRT - a \\right) \\frac{1}{\\hat{V}^3} + \\frac{\\alpha a}{\\hat{V}^6} + \\frac{c}{\\hat{V}^3 T^2} \\left( 1 + \\frac{\\gamma}{\\hat{V}^2} \\right) \\exp \\left( -\\frac{\\gamma}{\\hat{V}^2} \\right) \\right]\\]"
   },
   {
     "objectID": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#technique-demos",
     "href": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#technique-demos",
     "title": "Chemical and Thermal Processes",
     "section": "Technique Demos",
-    "text": "Technique Demos\n{image}"
+    "text": "Technique Demos"
   },
   {
     "objectID": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#goal-seek-suggestions",
@@ -3085,6 +3085,13 @@
     "title": "Chemical and Thermal Processes",
     "section": "Goal Seek Suggestions",
     "text": "Goal Seek Suggestions\n\nIncrease accuracy of \\(x\\) in \\(f(x)=0\\) by multiplying \\(f(x)\\) by \\(10^8\\).\nMark or label cell to set to 0 (the \\(f(x)\\) value).\nMark or label cell to adjust (the \\(x\\) value)."
+  },
+  {
+    "objectID": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#the-takeaways",
+    "href": "basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nYou can find the roots of a nonlinear equation on a spreadsheet with guess-and-check, graphically, or with Goal Seek. If you’re close enough to a root, Goal Seek is fastest, easiest, and most accurate.\nRewrite your function as \\(f(x) = 0\\).\nMultiply your \\(f(x)\\) cell by \\(10^8\\)$ to increase the sig figs in your x-value.\nLabel your \\(x\\) and \\(f(x)\\) cells so you can find them quickly."
   },
   {
     "objectID": "basics/calculations/CalculationsWebPage.html",
@@ -4011,46 +4018,60 @@
     "text": "The Takeaways\n\nThe fractional conversion and extent of reaction can be specified as parameters, determined from chemical kinetics, or determined from chemical equilibrium depending on the need.\nThe reaction rate, \\(r\\), is independent of species, and the reaction rate for species \\(i\\) is given as \\(r_i = \\nu_i r\\).\nThe extent of reaction, \\(\\dot{\\xi}\\), is the volume integral of the reaction rate, \\(r\\).\nThe general mole balance for a reactor is \\[\\dot{n}_{j_0} - \\dot{n}_j + \\int_{V_R} r_j dV = \\frac{dn_j}{dt}\\]"
   },
   {
-    "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#pxy-and-txy-binary-phase-diagrams",
-    "href": "balances/material/BubbleDewFlashJTFVisuals.html#pxy-and-txy-binary-phase-diagrams",
+    "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#txy-and-pxy-binary-phase-diagrams",
+    "href": "balances/material/BubbleDewFlashJTFVisuals.html#txy-and-pxy-binary-phase-diagrams",
     "title": "Chemical and Thermal Processes",
-    "section": "\\(Pxy\\) and \\(Txy\\) Binary Phase Diagrams",
-    "text": "\\(Pxy\\) and \\(Txy\\) Binary Phase Diagrams\n{image}"
+    "section": "Txy and Pxy Binary Phase Diagrams",
+    "text": "Txy and Pxy Binary Phase Diagrams\n\n\n\n\\(\\mathrm{vapor}\\)\n\n\n\\(2\\text{–}\\phi\\)\n\n\n\\(\\mathrm{liquid}\\)\n\n\n\\(\\mathrm{vapor}\\)\n\n\n\\(2\\text{–}\\phi\\)\n\n\n\\(\\mathrm{liquid}\\)"
   },
   {
     "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#the-lever-rule-for-phase-diagrams",
     "href": "balances/material/BubbleDewFlashJTFVisuals.html#the-lever-rule-for-phase-diagrams",
     "title": "Chemical and Thermal Processes",
     "section": "The Lever Rule for Phase Diagrams",
-    "text": "The Lever Rule for Phase Diagrams\n\nIf  \\(n_o = n_α + n_β\\)\nThen  \\(n_α l_1 = n_β l_2\\)  \\(\\dfrac{n_α}{n_o} = \\dfrac{l_2}{l_3}\\)  \\(\\dfrac{n_β}{n_o} = \\dfrac{l_1}{l_3}\\)\n\n{image}"
+    "text": "The Lever Rule for Phase Diagrams\n\n\n\\(\\text{Phase }\\alpha\\)\n\n\n\\(\\text{Phase }\\beta\\)\n\n\n\\(2\\text{–}\\phi\\)\n\n\n\\(x_\\mathrm{O}\\)\n\n\n\\(x_\\alpha\\)\n\n\n\\(x_\\beta\\)\n\n\n\\(l_1 = x_\\mathrm{O} - x_\\alpha\\)\n\n\n\\(l_2 = x_\\beta - x_\\mathrm{O}\\)\n\n\n\\(l_3 = x_\\beta - x_\\alpha\\)\n\n\nIf  \\(\\ \\ \\ \\ n_\\mathrm{total} = n_\\alpha + n_\\beta\\)\n\n\nThen  \\(\\ \\ \\ \\ n_\\alpha l_1 = n_\\beta l_2\\)\n\n\n\\(\\ \\ \\ \\ \\dfrac{n_\\alpha}{n_\\mathrm{total}} = \\dfrac{l_2}{l_3}\\)\n\n\n\\(\\ \\ \\ \\ \\dfrac{n_\\beta}{n_\\mathrm{total}} = \\dfrac{l_1}{l_3}\\)\n\n\nIf \\(\\alpha\\) is a liquid and \\(\\beta\\) is a vapor, then \\(\\mathcal{V} \\equiv \\dfrac{n_\\beta}{n_\\mathrm{total}} = \\dfrac{l_1}{l_3}\\) and \\(\\mathcal{L} \\equiv \\dfrac{n_\\alpha}{n_\\mathrm{total}} = \\dfrac{l_2}{l_3}\\)"
   },
   {
-    "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#for-binary-vle-mixtures-five-types-of-calculations-are-usually-performed",
-    "href": "balances/material/BubbleDewFlashJTFVisuals.html#for-binary-vle-mixtures-five-types-of-calculations-are-usually-performed",
+    "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#bubl-p-bubl-t-dew-p-dew-t-and-flash",
+    "href": "balances/material/BubbleDewFlashJTFVisuals.html#bubl-p-bubl-t-dew-p-dew-t-and-flash",
     "title": "Chemical and Thermal Processes",
-    "section": "For binary VLE mixtures, five types of calculations are usually performed:",
-    "text": "For binary VLE mixtures, five types of calculations are usually performed:\n\nBUBL P – Given all \\(x_i\\)’s and T, calculate P at which the first bubble forms, and \\(y_i\\)’s of the bubble.\nBUBL T – Given all \\(x_i\\)’s and P, calculate T at which the first bubble forms, and \\(y_i\\)’s of the bubble.\nDEW P – Given all \\(y_i\\)’s and T, calculate P at which the first droplet condenses, and \\(x_i\\)’s of the droplet.\nDEW T – Given all \\(y_i\\)’s and P, calculate T at which the first droplet condenses, and \\(x_i\\)’s of the droplet.\nFLASH – Given overall composition (\\(z_i\\)’s) and T and P, calculate \\(x_i\\)’s and \\(y_i\\)’s, and relative amounts of vapor, V, and liquid, L."
+    "section": "BUBL P, BUBL T, DEW P, DEW T, and FLASH",
+    "text": "BUBL P, BUBL T, DEW P, DEW T, and FLASH\n\nFor binary VLE mixtures, five types of calculations are usually performed:\n\nBUBL P – Given all \\(x_i\\)’s and \\(T\\), calculate \\(P\\) at which the first bubble forms, and \\(y_i\\)’s of the bubble.\nBUBL T – Given all \\(x_i\\)’s and \\(P\\), calculate \\(T\\) at which the first bubble forms, and \\(y_i\\)’s of the bubble.\nDEW P – Given all \\(y_i\\)’s and \\(T\\), calculate \\(P\\) at which the first droplet condenses, and \\(x_i\\)’s of the droplet.\nDEW T – Given all \\(y_i\\)’s and \\(P\\), calculate \\(T\\) at which the first droplet condenses, and \\(x_i\\)’s of the droplet.\nFLASH – Given overall composition (\\(z_i\\)’s) and \\(T\\) and \\(P\\), calculate \\(x_i\\)’s and \\(y_i\\)’s, and relative amounts of vapor, \\(\\mathcal{V}\\), and liquid, \\(\\mathcal{L}\\)."
   },
   {
     "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-bubl-p-dew-p",
     "href": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-bubl-p-dew-p",
     "title": "Chemical and Thermal Processes",
     "section": "Graphical BUBL P, DEW P",
-    "text": "Graphical BUBL P, DEW P\n{image}"
+    "text": "Graphical BUBL P, DEW P\n\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nOverall Composition\n\n\nBubble Pressure\n\n\nBubble Composition\n\n\nDew Pressure\n\n\nDew Composition\n\n\nLow BoilingAzeotrope"
   },
   {
-    "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-flash",
-    "href": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-flash",
+    "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-flash-on-pxy",
+    "href": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-flash-on-pxy",
     "title": "Chemical and Thermal Processes",
-    "section": "Graphical FLASH",
-    "text": "Graphical FLASH\n{image}"
+    "section": "Graphical FLASH on Pxy",
+    "text": "Graphical FLASH on Pxy\n\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nOverall Composition\n\n\nFlash Temperature\n\n\nFlash Pressure\n\n\nLiquid Composition\n\n\nVapor Composition\n\n\n\\(a\\)\n\n\n\\(b\\)\n\n\n\\(\\mathcal{V} = \\dfrac{a}{a+b}\\)\n\n\n\\(\\mathcal{L} = 1-\\mathcal{V} = \\dfrac{b}{a+b}\\)"
+  },
+  {
+    "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-flash-on-txy",
+    "href": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-flash-on-txy",
+    "title": "Chemical and Thermal Processes",
+    "section": "Graphical FLASH on Txy",
+    "text": "Graphical FLASH on Txy\n\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nOverall Composition\n\n\nFlash Temperature\n\n\nFlash Pressure\n\n\nLiquid Composition\n\n\nVapor Composition\n\n\n\\(a\\)\n\n\n\\(b\\)\n\n\n\\(\\mathcal{V} = \\dfrac{a}{a+b}\\)\n\n\n\\(\\mathcal{L} = 1-\\mathcal{V} = \\dfrac{b}{a+b}\\)"
   },
   {
     "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-bubl-t-dew-t",
     "href": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-bubl-t-dew-t",
     "title": "Chemical and Thermal Processes",
     "section": "Graphical BUBL T, DEW T",
-    "text": "Graphical BUBL T, DEW T\n{image}"
+    "text": "Graphical BUBL T, DEW T\n\n\n\nSuperheatedVapor\n\n\nSubcooledLiquid\n\n\n\\(2\\text{–}\\phi\\)\n\n\nOverall Composition\n\n\nBubble Temperature\n\n\nDew Composition\n\n\nDew Temperature\n\n\nBubble Composition\n\n\nLow BoilingAzeotrope"
+  },
+  {
+    "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#the-takeaways",
+    "href": "balances/material/BubbleDewFlashJTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nA \\(Pxy\\) binary phase diagram can be used for Bubble P and Dew P graphical calculations.\nA \\(Txy\\) binary phase diagram can be used for Bubble T and Dew T graphical calculations.\nEither a \\(Pxy\\) or \\(Txy\\) binary phase diagram can be used for a Flash calculation, and when using the same \\(T\\) and \\(P\\) they should agree with each other."
   },
   {
     "objectID": "balances/material/Vid47AReactorExamplesVisuals.html#chem.-reactor-example",
