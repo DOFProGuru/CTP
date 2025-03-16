@@ -1,0 +1,150 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Thermodynamic Property Tables </br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Gibbs Phase Rule
+
+* $\ \ \ \boxed{DF\ =\ 2+c - \Pi}$ 
+
+ 1. A Degree of Freedom, DF, is a coordinate or variable.
+ 2. A Component, $c$, is a chemical species, e.g. $\mathrm{Al_2O_3}$.
+ 3. A Phase, ∏, is a physical entity with a uniform composition, temperature, pressure and specific volume.
+ 4. For a single component system with one phase $\\ \text{DF} = 2 + 1 – 1 = 2$.
+ 5. For a single component system with two phases $\\ \text{DF} = 2 + 1 – 2 = 1$.
+
+## 
+
+{image}
+
+## 
+
+{image}
+
+##
+
+{image}
+
+## 
+
+{image}
+
+##
+
+{image}
+
+## In the single-phase region (superheated steam)
+
+* $DF = 2$
+
+* Must specify two properties to define the thermodynamic state
+
+* e.g. What is the specific volume of steam at $5$ bar and $\ \ \ $ $300$ °C?
+
+{image}
+
+## In the single-phase region (superheated steam)
+
+e.g. What is the temperature of steam with a specific volume of
+$0.500$ $\dfrac{\textrm{m}^3}{\textrm{kg}}$ at $5$ bar?
+
+{image}
+
+$\\$
+
+$\\$
+
+$\\$
+
+$\\$
+
+$\\$
+
+$\dfrac{T - 250}{0.500 - 0.474}\ =\ \dfrac{300 - 250}{0.522-0.474} \hspace{20pt} \Rightarrow T = 277.1 ^{\circ} \mathrm{C}$
+
+## In the two-phase region (saturated steam and water)
+
+* $DF = 1$
+
+* Have two phases (water and steam) in equilibrium.
+
+* e.g. What is the temperature, and what are the specific enthalpies
+of saturated water and saturated steam at $4.0$ bar?
+
+{image}
+
+## In the two-phase region (saturated steam and water)
+
+ We know the properties of the two phases.
+
+
+ What is the property of the overall mixture?
+ 
+
+ Define the quality.
+ 
+ $\\$
+
+ $x = \dfrac{\text{m}_{steam}}{\text{m}_{steam} + \text{m}_{water}} = \dfrac{\text{m}_{steam}}{\text{m}_{total}}$
+ 
+ $\\$
+
+ What is the pressure and specific internal energy of a mixture of steam and water at $88 °C$ and a quality of $80$%?
+ 
+ $\\$
+
+ What is the quality of a mixture of steam and water at $0.6495$ bar, and a specific enthalpy of $2000\  \textrm{kJ/kg}$?
+
+## 
+
+What is the pressure and specific internal energy of a mixture of steam and water at $88 °C$ and a quality of $80$%?
+
+$\\$
+
+{image}
+
+$\\$
+
+$P\ =\ 0.6495$ bar
+
+
+$\hspace{10pt}$ $\hat{U}_{\text{mix}} = x\hat{U}_{\text{v}}\ +\ (1-x)\hat{U_{\text{l}}} = 0.8\ \cdot 2491 + 0.2\ \cdot 368.4 = 2066.5\ \textrm{kJ/kg}$
+
+##
+
+What is the quality of a mixture of steam and water at $0.6495$ bar, and a specific enthalpy of $2000\  \textrm{kJ/kg}$?
+
+{image}
+
+$\hat{H}_{\text{mix}} = x\hat{H}_{\text{v}}\ +\ (1-x)\hat{H_{\text{l}}} = x(\hat{H}_{\text{v}} - \hat{H}_{\text{l}}) + \hat{H}_{\text{l}} = x\Delta \hat{H}_{\text{lv}} + \hat{H}_{\text{l}}$
+
+$\\$
+
+$x = \dfrac{\hat{H}_{\text{mix}} - \hat{H}_{\text{l}}}{\hat{H}_{\text{v}} - \hat{H}_{\text{l}}} = \dfrac{2000 - 368.5}{2656 - 368.5} = 0.713 = 71.3$%
+
+$\\$
+
+$x = \dfrac{\hat{H}_{\text{mix}} - \hat{H}_{\text{l}}}{\Delta\hat{H}_{\text{lv}}} = \dfrac{2000 - 368.5}{2288} = 0.713 = 71.3$%
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
