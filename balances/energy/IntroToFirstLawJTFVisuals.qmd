@@ -1,0 +1,247 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# An Introduction to The First Law of Thermodynamics </br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+##
+
+$\textit{Energy cannot be created or destroyed; it can only change form.}$
+
+$\\$
+
+ The First Law is the General Balance Equation applied to energy.
+ <center>Input + Generation = Output + Consumption + Accumulation</center>
+ </br> 
+ Because energy cannot be created or destroyed, the generation and consumption terms must both be 0.
+ <center>Input = Output + Accumulation</center>
+ </br> 
+ To determine the inputs, outputs and accumulation, we need to enumerate the most common forms of energy.
+
+## 
+ 
+ For using the First Law in calculations, you must first define your system, and in particular your system boundary.
+
+ $\hspace{1pt}$
+
+ Work, $W$, is performed by a force acting through a distance. In differential form (thanks to the chemists):
+ <center> $-dW\ =\ Fdx$ </center>
+ </br>
+ For closed systems, work is energy crossing the system boundary due to deformation of the boundary.
+
+ $\hspace{1pt}$
+
+ If there is a pressure, P, being exerted on the system by its surroundings over an area, A, and the area is displaced by a distance, dx, then we have:
+
+## 
+
+<center> $$PA = F, \hspace{3pt} -dW\ =\ Fdx\ =\ PAdx\ =\ P(Adx)\ =\ PdV$$ </center>
+ 
+$\hspace{1pt}$
+
+or in integrated form
+
+<center> $W\ =\ - \int P\ dV$ </center>
+
+$\hspace{1pt}$
+
+Next is heat, $Q$, which is energy crossing the system boundary due to a temperature difference.
+
+##
+
+Thermodynamics was developed by engineers to describe heat engines (things that convert heat to work). They desired to put heat in and get work out, so historically, heat into a system was positive, and work out of a system was positive. Unfortunately, this concept was too confusing to the chemists. Therefore almost all chemical engineering texts now define heat or work $\textit{into}$ a system as $\textit{positive}$, and heat or work $\textit{out}$ of a system as $\textit{negative}$. Watch out when using Mechanical Engineering tests, since they have largely not made the switch.
+
+##
+
+Energy may be stored in things as
+
+ * Position in a conservative field (potential energy, $E_p = mgz$)
+ * Velocity in a reference frame (kinetic energy, $E_k = mu^2/2$)
+ * Microscopic vibrations, oscillations etc. (internal energy, $U$).
+
+$\hspace{11pt}$
+
+Note that for all of these energy forms, the value is relative to some $0$ reference.
+
+##
+
+For a closed system the First Law can be written in differential form as
+
+<center> $dU + dE_p + dE_k = dQ + dW$ </center>
+
+$\hspace{11pt}$
+
+or in integrated form as
+
+<center> $\Delta U + \Delta E_p + \Delta E_k = Q + W$ </center>
+
+$\hspace{11pt}$
+
+Much of the work in a First Law problem is deciding which terms are zero or insignificant.
+
+## Intensive and Extensive Properties
+
+A property of a substance that $\textit{does not}$ depend on the mass or moles of a substance is an $\textit{intensive}$ property (such as temperature, pressure, or composition).
+
+A property of a substance that $\textit{does}$ depend on the mass or moles of a substance is an $\textit{extensive}$ property (such as volume, kinetic energy, or internal energy).
+
+It is quite frequently useful to define an intensive property that is related to an extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume or specific internal energy,
+
+<center> $\hat{V} = \dfrac{V}{m} \text{, } \hat{U} = \dfrac{U}{m}$ </center>
+
+## Enthalpy (pronounced en-THAL-pee)
+
+$\hspace{1mm}$
+
+$\textit{Enthalpy}, H$, is a defined quantity that is quite useful in simplifying formulas. It is defined as
+
+<center> $H \equiv U + PV$ </center>
+
+or in specific properties as
+
+<center> $\hat{H} \equiv \hat{U} + P\hat{V}$ </center>
+
+$\hspace{1mm}$
+
+One example where enthalpy is useful is where a closed system doesn’t change velocity or position and is maintained at constant pressure (like in a beaker in a laboratory).
+
+## 
+
+Under these conditions the First Law simplifies from
+
+<center> $\Delta U + \Delta E_p + \Delta E_k = Q + W$ </center>
+
+to
+
+<center>$\Delta U = U_{final} - U_{initial} = Q + W = Q - \int\limits_{initial}^{final} PdV = Q - P \int\limits_{initial}^{final} dV$ </center>
+
+$\hspace{1mm}$
+
+<center>$U_{final} - U_{initial} = Q-P(V_{final} - V_{initial})$</center>
+
+$\hspace{1mm}$
+
+<center>$(U_{final} - PV_{final}) - (U_{initial} - PV_{initial}) = Q$</center>
+
+$\hspace{1mm}$
+
+<center>$\Delta H = Q$</center>
+
+
+##
+
+For an $\textbf{open steady-state system}$, all of the quantities are
+expressed as rates (with the dot).
+
+<center> $\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}$ </center>
+
+$\hspace{10pt}$
+
+The work is normally divided up into:
+
+ * $\textit{shaft}$ work, work done by or on a shaft crossing the system boundary, such as to a turbine (electricity counts),
+ * $\textit{flow}$ work, work done on or by the system to push the flowing fluid into or out of the system.
+
+ <center> $\hat{W} = \hat{W}_s + \hat{W}_{fl}$ </center>
+
+ <center> $\hat{W}_{fl} = - \sum_{outputs} P_i\dot{V}_i + \sum_{outputs} P_j\dot{V}_j$ </center>
+
+## 
+
+If one starts with the first law for an open steady-state system,
+
+<center> $\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}$ </center>
+
+$\hspace{10pt}$
+
+and separates the work into shaft work and flow work, and combines the flow work with the internal energy, one arrives at
+
+<center> $\Delta \dot{H} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}_s$ </center>
+
+$\hspace{10pt}$
+
+which is the normal version of the first law for an open steady-state system.
+
+$\hspace{10pt}$
+
+$\textbf{Remember}$ $\Delta$ means $\textit{final – initial}$ for closed systems and $\textit{out – in}$ for open systems. If you have multiple streams, you must sum over all of the streams.
+
+## 
+
+For an open transient system, the first law is 
+
+<center> ${\tiny (\frac{d}{dt} U + E_k + E_p)_{\text{control volume}} = \left( \sum \dot{Q}_i + \sum \dot{W}_i - \Delta H + \Delta \dot{E}_k + \Delta \dot{E}_p \right)_{\text{flow streams}}}$ </center>
+
+$\hspace{10pt}$
+
+which on a mass basis is
+
+<center> ${\tiny \frac{d}{dt} m \left( \hat{U} + \hat{E}_k + \hat{E}_p \right)_{\text{c.v.}} =
+\sum \dot{Q}_i + \sum \dot{W}_i +
+\sum \dot{m}_i \left( \hat{H} + \hat{E}_k + \hat{E}_p \right)_{\text{in}}
+- \sum \dot{m}_i \left( \hat{H} + \hat{E}_k + \hat{E}_p \right)_{\text{out}}}$ </center>
+
+$\hspace{10pt}$
+
+or on a mole basis is
+
+<center> ${\tiny \frac{d}{dt} n \left( \hat{U} + \hat{E}_k + \hat{E}_p \right)_{\text{c.v.}} =
+\sum \dot{Q}_i + \sum \dot{W}_i +
+\sum \dot{n}_i \left( \hat{H} + \hat{E}_k + \hat{E}_p \right)_{\text{in}}
+- \sum \dot{n}_i \left( \hat{H} + \hat{E}_k + \hat{E}_p \right)_{\text{out}}}$ </center>
+
+## Simplifications
+
+These simplifications are exact, there is no approximation involved.
+
+ * No change in elevation, then $\Delta E_p = 0$
+ * No change in velocity, then $\Delta E_k = 0$
+ * Adiabatic or insulated, then $Q = 0$
+ * Volume remains constant, closed system, then $W = 0$
+ * No shafts cross boundary e.g., from a turbine, compressor, or pump, open system, then $\hat{W}_s = 0$
+ * Ideal gas, no chemical reaction, $T$ = const., then $\Delta U = 0$, $\Delta H = 0$
+
+## Approximations
+
+These approximations are usually pretty good, but recognize that they are approximations.
+
+ * Evaporation, Condensation, Chemical Reaction, Large Temperature Changes, then $\Delta E_k \approx 0$, $\Delta E_p \approx 0$, $W \approx 0$
+ * Solid or liquid, no chemical reaction, $T$ = constant, $\Delta P =$ small, then $\Delta U = 0$, $\Delta H = 0$
+
+##
+
+$\textbf{Remember:}$ $\Delta$ means $\textit{final - initial}$ or $\textit{out - in}$
+
+$\hspace{1pt}$
+
+$\textbf{State Variable:}$ Value depends only on location or “$\textit{state}$.” Does not depend on path.
+
+$\hspace{3pt}$ Common State Variables: $H, T, U, V, m$, etc.
+
+$\hspace{1pt}$
+
+$\textbf{Path Variable:}$ Value depends only on path. Does not depend on location
+
+$\hspace{3pt}$ Common Path Variables: $Q, W$.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
