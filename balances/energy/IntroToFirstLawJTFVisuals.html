@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
-  <title>Chemical and Thermal Processes – thermodynamicpropertytablesjtfvisuals</title>
+  <title>Chemical and Thermal Processes – introtofirstlawjtfvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,107 +127,216 @@
 
 
 <section>
-<section id="thermodynamic-property-tables-just-the-facts" class="title-slide slide level1 bigbold75 center">
-<h1>Thermodynamic Property Tables <br>Just the Facts</h1>
+<section id="an-introduction-to-the-first-law-of-thermodynamics-just-the-facts" class="title-slide slide level1 bigbold75 center">
+<h1>An Introduction to The First Law of Thermodynamics <br>Just the Facts</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
-<section id="gibbs-phase-rule" class="slide level2">
-<h2>Gibbs Phase Rule</h2>
-<ul>
-<li class="fragment"><span class="math inline">\(\ \ \ \boxed{DF\ =\ 2+c - \Pi}\)</span></li>
-</ul>
-<ol type="1">
-<li class="fragment">A Degree of Freedom, DF, is a coordinate or variable.</li>
-<li class="fragment">A Component, <span class="math inline">\(c\)</span>, is a chemical species, e.g.&nbsp;<span class="math inline">\(\mathrm{Al_2O_3}\)</span>.</li>
-<li class="fragment">A Phase, ∏, is a physical entity with a uniform composition, temperature, pressure and specific volume.</li>
-<li class="fragment">For a single component system with one phase <span class="math inline">\(\\ \text{DF} = 2 + 1 – 1 = 2\)</span>.</li>
-<li class="fragment">For a single component system with two phases <span class="math inline">\(\\ \text{DF} = 2 + 1 – 2 = 1\)</span>.</li>
-</ol>
-</section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p>{image}</p>
+<p><span class="math inline">\(\textit{Energy cannot be created or destroyed; it can only change form.}\)</span></p>
+<p><span class="math inline">\(\\\)</span></p>
+The First Law is the General Balance Equation applied to energy.
+<center>
+Input + Generation = Output + Consumption + Accumulation
+</center>
+<br> Because energy cannot be created or destroyed, the generation and consumption terms must both be 0.
+<center>
+Input = Output + Accumulation
+</center>
+<p><br> To determine the inputs, outputs and accumulation, we need to enumerate the most common forms of energy.</p>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<p>{image}</p>
+<p>For using the First Law in calculations, you must first define your system, and in particular your system boundary.</p>
+<p><span class="math inline">\(\hspace{1pt}\)</span></p>
+Work, <span class="math inline">\(W\)</span>, is performed by a force acting through a distance. In differential form (thanks to the chemists):
+<center>
+<span class="math inline">\(-dW\ =\ Fdx\)</span>
+</center>
+<p><br> For closed systems, work is energy crossing the system boundary due to deformation of the boundary.</p>
+<p><span class="math inline">\(\hspace{1pt}\)</span></p>
+<p>If there is a pressure, P, being exerted on the system by its surroundings over an area, A, and the area is displaced by a distance, dx, then we have:</p>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<p>{image}</p>
+<center>
+<span class="math display">\[PA = F, \hspace{3pt} -dW\ =\ Fdx\ =\ PAdx\ =\ P(Adx)\ =\ PdV\]</span>
+</center>
+<p><span class="math inline">\(\hspace{1pt}\)</span></p>
+<p>or in integrated form</p>
+<center>
+<span class="math inline">\(W\ =\ - \int P\ dV\)</span>
+</center>
+<p><span class="math inline">\(\hspace{1pt}\)</span></p>
+<p>Next is heat, <span class="math inline">\(Q\)</span>, which is energy crossing the system boundary due to a temperature difference.</p>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<p>{image}</p>
+<p>Thermodynamics was developed by engineers to describe heat engines (things that convert heat to work). They desired to put heat in and get work out, so historically, heat into a system was positive, and work out of a system was positive. Unfortunately, this concept was too confusing to the chemists. Therefore almost all chemical engineering texts now define heat or work <span class="math inline">\(\textit{into}\)</span> a system as <span class="math inline">\(\textit{positive}\)</span>, and heat or work <span class="math inline">\(\textit{out}\)</span> of a system as <span class="math inline">\(\textit{negative}\)</span>. Watch out when using Mechanical Engineering tests, since they have largely not made the switch.</p>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
-<p>{image}</p>
-</section>
-<section id="in-the-single-phase-region-superheated-steam" class="slide level2">
-<h2>In the single-phase region (superheated steam)</h2>
+<p>Energy may be stored in things as</p>
 <ul>
-<li class="fragment"><p><span class="math inline">\(DF = 2\)</span></p></li>
-<li class="fragment"><p>Must specify two properties to define the thermodynamic state</p></li>
-<li class="fragment"><p>e.g.&nbsp;What is the specific volume of steam at <span class="math inline">\(5\)</span> bar and <span class="math inline">\(\ \ \ \)</span> <span class="math inline">\(300\)</span> °C?</p></li>
+<li class="fragment">Position in a conservative field (potential energy, <span class="math inline">\(E_p = mgz\)</span>)</li>
+<li class="fragment">Velocity in a reference frame (kinetic energy, <span class="math inline">\(E_k = mu^2/2\)</span>)</li>
+<li class="fragment">Microscopic vibrations, oscillations etc. (internal energy, <span class="math inline">\(U\)</span>).</li>
 </ul>
-<p>{image}</p>
-</section>
-<section id="in-the-single-phase-region-superheated-steam-1" class="slide level2">
-<h2>In the single-phase region (superheated steam)</h2>
-<p>e.g.&nbsp;What is the temperature of steam with a specific volume of <span class="math inline">\(0.500\)</span> <span class="math inline">\(\dfrac{\textrm{m}^3}{\textrm{kg}}\)</span> at <span class="math inline">\(5\)</span> bar?</p>
-<p>{image}</p>
-<p><span class="math inline">\(\\\)</span></p>
-<p><span class="math inline">\(\\\)</span></p>
-<p><span class="math inline">\(\\\)</span></p>
-<p><span class="math inline">\(\\\)</span></p>
-<p><span class="math inline">\(\\\)</span></p>
-<p><span class="math inline">\(\dfrac{T - 250}{0.500 - 0.474}\ =\ \dfrac{300 - 250}{0.522-0.474} \hspace{20pt} \Rightarrow T = 277.1 ^{\circ} \mathrm{C}\)</span></p>
-</section>
-<section id="in-the-two-phase-region-saturated-steam-and-water" class="slide level2">
-<h2>In the two-phase region (saturated steam and water)</h2>
-<ul>
-<li class="fragment"><p><span class="math inline">\(DF = 1\)</span></p></li>
-<li class="fragment"><p>Have two phases (water and steam) in equilibrium.</p></li>
-<li class="fragment"><p>e.g.&nbsp;What is the temperature, and what are the specific enthalpies of saturated water and saturated steam at <span class="math inline">\(4.0\)</span> bar?</p></li>
-</ul>
-<p>{image}</p>
-</section>
-<section id="in-the-two-phase-region-saturated-steam-and-water-1" class="slide level2">
-<h2>In the two-phase region (saturated steam and water)</h2>
-<p>We know the properties of the two phases.</p>
-<p>What is the property of the overall mixture?</p>
-<p>Define the quality.</p>
-<p><span class="math inline">\(\\\)</span></p>
-<p><span class="math inline">\(x = \dfrac{\text{m}_{steam}}{\text{m}_{steam} + \text{m}_{water}} = \dfrac{\text{m}_{steam}}{\text{m}_{total}}\)</span></p>
-<p><span class="math inline">\(\\\)</span></p>
-<p>What is the pressure and specific internal energy of a mixture of steam and water at <span class="math inline">\(88 °C\)</span> and a quality of <span class="math inline">\(80\)</span>%?</p>
-<p><span class="math inline">\(\\\)</span></p>
-<p>What is the quality of a mixture of steam and water at <span class="math inline">\(0.6495\)</span> bar, and a specific enthalpy of <span class="math inline">\(2000\  \textrm{kJ/kg}\)</span>?</p>
+<p><span class="math inline">\(\hspace{11pt}\)</span></p>
+<p>Note that for all of these energy forms, the value is relative to some <span class="math inline">\(0\)</span> reference.</p>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
-<p>What is the pressure and specific internal energy of a mixture of steam and water at <span class="math inline">\(88 °C\)</span> and a quality of <span class="math inline">\(80\)</span>%?</p>
-<p><span class="math inline">\(\\\)</span></p>
-<p>{image}</p>
-<p><span class="math inline">\(\\\)</span></p>
-<p><span class="math inline">\(P\ =\ 0.6495\)</span> bar</p>
-<p><span class="math inline">\(\hspace{10pt}\)</span> <span class="math inline">\(\hat{U}_{\text{mix}} = x\hat{U}_{\text{v}}\ +\ (1-x)\hat{U_{\text{l}}} = 0.8\ \cdot 2491 + 0.2\ \cdot 368.4 = 2066.5\ \textrm{kJ/kg}\)</span></p>
+<p>For a closed system the First Law can be written in differential form as</p>
+<center>
+<span class="math inline">\(dU + dE_p + dE_k = dQ + dW\)</span>
+</center>
+<p><span class="math inline">\(\hspace{11pt}\)</span></p>
+<p>or in integrated form as</p>
+<center>
+<span class="math inline">\(\Delta U + \Delta E_p + \Delta E_k = Q + W\)</span>
+</center>
+<p><span class="math inline">\(\hspace{11pt}\)</span></p>
+<p>Much of the work in a First Law problem is deciding which terms are zero or insignificant.</p>
+</section>
+<section id="intensive-and-extensive-properties" class="slide level2">
+<h2>Intensive and Extensive Properties</h2>
+<p>A property of a substance that <span class="math inline">\(\textit{does not}\)</span> depend on the mass or moles of a substance is an <span class="math inline">\(\textit{intensive}\)</span> property (such as temperature, pressure, or composition).</p>
+<p>A property of a substance that <span class="math inline">\(\textit{does}\)</span> depend on the mass or moles of a substance is an <span class="math inline">\(\textit{extensive}\)</span> property (such as volume, kinetic energy, or internal energy).</p>
+<p>It is quite frequently useful to define an intensive property that is related to an extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume or specific internal energy,</p>
+<center>
+<span class="math inline">\(\hat{V} = \dfrac{V}{m} \text{, } \hat{U} = \dfrac{U}{m}\)</span>
+</center>
+</section>
+<section id="enthalpy-pronounced-en-thal-pee" class="slide level2">
+<h2>Enthalpy (pronounced en-THAL-pee)</h2>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<p><span class="math inline">\(\textit{Enthalpy}, H\)</span>, is a defined quantity that is quite useful in simplifying formulas. It is defined as</p>
+<center>
+<span class="math inline">\(H \equiv U + PV\)</span>
+</center>
+<p>or in specific properties as</p>
+<center>
+<span class="math inline">\(\hat{H} \equiv \hat{U} + P\hat{V}\)</span>
+</center>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<p>One example where enthalpy is useful is where a closed system doesn’t change velocity or position and is maintained at constant pressure (like in a beaker in a laboratory).</p>
 </section>
 <section id="section-6" class="slide level2">
 <h2></h2>
-<p>What is the quality of a mixture of steam and water at <span class="math inline">\(0.6495\)</span> bar, and a specific enthalpy of <span class="math inline">\(2000\  \textrm{kJ/kg}\)</span>?</p>
-<p>{image}</p>
-<p><span class="math inline">\(\hat{H}_{\text{mix}} = x\hat{H}_{\text{v}}\ +\ (1-x)\hat{H_{\text{l}}} = x(\hat{H}_{\text{v}} - \hat{H}_{\text{l}}) + \hat{H}_{\text{l}} = x\Delta \hat{H}_{\text{lv}} + \hat{H}_{\text{l}}\)</span></p>
-<p><span class="math inline">\(\\\)</span></p>
-<p><span class="math inline">\(x = \dfrac{\hat{H}_{\text{mix}} - \hat{H}_{\text{l}}}{\hat{H}_{\text{v}} - \hat{H}_{\text{l}}} = \dfrac{2000 - 368.5}{2656 - 368.5} = 0.713 = 71.3\)</span>%</p>
-<p><span class="math inline">\(\\\)</span></p>
-<p><span class="math inline">\(x = \dfrac{\hat{H}_{\text{mix}} - \hat{H}_{\text{l}}}{\Delta\hat{H}_{\text{lv}}} = \dfrac{2000 - 368.5}{2288} = 0.713 = 71.3\)</span>%</p>
+<p>Under these conditions the First Law simplifies from</p>
+<center>
+<span class="math inline">\(\Delta U + \Delta E_p + \Delta E_k = Q + W\)</span>
+</center>
+<p>to</p>
+<center>
+<span class="math inline">\(\Delta U = U_{final} - U_{initial} = Q + W = Q - \int\limits_{initial}^{final} PdV = Q - P \int\limits_{initial}^{final} dV\)</span>
+</center>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<center>
+<span class="math inline">\(U_{final} - U_{initial} = Q-P(V_{final} - V_{initial})\)</span>
+</center>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<center>
+<span class="math inline">\((U_{final} - PV_{final}) - (U_{initial} - PV_{initial}) = Q\)</span>
+</center>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<center>
+<span class="math inline">\(\Delta H = Q\)</span>
+</center>
+</section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+<p>For an <span class="math inline">\(\textbf{open steady-state system}\)</span>, all of the quantities are expressed as rates (with the dot).</p>
+<center>
+<span class="math inline">\(\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}\)</span>
+</center>
+<p><span class="math inline">\(\hspace{10pt}\)</span></p>
+<p>The work is normally divided up into:</p>
+<ul>
+<li class="fragment"><span class="math inline">\(\textit{shaft}\)</span> work, work done by or on a shaft crossing the system boundary, such as to a turbine (electricity counts),</li>
+<li class="fragment"><span class="math inline">\(\textit{flow}\)</span> work, work done on or by the system to push the flowing fluid into or out of the system.</li>
+</ul>
+<center>
+<span class="math inline">\(\hat{W} = \hat{W}_s + \hat{W}_{fl}\)</span>
+</center>
+<center>
+<span class="math inline">\(\hat{W}_{fl} = - \sum_{outputs} P_i\dot{V}_i + \sum_{outputs} P_j\dot{V}_j\)</span>
+</center>
+</section>
+<section id="section-8" class="slide level2">
+<h2></h2>
+<p>If one starts with the first law for an open steady-state system,</p>
+<center>
+<span class="math inline">\(\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}\)</span>
+</center>
+<p><span class="math inline">\(\hspace{10pt}\)</span></p>
+<p>and separates the work into shaft work and flow work, and combines the flow work with the internal energy, one arrives at</p>
+<center>
+<span class="math inline">\(\Delta \dot{H} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}_s\)</span>
+</center>
+<p><span class="math inline">\(\hspace{10pt}\)</span></p>
+<p>which is the normal version of the first law for an open steady-state system.</p>
+<p><span class="math inline">\(\hspace{10pt}\)</span></p>
+<p><span class="math inline">\(\textbf{Remember}\)</span> <span class="math inline">\(\Delta\)</span> means <span class="math inline">\(\textit{final – initial}\)</span> for closed systems and <span class="math inline">\(\textit{out – in}\)</span> for open systems. If you have multiple streams, you must sum over all of the streams.</p>
+</section>
+<section id="section-9" class="slide level2">
+<h2></h2>
+<p>For an open transient system, the first law is</p>
+<center>
+<span class="math inline">\({\tiny (\frac{d}{dt} U + E_k + E_p)_{\text{control volume}} = \left( \sum \dot{Q}_i + \sum \dot{W}_i - \Delta H + \Delta \dot{E}_k + \Delta \dot{E}_p \right)_{\text{flow streams}}}\)</span>
+</center>
+<p><span class="math inline">\(\hspace{10pt}\)</span></p>
+<p>which on a mass basis is</p>
+<center>
+<span class="math inline">\({\tiny \frac{d}{dt} m \left( \hat{U} + \hat{E}_k + \hat{E}_p \right)_{\text{c.v.}} =
+\sum \dot{Q}_i + \sum \dot{W}_i +
+\sum \dot{m}_i \left( \hat{H} + \hat{E}_k + \hat{E}_p \right)_{\text{in}}
+- \sum \dot{m}_i \left( \hat{H} + \hat{E}_k + \hat{E}_p \right)_{\text{out}}}\)</span>
+</center>
+<p><span class="math inline">\(\hspace{10pt}\)</span></p>
+<p>or on a mole basis is</p>
+<center>
+<span class="math inline">\({\tiny \frac{d}{dt} n \left( \hat{U} + \hat{E}_k + \hat{E}_p \right)_{\text{c.v.}} =
+\sum \dot{Q}_i + \sum \dot{W}_i +
+\sum \dot{n}_i \left( \hat{H} + \hat{E}_k + \hat{E}_p \right)_{\text{in}}
+- \sum \dot{n}_i \left( \hat{H} + \hat{E}_k + \hat{E}_p \right)_{\text{out}}}\)</span>
+</center>
+</section>
+<section id="simplifications" class="slide level2">
+<h2>Simplifications</h2>
+<p>These simplifications are exact, there is no approximation involved.</p>
+<ul>
+<li class="fragment">No change in elevation, then <span class="math inline">\(\Delta E_p = 0\)</span></li>
+<li class="fragment">No change in velocity, then <span class="math inline">\(\Delta E_k = 0\)</span></li>
+<li class="fragment">Adiabatic or insulated, then <span class="math inline">\(Q = 0\)</span></li>
+<li class="fragment">Volume remains constant, closed system, then <span class="math inline">\(W = 0\)</span></li>
+<li class="fragment">No shafts cross boundary e.g., from a turbine, compressor, or pump, open system, then <span class="math inline">\(\hat{W}_s = 0\)</span></li>
+<li class="fragment">Ideal gas, no chemical reaction, <span class="math inline">\(T\)</span> = const., then <span class="math inline">\(\Delta U = 0\)</span>, <span class="math inline">\(\Delta H = 0\)</span></li>
+</ul>
+</section>
+<section id="approximations" class="slide level2">
+<h2>Approximations</h2>
+<p>These approximations are usually pretty good, but recognize that they are approximations.</p>
+<ul>
+<li class="fragment">Evaporation, Condensation, Chemical Reaction, Large Temperature Changes, then <span class="math inline">\(\Delta E_k \approx 0\)</span>, <span class="math inline">\(\Delta E_p \approx 0\)</span>, <span class="math inline">\(W \approx 0\)</span></li>
+<li class="fragment">Solid or liquid, no chemical reaction, <span class="math inline">\(T\)</span> = constant, <span class="math inline">\(\Delta P =\)</span> small, then <span class="math inline">\(\Delta U = 0\)</span>, <span class="math inline">\(\Delta H = 0\)</span></li>
+</ul>
+</section>
+<section id="section-10" class="slide level2">
+<h2></h2>
+<p><span class="math inline">\(\textbf{Remember:}\)</span> <span class="math inline">\(\Delta\)</span> means <span class="math inline">\(\textit{final - initial}\)</span> or <span class="math inline">\(\textit{out - in}\)</span></p>
+<p><span class="math inline">\(\hspace{1pt}\)</span></p>
+<p><span class="math inline">\(\textbf{State Variable:}\)</span> Value depends only on location or “<span class="math inline">\(\textit{state}\)</span>.” Does not depend on path.</p>
+<p><span class="math inline">\(\hspace{3pt}\)</span> Common State Variables: <span class="math inline">\(H, T, U, V, m\)</span>, etc.</p>
+<p><span class="math inline">\(\hspace{1pt}\)</span></p>
+<p><span class="math inline">\(\textbf{Path Variable:}\)</span> Value depends only on path. Does not depend on location</p>
+<p><span class="math inline">\(\hspace{3pt}\)</span> Common Path Variables: <span class="math inline">\(Q, W\)</span>.</p>
 </section></section>
-<section id="section-7" class="title-slide slide level1 center">
+<section id="section-11" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
