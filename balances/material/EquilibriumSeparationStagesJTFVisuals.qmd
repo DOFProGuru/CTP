@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Equilibrium Separation Stages
+# The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 1
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -19,59 +19,571 @@ DOFPro Team
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
 
 
-## Mole Balance in General
+## <!-- Mole Balance in General -->
 
- ${\dot{n}_{k+1}}^1 + {\dot{n}_{k-1}}^2 = {\dot{n}_{k}}^1 + {\dot{n}_{k}}^2 = \dot{n}_{tot}$ 
+![](StageK.png){.absolute top=10% left=-2% width=40%}
 
- ${\dot{x}_i}{\dot{n}_{k+1}}^1 + {\dot{y}_i}{\dot{n}_{k-1}}^2 = {\dot{x}_i}{\dot{n}_{k}}^1 + {\dot{y}_i}{\dot{n}_{k}}^2$ $
+:::{.fragment .absolute top=70% left=8.5%}
+$\dot{n}_{k-1}^2$
+:::
 
- $z_{i,k} = \dfrac{{\dot{x}_i}{\dot{n}_{k+1}}^1 + {\dot{y}_i}{\dot{n}_{k-1}}^2}{{\dot{n}_{k+1}}^1 + {\dot{n}_{k-1}}^2} = \dfrac{{\dot{x}_i}{\dot{n}_{k}}^1 + {\dot{y}_i}{\dot{n}_{k}}^2}{{\dot{n}_{k}}^1 + {\dot{n}_{k}}^2}$ 
+:::{.fragment .absolute top=18% left=29.5%}
+$\dot{n}_{k+1}^1$
+:::
 
- $\dfrac{\dot{n}_{k}^1}{{\dot{n}_{k}}} = \dfrac{\dot{n}_{k}^1}{\dot{n}_{k}^1 + \dot{n}_{k}^2}$ $\hspace{5mm}$ $\dfrac{\dot{n}_{k}^2}{{\dot{n}_{k k}}} = \dfrac{\dot{n}_{k}^2}{\dot{n}_{k}^1 + \dot{n}_{k}^2}$
+:::{.fragment .absolute top=18% left=8.5%}
+$\dot{n}_{k}^2$
+:::
 
- Phase Equilibria
+:::{.fragment .absolute top=70% left=29.5%}
+$\dot{n}_{k}^1$
+:::
 
- Phase Diagrams $\hspace{2mm}$ All at $T_k$, $P_k$
+:::{.fragment .absolute top=45% left=12.5%}
+$T_k,\ P_k$
+:::
 
- Raoult's law $y_{i,k}P_k = x_{i,k}p_{i,k}^*$
+::::{.columns}
+:::{.column width=40%}
+:::
 
- {image}
+:::{.column width=55%}
 
-## Mole Balance Distillation
+::: {.fragment style="text-align: center;"}
+**Mole Balance in General**
+:::
+
+::: {.fragment style="font-size: 80px;"}
+<br/>
+ $\dot{n}_{k+1}^1 + \dot{n}_{k-1}^2 = \dot{n}_{k}^1 + \dot{n}_{k}^2 = \dot{n}_\mathrm{tot}$ 
+:::
+
+::: {.fragment style="font-size: 80px;"}
+<br/>
+ $x_{i,k+1}\dot{n}_{k+1}^1 + y_{i,k-1}\dot{n}_{k-1}^2 = x_{i,k}\dot{n}_{k}^1 + y_{i,k}\dot{n}_{k}^2$
+:::
+
+::: {.fragment style="font-size: 72px;"}
+<br/>
+ $z_{i,k} = \dfrac{{x_{i,k+1}}\dot{n}_{k+1}^1 + {y_{i,k-1}}\dot{n}_{k-1}^2}{(\dot{n}_{k+1}^1 + \dot{n}_{k-1}^2)\text{ or }\dot{n}_\mathrm{tot}} = \dfrac{{x_{i,k}}\dot{n}_{k}^1 + {y_{i,k}}\dot{n}_{k}^2}{(\dot{n}_{k}^1 + \dot{n}_{k}^2)\text{ or }\dot{n}_\mathrm{tot}}$ 
+:::
+
+::: {.fragment style="font-size: 80px;"}
+<br/>
+ $\dfrac{\dot{n}_{k}^1}{{\dot{n}_\mathrm{tot}}} = \dfrac{\dot{n}_{k}^1}{\dot{n}_{k}^1 + \dot{n}_{k}^2}, \hspace{30mm}\dfrac{\dot{n}_{k}^2}{{\dot{n}_\mathrm{tot}}} = \dfrac{\dot{n}_{k}^2}{\dot{n}_{k}^1 + \dot{n}_{k}^2}$
+:::
+
+::: {.fragment style="text-align: center;"}
+<br/>
+**Phase Equilibria**
+:::
+
+:::{.fragment }
+<br/>
+Phase Diagrams $\hspace{30mm}$ All at $T_k$, $P_k$
+:::
+
+:::{.fragment }
+<br/>
+Raoult's law $y_{i,k}P_k = x_{i,k}p_{i,k}^*$
+:::
+
+:::
+::::
+
+## <!-- Mole Balance Distillation Stage -->
+
+![](StageK.png){.absolute top=10% left=-2% width=40%}
+
+:::{.fragment .absolute top=70% left=8.5%}
+$\dot{n}_{k-1}^v$
+:::
+
+:::{.fragment .absolute top=18% left=29.5%}
+$\dot{n}_{k+1}^l$
+:::
+
+:::{.fragment .absolute top=18% left=8.5%}
+$\dot{n}_{k}^v$
+:::
+
+:::{.fragment .absolute top=70% left=29.5%}
+$\dot{n}_{k}^l$
+:::
+
+:::{.fragment .absolute top=45% left=12.5%}
+$T_k,\ P_k$
+:::
+
+::::{.columns}
+:::{.column width=40%}
+:::
+
+:::{.column width=55%}
+
+::: {.fragment style="text-align: center;"}
+**Mole Balance for Distillation**
+:::
+
+::: {.fragment style="font-size: 80px;"}
+<br/>
+ $\dot{n}_{k+1}^l + \dot{n}_{k-1}^v = \dot{n}_{k}^l + \dot{n}_{k}^v = \dot{n}_\mathrm{tot}$ 
+:::
+
+::: {.fragment style="font-size: 80px;"}
+<br/>
+ $x_{i,k+1}\dot{n}_{k+1}^l + y_{i,k-1}\dot{n}_{k-1}^v = x_{i,k}\dot{n}_{k}^l + y_{i,k}\dot{n}_{k}^v$
+:::
+
+::: {.fragment style="font-size: 72px;"}
+<br/>
+ $z_{i,k} = \dfrac{{x_{i,k+1}}\dot{n}_{k+1}^l + {y_{i,k-1}}\dot{n}_{k-1}^v}{(\dot{n}_{k+1}^l + \dot{n}_{k-1}^v)\text{ or }\dot{n}_\mathrm{tot}} = \dfrac{{x_{i,k}}\dot{n}_{k}^l + {y_{i,k}}\dot{n}_{k}^v}{(\dot{n}_{k}^l + \dot{n}_{k}^v)\text{ or }\dot{n}_\mathrm{tot}}$ 
+:::
+
+::: {.fragment style="font-size: 80px;"}
+<br/>
+ $\mathcal{L}_k = \dfrac{\dot{n}_{k}^l}{{\dot{n}_\mathrm{tot}}}, \hspace{30mm} \mathcal{V} = \dfrac{\dot{n}_{k}^v}{{\dot{n}_\mathrm{tot}}}$
+:::
+
+::: {.fragment style="text-align: center;"}
+<br/>
+**Phase Equilibria**
+:::
+
+:::{.fragment }
+<br/>
+Phase Diagrams $\hspace{30mm}$ All at $T_k$, $P_k$
+:::
+
+:::{.fragment }
+<br/>
+Raoult's law $y_{i,k}P_k = x_{i,k}p_{i,k}^*$
+:::
+
+:::
+::::
 
 
-## The Lever Rule for Phase Diagrams
+## <!-- Types of Calculations -->
 
- 1. If </br> $n_o = n_α + n_β$
+![](StageK.png){.absolute top=0% left=-2% width=40%}
 
- 2. Then </br> $n_α l_1 = n_β l_2$ </br> $\dfrac{n_α}{n_o} = \dfrac{l_2}{l_3}$ </br> $\dfrac{n_β}{n_o} = \dfrac{l_1}{l_3}$
+:::{.absolute top=60% left=8.5%}
+$\dot{n}_{k-1}^v$
+:::
 
- {image}
+:::{.absolute top=8% left=29.5%}
+$\dot{n}_{k+1}^l$
+:::
 
-## For binary VLE mixtures, five types of calculations are usually performed:
+:::{.absolute top=8% left=8.5%}
+$\dot{n}_{k}^v$
+:::
 
- 1. BUBL P – Given all $x_i$’s and T, calculate P at which the first
-bubble forms, and $y_i$’s of the bubble.
- 2. BUBL T – Given all $x_i$’s and P, calculate T at which the first
-bubble forms, and $y_i$’s of the bubble.
- 3. DEW P – Given all $y_i$’s and T, calculate P at which the first
-droplet condenses, and $x_i$’s of the droplet.
- 4. DEW T – Given all $y_i$’s and P, calculate T at which the first
-droplet condenses, and $x_i$’s of the droplet.
- 5. FLASH – Given overall composition ($z_i$’s) and T and P, calculate
-$x_i$’s and $y_i$’s, and relative amounts of vapor, V, and liquid, L.
+:::{.absolute top=60% left=29.5%}
+$\dot{n}_{k}^l$
+:::
 
-## Graphical BUBL P, DEW P
+:::{.absolute top=35% left=12.5%}
+$T_k,\ P_k$
+:::
 
-{image}
+::::{.columns}
+:::{.column width=40%}
+:::
 
-## Graphical FLASH
+:::{.column width=55%}
 
-{image}
+::: {.fragment style="text-align: center;"}
+**Types of Calculations**
+:::
 
-## Graphical BUBL T, DEW T
+::: {style="font-size: 80px;"}
+ - Given $T_k$ and $x_{i,k}$, find $P_k$ and $y_{i,k}$. BUBL P
 
-{image}
+ - Given $P_k$ and $x_{i,k}$, find $T_k$ and $y_{i.k}$. BUBL T
+
+ - Given $T_k$ and $y_{i,k}$, find $P_k$ and $x_{i,k}$. DEW P
+
+ - Given $P_k$ and $y_{i,k}$, find $T_k$ and $x_{i,k}$. DEW T
+
+ - Given $T_k$, $P_k$, and $z_{i,k}$, find $\mathcal{L}_k$, $\mathcal{V}_k$,<br/>
+$x_{i,k}$, and $y_{i,k}$.<br/>FLASH
+:::
+:::
+::::
+
+## Examples
+
+1. Distillation Column – Binary Phase Diagram
+2. Distillation Column – Raoult's Law
+3. Liquid-Liquid Extraction – Ternary Phase Diagram
+
+## The Takeaways
+
+1. Equilibrium Separation Stages find common use in the chemical process industry.
+2. The mass balances are quite similar among the different types, and use the principles that have need explained in earlier videos.
+3. The principal differences are the means used to calculate the equilibrium compositions of the exiting streams.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+
+# The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+
+## Examples
+
+1. Distillation Column – Binary Phase Diagram – in Part 2
+2. Distillation Column – Raoult's Law – in Part 2
+3. Liquid-Liquid Extraction – Ternary Phase Diagram – in Part 3
+
+
+## <!-- Example: Distillation Phase Diagram -->
+
+![](StageK.png){.absolute top=0% left=-2% width=40%}
+
+:::{.absolute top=60% left=8.5%}
+$\dot{n}_{k-1}^v$
+:::
+
+:::{.absolute top=8% left=29.5%}
+$\dot{n}_{k+1}^l$
+:::
+
+:::{.absolute top=8% left=8.5%}
+$\dot{n}_{k}^v$
+:::
+
+:::{.absolute top=60% left=29.5%}
+$\dot{n}_{k}^l$
+:::
+
+:::{.absolute top=35% left=12.5%}
+$T_k,\ P_k$
+:::
+
+
+::::{.columns}
+:::{.column width=40%}
+:::
+
+:::{.column width=55%}
+
+:::{style="font-size: 85px;"}
+**Example:** Distillation Phase Diagram
+<br/><br/>
+
+An equilibrium stage in a distillation
+column for separating methanol from
+acetone has a liquid feed of 10.0% acetone
+at 180 mol/min and a vapor feed of 40.0%
+acetone at 180 mol/min. Measurements
+indicate that the stage is operating at a
+temperature of 326 K and a pressure of 75
+kPa. Calculate the compositions and flow
+rates of the exiting vapor and liquid
+streams. The phase diagram is given
+below.
+
+:::
+:::
+::::
+
+## <!-- Example: Distillation Phase Diagram (cont. 1) -->
+
+![](AcetoneMethanolTxy.png){.absolute top=0% left=0% width=100%}
+
+::: {.absolute top=13% left=25% style="font-size: 80px;"}
+ $\dot{n}_\mathrm{tot} = \dot{n}_{k+1}^l + \dot{n}_{k-1}^v = 180 + 180 = 360\ \mathrm{mol/min}$
+
+ $z_{i,k} = \dfrac{{x_{i,k+1}}\dot{n}_{k+1}^l + {y_{i,k-1}}\dot{n}_{k-1}^v}{\dot{n}_\mathrm{tot}} = \dfrac{{x_{i,k+1}} \mathbf{\cdot} 180 + {y_{i,k-1}}\mathbf{\cdot} 180}{360}$
+ $(i=\mathrm{A-acetone,\ M-methanol})$
+:::
+
+
+::: {.absolute top=40% left=45% style="font-size: 80px;"}
+ Lever Rule
+
+$\mathcal{L}_k = \dfrac{y_{\mathrm{A},k}-z_{\mathrm{A},k}}{y_{\mathrm{A},k}-x_{\mathrm{A},k}}$&nbsp;&nbsp;&nbsp;&nbsp; $\text{Need }y_{\mathrm{A},k},\ x_{\mathrm{A},k}$
+:::
+
+
+## <!-- Example: Distillation Phase Diagram (cont. 2) -->
+
+![](AcetoneMethanoTxyBlowUp.png)
+
+::: {.absolute top=30% left=58%}
+$y_{\mathrm{A},k}^v=0.285$
+:::
+
+::: {.absolute top=30% left=12%}
+$x_{\mathrm{A},k}^l=0.158$
+:::
+
+::: {.absolute top=20% left=45%}
+$z_{\mathrm{A},k}=0.250$
+:::
+
+$\mathcal{L}_k = \dfrac{y_{\mathrm{A},k}-z_{\mathrm{A},k}}{y_{\mathrm{A},k}-x_{\mathrm{A},k}} = \dfrac{0.285-0.25}{0.285-0.158} = 0.276$
+
+$\mathcal{V}_k = 1 - \mathcal{L}_k = 1 - 0.276 = 0.724$
+
+$\dot{n}_{k}^l = \mathcal{L}_k \mathbf{\cdot} \dot{n}_\mathrm{tot} = 0.276 \mathbf{\cdot} 360 = 99.2\ \mathrm{mol/min}$
+
+$\dot{n}_{k}^v = \mathcal{V}_k \mathbf{\cdot} \dot{n}_\mathrm{tot} = 0.000 \mathbf{\cdot} 360 = 260.8\ \mathrm{mol/min}$
+
+## <!-- Example: Distillation Phase Diagram (cont. 3) -->
+
+![](AcetoneMethanolStageTemp.png)
+
+## <!-- Example: Distillation Phase Diagram (cont. 4) -->
+
+![](AcetoneMethanolAdiabatic.png)
+
+## <!-- Example: Distillation Raoult's Law -->
+
+![](StageK.png){.absolute top=0% left=-2% width=40%}
+
+:::{.absolute top=60% left=8.5%}
+$\dot{n}_{k-1}^v$
+:::
+
+:::{.absolute top=8% left=29.5%}
+$\dot{n}_{k+1}^l$
+:::
+
+:::{.absolute top=8% left=8.5%}
+$\dot{n}_{k}^v$
+:::
+
+:::{.absolute top=60% left=29.5%}
+$\dot{n}_{k}^l$
+:::
+
+:::{.absolute top=35% left=12.5%}
+$T_k,\ P_k$
+:::
+
+::::{.columns}
+:::{.column width=40%}
+:::
+
+:::{.column width=55%}
+
+:::{style="font-size: 85px;"}
+**Example:** Distillation Raoult’s Law
+<br/><br/>
+
+An equilibrium stage in a distillation
+column for separating hexane from
+heptane and octane has a liquid feed of 45.0% hexane, 45.0% heptane, and the balance octane
+at 240 mol/min and a vapor product of
+45.0% hexane, 45.0% heptane and the balance octane at 180 mol/min and a
+pressure of 1.00 bar. Determine the
+operating temperature of the stage and
+the composition of the liquid product.
+What additional information would you
+need to determine the composition of the
+vapor feed and the flow rates of the liquid
+product and the vapor feed?
+
+:::
+:::
+::::
+
+## <!-- Solution: Distillation Raoult's Law -->
+
+**Solution**
+
+The exiting streams, (the $k$’s) are in equilibrium. We’re given the
+exiting vapor composition and the pressure, so the phase calculation
+is a DEW T.
+
+1. Guess a $T_\mathrm{guess}$.
+2. Calculate the $p^*$’s from the $T$.
+3. Calculate the $P_\mathrm{calc}$ as the reciprocal of the sum of the vapor mole
+fractions over the vapor pressures.
+4. Use Goal Seek to vary $T_\mathrm{guess}$ until $P = P_\mathrm{calc}$.
+5. Use Raoult’s law to calculate the exiting liquid composition.
+
+## <!-- Solution: Distillation Raoult's Law (cont. 1) -->
+
+**Solution**
+
+$p_6^* = 10^{4.00266 - \frac{1171.530}{T - 48.784}},\ \ \ \ p_7^* = 10^{4.02832 - \frac{1268.636}{T - 56.199}},p_8^* = 10^{4.04867 - \frac{1355.126}{T - 63.633}}$
+
+$P_\mathrm{calc} = \frac{1}{\sum\limits_{i=1}^N \dfrac{y_i}{p_i^*}} = \frac{1}{\dfrac{y_{6,k}}{p_6^*}+\dfrac{y_{7,k}}{p_7^*}+\dfrac{y_{8,k}}{p_8^*}} = \dfrac{1}{\dfrac{0.450}{p_6^*}+\dfrac{0.450}{p_7^*}+\dfrac{0.100}{p_8^*}}$
+
+$x_{6,k} = \dfrac{y_{6,k}P}{p_6^*}$
+
+$x_{7,k} = \dfrac{y_{7,k}P}{p_7^*}$
+
+$x_{8,k} = 1 - (x_{6,k} +x_{7,k} )$
+
+## <!-- Solution: Distillation Raoult's Law (cont. 2) -->
+
+![](TernaryEqStage.png)
+
+To determine the
+remaining variables we
+need a minimum of
+either the total entering
+vapor flow or the total
+exiting liquid flow, $\mathcal{L}$ or
+$\mathcal{V}$, or two of $z_{6,k},\ z_{7,k},$ or $z_{8,k}$. The
+remaining mass
+balances will permit us
+to calculate everything
+else. The spreadsheet was tested with the total exiting liquid flow.
+
+## The Takeaways
+
+1. For binary separations a binary phase diagram makes the phase-equilibrium calculation easy and quick, but not necessarily accurate.
+2. For ideal solutions Raoult's law and the Antoine equation can be used for the phase-equilibrium calculations.
+3. Using chemical-process-flowsheet software such as DWSIM removes most of the tedium from the process, if you know what you are doing.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+
+# The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+
+## <!-- Example: Liq-Liq Extraction Phase Diagram -->
+
+![](StageK.png){.absolute top=0% left=-2% width=40%}
+
+:::{.absolute top=60% left=8.5%}
+$\dot{n}_{2}^{l_2}$
+:::
+
+:::{.absolute top=8% left=29.5%}
+$\dot{n}_{1}^{l_1}$
+:::
+
+:::{.absolute top=8% left=8.5%}
+$\dot{n}_{4}^{l_4}$
+:::
+
+:::{.absolute top=60% left=29.5%}
+$\dot{n}_{3}^{l_3}$
+:::
+
+:::{.absolute top=35% left=12.5%}
+$T_k,\ P_k$
+:::
+
+::::{.columns}
+:::{.column width=40%}
+:::
+
+:::{.column width=55%}
+
+:::{style="font-size: 85px;"}
+**Example:** Liquid-Liquid Extraction
+Phase Diagram
+
+An equilibrium stage in a liquid-liquid
+extraction process has an equimolar feed
+of 50.0% water and 50.0% acetic acid and a flow rate of 180 mol/min. This feed needs to have most of the water removed. To this end, the other feed is 100% chloroform at 120 mol/min. The stage is operating at 298 K and 1 atm. Determine the flow rates and compositions of the product streams. How well does this first stage remove the water?
+The water-acetic acid-chloroform ternary phase
+diagram is given below.
+:::
+
+:::
+::::
+
+## <!-- Example: Liq-Liq Extraction Phase Diagram -->
+
+$\dot{n}_\mathrm{tot} = \dot{n}_1^{l_1} + \dot{n}_2^{l_2} = 180 + 120 = 300\ \mathrm{mol/min}$
+
+$\dot{n}_{i,1}^{l_1} = x_i^{l_1} \dot{n}_1^{l_1} = 180 x_i^{l_1}\ \ \ \ (i=\mathrm{AA,\ CL,\ H_2O})$
+
+$\dot{n}_{i,2}^{l_2} = x_i^{l_2} \dot{n}_2^{l_2} = 120 x_i^{l_2}\ \ \ \ (i=\mathrm{AA,\ CL,\ H_2O})$
+
+$z_i = \dfrac{\dot{n}_{i,1}^{l_1} + \dot{n}_{i,2}^{l_2}}{\dot{n}_\mathrm{tot}}=\dfrac{180 x_i^{l_1} + 120 x_i^{l_2}}{300}\ \ \ \ (i=\mathrm{AA,\ CL,\ H_2O})$
+
+$z_\mathrm{AA} = 0.300,\ \ \ \ z_\mathrm{CL} = 0.400,\ \ \ \ z_\mathrm{H2O} = 0.300$
+
+$\mathcal{L}^3 = \dfrac{x_i^{l_3} - z_i}{x_i^{l_3} - x_i^{l_4}}\ \ \ \ \mathcal{L}^4 = 1 - \mathcal{L}^3$
+
+$\text{Need }x_\mathrm{AA}^{l_3},\ x_\mathrm{CL}^{l_3},\ x_\mathrm{H_2O}^{l_3},\ x_\mathrm{AA}^{l_4},\ x_\mathrm{CL}^{l_4},\ x_\mathrm{H_2O}^{l_4}$
+
+## Ternary Phase Diagram
+<!-- Solution: Liq-Liq Extraction Phase Diagram -->
+![](TernaryPhaseDiagramNoLine.png)
+
+## Ternary Phase Diagram
+<!-- Solution: Liq-Liq Extraction Phase Diagram -->
+![](TernaryPhaseDiagramLine.png)
+
+::: {style="font-size: 40px;"}
+
+:::{.absolute top=64% left=29%}
+$(30.0\%,\ 40.0\%,\ 30.0\%)$
+:::
+
+:::{.absolute top=63% left=7%}
+$(32.6\%,\ 1.0\%,\ 66.4\%)$
+:::
+
+:::{.absolute top=65.5% left=46%}
+$(28.1\%,\ 69.6\%,\ 2.3\%)$
+:::
+
+:::
+
+## <!-- Solution: Liq-Liq Extraction Phase Diagram (cont. 1)-->
+
+$z_\mathrm{AA} = 30.0\%,\ \ \ \ z_\mathrm{CL} = 40.0\%,\ \ \ \ z_\mathrm{H2O} = 30.0\%$
+
+$x_\mathrm{AA}^{l_3} = 32.6\%,\ \ \ \ x_\mathrm{CL}^{l_3} = 1.0\%,\ \ \ \ x_\mathrm{H_2O}^{l_3} = 66.4\%$
+
+$x_\mathrm{AA}^{l_4} = 28.1\%,\ \ \ \ x_\mathrm{CL}^{l_4} = 69.6\%,\ \ \ \ x_\mathrm{H_2O}^{l_4} = 2.3\%$
+
+The liquid-fraction values for each species were calculated with $\mathcal{L}^3 = \dfrac{x_i^{l_3} - z_i}{x_i^{l_3} - x_i^{l_4}}$ and then averaged.
+
+$\mathcal{L}_\mathrm{mean}^3 = 43.1\%,\ \ \ \ \mathcal{L}_\mathrm{mean}^4 = 56.9\%$
+
+$\dot{n}_3^{l_3} = \mathcal{L}_\mathrm{mean}^3 \dot{n}_\mathrm{tot} = 0.431 \mathbf{\cdot} 300 = 129\ \mathrm{mol/min}$
+
+$\dot{n}_4^{l_4} = \mathcal{L}_\mathrm{mean}^4 \dot{n}_\mathrm{tot} = 0.569 \mathbf{\cdot} 300 = 171\ \mathrm{mol/min}$
+
+## Solution Spreadsheet <!-- Solution: Liq-Liq Extraction Phase Diagram (cont. 1)-->
+
+![](LiqLiqSpreadsheet.png)
+
+## DWSIM Solution
+
+Here is the PFD and results of using DWSIM to solve this example problem.
+
+## The Takeaways
+
+1. Liquid-Liquid extraction works very similarly to distillation stages and other equilibrium separation stages.
+2. The biggest challenge is getting and using the phase-equilibrium data.
+3. Using chemical-process-flowsheet software such as DWSIM removes most of the tedium from the process, if you know what you are doing.
+
 
 #
 
