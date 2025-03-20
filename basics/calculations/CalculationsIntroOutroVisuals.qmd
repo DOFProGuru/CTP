@@ -23,13 +23,13 @@ What goes into a Number?
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Numbers Are Not What They Seem!–How They Can Fool You!
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Numbers Are Not What They Seem!<br/>How They Can Fool You!
 :::
 
-::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
@@ -57,13 +57,13 @@ Data Visualization, JTF
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=30% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Is Your Process Data Spread Smooth or Chunky? Just the Facts
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Is Your Process Data Spread<br/>Smooth or Chunky? Just the Facts
 :::
 
-::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
@@ -90,13 +90,13 @@ Data Visualization, TFS
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=30% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Is Your Process Data Spread Smooth or Chunky? The Full Story
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Is Your Process Data Spread<br/>Smooth or Chunky? The Full Story
 :::
 
-::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
@@ -125,13 +125,13 @@ Interpolation 1, JTF
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=30% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Interpol Is Late to a Mind-Blowing<br/>Math Hack, Just the Facts
 :::
 
-::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
@@ -158,13 +158,13 @@ Interpolation 1, TFS
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=30% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Interpol Is Late to a Mind-Blowing Math Hack, The Full Story
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Interpol Is Late to a Mind-Blowing<br/>Math Hack, The Full Story
 :::
 
-::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
@@ -194,13 +194,13 @@ Interpolation 2
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-No Clear Interpretation, a Mind-Blowing Math Hack
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+No Clear Interpretation<br/>A Mind-Blowing Math Hack
 :::
 
-::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
@@ -229,13 +229,13 @@ Basic Spreadsheet Techniques
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
 The Unauthorized Guide to Using Spreadsheets in Chemical Engineering
 :::
 
-::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
@@ -264,13 +264,13 @@ Data Fitting with Spreadsheets 1
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-How to Have a Quickie with Your Data, Part 1
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+How to Have a Quickie with Your Data<br/>Part 1
 :::
 
-::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
@@ -299,13 +299,13 @@ Data Fitting with Spreadsheets 2
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-How to Have a Quickie with Your Data, Part 2
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+How to Have a Quickie with Your Data<br/>Part 2
 :::
 
-::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
@@ -334,13 +334,13 @@ Solving Nonlinear Equations with a Spreadsheet
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Solving Nonlinear Equations with Spreadsheets
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Solving Nonlinear Equations<br/>with Spreadsheets
 :::
 
-::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
