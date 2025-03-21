@@ -1,0 +1,181 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Estimating Heat Capacities and Latent Heats </br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Estimating Formulas
+
+If the tabulated data are missing </br>
+use a formula like Kopp's rule
+
+$\hspace{3pt} (C_p)_{\text{compound}} = \sum\limits_{\text{all atoms}} C_{pa}$
+
+$\hspace{1pt}$
+
+How about mixtures?
+
+$\hspace{1pt}$
+
+Lacking other data, use a </br>
+weighted average.
+
+{image}
+
+## 
+ 
+The $C_p \Delta T$ changes are known as $\textit{sensible heat changes}$. During a
+phase change, heat is added without a change in temperature.
+Such changes are $\textit{latent heat changes}$.
+
+ * Latent heat of vaporization, $\hspace{4pt} \Delta \hat{H}_v$
+ * Latent heat of fusion, $\hspace{4pt} \Delta \hat{H}_m$
+ * Latent heat of sublimination, $\hspace{4pt} \Delta \hat{H}_s$
+
+$\hspace{1mm}$
+
+Why $\Delta H$? Why not $\Delta U$?
+
+## 
+
+Vaporize one pound of water at constant $T$ and $P$. What kind of
+system?
+
+$\hspace{1mm}$
+
+The $1$st law is: $\Delta U = Q + W$
+
+$\hspace{1mm}$
+
+For a closed system the pressure-volume work is:
+
+<center> $W = -\int P dV$ </center>
+
+$\hspace{1mm}$
+
+Now if $P =$ constant
+
+<center> $W = -P\Delta V = -\Delta (PV)$ </center>
+
+$\hspace{1mm}$
+
+So the $1$st law becomes:
+
+<center> $\Delta U_v = Q - \Delta (PV)$ </center> 
+
+##
+
+or
+<center> $\Delta U_v + \Delta (PV) = \Delta H_v = Q$ </center>
+
+$\hspace{1mm}$
+
+The book lies a little. It should say on page $265$, "If a phase change takes place in a $\textit{constant volume}$ closed system..."
+
+$\hspace{1mm}$
+
+<center> $\Delta \hat{U}_m \approx \Delta \hat{H}_m$ </center>
+
+<center> $\Delta \hat{U}_v \approx \Delta \hat{H}_v - RT$ </center>
+
+##
+
+How do you evaluate latent heats?
+
+ * Tables
+ * Correlations
+ * Educated Guesses
+
+$\hspace{1mm}$
+
+$\textbf{Trouton's Rule (within 30\% accuracy)}$ </br>
+nonpolar liquids
+<center> $(\Delta \hat{H}_v)_{nbp}$ [$\textrm{kJ/mol}$] $\approx 0.0088T_b (K)$ </center>
+
+$\hspace{1mm}$
+
+water, low-MW alcohols
+
+<center> $(\Delta \hat{H}_v)_{nbp}$ [$\textrm{kJ/mol}$] $\approx 0.109T_b (K)$ </center>
+
+## Chen's equation (within 2% accuracy)
+
+$\hspace{1mm}$
+
+<center> $(\Delta \hat{H}_v)_{nbp} = \dfrac{T_b[0.331(T_b/T_c) - 0.0327 + 0.0297\log_{10} P_c]}{1.07 - (T_b / T_c)}$ </center>
+
+with $T$'s in Kelvin, $P$ in atm, and $\Delta H$ in $\textrm{kJ/mol}$
+
+$\hspace{1mm}$
+
+Also $\textbf{Clausius and Claperyon backwards}$
+
+<center>$\ln p^* = -\dfrac{\Delta \hat{H}_v}{RT} + B$</center>
+
+<center>$\dfrac{d(\ln p^*)}{d(1/T)} = -\dfrac{\Delta \hat{H}_v}{R}$</center>
+
+##
+
+And finally if you have $\Delta \hat{H}_v$ at one temperature and you need it at
+another, the $\textbf{Watson correlation}$
+
+<center> $\dfrac{\Delta \hat{H}_v (T_2)}{\Delta \hat{H}_v (T_1)} = (\dfrac{T_c - T_2}{T_c - T_1})$ </center>
+
+$\hspace{1mm}$
+
+$\textbf{Page 266's Rule (??\% accurate)}$ </br>
+For metallic elements
+
+<center>$\Delta \hat{H}_v (\textrm{kJ/mol}) \approx 0.0092 T_m (K)$</center>
+
+For inorganic compounds
+<center>$\Delta \hat{H}_v (\textrm{kJ/mol}) \approx 0.0025 T_m (K)$</center>
+
+For organic compounds
+<center>$\Delta \hat{H}_v (\textrm{kJ/mol}) \approx 0.050 T_m (K)$</center>
+
+
+## Valuable Numbers to Know
+
+$\textit{Approximate}$ Heat Capacities
+
+{image}
+
+Water values
+
+$\hspace{1mm}$
+
+$C_p [\dfrac{\textrm{Btu}}{lb_m ^{\circ} F}]$ or $[\dfrac{\textrm{cal}}{g ^{\circ} C}]$
+
+Steam $\approx 0.5$
+
+Water $\approx 1.0$
+
+Ice $\approx 0.5$
+
+$\Delta \hat{H}_v \approx 1000 [\dfrac{\textrm{Btu}}{lb_m ^{\circ} F}]$
+
+$\Delta \hat{H}_m \approx 150 [\dfrac{\textrm{Btu}}{lb_m ^{\circ} F}]$
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
