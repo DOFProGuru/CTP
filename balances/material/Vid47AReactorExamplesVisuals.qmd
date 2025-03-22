@@ -23,133 +23,175 @@ DOFPro Team
 
 The engineering team has designed a process for converting species $\mathrm{A}$ into a valuable product, species $\mathrm{P}$, according to the reaction
 
+:::{.fragment}
 $$
 \mathrm{A+2B \rightarrow 2P}
 $$
-
+:::
+:::{.fragment}
 A kinetic study has shown that the reaction is 1st order in species $\mathrm{A}$ and in species $\mathrm{B}$, so
-
+:::
+:::{.fragment}
 $$
 -r_\mathrm{A} = k C_\mathrm{A} C_\mathrm{B}
 $$
-
+:::
+:::{.fragment}
 where
 
 $$
 k = k_0 e^{\frac{-E_a}{RT}} = 1 \times 10^{12} \mathrm{\frac{m^3}{mol \cdot s}} e^{\frac{-12,000}{T}}
 $$
-
+:::
 ## Chem. Reactor Example (cont.)
 
 :::{style="font-size: 95px;"}
 The plant is designed to feed the reactor with an aqueous solution of $\mathrm{A}$ and $\mathrm{B}$, with $C_\mathrm{A_0} = 1000\ \mathrm{mol/m^3}$ and $C_\mathrm{B_0} = 4000\ \mathrm{mol/m^3}$ at a feed rate of $200\ \mathrm{kg/min}$.
 <br/><br/>
+
+:::{.fragment}
 Over the range of possible concentrations for $\mathrm{A}$, $\mathrm{B}$, and $\mathrm{P}$, the density of the aqueous solution is $1000\ \mathrm{kg/m^3}$.
 <br/><br/>
+:::
+
+:::{.fragment}
 The constraints from the separators and the recycle loop require that $f_\mathrm{A}$ be $80\%$, and that the reactor temperature be $60\ ^\circ \mathrm{C}$.
 <br/><br/>
+:::
+:::{.fragment}
 Design and compare a tubular reactor (PFR) and a mixed reactor (CSTR) to process the required flow and achieve the required conversion. For completeness, design a batch processing scheme with the same feed rate and temperature, where the batch switchover time (the time from one batch ending to the next batch starting) is 2 minutes.
+:::
 :::
 
 ## Kinetics Solution
 
 We need
 
+:::{.fragment}
 $$
 k = 1 \times 10^{12} \mathrm{\frac{m^3}{mol \cdot s}} e^{\frac{-12,000}{T}} 
 $$
- 
+::: 
+:::{.fragment}
 $$
 = 1 \times 10^{12}  e^{\frac{-12,000}{(60 +273.15)}} = 2.274 \times 10^{-4}\ \mathrm{\frac{m^3}{mol \cdot s}}
 $$
+:::
+:::{.fragment}
 $$
 -r_\mathrm{A} = k C_\mathrm{A} C_\mathrm{B} = k C_\mathrm{A_0}(1-f_\mathrm{A})C_\mathrm{B_0}(1-f_\mathrm{B})
 $$
+:::
 
+:::{.fragment}
 Since $C_\mathrm{B_0} = 4 C_\mathrm{A_0}$, then $\dot{n}_\mathrm{B_0} = 4 \dot{n}_\mathrm{A_0}$. The moles of $\mathrm{B}$ reacted or converted, $\dot{n}_\mathrm{B_0} - \dot{n}_\mathrm{B}$ equals twice the moles of $\mathrm{A}$ converted from stoichiometry, so
-
+:::
 ## Kinetics Solution (cont.)
 
 $$
 \dot{n}_{\mathrm{B}_0} - \dot{n}_\mathrm{B} = 2(\dot{n}_{\mathrm{A}_0} - \dot{n}_\mathrm{A})
 $$
 
+:::{.fragment}
 $$
 \frac{\dot{n}_{\mathrm{B}_0} - \dot{n}_\mathrm{B}}{\dot{n}_{\mathrm{B}_0}} = 2\frac{(\dot{n}_{\mathrm{A}_0} - \dot{n}_\mathrm{A})}{4 \dot{n}_\mathrm{A_0}}
 $$
-
+:::
+:::{.fragment}
 $$
 f_\mathrm{B} = \frac{1}{2} f_\mathrm{A}
 $$
-
+:::
+:::{.fragment}
 $$
 -r_\mathrm{A} = 4 k C_\mathrm{A_0}^2(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})
 $$
-
+:::
+:::{.fragment}
 Also
 $$
 \dot{V}_0 = \frac{\dot{m}}{\rho} = \frac{200\ \mathrm{\frac{kg}{min}}}{1000\ \mathrm{\frac{kg}{m^3}}} = 0.200\ \mathrm{\frac{m^3}{min}}
 $$
+:::
 
 ## Totally Tubular Solution
 
 :::{style="font-size: 90px;"}
 The design equation for the PFR is
 
+:::{.fragment}
 $$
 \tau = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})} = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{4 k C_\mathrm{A_0}^2(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})}
 $$
-
+:::
+:::{.fragment}
 $$
  = \frac{1}{4 k C_\mathrm{A_0}} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})} = \frac{1}{2 k C_\mathrm{A_0}} \ln \frac{2-f_\mathrm{A}}{2(1-f_\mathrm{A})}
 $$
-
+:::
+:::{.fragment}
 For $f_\mathrm{A} = 0.8$,
-
+:::
+:::{.fragment}
 $$
 \tau = \frac{1}{2 k C_\mathrm{A_0}} \ln \frac{2-f_\mathrm{A}}{2(1-f_\mathrm{A})} = \frac{1}{2 \cdot 2.274 \times 10^{-4} \cdot 1000} \ln \frac{2-0.8}{2(1-0.8)}
 $$
-
+:::
+:::{.fragment}
 $\tau = 2.416\ \mathrm{min}$
-
+:::
+:::{.fragment}
 $$
 \tau = \frac{V_R}{\dot{V_0}},\ \ \ V_R = \tau \dot{V_0} = 2.416\ \mathrm{min} \cdot 0.2\ \frac{\mathrm{m^3}}{\mathrm{min}} = 0.4831\ \mathrm{m^3}
 $$
 :::
+:::
 
 ## Wishing Upon a CSTR
 
-:::{style="font-size: 90px;"}
+:::{style="font-size: 85px;"}
 The design equation for a CSTR is
 
-$$
+:::{.fragment}
+<br/>$$
 \tau = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{4 k C_\mathrm{A_0}^2(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})}= \frac{f_\mathrm{A}}{4 k C_\mathrm{A_0}(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})}
 $$
-
-$$
+:::
+:::{.fragment}
+<br/>$$
 \tau = \frac{0.8}{4 \cdot 2.274 \times 10^{-4} \cdot 1000 \cdot (1-0.8)(1 - 0.4)} = 7.329\ \mathrm{min}
 $$
-
-$$
+:::
+:::{.fragment}
+<br/>$$
 \tau = \frac{V_R}{\dot{V}},\ \ \ V_R = \tau \dot{V} = 7.329\ \mathrm{min} \cdot 0.2\ \frac{\mathrm{m^3}}{\mathrm{min}} = 1.466\ \mathrm{m^3}
 $$
+:::
 :::
 
 ## Batch Reactor
 
+:::{style="font-size: 96px;"}
+:::{.fragment}
 Since the feed and flow conditions are the same, the batch time will equal the space time for the PFR, so 
-
+:::
+:::{.fragment}
 $$
 t = 2.416\ \mathrm{min}
 $$
-
+:::
+:::{.fragment}
 The total processing time is the sum of the batch time and the switchover time
-
+:::
+:::{.fragment}
 $$
 t_\mathrm{total} = t + t_\mathrm{switchover} = 2.416 + 2 = 4.416\ \mathrm{min}
 $$
-
+:::
+:::{.fragment}
 We have to process $V = \dot{V} t_\mathrm{total} = 0.2 \cdot 4.416 = 0.8832\ \mathrm{m^3}$ in the total time. We could build one reactor with that volume, or we could build two reactors with 1/2 that volume, and switch back and forth between them. Economics would determine the final choice based on capital costs and labor costs. The single reactor would probably, but not necessarily be the more economical.
+:::
+:::
 
 ## Comparison
 

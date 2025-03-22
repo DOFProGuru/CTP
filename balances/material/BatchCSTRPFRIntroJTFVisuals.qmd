@@ -34,7 +34,7 @@ We will focus first on the ideal *homogeneous* reactors.
    - Properties are *constant* in time.
  - **PFR** (Steady State)
    - Properties are *uniform* in the radial direction, $r$.
-   - Properties are *evolving* in the axial direction, $r$.
+   - Properties are *evolving* in the axial direction, $z$.
    - Properties are *constant* in time.
 
 :::
@@ -48,41 +48,45 @@ We will not derive the transient cases for CSTRs or PFRs, but they are criticall
 
 We will rewrite our chemical reactions by dividing  through by the absolute value of the stoichiometric coefficient for species $\mathrm{A}$, giving a result of the form,
 
+:::{.fragment}
 $$
 \mathrm{A} + \frac{\nu_\mathrm{B}}{|\nu_\mathrm{A}|} \mathrm{B} + \cdots \rightarrow \frac{\nu_\mathrm{P}}{|\nu_\mathrm{A}|} \mathrm{P} + \frac{\nu_\mathrm{S}}{|\nu_\mathrm{A}|} \mathrm{S} + \cdots
 $$
-
+:::
+:::{.fragment}
 Essentially every chemical reactor class ever follows this practice.
-
+:::
+:::{.fragment}
 With $r_\mathrm{A}$ equal to $\nu_\mathrm{A} r = - r$,
 we will limit ourselves at the present time to irreversible reactions with kinetics of the form
-
+:::
+:::{.fragment}
 $$
 -r_\mathrm{A} = k C_\mathrm{A}^n C_\mathrm{B}^m
 $$
-
+:::
 ## Batch Reactor
 For our transient, spatially uniform, constant-volume batch reactor
 
 ![](BatchImage.png){.absolute top=15% left=14% width=15%}
 
-:::{.absolute left=35% top=18%}
+:::{.fragment .absolute left=35% top=18%}
 $$
 \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
 $$
 :::
 
-:::{.absolute left=5% top=45%}
+:::{.fragment .absolute left=5% top=45%}
 $$
 r_j \ne r_j(\mathrm{position)}) \implies \int_{V_R} r_j dV = r_j \int_{V_R} dV = r_j V_R
 $$
 :::
 
-:::{.absolute left=0% top=65%}
+:::{.fragment .absolute left=0% top=65%}
 or
 :::
 
-:::{.absolute left=10% top=75%}
+:::{.fragment .absolute left=10% top=75%}
 $$
 \frac{1}{V_R} \frac{dn_j}{dt} = r_j\ \  \text{  or  }\ \  \frac{dC_j}{dt} = r_j
 $$
@@ -92,49 +96,67 @@ $$
 
 For Species A (constant $V_R$)
 
+:::{.fragment}
 $$
 n_\mathrm{A} = n_\mathrm{A_0} (1- f_\mathrm{A})
 $$
+:::
 
+:::{.fragment}
 and
 
 $$
 \frac{1}{V_R}\frac{dn_\mathrm{A}}{dt} = \frac{n_\mathrm{A_0}}{V_R}\frac{d(1- f_\mathrm{A})}{dt} = -C_\mathrm{A_0} \frac{df_\mathrm{A}}{dt}
 $$
-
+:::
+:::{.fragment}
 or
 $$
 \frac{1}{V_R}\frac{dn_\mathrm{A}}{dt} = \frac{dC_\mathrm{A}}{dt}
 $$
-
+:::
 ## Batch Reactor (cont.)
 
 ::::{.columns}
 :::{.column width=50%}
 In terms of $f_\mathrm{A}$
+
+:::{.fragment}
 $$
 -C_\mathrm{A_0} \frac{df_\mathrm{A}}{dt} = r_\mathrm{A}
 $$
+:::
 
+:::{.fragment}
 $$
 \int_0^t dt = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
 $$
+:::
+:::{.fragment}
 $$
 t = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
 $$
 :::
+:::
 :::{.column width=50%}
 In terms of $C_\mathrm{A}$
+
+:::{.fragment}
 $$
 \frac{dC_\mathrm{A}}{dt} = r_\mathrm{A}
 $$
+
+:::
+:::{.fragment}
 $$
 \int_0^t dt = \int_{C_\mathrm{A_0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
 $$
+:::
+:::{.fragment}
 $$
 t = \int_{C_\mathrm{A_0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
 $$
-
+:::
 :::
 ::::
 
@@ -143,18 +165,26 @@ $$
 
 ::::{.columns}
 :::{.column width=50%}
+
 In terms of $f_\mathrm{A}$
+
 $$
 t = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})}
 $$
+
 ![](FAvsRatePlot.png)
+
 :::
 :::{.column width=50%}
+
 In terms of $C_\mathrm{A}$
+
 $$
 t = \int_{C_\mathrm{A_0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}}
 $$
+
 ![](CAvsRatePlot.png)
+
 :::
 ::::
 
@@ -193,26 +223,26 @@ $\mathrm{Area} = t$
 
 Steady state, spatially uniform
 
-:::{.absolute top=15% left=45%}
+:::{.fragment .absolute top=15% left=45%}
 $$
 \dot{n}_{j_0} - \dot{n}_j + \int_{V_R} r_j dV = \frac{dn_j}{dt}
 $$
 :::
 
-:::{.absolute top=40% left=5%}
+:::{.fragment .absolute top=40% left=5%}
 $$
 r_j \ne r_j(\mathrm{position)} \implies \dot{n}_{j_0} - \dot{n}_j + r_j V_R = 0
 $$
 :::
-:::{.absolute top=52% left=44%}
+:::{.fragment .absolute top=52% left=44%}
 $$
 \dot{n}_{j_0} = \dot{n}_j + (-r_j) V_R
 $$
 :::
-:::{.absolute top=65% left=5%}
+:::{.fragment .absolute top=65% left=5%}
 For species $\mathrm{A}$,
 :::
-:::{.absolute top=70% left=44%}
+:::{.fragment .absolute top=70% left=44%}
 $$
 V_R = \frac{\dot{n}_\mathrm{A_0}-\dot{n}_\mathrm{A}}{-r_\mathrm{A}}
 $$
@@ -220,26 +250,32 @@ $$
 
 ## CSTR (cont.)
 
+:::{.fragment}
 <br/>
 Define the *space time*, $\tau \equiv \frac{V_R}{\dot{V}_0}$
 <br/><br/>
+:::
 
 ::::{.columns}
 :::{.column width=50%}
 In terms of $f_\mathrm{A}$ 
 
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{A} = \dot{n}_\mathrm{A_0}(1 - f_\mathrm{A})$
-
+:::
+:::{.fragment}
 $\ \ \ \ (-r_\mathrm{A}) V_R = \dot{n}_\mathrm{A_0}(f_\mathrm{A})$
-
+:::
+:::{.fragment}
 and
 
 $\ \ \ \ \dot{n}_\mathrm{A_0}=\dot{V}_0 C_\mathrm{A_0}$
-
+:::
+:::{.fragment}
 then
 
 $\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}}$
-
+:::
 
 :::
 
@@ -247,15 +283,20 @@ $\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\m
 
 In terms of $C_\mathrm{A}$
 
+:::{.fragment}
 $\ \ \ \ \dot{V}_0 = \dot{V}$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{A_0} = \dot{V}_0C_\mathrm{A_0}$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{A} = \dot{V}_0C_\mathrm{A}$
-
+:::
+:::{.fragment}
 then
 
 $\ \ \ \ \tau = \frac{V_R}{\dot{V}_0} = \frac{C_\mathrm{A_0}- C_\mathrm{A}}{{-r_\mathrm{A}}}$
+:::
 
 :::
 ::::
@@ -320,10 +361,10 @@ $\mathrm{Area} = \tau$
 
 Steady state, radially uniform, axially varies
 
+:::{.fragment}
 :::{.absolute top=19% left=60%}
 Differential Element
 :::
-
 
 ![](DVElement.png){.absolute top=27% left=64% width=25%}
 
@@ -336,26 +377,28 @@ $\dot{n}_j+d\dot{n}_j$
 :::{.absolute top=58% left=74%}
 $dV$
 :::
-:::{.absolute top=45% left=0%}
+:::
+
+:::{.fragment .absolute top=45% left=0%}
 $$
 \dot{n}_j - (\dot{n}_j + d\dot{n}_j) + r_j dV = \frac{dn_j}{dt}
 $$
 :::
-:::{.absolute top=60% left=0%}
+:::{.fragment .absolute top=60% left=0%}
 $$
 \frac{d\dot{n}_j}{dV} = r_j
 $$
 :::
 
-:::{.absolute top=70% left=25%}
+:::{.fragment .absolute top=70% left=25%}
 For reactant $\mathrm{A}$
 :::
-:::{.absolute top=75% left=25%}
+:::{.fragment .absolute top=75% left=25%}
 $$
 \int_0^{V_R} dV = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}},
 $$
 :::
-:::{.absolute top=75% left=70%}
+:::{.fragment .absolute top=75% left=70%}
 $$
 V_R = \int_{\dot{n}_\mathrm{A0}}^{\dot{n}_\mathrm{A}} \frac{d\dot{n}_\mathrm{A}}{r_\mathrm{A}}
 $$
@@ -363,23 +406,29 @@ $$
 
 ## PFR (cont.)
 
-To get the expression in terms of $f_\mathrm{A}$,
+To get the expression in terms of $f_\mathrm{A}$, as before
 
-as before
-
+:::{.fragment}
 $\ \ \ \ \ \ \ \dot{n}{_\mathrm{A}} = \dot{n}{_\mathrm{A0}} ( 1 - f_\mathrm{A})$
+:::
 
+:::{.fragment}
 and
 
 $\ \ \ \ \ \ \ d\dot{n}{_\mathrm{A}} = -\dot{n}{_\mathrm{A0}} df_\mathrm{A}$
+:::
 
+:::{.fragment .absolute top=42% left=0%}
 Making the substitutions and dividing by $\dot{n}_\mathrm{A0}$
+:::
 
-:::{.absolute top=50% left=0%}
+:::{.fragment .absolute top=50% left=0%}
 $$
 \frac{V_R}{\dot{n}_\mathrm{A0}} = \frac{\tau}{C_\mathrm{A0}} = \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})} 
 $$
 :::
+
+:::{.fragment}
 :::{.absolute top=58% left=54%}
 or 
 :::
@@ -388,11 +437,12 @@ $$
 \tau = C_\mathrm{A0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})} 
 $$
 :::
+:::
 
-:::{.absolute top=75% left=0%}
+:::{.fragment .absolute top=75% left=0%}
 In terms of $C_\mathrm{A}$
 :::
-:::{.absolute top=80% left=7%}
+:::{.fragment .absolute top=80% left=7%}
 $$
 \tau = \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{r_\mathrm{A}} 
 $$
@@ -458,13 +508,16 @@ $\mathrm{Area} = \tau$
 **Batch**
 :::
 :::{style="font-size: 95px;"}
+:::{.fragment}
 $$
 t = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{k C_\mathrm{A}} 
 $$
-
+:::
+:::{.fragment}
 $$
 t=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
 $$
+:::
 :::
 :::
 :::{.column width=33%}
@@ -473,13 +526,16 @@ $$
 **PFR**
 :::
 :::{style="font-size: 95px;"}
+:::{.fragment}
 $$
 \tau = - \int_{C_\mathrm{A0}}^{C_\mathrm{A}} \frac{dC_\mathrm{A}}{k C_\mathrm{A}} 
 $$
-
+:::
+:::{.fragment}
 $$
 \tau=\frac{1}{k}\ln \frac{C_\mathrm{A0}}{C_\mathrm{A}}
 $$
+:::
 :::
 :::
 :::{.column width=33%}
@@ -488,53 +544,70 @@ $$
 **CSTR**
 :::
 :::{style="font-size: 95px;"}
+:::{.fragment}
 $$
 \tau = - \frac{C_\mathrm{A0} - C_\mathrm{A}} {k C_\mathrm{A}} 
 $$
+:::
+:::{.fragment}
 $$
 \tau=\frac{1}{k} \left( \frac{C_\mathrm{A0}}{C_\mathrm{A}} - 1 \right)
 $$
 :::
 :::
+:::
 ::::
 
+:::{.fragment}
 or
+:::
 
 ::::{.columns}
 :::{.column width=33%}
 
 :::{style="font-size: 65px;"}
+:::{.fragment}
 $$
 t = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})} 
 $$
 :::
+:::
 
+:::{.fragment}
 $$
 t = - \frac{1}{k}\ln (1-f_\mathrm{A})
 $$
 :::
+:::
 :::{.column width=33%}
 
 :::{style="font-size: 65px;"}
+:::{.fragment}
 $$
 \tau = {C_\mathrm{A0}} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{k C_\mathrm{A0}(1-f_\mathrm{A})} 
 $$
 :::
-
+:::
+:::{.fragment}
 $$
 \tau = - \frac{1}{k}\ln (1-f_\mathrm{A})
 $$
 :::
+:::
 :::{.column width=33%}
 
 :::{style="font-size: 70px;"}
+:::{.fragment}
 $$
 \tau = \frac{{C_\mathrm{A0}f_\mathrm{A}} } {k C_\mathrm{A0}(1-f_\mathrm{A})}
 $$
 :::
+:::
+:::{.fragment}
 $$
 \tau = \frac{{f_\mathrm{A}} } {k (1-f_\mathrm{A})}
 $$
+:::
 :::
 ::::
 
