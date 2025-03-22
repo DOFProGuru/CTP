@@ -86,12 +86,12 @@ Have data for 2$^\mathrm{nd}$-order kinetics. Fit for $C_\mathrm{{A}0}$, $k$, $k
 :::{.column width=50%}
 * Set up fitting function
 * Set up array of fitting values. Keep magnitudes roughly equal.
-* **Calculate $\mathbf{\Sigma{(y_i - y_{i\text{-fit}})^2}}$. SSE**
+* **Calculate $\mathbf{\Sigma{(\mathit{y_i - y}_{\mathit{i}\text{-fit}})^2}}$. SSE**
 * Minimize with Solver.
-<br/><br/>
+<br/>
 
 :::{.fragment}
-$$SSE = \Sigma{(C_{\mathrm{A}_i}- C_{\text{A-fit}_i})^2}$$
+$$\mathrm{SSE} = \Sigma{(C_{\mathrm{A}_i}- C_{\text{A-fit}_i})^2}$$
 :::
 :::{.fragment}
 $$(C_{\mathrm{A}_i} - C_{\text{A-fit}_i})^2 = (C_{\mathrm{A}_i} - \dfrac{C_{\text{A0-fit}}}{1+C_{\text{A0-fit}} {k_\mathrm{fit}}t_i})^2$$
@@ -117,7 +117,7 @@ Have data for 2$^\mathrm{nd}$-order kinetics. Fit for $C_\mathrm{{A}0}$, $k$, $k
 ![](DataFittingNonlinear.png){.absolute right=0% top=17.5% width=50%}
 
 :::{.fragment}
-![](DataFittingSolver.png)
+![](DataFittingSolver.png){.absolute top=63% left=5% width=35%}
 :::
 
 ## Comparison

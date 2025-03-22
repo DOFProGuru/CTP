@@ -40,13 +40,18 @@ Have data for $2^\mathrm{nd}$-order kinetics. Fit for $C_{\mathrm{A}0}$, $k$, $k
 
 ::::{.columns}
 :::{.column width=50%}
-$$C_\mathrm{A} = \dfrac{C_\mathrm{A}0}{1+C_{\mathrm{A}0} kt}$$
-
+:::{.fragment}
+$$C_\mathrm{A} = \dfrac{C_{\mathrm{A}0}}{1+C_{\mathrm{A}0} kt}$$
+:::
+:::{.fragment}
 $$\dfrac{1}{\mathrm{C}_A} = \dfrac{1}{C_{\mathrm{A}0}} + kt$$
-
+:::
+:::{.fragment}
 $$\mathrm{slope} = k$$
-
-$$\mathrm{intercept} = \dfrac{1}{C_\mathrm{A}0}$$
+:::
+:::{.fragment}
+$$\mathrm{intercept} = \dfrac{1}{C_{\mathrm{A}0}}$$
+:::
 :::
 ::::
 

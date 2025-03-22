@@ -574,7 +574,7 @@ Volume, Density, Flow Rates
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
 
 ::: {.absolute left=0% right=0% top=30% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Are You Dense? Crank Up the Volume and Go With the Flow!
+Are You Dense? Crank Up the Volume and Go With the Flow! The Full Story
 :::
 
 ::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
