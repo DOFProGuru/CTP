@@ -1,0 +1,177 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Heats of Reaction, Formation, and Combustion </br>Just the Facts{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+##
+
+If we have a chemical reaction, such as
+
+
+$$
+aA + bB \rightarrow cC + dD
+$$
+
+
+
+We can run it in an isothermal chemical reactor, either as an open
+steady-state system or as a closed constant-pressure system.
+
+{image}
+
+$$
+\Delta \hat{H}_r = \dfrac{\Delta H}{\xi} = \dfrac{Q}{\xi} \text{ or } \dfrac{\dot{H}}{\dot{\xi}} = \dfrac{\dot{Q}}{\dot{\xi}}
+$$
+
+##
+
+The *heat of reaction* or *enthalpy of reaction* depends on how you
+write the chemical equation. If you double the stoichiometric
+coefficients, you double the heat of reaction.
+
+<br></br>
+
+The heat of reaction is a function of temperature. At the standard
+reference temperature ($25\text{ } ^{\circ}\text{C}$ for E82), the heat of reaction is the
+*standard heat of reaction*.
+
+<br></br>
+
+To calculate the heat of reaction at a temperature other than the
+standard temperature, you have to take into account any sensible
+heat changes and any phase changes since $H$ is a state function.
+
+## Heat of Formation
+
+The *heat of formation* or *enthalpy of formation* is the standard
+heat of reaction for forming one mole of product, starting from
+pure elements at their standard form of aggregation at $T_{ref}$. For
+example, the standard states at $25\text{ } ^{\circ}\text{C}$ for oxygen and nitrogen are
+the diatomic gases $\textrm{O}_2$(g) and $\textrm{N}_2$(g). The standard heat of formation
+for any element in its standard form of aggregation is $0$ by
+definition.
+
+<br></br>
+
+You can calculate the standard heat of reaction for any reaction as
+the sum of the heats of formation times the stoichiometric
+coefficients. Don’t forget phase changes.
+
+
+$$
+\Delta H^{\circ}_r = \sum v_i \Delta H^{\circ}_{f, i}
+$$
+
+
+
+## Hess's Law
+
+The energetics of any reaction can be calculated by algebraically
+adding together any set of reactions that gives you the same
+overall reaction as the one you want.
+
+<br>
+
+Example $9.2-1$ from FRB.
+
+ 1. $\textrm{C}_2 \textrm{H}_6 + \dfrac{7}{2} \textrm{O}_2 \rightarrow 2\textrm{C}\textrm{O}_2 + 3\textrm{H}_2\textrm{O}: \hspace{10pt}\Delta H^{\circ}_{r1} = -1559.8 \textrm{kJ/mol}$
+
+ 2. $\textrm{C} + \textrm{O}_2 \rightarrow \textrm{C}\textrm{O}_2: \hspace{10pt}\Delta H^{\circ}_{r2} = -393.5 \textrm{kJ/mol}$
+
+ 3. $\textrm{H}_2 + \dfrac{1}{2} \textrm{O}_2 \rightarrow \textrm{H}_2\textrm{O}: \hspace{10pt}\Delta H^{\circ}_{r3} = -285.8 \textrm{kJ/mol}$
+
+##
+
+Add $2$ Equation $2$'s to $3$ Equation $3$'s and subtract $1$ Equation $1$
+
+
+$$
+\small{2 \textrm{C} + 3\textrm{H}_2 + 2\textrm{O}_2 + \dfrac{3}{2} \textrm{O}_2 - \dfrac{7}{2} \textrm{O}_2 \rightarrow 2\textrm{C}\textrm{O}_2 + 3\textrm{H}_2\textrm{O} - \textrm{C}\textrm{O}_2 - 3\textrm{H}_2\textrm{O} + \textrm{C}_2 \textrm{H}_6}
+$$
+
+
+<br>
+
+$$
+4. \hspace{10pt} 2\textrm{C} + 3\textrm{H}_2 \rightarrow \textrm{C}_2 \textrm{H}_6
+$$
+
+
+<br>
+$$
+\Delta H^{\circ}_{r4} = 2\Delta H^{\circ}_{r2} + 3\Delta H^{\circ}_{r3} - \Delta H^{\circ}_{r1}
+$$ 
+$$
+= 2(-393.5) + 3(-285.8) - (-1559.8) = -84.6 \textrm{kJ/mol}
+$$
+
+which is also the heat of formation for ethane.
+
+<br></br>
+
+##
+
+If you use different sets of equations to calculate the same final
+equation with Hess’s law, you may find that rounding and
+truncation errors keep the results from being identical. In the
+back of FRB, the heat of formation for ethane is $–84.67$ $\textrm{kJ/mol}$.
+
+## 
+
+
+FRB uses units of $\textrm{kJ}$ or $\textrm{Btu}$ for heats of reaction and heats of
+formation. I use $\textrm{kJ/mol}$ or $\textrm{Btu/lb-mol}$. Why the difference? FRB
+feels that including the basis confuses students. I feel that since
+
+$$
+\Delta H = \xi \Delta \hat{H}_r
+$$
+
+and
+
+$$
+\Delta \hat{H} = \hat{\xi} \Delta \hat{H}_r
+$$
+
+<br>
+
+and the units of extent are moles, and the rate of extent are
+moles/time, including the basis makes perfect sense.
+
+## The Heat of Combustion
+
+If you have a combustion reaction for a given species, as discussed
+in the Combustion Reactions video, the heat of reaction for
+complete combustion of one mole of fuel is called the *heat of
+combustion*. As a reminder, for the principal species and complete
+combustion, the combustion products are $\textrm{C}\textrm{O}_2$, $\textrm{H}_2\textrm{O}$, and $\textrm{S}\textrm{O}_2$. $\textrm{C}\textrm{O}_2$
+and $\textrm{S}\textrm{O}_2$ are gases at standard conditions. What about water?
+
+<br></br>
+
+The accepted convention is to assume water is liquid at $25 \text{ } ^{\circ}\text{C}$ and $1$ atm.
+
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
