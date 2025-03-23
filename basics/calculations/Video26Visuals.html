@@ -202,11 +202,11 @@
 <ul>
 <li class="fragment">Set up fitting function</li>
 <li class="fragment">Set up array of fitting values. Keep magnitudes roughly equal.</li>
-<li class="fragment"><strong>Calculate <span class="math inline">\(\mathbf{\Sigma{(y_i - y_{i\text{-fit}})^2}}\)</span>. SSE</strong></li>
-<li class="fragment">Minimize with Solver. <br><br></li>
+<li class="fragment"><strong>Calculate <span class="math inline">\(\mathbf{\Sigma{(\mathit{y_i - y}_{\mathit{i}\text{-fit}})^2}}\)</span>. SSE</strong></li>
+<li class="fragment">Minimize with Solver. <br></li>
 </ul>
 <div class="fragment">
-<p><span class="math display">\[SSE = \Sigma{(C_{\mathrm{A}_i}- C_{\text{A-fit}_i})^2}\]</span></p>
+<p><span class="math display">\[\mathrm{SSE} = \Sigma{(C_{\mathrm{A}_i}- C_{\text{A-fit}_i})^2}\]</span></p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[(C_{\mathrm{A}_i} - C_{\text{A-fit}_i})^2 = (C_{\mathrm{A}_i} - \dfrac{C_{\text{A0-fit}}}{1+C_{\text{A0-fit}} {k_\mathrm{fit}}t_i})^2\]</span></p>
@@ -228,7 +228,7 @@
 </div></div>
 <p><img data-src="DataFittingNonlinear.png" class="absolute" style="top: 17.5%; right: 0%; width: 50%; "></p>
 <div class="fragment">
-<p><img data-src="DataFittingSolver.png"></p>
+<p><img data-src="DataFittingSolver.png" class="absolute" style="top: 63%; left: 5%; width: 35%; "></p>
 </div>
 </section>
 <section id="comparison" class="slide level2">

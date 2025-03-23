@@ -137,101 +137,165 @@
 <section id="chem.-reactor-example" class="slide level2">
 <h2>Chem. Reactor Example</h2>
 <p>The engineering team has designed a process for converting species <span class="math inline">\(\mathrm{A}\)</span> into a valuable product, species <span class="math inline">\(\mathrm{P}\)</span>, according to the reaction</p>
+<div class="fragment">
 <p><span class="math display">\[
 \mathrm{A+2B \rightarrow 2P}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>A kinetic study has shown that the reaction is 1st order in species <span class="math inline">\(\mathrm{A}\)</span> and in species <span class="math inline">\(\mathrm{B}\)</span>, so</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 -r_\mathrm{A} = k C_\mathrm{A} C_\mathrm{B}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>where</p>
 <p><span class="math display">\[
 k = k_0 e^{\frac{-E_a}{RT}} = 1 \times 10^{12} \mathrm{\frac{m^3}{mol \cdot s}} e^{\frac{-12,000}{T}}
 \]</span></p>
+</div>
 </section>
 <section id="chem.-reactor-example-cont." class="slide level2">
 <h2>Chem. Reactor Example (cont.)</h2>
 <div style="font-size: 95px;">
-<p>The plant is designed to feed the reactor with an aqueous solution of <span class="math inline">\(\mathrm{A}\)</span> and <span class="math inline">\(\mathrm{B}\)</span>, with <span class="math inline">\(C_\mathrm{A_0} = 1000\ \mathrm{mol/m^3}\)</span> and <span class="math inline">\(C_\mathrm{B_0} = 4000\ \mathrm{mol/m^3}\)</span> at a feed rate of <span class="math inline">\(200\ \mathrm{kg/min}\)</span>. <br><br> Over the range of possible concentrations for <span class="math inline">\(\mathrm{A}\)</span>, <span class="math inline">\(\mathrm{B}\)</span>, and <span class="math inline">\(\mathrm{P}\)</span>, the density of the aqueous solution is <span class="math inline">\(1000\ \mathrm{kg/m^3}\)</span>. <br><br> The constraints from the separators and the recycle loop require that <span class="math inline">\(f_\mathrm{A}\)</span> be <span class="math inline">\(80\%\)</span>, and that the reactor temperature be <span class="math inline">\(60\ ^\circ \mathrm{C}\)</span>. <br><br> Design and compare a tubular reactor (PFR) and a mixed reactor (CSTR) to process the required flow and achieve the required conversion. For completeness, design a batch processing scheme with the same feed rate and temperature, where the batch switchover time (the time from one batch ending to the next batch starting) is 2 minutes.</p>
+<p>The plant is designed to feed the reactor with an aqueous solution of <span class="math inline">\(\mathrm{A}\)</span> and <span class="math inline">\(\mathrm{B}\)</span>, with <span class="math inline">\(C_\mathrm{A_0} = 1000\ \mathrm{mol/m^3}\)</span> and <span class="math inline">\(C_\mathrm{B_0} = 4000\ \mathrm{mol/m^3}\)</span> at a feed rate of <span class="math inline">\(200\ \mathrm{kg/min}\)</span>. <br><br></p>
+<div class="fragment">
+<p>Over the range of possible concentrations for <span class="math inline">\(\mathrm{A}\)</span>, <span class="math inline">\(\mathrm{B}\)</span>, and <span class="math inline">\(\mathrm{P}\)</span>, the density of the aqueous solution is <span class="math inline">\(1000\ \mathrm{kg/m^3}\)</span>. <br><br></p>
+</div>
+<div class="fragment">
+<p>The constraints from the separators and the recycle loop require that <span class="math inline">\(f_\mathrm{A}\)</span> be <span class="math inline">\(80\%\)</span>, and that the reactor temperature be <span class="math inline">\(60\ ^\circ \mathrm{C}\)</span>. <br><br></p>
+</div>
+<div class="fragment">
+<p>Design and compare a tubular reactor (PFR) and a mixed reactor (CSTR) to process the required flow and achieve the required conversion. For completeness, design a batch processing scheme with the same feed rate and temperature, where the batch switchover time (the time from one batch ending to the next batch starting) is 2 minutes.</p>
+</div>
 </div>
 </section>
 <section id="kinetics-solution" class="slide level2">
 <h2>Kinetics Solution</h2>
 <p>We need</p>
+<div class="fragment">
 <p><span class="math display">\[
 k = 1 \times 10^{12} \mathrm{\frac{m^3}{mol \cdot s}} e^{\frac{-12,000}{T}}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 = 1 \times 10^{12}  e^{\frac{-12,000}{(60 +273.15)}} = 2.274 \times 10^{-4}\ \mathrm{\frac{m^3}{mol \cdot s}}
-\]</span> <span class="math display">\[
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
 -r_\mathrm{A} = k C_\mathrm{A} C_\mathrm{B} = k C_\mathrm{A_0}(1-f_\mathrm{A})C_\mathrm{B_0}(1-f_\mathrm{B})
 \]</span></p>
+</div>
+<div class="fragment">
 <p>Since <span class="math inline">\(C_\mathrm{B_0} = 4 C_\mathrm{A_0}\)</span>, then <span class="math inline">\(\dot{n}_\mathrm{B_0} = 4 \dot{n}_\mathrm{A_0}\)</span>. The moles of <span class="math inline">\(\mathrm{B}\)</span> reacted or converted, <span class="math inline">\(\dot{n}_\mathrm{B_0} - \dot{n}_\mathrm{B}\)</span> equals twice the moles of <span class="math inline">\(\mathrm{A}\)</span> converted from stoichiometry, so</p>
+</div>
 </section>
 <section id="kinetics-solution-cont." class="slide level2">
 <h2>Kinetics Solution (cont.)</h2>
 <p><span class="math display">\[
 \dot{n}_{\mathrm{B}_0} - \dot{n}_\mathrm{B} = 2(\dot{n}_{\mathrm{A}_0} - \dot{n}_\mathrm{A})
 \]</span></p>
+<div class="fragment">
 <p><span class="math display">\[
 \frac{\dot{n}_{\mathrm{B}_0} - \dot{n}_\mathrm{B}}{\dot{n}_{\mathrm{B}_0}} = 2\frac{(\dot{n}_{\mathrm{A}_0} - \dot{n}_\mathrm{A})}{4 \dot{n}_\mathrm{A_0}}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 f_\mathrm{B} = \frac{1}{2} f_\mathrm{A}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 -r_\mathrm{A} = 4 k C_\mathrm{A_0}^2(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})
 \]</span></p>
+</div>
+<div class="fragment">
 <p>Also <span class="math display">\[
 \dot{V}_0 = \frac{\dot{m}}{\rho} = \frac{200\ \mathrm{\frac{kg}{min}}}{1000\ \mathrm{\frac{kg}{m^3}}} = 0.200\ \mathrm{\frac{m^3}{min}}
 \]</span></p>
+</div>
 </section>
 <section id="totally-tubular-solution" class="slide level2">
 <h2>Totally Tubular Solution</h2>
 <div style="font-size: 90px;">
 <p>The design equation for the PFR is</p>
+<div class="fragment">
 <p><span class="math display">\[
 \tau = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})} = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{4 k C_\mathrm{A_0}^2(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 = \frac{1}{4 k C_\mathrm{A_0}} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})} = \frac{1}{2 k C_\mathrm{A_0}} \ln \frac{2-f_\mathrm{A}}{2(1-f_\mathrm{A})}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>For <span class="math inline">\(f_\mathrm{A} = 0.8\)</span>,</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \tau = \frac{1}{2 k C_\mathrm{A_0}} \ln \frac{2-f_\mathrm{A}}{2(1-f_\mathrm{A})} = \frac{1}{2 \cdot 2.274 \times 10^{-4} \cdot 1000} \ln \frac{2-0.8}{2(1-0.8)}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\tau = 2.416\ \mathrm{min}\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \tau = \frac{V_R}{\dot{V_0}},\ \ \ V_R = \tau \dot{V_0} = 2.416\ \mathrm{min} \cdot 0.2\ \frac{\mathrm{m^3}}{\mathrm{min}} = 0.4831\ \mathrm{m^3}
 \]</span></p>
 </div>
+</div>
 </section>
 <section id="wishing-upon-a-cstr" class="slide level2">
 <h2>Wishing Upon a CSTR</h2>
-<div style="font-size: 90px;">
+<div style="font-size: 85px;">
 <p>The design equation for a CSTR is</p>
-<p><span class="math display">\[
+<div class="fragment">
+<p><br><span class="math display">\[
 \tau = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{4 k C_\mathrm{A_0}^2(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})}= \frac{f_\mathrm{A}}{4 k C_\mathrm{A_0}(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})}
 \]</span></p>
-<p><span class="math display">\[
+</div>
+<div class="fragment">
+<p><br><span class="math display">\[
 \tau = \frac{0.8}{4 \cdot 2.274 \times 10^{-4} \cdot 1000 \cdot (1-0.8)(1 - 0.4)} = 7.329\ \mathrm{min}
 \]</span></p>
-<p><span class="math display">\[
+</div>
+<div class="fragment">
+<p><br><span class="math display">\[
 \tau = \frac{V_R}{\dot{V}},\ \ \ V_R = \tau \dot{V} = 7.329\ \mathrm{min} \cdot 0.2\ \frac{\mathrm{m^3}}{\mathrm{min}} = 1.466\ \mathrm{m^3}
 \]</span></p>
+</div>
 </div>
 </section>
 <section id="batch-reactor" class="slide level2">
 <h2>Batch Reactor</h2>
+<div style="font-size: 96px;">
+<div class="fragment">
 <p>Since the feed and flow conditions are the same, the batch time will equal the space time for the PFR, so</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 t = 2.416\ \mathrm{min}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>The total processing time is the sum of the batch time and the switchover time</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 t_\mathrm{total} = t + t_\mathrm{switchover} = 2.416 + 2 = 4.416\ \mathrm{min}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>We have to process <span class="math inline">\(V = \dot{V} t_\mathrm{total} = 0.2 \cdot 4.416 = 0.8832\ \mathrm{m^3}\)</span> in the total time. We could build one reactor with that volume, or we could build two reactors with 1/2 that volume, and switch back and forth between them. Economics would determine the final choice based on capital costs and labor costs. The single reactor would probably, but not necessarily be the more economical.</p>
+</div>
+</div>
 </section>
 <section id="comparison" class="slide level2">
 <h2>Comparison</h2>
