@@ -484,7 +484,7 @@
 <p><span class="math inline">\(\dot{n}_{i,2}^{l_2} = x_i^{l_2} \dot{n}_2^{l_2} = 120 x_i^{l_2}\ \ \ \ (i=\mathrm{AA,\ CL,\ H_2O})\)</span></p>
 <p><span class="math inline">\(z_i = \dfrac{\dot{n}_{i,1}^{l_1} + \dot{n}_{i,2}^{l_2}}{\dot{n}_\mathrm{tot}}=\dfrac{180 x_i^{l_1} + 120 x_i^{l_2}}{300}\ \ \ \ (i=\mathrm{AA,\ CL,\ H_2O})\)</span></p>
 <p><span class="math inline">\(z_\mathrm{AA} = 0.300,\ \ \ \ z_\mathrm{CL} = 0.400,\ \ \ \ z_\mathrm{H2O} = 0.300\)</span></p>
-<p><span class="math inline">\(\mathcal{L}^3 = \dfrac{x_i^{l_3} - z_i}{x_i^{l_3} - x_i^{l_4}}\ \ \ \ \mathcal{L}^4 = 1 - \mathcal{L}^3\)</span></p>
+<p><span class="math inline">\(\mathcal{L}^3 = \dfrac{z_i - x_i^{l_4}}{x_i^{l_3} - x_i^{l_4}}\ \ \ \ \mathcal{L}^4 = 1 - \mathcal{L}^3\)</span></p>
 <p><span class="math inline">\(\text{Need }x_\mathrm{AA}^{l_3},\ x_\mathrm{CL}^{l_3},\ x_\mathrm{H_2O}^{l_3},\ x_\mathrm{AA}^{l_4},\ x_\mathrm{CL}^{l_4},\ x_\mathrm{H_2O}^{l_4}\)</span></p>
 </section>
 <section id="ternary-phase-diagram" class="slide level2">
@@ -513,7 +513,7 @@
 <p><span class="math inline">\(z_\mathrm{AA} = 30.0\%,\ \ \ \ z_\mathrm{CL} = 40.0\%,\ \ \ \ z_\mathrm{H2O} = 30.0\%\)</span></p>
 <p><span class="math inline">\(x_\mathrm{AA}^{l_3} = 32.6\%,\ \ \ \ x_\mathrm{CL}^{l_3} = 1.0\%,\ \ \ \ x_\mathrm{H_2O}^{l_3} = 66.4\%\)</span></p>
 <p><span class="math inline">\(x_\mathrm{AA}^{l_4} = 28.1\%,\ \ \ \ x_\mathrm{CL}^{l_4} = 69.6\%,\ \ \ \ x_\mathrm{H_2O}^{l_4} = 2.3\%\)</span></p>
-<p>The liquid-fraction values for each species were calculated with <span class="math inline">\(\mathcal{L}^3 = \dfrac{x_i^{l_3} - z_i}{x_i^{l_3} - x_i^{l_4}}\)</span> and then averaged.</p>
+<p>The liquid-fraction values for each species were calculated with <span class="math inline">\(\mathcal{L}^3 = \dfrac{z_i - x_i^{l_4}}{x_i^{l_3} - x_i^{l_4}}\)</span> and then averaged.</p>
 <p><span class="math inline">\(\mathcal{L}_\mathrm{mean}^3 = 43.1\%,\ \ \ \ \mathcal{L}_\mathrm{mean}^4 = 56.9\%\)</span></p>
 <p><span class="math inline">\(\dot{n}_3^{l_3} = \mathcal{L}_\mathrm{mean}^3 \dot{n}_\mathrm{tot} = 0.431 \mathbf{\cdot} 300 = 129\ \mathrm{mol/min}\)</span></p>
 <p><span class="math inline">\(\dot{n}_4^{l_4} = \mathcal{L}_\mathrm{mean}^4 \dot{n}_\mathrm{tot} = 0.569 \mathbf{\cdot} 300 = 171\ \mathrm{mol/min}\)</span></p>
@@ -525,6 +525,47 @@
 <section id="dwsim-solution" class="slide level2">
 <h2>DWSIM Solution</h2>
 <p>Here is the PFD and results of using DWSIM to solve this example problem.</p>
+<p><img data-src="LiqLiqExtFlowsheet.png" class="absolute" style="top: 19%; left: 25%; width: 50%; "></p>
+<div class="absolute" style="font-size: 60px;top: 24%; left: 0%; ">
+<p>Stream 3<br> <span class="math inline">\(\dot{n} = 128.8\ \mathrm{mol/min}\)</span><br> <span class="math inline">\(x_\mathrm{AA} = 32.4\%\)</span><br> <span class="math inline">\(x_\mathrm{CL} = 0.92\%\)</span><br> <span class="math inline">\(x_\mathrm{H_2O} = 66.7\%\)</span><br></p>
+</div>
+<div class="absolute" style="font-size: 60px;top: 24%; right: 0%; ">
+<p>Stream 4<br> <span class="math inline">\(\dot{n} = 171.2\ \mathrm{mol/min}\)</span><br> <span class="math inline">\(x_\mathrm{AA} = 28.2\%\)</span><br> <span class="math inline">\(x_\mathrm{CL} = 69.4\%\)</span><br> <span class="math inline">\(x_\mathrm{H_2O} = 2.41\%\)</span><br></p>
+</div>
+<div style="font-size: 30px;">
+<div class="absolute" style="top: 50%; left: 0%; ">
+<div class="columns">
+<div class="column" style="width:25%;">
+<p>Calculation results for Material Stream L1<br> Compounds: { Acetic acid, Chloroform, Water, }<br> Specification: Temperature and Pressure<br> Temperature: 298.15 K<br> Pressure: 101325 Pa<br> Property Package: Modified UNIFAC (NIST)<br></p>
+<p>Vapor Phase Molar Fraction 0<br> Liquid Phase 1 Molar Fraction 1<br> Liquid Phase 2 Molar Fraction 0<br></p>
+<p>[Liquid Phase] Mass Flow 0.117101 kg/s<br> [Liquid Phase] Molar Flow 3 mol/s<br> [Liquid Phase] Volumetric Flow 0.00011491 m3/s<br></p>
+<p>[Liquid Phase] Acetic acid Mole Frac 0.5<br>
+[Liquid Phase] Chloroform Mole Frac 0<br>
+[Liquid Phase] Water Mole Frac 0.5</p>
+<p>[Liquid Phase] Acetic acid Mole Flow 1.5 mol/s [Liquid Phase] Chloroform Mole Flow 0 mol/s [Liquid Phase] Water Mole Flow 1.5 mol/s</p>
+</div><div class="column" style="width:25%;">
+<p>Calculation results for Material Stream L2<br> Compounds: { Acetic acid, Chloroform, Water, }<br> Specification: Temperature and Pressure<br> Temperature: 298.15 K<br> Pressure: 101325 Pa<br> Property Package: Modified UNIFAC (NIST)<br></p>
+<p>Vapor Phase Molar Fraction 0<br> Liquid Phase 1 Molar Fraction 1<br> Liquid Phase 2 Molar Fraction 0<br></p>
+<p>[Liquid Phase] Mass Flow 0.238755 kg/s<br> [Liquid Phase] Molar Flow 2 mol/s<br> [Liquid Phase] Volumetric Flow 0.00016021 m3/s<br></p>
+<p>[Liquid Phase] Acetic acid Mole Frac 0<br> [Liquid Phase] Chloroform Mole Frac 1<br> [Liquid Phase] Water Mole Frac 0<br></p>
+<p>[Liquid Phase] Acetic acid Mole Flow 0 mol/s<br> [Liquid Phase] Chloroform Mole Flow 2 mol/s<br> [Liquid Phase] Water Mole Flow 0 mol/s<br></p>
+</div><div class="column" style="width:25%;">
+<p>Calculation results for Material Stream L3<br> Compounds: { Acetic acid, Chloroform, Water, }<br> Specification: Pressure and Enthalpy<br> Pressure: 101325 Pa<br> Enthalpy: -1431.7079925153 kJ/kg<br> Property Package: Modified UNIFAC (NIST)</p>
+<p>Stream Temperature 296.397 K<br> Stream Pressure 101325 Pa<br></p>
+<p>Vapor Phase Molar Fraction 0<br> Liquid Phase 1 Molar Fraction 1<br> Liquid Phase 2 Molar Fraction 0<br></p>
+<p>[Liquid Phase] Mass Flow 0.069894 kg/s<br> [Liquid Phase] Molar Flow 2.14627 mol/s<br> [Liquid Phase] Volumetric Flow 6.8864E-05 m3/s<br></p>
+<p>[Liquid Phase] Acetic acid Mole Frac 0.323883<br> [Liquid Phase] Chloroform Mole Frac 0.00922527<br> [Liquid Phase] Water Mole Frac 0.666891<br></p>
+<p>[Liq. Ph.] Acetic acid Mole Flow 0.695141 mol/s<br> [Liq. Ph.] Chloroform Mole Flow 0.01980 mol/s<br> [Liq. Ph.] Water Mole Flow 1.43133 mol/s<br></p>
+</div><div class="column" style="width:25%;">
+<p>Calculation results for Material Stream L4<br> Compounds: { Acetic acid, Chloroform, Water, }<br> Specification: Pressure and Enthalpy<br> Pressure: 101325 Pa<br> Enthalpy: -361.464104380024 kJ/kg<br> Property Package: Modified UNIFAC (NIST)<br></p>
+<p>Stream Temperature 296.397 K<br> Stream Pressure 101325 Pa<br></p>
+<p>Vapor Phase Molar Fraction 0<br> Liquid Phase 1 Molar Fraction 1<br> Liquid Phase 2 Molar Fraction 0<br></p>
+<p>[Liquid Phase] Mass Flow 0.285962 kg/s<br> [Liquid Phase] Molar Flow 2.85373 mol/s<br> [Liquid Phase] Volumetric Flow 0.00021699 m3/s<br></p>
+<p>[Liquid Phase] Acetic acid Mole Frac 0.282037<br> [Liquid Phase] Chloroform Mole Frac 0.693899<br> [Liquid Phase] Water Mole Frac 0.0240638<br></p>
+<p>[Liq. Ph.] Acetic acid Mole Flow 0.804859 mol/s<br> [Liq. Ph.] Chloroform Mole Flow 1.9802 mol/s<br> [Liq. Ph.] Water Mole Flow 0.0686717 mol/s<br></p>
+</div></div>
+</div>
+</div>
 </section>
 <section id="the-takeaways-2" class="slide level2">
 <h2>The Takeaways</h2>
