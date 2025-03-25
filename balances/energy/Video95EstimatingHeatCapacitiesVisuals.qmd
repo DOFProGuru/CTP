@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Estimating Heat Capacities and Latent Heats </br>Just the Facts{.bigbold75}
+# Estimating Heat Capacities and Latent Heats
 
 ::: {style="text-align: center;"}
 DOFPro Team
