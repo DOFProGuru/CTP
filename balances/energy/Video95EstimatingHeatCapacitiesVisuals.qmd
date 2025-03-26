@@ -20,27 +20,46 @@ DOFPro Team
 
 ## Estimating Formulas
 
-If the tabulated data are missing </br>
-use a formula like Kopp's rule
+::::{.columns}
+:::{.column width=50%}
+If the tabulated data are missing 
+use a formula like Kopp's rule,
 
-$\hspace{3pt} (C_p)_{\text{compound}} = \sum\limits_{\text{all atoms}} C_{pa}$
-
-$\hspace{1pt}$
+$$
+(C_p)_{\mathrm{compound}} = \sum_\text{all atoms} C_{pa}
+$$
 
 How about mixtures?
-
-$\hspace{1pt}$
-
-Lacking other data, use a </br>
+<br/><br/>
+Lacking other data, use a
 weighted average.
+:::
+:::{.column width=50%}
 
-{image}
+:::{style="font-size: 90px;"}
+|Element|Solids|Liquids|
+|-------|------|-------|
+|C|7.5|12|
+|H|9.6|18|
+|B|11|20|
+|Si|16|24|
+|O|17|25|
+|F|21|29|
+|P|23|31|
+|S|26|31|
+|All others|26|33|
+
+: Atomic Heat-Capacity Contributions for Kopp’s Rule $C_{pa}$ (J/g-atom°C)
+
+:::
+:::
+::::
 
 ## 
  
-The $C_p \Delta T$ changes are known as $\textit{sensible heat changes}$. During a
+The $C_p \Delta T$ changes are known as *sensible heat changes*. During a
 phase change, heat is added without a change in temperature.
-Such changes are $\textit{latent heat changes}$.
+Such changes are *latent heat changes*.
 
  * Latent heat of vaporization, $\hspace{4pt} \Delta \hat{H}_v$
  * Latent heat of fusion, $\hspace{4pt} \Delta \hat{H}_m$
@@ -48,7 +67,9 @@ Such changes are $\textit{latent heat changes}$.
 
 $\hspace{1mm}$
 
-Why $\Delta H$? Why not $\Delta U$?
+:::{.fragment}
+Why $\Delta \hat{H}$? Why not $\Delta \hat{U}$?
+:::
 
 ## 
 
@@ -84,12 +105,16 @@ or
 
 $\hspace{1mm}$
 
-The book lies a little. It should say on page $265$, "If a phase change takes place in a $\textit{constant volume}$ closed system..."
+If a phase change takes place in a *constant volume* closed system, then $\Delta \hat{U}$ must be evaluated as 
 
 $\hspace{1mm}$
 
-<center> $\Delta \hat{U}_m \approx \Delta \hat{H}_m$ </center>
+<center>$\Delta \hat{U} = \Delta \hat{H} - \Delta(P\hat{V})$</center>
+$\hspace{1mm}$
 
+
+<center> $\Delta \hat{U}_m \approx \Delta \hat{H}_m$ </center>
+$\hspace{1mm}$
 <center> $\Delta \hat{U}_v \approx \Delta \hat{H}_v - RT$ </center>
 
 ##
@@ -102,27 +127,30 @@ How do you evaluate latent heats?
 
 $\hspace{1mm}$
 
-$\textbf{Trouton's Rule (within 30\% accuracy)}$ </br>
+**Trouton's Rule (within 30\% accuracy)**</br>
 nonpolar liquids
-<center> $(\Delta \hat{H}_v)_{nbp}$ [$\textrm{kJ/mol}$] $\approx 0.0088T_b (K)$ </center>
+<center> $(\Delta \hat{H}_v)_\mathrm{nbp}$ [$\mathrm{kJ/mol}$] $\approx 0.0088T_\mathrm{b} (K)$ </center>
 
 $\hspace{1mm}$
 
 water, low-MW alcohols
 
-<center> $(\Delta \hat{H}_v)_{nbp}$ [$\textrm{kJ/mol}$] $\approx 0.109T_b (K)$ </center>
+<center> $(\Delta \hat{H}_v)_\mathrm{nbp}$ [$\mathrm{kJ/mol}$] $\approx 0.109T_\mathrm{b} (K)$ </center>
 
-## Chen's equation (within 2% accuracy)
+##
 
-$\hspace{1mm}$
+**Chen's equation (within 2% accuracy)**
 
-<center> $(\Delta \hat{H}_v)_{nbp} = \dfrac{T_b[0.331(T_b/T_c) - 0.0327 + 0.0297\log_{10} P_c]}{1.07 - (T_b / T_c)}$ </center>
-
-with $T$'s in Kelvin, $P$ in atm, and $\Delta H$ in $\textrm{kJ/mol}$
 
 $\hspace{1mm}$
 
-Also $\textbf{Clausius and Claperyon backwards}$
+<center> $(\Delta \hat{H}_v)_\mathrm{nbp} = \dfrac{T_b[0.0331(T_\mathrm{b}/T_\mathrm{c}) - 0.0327 + 0.0297\log_{10} P_c]}{1.07 - (T_b / T_\mathrm{c})}$ </center>
+
+with $T$'s in Kelvin, $P$ in atm, and $\Delta \hat{H}$ in $\mathrm{kJ/mol}$
+
+$\hspace{1mm}$
+
+Also **Clausius and Claperyon backwards**
 
 <center>$\ln p^* = -\dfrac{\Delta \hat{H}_v}{RT} + B$</center>
 
@@ -131,51 +159,72 @@ Also $\textbf{Clausius and Claperyon backwards}$
 ##
 
 And finally if you have $\Delta \hat{H}_v$ at one temperature and you need it at
-another, the $\textbf{Watson correlation}$
+another, the **Watson correlation**
 
-<center> $\dfrac{\Delta \hat{H}_v (T_2)}{\Delta \hat{H}_v (T_1)} = (\dfrac{T_c - T_2}{T_c - T_1})$ </center>
+<center> $\dfrac{\Delta \hat{H}_v (T_2)}{\Delta \hat{H}_v (T_1)} = (\dfrac{T_\mathrm{c} - T_2}{T_\mathrm{c} - T_1})$ </center>
 
 $\hspace{1mm}$
 
-$\textbf{Page 266's Rule (??\% accurate)}$ </br>
+**Page 266's Rule (??\% accurate)** </br>
 For metallic elements
 
-<center>$\Delta \hat{H}_v (\textrm{kJ/mol}) \approx 0.0092 T_m (K)$</center>
+<center>$\Delta \hat{H}_m (\mathrm{kJ/mol}) \approx 0.0092 T_m (K)$</center>
 
 For inorganic compounds
-<center>$\Delta \hat{H}_v (\textrm{kJ/mol}) \approx 0.0025 T_m (K)$</center>
+<center>$\Delta \hat{H}_m (\mathrm{kJ/mol}) \approx 0.0025 T_m (K)$</center>
 
 For organic compounds
-<center>$\Delta \hat{H}_v (\textrm{kJ/mol}) \approx 0.050 T_m (K)$</center>
+<center>$\Delta \hat{H}_m (\mathrm{kJ/mol}) \approx 0.050 T_m (K)$</center>
 
 
 ## Valuable Numbers to Know
 
-$\textit{Approximate}$ Heat Capacities
+::::{.columns}
+:::{.column width=50%}
 
-{image}
-
-Water values
-
-$\hspace{1mm}$
-
-$C_p [\dfrac{\textrm{Btu}}{lb_m ^{\circ} F}]$ or $[\dfrac{\textrm{cal}}{g ^{\circ} C}]$
-
-Steam $\approx 0.5$
-
-Water $\approx 1.0$
-
-Ice $\approx 0.5$
-
-$\Delta \hat{H}_v \approx 1000 [\dfrac{\textrm{Btu}}{lb_m ^{\circ} F}]$
-
-$\Delta \hat{H}_m \approx 150 [\dfrac{\textrm{Btu}}{lb_m ^{\circ} F}]$
-
-
-#
-
-::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::{style="font-size:95px;"}
+***Approximate* Heat Capacities**
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+<br/>
+
+| Gas Type | $C_p$ | $C_v$ |
+|----------|-------|-------|
+|Monatomic |$\frac{3}{2}R$|$\frac{5}{2}R$|
+| Diatomic |$\frac{5}{2}R$|$\frac{7}{2}R$|
+
+:::
+:::{.column width=50%}
+
+<center>**Water values**</center>
+<br/>
+$C_p\text{ in } \left[\mathrm{\dfrac{Btu}{lb_m\ ^{\circ} F}}\right] \text{ or } \left[\mathrm{\dfrac{cal}{g\ ^{\circ} C}}\right]$
+
+:::{style="font-size:20px;"}
+<br/><br/>
+:::
+
+&nbsp;Steam $\approx 0.5$
+
+&nbsp;Water $\approx 1.0$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ice $\approx 0.5$
+
+$\Delta \hat{H}_v \approx 1000\ \left[\mathrm{\dfrac{Btu}{lb_m}}\right]$
+
+$\ \Delta \hat{H}_m \approx 150\ \left[\mathrm{\dfrac{Btu}{lb_m}}\right]$
+
+:::
+::::
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->

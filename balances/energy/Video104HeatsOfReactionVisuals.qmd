@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Heats of Reaction, Formation, and Combustion </br>Just the Facts{.bigbold75}
+# Heats of Reaction, Formation, and Combustion
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -22,14 +22,11 @@ DOFPro Team
 
 If we have a chemical reaction, such as
 
-
 $$
-aA + bB \rightarrow cC + dD
+a\mathrm{A} + b\mathrm{B} \rightarrow c\mathrm{C} + d\mathrm{D}
 $$
 
-
-
-We can run it in an isothermal chemical reactor, either as an open
+we can run it in an isothermal chemical reactor, either as an open
 steady-state system or as a closed constant-pressure system.
 
 {image}
@@ -47,8 +44,8 @@ coefficients, you double the heat of reaction.
 <br></br>
 
 The heat of reaction is a function of temperature. At the standard
-reference temperature ($25\text{ } ^{\circ}\text{C}$ for E82), the heat of reaction is the
-*standard heat of reaction*.
+reference temperature ($25\ ^{\circ}\text{C}$ for the DOFPro videos), the heat of reaction is the
+*standard heat of reaction*. [Wikipedia](https://en.wikipedia.org/wiki/Heat_of_combustion#Heat_of_combustion_tables) has reasonable table of heats of combustion, which are heats of reaction for burning fuels in air. They are discussed further later in the video.
 
 <br></br>
 
@@ -60,11 +57,11 @@ heat changes and any phase changes since $H$ is a state function.
 
 The *heat of formation* or *enthalpy of formation* is the standard
 heat of reaction for forming one mole of product, starting from
-pure elements at their standard form of aggregation at $T_{ref}$. For
+pure elements at their standard form of aggregation at $T_\mathrm{ref}$. For
 example, the standard states at $25\text{ } ^{\circ}\text{C}$ for oxygen and nitrogen are
-the diatomic gases $\textrm{O}_2$(g) and $\textrm{N}_2$(g). The standard heat of formation
+the diatomic gases $\mathrm{O_2 (g)}$ and $\mathrm{N_2 (g)}$. The standard heat of formation
 for any element in its standard form of aggregation is $0$ by
-definition.
+definition. [Wikipedia](https://en.wikipedia.org/wiki/Standard_enthalpy_of_formation) has a reasonably good table of standard enthalpies of formation.
 
 <br></br>
 
@@ -74,7 +71,7 @@ coefficients. Don’t forget phase changes.
 
 
 $$
-\Delta H^{\circ}_r = \sum v_i \Delta H^{\circ}_{f, i}
+\Delta \hat{H}^{\circ}_r = \sum \nu_i \Delta \hat{H}^{\circ}_{f, i}
 $$
 
 
@@ -87,37 +84,36 @@ overall reaction as the one you want.
 
 <br>
 
-Example $9.2-1$ from FRB.
+Example
 
- 1. $\textrm{C}_2 \textrm{H}_6 + \dfrac{7}{2} \textrm{O}_2 \rightarrow 2\textrm{C}\textrm{O}_2 + 3\textrm{H}_2\textrm{O}: \hspace{10pt}\Delta H^{\circ}_{r1} = -1559.8 \textrm{kJ/mol}$
+:::{style="font-size: 95px;"}
+ 1. $\mathrm{C_2H_6} + \dfrac{7}{2} \mathrm{O_2} \rightarrow 2\mathrm{CO_2} + 3\mathrm{H_2O}: \hspace{10pt}\Delta \hat{H}^{\circ}_{r1} = -1559.8\ \mathrm{kJ/mol}$
 
- 2. $\textrm{C} + \textrm{O}_2 \rightarrow \textrm{C}\textrm{O}_2: \hspace{10pt}\Delta H^{\circ}_{r2} = -393.5 \textrm{kJ/mol}$
+ 2. $\mathrm{C} + \mathrm{O_2} \rightarrow \mathrm{CO_2}: \hspace{10pt}\Delta \hat{H}^{\circ}_{r2} = -393.5\ \mathrm{kJ/mol}$
 
- 3. $\textrm{H}_2 + \dfrac{1}{2} \textrm{O}_2 \rightarrow \textrm{H}_2\textrm{O}: \hspace{10pt}\Delta H^{\circ}_{r3} = -285.8 \textrm{kJ/mol}$
+ 3. $\mathrm{H_2} + \dfrac{1}{2} \mathrm{O_2} \rightarrow \mathrm{H_2O}: \hspace{10pt}\Delta \hat{H}^{\circ}_{r3} = -285.8 \mathrm{kJ/mol}$
+:::
 
 ##
 
 Add $2$ Equation $2$'s to $3$ Equation $3$'s and subtract $1$ Equation $1$
 
-
+:::{style="font-size: 80px;"}
 $$
-\small{2 \textrm{C} + 3\textrm{H}_2 + 2\textrm{O}_2 + \dfrac{3}{2} \textrm{O}_2 - \dfrac{7}{2} \textrm{O}_2 \rightarrow 2\textrm{C}\textrm{O}_2 + 3\textrm{H}_2\textrm{O} - \textrm{C}\textrm{O}_2 - 3\textrm{H}_2\textrm{O} + \textrm{C}_2 \textrm{H}_6}
+2 \mathrm{C} + 3\mathrm{H_2} + 2\mathrm{O_2} + \dfrac{3}{2} \mathrm{O_2} - \dfrac{7}{2} \mathrm{O_2} \rightarrow 2\mathrm{CO_2} + 3\mathrm{H_2O} - \mathrm{CO_2} - 3\mathrm{H_2O} + \mathrm{C_2H_6}
 $$
+:::
 
+4. $\hspace{10pt} 2\mathrm{C} + 3\mathrm{H}_2 \rightarrow \mathrm{C}_2 \mathrm{H}_6$
 
-<br>
-
-$$
-4. \hspace{10pt} 2\textrm{C} + 3\textrm{H}_2 \rightarrow \textrm{C}_2 \textrm{H}_6
-$$
 
 
 <br>
 $$
-\Delta H^{\circ}_{r4} = 2\Delta H^{\circ}_{r2} + 3\Delta H^{\circ}_{r3} - \Delta H^{\circ}_{r1}
+\Delta \hat{H}^{\circ}_{r4} = 2\Delta \hat{H}^{\circ}_{r2} + 3\Delta \hat{H}^{\circ}_{r3} - \Delta \hat{H}^{\circ}_{r1}
 $$ 
 $$
-= 2(-393.5) + 3(-285.8) - (-1559.8) = -84.6 \textrm{kJ/mol}
+= 2(-393.5) + 3(-285.8) - (-1559.8) = -84.6 \mathrm{kJ/mol}
 $$
 
 which is also the heat of formation for ethane.
@@ -128,50 +124,30 @@ which is also the heat of formation for ethane.
 
 If you use different sets of equations to calculate the same final
 equation with Hess’s law, you may find that rounding and
-truncation errors keep the results from being identical. In the
-back of FRB, the heat of formation for ethane is $–84.67$ $\textrm{kJ/mol}$.
+truncation errors keep the results from being identical. The most current value for the enthalpy of formation of ethane from NIST is $–84. \pm0.4\ \mathrm{kJ/mol}$, which is just outside the value we calculated.
 
-## 
-
-
-FRB uses units of $\textrm{kJ}$ or $\textrm{Btu}$ for heats of reaction and heats of
-formation. I use $\textrm{kJ/mol}$ or $\textrm{Btu/lb-mol}$. Why the difference? FRB
-feels that including the basis confuses students. I feel that since
-
-$$
-\Delta H = \xi \Delta \hat{H}_r
-$$
-
-and
-
-$$
-\Delta \hat{H} = \hat{\xi} \Delta \hat{H}_r
-$$
-
-<br>
-
-and the units of extent are moles, and the rate of extent are
-moles/time, including the basis makes perfect sense.
 
 ## The Heat of Combustion
 
 If you have a combustion reaction for a given species, as discussed
-in the Combustion Reactions video, the heat of reaction for
+in the *Flame On, Torch!* video, the heat of reaction for
 complete combustion of one mole of fuel is called the *heat of
 combustion*. As a reminder, for the principal species and complete
-combustion, the combustion products are $\textrm{C}\textrm{O}_2$, $\textrm{H}_2\textrm{O}$, and $\textrm{S}\textrm{O}_2$. $\textrm{C}\textrm{O}_2$
-and $\textrm{S}\textrm{O}_2$ are gases at standard conditions. What about water?
+combustion, the combustion products are $\mathrm{C}\mathrm{O}_2$, $\mathrm{H}_2\mathrm{O}$, and $\mathrm{S}\mathrm{O}_2$. $\mathrm{C}\mathrm{O}_2$
+and $\mathrm{S}\mathrm{O}_2$ are gases at standard conditions. What about water?
 
-<br></br>
+<br>
 
-The accepted convention is to assume water is liquid at $25 \text{ } ^{\circ}\text{C}$ and $1$ atm.
+The value called the *enthalpy of combustion* assumes that water is liquid at $25\ ^{\circ}\mathrm{C}$ and $1\ \mathrm{atm}$. It is alternately called the *Higher Heating Value* (HHV). The enthalpy of combustion calculated assuming water is vapor at  $25\ ^{\circ}\mathrm{C}$ is called the *Lower Heating Value*. The details will be discussed in *TBD*.
 
-
-
-#
-
-::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->

@@ -94,21 +94,16 @@ Much of the work in a First Law problem is deciding which terms are zero or insi
 [^1]: Because we are using $V$ and $v$ for other things, velocity is given the symbol, $u$, and internal energy is given the symbol, $U$. Don't get them confused.
 ---
 
-## Intensive and Extensive Properties 
+## Intensive and Extensive Properties
 
-A property of a substance that *does not* depend on the mass or moles of a substance is an *intensive* property (such as temperature, pressure, or composition). 
+A property of a substance that *does not* depend on the mass or moles of a substance is an *intensive* property(such as temperature, pressure, or composition). 
 
-A property of a substance that *does* depend on the mass or moles of a substance is an extensive property (such as volume, kinetic energy, or internal energy). 
+A property of a substance that *does* depend on the mass or moles of a substance is an *extensive* property (such as volume, kinetic energy, or internal energy). 
 
 It is quite frequently useful to define an intensive property that is related to an extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume or specific internal energy,
 
+$$\hat{V} = \frac{V}{m},\ \ \ \ \hat{U}=\frac{U}{m}$$
 
-$$
-\hat{V} = \frac{V}{m}, \hat{U}=\frac{U}{m}
-$$
-
-
----
 
 ## Enthalpy (pronounced en-THAL-pee) 
 
@@ -258,10 +253,14 @@ Common Path Variables: $Q$, $W$.
 2. You can always rederive the forms, but it's best to memorize the First Law for closed systems, open steady-state systems, and open transient systems.
 3. Much of the work in a First-Law problem is deciding which terms to keep and which to set to zero.
 
-#
-
-::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->

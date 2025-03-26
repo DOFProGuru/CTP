@@ -26,16 +26,18 @@ low temperatures. In these cases, the $PVT$ relationship is more
 complex. We can categorize the non-ideality of the gas with the
 compressibility, $z$.
 
+:::{.fragment}
 $$
 z \equiv \frac{P\hat{V}}{RT}
 $$
+:::
 
+:::{.fragment}
 The lowest temperature at which there is no transition from liquid
 phase to vapor phase with changing pressure is called the critical
-temperature, $T_{c\ }$, and the pressure where the liquid and vapor phase
-boundaries meet is called the critical pressure, $P_{c\ }$.
-
----
+temperature, $T_\mathrm{c\ }$, and the pressure where the liquid and vapor phase
+boundaries meet is called the critical pressure, $P_\mathrm{c\ }$.
+:::
 
 ## Real Gas Calculations
 
@@ -53,86 +55,140 @@ rate of $100.0\ \mathrm{kmol/h}$. Estimate the volumetric flow rate with ideal
 gas, generalized compressibility charts, and SRK. The measured molar volume of
 propane at $423\ \mathrm{K}$ and $70\ \mathrm{atm}$ is $0.2579\ \mathrm{L/mol}$.
 
+:::{.fragment}
 Data from Table 1.
 
 $$
-T_c = 370\ \mathrm{K},\ \ \ \ P_c = 4.23\ \mathrm{MPa}.
+T_\mathrm{c} = 370\ \mathrm{K},\ \ \ \ P_\mathrm{c} = 4.23\ \mathrm{MPa}.
 $$
+:::
 
+:::{.fragment}
 Data from [this link](https://www.kaylaiacovino.com/Petrology_Tools/Critical_Constants_and_Acentric_Factors.htm)
 
 $$
 \omega = 0.153
 $$
+:::
 
 ## Example (cont.)
 
 Ideal Gas
 
+:::{style="font-size: 85px;"}
+:::{.fragment}
 $$
 \hat{V}=\frac{RT}{P} = \frac{8.314\ \mathrm{\frac{J}{mol\ K}\mathbf{\cdot}423\mathrm{K}}}{7.09 \times 10^6\ \mathrm{Pa}} = 4.959 \times 10^{-4}\ \mathrm{\frac{m^3}{mol}} = 0.4959\ \mathrm{\frac{L}{mol}}
 $$
+:::
 
+:::{.fragment}
 $$
 \dot{V}=\dot{n}\hat{V}=100\ \mathrm{\frac{kmol}{h}\mathbf{\cdot}}\mathrm{\frac{1000\ mol}{1\ kmol}} \mathbf{\cdot}4.959 \times 10^{-4}\ \mathrm{\frac{m^3}{mol}} = 49.59\ \mathrm{\frac{m^3}{h}}
 $$
+:::
+:::
 
+:::{.fragment}
 $$
 z_\mathrm{emp} = \frac{\hat{V}_\mathrm{emp}}{\hat{V}_\mathrm{IG}}=\frac{0.2579\ \mathrm{\frac{L}{mol}}}{0.4959\ \mathrm{\frac{L}{mol}}} = 0.5201
 $$
+:::
 
+:::{.fragment}
 $$
 \dot{V}_\mathrm{emp} = z_\mathrm{emp} \dot{V}_\mathrm{IG} = 0.5201 \mathbf{\cdot} 49.59\ \mathrm{\frac{m^3}{h}} = 25.79\ \mathrm{\frac{m^3}{h}}
 $$
+:::
 
 ## Example (cont.)
 
 Generalized Compressibility
 
-![](GenCompChart.png){.absolute bottom=10% right=5% width=50%}
-$$
-P_r = \frac{P}{P_c}=\frac{70}{41.7} = 1.677
-$$
+![](GenCompChart.png){.absolute bottom=27% right=-5% width=60%}
 
-$$
-T_r = \frac{T}{T_c}=\frac{423}{370} = 1.143
-$$
+::::{.columns}
+:::{.column width=50%}
 
-$z = 0.5139$
+:::{style="font-size: 90px;"}
+:::{.fragment}
+$$
+P_\mathrm{r} = \frac{P}{P_\mathrm{c}}=\frac{70}{41.7} = 1.677
+$$
+:::
 
+:::{.fragment}
+$$
+T_\mathrm{r} = \frac{T}{T_\mathrm{c}}=\frac{423}{370} = 1.143
+$$
+:::
+
+:::{.fragment}
+$$z = 0.5139$$
+<br/>
+:::
+:::{.fragment}
 $$
 \dot{V}_\mathrm{GC} = z_\mathrm{GC} \dot{V}_\mathrm{IG} = 25.48\ \mathrm{\frac{m^3}{h}}
 $$
+:::
+:::
+:::
+::::
 
 ## Example (cont.)
 
 Soave Redlich Kwong (all SI units)
 
-$a = 042747 \dfrac{(RT_c)^2}{P_c} = 042747 \dfrac{(8.314 \mathbf{\cdot} 370)^2}{4.23 \times 10^6} =  0.9564$
+:::{style="font-size: 95px;"}
+:::{.fragment}
+$$a = 042747 \dfrac{(RT_\mathrm{c})^2}{P_\mathrm{c}} = 042747 \dfrac{(8.314 \mathbf{\cdot} 370)^2}{4.23 \times 10^6} =  0.9564$$
+:::
 
-$b = 0.08664 \dfrac{RT_c}{P_c} = 0.08664 \dfrac{8.314 \mathbf{\cdot} 370}{4.23 \times 10^6} = 6.301 \times 10^{-5}$
+:::{.fragment}
+$$b = 0.08664 \dfrac{RT_\mathrm{c}}{P_\mathrm{c}} = 0.08664 \dfrac{8.314 \mathbf{\cdot} 370}{4.23 \times 10^6} = 6.301 \times 10^{-5}$$
+:::
 
-$m = 0.48508 + 1.5517 \omega - 0.1561 \omega^2 = 0.7188$
+:::{.fragment}
+$$m = 0.48508 + 1.5517 \omega - 0.1561 \omega^2 = 0.7188$$
+:::
 
-$\alpha = [1+m(1-\sqrt{T_r})]^2 = [1+0.7188(1-\sqrt{370})]^2  = 0.9030$
+:::{.fragment}
+$$\alpha = [1+m(1-\sqrt{T_\mathrm{r}})]^2 = [1+0.7188(1-\sqrt{370})]^2  = 0.9030$$
+:::
+:::
 
 ## Example (cont.)
 
 Soave Redlich Kwong (all SI units)
 
+:::{style="font-size: 90px;"}
+:::{.fragment}
 $$
 P = \frac{RT}{\hat{V} - b} - \frac{\alpha a}{\hat{V}(\hat{V}+b)} \implies f(\hat{V}) = P - \frac{RT}{\hat{V} - b} + \frac{\alpha a}{\hat{V}(\hat{V}+b)}
 $$
+:::
+:::
 
+:::{.fragment}
 Set to 0 with Goal Seek
+:::
 
-$\implies \hat{V} = 2.878 \times 10^{-4}\ \mathrm{\frac{m^3}{mol}}$
+:::{.fragment .absolute left=5% top=40%}
+$$\implies \hat{V} = 2.878 \times 10^{-4}\ \mathrm{\frac{m^3}{mol}}$$
+:::
 
-$z_\mathrm{SRK} = 0.5804$
+:::{.fragment .absolute left=5% top=55%}
+$$z_\mathrm{SRK} = 0.5804$$
+:::
 
-$\dot{V}_\mathrm{SRK} = 28.78\ \mathrm{\frac{m^3}{h}}$
+:::{.fragment .absolute left=5% top=65%}
+$$\dot{V}_\mathrm{SRK} = 28.78\ \mathrm{\frac{m^3}{h}}$$
+:::
 
-![](RealGasSummary.png){.absolute top=80% right=0% width=60%}
+:::{.fragment}
+![](RealGasSummary.png){.absolute bottom=17.5% right=0% width=60%}
+:::
 
 ## Example Spreadsheet
 
@@ -140,7 +196,7 @@ $\dot{V}_\mathrm{SRK} = 28.78\ \mathrm{\frac{m^3}{h}}$
 
 ## The Takeaways
 
-1. Real gases are characterized by at least two experimental parameters, $P_c$ and $T_c$.
+1. Real gases are characterized by at least two experimental parameters, $P_\mathrm{c}$ and $T_\mathrm{c}$.
 2. When a third parameter is needed for greater accuracy, the acentric factor, $\omega$, is used.
 3. Real-gas properties can be characterized graphically with the generalized compressibility charts.
 4. Real-gas properties can also be characterized by equations of state, such as the virial equation and the Soave-Redlich-Kwong equation.

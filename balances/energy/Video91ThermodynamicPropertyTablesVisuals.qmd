@@ -8,9 +8,10 @@ format:
     incremental: true
     theme: [serif, ../../gradient.scss]
     html-math-method: mathjax
+
 ---
 
-# Thermodynamic Property Tables </br>Just the Facts{.bigbold75}
+# Thermodynamic Property Tables
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -20,21 +21,32 @@ DOFPro Team
 
 ## Gibbs Phase Rule
 
-* $\ \ \ \boxed{DF\ =\ 2+c - \Pi}$ 
+:::{fragment}
+$\ \ \ \ \ \boxed{DF\ =\ 2+c - \Pi}$ 
+:::
 
- 1. A Degree of Freedom, DF, is a coordinate or variable.
- 2. A Component, $c$, is a chemical species, e.g. $\mathrm{Al_2O_3}$.
- 3. A Phase, ∏, is a physical entity with a uniform composition, temperature, pressure and specific volume.
- 4. For a single component system with one phase $\\ \text{DF} = 2 + 1 – 1 = 2$.
- 5. For a single component system with two phases $\\ \text{DF} = 2 + 1 – 2 = 1$.
+ - A *Degree of Freedom*, $DF$, is a coordinate or variable.
+ - A *Component*, $c$, is a chemical species, e.g. $\mathrm{Al_2O_3}$.
+ - A *Phase*, $\Pi$, is a physical entity with a uniform composition, temperature, pressure and specific volume.
+ - For a single component system with one phase $\\ DF = 2 + 1 – 1 = 2$.
+ - For a single component system with two phases $\\ DF = 2 + 1 – 2 = 1$.
 
-## 
+## Steam-Water $T\text{-}\hat{S}$ Diagram
 
-{image}
+![](T-s_diagram_modified.png)<!--{.absolute top=0% left=0% width=100%}-->
 
-## 
+:::{.absolute bottom=-2% left=0%}
+<a href="https://commons.wikimedia.org/wiki/User:Kaboldy">Kaboldy</a>, <a href="https://commons.wikimedia.org/wiki/File:T-s_diagram.svg">T-s diagram</a>, Font and spacing, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>
+:::
 
-{image}
+## Steam-Water $P\text{-}\hat{H}$ Diagram
+
+![](P-H_chart_for_steam.png){.absolute left=12% top=10% height=85%}
+
+
+:::{.absolute bottom=-2% left=0% style="font-size: 85px;"}
+<a href="/wiki/User_talk:Emok">Emok</a>, <a href="https://commons.wikimedia.org/wiki/File:Pressure-enthalpy_chart_for_steam,_in_US_units.svg">Pressure-enthalpy chart for steam, in US units</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>
+:::
 
 ##
 
@@ -48,38 +60,47 @@ DOFPro Team
 
 {image}
 
-## In the single-phase region (superheated steam)
+##
 
-* $DF = 2$
+:::{style="font-size: 125px;"}
+**In the single-phase region (superheated steam)**
+:::
+
+:::{style="font-size: 90px;"}
+* $\ \ \ \ DF = 2$
 
 * Must specify two properties to define the thermodynamic state
 
-* e.g. What is the specific volume of steam at $5$ bar and $\ \ \ $ $300$ °C?
+* e.g. What is the specific volume of steam at $5\ \mathrm{bar}$ and $300\ ^\circ\mathrm{C}$?
+:::
+
+**Properties of Superheated Steam**
 
 {image}
 
-## In the single-phase region (superheated steam)
+## 
+
+:::{style="font-size: 125px;"}
+**In the single-phase region (superheated steam)**
+:::
 
 e.g. What is the temperature of steam with a specific volume of
 $0.500$ $\dfrac{\textrm{m}^3}{\textrm{kg}}$ at $5$ bar?
 
 {image}
 
-$\\$
 
-$\\$
+:::{.absolute left=0% bottom=10%}
+$\dfrac{T - 250}{0.500 - 0.474}\ =\ \dfrac{300 - 250}{0.522-0.474} \hspace{5pt} \Rightarrow T = 277.1 ^{\circ} \mathrm{C}$
+:::
 
-$\\$
+## 
 
-$\\$
+:::{style="font-size: 110px;"}
+**In the two-phase region (saturated steam and water)**
+:::
 
-$\\$
-
-$\dfrac{T - 250}{0.500 - 0.474}\ =\ \dfrac{300 - 250}{0.522-0.474} \hspace{20pt} \Rightarrow T = 277.1 ^{\circ} \mathrm{C}$
-
-## In the two-phase region (saturated steam and water)
-
-* $DF = 1$
+* $\ \ \ \ DF = 1$
 
 * Have two phases (water and steam) in equilibrium.
 
@@ -88,46 +109,36 @@ of saturated water and saturated steam at $4.0$ bar?
 
 {image}
 
-## In the two-phase region (saturated steam and water)
+##
 
- We know the properties of the two phases.
+:::{style="font-size: 110px;"}
+**In the two-phase region (saturated steam and water)**
+:::
 
-
- What is the property of the overall mixture?
- 
-
- Define the quality.
- 
- $\\$
-
- $x = \dfrac{\text{m}_{steam}}{\text{m}_{steam} + \text{m}_{water}} = \dfrac{\text{m}_{steam}}{\text{m}_{total}}$
- 
- $\\$
-
- What is the pressure and specific internal energy of a mixture of steam and water at $88 °C$ and a quality of $80$%?
- 
- $\\$
-
- What is the quality of a mixture of steam and water at $0.6495$ bar, and a specific enthalpy of $2000\  \textrm{kJ/kg}$?
+ * We know the properties of the two phases.
+ * What is the property of the overall mixture?
+ * Define the quality.
+ * $\ \ \ \ x = \dfrac{m_\mathrm{steam}}{m_\mathrm{steam} + m_\mathrm{water}} = \dfrac{m_\mathrm{steam}}{m_\mathrm{total}}$
+ * What is the pressure and specific internal energy of a mixture of steam and water at $88\ ^\circ\mathrm{C}$ and a quality of $80$%?
+ * What is the quality of a mixture of steam and water at $0.6495$ bar, and a specific enthalpy of $2000\ \mathrm{kJ/kg}$?
 
 ## 
 
-What is the pressure and specific internal energy of a mixture of steam and water at $88 °C$ and a quality of $80$%?
+What is the pressure and specific internal energy of a mixture of steam and water at $88\ ^\circ\mathrm{C}$ and a quality of $80$%?
 
-$\\$
 
 {image}
 
-$\\$
 
-$P\ =\ 0.6495$ bar
+$P=0.6495\ \mathrm{bar}$
 
-
-$\hspace{10pt}$ $\hat{U}_{\text{mix}} = x\hat{U}_{\text{v}}\ +\ (1-x)\hat{U_{\text{l}}} = 0.8\ \cdot 2491 + 0.2\ \cdot 368.4 = 2066.5\ \textrm{kJ/kg}$
+:::{style="font-size: 90px;"}
+$\hat{U}_{\text{mix}} = x\hat{U}_{v} + (1-x)\hat{U}_{l} = 0.8 \mathbf{\cdot} 2491 + 0.2 \mathbf{\cdot} 368.4 = 2066.5\ \mathrm{kJ/kg}$
+:::
 
 ##
 
-What is the quality of a mixture of steam and water at $0.6495$ bar, and a specific enthalpy of $2000\  \textrm{kJ/kg}$?
+What is the quality of a mixture of steam and water at $0.6495$ bar, and a specific enthalpy of $2000\ \mathrm{kJ/kg}$?
 
 {image}
 
@@ -135,16 +146,20 @@ $\hat{H}_{\text{mix}} = x\hat{H}_{\text{v}}\ +\ (1-x)\hat{H_{\text{l}}} = x(\hat
 
 $\\$
 
-$x = \dfrac{\hat{H}_{\text{mix}} - \hat{H}_{\text{l}}}{\hat{H}_{\text{v}} - \hat{H}_{\text{l}}} = \dfrac{2000 - 368.5}{2656 - 368.5} = 0.713 = 71.3$%
+$x = \dfrac{\hat{H}_{\mathrm{mix}} - \hat{H}_{l}}{\hat{H}_{v} - \hat{H}_{l}} = \dfrac{2000 - 368.5}{2656 - 368.5} = 0.713 = 71.3$%
 
 $\\$
 
-$x = \dfrac{\hat{H}_{\text{mix}} - \hat{H}_{\text{l}}}{\Delta\hat{H}_{\text{lv}}} = \dfrac{2000 - 368.5}{2288} = 0.713 = 71.3$%
+$x = \dfrac{\hat{H}_{\text{mix}} - \hat{H}_{l}}{\Delta\hat{H}_{lv}} = \dfrac{2000 - 368.5}{2288} = 0.713 = 71.3$%
 
-#
-
-::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
