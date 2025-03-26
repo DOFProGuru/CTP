@@ -137,10 +137,14 @@
 <section id="real-gases-review" class="slide level2">
 <h2>Real Gases Review</h2>
 <p>The ideal gas equation of state is inaccurate at high pressures and low temperatures. In these cases, the <span class="math inline">\(PVT\)</span> relationship is more complex. We can categorize the non-ideality of the gas with the compressibility, <span class="math inline">\(z\)</span>.</p>
+<div class="fragment">
 <p><span class="math display">\[
 z \equiv \frac{P\hat{V}}{RT}
 \]</span></p>
-<p>The lowest temperature at which there is no transition from liquid phase to vapor phase with changing pressure is called the critical temperature, <span class="math inline">\(T_{c\ }\)</span>, and the pressure where the liquid and vapor phase boundaries meet is called the critical pressure, <span class="math inline">\(P_{c\ }\)</span>.</p>
+</div>
+<div class="fragment">
+<p>The lowest temperature at which there is no transition from liquid phase to vapor phase with changing pressure is called the critical temperature, <span class="math inline">\(T_\mathrm{c\ }\)</span>, and the pressure where the liquid and vapor phase boundaries meet is called the critical pressure, <span class="math inline">\(P_\mathrm{c\ }\)</span>.</p>
+</div>
 </section>
 <section id="real-gas-calculations" class="slide level2">
 <h2>Real Gas Calculations</h2>
@@ -157,64 +161,116 @@ z \equiv \frac{P\hat{V}}{RT}
 <section id="example-problem" class="slide level2">
 <h2>Example Problem</h2>
 <p>A stream of propane at <span class="math inline">\(T = 423\ \mathrm{K}\)</span> and <span class="math inline">\(P = 70\ \mathrm{atm}\)</span>, is flowing at a rate of <span class="math inline">\(100.0\ \mathrm{kmol/h}\)</span>. Estimate the volumetric flow rate with ideal gas, generalized compressibility charts, and SRK. The measured molar volume of propane at <span class="math inline">\(423\ \mathrm{K}\)</span> and <span class="math inline">\(70\ \mathrm{atm}\)</span> is <span class="math inline">\(0.2579\ \mathrm{L/mol}\)</span>.</p>
+<div class="fragment">
 <p>Data from Table 1.</p>
 <p><span class="math display">\[
-T_c = 370\ \mathrm{K},\ \ \ \ P_c = 4.23\ \mathrm{MPa}.
+T_\mathrm{c} = 370\ \mathrm{K},\ \ \ \ P_\mathrm{c} = 4.23\ \mathrm{MPa}.
 \]</span></p>
+</div>
+<div class="fragment">
 <p>Data from <a href="https://www.kaylaiacovino.com/Petrology_Tools/Critical_Constants_and_Acentric_Factors.htm">this link</a></p>
 <p><span class="math display">\[
 \omega = 0.153
 \]</span></p>
+</div>
 </section>
 <section id="example-cont." class="slide level2">
 <h2>Example (cont.)</h2>
 <p>Ideal Gas</p>
+<div style="font-size: 85px;">
+<div class="fragment">
 <p><span class="math display">\[
 \hat{V}=\frac{RT}{P} = \frac{8.314\ \mathrm{\frac{J}{mol\ K}\mathbf{\cdot}423\mathrm{K}}}{7.09 \times 10^6\ \mathrm{Pa}} = 4.959 \times 10^{-4}\ \mathrm{\frac{m^3}{mol}} = 0.4959\ \mathrm{\frac{L}{mol}}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{V}=\dot{n}\hat{V}=100\ \mathrm{\frac{kmol}{h}\mathbf{\cdot}}\mathrm{\frac{1000\ mol}{1\ kmol}} \mathbf{\cdot}4.959 \times 10^{-4}\ \mathrm{\frac{m^3}{mol}} = 49.59\ \mathrm{\frac{m^3}{h}}
 \]</span></p>
+</div>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 z_\mathrm{emp} = \frac{\hat{V}_\mathrm{emp}}{\hat{V}_\mathrm{IG}}=\frac{0.2579\ \mathrm{\frac{L}{mol}}}{0.4959\ \mathrm{\frac{L}{mol}}} = 0.5201
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{V}_\mathrm{emp} = z_\mathrm{emp} \dot{V}_\mathrm{IG} = 0.5201 \mathbf{\cdot} 49.59\ \mathrm{\frac{m^3}{h}} = 25.79\ \mathrm{\frac{m^3}{h}}
 \]</span></p>
+</div>
 </section>
 <section id="example-cont.-1" class="slide level2">
 <h2>Example (cont.)</h2>
 <p>Generalized Compressibility</p>
-<p><img data-src="GenCompChart.png" class="absolute" style="bottom: 10%; right: 5%; width: 50%; "> <span class="math display">\[
-P_r = \frac{P}{P_c}=\frac{70}{41.7} = 1.677
-\]</span></p>
+<p><img data-src="GenCompChart.png" class="absolute" style="bottom: 27%; right: -5%; width: 60%; "></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div style="font-size: 90px;">
+<div class="fragment">
 <p><span class="math display">\[
-T_r = \frac{T}{T_c}=\frac{423}{370} = 1.143
+P_\mathrm{r} = \frac{P}{P_\mathrm{c}}=\frac{70}{41.7} = 1.677
 \]</span></p>
-<p><span class="math inline">\(z = 0.5139\)</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+T_\mathrm{r} = \frac{T}{T_\mathrm{c}}=\frac{423}{370} = 1.143
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[z = 0.5139\]</span> <br></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{V}_\mathrm{GC} = z_\mathrm{GC} \dot{V}_\mathrm{IG} = 25.48\ \mathrm{\frac{m^3}{h}}
 \]</span></p>
+</div>
+</div>
+</div></div>
 </section>
 <section id="example-cont.-2" class="slide level2">
 <h2>Example (cont.)</h2>
 <p>Soave Redlich Kwong (all SI units)</p>
-<p><span class="math inline">\(a = 042747 \dfrac{(RT_c)^2}{P_c} = 042747 \dfrac{(8.314 \mathbf{\cdot} 370)^2}{4.23 \times 10^6} =  0.9564\)</span></p>
-<p><span class="math inline">\(b = 0.08664 \dfrac{RT_c}{P_c} = 0.08664 \dfrac{8.314 \mathbf{\cdot} 370}{4.23 \times 10^6} = 6.301 \times 10^{-5}\)</span></p>
-<p><span class="math inline">\(m = 0.48508 + 1.5517 \omega - 0.1561 \omega^2 = 0.7188\)</span></p>
-<p><span class="math inline">\(\alpha = [1+m(1-\sqrt{T_r})]^2 = [1+0.7188(1-\sqrt{370})]^2  = 0.9030\)</span></p>
+<div style="font-size: 95px;">
+<div class="fragment">
+<p><span class="math display">\[a = 042747 \dfrac{(RT_\mathrm{c})^2}{P_\mathrm{c}} = 042747 \dfrac{(8.314 \mathbf{\cdot} 370)^2}{4.23 \times 10^6} =  0.9564\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[b = 0.08664 \dfrac{RT_\mathrm{c}}{P_\mathrm{c}} = 0.08664 \dfrac{8.314 \mathbf{\cdot} 370}{4.23 \times 10^6} = 6.301 \times 10^{-5}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[m = 0.48508 + 1.5517 \omega - 0.1561 \omega^2 = 0.7188\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\alpha = [1+m(1-\sqrt{T_\mathrm{r}})]^2 = [1+0.7188(1-\sqrt{370})]^2  = 0.9030\]</span></p>
+</div>
+</div>
 </section>
 <section id="example-cont.-3" class="slide level2">
 <h2>Example (cont.)</h2>
 <p>Soave Redlich Kwong (all SI units)</p>
+<div style="font-size: 90px;">
+<div class="fragment">
 <p><span class="math display">\[
 P = \frac{RT}{\hat{V} - b} - \frac{\alpha a}{\hat{V}(\hat{V}+b)} \implies f(\hat{V}) = P - \frac{RT}{\hat{V} - b} + \frac{\alpha a}{\hat{V}(\hat{V}+b)}
 \]</span></p>
+</div>
+</div>
+<div class="fragment">
 <p>Set to 0 with Goal Seek</p>
-<p><span class="math inline">\(\implies \hat{V} = 2.878 \times 10^{-4}\ \mathrm{\frac{m^3}{mol}}\)</span></p>
-<p><span class="math inline">\(z_\mathrm{SRK} = 0.5804\)</span></p>
-<p><span class="math inline">\(\dot{V}_\mathrm{SRK} = 28.78\ \mathrm{\frac{m^3}{h}}\)</span></p>
-<p><img data-src="RealGasSummary.png" class="absolute" style="top: 80%; right: 0%; width: 60%; "></p>
+</div>
+<div class="fragment absolute" style="top: 40%; left: 5%; ">
+<p><span class="math display">\[\implies \hat{V} = 2.878 \times 10^{-4}\ \mathrm{\frac{m^3}{mol}}\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 55%; left: 5%; ">
+<p><span class="math display">\[z_\mathrm{SRK} = 0.5804\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 65%; left: 5%; ">
+<p><span class="math display">\[\dot{V}_\mathrm{SRK} = 28.78\ \mathrm{\frac{m^3}{h}}\]</span></p>
+</div>
+<div class="fragment">
+<p><img data-src="RealGasSummary.png" class="absolute" style="bottom: 17.5%; right: 0%; width: 60%; "></p>
+</div>
 </section>
 <section id="example-spreadsheet" class="slide level2">
 <h2>Example Spreadsheet</h2>
@@ -223,7 +279,7 @@ P = \frac{RT}{\hat{V} - b} - \frac{\alpha a}{\hat{V}(\hat{V}+b)} \implies f(\hat
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Real gases are characterized by at least two experimental parameters, <span class="math inline">\(P_c\)</span> and <span class="math inline">\(T_c\)</span>.</li>
+<li class="fragment">Real gases are characterized by at least two experimental parameters, <span class="math inline">\(P_\mathrm{c}\)</span> and <span class="math inline">\(T_\mathrm{c}\)</span>.</li>
 <li class="fragment">When a third parameter is needed for greater accuracy, the acentric factor, <span class="math inline">\(\omega\)</span>, is used.</li>
 <li class="fragment">Real-gas properties can be characterized graphically with the generalized compressibility charts.</li>
 <li class="fragment">Real-gas properties can also be characterized by equations of state, such as the virial equation and the Soave-Redlich-Kwong equation.</li>

@@ -136,24 +136,87 @@
 </section>
 <section id="estimating-formulas" class="slide level2">
 <h2>Estimating Formulas</h2>
-<p>If the tabulated data are missing <br> use a formula like Kopp’s rule</p>
-<p><span class="math inline">\(\hspace{3pt} (C_p)_{\text{compound}} = \sum\limits_{\text{all atoms}} C_{pa}\)</span></p>
-<p><span class="math inline">\(\hspace{1pt}\)</span></p>
-<p>How about mixtures?</p>
-<p><span class="math inline">\(\hspace{1pt}\)</span></p>
-<p>Lacking other data, use a <br> weighted average.</p>
-<p>{image}</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>If the tabulated data are missing use a formula like Kopp’s rule,</p>
+<p><span class="math display">\[
+(C_p)_{\mathrm{compound}} = \sum_\text{all atoms} C_{pa}
+\]</span></p>
+<p>How about mixtures? <br><br> Lacking other data, use a weighted average.</p>
+</div><div class="column" style="width:50%;">
+<div style="font-size: 90px;">
+<table class="caption-top">
+<caption>Atomic Heat-Capacity Contributions for Kopp’s Rule <span class="math inline">\(C_{pa}\)</span> (J/g-atom°C)</caption>
+<thead>
+<tr class="header">
+<th>Element</th>
+<th>Solids</th>
+<th>Liquids</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C</td>
+<td>7.5</td>
+<td>12</td>
+</tr>
+<tr class="even">
+<td>H</td>
+<td>9.6</td>
+<td>18</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>11</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>Si</td>
+<td>16</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>O</td>
+<td>17</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>21</td>
+<td>29</td>
+</tr>
+<tr class="odd">
+<td>P</td>
+<td>23</td>
+<td>31</td>
+</tr>
+<tr class="even">
+<td>S</td>
+<td>26</td>
+<td>31</td>
+</tr>
+<tr class="odd">
+<td>All others</td>
+<td>26</td>
+<td>33</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></div>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p>The <span class="math inline">\(C_p \Delta T\)</span> changes are known as <span class="math inline">\(\textit{sensible heat changes}\)</span>. During a phase change, heat is added without a change in temperature. Such changes are <span class="math inline">\(\textit{latent heat changes}\)</span>.</p>
+<p>The <span class="math inline">\(C_p \Delta T\)</span> changes are known as <em>sensible heat changes</em>. During a phase change, heat is added without a change in temperature. Such changes are <em>latent heat changes</em>.</p>
 <ul>
 <li class="fragment">Latent heat of vaporization, <span class="math inline">\(\hspace{4pt} \Delta \hat{H}_v\)</span></li>
 <li class="fragment">Latent heat of fusion, <span class="math inline">\(\hspace{4pt} \Delta \hat{H}_m\)</span></li>
 <li class="fragment">Latent heat of sublimination, <span class="math inline">\(\hspace{4pt} \Delta \hat{H}_s\)</span></li>
 </ul>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<p>Why <span class="math inline">\(\Delta H\)</span>? Why not <span class="math inline">\(\Delta U\)</span>?</p>
+<div class="fragment">
+<p>Why <span class="math inline">\(\Delta \hat{H}\)</span>? Why not <span class="math inline">\(\Delta \hat{U}\)</span>?</p>
+</div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
@@ -183,11 +246,16 @@ or
 <span class="math inline">\(\Delta U_v + \Delta (PV) = \Delta H_v = Q\)</span>
 </center>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<p>The book lies a little. It should say on page <span class="math inline">\(265\)</span>, “If a phase change takes place in a <span class="math inline">\(\textit{constant volume}\)</span> closed system…”</p>
+<p>If a phase change takes place in a <em>constant volume</em> closed system, then <span class="math inline">\(\Delta \hat{U}\)</span> must be evaluated as</p>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<center>
+<span class="math inline">\(\Delta \hat{U} = \Delta \hat{H} - \Delta(P\hat{V})\)</span>
+</center>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <center>
 <span class="math inline">\(\Delta \hat{U}_m \approx \Delta \hat{H}_m\)</span>
 </center>
+<span class="math inline">\(\hspace{1mm}\)</span>
 <center>
 <span class="math inline">\(\Delta \hat{U}_v \approx \Delta \hat{H}_v - RT\)</span>
 </center>
@@ -201,25 +269,26 @@ or
 <li class="fragment">Educated Guesses</li>
 </ul>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<span class="math inline">\(\textbf{Trouton's Rule (within 30\% accuracy)}\)</span> <br> nonpolar liquids
+<strong>Trouton’s Rule (within 30% accuracy)</strong><br> nonpolar liquids
 <center>
-<span class="math inline">\((\Delta \hat{H}_v)_{nbp}\)</span> [<span class="math inline">\(\textrm{kJ/mol}\)</span>] <span class="math inline">\(\approx 0.0088T_b (K)\)</span>
+<span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp}\)</span> [<span class="math inline">\(\mathrm{kJ/mol}\)</span>] <span class="math inline">\(\approx 0.0088T_\mathrm{b} (K)\)</span>
 </center>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <p>water, low-MW alcohols</p>
 <center>
-<span class="math inline">\((\Delta \hat{H}_v)_{nbp}\)</span> [<span class="math inline">\(\textrm{kJ/mol}\)</span>] <span class="math inline">\(\approx 0.109T_b (K)\)</span>
+<span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp}\)</span> [<span class="math inline">\(\mathrm{kJ/mol}\)</span>] <span class="math inline">\(\approx 0.109T_\mathrm{b} (K)\)</span>
 </center>
 </section>
-<section id="chens-equation-within-2-accuracy" class="slide level2">
-<h2>Chen’s equation (within 2% accuracy)</h2>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<p><strong>Chen’s equation (within 2% accuracy)</strong></p>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <center>
-<span class="math inline">\((\Delta \hat{H}_v)_{nbp} = \dfrac{T_b[0.331(T_b/T_c) - 0.0327 + 0.0297\log_{10} P_c]}{1.07 - (T_b / T_c)}\)</span>
+<span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp} = \dfrac{T_b[0.0331(T_\mathrm{b}/T_\mathrm{c}) - 0.0327 + 0.0297\log_{10} P_c]}{1.07 - (T_b / T_\mathrm{c})}\)</span>
 </center>
-<p>with <span class="math inline">\(T\)</span>’s in Kelvin, <span class="math inline">\(P\)</span> in atm, and <span class="math inline">\(\Delta H\)</span> in <span class="math inline">\(\textrm{kJ/mol}\)</span></p>
+<p>with <span class="math inline">\(T\)</span>’s in Kelvin, <span class="math inline">\(P\)</span> in atm, and <span class="math inline">\(\Delta \hat{H}\)</span> in <span class="math inline">\(\mathrm{kJ/mol}\)</span></p>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<p>Also <span class="math inline">\(\textbf{Clausius and Claperyon backwards}\)</span></p>
+<p>Also <strong>Clausius and Claperyon backwards</strong></p>
 <center>
 <span class="math inline">\(\ln p^* = -\dfrac{\Delta \hat{H}_v}{RT} + B\)</span>
 </center>
@@ -227,45 +296,79 @@ or
 <span class="math inline">\(\dfrac{d(\ln p^*)}{d(1/T)} = -\dfrac{\Delta \hat{H}_v}{R}\)</span>
 </center>
 </section>
-<section id="section-4" class="slide level2">
+<section id="section-5" class="slide level2">
 <h2></h2>
-<p>And finally if you have <span class="math inline">\(\Delta \hat{H}_v\)</span> at one temperature and you need it at another, the <span class="math inline">\(\textbf{Watson correlation}\)</span></p>
+<p>And finally if you have <span class="math inline">\(\Delta \hat{H}_v\)</span> at one temperature and you need it at another, the <strong>Watson correlation</strong></p>
 <center>
-<span class="math inline">\(\dfrac{\Delta \hat{H}_v (T_2)}{\Delta \hat{H}_v (T_1)} = (\dfrac{T_c - T_2}{T_c - T_1})\)</span>
+<span class="math inline">\(\dfrac{\Delta \hat{H}_v (T_2)}{\Delta \hat{H}_v (T_1)} = (\dfrac{T_\mathrm{c} - T_2}{T_\mathrm{c} - T_1})\)</span>
 </center>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<p><span class="math inline">\(\textbf{Page 266's Rule (??\% accurate)}\)</span> <br> For metallic elements</p>
+<p><strong>Page 266’s Rule (??% accurate)</strong> <br> For metallic elements</p>
 <center>
-<span class="math inline">\(\Delta \hat{H}_v (\textrm{kJ/mol}) \approx 0.0092 T_m (K)\)</span>
+<span class="math inline">\(\Delta \hat{H}_m (\mathrm{kJ/mol}) \approx 0.0092 T_m (K)\)</span>
 </center>
 For inorganic compounds
 <center>
-<span class="math inline">\(\Delta \hat{H}_v (\textrm{kJ/mol}) \approx 0.0025 T_m (K)\)</span>
+<span class="math inline">\(\Delta \hat{H}_m (\mathrm{kJ/mol}) \approx 0.0025 T_m (K)\)</span>
 </center>
 For organic compounds
 <center>
-<span class="math inline">\(\Delta \hat{H}_v (\textrm{kJ/mol}) \approx 0.050 T_m (K)\)</span>
+<span class="math inline">\(\Delta \hat{H}_m (\mathrm{kJ/mol}) \approx 0.050 T_m (K)\)</span>
 </center>
 </section>
 <section id="valuable-numbers-to-know" class="slide level2">
 <h2>Valuable Numbers to Know</h2>
-<p><span class="math inline">\(\textit{Approximate}\)</span> Heat Capacities</p>
-<p>{image}</p>
-<p>Water values</p>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<p><span class="math inline">\(C_p [\dfrac{\textrm{Btu}}{lb_m ^{\circ} F}]\)</span> or <span class="math inline">\([\dfrac{\textrm{cal}}{g ^{\circ} C}]\)</span></p>
-<p>Steam <span class="math inline">\(\approx 0.5\)</span></p>
-<p>Water <span class="math inline">\(\approx 1.0\)</span></p>
-<p>Ice <span class="math inline">\(\approx 0.5\)</span></p>
-<p><span class="math inline">\(\Delta \hat{H}_v \approx 1000 [\dfrac{\textrm{Btu}}{lb_m ^{\circ} F}]\)</span></p>
-<p><span class="math inline">\(\Delta \hat{H}_m \approx 150 [\dfrac{\textrm{Btu}}{lb_m ^{\circ} F}]\)</span></p>
-</section></section>
-<section id="section-5" class="title-slide slide level1 center">
-<h1></h1>
-<div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div style="font-size:95px;">
+<p><strong><em>Approximate</em> Heat Capacities</strong></p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Gas Type</th>
+<th><span class="math inline">\(C_p\)</span></th>
+<th><span class="math inline">\(C_v\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Monatomic</td>
+<td><span class="math inline">\(\frac{3}{2}R\)</span></td>
+<td><span class="math inline">\(\frac{5}{2}R\)</span></td>
+</tr>
+<tr class="even">
+<td>Diatomic</td>
+<td><span class="math inline">\(\frac{5}{2}R\)</span></td>
+<td><span class="math inline">\(\frac{7}{2}R\)</span></td>
+</tr>
+</tbody>
+</table>
+</div><div class="column" style="width:50%;">
+<center>
+<strong>Water values</strong>
+</center>
+<p><br> <span class="math inline">\(C_p\text{ in } \left[\mathrm{\dfrac{Btu}{lb_m\ ^{\circ} F}}\right] \text{ or } \left[\mathrm{\dfrac{cal}{g\ ^{\circ} C}}\right]\)</span></p>
+<div style="font-size:20px;">
+<p><br><br></p>
+</div>
+<p>&nbsp;Steam <span class="math inline">\(\approx 0.5\)</span></p>
+<p>&nbsp;Water <span class="math inline">\(\approx 1.0\)</span></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ice <span class="math inline">\(\approx 0.5\)</span></p>
+<p><span class="math inline">\(\Delta \hat{H}_v \approx 1000\ \left[\mathrm{\dfrac{Btu}{lb_m}}\right]\)</span></p>
+<p><span class="math inline">\(\ \Delta \hat{H}_m \approx 150\ \left[\mathrm{\dfrac{Btu}{lb_m}}\right]\)</span></p>
+</div></div>
+</section></section>
+<section id="section-6" class="title-slide slide level1 center">
+<h1><!-- Approved Plain End --></h1>
+<div class="centered bigger">
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+</div>
+<div class="absolute" style="font-size: 110px;top: 125%; left: 38%; ">
+<p>The DOFPro Team</p>
+</div>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 25.25%; width: 1494px; height: 364px; "> <!-- ****************************END Regular Intro/Outro ************************* --></p>
 
 
 </section>

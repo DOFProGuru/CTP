@@ -137,106 +137,171 @@
 <section id="real-gases" class="slide level2">
 <h2>Real Gases</h2>
 <p>The ideal gas equation of state is inaccurate at high pressures and low temperatures. In these cases, the <span class="math inline">\(PVT\)</span> relationship is more complex. We can categorize the non-ideality of the gas with the compressibility, <span class="math inline">\(z\)</span>.</p>
+<div class="fragment">
 <p><span class="math display">\[
 z \equiv \frac{P\hat{V}}{RT}
 \]</span></p>
-<p>The lowest temperature at which there is no transition from liquid phase to vapor phase with changing pressure is called the critical temperature, <span class="math inline">\(T_{c\ }\)</span>, and the pressure where the liquid and vapor phase boundaries meet is called the critical pressure, <span class="math inline">\(P_{c\ }\)</span>.</p>
+</div>
+<div class="fragment">
+<p>The lowest temperature at which there is no transition from liquid phase to vapor phase with changing pressure is called the critical temperature, <span class="math inline">\(T_\mathrm{c\ }\)</span>, and the pressure where the liquid and vapor phase boundaries meet is called the critical pressure, <span class="math inline">\(P_\mathrm{c\ }\)</span>.</p>
+</div>
 </section>
 <section id="real-gases-cont." class="slide level2">
 <h2>Real Gases (cont.)</h2>
 <div class="columns">
 <div class="column" style="width:45%;">
-<p>At the critical temperature, pressure and molar volume, one can calculate the critical compressibility, <span class="math inline">\(z_c\)</span>.</p>
+<p>At the critical temperature, pressure and molar volume, one can calculate the critical compressibility, <span class="math inline">\(z_\mathrm{c}\)</span>.</p>
+<div class="fragment">
 <p><span class="math display">\[
-z_c \equiv \frac{P_c\hat{V}_c}{RT_c}
+z_\mathrm{c} \equiv \frac{P_\mathrm{c}\hat{V}_c}{RT_\mathrm{c}}
 \]</span></p>
+</div>
 </div></div>
-<p><br>On the right is a table of critical compressibilities for a number of substances, calculated from <a href="https://www.kaylaiacovino.com/Petrology_Tools/Critical_Constants_and_Acentric_Factors.htm">this table</a>. They range from <span class="math inline">\(0.230\)</span> to <span class="math inline">\(0.308\)</span>. A table or chart for <span class="math inline">\(z_c = 0.27\)</span> would be close for many substances.</p>
+<div class="fragment">
 <p><img data-src="SmallTableCriticalConstants.png" class="absolute" style="top: 12%; right: 0%; width: 55%; "></p>
 <div class="absolute" style="top: 7%; left: 65%; ">
 <p>Table 1</p>
+</div>
+</div>
+<div class="fragment">
+<p><br>On the right is a table of critical compressibilities for a number of substances, calculated from <a href="https://www.kaylaiacovino.com/Petrology_Tools/Critical_Constants_and_Acentric_Factors.htm">this table</a>. They range from <span class="math inline">\(0.230\)</span> to <span class="math inline">\(0.308\)</span>. A table or chart for <span class="math inline">\(z_\mathrm{c} = 0.27\)</span> would be close for many substances.</p>
 </div>
 </section>
 <section id="real-gases-cont.-1" class="slide level2">
 <h2>Real Gases (cont.)</h2>
 <p><span class="math display">\[
-P_r \equiv \frac{P}{P_c},\ \ \ \ \ \ T_r \equiv \frac{T}{T_c}
+P_\mathrm{r} \equiv \frac{P}{P_\mathrm{c}},\ \ \ \ \ \ T_\mathrm{r} \equiv \frac{T}{T_\mathrm{c}}
 \]</span></p>
 <p><img data-src="GenCompChart.png" class="absolute" style="top: 25%; right: 5%; width: 90%; "></p>
 </section>
 <section id="equations-of-state" class="slide level2">
 <h2>Equations of State</h2>
-<p>A number of models have been developed to fit experimental <span class="math inline">\(PVT\)</span> data. Many of them use three parameters to fit the data, the critical pressure, <span class="math inline">\(P_{c\ }\)</span>, the critical temperature, <span class="math inline">\(T_{c\ }\)</span>, and the acentric factor, <span class="math inline">\(\omega\)</span>. All three are determined experimentally. <span class="math inline">\(P_c\)</span> and <span class="math inline">\(T_c\)</span> are usually used to calculate the reduced temperature, <span class="math inline">\(T_r\)</span>, and the reduced pressure, <span class="math inline">\(P_r\)</span>. Many other equations of state, such as Benedict-Webb-Rubin, have additional or different fitting parameters.</p>
+<p>A number of models have been developed to fit experimental <span class="math inline">\(PVT\)</span> data.</p>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Many of them use three parameters to fit the data, the critical pressure, <span class="math inline">\(P_\mathrm{c\ }\)</span>, the critical temperature, <span class="math inline">\(T_\mathrm{c\ }\)</span>, and the acentric factor, <span class="math inline">\(\omega\)</span>.</p>
+</div>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>All three are determined experimentally.</p>
+</div>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(P_\mathrm{c}\)</span> and <span class="math inline">\(T_\mathrm{c}\)</span> are usually used to calculate the reduced temperature, <span class="math inline">\(T_\mathrm{r}\)</span>, and the reduced pressure, <span class="math inline">\(P_\mathrm{r}\)</span>.</p>
+</div>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Many other equations of state, such as Benedict-Webb-Rubin, have additional or different fitting parameters.</p>
+</div>
 </section>
 <section id="the-virial-equations-of-state" class="slide level2">
 <h2>The Virial Equations of State</h2>
 <p>The virial equation of state is a series expansion in the specific molar volume:</p>
+<div class="fragment">
 <p><span class="math display">\[
 z = \frac{P\hat{V}}{RT}+1+\frac{B}{\hat{V}}+\frac{C}{\hat{V}^2}+\frac{D}{\hat{V}^3}+ \dots\ \ .
 \]</span></p>
+</div>
+<div class="fragment">
 <p>The series can be truncated depending of the level of accuracy required. Including just the first term gives:</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \frac{P\hat{V}}{RT}=1+\frac{B}{\hat{V}}=1+\frac{BP}{RT}
 \]</span></p>
-<p>where <span class="math inline">\(B\)</span> is a function of <span class="math inline">\(P_{c\ }\)</span>, <span class="math inline">\(T_{c\ }\)</span>, and <span class="math inline">\(\omega\)</span></p>
+</div>
+<div class="fragment">
+<p>where <span class="math inline">\(B\)</span> is a function of <span class="math inline">\(P_\mathrm{c\ }\)</span>, <span class="math inline">\(T_\mathrm{c\ }\)</span>, and <span class="math inline">\(\omega\)</span></p>
+</div>
 </section>
 <section id="the-virial-equations-of-state-cont." class="slide level2">
 <h2>The Virial Equations of State (cont.)</h2>
-<p>For moderate temperatures and pressures, B can be calculated as:</p>
+<p>For moderate temperatures and pressures, <span class="math inline">\(B\)</span> can be calculated as:</p>
+<div class="fragment">
 <p><span class="math display">\[
-B_0 = 0.083 - \frac{0.422}{T_r^{1.6}}
+B_0 = 0.083 - \frac{0.422}{T_\mathrm{r}^{1.6}}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
-B_1 =  0.139 - \frac{0.172}{T_r^{4.2}}
+B_1 =  0.139 - \frac{0.172}{T_\mathrm{r}^{4.2}}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
-B = \frac{RT_c}{P_c}(B_0 + \omega B_1)
+B = \frac{RT_\mathrm{c}}{P_\mathrm{c}}(B_0 + \omega B_1)
 \]</span></p>
-<p>The truncated virial equation has a less than 2% error for <span class="math inline">\(P_r &lt; 2.0\)</span> and <span class="math inline">\(1 + B_0P_r/T_r &gt; 0.8\)</span>.</p>
+</div>
+<div class="fragment">
+<p>The truncated virial equation has a less than 2% error for <span class="math inline">\(P_\mathrm{r} &lt; 2.0\)</span> and <span class="math inline">\(1 + B_0P_\mathrm{r}/T_\mathrm{r} &gt; 0.8\)</span>.</p>
+</div>
 </section>
 <section id="the-virial-equations-of-state-cont.-1" class="slide level2">
 <h2>The Virial Equations of State (cont.)</h2>
-<p>Using the compressibility, z, the truncated virial equation can be written as</p>
+<p>Using the compressibility, <span class="math inline">\(z\)</span>, the truncated virial equation can be written as</p>
+<div class="fragment">
 <p><span class="math display">\[
 z = z_0 + \omega z_1
 \]</span></p>
+</div>
+<div class="fragment">
 <p>where</p>
 <p><span class="math display">\[
-z_0 = 1 + B_0 \frac{P_r}{T_r}
+z_0 = 1 + B_0 \frac{P_\mathrm{r}}{T_\mathrm{r}}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>and</p>
 <p><span class="math display">\[
-z_1 = B_1 \frac{P_r}{T_r}
+z_1 = B_1 \frac{P_\mathrm{r}}{T_\mathrm{r}}
 \]</span></p>
+</div>
 </section>
 <section id="the-soave-redlich-kwong-equation-of-state" class="slide level2 bigbold80">
 <h2>The Soave-Redlich-Kwong Equation of State</h2>
 <div style="font-size: 90px;">
 <p>From family of cubic equations of state</p>
+<div class="fragment">
 <p><span class="math display">\[
 P = \frac{RT}{\hat{V} - b} - \frac{\alpha a}{\hat{V}(\hat{V}+b)}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>where</p>
 <p><span class="math display">\[
-a = 042747 \frac{(RT_c)^2}{P_c},\ \ \ b = 0.08664 \frac{RT_c}{P_c},\ \ \ \alpha = [1+m(1-\sqrt{T_r})]^2
+a = 042747 \frac{(RT_\mathrm{c})^2}{P_\mathrm{c}},\ \ \ b = 0.08664 \frac{RT_\mathrm{c}}{P_\mathrm{c}},\ \ \ \alpha = [1+m(1-\sqrt{T_\mathrm{r}})]^2
 \]</span></p>
+</div>
+<div class="fragment">
 <p>and</p>
 <p><span class="math display">\[
 m = 0.48508 + 1.5517 \omega - 0.1561 \omega^2
 \]</span></p>
 </div>
+</div>
 </section>
 <section id="example" class="slide level2">
 <h2>Example</h2>
 <p>In Part 2, we will do the following example:</p>
+<p><br></p>
+<div class="fragment">
 <blockquote>
 <p>A stream of propane at <span class="math inline">\(T = 423\ \mathrm{K}\)</span> and <span class="math inline">\(P = 70\ \mathrm{atm}\)</span>, is flowing at a rate of <span class="math inline">\(100.0\ \mathrm{kmol/h}\)</span>. Estimate the volumetric flow rate with ideal gas, generalized compressibility charts, and SRK. The measured specific volume of propane at <span class="math inline">\(423\ \mathrm{K}\)</span> and <span class="math inline">\(70\ \mathrm{atm}\)</span> is <span class="math inline">\(0.2579\ \mathrm{L/mol}\)</span>.</p>
 </blockquote>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Real gases are characterized by at least two experimental parameters, <span class="math inline">\(P_c\)</span> and <span class="math inline">\(T_c\)</span>.</li>
+<li class="fragment">Real gases are characterized by at least two experimental parameters, <span class="math inline">\(P_\mathrm{c}\)</span> and <span class="math inline">\(T_\mathrm{c}\)</span>.</li>
 <li class="fragment">When a third parameter is needed for greater accuracy, the acentric factor, <span class="math inline">\(\omega\)</span>, is used.</li>
 <li class="fragment">Real-gas properties can be characterized graphically with the generalized compressibility charts.</li>
 <li class="fragment">Real-gas properties can also be characterized by equations of state, such as the virial equation and the Soave-Redlich-Kwong equation.</li>

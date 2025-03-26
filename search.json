@@ -515,70 +515,70 @@
     "href": "balances/material/Video63Visuals.html#real-gases",
     "title": "Chemical and Thermal Processes",
     "section": "Real Gases",
-    "text": "Real Gases\nThe ideal gas equation of state is inaccurate at high pressures and low temperatures. In these cases, the \\(PVT\\) relationship is more complex. We can categorize the non-ideality of the gas with the compressibility, \\(z\\).\n\\[\nz \\equiv \\frac{P\\hat{V}}{RT}\n\\]\nThe lowest temperature at which there is no transition from liquid phase to vapor phase with changing pressure is called the critical temperature, \\(T_{c\\ }\\), and the pressure where the liquid and vapor phase boundaries meet is called the critical pressure, \\(P_{c\\ }\\)."
+    "text": "Real Gases\nThe ideal gas equation of state is inaccurate at high pressures and low temperatures. In these cases, the \\(PVT\\) relationship is more complex. We can categorize the non-ideality of the gas with the compressibility, \\(z\\).\n\n\\[\nz \\equiv \\frac{P\\hat{V}}{RT}\n\\]\n\n\nThe lowest temperature at which there is no transition from liquid phase to vapor phase with changing pressure is called the critical temperature, \\(T_\\mathrm{c\\ }\\), and the pressure where the liquid and vapor phase boundaries meet is called the critical pressure, \\(P_\\mathrm{c\\ }\\)."
   },
   {
     "objectID": "balances/material/Video63Visuals.html#real-gases-cont.",
     "href": "balances/material/Video63Visuals.html#real-gases-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Real Gases (cont.)",
-    "text": "Real Gases (cont.)\n\n\nAt the critical temperature, pressure and molar volume, one can calculate the critical compressibility, \\(z_c\\).\n\\[\nz_c \\equiv \\frac{P_c\\hat{V}_c}{RT_c}\n\\]\n\nOn the right is a table of critical compressibilities for a number of substances, calculated from this table. They range from \\(0.230\\) to \\(0.308\\). A table or chart for \\(z_c = 0.27\\) would be close for many substances.\n\n\nTable 1"
+    "text": "Real Gases (cont.)\n\n\nAt the critical temperature, pressure and molar volume, one can calculate the critical compressibility, \\(z_\\mathrm{c}\\).\n\n\\[\nz_\\mathrm{c} \\equiv \\frac{P_\\mathrm{c}\\hat{V}_c}{RT_\\mathrm{c}}\n\\]\n\n\n\n\n\nTable 1\n\n\n\nOn the right is a table of critical compressibilities for a number of substances, calculated from this table. They range from \\(0.230\\) to \\(0.308\\). A table or chart for \\(z_\\mathrm{c} = 0.27\\) would be close for many substances."
   },
   {
     "objectID": "balances/material/Video63Visuals.html#real-gases-cont.-1",
     "href": "balances/material/Video63Visuals.html#real-gases-cont.-1",
     "title": "Chemical and Thermal Processes",
     "section": "Real Gases (cont.)",
-    "text": "Real Gases (cont.)\n\\[\nP_r \\equiv \\frac{P}{P_c},\\ \\ \\ \\ \\ \\ T_r \\equiv \\frac{T}{T_c}\n\\]"
+    "text": "Real Gases (cont.)\n\\[\nP_\\mathrm{r} \\equiv \\frac{P}{P_\\mathrm{c}},\\ \\ \\ \\ \\ \\ T_\\mathrm{r} \\equiv \\frac{T}{T_\\mathrm{c}}\n\\]"
   },
   {
     "objectID": "balances/material/Video63Visuals.html#equations-of-state",
     "href": "balances/material/Video63Visuals.html#equations-of-state",
     "title": "Chemical and Thermal Processes",
     "section": "Equations of State",
-    "text": "Equations of State\nA number of models have been developed to fit experimental \\(PVT\\) data. Many of them use three parameters to fit the data, the critical pressure, \\(P_{c\\ }\\), the critical temperature, \\(T_{c\\ }\\), and the acentric factor, \\(\\omega\\). All three are determined experimentally. \\(P_c\\) and \\(T_c\\) are usually used to calculate the reduced temperature, \\(T_r\\), and the reduced pressure, \\(P_r\\). Many other equations of state, such as Benedict-Webb-Rubin, have additional or different fitting parameters."
+    "text": "Equations of State\nA number of models have been developed to fit experimental \\(PVT\\) data.\n\n\n\n\nMany of them use three parameters to fit the data, the critical pressure, \\(P_\\mathrm{c\\ }\\), the critical temperature, \\(T_\\mathrm{c\\ }\\), and the acentric factor, \\(\\omega\\).\n\n\n\n\n\nAll three are determined experimentally.\n\n\n\n\n\n\\(P_\\mathrm{c}\\) and \\(T_\\mathrm{c}\\) are usually used to calculate the reduced temperature, \\(T_\\mathrm{r}\\), and the reduced pressure, \\(P_\\mathrm{r}\\).\n\n\n\n\n\nMany other equations of state, such as Benedict-Webb-Rubin, have additional or different fitting parameters."
   },
   {
     "objectID": "balances/material/Video63Visuals.html#the-virial-equations-of-state",
     "href": "balances/material/Video63Visuals.html#the-virial-equations-of-state",
     "title": "Chemical and Thermal Processes",
     "section": "The Virial Equations of State",
-    "text": "The Virial Equations of State\nThe virial equation of state is a series expansion in the specific molar volume:\n\\[\nz = \\frac{P\\hat{V}}{RT}+1+\\frac{B}{\\hat{V}}+\\frac{C}{\\hat{V}^2}+\\frac{D}{\\hat{V}^3}+ \\dots\\ \\ .\n\\]\nThe series can be truncated depending of the level of accuracy required. Including just the first term gives:\n\\[\n\\frac{P\\hat{V}}{RT}=1+\\frac{B}{\\hat{V}}=1+\\frac{BP}{RT}\n\\]\nwhere \\(B\\) is a function of \\(P_{c\\ }\\), \\(T_{c\\ }\\), and \\(\\omega\\)"
+    "text": "The Virial Equations of State\nThe virial equation of state is a series expansion in the specific molar volume:\n\n\\[\nz = \\frac{P\\hat{V}}{RT}+1+\\frac{B}{\\hat{V}}+\\frac{C}{\\hat{V}^2}+\\frac{D}{\\hat{V}^3}+ \\dots\\ \\ .\n\\]\n\n\nThe series can be truncated depending of the level of accuracy required. Including just the first term gives:\n\n\n\\[\n\\frac{P\\hat{V}}{RT}=1+\\frac{B}{\\hat{V}}=1+\\frac{BP}{RT}\n\\]\n\n\nwhere \\(B\\) is a function of \\(P_\\mathrm{c\\ }\\), \\(T_\\mathrm{c\\ }\\), and \\(\\omega\\)"
   },
   {
     "objectID": "balances/material/Video63Visuals.html#the-virial-equations-of-state-cont.",
     "href": "balances/material/Video63Visuals.html#the-virial-equations-of-state-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "The Virial Equations of State (cont.)",
-    "text": "The Virial Equations of State (cont.)\nFor moderate temperatures and pressures, B can be calculated as:\n\\[\nB_0 = 0.083 - \\frac{0.422}{T_r^{1.6}}\n\\]\n\\[\nB_1 =  0.139 - \\frac{0.172}{T_r^{4.2}}\n\\]\n\\[\nB = \\frac{RT_c}{P_c}(B_0 + \\omega B_1)\n\\]\nThe truncated virial equation has a less than 2% error for \\(P_r &lt; 2.0\\) and \\(1 + B_0P_r/T_r &gt; 0.8\\)."
+    "text": "The Virial Equations of State (cont.)\nFor moderate temperatures and pressures, \\(B\\) can be calculated as:\n\n\\[\nB_0 = 0.083 - \\frac{0.422}{T_\\mathrm{r}^{1.6}}\n\\]\n\n\n\\[\nB_1 =  0.139 - \\frac{0.172}{T_\\mathrm{r}^{4.2}}\n\\]\n\n\n\\[\nB = \\frac{RT_\\mathrm{c}}{P_\\mathrm{c}}(B_0 + \\omega B_1)\n\\]\n\n\nThe truncated virial equation has a less than 2% error for \\(P_\\mathrm{r} &lt; 2.0\\) and \\(1 + B_0P_\\mathrm{r}/T_\\mathrm{r} &gt; 0.8\\)."
   },
   {
     "objectID": "balances/material/Video63Visuals.html#the-virial-equations-of-state-cont.-1",
     "href": "balances/material/Video63Visuals.html#the-virial-equations-of-state-cont.-1",
     "title": "Chemical and Thermal Processes",
     "section": "The Virial Equations of State (cont.)",
-    "text": "The Virial Equations of State (cont.)\nUsing the compressibility, z, the truncated virial equation can be written as\n\\[\nz = z_0 + \\omega z_1\n\\]\nwhere\n\\[\nz_0 = 1 + B_0 \\frac{P_r}{T_r}\n\\]\nand\n\\[\nz_1 = B_1 \\frac{P_r}{T_r}\n\\]"
+    "text": "The Virial Equations of State (cont.)\nUsing the compressibility, \\(z\\), the truncated virial equation can be written as\n\n\\[\nz = z_0 + \\omega z_1\n\\]\n\n\nwhere\n\\[\nz_0 = 1 + B_0 \\frac{P_\\mathrm{r}}{T_\\mathrm{r}}\n\\]\n\n\nand\n\\[\nz_1 = B_1 \\frac{P_\\mathrm{r}}{T_\\mathrm{r}}\n\\]"
   },
   {
     "objectID": "balances/material/Video63Visuals.html#the-soave-redlich-kwong-equation-of-state",
     "href": "balances/material/Video63Visuals.html#the-soave-redlich-kwong-equation-of-state",
     "title": "Chemical and Thermal Processes",
     "section": "The Soave-Redlich-Kwong Equation of State",
-    "text": "The Soave-Redlich-Kwong Equation of State\n\nFrom family of cubic equations of state\n\\[\nP = \\frac{RT}{\\hat{V} - b} - \\frac{\\alpha a}{\\hat{V}(\\hat{V}+b)}\n\\]\nwhere\n\\[\na = 042747 \\frac{(RT_c)^2}{P_c},\\ \\ \\ b = 0.08664 \\frac{RT_c}{P_c},\\ \\ \\ \\alpha = [1+m(1-\\sqrt{T_r})]^2\n\\]\nand\n\\[\nm = 0.48508 + 1.5517 \\omega - 0.1561 \\omega^2\n\\]"
+    "text": "The Soave-Redlich-Kwong Equation of State\n\nFrom family of cubic equations of state\n\n\\[\nP = \\frac{RT}{\\hat{V} - b} - \\frac{\\alpha a}{\\hat{V}(\\hat{V}+b)}\n\\]\n\n\nwhere\n\\[\na = 042747 \\frac{(RT_\\mathrm{c})^2}{P_\\mathrm{c}},\\ \\ \\ b = 0.08664 \\frac{RT_\\mathrm{c}}{P_\\mathrm{c}},\\ \\ \\ \\alpha = [1+m(1-\\sqrt{T_\\mathrm{r}})]^2\n\\]\n\n\nand\n\\[\nm = 0.48508 + 1.5517 \\omega - 0.1561 \\omega^2\n\\]"
   },
   {
     "objectID": "balances/material/Video63Visuals.html#example",
     "href": "balances/material/Video63Visuals.html#example",
     "title": "Chemical and Thermal Processes",
     "section": "Example",
-    "text": "Example\nIn Part 2, we will do the following example:\n\nA stream of propane at \\(T = 423\\ \\mathrm{K}\\) and \\(P = 70\\ \\mathrm{atm}\\), is flowing at a rate of \\(100.0\\ \\mathrm{kmol/h}\\). Estimate the volumetric flow rate with ideal gas, generalized compressibility charts, and SRK. The measured specific volume of propane at \\(423\\ \\mathrm{K}\\) and \\(70\\ \\mathrm{atm}\\) is \\(0.2579\\ \\mathrm{L/mol}\\)."
+    "text": "Example\nIn Part 2, we will do the following example:\n\n\n\nA stream of propane at \\(T = 423\\ \\mathrm{K}\\) and \\(P = 70\\ \\mathrm{atm}\\), is flowing at a rate of \\(100.0\\ \\mathrm{kmol/h}\\). Estimate the volumetric flow rate with ideal gas, generalized compressibility charts, and SRK. The measured specific volume of propane at \\(423\\ \\mathrm{K}\\) and \\(70\\ \\mathrm{atm}\\) is \\(0.2579\\ \\mathrm{L/mol}\\)."
   },
   {
     "objectID": "balances/material/Video63Visuals.html#the-takeaways",
     "href": "balances/material/Video63Visuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nReal gases are characterized by at least two experimental parameters, \\(P_c\\) and \\(T_c\\).\nWhen a third parameter is needed for greater accuracy, the acentric factor, \\(\\omega\\), is used.\nReal-gas properties can be characterized graphically with the generalized compressibility charts.\nReal-gas properties can also be characterized by equations of state, such as the virial equation and the Soave-Redlich-Kwong equation."
+    "text": "The Takeaways\n\nReal gases are characterized by at least two experimental parameters, \\(P_\\mathrm{c}\\) and \\(T_\\mathrm{c}\\).\nWhen a third parameter is needed for greater accuracy, the acentric factor, \\(\\omega\\), is used.\nReal-gas properties can be characterized graphically with the generalized compressibility charts.\nReal-gas properties can also be characterized by equations of state, such as the virial equation and the Soave-Redlich-Kwong equation."
   },
   {
     "objectID": "balances/material/RecycleBypassPart2JTFVisuals.html#bypass",
@@ -753,21 +753,21 @@
     "href": "balances/material/Video65Visuals.html#pseudo-pseudo",
     "title": "Chemical and Thermal Processes",
     "section": "Pseudo Pseudo",
-    "text": "Pseudo Pseudo\n\nThe pseudocritical temperature is \\[\nT_c' = \\sum y_i T_{ci}\n\\]\nThe pseudocritical pressure is\n\\[\nP_c' = \\sum y_i P_{ci}\n\\]\nThe pseudoreduced temperature is\n\\[\nT_r' = \\frac{T}{T_c'}\n\\]\nThe pseudoreduced pressure is\n\\[\nP_r' = \\frac{P}{P_c'}\n\\]"
+    "text": "Pseudo Pseudo\n\nThe pseudocritical temperature is \\[\nT_\\mathrm{c}' = \\sum y_i T_{\\mathrm{c}i}\n\\]\nThe pseudocritical pressure is\n\\[\nP_\\mathrm{c}' = \\sum y_i P_{\\mathrm{c}i}\n\\]\nThe pseudoreduced temperature is\n\\[\nT_\\mathrm{r}' = \\frac{T}{T_\\mathrm{c}'}\n\\]\nThe pseudoreduced pressure is\n\\[\nP_\\mathrm{r}' = \\frac{P}{P_\\mathrm{c}'}\n\\]"
   },
   {
     "objectID": "balances/material/Video65Visuals.html#kays-rule-1",
     "href": "balances/material/Video65Visuals.html#kays-rule-1",
     "title": "Chemical and Thermal Processes",
     "section": "Kay’s Rule",
-    "text": "Kay’s Rule\n\n\nCC BY-SA 3.0\n\n\n\\[\nP_r' =\\frac{P}{P_c'}\n\\]\n\\[\nT_r' = \\frac{T}{T_c'}\n\\]\n\\[\nz_m = z_m(T_r', P_r')\n\\]"
+    "text": "Kay’s Rule\n\n\nCC BY-SA 3.0\n\n\n\\[\nP_\\mathrm{r}' =\\frac{P}{P_\\mathrm{c}'}\n\\]\n\\[\nT_\\mathrm{r}' = \\frac{T}{T_\\mathrm{c}'}\n\\]\n\\[\nz_m = z_m(T_\\mathrm{r}', P_\\mathrm{r}')\n\\]"
   },
   {
     "objectID": "balances/material/Video65Visuals.html#peng-robinson-equation-of-state",
     "href": "balances/material/Video65Visuals.html#peng-robinson-equation-of-state",
     "title": "Chemical and Thermal Processes",
     "section": "Peng-Robinson Equation of State",
-    "text": "Peng-Robinson Equation of State\nFrom the family of cubic equations of state \\[\nP = \\frac{RT}{\\hat{V} - b} - \\frac{a}{\\hat{V}^2 + 2\\hat{V}b - b^2}\n\\]\nwhere:\n\\[\na = 0.45724 \\alpha \\frac{(RT_c)^2}{P_c}\n\\]\n\\[\nb = 0.07780 \\frac{RT_c}{P_c}\n\\]\n\\[\n\\alpha = \\left[1 + m(1 - \\sqrt{T_r})\\right]^2\n\\]\n\\[\nm = 0.37464 + 1.54226\\omega - 0.26992\\omega^2\n\\]"
+    "text": "Peng-Robinson Equation of State\nFrom the family of cubic equations of state \\[\nP = \\frac{RT}{\\hat{V} - b} - \\frac{a}{\\hat{V}^2 + 2\\hat{V}b - b^2}\n\\]\nwhere:\n\\[\na = 0.45724 \\alpha \\frac{(RT_\\mathrm{c})^2}{P_\\mathrm{c}}\n\\]\n\\[\nb = 0.07780 \\frac{RT_\\mathrm{c}}{P_\\mathrm{c}}\n\\]\n\\[\n\\alpha = \\left[1 + m(1 - \\sqrt{T_\\mathrm{r}})\\right]^2\n\\]\n\\[\nm = 0.37464 + 1.54226\\omega - 0.26992\\omega^2\n\\]"
   },
   {
     "objectID": "balances/material/Video65Visuals.html#the-peng-robinson-mixing-rules",
@@ -1089,14 +1089,14 @@
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#estimating-formulas",
     "title": "Chemical and Thermal Processes",
     "section": "Estimating Formulas",
-    "text": "Estimating Formulas\nIf the tabulated data are missing  use a formula like Kopp’s rule\n\\(\\hspace{3pt} (C_p)_{\\text{compound}} = \\sum\\limits_{\\text{all atoms}} C_{pa}\\)\n\\(\\hspace{1pt}\\)\nHow about mixtures?\n\\(\\hspace{1pt}\\)\nLacking other data, use a  weighted average.\n{image}"
+    "text": "Estimating Formulas\n\n\nIf the tabulated data are missing use a formula like Kopp’s rule,\n\\[\n(C_p)_{\\mathrm{compound}} = \\sum_\\text{all atoms} C_{pa}\n\\]\nHow about mixtures?  Lacking other data, use a weighted average.\n\n\n\nAtomic Heat-Capacity Contributions for Kopp’s Rule \\(C_{pa}\\) (J/g-atom°C)\n\n\nElement\nSolids\nLiquids\n\n\n\n\nC\n7.5\n12\n\n\nH\n9.6\n18\n\n\nB\n11\n20\n\n\nSi\n16\n24\n\n\nO\n17\n25\n\n\nF\n21\n29\n\n\nP\n23\n31\n\n\nS\n26\n31\n\n\nAll others\n26\n33"
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section",
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "The \\(C_p \\Delta T\\) changes are known as \\(\\textit{sensible heat changes}\\). During a phase change, heat is added without a change in temperature. Such changes are \\(\\textit{latent heat changes}\\).\n\nLatent heat of vaporization, \\(\\hspace{4pt} \\Delta \\hat{H}_v\\)\nLatent heat of fusion, \\(\\hspace{4pt} \\Delta \\hat{H}_m\\)\nLatent heat of sublimination, \\(\\hspace{4pt} \\Delta \\hat{H}_s\\)\n\n\\(\\hspace{1mm}\\)\nWhy \\(\\Delta H\\)? Why not \\(\\Delta U\\)?"
+    "text": "The \\(C_p \\Delta T\\) changes are known as sensible heat changes. During a phase change, heat is added without a change in temperature. Such changes are latent heat changes.\n\nLatent heat of vaporization, \\(\\hspace{4pt} \\Delta \\hat{H}_v\\)\nLatent heat of fusion, \\(\\hspace{4pt} \\Delta \\hat{H}_m\\)\nLatent heat of sublimination, \\(\\hspace{4pt} \\Delta \\hat{H}_s\\)\n\n\\(\\hspace{1mm}\\)\n\nWhy \\(\\Delta \\hat{H}\\)? Why not \\(\\Delta \\hat{U}\\)?"
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-1",
@@ -1110,35 +1110,35 @@
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-2",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "or\n\n\\(\\Delta U_v + \\Delta (PV) = \\Delta H_v = Q\\)\n\n\\(\\hspace{1mm}\\)\nThe book lies a little. It should say on page \\(265\\), “If a phase change takes place in a \\(\\textit{constant volume}\\) closed system…”\n\\(\\hspace{1mm}\\)\n\n\\(\\Delta \\hat{U}_m \\approx \\Delta \\hat{H}_m\\)\n\n\n\\(\\Delta \\hat{U}_v \\approx \\Delta \\hat{H}_v - RT\\)"
+    "text": "or\n\n\\(\\Delta U_v + \\Delta (PV) = \\Delta H_v = Q\\)\n\n\\(\\hspace{1mm}\\)\nIf a phase change takes place in a constant volume closed system, then \\(\\Delta \\hat{U}\\) must be evaluated as\n\\(\\hspace{1mm}\\)\n\n\\(\\Delta \\hat{U} = \\Delta \\hat{H} - \\Delta(P\\hat{V})\\)\n\n\\(\\hspace{1mm}\\)\n\n\\(\\Delta \\hat{U}_m \\approx \\Delta \\hat{H}_m\\)\n\n\\(\\hspace{1mm}\\)\n\n\\(\\Delta \\hat{U}_v \\approx \\Delta \\hat{H}_v - RT\\)"
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-3",
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-3",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "How do you evaluate latent heats?\n\nTables\nCorrelations\nEducated Guesses\n\n\\(\\hspace{1mm}\\)\n\\(\\textbf{Trouton's Rule (within 30\\% accuracy)}\\)  nonpolar liquids\n\n\\((\\Delta \\hat{H}_v)_{nbp}\\) [\\(\\textrm{kJ/mol}\\)] \\(\\approx 0.0088T_b (K)\\)\n\n\\(\\hspace{1mm}\\)\nwater, low-MW alcohols\n\n\\((\\Delta \\hat{H}_v)_{nbp}\\) [\\(\\textrm{kJ/mol}\\)] \\(\\approx 0.109T_b (K)\\)"
-  },
-  {
-    "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#chens-equation-within-2-accuracy",
-    "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#chens-equation-within-2-accuracy",
-    "title": "Chemical and Thermal Processes",
-    "section": "Chen’s equation (within 2% accuracy)",
-    "text": "Chen’s equation (within 2% accuracy)\n\\(\\hspace{1mm}\\)\n\n\\((\\Delta \\hat{H}_v)_{nbp} = \\dfrac{T_b[0.331(T_b/T_c) - 0.0327 + 0.0297\\log_{10} P_c]}{1.07 - (T_b / T_c)}\\)\n\nwith \\(T\\)’s in Kelvin, \\(P\\) in atm, and \\(\\Delta H\\) in \\(\\textrm{kJ/mol}\\)\n\\(\\hspace{1mm}\\)\nAlso \\(\\textbf{Clausius and Claperyon backwards}\\)\n\n\\(\\ln p^* = -\\dfrac{\\Delta \\hat{H}_v}{RT} + B\\)\n\n\n\\(\\dfrac{d(\\ln p^*)}{d(1/T)} = -\\dfrac{\\Delta \\hat{H}_v}{R}\\)"
+    "text": "How do you evaluate latent heats?\n\nTables\nCorrelations\nEducated Guesses\n\n\\(\\hspace{1mm}\\)\nTrouton’s Rule (within 30% accuracy) nonpolar liquids\n\n\\((\\Delta \\hat{H}_v)_\\mathrm{nbp}\\) [\\(\\mathrm{kJ/mol}\\)] \\(\\approx 0.0088T_\\mathrm{b} (K)\\)\n\n\\(\\hspace{1mm}\\)\nwater, low-MW alcohols\n\n\\((\\Delta \\hat{H}_v)_\\mathrm{nbp}\\) [\\(\\mathrm{kJ/mol}\\)] \\(\\approx 0.109T_\\mathrm{b} (K)\\)"
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-4",
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-4",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "And finally if you have \\(\\Delta \\hat{H}_v\\) at one temperature and you need it at another, the \\(\\textbf{Watson correlation}\\)\n\n\\(\\dfrac{\\Delta \\hat{H}_v (T_2)}{\\Delta \\hat{H}_v (T_1)} = (\\dfrac{T_c - T_2}{T_c - T_1})\\)\n\n\\(\\hspace{1mm}\\)\n\\(\\textbf{Page 266's Rule (??\\% accurate)}\\)  For metallic elements\n\n\\(\\Delta \\hat{H}_v (\\textrm{kJ/mol}) \\approx 0.0092 T_m (K)\\)\n\nFor inorganic compounds\n\n\\(\\Delta \\hat{H}_v (\\textrm{kJ/mol}) \\approx 0.0025 T_m (K)\\)\n\nFor organic compounds\n\n\\(\\Delta \\hat{H}_v (\\textrm{kJ/mol}) \\approx 0.050 T_m (K)\\)"
+    "text": "Chen’s equation (within 2% accuracy)\n\\(\\hspace{1mm}\\)\n\n\\((\\Delta \\hat{H}_v)_\\mathrm{nbp} = \\dfrac{T_b[0.0331(T_\\mathrm{b}/T_\\mathrm{c}) - 0.0327 + 0.0297\\log_{10} P_c]}{1.07 - (T_b / T_\\mathrm{c})}\\)\n\nwith \\(T\\)’s in Kelvin, \\(P\\) in atm, and \\(\\Delta \\hat{H}\\) in \\(\\mathrm{kJ/mol}\\)\n\\(\\hspace{1mm}\\)\nAlso Clausius and Claperyon backwards\n\n\\(\\ln p^* = -\\dfrac{\\Delta \\hat{H}_v}{RT} + B\\)\n\n\n\\(\\dfrac{d(\\ln p^*)}{d(1/T)} = -\\dfrac{\\Delta \\hat{H}_v}{R}\\)"
+  },
+  {
+    "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-5",
+    "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-5",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "And finally if you have \\(\\Delta \\hat{H}_v\\) at one temperature and you need it at another, the Watson correlation\n\n\\(\\dfrac{\\Delta \\hat{H}_v (T_2)}{\\Delta \\hat{H}_v (T_1)} = (\\dfrac{T_\\mathrm{c} - T_2}{T_\\mathrm{c} - T_1})\\)\n\n\\(\\hspace{1mm}\\)\nPage 266’s Rule (??% accurate)  For metallic elements\n\n\\(\\Delta \\hat{H}_m (\\mathrm{kJ/mol}) \\approx 0.0092 T_m (K)\\)\n\nFor inorganic compounds\n\n\\(\\Delta \\hat{H}_m (\\mathrm{kJ/mol}) \\approx 0.0025 T_m (K)\\)\n\nFor organic compounds\n\n\\(\\Delta \\hat{H}_m (\\mathrm{kJ/mol}) \\approx 0.050 T_m (K)\\)"
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#valuable-numbers-to-know",
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#valuable-numbers-to-know",
     "title": "Chemical and Thermal Processes",
     "section": "Valuable Numbers to Know",
-    "text": "Valuable Numbers to Know\n\\(\\textit{Approximate}\\) Heat Capacities\n{image}\nWater values\n\\(\\hspace{1mm}\\)\n\\(C_p [\\dfrac{\\textrm{Btu}}{lb_m ^{\\circ} F}]\\) or \\([\\dfrac{\\textrm{cal}}{g ^{\\circ} C}]\\)\nSteam \\(\\approx 0.5\\)\nWater \\(\\approx 1.0\\)\nIce \\(\\approx 0.5\\)\n\\(\\Delta \\hat{H}_v \\approx 1000 [\\dfrac{\\textrm{Btu}}{lb_m ^{\\circ} F}]\\)\n\\(\\Delta \\hat{H}_m \\approx 150 [\\dfrac{\\textrm{Btu}}{lb_m ^{\\circ} F}]\\)"
+    "text": "Valuable Numbers to Know\n\n\n\nApproximate Heat Capacities\n\n\n\n\n\nGas Type\n\\(C_p\\)\n\\(C_v\\)\n\n\n\n\nMonatomic\n\\(\\frac{3}{2}R\\)\n\\(\\frac{5}{2}R\\)\n\n\nDiatomic\n\\(\\frac{5}{2}R\\)\n\\(\\frac{7}{2}R\\)\n\n\n\n\n\nWater values\n\n \\(C_p\\text{ in } \\left[\\mathrm{\\dfrac{Btu}{lb_m\\ ^{\\circ} F}}\\right] \\text{ or } \\left[\\mathrm{\\dfrac{cal}{g\\ ^{\\circ} C}}\\right]\\)\n\n\n\n Steam \\(\\approx 0.5\\)\n Water \\(\\approx 1.0\\)\n      Ice \\(\\approx 0.5\\)\n\\(\\Delta \\hat{H}_v \\approx 1000\\ \\left[\\mathrm{\\dfrac{Btu}{lb_m}}\\right]\\)\n\\(\\ \\Delta \\hat{H}_m \\approx 150\\ \\left[\\mathrm{\\dfrac{Btu}{lb_m}}\\right]\\)"
   },
   {
     "objectID": "balances/energy/EnergyBalancesIntroOutroVisuals.html#section",
@@ -1152,56 +1152,49 @@
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "If we have a chemical reaction, such as\n\\[\naA + bB \\rightarrow cC + dD\n\\]\nWe can run it in an isothermal chemical reactor, either as an open steady-state system or as a closed constant-pressure system.\n{image}\n\\[\n\\Delta \\hat{H}_r = \\dfrac{\\Delta H}{\\xi} = \\dfrac{Q}{\\xi} \\text{ or } \\dfrac{\\dot{H}}{\\dot{\\xi}} = \\dfrac{\\dot{Q}}{\\dot{\\xi}}\n\\]"
+    "text": "If we have a chemical reaction, such as\n\\[\na\\mathrm{A} + b\\mathrm{B} \\rightarrow c\\mathrm{C} + d\\mathrm{D}\n\\]\nwe can run it in an isothermal chemical reactor, either as an open steady-state system or as a closed constant-pressure system.\n{image}\n\\[\n\\Delta \\hat{H}_r = \\dfrac{\\Delta H}{\\xi} = \\dfrac{Q}{\\xi} \\text{ or } \\dfrac{\\dot{H}}{\\dot{\\xi}} = \\dfrac{\\dot{Q}}{\\dot{\\xi}}\n\\]"
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#section-1",
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "The heat of reaction or enthalpy of reaction depends on how you write the chemical equation. If you double the stoichiometric coefficients, you double the heat of reaction.\n\nThe heat of reaction is a function of temperature. At the standard reference temperature (\\(25\\text{ } ^{\\circ}\\text{C}\\) for E82), the heat of reaction is the standard heat of reaction.\n\nTo calculate the heat of reaction at a temperature other than the standard temperature, you have to take into account any sensible heat changes and any phase changes since \\(H\\) is a state function."
+    "text": "The heat of reaction or enthalpy of reaction depends on how you write the chemical equation. If you double the stoichiometric coefficients, you double the heat of reaction.\n\nThe heat of reaction is a function of temperature. At the standard reference temperature (\\(25\\ ^{\\circ}\\text{C}\\) for the DOFPro videos), the heat of reaction is the standard heat of reaction. Wikipedia has reasonable table of heats of combustion, which are heats of reaction for burning fuels in air. They are discussed further later in the video.\n\nTo calculate the heat of reaction at a temperature other than the standard temperature, you have to take into account any sensible heat changes and any phase changes since \\(H\\) is a state function."
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#heat-of-formation",
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#heat-of-formation",
     "title": "Chemical and Thermal Processes",
     "section": "Heat of Formation",
-    "text": "Heat of Formation\nThe heat of formation or enthalpy of formation is the standard heat of reaction for forming one mole of product, starting from pure elements at their standard form of aggregation at \\(T_{ref}\\). For example, the standard states at \\(25\\text{ } ^{\\circ}\\text{C}\\) for oxygen and nitrogen are the diatomic gases \\(\\textrm{O}_2\\)(g) and \\(\\textrm{N}_2\\)(g). The standard heat of formation for any element in its standard form of aggregation is \\(0\\) by definition.\n\nYou can calculate the standard heat of reaction for any reaction as the sum of the heats of formation times the stoichiometric coefficients. Don’t forget phase changes.\n\\[\n\\Delta H^{\\circ}_r = \\sum v_i \\Delta H^{\\circ}_{f, i}\n\\]"
+    "text": "Heat of Formation\nThe heat of formation or enthalpy of formation is the standard heat of reaction for forming one mole of product, starting from pure elements at their standard form of aggregation at \\(T_\\mathrm{ref}\\). For example, the standard states at \\(25\\text{ } ^{\\circ}\\text{C}\\) for oxygen and nitrogen are the diatomic gases \\(\\mathrm{O_2 (g)}\\) and \\(\\mathrm{N_2 (g)}\\). The standard heat of formation for any element in its standard form of aggregation is \\(0\\) by definition. Wikipedia has a reasonably good table of standard enthalpies of formation.\n\nYou can calculate the standard heat of reaction for any reaction as the sum of the heats of formation times the stoichiometric coefficients. Don’t forget phase changes.\n\\[\n\\Delta \\hat{H}^{\\circ}_r = \\sum \\nu_i \\Delta \\hat{H}^{\\circ}_{f, i}\n\\]"
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#hesss-law",
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#hesss-law",
     "title": "Chemical and Thermal Processes",
     "section": "Hess’s Law",
-    "text": "Hess’s Law\nThe energetics of any reaction can be calculated by algebraically adding together any set of reactions that gives you the same overall reaction as the one you want.\n\nExample \\(9.2-1\\) from FRB.\n\n\\(\\textrm{C}_2 \\textrm{H}_6 + \\dfrac{7}{2} \\textrm{O}_2 \\rightarrow 2\\textrm{C}\\textrm{O}_2 + 3\\textrm{H}_2\\textrm{O}: \\hspace{10pt}\\Delta H^{\\circ}_{r1} = -1559.8 \\textrm{kJ/mol}\\)\n\\(\\textrm{C} + \\textrm{O}_2 \\rightarrow \\textrm{C}\\textrm{O}_2: \\hspace{10pt}\\Delta H^{\\circ}_{r2} = -393.5 \\textrm{kJ/mol}\\)\n\\(\\textrm{H}_2 + \\dfrac{1}{2} \\textrm{O}_2 \\rightarrow \\textrm{H}_2\\textrm{O}: \\hspace{10pt}\\Delta H^{\\circ}_{r3} = -285.8 \\textrm{kJ/mol}\\)"
+    "text": "Hess’s Law\nThe energetics of any reaction can be calculated by algebraically adding together any set of reactions that gives you the same overall reaction as the one you want.\n\nExample\n\n\n\\(\\mathrm{C_2H_6} + \\dfrac{7}{2} \\mathrm{O_2} \\rightarrow 2\\mathrm{CO_2} + 3\\mathrm{H_2O}: \\hspace{10pt}\\Delta \\hat{H}^{\\circ}_{r1} = -1559.8\\ \\mathrm{kJ/mol}\\)\n\\(\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}: \\hspace{10pt}\\Delta \\hat{H}^{\\circ}_{r2} = -393.5\\ \\mathrm{kJ/mol}\\)\n\\(\\mathrm{H_2} + \\dfrac{1}{2} \\mathrm{O_2} \\rightarrow \\mathrm{H_2O}: \\hspace{10pt}\\Delta \\hat{H}^{\\circ}_{r3} = -285.8 \\mathrm{kJ/mol}\\)"
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#section-2",
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#section-2",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Add \\(2\\) Equation \\(2\\)’s to \\(3\\) Equation \\(3\\)’s and subtract \\(1\\) Equation \\(1\\)\n\\[\n\\small{2 \\textrm{C} + 3\\textrm{H}_2 + 2\\textrm{O}_2 + \\dfrac{3}{2} \\textrm{O}_2 - \\dfrac{7}{2} \\textrm{O}_2 \\rightarrow 2\\textrm{C}\\textrm{O}_2 + 3\\textrm{H}_2\\textrm{O} - \\textrm{C}\\textrm{O}_2 - 3\\textrm{H}_2\\textrm{O} + \\textrm{C}_2 \\textrm{H}_6}\n\\]\n\n\\[\n4. \\hspace{10pt} 2\\textrm{C} + 3\\textrm{H}_2 \\rightarrow \\textrm{C}_2 \\textrm{H}_6\n\\]\n \\[\n\\Delta H^{\\circ}_{r4} = 2\\Delta H^{\\circ}_{r2} + 3\\Delta H^{\\circ}_{r3} - \\Delta H^{\\circ}_{r1}\n\\] \\[\n= 2(-393.5) + 3(-285.8) - (-1559.8) = -84.6 \\textrm{kJ/mol}\n\\]\nwhich is also the heat of formation for ethane."
+    "text": "Add \\(2\\) Equation \\(2\\)’s to \\(3\\) Equation \\(3\\)’s and subtract \\(1\\) Equation \\(1\\)\n\n\\[\n2 \\mathrm{C} + 3\\mathrm{H_2} + 2\\mathrm{O_2} + \\dfrac{3}{2} \\mathrm{O_2} - \\dfrac{7}{2} \\mathrm{O_2} \\rightarrow 2\\mathrm{CO_2} + 3\\mathrm{H_2O} - \\mathrm{CO_2} - 3\\mathrm{H_2O} + \\mathrm{C_2H_6}\n\\]\n\n\n\\(\\hspace{10pt} 2\\mathrm{C} + 3\\mathrm{H}_2 \\rightarrow \\mathrm{C}_2 \\mathrm{H}_6\\)\n\n \\[\n\\Delta \\hat{H}^{\\circ}_{r4} = 2\\Delta \\hat{H}^{\\circ}_{r2} + 3\\Delta \\hat{H}^{\\circ}_{r3} - \\Delta \\hat{H}^{\\circ}_{r1}\n\\] \\[\n= 2(-393.5) + 3(-285.8) - (-1559.8) = -84.6 \\mathrm{kJ/mol}\n\\]\nwhich is also the heat of formation for ethane."
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#section-3",
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#section-3",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "If you use different sets of equations to calculate the same final equation with Hess’s law, you may find that rounding and truncation errors keep the results from being identical. In the back of FRB, the heat of formation for ethane is \\(–84.67\\) \\(\\textrm{kJ/mol}\\)."
-  },
-  {
-    "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#section-4",
-    "href": "balances/energy/Video104HeatsOfReactionVisuals.html#section-4",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "FRB uses units of \\(\\textrm{kJ}\\) or \\(\\textrm{Btu}\\) for heats of reaction and heats of formation. I use \\(\\textrm{kJ/mol}\\) or \\(\\textrm{Btu/lb-mol}\\). Why the difference? FRB feels that including the basis confuses students. I feel that since\n\\[\n\\Delta H = \\xi \\Delta \\hat{H}_r\n\\]\nand\n\\[\n\\Delta \\hat{H} = \\hat{\\xi} \\Delta \\hat{H}_r\n\\]\n\nand the units of extent are moles, and the rate of extent are moles/time, including the basis makes perfect sense."
+    "text": "If you use different sets of equations to calculate the same final equation with Hess’s law, you may find that rounding and truncation errors keep the results from being identical. The most current value for the enthalpy of formation of ethane from NIST is \\(–84. \\pm0.4\\ \\mathrm{kJ/mol}\\), which is just outside the value we calculated."
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#the-heat-of-combustion",
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#the-heat-of-combustion",
     "title": "Chemical and Thermal Processes",
     "section": "The Heat of Combustion",
-    "text": "The Heat of Combustion\nIf you have a combustion reaction for a given species, as discussed in the Combustion Reactions video, the heat of reaction for complete combustion of one mole of fuel is called the heat of combustion. As a reminder, for the principal species and complete combustion, the combustion products are \\(\\textrm{C}\\textrm{O}_2\\), \\(\\textrm{H}_2\\textrm{O}\\), and \\(\\textrm{S}\\textrm{O}_2\\). \\(\\textrm{C}\\textrm{O}_2\\) and \\(\\textrm{S}\\textrm{O}_2\\) are gases at standard conditions. What about water?\n\nThe accepted convention is to assume water is liquid at \\(25 \\text{ } ^{\\circ}\\text{C}\\) and \\(1\\) atm."
+    "text": "The Heat of Combustion\nIf you have a combustion reaction for a given species, as discussed in the Flame On, Torch! video, the heat of reaction for complete combustion of one mole of fuel is called the heat of combustion. As a reminder, for the principal species and complete combustion, the combustion products are \\(\\mathrm{C}\\mathrm{O}_2\\), \\(\\mathrm{H}_2\\mathrm{O}\\), and \\(\\mathrm{S}\\mathrm{O}_2\\). \\(\\mathrm{C}\\mathrm{O}_2\\) and \\(\\mathrm{S}\\mathrm{O}_2\\) are gases at standard conditions. What about water?\n\nThe value called the enthalpy of combustion assumes that water is liquid at \\(25\\ ^{\\circ}\\mathrm{C}\\) and \\(1\\ \\mathrm{atm}\\). It is alternately called the Higher Heating Value (HHV). The enthalpy of combustion calculated assuming water is vapor at \\(25\\ ^{\\circ}\\mathrm{C}\\) is called the Lower Heating Value. The details will be discussed in TBD."
   },
   {
     "objectID": "balances/general/KeepYourBalanceJTFVisuals.html#section",
@@ -4547,7 +4540,7 @@
     "href": "balances/energy/Video89Visuals.html#intensive-and-extensive-properties",
     "title": "Chemical and Thermal Processes",
     "section": "Intensive and Extensive Properties",
-    "text": "Intensive and Extensive Properties\nA property of a substance that does not depend on the mass or moles of a substance is an intensive property (such as temperature, pressure, or composition).\nA property of a substance that does depend on the mass or moles of a substance is an extensive property (such as volume, kinetic energy, or internal energy).\nIt is quite frequently useful to define an intensive property that is related to an extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume or specific internal energy,\n\\[\n\\hat{V} = \\frac{V}{m}, \\hat{U}=\\frac{U}{m}\n\\]"
+    "text": "Intensive and Extensive Properties\nA property of a substance that does not depend on the mass or moles of a substance is an intensive property(such as temperature, pressure, or composition).\nA property of a substance that does depend on the mass or moles of a substance is an extensive property (such as volume, kinetic energy, or internal energy).\nIt is quite frequently useful to define an intensive property that is related to an extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume or specific internal energy,\n\\[\\hat{V} = \\frac{V}{m},\\ \\ \\ \\ \\hat{U}=\\frac{U}{m}\\]"
   },
   {
     "objectID": "balances/energy/Video89Visuals.html#enthalpy-pronounced-en-thal-pee",
@@ -4582,7 +4575,21 @@
     "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#gibbs-phase-rule",
     "title": "Chemical and Thermal Processes",
     "section": "Gibbs Phase Rule",
-    "text": "Gibbs Phase Rule\n\n\\(\\ \\ \\ \\boxed{DF\\ =\\ 2+c - \\Pi}\\)\n\n\nA Degree of Freedom, DF, is a coordinate or variable.\nA Component, \\(c\\), is a chemical species, e.g. \\(\\mathrm{Al_2O_3}\\).\nA Phase, ∏, is a physical entity with a uniform composition, temperature, pressure and specific volume.\nFor a single component system with one phase \\(\\\\ \\text{DF} = 2 + 1 – 1 = 2\\).\nFor a single component system with two phases \\(\\\\ \\text{DF} = 2 + 1 – 2 = 1\\)."
+    "text": "Gibbs Phase Rule\n\n\\(\\ \\ \\ \\ \\ \\boxed{DF\\ =\\ 2+c - \\Pi}\\)\n\n\nA Degree of Freedom, \\(DF\\), is a coordinate or variable.\nA Component, \\(c\\), is a chemical species, e.g. \\(\\mathrm{Al_2O_3}\\).\nA Phase, \\(\\Pi\\), is a physical entity with a uniform composition, temperature, pressure and specific volume.\nFor a single component system with one phase \\(\\\\ DF = 2 + 1 – 1 = 2\\).\nFor a single component system with two phases \\(\\\\ DF = 2 + 1 – 2 = 1\\)."
+  },
+  {
+    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#steam-water-ttext-hats-diagram",
+    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#steam-water-ttext-hats-diagram",
+    "title": "Chemical and Thermal Processes",
+    "section": "Steam-Water \\(T\\text{-}\\hat{S}\\) Diagram",
+    "text": "Steam-Water \\(T\\text{-}\\hat{S}\\) Diagram\n\n\nKaboldy, T-s diagram, Font and spacing, CC BY-SA 3.0"
+  },
+  {
+    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#steam-water-ptext-hath-diagram",
+    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#steam-water-ptext-hath-diagram",
+    "title": "Chemical and Thermal Processes",
+    "section": "Steam-Water \\(P\\text{-}\\hat{H}\\) Diagram",
+    "text": "Steam-Water \\(P\\text{-}\\hat{H}\\) Diagram\n\n\nEmok, Pressure-enthalpy chart for steam, in US units, CC BY-SA 3.0"
   },
   {
     "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section",
@@ -4610,56 +4617,42 @@
     "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-3",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "{image}"
+    "text": "In the single-phase region (superheated steam)\n\n\n\n\\(\\ \\ \\ \\ DF = 2\\)\nMust specify two properties to define the thermodynamic state\ne.g. What is the specific volume of steam at \\(5\\ \\mathrm{bar}\\) and \\(300\\ ^\\circ\\mathrm{C}\\)?\n\n\nProperties of Superheated Steam\n{image}"
   },
   {
     "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-4",
     "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-4",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "{image}"
-  },
-  {
-    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#in-the-single-phase-region-superheated-steam",
-    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#in-the-single-phase-region-superheated-steam",
-    "title": "Chemical and Thermal Processes",
-    "section": "In the single-phase region (superheated steam)",
-    "text": "In the single-phase region (superheated steam)\n\n\\(DF = 2\\)\nMust specify two properties to define the thermodynamic state\ne.g. What is the specific volume of steam at \\(5\\) bar and \\(\\ \\ \\ \\) \\(300\\) °C?\n\n{image}"
-  },
-  {
-    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#in-the-single-phase-region-superheated-steam-1",
-    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#in-the-single-phase-region-superheated-steam-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "In the single-phase region (superheated steam)",
-    "text": "In the single-phase region (superheated steam)\ne.g. What is the temperature of steam with a specific volume of \\(0.500\\) \\(\\dfrac{\\textrm{m}^3}{\\textrm{kg}}\\) at \\(5\\) bar?\n{image}\n\\(\\\\\\)\n\\(\\\\\\)\n\\(\\\\\\)\n\\(\\\\\\)\n\\(\\\\\\)\n\\(\\dfrac{T - 250}{0.500 - 0.474}\\ =\\ \\dfrac{300 - 250}{0.522-0.474} \\hspace{20pt} \\Rightarrow T = 277.1 ^{\\circ} \\mathrm{C}\\)"
-  },
-  {
-    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#in-the-two-phase-region-saturated-steam-and-water",
-    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#in-the-two-phase-region-saturated-steam-and-water",
-    "title": "Chemical and Thermal Processes",
-    "section": "In the two-phase region (saturated steam and water)",
-    "text": "In the two-phase region (saturated steam and water)\n\n\\(DF = 1\\)\nHave two phases (water and steam) in equilibrium.\ne.g. What is the temperature, and what are the specific enthalpies of saturated water and saturated steam at \\(4.0\\) bar?\n\n{image}"
-  },
-  {
-    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#in-the-two-phase-region-saturated-steam-and-water-1",
-    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#in-the-two-phase-region-saturated-steam-and-water-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "In the two-phase region (saturated steam and water)",
-    "text": "In the two-phase region (saturated steam and water)\nWe know the properties of the two phases.\nWhat is the property of the overall mixture?\nDefine the quality.\n\\(\\\\\\)\n\\(x = \\dfrac{\\text{m}_{steam}}{\\text{m}_{steam} + \\text{m}_{water}} = \\dfrac{\\text{m}_{steam}}{\\text{m}_{total}}\\)\n\\(\\\\\\)\nWhat is the pressure and specific internal energy of a mixture of steam and water at \\(88 °C\\) and a quality of \\(80\\)%?\n\\(\\\\\\)\nWhat is the quality of a mixture of steam and water at \\(0.6495\\) bar, and a specific enthalpy of \\(2000\\  \\textrm{kJ/kg}\\)?"
+    "text": "In the single-phase region (superheated steam)\n\ne.g. What is the temperature of steam with a specific volume of \\(0.500\\) \\(\\dfrac{\\textrm{m}^3}{\\textrm{kg}}\\) at \\(5\\) bar?\n{image}\n\n\\(\\dfrac{T - 250}{0.500 - 0.474}\\ =\\ \\dfrac{300 - 250}{0.522-0.474} \\hspace{5pt} \\Rightarrow T = 277.1 ^{\\circ} \\mathrm{C}\\)"
   },
   {
     "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-5",
     "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-5",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "What is the pressure and specific internal energy of a mixture of steam and water at \\(88 °C\\) and a quality of \\(80\\)%?\n\\(\\\\\\)\n{image}\n\\(\\\\\\)\n\\(P\\ =\\ 0.6495\\) bar\n\\(\\hspace{10pt}\\) \\(\\hat{U}_{\\text{mix}} = x\\hat{U}_{\\text{v}}\\ +\\ (1-x)\\hat{U_{\\text{l}}} = 0.8\\ \\cdot 2491 + 0.2\\ \\cdot 368.4 = 2066.5\\ \\textrm{kJ/kg}\\)"
+    "text": "In the two-phase region (saturated steam and water)\n\n\n\\(\\ \\ \\ \\ DF = 1\\)\nHave two phases (water and steam) in equilibrium.\ne.g. What is the temperature, and what are the specific enthalpies of saturated water and saturated steam at \\(4.0\\) bar?\n\n{image}"
   },
   {
     "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-6",
     "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-6",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "What is the quality of a mixture of steam and water at \\(0.6495\\) bar, and a specific enthalpy of \\(2000\\  \\textrm{kJ/kg}\\)?\n{image}\n\\(\\hat{H}_{\\text{mix}} = x\\hat{H}_{\\text{v}}\\ +\\ (1-x)\\hat{H_{\\text{l}}} = x(\\hat{H}_{\\text{v}} - \\hat{H}_{\\text{l}}) + \\hat{H}_{\\text{l}} = x\\Delta \\hat{H}_{\\text{lv}} + \\hat{H}_{\\text{l}}\\)\n\\(\\\\\\)\n\\(x = \\dfrac{\\hat{H}_{\\text{mix}} - \\hat{H}_{\\text{l}}}{\\hat{H}_{\\text{v}} - \\hat{H}_{\\text{l}}} = \\dfrac{2000 - 368.5}{2656 - 368.5} = 0.713 = 71.3\\)%\n\\(\\\\\\)\n\\(x = \\dfrac{\\hat{H}_{\\text{mix}} - \\hat{H}_{\\text{l}}}{\\Delta\\hat{H}_{\\text{lv}}} = \\dfrac{2000 - 368.5}{2288} = 0.713 = 71.3\\)%"
+    "text": "In the two-phase region (saturated steam and water)\n\n\nWe know the properties of the two phases.\nWhat is the property of the overall mixture?\nDefine the quality.\n\\(\\ \\ \\ \\ x = \\dfrac{m_\\mathrm{steam}}{m_\\mathrm{steam} + m_\\mathrm{water}} = \\dfrac{m_\\mathrm{steam}}{m_\\mathrm{total}}\\)\nWhat is the pressure and specific internal energy of a mixture of steam and water at \\(88\\ ^\\circ\\mathrm{C}\\) and a quality of \\(80\\)%?\nWhat is the quality of a mixture of steam and water at \\(0.6495\\) bar, and a specific enthalpy of \\(2000\\ \\mathrm{kJ/kg}\\)?"
+  },
+  {
+    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-7",
+    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-7",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "What is the pressure and specific internal energy of a mixture of steam and water at \\(88\\ ^\\circ\\mathrm{C}\\) and a quality of \\(80\\)%?\n{image}\n\\(P=0.6495\\ \\mathrm{bar}\\)\n\n\\(\\hat{U}_{\\text{mix}} = x\\hat{U}_{v} + (1-x)\\hat{U}_{l} = 0.8 \\mathbf{\\cdot} 2491 + 0.2 \\mathbf{\\cdot} 368.4 = 2066.5\\ \\mathrm{kJ/kg}\\)"
+  },
+  {
+    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-8",
+    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-8",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "What is the quality of a mixture of steam and water at \\(0.6495\\) bar, and a specific enthalpy of \\(2000\\ \\mathrm{kJ/kg}\\)?\n{image}\n\\(\\hat{H}_{\\text{mix}} = x\\hat{H}_{\\text{v}}\\ +\\ (1-x)\\hat{H_{\\text{l}}} = x(\\hat{H}_{\\text{v}} - \\hat{H}_{\\text{l}}) + \\hat{H}_{\\text{l}} = x\\Delta \\hat{H}_{\\text{lv}} + \\hat{H}_{\\text{l}}\\)\n\\(\\\\\\)\n\\(x = \\dfrac{\\hat{H}_{\\mathrm{mix}} - \\hat{H}_{l}}{\\hat{H}_{v} - \\hat{H}_{l}} = \\dfrac{2000 - 368.5}{2656 - 368.5} = 0.713 = 71.3\\)%\n\\(\\\\\\)\n\\(x = \\dfrac{\\hat{H}_{\\text{mix}} - \\hat{H}_{l}}{\\Delta\\hat{H}_{lv}} = \\dfrac{2000 - 368.5}{2288} = 0.713 = 71.3\\)%"
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas",
@@ -5541,7 +5534,7 @@
     "href": "balances/material/Video64Visuals.html#real-gases-review",
     "title": "Chemical and Thermal Processes",
     "section": "Real Gases Review",
-    "text": "Real Gases Review\nThe ideal gas equation of state is inaccurate at high pressures and low temperatures. In these cases, the \\(PVT\\) relationship is more complex. We can categorize the non-ideality of the gas with the compressibility, \\(z\\).\n\\[\nz \\equiv \\frac{P\\hat{V}}{RT}\n\\]\nThe lowest temperature at which there is no transition from liquid phase to vapor phase with changing pressure is called the critical temperature, \\(T_{c\\ }\\), and the pressure where the liquid and vapor phase boundaries meet is called the critical pressure, \\(P_{c\\ }\\)."
+    "text": "Real Gases Review\nThe ideal gas equation of state is inaccurate at high pressures and low temperatures. In these cases, the \\(PVT\\) relationship is more complex. We can categorize the non-ideality of the gas with the compressibility, \\(z\\).\n\n\\[\nz \\equiv \\frac{P\\hat{V}}{RT}\n\\]\n\n\nThe lowest temperature at which there is no transition from liquid phase to vapor phase with changing pressure is called the critical temperature, \\(T_\\mathrm{c\\ }\\), and the pressure where the liquid and vapor phase boundaries meet is called the critical pressure, \\(P_\\mathrm{c\\ }\\)."
   },
   {
     "objectID": "balances/material/Video64Visuals.html#real-gas-calculations",
@@ -5555,35 +5548,35 @@
     "href": "balances/material/Video64Visuals.html#example-problem",
     "title": "Chemical and Thermal Processes",
     "section": "Example Problem",
-    "text": "Example Problem\nA stream of propane at \\(T = 423\\ \\mathrm{K}\\) and \\(P = 70\\ \\mathrm{atm}\\), is flowing at a rate of \\(100.0\\ \\mathrm{kmol/h}\\). Estimate the volumetric flow rate with ideal gas, generalized compressibility charts, and SRK. The measured molar volume of propane at \\(423\\ \\mathrm{K}\\) and \\(70\\ \\mathrm{atm}\\) is \\(0.2579\\ \\mathrm{L/mol}\\).\nData from Table 1.\n\\[\nT_c = 370\\ \\mathrm{K},\\ \\ \\ \\ P_c = 4.23\\ \\mathrm{MPa}.\n\\]\nData from this link\n\\[\n\\omega = 0.153\n\\]"
+    "text": "Example Problem\nA stream of propane at \\(T = 423\\ \\mathrm{K}\\) and \\(P = 70\\ \\mathrm{atm}\\), is flowing at a rate of \\(100.0\\ \\mathrm{kmol/h}\\). Estimate the volumetric flow rate with ideal gas, generalized compressibility charts, and SRK. The measured molar volume of propane at \\(423\\ \\mathrm{K}\\) and \\(70\\ \\mathrm{atm}\\) is \\(0.2579\\ \\mathrm{L/mol}\\).\n\nData from Table 1.\n\\[\nT_\\mathrm{c} = 370\\ \\mathrm{K},\\ \\ \\ \\ P_\\mathrm{c} = 4.23\\ \\mathrm{MPa}.\n\\]\n\n\nData from this link\n\\[\n\\omega = 0.153\n\\]"
   },
   {
     "objectID": "balances/material/Video64Visuals.html#example-cont.",
     "href": "balances/material/Video64Visuals.html#example-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Example (cont.)",
-    "text": "Example (cont.)\nIdeal Gas\n\\[\n\\hat{V}=\\frac{RT}{P} = \\frac{8.314\\ \\mathrm{\\frac{J}{mol\\ K}\\mathbf{\\cdot}423\\mathrm{K}}}{7.09 \\times 10^6\\ \\mathrm{Pa}} = 4.959 \\times 10^{-4}\\ \\mathrm{\\frac{m^3}{mol}} = 0.4959\\ \\mathrm{\\frac{L}{mol}}\n\\]\n\\[\n\\dot{V}=\\dot{n}\\hat{V}=100\\ \\mathrm{\\frac{kmol}{h}\\mathbf{\\cdot}}\\mathrm{\\frac{1000\\ mol}{1\\ kmol}} \\mathbf{\\cdot}4.959 \\times 10^{-4}\\ \\mathrm{\\frac{m^3}{mol}} = 49.59\\ \\mathrm{\\frac{m^3}{h}}\n\\]\n\\[\nz_\\mathrm{emp} = \\frac{\\hat{V}_\\mathrm{emp}}{\\hat{V}_\\mathrm{IG}}=\\frac{0.2579\\ \\mathrm{\\frac{L}{mol}}}{0.4959\\ \\mathrm{\\frac{L}{mol}}} = 0.5201\n\\]\n\\[\n\\dot{V}_\\mathrm{emp} = z_\\mathrm{emp} \\dot{V}_\\mathrm{IG} = 0.5201 \\mathbf{\\cdot} 49.59\\ \\mathrm{\\frac{m^3}{h}} = 25.79\\ \\mathrm{\\frac{m^3}{h}}\n\\]"
+    "text": "Example (cont.)\nIdeal Gas\n\n\n\\[\n\\hat{V}=\\frac{RT}{P} = \\frac{8.314\\ \\mathrm{\\frac{J}{mol\\ K}\\mathbf{\\cdot}423\\mathrm{K}}}{7.09 \\times 10^6\\ \\mathrm{Pa}} = 4.959 \\times 10^{-4}\\ \\mathrm{\\frac{m^3}{mol}} = 0.4959\\ \\mathrm{\\frac{L}{mol}}\n\\]\n\n\n\\[\n\\dot{V}=\\dot{n}\\hat{V}=100\\ \\mathrm{\\frac{kmol}{h}\\mathbf{\\cdot}}\\mathrm{\\frac{1000\\ mol}{1\\ kmol}} \\mathbf{\\cdot}4.959 \\times 10^{-4}\\ \\mathrm{\\frac{m^3}{mol}} = 49.59\\ \\mathrm{\\frac{m^3}{h}}\n\\]\n\n\n\n\\[\nz_\\mathrm{emp} = \\frac{\\hat{V}_\\mathrm{emp}}{\\hat{V}_\\mathrm{IG}}=\\frac{0.2579\\ \\mathrm{\\frac{L}{mol}}}{0.4959\\ \\mathrm{\\frac{L}{mol}}} = 0.5201\n\\]\n\n\n\\[\n\\dot{V}_\\mathrm{emp} = z_\\mathrm{emp} \\dot{V}_\\mathrm{IG} = 0.5201 \\mathbf{\\cdot} 49.59\\ \\mathrm{\\frac{m^3}{h}} = 25.79\\ \\mathrm{\\frac{m^3}{h}}\n\\]"
   },
   {
     "objectID": "balances/material/Video64Visuals.html#example-cont.-1",
     "href": "balances/material/Video64Visuals.html#example-cont.-1",
     "title": "Chemical and Thermal Processes",
     "section": "Example (cont.)",
-    "text": "Example (cont.)\nGeneralized Compressibility\n \\[\nP_r = \\frac{P}{P_c}=\\frac{70}{41.7} = 1.677\n\\]\n\\[\nT_r = \\frac{T}{T_c}=\\frac{423}{370} = 1.143\n\\]\n\\(z = 0.5139\\)\n\\[\n\\dot{V}_\\mathrm{GC} = z_\\mathrm{GC} \\dot{V}_\\mathrm{IG} = 25.48\\ \\mathrm{\\frac{m^3}{h}}\n\\]"
+    "text": "Example (cont.)\nGeneralized Compressibility\n\n\n\n\n\n\\[\nP_\\mathrm{r} = \\frac{P}{P_\\mathrm{c}}=\\frac{70}{41.7} = 1.677\n\\]\n\n\n\\[\nT_\\mathrm{r} = \\frac{T}{T_\\mathrm{c}}=\\frac{423}{370} = 1.143\n\\]\n\n\n\\[z = 0.5139\\] \n\n\n\\[\n\\dot{V}_\\mathrm{GC} = z_\\mathrm{GC} \\dot{V}_\\mathrm{IG} = 25.48\\ \\mathrm{\\frac{m^3}{h}}\n\\]"
   },
   {
     "objectID": "balances/material/Video64Visuals.html#example-cont.-2",
     "href": "balances/material/Video64Visuals.html#example-cont.-2",
     "title": "Chemical and Thermal Processes",
     "section": "Example (cont.)",
-    "text": "Example (cont.)\nSoave Redlich Kwong (all SI units)\n\\(a = 042747 \\dfrac{(RT_c)^2}{P_c} = 042747 \\dfrac{(8.314 \\mathbf{\\cdot} 370)^2}{4.23 \\times 10^6} =  0.9564\\)\n\\(b = 0.08664 \\dfrac{RT_c}{P_c} = 0.08664 \\dfrac{8.314 \\mathbf{\\cdot} 370}{4.23 \\times 10^6} = 6.301 \\times 10^{-5}\\)\n\\(m = 0.48508 + 1.5517 \\omega - 0.1561 \\omega^2 = 0.7188\\)\n\\(\\alpha = [1+m(1-\\sqrt{T_r})]^2 = [1+0.7188(1-\\sqrt{370})]^2  = 0.9030\\)"
+    "text": "Example (cont.)\nSoave Redlich Kwong (all SI units)\n\n\n\\[a = 042747 \\dfrac{(RT_\\mathrm{c})^2}{P_\\mathrm{c}} = 042747 \\dfrac{(8.314 \\mathbf{\\cdot} 370)^2}{4.23 \\times 10^6} =  0.9564\\]\n\n\n\\[b = 0.08664 \\dfrac{RT_\\mathrm{c}}{P_\\mathrm{c}} = 0.08664 \\dfrac{8.314 \\mathbf{\\cdot} 370}{4.23 \\times 10^6} = 6.301 \\times 10^{-5}\\]\n\n\n\\[m = 0.48508 + 1.5517 \\omega - 0.1561 \\omega^2 = 0.7188\\]\n\n\n\\[\\alpha = [1+m(1-\\sqrt{T_\\mathrm{r}})]^2 = [1+0.7188(1-\\sqrt{370})]^2  = 0.9030\\]"
   },
   {
     "objectID": "balances/material/Video64Visuals.html#example-cont.-3",
     "href": "balances/material/Video64Visuals.html#example-cont.-3",
     "title": "Chemical and Thermal Processes",
     "section": "Example (cont.)",
-    "text": "Example (cont.)\nSoave Redlich Kwong (all SI units)\n\\[\nP = \\frac{RT}{\\hat{V} - b} - \\frac{\\alpha a}{\\hat{V}(\\hat{V}+b)} \\implies f(\\hat{V}) = P - \\frac{RT}{\\hat{V} - b} + \\frac{\\alpha a}{\\hat{V}(\\hat{V}+b)}\n\\]\nSet to 0 with Goal Seek\n\\(\\implies \\hat{V} = 2.878 \\times 10^{-4}\\ \\mathrm{\\frac{m^3}{mol}}\\)\n\\(z_\\mathrm{SRK} = 0.5804\\)\n\\(\\dot{V}_\\mathrm{SRK} = 28.78\\ \\mathrm{\\frac{m^3}{h}}\\)"
+    "text": "Example (cont.)\nSoave Redlich Kwong (all SI units)\n\n\n\\[\nP = \\frac{RT}{\\hat{V} - b} - \\frac{\\alpha a}{\\hat{V}(\\hat{V}+b)} \\implies f(\\hat{V}) = P - \\frac{RT}{\\hat{V} - b} + \\frac{\\alpha a}{\\hat{V}(\\hat{V}+b)}\n\\]\n\n\n\nSet to 0 with Goal Seek\n\n\n\\[\\implies \\hat{V} = 2.878 \\times 10^{-4}\\ \\mathrm{\\frac{m^3}{mol}}\\]\n\n\n\\[z_\\mathrm{SRK} = 0.5804\\]\n\n\n\\[\\dot{V}_\\mathrm{SRK} = 28.78\\ \\mathrm{\\frac{m^3}{h}}\\]"
   },
   {
     "objectID": "balances/material/Video64Visuals.html#example-spreadsheet",
@@ -5597,7 +5590,7 @@
     "href": "balances/material/Video64Visuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nReal gases are characterized by at least two experimental parameters, \\(P_c\\) and \\(T_c\\).\nWhen a third parameter is needed for greater accuracy, the acentric factor, \\(\\omega\\), is used.\nReal-gas properties can be characterized graphically with the generalized compressibility charts.\nReal-gas properties can also be characterized by equations of state, such as the virial equation and the Soave-Redlich-Kwong equation."
+    "text": "The Takeaways\n\nReal gases are characterized by at least two experimental parameters, \\(P_\\mathrm{c}\\) and \\(T_\\mathrm{c}\\).\nWhen a third parameter is needed for greater accuracy, the acentric factor, \\(\\omega\\), is used.\nReal-gas properties can be characterized graphically with the generalized compressibility charts.\nReal-gas properties can also be characterized by equations of state, such as the virial equation and the Soave-Redlich-Kwong equation."
   },
   {
     "objectID": "balances/material/LiqSolDenJTFVisuals.html#variations-with-temperature-and-pressure",
