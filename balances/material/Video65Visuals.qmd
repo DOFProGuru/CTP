@@ -86,25 +86,25 @@ $$
 :::{style="font-size: 95px;"}
 The pseudocritical temperature is
 $$
-T_c' = \sum y_i T_{ci}
+T_\mathrm{c}' = \sum y_i T_{\mathrm{c}i}
 $$
 
 The pseudocritical pressure is
 
 $$
-P_c' = \sum y_i P_{ci}
+P_\mathrm{c}' = \sum y_i P_{\mathrm{c}i}
 $$
 
 The pseudoreduced temperature is
 
 $$
-T_r' = \frac{T}{T_c'}
+T_\mathrm{r}' = \frac{T}{T_\mathrm{c}'}
 $$
 
 The pseudoreduced pressure is
 
 $$
-P_r' = \frac{P}{P_c'}
+P_\mathrm{r}' = \frac{P}{P_\mathrm{c}'}
 $$
 
 :::
@@ -122,15 +122,15 @@ CC BY-SA 3.0
 
 :::{.absolute top=15% left=2%}
 $$
-P_r' =\frac{P}{P_c'}
+P_\mathrm{r}' =\frac{P}{P_\mathrm{c}'}
 $$
 
 $$
-T_r' = \frac{T}{T_c'}
+T_\mathrm{r}' = \frac{T}{T_\mathrm{c}'}
 $$
 
 $$
-z_m = z_m(T_r', P_r')
+z_m = z_m(T_\mathrm{r}', P_\mathrm{r}')
 $$
 :::
 
@@ -147,15 +147,15 @@ $$
 where:
 
 $$
-a = 0.45724 \alpha \frac{(RT_c)^2}{P_c}
+a = 0.45724 \alpha \frac{(RT_\mathrm{c})^2}{P_\mathrm{c}}
 $$
 
 $$
-b = 0.07780 \frac{RT_c}{P_c}
+b = 0.07780 \frac{RT_\mathrm{c}}{P_\mathrm{c}}
 $$
 
 $$
-\alpha = \left[1 + m(1 - \sqrt{T_r})\right]^2
+\alpha = \left[1 + m(1 - \sqrt{T_\mathrm{r}})\right]^2
 $$
 
 $$
