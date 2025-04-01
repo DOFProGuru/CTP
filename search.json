@@ -4575,7 +4575,7 @@
     "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#gibbs-phase-rule",
     "title": "Chemical and Thermal Processes",
     "section": "Gibbs Phase Rule",
-    "text": "Gibbs Phase Rule\n\n\\(\\ \\ \\ \\ \\ \\boxed{DF\\ =\\ 2+c - \\Pi}\\)\n\n\nA Degree of Freedom, \\(DF\\), is a coordinate or variable.\nA Component, \\(c\\), is a chemical species, e.g. \\(\\mathrm{Al_2O_3}\\).\nA Phase, \\(\\Pi\\), is a physical entity with a uniform composition, temperature, pressure and specific volume.\nFor a single component system with one phase \\(\\\\ DF = 2 + 1 – 1 = 2\\).\nFor a single component system with two phases \\(\\\\ DF = 2 + 1 – 2 = 1\\)."
+    "text": "Gibbs Phase Rule\n\n\\(\\ \\ \\ \\ \\ \\boxed{DF\\ =\\ 2+c - \\Pi}\\)\n\n\nA Degree of Freedom, \\(DF\\), is a coordinate or variable.\nA Component, \\(c\\), is a chemical species, e.g. \\(\\mathrm{Al_2O_3}\\).\nA Phase, \\(\\Pi\\), is a physical entity with a uniform composition, temperature, pressure, and specific volume.\nFor a single component system with one phase \\(\\\\ DF = 2 + 1 – 1 = 2\\).\nFor a single component system with two phases \\(\\\\ DF = 2 + 1 – 2 = 1\\)."
   },
   {
     "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#steam-water-ttext-hats-diagram",
@@ -4592,67 +4592,60 @@
     "text": "Steam-Water \\(P\\text{-}\\hat{H}\\) Diagram\n\n\nEmok, Pressure-enthalpy chart for steam, in US units, CC BY-SA 3.0"
   },
   {
-    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section",
-    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section",
+    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#the-takeaways",
+    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "{image}"
-  },
-  {
-    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-1",
-    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "{image}"
-  },
-  {
-    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-2",
-    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-2",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "{image}"
-  },
-  {
-    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-3",
-    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-3",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "In the single-phase region (superheated steam)\n\n\n\n\\(\\ \\ \\ \\ DF = 2\\)\nMust specify two properties to define the thermodynamic state\ne.g. What is the specific volume of steam at \\(5\\ \\mathrm{bar}\\) and \\(300\\ ^\\circ\\mathrm{C}\\)?\n\n\nProperties of Superheated Steam\n{image}"
-  },
-  {
-    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-4",
-    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-4",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "In the single-phase region (superheated steam)\n\ne.g. What is the temperature of steam with a specific volume of \\(0.500\\) \\(\\dfrac{\\textrm{m}^3}{\\textrm{kg}}\\) at \\(5\\) bar?\n{image}\n\n\\(\\dfrac{T - 250}{0.500 - 0.474}\\ =\\ \\dfrac{300 - 250}{0.522-0.474} \\hspace{5pt} \\Rightarrow T = 277.1 ^{\\circ} \\mathrm{C}\\)"
-  },
-  {
-    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-5",
-    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-5",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "In the two-phase region (saturated steam and water)\n\n\n\\(\\ \\ \\ \\ DF = 1\\)\nHave two phases (water and steam) in equilibrium.\ne.g. What is the temperature, and what are the specific enthalpies of saturated water and saturated steam at \\(4.0\\) bar?\n\n{image}"
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nGibbs phase rule dictates how thermodynamic tables like the steam tables are arranged.\nThe Temperature Table and the Pressure Table have the same information in them. The choice is based on whether you have the temperature or the pressure of the two-phase mixture.\nThe Superheated Steam and Subcooled Water Table has single-phase regions for both subcooled water and superheated steam.\nYou have to specify a single property in the two-phase tebles, but you have to specify two properties in the single-phase table."
   },
   {
     "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-6",
     "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-6",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "In the two-phase region (saturated steam and water)\n\n\nWe know the properties of the two phases.\nWhat is the property of the overall mixture?\nDefine the quality.\n\\(\\ \\ \\ \\ x = \\dfrac{m_\\mathrm{steam}}{m_\\mathrm{steam} + m_\\mathrm{water}} = \\dfrac{m_\\mathrm{steam}}{m_\\mathrm{total}}\\)\nWhat is the pressure and specific internal energy of a mixture of steam and water at \\(88\\ ^\\circ\\mathrm{C}\\) and a quality of \\(80\\)%?\nWhat is the quality of a mixture of steam and water at \\(0.6495\\) bar, and a specific enthalpy of \\(2000\\ \\mathrm{kJ/kg}\\)?"
+    "text": "In the single-phase region (superheated steam)\n\n\n\n\\(\\ \\ \\ \\ DF = 2\\)\nMust specify two properties to define the thermodynamic state\ne.g. What is the specific volume of steam at \\(5\\ \\mathrm{bar}\\) and \\(300\\ ^\\circ\\mathrm{C}\\)?"
   },
   {
     "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-7",
     "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-7",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "What is the pressure and specific internal energy of a mixture of steam and water at \\(88\\ ^\\circ\\mathrm{C}\\) and a quality of \\(80\\)%?\n{image}\n\\(P=0.6495\\ \\mathrm{bar}\\)\n\n\\(\\hat{U}_{\\text{mix}} = x\\hat{U}_{v} + (1-x)\\hat{U}_{l} = 0.8 \\mathbf{\\cdot} 2491 + 0.2 \\mathbf{\\cdot} 368.4 = 2066.5\\ \\mathrm{kJ/kg}\\)"
+    "text": "In the single-phase region (superheated steam)\n\ne.g. What is the temperature of steam with a specific volume of \\(0.50000\\) \\(\\dfrac{\\textrm{m}^3}{\\textrm{kg}}\\) at \\(5\\) bar?\n\n\n\\(\\dfrac{T - 250}{0.50000 - 0.47443}\\ =\\ \\dfrac{300 - 250}{0.52260-0.47443} \\hspace{5pt} \\Rightarrow T = 276.54 ^{\\circ} \\mathrm{C}\\)"
   },
   {
     "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-8",
     "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-8",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "What is the quality of a mixture of steam and water at \\(0.6495\\) bar, and a specific enthalpy of \\(2000\\ \\mathrm{kJ/kg}\\)?\n{image}\n\\(\\hat{H}_{\\text{mix}} = x\\hat{H}_{\\text{v}}\\ +\\ (1-x)\\hat{H_{\\text{l}}} = x(\\hat{H}_{\\text{v}} - \\hat{H}_{\\text{l}}) + \\hat{H}_{\\text{l}} = x\\Delta \\hat{H}_{\\text{lv}} + \\hat{H}_{\\text{l}}\\)\n\\(\\\\\\)\n\\(x = \\dfrac{\\hat{H}_{\\mathrm{mix}} - \\hat{H}_{l}}{\\hat{H}_{v} - \\hat{H}_{l}} = \\dfrac{2000 - 368.5}{2656 - 368.5} = 0.713 = 71.3\\)%\n\\(\\\\\\)\n\\(x = \\dfrac{\\hat{H}_{\\text{mix}} - \\hat{H}_{l}}{\\Delta\\hat{H}_{lv}} = \\dfrac{2000 - 368.5}{2288} = 0.713 = 71.3\\)%"
+    "text": "In the two-phase region (saturated steam and water)\n\n\n\\(\\ \\ \\ \\ DF = 1\\)\nHave two phases (water and steam) in equilibrium.\ne.g. What is the temperature, and what are the specific enthalpies of saturated water and saturated steam at \\(5.0\\) bar?"
+  },
+  {
+    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-9",
+    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-9",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "In the two-phase region (saturated steam and water)\n\n\nWe know the properties of the two phases.\nWhat is the property of the overall mixture?\nDefine the quality.\n\\(\\ \\ \\ \\ x = \\dfrac{m_\\mathrm{steam}}{m_\\mathrm{steam} + m_\\mathrm{water}} = \\dfrac{m_\\mathrm{steam}}{m_\\mathrm{total}}\\)\nWhat is the pressure and specific internal energy of a mixture of steam and water at \\(88\\ ^\\circ\\mathrm{C}\\) and a quality of \\(80\\%\\)?\nWhat is the quality of a mixture of steam and water at \\(0.65017\\) bar, and a specific enthalpy of \\(2000\\ \\mathrm{kJ/kg}\\)?"
+  },
+  {
+    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-10",
+    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-10",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "What is the pressure and specific internal energy of a mixture of steam and water at \\(88\\ ^\\circ\\mathrm{C}\\) and a quality of \\(80\\%\\)?\n\n\\(P=0.65017\\ \\mathrm{bar}\\)\n\n\\(\\hat{U}_{\\text{mix}} = x\\hat{U}_{v} + (1-x)\\hat{U}_{l} = 0.8 \\mathbf{\\cdot} 2491.5 + 0.2 \\mathbf{\\cdot} 368.49 = 2066.9\\ \\mathrm{kJ/kg}\\)\n\n\\(\\hat{U}_{\\text{mix}} = x\\hat{U}_{v}\\ +\\ (1-x)\\hat{U_{l}} = x(\\hat{U}_{v} - \\hat{U}_{l}) + \\hat{U}_{l} = x\\Delta \\hat{U}_{lv} + \\hat{U}_{l}\\)\n\\(\\hat{U}_{\\text{mix}} = x\\Delta \\hat{U}_{lv} + \\hat{U}_{l} = 0.8\\mathbf{\\cdot} 2123.0 + 368.49 = 2066.9\\ \\mathrm{kJ/kg}\\)"
+  },
+  {
+    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-11",
+    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#section-11",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "What is the quality of a mixture of steam and water at \\(0.65017\\) bar, and a specific enthalpy of \\(2000\\ \\mathrm{kJ/kg}\\)?\n\n\\(\\hat{H}_{\\text{mix}} = x\\hat{H}_{v}\\ +\\ (1-x)\\hat{H_{l}} = x(\\hat{H}_{v} - \\hat{H}_{l}) + \\hat{H}_{l} = x\\Delta \\hat{H}_{lv} + \\hat{H}_{l}\\)\n\\(\\\\\\)\n\\(x = \\dfrac{\\hat{H}_{\\mathrm{mix}} - \\hat{H}_{l}}{\\hat{H}_{v} - \\hat{H}_{l}} = \\dfrac{2000 - 368.55}{2656.3 - 368.55} = 0.7131 = 71.31\\)%\n\\(\\\\\\)\n\\(x = \\dfrac{\\hat{H}_{\\text{mix}} - \\hat{H}_{l}}{\\Delta\\hat{H}_{lv}} = \\dfrac{2000 - 368.55}{2287.7} = 0.7131 = 71.31\\)%"
+  },
+  {
+    "objectID": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#the-takeaways-1",
+    "href": "balances/energy/Video91ThermodynamicPropertyTablesVisuals.html#the-takeaways-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nIn the single phase region we have to specify two properties.\nThe single-phase table is set up to be easy to use for temperature and pressure but we definitely don’t have to specify just temperature and pressure.\nIn the two phase region we have to specify one property such as temperature or pressure, and then we often have to calculate the properties of a mixture using the quality."
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas",
