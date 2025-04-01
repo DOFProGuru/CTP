@@ -11,7 +11,7 @@ format:
 
 ---
 
-# Thermodynamic Property Tables
+# Steam: Get the Quality Right AFTER You Table It! Part 1
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -27,7 +27,7 @@ $\ \ \ \ \ \boxed{DF\ =\ 2+c - \Pi}$
 
  - A *Degree of Freedom*, $DF$, is a coordinate or variable.
  - A *Component*, $c$, is a chemical species, e.g. $\mathrm{Al_2O_3}$.
- - A *Phase*, $\Pi$, is a physical entity with a uniform composition, temperature, pressure and specific volume.
+ - A *Phase*, $\Pi$, is a physical entity with a uniform composition, temperature, pressure, and specific volume.
  - For a single component system with one phase $\\ DF = 2 + 1 – 1 = 2$.
  - For a single component system with two phases $\\ DF = 2 + 1 – 2 = 1$.
 
@@ -50,15 +50,60 @@ $\ \ \ \ \ \boxed{DF\ =\ 2+c - \Pi}$
 
 ##
 
-{image}
+![](SaturatedTempTableTop.png){.absolute top=-4% left=-2% width=50%}
+![](SaturatedTempTableBottom.png){.absolute top=50% left=-2% width=50%}
+![](SaturatedPressTableTop.png){.absolute top=-4% right=-2% width=50%}
+![](SaturatedPressTableBottom.png){.absolute top=50% right=-2% width=50%}
 
 ## 
 
-{image}
+
+![](SuperheatedSteamTop.png){.absolute top=-.75% left=12.5% width=75%}
+![](SuperheatedSteamBottom.png){.absolute top=50% left=12.5% width=75%}
 
 ##
 
-{image}
+![](SuperheatCloseUp.png)
+
+## The Takeaways
+
+1. Gibbs phase rule dictates how thermodynamic tables like the steam tables are arranged.
+2. The Temperature Table and the Pressure Table have the same information in them. The choice is based on whether you have the temperature or the pressure of the two-phase mixture.
+3. The Superheated Steam and Subcooled Water Table has single-phase regions for both subcooled water and superheated steam.
+4. You have to specify a single property in the two-phase tebles, but you have to specify two properties in the single-phase table.
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+# Steam: Get the Quality Right AFTER You Table It! Part 2
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+##
+
+![](SaturatedTempTableTop.png){.absolute top=-4% left=-2% width=50%}
+![](SaturatedTempTableBottom.png){.absolute top=50% left=-2% width=50%}
+![](SaturatedPressTableTop.png){.absolute top=-4% right=-2% width=50%}
+![](SaturatedPressTableBottom.png){.absolute top=50% right=-2% width=50%}
+
+## 
+
+
+![](SuperheatedSteamTop.png){.absolute top=-.75% left=12.5% width=75%}
+![](SuperheatedSteamBottom.png){.absolute top=50% left=12.5% width=75%}
 
 ##
 
@@ -74,9 +119,8 @@ $\ \ \ \ \ \boxed{DF\ =\ 2+c - \Pi}$
 * e.g. What is the specific volume of steam at $5\ \mathrm{bar}$ and $300\ ^\circ\mathrm{C}$?
 :::
 
-**Properties of Superheated Steam**
 
-{image}
+![](Superheat5bar350C.png)
 
 ## 
 
@@ -85,13 +129,13 @@ $\ \ \ \ \ \boxed{DF\ =\ 2+c - \Pi}$
 :::
 
 e.g. What is the temperature of steam with a specific volume of
-$0.500$ $\dfrac{\textrm{m}^3}{\textrm{kg}}$ at $5$ bar?
+$0.50000$ $\dfrac{\textrm{m}^3}{\textrm{kg}}$ at $5$ bar?
 
-{image}
+![](Superheat5bar350C.png)
 
 
-:::{.absolute left=0% bottom=10%}
-$\dfrac{T - 250}{0.500 - 0.474}\ =\ \dfrac{300 - 250}{0.522-0.474} \hspace{5pt} \Rightarrow T = 277.1 ^{\circ} \mathrm{C}$
+:::{.absolute left=0% bottom=20%}
+$\dfrac{T - 250}{0.50000 - 0.47443}\ =\ \dfrac{300 - 250}{0.52260-0.47443} \hspace{5pt} \Rightarrow T = 276.54 ^{\circ} \mathrm{C}$
 :::
 
 ## 
@@ -105,9 +149,9 @@ $\dfrac{T - 250}{0.500 - 0.474}\ =\ \dfrac{300 - 250}{0.522-0.474} \hspace{5pt} 
 * Have two phases (water and steam) in equilibrium.
 
 * e.g. What is the temperature, and what are the specific enthalpies
-of saturated water and saturated steam at $4.0$ bar?
+of saturated water and saturated steam at $5.0$ bar?
 
-{image}
+![](SatPressureCloseUp1.png)
 
 ##
 
@@ -119,38 +163,49 @@ of saturated water and saturated steam at $4.0$ bar?
  * What is the property of the overall mixture?
  * Define the quality.
  * $\ \ \ \ x = \dfrac{m_\mathrm{steam}}{m_\mathrm{steam} + m_\mathrm{water}} = \dfrac{m_\mathrm{steam}}{m_\mathrm{total}}$
- * What is the pressure and specific internal energy of a mixture of steam and water at $88\ ^\circ\mathrm{C}$ and a quality of $80$%?
- * What is the quality of a mixture of steam and water at $0.6495$ bar, and a specific enthalpy of $2000\ \mathrm{kJ/kg}$?
+ * What is the pressure and specific internal energy of a mixture of steam and water at $88\ ^\circ\mathrm{C}$ and a quality of $80\%$?
+ * What is the quality of a mixture of steam and water at $0.65017$ bar, and a specific enthalpy of $2000\ \mathrm{kJ/kg}$?
 
 ## 
 
-What is the pressure and specific internal energy of a mixture of steam and water at $88\ ^\circ\mathrm{C}$ and a quality of $80$%?
+What is the pressure and specific internal energy of a mixture of steam and water at $88\ ^\circ\mathrm{C}$ and a quality of $80\%$?
 
 
-{image}
+![](SatTemperatureCloseUp1.png)
 
 
-$P=0.6495\ \mathrm{bar}$
+$P=0.65017\ \mathrm{bar}$
 
 :::{style="font-size: 90px;"}
-$\hat{U}_{\text{mix}} = x\hat{U}_{v} + (1-x)\hat{U}_{l} = 0.8 \mathbf{\cdot} 2491 + 0.2 \mathbf{\cdot} 368.4 = 2066.5\ \mathrm{kJ/kg}$
+$\hat{U}_{\text{mix}} = x\hat{U}_{v} + (1-x)\hat{U}_{l} = 0.8 \mathbf{\cdot} 2491.5 + 0.2 \mathbf{\cdot} 368.49 = 2066.9\ \mathrm{kJ/kg}$
 :::
+
+$\hat{U}_{\text{mix}} = x\hat{U}_{v}\ +\ (1-x)\hat{U_{l}} = x(\hat{U}_{v} - \hat{U}_{l}) + \hat{U}_{l} = x\Delta \hat{U}_{lv} + \hat{U}_{l}$
+
+$\hat{U}_{\text{mix}} = x\Delta \hat{U}_{lv} + \hat{U}_{l} = 0.8\mathbf{\cdot} 2123.0 + 368.49 = 2066.9\ \mathrm{kJ/kg}$
 
 ##
 
-What is the quality of a mixture of steam and water at $0.6495$ bar, and a specific enthalpy of $2000\ \mathrm{kJ/kg}$?
+What is the quality of a mixture of steam and water at $0.65017$ bar, and a specific enthalpy of $2000\ \mathrm{kJ/kg}$?
 
-{image}
+![](SatTemperatureCloseUp1.png)
 
-$\hat{H}_{\text{mix}} = x\hat{H}_{\text{v}}\ +\ (1-x)\hat{H_{\text{l}}} = x(\hat{H}_{\text{v}} - \hat{H}_{\text{l}}) + \hat{H}_{\text{l}} = x\Delta \hat{H}_{\text{lv}} + \hat{H}_{\text{l}}$
-
-$\\$
-
-$x = \dfrac{\hat{H}_{\mathrm{mix}} - \hat{H}_{l}}{\hat{H}_{v} - \hat{H}_{l}} = \dfrac{2000 - 368.5}{2656 - 368.5} = 0.713 = 71.3$%
+$\hat{H}_{\text{mix}} = x\hat{H}_{v}\ +\ (1-x)\hat{H_{l}} = x(\hat{H}_{v} - \hat{H}_{l}) + \hat{H}_{l} = x\Delta \hat{H}_{lv} + \hat{H}_{l}$
 
 $\\$
 
-$x = \dfrac{\hat{H}_{\text{mix}} - \hat{H}_{l}}{\Delta\hat{H}_{lv}} = \dfrac{2000 - 368.5}{2288} = 0.713 = 71.3$%
+$x = \dfrac{\hat{H}_{\mathrm{mix}} - \hat{H}_{l}}{\hat{H}_{v} - \hat{H}_{l}} = \dfrac{2000 - 368.55}{2656.3 - 368.55} = 0.7131 = 71.31$%
+
+$\\$
+
+$x = \dfrac{\hat{H}_{\text{mix}} - \hat{H}_{l}}{\Delta\hat{H}_{lv}} = \dfrac{2000 - 368.55}{2287.7} = 0.7131 = 71.31$%
+
+
+## The Takeaways
+
+1. In the single phase region we have to specify two properties. 
+2. The single-phase table is set up to be easy to use for temperature and pressure but we definitely don't have to specify just temperature and pressure. 
+3. In the two phase region we have to specify one property such as temperature or pressure, and then we often have to calculate the properties of a mixture using the quality. 
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
