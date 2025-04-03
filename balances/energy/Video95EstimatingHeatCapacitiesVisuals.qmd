@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Estimating Heat Capacities and Latent Heats
+# Feeling the Heat? How to Get Your Best Estimate.
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -18,11 +18,27 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
 
+## Intro
+
+Always use reliable data if you have them. If not, then estimate
+
+$\ \ \ \ \ C_p$
+
+$\ \ \ \ \ \Delta \hat{H}_v$
+
+$\ \ \ \ \ \Delta \hat{H}_m$
+
+$\ \ \ \ \ \Delta \hat{H}_s$
+
+for use in the First Law.
+
+The standard reference is *The Properties of Gases and Liquids*. Current edition is the sixth.
+
 ## Estimating Formulas
 
 ::::{.columns}
 :::{.column width=50%}
-If the tabulated data are missing 
+If the tabulated data are missing
 use a formula like Kopp's rule,
 
 $$
@@ -49,7 +65,7 @@ weighted average.
 |S|26|31|
 |All others|26|33|
 
-: Atomic Heat-Capacity Contributions for Kopp’s Rule $C_{pa}$ (J/g-atom°C)
+: Atomic Heat-Capacity Contributions for Kopp’s Rule $C_{pa}$ [J/g-atom°C]
 
 :::
 :::
@@ -144,7 +160,7 @@ water, low-MW alcohols
 
 $\hspace{1mm}$
 
-<center> $(\Delta \hat{H}_v)_\mathrm{nbp} = \dfrac{T_b[0.0331(T_\mathrm{b}/T_\mathrm{c}) - 0.0327 + 0.0297\log_{10} P_c]}{1.07 - (T_b / T_\mathrm{c})}$ </center>
+<center> $(\Delta \hat{H}_v)_\mathrm{nbp} = \dfrac{T_b[0.0331(T_b/T_\mathrm{c}) - 0.0327 + 0.0297\log_{10} P_c]}{1.07 - (T_b / T_\mathrm{c})}$ </center>
 
 with $T$'s in Kelvin, $P$ in atm, and $\Delta \hat{H}$ in $\mathrm{kJ/mol}$
 
@@ -161,21 +177,28 @@ Also **Clausius and Claperyon backwards**
 And finally if you have $\Delta \hat{H}_v$ at one temperature and you need it at
 another, the **Watson correlation**
 
-<center> $\dfrac{\Delta \hat{H}_v (T_2)}{\Delta \hat{H}_v (T_1)} = (\dfrac{T_\mathrm{c} - T_2}{T_\mathrm{c} - T_1})$ </center>
+<center> $\dfrac{\Delta \hat{H}_v (T_2)}{\Delta \hat{H}_v (T_1)} = \left(\dfrac{T_\mathrm{c} - T_2}{T_\mathrm{c} - T_1}\right)^{0.38}$ </center>
 
 $\hspace{1mm}$
 
-**Page 266's Rule (??\% accurate)** </br>
+**Trouton's Rule for Solids (unspecified accuracy)** </br>
 For metallic elements
 
-<center>$\Delta \hat{H}_m (\mathrm{kJ/mol}) \approx 0.0092 T_m (K)$</center>
+<center>$\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.0092 T_m (K)$</center>
 
 For inorganic compounds
-<center>$\Delta \hat{H}_m (\mathrm{kJ/mol}) \approx 0.0025 T_m (K)$</center>
+<center>$\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.0025 T_m (K)$</center>
 
 For organic compounds
-<center>$\Delta \hat{H}_m (\mathrm{kJ/mol}) \approx 0.050 T_m (K)$</center>
+<center>$\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.050 T_m (K)$</center>
 
+## Trouton's Rule Plot
+
+![](Enthalpies_of_melting_and_boiling_for_pure_elements_versus_temperatures_of_transition.png)
+
+:::{style="font-size: 52px;"}
+<a href="https://commons.wikimedia.org/wiki/User:Mgibby5">Mgibby5</a>, <a href="https://commons.wikimedia.org/wiki/File:Enthalpies_of_melting_and_boiling_for_pure_elements_versus_temperatures_of_transition.svg">Enthalpies of melting and boiling for pure elements versus temperatures of transition</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>
+:::
 
 ## Valuable Numbers to Know
 
@@ -216,6 +239,15 @@ $\ \Delta \hat{H}_m \approx 150\ \left[\mathrm{\dfrac{Btu}{lb_m}}\right]$
 
 :::
 ::::
+
+## The Takeaways
+
+1. Estimating formulas are useful when you can't find reliable data for heat capacities and for specific enthalpies for phase changes.
+2. Kopp's rule is useful for heat capacities.
+3. Trouton's rule, Chen's equation, and the Clausius Clapeyron equation used inversely are useful for heats of vaporization
+4. The Watson correlation is useful for estimating heats of vaporization at temperatures other than the normal boiling point.
+5. Trouton's rule for solids is useful for heats of fusion.
+
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}

@@ -1,0 +1,202 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Fueling the Fire: The Shocking Truth About Combustion Reactions!
+
+::: {style="text-align: center; font-size: 120px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+
+## Combustion Reactions
+
+Combustion reactions are rapid oxidation reactions. One
+usually burns a fuel (typically coal, oil or natural gas) in air
+(or rarely pure oxygen). The principal atomic species in
+combustion reactions are carbon, hydrogen, sulfur and oxygen.
+
+<br/>
+
+**Solid Fuels**: Principally coal, coke, wood, charcoal, and solid
+waste.
+
+<br/>
+
+**Liquid Fuels**: Principally hydrocarbons and alcohols.
+
+<br/>
+
+**Gaseous Fuels**: Principally natural gas.
+
+
+## Coal
+
+Coal is really nasty stuff. There is no other way to put it.
+
+|Component| Percentage |
+|---------|------------|
+| carbon [$\mathrm{C}$]| 75–90 |
+| hydrogen [$\mathrm{H}$] | 4.5–5.5 |
+| nitrogen [$\mathrm{N}$] | 1–1.5 |
+| sulfur [$\mathrm{S}$] | 1–2 |
+| oxygen $\mathrm{[O}$] | 5–20 |
+| ash | 2–10 |
+| moisture [$\mathrm{H_2O}$] | 1–10|
+
+: Composition of Typical Bituminous Coal
+
+http://www.chemistryexplained.com/Ce-Co/Coal.html
+
+		
+| Component | Bituminous | Subbituminous | Lignite|
+|-----------|------------|---------------|--------|
+|SiO2 |20-60 |40-60 |15-45|
+|Al2O3 |5-35 |20-30 |10-25|
+|Fe2O3 |10-40 |4-10 |4-15|
+|CaO |1-12 |5-30 |15-40|
+|MgO |0-5 |1-6 |3-10|
+|SO3 |0-4 |0-2 |0-10|
+|Na2O |0-4 |0-2 |0-6|
+|K2O |0-3 |0-4 |0-4|
+|LOI |0-15 |0-3 |0-5|
+
+:  Normal range of chemical composition for fly ash produced from different coal types(expressed as percent by weight).
+
+https://www.fhwa.dot.gov/publications/research/infrastructure/structures/97148/cfa51.cfm
+
+## Trace Elements in Coal Fly Ash
+
+![](CoalFlyAshSamples.png)
+
+https://pubs.usgs.gov/fs/2015/3037/pdf/fs2015-3037.pdf
+
+## Heating Value
+
+The heating value of a fuel is the negative of its heat of combustion. There are two types
+
+* Higher Heating Value (HHV): Assumes the final state of the water is liquid (same as for heat of combustion).
+
+* Lower Heating Value (LHV): Assumes the final state of the water is vapor.
+
+$$
+HHV = LHV + n_\mathrm{H_2O} \Delta \hat{H}_v\ (\mathrm{H_2O},\ 25\ ^\circ\mathrm{C})
+$$
+
+$$
+HV_\mathrm{mix} = \sum x_i HV_i
+$$
+
+## Adiabatic Flame Temperature
+
+If we operate a combustor such that we extract no heat from the
+combustor, all of the enthalpy of reaction has to go into heating
+the combustion products.
+
+
+![](ReactorWithHeat.png){.absolute top=35% left=20% width=40%}
+
+:::{.absolute top=31% left=27%}
+$T_\mathrm{in}$
+:::
+
+:::{.absolute top=41% left=49%}
+$T_\mathrm{out} = T_\mathrm{af}$
+:::
+
+:::{.absolute top=49% left=15%}
+$Q\text{ or }\dot{Q} = 0$
+:::
+
+:::{.absolute top=44% left=70%}
+$H\text{ or }\dot{0} = 0$
+:::
+
+:::{style="font-size: 90px;"}
+:::{.absolute top=60% left=0%}
+$$
+\sum_\mathrm{out} \dot{n}_j \int\limits_{T_\mathrm{ref}}^{T_\mathrm{out} = T_\mathrm{af}} C_{pj} dT -
+\sum_\mathrm{in} \dot{n}_i \int\limits_{T_\mathrm{ref}}^{T_\mathrm{in}} C_{pi} dT + \sum_\mathrm{rxns} \dot{\xi}_k(\Delta \hat{H}_r^\circ)_k = \dot{Q} = 0
+$$
+:::
+:::
+
+## 
+
+The adiabatic flame temperature is the maximum temperature a fuel-air mixture can reach when it burns. The maximum adiabatic flame temperature occurs when burning with stoichiometric air. To be useable, some heat has to be extracted from the burning mixture, which lowers the maximum temperature.
+
+<br/>
+
+Many of the $C_p$ formulas found in the literature do not go to a high enough temperature range to permit calculation of $T_\mathrm{af}$ for near-stoichiometric fuel-air mixtures.
+
+<br/>
+
+To process materials at higher temperatures than adiabatic flame temperatures, some other technique such as electromagnetic, or laser heating must be used.
+
+
+## Flammability Limits
+
+For fuel-air mixtures that are either too fuel lean or too fuel rich, the oxidation reaction does not generate enough heat to sustain a flame or reaction. The limits of fuel-air mixtures are called the flammability limits.
+
+<br/>
+
+The **Flash Point** is the temperature above which the vapor pressure is high enough to create a flammable mixture.
+
+<br/>
+
+The **Autoignition Temperature** is the temperature above which a fuel-air mixture will combust without an additional source of spark or flame.
+
+## 
+
+:::{style="font-size: 85px;"}
+|Species |LFL/LEL in volume % |UFL/UEL in volume % |Flash Point |Autoignition temperature |
+|--------|-------------------:|-------------------:|-----------:|------------------------:|
+|Acetone |2.6–3 |12.8–13 |−17 °C |465 °C, 485 °C|
+|Benzene |1.2 |7.8 |−11 °C |560 °C |
+|n-butane |1.6 |8.4 |−60 °C |420–500 °C |
+|CO |12[6] |75 |Fl. gas |609 °C |
+|Diesel fuel |0.6 |7.5 |>62 °C |210 °C |
+|Ethanol |3–3.3 |19 |12.8 °C  |365 °C |
+|Gasoline |1.4 |7.6 |<−40 °C |246–280 °C |
+|Hydrogen |4/18.3[25] |75/59 |Fl. gas |500–571 °C |
+|Isopropanol |2[6] |12 |12 °C |398–399 °C |
+|Jet A-1 fuel |0.6–0.7 |4.9–5 |>38 °C |210 °C |
+|Methane |5.0 |14.3 |Fl. gas |580 °C |
+|Propylene |2 |11.1 |−108 °C |458 °C |
+|Veg. oil | | |327 °C | |
+:::
+
+## The Takeaways
+
+:::{style="font-size: 98px;"}
+
+1. We have added the energetics to the stoichiometry of combustion reactions.
+2. Coal is a particularly dirty fuel. It takes extreme efforts to burn it cleanly
+3. The **Higher Heating Value** (HHV) is the heat of combustion when liquid water is assumed as a combustion product.
+4. The **Lower Heating Value** (LHV) is the heat of combustion when water vapor is assumed as a combustion product.
+5. The **adiabatic flame temperature** is the highest temperature a stoichiometric fuel-air mixture can reach when burned.
+6. For safety reasons, always check your flammability limits.
+
+:::
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
