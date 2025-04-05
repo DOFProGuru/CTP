@@ -22,36 +22,52 @@ DOFPro Team
 
 Always use reliable data if you have them. If not, then estimate
 
+:::{.fragment}
 $\ \ \ \ \ C_p$
+:::
 
+:::{.fragment}
 $\ \ \ \ \ \Delta \hat{H}_v$
-
+:::
+:::{.fragment}
 $\ \ \ \ \ \Delta \hat{H}_m$
-
+:::
+:::{.fragment}
 $\ \ \ \ \ \Delta \hat{H}_s$
-
+:::
+:::{.fragment}
 for use in the First Law.
-
+:::
+:::{.fragment}
 The standard reference is *The Properties of Gases and Liquids*. Current edition is the sixth.
+:::
 
 ## Estimating Formulas
 
 ::::{.columns}
 :::{.column width=50%}
+:::{.fragment fragment-index=1}
 If the tabulated data are missing
 use a formula like Kopp's rule,
-
+:::
+:::{.fragment fragment-index=2}
 $$
 (C_p)_{\mathrm{compound}} = \sum_\text{all atoms} C_{pa}
 $$
-
+:::
+:::{.fragment fragment-index=3}
 How about mixtures?
+:::
 <br/><br/>
+
+:::{.fragment fragment-index=4}
 Lacking other data, use a
 weighted average.
 :::
+:::
 :::{.column width=50%}
 
+:::{.fragment fragment-index=2}
 :::{style="font-size: 90px;"}
 |Element|Solids|Liquids|
 |-------|------|-------|
@@ -66,7 +82,7 @@ weighted average.
 |All others|26|33|
 
 : Atomic Heat-Capacity Contributions for Kopp’s Rule $C_{pa}$ [J/g-atom°C]
-
+:::
 :::
 :::
 ::::
@@ -94,44 +110,66 @@ system?
 
 $\hspace{1mm}$
 
+:::{.fragment}
 The $1$st law is: $\Delta U = Q + W$
-
+:::
 $\hspace{1mm}$
 
+:::{.fragment}
 For a closed system the pressure-volume work is:
 
+:::{style="font-size: 30px;"}
+<br/>
+:::
 <center> $W = -\int P dV$ </center>
-
+:::
 $\hspace{1mm}$
 
+:::{.fragment}
 Now if $P =$ constant
 
+:::{style="font-size: 30px;"}
+<br/>
+:::
 <center> $W = -P\Delta V = -\Delta (PV)$ </center>
-
+:::
 $\hspace{1mm}$
 
+:::{.fragment}
 So the $1$st law becomes:
 
+:::{style="font-size: 30px;"}
+<br/>
+:::
 <center> $\Delta U_v = Q - \Delta (PV)$ </center> 
+:::
 
 ##
 
+:::{.fragment}
 or
 <center> $\Delta U_v + \Delta (PV) = \Delta H_v = Q$ </center>
-
+:::
 $\hspace{1mm}$
 
+:::{.fragment}
 If a phase change takes place in a *constant volume* closed system, then $\Delta \hat{U}$ must be evaluated as 
-
+:::
 $\hspace{1mm}$
 
+:::{.fragment}
 <center>$\Delta \hat{U} = \Delta \hat{H} - \Delta(P\hat{V})$</center>
 $\hspace{1mm}$
+:::
 
-
+:::{.fragment}
 <center> $\Delta \hat{U}_m \approx \Delta \hat{H}_m$ </center>
+:::
 $\hspace{1mm}$
+
+:::{.fragment}
 <center> $\Delta \hat{U}_v \approx \Delta \hat{H}_v - RT$ </center>
+:::
 
 ##
 
@@ -143,15 +181,20 @@ How do you evaluate latent heats?
 
 $\hspace{1mm}$
 
+:::{.fragment}
 **Trouton's Rule (within 30\% accuracy)**</br>
+:::
+:::{.fragment}
 nonpolar liquids
 <center> $(\Delta \hat{H}_v)_\mathrm{nbp}$ [$\mathrm{kJ/mol}$] $\approx 0.0088T_\mathrm{b} (K)$ </center>
-
+:::
 $\hspace{1mm}$
 
+:::{.fragment}
 water, low-MW alcohols
 
 <center> $(\Delta \hat{H}_v)_\mathrm{nbp}$ [$\mathrm{kJ/mol}$] $\approx 0.109T_\mathrm{b} (K)$ </center>
+:::
 
 ##
 
@@ -160,38 +203,70 @@ water, low-MW alcohols
 
 $\hspace{1mm}$
 
+:::{.fragment}
 <center> $(\Delta \hat{H}_v)_\mathrm{nbp} = \dfrac{T_b[0.0331(T_b/T_\mathrm{c}) - 0.0327 + 0.0297\log_{10} P_c]}{1.07 - (T_b / T_\mathrm{c})}$ </center>
 
 with $T$'s in Kelvin, $P$ in atm, and $\Delta \hat{H}$ in $\mathrm{kJ/mol}$
-
+:::
 $\hspace{1mm}$
 
+:::{.fragment}
 Also **Clausius and Claperyon backwards**
-
+:::
+:::{style="font-size: 30px;"}
+<br/>
+:::
+:::{.fragment}
 <center>$\ln p^* = -\dfrac{\Delta \hat{H}_v}{RT} + B$</center>
-
+:::
+:::{style="font-size: 30px;"}
+<br/>
+:::
+:::{.fragment}
 <center>$\dfrac{d(\ln p^*)}{d(1/T)} = -\dfrac{\Delta \hat{H}_v}{R}$</center>
+:::
 
 ##
 
 And finally if you have $\Delta \hat{H}_v$ at one temperature and you need it at
 another, the **Watson correlation**
 
+:::{.fragment}
 <center> $\dfrac{\Delta \hat{H}_v (T_2)}{\Delta \hat{H}_v (T_1)} = \left(\dfrac{T_\mathrm{c} - T_2}{T_\mathrm{c} - T_1}\right)^{0.38}$ </center>
-
+:::
 $\hspace{1mm}$
 
+:::{.fragment}
 **Trouton's Rule for Solids (unspecified accuracy)** </br>
+:::
+
+:::{.fragment}
 For metallic elements
 
+:::{style="font-size: 30px;"}
+<br/>
+:::
 <center>$\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.0092 T_m (K)$</center>
+:::
 
+:::{.fragment}
 For inorganic compounds
+
+:::{style="font-size: 30px;"}
+<br/>
+:::
 <center>$\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.0025 T_m (K)$</center>
+:::
 
+:::{.fragment}
 For organic compounds
-<center>$\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.050 T_m (K)$</center>
 
+:::{style="font-size: 30px;"}
+<br/>
+
+:::
+<center>$\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.050 T_m (K)$</center>
+:::
 ## Trouton's Rule Plot
 
 ![](Enthalpies_of_melting_and_boiling_for_pure_elements_versus_temperatures_of_transition.png)

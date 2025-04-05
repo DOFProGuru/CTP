@@ -28,52 +28,71 @@ combustion reactions are carbon, hydrogen, sulfur and oxygen.
 
 <br/>
 
+:::{.fragment}
 **Solid Fuels**: Principally coal, coke, wood, charcoal, and solid
 waste.
-
+:::
 <br/>
 
+:::{.fragment}
 **Liquid Fuels**: Principally hydrocarbons and alcohols.
-
+:::
 <br/>
 
+:::{.fragment}
 **Gaseous Fuels**: Principally natural gas.
-
+:::
 
 ## Coal
 
 Coal is really nasty stuff. There is no other way to put it.
+<br/><br/>
 
-|Component| Percentage |
-|---------|------------|
-| carbon [$\mathrm{C}$]| 75–90 |
-| hydrogen [$\mathrm{H}$] | 4.5–5.5 |
-| nitrogen [$\mathrm{N}$] | 1–1.5 |
-| sulfur [$\mathrm{S}$] | 1–2 |
-| oxygen $\mathrm{[O}$] | 5–20 |
-| ash | 2–10 |
-| moisture [$\mathrm{H_2O}$] | 1–10|
+::::{.columns}
+:::{.column width=45%}
+:::{.fragment}
+:::{style="font-size: 75px;"}
+|Component                 | Percentage |
+|--------------------------|------------|
+| carbon [$\mathrm{C}$]    | 75–90      |
+|hydrogen [$\mathrm{H}$]   | 4.5–5.5    |
+|nitrogen [$\mathrm{N}$]   | 1–1.5      |
+| sulfur [$\mathrm{S}$]    | 1–2        |
+| oxygen $\mathrm{[O}$]    | 5–20       |
+| ash                      | 2–10       |
+ moisture [$\mathrm{H_2O}$]| 1–10       |
 
 : Composition of Typical Bituminous Coal
-
+:::
+:::{style="font-size: 50px; text-align: center;"}
 http://www.chemistryexplained.com/Ce-Co/Coal.html
+:::
+:::
+:::
 
-		
+:::{.column width=55%}
+:::{.fragment}
+:::{style="font-size: 60px;"}
 | Component | Bituminous | Subbituminous | Lignite|
 |-----------|------------|---------------|--------|
-|SiO2 |20-60 |40-60 |15-45|
-|Al2O3 |5-35 |20-30 |10-25|
-|Fe2O3 |10-40 |4-10 |4-15|
-|CaO |1-12 |5-30 |15-40|
-|MgO |0-5 |1-6 |3-10|
-|SO3 |0-4 |0-2 |0-10|
-|Na2O |0-4 |0-2 |0-6|
-|K2O |0-3 |0-4 |0-4|
-|LOI |0-15 |0-3 |0-5|
+|SiO~2~     | 20–60      | 40–60         | 15–45  |
+|Al~2~O~3~  | 5–35       | 20–30         | 10–25  |
+|Fe~2~O~3~  | 10–40      | 4–10          | 4–15   |
+|CaO        | 1–12       | 5–30          | 15–40  |
+|MgO        | 0–5        | 1–6           | 3–10   |
+|SO~3~      | 0–4        | 0–2           | 0–10   |
+|Na~2~O     | 0–4        | 0–2           | 0–6    |
+|K~2~O      | 0–3        | 0–4           | 0–4    |
+|LOI        | 0–15       | 0–3           | 0–5    |
 
-:  Normal range of chemical composition for fly ash produced from different coal types(expressed as percent by weight).
-
+:  Normal range of chemical composition for fly ash produced from different coal types<br/>(expressed as percent by weight).
+:::
+:::{style="font-size: 50px; text-align: center;"}
 https://www.fhwa.dot.gov/publications/research/infrastructure/structures/97148/cfa51.cfm
+:::
+:::
+:::
+::::
 
 ## Trace Elements in Coal Fly Ash
 
@@ -89,13 +108,17 @@ The heating value of a fuel is the negative of its heat of combustion. There are
 
 * Lower Heating Value (LHV): Assumes the final state of the water is vapor.
 
+:::{.fragment}
 $$
 HHV = LHV + n_\mathrm{H_2O} \Delta \hat{H}_v\ (\mathrm{H_2O},\ 25\ ^\circ\mathrm{C})
 $$
+:::
 
+:::{.fragment .absolute top=68% left=14%}
 $$
 HV_\mathrm{mix} = \sum x_i HV_i
 $$
+:::
 
 ## Adiabatic Flame Temperature
 
@@ -103,27 +126,28 @@ If we operate a combustor such that we extract no heat from the
 combustor, all of the enthalpy of reaction has to go into heating
 the combustion products.
 
-
+:::{.fragment}
 ![](ReactorWithHeat.png){.absolute top=35% left=20% width=40%}
+:::
 
-:::{.absolute top=31% left=27%}
+:::{.fragment .absolute top=31% left=27%}
 $T_\mathrm{in}$
 :::
 
-:::{.absolute top=41% left=49%}
+:::{.fragment .absolute top=41% left=49%}
 $T_\mathrm{out} = T_\mathrm{af}$
 :::
 
-:::{.absolute top=49% left=15%}
+:::{.fragment .absolute top=49% left=15%}
 $Q\text{ or }\dot{Q} = 0$
 :::
 
-:::{.absolute top=44% left=70%}
-$H\text{ or }\dot{0} = 0$
+:::{.fragment .absolute top=44% left=70%}
+$\Delta H\text{ or }\Delta \dot{H} = 0$
 :::
 
 :::{style="font-size: 90px;"}
-:::{.absolute top=60% left=0%}
+:::{.fragment .absolute top=60% left=0%}
 $$
 \sum_\mathrm{out} \dot{n}_j \int\limits_{T_\mathrm{ref}}^{T_\mathrm{out} = T_\mathrm{af}} C_{pj} dT -
 \sum_\mathrm{in} \dot{n}_i \int\limits_{T_\mathrm{ref}}^{T_\mathrm{in}} C_{pi} dT + \sum_\mathrm{rxns} \dot{\xi}_k(\Delta \hat{H}_r^\circ)_k = \dot{Q} = 0
@@ -137,12 +161,14 @@ The adiabatic flame temperature is the maximum temperature a fuel-air mixture ca
 
 <br/>
 
+:::{.fragment}
 Many of the $C_p$ formulas found in the literature do not go to a high enough temperature range to permit calculation of $T_\mathrm{af}$ for near-stoichiometric fuel-air mixtures.
-
+:::
 <br/>
 
+:::{.fragment}
 To process materials at higher temperatures than adiabatic flame temperatures, some other technique such as electromagnetic, or laser heating must be used.
-
+:::
 
 ## Flammability Limits
 
@@ -150,16 +176,20 @@ For fuel-air mixtures that are either too fuel lean or too fuel rich, the oxidat
 
 <br/>
 
+:::{.fragment}
 The **Flash Point** is the temperature above which the vapor pressure is high enough to create a flammable mixture.
+:::
 
 <br/>
 
+:::{.fragment}
 The **Autoignition Temperature** is the temperature above which a fuel-air mixture will combust without an additional source of spark or flame.
+:::
 
 ## 
 
 :::{style="font-size: 85px;"}
-|Species |LFL/LEL in volume % |UFL/UEL in volume % |Flash Point |Autoignition temperature |
+|Species |LFL/LEL in vol. % |UFL/UEL in vol. % |Flash Point |Autoignition temperature |
 |--------|-------------------:|-------------------:|-----------:|------------------------:|
 |Acetone |2.6–3 |12.8–13 |−17 °C |465 °C, 485 °C|
 |Benzene |1.2 |7.8 |−11 °C |560 °C |
