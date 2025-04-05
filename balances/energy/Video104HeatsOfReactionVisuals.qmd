@@ -22,32 +22,37 @@ DOFPro Team
 
 If we have a chemical reaction, such as
 
+:::{.fragment}
 $$
 a\mathrm{A} + b\mathrm{B} \rightarrow c\mathrm{C} + d\mathrm{D}
 $$
+:::
 
+:::{.fragment}
 we can run it in an isothermal chemical reactor, either as an open
 steady-state system or as a closed constant-pressure system.
+:::
 
+:::{.fragment}
 ![](ReactorWithHeat.png){.absolute top=48% left=20% width=40%}
-
-:::{.absolute top=49.5% left=27%}
+:::
+:::{.fragment .absolute top=49.5% left=27%}
 $T_\mathrm{in}$
 :::
 
-:::{.absolute top=61% left=49%}
+:::{.fragment .absolute top=61% left=49%}
 $T_\mathrm{out} = T_\mathrm{in}$
 :::
 
-:::{.absolute top=45% left=27.5% style="font-size: 70px;"}
+:::{.fragment .absolute top=45% left=27.5% style="font-size: 70px;"}
 $a\mathrm{A} + b\mathrm{B} \rightarrow c\mathrm{C} + d\mathrm{D}$
 :::
 
-:::{.absolute top=61.5% left=21%}
+:::{.fragment .absolute top=61.5% left=21%}
 $Q\text{ or }\dot{Q}$
 :::
 
-:::{.absolute top=70% left=16%}
+:::{.fragment .absolute top=70% left=16%}
 $$
 \Delta \hat{H}_r = \dfrac{\Delta H}{\xi} = \dfrac{Q}{\xi} \text{ or } \dfrac{\Delta \dot{H}}{\dot{\xi}} = \dfrac{\dot{Q}}{\dot{\xi}}
 $$
@@ -61,18 +66,22 @@ coefficients, you double the heat of reaction.
 
 <br>
 
+:::{.fragment}
 The heat of reaction is a function of temperature. At the standard
 reference temperature ($25\ ^{\circ}\text{C}$ for the DOFPro videos), the heat of reaction is the
 *standard heat of reaction*. [Wikipedia](https://en.wikipedia.org/wiki/Heat_of_combustion#Heat_of_combustion_tables) has reasonable table of heats of combustion, which are heats of reaction for burning fuels in air. They are discussed further later in the video.
-
+:::
 <br>
 
+:::{.fragment}
 To calculate the heat of reaction at a temperature other than the
 standard temperature, you have to take into account any sensible
 heat changes and any phase changes since $H$ is a state function.
+:::
 
 ## Heat of Formation
 
+:::{.fragment}
 The *enthalpy of formation* or *heat of formation* is the standard
 heat of reaction for forming one mole of product, starting from
 pure elements at their standard form of aggregation at $T_\mathrm{ref}$. For
@@ -80,18 +89,20 @@ example, the standard states at $25\text{ } ^{\circ}\text{C}$ for oxygen and nit
 the diatomic gases $\mathrm{O_2 (g)}$ and $\mathrm{N_2 (g)}$. The standard heat of formation
 for any element in its standard form of aggregation is $0$ by
 definition. [Wikipedia](https://en.wikipedia.org/wiki/Standard_enthalpy_of_formation) has a reasonably good table of standard enthalpies of formation.
-
+:::
 <br>
 
+:::{.fragment}
 You can calculate the standard heat of reaction for any reaction as
 the sum of the heats of formation times the stoichiometric
 coefficients. Don’t forget phase changes.
+:::
 
-
+:::{.fragment}
 $$
 \Delta \hat{H}^{\circ}_r = \sum \nu_i \Delta \hat{H}^{\circ}_{f, i}
 $$
-
+:::
 
 
 ## Hess's Law
@@ -102,9 +113,10 @@ overall reaction as the one you want.
 
 <br>
 
+:::{.fragment}
 Example
-
-:::{style="font-size: 95px;"}
+:::
+:::{style="font-size: 90px;"}
  1. $\mathrm{C_2H_6} + \dfrac{7}{2} \mathrm{O_2} \rightarrow 2\mathrm{CO_2} + 3\mathrm{H_2O}: \hspace{10pt}\Delta \hat{H}^{\circ}_{r1} = -1559.8\ \mathrm{kJ/mol}$
 
  2. $\mathrm{C} + \mathrm{O_2} \rightarrow \mathrm{CO_2}: \hspace{10pt}\Delta \hat{H}^{\circ}_{r2} = -393.5\ \mathrm{kJ/mol}$
@@ -117,40 +129,52 @@ Example
 Add $2$ Equation $2$'s to $3$ Equation $3$'s and subtract $1$ Equation $1$
 
 :::{style="font-size: 80px;"}
+:::{.fragment}
 $$
 2 \mathrm{C} + 3\mathrm{H_2} + 2\mathrm{O_2} + \dfrac{3}{2} \mathrm{O_2} - \dfrac{7}{2} \mathrm{O_2} \rightarrow 2\mathrm{CO_2} + 3\mathrm{H_2O} - \mathrm{CO_2} - 3\mathrm{H_2O} + \mathrm{C_2H_6}
 $$
 :::
+:::
 
 4. $\hspace{10pt} 2\mathrm{C} + 3\mathrm{H}_2 \rightarrow \mathrm{C}_2 \mathrm{H}_6$
 
+:::{.fragment}
 $$
 \Delta \hat{H}^{\circ}_{r4} = 2\Delta \hat{H}^{\circ}_{r2} + 3\Delta \hat{H}^{\circ}_{r3} - \Delta \hat{H}^{\circ}_{r1}
 $$ 
+:::
+:::{.fragment}
 $$
 = 2(-393.5) + 3(-285.8) - (-1559.8) = -84.6 \mathrm{kJ/mol}
 $$
+:::
 
 :::{style="font-size: 90px;"}
+:::{.fragment}
 which is also the heat of formation for ethane.
-
+:::
+:::{.fragment}
 If you use different sets of equations to calculate the same final
 equation with Hess’s law, you may find that rounding and
-truncation errors keep the results from being identical. The most current value for the enthalpy of formation of ethane from NIST is $–84. \pm0.4\ \mathrm{kJ/mol}$, which encompasses the value we calculated.
+truncation errors keep the results from being identical. The most current value for the enthalpy of formation of ethane from NIST is $–84. \pm0.4\ \mathrm{kJ/mol}$, which almost encompasses the value we calculated.
+:::
 :::
 
 ## The Heat of Combustion
 
+:::{.fragment}
 If you have a combustion reaction for a given species, as discussed
 in the *Flame On, Torch!* video, the heat of reaction for
 complete combustion of one mole of fuel is called the *heat of
 combustion*. As a reminder, for the principal species and complete
 combustion, the combustion products are $\mathrm{C}\mathrm{O}_2$, $\mathrm{H}_2\mathrm{O}$, and $\mathrm{S}\mathrm{O}_2$. $\mathrm{C}\mathrm{O}_2$
 and $\mathrm{S}\mathrm{O}_2$ are gases at standard conditions. What about water?
-
+:::
 <br>
 
+:::{.fragment}
 The value called the *enthalpy of combustion* assumes that water is liquid at $25\ ^{\circ}\mathrm{C}$ and $1\ \mathrm{atm}$. It is alternately called the *Higher Heating Value* (HHV). The enthalpy of combustion calculated assuming water is vapor at  $25\ ^{\circ}\mathrm{C}$ is called the *Lower Heating Value*. The details will be discussed in *Fueling the Fire: The Shocking Truth About Combustion Reactions!*
+:::
 
 ## The Takeaways
 
