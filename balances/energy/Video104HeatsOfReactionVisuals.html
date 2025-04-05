@@ -6,8 +6,8 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.42">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.43">
 
   <title>Chemical and Thermal Processes – video104heatsofreactionvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -137,24 +137,30 @@
 <section id="first-law-for-a-reactor" class="slide level2">
 <h2>First Law for a Reactor</h2>
 <p>If we have a chemical reaction, such as</p>
+<div class="fragment">
 <p><span class="math display">\[
 a\mathrm{A} + b\mathrm{B} \rightarrow c\mathrm{C} + d\mathrm{D}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>we can run it in an isothermal chemical reactor, either as an open steady-state system or as a closed constant-pressure system.</p>
+</div>
+<div class="fragment">
 <p><img data-src="ReactorWithHeat.png" class="absolute" style="top: 48%; left: 20%; width: 40%; "></p>
-<div class="absolute" style="top: 49.5%; left: 27%; ">
+</div>
+<div class="fragment absolute" style="top: 49.5%; left: 27%; ">
 <p><span class="math inline">\(T_\mathrm{in}\)</span></p>
 </div>
-<div class="absolute" style="top: 61%; left: 49%; ">
+<div class="fragment absolute" style="top: 61%; left: 49%; ">
 <p><span class="math inline">\(T_\mathrm{out} = T_\mathrm{in}\)</span></p>
 </div>
-<div class="absolute" style="font-size: 70px;top: 45%; left: 27.5%; ">
+<div class="fragment absolute" style="font-size: 70px;top: 45%; left: 27.5%; ">
 <p><span class="math inline">\(a\mathrm{A} + b\mathrm{B} \rightarrow c\mathrm{C} + d\mathrm{D}\)</span></p>
 </div>
-<div class="absolute" style="top: 61.5%; left: 21%; ">
+<div class="fragment absolute" style="top: 61.5%; left: 21%; ">
 <p><span class="math inline">\(Q\text{ or }\dot{Q}\)</span></p>
 </div>
-<div class="absolute" style="top: 70%; left: 16%; ">
+<div class="fragment absolute" style="top: 70%; left: 16%; ">
 <p><span class="math display">\[
 \Delta \hat{H}_r = \dfrac{\Delta H}{\xi} = \dfrac{Q}{\xi} \text{ or } \dfrac{\Delta \dot{H}}{\dot{\xi}} = \dfrac{\dot{Q}}{\dot{\xi}}
 \]</span></p>
@@ -164,25 +170,37 @@ a\mathrm{A} + b\mathrm{B} \rightarrow c\mathrm{C} + d\mathrm{D}
 <h2></h2>
 <p>The <em>enthalpy of reaction</em> or <em>heat of reaction</em> depends on how you write the chemical equation. If you double the stoichiometric coefficients, you double the heat of reaction.</p>
 <p><br></p>
+<div class="fragment">
 <p>The heat of reaction is a function of temperature. At the standard reference temperature (<span class="math inline">\(25\ ^{\circ}\text{C}\)</span> for the DOFPro videos), the heat of reaction is the <em>standard heat of reaction</em>. <a href="https://en.wikipedia.org/wiki/Heat_of_combustion#Heat_of_combustion_tables">Wikipedia</a> has reasonable table of heats of combustion, which are heats of reaction for burning fuels in air. They are discussed further later in the video.</p>
+</div>
 <p><br></p>
+<div class="fragment">
 <p>To calculate the heat of reaction at a temperature other than the standard temperature, you have to take into account any sensible heat changes and any phase changes since <span class="math inline">\(H\)</span> is a state function.</p>
+</div>
 </section>
 <section id="heat-of-formation" class="slide level2">
 <h2>Heat of Formation</h2>
+<div class="fragment">
 <p>The <em>enthalpy of formation</em> or <em>heat of formation</em> is the standard heat of reaction for forming one mole of product, starting from pure elements at their standard form of aggregation at <span class="math inline">\(T_\mathrm{ref}\)</span>. For example, the standard states at <span class="math inline">\(25\text{ } ^{\circ}\text{C}\)</span> for oxygen and nitrogen are the diatomic gases <span class="math inline">\(\mathrm{O_2 (g)}\)</span> and <span class="math inline">\(\mathrm{N_2 (g)}\)</span>. The standard heat of formation for any element in its standard form of aggregation is <span class="math inline">\(0\)</span> by definition. <a href="https://en.wikipedia.org/wiki/Standard_enthalpy_of_formation">Wikipedia</a> has a reasonably good table of standard enthalpies of formation.</p>
+</div>
 <p><br></p>
+<div class="fragment">
 <p>You can calculate the standard heat of reaction for any reaction as the sum of the heats of formation times the stoichiometric coefficients. Don’t forget phase changes.</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \Delta \hat{H}^{\circ}_r = \sum \nu_i \Delta \hat{H}^{\circ}_{f, i}
 \]</span></p>
+</div>
 </section>
 <section id="hesss-law" class="slide level2">
 <h2>Hess’s Law</h2>
 <p>The energetics of any reaction can be calculated by algebraically adding together any set of reactions that gives you the same overall reaction as the one you want.</p>
 <p><br></p>
+<div class="fragment">
 <p>Example</p>
-<div style="font-size: 95px;">
+</div>
+<div style="font-size: 90px;">
 <ol type="1">
 <li class="fragment"><p><span class="math inline">\(\mathrm{C_2H_6} + \dfrac{7}{2} \mathrm{O_2} \rightarrow 2\mathrm{CO_2} + 3\mathrm{H_2O}: \hspace{10pt}\Delta \hat{H}^{\circ}_{r1} = -1559.8\ \mathrm{kJ/mol}\)</span></p></li>
 <li class="fragment"><p><span class="math inline">\(\mathrm{C} + \mathrm{O_2} \rightarrow \mathrm{CO_2}: \hspace{10pt}\Delta \hat{H}^{\circ}_{r2} = -393.5\ \mathrm{kJ/mol}\)</span></p></li>
@@ -194,28 +212,43 @@ a\mathrm{A} + b\mathrm{B} \rightarrow c\mathrm{C} + d\mathrm{D}
 <h2></h2>
 <p>Add <span class="math inline">\(2\)</span> Equation <span class="math inline">\(2\)</span>’s to <span class="math inline">\(3\)</span> Equation <span class="math inline">\(3\)</span>’s and subtract <span class="math inline">\(1\)</span> Equation <span class="math inline">\(1\)</span></p>
 <div style="font-size: 80px;">
+<div class="fragment">
 <p><span class="math display">\[
 2 \mathrm{C} + 3\mathrm{H_2} + 2\mathrm{O_2} + \dfrac{3}{2} \mathrm{O_2} - \dfrac{7}{2} \mathrm{O_2} \rightarrow 2\mathrm{CO_2} + 3\mathrm{H_2O} - \mathrm{CO_2} - 3\mathrm{H_2O} + \mathrm{C_2H_6}
 \]</span></p>
 </div>
+</div>
 <ol start="4" type="1">
 <li class="fragment"><span class="math inline">\(\hspace{10pt} 2\mathrm{C} + 3\mathrm{H}_2 \rightarrow \mathrm{C}_2 \mathrm{H}_6\)</span></li>
 </ol>
+<div class="fragment">
 <p><span class="math display">\[
 \Delta \hat{H}^{\circ}_{r4} = 2\Delta \hat{H}^{\circ}_{r2} + 3\Delta \hat{H}^{\circ}_{r3} - \Delta \hat{H}^{\circ}_{r1}
-\]</span> <span class="math display">\[
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
 = 2(-393.5) + 3(-285.8) - (-1559.8) = -84.6 \mathrm{kJ/mol}
 \]</span></p>
+</div>
 <div style="font-size: 90px;">
+<div class="fragment">
 <p>which is also the heat of formation for ethane.</p>
-<p>If you use different sets of equations to calculate the same final equation with Hess’s law, you may find that rounding and truncation errors keep the results from being identical. The most current value for the enthalpy of formation of ethane from NIST is <span class="math inline">\(–84. \pm0.4\ \mathrm{kJ/mol}\)</span>, which encompasses the value we calculated.</p>
+</div>
+<div class="fragment">
+<p>If you use different sets of equations to calculate the same final equation with Hess’s law, you may find that rounding and truncation errors keep the results from being identical. The most current value for the enthalpy of formation of ethane from NIST is <span class="math inline">\(–84. \pm0.4\ \mathrm{kJ/mol}\)</span>, which almost encompasses the value we calculated.</p>
+</div>
 </div>
 </section>
 <section id="the-heat-of-combustion" class="slide level2">
 <h2>The Heat of Combustion</h2>
+<div class="fragment">
 <p>If you have a combustion reaction for a given species, as discussed in the <em>Flame On, Torch!</em> video, the heat of reaction for complete combustion of one mole of fuel is called the <em>heat of combustion</em>. As a reminder, for the principal species and complete combustion, the combustion products are <span class="math inline">\(\mathrm{C}\mathrm{O}_2\)</span>, <span class="math inline">\(\mathrm{H}_2\mathrm{O}\)</span>, and <span class="math inline">\(\mathrm{S}\mathrm{O}_2\)</span>. <span class="math inline">\(\mathrm{C}\mathrm{O}_2\)</span> and <span class="math inline">\(\mathrm{S}\mathrm{O}_2\)</span> are gases at standard conditions. What about water?</p>
+</div>
 <p><br></p>
+<div class="fragment">
 <p>The value called the <em>enthalpy of combustion</em> assumes that water is liquid at <span class="math inline">\(25\ ^{\circ}\mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{atm}\)</span>. It is alternately called the <em>Higher Heating Value</em> (HHV). The enthalpy of combustion calculated assuming water is vapor at <span class="math inline">\(25\ ^{\circ}\mathrm{C}\)</span> is called the <em>Lower Heating Value</em>. The details will be discussed in <em>Fueling the Fire: The Shocking Truth About Combustion Reactions!</em></p>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>

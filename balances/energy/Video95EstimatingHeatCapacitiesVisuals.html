@@ -6,8 +6,8 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.42">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.43">
 
   <title>Chemical and Thermal Processes – video95estimatingheatcapacitiesvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -137,23 +137,46 @@
 <section id="intro" class="slide level2">
 <h2>Intro</h2>
 <p>Always use reliable data if you have them. If not, then estimate</p>
+<div class="fragment">
 <p><span class="math inline">\(\ \ \ \ \ C_p\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\ \ \ \ \ \Delta \hat{H}_v\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\ \ \ \ \ \Delta \hat{H}_m\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\ \ \ \ \ \Delta \hat{H}_s\)</span></p>
+</div>
+<div class="fragment">
 <p>for use in the First Law.</p>
+</div>
+<div class="fragment">
 <p>The standard reference is <em>The Properties of Gases and Liquids</em>. Current edition is the sixth.</p>
+</div>
 </section>
 <section id="estimating-formulas" class="slide level2">
 <h2>Estimating Formulas</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
+<div class="fragment" data-fragment-index="1">
 <p>If the tabulated data are missing use a formula like Kopp’s rule,</p>
+</div>
+<div class="fragment" data-fragment-index="2">
 <p><span class="math display">\[
 (C_p)_{\mathrm{compound}} = \sum_\text{all atoms} C_{pa}
 \]</span></p>
-<p>How about mixtures? <br><br> Lacking other data, use a weighted average.</p>
+</div>
+<div class="fragment" data-fragment-index="3">
+<p>How about mixtures?</p>
+</div>
+<p><br><br></p>
+<div class="fragment" data-fragment-index="4">
+<p>Lacking other data, use a weighted average.</p>
+</div>
 </div><div class="column" style="width:50%;">
+<div class="fragment" data-fragment-index="2">
 <div style="font-size: 90px;">
 <table class="caption-top">
 <caption>Atomic Heat-Capacity Contributions for Kopp’s Rule <span class="math inline">\(C_{pa}\)</span> [J/g-atom°C]</caption>
@@ -213,6 +236,7 @@
 </tbody>
 </table>
 </div>
+</div>
 </div></div>
 </section>
 <section id="section" class="slide level2">
@@ -232,43 +256,70 @@
 <h2></h2>
 <p>Vaporize one pound of water at constant <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>. What kind of system?</p>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
 <p>The <span class="math inline">\(1\)</span>st law is: <span class="math inline">\(\Delta U = Q + W\)</span></p>
+</div>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
 <p>For a closed system the pressure-volume work is:</p>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
 <center>
 <span class="math inline">\(W = -\int P dV\)</span>
 </center>
+</div>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
 <p>Now if <span class="math inline">\(P =\)</span> constant</p>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
 <center>
 <span class="math inline">\(W = -P\Delta V = -\Delta (PV)\)</span>
 </center>
+</div>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
 <p>So the <span class="math inline">\(1\)</span>st law becomes:</p>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
 <center>
 <span class="math inline">\(\Delta U_v = Q - \Delta (PV)\)</span>
 </center>
+</div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
+<div class="fragment">
 or
 <center>
 <span class="math inline">\(\Delta U_v + \Delta (PV) = \Delta H_v = Q\)</span>
 </center>
+</div>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
 <p>If a phase change takes place in a <em>constant volume</em> closed system, then <span class="math inline">\(\Delta \hat{U}\)</span> must be evaluated as</p>
+</div>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
 <center>
 <span class="math inline">\(\Delta \hat{U} = \Delta \hat{H} - \Delta(P\hat{V})\)</span>
 </center>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
+</div>
+<div class="fragment">
 <center>
 <span class="math inline">\(\Delta \hat{U}_m \approx \Delta \hat{H}_m\)</span>
 </center>
-<span class="math inline">\(\hspace{1mm}\)</span>
+</div>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
 <center>
 <span class="math inline">\(\Delta \hat{U}_v \approx \Delta \hat{H}_v - RT\)</span>
 </center>
+</div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
@@ -279,52 +330,93 @@ or
 <li class="fragment">Educated Guesses</li>
 </ul>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<strong>Trouton’s Rule (within 30% accuracy)</strong><br> nonpolar liquids
+<div class="fragment">
+<p><strong>Trouton’s Rule (within 30% accuracy)</strong><br></p>
+</div>
+<div class="fragment">
+nonpolar liquids
 <center>
 <span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp}\)</span> [<span class="math inline">\(\mathrm{kJ/mol}\)</span>] <span class="math inline">\(\approx 0.0088T_\mathrm{b} (K)\)</span>
 </center>
+</div>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
 <p>water, low-MW alcohols</p>
 <center>
 <span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp}\)</span> [<span class="math inline">\(\mathrm{kJ/mol}\)</span>] <span class="math inline">\(\approx 0.109T_\mathrm{b} (K)\)</span>
 </center>
+</div>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
 <p><strong>Chen’s equation (within 2% accuracy)</strong></p>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
 <center>
 <span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp} = \dfrac{T_b[0.0331(T_b/T_\mathrm{c}) - 0.0327 + 0.0297\log_{10} P_c]}{1.07 - (T_b / T_\mathrm{c})}\)</span>
 </center>
 <p>with <span class="math inline">\(T\)</span>’s in Kelvin, <span class="math inline">\(P\)</span> in atm, and <span class="math inline">\(\Delta \hat{H}\)</span> in <span class="math inline">\(\mathrm{kJ/mol}\)</span></p>
+</div>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
 <p>Also <strong>Clausius and Claperyon backwards</strong></p>
+</div>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <center>
 <span class="math inline">\(\ln p^* = -\dfrac{\Delta \hat{H}_v}{RT} + B\)</span>
 </center>
+</div>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <center>
 <span class="math inline">\(\dfrac{d(\ln p^*)}{d(1/T)} = -\dfrac{\Delta \hat{H}_v}{R}\)</span>
 </center>
+</div>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
 <p>And finally if you have <span class="math inline">\(\Delta \hat{H}_v\)</span> at one temperature and you need it at another, the <strong>Watson correlation</strong></p>
+<div class="fragment">
 <center>
 <span class="math inline">\(\dfrac{\Delta \hat{H}_v (T_2)}{\Delta \hat{H}_v (T_1)} = \left(\dfrac{T_\mathrm{c} - T_2}{T_\mathrm{c} - T_1}\right)^{0.38}\)</span>
 </center>
+</div>
 <p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<p><strong>Trouton’s Rule for Solids (unspecified accuracy)</strong> <br> For metallic elements</p>
+<div class="fragment">
+<p><strong>Trouton’s Rule for Solids (unspecified accuracy)</strong> <br></p>
+</div>
+<div class="fragment">
+<p>For metallic elements</p>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
 <center>
 <span class="math inline">\(\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.0092 T_m (K)\)</span>
 </center>
-For inorganic compounds
+</div>
+<div class="fragment">
+<p>For inorganic compounds</p>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
 <center>
 <span class="math inline">\(\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.0025 T_m (K)\)</span>
 </center>
-For organic compounds
+</div>
+<div class="fragment">
+<p>For organic compounds</p>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
 <center>
 <span class="math inline">\(\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.050 T_m (K)\)</span>
 </center>
+</div>
 </section>
 <section id="troutons-rule-plot" class="slide level2">
 <h2>Trouton’s Rule Plot</h2>

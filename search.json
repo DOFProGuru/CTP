@@ -1089,14 +1089,14 @@
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#intro",
     "title": "Chemical and Thermal Processes",
     "section": "Intro",
-    "text": "Intro\nAlways use reliable data if you have them. If not, then estimate\n\\(\\ \\ \\ \\ \\ C_p\\)\n\\(\\ \\ \\ \\ \\ \\Delta \\hat{H}_v\\)\n\\(\\ \\ \\ \\ \\ \\Delta \\hat{H}_m\\)\n\\(\\ \\ \\ \\ \\ \\Delta \\hat{H}_s\\)\nfor use in the First Law.\nThe standard reference is The Properties of Gases and Liquids. Current edition is the sixth."
+    "text": "Intro\nAlways use reliable data if you have them. If not, then estimate\n\n\\(\\ \\ \\ \\ \\ C_p\\)\n\n\n\\(\\ \\ \\ \\ \\ \\Delta \\hat{H}_v\\)\n\n\n\\(\\ \\ \\ \\ \\ \\Delta \\hat{H}_m\\)\n\n\n\\(\\ \\ \\ \\ \\ \\Delta \\hat{H}_s\\)\n\n\nfor use in the First Law.\n\n\nThe standard reference is The Properties of Gases and Liquids. Current edition is the sixth."
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#estimating-formulas",
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#estimating-formulas",
     "title": "Chemical and Thermal Processes",
     "section": "Estimating Formulas",
-    "text": "Estimating Formulas\n\n\nIf the tabulated data are missing use a formula like Kopp’s rule,\n\\[\n(C_p)_{\\mathrm{compound}} = \\sum_\\text{all atoms} C_{pa}\n\\]\nHow about mixtures?  Lacking other data, use a weighted average.\n\n\n\nAtomic Heat-Capacity Contributions for Kopp’s Rule \\(C_{pa}\\) [J/g-atom°C]\n\n\nElement\nSolids\nLiquids\n\n\n\n\nC\n7.5\n12\n\n\nH\n9.6\n18\n\n\nB\n11\n20\n\n\nSi\n16\n24\n\n\nO\n17\n25\n\n\nF\n21\n29\n\n\nP\n23\n31\n\n\nS\n26\n31\n\n\nAll others\n26\n33"
+    "text": "Estimating Formulas\n\n\n\nIf the tabulated data are missing use a formula like Kopp’s rule,\n\n\n\\[\n(C_p)_{\\mathrm{compound}} = \\sum_\\text{all atoms} C_{pa}\n\\]\n\n\nHow about mixtures?\n\n\n\nLacking other data, use a weighted average.\n\n\n\n\n\nAtomic Heat-Capacity Contributions for Kopp’s Rule \\(C_{pa}\\) [J/g-atom°C]\n\n\nElement\nSolids\nLiquids\n\n\n\n\nC\n7.5\n12\n\n\nH\n9.6\n18\n\n\nB\n11\n20\n\n\nSi\n16\n24\n\n\nO\n17\n25\n\n\nF\n21\n29\n\n\nP\n23\n31\n\n\nS\n26\n31\n\n\nAll others\n26\n33"
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section",
@@ -1110,35 +1110,35 @@
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Vaporize one pound of water at constant \\(T\\) and \\(P\\). What kind of system?\n\\(\\hspace{1mm}\\)\nThe \\(1\\)st law is: \\(\\Delta U = Q + W\\)\n\\(\\hspace{1mm}\\)\nFor a closed system the pressure-volume work is:\n\n\\(W = -\\int P dV\\)\n\n\\(\\hspace{1mm}\\)\nNow if \\(P =\\) constant\n\n\\(W = -P\\Delta V = -\\Delta (PV)\\)\n\n\\(\\hspace{1mm}\\)\nSo the \\(1\\)st law becomes:\n\n\\(\\Delta U_v = Q - \\Delta (PV)\\)"
+    "text": "Vaporize one pound of water at constant \\(T\\) and \\(P\\). What kind of system?\n\\(\\hspace{1mm}\\)\n\nThe \\(1\\)st law is: \\(\\Delta U = Q + W\\)\n\n\\(\\hspace{1mm}\\)\n\nFor a closed system the pressure-volume work is:\n\n\n\n\n\\(W = -\\int P dV\\)\n\n\n\\(\\hspace{1mm}\\)\n\nNow if \\(P =\\) constant\n\n\n\n\n\\(W = -P\\Delta V = -\\Delta (PV)\\)\n\n\n\\(\\hspace{1mm}\\)\n\nSo the \\(1\\)st law becomes:\n\n\n\n\n\\(\\Delta U_v = Q - \\Delta (PV)\\)"
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-2",
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-2",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "or\n\n\\(\\Delta U_v + \\Delta (PV) = \\Delta H_v = Q\\)\n\n\\(\\hspace{1mm}\\)\nIf a phase change takes place in a constant volume closed system, then \\(\\Delta \\hat{U}\\) must be evaluated as\n\\(\\hspace{1mm}\\)\n\n\\(\\Delta \\hat{U} = \\Delta \\hat{H} - \\Delta(P\\hat{V})\\)\n\n\\(\\hspace{1mm}\\)\n\n\\(\\Delta \\hat{U}_m \\approx \\Delta \\hat{H}_m\\)\n\n\\(\\hspace{1mm}\\)\n\n\\(\\Delta \\hat{U}_v \\approx \\Delta \\hat{H}_v - RT\\)"
+    "text": "or\n\n\\(\\Delta U_v + \\Delta (PV) = \\Delta H_v = Q\\)\n\n\n\\(\\hspace{1mm}\\)\n\nIf a phase change takes place in a constant volume closed system, then \\(\\Delta \\hat{U}\\) must be evaluated as\n\n\\(\\hspace{1mm}\\)\n\n\n\\(\\Delta \\hat{U} = \\Delta \\hat{H} - \\Delta(P\\hat{V})\\)\n\n\\(\\hspace{1mm}\\)\n\n\n\n\\(\\Delta \\hat{U}_m \\approx \\Delta \\hat{H}_m\\)\n\n\n\\(\\hspace{1mm}\\)\n\n\n\\(\\Delta \\hat{U}_v \\approx \\Delta \\hat{H}_v - RT\\)"
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-3",
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-3",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "How do you evaluate latent heats?\n\nTables\nCorrelations\nEducated Guesses\n\n\\(\\hspace{1mm}\\)\nTrouton’s Rule (within 30% accuracy) nonpolar liquids\n\n\\((\\Delta \\hat{H}_v)_\\mathrm{nbp}\\) [\\(\\mathrm{kJ/mol}\\)] \\(\\approx 0.0088T_\\mathrm{b} (K)\\)\n\n\\(\\hspace{1mm}\\)\nwater, low-MW alcohols\n\n\\((\\Delta \\hat{H}_v)_\\mathrm{nbp}\\) [\\(\\mathrm{kJ/mol}\\)] \\(\\approx 0.109T_\\mathrm{b} (K)\\)"
+    "text": "How do you evaluate latent heats?\n\nTables\nCorrelations\nEducated Guesses\n\n\\(\\hspace{1mm}\\)\n\nTrouton’s Rule (within 30% accuracy)\n\n\nnonpolar liquids\n\n\\((\\Delta \\hat{H}_v)_\\mathrm{nbp}\\) [\\(\\mathrm{kJ/mol}\\)] \\(\\approx 0.0088T_\\mathrm{b} (K)\\)\n\n\n\\(\\hspace{1mm}\\)\n\nwater, low-MW alcohols\n\n\\((\\Delta \\hat{H}_v)_\\mathrm{nbp}\\) [\\(\\mathrm{kJ/mol}\\)] \\(\\approx 0.109T_\\mathrm{b} (K)\\)"
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-4",
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-4",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Chen’s equation (within 2% accuracy)\n\\(\\hspace{1mm}\\)\n\n\\((\\Delta \\hat{H}_v)_\\mathrm{nbp} = \\dfrac{T_b[0.0331(T_b/T_\\mathrm{c}) - 0.0327 + 0.0297\\log_{10} P_c]}{1.07 - (T_b / T_\\mathrm{c})}\\)\n\nwith \\(T\\)’s in Kelvin, \\(P\\) in atm, and \\(\\Delta \\hat{H}\\) in \\(\\mathrm{kJ/mol}\\)\n\\(\\hspace{1mm}\\)\nAlso Clausius and Claperyon backwards\n\n\\(\\ln p^* = -\\dfrac{\\Delta \\hat{H}_v}{RT} + B\\)\n\n\n\\(\\dfrac{d(\\ln p^*)}{d(1/T)} = -\\dfrac{\\Delta \\hat{H}_v}{R}\\)"
+    "text": "Chen’s equation (within 2% accuracy)\n\\(\\hspace{1mm}\\)\n\n\n\\((\\Delta \\hat{H}_v)_\\mathrm{nbp} = \\dfrac{T_b[0.0331(T_b/T_\\mathrm{c}) - 0.0327 + 0.0297\\log_{10} P_c]}{1.07 - (T_b / T_\\mathrm{c})}\\)\n\nwith \\(T\\)’s in Kelvin, \\(P\\) in atm, and \\(\\Delta \\hat{H}\\) in \\(\\mathrm{kJ/mol}\\)\n\n\\(\\hspace{1mm}\\)\n\nAlso Clausius and Claperyon backwards\n\n\n\n\n\n\n\\(\\ln p^* = -\\dfrac{\\Delta \\hat{H}_v}{RT} + B\\)\n\n\n\n\n\n\n\n\\(\\dfrac{d(\\ln p^*)}{d(1/T)} = -\\dfrac{\\Delta \\hat{H}_v}{R}\\)"
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-5",
     "href": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#section-5",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "And finally if you have \\(\\Delta \\hat{H}_v\\) at one temperature and you need it at another, the Watson correlation\n\n\\(\\dfrac{\\Delta \\hat{H}_v (T_2)}{\\Delta \\hat{H}_v (T_1)} = \\left(\\dfrac{T_\\mathrm{c} - T_2}{T_\\mathrm{c} - T_1}\\right)^{0.38}\\)\n\n\\(\\hspace{1mm}\\)\nTrouton’s Rule for Solids (unspecified accuracy)  For metallic elements\n\n\\(\\Delta \\hat{H}_m\\ [\\mathrm{kJ/mol}] \\approx 0.0092 T_m (K)\\)\n\nFor inorganic compounds\n\n\\(\\Delta \\hat{H}_m\\ [\\mathrm{kJ/mol}] \\approx 0.0025 T_m (K)\\)\n\nFor organic compounds\n\n\\(\\Delta \\hat{H}_m\\ [\\mathrm{kJ/mol}] \\approx 0.050 T_m (K)\\)"
+    "text": "And finally if you have \\(\\Delta \\hat{H}_v\\) at one temperature and you need it at another, the Watson correlation\n\n\n\\(\\dfrac{\\Delta \\hat{H}_v (T_2)}{\\Delta \\hat{H}_v (T_1)} = \\left(\\dfrac{T_\\mathrm{c} - T_2}{T_\\mathrm{c} - T_1}\\right)^{0.38}\\)\n\n\n\\(\\hspace{1mm}\\)\n\nTrouton’s Rule for Solids (unspecified accuracy) \n\n\nFor metallic elements\n\n\n\n\n\\(\\Delta \\hat{H}_m\\ [\\mathrm{kJ/mol}] \\approx 0.0092 T_m (K)\\)\n\n\n\nFor inorganic compounds\n\n\n\n\n\\(\\Delta \\hat{H}_m\\ [\\mathrm{kJ/mol}] \\approx 0.0025 T_m (K)\\)\n\n\n\nFor organic compounds\n\n\n\n\n\\(\\Delta \\hat{H}_m\\ [\\mathrm{kJ/mol}] \\approx 0.050 T_m (K)\\)"
   },
   {
     "objectID": "balances/energy/Video95EstimatingHeatCapacitiesVisuals.html#troutons-rule-plot",
@@ -4540,42 +4540,42 @@
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#first-law-for-a-reactor",
     "title": "Chemical and Thermal Processes",
     "section": "First Law for a Reactor",
-    "text": "First Law for a Reactor\nIf we have a chemical reaction, such as\n\\[\na\\mathrm{A} + b\\mathrm{B} \\rightarrow c\\mathrm{C} + d\\mathrm{D}\n\\]\nwe can run it in an isothermal chemical reactor, either as an open steady-state system or as a closed constant-pressure system.\n\n\n\\(T_\\mathrm{in}\\)\n\n\n\\(T_\\mathrm{out} = T_\\mathrm{in}\\)\n\n\n\\(a\\mathrm{A} + b\\mathrm{B} \\rightarrow c\\mathrm{C} + d\\mathrm{D}\\)\n\n\n\\(Q\\text{ or }\\dot{Q}\\)\n\n\n\\[\n\\Delta \\hat{H}_r = \\dfrac{\\Delta H}{\\xi} = \\dfrac{Q}{\\xi} \\text{ or } \\dfrac{\\Delta \\dot{H}}{\\dot{\\xi}} = \\dfrac{\\dot{Q}}{\\dot{\\xi}}\n\\]"
+    "text": "First Law for a Reactor\nIf we have a chemical reaction, such as\n\n\\[\na\\mathrm{A} + b\\mathrm{B} \\rightarrow c\\mathrm{C} + d\\mathrm{D}\n\\]\n\n\nwe can run it in an isothermal chemical reactor, either as an open steady-state system or as a closed constant-pressure system.\n\n\n\n\n\n\\(T_\\mathrm{in}\\)\n\n\n\\(T_\\mathrm{out} = T_\\mathrm{in}\\)\n\n\n\\(a\\mathrm{A} + b\\mathrm{B} \\rightarrow c\\mathrm{C} + d\\mathrm{D}\\)\n\n\n\\(Q\\text{ or }\\dot{Q}\\)\n\n\n\\[\n\\Delta \\hat{H}_r = \\dfrac{\\Delta H}{\\xi} = \\dfrac{Q}{\\xi} \\text{ or } \\dfrac{\\Delta \\dot{H}}{\\dot{\\xi}} = \\dfrac{\\dot{Q}}{\\dot{\\xi}}\n\\]"
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#section",
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "The enthalpy of reaction or heat of reaction depends on how you write the chemical equation. If you double the stoichiometric coefficients, you double the heat of reaction.\n\nThe heat of reaction is a function of temperature. At the standard reference temperature (\\(25\\ ^{\\circ}\\text{C}\\) for the DOFPro videos), the heat of reaction is the standard heat of reaction. Wikipedia has reasonable table of heats of combustion, which are heats of reaction for burning fuels in air. They are discussed further later in the video.\n\nTo calculate the heat of reaction at a temperature other than the standard temperature, you have to take into account any sensible heat changes and any phase changes since \\(H\\) is a state function."
+    "text": "The enthalpy of reaction or heat of reaction depends on how you write the chemical equation. If you double the stoichiometric coefficients, you double the heat of reaction.\n\n\nThe heat of reaction is a function of temperature. At the standard reference temperature (\\(25\\ ^{\\circ}\\text{C}\\) for the DOFPro videos), the heat of reaction is the standard heat of reaction. Wikipedia has reasonable table of heats of combustion, which are heats of reaction for burning fuels in air. They are discussed further later in the video.\n\n\n\nTo calculate the heat of reaction at a temperature other than the standard temperature, you have to take into account any sensible heat changes and any phase changes since \\(H\\) is a state function."
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#heat-of-formation",
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#heat-of-formation",
     "title": "Chemical and Thermal Processes",
     "section": "Heat of Formation",
-    "text": "Heat of Formation\nThe enthalpy of formation or heat of formation is the standard heat of reaction for forming one mole of product, starting from pure elements at their standard form of aggregation at \\(T_\\mathrm{ref}\\). For example, the standard states at \\(25\\text{ } ^{\\circ}\\text{C}\\) for oxygen and nitrogen are the diatomic gases \\(\\mathrm{O_2 (g)}\\) and \\(\\mathrm{N_2 (g)}\\). The standard heat of formation for any element in its standard form of aggregation is \\(0\\) by definition. Wikipedia has a reasonably good table of standard enthalpies of formation.\n\nYou can calculate the standard heat of reaction for any reaction as the sum of the heats of formation times the stoichiometric coefficients. Don’t forget phase changes.\n\\[\n\\Delta \\hat{H}^{\\circ}_r = \\sum \\nu_i \\Delta \\hat{H}^{\\circ}_{f, i}\n\\]"
+    "text": "Heat of Formation\n\nThe enthalpy of formation or heat of formation is the standard heat of reaction for forming one mole of product, starting from pure elements at their standard form of aggregation at \\(T_\\mathrm{ref}\\). For example, the standard states at \\(25\\text{ } ^{\\circ}\\text{C}\\) for oxygen and nitrogen are the diatomic gases \\(\\mathrm{O_2 (g)}\\) and \\(\\mathrm{N_2 (g)}\\). The standard heat of formation for any element in its standard form of aggregation is \\(0\\) by definition. Wikipedia has a reasonably good table of standard enthalpies of formation.\n\n\n\nYou can calculate the standard heat of reaction for any reaction as the sum of the heats of formation times the stoichiometric coefficients. Don’t forget phase changes.\n\n\n\\[\n\\Delta \\hat{H}^{\\circ}_r = \\sum \\nu_i \\Delta \\hat{H}^{\\circ}_{f, i}\n\\]"
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#hesss-law",
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#hesss-law",
     "title": "Chemical and Thermal Processes",
     "section": "Hess’s Law",
-    "text": "Hess’s Law\nThe energetics of any reaction can be calculated by algebraically adding together any set of reactions that gives you the same overall reaction as the one you want.\n\nExample\n\n\n\\(\\mathrm{C_2H_6} + \\dfrac{7}{2} \\mathrm{O_2} \\rightarrow 2\\mathrm{CO_2} + 3\\mathrm{H_2O}: \\hspace{10pt}\\Delta \\hat{H}^{\\circ}_{r1} = -1559.8\\ \\mathrm{kJ/mol}\\)\n\\(\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}: \\hspace{10pt}\\Delta \\hat{H}^{\\circ}_{r2} = -393.5\\ \\mathrm{kJ/mol}\\)\n\\(\\mathrm{H_2} + \\dfrac{1}{2} \\mathrm{O_2} \\rightarrow \\mathrm{H_2O}: \\hspace{10pt}\\Delta \\hat{H}^{\\circ}_{r3} = -285.8\\ \\mathrm{kJ/mol}\\)"
+    "text": "Hess’s Law\nThe energetics of any reaction can be calculated by algebraically adding together any set of reactions that gives you the same overall reaction as the one you want.\n\n\nExample\n\n\n\n\\(\\mathrm{C_2H_6} + \\dfrac{7}{2} \\mathrm{O_2} \\rightarrow 2\\mathrm{CO_2} + 3\\mathrm{H_2O}: \\hspace{10pt}\\Delta \\hat{H}^{\\circ}_{r1} = -1559.8\\ \\mathrm{kJ/mol}\\)\n\\(\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}: \\hspace{10pt}\\Delta \\hat{H}^{\\circ}_{r2} = -393.5\\ \\mathrm{kJ/mol}\\)\n\\(\\mathrm{H_2} + \\dfrac{1}{2} \\mathrm{O_2} \\rightarrow \\mathrm{H_2O}: \\hspace{10pt}\\Delta \\hat{H}^{\\circ}_{r3} = -285.8\\ \\mathrm{kJ/mol}\\)"
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#section-1",
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Add \\(2\\) Equation \\(2\\)’s to \\(3\\) Equation \\(3\\)’s and subtract \\(1\\) Equation \\(1\\)\n\n\\[\n2 \\mathrm{C} + 3\\mathrm{H_2} + 2\\mathrm{O_2} + \\dfrac{3}{2} \\mathrm{O_2} - \\dfrac{7}{2} \\mathrm{O_2} \\rightarrow 2\\mathrm{CO_2} + 3\\mathrm{H_2O} - \\mathrm{CO_2} - 3\\mathrm{H_2O} + \\mathrm{C_2H_6}\n\\]\n\n\n\\(\\hspace{10pt} 2\\mathrm{C} + 3\\mathrm{H}_2 \\rightarrow \\mathrm{C}_2 \\mathrm{H}_6\\)\n\n\\[\n\\Delta \\hat{H}^{\\circ}_{r4} = 2\\Delta \\hat{H}^{\\circ}_{r2} + 3\\Delta \\hat{H}^{\\circ}_{r3} - \\Delta \\hat{H}^{\\circ}_{r1}\n\\] \\[\n= 2(-393.5) + 3(-285.8) - (-1559.8) = -84.6 \\mathrm{kJ/mol}\n\\]\n\nwhich is also the heat of formation for ethane.\nIf you use different sets of equations to calculate the same final equation with Hess’s law, you may find that rounding and truncation errors keep the results from being identical. The most current value for the enthalpy of formation of ethane from NIST is \\(–84. \\pm0.4\\ \\mathrm{kJ/mol}\\), which encompasses the value we calculated."
+    "text": "Add \\(2\\) Equation \\(2\\)’s to \\(3\\) Equation \\(3\\)’s and subtract \\(1\\) Equation \\(1\\)\n\n\n\\[\n2 \\mathrm{C} + 3\\mathrm{H_2} + 2\\mathrm{O_2} + \\dfrac{3}{2} \\mathrm{O_2} - \\dfrac{7}{2} \\mathrm{O_2} \\rightarrow 2\\mathrm{CO_2} + 3\\mathrm{H_2O} - \\mathrm{CO_2} - 3\\mathrm{H_2O} + \\mathrm{C_2H_6}\n\\]\n\n\n\n\\(\\hspace{10pt} 2\\mathrm{C} + 3\\mathrm{H}_2 \\rightarrow \\mathrm{C}_2 \\mathrm{H}_6\\)\n\n\n\\[\n\\Delta \\hat{H}^{\\circ}_{r4} = 2\\Delta \\hat{H}^{\\circ}_{r2} + 3\\Delta \\hat{H}^{\\circ}_{r3} - \\Delta \\hat{H}^{\\circ}_{r1}\n\\]\n\n\n\\[\n= 2(-393.5) + 3(-285.8) - (-1559.8) = -84.6 \\mathrm{kJ/mol}\n\\]\n\n\n\nwhich is also the heat of formation for ethane.\n\n\nIf you use different sets of equations to calculate the same final equation with Hess’s law, you may find that rounding and truncation errors keep the results from being identical. The most current value for the enthalpy of formation of ethane from NIST is \\(–84. \\pm0.4\\ \\mathrm{kJ/mol}\\), which almost encompasses the value we calculated."
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#the-heat-of-combustion",
     "href": "balances/energy/Video104HeatsOfReactionVisuals.html#the-heat-of-combustion",
     "title": "Chemical and Thermal Processes",
     "section": "The Heat of Combustion",
-    "text": "The Heat of Combustion\nIf you have a combustion reaction for a given species, as discussed in the Flame On, Torch! video, the heat of reaction for complete combustion of one mole of fuel is called the heat of combustion. As a reminder, for the principal species and complete combustion, the combustion products are \\(\\mathrm{C}\\mathrm{O}_2\\), \\(\\mathrm{H}_2\\mathrm{O}\\), and \\(\\mathrm{S}\\mathrm{O}_2\\). \\(\\mathrm{C}\\mathrm{O}_2\\) and \\(\\mathrm{S}\\mathrm{O}_2\\) are gases at standard conditions. What about water?\n\nThe value called the enthalpy of combustion assumes that water is liquid at \\(25\\ ^{\\circ}\\mathrm{C}\\) and \\(1\\ \\mathrm{atm}\\). It is alternately called the Higher Heating Value (HHV). The enthalpy of combustion calculated assuming water is vapor at \\(25\\ ^{\\circ}\\mathrm{C}\\) is called the Lower Heating Value. The details will be discussed in Fueling the Fire: The Shocking Truth About Combustion Reactions!"
+    "text": "The Heat of Combustion\n\nIf you have a combustion reaction for a given species, as discussed in the Flame On, Torch! video, the heat of reaction for complete combustion of one mole of fuel is called the heat of combustion. As a reminder, for the principal species and complete combustion, the combustion products are \\(\\mathrm{C}\\mathrm{O}_2\\), \\(\\mathrm{H}_2\\mathrm{O}\\), and \\(\\mathrm{S}\\mathrm{O}_2\\). \\(\\mathrm{C}\\mathrm{O}_2\\) and \\(\\mathrm{S}\\mathrm{O}_2\\) are gases at standard conditions. What about water?\n\n\n\nThe value called the enthalpy of combustion assumes that water is liquid at \\(25\\ ^{\\circ}\\mathrm{C}\\) and \\(1\\ \\mathrm{atm}\\). It is alternately called the Higher Heating Value (HHV). The enthalpy of combustion calculated assuming water is vapor at \\(25\\ ^{\\circ}\\mathrm{C}\\) is called the Lower Heating Value. The details will be discussed in Fueling the Fire: The Shocking Truth About Combustion Reactions!"
   },
   {
     "objectID": "balances/energy/Video104HeatsOfReactionVisuals.html#the-takeaways",
@@ -4596,14 +4596,14 @@
     "href": "balances/energy/Video110FuelsHeatingVisuals.html#combustion-reactions",
     "title": "Chemical and Thermal Processes",
     "section": "Combustion Reactions",
-    "text": "Combustion Reactions\nCombustion reactions are rapid oxidation reactions. One usually burns a fuel (typically coal, oil or natural gas) in air (or rarely pure oxygen). The principal atomic species in combustion reactions are carbon, hydrogen, sulfur and oxygen.\n\nSolid Fuels: Principally coal, coke, wood, charcoal, and solid waste.\n\nLiquid Fuels: Principally hydrocarbons and alcohols.\n\nGaseous Fuels: Principally natural gas."
+    "text": "Combustion Reactions\nCombustion reactions are rapid oxidation reactions. One usually burns a fuel (typically coal, oil or natural gas) in air (or rarely pure oxygen). The principal atomic species in combustion reactions are carbon, hydrogen, sulfur and oxygen.\n\n\nSolid Fuels: Principally coal, coke, wood, charcoal, and solid waste.\n\n\n\nLiquid Fuels: Principally hydrocarbons and alcohols.\n\n\n\nGaseous Fuels: Principally natural gas."
   },
   {
     "objectID": "balances/energy/Video110FuelsHeatingVisuals.html#coal",
     "href": "balances/energy/Video110FuelsHeatingVisuals.html#coal",
     "title": "Chemical and Thermal Processes",
     "section": "Coal",
-    "text": "Coal\nCoal is really nasty stuff. There is no other way to put it.\n\nComposition of Typical Bituminous Coal\n\n\nComponent\nPercentage\n\n\n\n\ncarbon [\\(\\mathrm{C}\\)]\n75–90\n\n\nhydrogen [\\(\\mathrm{H}\\)]\n4.5–5.5\n\n\nnitrogen [\\(\\mathrm{N}\\)]\n1–1.5\n\n\nsulfur [\\(\\mathrm{S}\\)]\n1–2\n\n\noxygen \\(\\mathrm{[O}\\)]\n5–20\n\n\nash\n2–10\n\n\nmoisture [\\(\\mathrm{H_2O}\\)]\n1–10\n\n\n\nhttp://www.chemistryexplained.com/Ce-Co/Coal.html\n\nNormal range of chemical composition for fly ash produced from different coal types(expressed as percent by weight).\n\n\nComponent\nBituminous\nSubbituminous\nLignite\n\n\n\n\nSiO2\n20-60\n40-60\n15-45\n\n\nAl2O3\n5-35\n20-30\n10-25\n\n\nFe2O3\n10-40\n4-10\n4-15\n\n\nCaO\n1-12\n5-30\n15-40\n\n\nMgO\n0-5\n1-6\n3-10\n\n\nSO3\n0-4\n0-2\n0-10\n\n\nNa2O\n0-4\n0-2\n0-6\n\n\nK2O\n0-3\n0-4\n0-4\n\n\nLOI\n0-15\n0-3\n0-5\n\n\n\nhttps://www.fhwa.dot.gov/publications/research/infrastructure/structures/97148/cfa51.cfm"
+    "text": "Coal\nCoal is really nasty stuff. There is no other way to put it. \n\n\n\n\n\nComposition of Typical Bituminous Coal\n\n\nComponent\nPercentage\n\n\n\n\ncarbon [\\(\\mathrm{C}\\)]\n75–90\n\n\nhydrogen [\\(\\mathrm{H}\\)]\n4.5–5.5\n\n\nnitrogen [\\(\\mathrm{N}\\)]\n1–1.5\n\n\nsulfur [\\(\\mathrm{S}\\)]\n1–2\n\n\noxygen \\(\\mathrm{[O}\\)]\n5–20\n\n\nash\n2–10\n\n\nmoisture [\\(\\mathrm{H_2O}\\)]\n1–10\n\n\n\n\n\nhttp://www.chemistryexplained.com/Ce-Co/Coal.html\n\n\n\n\n\n\nNormal range of chemical composition for fly ash produced from different coal types(expressed as percent by weight).\n\n\nComponent\nBituminous\nSubbituminous\nLignite\n\n\n\n\nSiO2\n20–60\n40–60\n15–45\n\n\nAl2O3\n5–35\n20–30\n10–25\n\n\nFe2O3\n10–40\n4–10\n4–15\n\n\nCaO\n1–12\n5–30\n15–40\n\n\nMgO\n0–5\n1–6\n3–10\n\n\nSO3\n0–4\n0–2\n0–10\n\n\nNa2O\n0–4\n0–2\n0–6\n\n\nK2O\n0–3\n0–4\n0–4\n\n\nLOI\n0–15\n0–3\n0–5\n\n\n\n\n\nhttps://www.fhwa.dot.gov/publications/research/infrastructure/structures/97148/cfa51.cfm"
   },
   {
     "objectID": "balances/energy/Video110FuelsHeatingVisuals.html#trace-elements-in-coal-fly-ash",
@@ -4617,35 +4617,35 @@
     "href": "balances/energy/Video110FuelsHeatingVisuals.html#heating-value",
     "title": "Chemical and Thermal Processes",
     "section": "Heating Value",
-    "text": "Heating Value\nThe heating value of a fuel is the negative of its heat of combustion. There are two types\n\nHigher Heating Value (HHV): Assumes the final state of the water is liquid (same as for heat of combustion).\nLower Heating Value (LHV): Assumes the final state of the water is vapor.\n\n\\[\nHHV = LHV + n_\\mathrm{H_2O} \\Delta \\hat{H}_v\\ (\\mathrm{H_2O},\\ 25\\ ^\\circ\\mathrm{C})\n\\]\n\\[\nHV_\\mathrm{mix} = \\sum x_i HV_i\n\\]"
+    "text": "Heating Value\nThe heating value of a fuel is the negative of its heat of combustion. There are two types\n\nHigher Heating Value (HHV): Assumes the final state of the water is liquid (same as for heat of combustion).\nLower Heating Value (LHV): Assumes the final state of the water is vapor.\n\n\n\\[\nHHV = LHV + n_\\mathrm{H_2O} \\Delta \\hat{H}_v\\ (\\mathrm{H_2O},\\ 25\\ ^\\circ\\mathrm{C})\n\\]\n\n\n\\[\nHV_\\mathrm{mix} = \\sum x_i HV_i\n\\]"
   },
   {
     "objectID": "balances/energy/Video110FuelsHeatingVisuals.html#adiabatic-flame-temperature",
     "href": "balances/energy/Video110FuelsHeatingVisuals.html#adiabatic-flame-temperature",
     "title": "Chemical and Thermal Processes",
     "section": "Adiabatic Flame Temperature",
-    "text": "Adiabatic Flame Temperature\nIf we operate a combustor such that we extract no heat from the combustor, all of the enthalpy of reaction has to go into heating the combustion products.\n\n\n\\(T_\\mathrm{in}\\)\n\n\n\\(T_\\mathrm{out} = T_\\mathrm{af}\\)\n\n\n\\(Q\\text{ or }\\dot{Q} = 0\\)\n\n\n\\(H\\text{ or }\\dot{0} = 0\\)\n\n\n\n\\[\n\\sum_\\mathrm{out} \\dot{n}_j \\int\\limits_{T_\\mathrm{ref}}^{T_\\mathrm{out} = T_\\mathrm{af}} C_{pj} dT -\n\\sum_\\mathrm{in} \\dot{n}_i \\int\\limits_{T_\\mathrm{ref}}^{T_\\mathrm{in}} C_{pi} dT + \\sum_\\mathrm{rxns} \\dot{\\xi}_k(\\Delta \\hat{H}_r^\\circ)_k = \\dot{Q} = 0\n\\]"
+    "text": "Adiabatic Flame Temperature\nIf we operate a combustor such that we extract no heat from the combustor, all of the enthalpy of reaction has to go into heating the combustion products.\n\n\n\n\n\\(T_\\mathrm{in}\\)\n\n\n\\(T_\\mathrm{out} = T_\\mathrm{af}\\)\n\n\n\\(Q\\text{ or }\\dot{Q} = 0\\)\n\n\n\\(\\Delta H\\text{ or }\\Delta \\dot{H} = 0\\)\n\n\n\n\\[\n\\sum_\\mathrm{out} \\dot{n}_j \\int\\limits_{T_\\mathrm{ref}}^{T_\\mathrm{out} = T_\\mathrm{af}} C_{pj} dT -\n\\sum_\\mathrm{in} \\dot{n}_i \\int\\limits_{T_\\mathrm{ref}}^{T_\\mathrm{in}} C_{pi} dT + \\sum_\\mathrm{rxns} \\dot{\\xi}_k(\\Delta \\hat{H}_r^\\circ)_k = \\dot{Q} = 0\n\\]"
   },
   {
     "objectID": "balances/energy/Video110FuelsHeatingVisuals.html#section",
     "href": "balances/energy/Video110FuelsHeatingVisuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "The adiabatic flame temperature is the maximum temperature a fuel-air mixture can reach when it burns. The maximum adiabatic flame temperature occurs when burning with stoichiometric air. To be useable, some heat has to be extracted from the burning mixture, which lowers the maximum temperature.\n\nMany of the \\(C_p\\) formulas found in the literature do not go to a high enough temperature range to permit calculation of \\(T_\\mathrm{af}\\) for near-stoichiometric fuel-air mixtures.\n\nTo process materials at higher temperatures than adiabatic flame temperatures, some other technique such as electromagnetic, or laser heating must be used."
+    "text": "The adiabatic flame temperature is the maximum temperature a fuel-air mixture can reach when it burns. The maximum adiabatic flame temperature occurs when burning with stoichiometric air. To be useable, some heat has to be extracted from the burning mixture, which lowers the maximum temperature.\n\n\nMany of the \\(C_p\\) formulas found in the literature do not go to a high enough temperature range to permit calculation of \\(T_\\mathrm{af}\\) for near-stoichiometric fuel-air mixtures.\n\n\n\nTo process materials at higher temperatures than adiabatic flame temperatures, some other technique such as electromagnetic, or laser heating must be used."
   },
   {
     "objectID": "balances/energy/Video110FuelsHeatingVisuals.html#flammability-limits",
     "href": "balances/energy/Video110FuelsHeatingVisuals.html#flammability-limits",
     "title": "Chemical and Thermal Processes",
     "section": "Flammability Limits",
-    "text": "Flammability Limits\nFor fuel-air mixtures that are either too fuel lean or too fuel rich, the oxidation reaction does not generate enough heat to sustain a flame or reaction. The limits of fuel-air mixtures are called the flammability limits.\n\nThe Flash Point is the temperature above which the vapor pressure is high enough to create a flammable mixture.\n\nThe Autoignition Temperature is the temperature above which a fuel-air mixture will combust without an additional source of spark or flame."
+    "text": "Flammability Limits\nFor fuel-air mixtures that are either too fuel lean or too fuel rich, the oxidation reaction does not generate enough heat to sustain a flame or reaction. The limits of fuel-air mixtures are called the flammability limits.\n\n\nThe Flash Point is the temperature above which the vapor pressure is high enough to create a flammable mixture.\n\n\n\nThe Autoignition Temperature is the temperature above which a fuel-air mixture will combust without an additional source of spark or flame."
   },
   {
     "objectID": "balances/energy/Video110FuelsHeatingVisuals.html#section-1",
     "href": "balances/energy/Video110FuelsHeatingVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Species\nLFL/LEL in volume %\nUFL/UEL in volume %\nFlash Point\nAutoignition temperature\n\n\n\n\nAcetone\n2.6–3\n12.8–13\n−17 °C\n465 °C, 485 °C\n\n\nBenzene\n1.2\n7.8\n−11 °C\n560 °C\n\n\nn-butane\n1.6\n8.4\n−60 °C\n420–500 °C\n\n\nCO\n12[6]\n75\nFl. gas\n609 °C\n\n\nDiesel fuel\n0.6\n7.5\n&gt;62 °C\n210 °C\n\n\nEthanol\n3–3.3\n19\n12.8 °C\n365 °C\n\n\nGasoline\n1.4\n7.6\n&lt;−40 °C\n246–280 °C\n\n\nHydrogen\n4/18.3[25]\n75/59\nFl. gas\n500–571 °C\n\n\nIsopropanol\n2[6]\n12\n12 °C\n398–399 °C\n\n\nJet A-1 fuel\n0.6–0.7\n4.9–5\n&gt;38 °C\n210 °C\n\n\nMethane\n5.0\n14.3\nFl. gas\n580 °C\n\n\nPropylene\n2\n11.1\n−108 °C\n458 °C\n\n\nVeg. oil\n\n\n327 °C"
+    "text": "Species\nLFL/LEL in vol. %\nUFL/UEL in vol. %\nFlash Point\nAutoignition temperature\n\n\n\n\nAcetone\n2.6–3\n12.8–13\n−17 °C\n465 °C, 485 °C\n\n\nBenzene\n1.2\n7.8\n−11 °C\n560 °C\n\n\nn-butane\n1.6\n8.4\n−60 °C\n420–500 °C\n\n\nCO\n12[6]\n75\nFl. gas\n609 °C\n\n\nDiesel fuel\n0.6\n7.5\n&gt;62 °C\n210 °C\n\n\nEthanol\n3–3.3\n19\n12.8 °C\n365 °C\n\n\nGasoline\n1.4\n7.6\n&lt;−40 °C\n246–280 °C\n\n\nHydrogen\n4/18.3[25]\n75/59\nFl. gas\n500–571 °C\n\n\nIsopropanol\n2[6]\n12\n12 °C\n398–399 °C\n\n\nJet A-1 fuel\n0.6–0.7\n4.9–5\n&gt;38 °C\n210 °C\n\n\nMethane\n5.0\n14.3\nFl. gas\n580 °C\n\n\nPropylene\n2\n11.1\n−108 °C\n458 °C\n\n\nVeg. oil\n\n\n327 °C"
   },
   {
     "objectID": "balances/energy/Video110FuelsHeatingVisuals.html#the-takeaways",
