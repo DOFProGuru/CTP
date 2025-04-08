@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.43">
 
-  <title>Chemical and Thermal Processes – video89visuals</title>
+  <title>Chemical and Thermal Processes – video90visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,188 +127,152 @@
 
 
 <section>
-<section id="just-try-to-break-this-law-i-dare-you" class="title-slide slide level1 center">
-<h1>Just <em>Try</em> to Break This Law! I Dare You!</h1>
+<section id="add-friction-and-work-to-bernoulli-heres-what-really-happens" class="title-slide slide level1 center">
+<h1>Add Friction and Work to Bernoulli? Here’s What Really Happens</h1>
 <div style="text-align: center; font-size: 120px;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
-<section id="the-first-law-of-thermodynamics" class="slide level2">
-<h2>The First Law of Thermodynamics</h2>
-<p><em>Energy cannot be created or destroyed; it can only change form.</em></p>
-<p>The First Law is the General Balance Equation applied to energy.</p>
+<section id="the-mechanical-energy-balance" class="slide level2">
+<h2>The Mechanical Energy Balance</h2>
+<p>If we start with the 1<sup>st</sup> law for an open steady-state system,</p>
 <p><span class="math display">\[
-\mathrm{Input + Generation = Output + Consumption + Accumulation}
+\dot{m}\Delta(\hat{U}+P\hat{V})+ \dot{m} \Delta \frac{u^2}{2}+\dot{m}g\Delta z -\dot{Q}=\dot{W}_s
 \]</span></p>
-<p>Because energy cannot be created or destroyed, the generation and consumption terms must both be 0. <span class="math display">\[
-\mathrm{Input = Output + Accumulation}
+<p>and gather the internal energy term with the heat, and assume an incompressible liquid such that</p>
+<p><span class="math display">\[
+\hat{V} = \frac{1}{\rho}=\mathrm{const}.
 \]</span></p>
-<p>To determine the inputs, outputs and accumulation, we need to enumerate the most common forms of energy.</p>
+<p>Then the 1<sup>st</sup> law becomes</p>
+<p><span class="math display">\[
+\dot{m} \Delta \frac{P}{\rho} + \dot{m} \Delta \frac{u^2}{2} + \dot{m} g \Delta z + (\dot{m} \Delta \hat{U} - \dot{Q}) = \dot{W}_s
+\]</span></p>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p>For using the First Law in calculations, you must first define your system, and in particular your system boundary.</p>
-<p>Work, <span class="math inline">\(W\)</span>, is performed by a force acting through a distance. In differential form (thanks to the chemists):</p>
+<div style="font-size: 140px;">
+<p><strong>The Mechanical Energy Balance (cont.)</strong></p>
+</div>
+<p>or dividing through by the mass flow rate</p>
 <p><span class="math display">\[
--dW = Fdx.
+\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \left( \Delta \hat{U} - \frac{\dot{Q}}{\dot{m}} \right) = \frac{\dot{W}_s}{\dot{m}}
 \]</span></p>
-<p>For closed systems, work is energy crossing the system boundary due to deformation of the boundary.</p>
-<p>If there is a pressure, <span class="math inline">\(P\)</span>, being exerted on the system by its surroundings over an area, <span class="math inline">\(A\)</span>, and the area is displaced by a distance, <span class="math inline">\(dx\)</span>, then we have:</p>
+<p>If the only heating is through friction, we can call the term in parentheses, the <em>friction loss</em></p>
+<p><span class="math display">\[
+\hat{F} = \Delta \hat{U} - \frac{\dot{Q}}{\dot{m}}
+\]</span></p>
+<p>and the 1<sup>st</sup> law becomes</p>
+<p><span class="math display">\[
+\boxed {\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}_s}{\dot{m}}}
+\]</span></p>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
+<div style="font-size: 140px;">
+<p><strong>The Mechanical Energy Balance (cont.)</strong></p>
+</div>
+<p>If there is no friction loss or shaft work input we have</p>
 <p><span class="math display">\[
-PA = F,\ \ \ \ -dW=Fdx=PAdx=P(Adx)=PdV
+\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z = 0
 \]</span></p>
-<p>or in integrated form</p>
+<p>which is the Bernoulli equation, that you may have seen in high-school physics.</p>
+<p>For a circular pipe, the <em>friction loss</em> is</p>
 <p><span class="math display">\[
-W = -\int P dV
+\hat{F} = f \frac{L}{D} \frac{u^2}{2}
 \]</span></p>
-<p>Next is heat, <span class="math inline">\(Q\)</span>, which is energy crossing the system boundary due to a temperature difference.</p>
-<p>Thermodynamics was developed by engineers to describe heat engines (things that convert heat to work). They desired to put heat <em>in</em> and get work <em>out</em>, so historically, heat <em>into</em> a system was positive, and work <em>out</em> of a system was positive. Unfortunately, this concept was too confusing to the chemists. Therefore almost all chemical engineering texts now define heat or work <em>into</em> a system as <em>positive</em>, and heat or work <em>out</em> of a system as <em>negative</em>. Watch out when using Mechanical Engineering texts, since they have largely not made the switch.</p>
+<p>where <span class="math inline">\(L\)</span> is the length of the pipe, <span class="math inline">\(D\)</span> is the diameter of the pipe,and <span class="math inline">\(u\)</span> is the velocity of the fluid. <span class="math inline">\(f\)</span> is the <em>Moody friction factor</em> and is a function of the <em>Reynolds number.</em></p>
+</section>
+<section id="the-reynolds-number" class="slide level2">
+<h2>The Reynolds number</h2>
+<p>The Reynolds number is an important dimensionless quantity in fluid mechanics. It is the ratio of momentum to viscous forces. For a pipe, it is calculated as</p>
+<p><span class="math display">\[
+Re = \frac{\rho u D}{\mu} \quad \text{or} \quad Re = \frac{u D}{\nu}
+\]</span></p>
+<p>where <span class="math inline">\(D\)</span> is the diameter of the pipe, <span class="math inline">\(u\)</span> is the velocity of the fluid, <span class="math inline">\(\rho\)</span> is the density of the fluid, <span class="math inline">\(\mu\)</span> is the dynamic viscosity of the fluid, and <span class="math inline">\(\nu = \mu ⁄ \rho\)</span> , is the kinematic viscosity of the fluid. For <span class="math inline">\(Re\)</span> &lt; 2100, the flow in the pipe is laminar and <span class="math inline">\(f = 64⁄Re\)</span>. For <span class="math inline">\(Re &gt; 2300\)</span> , the flow is <em>turbulent</em>, and <span class="math inline">\(f\)</span> has to be evaluated from a chart called a <em>Moody Chart</em> or <em>Moody Diagram</em>.</p>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<p>Energy may be stored in things as</p>
-<ul>
-<li class="fragment">Position in a conservative field (potential energy, <span class="math inline">\(E_p = mgz\)</span>)</li>
-<li class="fragment">Velocity in a reference frame (kinetic energy, <span class="math inline">\(E_k = mu^2/2\)</span>)</li>
-<li class="fragment">Microscopic vibrations, oscillations etc. (internal energy, <span class="math inline">\(U\)</span><sup>1</sup>).</li>
-</ul>
-<p>Note that for all of these energy forms, the value is relative to some 0 reference.</p>
-<p>For a closed system the First Law can be written in differential form as</p>
-<p><span class="math display">\[
-\boxed{dU + dE_p+dE_k = dQ + dW}
-\]</span></p>
-<p>or in integrated form as</p>
-<p><span class="math display">\[
-\boxed{\Delta U + \Delta E_p + \Delta E_k = Q + W}
-\]</span></p>
-<p>Much of the work in a First Law problem is deciding which terms are zero or insignificant.</p>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>Because we are using <span class="math inline">\(V\)</span> and <span class="math inline">\(v\)</span> for other things, velocity is given the symbol, <span class="math inline">\(u\)</span>, and internal energy is given the symbol, <span class="math inline">\(U\)</span>. Don’t get them confused.</p></li></ol></aside></section>
-<section id="intensive-and-extensive-properties" class="slide level2">
-<h2>Intensive and Extensive Properties</h2>
-<p>A property of a substance that <em>does not</em> depend on the mass or moles of a substance is an <em>intensive</em> property(such as temperature, pressure, or composition).</p>
-<p>A property of a substance that <em>does</em> depend on the mass or moles of a substance is an <em>extensive</em> property (such as volume, kinetic energy, or internal energy).</p>
-<p>It is quite frequently useful to define an intensive property that is related to an extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume or specific internal energy,</p>
-<p><span class="math display">\[\hat{V} = \frac{V}{m},\ \ \ \ \hat{U}=\frac{U}{m}\]</span></p>
-</section>
-<section id="enthalpy-pronounced-en-thal-pee" class="slide level2">
-<h2>Enthalpy (pronounced en-THAL-pee)</h2>
-<p><em>Enthalpy</em>, <span class="math inline">\(H\)</span>, is a defined quantity that is quite useful in simplifying formulas. It is defined as</p>
-<p><span class="math display">\[
-H \equiv U + PV
-\]</span></p>
-<p>or in specific properties as</p>
-<p><span class="math display">\[
-\hat{H} \equiv \hat{U} + P\hat{V}
-\]</span></p>
-<p>One example where enthalpy is useful is where a closed system doesn’t change velocity or position and is maintained at constant pressure (like in a beaker in a laboratory).</p>
+
+<img data-src="Moody_EN.png" class="r-stretch"><div style="font-size: 80px; text-align: center;">
+<p><a href="https://commons.wikimedia.org/wiki/File:Moody_EN.png">Marc.derumaux</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+</div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<p>Under these conditions the First Law simplifies from</p>
+<p>To use a Moody chart you have to know the Reynolds number and the Surface Roughness of the inside of the pipe. In addition to the Moody (a.k.a Darcy or Blasius) friction factor, there is another friction factor called the Fanning friction factor, It is also given the symbol <span class="math inline">\(f\)</span>. The relationship is</p>
 <p><span class="math display">\[
-\Delta U + \Delta E_p + \Delta E_k = Q + W
+f_\mathrm{Fanning} = f_\mathrm{Moody}/4.
 \]</span></p>
-<p>to</p>
+<p>Make sure you know which one you are using. Since Wikipedia has a Moody diagram, we’re using the Moody friction factor.</p>
+<p>The mechanical energy balance finds extensive use in transport of an incompressible fluid such as water or oil through pipelines, aqueducts, pumps, turbines, and the like.</p>
+</section>
+<section id="example-problem" class="slide level2">
+<h2>Example Problem</h2>
+<p>Water at <span class="math inline">\(20\ ^\circ\mathrm{C}\)</span> flows at <span class="math inline">\(0.05\ \mathrm{m^3/s}\)</span> in a <span class="math inline">\(20\ \mathrm{cm}\)</span> cast iron pipe. Calculate <span class="math inline">\(\Delta P\)</span> per kilometer.</p>
+<p>Properties: <span class="math display">\[ \rho = 998 \text{ kg/m}^3, \mu = 1.00 \times 10^{-3} \text{ N s/m}^2.
+\]</span></p>
+<p>Calculate velocity:</p>
 <p><span class="math display">\[
-\Delta U = U_\mathrm{final} - U_\mathrm{initial} = Q + W = Q - \int\limits_\mathrm{initial}^\mathrm{final} pdV = Q-P \int\limits_\mathrm{initial}^\mathrm{final} dV
+u = \frac{\dot{V}}{A} = \frac{0.05 \text{ m}^3/\text{s}}{\frac{\pi}{4} (0.20 \text{ m})^2} = 1.59 \text{ m/s}.
 \]</span></p>
 <p><span class="math display">\[
-U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial})
-\]</span></p>
-<p><span class="math display">\[
-(U_\mathrm{final} + PV_\mathrm{final}) - (U_\mathrm{initial} + PV_\mathrm{initial}) = Q
-\]</span></p>
-<p><span class="math display">\[
-\Delta H = Q
-\]</span></p>
+Re = \frac{\rho u D}{\mu} = \frac{998 \text{ kg/m}^3 \cdot (1.59 \text{ m/s}) \cdot 0.20 \text{ m}}{1.00 \times 10^{-3} \text{ N s/m}^2}
+\]</span> <span class="math inline">\(= 3.18 \times 10^5\)</span></p>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
-<p>For an <strong>open steady-state system</strong>, all of the quantities are expressed as rates (with the dot)</p>
+<p>Look up the surface roughness in the table on the Moody Chart.</p>
 <p><span class="math display">\[
-\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}
+\varepsilon = 0.15\ \mathrm{mm}
 \]</span></p>
-<p>The work is normally divided up into:</p>
-<ul>
-<li class="fragment"><em>shaft work</em>, work done by or on a shaft crossing the system boundary, such as to a turbine (electricity counts),</li>
-<li class="fragment"><em>flow work</em>, work done on or by the system to push the flowing fluid into or out of the system.</li>
-</ul>
+<p>The most common mistake is to forget to calculate <span class="math inline">\(\frac{\varepsilon}{D}\)</span> from <span class="math inline">\(\varepsilon\)</span>.</p>
 <p><span class="math display">\[
-\dot{W} =  \dot{W}_\mathrm{s} + \dot{W}_\mathrm{fl}
+\frac{\varepsilon}{D} = \frac{0.15 \times 10^{-3} \text{ m}}{0.20 \text{ m}} = 0.00075.
 \]</span></p>
-<p><span class="math display">\[
-\dot{W}_\mathrm{fl} = -\sum_\mathrm{outputs} P_{i}\dot{V}_i + \sum_\mathrm{inputs}P_{j}\dot{V}_j
-\]</span></p>
+<p>Use the Moody Chart (for Moody not Fanning friction factor)</p>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
-<p>If one starts with the first law for an open steady-state system,</p>
-<p><span class="math display">\[
-\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}
-\]</span></p>
-<p>and separates the work into shaft work and flow work, and combines the flow work with the internal energy, one arrives at</p>
-<p><span class="math display">\[
-\boxed{\Delta \dot{H} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}_\mathrm{s}}
-\]</span></p>
-<p>which is the normal version of the first law for an open steady-state system.</p>
-<p><strong>Remember</strong> <span class="math inline">\(\Delta\)</span> means <em>final</em> – <em>initial</em> for closed systems and <em>out – in</em> for open systems. If you have multiple streams, you must sum over all of the streams.</p>
+
+<img data-src="Moody_EN.png" class="r-stretch"><div style="font-size: 80px; text-align: center;">
+<p><a href="https://commons.wikimedia.org/wiki/File:Moody_EN.png">Marc.derumaux</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+</div>
 </section>
 <section id="section-6" class="slide level2">
 <h2></h2>
-<p>For an <strong>open transient system</strong>, the first law is</p>
 <p><span class="math display">\[
-\boxed{\frac{d}{dt} (U + E_k + E_p)_\mathrm{control\ volume} = \sum \dot{Q}_i + \sum \dot{W}_i - (\Delta \dot{H} + \Delta{E}_k + \Delta \dot{E}_p)_\mathrm{flow\ streams}}
+f = 0.0195
 \]</span></p>
-<p>which on a mass basis is</p>
+<div style="font-size: 95px;">
 <p><span class="math display">\[
-\boxed{\frac{d}{dt}[m(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_{i} + \sum_\mathrm{in} \dot{m}_{i}(\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{m}_{i} (\hat{H} + \hat{E}_k + \hat{E}_{p})}
+\hat{F} = f \frac{L}{D} \frac{u^2}{2} = 0.0195 \left( \frac{1000 \text{ m}}{0.2 \text{ m}} \right) \frac{(1.59 \text{ m/s})^2}{2} = 123 \text{ m}^2 / \text{s}^2
 \]</span></p>
-<p>or on a mole basis is</p>
+</div>
+<p>Simplify the mechanical energy balance:</p>
 <p><span class="math display">\[
-\boxed{\frac{d}{dt}[n(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_i + \sum_\mathrm{in} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p)}
+\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}}{\dot{m}}
 \]</span></p>
-</section>
-<section id="simplifications" class="slide level2">
-<h2>Simplifications</h2>
-<p>These simplifications are exact, there is no approximation involved.</p>
-<ul>
-<li class="fragment">No change in elevation, then <span class="math inline">\(\Delta E_p = 0\)</span></li>
-<li class="fragment">No change in velocity, then <span class="math inline">\(\Delta E_k = 0\)</span></li>
-<li class="fragment">Adiabatic or insulated, then <span class="math inline">\(Q=0\)</span></li>
-<li class="fragment">Volume remains constant, closed system, then <span class="math inline">\(W=0\)</span></li>
-<li class="fragment">No shafts cross boundary e.g., from a turbine, compressor, or pump, open system, then <span class="math inline">\(W_s = 0\)</span></li>
-<li class="fragment">Ideal gas, no chemical reaction, <span class="math inline">\(T\)</span> = const., then <span class="math inline">\(\Delta U = 0\)</span>, <span class="math inline">\(\Delta H = 0\)</span></li>
-</ul>
-</section>
-<section id="approximations" class="slide level2">
-<h2>Approximations</h2>
-<p>These approximations are usually pretty good, but recognize that they are approximations.</p>
-<ul>
-<li class="fragment"><p>Evaporation, Condensation, Chemical Reaction, Large Temperature Changes, then <span class="math inline">\(\Delta E_k \approx 0, \Delta E_p \approx 0, W \approx 0\)</span></p></li>
-<li class="fragment"><p>Solid or liquid, no chemical reaction, <span class="math inline">\(T = \mathrm{constant}\)</span>, <span class="math inline">\(\Delta P = \mathrm{small}\)</span>, then <span class="math inline">\(\Delta U = 0\)</span>, <span class="math inline">\(\Delta H = 0\)</span></p></li>
-</ul>
-</section>
-<section id="section-7" class="slide level2">
-<h2></h2>
-<p><strong>Remember:</strong> <span class="math inline">\(\Delta\)</span> means <em>final-initial</em> or <em>out-in</em></p>
-<p><strong>State Variable:</strong> Value depends only on location or “<em>state.</em>” Does not depend on path.</p>
-<p>Common State Variables: <span class="math inline">\(H\)</span>, <span class="math inline">\(T\)</span>, <span class="math inline">\(U\)</span>, <span class="math inline">\(V\)</span>, <span class="math inline">\(m\)</span>, etc.</p>
-<p><strong>Path Variable:</strong> Value depends only on path. Does not depend on location.</p>
-<p>Common Path Variables: <span class="math inline">\(Q\)</span>, <span class="math inline">\(W\)</span>.</p>
+<div style="font-size: 95px;">
+<p><span class="math display">\[
+\Delta P = - \rho \hat{F} = - \left( 998 \frac{\text{kg}}{\text{m}^3} \right) \left( 123 \frac{\text{m}^2}{\text{s}^2} \right)
+\]</span></p>
+</div>
+<p><span class="math display">\[
+= -123,000 \text{ Pa} = -123 \text{ kPa} = -1.2 \text{ atm}
+\]</span></p>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">The First Law of Thermodynamics states energy cannot be created or destroyed. It can only change form.</li>
-<li class="fragment">You can always rederive the forms, but it’s best to memorize the First Law for closed systems, open steady-state systems, and open transient systems.</li>
-<li class="fragment">Much of the work in a First-Law problem is deciding which terms to keep and which to set to zero.</li>
+<li class="fragment">For incompressible flow in a pipe, use the <em>mechanical energy balance</em> to calculate the relationship among pressure drop, velocity change, elevation change, and shaft work.</li>
+<li class="fragment">The mechanical energy balance for flow in a pipe is <span class="math inline">\(\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}_s}{\dot{m}}\)</span>.</li>
+<li class="fragment">Use the Reynolds number, <span class="math inline">\(Re = \rho u D/\mu\)</span>, and the roughness ratio, <span class="math inline">\(\varepsilon/D\)</span>, to find the Moody friction factor on the Moody Chart.</li>
+<li class="fragment">For no friction and no shaft work, the mechanical energy balance simplifies to the Bernoulli equation, <span class="math inline">\(\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z = 0\)</span>.</li>
 </ol>
 </section></section>
-<section id="section-8" class="title-slide slide level1 center">
+<section>
+<section id="section-7" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
@@ -317,11 +281,12 @@ U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial
 <p>The DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 25.25%; width: 1494px; height: 364px; "> <!-- ****************************END Regular Intro/Outro ************************* --></p>
-
-
 </section>
+<section class="slide level2">
 
 
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png" class="slide-logo"></p>

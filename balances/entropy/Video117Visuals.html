@@ -127,15 +127,18 @@
 
 
 <section>
-<section id="the-2nd-law-of-thermodynamics-for-different-systems." class="title-slide slide level1 center">
-<h1>The 2nd Law of Thermodynamics for Different Systems.</h1>
+<section id="how-much-entropy-can-you-balance-on-the-head-of-a-pin-or-in-an-open-steady-state-system" class="title-slide slide level1 center">
+<h1>How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
-<section id="mathematical-statement-of-the-second-law" class="slide level2">
-<h2>Mathematical Statement of the Second Law</h2>
+<section id="section" class="slide level2">
+<h2></h2>
+<div style="font-size: 135px;">
+<p><strong>Mathematical Statement of the Second Law</strong></p>
+</div>
 <center>
 <span class="math inline">\(dW_{\text{lost}} \geq 0\)</span>
 </center>
@@ -151,6 +154,7 @@
 </center>
 <p><br></p>
 <p>can be less than zero. But</p>
+<br>
 <center>
 <span class="math inline">\(\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} \geq 0\)</span>
 </center>
@@ -158,62 +162,70 @@
 <section id="entropy-balance-for-closed-system" class="slide level2">
 <h2>Entropy Balance for Closed System:</h2>
 <center>
-<span class="math inline">\(\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} \geq 0\)</span>
+<span class="math inline">\(\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} = S_G \geq 0\)</span>
 </center>
 <p>Defining heat transferred <em>from</em> the surroundings <em>into</em> the system as positive, i.e., using the same convention for entropy as for heat with regard to the system, then</p>
 <center>
-<span class="math inline">\(\Delta S_{\text{surroundings}} = - \sum_j \dfrac{Q_j}{T_{\sigma j}}\)</span>
+<span class="math inline">\(\Delta S_{\text{surroundings}} = - \sum\limits_j \dfrac{Q_j}{T_{\sigma j}}\)</span>
 </center>
 <center>
-<span class="math inline">\(\Delta S_{\text{surroundings}} = - \sum_j \dfrac{Q_j}{T_{\sigma j}} = S_G \geq 0\)</span>
+<span class="math inline">\(\boxed{\Delta S_{\text{system}} - \sum\limits_j \dfrac{Q_j}{T_{\sigma j}} = S_G \geq 0}\)</span>
 </center>
-<p><span class="math inline">\(Q_j\)</span> is heat transferred into system from reservoir j</p>
-<p><span class="math inline">\(T_{\sigma j}\)</span> is temperature of reservoir j</p>
+<p><span class="math inline">\(Q_j\)</span> is heat transferred into system from reservoir <span class="math inline">\(j\)</span>.</p>
+<p><span class="math inline">\(T_{\sigma j}\)</span> is temperature of reservoir <span class="math inline">\(j\)</span>.</p>
 </section>
 <section id="entropy-balance-for-open-transient-system" class="slide level2">
 <h2>Entropy Balance for Open Transient System</h2>
 <center>
-<span class="math inline">\(\dfrac{d(m \hat{S})_{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0\)</span>
+<span class="math inline">\(\dfrac{d(m \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0\)</span>
 </center>
 <p><br></p>
 <center>
-or <span class="math inline">\(\dfrac{d(n \hat{S})_{cv}}{dt} + \Delta (\dot{n} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0\)</span>
+or <span class="math inline">\(\dfrac{d(n \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{n} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0\)</span>
 </center>
 <p><br></p>
 <p>Defining heat transferred <em>from</em> the surroundings <em>into</em> the system as positive, i.e., using the same convention for entropy as for heat with regard to the system, then</p>
 <center>
-<span class="math inline">\(\dfrac{d S_{\text{surr}}}{dt} = - \sum_j \dfrac{Q_j}{T_{\sigma j}}\)</span>
+<span class="math inline">\(\dfrac{d S_{\text{surr}}}{dt} = - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}}\)</span>
 <center>
 </center></center></section>
 <section id="entropy-balance-for-open-transient-system-cont." class="slide level2">
 <h2>Entropy Balance for Open Transient System (cont.):</h2>
 <center>
-<span class="math inline">\(\dfrac{d(m \hat{S})_{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0\)</span>
+<span class="math inline">\(\boxed{\dfrac{d(m \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0}\)</span>
 </center>
 <p><br></p>
 <center>
-or <span class="math inline">\(\dfrac{d(n \hat{S})_{cv}}{dt} + \Delta (\dot{n} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0\)</span>
+or <span class="math inline">\(\boxed{\dfrac{d(n \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{n} \hat{S})_{\text{fs}}  - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0}\)</span>
 </center>
 <p><br></p>
-<p><span class="math inline">\(Q_j\)</span> is heat transferred into system from reservoir j</p>
-<p><span class="math inline">\(T_{\sigma j}\)</span> is temperature of reservoir j</p>
+<p><span class="math inline">\(\dot{Q}_j\)</span> is heat transferred into system from reservoir <span class="math inline">\(j\)</span>.</p>
+<p><span class="math inline">\(T_{\sigma j}\)</span> is temperature of reservoir <span class="math inline">\(j\)</span>.</p>
 </section>
 <section id="entropy-balance-for-open-steady-state-system" class="slide level2">
 <h2>Entropy Balance for Open Steady-State System:</h2>
 <center>
-<span class="math inline">\(\Delta (\dot{m} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0\)</span>
+<span class="math inline">\(\boxed{\Delta (\dot{m} \hat{S})_{\text{fs}} - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0}\)</span>
 </center>
 <p><br></p>
 <center>
-or <span class="math inline">\(\Delta (\dot{n} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0\)</span>
+or <span class="math inline">\(\boxed{\Delta (\dot{n} \hat{S})_{\text{fs}}  - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0}\)</span>
 </center>
 <p><br></p>
-<p><span class="math inline">\(Q_j\)</span> is heat transferred into system from reservoir j</p>
-<p><span class="math inline">\(T_{\sigma j}\)</span> is temperature of reservoir j</p>
+<p><span class="math inline">\(\dot{Q}_j\)</span> is heat transferred into system from reservoir <span class="math inline">\(j\)</span>.</p>
+<p><span class="math inline">\(T_{\sigma j}\)</span> is temperature of reservoir <span class="math inline">\(j\)</span>.</p>
 <p><br></p>
-<p>The <em>Calculating Changes in Entropy</em> video explained the methods we have for calculating changes in entropy.</p>
+<p><em>The ΔS-sentials of Calculating Entropy Changes</em> video explained the methods we have available for calculating changes in entropy.</p>
+</section>
+<section id="the-takeaways" class="slide level2">
+<h2>The Takeaways</h2>
+<ol type="1">
+<li class="fragment">The Second Law of Thermodynamics for a <em>closed</em> system is <span class="math inline">\(\Delta S_{\text{system}} - \sum\limits_j \dfrac{Q_j}{T_{\sigma j}} = S_G \geq 0\)</span>.</li>
+<li class="fragment">The Second Law of Thermodynamics for a <em>open transient</em> system is <span class="math inline">\(\dfrac{d(m \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0\)</span>.</li>
+<li class="fragment">The Second Law of Thermodynamics for a <em>open steady-state</em> system is <span class="math inline">\(\Delta (\dot{m} \hat{S})_{\text{fs}}  - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0\)</span>.</li>
+</ol>
 </section></section>
-<section id="section" class="title-slide slide level1 center">
+<section id="section-1" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
