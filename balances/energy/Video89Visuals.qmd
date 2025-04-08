@@ -36,7 +36,7 @@ $$
 
 To determine the inputs, outputs and accumulation, we need to enumerate the most common forms of energy.
 
----
+## 
 
 For using the First Law in calculations, you must first define
 your system, and in particular your system boundary. 
@@ -51,7 +51,7 @@ For closed systems, work is energy crossing the system boundary due to deformati
 
 If there is a pressure, $P$, being exerted on the system by its surroundings over an area, $A$, and the area is displaced by a distance, $dx$, then we have:
 
----
+## 
 
 $$
 PA = F,\ \ \ \ -dW=Fdx=PAdx=P(Adx)=PdV
@@ -67,7 +67,7 @@ Next is heat, $Q$, which is energy crossing the system boundary due to a tempera
 
 Thermodynamics was developed by engineers to describe heat engines (things that convert heat to work). They desired to put heat *in* and get work *out*, so historically, heat *into* a system was positive, and work *out* of a system was positive. Unfortunately, this concept was too confusing to the chemists. Therefore almost all chemical engineering texts now define heat or work *into* a system as *positive*, and heat or work *out* of a system as *negative*. Watch out when using Mechanical Engineering texts, since they have largely not made the switch.
 
----
+## 
 
 Energy may be stored in things as
 
@@ -80,19 +80,19 @@ Note that for all of these energy forms, the value is relative to some 0 referen
 For a closed system the First Law can be written in differential form as
 
 $$
-dU + dE_p+dE_k = dQ + dW
+\boxed{dU + dE_p+dE_k = dQ + dW}
 $$
 
 or in integrated form as
 
 $$
-\Delta U + \Delta E_p + \Delta E_k = Q + W
+\boxed{\Delta U + \Delta E_p + \Delta E_k = Q + W}
 $$
 
 Much of the work in a First Law problem is deciding which terms are zero or insignificant. 
 
 [^1]: Because we are using $V$ and $v$ for other things, velocity is given the symbol, $u$, and internal energy is given the symbol, $U$. Don't get them confused.
----
+
 
 ## Intensive and Extensive Properties
 
@@ -122,7 +122,7 @@ $$
 One example where enthalpy is useful is where a closed system doesn’t change velocity or position and is maintained at constant pressure (like in a beaker in a laboratory).
 
 
----
+## 
 
 Under these conditions the First Law simplifies from 
 
@@ -148,7 +148,7 @@ $$
 \Delta H = Q
 $$
 
-----
+## 
 
 For an **open steady-state system**, all of the quantities are expressed as rates (with the dot)
 
@@ -169,7 +169,7 @@ $$
 \dot{W}_\mathrm{fl} = -\sum_\mathrm{outputs} P_{i}\dot{V}_i + \sum_\mathrm{inputs}P_{j}\dot{V}_j
 $$
 
----
+## 
 
 If one starts with the first law for an open steady-state system,
 
@@ -182,34 +182,33 @@ and separates the work into shaft work and flow work, and combines the flow work
 
 
 $$
-\Delta \dot{H} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}_\mathrm{s}
+\boxed{\Delta \dot{H} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}_\mathrm{s}}
 $$
 
 which is the normal version of the first law for an open steady-state system. 
 
 **Remember** $\Delta$ means *final* – *initial* for closed systems and *out – in* for open systems. If you have multiple streams, you must sum over all of the streams. 
 
----
+## 
 
 For an **open transient system**, the first law is
 
 $$
-\frac{d}{dt} (U + E_k + E_p)_\mathrm{control\ volume} = \sum \dot{Q}_i + \sum \dot{W}_i - (\Delta \dot{H} + \Delta{E}_k + \Delta \dot{E}_p)_\mathrm{flow\ streams}
+\boxed{\frac{d}{dt} (U + E_k + E_p)_\mathrm{control\ volume} = \sum \dot{Q}_i + \sum \dot{W}_i - (\Delta \dot{H} + \Delta{E}_k + \Delta \dot{E}_p)_\mathrm{flow\ streams}}
 $$
 
 which on a mass basis is
 
 $$
-\frac{d}{dt}[m(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_{i} + \sum_\mathrm{in} \dot{m}_{i}(\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{m}_{i} (\hat{H} + \hat{E}_k + \hat{E}_{p})
+\boxed{\frac{d}{dt}[m(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_{i} + \sum_\mathrm{in} \dot{m}_{i}(\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{m}_{i} (\hat{H} + \hat{E}_k + \hat{E}_{p})}
 $$
 
 or on a mole basis is
 
 $$
-\frac{d}{dt}[n(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_i + \sum_\mathrm{in} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p)
+\boxed{\frac{d}{dt}[n(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_i + \sum_\mathrm{in} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p)}
 $$
 
----
 
 ## Simplifications
 
@@ -222,7 +221,6 @@ These simplifications are exact, there is no approximation involved.
 - No shafts cross boundary e.g., from a turbine, compressor, or pump, open system, then $W_s = 0$
 - Ideal gas, no chemical reaction, $T$ = const., then $\Delta U = 0$, $\Delta H = 0$
 
----
 
 
 ## Approximations
@@ -233,7 +231,7 @@ These approximations are usually pretty good, but recognize that they are approx
 
 - Solid or liquid, no chemical reaction, $T = \mathrm{constant}$, $\Delta P = \mathrm{small}$, then $\Delta U = 0$, $\Delta H = 0$
 
----
+## 
 
 **Remember:** $\Delta$ means *final-initial* or *out-in*
 
@@ -245,7 +243,6 @@ Common State Variables: $H$, $T$, $U$, $V$, $m$, etc.
 
 Common Path Variables: $Q$, $W$.
 
----
 
 ## The Takeaways
 
