@@ -1,0 +1,226 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+#  The Δ*S*-sentials of Calculating Entropy Changes
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+##
+
+**The Second Law of Thermodynamics**
+
+* No apparatus can operate in such a way that its only effect (in system and surroundings) is to convert heat absorbed by a system completely into work.
+* It is impossible by a cyclic process to convert the heat absorbed by a system completely into work.
+* No process is possible which consists solely in the transfer of heat from one temperature level to a higher one.
+
+##
+
+:::{style="font-size: 135px;"}
+**Mathematical Statement of the Second Law**
+:::
+
+<center> $dW_{\text{lost}} \geq 0$ </center>
+
+<br/>
+
+or
+
+<center> $\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} \geq 0$ </center>
+
+$S$ can be thought of as the reversible normalized heat transfer or as
+the degree of randomness or disorder.
+
+Remember:
+
+<center> $\Delta S_{\text{system}} \text{ or } \Delta S_{\text{surroundings}}$ </center>
+
+<br/>
+
+can be less than zero. But
+
+<br/>
+<center> $\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} \geq 0$ </center>
+
+
+##
+
+**Calculation of ∆*S* for an ideal gas**
+
+Assume closed system of $n$ moles initially at $T_1$, $P_1$ and finally at $T_2$,
+$P_2$
+
+First Law
+
+$dU = dQ + dW$
+
+$d\hat{U} = \dfrac{dQ}{n} + \dfrac{dW}{n}$
+
+Now follow a reversible path (why?).
+
+$d\hat{U} = C_v dT$
+
+## (cont.)
+
+$dS = \dfrac{dQ}{T}$ or $Td\hat{S} = \dfrac{dQ}{n}$
+
+$dW = -PdV$ or $\dfrac{dW}{n} = - P d\hat{V}$
+
+Combining
+
+$C_vdT = T d\hat{S} - P d\hat{V}$
+
+$d\hat{S} = \dfrac{C_v}{T} dT + \dfrac{P}{T} d\hat{V} = \dfrac{C_v}{T} dT + \dfrac{R}{\hat{V}} d\hat{V}$
+
+## (cont. 2)
+
+$\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + \int\limits_{\hat{V}_1}^{\hat{V}_1}\dfrac{R}{\hat{V}} d\hat{V} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}$
+
+Alternatively
+
+$\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \dfrac{C_p - R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}$
+
+$= \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - \int\limits_{T_1}^{T_2} \dfrac{R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}$
+
+$= \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{T_2\hat{V}_1}{T_1\hat{V}_2} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1}$
+
+## Ideal Gas Example
+
+Example: What is the minimum work required for an adiabatic
+compressor to compress $10\ \mathrm{kg/s}$ of air from $2\ \mathrm{kPa}$ and $300\ \mathrm{K}$ to $6\ \mathrm{MPa}$?
+
+(Assume ideal gas, $C_p = (7 ⁄ 2)\mathrm{R}$ )
+
+**First Law (neglect kinetic & potential)**
+
+$\Delta \dot{H} = \dot{Q} + \dot{W}_s$
+
+$\dot{m} \int_{T_1}^{T_2} C_p dT = \dot{W}_s = \dot{m} C_p \Delta T$
+
+**Second Law**
+
+$\Delta \dot{S}_\mathrm{surroundings} = 0$. Why?
+
+## IG Example (cont.)
+
+$\Delta \dot{S}_\mathrm{air} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1} = C_p \ln \dfrac{T_2}{T_1} - R \ln \dfrac{P_2}{P_1}$ 
+
+Minimum work for $\Delta \hat{S} = 0$
+
+$C_p \ln \dfrac{T_2}{T_1} = R \ln \dfrac{P_2}{P_1}$
+
+$\dfrac{T_2}{T_1} = \left(\dfrac{P_2}{P_1}\right)^{\frac{R}{C_p}}$
+
+$T_2 = T_1 \left(\dfrac{6000\ \mathrm{kPa}}{2\ \mathrm{kPa}}\right)^{2/7}$
+
+## IG Example (cont. 2)
+
+$\dot{W}_s = \dot{m} C_p \Delta T$
+
+:::{style="font-size: 95px;"}
+$= \dfrac{1000\ \mathrm{g/s}}{29\ \text{g/g-mol}}\left(\dfrac{7}{2}\right)(8.314\text{ J/g-mol K})\left[\left(\dfrac{6000}{2}\right)^{2/7} - 1\right](300\ \mathrm{K})$
+:::
+
+$=26.64\ \mathrm{MW}$
+
+## 
+
+Calculation of $\Delta S$ for substances other than ideal gases
+
+$d\hat{S} = C_p \dfrac{dT}{T} - \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P dP$
+
+or
+
+$d\hat{S} = C_p \dfrac{dT}{T} - \beta \hat{V} dP$
+
+where the volume expansivity (like a thermal expansion coefficient) is
+
+$\beta \equiv \dfrac{1}{\hat{V}} \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P$.
+
+It is usually small $( \approx 0)$ for things other than gases.
+
+## Integrating *C~p~*/*T*
+
+Performing the integral:
+
+$C_p = a + b T +c T^2 + d T^3$
+
+$\dfrac{C_p}{T} = \dfrac{a}{T} + b + c T + d T^2$
+
+$\int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT = \int\limits_{T_1}^{T_2} \left(\dfrac{a}{T} + b + c T + d T^2\right) dT$
+
+$= a \ln \dfrac{T_2}{T_1} + b ( T_2 - T_1) + \dfrac{c}{2} (T_2^2 - T_1^2) + \dfrac{d}{3} (T_2^3-T_1^3)$
+
+## 
+
+But what if $C_p$ is in $^\circ\mathrm{C}$, and the integral must be in $\mathrm{K}$?
+Review *The Most Annoying Equation Conversion* video and plug in
+
+$T(\mathrm{K})− 273.15 = T(\mathrm{K})− cf$
+
+for $T$. Then
+
+$C_p = a' + b' T +c' T^2 + d' T^3$
+
+ where $T$ is in Kelvin and
+
+ $a' = a - b \cdot cf + c \cdot cf^2 - d \cdot cf^3$
+
+$b' = b - 2c \cdot cf + 3d \cdot cf^3$
+
+$c' = c - 3d \cdot cf$
+
+$d' = d$
+
+## Summary
+
+$\Delta S$ for a heat reservoir:
+
+$$
+\Delta S = \frac{Q}{T}
+$$
+
+$\Delta S$ for an ideal gas:
+
+$$
+\Delta \hat{S} = \int\limits_{T_1}^{T_2} \frac{C_v}{T} dT + R \ln \frac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \frac{C_p}{T} dT - R \ln \frac{P_2}{P_1}
+$$
+
+$\Delta S$ for a liquid or solid:
+
+$$
+d\hat{S} = C_p \frac{dT}{T} - \beta \hat{V} dP \approx C_p \frac{dT}{T},\ \ \ \ \ \ \ \ \ \ \ \ \Delta \hat{S} \approx \int\limits_{T_1}^{T_2} \frac{C_p}{T} dT
+$$
+
+$\Delta s$ for water/steam: Use the steam tables.
+
+## The Takeaways
+
+1. To calculate the change in entropy for a heat reservoir, calculate $Q$ over $T$.
+2. To calculate the change in entropy for an ideal gas, either use the integral formula with $C_v$ over $T$ and $\hat{V}$ or the integral formula with $C_p$ over $T$ and $P$.
+3. To calculate the approximate change in entropy for a liquid or a solid, integrate $C_p$ over $T$.
+4. To calculate the change in entropy for steam or saturated liquid water, use the steam tables.
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
