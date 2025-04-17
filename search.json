@@ -469,81 +469,81 @@
     "text": "Sample 1-Component \\(PT\\) Diagram\nFor one component, how do you calculate phase equilibria?\n\nhttps://commons.wikimedia.org/wiki/File:Phase-diag2.svg"
   },
   {
-    "objectID": "balances/material/Video73Visuals.html#component-vapor-liquid-equilibrium-vle",
-    "href": "balances/material/Video73Visuals.html#component-vapor-liquid-equilibrium-vle",
+    "objectID": "balances/material/Video73Visuals.html#section",
+    "href": "balances/material/Video73Visuals.html#section",
     "title": "Chemical and Thermal Processes",
-    "section": "1-Component Vapor-Liquid Equilibrium (VLE)",
-    "text": "1-Component Vapor-Liquid Equilibrium (VLE)\nFrom Wikipedia comes the Clapeyron equation:\n\\[\n\\frac{dp^*}{dT} = \\frac{\\Delta \\hat{H}_{v}}{T(\\hat{V}_{g} - \\hat{V}_l)}\n\\]\nWhere \\(p^*\\) is the vapor pressure.\nIf \\(\\hat{V}_g \\gg \\hat{V}_l\\), and the vapor is ideal, then:\n\\[\n\\frac{d(\\ln p^{*})}{d(1/T)} = - \\frac{\\Delta \\hat{H}_{v}}{R}\n\\]"
+    "section": "",
+    "text": "1-Component Vapor-Liquid Equilibrium (VLE)\n\n\nFrom Wikipedia comes the Clapeyron equation:\n\n\n\\[\n\\frac{dp^*}{dT} = \\frac{\\Delta \\hat{H}_{v}}{T(\\hat{V}_{g} - \\hat{V}_l)}\n\\]\nWhere \\(p^*\\) is the vapor pressure.\n\n\nIf \\(\\hat{V}_g \\gg \\hat{V}_l\\), and the vapor is ideal, then:\n\n\n\\[\n\\frac{d(\\ln p^{*})}{d(1/T)} = - \\frac{\\Delta \\hat{H}_{v}}{R}\n\\]"
   },
   {
     "objectID": "balances/material/Video73Visuals.html#vle-cont.",
     "href": "balances/material/Video73Visuals.html#vle-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "VLE (cont.)",
-    "text": "VLE (cont.)\nIf in addition, \\(\\Delta \\hat{H}_v\\) is constant, we can integrate to\n\\[\n\\ln p^{*} = \\frac{\\Delta \\hat{H}_v}{RT} + B\n\\]\nwhich is the Clausius-Clapeyron equation.\nEmpirical equations are also used. The simplest with reasonable accuracy is the Antoine equation:\n\\[\n\\log_{10} p^{*} = A - \\frac{B}{T + C}\n\\]\nwhere \\(A\\), \\(B\\), and \\(C\\) are constants from a reference source such as the NIST Chemistry WebBook. What are \\(A\\), \\(B\\), and \\(C\\) if the substance obeys the Clausius-Clapeyron equation and \\(T\\) is in \\(^\\circ\\mathrm{C}\\)?"
+    "text": "VLE (cont.)\nIf in addition, \\(\\Delta \\hat{H}_v\\) is constant, we can integrate to\n\n\\[\n\\ln p^{*} = \\frac{\\Delta \\hat{H}_v}{RT} + B\n\\]\n\n\nwhich is the Clausius-Clapeyron equation.\n\n\nEmpirical equations are also used. The simplest with reasonable accuracy is the Antoine equation:\n\n\n\\[\n\\log_{10} p^{*} = A - \\frac{B}{T + C}\n\\]\n\n\nwhere \\(A\\), \\(B\\), and \\(C\\) are constants from a reference source such as the NIST Chemistry WebBook. What are \\(A\\), \\(B\\), and \\(C\\) if the substance obeys the Clausius-Clapeyron equation and \\(T\\) is in \\(^\\circ\\mathrm{C}\\)?"
   },
   {
     "objectID": "balances/material/Video73Visuals.html#component-vle",
     "href": "balances/material/Video73Visuals.html#component-vle",
     "title": "Chemical and Thermal Processes",
     "section": "2-Component VLE",
-    "text": "2-Component VLE\n1-Condensable component, e.g., ethanol-argon. Assume ideal gas behavior and that species \\(i\\) is the condensable one, then at saturation (e.g., two-phases present):\n\\[\np_i = y_{i}P = p^{*}_{i}(T)\n\\]\nIf the temperature is high enough (or pressure low enough) that only one phase is present then:\n\\[\np_i = y_{i}P &lt; p^{*}_{i}(T)\n\\]\nAt what temperature will condensation begin?\n\\[\np_i = y_{i}P = p^{*}_{i}(T_{dp})\n\\]\n\\(T_{dp}\\) is the dew-point temperature. The difference between \\(T\\) and \\(T_{dp}\\) is the degree(s) of superheat."
+    "text": "2-Component VLE\n1-Condensable component, e.g., ethanol-argon. Assume ideal gas behavior and that species \\(i\\) is the condensable one, then at saturation (e.g., two-phases present):\n\n\\[\np_i = y_{i}P = p^{*}_{i}(T)\n\\]\n\n\nIf the temperature is high enough (or pressure low enough) that only one phase is present then:\n\n\n\\[\np_i = y_{i}P &lt; p^{*}_{i}(T)\n\\]\n\n\nAt what temperature will condensation begin?\n\n\n\\[\np_i = y_{i}P = p^{*}_{i}(T_{dp})\n\\]\n\n\n\\(T_{dp}\\) is the dew-point temperature. The difference between\\(T\\) and \\(T_{dp}\\) is the degree(s) of superheat."
   },
   {
     "objectID": "balances/material/Video73Visuals.html#example-1",
     "href": "balances/material/Video73Visuals.html#example-1",
     "title": "Chemical and Thermal Processes",
     "section": "Example 1:",
-    "text": "Example 1:\nYou are standing in the shower with the air and water temperature at 35 °C. What mole-fraction of the air that you are breathing is water?\n\n\n\\[\np_{i} = y_{i}P = p^{*}_{i}(T)\n\\]\n\\[\ny_{i} = \\frac{p_{i}^{*}(T)}{P}\n\\]\nGet \\(p_{i}^{*}\\) from the Antoine equation, from the Steam Table, or from DWSIM."
+    "text": "Example 1:\nYou are standing in the shower with the air and water temperature at 35 °C. What mole-fraction of the air that you are breathing is water?\n\n\n\n\\[\np_{i} = y_{i}P = p^{*}_{i}(T)\n\\]\n\n\n\\[\ny_{i} = \\frac{p_{i}^{*}(T)}{P}\n\\]\n\n\nGet \\(p_{i}^{*}\\) from the Antoine equation, from the Steam Table, or from DWSIM."
   },
   {
     "objectID": "balances/material/Video73Visuals.html#additional-definitions",
     "href": "balances/material/Video73Visuals.html#additional-definitions",
     "title": "Chemical and Thermal Processes",
     "section": "Additional Definitions",
-    "text": "Additional Definitions\nMost people don’t understand mole fractions, and we don’t have enough parameter names yet, so we have the following definitions (saturation is any gas-vapor system, humidity is specifically air-water):\nRelative Saturation or Relative Humidity\n\\[s_r \\text{ or }h_r = \\frac{p_i}{p_i^*(T)}*100%\\]\nMolal Saturation or Molal Humidity\n\\[s_m\\text{ or }h_m = \\frac{p_i} {P-p_i} = \\frac{\\text{moles of vapor}}{\\text{moles of vapor-free (dry)gas}}\\]"
+    "text": "Additional Definitions\nMost people don’t understand mole fractions, and we don’t have enough parameter names yet, so we have the following definitions (saturation is any gas-vapor system, humidity is specifically air-water):\n\nRelative Saturation or Relative Humidity\n\n\n\\[s_r \\text{ or }h_r = \\frac{p_i}{p_i^*(T)}*100%\\]\n\n\nMolal Saturation or Molal Humidity\n\n\n\\[s_m\\text{ or }h_m = \\frac{p_i} {P-p_i} = \\frac{\\text{moles of vapor}}{\\text{moles of vapor-free (dry)gas}}\\]"
   },
   {
     "objectID": "balances/material/Video73Visuals.html#definitions-cont.",
     "href": "balances/material/Video73Visuals.html#definitions-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Definitions (cont.)",
-    "text": "Definitions (cont.)\nAbsolute Saturation or Absolute Humidity\n\\[s_a\\text{ or }h_a = \\frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \\frac{\\text{moles of vapor}}{\\text{moles of vapor-free (dry)gas}}\\]\nPercentage Saturation or Percentage Humidity\n\\[s_p\\text{ or }h_p = 100\\% \\times \\frac{s_m} {s_m^*} = 100\\% \\times \\frac{\\frac{p_i}{P-p_i}}{\\frac{p_i^*}{P-p_i^*}}\\]"
+    "text": "Definitions (cont.)\nAbsolute Saturation or Absolute Humidity\n\n\\[s_a\\text{ or }h_a = \\frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \\frac{\\text{moles of vapor}}{\\text{moles of vapor-free (dry)gas}}\\]\n\n\nPercentage Saturation or Percentage Humidity\n\n\n\\[s_p\\text{ or }h_p = 100\\% \\times \\frac{s_m} {s_m^*} = 100\\% \\times \\frac{\\frac{p_i}{P-p_i}}{\\frac{p_i^*}{P-p_i^*}}\\]"
   },
   {
     "objectID": "balances/material/Video73Visuals.html#example-2",
     "href": "balances/material/Video73Visuals.html#example-2",
     "title": "Chemical and Thermal Processes",
     "section": "Example 2:",
-    "text": "Example 2:\nYou set out a cold (root)brew on a day when the temperature is \\(86\\ ^\\circ\\mathrm{F}\\) and the relative humidity is \\(30\\%\\).\n\nAt what temperature is the brew when water quits condensing on the can?\nWhat is the dew point?\nWhat are the degrees of superheat?\n\nSolution: Need \\(p^*\\) at \\(86\\ ^\\circ\\mathrm{F}\\) (\\(30\\ ^\\circ\\mathrm{C}\\))\nFrom Antoine Equation or Steam Table or DWSIM."
+    "text": "Example 2:\nYou set out a cold (root)brew on a day when the temperature is \\(86\\ ^\\circ\\mathrm{F}\\) and the relative humidity is \\(30\\%\\).\n\nAt what temperature is the brew when water quits condensing on the can?\nWhat is the dew point?\nWhat are the degrees of superheat?\n\n\nSolution:\nNeed \\(p^*\\) at \\(86\\ ^\\circ\\mathrm{F}\\) (\\(30\\ ^\\circ\\mathrm{C}\\))\n\n\nFrom Antoine Equation or Steam Table or DWSIM."
   },
   {
     "objectID": "balances/material/Video73Visuals.html#example-2-cont",
     "href": "balances/material/Video73Visuals.html#example-2-cont",
     "title": "Chemical and Thermal Processes",
     "section": "Example 2 (cont):",
-    "text": "Example 2 (cont):\nAntotine Equation\n\n\\[\\log_{10}p^* = 4.6543 - \\frac{1435.264}{T - 64.848}\\] \\[= 4.6543 - \\frac{1435.264}{30 - 64.848} = -1.3686\\]\n\\[p^* = 10^{-1.3686} = 0.04280\\ \\mathrm{bar}\\]\n\\[p = h_rp^* = 0.30 \\times 0.04280\\ \\mathrm{bar} = 0.01284\\ \\mathrm{bar}\\]\n\\[T_{dp} = \\frac{B}{A-\\log_{10}p^*} - C\\] \\[= \\frac{1435.264}{4.6543 − \\log_{10} 0.01284} + 64.848 = 10.96\\ ^\\circ\\mathrm{C}\\text{ or }51.74\\ ^\\circ\\mathrm{F}\\]\n\\[T-T_{dp} = 30-10.96 = 19.04\\ ^\\circ\\mathrm{C}\\text{ or }34.26\\ ^\\circ\\mathrm{F}\\text{ of Superheat}\\]"
+    "text": "Example 2 (cont):\nAntotine Equation\n\n\n\\[\\log_{10}p^* = 4.6543 - \\frac{1435.264}{T - 64.848}\\]\n\n\n\\[= 4.6543 - \\frac{1435.264}{30 - 64.848} = -1.3686\\]\n\n\n\\[p^* = 10^{-1.3686} = 0.04280\\ \\mathrm{bar}\\]\n\n\n\\[p = h_rp^* = 0.30 \\times 0.04280\\ \\mathrm{bar} = 0.01284\\ \\mathrm{bar}\\]\n\n\n\\[T_{dp} = \\frac{B}{A-\\log_{10}p^*} - C\\]\n\n\n\\[= \\frac{1435.264}{4.6543 − \\log_{10} 0.01284} + 64.848 = 10.96\\ ^\\circ\\mathrm{C}\\text{ or }51.74\\ ^\\circ\\mathrm{F}\\]\n\n\n\n\\[T-T_{dp} = 30-10.96 = 19.04\\ ^\\circ\\mathrm{C}\\text{ or }34.26\\ ^\\circ\\mathrm{F}\\text{ of Superheat}\\]"
   },
   {
     "objectID": "balances/material/Video73Visuals.html#example-2-cont-1",
     "href": "balances/material/Video73Visuals.html#example-2-cont-1",
     "title": "Chemical and Thermal Processes",
     "section": "Example 2 (cont):",
-    "text": "Example 2 (cont):\nSteam Table or DWSIM\n\\[p^* = 0.04247\\ \\mathrm{bar}\\] \\[p = h_{r}p^{*} = 0.30 \\times 0.04247\\ \\mathrm{bar} = 0.01274\\ \\mathrm{bar}\\]\n\n\\[T_{dp} = 10.55\\ ^\\circ\\mathrm{C}\\text{ or }50.99\\ ^\\circ\\mathrm{F}\\] \\[T - T_{dp} = 30-10.55 = 19.45\\ ^\\circ\\mathrm{C}\\text{ or }35.01\\ ^\\circ\\mathrm{F}\\text{ of Superheat}\\]"
+    "text": "Example 2 (cont):\nSteam Table or DWSIM\n\n\\[p^* = 0.04247\\ \\mathrm{bar}\\]\n\n\n\\[p = h_{r}p^{*} = 0.30 \\times 0.04247\\ \\mathrm{bar} = 0.01274\\ \\mathrm{bar}\\]\n\n\n\n\n\n\\[T_{dp} = 10.55\\ ^\\circ\\mathrm{C}\\text{ or }50.99\\ ^\\circ\\mathrm{F}\\]\n\n\n\\[T - T_{dp} = 30-10.55 = 19.45\\ ^\\circ\\mathrm{C}\\text{ or }35.01\\ ^\\circ\\mathrm{F}\\text{ of Superheat}\\]"
   },
   {
     "objectID": "balances/material/Video73Visuals.html#henrys-law",
     "href": "balances/material/Video73Visuals.html#henrys-law",
     "title": "Chemical and Thermal Processes",
     "section": "Henry’s law",
-    "text": "Henry’s law\nWhat about a gas dissolved in a liquid? For dilute solutions, Henry’s Law holds (A dilute solution is one for which Henry’s law holds).\n\\[p_\\mathrm{A} \\equiv y_\\mathrm{A}P = x_\\mathrm{A}H_\\mathrm{A}(T)\\]\nIn words, the fraction of A dissolved in the liquid phase is directly proportional to the partial pressure of A in the vapor phase. The proportionality constant (which can change with temperature) is the Henry’s Law Constant. (See Wikipedia)"
+    "text": "Henry’s law\nWhat about a gas dissolved in a liquid? For dilute solutions, Henry’s Law holds (A dilute solution is one for which Henry’s law holds).\n\n\\[p_\\mathrm{A} \\equiv y_\\mathrm{A}P = x_\\mathrm{A}H_\\mathrm{A}(T)\\]\n\n\nIn words, the fraction of A dissolved in the liquid phase is directly proportional to the partial pressure of A in the vapor phase. The proportionality constant (which can change with temperature) is the Henry’s Law Constant. (See Wikipedia)"
   },
   {
     "objectID": "balances/material/Video73Visuals.html#the-takeaways",
     "href": "balances/material/Video73Visuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nThere are semi-empirical relationships, such as the Antoine equation that will let you calculate the vapor pressure as a function of temperature, and vice versa.\nIn a two-component mixture where one of the components can condense, condensation starts once the mixture hits the dew-point temperature, where the partial pressure equals the vapor pressure.\nIn a two-component mixture where one of the components can condense, if the partial pressure is below the vapor pressure, we use the terms relative saturation, or relative humidity for the ratio of the partial pressure to the vapor pressure.\nFor a gas dissolving in a liquid, the mole fraction of the gas in the liquid is the partial pressure of the gas times the Henry’s law constant."
+    "text": "The Takeaways\n\n\nThere are semi-empirical relationships, such as the Antoine equation that will let you calculate the vapor pressure as a function of temperature, and vice versa.\nIn a two-component mixture where one of the components can condense, condensation starts once the mixture hits the dew-point temperature, where the partial pressure equals the vapor pressure.\nIn a two-component mixture where one of the components can condense, if the partial pressure is below the vapor pressure, we use the terms relative saturation, or relative humidity for the ratio of the partial pressure to the vapor pressure.\nFor a gas dissolving in a liquid, the mole fraction of the gas in the liquid is the partial pressure of the gas times theHenry’s law constant."
   },
   {
     "objectID": "balances/material/UnitOpsReactPart3JTFVisuals.html#summary-of-multiple-reactions",
@@ -795,7 +795,7 @@
     "href": "balances/material/Video74Visuals.html#multicomponent-systems",
     "title": "Chemical and Thermal Processes",
     "section": "Multicomponent Systems",
-    "text": "Multicomponent Systems\nIf the vapor phase is an ideal-gas mixture and the liquid phase is an ideal solution then Raoult’s Law holds.\n\\[\np_\\mathrm{A} \\equiv y_\\mathrm{A}P = x_\\mathrm{A}p_\\mathrm{A}^*(T)\n\\]\nor in terms of species \\(i\\),\n\\[\ny_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)\n\\tag{1}\\]\nIn words, the partial pressure of a component is equal to the liquid mole fraction of the component times its vapor pressure. (If the vapor phase is not an ideal-gas mixture or the liquid phase is not an ideal solution then we are led to the realms of activity coefficients, fugacities and Poynting factors, i.e., the advanced phase equilibria videos)"
+    "text": "Multicomponent Systems\nIf the vapor phase is an ideal-gas mixture and the liquid phase is an ideal solution then Raoult’s Law holds.\n\n\\[\np_\\mathrm{A} \\equiv y_\\mathrm{A}P = x_\\mathrm{A}p_\\mathrm{A}^*(T)\n\\]\n\n\nor in terms of species \\(i\\),\n\n\n\\[\ny_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)\n\\tag{1}\\]\n\n\nIn words, the partial pressure of a component is equal to the liquid mole fraction of the component times its vapor pressure. (If the vapor phase is not an ideal-gas mixture or the liquid phase is not an ideal solution then we are led to the realms of activity coefficients, fugacities and Poynting factors, i.e., the advanced phase equilibria videos)"
   },
   {
     "objectID": "balances/material/Video74Visuals.html#bubl-dew-flash",
@@ -805,11 +805,18 @@
     "text": "BUBL, DEW, FLASH\nFor multicomponent mixtures, five types of calculations are usually performed using Raoult’s law:\n\nBUBL P – Given all \\(x_{i}\\)’s and \\(T\\), calculate \\(P\\) at which the first bubble forms, and \\(y_{i}\\)’s of the bubble.\nBUBL T – Given all \\(x_{i}\\)’s and \\(P\\), calculate \\(T\\) at which the first bubble forms, and \\(y_{i}\\)’s of the bubble.\nDEW P – Given all \\(y_{i}\\)’s and \\(T\\), calculate \\(P\\) at which the first droplet condenses, and \\(x_{i}\\)’s of the droplet.\nDEW T – Given all \\(y_{i}\\)’s and \\(P\\), calculate \\(T\\) at which the first droplet condenses, and \\(x_{i}\\)’s of the droplet.\nFLASH – Given overall composition (\\(z_{i}\\)’s) and \\(T\\) and \\(P\\), calculate \\(x_{i}\\)’s and \\(y_{i}\\)’s, and relative amounts of vapor, \\(\\mathcal{V}\\), and liquid, \\(\\mathcal{L}\\)."
   },
   {
+    "objectID": "balances/material/Video74Visuals.html#section",
+    "href": "balances/material/Video74Visuals.html#section",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Graphical BUBL P, DEW P\n\n\n\nOverall Composition\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nBubble Pressure\n\n\nBubble Composition\n\n\nDew Pressure\n\n\nDew Composition\n\n\nLow BoilingAzeotrope"
+  },
+  {
     "objectID": "balances/material/Video74Visuals.html#bubl-p",
     "href": "balances/material/Video74Visuals.html#bubl-p",
     "title": "Chemical and Thermal Processes",
     "section": "BUBL P",
-    "text": "BUBL P\nGiven all \\(x_{i}\\)’s and \\(T\\), calculate \\(P\\) and \\(y_{i}\\)’s.\nIf necessary, begin by calculating all of the vapor pressures from the Antoine equation.\n\\[\np_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\n\\tag{2}\\]\nRaoult’s Law, Equation 1, \\[y_{i}P = x_{i}p_{i}^{*}(T)\\ \\ \\ (i=1, 2, 3, .., N)\\]\ncan be rearranged as:\n\\[P =  \\sum_{n=1}^{N} x_{i}p_{i}^{*}\n\\tag{3}\\]\nto calculate \\(P\\). Then calculate \\(y_{i}\\)’s from:\n\\[y_{i} = \\frac{x_{i} p_{i}^*} {P}\\ \\ \\ (i = 1, 2, 3, ..., N) \\tag{4}\\]"
+    "text": "BUBL P\n\nGiven all \\(x_{i}\\)’s and \\(T\\), calculate \\(P\\) and \\(y_{i}\\)’s.\n\nIf necessary, begin by calculating all of the vapor pressures from the Antoine equation.\n\n\n\\[\np_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\n\\tag{2}\\]\n\n\nRaoult’s Law, Equation 1, \\[y_{i}P = x_{i}p_{i}^{*}(T)\\ \\ \\ (i=1, 2, 3, .., N)\\]\n\n\ncan be rearranged as:\n\n\n\\[P =  \\sum_{n=1}^{N} x_{i}p_{i}^{*}\n\\tag{3}\\]\n\n\nto calculate \\(P\\). Then calculate \\(y_{i}\\)’s from:\n\n\n\\[y_{i} = \\frac{x_{i} p_{i}^*} {P}\\ \\ \\ (i = 1, 2, 3, ..., N) \\tag{4}\\]"
   },
   {
     "objectID": "balances/material/Video74Visuals.html#dew-p",
@@ -956,35 +963,35 @@
     "href": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-bubl-p-dew-p",
     "title": "Chemical and Thermal Processes",
     "section": "Graphical BUBL P, DEW P",
-    "text": "Graphical BUBL P, DEW P\n\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nOverall Composition\n\n\nBubble Pressure\n\n\nBubble Composition\n\n\nDew Pressure\n\n\nDew Composition\n\n\nLow BoilingAzeotrope"
+    "text": "Graphical BUBL P, DEW P\n\n\n\nOverall Composition\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nBubble Pressure\n\n\nBubble Composition\n\n\nDew Pressure\n\n\nDew Composition\n\n\nLow BoilingAzeotrope"
   },
   {
     "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-flash-on-pxy",
     "href": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-flash-on-pxy",
     "title": "Chemical and Thermal Processes",
     "section": "Graphical FLASH on Pxy",
-    "text": "Graphical FLASH on Pxy\n\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nOverall Composition\n\n\nFlash Temperature\n\n\nFlash Pressure\n\n\nLiquid Composition\n\n\nVapor Composition\n\n\n\\(a\\)\n\n\n\\(b\\)\n\n\n\\(\\mathcal{V} = \\dfrac{a}{a+b}\\)\n\n\n\\(\\mathcal{L} = 1-\\mathcal{V} = \\dfrac{b}{a+b}\\)"
+    "text": "Graphical FLASH on Pxy\n\n\n\nOverall Composition\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nFlash Temperature\n\n\nFlash Pressure\n\n\nLiquid Composition\n\n\nVapor Composition\n\n\n\\(a\\)\n\n\n\\(b\\)\n\n\n\\(\\mathcal{V} = \\dfrac{a}{a+b}\\)\n\n\n\\(\\mathcal{L} = 1-\\mathcal{V} = \\dfrac{b}{a+b}\\)"
   },
   {
     "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-flash-on-txy",
     "href": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-flash-on-txy",
     "title": "Chemical and Thermal Processes",
     "section": "Graphical FLASH on Txy",
-    "text": "Graphical FLASH on Txy\n\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nOverall Composition\n\n\nFlash Temperature\n\n\nFlash Pressure\n\n\nLiquid Composition\n\n\nVapor Composition\n\n\n\\(a\\)\n\n\n\\(b\\)\n\n\n\\(\\mathcal{V} = \\dfrac{a}{a+b}\\)\n\n\n\\(\\mathcal{L} = 1-\\mathcal{V} = \\dfrac{b}{a+b}\\)"
+    "text": "Graphical FLASH on Txy\n\n\n\nOverall Composition\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nOverall Composition\n\n\nFlash Pressure\n\n\nFlash Temperature\n\n\nLiquid Composition\n\n\nVapor Composition\n\n\n\\(a\\)\n\n\n\\(b\\)\n\n\n\\(\\mathcal{V} = \\dfrac{a}{a+b}\\)\n\n\n\\(\\mathcal{L} = 1-\\mathcal{V} = \\dfrac{b}{a+b}\\)"
   },
   {
     "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-bubl-t-dew-t",
     "href": "balances/material/BubbleDewFlashJTFVisuals.html#graphical-bubl-t-dew-t",
     "title": "Chemical and Thermal Processes",
     "section": "Graphical BUBL T, DEW T",
-    "text": "Graphical BUBL T, DEW T\n\n\n\nSuperheatedVapor\n\n\nSubcooledLiquid\n\n\n\\(2\\text{–}\\phi\\)\n\n\nOverall Composition\n\n\nBubble Temperature\n\n\nDew Composition\n\n\nDew Temperature\n\n\nBubble Composition\n\n\nLow BoilingAzeotrope"
+    "text": "Graphical BUBL T, DEW T\n\n\n\nOverall Composition\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nDew Temperature\n\n\nDew Composition\n\n\nBubble Temperature\n\n\nBubble Composition\n\n\nLow BoilingAzeotrope"
   },
   {
     "objectID": "balances/material/BubbleDewFlashJTFVisuals.html#the-takeaways",
     "href": "balances/material/BubbleDewFlashJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nA \\(Pxy\\) binary phase diagram can be used for Bubble P and Dew P graphical calculations.\nA \\(Txy\\) binary phase diagram can be used for Bubble T and Dew T graphical calculations.\nEither a \\(Pxy\\) or \\(Txy\\) binary phase diagram can be used for a Flash calculation, and when using the same \\(T\\) and \\(P\\) they should agree with each other."
+    "text": "The Takeaways\n\nA \\(Pxy\\) binary phase diagram can be used for Bubble P and Dew P graphical calculations.\nA \\(Txy\\) binary phase diagram can be used for Bubble T and Dew T graphical calculations.\nEither a \\(Pxy\\) or \\(Txy\\) binary phase diagram can be used for a Flash calculation, and when using the same \\(T\\) and \\(P\\) they should agree with each other.\nIt is not easy to automate using graphical binary phase diagrams, and they don’t work for more than two species."
   },
   {
     "objectID": "balances/material/MaterialBalancesIntroOutroVisuals.html#section",

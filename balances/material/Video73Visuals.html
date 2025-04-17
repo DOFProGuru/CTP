@@ -140,76 +140,131 @@
 
 <img data-src="OneCompPhaseTemp.png" class="r-stretch"><p>https://commons.wikimedia.org/wiki/File:Phase-diag2.svg</p>
 </section>
-<section id="component-vapor-liquid-equilibrium-vle" class="slide level2">
-<h2>1-Component Vapor-Liquid Equilibrium (VLE)</h2>
+<section id="section" class="slide level2">
+<h2></h2>
+<div style="font-size: 120px; font-weight: bold;">
+<p>1-Component Vapor-Liquid Equilibrium (VLE)</p>
+</div>
+<div class="fragment">
 <p>From <a href="https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation#Exact_Clapeyron_equation">Wikipedia</a> comes the <em>Clapeyron equation</em>:</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \frac{dp^*}{dT} = \frac{\Delta \hat{H}_{v}}{T(\hat{V}_{g} - \hat{V}_l)}
 \]</span></p>
 <p>Where <span class="math inline">\(p^*\)</span> is the vapor pressure.</p>
+</div>
+<div class="fragment">
 <p>If <span class="math inline">\(\hat{V}_g \gg \hat{V}_l\)</span>, and the vapor is ideal, then:</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \frac{d(\ln p^{*})}{d(1/T)} = - \frac{\Delta \hat{H}_{v}}{R}
 \]</span></p>
+</div>
 </section>
 <section id="vle-cont." class="slide level2">
 <h2>VLE (cont.)</h2>
 <p>If in addition, <span class="math inline">\(\Delta \hat{H}_v\)</span> is constant, we can integrate to</p>
+<div class="fragment">
 <p><span class="math display">\[
 \ln p^{*} = \frac{\Delta \hat{H}_v}{RT} + B
 \]</span></p>
+</div>
+<div class="fragment">
 <p>which is the <em>Clausius-Clapeyron</em> equation.</p>
+</div>
+<div class="fragment">
 <p>Empirical equations are also used. The simplest with reasonable accuracy is the <em>Antoine equation</em>:</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \log_{10} p^{*} = A - \frac{B}{T + C}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>where <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span>, and <span class="math inline">\(C\)</span> are constants from a reference source such as the <a href="https://webbook.nist.gov/chemistry/">NIST Chemistry WebBook</a>. What are <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span>, and <span class="math inline">\(C\)</span> if the substance obeys the Clausius-Clapeyron equation and <span class="math inline">\(T\)</span> is in <span class="math inline">\(^\circ\mathrm{C}\)</span>?</p>
+</div>
 </section>
 <section id="component-vle" class="slide level2">
 <h2>2-Component VLE</h2>
 <p>1-Condensable component, e.g., ethanol-argon. Assume <em>ideal gas</em> behavior and that species <span class="math inline">\(i\)</span> is the condensable one, then at saturation (e.g., two-phases present):</p>
+<div class="fragment">
 <p><span class="math display">\[
 p_i = y_{i}P = p^{*}_{i}(T)
 \]</span></p>
+</div>
+<div class="fragment">
 <p>If the temperature is high enough (or pressure low enough) that only one phase is present then:</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 p_i = y_{i}P &lt; p^{*}_{i}(T)
 \]</span></p>
+</div>
+<div class="fragment">
 <p>At what temperature will condensation begin?</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 p_i = y_{i}P = p^{*}_{i}(T_{dp})
 \]</span></p>
-<p><span class="math inline">\(T_{dp}\)</span> is the dew-point temperature. The difference between <span class="math inline">\(T\)</span> and <span class="math inline">\(T_{dp}\)</span> is the degree(s) of superheat.</p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(T_{dp}\)</span> is the dew-point temperature. The difference between<br><span class="math inline">\(T\)</span> and <span class="math inline">\(T_{dp}\)</span> is the degree(s) of superheat.</p>
+</div>
 </section>
 <section id="example-1" class="slide level2">
 <h2>Example 1:</h2>
 <p>You are standing in the shower with the air and water temperature at 35 °C. What mole-fraction of the air that you are breathing is water?</p>
 <div class="columns">
 <div class="column" style="width:55%;">
+<div class="fragment">
 <p><span class="math display">\[
 p_{i} = y_{i}P = p^{*}_{i}(T)
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 y_{i} = \frac{p_{i}^{*}(T)}{P}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>Get <span class="math inline">\(p_{i}^{*}\)</span> from the Antoine equation, from the Steam Table, or from DWSIM.</p>
+</div>
 </div></div>
+<div class="fragment">
 <p><img data-src="H2OMoleFracOneConden.png" class="absolute" style="top: 25%; right: 0%; width: 40%; "></p>
+</div>
 </section>
 <section id="additional-definitions" class="slide level2">
 <h2>Additional Definitions</h2>
 <p>Most people don’t understand mole fractions, and we don’t have enough parameter names yet, so we have the following definitions (saturation is any gas-vapor system, humidity is specifically air-water):</p>
+<div class="fragment">
 <p><em>Relative Saturation or Relative Humidity</em></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[s_r \text{ or }h_r = \frac{p_i}{p_i^*(T)}*100%\]</span></p>
+</div>
+<div class="fragment">
 <p><em>Molal Saturation or Molal Humidity</em></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[s_m\text{ or }h_m = \frac{p_i} {P-p_i} = \frac{\text{moles of vapor}}{\text{moles of vapor-free (dry)gas}}\]</span></p>
+</div>
 </section>
 <section id="definitions-cont." class="slide level2">
 <h2>Definitions (cont.)</h2>
 <p><em>Absolute Saturation or Absolute Humidity</em></p>
+<div class="fragment">
 <p><span class="math display">\[s_a\text{ or }h_a = \frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \frac{\text{moles of vapor}}{\text{moles of vapor-free (dry)gas}}\]</span></p>
+</div>
+<div class="fragment">
 <p><em>Percentage Saturation or Percentage Humidity</em></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[s_p\text{ or }h_p = 100\% \times \frac{s_m} {s_m^*} = 100\% \times \frac{\frac{p_i}{P-p_i}}{\frac{p_i^*}{P-p_i^*}}\]</span></p>
+</div>
 </section>
 <section id="example-2" class="slide level2">
 <h2>Example 2:</h2>
@@ -219,51 +274,92 @@ y_{i} = \frac{p_{i}^{*}(T)}{P}
 <li class="fragment">What is the dew point?</li>
 <li class="fragment">What are the degrees of superheat?</li>
 </ol>
-<p><strong>Solution:</strong> Need <span class="math inline">\(p^*\)</span> at <span class="math inline">\(86\ ^\circ\mathrm{F}\)</span> (<span class="math inline">\(30\ ^\circ\mathrm{C}\)</span>)</p>
+<div class="fragment">
+<p><strong>Solution:</strong></p>
+<p>Need <span class="math inline">\(p^*\)</span> at <span class="math inline">\(86\ ^\circ\mathrm{F}\)</span> (<span class="math inline">\(30\ ^\circ\mathrm{C}\)</span>)</p>
+</div>
+<div class="fragment">
 <p>From Antoine Equation or Steam Table or DWSIM.</p>
+</div>
 </section>
 <section id="example-2-cont" class="slide level2">
 <h2>Example 2 (cont):</h2>
 <p>Antotine Equation</p>
 <div style="font-size: 90px;">
-<p><span class="math display">\[\log_{10}p^* = 4.6543 - \frac{1435.264}{T - 64.848}\]</span> <span class="math display">\[= 4.6543 - \frac{1435.264}{30 - 64.848} = -1.3686\]</span></p>
+<div class="fragment absolute" style="top: 10%; left: 10%; ">
+<p><span class="math display">\[\log_{10}p^* = 4.6543 - \frac{1435.264}{T - 64.848}\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 22%; left: 22%; ">
+<p><span class="math display">\[= 4.6543 - \frac{1435.264}{30 - 64.848} = -1.3686\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 35%; left: 10%; ">
 <p><span class="math display">\[p^* = 10^{-1.3686} = 0.04280\ \mathrm{bar}\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 45%; left: 11%; ">
 <p><span class="math display">\[p = h_rp^* = 0.30 \times 0.04280\ \mathrm{bar} = 0.01284\ \mathrm{bar}\]</span></p>
-<p><span class="math display">\[T_{dp} = \frac{B}{A-\log_{10}p^*} - C\]</span> <span class="math display">\[= \frac{1435.264}{4.6543 − \log_{10} 0.01284} + 64.848 = 10.96\ ^\circ\mathrm{C}\text{ or }51.74\ ^\circ\mathrm{F}\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 53%; left: 7.5%; ">
+<p><span class="math display">\[T_{dp} = \frac{B}{A-\log_{10}p^*} - C\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 67%; left: 13%; ">
+<p><span class="math display">\[= \frac{1435.264}{4.6543 − \log_{10} 0.01284} + 64.848 = 10.96\ ^\circ\mathrm{C}\text{ or }51.74\ ^\circ\mathrm{F}\]</span></p>
+</div>
+<div style="font-size: 95px;">
+<div class="fragment absolute" style="top: 81%; left: 0%; ">
 <p><span class="math display">\[T-T_{dp} = 30-10.96 = 19.04\ ^\circ\mathrm{C}\text{ or }34.26\ ^\circ\mathrm{F}\text{ of Superheat}\]</span></p>
+</div>
+</div>
 </div>
 </section>
 <section id="example-2-cont-1" class="slide level2">
 <h2>Example 2 (cont):</h2>
 <p>Steam Table or DWSIM</p>
-<p><span class="math display">\[p^* = 0.04247\ \mathrm{bar}\]</span> <span class="math display">\[p = h_{r}p^{*} = 0.30 \times 0.04247\ \mathrm{bar} = 0.01274\ \mathrm{bar}\]</span></p>
-
-<img data-src="InterpSteamTableH2OVapPress.png" class="r-stretch"><p><span class="math display">\[T_{dp} = 10.55\ ^\circ\mathrm{C}\text{ or }50.99\ ^\circ\mathrm{F}\]</span> <span class="math display">\[T - T_{dp} = 30-10.55 = 19.45\ ^\circ\mathrm{C}\text{ or }35.01\ ^\circ\mathrm{F}\text{ of Superheat}\]</span></p>
+<div class="fragment">
+<p><span class="math display">\[p^* = 0.04247\ \mathrm{bar}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[p = h_{r}p^{*} = 0.30 \times 0.04247\ \mathrm{bar} = 0.01274\ \mathrm{bar}\]</span></p>
+</div>
+<div class="fragment">
+<p><img data-src="InterpSteamTableH2OVapPress.png"></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[T_{dp} = 10.55\ ^\circ\mathrm{C}\text{ or }50.99\ ^\circ\mathrm{F}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[T - T_{dp} = 30-10.55 = 19.45\ ^\circ\mathrm{C}\text{ or }35.01\ ^\circ\mathrm{F}\text{ of Superheat}\]</span></p>
+</div>
 </section>
 <section id="henrys-law" class="slide level2">
 <h2>Henry’s law</h2>
 <p>What about a gas dissolved in a liquid? For dilute solutions, Henry’s Law holds (A dilute solution is one for which Henry’s law holds).</p>
+<div class="fragment">
 <p><span class="math display">\[p_\mathrm{A} \equiv y_\mathrm{A}P = x_\mathrm{A}H_\mathrm{A}(T)\]</span></p>
+</div>
+<div class="fragment">
 <p>In words, the fraction of A dissolved in the liquid phase is directly proportional to the partial pressure of A in the vapor phase. The proportionality constant (which can change with temperature) is the <em>Henry’s Law Constant</em>. (See <a href="https://en.wikipedia.org/wiki/Henry%27s_law">Wikipedia</a>)</p>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
+<div style="font-size: 95px">
 <ol type="1">
 <li class="fragment">There are semi-empirical relationships, such as the Antoine equation that will let you calculate the vapor pressure as a function of temperature, and vice versa.</li>
 <li class="fragment">In a two-component mixture where one of the components can condense, condensation starts once the mixture hits the dew-point temperature, where the partial pressure equals the vapor pressure.</li>
 <li class="fragment">In a two-component mixture where one of the components can condense, if the partial pressure is below the vapor pressure, we use the terms relative saturation, or relative humidity for the ratio of the partial pressure to the vapor pressure.</li>
-<li class="fragment">For a gas dissolving in a liquid, the mole fraction of the gas in the liquid is the partial pressure of the gas times the Henry’s law constant.</li>
+<li class="fragment">For a gas dissolving in a liquid, the mole fraction of the gas in the liquid is the partial pressure of the gas times the<br>Henry’s law constant.</li>
 </ol>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section id="section" class="title-slide slide level1 center">
-<h1></h1>
-<div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
+</section></section>
+<section id="section-1" class="title-slide slide level1 center">
+<h1><!-- Approved Plain End --></h1>
+<div class="centered bigger">
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+</div>
+<div class="absolute" style="font-size: 110px;top: 125%; left: 38%; ">
+<p>The DOFPro Team</p>
+</div>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 25.25%; width: 1494px; height: 364px; "> <!-- ****************************END Regular Intro/Outro ************************* --></p>
 
 
 </section>

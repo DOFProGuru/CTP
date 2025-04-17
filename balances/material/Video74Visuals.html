@@ -137,14 +137,22 @@
 <section id="multicomponent-systems" class="slide level2">
 <h2>Multicomponent Systems</h2>
 <p>If the vapor phase is an ideal-gas mixture and the liquid phase is an ideal solution then Raoult’s Law holds.</p>
+<div class="fragment">
 <p><span class="math display">\[
 p_\mathrm{A} \equiv y_\mathrm{A}P = x_\mathrm{A}p_\mathrm{A}^*(T)
 \]</span></p>
+</div>
+<div class="fragment">
 <p>or in terms of species <span class="math inline">\(i\)</span>,</p>
+</div>
+<div class="fragment">
 <p><span id="eq-raoults"><span class="math display">\[
 y_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)
 \tag{1}\]</span></span></p>
+</div>
+<div class="fragment">
 <p>In words, the partial pressure of a component is equal to the liquid mole fraction of the component times its vapor pressure. (If the vapor phase is not an ideal-gas mixture or the liquid phase is not an ideal solution then we are led to the realms of activity coefficients, fugacities and Poynting factors, i.e., the advanced phase equilibria videos)</p>
+</div>
 </section>
 <section id="bubl-dew-flash" class="slide level2">
 <h2>BUBL, DEW, FLASH</h2>
@@ -157,24 +165,69 @@ y_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)
 <li class="fragment">FLASH – Given overall composition (<span class="math inline">\(z_{i}\)</span>’s) and <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>, calculate <span class="math inline">\(x_{i}\)</span>’s and <span class="math inline">\(y_{i}\)</span>’s, and relative amounts of vapor, <span class="math inline">\(\mathcal{V}\)</span>, and liquid, <span class="math inline">\(\mathcal{L}\)</span>.</li>
 </ol>
 </section>
-<section class="slide level2">
-
+<section id="section" class="slide level2">
+<h2></h2>
 <p>Graphical BUBL P, DEW P</p>
-
-<img data-src="PxyDiagram320KTemp.png" class="r-stretch"></section>
+<p><img data-src="PxyBubbleDew.png" class="absolute" style="top: 10%; left: 10%; width: 80%; "></p>
+<div style="font-size: 65px;">
+<div class="absolute" style="top: 15%; left: 28%; ">
+<p>Overall<br> Composition</p>
+</div>
+<div class="absolute" style="top: 27%; left: 23%; ">
+<p>Subcooled<br>Liquid</p>
+</div>
+<div class="absolute" style="top: 55%; left: 60%; ">
+<p>Superheated<br>Vapor</p>
+</div>
+<div class="absolute" style="top: 45%; left: 38%; ">
+<p><span class="math inline">\(2\text{–}\phi\)</span></p>
+</div>
+<div class="absolute" style="top: 36.5%; left: 8%; ">
+<p>Bubble<br> Pressure</p>
+</div>
+<div class="absolute" style="top: 70%; left: 51%; ">
+<p>Bubble<br> Composition</p>
+</div>
+<div class="absolute" style="top: 59%; left: 8%; ">
+<p>Dew<br> Pressure</p>
+</div>
+<div class="absolute" style="top: 81%; left: 19%; ">
+<p>Dew<br> Composition</p>
+</div>
+<div class="absolute" style="top: 23%; left: 56%; ">
+<p>Low Boiling<br>Azeotrope</p>
+</div>
+</div>
+</section>
 <section id="bubl-p" class="slide level2">
 <h2>BUBL P</h2>
+<div style="font-size: 95px;">
 <p>Given all <span class="math inline">\(x_{i}\)</span>’s and <span class="math inline">\(T\)</span>, calculate <span class="math inline">\(P\)</span> and <span class="math inline">\(y_{i}\)</span>’s.</p>
+<div class="fragment absolute" style="top: 15%; left: 0%; ">
 <p>If necessary, begin by calculating all of the vapor pressures from the Antoine equation.</p>
+</div>
+<div class="fragment absolute" style="top: 25%; left: 0%; ">
 <p><span id="eq-BP1"><span class="math display">\[
 p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}
 \tag{2}\]</span></span></p>
+</div>
+<div class="fragment absolute" style="top: 38%; left: 0%; ">
 <p>Raoult’s Law, <a href="#/eq-raoults" class="quarto-xref">Equation&nbsp;1</a>, <span class="math display">\[y_{i}P = x_{i}p_{i}^{*}(T)\ \ \ (i=1, 2, 3, .., N)\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 55%; left: 0%; ">
 <p>can be rearranged as:</p>
+</div>
+<div class="fragment absolute" style="top: 60%; left: 0%; ">
 <p><span id="eq-BP3"><span class="math display">\[P =  \sum_{n=1}^{N} x_{i}p_{i}^{*}
 \tag{3}\]</span></span></p>
+</div>
+<div class="fragment absolute" style="top: 80%; left: 0%; ">
 <p>to calculate <span class="math inline">\(P\)</span>. Then calculate <span class="math inline">\(y_{i}\)</span>’s from:</p>
+</div>
+<div class="fragment absolute" style="top: 83%; left: 0%; ">
 <p><span id="eq-BP4"><span class="math display">\[y_{i} = \frac{x_{i} p_{i}^*} {P}\ \ \ (i = 1, 2, 3, ..., N) \tag{4}\]</span></span></p>
+</div>
+</div>
 </section>
 <section id="dew-p" class="slide level2">
 <h2>DEW P</h2>
@@ -213,7 +266,7 @@ P = \frac {1} {\sum\limits_{i=i}^{N}\frac{y_i} {p_{i}^{*}}}
 
 </section></section>
 <section>
-<section id="section" class="title-slide slide level1 center">
+<section id="section-1" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
@@ -361,7 +414,7 @@ x_i = \frac {y_{i}P}{p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N)
 
 </section></section>
 <section>
-<section id="section-1" class="title-slide slide level1 center">
+<section id="section-2" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
@@ -506,7 +559,7 @@ P = \frac{p_{1}^{*}p_{2}^{*}}{(p_{2}^{*}-p_{1}^{*}) y_{1} + p_{1}^{*}}
 <section class="slide level2">
 
 </section></section>
-<section id="section-2" class="title-slide slide level1 center">
+<section id="section-3" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
