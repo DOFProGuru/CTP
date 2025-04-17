@@ -133,45 +133,44 @@ $x_i$’s and $y_i$’s, and relative amounts of vapor, $\mathcal{V}$, and liqui
 
 :::{style="font-size: 65px;"}
 
-:::{.absolute top=27% left=23%}
-Subcooled<br/>Liquid
-:::
-
-:::{.absolute top=55% left=60%}
-Superheated<br/>Vapor
-:::
-
-:::{.absolute top=45% left=38%}
-$2\text{–}\phi$
-:::
-
-:::{.absolute top=15% left=28%}
+:::{.fragment .absolute top=15% left=28%}
 Overall<br/> Composition
 :::
 
-:::{.absolute top=36.5% left=8%}
+:::{.fragment .absolute top=27% left=23%}
+Subcooled<br/>Liquid
+:::
+
+:::{.fragment .absolute top=55% left=60%}
+Superheated<br/>Vapor
+:::
+
+:::{.fragment .absolute top=45% left=38%}
+$2\text{–}\phi$
+:::
+
+:::{.fragment .absolute top=36.5% left=8%}
 Bubble<br/> Pressure
 :::
 
-:::{.absolute top=70% left=51%}
+:::{.fragment .absolute top=70% left=51%}
 Bubble<br/> Composition
 :::
 
-:::{.absolute top=59% left=8%}
+:::{.fragment .absolute top=59% left=8%}
 Dew<br/> Pressure
 :::
 
-:::{.absolute top=81% left=19%}
+:::{.fragment .absolute top=81% left=19%}
 Dew<br/> Composition
 :::
 
-:::{.absolute top=23% left=56%}
+:::{.fragment .absolute top=23% left=56%}
 Low Boiling<br/>Azeotrope
 :::
 
 :::
 
----
 
 ## Graphical FLASH on *Pxy*
 
@@ -179,52 +178,52 @@ Low Boiling<br/>Azeotrope
 
 :::{style="font-size: 65px;"}
 
-:::{.absolute top=27% left=22%}
-Subcooled<br/>Liquid
-:::
-
-:::{.absolute top=45% left=47%}
-Superheated<br/>Vapor
-:::
-
-:::{.absolute top=40% left=38%}
-$2\text{–}\phi$
-:::
-
-:::{.absolute top=14.5% left=27%}
+:::{.fragment .absolute top=14.5% left=27%}
 Overall<br/> Composition
 :::
 
-:::{.absolute top=17% left=52.5%}
+:::{.fragment .absolute top=27% left=22%}
+Subcooled<br/>Liquid
+:::
+
+:::{.fragment .absolute top=45% left=47%}
+Superheated<br/>Vapor
+:::
+
+:::{.fragment .absolute top=40% left=38%}
+$2\text{–}\phi$
+:::
+
+:::{.fragment .absolute top=17% left=52.5%}
 Flash Temperature
 :::
 
-:::{.absolute top=43.5% left=8%}
+:::{.fragment .absolute top=43.5% left=8%}
 Flash<br/> Pressure
 :::
 
-:::{.absolute top=81% left=20%}
+:::{.fragment .absolute top=81% left=20%}
 Liquid<br/> Composition
 :::
 
-:::{.absolute top=81% left=36%}
+:::{.fragment .absolute top=81% left=36%}
 Vapor<br/> Composition
 :::
 
-:::{.absolute top=47.5% left=30.5%}
+:::{.fragment .absolute top=47.5% left=30.5%}
 $a$
 :::
 
-:::{.absolute top=47.5% left=38%}
+:::{.fragment .absolute top=47.5% left=38%}
 $b$
 :::
 
 
-:::{.absolute top=55% left=60%}
+:::{.fragment .absolute top=55% left=60%}
 $\mathcal{V} = \dfrac{a}{a+b}$
 :::
 
-:::{.absolute top=65% left=60%}
+:::{.fragment .absolute top=65% left=60%}
 $\mathcal{L} = 1-\mathcal{V} = \dfrac{b}{a+b}$
 :::
 
@@ -238,52 +237,56 @@ $\mathcal{L} = 1-\mathcal{V} = \dfrac{b}{a+b}$
 
 :::{style="font-size: 65px;"}
 
-:::{.absolute top=72.5% left=57%}
-Subcooled<br/>Liquid
-:::
-
-:::{.absolute top=55% left=57%}
-Superheated<br/>Vapor
-:::
-
-:::{.absolute top=65% left=46%}
-$2\text{–}\phi$
-:::
-
-:::{.absolute top=14.5% left=27%}
+:::{.fragment .absolute top=14.5% left=27%}
 Overall<br/> Composition
 :::
 
-:::{.absolute top=53.5% left=8%}
-Flash<br/> Temperature
+:::{.fragment .absolute top=72.5% left=57%}
+Subcooled<br/>Liquid
 :::
 
-:::{.absolute top=16% left=52.5%}
+:::{.fragment .absolute top=55% left=57%}
+Superheated<br/>Vapor
+:::
+
+:::{.fragment .absolute top=65% left=46%}
+$2\text{–}\phi$
+:::
+
+:::{.fragment .absolute top=14.5% left=27%}
+Overall<br/> Composition
+:::
+
+:::{.fragment .absolute top=16% left=52.5%}
 Flash Pressure
 :::
 
-:::{.absolute top=84% left=20%}
+:::{.fragment .absolute top=53.5% left=8%}
+Flash<br/> Temperature
+:::
+
+:::{.fragment .absolute top=84% left=20%}
 Liquid<br/> Composition
 :::
 
-:::{.absolute top=84% left=36%}
+:::{.fragment .absolute top=84% left=36%}
 Vapor<br/> Composition
 :::
 
-:::{.absolute top=54% left=30.5%}
+:::{.fragment .absolute top=54% left=30.5%}
 $a$
 :::
 
-:::{.absolute top=54% left=38%}
+:::{.fragment .absolute top=54% left=38%}
 $b$
 :::
 
 
-:::{.absolute top=25% left=60%}
+:::{.fragment .absolute top=25% left=60%}
 $\mathcal{V} = \dfrac{a}{a+b}$
 :::
 
-:::{.absolute top=35% left=60%}
+:::{.fragment .absolute top=35% left=60%}
 $\mathcal{L} = 1-\mathcal{V} = \dfrac{b}{a+b}$
 :::
 
@@ -297,40 +300,39 @@ $\mathcal{L} = 1-\mathcal{V} = \dfrac{b}{a+b}$
 
 :::{style="font-size: 65px;"}
 
-:::{.absolute top=23% left=35%}
-Superheated<br/>Vapor
-:::
-
-:::{.absolute top=70% left=75%}
-Subcooled<br/>Liquid
-:::
-
-:::{.absolute top=55% left=38%}
-$2\text{–}\phi$
-:::
-
-:::{.absolute top=13.5% left=28%}
+:::{.fragment .absolute top=13.5% left=28%}
 Overall<br/> Composition
 :::
 
-:::{.absolute top=59.5% left=8%}
-Bubble<br/> Temperature
+:::{.fragment .absolute top=70% left=75%}
+Subcooled<br/>Liquid
 :::
 
-:::{.absolute top=83% left=18%}
-Dew<br/> Composition
+:::{.fragment .absolute top=23% left=35%}
+Superheated<br/>Vapor
 :::
 
-:::{.absolute top=38.5% left=8%}
+:::{.fragment .absolute top=55% left=38%}
+$2\text{–}\phi$
+:::
+
+:::{.fragment .absolute top=38.5% left=8%}
 Dew<br/> Temperature
 :::
 
-:::{.absolute top=83% left=44%}
+:::{.fragment .absolute top=83% left=18%}
+Dew<br/> Composition
+:::
+
+:::{.fragment .absolute top=59.5% left=8%}
+Bubble<br/> Temperature
+:::
+
+:::{.fragment .absolute top=83% left=44%}
 Bubble<br/> Composition
 :::
 
-
-:::{.absolute top=72% left=55%}
+:::{.fragment .absolute top=72% left=55%}
 Low Boiling<br/>Azeotrope
 :::
 
@@ -341,6 +343,7 @@ Low Boiling<br/>Azeotrope
 1. A $Pxy$ binary phase diagram can be used for Bubble P and Dew P graphical calculations.
 2. A $Txy$ binary phase diagram can be used for Bubble T and Dew T graphical calculations.
 3. Either a $Pxy$ or $Txy$ binary phase diagram can be used for a Flash calculation, and when using the same $T$ and $P$ they should agree with each other.
+4. It is not easy to automate using graphical binary phase diagrams, and they don’t work for more than two species.
 
 #
 
