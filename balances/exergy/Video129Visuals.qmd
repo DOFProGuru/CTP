@@ -1,0 +1,296 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Ideal Work, Lost Work and<br/>Thermodynamic Efficiency</br>{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Concepts
+
+1. Work is more valuable than heat.
+2. Heat rejected to (or taken from) the ambient is worthless (or
+free).
+3. The same for work performed on or done by the ambient.
+4. For a given process or system (desired change of state) there
+is a minimum work required or a maximum work available.
+The goal is to find it.
+
+
+
+## Example
+
+::::{.columns}
+
+:::{.fragment}
+<br/>
+Cool 100 mol/s of ethanol from 100°C to 50°C
+:::
+
+:::{.fragment}
+What is the minimum work required or maximum work
+obtainable?
+
+:::
+1. Using cooling water.
+2. Using a refrigerator.
+3. Using a series of infinitesimal Carnot engines.
+
+::::
+
+
+## 1. Heat Exchanger
+
+\begin{align*}
+\dot{m}\Delta H &= \dot{Q} + W_s = 0 \\
+\dot{Q} &= 0 \\
+W_s &= 0
+\end{align*}
+
+
+
+
+## 2. Refrigerator
+
+## 3. Infinitesimal Carnot Engines
+\begin{align*}
+\dot{W}_\text{total} &= \dot{m}[Q - T_\sigma \Delta S] \\
+&= 100(-6722.36 - 300(-19.2917)) \\
+&= -93.49 \text{ kJ/s} = W_\text{max}
+\end{align*}
+
+
+
+
+
+## Derivation
+* Derive for an open transient system
+* First Law
+* Second Law
+* Add together
+* Solve for the net shaft work
+* Assume entropy generation and lost work are zero
+
+##
+
+
+For an open transient system, the First Law is
+
+:::{.fragment}
+$\tiny \frac{d}{dt}(U + E_k + E_p)_{\text{control volume}} = \sum \dot{Q}_i + \sum \dot{W}_{s_j} - (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p)_{\text{flow streams}}$
+:::
+<br/>
+
+:::{.fragment}
+
+which on a mass basis is
+
+:::
+:::{.fragment}
+
+$\tiny \frac{d}{dt}\left[m\left(\hat{U} + \hat{E}_k + \hat{E}_p\right)\right]_{cv} = \sum \dot{Q}_i + \sum \dot{W}_{S_i} + \sum_{in} \dot{m}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right) - \sum_{out} \dot{m}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right)$
+<br/>
+:::
+:::{.fragment}
+
+or on a mole basis is
+:::
+:::{.fragment}
+
+$\tiny \frac{d}{dt}\left[n\left(\hat{U} + \hat{E}_k + \hat{E}_p\right)\right]_{cv} = \sum \dot{Q}_i + \sum \dot{W}_{S_i} + \sum_{in} \dot{n}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right) - \sum_{out} \dot{n}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right)$
+:::
+
+## 
+:::{.fragment}
+For an open transient system, the Second Law is
+:::
+
+:::{.fragment}
+
+$\frac{dS_{cv}}{dt} + \Delta \left( \dot{S} \right)_{fs} - \sum_j \frac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0$
+:::
+
+:::{.fragment}
+
+$\frac{d \left( m\hat{S} \right)_{cv}}{dt} + \Delta \left( \dot{m}\hat{S} \right)_{fs} - \sum_j \frac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0$ \quad Mass Basis
+:::
+
+
+:::{.fragment}
+$\frac{d \left( n\hat{S} \right)_{cv}}{dt} + \Delta \left( \dot{n}\hat{S} \right)_{fs} - \sum_j \frac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0$ \quad Mole Basis
+
+
+:::
+:::{.fragment}
+$\dot{Q}_j$ is heat transferred into system from reservoir $j$
+:::
+
+:::{.fragment}
+$T_j$ is temperature of reservoir $j$
+
+:::
+
+
+##
+
+:::{.fragment}
+Combine (add the two equations) and solve for $\sum \dot{W}_{S_i} = \sum \dot{W}_S$
+:::
+
+:::{.fragment}
+Ambient $T$ is $T_\sigma$ !
+
+:::
+
+:::{.fragment}
+
+$\tiny \dot{W}_S = \frac{d}{dt} \left( U + E_k + E_p - T_\sigma S \right)_{cv} - \sum \left( 1 - \frac{T_\sigma}{T_i} \right) \dot{Q}_i + \left( \Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S} \right)_{fs} + T_\sigma \dot{S}_{gen}$
+
+:::
+:::{.fragment}
+$\dot{Q}_\sigma$ is transfer to ambient at $T_\sigma$ and doesn’t show up in the balance.
+:::
+
+:::{.fragment}
+What is $T_\sigma \dot{S}_{gen}$?  $\quad$ $T_\sigma \dot{S}_{gen} = \dot{W}_{lost}$      
+:::
+
+:::{.fragment}
+If $\dot{S}_{gen} = 0 \Rightarrow \dot{W}_{lost} = 0$, then $\quad \dot{W}_{S} = \dot{W}_{ideal}$
+
+:::
+
+:::{.fragment}
+
+$\dot{W}_{ideal}$ is the ideal work or the reversible work. It (or the
+negative of it) is sometimes called availability, available work or exergy.
+:::
+
+
+## The Combined 1st and 2nd Law
+:::{.fragment}
+Open Transient System
+:::
+
+:::{.fragment}
+$\tiny \dot{W}_{\text{ideal}} = \frac{d}{dt}(U + E_k + E_p - T_0 S)_{cv} - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_0 \Delta \dot{S})_{fs}$
+:::
+
+:::{.fragment}
+On a mass basis
+:::
+:::{.fragment}
+$\tiny \dot{W}_{\text{ideal}} = \frac{d}{dt}[m(\hat{U} + \hat{E}_k + \hat{E}_p - T_0 \hat{S})]_{cv} - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i$
+:::
+:::{.fragment}
+$$ 
+\tiny + \sum_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S}) - \sum_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S})
+$$
+:::
+:::{.fragment}
+Or the same equation on a mole basis with $n$ and $\dot{n}$ replacing $m$ and $\dot{m}$
+:::
+
+## The Combined 1st and 2nd Law cont.
+::::{.columns}
+
+:::{.fragment}
+Open Steady-State System
+:::
+:::{.fragment}
+
+$\tiny \dot{W}_{\text{ideal}} = - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_0 \Delta \dot{S})_{fs}$
+:::
+:::{.fragment}
+
+On a mass basis
+:::
+:::{.fragment}
+$\tiny \dot{W}_{\text{ideal}} = - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + \sum_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S}) - \sum_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S})$
+:::
+
+:::{.fragment}
+On a mole basis
+:::
+
+:::{.fragment}
+$\tiny \dot{W}_{\text{ideal}} = - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + \sum_{\text{out}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_0 \bar{S}) - \sum_{\text{in}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_0 \bar{S})$
+:::
+::::
+## The Combined 1st and 2nd Law cont.
+::::{.columns}
+
+:::{.fragment}
+Closed System
+:::
+
+:::{.fragment}
+$W_{\text{ideal}} = \Delta U + \Delta E_k + \Delta E_p - T_0 \Delta S - \sum (1 - \frac{T_0}{T_i}) Q_i$
+:::
+:::{.fragment}
+We will rarely encounter closed systems in thermodynamic
+or 2nd Law analyses.
+:::
+::::
+
+## How do you use it?
+
+::::{.columns}
+:::{.fragment}
+Theromodynamic efficiency, $\eta_t$  or $\eta_{II}$
+:::
+
+- For processes that produce work:  
+
+
+  $\eta_t = \frac{\dot{W}_{S}}{\dot{W}_{ideal}}$
+
+- For processes that consume work:  
+
+  $\eta_t = \frac{\dot{W}_{ideal}}{\dot{W}_{S}}$
+
+::::
+
+
+
+## 
+:::{.fragment}
+Also the lost work or irreversibility is
+:::
+:::{.fragment}
+$\dot{W}_{lost} = \dot{W}_{S} - \dot{W}_{ideal}$
+:::
+
+:::{.fragment}
+Is $\dot{W}_{lost}$ always positive?
+:::
+:::{.fragment}
+$\dot{W}_{lost} = T_0 \dot{S}_{gen}$
+:::
+:::{.fragment}
+You should also analyze individual parts of a process and
+calculate lost work to see where the greatest inefficiencies lie.
+:::
+## Steps to Solve
+
+1. Solve the original problem (flows, enthalpies, entropies, temperatures)  
+2. Tabulate values for each unit  
+3. Compute $\dot{W}_{ideal}$  
+4. Compute $\dot{W}_{lost}$  
+5. Calculate $\eta_t$  
+6. Identify units contributing most to lost work
+
+
+## End of Slides
