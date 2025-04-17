@@ -32,71 +32,90 @@ https://commons.wikimedia.org/wiki/File:Phase-diag2.svg
 ---
 
 
-## 1-Component Vapor-Liquid Equilibrium (VLE)
+##
+:::{style="font-size: 120px; font-weight: bold;"}
+1-Component Vapor-Liquid Equilibrium (VLE)
+:::
 
+:::{.fragment}
 From [Wikipedia](https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation#Exact_Clapeyron_equation) comes the
 *Clapeyron equation*:
+:::
 
-
+:::{.fragment}
 $$
 \frac{dp^*}{dT} = \frac{\Delta \hat{H}_{v}}{T(\hat{V}_{g} - \hat{V}_l)}
 $$
 
 Where $p^*$ is the vapor pressure.
+:::
 
+
+:::{.fragment}
 If $\hat{V}_g \gg \hat{V}_l$, and the vapor is ideal, then:
-
+:::
+:::{.fragment}
 $$
 \frac{d(\ln p^{*})}{d(1/T)} = - \frac{\Delta \hat{H}_{v}}{R}
 $$
+:::
 
----
 
 ## VLE (cont.)
 
 If in addition, $\Delta \hat{H}_v$ is constant, we can integrate to
 
+:::{.fragment}
 $$
 \ln p^{*} = \frac{\Delta \hat{H}_v}{RT} + B
 $$
+:::
 
+:::{.fragment}
 which is the *Clausius-Clapeyron* equation.
-
+:::
+:::{.fragment}
 Empirical equations are also used. The simplest with reasonable accuracy is the *Antoine equation*:
-
+:::
+:::{.fragment}
 $$
 \log_{10} p^{*} = A - \frac{B}{T + C}
 $$
-
+:::
+:::{.fragment}
 where $A$, $B$, and $C$ are constants from a reference source such as the [NIST Chemistry WebBook](https://webbook.nist.gov/chemistry/). What are $A$, $B$, and $C$ if the substance obeys the Clausius-Clapeyron equation and $T$ is in $^\circ\mathrm{C}$?
-
----
+:::
 
 ## 2-Component VLE
 
 1-Condensable component, e.g., ethanol-argon. Assume *ideal gas* behavior and that species $i$ is the condensable one, then at saturation (e.g., two-phases present):
 
+:::{.fragment}
 $$
 p_i = y_{i}P = p^{*}_{i}(T)
 $$
-
+:::
+:::{.fragment}
 If the temperature is high enough (or pressure low enough) that only
 one phase is present then:
-
+:::
+:::{.fragment}
 $$
 p_i = y_{i}P < p^{*}_{i}(T)
 $$
-
+:::
+:::{.fragment}
 At what temperature will condensation begin?
-
+:::
+:::{.fragment}
 $$
 p_i = y_{i}P = p^{*}_{i}(T_{dp})
 $$
+:::
 
-
-$T_{dp}$ is the dew-point temperature. The difference between $T$ and $T_{dp}$ is the degree(s) of superheat.
-
----
+:::{.fragment}
+$T_{dp}$ is the dew-point temperature. The difference between<br/>$T$ and $T_{dp}$ is the degree(s) of superheat.
+:::
 
 ## Example 1:
 
@@ -104,47 +123,55 @@ You are standing in the shower with the air and water temperature at 35 °C. Wha
 
 ::::{.columns}
 :::{.column width=55%}
+:::{.fragment}
 $$
 p_{i} = y_{i}P = p^{*}_{i}(T)
 $$
-
+:::
+:::{.fragment}
 $$
 y_{i} = \frac{p_{i}^{*}(T)}{P} 
 $$
-
+:::
+:::{.fragment}
 Get $p_{i}^{*}$ from the Antoine equation, from the Steam Table, or from DWSIM.
+:::
 :::
 ::::
 
+:::{.fragment}
 ![](H2OMoleFracOneConden.png){.absolute top=25% right=0% width=40%}
----
+:::
 
 ## Additional Definitions
 
 Most people don’t understand mole fractions, and we don’t have enough parameter names yet, so we have the following definitions (saturation is any gas-vapor system, humidity is specifically air-water):
 
+:::{.fragment}
 *Relative Saturation or Relative Humidity*
-
+:::
+:::{.fragment}
 $$s_r \text{ or }h_r = \frac{p_i}{p_i^*(T)}*100%$$
-
+:::
+:::{.fragment}
 *Molal Saturation or Molal Humidity*
-
+:::
+:::{.fragment}
 $$s_m\text{ or }h_m = \frac{p_i} {P-p_i} = \frac{\text{moles of vapor}}{\text{moles of vapor-free (dry)gas}}$$
-
----
+:::
 
 ## Definitions (cont.)
 *Absolute Saturation or Absolute Humidity*
 
+:::{.fragment}
 $$s_a\text{ or }h_a = \frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \frac{\text{moles of vapor}}{\text{moles of vapor-free (dry)gas}}$$
-
+:::
+:::{.fragment}
 *Percentage Saturation or Percentage Humidity*
-
+:::
+:::{.fragment}
 $$s_p\text{ or }h_p = 100\% \times \frac{s_m} {s_m^*} = 100\% \times \frac{\frac{p_i}{P-p_i}}{\frac{p_i^*}{P-p_i^*}}$$
-
-
----
-
+:::
 
 ## Example 2:
 
@@ -156,13 +183,14 @@ on the can?
 2. What is the dew point?
 3. What are the degrees of superheat?
 
+:::{.fragment}
 **Solution:**
+
 Need $p^*$ at $86\ ^\circ\mathrm{F}$ ($30\ ^\circ\mathrm{C}$)
-
+:::
+:::{.fragment}
 From Antoine Equation or Steam Table or DWSIM.
-
-
----
+:::
 
 
 ## Example 2 (cont):
@@ -170,33 +198,51 @@ From Antoine Equation or Steam Table or DWSIM.
 Antotine Equation
 
 :::{style="font-size: 90px;"}
+:::{.fragment .absolute top=10% left=10%}
 $$\log_{10}p^* = 4.6543 - \frac{1435.264}{T - 64.848}$$
+:::
+:::{.fragment .absolute top=22% left=22%}
 $$= 4.6543 - \frac{1435.264}{30 - 64.848} = -1.3686$$
-
+:::
+:::{.fragment .absolute top=35% left=10%}
 $$p^* = 10^{-1.3686} = 0.04280\ \mathrm{bar}$$
-
+:::
+:::{.fragment .absolute top=45% left=11%}
 $$p = h_rp^* = 0.30 \times 0.04280\ \mathrm{bar} = 0.01284\ \mathrm{bar}$$
-
+:::
+:::{.fragment .absolute top=53% left=7.5%}
 $$T_{dp} = \frac{B}{A-\log_{10}p^*} - C$$
+:::
+:::{.fragment .absolute top=67% left=13%}
 $$= \frac{1435.264}{4.6543 − \log_{10} 0.01284} + 64.848 = 10.96\ ^\circ\mathrm{C}\text{ or }51.74\ ^\circ\mathrm{F}$$
-
+:::
+:::{style="font-size: 95px;"}
+:::{.fragment .absolute top=81% left=0%}
 $$T-T_{dp} = 30-10.96 = 19.04\ ^\circ\mathrm{C}\text{ or }34.26\ ^\circ\mathrm{F}\text{ of Superheat}$$
 :::
----
+:::
+:::
 
 ## Example 2 (cont):
 
 Steam Table or DWSIM
 
+:::{.fragment}
 $$p^* = 0.04247\ \mathrm{bar}$$
+:::
+:::{.fragment}
 $$p = h_{r}p^{*} = 0.30 \times 0.04247\ \mathrm{bar} = 0.01274\ \mathrm{bar}$$
+:::
 
+:::{.fragment}
 ![](InterpSteamTableH2OVapPress.png)
-
+:::
+:::{.fragment}
 $$T_{dp} = 10.55\ ^\circ\mathrm{C}\text{ or }50.99\ ^\circ\mathrm{F}$$
+:::
+:::{.fragment}
 $$T - T_{dp} = 30-10.55 = 19.45\ ^\circ\mathrm{C}\text{ or }35.01\ ^\circ\mathrm{F}\text{ of Superheat}$$
-
----
+:::
 
 ## Henry's law
 
@@ -204,29 +250,33 @@ What about a gas dissolved in a liquid? For dilute solutions,
 Henry’s Law holds (A dilute solution is one for which Henry’s law
 holds).
 
+:::{.fragment}
 $$p_\mathrm{A} \equiv y_\mathrm{A}P = x_\mathrm{A}H_\mathrm{A}(T)$$
-
+:::
+:::{.fragment}
 In words, the fraction of A dissolved in the liquid phase is directly
 proportional to the partial pressure of A in the vapor phase. The
 proportionality constant (which can change with temperature) is
 the *Henry’s Law Constant*. (See [Wikipedia](https://en.wikipedia.org/wiki/Henry%27s_law))
-
-
----
+:::
 
 ## The Takeaways
 
+:::{style="font-size: 95px"}
 1. There are semi-empirical relationships, such as the Antoine equation that will let you calculate the vapor pressure as a function of temperature, and vice versa.
 2. In a two-component mixture where one of the components can condense, condensation starts once the mixture hits the dew-point temperature, where the partial pressure equals the vapor pressure.
 3. In a two-component mixture where one of the components can condense, if the partial pressure is below the vapor pressure, we use the terms relative saturation, or relative humidity for the ratio of the partial pressure to the vapor pressure.
-4. For a gas dissolving in a liquid, the mole fraction of the gas in the liquid is the partial pressure of the gas times the Henry’s law constant.
-
----
-
-#
-
-::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+4. For a gas dissolving in a liquid, the mole fraction of the gas in the liquid is the partial pressure of the gas times the<br/>Henry’s law constant.
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->

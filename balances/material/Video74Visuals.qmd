@@ -24,23 +24,26 @@ DOFPro Team
 If the vapor phase is an ideal-gas mixture and the liquid phase is
 an ideal solution then Raoult’s Law holds.
 
+:::{.fragment}
 $$
 p_\mathrm{A} \equiv y_\mathrm{A}P = x_\mathrm{A}p_\mathrm{A}^*(T)
 $$
-
+:::
+:::{.fragment}
 or in terms of species $i$,
-
+:::
+:::{.fragment}
 $$
 y_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)
 $$ {#eq-raoults}
-
+:::
+:::{.fragment}
 In words, the partial pressure of a component is equal to the liquid
 mole fraction of the component times its vapor pressure.
 (If the vapor phase is not an ideal-gas mixture or the liquid phase
 is not an ideal solution then we are led to the realms of activity
 coefficients, fugacities and Poynting factors, i.e., the advanced phase equilibria videos)
-
----
+:::
 
 ## BUBL, DEW, FLASH
 
@@ -57,39 +60,87 @@ droplet condenses, and $x_{i}$’s of the droplet.
 5. FLASH – Given overall composition ($z_{i}$’s) and $T$ and $P$, calculate
 $x_{i}$’s and $y_{i}$’s, and relative amounts of vapor, $\mathcal{V}$, and liquid, $\mathcal{L}$. 
 
-
----
+##
 
 Graphical BUBL P, DEW P
 
-![](PxyDiagram320KTemp.png)
+![](PxyBubbleDew.png){.absolute left=10% top=10% width=80%}
+
+:::{style="font-size: 65px;"}
+
+:::{.absolute top=15% left=28%}
+Overall<br/> Composition
+:::
+
+:::{.absolute top=27% left=23%}
+Subcooled<br/>Liquid
+:::
+
+:::{.absolute top=55% left=60%}
+Superheated<br/>Vapor
+:::
+
+:::{.absolute top=45% left=38%}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=36.5% left=8%}
+Bubble<br/> Pressure
+:::
+
+:::{.absolute top=70% left=51%}
+Bubble<br/> Composition
+:::
+
+:::{.absolute top=59% left=8%}
+Dew<br/> Pressure
+:::
+
+:::{.absolute top=81% left=19%}
+Dew<br/> Composition
+:::
+
+:::{.absolute top=23% left=56%}
+Low Boiling<br/>Azeotrope
+:::
+
+:::
 
 
 ---
 
 ## BUBL P
 
+:::{style="font-size: 95px;"}
 Given all $x_{i}$’s and $T$, calculate $P$ and $y_{i}$’s.
 
+:::{.fragment .absolute left=0% top=15%}
 If necessary, begin by calculating all of the vapor pressures from the
 Antoine equation.
-
+:::
+:::{.fragment .absolute left=0% top=25%}
 $$
 p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}
 $$ {#eq-BP1}
-
-Raoult's Law, @eq-raoults, $$y_{i}P = x_{i}p_{i}^{*}(T)\ \ \ (i=1, 2, 3, .., N)$$
-
+:::
+:::{.fragment .absolute left=0% top=38%}
+Raoult's Law, @eq-raoults,
+$$y_{i}P = x_{i}p_{i}^{*}(T)\ \ \ (i=1, 2, 3, .., N)$$
+:::
+:::{.fragment .absolute left=0% top=55%}
 can be rearranged as: 
-
+:::
+:::{.fragment .absolute left=0% top=60%}
 $$P =  \sum_{n=1}^{N} x_{i}p_{i}^{*}
 $$ {#eq-BP3}
-
+:::
+:::{.fragment .absolute left=0% top=80%}
 to calculate $P$. Then calculate $y_{i}$'s from:
-
+:::
+:::{.fragment .absolute left=0% top=83%}
 $$y_{i} = \frac{x_{i} p_{i}^*} {P}\ \ \ (i = 1, 2, 3, ..., N)$$ {#eq-BP4}
-
----
+:::
+:::
 
 ## DEW P
 
