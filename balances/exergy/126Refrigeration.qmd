@@ -134,10 +134,26 @@ Outlet quality comes from property table at $T_{evap}$, $P_{evap}.$
 
 ## Vapor Compression Cycle
 ::: {.column-page}
+<<<<<<< Updated upstream
 ## The Rankine Cycle
+=======
+The Rankine Cycle
+>>>>>>> Stashed changes
 :::
 
 ::: {.incremental}
 ![](images/image-5.png)
 :::
 
+<<<<<<< Updated upstream
+=======
+## R134a
+::: {.column-page}
+![](images/image-6.png)
+:::
+
+::: {.column-page}
+![](images/image-7.png)
+:::
+:::
+>>>>>>> Stashed changes
