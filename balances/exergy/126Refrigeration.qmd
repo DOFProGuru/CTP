@@ -18,78 +18,124 @@ E82- Running a Rankine cycle backwards for fun and profit
 
 
 ##
+
+:::{style="font-size:85px;"}
+
+::: {.absolute left=3% top=0%}
+<div style="width: 65%; float: left;">
 In a heat engine you want to generate work. You do so by converting as much of the high-temperature heat as possible into work. The efficiency of any heat engine operating between two heat reservoirs is defined as:
+</div>
 
-
-:::{.fragment}
-$\eta\equiv\frac{|W|}{|Q_{hot}|}$
 :::
 
+
+
+
 :::{.fragment}
+::: {.absolute left=18% top=25%}
+$$\eta\equiv\frac{|W|}{|Q_{hot}|}$$
+:::
+:::
+
+::: {.absolute left=3% top=45%}
+
+:::{.fragment}
+<div style="width: 65%; float: left;">
 Again, it's what you want divided by what you pay for.
 The efficiency of a Carnot engine is
+</div>
+:::
 :::
 
+::: {.absolute left=18% top=55%}
 :::{.fragment}
-$\eta=\frac{|W|}{|Q_{hot}|}=1-\frac{T_{cold}}{T_{hot}}$
+$$\eta=\frac{|W|}{|Q_{hot}|}=1-\frac{T_{cold}}{T_{hot}}$$
 :::
-
-::: {.incremental}
-![](images/image-1.png)
+:::
 :::
 
 ## 
+:::{style="font-size:85px;"}
+
+::: {.absolute left=3% top=0%}
+<div style="width: 65%; float: left;">
 In a refrigerator, we want to remove heat at a cold temperature. We do so by putting in work. The coefficient of performance for a refrigerator is the heat removed at the low temperature divided by the work that you have to put in,
-
-
-:::{.fragment}
-$\frac{|Q_{cold}|}{|W|}=\omega=C.O.P.$
+</div>
 :::
 
+::: {.absolute left=18% top=30%}
 :::{.fragment}
+$$\frac{|Q_{cold}|}{|W|}=\omega=C.O.P.$$
+:::
+:::
+
+
+::: {.absolute left=3% top=45%}
+:::{.fragment}
+<div style="width: 65%; float: left;">
 Again, it's what you want divided by what you pay for. The coefficient of performance for a Carnot refrigerator is
+</div>
+
+:::
 :::
 
+::: {.absolute left=18% top=60%}
 :::{.fragment}
 
-$\omega=\frac{|Q_{cold}|}{|W|}=\frac{T_{cold}}{T_{hot}-T_{cold}}$
+$$\omega=\frac{|Q_{cold}|}{|W|}=\frac{T_{cold}}{T_{hot}-T_{cold}}$$
 :::
-
-::: {.incremental}
-![](images/image-2.png)
+:::
 :::
 
 ##
+:::{style="font-size:85px;"}
+
+::: {.absolute left=3% top=0%}
+<div style="width: 65%; float: left;">
 In a heat pump, we want to supply heat at a warm temperature.
 We do so by putting in work. The coefficient of performance for a heat pump is the heat supplied at the warm temperature divided by the work that you have to put in,
+</div>
 
-:::{.fragment}
-$\frac{|Q_{hot}|}{|W|}=\omega=C.O.P.$
+
 :::
 
-
+::: {.absolute left=18% top=30%}
 :::{.fragment}
+$$\frac{|Q_{hot}|}{|W|}=\omega=C.O.P.$$
+:::
+:::
+
+::: {.absolute left=3% top=45%}
+:::{.fragment}
+<div style="width: 65%; float: left;">
 Again, it's what you want divided by what you pay for. The coefficient of performance for a Carnot heat pump is
+</div>
+
+:::
 :::
 
-
+::: {.absolute left=18% top=60%}
 :::{.fragment}
-$\omega=\frac{|Q_{hot}|}{|W|}=\frac{T_{hot}}{T_{hot}-T_{cold}}$
+$$\omega=\frac{|Q_{hot}|}{|W|}=\frac{T_{hot}}{T_{hot}-T_{cold}}$$
+:::
+:::
 :::
 
-::: {.incremental}
-![](images/image-3.png)
-:::
+## 
+### Vapor Compression Cycle
 
-## Vapor Compression Cycle
-::: {.column-page}
-![](images/image-4.png)
-:::
 
-## Evaporator
+##
+### Evaporator
 
+:::{style="font-size:85px;"}
 :::{.fragment}
+::: {.absolute left=8% top=7%}
 $$\dot{Q}_{cold}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_{b}-\hat{H}_{a})$$
+:::
+<br/>
+<br/>
+
 :::
 :::{.fragment}
 Inlet enthalpy comes from isenthalpic valve.
@@ -97,63 +143,68 @@ Inlet enthalpy comes from isenthalpic valve.
 :::{.fragment}
 Outlet enthalpy is saturated vapor at $T_{evap}$ $P_{evap}$.
 :::
+:::
 
-## Compressor
-
+### Compressor
+:::{style="font-size:85px;"}
 :::{.fragment}
+::: {.absolute left=8% top=35%}
 $$\dot{W}_{S}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_{c}-\hat{H}_{b})$$
 :::
+:::
 :::{.fragment}
+::: {.absolute left=8% top=45%}
 $$\Delta\dot{S}=0\Rightarrow\hat{S}_{c}=\hat{S}_{b}$$
 :::
+:::
+<br/>
+<br/>
+<br/>
+<br/>
+
 :::{.fragment}
 Inlet enthalpy, entropy is from saturated vapor at $T_{evap},$ $P_{evap}.$
 :::
 :::{.fragment}
 Outlet enthalpy comes from property table at $P_{comp}$ $S_{c}$
 :::
+:::
 
-## Condenser
+##
+### Condenser
+:::{style="font-size:85px;"}
 :::{.fragment}
+::: {.absolute left=8% top=7%}
 $$\dot{Q}_{hot}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_{d}-\hat{H}_{c})$$
 :::
+:::
+<br/>
+<br/>
+
 :::{.fragment}
 Inlet enthalpy comes from compressor.
 :::
 :::{.fragment}
 Outlet enthalpy is saturated liquid at $T_{cond}$ $P_{cond\cdot}$
 :::
+:::
 
-## Throttling Valve
+### Throttling Valve
+:::{style="font-size:85px;"}
 :::{.fragment}
+::: {.absolute left=8% top=35%}
 $$\Delta\dot{H}=0\Rightarrow\hat{H}_{a}=\hat{H}_{b}$$
 :::
+:::
+<br/>
+<br/>
+
 :::{.fragment}
 Outlet quality comes from property table at $T_{evap}$, $P_{evap}.$
 :::
-
-## Vapor Compression Cycle
-::: {.column-page}
-<<<<<<< Updated upstream
-## The Rankine Cycle
-=======
-The Rankine Cycle
->>>>>>> Stashed changes
 :::
 
-::: {.incremental}
-![](images/image-5.png)
-:::
+## 
 
-<<<<<<< Updated upstream
-=======
-## R134a
-::: {.column-page}
-![](images/image-6.png)
-:::
+**Vapor Compression Cycle** $\qquad$ **The Rankine Cycle**
 
-::: {.column-page}
-![](images/image-7.png)
-:::
-:::
->>>>>>> Stashed changes
