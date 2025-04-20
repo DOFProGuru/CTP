@@ -312,70 +312,49 @@
     "href": "balances/exergy/126Refrigeration.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "In a heat engine you want to generate work. You do so by converting as much of the high-temperature heat as possible into work. The efficiency of any heat engine operating between two heat reservoirs is defined as:\n\n\\(\\eta\\equiv\\frac{|W|}{|Q_{hot}|}\\)\n\n\nAgain, it’s what you want divided by what you pay for. The efficiency of a Carnot engine is\n\n\n\\(\\eta=\\frac{|W|}{|Q_{hot}|}=1-\\frac{T_{cold}}{T_{hot}}\\)"
+    "text": "In a heat engine you want to generate work. You do so by converting as much of the high-temperature heat as possible into work. The efficiency of any heat engine operating between two heat reservoirs is defined as:\n\n\n\n\n\\[\\eta\\equiv\\frac{|W|}{|Q_{hot}|}\\]\n\n\n\n\n\nAgain, it’s what you want divided by what you pay for. The efficiency of a Carnot engine is\n\n\n\n\n\n\\[\\eta=\\frac{|W|}{|Q_{hot}|}=1-\\frac{T_{cold}}{T_{hot}}\\]"
   },
   {
     "objectID": "balances/exergy/126Refrigeration.html#section-1",
     "href": "balances/exergy/126Refrigeration.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "In a refrigerator, we want to remove heat at a cold temperature. We do so by putting in work. The coefficient of performance for a refrigerator is the heat removed at the low temperature divided by the work that you have to put in,\n\n\\(\\frac{|Q_{cold}|}{|W|}=\\omega=C.O.P.\\)\n\n\nAgain, it’s what you want divided by what you pay for. The coefficient of performance for a Carnot refrigerator is\n\n\n\\(\\omega=\\frac{|Q_{cold}|}{|W|}=\\frac{T_{cold}}{T_{hot}-T_{cold}}\\)"
+    "text": "In a refrigerator, we want to remove heat at a cold temperature. We do so by putting in work. The coefficient of performance for a refrigerator is the heat removed at the low temperature divided by the work that you have to put in,\n\n\n\n\n\\[\\frac{|Q_{cold}|}{|W|}=\\omega=C.O.P.\\]\n\n\n\n\n\nAgain, it’s what you want divided by what you pay for. The coefficient of performance for a Carnot refrigerator is\n\n\n\n\n\n\\[\\omega=\\frac{|Q_{cold}|}{|W|}=\\frac{T_{cold}}{T_{hot}-T_{cold}}\\]"
   },
   {
     "objectID": "balances/exergy/126Refrigeration.html#section-2",
     "href": "balances/exergy/126Refrigeration.html#section-2",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "In a heat pump, we want to supply heat at a warm temperature. We do so by putting in work. The coefficient of performance for a heat pump is the heat supplied at the warm temperature divided by the work that you have to put in,\n\n\\(\\frac{|Q_{hot}|}{|W|}=\\omega=C.O.P.\\)\n\n\nAgain, it’s what you want divided by what you pay for. The coefficient of performance for a Carnot heat pump is\n\n\n\\(\\omega=\\frac{|Q_{hot}|}{|W|}=\\frac{T_{hot}}{T_{hot}-T_{cold}}\\)"
+    "text": "In a heat pump, we want to supply heat at a warm temperature. We do so by putting in work. The coefficient of performance for a heat pump is the heat supplied at the warm temperature divided by the work that you have to put in,\n\n\n\n\n\\[\\frac{|Q_{hot}|}{|W|}=\\omega=C.O.P.\\]\n\n\n\n\n\nAgain, it’s what you want divided by what you pay for. The coefficient of performance for a Carnot heat pump is\n\n\n\n\n\n\\[\\omega=\\frac{|Q_{hot}|}{|W|}=\\frac{T_{hot}}{T_{hot}-T_{cold}}\\]"
   },
   {
-    "objectID": "balances/exergy/126Refrigeration.html#vapor-compression-cycle",
-    "href": "balances/exergy/126Refrigeration.html#vapor-compression-cycle",
+    "objectID": "balances/exergy/126Refrigeration.html#section-3",
+    "href": "balances/exergy/126Refrigeration.html#section-3",
     "title": "Chemical and Thermal Processes",
-    "section": "Vapor Compression Cycle",
+    "section": "",
     "text": "Vapor Compression Cycle"
   },
   {
-    "objectID": "balances/exergy/126Refrigeration.html#evaporator",
-    "href": "balances/exergy/126Refrigeration.html#evaporator",
+    "objectID": "balances/exergy/126Refrigeration.html#section-4",
+    "href": "balances/exergy/126Refrigeration.html#section-4",
     "title": "Chemical and Thermal Processes",
-    "section": "Evaporator",
-    "text": "Evaporator\n\n\\[\\dot{Q}_{cold}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_{b}-\\hat{H}_{a})\\]\n\n\nInlet enthalpy comes from isenthalpic valve.\n\n\nOutlet enthalpy is saturated vapor at \\(T_{evap}\\) \\(P_{evap}\\)."
+    "section": "",
+    "text": "Evaporator\n\n\n\n\\[\\dot{Q}_{cold}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_{b}-\\hat{H}_{a})\\]\n\n \n\n\nInlet enthalpy comes from isenthalpic valve.\n\n\nOutlet enthalpy is saturated vapor at \\(T_{evap}\\) \\(P_{evap}\\).\n\n\nCompressor\n\n\n\n\\[\\dot{W}_{S}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_{c}-\\hat{H}_{b})\\]\n\n\n\n\n\\[\\Delta\\dot{S}=0\\Rightarrow\\hat{S}_{c}=\\hat{S}_{b}\\]\n\n\n   \n\nInlet enthalpy, entropy is from saturated vapor at \\(T_{evap},\\) \\(P_{evap}.\\)\n\n\nOutlet enthalpy comes from property table at \\(P_{comp}\\) \\(S_{c}\\)"
   },
   {
-    "objectID": "balances/exergy/126Refrigeration.html#compressor",
-    "href": "balances/exergy/126Refrigeration.html#compressor",
+    "objectID": "balances/exergy/126Refrigeration.html#section-5",
+    "href": "balances/exergy/126Refrigeration.html#section-5",
     "title": "Chemical and Thermal Processes",
-    "section": "Compressor",
-    "text": "Compressor\n\n\\[\\dot{W}_{S}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_{c}-\\hat{H}_{b})\\]\n\n\n\\[\\Delta\\dot{S}=0\\Rightarrow\\hat{S}_{c}=\\hat{S}_{b}\\]\n\n\nInlet enthalpy, entropy is from saturated vapor at \\(T_{evap},\\) \\(P_{evap}.\\)\n\n\nOutlet enthalpy comes from property table at \\(P_{comp}\\) \\(S_{c}\\)"
+    "section": "",
+    "text": "Condenser\n\n\n\n\\[\\dot{Q}_{hot}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_{d}-\\hat{H}_{c})\\]\n\n\n \n\nInlet enthalpy comes from compressor.\n\n\nOutlet enthalpy is saturated liquid at \\(T_{cond}\\) \\(P_{cond\\cdot}\\)\n\n\nThrottling Valve\n\n\n\n\\[\\Delta\\dot{H}=0\\Rightarrow\\hat{H}_{a}=\\hat{H}_{b}\\]\n\n\n \n\nOutlet quality comes from property table at \\(T_{evap}\\), \\(P_{evap}.\\)"
   },
   {
-    "objectID": "balances/exergy/126Refrigeration.html#condenser",
-    "href": "balances/exergy/126Refrigeration.html#condenser",
+    "objectID": "balances/exergy/126Refrigeration.html#section-6",
+    "href": "balances/exergy/126Refrigeration.html#section-6",
     "title": "Chemical and Thermal Processes",
-    "section": "Condenser",
-    "text": "Condenser\n\n\\[\\dot{Q}_{hot}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_{d}-\\hat{H}_{c})\\]\n\n\nInlet enthalpy comes from compressor.\n\n\nOutlet enthalpy is saturated liquid at \\(T_{cond}\\) \\(P_{cond\\cdot}\\)"
-  },
-  {
-    "objectID": "balances/exergy/126Refrigeration.html#throttling-valve",
-    "href": "balances/exergy/126Refrigeration.html#throttling-valve",
-    "title": "Chemical and Thermal Processes",
-    "section": "Throttling Valve",
-    "text": "Throttling Valve\n\n\\[\\Delta\\dot{H}=0\\Rightarrow\\hat{H}_{a}=\\hat{H}_{b}\\]\n\n\nOutlet quality comes from property table at \\(T_{evap}\\), \\(P_{evap}.\\)"
-  },
-  {
-    "objectID": "balances/exergy/126Refrigeration.html#vapor-compression-cycle-1",
-    "href": "balances/exergy/126Refrigeration.html#vapor-compression-cycle-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Vapor Compression Cycle",
-    "text": "Vapor Compression Cycle\n\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream ## The Rankine Cycle ======= The Rankine Cycle &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes"
-  },
-  {
-    "objectID": "balances/exergy/126Refrigeration.html#r134a",
-    "href": "balances/exergy/126Refrigeration.html#r134a",
-    "title": "Chemical and Thermal Processes",
-    "section": "R134a",
-    "text": "R134a\n\n\n\n\n\n\n::: &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes"
+    "section": "",
+    "text": "Vapor Compression Cycle \\(\\qquad\\) The Rankine Cycle"
   },
   {
     "objectID": "balances/exergy/index.html",
