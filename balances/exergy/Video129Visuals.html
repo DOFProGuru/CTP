@@ -127,8 +127,8 @@
 
 
 <section>
-<section id="ideal-work-lost-work-and-thermodynamic-efficiency" class="title-slide slide level1 bigbold75 center">
-<h1>Ideal Work, Lost Work and<br>Thermodynamic Efficiency<br></h1>
+<section id="the-law-is-a-thief-it-destroys-exergy-and-laughs-in-your-face-part-1" class="title-slide slide level1 center">
+<h1>The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
@@ -136,12 +136,12 @@
 </section>
 <section id="concepts" class="slide level2">
 <h2>Concepts</h2>
-<ol type="1">
+<ul>
 <li class="fragment">Work is more valuable than heat.</li>
 <li class="fragment">Heat rejected to (or taken from) the ambient is worthless (or free).</li>
 <li class="fragment">The same for work performed on or done by the ambient.</li>
 <li class="fragment">For a given process or system (desired change of state) there is a minimum work required or a maximum work available. The goal is to find it.</li>
-</ol>
+</ul>
 </section>
 <section id="example" class="slide level2">
 <h2>Example</h2>
@@ -159,22 +159,20 @@
 </section>
 <section id="heat-exchanger" class="slide level2">
 <h2>1. Heat Exchanger</h2>
-<p><span class="math display">\[\begin{align*}
-\dot{m}\Delta H &amp;= \dot{Q} + W_s = 0 \\
-\dot{Q} &amp;= 0 \\
-W_s &amp;= 0
-\end{align*}\]</span></p>
+<p><span class="math inline">\(\dot{m}\Delta H = \dot{Q} + \dot{W}_s = 0\)</span></p>
+<p><span class="math inline">\(\dot{Q} = 0\)</span></p>
+<p><span class="math inline">\(\boxed{\dot{W}_s = 0}\)</span></p>
 </section>
 <section id="refrigerator" class="slide level2">
 <h2>2. Refrigerator</h2>
+<p><span class="math inline">\(\boxed{\dot{W}_s\text{ into system (Oops)}}\)</span></p>
 </section>
 <section id="infinitesimal-carnot-engines" class="slide level2">
 <h2>3. Infinitesimal Carnot Engines</h2>
-<p><span class="math display">\[\begin{align*}
-\dot{W}_\text{total} &amp;= \dot{m}[Q - T_\sigma \Delta S] \\
-&amp;= 100(-6722.36 - 300(-19.2917)) \\
-&amp;= -93.49 \text{ kJ/s} = W_\text{max}
-\end{align*}\]</span></p>
+<p><span class="math inline">\(\dot{W}_\text{total} = \dot{m}(Q - T_\sigma \Delta S)\)</span></p>
+<p><span class="math display">\[= \dot{m} \left(\int_{100}^{50} C_p dT - T_\sigma \int_{100}^{50} \dfrac{C_p}{T} dT\right)\]</span></p>
+<p><span class="math inline">\(= 100(-6722.36 - 300(-19.2917))\)</span></p>
+<p><span class="math inline">\(= -93.49 \text{ kJ/s} = W_\text{max}\)</span></p>
 </section>
 <section id="derivation" class="slide level2">
 <h2>Derivation</h2>
@@ -189,37 +187,42 @@ W_s &amp;= 0
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p>For an open transient system, the First Law is</p>
+<p>For an open transient system, the First Law is <br><br></p>
+<div style="font-size: 70px;">
 <div class="fragment">
-<p><span class="math inline">\(\tiny \frac{d}{dt}(U + E_k + E_p)_{\text{control volume}} = \sum \dot{Q}_i + \sum \dot{W}_{s_j} - (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p)_{\text{flow streams}}\)</span></p>
+<p><span class="math inline">\(\dfrac{d}{dt}(U + E_k + E_p)_{\text{control volume}} = \sum \dot{Q}_i + \sum \dot{W}_{s_j} - (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p)_{\text{flow streams}}\)</span></p>
+</div>
 </div>
 <p><br></p>
 <div class="fragment">
-<p>which on a mass basis is</p>
+<p>which on a mass basis is <br><br></p>
+</div>
+<div style="font-size: 60px;">
+<div class="fragment">
+<p><span class="math inline">\(\dfrac{d}{dt}\left[m\left(\hat{U} + \hat{E}_k + \hat{E}_p\right)\right]_\mathrm{cv} = \sum \dot{Q}_i + \sum \dot{W}_{s_i} + \sum\limits_\mathrm{in} \dot{m}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right) - \sum\limits_\mathrm{out} \dot{m}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right)\)</span></p>
+</div>
+<p><br></p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(\tiny \frac{d}{dt}\left[m\left(\hat{U} + \hat{E}_k + \hat{E}_p\right)\right]_{cv} = \sum \dot{Q}_i + \sum \dot{W}_{S_i} + \sum_{in} \dot{m}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right) - \sum_{out} \dot{m}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right)\)</span> <br></p>
+<p>or on a mole basis is <br><br></p>
 </div>
+<div style="font-size: 60px;">
 <div class="fragment">
-<p>or on a mole basis is</p>
+<p><span class="math inline">\(\dfrac{d}{dt}\left[n\left(\hat{U} + \hat{E}_k + \hat{E}_p\right)\right]_\mathrm{cv} = \sum \dot{Q}_i + \sum \dot{W}_{s_i} + \sum\limits_\mathrm{in} \dot{n}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right) - \sum\limits_\mathrm{out} \dot{n}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right)\)</span></p>
 </div>
-<div class="fragment">
-<p><span class="math inline">\(\tiny \frac{d}{dt}\left[n\left(\hat{U} + \hat{E}_k + \hat{E}_p\right)\right]_{cv} = \sum \dot{Q}_i + \sum \dot{W}_{S_i} + \sum_{in} \dot{n}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right) - \sum_{out} \dot{n}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right)\)</span></p>
 </div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<div class="fragment">
 <p>For an open transient system, the Second Law is</p>
+<div class="fragment">
+<p><span class="math inline">\(\dfrac{dS_\mathrm{cv}}{dt} + \Delta ( \dot{S} )_\mathrm{fs} - \sum_j \dfrac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0\)</span></p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(\frac{dS_{cv}}{dt} + \Delta \left( \dot{S} \right)_{fs} - \sum_j \frac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0\)</span></p>
+<p><span class="math inline">\(\dfrac{d ( m\hat{S} )_\mathrm{cv}}{dt} + \Delta ( \dot{m}\hat{S} )_\mathrm{fs} - \sum_j \dfrac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0 \quad\)</span> Mass Basis</p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(\frac{d \left( m\hat{S} \right)_{cv}}{dt} + \Delta \left( \dot{m}\hat{S} \right)_{fs} - \sum_j \frac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0\)</span> Mass Basis</p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(\frac{d \left( n\hat{S} \right)_{cv}}{dt} + \Delta \left( \dot{n}\hat{S} \right)_{fs} - \sum_j \frac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0\)</span> Mole Basis</p>
+<p>or <span class="math inline">\(\dfrac{d ( n\hat{S} )_\mathrm{cv}}{dt} + \Delta ( \dot{n}\hat{S} )_\mathrm{fs} - \sum_j \dfrac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0 \quad\)</span> Mole Basis</p>
 </div>
 <div class="fragment">
 <p><span class="math inline">\(\dot{Q}_j\)</span> is heat transferred into system from reservoir <span class="math inline">\(j\)</span></p>
@@ -230,26 +233,30 @@ W_s &amp;= 0
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<div class="fragment">
-<p>Combine (add the two equations) and solve for <span class="math inline">\(\sum \dot{W}_{S_i} = \sum \dot{W}_S\)</span></p>
+<div style="font-size: 90px;">
+<p>Combine (add the two equations) and solve for <span class="math inline">\(\sum \dot{W}_{s_i} = \dot{W}_s\)</span></p>
 </div>
 <div class="fragment">
-<p>Ambient <span class="math inline">\(T\)</span> is <span class="math inline">\(T_\sigma\)</span> !</p>
+<p>Ambient <span class="math inline">\(T\)</span> is <span class="math inline">\(T_\sigma\)</span>.</p>
 </div>
+<div style="font-size: 65px;">
 <div class="fragment">
-<p><span class="math inline">\(\tiny \dot{W}_S = \frac{d}{dt} \left( U + E_k + E_p - T_\sigma S \right)_{cv} - \sum \left( 1 - \frac{T_\sigma}{T_i} \right) \dot{Q}_i + \left( \Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S} \right)_{fs} + T_\sigma \dot{S}_{gen}\)</span></p>
+<p><span class="math inline">\(\dot{W}_s = \frac{d}{dt} \left( U + E_k + E_p - T_\sigma S \right)_\mathrm{cv} - \sum \left( 1 - \frac{T_\sigma}{T_i} \right) \dot{Q}_i + \left( \Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S} \right)_\mathrm{fs} + T_\sigma \dot{S}_\mathrm{gen}\)</span></p>
 </div>
+</div>
+<div style="font-size: 90px;">
 <div class="fragment">
 <p><span class="math inline">\(\dot{Q}_\sigma\)</span> is transfer to ambient at <span class="math inline">\(T_\sigma\)</span> and doesn’t show up in the balance.</p>
 </div>
-<div class="fragment">
-<p>What is <span class="math inline">\(T_\sigma \dot{S}_{gen}\)</span>? <span class="math inline">\(\quad\)</span> <span class="math inline">\(T_\sigma \dot{S}_{gen} = \dot{W}_{lost}\)</span></p>
 </div>
 <div class="fragment">
-<p>If <span class="math inline">\(\dot{S}_{gen} = 0 \Rightarrow \dot{W}_{lost} = 0\)</span>, then <span class="math inline">\(\quad \dot{W}_{S} = \dot{W}_{ideal}\)</span></p>
+<p>What is <span class="math inline">\(T_\sigma \dot{S}_\mathrm{gen}\)</span>? <span class="math inline">\(\quad\)</span> <span class="math inline">\(T_\sigma \dot{S}_\mathrm{gen} = \dot{W}_\mathrm{lost}\)</span></p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(\dot{W}_{ideal}\)</span> is the ideal work or the reversible work. It (or the negative of it) is sometimes called availability, available work or exergy.</p>
+<p>If <span class="math inline">\(\dot{S}_\mathrm{gen} = 0 \Rightarrow \dot{W}_\mathrm{lost} = 0\)</span>, then <span class="math inline">\(\quad \dot{W}_{s} = \dot{W}_\mathrm{ideal}\)</span></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\dot{W}_\mathrm{ideal}\)</span> is the ideal work or the reversible work. It (or the negative of it) is sometimes called availability, available work or exergy.</p>
 </div>
 </section>
 <section id="the-combined-1st-and-2nd-law" class="slide level2">
@@ -257,49 +264,59 @@ W_s &amp;= 0
 <div class="fragment">
 <p>Open Transient System</p>
 </div>
+<div style="font-size: 70px;">
 <div class="fragment">
-<p><span class="math inline">\(\tiny \dot{W}_{\text{ideal}} = \frac{d}{dt}(U + E_k + E_p - T_0 S)_{cv} - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_0 \Delta \dot{S})_{fs}\)</span></p>
+<p><span class="math inline">\(\dot{W}_{\text{ideal}} = \dfrac{d}{dt}(U + E_k + E_p - T_\sigma S)_\mathrm{cv} - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S})_\mathrm{fs}\)</span></p>
+</div>
 </div>
 <div class="fragment">
 <p>On a mass basis</p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(\tiny \dot{W}_{\text{ideal}} = \frac{d}{dt}[m(\hat{U} + \hat{E}_k + \hat{E}_p - T_0 \hat{S})]_{cv} - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i\)</span></p>
+<p><span class="math inline">\(\dot{W}_{\text{ideal}} = \dfrac{d}{dt}\left[m(\hat{U} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S})\right]_\mathrm{cv} - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i\)</span></p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
-\tiny + \sum_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S}) - \sum_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S})
++ \sum_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S}) - \sum_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S})
 \]</span></p>
 </div>
 <div class="fragment">
 <p>Or the same equation on a mole basis with <span class="math inline">\(n\)</span> and <span class="math inline">\(\dot{n}\)</span> replacing <span class="math inline">\(m\)</span> and <span class="math inline">\(\dot{m}\)</span></p>
 </div>
 </section>
-<section id="the-combined-1st-and-2nd-law-cont." class="slide level2">
-<h2>The Combined 1st and 2nd Law cont.</h2>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<div style="font-size: 135px; font-weight: bold;">
+<p>The Combined 1st and 2nd Law (cont.)</p>
+</div>
 <div class="columns">
 <div class="fragment">
 <p>Open Steady-State System</p>
 </div><div class="fragment">
-<p><span class="math inline">\(\tiny \dot{W}_{\text{ideal}} = - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_0 \Delta \dot{S})_{fs}\)</span></p>
+<p><span class="math inline">\(\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S})_\mathrm{fs}\)</span></p>
 </div><div class="fragment">
 <p>On a mass basis</p>
-</div><div class="fragment">
-<p><span class="math inline">\(\tiny \dot{W}_{\text{ideal}} = - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + \sum_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S}) - \sum_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S})\)</span></p>
+</div><div style="font-size: 70px;">
+<div class="fragment">
+<p><span class="math inline">\(\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + \sum\limits_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S}) - \sum\limits_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S})\)</span></p>
+</div>
 </div><div class="fragment">
 <p>On a mole basis</p>
-</div><div class="fragment">
-<p><span class="math inline">\(\tiny \dot{W}_{\text{ideal}} = - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + \sum_{\text{out}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_0 \bar{S}) - \sum_{\text{in}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_0 \bar{S})\)</span></p>
+</div><div style="font-size: 70px;">
+<div class="fragment">
+<p><span class="math inline">\(\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + \sum\limits_{\text{out}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_\sigma \bar{S}) - \sum\limits_{\text{in}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_\sigma \bar{S})\)</span></p>
+</div>
 </div>
 </div>
 </section>
-<section id="the-combined-1st-and-2nd-law-cont.-1" class="slide level2">
-<h2>The Combined 1st and 2nd Law cont.</h2>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<div style="font-size: 135px; font-weight: bold;">
+<p>The Combined 1st and 2nd Law (cont.)</p>
+</div>
 <div class="columns">
-<div class="fragment">
-<p>Closed System</p>
-</div><div class="fragment">
-<p><span class="math inline">\(W_{\text{ideal}} = \Delta U + \Delta E_k + \Delta E_p - T_0 \Delta S - \sum (1 - \frac{T_0}{T_i}) Q_i\)</span></p>
+<p>Closed System</p><div class="fragment">
+<p><span class="math inline">\(W_{\text{ideal}} = \Delta U + \Delta E_k + \Delta E_p - T_\sigma \Delta S - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) Q_i\)</span></p>
 </div><div class="fragment">
 <p>We will rarely encounter closed systems in thermodynamic or 2nd Law analyses.</p>
 </div>
@@ -309,54 +326,68 @@ W_s &amp;= 0
 <h2>How do you use it?</h2>
 <div class="columns">
 <div class="fragment">
-<p>Theromodynamic efficiency, <span class="math inline">\(\eta_t\)</span> or <span class="math inline">\(\eta_{II}\)</span></p>
+<p>Theromodynamic efficiency, <span class="math inline">\(\eta_t\)</span> or <span class="math inline">\(\eta_{\tiny \mathrm{II}}\)</span></p>
 </div><ul>
 <li class="fragment"><p>For processes that produce work:</p>
-<p><span class="math inline">\(\eta_t = \frac{\dot{W}_{S}}{\dot{W}_{ideal}}\)</span></p></li>
-<li class="fragment"><p>For processes that consume work:</p>
-<p><span class="math inline">\(\eta_t = \frac{\dot{W}_{ideal}}{\dot{W}_{S}}\)</span></p></li>
+<p><span class="math inline">\(\eta_t = \frac{\dot{W}_{s}}{\dot{W}_\mathrm{ideal}}\)</span></p></li>
+<li class="fragment"><p>For processes that require work:</p>
+<p><span class="math inline">\(\eta_t = \frac{\dot{W}_\mathrm{ideal}}{\dot{W}_{s}}\)</span></p></li>
 </ul>
 </div>
 </section>
-<section id="section-3" class="slide level2">
+<section id="section-5" class="slide level2">
 <h2></h2>
-<div class="fragment">
 <p>Also the lost work or irreversibility is</p>
+<div class="fragment">
+<p><span class="math inline">\(\dot{W}_\mathrm{lost} = \dot{W}_{s} - \dot{W}_\mathrm{ideal}\)</span></p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(\dot{W}_{lost} = \dot{W}_{S} - \dot{W}_{ideal}\)</span></p>
+<p>Is <span class="math inline">\(\dot{W}_\mathrm{lost}\)</span> always positive?</p>
 </div>
 <div class="fragment">
-<p>Is <span class="math inline">\(\dot{W}_{lost}\)</span> always positive?</p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(\dot{W}_{lost} = T_0 \dot{S}_{gen}\)</span></p>
+<p><span class="math inline">\(\dot{W}_\mathrm{lost} = T_\sigma \dot{S}_\mathrm{gen}\)</span></p>
 </div>
 <div class="fragment">
 <p>You should also analyze individual parts of a process and calculate lost work to see where the greatest inefficiencies lie.</p>
 </div>
 </section>
-<section id="steps-to-solve" class="slide level2">
-<h2>Steps to Solve</h2>
+<section id="steps" class="slide level2">
+<h2>Steps</h2>
 <ol type="1">
-<li class="fragment">Solve the original problem (flows, enthalpies, entropies, temperatures)<br>
+<li class="fragment">Solve the original problem. Determine all needed flows, enthalpies, entropies, temperatures, heat flows and work flows.<br>
 </li>
-<li class="fragment">Tabulate values for each unit<br>
+<li class="fragment">Create a table with the information in Step 1. Then for each process or unit operation in the system:<br>
 </li>
-<li class="fragment">Compute <span class="math inline">\(\dot{W}_{ideal}\)</span><br>
+<li class="fragment">Solve for the ideal work, <span class="math inline">\(\dot{W}_\mathrm{ideal}\)</span><br>
 </li>
-<li class="fragment">Compute <span class="math inline">\(\dot{W}_{lost}\)</span><br>
+<li class="fragment">Solve for the lost work, <span class="math inline">\(\dot{W}_\mathrm{lost}\)</span><br>
 </li>
-<li class="fragment">Calculate <span class="math inline">\(\eta_t\)</span><br>
+<li class="fragment">Solve for the thermodynamic efficiency, <span class="math inline">\(\eta_t\)</span><br>
 </li>
-<li class="fragment">Identify units contributing most to lost work</li>
+<li class="fragment">Determine which parts of the process contribute the most to the lost work.</li>
 </ol>
 </section>
-<section id="end-of-slides" class="slide level2">
-<h2>End of Slides</h2>
-
-
+<section id="the-takeaways" class="slide level2">
+<h2>The Takeaways</h2>
+<ol type="1">
+<li class="fragment">The combined First and Second Law is literally just the addition of the two laws, setting the entropy generation to zero, and solving for the ideal work, <span class="math inline">\(\dot{W}_\mathrm{ideal}\)</span></li>
+<li class="fragment">The most common version is for open steady-state systems.</li>
+<li class="fragment">Choosing the correct form of the thermodynamic efficiency requires knowledge of whether the process produces work or requires work.</li>
+<li class="fragment">The combined First and Second Law helps identify which parts of a process contribute most to lost work or inefficiency.</li>
+</ol>
 </section></section>
+<section id="section-6" class="title-slide slide level1 center">
+<h1><!-- Approved Plain End --></h1>
+<div class="centered bigger">
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+</div>
+<div class="absolute" style="font-size: 110px;top: 125%; left: 38%; ">
+<p>The DOFPro Team</p>
+</div>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 25.25%; width: 1494px; height: 364px; "> <!-- ****************************END Regular Intro/Outro ************************* --></p>
+
+
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png" class="slide-logo"></p>

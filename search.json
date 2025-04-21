@@ -6192,21 +6192,21 @@
     "href": "balances/exergy/Video129Visuals.html#heat-exchanger",
     "title": "Chemical and Thermal Processes",
     "section": "1. Heat Exchanger",
-    "text": "1. Heat Exchanger\n\\[\\begin{align*}\n\\dot{m}\\Delta H &= \\dot{Q} + W_s = 0 \\\\\n\\dot{Q} &= 0 \\\\\nW_s &= 0\n\\end{align*}\\]"
+    "text": "1. Heat Exchanger\n\\(\\dot{m}\\Delta H = \\dot{Q} + \\dot{W}_s = 0\\)\n\\(\\dot{Q} = 0\\)\n\\(\\boxed{\\dot{W}_s = 0}\\)"
   },
   {
     "objectID": "balances/exergy/Video129Visuals.html#refrigerator",
     "href": "balances/exergy/Video129Visuals.html#refrigerator",
     "title": "Chemical and Thermal Processes",
     "section": "2. Refrigerator",
-    "text": "2. Refrigerator"
+    "text": "2. Refrigerator\n\\(\\boxed{\\dot{W}_s\\text{ into system (Oops)}}\\)"
   },
   {
     "objectID": "balances/exergy/Video129Visuals.html#infinitesimal-carnot-engines",
     "href": "balances/exergy/Video129Visuals.html#infinitesimal-carnot-engines",
     "title": "Chemical and Thermal Processes",
     "section": "3. Infinitesimal Carnot Engines",
-    "text": "3. Infinitesimal Carnot Engines\n\\[\\begin{align*}\n\\dot{W}_\\text{total} &= \\dot{m}[Q - T_\\sigma \\Delta S] \\\\\n&= 100(-6722.36 - 300(-19.2917)) \\\\\n&= -93.49 \\text{ kJ/s} = W_\\text{max}\n\\end{align*}\\]"
+    "text": "3. Infinitesimal Carnot Engines\n\\(\\dot{W}_\\text{total} = \\dot{m}(Q - T_\\sigma \\Delta S)\\)\n\\[= \\dot{m} \\left(\\int_{100}^{50} C_p dT - T_\\sigma \\int_{100}^{50} \\dfrac{C_p}{T} dT\\right)\\]\n\\(= 100(-6722.36 - 300(-19.2917))\\)\n\\(= -93.49 \\text{ kJ/s} = W_\\text{max}\\)"
   },
   {
     "objectID": "balances/exergy/Video129Visuals.html#derivation",
@@ -6220,70 +6220,70 @@
     "href": "balances/exergy/Video129Visuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "For an open transient system, the First Law is\n\n\\(\\tiny \\frac{d}{dt}(U + E_k + E_p)_{\\text{control volume}} = \\sum \\dot{Q}_i + \\sum \\dot{W}_{s_j} - (\\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p)_{\\text{flow streams}}\\)\n\n\n\nwhich on a mass basis is\n\n\n\\(\\tiny \\frac{d}{dt}\\left[m\\left(\\hat{U} + \\hat{E}_k + \\hat{E}_p\\right)\\right]_{cv} = \\sum \\dot{Q}_i + \\sum \\dot{W}_{S_i} + \\sum_{in} \\dot{m}_i\\left(\\hat{H} + \\hat{E}_k + \\hat{E}_p\\right) - \\sum_{out} \\dot{m}_i\\left(\\hat{H} + \\hat{E}_k + \\hat{E}_p\\right)\\) \n\n\nor on a mole basis is\n\n\n\\(\\tiny \\frac{d}{dt}\\left[n\\left(\\hat{U} + \\hat{E}_k + \\hat{E}_p\\right)\\right]_{cv} = \\sum \\dot{Q}_i + \\sum \\dot{W}_{S_i} + \\sum_{in} \\dot{n}_i\\left(\\hat{H} + \\hat{E}_k + \\hat{E}_p\\right) - \\sum_{out} \\dot{n}_i\\left(\\hat{H} + \\hat{E}_k + \\hat{E}_p\\right)\\)"
+    "text": "For an open transient system, the First Law is \n\n\n\\(\\dfrac{d}{dt}(U + E_k + E_p)_{\\text{control volume}} = \\sum \\dot{Q}_i + \\sum \\dot{W}_{s_j} - (\\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p)_{\\text{flow streams}}\\)\n\n\n\n\nwhich on a mass basis is \n\n\n\n\\(\\dfrac{d}{dt}\\left[m\\left(\\hat{U} + \\hat{E}_k + \\hat{E}_p\\right)\\right]_\\mathrm{cv} = \\sum \\dot{Q}_i + \\sum \\dot{W}_{s_i} + \\sum\\limits_\\mathrm{in} \\dot{m}_i\\left(\\hat{H} + \\hat{E}_k + \\hat{E}_p\\right) - \\sum\\limits_\\mathrm{out} \\dot{m}_i\\left(\\hat{H} + \\hat{E}_k + \\hat{E}_p\\right)\\)\n\n\n\n\nor on a mole basis is \n\n\n\n\\(\\dfrac{d}{dt}\\left[n\\left(\\hat{U} + \\hat{E}_k + \\hat{E}_p\\right)\\right]_\\mathrm{cv} = \\sum \\dot{Q}_i + \\sum \\dot{W}_{s_i} + \\sum\\limits_\\mathrm{in} \\dot{n}_i\\left(\\hat{H} + \\hat{E}_k + \\hat{E}_p\\right) - \\sum\\limits_\\mathrm{out} \\dot{n}_i\\left(\\hat{H} + \\hat{E}_k + \\hat{E}_p\\right)\\)"
   },
   {
     "objectID": "balances/exergy/Video129Visuals.html#section-1",
     "href": "balances/exergy/Video129Visuals.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "For an open transient system, the Second Law is\n\n\n\\(\\frac{dS_{cv}}{dt} + \\Delta \\left( \\dot{S} \\right)_{fs} - \\sum_j \\frac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0\\)\n\n\n\\(\\frac{d \\left( m\\hat{S} \\right)_{cv}}{dt} + \\Delta \\left( \\dot{m}\\hat{S} \\right)_{fs} - \\sum_j \\frac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0\\) Mass Basis\n\n\n\\(\\frac{d \\left( n\\hat{S} \\right)_{cv}}{dt} + \\Delta \\left( \\dot{n}\\hat{S} \\right)_{fs} - \\sum_j \\frac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0\\) Mole Basis\n\n\n\\(\\dot{Q}_j\\) is heat transferred into system from reservoir \\(j\\)\n\n\n\\(T_j\\) is temperature of reservoir \\(j\\)"
+    "text": "For an open transient system, the Second Law is\n\n\\(\\dfrac{dS_\\mathrm{cv}}{dt} + \\Delta ( \\dot{S} )_\\mathrm{fs} - \\sum_j \\dfrac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0\\)\n\n\n\\(\\dfrac{d ( m\\hat{S} )_\\mathrm{cv}}{dt} + \\Delta ( \\dot{m}\\hat{S} )_\\mathrm{fs} - \\sum_j \\dfrac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0 \\quad\\) Mass Basis\n\n\nor \\(\\dfrac{d ( n\\hat{S} )_\\mathrm{cv}}{dt} + \\Delta ( \\dot{n}\\hat{S} )_\\mathrm{fs} - \\sum_j \\dfrac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0 \\quad\\) Mole Basis\n\n\n\\(\\dot{Q}_j\\) is heat transferred into system from reservoir \\(j\\)\n\n\n\\(T_j\\) is temperature of reservoir \\(j\\)"
   },
   {
     "objectID": "balances/exergy/Video129Visuals.html#section-2",
     "href": "balances/exergy/Video129Visuals.html#section-2",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Combine (add the two equations) and solve for \\(\\sum \\dot{W}_{S_i} = \\sum \\dot{W}_S\\)\n\n\nAmbient \\(T\\) is \\(T_\\sigma\\) !\n\n\n\\(\\tiny \\dot{W}_S = \\frac{d}{dt} \\left( U + E_k + E_p - T_\\sigma S \\right)_{cv} - \\sum \\left( 1 - \\frac{T_\\sigma}{T_i} \\right) \\dot{Q}_i + \\left( \\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_\\sigma \\Delta \\dot{S} \\right)_{fs} + T_\\sigma \\dot{S}_{gen}\\)\n\n\n\\(\\dot{Q}_\\sigma\\) is transfer to ambient at \\(T_\\sigma\\) and doesn’t show up in the balance.\n\n\nWhat is \\(T_\\sigma \\dot{S}_{gen}\\)? \\(\\quad\\) \\(T_\\sigma \\dot{S}_{gen} = \\dot{W}_{lost}\\)\n\n\nIf \\(\\dot{S}_{gen} = 0 \\Rightarrow \\dot{W}_{lost} = 0\\), then \\(\\quad \\dot{W}_{S} = \\dot{W}_{ideal}\\)\n\n\n\\(\\dot{W}_{ideal}\\) is the ideal work or the reversible work. It (or the negative of it) is sometimes called availability, available work or exergy."
+    "text": "Combine (add the two equations) and solve for \\(\\sum \\dot{W}_{s_i} = \\dot{W}_s\\)\n\n\nAmbient \\(T\\) is \\(T_\\sigma\\).\n\n\n\n\\(\\dot{W}_s = \\frac{d}{dt} \\left( U + E_k + E_p - T_\\sigma S \\right)_\\mathrm{cv} - \\sum \\left( 1 - \\frac{T_\\sigma}{T_i} \\right) \\dot{Q}_i + \\left( \\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_\\sigma \\Delta \\dot{S} \\right)_\\mathrm{fs} + T_\\sigma \\dot{S}_\\mathrm{gen}\\)\n\n\n\n\n\\(\\dot{Q}_\\sigma\\) is transfer to ambient at \\(T_\\sigma\\) and doesn’t show up in the balance.\n\n\n\nWhat is \\(T_\\sigma \\dot{S}_\\mathrm{gen}\\)? \\(\\quad\\) \\(T_\\sigma \\dot{S}_\\mathrm{gen} = \\dot{W}_\\mathrm{lost}\\)\n\n\nIf \\(\\dot{S}_\\mathrm{gen} = 0 \\Rightarrow \\dot{W}_\\mathrm{lost} = 0\\), then \\(\\quad \\dot{W}_{s} = \\dot{W}_\\mathrm{ideal}\\)\n\n\n\\(\\dot{W}_\\mathrm{ideal}\\) is the ideal work or the reversible work. It (or the negative of it) is sometimes called availability, available work or exergy."
   },
   {
     "objectID": "balances/exergy/Video129Visuals.html#the-combined-1st-and-2nd-law",
     "href": "balances/exergy/Video129Visuals.html#the-combined-1st-and-2nd-law",
     "title": "Chemical and Thermal Processes",
     "section": "The Combined 1st and 2nd Law",
-    "text": "The Combined 1st and 2nd Law\n\nOpen Transient System\n\n\n\\(\\tiny \\dot{W}_{\\text{ideal}} = \\frac{d}{dt}(U + E_k + E_p - T_0 S)_{cv} - \\sum (1 - \\frac{T_0}{T_i}) \\dot{Q}_i + (\\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_0 \\Delta \\dot{S})_{fs}\\)\n\n\nOn a mass basis\n\n\n\\(\\tiny \\dot{W}_{\\text{ideal}} = \\frac{d}{dt}[m(\\hat{U} + \\hat{E}_k + \\hat{E}_p - T_0 \\hat{S})]_{cv} - \\sum (1 - \\frac{T_0}{T_i}) \\dot{Q}_i\\)\n\n\n\\[\n\\tiny + \\sum_{\\text{out}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_0 \\hat{S}) - \\sum_{\\text{in}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_0 \\hat{S})\n\\]\n\n\nOr the same equation on a mole basis with \\(n\\) and \\(\\dot{n}\\) replacing \\(m\\) and \\(\\dot{m}\\)"
-  },
-  {
-    "objectID": "balances/exergy/Video129Visuals.html#the-combined-1st-and-2nd-law-cont.",
-    "href": "balances/exergy/Video129Visuals.html#the-combined-1st-and-2nd-law-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Combined 1st and 2nd Law cont.",
-    "text": "The Combined 1st and 2nd Law cont.\n\n\nOpen Steady-State System\n\n\\(\\tiny \\dot{W}_{\\text{ideal}} = - \\sum (1 - \\frac{T_0}{T_i}) \\dot{Q}_i + (\\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_0 \\Delta \\dot{S})_{fs}\\)\n\nOn a mass basis\n\n\\(\\tiny \\dot{W}_{\\text{ideal}} = - \\sum (1 - \\frac{T_0}{T_i}) \\dot{Q}_i + \\sum_{\\text{out}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_0 \\hat{S}) - \\sum_{\\text{in}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_0 \\hat{S})\\)\n\nOn a mole basis\n\n\\(\\tiny \\dot{W}_{\\text{ideal}} = - \\sum (1 - \\frac{T_0}{T_i}) \\dot{Q}_i + \\sum_{\\text{out}} \\dot{n}_i (\\bar{H} + \\bar{E}_k + \\bar{E}_p - T_0 \\bar{S}) - \\sum_{\\text{in}} \\dot{n}_i (\\bar{H} + \\bar{E}_k + \\bar{E}_p - T_0 \\bar{S})\\)"
-  },
-  {
-    "objectID": "balances/exergy/Video129Visuals.html#the-combined-1st-and-2nd-law-cont.-1",
-    "href": "balances/exergy/Video129Visuals.html#the-combined-1st-and-2nd-law-cont.-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Combined 1st and 2nd Law cont.",
-    "text": "The Combined 1st and 2nd Law cont.\n\n\nClosed System\n\n\\(W_{\\text{ideal}} = \\Delta U + \\Delta E_k + \\Delta E_p - T_0 \\Delta S - \\sum (1 - \\frac{T_0}{T_i}) Q_i\\)\n\nWe will rarely encounter closed systems in thermodynamic or 2nd Law analyses."
-  },
-  {
-    "objectID": "balances/exergy/Video129Visuals.html#how-do-you-use-it",
-    "href": "balances/exergy/Video129Visuals.html#how-do-you-use-it",
-    "title": "Chemical and Thermal Processes",
-    "section": "How do you use it?",
-    "text": "How do you use it?\n\n\nTheromodynamic efficiency, \\(\\eta_t\\) or \\(\\eta_{II}\\)\n\nFor processes that produce work:\n\\(\\eta_t = \\frac{\\dot{W}_{S}}{\\dot{W}_{ideal}}\\)\nFor processes that consume work:\n\\(\\eta_t = \\frac{\\dot{W}_{ideal}}{\\dot{W}_{S}}\\)"
+    "text": "The Combined 1st and 2nd Law\n\nOpen Transient System\n\n\n\n\\(\\dot{W}_{\\text{ideal}} = \\dfrac{d}{dt}(U + E_k + E_p - T_\\sigma S)_\\mathrm{cv} - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + (\\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_\\sigma \\Delta \\dot{S})_\\mathrm{fs}\\)\n\n\n\nOn a mass basis\n\n\n\\(\\dot{W}_{\\text{ideal}} = \\dfrac{d}{dt}\\left[m(\\hat{U} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S})\\right]_\\mathrm{cv} - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i\\)\n\n\n\\[\n+ \\sum_{\\text{out}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S}) - \\sum_{\\text{in}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S})\n\\]\n\n\nOr the same equation on a mole basis with \\(n\\) and \\(\\dot{n}\\) replacing \\(m\\) and \\(\\dot{m}\\)"
   },
   {
     "objectID": "balances/exergy/Video129Visuals.html#section-3",
     "href": "balances/exergy/Video129Visuals.html#section-3",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Also the lost work or irreversibility is\n\n\n\\(\\dot{W}_{lost} = \\dot{W}_{S} - \\dot{W}_{ideal}\\)\n\n\nIs \\(\\dot{W}_{lost}\\) always positive?\n\n\n\\(\\dot{W}_{lost} = T_0 \\dot{S}_{gen}\\)\n\n\nYou should also analyze individual parts of a process and calculate lost work to see where the greatest inefficiencies lie."
+    "text": "The Combined 1st and 2nd Law (cont.)\n\n\n\nOpen Steady-State System\n\n\\(\\dot{W}_{\\text{ideal}} = - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + (\\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_\\sigma \\Delta \\dot{S})_\\mathrm{fs}\\)\n\nOn a mass basis\n\n\n\\(\\dot{W}_{\\text{ideal}} = - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + \\sum\\limits_{\\text{out}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S}) - \\sum\\limits_{\\text{in}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S})\\)\n\n\nOn a mole basis\n\n\n\\(\\dot{W}_{\\text{ideal}} = - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + \\sum\\limits_{\\text{out}} \\dot{n}_i (\\bar{H} + \\bar{E}_k + \\bar{E}_p - T_\\sigma \\bar{S}) - \\sum\\limits_{\\text{in}} \\dot{n}_i (\\bar{H} + \\bar{E}_k + \\bar{E}_p - T_\\sigma \\bar{S})\\)"
   },
   {
-    "objectID": "balances/exergy/Video129Visuals.html#steps-to-solve",
-    "href": "balances/exergy/Video129Visuals.html#steps-to-solve",
+    "objectID": "balances/exergy/Video129Visuals.html#section-4",
+    "href": "balances/exergy/Video129Visuals.html#section-4",
     "title": "Chemical and Thermal Processes",
-    "section": "Steps to Solve",
-    "text": "Steps to Solve\n\nSolve the original problem (flows, enthalpies, entropies, temperatures)\n\nTabulate values for each unit\n\nCompute \\(\\dot{W}_{ideal}\\)\n\nCompute \\(\\dot{W}_{lost}\\)\n\nCalculate \\(\\eta_t\\)\n\nIdentify units contributing most to lost work"
+    "section": "",
+    "text": "The Combined 1st and 2nd Law (cont.)\n\n\nClosed System\n\\(W_{\\text{ideal}} = \\Delta U + \\Delta E_k + \\Delta E_p - T_\\sigma \\Delta S - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) Q_i\\)\n\nWe will rarely encounter closed systems in thermodynamic or 2nd Law analyses."
   },
   {
-    "objectID": "balances/exergy/Video129Visuals.html#end-of-slides",
-    "href": "balances/exergy/Video129Visuals.html#end-of-slides",
+    "objectID": "balances/exergy/Video129Visuals.html#how-do-you-use-it",
+    "href": "balances/exergy/Video129Visuals.html#how-do-you-use-it",
     "title": "Chemical and Thermal Processes",
-    "section": "End of Slides",
-    "text": "End of Slides"
+    "section": "How do you use it?",
+    "text": "How do you use it?\n\n\nTheromodynamic efficiency, \\(\\eta_t\\) or \\(\\eta_{\\tiny \\mathrm{II}}\\)\n\nFor processes that produce work:\n\\(\\eta_t = \\frac{\\dot{W}_{s}}{\\dot{W}_\\mathrm{ideal}}\\)\nFor processes that require work:\n\\(\\eta_t = \\frac{\\dot{W}_\\mathrm{ideal}}{\\dot{W}_{s}}\\)"
+  },
+  {
+    "objectID": "balances/exergy/Video129Visuals.html#section-5",
+    "href": "balances/exergy/Video129Visuals.html#section-5",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Also the lost work or irreversibility is\n\n\\(\\dot{W}_\\mathrm{lost} = \\dot{W}_{s} - \\dot{W}_\\mathrm{ideal}\\)\n\n\nIs \\(\\dot{W}_\\mathrm{lost}\\) always positive?\n\n\n\\(\\dot{W}_\\mathrm{lost} = T_\\sigma \\dot{S}_\\mathrm{gen}\\)\n\n\nYou should also analyze individual parts of a process and calculate lost work to see where the greatest inefficiencies lie."
+  },
+  {
+    "objectID": "balances/exergy/Video129Visuals.html#steps",
+    "href": "balances/exergy/Video129Visuals.html#steps",
+    "title": "Chemical and Thermal Processes",
+    "section": "Steps",
+    "text": "Steps\n\nSolve the original problem. Determine all needed flows, enthalpies, entropies, temperatures, heat flows and work flows.\n\nCreate a table with the information in Step 1. Then for each process or unit operation in the system:\n\nSolve for the ideal work, \\(\\dot{W}_\\mathrm{ideal}\\)\n\nSolve for the lost work, \\(\\dot{W}_\\mathrm{lost}\\)\n\nSolve for the thermodynamic efficiency, \\(\\eta_t\\)\n\nDetermine which parts of the process contribute the most to the lost work."
+  },
+  {
+    "objectID": "balances/exergy/Video129Visuals.html#the-takeaways",
+    "href": "balances/exergy/Video129Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nThe combined First and Second Law is literally just the addition of the two laws, setting the entropy generation to zero, and solving for the ideal work, \\(\\dot{W}_\\mathrm{ideal}\\)\nThe most common version is for open steady-state systems.\nChoosing the correct form of the thermodynamic efficiency requires knowledge of whether the process produces work or requires work.\nThe combined First and Second Law helps identify which parts of a process contribute most to lost work or inefficiency."
   },
   {
     "objectID": "balances/entropy/index.html",
