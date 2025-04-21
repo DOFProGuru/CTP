@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Ideal Work, Lost Work and<br/>Thermodynamic Efficiency</br>{.bigbold75}
+# The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -20,11 +20,11 @@ DOFPro Team
 
 ## Concepts
 
-1. Work is more valuable than heat.
-2. Heat rejected to (or taken from) the ambient is worthless (or
+- Work is more valuable than heat.
+- Heat rejected to (or taken from) the ambient is worthless (or
 free).
-3. The same for work performed on or done by the ambient.
-4. For a given process or system (desired change of state) there
+- The same for work performed on or done by the ambient.
+- For a given process or system (desired change of state) there
 is a minimum work required or a maximum work available.
 The goal is to find it.
 
@@ -53,23 +53,31 @@ obtainable?
 
 ## 1. Heat Exchanger
 
-\begin{align*}
-\dot{m}\Delta H &= \dot{Q} + W_s = 0 \\
-\dot{Q} &= 0 \\
-W_s &= 0
-\end{align*}
+
+$\dot{m}\Delta H = \dot{Q} + \dot{W}_s = 0$
+
+$\dot{Q} = 0$
+
+$\boxed{\dot{W}_s = 0}$
+
 
 
 
 
 ## 2. Refrigerator
 
+$\boxed{\dot{W}_s\text{ into system (Oops)}}$
+
 ## 3. Infinitesimal Carnot Engines
-\begin{align*}
-\dot{W}_\text{total} &= \dot{m}[Q - T_\sigma \Delta S] \\
-&= 100(-6722.36 - 300(-19.2917)) \\
-&= -93.49 \text{ kJ/s} = W_\text{max}
-\end{align*}
+
+$\dot{W}_\text{total} = \dot{m}(Q - T_\sigma \Delta S)$
+
+$$= \dot{m} \left(\int_{100}^{50} C_p dT - T_\sigma \int_{100}^{50} \dfrac{C_p}{T} dT\right)$$
+
+$= 100(-6722.36 - 300(-19.2917))$
+
+$= -93.49 \text{ kJ/s} = W_\text{max}$
+
 
 
 
@@ -87,49 +95,59 @@ W_s &= 0
 
 
 For an open transient system, the First Law is
+<br/><br/>
 
+:::{style="font-size: 70px;"}
 :::{.fragment}
-$\tiny \frac{d}{dt}(U + E_k + E_p)_{\text{control volume}} = \sum \dot{Q}_i + \sum \dot{W}_{s_j} - (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p)_{\text{flow streams}}$
+$\dfrac{d}{dt}(U + E_k + E_p)_{\text{control volume}} = \sum \dot{Q}_i + \sum \dot{W}_{s_j} - (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p)_{\text{flow streams}}$
+:::
 :::
 <br/>
 
 :::{.fragment}
 
 which on a mass basis is
-
+<br/><br/>
 :::
+
+:::{style="font-size: 60px;"}
 :::{.fragment}
 
-$\tiny \frac{d}{dt}\left[m\left(\hat{U} + \hat{E}_k + \hat{E}_p\right)\right]_{cv} = \sum \dot{Q}_i + \sum \dot{W}_{S_i} + \sum_{in} \dot{m}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right) - \sum_{out} \dot{m}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right)$
+$\dfrac{d}{dt}\left[m\left(\hat{U} + \hat{E}_k + \hat{E}_p\right)\right]_\mathrm{cv} = \sum \dot{Q}_i + \sum \dot{W}_{s_i} + \sum\limits_\mathrm{in} \dot{m}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right) - \sum\limits_\mathrm{out} \dot{m}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right)$
+:::
 <br/>
 :::
 :::{.fragment}
 
 or on a mole basis is
+<br/><br/>
+
 :::
+:::{style="font-size: 60px;"}
 :::{.fragment}
 
-$\tiny \frac{d}{dt}\left[n\left(\hat{U} + \hat{E}_k + \hat{E}_p\right)\right]_{cv} = \sum \dot{Q}_i + \sum \dot{W}_{S_i} + \sum_{in} \dot{n}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right) - \sum_{out} \dot{n}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right)$
+$\dfrac{d}{dt}\left[n\left(\hat{U} + \hat{E}_k + \hat{E}_p\right)\right]_\mathrm{cv} = \sum \dot{Q}_i + \sum \dot{W}_{s_i} + \sum\limits_\mathrm{in} \dot{n}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right) - \sum\limits_\mathrm{out} \dot{n}_i\left(\hat{H} + \hat{E}_k + \hat{E}_p\right)$
+:::
 :::
 
 ## 
-:::{.fragment}
+
 For an open transient system, the Second Law is
+
+
+:::{.fragment}
+
+$\dfrac{dS_\mathrm{cv}}{dt} + \Delta ( \dot{S} )_\mathrm{fs} - \sum_j \dfrac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0$
 :::
 
 :::{.fragment}
 
-$\frac{dS_{cv}}{dt} + \Delta \left( \dot{S} \right)_{fs} - \sum_j \frac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0$
-:::
-
-:::{.fragment}
-
-$\frac{d \left( m\hat{S} \right)_{cv}}{dt} + \Delta \left( \dot{m}\hat{S} \right)_{fs} - \sum_j \frac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0$ \quad Mass Basis
+$\dfrac{d ( m\hat{S} )_\mathrm{cv}}{dt} + \Delta ( \dot{m}\hat{S} )_\mathrm{fs} - \sum_j \dfrac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0 \quad$ Mass Basis
 :::
 
 
 :::{.fragment}
-$\frac{d \left( n\hat{S} \right)_{cv}}{dt} + \Delta \left( \dot{n}\hat{S} \right)_{fs} - \sum_j \frac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0$ \quad Mole Basis
+or $\dfrac{d ( n\hat{S} )_\mathrm{cv}}{dt} + \Delta ( \dot{n}\hat{S} )_\mathrm{fs} - \sum_j \dfrac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0 \quad$ Mole Basis
 
 
 :::
@@ -144,66 +162,77 @@ $T_j$ is temperature of reservoir $j$
 
 
 ##
-
-:::{.fragment}
-Combine (add the two equations) and solve for $\sum \dot{W}_{S_i} = \sum \dot{W}_S$
+:::{style="font-size: 90px;"}
+Combine (add the two equations) and solve for $\sum \dot{W}_{s_i} = \dot{W}_s$
 :::
 
 :::{.fragment}
-Ambient $T$ is $T_\sigma$ !
+Ambient $T$ is $T_\sigma$.
 
 :::
 
+:::{style="font-size: 65px;"}
 :::{.fragment}
 
-$\tiny \dot{W}_S = \frac{d}{dt} \left( U + E_k + E_p - T_\sigma S \right)_{cv} - \sum \left( 1 - \frac{T_\sigma}{T_i} \right) \dot{Q}_i + \left( \Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S} \right)_{fs} + T_\sigma \dot{S}_{gen}$
-
+$\dot{W}_s = \frac{d}{dt} \left( U + E_k + E_p - T_\sigma S \right)_\mathrm{cv} - \sum \left( 1 - \frac{T_\sigma}{T_i} \right) \dot{Q}_i + \left( \Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S} \right)_\mathrm{fs} + T_\sigma \dot{S}_\mathrm{gen}$
 :::
+:::
+
+:::{style="font-size: 90px;"}
 :::{.fragment}
 $\dot{Q}_\sigma$ is transfer to ambient at $T_\sigma$ and doesn’t show up in the balance.
 :::
-
-:::{.fragment}
-What is $T_\sigma \dot{S}_{gen}$?  $\quad$ $T_\sigma \dot{S}_{gen} = \dot{W}_{lost}$      
 :::
 
 :::{.fragment}
-If $\dot{S}_{gen} = 0 \Rightarrow \dot{W}_{lost} = 0$, then $\quad \dot{W}_{S} = \dot{W}_{ideal}$
+What is $T_\sigma \dot{S}_\mathrm{gen}$?  $\quad$ $T_\sigma \dot{S}_\mathrm{gen} = \dot{W}_\mathrm{lost}$      
+:::
+
+:::{.fragment}
+If $\dot{S}_\mathrm{gen} = 0 \Rightarrow \dot{W}_\mathrm{lost} = 0$, then $\quad \dot{W}_{s} = \dot{W}_\mathrm{ideal}$
 
 :::
 
 :::{.fragment}
 
-$\dot{W}_{ideal}$ is the ideal work or the reversible work. It (or the
+$\dot{W}_\mathrm{ideal}$ is the ideal work or the reversible work. It (or the
 negative of it) is sometimes called availability, available work or exergy.
 :::
 
 
 ## The Combined 1st and 2nd Law
+
 :::{.fragment}
 Open Transient System
 :::
 
+:::{style="font-size: 70px;"}
 :::{.fragment}
-$\tiny \dot{W}_{\text{ideal}} = \frac{d}{dt}(U + E_k + E_p - T_0 S)_{cv} - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_0 \Delta \dot{S})_{fs}$
+$\dot{W}_{\text{ideal}} = \dfrac{d}{dt}(U + E_k + E_p - T_\sigma S)_\mathrm{cv} - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S})_\mathrm{fs}$
+:::
 :::
 
 :::{.fragment}
 On a mass basis
 :::
 :::{.fragment}
-$\tiny \dot{W}_{\text{ideal}} = \frac{d}{dt}[m(\hat{U} + \hat{E}_k + \hat{E}_p - T_0 \hat{S})]_{cv} - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i$
+$\dot{W}_{\text{ideal}} = \dfrac{d}{dt}\left[m(\hat{U} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S})\right]_\mathrm{cv} - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i$
 :::
 :::{.fragment}
 $$ 
-\tiny + \sum_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S}) - \sum_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S})
++ \sum_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S}) - \sum_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S})
 $$
 :::
 :::{.fragment}
 Or the same equation on a mole basis with $n$ and $\dot{n}$ replacing $m$ and $\dot{m}$
 :::
 
-## The Combined 1st and 2nd Law cont.
+##
+
+:::{style="font-size: 135px; font-weight: bold;"}
+The Combined 1st and 2nd Law (cont.)
+:::
+
 ::::{.columns}
 
 :::{.fragment}
@@ -211,33 +240,41 @@ Open Steady-State System
 :::
 :::{.fragment}
 
-$\tiny \dot{W}_{\text{ideal}} = - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_0 \Delta \dot{S})_{fs}$
+$\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S})_\mathrm{fs}$
 :::
 :::{.fragment}
 
 On a mass basis
 :::
+:::{style="font-size: 70px;"}
 :::{.fragment}
-$\tiny \dot{W}_{\text{ideal}} = - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + \sum_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S}) - \sum_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_0 \hat{S})$
+$\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + \sum\limits_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S}) - \sum\limits_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S})$
+:::
 :::
 
 :::{.fragment}
 On a mole basis
 :::
-
+:::{style="font-size: 70px;"}
 :::{.fragment}
-$\tiny \dot{W}_{\text{ideal}} = - \sum (1 - \frac{T_0}{T_i}) \dot{Q}_i + \sum_{\text{out}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_0 \bar{S}) - \sum_{\text{in}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_0 \bar{S})$
+$\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + \sum\limits_{\text{out}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_\sigma \bar{S}) - \sum\limits_{\text{in}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_\sigma \bar{S})$
+:::
 :::
 ::::
-## The Combined 1st and 2nd Law cont.
-::::{.columns}
+## 
 
-:::{.fragment}
-Closed System
+:::{style="font-size: 135px; font-weight: bold;"}
+The Combined 1st and 2nd Law (cont.)
 :::
 
+::::{.columns}
+
+
+Closed System
+
+
 :::{.fragment}
-$W_{\text{ideal}} = \Delta U + \Delta E_k + \Delta E_p - T_0 \Delta S - \sum (1 - \frac{T_0}{T_i}) Q_i$
+$W_{\text{ideal}} = \Delta U + \Delta E_k + \Delta E_p - T_\sigma \Delta S - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) Q_i$
 :::
 :::{.fragment}
 We will rarely encounter closed systems in thermodynamic
@@ -249,48 +286,65 @@ or 2nd Law analyses.
 
 ::::{.columns}
 :::{.fragment}
-Theromodynamic efficiency, $\eta_t$  or $\eta_{II}$
+Theromodynamic efficiency, $\eta_t$  or $\eta_{\tiny \mathrm{II}}$
 :::
 
 - For processes that produce work:  
 
 
-  $\eta_t = \frac{\dot{W}_{S}}{\dot{W}_{ideal}}$
+  $\eta_t = \frac{\dot{W}_{s}}{\dot{W}_\mathrm{ideal}}$
 
-- For processes that consume work:  
+- For processes that require work:  
 
-  $\eta_t = \frac{\dot{W}_{ideal}}{\dot{W}_{S}}$
+  $\eta_t = \frac{\dot{W}_\mathrm{ideal}}{\dot{W}_{s}}$
 
 ::::
 
 
 
 ## 
-:::{.fragment}
+
 Also the lost work or irreversibility is
-:::
+
 :::{.fragment}
-$\dot{W}_{lost} = \dot{W}_{S} - \dot{W}_{ideal}$
+$\dot{W}_\mathrm{lost} = \dot{W}_{s} - \dot{W}_\mathrm{ideal}$
 :::
 
 :::{.fragment}
-Is $\dot{W}_{lost}$ always positive?
+Is $\dot{W}_\mathrm{lost}$ always positive?
 :::
 :::{.fragment}
-$\dot{W}_{lost} = T_0 \dot{S}_{gen}$
+$\dot{W}_\mathrm{lost} = T_\sigma \dot{S}_\mathrm{gen}$
 :::
 :::{.fragment}
 You should also analyze individual parts of a process and
 calculate lost work to see where the greatest inefficiencies lie.
 :::
-## Steps to Solve
 
-1. Solve the original problem (flows, enthalpies, entropies, temperatures)  
-2. Tabulate values for each unit  
-3. Compute $\dot{W}_{ideal}$  
-4. Compute $\dot{W}_{lost}$  
-5. Calculate $\eta_t$  
-6. Identify units contributing most to lost work
+## Steps
 
+1. Solve the original problem. Determine all needed flows, enthalpies, entropies, temperatures, heat flows and work flows.  
+2. Create a table with the information in Step 1. Then for each process or unit operation in the system:  
+3. Solve for the ideal work, $\dot{W}_\mathrm{ideal}$  
+4. Solve for the lost work, $\dot{W}_\mathrm{lost}$  
+5. Solve for the thermodynamic efficiency, $\eta_t$  
+6. Determine which parts of the process contribute the most to the lost work.
 
-## End of Slides
+## The Takeaways
+
+1. The combined First and Second Law is literally just the addition of the two laws, setting the entropy generation to zero, and solving for the ideal work, $\dot{W}_\mathrm{ideal}$
+2. The most common version is for open steady-state systems.
+3. Choosing the correct form of the thermodynamic efficiency requires knowledge of whether the process produces work or requires work.
+4. The combined First and Second Law helps identify which parts of a process contribute most to lost work or inefficiency.
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
