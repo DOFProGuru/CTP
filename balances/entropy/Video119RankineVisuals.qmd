@@ -1,0 +1,370 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1
+
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+
+## Slide TBD
+
+
+## Carnot steam cycle
+
+
+
+## Summary
+
+:::{.fragment}
+::: {.absolute left=3% top=10%}
+$$\eta=1-\frac{T_\mathrm{cold}}{T_\mathrm{hot}}=1-\frac{373.15}{473.15}=0.2113$$
+:::
+:::
+
+:::{.fragment}
+::: {.absolute left=3% top=25%}
+
+$$-W_\mathrm{net}=410.0\ \mathrm{kJ/kg}$$
+:::
+:::
+
+:::{.fragment}
+::: {.absolute left=7% top=40%}
+
+$$Q_\mathrm{hot}=1939.8\ \mathrm{kJ/kg}$$
+:::
+:::
+
+:::{.fragment}
+::: {.absolute left=7% top=55%}
+
+$$Q_\mathrm{cold}=-1529.8\ \mathrm{kJ/kg}$$
+:::
+:::
+
+## Spreadsheet
+
+:::{.fragment}
+::: {.absolute left=3% top=75%}
+
+What are the engineering problems with the Steam Carnot cycle?
+
+:::
+:::
+
+## The Rankine cycle
+
+:::{.absolute}
+:::{.fragment}
+$$\Delta H_\mathrm{pump}=-W_{s}=V\Delta P$$
+:::
+:::{.fragment}
+
+The process from **b** to **c** is now isobaric instead of isothermal.
+<br/>
+<br/>
+
+:::
+:::{.fragment}
+Pump from **a** to **b** now only compresses liquid.
+:::
+:::
+
+## Rankine Cycle Example
+
+::: {.absolute}
+
+:::{.fragment}
+A steam power plant operates with steam entering the turbine at 80
+bar and 500$^{\circ}$C. The condenser operates at 44$^{\circ}$C.
+:::
+
+1.  Calculate the thermal efficiency.
+2.  What is the water circulation rate for a net power generation of 80 MW?
+
+:::{.fragment}
+Data needed from the steam tables:
+:::
+
+:::{.fragment}
+@ 44$^{\circ}$C and 0.091118 bar: $\hat{H}_{l}$, $\hat{H}_{v}$,
+$\hat{S}_{l}$, $\hat{S}_{v}$, $\hat{V}_{l}$
+:::
+
+:::{.fragment}
+
+@ 500$^{\circ}$C and 80 bar: $\hat{H},\hat{S}$
+:::
+
+:::
+
+##
+
+At 44$^{\circ}$C and 0.091118 bar
+<br/>
+
+
+
+:::{style="font-size:85px;"}
+:::{.fragment}
+$\hat{V_{l}}=0.0010095\mathrm{\frac{m^{3}}{kg}}$ $\quad$ $\hat{H}_{l}=184.25\mathrm{\frac{kJ}{kg}}$ $\quad$ $\hat{H}_{v}=2580.6\mathrm{\frac{kJ}{kg}}$
+:::
+
+:::{.fragment}
+$\hspace{20cm}$ $\hat{S}_{l}=0.62545\mathrm{\frac{kJ}{kg~K}}$ $\quad$ $\hat{S}_{v}=8.1815\mathrm{\frac{kJ}{kg~K}}$
+:::
+
+:::
+<br/>
+
+:::{.fragment}
+At 500$^{\circ}$C and 80 bar
+:::
+
+:::{style="font-size:85px;"}
+:::{.fragment}
+$\hat{H}=3399.5\mathrm{\frac{kJ}{kg}}$
+<br/>
+
+:::
+
+:::{.fragment}
+$\hat{S}=6.7266\mathrm{\frac{kJ}{kg~K}}$
+:::
+:::
+
+## 
+### Pump
+
+
+:::{style="font-size:85px;"}
+::: {.absolute left=3% top=5%}
+
+:::{.fragment}
+$$\frac{\dot{W_{s}}}{\dot{m}}=\Delta\hat{H}=\hat{V}\Delta P$$
+:::
+:::
+
+:::{.fragment}
+::: {.absolute left=3% top=20%}
+$$=0.0010095\mathrm{\frac{m^{3}}{kg}}(8000\mathrm{~kPa}-9.1124\mathrm{~kPa})=8.067\mathrm{\frac{kJ}{kg}}$$
+:::
+:::
+
+:::{.fragment}
+::: {.absolute left=3% top=35%}
+$$\hat{H}_\mathbf{b}=\hat{H}_\mathbf{a}+\Delta\hat{H}=184.25\mathrm{\frac{kJ}{kg}}+8.067\mathrm{\frac{kJ}{kg}}=192.3\mathrm{\frac{kJ}{kg}}$$
+:::
+:::
+:::
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<br/>
+<br/>
+<br/>
+
+:::{.fragment}
+### Boiler
+:::
+
+:::{.fragment}
+:::{style="font-size:85px;"}
+::: {.absolute left=3% top=65%}
+$$\Delta\hat{H}=\frac{\dot{Q}}{\dot{m}}=\hat{H}_\mathbf{c}-\hat{H}_\mathbf{b}=3399.5\mathrm{\frac{kJ}{kg}}-192.3\mathrm{\frac{kJ}{kg}}=3207.2\mathrm{\frac{kJ}{kg}}$$
+:::
+:::
+:::
+
+## 
+### Turbine
+
+
+:::{style="font-size:80px;"}
+:::{.fragment}
+::: {.absolute left=3% top=5%}
+$$\frac{\dot{W_{s}}}{\dot{m}}=\Delta\hat{H}$$
+:::
+:::
+
+:::{.fragment}
+::: {.absolute left=3% top=20%}
+$$\Delta\hat{S}=0\Rightarrow\hat{S}_\mathbf{c}=\hat{S}_\mathbf{d}$$
+:::
+:::
+
+:::{.fragment}
+::: {.absolute left=3% top=35%}
+$$6.7266=x(8.1815)+(1-x)(0.62545) \quad x=\frac{6.10115}{7.55605}=0.80745$$
+:::
+:::
+
+:::{.fragment}
+::: {.absolute left=3% top=50%}
+$$\hat{H}_\mathbf{d}=x\hat{H}_{v}+(1-x)\hat{H}_{l}$$
+:::
+:::
+
+:::{.fragment}
+::: {.absolute left=3% top=65%}
+$$=0.8075(2580.6\mathrm{\frac{kJ}{kg}})+(1-0.8075)(184.25\mathrm{\frac{kJ}{kg}})=2119.3\mathrm{\frac{kJ}{kg}}$$
+:::
+:::
+
+:::{.fragment}
+::: {.absolute left=3% top=80%}
+$$\Delta\hat{H}=2119.3\mathrm{\frac{kJ}{kg}}-3399.5\mathrm{\frac{kJ}{kg}}=-1280.2\mathrm{\frac{kJ}{kg}}$$
+:::
+:::
+:::
+
+## 
+### Efficiency
+
+:::{style="font-size:90px;"}
+::: {.absolute left=3% top=10%}
+:::{.fragment}
+$$\eta=\frac{-W_\mathrm{net}}{Q_{bst}}=\frac{1280.2\mathrm{\frac{kJ}{kg}}-8.067\mathrm{\frac{kJ}{kg}}}{3207.2\mathrm{\frac{kJ}{kg}}}=0.3967=39.7\%$$
+:::
+:::
+:::
+
+
+<br/>
+<br/>
+<br/><br/><br/>
+
+:::{.fragment}
+### Flow Rate
+:::
+
+:::{.fragment}
+
+:::{style="font-size:90px;"}
+::: {.absolute left=3% top=50%}
+$$-\dot{W}_\mathrm{net}=80,000\mathrm{\frac{kJ}{s}}=-\dot{m}W_\mathrm{net}$$
+:::
+:::
+
+:::{.fragment}
+::: {.absolute left=3% top=65%}
+$$\dot{m}=\frac{-\dot{W}_\mathrm{net}}{-W_\mathrm{net}}=\frac{80,000\mathrm{\frac{kJ}{s}}}{1280.2\mathrm{\frac{kJ}{kg}}-8.067\mathrm{\frac{kJ}{kg}}}=62.89\frac{kg}{s}$$
+:::
+:::
+:::
+
+## The Takeaways
+
+1. The calculation of a realistic Rankine cycle starts by doing the calculation for an ideal or isentropic cycle, and adding in the effects of a turbine efficiency and a pump efficiency.
+2. Calculation of the final entropies at the outlet of the turbine, and the outlet of the pump are not necessary for the efficiency calculation. Doing the turbine exit is easy. Doing the pump exit is difficult.
+3. DWSIM has all of the tools necessary to set up and calculate process flow diagrams for Rankine cycles.
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+# Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Slide TBD
+
+## Up the Realism
+
+::: {.absolute}
+
+:::{.fragment}
+A more realistic Rankine cycle would include a turbine efficiency and
+a pump efficiency.
+:::
+:::{.fragment}
+:::{style="font-size:90px;"}
+$$\dot{W}_{s\cdot \mathrm{actual}}=\eta_\mathrm{turbine}\dot{W}_{s\cdot \mathrm{isentropic}} \qquad \dot{W}_{s\cdot \mathrm{actual}}=\frac{\dot{W}_{s\cdot \mathrm{isentropic}}}{\eta_\mathrm{pump}}$$
+:::
+:::
+:::
+
+## Up the Realism (cont.)
+
+## The Rankine Cycle in DWSIM
+
+![](DWSIMRankine.png){.absolute left=0% top=45%}
+
+:::{.absolute top=35% left=10%}
+Ideal Cycle
+:::
+
+:::{.absolute top=15% left=0%}
+:::{style="font-size: 85px;"}
+$\eta = \dfrac{1280.21 - 8.07}{3207.05} = 39.67\%$
+:::
+:::
+
+
+:::{.absolute top=35% left=65%}
+Real Cycle
+:::
+
+:::{.absolute top=15% left=52%}
+:::{style="font-size: 85px;"}
+$\eta = \dfrac{960.61 - 10.76}{3204.36} = 29.63\%$
+:::
+:::
+
+## DWSIM Settings
+
+:::{style="font-size: 67px;"}
+::::{.columns}
+:::{.column width=50%}
+1. Flow streams **A** and **aA**:<br/>**Specified Variables** Temperature/Pressure<br/>**Temperature (K)** 773.15<br/>**Pressure (Pa)** 8000000<br/>**Mass Flow (kg/s)** 1
+2. Turbines<br/>**Calculation Mode** Outlet Pressure<br/>**Thermodynamic Path** Adiabatic<br/>**Outlet Pressure (Pa)** 9111.8<br/>**Adiabatic Efficiency (%)** 100 or 75
+:::
+:::{.column width=50%}
+3. Pumps<br/>**Calculation Mode** Outlet Pressure<br/>**Outlet Pressure (Pa)** 8000000<br/>**Efficiency (%)** 100 or 75
+4. Condensers<br/>**Calculation Mode** Outlet Vapor Fraction<br/>**Outlet Vapor Fraction** 0
+5. Boilers<br/>**Calculation Mode** Outlet Temperature<br/>**Outlet Temperature (K)** 773.15
+:::
+::::
+:::
+
+![](DWSIMRankine.png){.absolute left=0% top=52%}
+
+## The Takeaways
+
+1. The calculation of a realistic Rankine cycle starts by doing the calculation for an ideal or isentropic cycle, and adding in the effects of a turbine efficiency and a pump efficiency.
+2. Calculation of the final entropies at the outlet of the turbine, and the outlet of the pump are not necessary for the efficiency calculation. Doing the turbine exit is easy. Doing the pump exit is difficult.
+3. DWSIM has all of the tools necessary to set up and calculate process flow diagrams for Rankine cycles.
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
