@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.43">
 
-  <title>Chemical and Thermal Processes – rankinevisuals</title>
+  <title>Chemical and Thermal Processes – video126refrigeration</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,214 +127,167 @@
 
 
 <section>
-<section id="the-rankine-cycle" class="title-slide slide level1 bigbold75 center">
-<h1>The Rankine Cycle</h1>
-<div style="text-align: center;">
-<p>E82-Generating power from steam</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
-</section>
-<section id="carnot-steam-cycle" class="slide level2">
-<h2>Carnot steam cycle</h2>
-</section>
-<section id="summary" class="slide level2">
-<h2>Summary</h2>
-<div class="fragment">
-<div class="absolute" style="top: 10%; left: 3%; ">
-<p><span class="math display">\[\eta=1-\frac{T_{cald}}{T_{hot}}=1-\frac{373.15}{473.15}=0.2113\]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 25%; left: 3%; ">
-<p><span class="math display">\[-W_{net}=409.9~kJ/kg\]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 40%; left: 7%; ">
-<p><span class="math display">\[Q_{hot}=1939.7~kJ/kg\]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 55%; left: 7%; ">
-<p><span class="math display">\[Q_{cold}=-1529.8~kJ/kg\]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 75%; left: 3%; ">
-<p>What are the engineering problems with the Steam Carnot cycle?</p>
-</div>
-</div>
-</section>
-<section id="the-rankine-cycle-1" class="slide level2">
-<h2>The Rankine cycle</h2>
-<div class="absolute" style="">
-<div class="fragment">
-<p><span class="math display">\[\Delta H_{pump}=-W_{s}=V\Delta P\]</span></p>
-</div>
-<div class="fragment">
-<p>The process from <strong>b</strong> to <strong>c</strong> is now isobaric instead of isothermal. <br> <br></p>
-</div>
-<div class="fragment">
-<p>Pump from <strong>a</strong> to <strong>b</strong> now only compresses liquid.</p>
-</div>
-</div>
-</section>
-<section id="rankine-cycle-example" class="slide level2">
-<h2>Rankine Cycle Example</h2>
-<div class="absolute" style="">
-<div class="fragment">
-<p>A steam power plant operates with steam entering the turbine at 80 bar and 500<span class="math inline">\(^{\circ}\)</span>C. The condenser operates at 44<span class="math inline">\(^{\circ}\)</span>C.</p>
-</div>
-<ol type="1">
-<li class="fragment">Calculate the thermal efficiency.</li>
-<li class="fragment">What is the water circulation rate for a net power generation of 80 MW?</li>
-</ol>
-<div class="fragment">
-<p>Data needed from the steam tables:</p>
-</div>
-<div class="fragment">
-<p>@ 44<span class="math inline">\(^{\circ}\)</span>C and 0.091124 bar: <span class="math inline">\(\hat{H}_{l}\)</span>, <span class="math inline">\(\hat{S}_{l}\)</span>, <span class="math inline">\(\tilde{V}_{l}\)</span></p>
-</div>
-<div class="fragment">
-<p>@ 500<span class="math inline">\(^{\circ}\)</span>C and 80 bar: <span class="math inline">\(\hat{H},\hat{S}\)</span></p>
-</div>
-</div>
+<section id="refrigeration-and-the-vapor-compression-cycle" class="title-slide slide level1 center">
+<h1>Refrigeration and the Vapor Compression Cycle</h1>
+<p>E82- Running a Rankine cycle backwards for fun and profit</p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p>At 44<span class="math inline">\(^{\circ}\)</span>C and 0.091124 bar <br></p>
 <div style="font-size:85px;">
-<div class="fragment">
-<p><span class="math inline">\(\hat{V_{l}}=0.0010095\frac{m^{3}}{kg}\)</span> <span class="math inline">\(\quad\)</span> <span class="math inline">\(\hat{H}_{l}=184.25\frac{kJ}{kg}\)</span> <span class="math inline">\(\quad\)</span> <span class="math inline">\(\hat{H}_{v}=2580.6\frac{kJ}{kg}\)</span></p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(\hspace{20cm}\)</span> <span class="math inline">\(\hat{S}_{l}=0.62545\frac{kJ}{kg~K}\)</span> <span class="math inline">\(\quad\)</span> <span class="math inline">\(\hat{S}_{v}=8.1815\frac{kJ}{kg~K}\)</span></p>
+<div class="absolute" style="top: 0%; left: 3%; ">
+<div style="width: 65%; float: left;">
+<p>In a heat engine you want to generate work. You do so by converting as much of the high-temperature heat as possible into work. The efficiency of any heat engine operating between two heat reservoirs is defined as:</p>
 </div>
 </div>
-<p><br></p>
 <div class="fragment">
-<p>At 500<span class="math inline">\(^{\circ}\)</span>C and 80 bar</p>
+<div class="absolute" style="top: 25%; left: 18%; ">
+<p><span class="math display">\[\eta\equiv\frac{|W|}{|Q_{hot}|}\]</span></p>
 </div>
-<div style="font-size:85px;">
-<div class="fragment">
-<p><span class="math inline">\(\hat{H}=3399.5\frac{kJ}{kg}\)</span> <br></p>
 </div>
+<div class="absolute" style="top: 45%; left: 3%; ">
 <div class="fragment">
-<p><span class="math inline">\(\hat{S}=6.7266\frac{kJ}{kg~K}\)</span></p>
+<div style="width: 65%; float: left;">
+<p>Again, it’s what you want divided by what you pay for. The efficiency of a Carnot engine is</p>
+</div>
+</div>
+</div>
+<div class="absolute" style="top: 55%; left: 18%; ">
+<div class="fragment">
+<p><span class="math display">\[\eta=\frac{|W|}{|Q_{hot}|}=1-\frac{T_{cold}}{T_{hot}}\]</span></p>
+</div>
 </div>
 </div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<h3 id="pump">Pump</h3>
 <div style="font-size:85px;">
-<div class="absolute" style="top: 5%; left: 3%; ">
+<div class="absolute" style="top: 0%; left: 3%; ">
+<div style="width: 65%; float: left;">
+<p>In a refrigerator, we want to remove heat at a cold temperature. We do so by putting in work. The coefficient of performance for a refrigerator is the heat removed at the low temperature divided by the work that you have to put in,</p>
+</div>
+</div>
+<div class="absolute" style="top: 30%; left: 18%; ">
 <div class="fragment">
-<p><span class="math display">\[\frac{\dot{W_{s}}}{\dot{m}}=\Delta\hat{H}=\hat{V}\Delta P\]</span></p>
+<p><span class="math display">\[\frac{|Q_{cold}|}{|W|}=\omega=C.O.P.\]</span></p>
 </div>
 </div>
+<div class="absolute" style="top: 45%; left: 3%; ">
 <div class="fragment">
-<div class="absolute" style="top: 20%; left: 3%; ">
-<p><span class="math display">\[=0.0010095\frac{m^{3}}{kg}(8000~kPa-9.1124~kPa)=8.067\frac{kJ}{kg}\]</span></p>
+<div style="width: 65%; float: left;">
+<p>Again, it’s what you want divided by what you pay for. The coefficient of performance for a Carnot refrigerator is</p>
 </div>
 </div>
+</div>
+<div class="absolute" style="top: 60%; left: 18%; ">
 <div class="fragment">
-<div class="absolute" style="top: 35%; left: 3%; ">
-<p><span class="math display">\[\hat{H}_{b}=\hat{H}_{a}+\Delta\hat{H}=184.25\frac{kJ}{kg}+8.067\frac{kJ}{kg}=192.3\frac{kJ}{kg}\]</span></p>
-</div>
-</div>
-</div>
-<p><br> <br> <br> <br> <br></p>
-<p><br> <br> <br></p>
-<div class="fragment">
-<h3 id="boiler">Boiler</h3>
-</div>
-<div class="fragment">
-<div style="font-size:85px;">
-<div class="absolute" style="top: 65%; left: 3%; ">
-<p><span class="math display">\[\Delta\hat{H}=\frac{\dot{Q}}{\dot{m}}=\hat{H}_{c}-\hat{H}_{b}=3399.5\frac{kJ}{kg}-192.3\frac{kJ}{kg}=3207.2\frac{kJ}{kg}\]</span></p>
+<p><span class="math display">\[\omega=\frac{|Q_{cold}|}{|W|}=\frac{T_{cold}}{T_{hot}-T_{cold}}\]</span></p>
 </div>
 </div>
 </div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<h3 id="turbine">Turbine</h3>
-<div style="font-size:80px;">
+<div style="font-size:85px;">
+<div class="absolute" style="top: 0%; left: 3%; ">
+<div style="width: 65%; float: left;">
+<p>In a heat pump, we want to supply heat at a warm temperature. We do so by putting in work. The coefficient of performance for a heat pump is the heat supplied at the warm temperature divided by the work that you have to put in,</p>
+</div>
+</div>
+<div class="absolute" style="top: 30%; left: 18%; ">
 <div class="fragment">
-<div class="absolute" style="top: 5%; left: 3%; ">
-<p><span class="math display">\[\frac{\dot{W_{s}}}{\dot{m}}=\Delta\hat{H}\]</span></p>
+<p><span class="math display">\[\frac{|Q_{hot}|}{|W|}=\omega=C.O.P.\]</span></p>
 </div>
 </div>
+<div class="absolute" style="top: 45%; left: 3%; ">
 <div class="fragment">
-<div class="absolute" style="top: 20%; left: 3%; ">
-<p><span class="math display">\[\Delta\hat{S}=0\Rightarrow\hat{S}_{c}=\hat{S}_{d}\]</span></p>
+<div style="width: 65%; float: left;">
+<p>Again, it’s what you want divided by what you pay for. The coefficient of performance for a Carnot heat pump is</p>
 </div>
 </div>
+</div>
+<div class="absolute" style="top: 60%; left: 18%; ">
 <div class="fragment">
-<div class="absolute" style="top: 35%; left: 3%; ">
-<p><span class="math display">\[6.7266=x(8.1815)+(1-x)(0.62545) \quad x=\frac{6.10115}{7.55605}=0.80745\]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 50%; left: 3%; ">
-<p><span class="math display">\[\hat{H}_{d}=x\hat{H}_{v}+(1-x)\hat{H}_{l}\]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 65%; left: 3%; ">
-<p><span class="math display">\[=0.8075(2580.6\frac{kJ}{kg})+(1-0.8075)(184.25\frac{kJ}{kg})=2119.3\frac{kJ}{kg}\]</span></p>
-</div>
-</div>
-<div class="fragment">
-<div class="absolute" style="top: 80%; left: 3%; ">
-<p><span class="math display">\[\Delta\hat{H}=2119.3\frac{kJ}{kg}-3399.5\frac{kJ}{kg}=-1280.2\frac{kJ}{kg}\]</span></p>
+<p><span class="math display">\[\omega=\frac{|Q_{hot}|}{|W|}=\frac{T_{hot}}{T_{hot}-T_{cold}}\]</span></p>
 </div>
 </div>
 </div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<h3 id="efficiency">Efficiency</h3>
-<div style="font-size:90px;">
-<div class="absolute" style="top: 10%; left: 3%; ">
+<h3 id="vapor-compression-cycle">Vapor Compression Cycle</h3>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<h3 id="evaporator">Evaporator</h3>
+<div style="font-size:85px;">
 <div class="fragment">
-<p><span class="math display">\[\eta=\frac{-W_{net}}{Q_{bst}}=\frac{1280.2\frac{kJ}{kg}-8.067\frac{kJ}{kg}}{3207.2\frac{kJ}{kg}}=0.3967=39.7\%\]</span></p>
+<div class="absolute" style="top: 7%; left: 8%; ">
+<p><span class="math display">\[\dot{Q}_{cold}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_{b}-\hat{H}_{a})\]</span></p>
 </div>
-</div>
-</div>
-<p><br> <br> <br><br><br></p>
-<div class="fragment">
-<h3 id="flow-rate">Flow Rate</h3>
-</div>
-<div class="fragment">
-<div style="font-size:90px;">
-<div class="absolute" style="top: 50%; left: 3%; ">
-<p><span class="math display">\[-\dot{W}_{net}=80,000\frac{kJ}{s}=-\dot{m}W_{net}\]</span></p>
-</div>
+<p><br> <br></p>
 </div>
 <div class="fragment">
-<div class="absolute" style="top: 65%; left: 3%; ">
-<p><span class="math display">\[\dot{m}=\frac{-\dot{W}_{net}}{-W_{net}}=\frac{80,000\frac{kJ}{s}}{1280.2\frac{kJ}{kg}-8.067\frac{kJ}{kg}}=62.89\frac{kg}{s}\]</span></p>
+<p>Inlet enthalpy comes from isenthalpic valve.</p>
 </div>
+<div class="fragment">
+<p>Outlet enthalpy is saturated vapor at <span class="math inline">\(T_{evap}\)</span> <span class="math inline">\(P_{evap}\)</span>.</p>
+</div>
+</div>
+<h3 id="compressor">Compressor</h3>
+<div style="font-size:85px;">
+<div class="fragment">
+<div class="absolute" style="top: 35%; left: 8%; ">
+<p><span class="math display">\[\dot{W}_{S}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_{c}-\hat{H}_{b})\]</span></p>
+</div>
+</div>
+<div class="fragment">
+<div class="absolute" style="top: 45%; left: 8%; ">
+<p><span class="math display">\[\Delta\dot{S}=0\Rightarrow\hat{S}_{c}=\hat{S}_{b}\]</span></p>
+</div>
+</div>
+<p><br> <br> <br> <br></p>
+<div class="fragment">
+<p>Inlet enthalpy, entropy is from saturated vapor at <span class="math inline">\(T_{evap},\)</span> <span class="math inline">\(P_{evap}.\)</span></p>
+</div>
+<div class="fragment">
+<p>Outlet enthalpy comes from property table at <span class="math inline">\(P_{comp}\)</span> <span class="math inline">\(S_{c}\)</span></p>
 </div>
 </div>
 </section>
-<section id="up-the-realism" class="slide level2">
-<h2>Up the Realism</h2>
-<div class="absolute" style="">
+<section id="section-5" class="slide level2">
+<h2></h2>
+<h3 id="condenser">Condenser</h3>
+<div style="font-size:85px;">
 <div class="fragment">
-<p>A more realistic Rankine cycle would include a turbine efficiency and a pump efficiency.</p>
+<div class="absolute" style="top: 7%; left: 8%; ">
+<p><span class="math display">\[\dot{Q}_{hot}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_{d}-\hat{H}_{c})\]</span></p>
+</div>
+</div>
+<p><br> <br></p>
+<div class="fragment">
+<p>Inlet enthalpy comes from compressor.</p>
 </div>
 <div class="fragment">
-<div style="font-size:90px;">
-<p><span class="math display">\[\dot{W}_{s\cdot actual}=\eta_{turbine}\dot{W}_{s\cdot isentropic} \qquad \dot{W}_{s\cdot actual}=\frac{\dot{W}_{s\cdot isentropic}}{\eta_{pump}}\]</span></p>
+<p>Outlet enthalpy is saturated liquid at <span class="math inline">\(T_{cond}\)</span> <span class="math inline">\(P_{cond\cdot}\)</span></p>
 </div>
+</div>
+<h3 id="throttling-valve">Throttling Valve</h3>
+<div style="font-size:85px;">
+<div class="fragment">
+<div class="absolute" style="top: 35%; left: 8%; ">
+<p><span class="math display">\[\Delta\dot{H}=0\Rightarrow\hat{H}_{a}=\hat{H}_{b}\]</span></p>
+</div>
+</div>
+<p><br> <br></p>
+<div class="fragment">
+<p>Outlet quality comes from property table at <span class="math inline">\(T_{evap}\)</span>, <span class="math inline">\(P_{evap}.\)</span></p>
 </div>
 </div>
 </section>
-<section id="the-rankine-cycle-in-proii" class="slide level2">
-<h2>The Rankine Cycle in PRO/II</h2>
+<section id="section-6" class="slide level2">
+<h2></h2>
+<p><strong>Vapor Compression Cycle</strong> <span class="math inline">\(\qquad\)</span> <strong>The Rankine Cycle</strong></p>
 
 
 </section></section>
