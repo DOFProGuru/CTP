@@ -2552,28 +2552,28 @@
     "href": "balances/entropy/Video119RankineVisuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "At 44\\(^{\\circ}\\)C and 0.091118 bar \n\n\n\\(\\hat{V_{l}}=0.0010095\\mathrm{\\frac{m^{3}}{kg}}\\) \\(\\quad\\) \\(\\hat{H}_{l}=184.25\\mathrm{\\frac{kJ}{kg}}\\) \\(\\quad\\) \\(\\hat{H}_{v}=2580.6\\mathrm{\\frac{kJ}{kg}}\\)\n\n\n\\(\\hspace{20cm}\\) \\(\\hat{S}_{l}=0.62545\\mathrm{\\frac{kJ}{kg~K}}\\) \\(\\quad\\) \\(\\hat{S}_{v}=8.1815\\mathrm{\\frac{kJ}{kg~K}}\\)\n\n\n\n\nAt 500\\(^{\\circ}\\)C and 80 bar\n\n\n\n\\(\\hat{H}=3399.5\\mathrm{\\frac{kJ}{kg}}\\) \n\n\n\\(\\hat{S}=6.7266\\mathrm{\\frac{kJ}{kg~K}}\\)"
+    "text": "At 44\\(^{\\circ}\\)C and 0.091118 bar \n\n\n\\(\\hat{V_{l}}=0.0010095\\mathrm{\\frac{m^{3}}{kg}}\\) \\(\\quad\\) \\(\\hat{H}_{l}=184.26\\mathrm{\\frac{kJ}{kg}}\\) \\(\\quad\\) \\(\\hat{H}_{v}=2580.7\\mathrm{\\frac{kJ}{kg}}\\)\n\n\n\\(\\hspace{20cm}\\) \\(\\hat{S}_{l}=0.62547\\mathrm{\\frac{kJ}{kg~K}}\\) \\(\\quad\\) \\(\\hat{S}_{v}=8.1816\\mathrm{\\frac{kJ}{kg~K}}\\)\n\n\n\n\nAt 500\\(^{\\circ}\\)C and 80 bar\n\n\n\n\\(\\hat{H}=3399.4\\mathrm{\\frac{kJ}{kg}}\\) \n\n\n\\(\\hat{S}=6.7264\\mathrm{\\frac{kJ}{kg~K}}\\)"
   },
   {
     "objectID": "balances/entropy/Video119RankineVisuals.html#section-1",
     "href": "balances/entropy/Video119RankineVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Pump\n\n\n\n\\[\\frac{\\dot{W_{s}}}{\\dot{m}}=\\Delta\\hat{H}=\\hat{V}\\Delta P\\]\n\n\n\n\n\\[=0.0010095\\mathrm{\\frac{m^{3}}{kg}}(8000\\mathrm{~kPa}-9.1124\\mathrm{~kPa})=8.067\\mathrm{\\frac{kJ}{kg}}\\]\n\n\n\n\n\\[\\hat{H}_\\mathbf{b}=\\hat{H}_\\mathbf{a}+\\Delta\\hat{H}=184.25\\mathrm{\\frac{kJ}{kg}}+8.067\\mathrm{\\frac{kJ}{kg}}=192.3\\mathrm{\\frac{kJ}{kg}}\\]\n\n\n\n    \n  \n\nBoiler\n\n\n\n\n\\[\\Delta\\hat{H}=\\frac{\\dot{Q}}{\\dot{m}}=\\hat{H}_\\mathbf{c}-\\hat{H}_\\mathbf{b}=3399.5\\mathrm{\\frac{kJ}{kg}}-192.3\\mathrm{\\frac{kJ}{kg}}=3207.2\\mathrm{\\frac{kJ}{kg}}\\]"
+    "text": "Pump\n\n\n\n\\[\\frac{\\dot{W_{s}}}{\\dot{m}}=\\Delta\\hat{H}=\\hat{V}\\Delta P\\]\n\n\n\n\n\\[=0.0010095\\mathrm{\\frac{m^{3}}{kg}}(8000\\mathrm{~kPa}-9.1118\\mathrm{~kPa})=8.067\\mathrm{\\frac{kJ}{kg}}\\]\n\n\n\n\n\\[\\hat{H}_\\mathbf{b}=\\hat{H}_\\mathbf{a}+\\Delta\\hat{H}=184.26\\mathrm{\\frac{kJ}{kg}}+8.067\\mathrm{\\frac{kJ}{kg}}=192.3\\mathrm{\\frac{kJ}{kg}}\\]\n\n\n\n    \n  \n\nBoiler\n\n\n\n\n\\[\\Delta\\hat{H}=\\frac{\\dot{Q}}{\\dot{m}}=\\hat{H}_\\mathbf{c}-\\hat{H}_\\mathbf{b}=3399.4\\mathrm{\\frac{kJ}{kg}}-192.3\\mathrm{\\frac{kJ}{kg}}=3207.1\\mathrm{\\frac{kJ}{kg}}\\]"
   },
   {
     "objectID": "balances/entropy/Video119RankineVisuals.html#section-2",
     "href": "balances/entropy/Video119RankineVisuals.html#section-2",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Turbine\n\n\n\n\\[\\frac{\\dot{W_{s}}}{\\dot{m}}=\\Delta\\hat{H}\\]\n\n\n\n\n\\[\\Delta\\hat{S}=0\\Rightarrow\\hat{S}_\\mathbf{c}=\\hat{S}_\\mathbf{d}\\]\n\n\n\n\n\\[6.7266=x(8.1815)+(1-x)(0.62545) \\quad x=\\frac{6.10115}{7.55605}=0.80745\\]\n\n\n\n\n\\[\\hat{H}_\\mathbf{d}=x\\hat{H}_{v}+(1-x)\\hat{H}_{l}\\]\n\n\n\n\n\\[=0.8075(2580.6\\mathrm{\\frac{kJ}{kg}})+(1-0.8075)(184.25\\mathrm{\\frac{kJ}{kg}})=2119.3\\mathrm{\\frac{kJ}{kg}}\\]\n\n\n\n\n\\[\\Delta\\hat{H}=2119.3\\mathrm{\\frac{kJ}{kg}}-3399.5\\mathrm{\\frac{kJ}{kg}}=-1280.2\\mathrm{\\frac{kJ}{kg}}\\]"
+    "text": "Turbine\n\n\n\n\\[\\frac{\\dot{W_{s}}}{\\dot{m}}=\\Delta\\hat{H}\\]\n\n\n\n\n\\[\\Delta\\hat{S}=0\\Rightarrow\\hat{S}_\\mathbf{c}=\\hat{S}_\\mathbf{d}\\]\n\n\n\n\n\\[6.7264=x(8.1816)+(1-x)(0.62547) \\quad x=\\frac{6.10093}{7.5561}=0.8074\\]\n\n\n\n\n\\[\\hat{H}_\\mathbf{d}=x\\hat{H}_{v}+(1-x)\\hat{H}_{l}\\]\n\n\n\n\n\\[=0.8074(2580.7\\mathrm{\\frac{kJ}{kg}})+(1-0.8074)(184.26\\mathrm{\\frac{kJ}{kg}})=2119.2\\mathrm{\\frac{kJ}{kg}}\\]\n\n\n\n\n\\[\\Delta\\hat{H}=2119.2\\mathrm{\\frac{kJ}{kg}}-3399.4\\mathrm{\\frac{kJ}{kg}}=-1280.2\\mathrm{\\frac{kJ}{kg}}\\]"
   },
   {
     "objectID": "balances/entropy/Video119RankineVisuals.html#section-3",
     "href": "balances/entropy/Video119RankineVisuals.html#section-3",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Efficiency\n\n\n\n\\[\\eta=\\frac{-W_\\mathrm{net}}{Q_{bst}}=\\frac{1280.2\\mathrm{\\frac{kJ}{kg}}-8.067\\mathrm{\\frac{kJ}{kg}}}{3207.2\\mathrm{\\frac{kJ}{kg}}}=0.3967=39.7\\%\\]\n\n\n\n  \n\nFlow Rate\n\n\n\n\n\\[-\\dot{W}_\\mathrm{net}=80,000\\mathrm{\\frac{kJ}{s}}=-\\dot{m}W_\\mathrm{net}\\]\n\n\n\n\n\\[\\dot{m}=\\frac{-\\dot{W}_\\mathrm{net}}{-W_\\mathrm{net}}=\\frac{80,000\\mathrm{\\frac{kJ}{s}}}{1280.2\\mathrm{\\frac{kJ}{kg}}-8.067\\mathrm{\\frac{kJ}{kg}}}=62.89\\frac{kg}{s}\\]"
+    "text": "Efficiency\n\n\n\n\\[\\eta=\\frac{-W_\\mathrm{net}}{Q_{bst}}=\\frac{1280.2\\mathrm{\\frac{kJ}{kg}}-8.067\\mathrm{\\frac{kJ}{kg}}}{3207.1\\mathrm{\\frac{kJ}{kg}}}=0.3967=39.7\\%\\]\n\n\n\n  \n\nFlow Rate\n\n\n\n\n\\[-\\dot{W}_\\mathrm{net}=80,000\\mathrm{\\frac{kJ}{s}}=-\\dot{m}W_\\mathrm{net}\\]\n\n\n\n\n\\[\\dot{m}=\\frac{-\\dot{W}_\\mathrm{net}}{-W_\\mathrm{net}}=\\frac{80,000\\mathrm{\\frac{kJ}{s}}}{1280.2\\mathrm{\\frac{kJ}{kg}}-8.067\\mathrm{\\frac{kJ}{kg}}}=62.88\\frac{kg}{s}\\]"
   },
   {
     "objectID": "balances/entropy/Video119RankineVisuals.html#the-takeaways",
@@ -2601,7 +2601,14 @@
     "href": "balances/entropy/Video119RankineVisuals.html#up-the-realism-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Up the Realism (cont.)",
-    "text": "Up the Realism (cont.)"
+    "text": "Up the Realism (cont.)\nStatement and Turbine calc"
+  },
+  {
+    "objectID": "balances/entropy/Video119RankineVisuals.html#up-the-realism-cont.-1",
+    "href": "balances/entropy/Video119RankineVisuals.html#up-the-realism-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Up the Realism (cont.)",
+    "text": "Up the Realism (cont.)\nPump, Net Work, Qhot, efficiency"
   },
   {
     "objectID": "balances/entropy/Video119RankineVisuals.html#the-rankine-cycle-in-dwsim",
@@ -3833,21 +3840,21 @@
     "href": "balances/entropy/Video126Refrigeration.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "In a heat engine you want to generate work. You do so by converting as much of the high-temperature heat as possible into work. The efficiency of any heat engine operating between two heat reservoirs is defined as:\n\n\n\n\n\\[\\eta\\equiv\\frac{|W|}{|Q_{hot}|}\\]\n\n\n\n\n\nAgain, it’s what you want divided by what you pay for. The efficiency of a Carnot engine is\n\n\n\n\n\n\\[\\eta=\\frac{|W|}{|Q_{hot}|}=1-\\frac{T_{cold}}{T_{hot}}\\]"
+    "text": "In a heat engine you want to generate work. You do so by converting as much of the high-temperature heat as possible into work. The efficiency of any heat engine operating between two heat reservoirs is defined as:\n\n\n\n\n\\[\\eta\\equiv\\frac{|W|}{|Q_\\mathrm{hot}|}\\]\n\n\n\n\n\nAgain, it’s what you want divided by what you pay for. The efficiency of a Carnot engine is\n\n\n\n\n\n\\[\\eta=\\frac{|W|}{|Q_\\mathrm{hot}|}=1-\\frac{T_\\mathrm{cold}}{T_\\mathrm{hot}}\\]"
   },
   {
     "objectID": "balances/entropy/Video126Refrigeration.html#section-1",
     "href": "balances/entropy/Video126Refrigeration.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "In a refrigerator, we want to remove heat at a cold temperature. We do so by putting in work. The coefficient of performance for a refrigerator is the heat removed at the low temperature divided by the work that you have to put in,\n\n\n\n\n\\[\\frac{|Q_{cold}|}{|W|}=\\omega=C.O.P.\\]\n\n\n\n\n\nAgain, it’s what you want divided by what you pay for. The coefficient of performance for a Carnot refrigerator is\n\n\n\n\n\n\\[\\omega=\\frac{|Q_{cold}|}{|W|}=\\frac{T_{cold}}{T_{hot}-T_{cold}}\\]"
+    "text": "In a refrigerator, we want to remove heat at a cold temperature. We do so by putting in work. The coefficient of performance for a refrigerator is the heat removed at the low temperature divided by the work that you have to put in,\n\n\n\n\n\\[\\frac{|Q_\\mathrm{cold}|}{|W|}=\\omega=\\text{C.O.P.}\\]\n\n\n\n\n\nAgain, it’s what you want divided by what you pay for. The coefficient of performance for a Carnot refrigerator is\n\n\n\n\n\n\\[\\omega=\\frac{|Q_\\mathrm{cold}|}{|W|}=\\frac{T_\\mathrm{cold}}{T_\\mathrm{hot}-T_\\mathrm{cold}}\\]"
   },
   {
     "objectID": "balances/entropy/Video126Refrigeration.html#section-2",
     "href": "balances/entropy/Video126Refrigeration.html#section-2",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "In a heat pump, we want to supply heat at a warm temperature. We do so by putting in work. The coefficient of performance for a heat pump is the heat supplied at the warm temperature divided by the work that you have to put in,\n\n\n\n\n\\[\\frac{|Q_{hot}|}{|W|}=\\omega=C.O.P.\\]\n\n\n\n\n\nAgain, it’s what you want divided by what you pay for. The coefficient of performance for a Carnot heat pump is\n\n\n\n\n\n\\[\\omega=\\frac{|Q_{hot}|}{|W|}=\\frac{T_{hot}}{T_{hot}-T_{cold}}\\]"
+    "text": "In a heat pump, we want to supply heat at a warm temperature. We do so by putting in work. The coefficient of performance for a heat pump is the heat supplied at the warm temperature divided by the work that you have to put in,\n\n\n\n\n\\[\\frac{|Q_\\mathrm{hot}|}{|W|}=\\omega=\\text{C.O.P.}\\]\n\n\n\n\n\nAgain, it’s what you want divided by what you pay for. The coefficient of performance for a Carnot heat pump is\n\n\n\n\n\n\\[\\omega=\\frac{|Q_\\mathrm{hot}|}{|W|}=\\frac{T_\\mathrm{hot}}{T_\\mathrm{hot}-T_\\mathrm{cold}}\\]"
   },
   {
     "objectID": "balances/entropy/Video126Refrigeration.html#section-3",
@@ -3861,21 +3868,35 @@
     "href": "balances/entropy/Video126Refrigeration.html#section-4",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Evaporator\n\n\n\n\\[\\dot{Q}_{cold}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_{b}-\\hat{H}_{a})\\]\n\n \n\n\nInlet enthalpy comes from isenthalpic valve.\n\n\nOutlet enthalpy is saturated vapor at \\(T_{evap}\\) \\(P_{evap}\\).\n\n\nCompressor\n\n\n\n\\[\\dot{W}_{S}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_{c}-\\hat{H}_{b})\\]\n\n\n\n\n\\[\\Delta\\dot{S}=0\\Rightarrow\\hat{S}_{c}=\\hat{S}_{b}\\]\n\n\n   \n\nInlet enthalpy, entropy is from saturated vapor at \\(T_{evap},\\) \\(P_{evap}.\\)\n\n\nOutlet enthalpy comes from property table at \\(P_{comp}\\) \\(S_{c}\\)"
+    "text": "Evaporator\n\n\n\n\\[\\dot{Q}_\\mathrm{cold}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_\\mathbf{b}-\\hat{H}_\\mathbf{a})\\]\n\n \n\n\nInlet enthalpy comes from isenthalpic valve.\n\n\nOutlet enthalpy is saturated vapor at \\(T_\\mathrm{evap}\\), \\(P_\\mathrm{evap}\\).\n\n\nCompressor\n\n\n\n\\[\\dot{W}_{S}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_\\mathbf{c}-\\hat{H}_\\mathbf{b})\\]\n\n\n\n\n\\[\\Delta\\dot{S}=0\\Rightarrow\\hat{S}_\\mathbf{c}=\\hat{S}_\\mathbf{b}\\]\n\n\n   \n\nInlet enthalpy, entropy is from saturated vapor at \\(T_\\mathrm{evap},\\) \\(P_\\mathrm{evap}.\\)\n\n\nOutlet enthalpy comes from property table at \\(P_\\mathrm{comp}\\), \\(\\hat{S}_\\mathbf{c}\\)"
   },
   {
     "objectID": "balances/entropy/Video126Refrigeration.html#section-5",
     "href": "balances/entropy/Video126Refrigeration.html#section-5",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Condenser\n\n\n\n\\[\\dot{Q}_{hot}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_{d}-\\hat{H}_{c})\\]\n\n\n \n\nInlet enthalpy comes from compressor.\n\n\nOutlet enthalpy is saturated liquid at \\(T_{cond}\\) \\(P_{cond\\cdot}\\)\n\n\nThrottling Valve\n\n\n\n\\[\\Delta\\dot{H}=0\\Rightarrow\\hat{H}_{a}=\\hat{H}_{b}\\]\n\n\n \n\nOutlet quality comes from property table at \\(T_{evap}\\), \\(P_{evap}.\\)"
+    "text": "Condenser\n\n\n\n\\[\\dot{Q}_\\mathrm{hot}=\\dot{m}\\Delta\\hat{H}=\\dot{m}(\\hat{H}_\\mathbf{d}-\\hat{H}_\\mathbf{c})\\]\n\n\n \n\nInlet enthalpy comes from compressor.\n\n\nOutlet enthalpy is saturated liquid at \\(T_\\mathrm{cond}\\), \\(P_\\mathrm{cond}\\).\n\n\nThrottling Valve\n\n\n\n\\[\\Delta\\dot{H}=0\\Rightarrow\\hat{H}_\\mathbf{a}=\\hat{H}_\\mathbf{b}\\]\n\n\n \n\nOutlet quality comes from property table at \\(T_\\mathrm{evap}\\), \\(P_\\mathrm{evap}.\\)"
   },
   {
     "objectID": "balances/entropy/Video126Refrigeration.html#section-6",
     "href": "balances/entropy/Video126Refrigeration.html#section-6",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Vapor Compression Cycle \\(\\qquad\\) The Rankine Cycle"
+    "text": "Vapor Compression Cycle \\(\\qquad\\) The Rankine Cycle\nLink to copyrighted but free-of-charge R134a table"
+  },
+  {
+    "objectID": "balances/entropy/Video126Refrigeration.html#dwsim",
+    "href": "balances/entropy/Video126Refrigeration.html#dwsim",
+    "title": "Chemical and Thermal Processes",
+    "section": "DWSIM",
+    "text": "DWSIM"
+  },
+  {
+    "objectID": "balances/entropy/Video126Refrigeration.html#the-takeaways",
+    "href": "balances/entropy/Video126Refrigeration.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nThe purpose of a refrigerator is to remove heat at a low temperature and reject it at a high temperature. Its C.O.P., \\(\\omega = |Q_\\mathrm{cold}|/|W_\\mathrm{net}|\\).\nThe purpose of a heat pump is to take heat at a low temperature and supply it at a high temperature. Its C.O.P., \\(\\omega = |Q_\\mathrm{hot}|/|W_\\mathrm{net}|\\).\nCarnot refrigerators and heat pumps are modeled as Carnot engines running backwards.\nThe most common refrigeration cycle is the vapor compression cycle, essentially a Rankine cycle running in reverse."
   },
   {
     "objectID": "balances/entropy/Video115Visuals.html#section",
