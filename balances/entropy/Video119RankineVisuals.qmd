@@ -117,11 +117,11 @@ At 44$^{\circ}$C and 0.091118 bar
 
 :::{style="font-size:85px;"}
 :::{.fragment}
-$\hat{V_{l}}=0.0010095\mathrm{\frac{m^{3}}{kg}}$ $\quad$ $\hat{H}_{l}=184.25\mathrm{\frac{kJ}{kg}}$ $\quad$ $\hat{H}_{v}=2580.6\mathrm{\frac{kJ}{kg}}$
+$\hat{V_{l}}=0.0010095\mathrm{\frac{m^{3}}{kg}}$ $\quad$ $\hat{H}_{l}=184.26\mathrm{\frac{kJ}{kg}}$ $\quad$ $\hat{H}_{v}=2580.7\mathrm{\frac{kJ}{kg}}$
 :::
 
 :::{.fragment}
-$\hspace{20cm}$ $\hat{S}_{l}=0.62545\mathrm{\frac{kJ}{kg~K}}$ $\quad$ $\hat{S}_{v}=8.1815\mathrm{\frac{kJ}{kg~K}}$
+$\hspace{20cm}$ $\hat{S}_{l}=0.62547\mathrm{\frac{kJ}{kg~K}}$ $\quad$ $\hat{S}_{v}=8.1816\mathrm{\frac{kJ}{kg~K}}$
 :::
 
 :::
@@ -133,13 +133,13 @@ At 500$^{\circ}$C and 80 bar
 
 :::{style="font-size:85px;"}
 :::{.fragment}
-$\hat{H}=3399.5\mathrm{\frac{kJ}{kg}}$
+$\hat{H}=3399.4\mathrm{\frac{kJ}{kg}}$
 <br/>
 
 :::
 
 :::{.fragment}
-$\hat{S}=6.7266\mathrm{\frac{kJ}{kg~K}}$
+$\hat{S}=6.7264\mathrm{\frac{kJ}{kg~K}}$
 :::
 :::
 
@@ -157,13 +157,13 @@ $$\frac{\dot{W_{s}}}{\dot{m}}=\Delta\hat{H}=\hat{V}\Delta P$$
 
 :::{.fragment}
 ::: {.absolute left=3% top=20%}
-$$=0.0010095\mathrm{\frac{m^{3}}{kg}}(8000\mathrm{~kPa}-9.1124\mathrm{~kPa})=8.067\mathrm{\frac{kJ}{kg}}$$
+$$=0.0010095\mathrm{\frac{m^{3}}{kg}}(8000\mathrm{~kPa}-9.1118\mathrm{~kPa})=8.067\mathrm{\frac{kJ}{kg}}$$
 :::
 :::
 
 :::{.fragment}
 ::: {.absolute left=3% top=35%}
-$$\hat{H}_\mathbf{b}=\hat{H}_\mathbf{a}+\Delta\hat{H}=184.25\mathrm{\frac{kJ}{kg}}+8.067\mathrm{\frac{kJ}{kg}}=192.3\mathrm{\frac{kJ}{kg}}$$
+$$\hat{H}_\mathbf{b}=\hat{H}_\mathbf{a}+\Delta\hat{H}=184.26\mathrm{\frac{kJ}{kg}}+8.067\mathrm{\frac{kJ}{kg}}=192.3\mathrm{\frac{kJ}{kg}}$$
 :::
 :::
 :::
@@ -185,7 +185,7 @@ $$\hat{H}_\mathbf{b}=\hat{H}_\mathbf{a}+\Delta\hat{H}=184.25\mathrm{\frac{kJ}{kg
 :::{.fragment}
 :::{style="font-size:85px;"}
 ::: {.absolute left=3% top=65%}
-$$\Delta\hat{H}=\frac{\dot{Q}}{\dot{m}}=\hat{H}_\mathbf{c}-\hat{H}_\mathbf{b}=3399.5\mathrm{\frac{kJ}{kg}}-192.3\mathrm{\frac{kJ}{kg}}=3207.2\mathrm{\frac{kJ}{kg}}$$
+$$\Delta\hat{H}=\frac{\dot{Q}}{\dot{m}}=\hat{H}_\mathbf{c}-\hat{H}_\mathbf{b}=3399.4\mathrm{\frac{kJ}{kg}}-192.3\mathrm{\frac{kJ}{kg}}=3207.1\mathrm{\frac{kJ}{kg}}$$
 :::
 :::
 :::
@@ -209,7 +209,7 @@ $$\Delta\hat{S}=0\Rightarrow\hat{S}_\mathbf{c}=\hat{S}_\mathbf{d}$$
 
 :::{.fragment}
 ::: {.absolute left=3% top=35%}
-$$6.7266=x(8.1815)+(1-x)(0.62545) \quad x=\frac{6.10115}{7.55605}=0.80745$$
+$$6.7264=x(8.1816)+(1-x)(0.62547) \quad x=\frac{6.10093}{7.5561}=0.8074$$
 :::
 :::
 
@@ -221,13 +221,13 @@ $$\hat{H}_\mathbf{d}=x\hat{H}_{v}+(1-x)\hat{H}_{l}$$
 
 :::{.fragment}
 ::: {.absolute left=3% top=65%}
-$$=0.8075(2580.6\mathrm{\frac{kJ}{kg}})+(1-0.8075)(184.25\mathrm{\frac{kJ}{kg}})=2119.3\mathrm{\frac{kJ}{kg}}$$
+$$=0.8074(2580.7\mathrm{\frac{kJ}{kg}})+(1-0.8074)(184.26\mathrm{\frac{kJ}{kg}})=2119.2\mathrm{\frac{kJ}{kg}}$$
 :::
 :::
 
 :::{.fragment}
 ::: {.absolute left=3% top=80%}
-$$\Delta\hat{H}=2119.3\mathrm{\frac{kJ}{kg}}-3399.5\mathrm{\frac{kJ}{kg}}=-1280.2\mathrm{\frac{kJ}{kg}}$$
+$$\Delta\hat{H}=2119.2\mathrm{\frac{kJ}{kg}}-3399.4\mathrm{\frac{kJ}{kg}}=-1280.2\mathrm{\frac{kJ}{kg}}$$
 :::
 :::
 :::
@@ -238,7 +238,7 @@ $$\Delta\hat{H}=2119.3\mathrm{\frac{kJ}{kg}}-3399.5\mathrm{\frac{kJ}{kg}}=-1280.
 :::{style="font-size:90px;"}
 ::: {.absolute left=3% top=10%}
 :::{.fragment}
-$$\eta=\frac{-W_\mathrm{net}}{Q_{bst}}=\frac{1280.2\mathrm{\frac{kJ}{kg}}-8.067\mathrm{\frac{kJ}{kg}}}{3207.2\mathrm{\frac{kJ}{kg}}}=0.3967=39.7\%$$
+$$\eta=\frac{-W_\mathrm{net}}{Q_{bst}}=\frac{1280.2\mathrm{\frac{kJ}{kg}}-8.067\mathrm{\frac{kJ}{kg}}}{3207.1\mathrm{\frac{kJ}{kg}}}=0.3967=39.7\%$$
 :::
 :::
 :::
@@ -262,7 +262,7 @@ $$-\dot{W}_\mathrm{net}=80,000\mathrm{\frac{kJ}{s}}=-\dot{m}W_\mathrm{net}$$
 
 :::{.fragment}
 ::: {.absolute left=3% top=65%}
-$$\dot{m}=\frac{-\dot{W}_\mathrm{net}}{-W_\mathrm{net}}=\frac{80,000\mathrm{\frac{kJ}{s}}}{1280.2\mathrm{\frac{kJ}{kg}}-8.067\mathrm{\frac{kJ}{kg}}}=62.89\frac{kg}{s}$$
+$$\dot{m}=\frac{-\dot{W}_\mathrm{net}}{-W_\mathrm{net}}=\frac{80,000\mathrm{\frac{kJ}{s}}}{1280.2\mathrm{\frac{kJ}{kg}}-8.067\mathrm{\frac{kJ}{kg}}}=62.88\frac{kg}{s}$$
 :::
 :::
 :::
@@ -307,6 +307,12 @@ $$\dot{W}_{s\cdot \mathrm{actual}}=\eta_\mathrm{turbine}\dot{W}_{s\cdot \mathrm{
 :::
 
 ## Up the Realism (cont.)
+
+Statement and Turbine calc
+
+## Up the Realism (cont.)
+
+Pump, Net Work, Qhot, efficiency
 
 ## The Rankine Cycle in DWSIM
 
