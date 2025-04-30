@@ -9,8 +9,7 @@ format:
     theme: [serif, ../../gradient.scss]
     html-math-method: mathjax
 ---
-# Refrigeration and the Vapor Compression Cycle
-E82- Running a Rankine cycle backwards for fun and profit
+# Revenge of the Fridge: Vapor Compression Strikes Back
 
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
@@ -33,7 +32,7 @@ In a heat engine you want to generate work. You do so by converting as much of t
 
 :::{.fragment}
 ::: {.absolute left=18% top=25%}
-$$\eta\equiv\frac{|W|}{|Q_{hot}|}$$
+$$\eta\equiv\frac{|W|}{|Q_\mathrm{hot}|}$$
 :::
 :::
 
@@ -49,7 +48,7 @@ The efficiency of a Carnot engine is
 
 ::: {.absolute left=18% top=55%}
 :::{.fragment}
-$$\eta=\frac{|W|}{|Q_{hot}|}=1-\frac{T_{cold}}{T_{hot}}$$
+$$\eta=\frac{|W|}{|Q_\mathrm{hot}|}=1-\frac{T_\mathrm{cold}}{T_\mathrm{hot}}$$
 :::
 :::
 :::
@@ -65,7 +64,7 @@ In a refrigerator, we want to remove heat at a cold temperature. We do so by put
 
 ::: {.absolute left=18% top=30%}
 :::{.fragment}
-$$\frac{|Q_{cold}|}{|W|}=\omega=C.O.P.$$
+$$\frac{|Q_\mathrm{cold}|}{|W|}=\omega=\text{C.O.P.}$$
 :::
 :::
 
@@ -82,7 +81,7 @@ Again, it's what you want divided by what you pay for. The coefficient of perfor
 ::: {.absolute left=18% top=60%}
 :::{.fragment}
 
-$$\omega=\frac{|Q_{cold}|}{|W|}=\frac{T_{cold}}{T_{hot}-T_{cold}}$$
+$$\omega=\frac{|Q_\mathrm{cold}|}{|W|}=\frac{T_\mathrm{cold}}{T_\mathrm{hot}-T_\mathrm{cold}}$$
 :::
 :::
 :::
@@ -101,7 +100,7 @@ We do so by putting in work. The coefficient of performance for a heat pump is t
 
 ::: {.absolute left=18% top=30%}
 :::{.fragment}
-$$\frac{|Q_{hot}|}{|W|}=\omega=C.O.P.$$
+$$\frac{|Q_\mathrm{hot}|}{|W|}=\omega=\text{C.O.P.}$$
 :::
 :::
 
@@ -116,7 +115,7 @@ Again, it's what you want divided by what you pay for. The coefficient of perfor
 
 ::: {.absolute left=18% top=60%}
 :::{.fragment}
-$$\omega=\frac{|Q_{hot}|}{|W|}=\frac{T_{hot}}{T_{hot}-T_{cold}}$$
+$$\omega=\frac{|Q_\mathrm{hot}|}{|W|}=\frac{T_\mathrm{hot}}{T_\mathrm{hot}-T_\mathrm{cold}}$$
 :::
 :::
 :::
@@ -131,7 +130,7 @@ $$\omega=\frac{|Q_{hot}|}{|W|}=\frac{T_{hot}}{T_{hot}-T_{cold}}$$
 :::{style="font-size:85px;"}
 :::{.fragment}
 ::: {.absolute left=8% top=7%}
-$$\dot{Q}_{cold}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_{b}-\hat{H}_{a})$$
+$$\dot{Q}_\mathrm{cold}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_\mathbf{b}-\hat{H}_\mathbf{a})$$
 :::
 <br/>
 <br/>
@@ -141,7 +140,7 @@ $$\dot{Q}_{cold}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_{b}-\hat{H}_{a})$$
 Inlet enthalpy comes from isenthalpic valve.
 :::
 :::{.fragment}
-Outlet enthalpy is saturated vapor at $T_{evap}$ $P_{evap}$.
+Outlet enthalpy is saturated vapor at $T_\mathrm{evap}$, $P_\mathrm{evap}$.
 :::
 :::
 
@@ -149,12 +148,12 @@ Outlet enthalpy is saturated vapor at $T_{evap}$ $P_{evap}$.
 :::{style="font-size:85px;"}
 :::{.fragment}
 ::: {.absolute left=8% top=35%}
-$$\dot{W}_{S}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_{c}-\hat{H}_{b})$$
+$$\dot{W}_{S}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_\mathbf{c}-\hat{H}_\mathbf{b})$$
 :::
 :::
 :::{.fragment}
 ::: {.absolute left=8% top=45%}
-$$\Delta\dot{S}=0\Rightarrow\hat{S}_{c}=\hat{S}_{b}$$
+$$\Delta\dot{S}=0\Rightarrow\hat{S}_\mathbf{c}=\hat{S}_\mathbf{b}$$
 :::
 :::
 <br/>
@@ -163,10 +162,10 @@ $$\Delta\dot{S}=0\Rightarrow\hat{S}_{c}=\hat{S}_{b}$$
 <br/>
 
 :::{.fragment}
-Inlet enthalpy, entropy is from saturated vapor at $T_{evap},$ $P_{evap}.$
+Inlet enthalpy, entropy is from saturated vapor at $T_\mathrm{evap},$ $P_\mathrm{evap}.$
 :::
 :::{.fragment}
-Outlet enthalpy comes from property table at $P_{comp}$ $S_{c}$
+Outlet enthalpy comes from property table at $P_\mathrm{comp}$, $\hat{S}_\mathbf{c}$
 :::
 :::
 
@@ -175,7 +174,7 @@ Outlet enthalpy comes from property table at $P_{comp}$ $S_{c}$
 :::{style="font-size:85px;"}
 :::{.fragment}
 ::: {.absolute left=8% top=7%}
-$$\dot{Q}_{hot}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_{d}-\hat{H}_{c})$$
+$$\dot{Q}_\mathrm{hot}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_\mathbf{d}-\hat{H}_\mathbf{c})$$
 :::
 :::
 <br/>
@@ -185,7 +184,7 @@ $$\dot{Q}_{hot}=\dot{m}\Delta\hat{H}=\dot{m}(\hat{H}_{d}-\hat{H}_{c})$$
 Inlet enthalpy comes from compressor.
 :::
 :::{.fragment}
-Outlet enthalpy is saturated liquid at $T_{cond}$ $P_{cond\cdot}$
+Outlet enthalpy is saturated liquid at $T_\mathrm{cond}$, $P_\mathrm{cond}$.
 :::
 :::
 
@@ -193,14 +192,14 @@ Outlet enthalpy is saturated liquid at $T_{cond}$ $P_{cond\cdot}$
 :::{style="font-size:85px;"}
 :::{.fragment}
 ::: {.absolute left=8% top=35%}
-$$\Delta\dot{H}=0\Rightarrow\hat{H}_{a}=\hat{H}_{b}$$
+$$\Delta\dot{H}=0\Rightarrow\hat{H}_\mathbf{a}=\hat{H}_\mathbf{b}$$
 :::
 :::
 <br/>
 <br/>
 
 :::{.fragment}
-Outlet quality comes from property table at $T_{evap}$, $P_{evap}.$
+Outlet quality comes from property table at $T_\mathrm{evap}$, $P_\mathrm{evap}.$
 :::
 :::
 
@@ -208,3 +207,27 @@ Outlet quality comes from property table at $T_{evap}$, $P_{evap}.$
 
 **Vapor Compression Cycle** $\qquad$ **The Rankine Cycle**
 
+[Link to copyrighted but free-of-charge R134a table](https://www.freon.com/en/-/media/files/freon/freon-134a-si-thermodynamic-properties.pdf)
+
+## DWSIM
+
+![](R134aVaporCompression.png)
+
+## The Takeaways
+
+1. The purpose of a refrigerator is to remove heat at a low temperature and reject it at a high temperature. Its C.O.P.,  $\omega = |Q_\mathrm{cold}|/|W_\mathrm{net}|$.
+2. The purpose of a heat pump is to take heat at a low temperature and supply it at a high temperature. Its C.O.P.,  $\omega = |Q_\mathrm{hot}|/|W_\mathrm{net}|$.
+3. Carnot refrigerators and heat pumps are modeled as Carnot engines running backwards.
+4. The most common refrigeration cycle is the vapor compression cycle, essentially a Rankine cycle running in reverse.
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
