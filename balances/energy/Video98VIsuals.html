@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.29">
 
-  <title>Chemical and Thermal Processes – basicspreadsheettechniquesjtfvisuals</title>
+  <title>Chemical and Thermal Processes – video98visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,100 +127,234 @@
 
 
 <section>
-<section id="basic-spreadsheet-techniques-just-the-facts" class="title-slide slide level1 bigbold75 center">
-<h1>Basic Spreadsheet Techniques<br><br>Just the Facts</h1>
-<div style="text-align: center;">
-<p>DOFPro Team</p>
+<section id="reference-states-delta-h_s-delta-h_m" class="title-slide slide level1 center">
+<h1>Reference States, <span class="math inline">\(\Delta H_s\)</span> <span class="math inline">\(\Delta H_m\)</span></h1>
+<p><span class="math inline">\(\text{E82-Reference States, Heats of Solution and Mixing,}\)</span> <span class="math inline">\(\text{Assorted 1st-law related values}\)</span></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<h3 id="reference-states">Reference states</h3>
+<div class="fragment">
+<div class="absolute" style="top: 15%; left: 3%; ">
+<div style="width: 40%; float: left;">
+<p>Calculate the average heat capacity of saturated steam from 10°C to 90°C for both of the steam tables given:</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
+</div>
+</div>
+<div class="fragment">
+<div class="absolute" style="top: 70%; left: 3%; ">
+<div style="width: 65%; float: left;">
+<p>Table values are specific enthalpy in kJ/kg</p>
+</div>
+</div>
+</div>
 </section>
-<section id="why-spreadsheets" class="slide level2">
-<h2>Why Spreadsheets</h2>
-<ul>
-<li class="fragment">Readily Available
-<ul>
-<li class="fragment">Microsoft Office is everywhere.</li>
-<li class="fragment">Libre Office is free.</li>
-</ul></li>
-<li class="fragment">Google Sheets is “free” and collaborative.</li>
-<li class="fragment">Apple Numbers is free to Apple owners.</li>
-<li class="fragment">Tabular format fits process flow diagram annotation.</li>
-<li class="fragment">Easy to correct errors (if you set it up right).</li>
-</ul>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<p>Table 1</p>
+<div class="fragment">
+<p><span class="math display">\[\overline{C}_{p}=\frac{\overline{H}_{2}-\overline{H}_{1}}{T_{2}-T_{1}}=\frac{2659.0-2519.9}{90-10}=1.739\frac{kJ}{kg^{\circ}C}\]</span></p>
+</div>
+<div class="fragment">
+<p>Table 2</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\overline{C}_{p}=\frac{\hat{H}_{2}-\hat{H}_{1}}{T_{2}-T_{1}}=\frac{-17.0-(-156.1)}{90-10}=1.739\frac{kJ}{kg^{\circ}C}\]</span></p>
+</div>
+<p><br></p>
+<div class="fragment">
+<p>Why are the tables different?</p>
+</div>
 </section>
-<section id="use-microsoft-excel-or-libre-office" class="slide level2">
-<h2>Use Microsoft Excel or Libre Office</h2>
-<ul>
-<li class="fragment">Permit widest formatting options, especially graphs.</li>
-<li class="fragment">Have Goal Seek or equivalent without hoop jumping.</li>
-<li class="fragment">Have Solver without hoop jumping.</li>
-</ul>
-<p><span class="math display">\[\textbf{You can use others if you want}\]</span> * Just prepare for a lot of extra work. * I won’t offer tech support.</p>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<h3 id="specific-integral-heat-of-solution">(Specific) Integral Heat of Solution</h3>
+<div class="fragment">
+<p><span class="math display">\[\hat{H}_s(T, r)\]</span></p>
+</div>
+<div class="fragment">
+<p>One mole of solute dissolved in r moles of solvent.</p>
+</div>
+<p><br></p>
+<div class="fragment">
+<p>Usually referenced to pure solvent at some T. Can be referenced to pure solute or infinitely dilute solute.</p>
+</div>
+<p><br></p>
+<div class="fragment">
+<h3 id="specific-integral-heat-of-mixing">(Specific) Integral Heat of Mixing</h3>
+</div>
+<p><br></p>
+<div class="fragment">
+<p>One mole of solution made from <span class="math inline">\(x\)</span> moles of liquid 1 and <span class="math inline">\(1-x\)</span> moles of liquid 2. Usually referenced to pure species 1 and species 2 at some temperature.</p>
+</div>
+<p><br></p>
 </section>
-<section id="formatting" class="slide level2">
-<h2>Formatting</h2>
-<ul>
-<li class="fragment">For professional use, you can get very fancy.</li>
-<li class="fragment">For E82, just make things clear, not fancy.</li>
-<li class="fragment">Think about layout from end-consumer’s perspective.
-<ul>
-<li class="fragment">Label things in an obvious way.</li>
-<li class="fragment">Group things in an obvious way.</li>
-</ul></li>
-<li class="fragment">Code reference data, input parameters, and answers.
-<ul>
-<li class="fragment">My code is:
-<ul>
-<li class="fragment">Reference data (e.g., R, data from table) Blue</li>
-<li class="fragment">Input parameters (what the user can change) Green or Red</li>
-<li class="fragment">Answers or results, BOLD</li>
-</ul></li>
-</ul></li>
-<li class="fragment">All graphs must have
-<ul>
-<li class="fragment">Units on the axes</li>
-<li class="fragment">Legends if more than one data series plotted.</li>
-</ul></li>
-</ul>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<p><strong>Example:</strong> A 25% solution of NaOH in water at 100°F is to be diluted to a 9.09% solution by adding pure water. What temperature must the dilution water be at for the final mixture to be at 80°F.</p>
+<div style="font-size:80px;">
+<div class="fragment">
+<p><span class="math display">\[25\% \space \text{NaOH} = \frac{1 \space mol \space \text{NaOH}}{1 \space mol \space \text{NaOH} + 3 \space mol \space H_2O} \Rightarrow r = \frac{3 \space mol \space H_2O}{1 \space mol \space \text{NaOH}}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[9.09\% \space \text{NaOH} = \frac{1 \space mol \space \text{NaOH}}{1 \space mol \space \text{NaOH} + 10 \space mol \space H_2O} \Rightarrow r = \frac{10 \space mol \space H_2O}{1 \space mol \space \text{NaOH}}\]</span></p>
+</div>
+</div>
 </section>
-<section id="feel-free-to-add-figures" class="slide level2">
-<h2>Feel Free to Add Figures</h2>
-<p>{image}</p>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<p>1st-law: <span class="math inline">\(\Delta H = 0\)</span> <br> <br></p>
+<div class="fragment">
+<p>Pathway:</p>
+</div>
+<p><br></p>
+<div style="font-size:85px;">
+<div class="fragment">
+<p><span class="math inline">\(\text{4 mol mix @ 100°F to 4 mol mix @ 25°C,}\)</span> <span class="math inline">\(\Delta H_1\)</span> <br> <br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\text{7 mol $H_2O$ @ $\textit T$°F to 7 mol $H_2O$ @ 25°C,}\)</span> <span class="math inline">\(\Delta H_2\)</span></p>
+</div>
+<p><br></p>
+<div class="fragment">
+<p><span class="math inline">\(\text{4 mol mix + 7 mol $H_2O$ @ 25°C to 11 mol mix @ 25°C,}\)</span> <span class="math inline">\(\Delta H_3\)</span> <br> <br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\text{11 mol mix @ 25°C to 11 mol mix @ 80°F,}\)</span> <span class="math inline">\(\Delta H_4\)</span> <br> <br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\Delta H_1 + \Delta H_2 + \Delta H_3 + \Delta H_4 = 0\)</span></p>
+</div>
+</div>
 </section>
-<section id="absolute-vs-relative-reference" class="slide level2">
-<h2>Absolute vs Relative Reference</h2>
-<p>{image}</p>
+<section id="section-5" class="slide level2">
+<h2></h2>
+<p>Lacking other data, assume <span class="math inline">\(C_p\)</span> for mix is mole-weighted average of <span class="math inline">\(C_p\)</span> for individual species. <span class="math inline">\(C_p\)</span> values from Appendix B and Wikipedia.</p>
+<div style="font-size:70px;">
+<div class="absolute" style="top: 30%; left: 3%; ">
+<div class="fragment">
+<p><span class="math display">\[\Delta H_1 + \Delta H_2 + \Delta H_3 + \Delta H_4 = 0\]</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 40%; left: 3%; ">
+<div class="fragment">
+<p><span class="math display">\[\Delta H_1 = \sum n_i \overline{C}_{p-i} \Delta T = (1 \cdot 0.0595 + 3 \cdot 0.0754)(25 - 37.78) = -3.61 kJ\]</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 50%; left: 3%; ">
+<div class="fragment">
+<p><span class="math display">\[\Delta H_2 = n_{H_2O} \overline{C}_{p-H_2O} \Delta T = 7 \cdot 0.0754 (25 - T_{initial})\]</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 60%; left: 3%; ">
+<div class="fragment">
+<p><span class="math display">\[\Delta H_4 = \sum n_i \overline{C}_{p-i} \Delta T = (1 \cdot 0.0595 + 10 \cdot 0.0754)(26.67 - 25) = 1.36 kJ\]</span></p>
+</div>
+</div>
+</div>
 </section>
-<section id="spreadsheet-demo" class="slide level2">
-<h2>Spreadsheet Demo</h2>
-<p>{image}</p>
+<section id="section-6" class="slide level2">
+<h2></h2>
+<div class="absolute" style="top: 15%; left: 55%; ">
+<p><span class="math inline">\(\text{Table B.11 FRB}\)</span></p>
+</div>
+<div style="font-size:60px;">
+<div class="absolute" style="top: 25%; left: 50%; ">
+<p>Integral Heats of Solution and Mixing at 25°C</p>
+</div>
+</div>
+<div style="font-size:40px;">
+<div class="absolute" style="top: 30%; left: 50%; ">
+<div style="width: 100%; float: left;">
+<p>Adapted from J. C.Whitwelland R. K.Toner,Conservation of Mass and Energy, pp.&nbsp;344-346. Copyright © 1969 by McGraw-Hill, Inc.&nbsp;Used with permission of McGraw-Hill.</p>
+</div>
+</div>
+</div>
+<p><br></p>
+<div style="font-size:75px;">
+<div class="absolute" style="top: 40%; left: 45%; ">
+<div class="fragment">
+<p><span class="math display">\[\Delta H_3 = n_{NaOH} \left( \Delta \hat{H}_{s-9.09\%} - \Delta \hat{H}_{s-25\%} \right)\]</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 50%; left: 52%; ">
+<div class="fragment">
+<p><span class="math display">\[= 1 \left[ -42.15 - (-28.87) \right]\]</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 60%; left: 52%; ">
+<div class="fragment">
+<p><span class="math display">\[= -13.28 \text{ kJ}\]</span></p>
+</div>
+</div>
+</div>
 </section>
-<section id="using-the-templates" class="slide level2">
-<h2>Using the Templates</h2>
-<ul>
-<li class="fragment">Come Preformatted with my coding.
-<ul>
-<li class="fragment">Reference data (e.g., R, data from table) Blue</li>
-<li class="fragment">Input parameters (what the user can change) Green or Red</li>
-<li class="fragment">Answers or results, BOLD</li>
-</ul></li>
-<li class="fragment">Usually has a place for your name and section.</li>
-<li class="fragment">Fill Formula means to enter, or preferably drag or copy and paste a formula.</li>
-<li class="fragment">Fill Title means to enter a descriptive title for the column or row.</li>
-<li class="fragment">Fill Value means to enter the value from a reference table or the problem statement.</li>
-<li class="fragment">Fill Guess means to enter an approximate value that will be refined using either guess and check, or Goal Seek.</li>
-<li class="fragment">Use Copy and Paste Special to copy and paste a formula without changing formatting.</li>
-</ul>
+<section id="section-7" class="slide level2">
+<h2></h2>
+<p>Solving for <span class="math inline">\(\Delta H_2\)</span> and <span class="math inline">\(T_{initial}\)</span></p>
+<div style="font-size:80px;">
+<div class="absolute" style="top: 10%; left: 3%; ">
+<div class="fragment">
+<p><span class="math display">\[\Delta H_2 = -(\Delta H_1 + \Delta H_3 + \Delta H_4) = 3.65 + 13.64 - 1.36 = 15.92 kJ\]</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 20%; left: 3%; ">
+<div class="fragment">
+<p><span class="math display">\[\Delta H_2 = n_{H_2O} \overline{C}_{p-H_2O} \Delta T = 7 \cdot 0.0754 (25 - T_{initial}) = 15.92 kJ\]</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 30%; left: 3%; ">
+<div class="fragment">
+<p><span class="math display">\[T_{initial} = -5.19^\circ C = 22.66^\circ F\]</span></p>
+</div>
+</div>
+</div>
+<div class="absolute" style="top: 40%; left: 0%; ">
+<div class="fragment">
+<p>The temperature is below the freezing point of water. Since the enthalpy of fusion is so large, you would actually add a mixture of water and ice at 32°F. It would take a little extra calculation to figure out how much ice.</p>
+</div>
+</div>
+</section>
+<section id="section-8" class="slide level2">
+<h2></h2>
+<p><strong>Example:</strong> A 50% <span class="math inline">\(H_2O\)</span> - 50% <span class="math inline">\(NH_3\)</span> mixture at its bubble point is introduced into a heated single-stage flash unit. The exit streams are at 120°F. What are their compositions and how much heat must be added to the flash per pound of feed?</p>
+</section>
+<section id="section-9" class="slide level2">
+<h2></h2>
+<div class="absolute" style="top: 3%; left: 50%; ">
+<p><span class="math inline">\(\text{Figure 8.5-2 FRB}\)</span></p>
+</div>
+<div style="font-size:75px;">
+<div class="absolute" style="top: 20%; left: 50%; ">
+<div class="fragment">
+<p><span class="math display">\[\hat{H}_i = -88 \text{ Btu/lb}_m\]</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 30%; left: 50%; ">
+<div class="fragment">
+<p><span class="math display">\[\hat{H}_f = 327 \text{ Btu/lb}_m\]</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 40%; left: 50%; ">
+<div class="fragment">
+<p><span class="math display">\[\Delta \hat{H}_f = 327 - (-88) = 415 \text{ Btu/lb}_m\]</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 50%; left: 50%; ">
+<div class="fragment">
+<p><span class="math display">\[x_{NH_3} = 0.192\]</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 60%; left: 50%; ">
+<div class="fragment">
+<p><span class="math display">\[y_{NH_3} = 0.900\]</span></p>
+</div>
+</div>
+</div>
+
+
 </section></section>
-<section id="section" class="title-slide slide level1 center">
-<h1></h1>
-<div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
-
-
-</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png" class="slide-logo"></p>
