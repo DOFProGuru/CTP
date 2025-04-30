@@ -1,0 +1,320 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+# Reference States, $\Delta H_s$ $\Delta H_m$
+$\text{E82-Reference States, Heats of Solution and Mixing,}$ $\text{Assorted 1st-law related values}$
+
+
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+##
+### Reference states
+
+:::{.fragment}
+
+::: {.absolute left=3% top=15%}
+
+<div style="width: 40%; float: left;">
+
+Calculate the average heat capacity of saturated steam from 10°C to 90°C for both of the steam tables given:
+</div>
+
+:::
+
+:::
+
+:::{.fragment}
+::: {.absolute left=3% top=70%}
+<div style="width: 65%; float: left;">
+
+Table values are 
+specific enthalpy 
+in kJ/kg
+</div>
+
+:::
+
+:::
+
+##
+Table 1
+
+:::{.fragment}
+$$\overline{C}_{p}=\frac{\overline{H}_{2}-\overline{H}_{1}}{T_{2}-T_{1}}=\frac{2659.0-2519.9}{90-10}=1.739\frac{kJ}{kg^{\circ}C}$$
+:::
+
+:::{.fragment}
+Table 2
+:::
+
+:::{.fragment}
+$$\overline{C}_{p}=\frac{\hat{H}_{2}-\hat{H}_{1}}{T_{2}-T_{1}}=\frac{-17.0-(-156.1)}{90-10}=1.739\frac{kJ}{kg^{\circ}C}$$
+:::
+
+<br/>
+
+:::{.fragment}
+Why are the tables different?
+:::
+
+##
+
+### (Specific) Integral Heat of Solution
+:::{.fragment}
+
+$$\hat{H}_s(T, r)$$
+:::
+
+
+:::{.fragment}
+One mole of solute dissolved in r moles of solvent. 
+
+:::
+
+<br/>
+
+:::{.fragment}
+
+Usually referenced to pure solvent at some T. Can be referenced to pure solute or infinitely dilute solute.
+:::
+
+<br/>
+
+:::{.fragment}
+### (Specific) Integral Heat of Mixing
+:::
+
+<br/>
+
+:::{.fragment}
+One mole of solution made from $x$ moles of liquid 1 and $1-x$ moles of liquid 2. Usually referenced to pure species 1 and species 2 at some temperature.
+:::
+
+<br/>
+
+##
+
+**Example:** A 25% solution of NaOH in water at 100°F is to be diluted to a 9.09% solution by adding pure water. What temperature must the dilution water be at for the final mixture to be at 80°F.
+
+::: {style="font-size:80px;"}
+
+:::{.fragment}
+$$25\% \space \text{NaOH} = \frac{1 \space mol \space \text{NaOH}}{1 \space mol \space \text{NaOH} + 3 \space mol \space H_2O} \Rightarrow r = \frac{3 \space mol \space H_2O}{1 \space mol \space \text{NaOH}}$$
+:::
+
+:::{.fragment}
+$$9.09\% \space \text{NaOH} = \frac{1 \space mol \space \text{NaOH}}{1 \space mol \space \text{NaOH} + 10 \space mol \space H_2O} \Rightarrow r = \frac{10 \space mol \space H_2O}{1 \space mol \space \text{NaOH}}$$
+:::
+:::
+
+##
+1st-law: $\Delta H = 0$
+<br/>
+<br/>
+
+:::{.fragment}
+Pathway:
+:::
+
+<br/>
+
+::: {style="font-size:85px;"}
+
+:::{.fragment}
+$\text{4 mol mix @ 100°F to 4 mol mix @ 25°C,}$ $\Delta H_1$
+<br/>
+<br/>
+
+:::
+
+:::{.fragment}
+$\text{7 mol $H_2O$ @ $\textit T$°F to 7 mol $H_2O$ @ 25°C,}$ $\Delta H_2$
+:::
+
+<br/>
+
+:::{.fragment}
+$\text{4 mol mix + 7 mol $H_2O$ @ 25°C to 11 mol mix @ 25°C,}$ $\Delta H_3$
+<br/>
+<br/>
+
+:::
+
+:::{.fragment}
+
+$\text{11 mol mix @ 25°C to 11 mol mix @ 80°F,}$ $\Delta H_4$
+<br/>
+<br/>
+
+:::
+
+:::{.fragment}
+
+$\Delta H_1 + \Delta H_2 + \Delta H_3 + \Delta H_4 = 0$
+:::
+:::
+
+##
+Lacking other data, assume $C_p$ for mix is mole-weighted average of $C_p$ for individual species. $C_p$ values from Appendix B and Wikipedia.
+
+::: {style="font-size:70px;"}
+
+::: {.absolute left=3% top=30%}
+:::{.fragment}
+$$\Delta H_1 + \Delta H_2 + \Delta H_3 + \Delta H_4 = 0$$
+:::
+:::
+
+::: {.absolute left=3% top=40%}
+:::{.fragment}
+$$\Delta H_1 = \sum n_i \overline{C}_{p-i} \Delta T = (1 \cdot 0.0595 + 3 \cdot 0.0754)(25 - 37.78) = -3.61 kJ$$
+:::
+
+:::
+
+::: {.absolute left=3% top=50%}
+:::{.fragment}
+$$\Delta H_2 = n_{H_2O} \overline{C}_{p-H_2O} \Delta T = 7 \cdot 0.0754 (25 - T_{initial})$$
+:::
+:::
+
+::: {.absolute left=3% top=60%}
+:::{.fragment}
+$$\Delta H_4 = \sum n_i \overline{C}_{p-i} \Delta T = (1 \cdot 0.0595 + 10 \cdot 0.0754)(26.67 - 25) = 1.36 kJ$$
+:::
+:::
+
+:::
+
+##
+::: {.absolute left=55% top=15%}
+$\text{Table B.11 FRB}$
+
+:::
+
+::: {style="font-size:60px;"}
+
+::: {.absolute left=50% top=25%}
+Integral Heats of Solution and Mixing at 25°C
+:::
+:::
+
+::: {style="font-size:40px;"}
+::: {.absolute left=50% top=30%}
+
+<div style="width: 100%; float: left;">
+Adapted from J. C.Whitwelland R. K.Toner,Conservation of Mass and Energy, pp. 344-346. Copyright © 1969 by McGraw-Hill, Inc. Used with permission of McGraw-Hill.
+
+</div>
+
+:::
+:::
+
+</br>
+
+
+
+::: {style="font-size:75px;"}
+::: {.absolute left=45% top=40%}
+
+:::{.fragment}
+$$\Delta H_3 = n_{NaOH} \left( \Delta \hat{H}_{s-9.09\%} - \Delta \hat{H}_{s-25\%} \right)$$
+:::
+:::
+
+::: {.absolute left=52% top=50%}
+:::{.fragment}
+$$= 1 \left[ -42.15 - (-28.87) \right]$$ 
+:::
+:::
+
+::: {.absolute left=52% top=60%}
+:::{.fragment}
+$$= -13.28 \text{ kJ}$$
+:::
+:::
+
+:::
+
+##
+Solving for $\Delta H_2$ and $T_{initial}$
+
+::: {style="font-size:80px;"}
+
+::: {.absolute left=3% top=10%}
+:::{.fragment}
+$$\Delta H_2 = -(\Delta H_1 + \Delta H_3 + \Delta H_4) = 3.65 + 13.64 - 1.36 = 15.92 kJ$$
+:::
+:::
+
+::: {.absolute left=3% top=20%}
+:::{.fragment}
+$$\Delta H_2 = n_{H_2O} \overline{C}_{p-H_2O} \Delta T = 7 \cdot 0.0754 (25 - T_{initial}) = 15.92 kJ$$
+:::
+
+:::
+
+::: {.absolute left=3% top=30%}
+:::{.fragment}
+$$T_{initial} = -5.19^\circ C = 22.66^\circ F$$
+:::
+:::
+
+:::
+
+::: {.absolute left=0% top=40%}
+:::{.fragment}
+The temperature is below the freezing point of water. Since the enthalpy of fusion is so large, you would actually add a mixture of water and ice at 32°F. It would take a little extra calculation to figure out how much ice.
+:::
+:::
+
+##
+**Example:** A 50% $H_2O$ - 50% $NH_3$ mixture at its bubble point is introduced into a heated single-stage flash unit. The exit streams are at 120°F. What are their compositions and how much heat must be added to the flash per pound of feed?
+
+##
+::: {.absolute left=50% top=3%}
+$\text{Figure 8.5-2 FRB}$
+
+:::
+
+::: {style="font-size:75px;"}
+::: {.absolute left=50% top=20%}
+:::{.fragment}
+$$\hat{H}_i = -88 \text{ Btu/lb}_m$$
+:::
+:::
+::: {.absolute left=50% top=30%}
+:::{.fragment}
+$$\hat{H}_f = 327 \text{ Btu/lb}_m$$
+:::
+:::
+
+::: {.absolute left=50% top=40%}
+:::{.fragment}
+$$\Delta \hat{H}_f = 327 - (-88) = 415 \text{ Btu/lb}_m$$
+:::
+:::
+
+::: {.absolute left=50% top=50%}
+:::{.fragment}
+$$x_{NH_3} = 0.192$$
+:::
+:::
+
+::: {.absolute left=50% top=60%}
+:::{.fragment}
+
+$$y_{NH_3} = 0.900$$
+:::
+:::
+
+:::
