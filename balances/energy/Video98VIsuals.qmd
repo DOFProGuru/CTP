@@ -9,8 +9,7 @@ format:
     theme: [serif, ../../gradient.scss]
     html-math-method: mathjax
 ---
-# Reference States, $\Delta H_s$ $\Delta H_m$
-$\text{E82-Reference States, Heats of Solution and Mixing,}$ $\text{Assorted 1st-law related values}$
+# Reference Not Found: Mixing, Dissolving, and Changing the Rules
 
 
 
@@ -49,7 +48,7 @@ in kJ/kg
 Table 1
 
 :::{.fragment}
-$$\overline{C}_{p}=\frac{\overline{H}_{2}-\overline{H}_{1}}{T_{2}-T_{1}}=\frac{2659.0-2519.9}{90-10}=1.739\frac{kJ}{kg^{\circ}C}$$
+$$\overline{C}_{p}=\frac{\overline{H}_{2}-\overline{H}_{1}}{T_{2}-T_{1}}=\frac{2659.5-2519.2}{90-10}=1.754\ \mathrm{\frac{kJ}{kg^{\circ}C}}$$
 :::
 
 :::{.fragment}
@@ -57,7 +56,7 @@ Table 2
 :::
 
 :::{.fragment}
-$$\overline{C}_{p}=\frac{\hat{H}_{2}-\hat{H}_{1}}{T_{2}-T_{1}}=\frac{-17.0-(-156.1)}{90-10}=1.739\frac{kJ}{kg^{\circ}C}$$
+$$\overline{C}_{p}=\frac{\hat{H}_{2}-\hat{H}_{1}}{T_{2}-T_{1}}=\frac{-16.1-(-156.4)}{90-10}=1.754\ \mathrm{\frac{kJ}{kg^{\circ}C}}$$
 :::
 
 <br/>
@@ -76,7 +75,7 @@ $$\hat{H}_s(T, r)$$
 
 
 :::{.fragment}
-One mole of solute dissolved in r moles of solvent. 
+One mole of solute dissolved in $r$ moles of solvent. 
 
 :::
 
@@ -84,7 +83,7 @@ One mole of solute dissolved in r moles of solvent.
 
 :::{.fragment}
 
-Usually referenced to pure solvent at some T. Can be referenced to pure solute or infinitely dilute solute.
+Usually referenced to pure solvent at some $T$. Can be referenced to pure solute or infinitely dilute solute.
 :::
 
 <br/>
@@ -108,7 +107,7 @@ One mole of solution made from $x$ moles of liquid 1 and $1-x$ moles of liquid 2
 ::: {style="font-size:80px;"}
 
 :::{.fragment}
-$$25\% \space \text{NaOH} = \frac{1 \space mol \space \text{NaOH}}{1 \space mol \space \text{NaOH} + 3 \space mol \space H_2O} \Rightarrow r = \frac{3 \space mol \space H_2O}{1 \space mol \space \text{NaOH}}$$
+$$25\% \space \text{NaOH} = \frac{1 \ \text{mol NaOH}}{1 \ \text{mol NaOH} + 3 \ \text{mol H_2O}} \Rightarrow r = \frac{3 \ \text{mol H_2O}}{1 \ \text{mol NaOH}}$$
 :::
 
 :::{.fragment}
