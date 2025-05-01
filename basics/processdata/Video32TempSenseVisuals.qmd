@@ -1,0 +1,276 @@
+---
+format:
+  revealjs:
+    tbl-colwidths: [18, 82]
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+
+---
+
+# Is It Hot in Here, or Just My Thermistor?
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+## Temperature Measurement
+
+- Fundamental to Chemical and Thermal Processing
+  - Temperature Measurements
+  - Pressure Measurements
+- Conversion from one temperature scale to another – *How Keen Is Your Rank?*
+- How to choose a temperature sensor – This video *Is It Hot in Here, or Just My Thermistor?*
+
+## Sensor Specifications
+
+- Temperature Range: e.g., $0\ ^\circ\mathrm{C}$ to $100\ ^\circ\mathrm{C}$
+- Accuracy: e.g., $\pm 0.5\ ^\circ\mathrm{C}$
+- Means of Reading: e.g., visual (look at it)
+- Size: e.g., &#8960; $= 0.6\ \mathrm{mm}$, $l = 3\ \mathrm{mm}$
+- Speed of Response: e.g., Thermal Time Constant, $\tau = 30\ \mathrm{s}$
+- Contact or Non-contact: e.g., an optical pyrometer is non-contact.
+- Environmental: e.g., survives oxidizing atmosphere to $800\ ^\circ\mathrm{C}$.
+- Typical applications: e.g., industrial plant.
+
+## Glass Thermometer
+
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
+:::{style="font-size: 85px;"}
+:::{.absolute left=0% top=10%}
+| Spec. | Value |
+|-------|-------|
+| Range:| lowest $-100\ ^\circ\mathrm{C}$, highest $260\ ^\circ\mathrm{C}$|
+| Accuracy: | $\pm0.2\ ^\circ\mathrm{C}$ to $\pm4\ ^\circ\mathrm{C}$ |
+|Reading:| Visual |
+|Size: | $50\ \mathrm{mm}$ to $60\ \mathrm{cm}$|
+| $\tau$: | $30\ \mathrm{s}$ Typical |
+| Contact? | Contact |
+| Environ: | Same as for soda-lime glass |
+| Uses: | General purpose, Labs |
+:::
+:::
+
+:::{style="font-size: 80px;"}
+:::{.absolute bottom=0% left=0%}
+Notes: Glass thermometers are subject to breakage, and if they contain mercury, they present a material hazard. They typically have a specified immersion depth for the most accurate readings.
+:::
+:::
+
+## Dial or Bimetallic Thermometer
+
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
+:::{style="font-size: 85px;"}
+:::{.absolute left=0% top=10%}
+| Spec. | Value |
+|-------|-------|
+| Range:| lowest $-80\ ^\circ\mathrm{C}$, highest $550\ ^\circ\mathrm{C}$|
+| Accuracy: | $\pm1\%$ to $\pm3\%$ |
+|Reading:| Visual |
+|Size: | $50\ \mathrm{mm}$ to $60\ \mathrm{cm}$|
+| $\tau$: | $20\ \mathrm{s}$ Typical |
+| Contact? | Contact |
+| Environ: | Same as for stainless steel |
+| Uses: | Cooking, Industrial, Labs |
+:::
+:::
+
+:::{style="font-size: 80px;"}
+:::{.absolute bottom=0% left=0%}
+Notes: Bimetallic or dial thermometers are not for high-precision measurements but are inexpensive and reliable.
+:::
+:::
+
+## Liquid Crystal
+
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
+:::{style="font-size: 85px;"}
+:::{.absolute left=0% top=10%}
+| Spec. | Value |
+|-------|-------|
+| Range:| lowest $-30\ ^\circ\mathrm{C}$, highest $120\ ^\circ\mathrm{C}$|
+| Accuracy: | $\pm1\ ^\circ\mathrm{C}$ to $\pm3\ ^\circ\mathrm{C}$ |
+|Reading:| Visual |
+|Size: | $15\ \mathrm{mm} \times 45\ \mathrm{mm}$ to $1.5\ \mathrm{cm} \times 15\ \mathrm{cm}$|
+| $\tau$: | $30\ \mathrm{s}$ Typical |
+| Contact? | Contact |
+| Environ: | Benign environments only. |
+| Uses: | Aquariums, Refrigerators, Labs |
+:::
+:::
+
+:::{style="font-size: 80px;"}
+:::{.absolute bottom=0% left=0%}
+Notes: The displays are easy to read and visually appealing. Liquid Crystal thermometers are not very robust and typically last for 2 to 3 years before needing to be replaced. They are typically quite inexpensive.
+:::
+:::
+
+## Thermistor
+
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
+:::{style="font-size: 85px;"}
+:::{.absolute left=0% top=10%}
+| Spec. | Value |
+|-------|-------|
+| Range:| lowest $-100\ ^\circ\mathrm{C}$, highest $300\ ^\circ\mathrm{C}$|
+| Accuracy: | $\pm0.01\ ^\circ\mathrm{C}$ to $\pm5\ ^\circ\mathrm{C}$ |
+|Reading:| Electronic (Resistance) |
+|Size: | $0.5\ \mathrm{mm} \times 3\ \mathrm{mm}$ to $3\ \mathrm{mm} \times 30\ \mathrm{cm}$|
+| $\tau$: | $300\ \mathrm{ms}$ to $30\ \mathrm{s}$ |
+| Contact? | Contact |
+| Environ: | Keep in temperature range. Sheath<br/>determines ruggedness|
+| Uses: | Personal electronics, Appliances,<br/>Automotive, Industrial, Lab |
+:::
+:::
+
+:::{style="font-size: 80px;"}
+:::{.absolute bottom=0% left=0%}
+Notes: Within their temperature range, thermistors are usually the best choice for a given accuracy at low cost. They have a large signal range for a small temperature change. They are very nonlinear and the processing circuitry must change the resistance to a voltage for reading.
+:::
+:::
+
+## Thermocouple
+
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
+:::{style="font-size: 85px;"}
+:::{.absolute left=0% top=10%}
+| Spec. | Value |
+|-------|-------|
+| Range:| lowest $-270\ ^\circ\mathrm{C}$, highest $2760\ ^\circ\mathrm{C}$|
+| Accuracy: | $\pm0.5\ ^\circ\mathrm{C}$ to $\pm4.5\ ^\circ\mathrm{C}$ |
+|Reading:| Electronic (Voltage) |
+|Size: | $0.15\ \mathrm{mm}$ to $1.5 \ \mathrm{cm} \times 60\ \mathrm{cm}$|
+| $\tau$: | $10\ \mathrm{ms}$ to $30\ \mathrm{s}$ |
+| Contact? | Contact |
+| Environ: | Ranges from delicate to extremely<br/>rugged |
+| Uses: | Industrial, Labs |
+:::
+:::
+
+:::{style="font-size: 80px;"}
+:::{.absolute bottom=0% left=0%}
+Notes: Thermocouples can be extremely inexpensive, but their accuracy is fairly low. They generate voltages in the millivolt range and need to be compensated for greatest accuracy. They are sensitive to electromagnetic interference and leads normally need to be twisted-pair wires. They find extensive use in industry.
+:::
+:::
+
+## Solid-State Temperature Sensor
+
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
+:::{style="font-size: 85px;"}
+:::{.absolute left=0% top=10%}
+| Spec. | Value |
+|-------|-------|
+| Range:| lowest $-55\ ^\circ\mathrm{C}$, highest $125\ ^\circ\mathrm{C}$|
+| Accuracy: | $\pm0.25\ ^\circ\mathrm{C}$ to $\pm2\ ^\circ\mathrm{C}$ |
+|Reading:| Electronic (Voltage) or Digital |
+|Size: | $3\ \mathrm{mm}$ to $10\ \mathrm{mm}$|
+| $\tau$: | $30\ \mathrm{s}$ Typical |
+| Contact? | Contact |
+| Environ: | Typical for semiconductor |
+| Uses: | Personal electronics, Appliances,<br/>Automotive, Industrial, Lab |
+:::
+:::
+
+:::{style="font-size: 80px;"}
+:::{.absolute bottom=0% left=0%}
+Notes: Solid-state temperature sensors are basically thermistors with additional conditioning circuitry to reduce the engineering effort to integrate them into a device. They typically produce either a voltage such as $10\ \mathrm{mV/^\circ C}$ or a digital output using an I2C or SPI bus.
+:::
+:::
+
+## 
+
+:::{style="font-size: 145px; font-weight: bold;"}
+Resistance Temperature Detector (RTD)
+:::
+
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
+:::{style="font-size: 85px;"}
+:::{.absolute left=0% top=10%}
+| Spec. | Value |
+|-------|-------|
+| Range:| lowest $-200\ ^\circ\mathrm{C}$, highest $850\ ^\circ\mathrm{C}$|
+| Accuracy: | $\pm0.06\ ^\circ\mathrm{C}$ to $\pm4.6\ ^\circ\mathrm{C}$ |
+|Reading:| Elexctronic (Resistance) |
+|Size: | $1\ \mathrm{mm}$ to $60\ \mathrm{cm}$|
+| $\tau$: | $0.5\ \mathrm{s}$ to $30\ \mathrm{s}$ |
+| Contact? | Contact |
+| Environ: | Depends on packaging. Can be very rugged. |
+| Uses: | Labs, Precision Industrial |
+:::
+:::
+
+:::{style="font-size: 80px;"}
+:::{.absolute bottom=0% left=0%}
+Notes: Resistance temperature devices can be very accurate and very stable. They're typically made from precision-formulated platinum wire and have a nominal resistance of $100\ \Omega$ or $1000\ \Omega$. The processing circuitry is rather involved, but the accuracy and stability with time make them a favorite in lab settings.
+:::
+:::
+
+## Optical or Infrared Pyrometer
+
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
+:::{style="font-size: 85px;"}
+:::{.absolute left=0% top=10%}
+| Spec. | Value |
+|-------|-------|
+| Range:| lowest $-50\ ^\circ\mathrm{C}$, highest $>2000\ ^\circ\mathrm{C}$|
+| Accuracy: | $\pm0.5\ ^\circ\mathrm{C}$ to $>\pm20\ ^\circ\mathrm{C}$ |
+|Reading:| Visual, sensor is electronic |
+|Size: | Usually handheld|
+| $\tau$: | $\text{sub-ms}$ to $10\ \mathrm{s}$ |
+| Contact? | Non-Contact |
+| Environ: | Avoid harsh conditions |
+| Uses: | Home, Industry, Labs |
+:::
+:::
+
+:::{style="font-size: 80px;"}
+:::{.absolute bottom=0% left=0%}
+Notes: Optical and Infrared Pyrometers all use some form of Planck's law to calculate temperature by measuring emitted thermal radiation. They all have to make some assumptions about the surface they are pointed at and stray light. When they work, they work very well. When they don't, they can have large undetected errors.
+:::
+:::
+
+## Final Notes
+
+For industrial use the order of choice is:
+
+1. Thermistor
+2. Thermocouple
+3. Dial Thermometer
+4. Optical or Infrared Pyrometer
+
+The other sensors are suitable for specialized industrial applications.
+
+## The Takeaways
+
+1. Temperature is one of the fundamental measurements in chemical and thermal processing.
+
+2. There is a large array of sensors that measure temperature. When choosing one you need to keep in mind the temperature range, the needed accuracy, the means of reading it, the size, the speed of response, whether it needs to contact the object or not, and environmental conditions
+
+3. The order of choice for industry is: 1. Thermistor, 2. Thermocouple, 3. Dial Thermometer, 4. Optical or Infrared Pyrometer, but ultimately the application determines the best sensor.
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
