@@ -5975,7 +5975,7 @@
     "href": "balances/material/Video63Visuals.html#the-soave-redlich-kwong-equation-of-state",
     "title": "Chemical and Thermal Processes",
     "section": "The Soave-Redlich-Kwong Equation of State",
-    "text": "The Soave-Redlich-Kwong Equation of State\n\nFrom family of cubic equations of state\n\n\\[\nP = \\frac{RT}{\\hat{V} - b} - \\frac{\\alpha a}{\\hat{V}(\\hat{V}+b)}\n\\]\n\n\nwhere\n\\[\na = 042747 \\frac{(RT_\\mathrm{c})^2}{P_\\mathrm{c}},\\ \\ \\ b = 0.08664 \\frac{RT_\\mathrm{c}}{P_\\mathrm{c}},\\ \\ \\ \\alpha = [1+m(1-\\sqrt{T_\\mathrm{r}})]^2\n\\]\n\n\nand\n\\[\nm = 0.48508 + 1.5517 \\omega - 0.1561 \\omega^2\n\\]"
+    "text": "The Soave-Redlich-Kwong Equation of State\n\nFrom family of cubic equations of state\n\n\\[\nP = \\frac{RT}{\\hat{V} - b} - \\frac{\\alpha a}{\\hat{V}(\\hat{V}+b)}\n\\]\n\n\nwhere\n\\[\na = 0.42747 \\frac{(RT_\\mathrm{c})^2}{P_\\mathrm{c}},\\ \\ \\ b = 0.08664 \\frac{RT_\\mathrm{c}}{P_\\mathrm{c}},\\ \\ \\ \\alpha = [1+m(1-\\sqrt{T_\\mathrm{r}})]^2\n\\]\n\n\nand\n\\[\nm = 0.48508 + 1.5517 \\omega - 0.1561 \\omega^2\n\\]"
   },
   {
     "objectID": "balances/material/Video63Visuals.html#example",
