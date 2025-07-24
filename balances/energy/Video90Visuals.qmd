@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Add Friction and Work to Bernoulli? Here’s What Really Happens
+# Add Friction and Work to Bernoulli? Here’s What Really Happens!
 
 ::: {style="text-align: center; font-size: 120px;"}
 DOFPro Team

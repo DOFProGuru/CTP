@@ -8,8 +8,8 @@ There are the following appendices:
 # Appendix A – Nomenclature
 [A list of nomenclature](Nomenclature.qmd)
 
-# Appendix B
-Appendix B
+# Appendix B – No Longer Funny
+[If you have to explain it, it's no longer funny](NotFunny.qmd)
 
 # Appendix C
 Appendix C
