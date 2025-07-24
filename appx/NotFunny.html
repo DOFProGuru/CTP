@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="DOFPro group">
+
+<title>If You Have to Explain It, It’s No Longer Funny – Chemical and Thermal Processes</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-817abd8cdb7be821f1e1333d3d957080.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="https://dofpro.org" class="navbar-brand navbar-brand-logo">
+    <img src="../DOFPro_D7_White_Red_Flame_No_Background_Cropped.png" alt="DOFPro Logo" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="https://dofpro.org">
+    <span class="navbar-title">Chemical and Thermal Processes</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="../basics/"> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-overview" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Overview</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-overview">    
+        <li>
+    <a class="dropdown-item" href="../basics/index.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../basics/intro/IntroTopicsWebPage.html">
+ <span class="dropdown-text">Intro and Disciplines</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../basics/stats/StatsMeasurementsWebPage.html">
+ <span class="dropdown-text">Statistics &amp; Measurements</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../basics/calculations/CalculationsWebPage.html">
+ <span class="dropdown-text">Calculations</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../basics/processdata/ProcessDataWebPage.html">
+ <span class="dropdown-text">Process Data &amp; Variables</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-balances" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Balances</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-balances">    
+        <li>
+    <a class="dropdown-item" href="../balances/general/">
+ <span class="dropdown-text">General</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../balances/material/">
+ <span class="dropdown-text">Material</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../balances/energy/">
+ <span class="dropdown-text">Energy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../balances/entropy/">
+ <span class="dropdown-text">Entropy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../balances/exergy/">
+ <span class="dropdown-text">Exergy</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../phase/"> 
+<span class="menu-text">Phase Equilibria</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../react/"> 
+<span class="menu-text">Reactors</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../appx/"> 
+<span class="menu-text">Appendices</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dofpro" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">DOFPro</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-dofpro">    
+        <li>
+    <a class="dropdown-item" href="https://dofpro.org">
+ <span class="dropdown-text">DOFPro Home</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://dofpro.org/RCK/">
+ <span class="dropdown-text">Rocketry</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">If You Have to Explain It, It’s No Longer Funny</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>DOFPro group </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Here are the Eater Eggs, References, and thngs you might have missed in in the titles to the DOFPro CTP videos:</p>
+<ul>
+<li><a href="../NotYetHere.html">A Combustible Mixture!</a>: This is a clickbait-style and punny title. The phrase is usually used to describe what happens when you have certain people and/or subject matters together and an argument or violence ensues. In this case, it is actually describing chemical mixtures that are designed to combust or burn.</li>
+<li><a href="../NotYetHere.html">Add Friction and Work to Bernoulli? Here’s What Really Happens!</a>: “Here’s what <em>really</em> happens!” is a popular phrase in clickbait. Bernoulli’s equation is much more famous than the mechanical energy balance, and the video starts with the mechanical energy balance and then includes the Bernoulli equation as a simplification by removing the friction and the shaft work.</li>
+<li><a href="../NotYetHere.html">Alcohol and Water DO Mix!</a>: The phrase, “Alcohol and <em>X</em> Don’t Mix”, where <em>X</em> can be anything from driving to pregnancy, to eating morel mushrooms is a common exhortation to not mix them. The video describes how to estimate the density or specific volume of chemical mixtures, and the main example is alcohol and water, whose mixtures are very non-ideal.</li>
+<li><a href="../NotYetHere.html">Are You Dense? Crank Up the Volume and Go With the Flow!</a>: “Are you dense?” is a good clickbait phrase, as a re “Crank up the volume!” and “Go with the flow!”. Since the video describes the concepts of specific and molar density and specific and molar volume, along with mass, molar, and volumetric flow rates, the title seemed appropriate.</li>
+<li><a href="../NotYetHere.html">Basic Statistics by Hand</a>: Most of the <em>How-To</em> videos that demonstrate using software have straightforward titles that describe what the are or what they do. This video describes how to do basic statistical calculations by hand. If you have a good or amusing alternate title, put it in the comments.</li>
+<li><a href="../NotYetHere.html">Basic Statistics in R</a>: Most of the <em>How-To</em> videos that demonstrate using software have straightforward titles that describe what the are or what they do. This video describes how to do basic statistical calculations with the statistics language <em>R</em>. If you have a good or amusing alternate title, put it in the comments.</li>
+<li><a href="../NotYetHere.html">Basic Statistics on a Spreadsheet</a>: Most of the <em>How-To</em> videos that demonstrate using software have straightforward titles that describe what the are or what they do. This video describes how to do basic statistical calculations with with a spreadsheet. If you have a good or amusing alternate title, put it in the comments.</li>
+<li><a href="../NotYetHere.html">Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1</a>: This title is meant to invoke memories of several different phrases, including <em>Live, Love, Laugh</em>, <em>Lather, Rinse, Repeat</em>, and <em>Live, Die, Repeat</em> the original title of <em>Edge of Tomorrow</em>. Since the Rankine cycle is a cyclic process, you repeat every step ad infinitum.</li>
+<li><a href="../NotYetHere.html">Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2</a>: This title is a repeat of a cyclic title that is meant to invoke memories of several different phrases, including <em>Live, Love, Laugh</em>, <em>Lather, Rinse, Repeat</em>, and <em>Live, Die, Repeat</em> the original title of <em>Edge of Tomorrow</em>. Since the Rankine cycle is a cyclic process, you repeat every step ad infinitum.</li>
+<li><a href="../NotYetHere.html">Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 1</a>: “Get your <em>X</em> right!”, where <em>X</em> can be anything from <em>notes</em> and/or <em>rhythms</em> to <em>your head</em> is a popular clickbait phrase. Azeotropes and peritectics are words that most people wouldn’t recognize but play a big role in binary phase diagrams, so the title arouses the curiosity of the viewer. People who are actually looking for azeotropes, peritectics, and binary phase diagrams will find the clickbait title amusing.</li>
+<li><a href="../NotYetHere.html">Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 1</a>: “Get your <em>X</em> right!”, where <em>X</em> can be anything from <em>notes</em> and/or <em>rhythms</em> to <em>your head</em> is a popular clickbait phrase. Azeotropes and peritectics are words that most people wouldn’t recognize but play a big role in binary phase diagrams, so the title arouses the curiosity of the viewer. People who are actually looking for azeotropes, peritectics, and binary phase diagrams will find the clickbait title amusing.</li>
+<li><a href="../NotYetHere.html">Chemical Reactions vs.&nbsp;The First Law: Who Wins?</a>: “Who wins?” is a popular clickbait phrase. The video describes applying the First Law of Thermodynamics to a reactive process, so the title doesn’t really make sense, but someone might be curious to see if one of them does win.</li>
+<li><a href="../NotYetHere.html">Cycle Wars: The Power Awakens</a>: A direct rip-off of <em>Star Wars: The Force Awakens</em> as applied to air-standard power cycles. We’re still within fair-use guidelines.</li>
+<li><a href="../NotYetHere.html">Cycle Wars: The Rise of Otto Cycles</a>: A direct rip-off of <em>Star Wars: The Rise of Skywalker</em> as applied to the <em>Otto cycle</em> and other air-standard power cycles. We’re still within fair-use guidelines.</li>
+<li><a href="../NotYetHere.html">Dew Your Bubbles Have Flash? Part 1</a>: The three most common calculations in vapor-liquid phase equilibrium calculations are the <em>bubble point</em>, the <em>dew point</em>, and the <em>flash</em> calculations. This title combines the <em>Do the dew</em> spelling of <em>do</em> with the clickbait-rich words <em>bubbles</em> and <em>flash</em>.</li>
+<li><a href="../NotYetHere.html">Dew Your Bubbles Have Flash? Part 2</a>: The three most common calculations in vapor-liquid phase equilibrium calculations are the <em>bubble point</em>, the <em>dew point</em>, and the <em>flash</em> calculations. This title combines the <em>Do the dew</em> spelling of <em>do</em> with the clickbait-rich words <em>bubbles</em> and <em>flash</em>.</li>
+<li><a href="../NotYetHere.html">Dew Your Bubbles Have Flash? Part 2</a>: The three most common calculations in vapor-liquid phase equilibrium calculations are the <em>bubble point</em>, the <em>dew point</em>, and the <em>flash</em> calculations. This title combines the <em>Do the dew</em> spelling of <em>do</em> with the clickbait-rich words <em>bubbles</em> and <em>flash</em>.</li>
+<li><a href="../NotYetHere.html">Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart</a>: Psychrometric charts are one of the traditionally most difficult part of a thermodynamics or HVAC course. We wanted to reference how people struggle with psychrometric charts, how they usually involve dry-bulb and wet-bulb thermometric measurements, as well as exploit the human fascination with psychiatry and how both <em>psychiatry</em> and <em>psychrometry</em> could both be abbreviated as <em>psych</em>. Did we <em>psych</em> you out? Well, it was intentional. Sorry-Not Sorry!</li>
+<li><a href="../NotYetHere.html">Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans</a>: Many students find the concept of entropy to be the devil incarnate, so replacing <em>The Devil made me do it</em> with <em>Entropy made me do it</em> seemed fitting. Also, since an increase in entropy is responsible for so much in the universe, the title made thermodynamic sense as well. Listing several devices that are analyzed using the Second Law and referring to them as Shenanigans seemed to fit the whole entropy-as-the-devil theme.</li>
+<li><a href="../NotYetHere.html">Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans</a>: Many students find the concept of entropy to be the devil incarnate, so replacing <em>The Devil made me do it</em> with <em>Entropy made me do it</em> seemed fitting. Also, since an increase in entropy is responsible for so much in the universe, the title made thermodynamic sense as well. Listing several devices that are analyzed using the Second Law and referring to them as Shenanigans seemed to fit the whole entropy-as-the-devil theme.</li>
+<li><a href="../NotYetHere.html">Flame On, Torch!</a>: The catch phrase of <em>Johnny Storm</em> of <em>The Fantastic Four</em> seemed the perfect clickbait for a video introduction to the chemistry of combustion reactions.</li>
+<li><a href="../NotYetHere.html">From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering</a>: We attempted to combine the overwhelming scope of the DOFPro videos with clickbait-style phrases and a touch of alliteration. HOw did we do? Let us know in the comments to the video.</li>
+<li><a href="../NotYetHere.html">Fueling the Fire: The Shocking Truth About Combustion Reactions!</a>: <em>The Shocking Truth</em> and <em>Fueling the Fire</em> are both popular clickbait phrases. Using them to introduce a video about the thermodynamics of combustion reactions seemed to be a natural.</li>
+<li><a href="../NotYetHere.html">Germain Hess and the Enthalpy of Doom</a>: A direct rip-off of <em>Indiana Jones and the Temple of Doom</em> applied to Hess’s law and enthalpy of reaction calculations. We’re still within fair-use guidelines.</li>
+<li><a href="../NotYetHere.html">Gotta Keep ’Em Separated</a>: A blatant rip-off of the first line from <em>The Offspring</em>’s 1994 song <em>Come Out and Play</em>. The video is all about doing calculations for chemical separators, so the title seemed relevant.</li>
+<li><a href="../NotYetHere.html">How Deviant and Mean Are Your Data? Introduction and Basics, Part 1, Just the Facts</a>: <em>Deviant</em> and <em>Mean</em> are both popular clickbait words. They also happen to be closely related to <em>Standard Deviation</em> and <em>Data Mean</em> which are the subjects of this set of videos. We couldn’t squeeze in <em>Standard Error</em> or <em>Confidence Interval</em>, but we did try. The <em>Just the Facts</em> videos don’t have interviews and have nice clean magic-screen graphics instead of hand-written dry-erase markers on a whiteboard.</li>
+<li><a href="../NotYetHere.html">How Deviant and Mean Are Your Data? Introduction and Basics, Part 1, The Full Story</a>: <em>Deviant</em> and <em>Mean</em> are both popular clickbait words. They also happen to be closely related to <em>Standard Deviation</em> and <em>Data Mean</em> which are the subjects of this set of videos. We couldn’t squeeze in <em>Standard Error</em> or <em>Confidence Interval</em>, but we did try. The <em>The Full Story</em> videos have interviews and have hand-written dry-erase markers on a whiteboard instead of nice clean magic-screen graphics.</li>
+<li><a href="../NotYetHere.html">How Deviant and Mean Are Your Data? Introduction and Basics, Part 2, Just the Facts</a>: <em>Deviant</em> and <em>Mean</em> are both popular clickbait words. They also happen to be closely related to <em>Standard Deviation</em> and <em>Data Mean</em> which are the subjects of this set of videos. We couldn’t squeeze in <em>Standard Error</em> or <em>Confidence Interval</em>, but we did try. The <em>Just the Facts</em> videos don’t have interviews and have nice clean magic-screen graphics instead of hand-written dry-erase markers on a whiteboard.</li>
+<li><a href="../NotYetHere.html">How Deviant and Mean Are Your Data? Introduction and Basics, Part 2, The Full Story</a>: <em>Deviant</em> and <em>Mean</em> are both popular clickbait words. They also happen to be closely related to <em>Standard Deviation</em> and <em>Data Mean</em> which are the subjects of this set of videos. We couldn’t squeeze in <em>Standard Error</em> or <em>Confidence Interval</em>, but we did try. The <em>The Full Story</em> videos have interviews and have hand-written dry-erase markers on a whiteboard instead of nice clean magic-screen graphics.</li>
+<li><a href="../NotYetHere.html">How Did You Think I Would React?</a>: <em>How Did You Think I Would React?</em> is a popular RomCom and Sitcom phrase. We hoped that it would be clickbaitish enough to attract people to a video introducing the three classical chemical kinetic reactors, the batch, the CSTR, and the PFR.</li>
+<li><a href="../NotYetHere.html">How Keen Is Your Rank? Just the Facts</a>: In our interviews about temperature scales, most everyone knew the Celsius scale, the Kelvin scale, and the Fahrenheit scale, but no-one knew or remembered the Rankine scale. They weren’t too <em>keen</em> on it. A pun on <em>Rankine</em> as <em>Rank</em> and <em>Keen</em> seemed the perfect way to introduce the video. The <em>Just the Facts</em> videos don’t have interviews and have nice clean magic-screen graphics instead of hand-written dry-erase markers on a whiteboard.</li>
+<li><a href="../NotYetHere.html">How Keen Is Your Rank? The Full Story</a>: In our interviews about temperature scales, most everyone knew the Celsius scale, the Kelvin scale, and the Fahrenheit scale, but no-one knew or remembered the Rankine scale. They weren’t too <em>keen</em> on it. A pun on <em>Rankine</em> as <em>Rank</em> and <em>Keen</em> seemed the perfect way to introduce the video. The <em>The Full Story</em> videos have interviews and have hand-written dry-erase markers on a whiteboard instead of nice clean magic-screen graphics.</li>
+<li><a href="../NotYetHere.html">How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?</a>: Somehow the Second Law of Thermodynamics always makes us think of 17th-century Protestant theologians and philosophers. We changed the question from “how many angels can stand on the head of a pin?” to <em>How Much Entropy Can You Balance on the Head of a Pin?</em> and then added the bit about open steady-state systems to give a clue as to the actual subject of the video. We may be a little obscure, but at least some of you got the reference.</li>
+<li><a href="../NotYetHere.html">How to Have a Quickie with Your Data, Part 1</a>: The similarity with <em>How to have a quickie with your date</em> is pure coincidence and didn’t even occur to us until someone pointed it out to us after the video was recorded and it was too late to change the title. It was <em>supposed</em> to explain how you could quickly and efficiently do data analysis on your experimental data. We apologize for letting this one slip in here.</li>
+<li><a href="../NotYetHere.html">How to Have a Quickie with Your Data, Part 2</a>: The similarity with <em>How to have a quickie with your date</em> is pure coincidence and didn’t even occur to us until someone pointed it out to us after the video was recorded and it was too late to change the title. It was <em>supposed</em> to explain how you could quickly and efficiently do data analysis on your experimental data. We apologize for letting this one slip in here.</li>
+<li><a href="../NotYetHere.html">How to Keep Your Balance</a>: The general balance equation is the basis for mass balance, mole balances, energy balances, entropy balances, and exergy balances. We were hunting for a clickbait-type title and <em>How to keep your balance</em> seemed appropriate.</li>
+<li><a href="../NotYetHere.html">Ideal Gases EXPOSED: Are They Even Real?!!</a>: <em>EXPOSED</em> is one of the most frequently use clickbait words. Since the next videos were about real-gas calculations, asking if ideal gases were real was perfect from both a clickbait and engineering point of view.</li>
+<li><a href="../NotYetHere.html">Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts</a>: <em>Mind-blowing math hack</em> is the most use math-related clickbait phrase. There isn’t much you can do with <em>interpolate</em>, the subject of the video. We decided to go with the <a href="https://en.wikipedia.org/wiki/Malapropism">malapropism</a> route. <em>Interpol</em> is a good name to generate interest (what <strong>are</strong> those international criminals doing). And Interopol being late sounds like a scandal. It seemed like the perfect combination. The <em>Just the Facts</em> videos don’t have interviews and have nice clean magic-screen graphics instead of hand-written dry-erase markers on a whiteboard.</li>
+<li><a href="../NotYetHere.html">Interpol Is Late to a Mind-Blowing Math Hack, The Full Story</a>: <em>Mind-blowing math hack</em> is the most use math-related clickbait phrase. There isn’t much you can do with <em>interpolate</em>, the subject of the video. We decided to go with the [malapropism}(https://en.wikipedia.org/wiki/Malapropism) route. <em>Interpol</em> is a good name to generate interest (what <strong>are</strong> those international criminals doing). And Interpol being late sounds like a scandal. It seemed like the perfect combination. The <em>The Full Story</em> videos have interviews and have hand-written dry-erase markers on a whiteboard instead of nice clean magic-screen graphics.</li>
+<li><a href="../NotYetHere.html">Is Furlongs Per Fortnight a Thing?</a>: We decided to violate <a href="https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines">Betteridge’s Law of Headlines</a> and show in the video that <a href="https://en.wikipedia.org/wiki/FFF_system">furlongs per fortnight</a> is <em>indeed</em> a thing. The phrase is used to mock the silly way engineers (especially American engineers) have to do unit conversions, and the video explains just how to do it (convert units, not mock engineers).</li>
+<li><a href="../NotYetHere.html">Is It Hot in Here, or Just My Thermistor?</a>: The famous stand-up comedian line is, “Is it hot in here, or is it just me?”. It’s usually done as ironic self-praise, but is occasionally used sincerely as a pick-up line. We do not condone its use, however. Changing the phrase slightly into a title to a video about temperature sensors seemed to have the right sense of humor with a slight <a href="https://en.wikipedia.org/wiki/Double_entendre">double-entendre</a> vibe.</li>
+<li><a href="../NotYetHere.html">Is Your Process Data Spread Smooth or Chunky? Just the Facts</a>: There are a number of processed spreads on the market such as processed cheese spread, processed peanut spread a.k.a peanut butter, chocolate hazelnut spreads, and other nut spreads. This video is an introduction to process data. The similarity to processed nut spreads seemed like a pun that was just too good to pass up. Since you can smooth data, and chunky data are a thing in control charts, the question <em>could</em> be serious, but it’s not. The <em>Just the Facts</em> videos don’t have interviews and have nice clean magic-screen graphics instead of hand-written dry-erase markers on a whiteboard.</li>
+<li><a href="../NotYetHere.html">Is Your Process Data Spread Smooth or Chunky? The Full Story</a>: There are a number of processed spreads on the markets uch as processed cheese spread, processed peanut spread a.k.a peanut butter, chocolate hazelnut spreads, and other nut spreads. This video is an introduction to process data. The similarity to processed nut spreads seemed like a pun that was just too good to pass up. Since you can smooth data, and chunky data are a thing in control charts, the question <em>could</em> be serious, but it’s not. The <em>The Full Story</em> videos have interviews and have hand-written dry-erase markers on a whiteboard instead of nice clean magic-screen graphics.</li>
+<li><a href="../NotYetHere.html">It’s Totally Tubular, Man!</a>: The other common name for a Plug-Flow Reactor (PFR) is a <em>Tubular Reactor</em>. Since the video presents a sample calculation appled to PFR’s, CSTR’s and batch reactors, and starts with a PFR, the video is only <em>partially</em> tubular, bu this ’80s surfer phrase is still occassionally used.</li>
+<li><a href="../NotYetHere.html">Just Try to Break This Law! I Dare You!</a>: On a macroscopic scale for non-relativistic systems, the FIrst Law of Thermodynamics is one of those physical laws that is considered inviolate. Both <em>I dare you</em> and <em>Just try to</em> are popular clickbait phrases. The title seemed to fit a video introducing the First Law.</li>
+<li><a href="../NotYetHere.html">Leaving Radiator Springs In the Dust</a>: This video explores <em>bypass</em> and <em>recycle</em> as used in chemical processes. One of the most well-known bypasses in pop culture is when the Interstate bypasses <em>Radiator Springs</em> in the Pixar film <em>Cars</em>. Referencing a famous bypass as the title to a video about bypass was an opportunity too good to pass up.</li>
+<li><a href="../NotYetHere.html">Linear Regression in R</a>: Most of the <em>How-To</em> videos that demonstrate using software have straightforward titles that describe what the are or what they do. This video describes how to do linear regression calculations with the statistics language <em>R</em>. If you have a good or amusing alternate title, put it in the comments.</li>
+<li><a href="../NotYetHere.html">Modeling the Rankine Cycle in DWSIM</a>: Most of the <em>How-To</em> videos that demonstrate using software have straightforward titles that describe what the are or what they do. This video describes how to model a Rankine cycle with the open-source chemical process simulator, DWSIM. If you have a good or amusing alternate title, put it in the comments.</li>
+<li><a href="../NotYetHere.html">Modeling the Vapor Compression Cycle in DWSIM</a>: Most of the <em>How-To</em> videos that demonstrate using software have straightforward titles that describe what the are or what they do. This video describes how to model a vapor compression cycle with the open-source chemical process simulator, DWSIM. If you have a good or amusing alternate title, put it in the comments.</li>
+<li><a href="../NotYetHere.html">No Clear Interpretation, a Mind-Blowing Math Hack</a>: <em>Mind-blowing math hack</em> is the most use math-related clickbait phrase. There isn’t much you can do with <em>nonlinear interpolation</em>, the subject of the video. We decided to go with the <a href="https://en.wikipedia.org/wiki/Malapropism">malapropism</a> route. <em>No clear</em> for <em>nonlinear</em> and <em>interpretation</em> for <em>interpolation</em> seemed like good malapropisms. Together, they convey there is no easy way to understand the subject, which is a good clickbait trick. It seemed like the perfect combination.</li>
+<li><a href="../NotYetHere.html">Oh, Henry!</a>: The video discusses, among other things, the dissolution of gases into a liquid, which is described by Henry’s law. There was a famous candy bar (still is in Canada) named <a href="https://en.wikipedia.org/wiki/Oh_Henry!">On Henry!</a> which may have been named after the author <a href="https://en.wikipedia.org/wiki/O._Henry">O. Henry</a>. It was hard to pass up on over a hundred years of free publicity.</li>
+<li><a href="../NotYetHere.html">React But Maintain Your Equilibrium, Part 1</a>: The subject matter of the video is chemical reaction equilibrium or equilibrium reactors. The word <em>React</em> has a certain amount of clickbait value and <em>maintain your equilibrium</em> is a popular self-hep phrase. Combining the two seemed like a natural fit for getting clicks.</li>
+<li><a href="../NotYetHere.html">React But Maintain Your Equilibrium, Part 2</a>: The subject matter of the video is chemical reaction equilibrium or equilibrium reactors. The word <em>React</em> has a certain amount of clickbait value and <em>maintain your equilibrium</em> is a popular self-hep phrase. Combining the two seemed like a natural fit for getting clicks.</li>
+<li><a href="../NotYetHere.html">React Hard: The First Law Gets Chemical</a>: The first part is a blatant rip-off of the movie title <em>Die Hard</em>. We’re still within fair-use guidelines, however<em>. </em>The First Law Gets Chemical* is a spin on the movie hero getting physical. The video is the first part of a two-parter on the First Law applied to chemically reacting systems.</li>
+<li><a href="../NotYetHere.html">React Harder: Formation Heats and Alternate Endings</a>: The first part is a blatant rip-off of the movie sequel title <em>Die Harder</em>. We’re still within fair-use guidelines, however<em>. </em>Formation Heats and Alternate Endings* conjures up images of heated action and movie alternate endings. The video is the second part of a two-parter on the First Law applied to chemically reacting systems. It looks at alternate calculation strategies.</li>
+<li><a href="../NotYetHere.html">REAL Gas Mixtures EXPLAINED Don’t Let This Cost You Points on Your Exam! Part 1</a>: <em>EXPLAINED</em> is a popular clickbait word. <em>Don’t Let This Cost You Points on Your Exam!</em> is a direct appeal to students and is popular clickbait as well.</li>
+<li><a href="../NotYetHere.html">REAL Gas Mixtures EXPLAINED Don’t Let This Cost You Points on Your Exam! Part 2</a>: <em>EXPLAINED</em> is a popular clickbait word. <em>Don’t Let This Cost You Points on Your Exam!</em> is a direct appeal to students and is popular clickbait as well.</li>
+<li><a href="../NotYetHere.html">Recycling Before Recycling Was Cool</a>: Chemical Engineers were the first to make extensive use of recycle in Engineering to increase the efficiency of a process. It was done long before the concept of recycling entered popular culture. <em>X before X was cool</em> is a common phrase for gently denigrationg those late to a social trend.</li>
+<li><a href="../NotYetHere.html">Reference Not Found: Mixing, Dissolving, and Changing the Rules</a>: This video describes having different reference states for different property tables, enthalpy of solution calculations, and enthalpy of mixing calculations. Because of the change of reference, having hte classic 404 Reference Not Fount or Link Not Found seemed like a reasonable clickbait. The mixing and dissolving should be obvious. The changing the rules again refers back to different reference states.</li>
+<li><a href="../NotYetHere.html">Resistance is Futile. Entropy always wins</a>: The classic <a href="https://en.wikipedia.org/wiki/Borg">Borg</a> line, “Resistance is futile” seemed appropriate when dealing with the Second Law of Thermodynamics, since you can slow down the entropy increase, but you can never stop it. <em>Entropy always wins</em> is the same sentiment expressed in different terms. Engineers tend to be fans of Star Trek, Star Wars, and Harry Potter, so references to any of those franchises tend to be popular.</li>
+<li><a href="../NotYetHere.html">Revenge of the Fridge: Vapor Compression Strikes Back</a>: Blatant rip-offs of two <em>Star Wars</em> titles: <em>Revenge of the Sith</em> and <em>The Empire Strikes Back</em>. We’re still within fair-use guidelines. The video discusses the vapor compression refrigeration cycle and refrigeration in general, so the combination seemed to work.</li>
+<li><a href="../NotYetHere.html">Sadi Carnot and the Power of Fire, the 1824 Edition Part 1</a>: A not-so blatant rip-off of the title, <em>Harry Potter and the Goblet of Fire</em>. Sadi Carnot published an essay in June 1824 entitled <em>Reflections on the Motive Power of Fire</em>, which is the basis of the Carnot engine. That’s the reason for the 1824 edition, plus it makes it sound like it has more gravitas. The Harry Potter films split the final book because of length. We did the same thing here.</li>
+<li><a href="../NotYetHere.html">Sadi Carnot and the Power of Fire, the 1824 Edition Part 2</a>: A not-so blatant rip-off of the title, <em>Harry Potter and the Goblet of Fire</em>. Sadi Carnot published an essay in June 1824 entitled <em>Reflections on the Motive Power of Fire</em>, which is the basis of the Carnot engine. That’s the reason for the 1824 edition, plus it makes it sound like it has more gravitas. The Harry Potter films split the final book because of length. We did the same thing here.</li>
+<li><a href="../NotYetHere.html">Show Some Flash and Dew the Dew with a Little Bubbly!</a>: This video is a graphical explanation of Bubble, Dew, and Flash calculations. It comes before <a href="../NotYetHere.html">Dew Your Bubbles Have Flash?</a>, and like that title, this title combines the <em>Do the dew</em> spelling of <em>do</em> with the clickbait-rich words <em>bubbles</em> and <em>flash</em>.</li>
+<li><a href="../NotYetHere.html">Solving Nonlinear Equations with Spreadsheets</a>: Most of the <em>How-To</em> videos that demonstrate using software have straightforward titles that describe what the are or what they do. This video describes how to solve nonlinear equations numerically with a spreadsheet. If you have a good or amusing alternate title, put it in the comments.</li>
+<li><a href="../NotYetHere.html">Speed Balancing</a>: This video is the companion video to <a href="../NotYetHere.html">How to Keep Your Balance</a> and expalins ways to speed up your balance calculations. <em>Speed X</em> where <em>X</em> is something like dating, eating, reading, or programming is a popular clickbait technique. Non-technical viewers will think first about doing physical balane exercises, and engineers will appreciate the pun.</li>
+<li><a href="../NotYetHere.html">Steam: Get the Quality Right AFTER You Table It! Part 1</a>: The video is about how to read and do calculations with steam tables, which, truth be told, is a dying art. <em>Get X right</em> where <em>X</em> is something like your calculations, your stretches, or your videos is a popular clickbait phrase. <em>Quality</em> is the fraction of steam in a steam/water mixture, but to the non-technical viewer it will remind them of Samwise Gamgee’s quote to Faramir: “You took the chance, sir. Yes, sir, and showed your quality: the very highest.”</li>
+<li><a href="../NotYetHere.html">Steam: Get the Quality Right AFTER You Table It! Part 2</a>: The video is about how to read and do calculations with steam tables, which, truth be told, is a dying art. <em>Get X right</em> where <em>X</em> is something like your calculations, your stretches, or your videos is a popular clickbait phrase. <em>Quality</em> is the fraction of steam in a steam/water mixture, but to the non-technical viewer it will remind them of Samwise Gamgee’s quote to Faramir: “You took the chance, sir. Yes, sir, and showed your quality: the very highest.”</li>
+<li><a href="../NotYetHere.html">The Enthalpy Games: Sunrise on the Calculations</a>: A blatant rip-off of <em>The Hunger Games: Sunrise on the Reaping</em>. We’re still within the guidelines for fair use, however. This video does example enthalpy calculations based on the equations derived in <a href="../NotYetHere.html">The Enthalpy Games: The Ballad of Integrals and Means</a>.</li>
+<li><a href="../NotYetHere.html">The Enthalpy Games: The Ballad of Integrals and Means</a>: A blatant rip-off of <em>The Hunger Games: The Ballade of Songbirds and Snakes</em>. We’re still within the guidelines for fair use, however. This video develops the integrals for computing enthalpy changes and mean heat capacities from heat capacity equations in the Shomate form. The next video <a href="../NotYetHere.html">The Enthalpy Games: Sunrise on the Calculations</a> does example calculations based on the equations derived in this video.</li>
+<li><a href="../NotYetHere.html">The Isochronicles: This First Law Saga Is a Gas</a>: This video develops the equations for isothermal, isobaric, isochoric, and isentropic processes for ideal gases. Since we’re chronicling the different iso steps, The <em>Isochronicles</em> seemed like a perfect title.- <a href="../NotYetHere.html">The Isochronicles: This First Law Saga Is a Gas</a>: This video develops the equations for isothermal, isobaric, isochoric, and isentropic processes for ideal gases from the First Law of Thermodynamics, so <em>This First Law Saga Is a Gas</em> is a pun on ideal gases and <em>a gas</em> being slang for fun. Since we’re chronicling the different iso steps, <em>The Isochronicles</em> seemed like a perfect title. It calls to mind such titles as <em>The Martian Chronicles</em>, <em>The Spiderwick Chronicles</em>, and <em>The Chronicles of Narnia</em>.</li>
+<li><a href="../NotYetHere.html">The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1</a>: <em>The Law Is a Thief</em> taps into several prejudices about corrupt law enforcement. Having the law destroy something that you’ve never heard of and then mocking you is just such an emotional ride that few people could resist finding out more about it. The two-part video discusses the combined First and Second Laws of THermodynamics, which is useful for seeing where in your process you are wasting the most available energy and giving you leads as to where to increase efficiency.</li>
+<li><a href="../NotYetHere.html">The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 2</a>: <em>The Law Is a Thief</em> taps into several prejudices about corrupt law enforcement. Having the law destroy something that you’ve never heard of and then mocking you is just such an emotional ride that few people could resist finding out more about it. The two-part video discusses the combined First and Second Laws of THermodynamics, which is useful for seeing where in your process you are wasting the most available energy and giving you leads as to where to increase efficiency.</li>
+<li><a href="../NotYetHere.html">The Most Annoying Equation Conversion</a>: Most students who learn to convert an equation with dimensions, as opposed to converting a quantity wit dimensions, from one set of units to another find it really annoying. However, it is a really valuable skill when you need it. <em>Most annoying</em> is a good clickbait phrase, and the title acknowledges the frustration you are likely to feel while learning the method.</li>
+<li><a href="../NotYetHere.html">The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 1</a>: Both <em>The Shocking Truth</em> and <em>Are You Doing It Wrong?</em> and frequently used clickbait phrases. The three-part video describes the mole-balance math behind equilibrium separation stages, and then does examples. It’s really easy to get confused about these equations and solve the problems incorrectly. The videos are trying to set you up for success. The first video derives the math.</li>
+<li><a href="../NotYetHere.html">The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2</a>: Both <em>The Shocking Truth</em> and <em>Are You Doing It Wrong?</em> and frequently used clickbait phrases. The three-part video describes the mole-balance math behind equilibrium separation stages, and then does examples. It’s really easy to get confused about these equations and solve the problems incorrectly. The videos are trying to set you up for success. The second video does two examples. The first example uses a binary phase diagram to solve the mole balances in an equilibrium stage in a distillation column. The second example uses Raoult’s law to solve a ternary system in an equilibrium stage in a distillation column.</li>
+<li><a href="../NotYetHere.html">The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3</a>: Both <em>The Shocking Truth</em> and <em>Are You Doing It Wrong?</em> and frequently used clickbait phrases. The three-part video describes the mole-balance math behind equilibrium separation stages, and then does examples. It’s really easy to get confused about these equations and solve the problems incorrectly. The videos are trying to set you up for success. The third video uses a ternary phase diagram to solve the mole balances in an equilibrium stage in a liquid-liquid extractor.</li>
+<li><a href="../NotYetHere.html">The Symbolic Meaning of Recycling</a>: <em>Symbolic meanings</em> are often used as clickbait for esoteric or hidden-knowledge sorts of videos. Recycling is still big with the save-the-planet crowd. Combining the two should be clickbait gold. The video derives the equations for a recycle loop and deliberately leaves them in symbolic form so the viewer can see mathematically what is going on. A slightly more accurate title would be <em>A Symbolic Derviation of the Mole Balances Around a Recycle Loop</em>. You can see why we chose the title we did.</li>
+<li><a href="../NotYetHere.html">The Unauthorized Guide to Using Spreadsheets in Chemical Engineering</a>: Most of the <em>How-To</em> videos that demonstrate using software have straightforward titles that describe what the are or what they do. This is the only one that doesn’t. We’ve found that learning how to solve chemical and thermal process problem with spreadsheets is such a valuable skill, that we had to do something to increase viewership. <em>Unauthorized</em> is a very powerful clickbait word. We have no clue who would authorize the guide or would insist on only an authorized guide to learning spreadsheets, but hopefully the clickbait works. Let us know if it did in the comments.</li>
+<li><a href="../NotYetHere.html">The ΔS-sentials of Calculating Entropy Changes</a>: The symbol for an entropy change is <em>∆S</em>. The pun of using it as part of essentials when calculating entropy changes was too good to pass up.</li>
+<li><a href="../NotYetHere.html">Under Pressure, Part 1, Just the Facts</a>: <em>Under Pressure</em> was originally recorded by Queen and David Bowie. It’s been covered by everyone from The Used and My Chemical Romance to Xiu Xiu and Michael Gira. How can you pass up more than 40 years of publicity? The actual two-part video covers how pressure is calculated and how it is used in chemical and thermal processes. It is the second most used easurement after temperature. The <em>Just the Facts</em> videos don’t have interviews and have nice clean magic-screen graphics instead of hand-written dry-erase markers on a whiteboard.</li>
+<li><a href="../NotYetHere.html">Under Pressure, Part 1, The Full Story</a>: <em>Under Pressure</em> was originally recorded by Queen and David Bowie. It’s been covered by everyone from The Used and My Chemical Romance to Xiu Xiu and Michael Gira. How can you pass up more than 40 years of publicity? The actual two-part video covers how pressure is calculated and how it is used in chemical and thermal processes. It is the second most used easurement after temperature. The <em>The Full Story</em> videos have interviews and have hand-written dry-erase markers on a whiteboard instead of nice clean magic-screen graphics.</li>
+<li><a href="../NotYetHere.html">Under Pressure, Part 2, Just the Facts</a>: <em>Under Pressure</em> was originally recorded by Queen and David Bowie. It’s been covered by everyone from The Used and My Chemical Romance to Xiu Xiu and Michael Gira. How can you pass up more than 40 years of publicity? The actual two-part video covers how pressure is calculated and how it is used in chemical and thermal processes. It is the second most used easurement after temperature. The <em>Just the Facts</em> videos don’t have interviews and have nice clean magic-screen graphics instead of hand-written dry-erase markers on a whiteboard.</li>
+<li><a href="../NotYetHere.html">Under Pressure, Part 2, The Full Story</a>: <em>Under Pressure</em> was originally recorded by Queen and David Bowie. It’s been covered by everyone from The Used and My Chemical Romance to Xiu Xiu and Michael Gira. How can you pass up more than 40 years of publicity? The actual two-part video covers how pressure is calculated and how it is used in chemical and thermal processes. It is the second most used easurement after temperature. The <em>The Full Story</em> videos have interviews and have hand-written dry-erase markers on a whiteboard instead of nice clean magic-screen graphics.</li>
+<li><a href="../NotYetHere.html">Using DWSIM to Create Binary Phase Diagrams</a>: Most of the <em>How-To</em> videos that demonstrate using software have straightforward titles that describe what the are or what they do. This video describes how to create binary phase diagrams with DWSIM. If you have a good or amusing alternate title, put it in the comments.</li>
+<li><a href="../NotYetHere.html">What Is a Mole? Just the Facts</a>: This was the first video that we actually recorded and edited to work out the kinks in the process. Outside of chemistry and chemical engineering, very few people are familiar with moles as a unit of chemical measure. They think mainly of small burrowing creatures or double agents. If you watch closely, you may see <em>Mollage</em> who is a stuffed fabric mole originally created for an AP Chemistry class. The <em>Just the Facts</em> videos don’t have interviews and have nice clean magic-screen graphics instead of hand-written dry-erase markers on a whiteboard.</li>
+<li><a href="../NotYetHere.html">What Is a Mole? The Full Story</a>: This was the first video that we actually recorded and edited to work out the kinks in the process. Outside of chemistry and chemical engineering, very few people are familiar with moles as a unit of chemical measure. They think mainly of small burrowing creatures or double agents. If you watch closely, you may see <em>Mollage</em> who is a stuffed fabric mole originally created for an AP Chemistry class. The <em>The Full Story</em> videos have interviews and have hand-written dry-erase markers on a whiteboard instead of nice clean magic-screen graphics.</li>
+<li><a href="../NotYetHere.html">What the Frac! Just the Facts</a>: The video explains what mole fractions and mass fractions are and how to convert from one to the other. The title is a euphemistic malapropism for what in the military is known as <em>Whisky Tango Foxtrot</em>. The <em>Just the Facts</em> videos don’t have interviews and have nice clean magic-screen graphics instead of hand-written dry-erase markers on a whiteboard.</li>
+<li><a href="../NotYetHere.html">What the Frac! The Full Story</a>: The video explains what mole fractions and mass fractions are and how to convert from one to the other. The title is a euphemistic malapropism for what in the military is known as <em>Whisky Tango Foxtrot</em>. The <em>The Full Story</em> videos have interviews and have hand-written dry-erase markers on a whiteboard instead of nice clean magic-screen graphics.</li>
+<li><a href="../NotYetHere.html">What the Schmidt? Examples</a>: The video discusses a number of dimensionless groups or dimensionless numbers, one of which is the <em>Schmidt number</em>. The title is a euphemistic malapropism for an anglo-saxon epithet.</li>
+<li><a href="../NotYetHere.html">When Getting Gassed Isn’t Ideal, Part 1</a>: This pair of videos are a follow-on to <a href="../NotYetHere.html">Ideal Gases EXPOSED: Are They Even Real?!!</a>. Getting gassed is a euphemism for becoming intoxicated, especially on inhalants. The videos discuss doing real gas calculations with the pressure and temperature range is outside the ideal gas range, so the title is a pun on using inhalants at the wrong time and doing real-gas calculations.</li>
+<li><a href="../NotYetHere.html">When Getting Gassed Isn’t Ideal, Part 2</a>: Getting gassed is a euphemism for becoming intoxicated, especially on inhalants. The videos discuss doing real gas calculations with the pressure and temperature range is outside the ideal gas range, so the title is a pun on using inhalants at the wrong time and doing real-gas calculations.</li>
+<li><a href="../NotYetHere.html">When You Saw It, What Was the Extent of Your Reaction? Part 1</a>: This three-part video set explores modeling chemical reactors using the <em>extent of reaction</em>, a parameter that depends on either chemical equilibrium or chemical kinetics, but not explicitly. It is treated in the videos as a specified or calclated parameter. The title is a common phrase in RomComs or dramatic productions when a character see something heartbreaking and is interrogated by a friend. The title is therefore a pun between the extent of a chemical reaction and the extent of an emotional reaction. See, we told you they weren’t funny if you have to ahve them explained to you.</li>
+<li><a href="../NotYetHere.html">When You Saw It, What Was the Extent of Your Reaction? Part 2</a>: This three-part video set explores modeling chemical reactors using the <em>extent of reaction</em>, a parameter that depends on either chemical equilibrium or chemical kinetics, but not explicitly. It is treated in the videos as a specified or calclated parameter. The title is a common phrase in RomComs or dramatic productions when a character see something heartbreaking and is interrogated by a friend. The title is therefore a pun between the extent of a chemical reaction and the extent of an emotional reaction. See, we told you they weren’t funny if you have to ahve them explained to you.</li>
+<li><a href="../NotYetHere.html">When You Saw It, What Was the Extent of Your Reaction? Part 3</a>: This three-part video set explores modeling chemical reactors using the <em>extent of reaction</em>, a parameter that depends on either chemical equilibrium or chemical kinetics, but not explicitly. It is treated in the videos as a specified or calclated parameter. The title is a common phrase in RomComs or dramatic productions when a character see something heartbreaking and is interrogated by a friend. The title is therefore a pun between the extent of a chemical reaction and the extent of an emotional reaction. See, we told you they weren’t funny if you have to ahve them explained to you.</li>
+<li><a href="../NotYetHere.html">Where Does Sherwood Hide His Unit?</a>: The video discusses a number of dimensionless groups or dimensionless numbers, one of which is the <em>Sherwood number</em>, but Professor Sherwood always referred to it as the <em>Mass-Transfer Nusselt Number</em>. The individual values in a dimensionless group all have units, but the overall group is unitless. The title is therefore a double entendre.</li>
+<li><a href="../NotYetHere.html">Wishing Upon a CSTR</a>: A well mixed reactor is also known as a continuously stirred tank reactor or by the acronym CSTR, pronounced Sea-Star. Wishing upon a star is a popular superstition in most of the world, so wishing upon a CSTR should have a lot of aappeal. This video is a companion video to <a href="../NotYetHere.html">It’s Totally Tubular, Man!</a> and <a href="../NotYetHere.html">How Did You Think I Would React?</a>.</li>
+</ul>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/DOFProGuru\.github\.io\/CTP\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
