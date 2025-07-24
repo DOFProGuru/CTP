@@ -5,9 +5,9 @@ format: html
 ---
 
 ::: {.callout-note}
-The Degrees of Freedom Project (DOFPro) is still in the early alpha stage of development. Many of the videos, visuals, and web pages have not been created yet. However, we have placeholder links in many of the existing documents, so that we can see how the entire structure will look once we finish. The version 1.0 site is set for release in mid-May 2025. If it is before then, expect to see lots of these placeholder links.
+The Degrees of Freedom Project (DOFPro) is still in the early alpha stage of development. Many of the videos, visuals, and web pages have not been created yet. However, we have placeholder links in many of the existing documents, so that we can see how the entire structure will look once we finish. The version 1.0 site is set for release in mid-August 2025. If it is before then, expect to see lots of these placeholder links.
 :::
     
 ::: {.callout-warning}
-If it is **after** mid-May 2025, then we didn't find and fix the placeholder link that you clicked on. Please send an email to <a href="mailto:comments@dofpro.org?subject=Broken Link">comments</a> informing us of the incorrect link and the location on the originating page. Thank you. The DOFPro Team
+If it is **after** mid-August 2025, then we didn't find and fix the placeholder link that you clicked on. Please send an email to <a href="mailto:comments@dofpro.org?subject=Broken Link">comments</a> informing us of the incorrect link and the location on the originating page. Thank you. The DOFPro Team
 :::
