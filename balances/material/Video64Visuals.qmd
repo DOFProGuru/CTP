@@ -142,7 +142,7 @@ Soave Redlich Kwong (all SI units)
 
 :::{style="font-size: 95px;"}
 :::{.fragment}
-$$a = 042747 \dfrac{(RT_\mathrm{c})^2}{P_\mathrm{c}} = 042747 \dfrac{(8.314 \mathbf{\cdot} 370)^2}{4.23 \times 10^6} =  0.9564$$
+$$a = 0.42747 \dfrac{(RT_\mathrm{c})^2}{P_\mathrm{c}} = 042747 \dfrac{(8.314 \mathbf{\cdot} 370)^2}{4.23 \times 10^6} =  0.9564$$
 :::
 
 :::{.fragment}

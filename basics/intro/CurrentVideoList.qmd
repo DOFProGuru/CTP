@@ -36,4 +36,9 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 46 | How Did You Think I Would React? | [Link](https://youtu.be/_qxHszVZYGk) | No | [Page] | Basic Kinetic Reactor Mole Balance|
 | 47 | Wishing Upon a CSTR | [Link](https://youtu.be/6tnVFq7dSbE) | No | [Page] | Batch, CSTR, PFR|
 | 47A | It’s Totally Tubular, Man! | [Link](https://youtu.be/OAzXx9Kq2nU) | No | [Page] | CSTR, PFR, Batch Example|
+| 63 | When Getting Gassed Isn’t Ideal, Part 1 | [Link](https://youtu.be/1sU4_YdcKr4) | No | [Page] | Real gas intro |
+| 64 | When Getting Gassed Isn’t Ideal, Part 2 | [Link](https://youtu.be/Q6ZK_Ou967o) | No | [Page] | Real gas example |
+| 65 | REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1 | [Link](https://youtu.be/yI3jj1jCSAM) | No | [Page] | Explanation of Kay's Rule and DWSIM for real gas mixtures |
 | 66 | REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2 | [Link](https://youtu.be/bPW4B_Dj868) | No | [Page] | Example of Kay's Rule and DWSIM for real gas mixtures |
+| 67 | Solving Nonlinear Equations with Spreadsheets | [link](https://youtu.be/SaI2qdu1wSE) | No | [Page] | See Title |
+
