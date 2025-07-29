@@ -137,11 +137,17 @@
 <section id="some-nonlinear-equations-in-chemical-engineering" class="slide level2 bigbold65">
 <h2>Some Nonlinear Equations in Chemical Engineering</h2>
 <div style="font-size: 95px;">
+<div class="fragment">
 <p>The Antoine equation</p>
 <p><span class="math display">\[\log_{10} p^* = A - \dfrac{B}{T+C}\]</span></p>
+</div>
+<div class="fragment">
 <p>The Arrhenius equation</p>
 <p><span class="math display">\[k = k_0 \exp(-E_a / RT)\]</span></p>
+</div>
+<div class="fragment">
 <p>The Benedict-Webb-Rubin equation <span class="math display">\[P = \frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2} + \left( bRT - a \right) \frac{1}{\hat{V}^3}\]</span> <span class="math display">\[+ \frac{\alpha a}{\hat{V}^6} + \frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right)\]</span></p>
+</div>
 </div>
 </section>
 <section id="how-do-you-solve-them-on-a-spreadsheet" class="slide level2 bigbold80">
@@ -158,11 +164,17 @@
 <section id="set-up-as-mathbfmathitfmathitx-0" class="slide level2">
 <h2>Set Up as <span class="math inline">\(\mathbf{\mathit{f}(\mathit{x}) = 0}\)</span></h2>
 <div style="font-size: 95px;">
+<div class="fragment">
 <p>The Antoine equation <span class="math display">\[f(p^*)\text{ or }f(T) = \log_{10} (p^*) - A + \dfrac{B}{T+C}\]</span></p>
+</div>
+<div class="fragment">
 <p>The Arrhenius equation</p>
 <p><span class="math display">\[f(T) = k - k_0 \exp(-E_a / RT)\]</span></p>
+</div>
+<div class="fragment">
 <p>The Benedict-Webb-Rubin equation</p>
 <p><span class="math display">\[f(\hat{V}) = P - \left[\frac{RT}{\hat{V}} + \left( B_0 RT - A_0 - \frac{C_0}{T^2} \right) \frac{1}{\hat{V}^2}\right. \]</span> <span class="math display">\[+ \left. \left( bRT - a \right) \frac{1}{\hat{V}^3} + \frac{\alpha a}{\hat{V}^6} + \frac{c}{\hat{V}^3 T^2} \left( 1 + \frac{\gamma}{\hat{V}^2} \right) \exp \left( -\frac{\gamma}{\hat{V}^2} \right) \right]\]</span></p>
+</div>
 </div>
 </section>
 <section id="technique-demos" class="slide level2">
@@ -171,13 +183,22 @@
 <img data-src="NonlinearScreenshot.png" class="r-stretch"></section>
 <section id="goal-seek-suggestions" class="slide level2">
 <h2>Goal Seek Suggestions</h2>
-<ul>
+
+<img data-src="NonlinearXandFXAreas.png" class="r-stretch"><ul>
 <li class="fragment"><p>Increase accuracy of <span class="math inline">\(x\)</span> in <span class="math inline">\(f(x)=0\)</span> by multiplying <span class="math inline">\(f(x)\)</span> by <span class="math inline">\(10^8\)</span>.</p></li>
 <li class="fragment"><p>Mark or label cell to set to 0 (the <span class="math inline">\(f(x)\)</span> value).</p></li>
 <li class="fragment"><p>Mark or label cell to adjust (the <span class="math inline">\(x\)</span> value).</p></li>
 </ul>
-
-<img data-src="NonlinearXandFXAreas.png" class="r-stretch"></section>
+</section>
+<section id="some-final-notes" class="slide level2">
+<h2>Some Final Notes</h2>
+<ul>
+<li class="fragment">Goal seek works fine on linear functions.</li>
+<li class="fragment">It is limited to functions of one variable.</li>
+<li class="fragment">If you need to find the roots of a multivariable function, <span class="math inline">\(f(x, y) = 0\)</span>, you can use Solver instead of Goal Seek.</li>
+<li class="fragment">If you need to find the roots of two simultaneous nonlinear functions, you can iterate by using Goal Seek on one variable and then on the other, and go back and forth until you find both roots, but at that point you’re probably better off using Python or R or some other programming language.</li>
+</ul>
+</section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
