@@ -8,6 +8,7 @@ format:
     incremental: true
     theme: [serif, ../../gradient.scss]
     html-math-method: mathjax
+    auto-animate-duration: 2
 ---
 
 # REAL Gas Mixtures EXPLAINED<br/>Don’t Let This Cost You Points<br/>on Your Exam! Part 1{.bigbold70}
@@ -23,23 +24,29 @@ DOFPro Team
 
 As a reminder, we can categorize the non-ideality of the gas with the compressibility, $z$.
 
+::: {.fragment}
 $$
 z \equiv \frac{P\hat{V}}{RT}
 $$
+:::
 
 
+::: {.fragment}
 For ideal gas mixtures, the mole fraction equals the pressure fraction
 equals the volume fraction.
-
 $$
 y_i = \frac{n_i}{n} = \frac{p_i}{P} = \frac{v_i}{V}
 $$
+:::
 
+::: {.fragment}
 In addition, the molecular weight is just the mole-averaged molecular weight:
-
+:::
+::: {.fragment}
 $$
 M = \sum y_i M_i
 $$
+:::
 
 ---
 
@@ -51,12 +58,20 @@ $$
 - How about molar volumes?
 
 
+::: {.fragment}
 There are advanced phase-equilibria videos that discuss fugacity coefficients, activity coefficients, and necessary modeling methods.
-<br/><br/>
+:::
+<br/>
+
+::: {.fragment}
 For these videos, we use Kay’s rule or DWSIM.
-<br/><br/>
+:::
+<br/>
+
+::: {.fragment}
 This video will also explore the Peng-Robinson mixing rules, although we
 will not use them. You should use Peng-Robinson in DWSIM instead.
+:::
 
 ---
 
@@ -84,29 +99,33 @@ $$
 ## Pseudo Pseudo
 
 :::{style="font-size: 95px;"}
+::: {.fragment}
 The pseudocritical temperature is
 $$
 T_\mathrm{c}' = \sum y_i T_{\mathrm{c}i}
 $$
-
+:::
+::: {.fragment}
 The pseudocritical pressure is
 
 $$
 P_\mathrm{c}' = \sum y_i P_{\mathrm{c}i}
 $$
-
+:::
+::: {.fragment}
 The pseudoreduced temperature is
 
 $$
 T_\mathrm{r}' = \frac{T}{T_\mathrm{c}'}
 $$
-
+:::
+::: {.fragment}
 The pseudoreduced pressure is
 
 $$
 P_\mathrm{r}' = \frac{P}{P_\mathrm{c}'}
 $$
-
+:::
 :::
 ---
 
@@ -114,13 +133,10 @@ $$
 
 ## Kay's Rule
 
-![](CompGenDiaTemp.png){.absolute top=15% left=35% width=65%}
+![](GenCompChart.png){.absolute top=15% left=25% width=80%}
 
-:::{.absolute top=76% left=58%}
-CC BY-SA 3.0
-:::
-
-:::{.absolute top=15% left=2%}
+:::{style="font-size: 85px;"}
+:::{.absolute top=25% left=2%}
 $$
 P_\mathrm{r}' =\frac{P}{P_\mathrm{c}'}
 $$
@@ -133,54 +149,76 @@ $$
 z_m = z_m(T_\mathrm{r}', P_\mathrm{r}')
 $$
 :::
-
+:::
 
 ---
 
 ## Peng-Robinson Equation of State
 
+:::{style="font-size: 90px;"}
 From the family of cubic equations of state
+
+::: {.fragment}
 $$
 P = \frac{RT}{\hat{V} - b} - \frac{a}{\hat{V}^2 + 2\hat{V}b - b^2}
 $$
-
+:::
+::: {.fragment}
 where:
-
+:::
+::: {.fragment}
 $$
 a = 0.45724 \alpha \frac{(RT_\mathrm{c})^2}{P_\mathrm{c}}
 $$
-
+:::
+::: {.fragment}
 $$
 b = 0.07780 \frac{RT_\mathrm{c}}{P_\mathrm{c}}
 $$
-
+:::
+::: {.fragment}
 $$
 \alpha = \left[1 + m(1 - \sqrt{T_\mathrm{r}})\right]^2
 $$
-
+:::
+::: {.fragment}
 $$
 m = 0.37464 + 1.54226\omega - 0.26992\omega^2
 $$
-
+:::
+:::
 ---
 
 ## The Peng-Robinson Mixing Rules 
 
+:::{style="font-size: 95px;"}
+::: {.fragment}
 $$
 P=\frac{RT}{\hat{V}-b_{m}}-\frac{a_{m}}{\hat{V}^{2}+2\hat{V}b_{m}-b_{m}^{2}}
 $$ 
+:::
+::: {.fragment}
 where 
+:::
+::: {.fragment}
 $$
 a_{m}=\sum_{i=1}^{2}\sum_{j=1}^{2}y_{i}y_{j}(1-k_{ij})\sqrt{a_{i}a_{j}}
 $$
+:::
+::: {.fragment}
 $$
 b_{m}=\sum_{i=1}^{2}y_{i}b_{i}
 $$ 
+:::
+::: {.fragment}
 $$
 k_{ij}=1-\frac{1}{2}\frac{b_{2}}{b_{1}}\sqrt{\frac{a_{1}}{a_{2}}}-\frac{1}{2}\frac{b_{1}}{b_{2}}\sqrt{\frac{a_{2}}{a_{1}}}+\frac{1}{2}\frac{b_{2}RT}{\sqrt{a_{1}a_{2}}}\frac{\theta_{1}}{T_{r_{1}}^{\theta_{1}}P_{r1}^{\theta_{3}}}
 $$ 
+:::
+::: {.fragment}
 $\theta_{1}$, $\theta_{2}$, $\theta_{3}$ from [table 3](https://www.sciencedirect.com/science/article/pii/S2090123212000264?via%3Dihub) in the [linked reference](https://www.sciencedirect.com/science/article/pii/S2090123212000264?via%3Dihub)
-
+:::
+:::
 ---
 
 
