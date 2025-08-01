@@ -840,81 +840,67 @@
     "text": "The Takeaways\n\nIt is possible to develop the general equations for a PFD with a reactor and a separator.\nAs the fractional conversion in the reactor goes up, the overall fractional conversion goes up.\nAs the split fraction of the reactant in the product stream goes down, the overall fractional conversion goes up."
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#sample-combustion-calculations",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#sample-combustion-calculations",
+    "objectID": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas",
+    "href": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas",
     "title": "Chemical and Thermal Processes",
-    "section": "Sample Combustion Calculations",
-    "text": "Sample Combustion Calculations\n\\(2.00\\ \\mathrm{kmol/s}\\) of propane are burned in 25% excess dry air in a faulty combustor. 100% of the hydrogen combusts to form water, but only 80% of the carbon combusts completely to \\(\\mathrm{CO_2}\\). The remainder combusts to \\(\\mathrm{CO}\\).\n\nCalculate the molar flow rate of air into the combustor.\nCalculate the molar flow rates of each of the combustion products.\nCalculate the molar flow rate of the exhaust.\nReport the composition of the exhaust on both a wet and dry basis."
+    "section": "The Ideal Gas",
+    "text": "The Ideal Gas\nThere are two parts to the definition of an ideal gas: First, the equation of state.\n\\[PV = nRT\\]\nSecond, the enthalpy or internal energy is a function of temperature only. We’ll revisit this part when we get to the First Law.  In terms of molar volume the ideal gas equation of state is\n\\[P\\hat{V} = R T\\]\nThe current (2019) definition of R is \\(8.314\\ 462\\ 618\\ 153\\ 24\\ \\mathrm{J/mol\\ K}\\). The value is exact."
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution",
+    "objectID": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas-cont.",
+    "href": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution",
-    "text": "Solution\nThere are multiple sets of chemical equations we could write. We will consider two sets:\n\n\\[\n\\mathrm{C_3H_8 + 5O_2} \\rightarrow \\mathrm{3CO_2 + 4 H_2O}\n\\tag{1}\\]\n\\[\n\\mathrm{C_3H_8 + \\frac{7}{2}O_2} \\rightarrow \\mathrm{3CO + 4H_2O}\n\\tag{2}\\]\nor\n\n\n\\[\n\\mathrm{C_3H_8 + \\frac{7}{2}O_2} \\rightarrow \\mathrm{3CO + 4H_2O}\n\\tag{3}\\]\n\\[\n\\mathrm{CO + \\frac{1}{2}O_2} \\rightarrow \\mathrm{CO_2}\n\\tag{4}\\]"
+    "section": "The Ideal Gas (cont.)",
+    "text": "The Ideal Gas (cont.)\nThe ideal gas equation of state is in error by no more than 1% if\n\\(\\ \\ \\hat{V}_\\mathrm{ideal} = \\frac{RT}{P} &gt; 5\\ \\mathrm{L/mol}\\)\n\n(\\(5 \\times 10^{−3}\\ \\mathrm{m^3/mol}\\) or \\(80\\ \\mathrm{ft^3}/\\text{lb-mol}\\)) (diatomic gases)\n\n \\(\\ \\ \\hat{V}_\\mathrm{ideal} = \\frac{RT}{P} &gt; 20\\ \\mathrm{L/mol}\\)\n\n(\\(20 \\times 10^{−3}\\ \\mathrm{m^3/mol}\\) or \\(320\\ \\mathrm{ft^3}/\\text{lb-mol}\\)) (other gases)\n\n Mechanical Engineers often define the ideal gas equation of state as\n\\[P V = m R T\\]\nwhere \\(m\\) is the mass of gas. They are then required to have a different value of \\(R\\) for each gas, which is \\(R/M\\). For dry air, \\(R = 287.058\\ \\mathrm{J/kg\\ K}\\)."
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.",
+    "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions",
+    "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nTo calculate excess, you need to calculate complete combustion. The appropriate equation is Equation 1.\n\n\\[\n\\dot{n}_\\mathrm{O_2stoic} = \\frac{\\nu_\\mathrm{O_2}}{\\nu_\\mathrm{C_3H_8}} \\dot{n}_\\mathrm{C_3H_8stoic} = \\frac{-5}{-1}(2\\ \\mathrm{kmol/s}) = 10\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\mathrm{frac.\\ xs} = 0.25 = \\frac{ \\dot{n}_\\mathrm{O_2in} - \\dot{n}_\\mathrm{O_2stoic} }{\\dot{n}_\\mathrm{O_2stoic}}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2in} = (1 + \\mathrm{frac.\\ xs})\\dot{n}_\\mathrm{O_2stoic} = 1.25(10\\ \\mathrm{kmol/s})= 12.5\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2in} = \\frac{79}{21}\\dot{n}_\\mathrm{O_2in} = \\frac{79}{21}(12.5\\ \\mathrm{kmol/s}) = 47.0\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\text{Air-in} = \\dot{n}_\\mathrm{O_2in} + \\dot{n}_\\mathrm{N_2in} = 12.5 + 47.0 = \\boxed{  59.5\\ \\mathrm{kmol/s}}\n\\]"
+    "section": "Standard Conditions",
+    "text": "Standard Conditions\n\nThe nice thing about standards is that you have so many to choose from.\n\nAttributed to everybody\n\n\n(especially Grace Hopper and Andrew S. Tanenbaum)\n\n\n Wikipedia lists 21 different combinations of temperature and pressure used as STP."
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-1",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-1",
+    "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.",
+    "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nThe full set of mole balances with Equation 1 and Equation 2 is\n\n\\[\n\\dot{n}_\\mathrm{C_3H_8out} = \\dot{n}_\\mathrm{C_3H_8in} - \\dot{\\xi}_1 - \\dot{\\xi}_2 \\implies \\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{n}_\\mathrm{CO_2in} + 3\\dot{\\xi}_1 + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{CO_2out} = 3\\dot{\\xi}_1\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = \\dot{n}_\\mathrm{COin} + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_1 + 3 \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{COout} = 3\\dot{\\xi}_2\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = \\dot{n}_\\mathrm{O_2in} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2 = 12.50\\ \\mathrm{kmol/s} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2out} = \\dot{n}_\\mathrm{N_2in} + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_1 +0 \\boldsymbol{\\cdot}  \\dot{\\xi}_2 = \\boxed{ 47.0\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = \\dot{n}_\\mathrm{H_2Oin} + 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2 = 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2\n\\]"
+    "section": "Standard Conditions (cont.)",
+    "text": "Standard Conditions (cont.)\nThe molar volume calculated at the standard temperature and pressure is the standard molar volume,\n\\[\\hat{V}_\\mathrm{S} = \\frac{R T_\\mathrm{S}}{P_\\mathrm{S}}.\\]\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\):\n\n\\[\\hat{V}_\\mathrm{S} = 22.414\\ \\mathrm{\\frac{m^3(STP)}{kmol}} = 22.414\\ \\mathrm{\\frac{L(STP)}{mol}} = 359.04\\ \\frac{\\mathrm{m^3(STP)}}{\\text{lb-mol}}\\]"
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-2",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-2",
+    "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.-1",
+    "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.-1",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\n\nApplying the \\(\\mathrm{CO_2}\\)-to-\\(\\mathrm{CO}\\) constraint\n\n\\[\n\\frac{\\dot{n}_\\mathrm{COout}}{\\dot{n}_\\mathrm{CO_2out}} = \\frac{1 - 0.80}{0.80}=0.25 = \\frac{3\\dot{\\xi}_2}{3\\dot{\\xi}_1} = \\frac{\\dot{\\xi}_2}{\\dot{\\xi}_1}\n\\]\n\n\n\\[\n\\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s} = \\dot{\\xi}_1 + 0.25 \\dot{\\xi}_1 = 1.25 \\dot{\\xi}_1\n\\]\n\n\n\\[\n\\implies \\dot{\\xi}_1 = 1.6\\ \\mathrm{kmol/s},\\ \\dot{\\xi}_2 = 0.4\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\implies \\dot{n}_\\mathrm{CO_2out} = 3 \\boldsymbol{\\cdot} 1.6\\ \\mathrm{kmol/s} = \\boxed{ 4.8\\ \\mathrm{kmol/s} },\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = 3 \\boldsymbol{\\cdot} 0.4\\ \\mathrm{kmol/s} = \\boxed{ 1.2\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = 12.5\\ \\mathrm{kmol/s} - 5 \\boldsymbol{\\cdot} 1.6 - 3.5 \\boldsymbol{\\cdot} 0.4 = \\boxed{ 3.10\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = 4 \\boldsymbol{\\cdot} 1.6 + 4 \\boldsymbol{\\cdot} 0.4 = \\boxed{ 8.00\\ \\mathrm{kmol/s} }\n\\]"
+    "section": "Standard Conditions (cont.)",
+    "text": "Standard Conditions (cont.)\nFor historical reasons, the molar flow of a gas is often measured in standard cubic meters (SCM) per time or standard cubic feet (SCF) per time.\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\):\n\\[\\center{1\\ \\mathrm{SCM} = 44.615\\ \\mathrm{mol} = 0.04462\\ \\mathrm{kmol}}\\]\n\\[\\center{1\\ \\mathrm{SCF} = 2.785 \\times 10^{−3}\\ \\text{lb-mol}}\\]\nYou can always determine the true volumetric flow rate with either the ideal gas law or by using ratios of absolute temperatures and pressures."
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-3",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-3",
+    "objectID": "balances/material/IdealGasJTFVisuals.html#example",
+    "href": "balances/material/IdealGasJTFVisuals.html#example",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nTo get the dry and wet compositions, divide the species molar flow rate by either the sum of the species molar flow rates minus the water flow rate, or by the sum of the species molar flow rates. The results are on the spreadsheet.\n\n\\[\nx_{i\\ (\\mathrm{dry})} = \\frac{\\dot{n}_i}{(\\sum \\dot{n}_j) - \\dot{n}_\\mathrm{H_2O}}\n\\]\n\n\n\\[\nx_{i\\ (\\mathrm{wet})} = \\frac{\\dot{n}_i}{\\sum \\dot{n}_j}\n\\]"
+    "section": "Example",
+    "text": "Example\n\nFor a flow rate of \\(3.95 \\times 10^5\\ \\mathrm{SCFH}\\) at \\(285\\ ^\\circ \\mathrm{F}\\) and \\(1.300\\ \\mathrm{atm}\\),\n\nCalculate the molar flow rate in \\(\\mathrm{kmol/min}\\) and \\(\\text{lb-mol/h}\\).\nCalculate the true volumetric flow rate in \\(\\mathrm{m^3/s}\\).\n\n\n\\[\n\\dot{n} = \\frac{3.95 \\times 10^5\\ \\mathrm{SCFH}}{\\left(359.04\\frac{\\mathrm{ft^3(STP)}}{\\text{lb-mol}}\\right)} = 1100\\ \\frac{\\text{lb-mol}}{\\mathrm{h}} = 8.32\\ \\frac{\\mathrm{kmol}}{\\mathrm{min}}\n\\]\n\n\n\\[\n\\dot{V} = \\frac{\\dot{n}RT}{P} = \\frac{8317 \\boldsymbol{\\cdot} 8.3145 \\boldsymbol{\\cdot} 413.71}{131722 \\boldsymbol{\\cdot} 60} = 3.62\\ \\frac{\\mathrm{m^3}}{\\mathrm{s}}\n\\]\n\n\n\nor \\[\n\\dot{V} = \\dot{V}_\\mathrm{S}\\ \\frac{T}{T_\\mathrm{S}}\\ \\frac{P_\\mathrm{S}}{P} = 3.95 \\times 10^5 \\boldsymbol{\\cdot} \\frac{744.67}{491.67} \\boldsymbol{\\cdot} \\frac{1.00}{1.30} = 460 \\times 10^5\\ \\mathrm{\\frac{ft^3}{h}} = 3.62\\ \\frac{\\mathrm{m^3}}{\\mathrm{s}}\n\\]"
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-4",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-4",
+    "objectID": "balances/material/IdealGasJTFVisuals.html#daltons-and-amagats-laws",
+    "href": "balances/material/IdealGasJTFVisuals.html#daltons-and-amagats-laws",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nA spreadsheet of the solution is shown below"
+    "section": "Dalton’s and Amagat’s Laws",
+    "text": "Dalton’s and Amagat’s Laws\nFor an ideal gas mixture, the partial pressure of pure component \\(\\mathrm{A}\\) is defined as\n\\[\np_\\mathrm{A} = \\frac{n_\\mathrm{A} RT}{V} = \\frac{n_\\mathrm{A} RT}{V} \\boldsymbol{\\cdot} \\frac{PV}{nRT} = \\left(\\frac{n_\\mathrm{A}}{n}\\right)P =y_\\mathrm{A}P\n\\]\nFor an ideal gas mixture, the pure-component volume of pure component \\(\\mathrm{A}\\) is defined as\n\\[\nv_\\mathrm{A} = \\frac{n_\\mathrm{A} RT}{P} = \\frac{n_\\mathrm{A} RT}{P} \\boldsymbol{\\cdot} \\frac{PV}{nRT} = \\left(\\frac{n_\\mathrm{A}}{n}\\right)V =y_\\mathrm{A}V\n\\]\nSumming over all of the species, \\(\\sum p_i = P\\), \\(\\sum v_i = V\\)\nwhich are known as Dalton’s law and Amagat’s law respectively."
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-5",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-5",
+    "objectID": "balances/material/IdealGasJTFVisuals.html#some-handy-relationships",
+    "href": "balances/material/IdealGasJTFVisuals.html#some-handy-relationships",
     "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nThe full set of mole balances with Equation 3 and Equation 4 is\n\n\\[\n\\dot{n}_\\mathrm{C_3H_8out} = \\dot{n}_\\mathrm{C_3H_8in} - \\dot{\\xi}_3 \\implies \\dot{\\xi}_3 = 2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{n}_\\mathrm{CO_2in} + \\dot{\\xi}_4 \\implies \\dot{n}_\\mathrm{CO_2out} = \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = \\dot{n}_\\mathrm{COin} + 3 \\dot{\\xi}_3 - \\dot{\\xi}_4 \\implies \\dot{n}_\\mathrm{COout} = 6\\ \\mathrm{kmol/s} - \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = \\dot{n}_\\mathrm{O_2in} - 3.5 \\dot{\\xi}_3 - 0.5 \\dot{\\xi}_4 = 12.50\\ \\mathrm{kmol/s} - 7\\ \\mathrm{kmol/s} - 0.5 \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2out} = \\dot{n}_\\mathrm{N_2in} = 47.0\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = \\dot{n}_\\mathrm{H_2Oin} + 4 \\dot{\\xi}_3 = 8\\ \\mathrm{kmol/s}\n\\]"
+    "section": "Some Handy Relationships",
+    "text": "Some Handy Relationships\nMolar concentration of an ideal gas\n\\[C_\\mathrm{A} = \\frac{n_\\mathrm{A}}{V} = \\frac{p_\\mathrm{A}}{RT}\\]\nMolar density of an ideal gas\n\\[\\rho = \\frac{n}{V} = \\frac{P}{RT}\\]\nMass density of an ideal gas\n\\[\\rho = \\frac{nM}{V} = \\frac{PM}{RT}\\]"
   },
   {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-6",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-6",
-    "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nApplying the \\(\\mathrm{CO_2}\\)-to-\\(\\mathrm{CO}\\) constraint\n\n\\[\n\\frac{\\dot{n}_\\mathrm{COout}}{\\dot{n}_\\mathrm{CO_2out}} = \\frac{1 - 0.80}{0.80}=0.25 = \\frac{6 - \\dot{\\xi}_4}{\\dot{\\xi}_4} \\implies \\dot{\\xi}_4 = 4.8\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{\\xi}_4 = 4.8\\ \\mathrm{kmol/s},\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = 6\\ \\mathrm{kmol/s} - \\dot{\\xi}_4 = 1.2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = 5.5\\ \\mathrm{kmol/s} - 0.5 \\dot{\\xi}_4 = 3.10\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = 4 \\dot{\\xi}_3 = 8.00\\ \\mathrm{kmol/s}\n\\]"
-  },
-  {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-7",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-7",
-    "title": "Chemical and Thermal Processes",
-    "section": "Solution (cont.)",
-    "text": "Solution (cont.)\nA spreadsheet of the solution is shown below\n\n\n\nThe stoichiometric coefficients and extents of reaction are different from the first spreadsheet. However, the molar flows and the mole fractions or compositions are identical to those in the version with Equation 1 and Equation 2. As long as you set up a linearly independent balanced set of equations that uses all of the species, it doesn’t matter what set you use. The flows and compositions will all come out the same."
-  },
-  {
-    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#the-takeaways",
-    "href": "balances/material/CombRxnsPart2JTFVisuals.html#the-takeaways",
+    "objectID": "balances/material/IdealGasJTFVisuals.html#the-takeaways",
+    "href": "balances/material/IdealGasJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nChoose a linearly independent consistent set of chemical equations that involve all reacting species.\nThe mole balance equations using the extents of reaction are usually valuable.\nKnow how to calculate excess air or excess fuel.\nSpreadsheets are useful for keeping track of everything."
+    "text": "The Takeaways\n\n\nThere are two parts to the ideal gas law: The equation of state, \\(PV = nRT\\), and the internal energy is only a function of temperature..\nThe ideal gas law is in error by no more than 1% if the ideal molar volume is greater than 5 L/mol for diatomic gases or greater than 20 L/mol for other gases.\nWe are using an STP of \\(0\\ ^\\circ\\mathrm{C}\\) and \\(101.325\\ \\mathrm{kPa}\\).\nMolar flow rates are often given in SCM or SCF per time.\nThe partial pressure of a species in an ideal gas is the mole fraction times the total pressure.\nThe pure-component volume of a species in an ideal gas is the mole fraction times the total volume.\n\n\n\n\nThanks for watching!  The Full Story companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description."
   },
   {
     "objectID": "balances/material/Vid47AReactorExamplesVisuals.html#chem.-reactor-example",
@@ -3182,7 +3168,7 @@
     "href": "basics/intro/CurrentVideoList.html",
     "title": "Current List of Videos on YouTube",
     "section": "",
-    "text": "Links to the current videos on YouTube will be maintained here. These are current as of 2024-12-20.\n\nTable of Videos\n\n\n\nVid. #\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n5\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean (\\(\\mu,\\ \\bar{x}\\)) and Standard Deviation (\\(\\sigma,\\ S\\))\n\n\n5A\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error (\\(S_{\\bar{x}}\\)) and Confidence Interval (\\(2\\lambda\\))\n\n\n6\nBasics Statistics by Hand\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n7\nBasics Statistics with a Spreadsheet\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) with a spreadsheet\n\n\n21\nIs Your Process Data Spread Smooth or Chunky?\nLink\nNo\nPage\nData Visualization, linear and Log Coordinates\n\n\n22\nInterpol Is Late to a Mind-Blowing Math Hack\nLink\nNo\nPage\nLinear Interpolation\n\n\n23\nNo Clear Interpretation a Mind-Blowing Math Hack\nLink\nNo\nPage\nNonlinear Interpolation\n\n\n25\nHow to Have a Quickie with Your Data Part 1\nLink\nNo\n[Page]\n\\(\\bar{x}\\), \\(S_{\\bar{x}}\\), Linear Least Squares\n\n\n26\nHow to Have a Quickie with Your Data Part 2\nLink\nNo\n[Page]\nNonlinear least squares\n\n\n27\nIs Furlongs Per Fortnight a Thing?\nLink\nNo\nPage\nUnit Conversion\n\n\n28\nHow Keen Is Your Rank?\nLink\nNo\nPage\nTemperature Conversion\n\n\n29\nThe Most Annoying Equation Conversion\nLink\nNo\n[Page]\nUnit Conversion of Equations\n\n\n30\nWhere Does Sherwood Hide His Unit?\nLink\nNo\n[Page]\nDimensionless Numbers Principles\n\n\n31\nWhat the Schmidt? Examples\nLink\nNo\n[Page]\nApplications of Dimensionless Numbers\n\n\n33\nUnder Pressure Part 1\nLink\nNo\nPage\nPressure Basics\n\n\n34\nUnder Pressure Part 2\nLink\nNo\nPage\nAbs., Atm., Gauge, Barometric Pressure\n\n\n35\nWhat is a Mole?\nLink\nLink\nPage\nWhat a mole is\n\n\n36\nWhat the Frac?\nLink\nNo\nPage\nMass, Moles, Mass Fractions, Mole Fractions\n\n\n37\nAre You Dense? Crank Up the Volume and Go With the Flow!\nLink\nNo\n[Page]\nMass, Moles, Density, Volume, and Flow Rates\n\n\n38\nHow to Keep Your Balance\nLink\nNo\n[Page]\nSystem Definition and the General Balance Equation\n\n\n39\nSpeed Balancing\nLink\nNo\n[Page]\nGeneral Balance Equation Definitions and Suggestions\n\n\n40\nGotta Keep ’Em Separated\nLink\nNo\n[Page]\nMixer, Divider, and Separator mole balances\n\n\n41\nWhen You Saw It, What Was the Extent of Your Reaction? Part 1\nLink\nNo\n[Page]\nChemical Reactor Basics\n\n\n46\nHow Did You Think I Would React?\nLink\nNo\n[Page]\nBasic Kinetic Reactor Mole Balance\n\n\n47\nWishing Upon a CSTR\nLink\nNo\n[Page]\nBatch, CSTR, PFR\n\n\n47A\nIt’s Totally Tubular, Man!\nLink\nNo\n[Page]\nCSTR, PFR, Batch Example\n\n\n63\nWhen Getting Gassed Isn’t Ideal, Part 1\nLink\nNo\n[Page]\nReal gas intro\n\n\n64\nWhen Getting Gassed Isn’t Ideal, Part 2\nLink\nNo\n[Page]\nReal gas example\n\n\n65\nREAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1\nLink\nNo\n[Page]\nExplanation of Kay’s Rule and DWSIM for real gas mixtures\n\n\n66\nREAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2\nLink\nNo\n[Page]\nExample of Kay’s Rule and DWSIM for real gas mixtures\n\n\n67\nSolving Nonlinear Equations with Spreadsheets\nlink\nNo\n[Page]\nSee Title"
+    "text": "Links to the current videos on YouTube will be maintained here. These are current as of 2025-08-01.\n\nTable of Videos\n\n\n\nVid. #\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n5\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean (\\(\\mu,\\ \\bar{x}\\)) and Standard Deviation (\\(\\sigma,\\ S\\))\n\n\n5A\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error (\\(S_{\\bar{x}}\\)) and Confidence Interval (\\(2\\lambda\\))\n\n\n6\nBasics Statistics by Hand\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n7\nBasics Statistics with a Spreadsheet\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) with a spreadsheet\n\n\n21\nIs Your Process Data Spread Smooth or Chunky?\nLink\nNo\nPage\nData Visualization, linear and Log Coordinates\n\n\n22\nInterpol Is Late to a Mind-Blowing Math Hack\nLink\nNo\nPage\nLinear Interpolation\n\n\n23\nNo Clear Interpretation a Mind-Blowing Math Hack\nLink\nNo\nPage\nNonlinear Interpolation\n\n\n25\nHow to Have a Quickie with Your Data Part 1\nLink\nNo\n[Page]\n\\(\\bar{x}\\), \\(S_{\\bar{x}}\\), Linear Least Squares\n\n\n26\nHow to Have a Quickie with Your Data Part 2\nLink\nNo\n[Page]\nNonlinear least squares\n\n\n27\nIs Furlongs Per Fortnight a Thing?\nLink\nNo\nPage\nUnit Conversion\n\n\n28\nHow Keen Is Your Rank?\nLink\nNo\nPage\nTemperature Conversion\n\n\n29\nThe Most Annoying Equation Conversion\nLink\nNo\n[Page]\nUnit Conversion of Equations\n\n\n30\nWhere Does Sherwood Hide His Unit?\nLink\nNo\n[Page]\nDimensionless Numbers Principles\n\n\n31\nWhat the Schmidt? Examples\nLink\nNo\n[Page]\nApplications of Dimensionless Numbers\n\n\n33\nUnder Pressure Part 1\nLink\nNo\nPage\nPressure Basics\n\n\n34\nUnder Pressure Part 2\nLink\nNo\nPage\nAbs., Atm., Gauge, Barometric Pressure\n\n\n35\nWhat is a Mole?\nLink\nLink\nPage\nWhat a mole is\n\n\n36\nWhat the Frac?\nLink\nNo\nPage\nMass, Moles, Mass Fractions, Mole Fractions\n\n\n37\nAre You Dense? Crank Up the Volume and Go With the Flow!\nLink\nNo\n[Page]\nMass, Moles, Density, Volume, and Flow Rates\n\n\n38\nHow to Keep Your Balance\nLink\nNo\n[Page]\nSystem Definition and the General Balance Equation\n\n\n39\nSpeed Balancing\nLink\nNo\n[Page]\nGeneral Balance Equation Definitions and Suggestions\n\n\n40\nGotta Keep ’Em Separated\nLink\nNo\n[Page]\nMixer, Divider, and Separator mole balances\n\n\n41\nWhen You Saw It, What Was the Extent of Your Reaction? Part 1\nLink\nNo\n[Page]\nChemical Reactor Basics\n\n\n46\nHow Did You Think I Would React?\nLink\nNo\n[Page]\nBasic Kinetic Reactor Mole Balance\n\n\n47\nWishing Upon a CSTR\nLink\nNo\n[Page]\nBatch, CSTR, PFR\n\n\n47A\nIt’s Totally Tubular, Man!\nLink\nNo\n[Page]\nCSTR, PFR, Batch Example\n\n\n63\nWhen Getting Gassed Isn’t Ideal, Part 1\nLink\nNo\n[Page]\nReal gas intro\n\n\n64\nWhen Getting Gassed Isn’t Ideal, Part 2\nLink\nNo\n[Page]\nReal gas example\n\n\n65\nREAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1\nLink\nNo\n[Page]\nExplanation of Kay’s Rule and DWSIM for real gas mixtures\n\n\n66\nREAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2\nLink\nNo\n[Page]\nExample of Kay’s Rule and DWSIM for real gas mixtures\n\n\n67\nSolving Nonlinear Equations with Spreadsheets\nlink\nNo\n[Page]\nSee Title\n\n\n73\nOh, Henry!\nlink\nNo\n[Page]\nGas-Liquid Equilibrium with one condensible component\n\n\n74\nDew Your Bubbles Have Flash? Part 1\nLink\nNo\n[Page]\nRaoult’s law, BUBL P, DEW P"
   },
   {
     "objectID": "index.html",
@@ -5446,151 +5432,165 @@
     "text": "The Takeaways\n\nThe principal species for combustion reactions are carbon, hydrogen, sulfur, and oxygen.\nThe products of complete combustion of the principal species are carbon dioxide, water, and sulfur dioxide.\nTheoretical and excess air are calculated by treating the oxygen in air as a stoichiometric or excess reagent.\nExcess air does not guarantee complete combustion.\nThe composition of combustion gases are reported on either a wet or dry basis."
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#multicomponent-systems",
-    "href": "balances/material/Video74Visuals.html#multicomponent-systems",
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#sample-combustion-calculations",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#sample-combustion-calculations",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample Combustion Calculations",
+    "text": "Sample Combustion Calculations\n\\(2.00\\ \\mathrm{kmol/s}\\) of propane are burned in 25% excess dry air in a faulty combustor. 100% of the hydrogen combusts to form water, but only 80% of the carbon combusts completely to \\(\\mathrm{CO_2}\\). The remainder combusts to \\(\\mathrm{CO}\\).\n\nCalculate the molar flow rate of air into the combustor.\nCalculate the molar flow rates of each of the combustion products.\nCalculate the molar flow rate of the exhaust.\nReport the composition of the exhaust on both a wet and dry basis."
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution",
+    "text": "Solution\nThere are multiple sets of chemical equations we could write. We will consider two sets:\n\n\\[\n\\mathrm{C_3H_8 + 5O_2} \\rightarrow \\mathrm{3CO_2 + 4 H_2O}\n\\tag{1}\\]\n\\[\n\\mathrm{C_3H_8 + \\frac{7}{2}O_2} \\rightarrow \\mathrm{3CO + 4H_2O}\n\\tag{2}\\]\nor\n\n\n\\[\n\\mathrm{C_3H_8 + \\frac{7}{2}O_2} \\rightarrow \\mathrm{3CO + 4H_2O}\n\\tag{3}\\]\n\\[\n\\mathrm{CO + \\frac{1}{2}O_2} \\rightarrow \\mathrm{CO_2}\n\\tag{4}\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nTo calculate excess, you need to calculate complete combustion. The appropriate equation is Equation 1.\n\n\\[\n\\dot{n}_\\mathrm{O_2stoic} = \\frac{\\nu_\\mathrm{O_2}}{\\nu_\\mathrm{C_3H_8}} \\dot{n}_\\mathrm{C_3H_8stoic} = \\frac{-5}{-1}(2\\ \\mathrm{kmol/s}) = 10\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\mathrm{frac.\\ xs} = 0.25 = \\frac{ \\dot{n}_\\mathrm{O_2in} - \\dot{n}_\\mathrm{O_2stoic} }{\\dot{n}_\\mathrm{O_2stoic}}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2in} = (1 + \\mathrm{frac.\\ xs})\\dot{n}_\\mathrm{O_2stoic} = 1.25(10\\ \\mathrm{kmol/s})= 12.5\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2in} = \\frac{79}{21}\\dot{n}_\\mathrm{O_2in} = \\frac{79}{21}(12.5\\ \\mathrm{kmol/s}) = 47.0\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\text{Air-in} = \\dot{n}_\\mathrm{O_2in} + \\dot{n}_\\mathrm{N_2in} = 12.5 + 47.0 = \\boxed{  59.5\\ \\mathrm{kmol/s}}\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-1",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nThe full set of mole balances with Equation 1 and Equation 2 is\n\n\\[\n\\dot{n}_\\mathrm{C_3H_8out} = \\dot{n}_\\mathrm{C_3H_8in} - \\dot{\\xi}_1 - \\dot{\\xi}_2 \\implies \\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{n}_\\mathrm{CO_2in} + 3\\dot{\\xi}_1 + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{CO_2out} = 3\\dot{\\xi}_1\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = \\dot{n}_\\mathrm{COin} + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_1 + 3 \\dot{\\xi}_2 \\implies \\dot{n}_\\mathrm{COout} = 3\\dot{\\xi}_2\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = \\dot{n}_\\mathrm{O_2in} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2 = 12.50\\ \\mathrm{kmol/s} - 5\\dot{\\xi}_1 - 3.5 \\dot{\\xi}_2\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2out} = \\dot{n}_\\mathrm{N_2in} + 0 \\boldsymbol{\\cdot} \\dot{\\xi}_1 +0 \\boldsymbol{\\cdot}  \\dot{\\xi}_2 = \\boxed{ 47.0\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = \\dot{n}_\\mathrm{H_2Oin} + 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2 = 4 \\dot{\\xi}_1 + 4 \\dot{\\xi}_2\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-2",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-2",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\n\nApplying the \\(\\mathrm{CO_2}\\)-to-\\(\\mathrm{CO}\\) constraint\n\n\\[\n\\frac{\\dot{n}_\\mathrm{COout}}{\\dot{n}_\\mathrm{CO_2out}} = \\frac{1 - 0.80}{0.80}=0.25 = \\frac{3\\dot{\\xi}_2}{3\\dot{\\xi}_1} = \\frac{\\dot{\\xi}_2}{\\dot{\\xi}_1}\n\\]\n\n\n\\[\n\\dot{\\xi}_1 + \\dot{\\xi}_2 = 2\\ \\mathrm{kmol/s} = \\dot{\\xi}_1 + 0.25 \\dot{\\xi}_1 = 1.25 \\dot{\\xi}_1\n\\]\n\n\n\\[\n\\implies \\dot{\\xi}_1 = 1.6\\ \\mathrm{kmol/s},\\ \\dot{\\xi}_2 = 0.4\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\implies \\dot{n}_\\mathrm{CO_2out} = 3 \\boldsymbol{\\cdot} 1.6\\ \\mathrm{kmol/s} = \\boxed{ 4.8\\ \\mathrm{kmol/s} },\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = 3 \\boldsymbol{\\cdot} 0.4\\ \\mathrm{kmol/s} = \\boxed{ 1.2\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = 12.5\\ \\mathrm{kmol/s} - 5 \\boldsymbol{\\cdot} 1.6 - 3.5 \\boldsymbol{\\cdot} 0.4 = \\boxed{ 3.10\\ \\mathrm{kmol/s} }\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = 4 \\boldsymbol{\\cdot} 1.6 + 4 \\boldsymbol{\\cdot} 0.4 = \\boxed{ 8.00\\ \\mathrm{kmol/s} }\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-3",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-3",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nTo get the dry and wet compositions, divide the species molar flow rate by either the sum of the species molar flow rates minus the water flow rate, or by the sum of the species molar flow rates. The results are on the spreadsheet.\n\n\\[\nx_{i\\ (\\mathrm{dry})} = \\frac{\\dot{n}_i}{(\\sum \\dot{n}_j) - \\dot{n}_\\mathrm{H_2O}}\n\\]\n\n\n\\[\nx_{i\\ (\\mathrm{wet})} = \\frac{\\dot{n}_i}{\\sum \\dot{n}_j}\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-4",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-4",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nA spreadsheet of the solution is shown below"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-5",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-5",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nThe full set of mole balances with Equation 3 and Equation 4 is\n\n\\[\n\\dot{n}_\\mathrm{C_3H_8out} = \\dot{n}_\\mathrm{C_3H_8in} - \\dot{\\xi}_3 \\implies \\dot{\\xi}_3 = 2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{n}_\\mathrm{CO_2in} + \\dot{\\xi}_4 \\implies \\dot{n}_\\mathrm{CO_2out} = \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = \\dot{n}_\\mathrm{COin} + 3 \\dot{\\xi}_3 - \\dot{\\xi}_4 \\implies \\dot{n}_\\mathrm{COout} = 6\\ \\mathrm{kmol/s} - \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = \\dot{n}_\\mathrm{O_2in} - 3.5 \\dot{\\xi}_3 - 0.5 \\dot{\\xi}_4 = 12.50\\ \\mathrm{kmol/s} - 7\\ \\mathrm{kmol/s} - 0.5 \\dot{\\xi}_4\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{N_2out} = \\dot{n}_\\mathrm{N_2in} = 47.0\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = \\dot{n}_\\mathrm{H_2Oin} + 4 \\dot{\\xi}_3 = 8\\ \\mathrm{kmol/s}\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-6",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-6",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nApplying the \\(\\mathrm{CO_2}\\)-to-\\(\\mathrm{CO}\\) constraint\n\n\\[\n\\frac{\\dot{n}_\\mathrm{COout}}{\\dot{n}_\\mathrm{CO_2out}} = \\frac{1 - 0.80}{0.80}=0.25 = \\frac{6 - \\dot{\\xi}_4}{\\dot{\\xi}_4} \\implies \\dot{\\xi}_4 = 4.8\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{CO_2out} = \\dot{\\xi}_4 = 4.8\\ \\mathrm{kmol/s},\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{COout} = 6\\ \\mathrm{kmol/s} - \\dot{\\xi}_4 = 1.2\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{O_2out} = 5.5\\ \\mathrm{kmol/s} - 0.5 \\dot{\\xi}_4 = 3.10\\ \\mathrm{kmol/s}\n\\]\n\n\n\\[\n\\dot{n}_\\mathrm{H_2Oout} = 4 \\dot{\\xi}_3 = 8.00\\ \\mathrm{kmol/s}\n\\]"
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-7",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#solution-cont.-7",
+    "title": "Chemical and Thermal Processes",
+    "section": "Solution (cont.)",
+    "text": "Solution (cont.)\nA spreadsheet of the solution is shown below\n\n\n\nThe stoichiometric coefficients and extents of reaction are different from the first spreadsheet. However, the molar flows and the mole fractions or compositions are identical to those in the version with Equation 1 and Equation 2. As long as you set up a linearly independent balanced set of equations that uses all of the species, it doesn’t matter what set you use. The flows and compositions will all come out the same."
+  },
+  {
+    "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#the-takeaways",
+    "href": "balances/material/CombRxnsPart2JTFVisuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nChoose a linearly independent consistent set of chemical equations that involve all reacting species.\nThe mole balance equations using the extents of reaction are usually valuable.\nKnow how to calculate excess air or excess fuel.\nSpreadsheets are useful for keeping track of everything."
+  },
+  {
+    "objectID": "balances/material/Video74_75_75AVisuals.html#multicomponent-systems",
+    "href": "balances/material/Video74_75_75AVisuals.html#multicomponent-systems",
     "title": "Chemical and Thermal Processes",
     "section": "Multicomponent Systems",
     "text": "Multicomponent Systems\nIf the vapor phase is an ideal-gas mixture and the liquid phase is an ideal solution then Raoult’s Law holds.\n\n\\[\np_\\mathrm{A} \\equiv y_\\mathrm{A}P = x_\\mathrm{A}p_\\mathrm{A}^*(T)\n\\]\n\n\nor in terms of species \\(i\\),\n\n\n\\[\ny_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)\n\\tag{1}\\]\n\n\nIn words, the partial pressure of a component is equal to the liquid mole fraction of the component times its vapor pressure. (If the vapor phase is not an ideal-gas mixture or the liquid phase is not an ideal solution then we are led to the realms of activity coefficients, fugacities and Poynting factors, i.e., the advanced phase equilibria videos)"
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#bubl-dew-flash",
-    "href": "balances/material/Video74Visuals.html#bubl-dew-flash",
+    "objectID": "balances/material/Video74_75_75AVisuals.html#bubl-dew-flash",
+    "href": "balances/material/Video74_75_75AVisuals.html#bubl-dew-flash",
     "title": "Chemical and Thermal Processes",
     "section": "BUBL, DEW, FLASH",
     "text": "BUBL, DEW, FLASH\nFor multicomponent mixtures, five types of calculations are usually performed using Raoult’s law:\n\nBUBL P – Given all \\(x_{i}\\)’s and \\(T\\), calculate \\(P\\) at which the first bubble forms, and \\(y_{i}\\)’s of the bubble.\nBUBL T – Given all \\(x_{i}\\)’s and \\(P\\), calculate \\(T\\) at which the first bubble forms, and \\(y_{i}\\)’s of the bubble.\nDEW P – Given all \\(y_{i}\\)’s and \\(T\\), calculate \\(P\\) at which the first droplet condenses, and \\(x_{i}\\)’s of the droplet.\nDEW T – Given all \\(y_{i}\\)’s and \\(P\\), calculate \\(T\\) at which the first droplet condenses, and \\(x_{i}\\)’s of the droplet.\nFLASH – Given overall composition (\\(z_{i}\\)’s) and \\(T\\) and \\(P\\), calculate \\(x_{i}\\)’s and \\(y_{i}\\)’s, and relative amounts of vapor, \\(\\mathcal{V}\\), and liquid, \\(\\mathcal{L}\\)."
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#section",
-    "href": "balances/material/Video74Visuals.html#section",
+    "objectID": "balances/material/Video74_75_75AVisuals.html#section",
+    "href": "balances/material/Video74_75_75AVisuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
     "text": "Graphical BUBL P, DEW P\n\n\n\nOverall Composition\n\n\nSubcooledLiquid\n\n\nSuperheatedVapor\n\n\n\\(2\\text{–}\\phi\\)\n\n\nBubble Pressure\n\n\nBubble Composition\n\n\nDew Pressure\n\n\nDew Composition\n\n\nLow BoilingAzeotrope"
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#bubl-p",
-    "href": "balances/material/Video74Visuals.html#bubl-p",
+    "objectID": "balances/material/Video74_75_75AVisuals.html#bubl-p",
+    "href": "balances/material/Video74_75_75AVisuals.html#bubl-p",
     "title": "Chemical and Thermal Processes",
     "section": "BUBL P",
     "text": "BUBL P\n\nGiven all \\(x_{i}\\)’s and \\(T\\), calculate \\(P\\) and \\(y_{i}\\)’s.\n\nIf necessary, begin by calculating all of the vapor pressures from the Antoine equation.\n\n\n\\[\np_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\n\\tag{2}\\]\n\n\nRaoult’s Law, Equation 1, \\[y_{i}P = x_{i}p_{i}^{*}(T)\\ \\ \\ (i=1, 2, 3, .., N)\\]\n\n\ncan be rearranged as:\n\n\n\\[P =  \\sum_{n=1}^{N} x_{i}p_{i}^{*}\n\\tag{3}\\]\n\n\nto calculate \\(P\\). Then calculate \\(y_{i}\\)’s from:\n\n\n\\[y_{i} = \\frac{x_{i} p_{i}^*} {P}\\ \\ \\ (i = 1, 2, 3, ..., N) \\tag{4}\\]"
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#dew-p",
-    "href": "balances/material/Video74Visuals.html#dew-p",
+    "objectID": "balances/material/Video74_75_75AVisuals.html#dew-p",
+    "href": "balances/material/Video74_75_75AVisuals.html#dew-p",
     "title": "Chemical and Thermal Processes",
     "section": "DEW P",
-    "text": "DEW P\nGiven all \\(y_{i}\\)’s and \\(T\\), calculate \\(P\\) and \\(x_{i}\\)’s. If necessary, begin by calculating all of the vapor pressures from the Antoine equation, Equation 2.\n\\[p_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\\]\nRaoult’s Law, Equation 1, rearranged, gives\n\\[x_{i} = \\frac{y_{i} P} {p_{i}^{*}}\\ \\ \\ (i = 1, 2, 3, ..., N).\n\\tag{5}\\]\nAlso\n\\[\n\\sum_{i=1}^{N} x_i =1\n\\tag{6}\\]"
+    "text": "DEW P\nGiven all \\(y_{i}\\)’s and \\(T\\), calculate \\(P\\) and \\(x_{i}\\)’s. If necessary, begin by calculating all of the vapor pressures from the Antoine equation, Equation 2.\n\n\\[p_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\\]\n\n\nRaoult’s Law, Equation 1, rearranged, gives\n\n\n\\[x_{i} = \\frac{y_{i} P} {p_{i}^{*}}\\ \\ \\ (i = 1, 2, 3, ..., N).\n\\tag{5}\\]\n\n\nAlso\n\n\n\\[\n\\sum_{i=1}^{N} x_i =1\n\\tag{6}\\]"
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#the-takeaways",
-    "href": "balances/material/Video74Visuals.html#the-takeaways",
+    "objectID": "balances/material/Video74_75_75AVisuals.html#the-takeaways",
+    "href": "balances/material/Video74_75_75AVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nVapor-Liquid Equilibria (VLE) calculations for binaries can be done with a \\(Pxy\\) or \\(Txy\\) phase diagram.\nFor binary mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.\nThe five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.\nHowever, flash calculations for binary mixtures are relatively straightforward."
+    "text": "The Takeaways\n\nVapor-Liquid Equilibria (VLE) calculations for binaries can be done with a Pxy or Txy phase diagram.\nFor mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.\nThe five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.\nHowever, flash calculations for binary mixtures are relatively straightforward."
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#bubl-t",
-    "href": "balances/material/Video74Visuals.html#bubl-t",
+    "objectID": "balances/material/Video74_75_75AVisuals.html#bubl-t",
+    "href": "balances/material/Video74_75_75AVisuals.html#bubl-t",
     "title": "Chemical and Thermal Processes",
     "section": "BUBL T",
-    "text": "BUBL T\nGiven all \\(x_{i}\\)’s and \\(P\\), calculate \\(T\\) and \\(y_i\\)’s\nIn general, an iterative solution is required. With a spreadsheet, the easiest method is to guess a temperature \\(T_\\mathrm{guess}\\).\nCalculate all of the vapor pressures from the Antoine equation, Equation 2,\n\\[\np_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\\ \\ \\ (i=1,2,3,.., N)\n\\]\nThen calculate the pressure from the guessed temperature\n\\[\nP_\\mathrm{guess} = \\sum_{i=1}^{N} x_{i}p_{i}^{*}\n\\tag{9}\\]"
+    "text": "BUBL T\nGiven all \\(x_{i}\\)’s and \\(P\\), calculate \\(T\\) and \\(y_i\\)’s\n\nIn general, an iterative solution is required. With a spreadsheet, the easiest method is to guess a temperature \\(T_\\mathrm{guess}\\).\n\n\nCalculate all of the vapor pressures from the Antoine equation, Equation 2,\n\n\n\\[\np_{i}^{*} = 10^{A_{i} - \\frac{B_i}{T+C_i}}\\ \\ \\ (i=1,2,3,.., N)\n\\]\n\n\nThen calculate the pressure from the guessed temperature\n\n\n\\[\nP_\\mathrm{guess} = \\sum_{i=1}^{N} x_{i}p_{i}^{*}\n\\tag{9}\\]"
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#dew-t",
-    "href": "balances/material/Video74Visuals.html#dew-t",
+    "objectID": "balances/material/Video74_75_75AVisuals.html#dew-t",
+    "href": "balances/material/Video74_75_75AVisuals.html#dew-t",
     "title": "Chemical and Thermal Processes",
     "section": "DEW T",
-    "text": "DEW T\nGiven all \\(y_i\\)’s and \\(P\\), calculate \\(T\\) and \\(x_i\\)’s.\nIn general, an iterative solution very similar to BUBL T is required. With a spreadsheet, the easiest method is to guess a temperature \\(T_\\mathrm{guess}\\) .\nCalculate all of the vapor pressures, \\(p_i^*\\)’s, from the Antoine equation, Equation 2\n\\[\nP_{i}^{*} = 10 ^ {A - \\frac{B_i}{T+C_i}}\\ \\ \\ (i = 1, 2, 3, ..., N)\n\\]\nThen calculate the pressure from the guessed temperature using Equation 8,\n\\[\nP_\\mathrm{guess} = \\frac{1}{\\sum\\limits_{i=1}^{N}\\frac{y_i}{p_{i}^{*}}}\n\\]"
+    "text": "DEW T\nGiven all \\(y_i\\)’s and \\(P\\), calculate \\(T\\) and \\(x_i\\)’s.\n\nIn general, an iterative solution very similar to BUBL T is required. With a spreadsheet, the easiest method is to guess a temperature \\(T_\\mathrm{guess}\\) .\n\n\nCalculate all of the vapor pressures, \\(p_i^*\\)’s, from the Antoine equation, Equation 2\n\n\n\\[\nP_{i}^{*} = 10 ^ {A - \\frac{B_i}{T+C_i}}\\ \\ \\ (i = 1, 2, 3, ..., N)\n\\]\n\n\nThen calculate the pressure from the guessed temperature using Equation 8,\n\n\n\\[\nP_\\mathrm{guess} = \\frac{1}{\\sum\\limits_{i=1}^{N}\\frac{y_i}{p_{i}^{*}}}\n\\]"
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#the-takeaways-1",
-    "href": "balances/material/Video74Visuals.html#the-takeaways-1",
+    "objectID": "balances/material/Video74_75_75AVisuals.html#the-takeaways-1",
+    "href": "balances/material/Video74_75_75AVisuals.html#the-takeaways-1",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nVapor-Liquid Equilibria (VLE) calculations for binaries can be done with a \\(Pxy\\) or \\(Txy\\) phase diagram.\nFor binary mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.\nThe five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.\nHowever, flash calculations for binary mixtures are relatively straightforward."
+    "text": "The Takeaways\n\nVapor-Liquid Equilibria (VLE) calculations for binaries can be done with a Pxy or Txy phase diagram.\nFor mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.\nThe five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.\nHowever, flash calculations for binary mixtures are relatively straightforward."
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#flash",
-    "href": "balances/material/Video74Visuals.html#flash",
+    "objectID": "balances/material/Video74_75_75AVisuals.html#flash",
+    "href": "balances/material/Video74_75_75AVisuals.html#flash",
     "title": "Chemical and Thermal Processes",
-    "section": "FlASH",
-    "text": "FlASH\nGiven \\(z_i\\)’s and \\(T\\) and \\(P\\), calculate \\(x_i\\)’s and \\(y_{i}\\)’s, and relative amounts of vapor, \\(\\mathcal{V}\\), and liquid, \\(\\mathcal{L}\\).\n\\[\n\\mathcal{V} \\equiv \\frac{n_\\mathrm{{vapor}}}{n_\\mathrm{{total}}}\n\\tag{19}\\]\nand\n\\[\n\\mathcal{L} \\equiv \\frac{n_\\mathrm{{liquid}}}{n_\\mathrm{{total}}}\n\\tag{20}\\]\nso\n\\[\n\\mathcal{L} + \\mathcal{V} = 1\n\\tag{21}\\]"
+    "section": "FLASH",
+    "text": "FLASH\nGiven \\(z_i\\)’s and \\(T\\) and \\(P\\), calculate \\(x_i\\)’s and \\(y_{i}\\)’s, and relative amounts of vapor, \\(\\mathcal{V}\\), and liquid, \\(\\mathcal{L}\\).\n\n\\[\n\\mathcal{V} \\equiv \\frac{n_\\mathrm{{vapor}}}{n_\\mathrm{{total}}}\n\\tag{19}\\]\n\n\nand\n\n\n\\[\n\\mathcal{L} \\equiv \\frac{n_\\mathrm{{liquid}}}{n_\\mathrm{{total}}}\n\\tag{20}\\]\n\n\nso\n\n\n\\[\n\\mathcal{L} + \\mathcal{V} = 1\n\\tag{21}\\]"
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#example",
-    "href": "balances/material/Video74Visuals.html#example",
+    "objectID": "balances/material/Video74_75_75AVisuals.html#example",
+    "href": "balances/material/Video74_75_75AVisuals.html#example",
     "title": "Chemical and Thermal Processes",
     "section": "Example",
-    "text": "Example\nThe binary system benzene(1)/toluene(2) conforms closely to Raoult’s law. Vapor pressures for the pure species are given by the following Antoine equations:\n\\[\n\\log_{10} p_\\mathrm{b}^{*} / \\mathrm{bar} = 4.01814 - \\frac{1203.835}{T /\\mathrm{K}  - 53.226}\n\\]\n\\[\n\\log_{10}p_\\mathrm{t}^{*} / \\mathrm{bar} = 4.07827 - \\frac{1343.943}{T / \\mathrm{K} - 53.773}\n\\]\n\nPrepare a graph showing \\(P\\) vs. \\(x_b\\) and \\(P\\) vs. \\(y_b\\) for a temperature of 100°C.\nPrepare a graph showing \\(T\\) vs. \\(x_b\\) and \\(T\\) vs. \\(y_b\\) for a pressure of 1 bar"
+    "text": "Example\nThe binary system benzene(1)/toluene(2) conforms closely to Raoult’s law. Vapor pressures for the pure species are given by the following Antoine equations:\n\n\\[\n\\log_{10} p_\\mathrm{b}^{*} / \\mathrm{bar} = 4.01814 - \\frac{1203.835}{T /\\mathrm{K}  - 53.226}\n\\]\n\n\n\\[\n\\log_{10}p_\\mathrm{t}^{*} / \\mathrm{bar} = 4.07827 - \\frac{1343.943}{T / \\mathrm{K} - 53.773}\n\\]\n\n\nPrepare a graph showing \\(P\\) vs. \\(x_b\\) and \\(P\\) vs. \\(y_b\\) for a temperature of 100°C.\nPrepare a graph showing \\(T\\) vs. \\(x_b\\) and \\(T\\) vs. \\(y_b\\) for a pressure of 1 bar"
   },
   {
-    "objectID": "balances/material/Video74Visuals.html#the-takeaways-2",
-    "href": "balances/material/Video74Visuals.html#the-takeaways-2",
+    "objectID": "balances/material/Video74_75_75AVisuals.html#the-takeaways-2",
+    "href": "balances/material/Video74_75_75AVisuals.html#the-takeaways-2",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nVapor-Liquid Equilibria (VLE) calculations for binaries can be done with a Pxy or Txy phase diagram.\nFor binary mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.\nThe five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.\nHowever, flash calculations for binary mixtures are relatively straightforward."
-  },
-  {
-    "objectID": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas",
-    "href": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Ideal Gas",
-    "text": "The Ideal Gas\nThere are two parts to the definition of an ideal gas: First, the equation of state.\n\\[PV = nRT\\]\nSecond, the enthalpy or internal energy is a function of temperature only. We’ll revisit this part when we get to the First Law.  In terms of molar volume the ideal gas equation of state is\n\\[P\\hat{V} = R T\\]\nThe current (2019) definition of R is \\(8.314\\ 462\\ 618\\ 153\\ 24\\ \\mathrm{J/mol\\ K}\\). The value is exact."
-  },
-  {
-    "objectID": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas-cont.",
-    "href": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Ideal Gas (cont.)",
-    "text": "The Ideal Gas (cont.)\nThe ideal gas equation of state is in error by no more than 1% if\n\\(\\ \\ \\hat{V}_\\mathrm{ideal} = \\frac{RT}{P} &gt; 5\\ \\mathrm{L/mol}\\)\n\n(\\(5 \\times 10^{−3}\\ \\mathrm{m^3/mol}\\) or \\(80\\ \\mathrm{ft^3}/\\text{lb-mol}\\)) (diatomic gases)\n\n \\(\\ \\ \\hat{V}_\\mathrm{ideal} = \\frac{RT}{P} &gt; 20\\ \\mathrm{L/mol}\\)\n\n(\\(20 \\times 10^{−3}\\ \\mathrm{m^3/mol}\\) or \\(320\\ \\mathrm{ft^3}/\\text{lb-mol}\\)) (other gases)\n\n Mechanical Engineers often define the ideal gas equation of state as\n\\[P V = m R T\\]\nwhere \\(m\\) is the mass of gas. They are then required to have a different value of \\(R\\) for each gas, which is \\(R/M\\). For dry air, \\(R = 287.058\\ \\mathrm{J/kg\\ K}\\)."
-  },
-  {
-    "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions",
-    "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions",
-    "title": "Chemical and Thermal Processes",
-    "section": "Standard Conditions",
-    "text": "Standard Conditions\n\nThe nice thing about standards is that you have so many to choose from.\n\nAttributed to everybody\n\n\n(especially Grace Hopper and Andrew S. Tanenbaum)\n\n\n Wikipedia lists 21 different combinations of temperature and pressure used as STP."
-  },
-  {
-    "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.",
-    "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "Standard Conditions (cont.)",
-    "text": "Standard Conditions (cont.)\nThe molar volume calculated at the standard temperature and pressure is the standard molar volume,\n\\[\\hat{V}_\\mathrm{S} = \\frac{R T_\\mathrm{S}}{P_\\mathrm{S}}.\\]\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\):\n\n\\[\\hat{V}_\\mathrm{S} = 22.414\\ \\mathrm{\\frac{m^3(STP)}{kmol}} = 22.414\\ \\mathrm{\\frac{L(STP)}{mol}} = 359.04\\ \\frac{\\mathrm{m^3(STP)}}{\\text{lb-mol}}\\]"
-  },
-  {
-    "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.-1",
-    "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Standard Conditions (cont.)",
-    "text": "Standard Conditions (cont.)\nFor historical reasons, the molar flow of a gas is often measured in standard cubic meters (SCM) per time or standard cubic feet (SCF) per time.\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\):\n\\[\\center{1\\ \\mathrm{SCM} = 44.615\\ \\mathrm{mol} = 0.04462\\ \\mathrm{kmol}}\\]\n\\[\\center{1\\ \\mathrm{SCF} = 2.785 \\times 10^{−3}\\ \\text{lb-mol}}\\]\nYou can always determine the true volumetric flow rate with either the ideal gas law or by using ratios of absolute temperatures and pressures."
-  },
-  {
-    "objectID": "balances/material/IdealGasJTFVisuals.html#example",
-    "href": "balances/material/IdealGasJTFVisuals.html#example",
-    "title": "Chemical and Thermal Processes",
-    "section": "Example",
-    "text": "Example\n\nFor a flow rate of \\(3.95 \\times 10^5\\ \\mathrm{SCFH}\\) at \\(285\\ ^\\circ \\mathrm{F}\\) and \\(1.300\\ \\mathrm{atm}\\),\n\nCalculate the molar flow rate in \\(\\mathrm{kmol/min}\\) and \\(\\text{lb-mol/h}\\).\nCalculate the true volumetric flow rate in \\(\\mathrm{m^3/s}\\).\n\n\n\\[\n\\dot{n} = \\frac{3.95 \\times 10^5\\ \\mathrm{SCFH}}{\\left(359.04\\frac{\\mathrm{ft^3(STP)}}{\\text{lb-mol}}\\right)} = 1100\\ \\frac{\\text{lb-mol}}{\\mathrm{h}} = 8.32\\ \\frac{\\mathrm{kmol}}{\\mathrm{min}}\n\\]\n\n\n\\[\n\\dot{V} = \\frac{\\dot{n}RT}{P} = \\frac{8317 \\boldsymbol{\\cdot} 8.3145 \\boldsymbol{\\cdot} 413.71}{131722 \\boldsymbol{\\cdot} 60} = 3.62\\ \\frac{\\mathrm{m^3}}{\\mathrm{s}}\n\\]\n\n\n\nor \\[\n\\dot{V} = \\dot{V}_\\mathrm{S}\\ \\frac{T}{T_\\mathrm{S}}\\ \\frac{P_\\mathrm{S}}{P} = 3.95 \\times 10^5 \\boldsymbol{\\cdot} \\frac{744.67}{491.67} \\boldsymbol{\\cdot} \\frac{1.00}{1.30} = 460 \\times 10^5\\ \\mathrm{\\frac{ft^3}{h}} = 3.62\\ \\frac{\\mathrm{m^3}}{\\mathrm{s}}\n\\]"
-  },
-  {
-    "objectID": "balances/material/IdealGasJTFVisuals.html#daltons-and-amagats-laws",
-    "href": "balances/material/IdealGasJTFVisuals.html#daltons-and-amagats-laws",
-    "title": "Chemical and Thermal Processes",
-    "section": "Dalton’s and Amagat’s Laws",
-    "text": "Dalton’s and Amagat’s Laws\nFor an ideal gas mixture, the partial pressure of pure component \\(\\mathrm{A}\\) is defined as\n\\[\np_\\mathrm{A} = \\frac{n_\\mathrm{A} RT}{V} = \\frac{n_\\mathrm{A} RT}{V} \\boldsymbol{\\cdot} \\frac{PV}{nRT} = \\left(\\frac{n_\\mathrm{A}}{n}\\right)P =y_\\mathrm{A}P\n\\]\nFor an ideal gas mixture, the pure-component volume of pure component \\(\\mathrm{A}\\) is defined as\n\\[\nv_\\mathrm{A} = \\frac{n_\\mathrm{A} RT}{P} = \\frac{n_\\mathrm{A} RT}{P} \\boldsymbol{\\cdot} \\frac{PV}{nRT} = \\left(\\frac{n_\\mathrm{A}}{n}\\right)V =y_\\mathrm{A}V\n\\]\nSumming over all of the species, \\(\\sum p_i = P\\), \\(\\sum v_i = V\\)\nwhich are known as Dalton’s law and Amagat’s law respectively."
-  },
-  {
-    "objectID": "balances/material/IdealGasJTFVisuals.html#some-handy-relationships",
-    "href": "balances/material/IdealGasJTFVisuals.html#some-handy-relationships",
-    "title": "Chemical and Thermal Processes",
-    "section": "Some Handy Relationships",
-    "text": "Some Handy Relationships\nMolar concentration of an ideal gas\n\\[C_\\mathrm{A} = \\frac{n_\\mathrm{A}}{V} = \\frac{p_\\mathrm{A}}{RT}\\]\nMolar density of an ideal gas\n\\[\\rho = \\frac{n}{V} = \\frac{P}{RT}\\]\nMass density of an ideal gas\n\\[\\rho = \\frac{nM}{V} = \\frac{PM}{RT}\\]"
-  },
-  {
-    "objectID": "balances/material/IdealGasJTFVisuals.html#the-takeaways",
-    "href": "balances/material/IdealGasJTFVisuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\n\nThere are two parts to the ideal gas law: The equation of state, \\(PV = nRT\\), and the internal energy is only a function of temperature..\nThe ideal gas law is in error by no more than 1% if the ideal molar volume is greater than 5 L/mol for diatomic gases or greater than 20 L/mol for other gases.\nWe are using an STP of \\(0\\ ^\\circ\\mathrm{C}\\) and \\(101.325\\ \\mathrm{kPa}\\).\nMolar flow rates are often given in SCM or SCF per time.\nThe partial pressure of a species in an ideal gas is the mole fraction times the total pressure.\nThe pure-component volume of a species in an ideal gas is the mole fraction times the total volume.\n\n\n\n\nThanks for watching!  The Full Story companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description."
+    "text": "The Takeaways\n\nVapor-Liquid Equilibria (VLE) calculations for binaries can be done with a Pxy or Txy phase diagram.\nFor mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.\nThe five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.\nHowever, flash calculations for binary mixtures are relatively straightforward."
   },
   {
     "objectID": "balances/material/EquilReact1JTFVisuals.html#types-of-reactor-models",
@@ -6251,15 +6251,22 @@
     "text": "The Takeaways\n\nWebsites, handbooks, tables, and equations of state are the best sources for the density of liquid or solid mixtures.\nIf the mixture is ideal, volume additivity should be fairly accurate.\nLacking any other option, density average will at least give you a number.\nThe densities of mixtures of ethanol and water lie way outside both volume additivity and density average."
   },
   {
+    "objectID": "balances/material/Video73Visuals.html#section",
+    "href": "balances/material/Video73Visuals.html#section",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Oh, Henry! is an introduction to the relationship between vapor pressure and temperature for a pure component, and for how to treat phase equilibrium for a two-phase vapor-liquid system when only one of the two components is below its critical point and can condense."
+  },
+  {
     "objectID": "balances/material/Video73Visuals.html#sample-1-component-pt-diagram",
     "href": "balances/material/Video73Visuals.html#sample-1-component-pt-diagram",
     "title": "Chemical and Thermal Processes",
     "section": "Sample 1-Component \\(PT\\) Diagram",
-    "text": "Sample 1-Component \\(PT\\) Diagram\nFor one component, how do you calculate phase equilibria?\n\nhttps://commons.wikimedia.org/wiki/File:Phase-diag2.svg"
+    "text": "Sample 1-Component \\(PT\\) Diagram\nFor one component, how do you calculate phase equilibria?\n\n\nhttps://commons.wikimedia.org/wiki/File:Phase-diag2.svg"
   },
   {
-    "objectID": "balances/material/Video73Visuals.html#section",
-    "href": "balances/material/Video73Visuals.html#section",
+    "objectID": "balances/material/Video73Visuals.html#section-1",
+    "href": "balances/material/Video73Visuals.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
     "text": "1-Component Vapor-Liquid Equilibrium (VLE)\n\n\nFrom Wikipedia comes the Clapeyron equation:\n\n\n\\[\n\\frac{dp^*}{dT} = \\frac{\\Delta \\hat{H}_{v}}{T(\\hat{V}_{g} - \\hat{V}_l)}\n\\]\nWhere \\(p^*\\) is the vapor pressure.\n\n\nIf \\(\\hat{V}_g \\gg \\hat{V}_l\\), and the vapor is ideal, then:\n\n\n\\[\n\\frac{d(\\ln p^{*})}{d(1/T)} = - \\frac{\\Delta \\hat{H}_{v}}{R}\n\\]"
@@ -6269,14 +6276,14 @@
     "href": "balances/material/Video73Visuals.html#vle-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "VLE (cont.)",
-    "text": "VLE (cont.)\nIf in addition, \\(\\Delta \\hat{H}_v\\) is constant, we can integrate to\n\n\\[\n\\ln p^{*} = \\frac{\\Delta \\hat{H}_v}{RT} + B\n\\]\n\n\nwhich is the Clausius-Clapeyron equation.\n\n\nEmpirical equations are also used. The simplest with reasonable accuracy is the Antoine equation:\n\n\n\\[\n\\log_{10} p^{*} = A - \\frac{B}{T + C}\n\\]\n\n\nwhere \\(A\\), \\(B\\), and \\(C\\) are constants from a reference source such as the NIST Chemistry WebBook. What are \\(A\\), \\(B\\), and \\(C\\) if the substance obeys the Clausius-Clapeyron equation and \\(T\\) is in \\(^\\circ\\mathrm{C}\\)?"
+    "text": "VLE (cont.)\n\nIf in addition, \\(\\Delta \\hat{H}_v\\) is constant, we can integrate to\n\n\\[\n\\ln p^{*} = -\\frac{\\Delta \\hat{H}_v}{RT} + B\n\\]\n\n\nwhich is the Clausius-Clapeyron equation.\n\n\nEmpirical equations are also used. The simplest with reasonable accuracy is the Antoine equation:\n\n\n\\[\n\\log_{10} p^{*} = A - \\frac{B}{T + C}\n\\]\n\n\nwhere \\(A\\), \\(B\\), and \\(C\\) are constants from a reference source such as the NIST Chemistry WebBook. What are \\(A\\), \\(B\\), and \\(C\\) if the substance obeys the Clausius-Clapeyron equation and \\(T\\) is in \\(^\\circ\\mathrm{C}\\)?"
   },
   {
     "objectID": "balances/material/Video73Visuals.html#component-vle",
     "href": "balances/material/Video73Visuals.html#component-vle",
     "title": "Chemical and Thermal Processes",
     "section": "2-Component VLE",
-    "text": "2-Component VLE\n1-Condensable component, e.g., ethanol-argon. Assume ideal gas behavior and that species \\(i\\) is the condensable one, then at saturation (e.g., two-phases present):\n\n\\[\np_i = y_{i}P = p^{*}_{i}(T)\n\\]\n\n\nIf the temperature is high enough (or pressure low enough) that only one phase is present then:\n\n\n\\[\np_i = y_{i}P &lt; p^{*}_{i}(T)\n\\]\n\n\nAt what temperature will condensation begin?\n\n\n\\[\np_i = y_{i}P = p^{*}_{i}(T_{dp})\n\\]\n\n\n\\(T_{dp}\\) is the dew-point temperature. The difference between\\(T\\) and \\(T_{dp}\\) is the degree(s) of superheat."
+    "text": "2-Component VLE\n\n1-Condensable component, e.g., ethanol-argon. Assume ideal gas behavior and that species \\(i\\) is the condensable one, then at saturation (e.g., two-phases present):\n\n\\[\np_i = y_{i}P = p^{*}_{i}(T)\n\\]\n\n\nIf the temperature is high enough (or pressure low enough) that only one phase is present then:\n\n\n\\[\np_i = y_{i}P &lt; p^{*}_{i}(T)\n\\]\n\n\nAt what temperature will condensation begin?\n\n\n\\[\np_i = y_{i}P = p^{*}_{i}(T_{dp})\n\\]\n\n\n\\(T_{dp}\\) is the dew-point temperature. The difference between\\(T\\) and \\(T_{dp}\\) is the degree(s) of superheat."
   },
   {
     "objectID": "balances/material/Video73Visuals.html#example-1",
@@ -6304,14 +6311,14 @@
     "href": "balances/material/Video73Visuals.html#example-2",
     "title": "Chemical and Thermal Processes",
     "section": "Example 2:",
-    "text": "Example 2:\nYou set out a cold (root)brew on a day when the temperature is \\(86\\ ^\\circ\\mathrm{F}\\) and the relative humidity is \\(30\\%\\).\n\nAt what temperature is the brew when water quits condensing on the can?\nWhat is the dew point?\nWhat are the degrees of superheat?\n\n\nSolution:\nNeed \\(p^*\\) at \\(86\\ ^\\circ\\mathrm{F}\\) (\\(30\\ ^\\circ\\mathrm{C}\\))\n\n\nFrom Antoine Equation or Steam Table or DWSIM."
+    "text": "Example 2:\n\nYou set out a cold (root)brew on a day when the temperature is \\(86\\ ^\\circ\\mathrm{F}\\) and the relative humidity is \\(30\\%\\).\n\nAt what temperature is the brew when water quits condensing on the can?\nWhat is the dew point?\nWhat are the degrees of superheat?\n\n\nSolution:\nNeed \\(p^*\\) at \\(86\\ ^\\circ\\mathrm{F}\\) (\\(30\\ ^\\circ\\mathrm{C}\\))\n\n\nFrom Antoine Equation or Steam Table or DWSIM."
   },
   {
     "objectID": "balances/material/Video73Visuals.html#example-2-cont",
     "href": "balances/material/Video73Visuals.html#example-2-cont",
     "title": "Chemical and Thermal Processes",
     "section": "Example 2 (cont):",
-    "text": "Example 2 (cont):\nAntotine Equation\n\n\n\\[\\log_{10}p^* = 4.6543 - \\frac{1435.264}{T - 64.848}\\]\n\n\n\\[= 4.6543 - \\frac{1435.264}{30 - 64.848} = -1.3686\\]\n\n\n\\[p^* = 10^{-1.3686} = 0.04280\\ \\mathrm{bar}\\]\n\n\n\\[p = h_rp^* = 0.30 \\times 0.04280\\ \\mathrm{bar} = 0.01284\\ \\mathrm{bar}\\]\n\n\n\\[T_{dp} = \\frac{B}{A-\\log_{10}p^*} - C\\]\n\n\n\\[= \\frac{1435.264}{4.6543 − \\log_{10} 0.01284} + 64.848 = 10.96\\ ^\\circ\\mathrm{C}\\text{ or }51.74\\ ^\\circ\\mathrm{F}\\]\n\n\n\n\\[T-T_{dp} = 30-10.96 = 19.04\\ ^\\circ\\mathrm{C}\\text{ or }34.26\\ ^\\circ\\mathrm{F}\\text{ of Superheat}\\]"
+    "text": "Example 2 (cont):\nAntoine Equation\n\n\n\\[\\log_{10}p^* = 4.6543 - \\frac{1435.264}{T - 64.848}\\]\n\n\n\\[= 4.6543 - \\frac{1435.264}{30 - 64.848} = -1.3686\\]\n\n\n\\[p^* = 10^{-1.3686} = 0.04280\\ \\mathrm{bar}\\]\n\n\n\\[p = h_rp^* = 0.30 \\times 0.04280\\ \\mathrm{bar} = 0.01284\\ \\mathrm{bar}\\]\n\n\n\\[T_{dp} = \\frac{B}{A-\\log_{10}p^*} - C\\]\n\n\n\\[= \\frac{1435.264}{4.6543 − \\log_{10} 0.01284} + 64.848 = 10.96\\ ^\\circ\\mathrm{C}\\text{ or }51.74\\ ^\\circ\\mathrm{F}\\]\n\n\n\n\\[T-T_{dp} = 30-10.96 = 19.04\\ ^\\circ\\mathrm{C}\\text{ or }34.26\\ ^\\circ\\mathrm{F}\\text{ of Superheat}\\]"
   },
   {
     "objectID": "balances/material/Video73Visuals.html#example-2-cont-1",
