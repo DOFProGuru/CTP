@@ -16,8 +16,17 @@ format:
 DOFPro Team
 :::
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-70%"}
 
+
+---
+
+## {.center}
+
+:::{style="font-size: 125px;"}
+
+*Oh, Henry!* is an introduction to the relationship between vapor pressure and temperature for a pure component, and for how to treat phase equilibrium for a two-phase vapor-liquid system when only one of the two components is below its critical point and can condense.
+:::
 
 ---
 
@@ -27,7 +36,9 @@ For one component, how do you calculate phase equilibria?
 
 ![](OneCompPhaseTemp.png)
 
+:::{style="font-size: 90px;"}
 https://commons.wikimedia.org/wiki/File:Phase-diag2.svg
+:::
 
 ---
 
@@ -63,11 +74,12 @@ $$
 
 ## VLE (cont.)
 
+:::{style="font-size: 95px;"}
 If in addition, $\Delta \hat{H}_v$ is constant, we can integrate to
 
 :::{.fragment}
 $$
-\ln p^{*} = \frac{\Delta \hat{H}_v}{RT} + B
+\ln p^{*} = -\frac{\Delta \hat{H}_v}{RT} + B
 $$
 :::
 
@@ -85,9 +97,11 @@ $$
 :::{.fragment}
 where $A$, $B$, and $C$ are constants from a reference source such as the [NIST Chemistry WebBook](https://webbook.nist.gov/chemistry/). What are $A$, $B$, and $C$ if the substance obeys the Clausius-Clapeyron equation and $T$ is in $^\circ\mathrm{C}$?
 :::
+:::
 
 ## 2-Component VLE
 
+:::{style="font-size: 95px;"}
 1-Condensable component, e.g., ethanol-argon. Assume *ideal gas* behavior and that species $i$ is the condensable one, then at saturation (e.g., two-phases present):
 
 :::{.fragment}
@@ -115,6 +129,7 @@ $$
 
 :::{.fragment}
 $T_{dp}$ is the dew-point temperature. The difference between<br/>$T$ and $T_{dp}$ is the degree(s) of superheat.
+:::
 :::
 
 ## Example 1:
@@ -175,6 +190,7 @@ $$s_p\text{ or }h_p = 100\% \times \frac{s_m} {s_m^*} = 100\% \times \frac{\frac
 
 ## Example 2:
 
+:::{style="font-size: 95px;"}
 You set out a cold (root)brew on a day when the
 temperature is $86\ ^\circ\mathrm{F}$ and the relative humidity is $30\%$.
 
@@ -191,13 +207,13 @@ Need $p^*$ at $86\ ^\circ\mathrm{F}$ ($30\ ^\circ\mathrm{C}$)
 :::{.fragment}
 From Antoine Equation or Steam Table or DWSIM.
 :::
-
+:::
 
 ## Example 2 (cont):
 
-Antotine Equation
+Antoine Equation
 
-:::{style="font-size: 90px;"}
+:::{style="font-size: 85px;"}
 :::{.fragment .absolute top=10% left=10%}
 $$\log_{10}p^* = 4.6543 - \frac{1435.264}{T - 64.848}$$
 :::
@@ -262,7 +278,7 @@ the *Henry’s Law Constant*. (See [Wikipedia](https://en.wikipedia.org/wiki/Hen
 
 ## The Takeaways
 
-:::{style="font-size: 95px"}
+:::{style="font-size: 92px"}
 1. There are semi-empirical relationships, such as the Antoine equation that will let you calculate the vapor pressure as a function of temperature, and vice versa.
 2. In a two-component mixture where one of the components can condense, condensation starts once the mixture hits the dew-point temperature, where the partial pressure equals the vapor pressure.
 3. In a two-component mixture where one of the components can condense, if the partial pressure is below the vapor pressure, we use the terms relative saturation, or relative humidity for the ratio of the partial pressure to the vapor pressure.
