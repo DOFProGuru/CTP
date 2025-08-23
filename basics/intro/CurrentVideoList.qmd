@@ -42,6 +42,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 66 | REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2 | [Link](https://youtu.be/bPW4B_Dj868) | No | [Page] | Example of Kay's Rule and DWSIM for real gas mixtures |
 | 67 | Solving Nonlinear Equations with Spreadsheets | [link](https://youtu.be/SaI2qdu1wSE) | No | [Page] | See Title |
 | 73 | Oh, Henry! | [link](https://youtu.be/dCOQy1C7yf0) | No | [Page] | Gas-Liquid Equilibrium with one condensible component |
-| 74 | Dew Your Bubbles Have Flash? Part 1 | [Link](https://youtu.be/diksSkhpK9g) | No | [Page] | Raoult's law, BUBL P, DEW P |
+| 74 | Dew Your Bubbles Have Flash? Part 1 | [Link](https://youtu.be/vSkSRi6HYVQ) | No | [Page] | Raoult's law, BUBL P, DEW P |
 | 75 | Dew Your Bubbles Have Flash? Part 2 | [Link](https://youtu.be/9GyrfJzg-tg) | No | [Page] | BUBL T, DEW T |
 | 75A| Dew Your Bubbles Have Flash? Part 3 | [Link](https://youtu.be/bG15qQ9gB4c) | No | [Page] | FLASH, *Pxy*, *Txy* |
+
