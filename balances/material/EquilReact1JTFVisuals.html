@@ -127,8 +127,8 @@
 
 
 <section>
-<section id="react-but-maintain-your-equilibrium-part-1-just-the-facts" class="title-slide slide level1 center">
-<h1>React But Maintain Your Equilibrium<br>Part 1<br>Just The Facts</h1>
+<section id="react-but-maintain-your-equilibrium-part-1" class="title-slide slide level1 center">
+<h1>React But Maintain Your Equilibrium<br>Part 1</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
@@ -164,72 +164,143 @@
 </ul>
 </div>
 </section>
+<section id="section" class="slide level2">
+<h2></h2>
+<p><strong><em>React But Maintain Your Equilibrium Part 1 &amp; Part 2</em></strong></p>
+<ul>
+<li class="fragment">Introduce chemical equilibrium methods</li>
+<li class="fragment">Part 1
+<ul>
+<li class="fragment">Starts from advanced chemical engineering thermodynamics</li>
+<li class="fragment">Arrives at the equilibrium expressions for ideal gases</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<p>You are not expected to fully understand the derivation at this point. It’s just worth being exposed to what advanced-level work in chemical engineering is like.</p>
+</div>
+</section>
 <section id="chemical-equilibrium-1" class="slide level2">
 <h2>Chemical Equilibrium</h2>
 <p>From Thermodynamics, equilibrium is reached when the total Gibbs Energy is minimized. Mathematically the criterion is:</p>
+<div class="fragment">
 <p><span class="math display">\[
 \sum \nu_i G^\circ_i + RT \sum \ln \hat{a}_i^{\nu_i} = 0
 \]</span></p>
+</div>
+<div class="fragment">
 <p>or rearranged</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \prod \hat{a}_i^{\nu_i} = \exp \left( - \frac{\sum \nu_i G^\circ_i}{RT}\right) \equiv K
 \]</span></p>
+</div>
+<div class="fragment">
 <p>The <span class="math inline">\(\hat{a}_i\)</span> are the activities of the various species where</p>
+</div>
 </section>
 <section id="chemical-equilibrium-cont." class="slide level2">
 <h2>Chemical Equilibrium (cont.)</h2>
 <p><span class="math display">\[
 \hat{a}_i \equiv \frac{\hat{f}_i}{f^\circ_i}
 \]</span></p>
-<p><span class="math inline">\(\hat{f}_i\)</span> is the fugacity of species i in solution. <br><br> <span class="math inline">\(f^\circ_i\)</span> is the reference fugacity of species <span class="math inline">\(i\)</span>. <br><br> <span class="math inline">\(\sum \nu_i G^\circ_i\)</span> is often written as <span class="math inline">\(\Delta G^\circ\)</span> and is similar to <span class="math inline">\(\Delta H^\circ\)</span>. <br><br> <span class="math inline">\(K\)</span> is the equilibrium constant. It varies <strong>only</strong> with temperature.</p>
+<div class="fragment">
+<p><span class="math inline">\(\hat{f}_i\)</span> is the fugacity of species <span class="math inline">\(i\)</span> in solution. <br><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(f^\circ_i\)</span> is the reference fugacity of species <span class="math inline">\(i\)</span>. <br><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\sum \nu_i G^\circ_i\)</span> is often written as <span class="math inline">\(\Delta G^\circ\)</span> and is similar to <span class="math inline">\(\Delta H^\circ\)</span>. <br><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(K\)</span> is the equilibrium constant. It varies <strong>only</strong> with temperature.</p>
+</div>
 </section>
 <section id="chemical-equilibrium-cont.-1" class="slide level2">
 <h2>Chemical Equilibrium (cont.)</h2>
-<p>What are the units of <span class="math inline">\(K\)</span>? <br><br> For ideal gases (see upcoming videos) the fugacity in solution is numerically equal to the partial pressure, and the reference fugacity is the ideal gas state at the system <span class="math inline">\(T\)</span> and a pressure of 1 bar. <br><br> With these substitutions:</p>
+<p>What are the units of <span class="math inline">\(K\)</span>? <br><br></p>
+<div class="fragment">
+<p>For ideal gases (see upcoming videos) the fugacity in solution is numerically equal to the partial pressure, and the reference fugacity is the ideal gas state at the system <span class="math inline">\(T\)</span> and a pressure of 1 bar. <br><br></p>
+</div>
+<div class="fragment">
+<p>With these substitutions:</p>
+</div>
 <div style="font-size: 85px;">
+<div class="fragment">
 <p><span class="math display">\[
 K = \prod \hat{a}_i^{\nu_i} = \prod \left( \frac{p_i}{\mathrm{1\ bar}}\right)^{\nu_i}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>or</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 K\ (\mathrm{1\ bar})^\nu = \prod p_i^{\nu_i}
 \]</span></p>
 </div>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(K\)</span> is still dimensionless but may not appear to be.</p>
+</div>
 </section>
 <section id="mole-fractions" class="slide level2">
 <h2>Mole Fractions</h2>
 <p>Often problems are posed in mole fractions instead of partial pressures. Since for an ideal gas (see <em>Ideal Gases EXPOSED: Are They Even Real?!</em>)</p>
+<div class="fragment">
 <p><span class="math display">\[
 y_i = \frac{p_i}{P}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>then</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 p_i = y_i P
 \]</span></p>
+</div>
+<div class="fragment">
 <p>Substituting</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 K\ (\mathrm{1\ bar})^\nu = \prod (y_i P)^{\nu_i} =P^\nu \prod (y_i)^{\nu_i}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>or</p>
+</div>
 </section>
 <section id="mole-fractions-cont." class="slide level2">
 <h2>Mole Fractions (cont.)</h2>
 <p><span class="math display">\[
 K\ (\mathrm{1\ bar})^\nu P^{-\nu}  =\prod (y_i)^{\nu_i}
 \]</span></p>
-<p>which is where we will begin. There are later videos that go into more detail about the earlier steps and explain when you’d need them. For the present we’ll only deal with equilibrium reactions involving ideal gases and pure solids. <br><br> As a reminder, <span class="math inline">\(K\)</span> depends only on temperature but the equilibrium composition depends on total pressure and the presence of inerts.</p>
+<div class="fragment">
+<p>which is where we will begin. There are later videos that go into more detail about the earlier steps and explain when you’d need them. For the present we’ll only deal with equilibrium reactions involving ideal gases and pure solids. <br><br></p>
+</div>
+<div class="fragment">
+<p>As a reminder, <span class="math inline">\(K\)</span> depends only on temperature but the equilibrium composition depends on total pressure and the presence of inerts.</p>
+</div>
 </section>
 <section id="temperature-dependence" class="slide level2">
 <h2>Temperature Dependence</h2>
 <p>With a fair amount of calculus one can show that</p>
+<div class="fragment">
 <p><span class="math display">\[
 \frac{d \ln K}{dT} = -\frac{\Delta \hat{H}^\circ_r}{RT^2}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>which, if the enthalpy of reaction is constant with temperature integrates to</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
-\ln\frac{K}{K_1} = -\frac{\Delta \hat{H}^\circ_r}{R} \left(\frac{1}{T} - \frac{1}{T_1} \right)
+\ln\frac{K}{K_0} = -\frac{\Delta \hat{H}^\circ_r}{R} \left(\frac{1}{T} - \frac{1}{T_0} \right)
 \]</span></p>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
@@ -240,7 +311,7 @@ K\ (\mathrm{1\ bar})^\nu P^{-\nu}  =\prod (y_i)^{\nu_i}
 <li class="fragment">The activity of an ideal gas is the partial pressure over the reference pressure of 1 bar.</li>
 </ol>
 </section></section>
-<section id="section" class="title-slide slide level1 center">
+<section id="section-1" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The <em>Full Story</em> companion video is in the link in the upper left. The companion video, <em>React But Maintain Your Equilibrium Part 2</em>, in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>

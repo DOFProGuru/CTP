@@ -127,8 +127,8 @@
 
 
 <section>
-<section id="react-but-maintain-your-equilibrium-part-2-just-the-facts" class="title-slide slide level1 center">
-<h1>React But Maintain Your Equilibrium<br>Part 2<br>Just The Facts</h1>
+<section id="react-but-maintain-your-equilibrium-part-2" class="title-slide slide level1 center">
+<h1>React But Maintain Your Equilibrium<br>Part 2</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
@@ -136,60 +136,106 @@
 </section>
 <section id="from-part-1" class="slide level2">
 <h2>From Part 1</h2>
+<div class="fragment">
 <p><span class="math display">\[
 K\ (\mathrm{1\ bar})^\nu P^{-\nu}  =\prod (y_i)^{\nu_i}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 K = \exp \left( - \frac{\Delta G^\circ}{RT}\right)
 \]</span></p>
+</div>
+<div class="fragment">
 <h3 id="example">Example</h3>
 <p>Carbon monoxide and oxygen are fed in equimolar ratios to an isothermal combustor. If the reaction proceeds to equilibrium calculate the fractional conversion of <span class="math inline">\(\mathrm{CO}\)</span> and <span class="math inline">\(\mathrm{O_2}\)</span> as the reactor temperature varies from <span class="math inline">\(300\ \mathrm{K}\)</span> to <span class="math inline">\(2500\ \mathrm{K}\)</span>.</p>
+</div>
+<div class="fragment">
 <h3 id="data">Data</h3>
 <p><span class="math inline">\(\ \ \ \ \mathrm{CO +\frac{1}{2} O_2 = CO_2}\)</span> <br><br> <span class="math inline">\(\ \ \ \ \Delta G^\circ = -281,885 + 85.678 T\ \mathrm{[J/mol]}\)</span></p>
+</div>
 </section>
 <section id="solution" class="slide level2">
 <h2>Solution</h2>
+<div class="fragment">
 <p><span class="math display">\[
 \ln K = - \frac{\Delta G^\circ}{RT} = \frac{33,903}{T} - 10.3047
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \nu_\mathrm{CO} = -1,\ \ \ \ \nu_{\mathrm{O_2}} = -0.5,\ \ \ \ \nu_{\mathrm{CO_2}} = 1
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \nu = -1 - 0.5 + 1 = -0.5
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 K\ (\mathrm{1\ bar})^\nu P^{-\nu}  =\prod (y_i)^{\nu_i}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 K\ (\mathrm{1\ bar})^{-0.5} P^{0.5}  = \frac{y_{\mathrm{CO}_2}}{y_{\mathrm{CO}} y^{0.5}_{\mathrm{O}_2}}
 \]</span></p>
+</div>
 </section>
 <section id="solution-cont." class="slide level2">
 <h2>Solution (cont.)</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
+<div class="fragment">
 <p><span class="math display">\[
 y_\mathrm{CO} = \frac{n_\mathrm{CO_{out}}}{n_\mathrm{out}} = \frac{n_\mathrm{CO_{in}} + \nu_\mathrm{CO}\xi}{n_\mathrm{in} + \nu \xi}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 y_\mathrm{CO_2} = \frac{n_\mathrm{CO_{2_{out}}}}{n_\mathrm{out}} = \frac{n_\mathrm{CO_{2_{in}}} + \nu_\mathrm{CO_2}\xi}{n_\mathrm{in} + \nu \xi}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 y_\mathrm{O_2} = \frac{n_\mathrm{O_{2_{out}}}}{n_\mathrm{out}} = \frac{n_\mathrm{O_{2_{in}}} + \nu_\mathrm{O_2}\xi}{n_\mathrm{in} + \nu \xi}
 \]</span></p>
+</div>
 </div><div class="column" style="width:40%;">
-<p><br> What is missing? <br><br> <span class="math inline">\(P\)</span> and either <span class="math inline">\(n_\mathrm{O_{2_{in}}}\)</span> or <span class="math inline">\(n_\mathrm{CO_{in}}\)</span>. <br><br> Pick a basis of one mole. <br><br> Assume <span class="math inline">\(P = 1\ \mathrm{bar}\)</span>.</p>
+<p><br></p>
+<div class="fragment">
+<p>What is missing? <br><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(P\)</span> and either <span class="math inline">\(n_\mathrm{O_{2_{in}}}\)</span> or <span class="math inline">\(n_\mathrm{CO_{in}}\)</span>. <br><br></p>
+</div>
+<div class="fragment">
+<p>Pick a basis of one mole. <br><br></p>
+</div>
+<div class="fragment">
+<p>Assume <span class="math inline">\(P = 1\ \mathrm{bar}\)</span>.</p>
+</div>
 </div></div>
 </section>
 <section id="solution-cont.-1" class="slide level2">
 <h2>Solution (cont.)</h2>
+<div class="fragment">
 <p><span class="math display">\[
 \frac{\left(\frac{0+\xi}{2-0.5\xi}\right)}{\left(\frac{1-\xi}{2-0.5\xi}\right)\left(\frac{1-0.5\xi}{2-0.5\xi}\right)^{0.5}} = K(\mathrm{1\ bar})^{-0.5}(\mathrm{1\ bar})^{0.5}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \frac{\left( 2 - 0.5 \xi \right)^{0.5}}{\left( 1-0.5 \xi \right)^{0.5}}\frac{\xi}{1-\xi} = K
-\]</span> <br><br> For <span class="math inline">\(\xi \rightarrow 0\)</span>, <span class="math inline">\(\xi = K/\sqrt{2}\)</span>. <br><br> For <span class="math inline">\(\xi \rightarrow 1\)</span>, <span class="math inline">\(\xi = \frac{K / \sqrt{3}}{1 + K / \sqrt{3}}\)</span> or <span class="math inline">\(1 - \xi = \frac{1}{1+K/\sqrt{3}}\)</span>.</p>
+\]</span> <br><br></p>
+</div>
+<div class="fragment">
+<p>For <span class="math inline">\(\xi \rightarrow 0\)</span>, <span class="math inline">\(\xi = K/\sqrt{2}\)</span>. <br><br></p>
+</div>
+<div class="fragment">
+<p>For <span class="math inline">\(\xi \rightarrow 1\)</span>, <span class="math inline">\(\xi = \frac{K / \sqrt{3}}{1 + K / \sqrt{3}}\)</span> or <span class="math inline">\(1 - \xi = \frac{1}{1+K/\sqrt{3}}\)</span>.</p>
+</div>
 </section>
 <section id="results" class="slide level2">
 <h2>Results</h2>

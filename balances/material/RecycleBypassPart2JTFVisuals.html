@@ -134,6 +134,15 @@
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -45%; left: 22%; "></p>
 </section>
+<section id="recycle-and-bypass" class="slide level2">
+<h2>Recycle and Bypass</h2>
+<ul>
+<li class="fragment">Some of the basic techniques for process flow diagrams</li>
+<li class="fragment">Implications on the modeling equations that you use</li>
+<li class="fragment">Used extensively in chemical engineering</li>
+<li class="fragment">Used to control or optimize a process as part of a larger system</li>
+</ul>
+</section>
 <section id="bypass" class="slide level2">
 <h2>Bypass</h2>
 
@@ -263,21 +272,44 @@
 <div class="columns">
 <div class="column" style="width:45%;">
 <p>Let’s look at the calculations for this slightly more realistic dehydrogenation process.</p>
-<p><br><br> Product flow rate – <span class="math inline">\(100\ \mathrm{mol/s}\)</span></p>
+<p><br><br></p>
+<div class="fragment" data-fragment-index="9">
+<p>Product flow rate – <span class="math inline">\(100\ \mathrm{mol/s}\)</span></p>
+</div>
+<div class="fragment" data-fragment-index="10">
 <p>Product stream 6 – <span class="math inline">\(98\%\)</span> propene</p>
+</div>
+<div class="fragment" data-fragment-index="11">
 <p>Recycle stream 5 – <span class="math inline">\(97\%\)</span> propane</p>
+</div>
 </div></div>
 <div class="absolute" style="top: 55%; left: 7%; ">
+<div class="fragment" data-fragment-index="5">
 <p><span class="math inline">\(\mathrm{C_3H_8 - A}\)</span></p>
+</div>
+<div class="fragment" data-fragment-index="6">
 <p><span class="math inline">\(\mathrm{C_3H_6 - B}\)</span></p>
+</div>
+<div class="fragment" data-fragment-index="7">
 <p><span class="math inline">\(\mathrm{CH_4 - C}\)</span></p>
+</div>
+<div class="fragment" data-fragment-index="8">
 <p><span class="math inline">\(\mathrm{H_2 - D}\)</span></p>
 </div>
+</div>
 <div class="absolute" style="top: 55%; left: 28%; ">
+<div class="fragment" data-fragment-index="1">
 <p><span class="math inline">\(\mathrm{C_3H_8 \rightarrow C_3H_6 + H_2}\)</span></p>
+</div>
+<div class="fragment" data-fragment-index="2">
 <p><span class="math inline">\(\mathrm{C_3H_8 + 2H_2 \rightarrow 3CH_4}\)</span></p>
+</div>
+<div class="fragment" data-fragment-index="3">
 <p><span class="math inline">\(f_\mathrm{C_3H_8} = 0.35\)</span> (in reactor)</p>
+</div>
+<div class="fragment" data-fragment-index="4">
 <p><span class="math inline">\(S = \frac{\dot{n}_{\mathrm{C_3H_6}_\text{–gen}}}{\dot{n}_{\mathrm{CH_3}_\text{–gen}}} = 2\)</span> (in reactor)</p>
+</div>
 </div>
 </div>
 </section>
@@ -313,13 +345,25 @@
 <div class="columns">
 <div class="column" style="width:50%;">
 <p>If there is only one reactor in the process, the extents of reaction <em>overall</em> have to be the same as the extents of reaction <em>in the reactor</em>.</p>
+<div class="fragment">
 <p>Propene is produced by reaction 1 only, so</p>
+</div>
 </div></div>
+<div class="fragment">
 <p><span class="math inline">\(\dot{\xi}_1 = (0.98)(100\ \mathrm{mol/s}) = 98\ \mathrm{mol/s}\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\dot{n}_\text{B–gen} =\dot{n}_\mathrm{B6} - \dot{n}_\mathrm{B1} = \dot{n}_\mathrm{B6}\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\dot{n}_\text{C–gen} =\dot{n}_\mathrm{C7} - \dot{n}_\mathrm{C1} = \dot{n}_\mathrm{C7}\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(S = \frac{\dot{n}_\text{B–gen}}{\dot{n}_\text{C–gen}} = \frac{\dot{n}_\mathrm{B6}}{\dot{n}_\mathrm{C7}} = \frac{\nu_\mathrm{B,1} \dot{\xi}_1}{\nu_\mathrm{C,2} \dot{\xi}_2} = \frac{\dot{\xi}_1}{3 \dot{\xi}_2} = 2\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\dot{\xi}_2 = \frac{\dot{\xi}_1}{6} = \frac{98}{6}\)</span></p>
+</div>
 </section>
 <section id="example-of-simplifying-cont.-1" class="slide level2">
 <h2>Example of Simplifying (cont.)</h2>
@@ -367,14 +411,30 @@
 </div>
 <div class="absolute" style="top: 25%; left: 3%; ">
 <p>Mole balance on <span class="math inline">\(\mathrm{A}\)</span></p>
+<div class="fragment">
 <p><span class="math inline">\(\dot{n}_\mathrm{A6} = \dot{n}_\mathrm{A1} + \nu_\mathrm{A1} \dot{\xi}_1 + \nu_\mathrm{A2} \dot{\xi}_2\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(2 = \dot{n}_\mathrm{A1} - 98 - 16.3\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\implies \dot{n}_\mathrm{A1} = 116.3\ \mathrm{mol/s}\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(f_\mathrm{A} = 1 - \frac{\dot{n}_\mathrm{A3}}{\dot{n}_\mathrm{A2}}\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\implies \dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A2}(1-f_\mathrm{A})\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A2} + \nu_\mathrm{A1} \dot{\xi}_1 + \nu_\mathrm{A2} \dot{\xi}_2 = \dot{n}_\mathrm{A2} - \dot{\xi}_1 - \dot{\xi}_2\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\dot{n}_\mathrm{A2}(1-f_\mathrm{A}) = \dot{n}_\mathrm{A2} - \dot{\xi}_1 - \dot{\xi}_2\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\dot{n}_\mathrm{A2} = \frac{\dot{\xi}_1 + \dot{\xi}_2}{f_\mathrm{A}} = \frac{98 + \frac{98}{6}}{0.35} = 326.7\)</span></p>
+</div>
 </div>
 </section>
 <section id="example-of-simplifying-cont.-2" class="slide level2">
@@ -399,21 +459,43 @@
 </div>
 <p>Material Balance on <span class="math inline">\(\mathrm{A}\)</span> around each element</p>
 <div class="absolute" style="top: 20%; left: 3%; ">
+<div class="fragment">
 <p>M: <span class="math inline">\(\dot{n}_\mathrm{A2} = 116.3 + \dot{n}_\mathrm{A5}\)</span></p>
+</div>
+<div class="fragment">
 <p>R: <span class="math inline">\(\dot{n}_\mathrm{A3} = 0.65 \dot{n}_\mathrm{A2}\)</span></p>
+</div>
+<div class="fragment">
 <p>S1: <span class="math inline">\(\dot{n}_\mathrm{A4} = \dot{n}_\mathrm{A3} - \dot{n}_\mathrm{A7} = \dot{n}_\mathrm{A3}\)</span></p>
+</div>
+<div class="fragment">
 <p>S2: <span class="math inline">\(2 = \dot{n}_\mathrm{A4} - \dot{n}_\mathrm{A5}\)</span></p>
 </div>
+</div>
 <div class="absolute" style="top: 50%; left: 5%; ">
+<div class="fragment">
 <p>Solution</p>
+</div>
+<div class="fragment">
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(\dot{n}_\mathrm{A2} = 326.6\ \mathrm{mol/s}\)</span></p>
+</div>
+<div class="fragment">
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(\dot{n}_\mathrm{A3} = 212.3\ \mathrm{mol/s}\)</span></p>
+</div>
+<div class="fragment">
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(\dot{n}_\mathrm{A4} = 212.3\ \mathrm{mol/s}\)</span></p>
+</div>
+<div class="fragment">
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(\dot{n}_\mathrm{A5} = 210.3\ \mathrm{mol/s}\)</span></p>
 </div>
+</div>
 <div class="absolute" style="top: 70%; left: 50%; ">
+<div class="fragment">
 <p>Recycle <span class="math inline">\(97\%\ \mathrm{A}\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\therefore\ \dot{n}_5 = \frac{210.3}{0.97} = 216.8\ \mathrm{mol/s}\)</span></p>
+</div>
 </div>
 </section>
 <section id="example-of-simplifying-spreadsheet" class="slide level2">

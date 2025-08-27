@@ -134,6 +134,13 @@
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -45%; left: 22%; "></p>
 </section>
+<section id="when-you-saw-it-what-wasthe-extent-of-your-reactionparts-1-2-and-3" class="slide level2">
+<h2>When You Saw It, What Was<br>The Extent of Your Reaction?<br>Parts 1, 2, and 3</h2>
+<ul>
+<li class="fragment">Address chemical reactors as modeled with extent of reaction and fractional conversion.</li>
+<li class="fragment">Moles are not conserved in chemical reactions.</li>
+</ul>
+</section>
 <section id="mole-balance-for-multiple-reactions" class="slide level2">
 <h2>Mole Balance for Multiple Reactions</h2>
 <p><img data-src="SampleReactorPFD.png" class="absolute" style="top: 10%; left: 30%; width: 30%; "></p>
@@ -147,20 +154,28 @@
 <div class="columns">
 <div class="column" style="width:50%;">
 <p>Differential Balance</p>
+<div class="fragment" data-fragment-index="1">
 <p><span class="math display">\[
 \dot{n}_{i_\mathrm{out}} = \dot{n}_{i_\mathrm{in}} + \sum_{j=1}^J \nu_{ij} \dot{\xi}_j
 \]</span></p>
+</div>
+<div class="fragment" data-fragment-index="3">
 <p><span class="math display">\[
 \dot{n}_\mathrm{out} = \dot{n}_\mathrm{in} + \sum_{j=1}^J \nu_{j} \dot{\xi}_j
 \]</span></p>
+</div>
 </div><div class="column" style="width:50%;">
 <p>Integral Balance</p>
+<div class="fragment" data-fragment-index="2">
 <p><span class="math display">\[
 n_{i_\mathrm{out}} = n_{i_\mathrm{in}} + \sum_{j=1}^J \nu_{ij} \xi_j
 \]</span></p>
+</div>
+<div class="fragment" data-fragment-index="4">
 <p><span class="math display">\[
 n_\mathrm{out} = n_\mathrm{in} + \sum_{j=1}^J \nu_{j} \xi_j
 \]</span></p>
+</div>
 </div></div>
 <p><span class="math inline">\(\nu_{ij}\)</span> is the stoichiometric coefficient for reactant <span class="math inline">\(i\)</span> in reaction <span class="math inline">\(j\)</span>.</p>
 <p><span class="math inline">\(\nu_{j}\)</span> is the overall stoichiometric coefficient for reaction <span class="math inline">\(j\)</span>.</p>
@@ -178,89 +193,142 @@ n_\mathrm{out} = n_\mathrm{in} + \sum_{j=1}^J \nu_{j} \xi_j
 <section id="solution" class="slide level2">
 <h2>Solution</h2>
 <p>There are multiple sets of chemical equations we could write. We will use the following:</p>
+<div class="fragment">
 <p><span id="eq-1"><span class="math display">\[
 \mathrm{C_3H_8 + 5O_2} \rightarrow \mathrm{3CO_2 + 4 H_2O}
 \tag{1}\]</span></span></p>
+</div>
+<div class="fragment">
 <p><span id="eq-2"><span class="math display">\[
 \mathrm{C_3H_8 + \frac{7}{2}O_2} \rightarrow \mathrm{3CO + 4H_2O}
 \tag{2}\]</span></span></p>
+</div>
+<div class="fragment">
 <p>To calculate excess oxygen, you need to calculate complete combustion. The appropriate equation is <a href="#/eq-1" class="quarto-xref">Equation&nbsp;1</a>.</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{n}_\mathrm{O_2stoic} = \frac{\nu_\mathrm{O_2}}{\nu_\mathrm{C_3H_8}} \dot{n}_\mathrm{C_3H_8stoic} = \frac{-5}{-1}(2\ \mathrm{kmol/s}) = 10\ \mathrm{kmol/s}
 \]</span></p>
+</div>
 </section>
 <section id="solution-cont." class="slide level2">
 <h2>Solution (cont.)</h2>
 <p><span class="math display">\[
 \mathrm{frac.\ xs} = 0.25 = \frac{ \dot{n}_\mathrm{O_2in} - \dot{n}_\mathrm{O_2stoic} }{\dot{n}_\mathrm{O_2stoic}}
 \]</span></p>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{n}_\mathrm{O_2in} = (1 + \mathrm{frac.\ xs})\dot{n}_\mathrm{O_2stoic} = 1.25(10\ \mathrm{kmol/s})
-\]</span> <span class="math display">\[
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
 = 12.5\ \mathrm{kmol/s}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>for 25% excess oxygen.</p>
+</div>
 </section>
 <section id="solution-cont.-1" class="slide level2">
 <h2>Solution (cont.)</h2>
 <p>The full set of multiple reaction mole balances with <a href="#/eq-1" class="quarto-xref">Equation&nbsp;1</a> and <a href="#/eq-2" class="quarto-xref">Equation&nbsp;2</a> is</p>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{n}_\mathrm{C_3H_8out} = \dot{n}_\mathrm{C_3H_8in} - \dot{\xi}_1 - \dot{\xi}_2 \implies \dot{\xi}_1 + \dot{\xi}_2 = 2\ \mathrm{kmol/s}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{n}_\mathrm{CO_2out} = \dot{n}_\mathrm{CO_2in} + 3\dot{\xi}_1 + 0 \boldsymbol{\cdot} \dot{\xi}_2 \implies \dot{n}_\mathrm{CO_2out} = 3\dot{\xi}_1
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{n}_\mathrm{COout} = \dot{n}_\mathrm{COin} + 0 \boldsymbol{\cdot} \dot{\xi}_1 + 3 \dot{\xi}_2 \implies \dot{n}_\mathrm{COout} = 3\dot{\xi}_2
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{n}_\mathrm{O_2out} = \dot{n}_\mathrm{O_2in} - 5\dot{\xi}_1 - 3.5 \dot{\xi}_2 = 12.50\ \mathrm{kmol/s} - 5\dot{\xi}_1 - 3.5 \dot{\xi}_2
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{n}_\mathrm{H_2Oout} = \dot{n}_\mathrm{H_2Oin} + 4 \dot{\xi}_1 + 4 \dot{\xi}_2 = 4 \dot{\xi}_1 + 4 \dot{\xi}_2
 \]</span></p>
+</div>
+<div class="fragment">
 <p>Five equations in six unknowns, <span class="math inline">\(\dot{\xi}_1\)</span>, <span class="math inline">\(\dot{\xi}_2\)</span>, <span class="math inline">\(\dot{n}_\mathrm{CO_2out}\)</span>, <span class="math inline">\(\dot{n}_\mathrm{COout}\)</span>, <span class="math inline">\(\dot{n}_\mathrm{O_2out}\)</span>, and <span class="math inline">\(\dot{n}_\mathrm{H_2Oout}\)</span>.</p>
+</div>
 </section>
 <section id="solution-cont.-2" class="slide level2">
 <h2>Solution (cont.)</h2>
 <p>Applying the <span class="math inline">\(\mathrm{CO_2}\)</span>-to-<span class="math inline">\(\mathrm{CO}\)</span> constraint</p>
+<div class="fragment">
 <p><span class="math display">\[
 \frac{\dot{n}_\mathrm{COout}}{\dot{n}_\mathrm{CO_2out}} = \frac{1 - 0.80}{0.80}=0.25 = \frac{3\dot{\xi}_2}{3\dot{\xi}_1} = \frac{\dot{\xi}_2}{\dot{\xi}_1}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{\xi}_1 + \dot{\xi}_2 = 2\ \mathrm{kmol/s} = \dot{\xi}_1 + 0.25 \dot{\xi}_1 = 1.25 \dot{\xi}_1
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \implies \dot{\xi}_1 = 1.6\ \mathrm{kmol/s},\ \dot{\xi}_2 = 0.4\ \mathrm{kmol/s}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \implies \dot{n}_\mathrm{CO_2out} = 3 \boldsymbol{\cdot} 1.6\ \mathrm{kmol/s} = 4.8\ \mathrm{kmol/s},
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{n}_\mathrm{COout} = 3 \boldsymbol{\cdot} 0.4\ \mathrm{kmol/s} = 1.2\ \mathrm{kmol/s}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{n}_\mathrm{O_2out} = 12.5\ \mathrm{kmol/s} - 5 \boldsymbol{\cdot} 1.6 - 3.5 \boldsymbol{\cdot} 0.4 = 3.10\ \mathrm{kmol/s}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{n}_\mathrm{H_2Oout} = 4 \boldsymbol{\cdot} 1.6 + 4 \boldsymbol{\cdot} 0.4 = 8.00\ \mathrm{kmol/s}
 \]</span></p>
+</div>
 </section>
 <section id="solution-cont.-3" class="slide level2">
 <h2>Solution (cont.)</h2>
 <p>Solve for the total molar output flow rate two different ways. Sum the output flows <br></p>
-<p><span class="math inline">\(\dot{n}_\mathrm{CO_2out} + \dot{n}_\mathrm{COout} + \dot{n}_\mathrm{O_2out}+\dot{n}_\mathrm{H_2Oout} = 4.8+1.2 +3.1+8\)</span> <span class="math inline">\(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 17.1\ \mathrm{kmol/s}\)</span></p>
+<div class="fragment">
+<p><span class="math inline">\(\dot{n}_\mathrm{CO_2out} + \dot{n}_\mathrm{COout} + \dot{n}_\mathrm{O_2out}+\dot{n}_\mathrm{H_2Oout} = 4.8+1.2 +3.1+8\)</span> <span class="math inline">\(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 17.1\ \mathrm{kmol/s}\)</span></p>
+</div>
+<div class="fragment">
 <p>or calculate the overall stoichiometric coefficients and use the equation for overall flows</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \nu_1 = 3 + 4 -1 - 5 = 1
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \nu_2 = 3 + 4 -1 - \frac{7}{2} = 2.5
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{n}_\mathrm{in} = \dot{n}_\mathrm{C_3H_8in} + \dot{n}_\mathrm{O_2in} = 2 + 12.5 = 14.5\ \mathrm{kmol/s}
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\dot{n}_\mathrm{out} = \dot{n}_\mathrm{out} + 1 \boldsymbol{\cdot} \dot{\xi}_1 + 2.5 \dot{\xi}_1 = 14.5 + 1.6 + 2.5\boldsymbol{\cdot} 0.4\)</span> <span class="math inline">\(\ \ \ \ \ \ = 17.1\ \mathrm{kmol/s}\)</span></p>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
