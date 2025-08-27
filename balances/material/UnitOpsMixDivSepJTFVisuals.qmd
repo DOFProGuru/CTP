@@ -18,6 +18,17 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
 
+## Gotta Keep ’Em Separated
+
+- The first in a series
+- The most common unit-operations material balances
+- Discusses the mixer, the divider, and the separator.
+- For the *mixer*, the *divider*, and the *separator* both mass and moles are conserved.</br></br>
+- *When You Saw It, What Was the Extent of Your Reaction? Parts 1, 2, and 3*
+  - Chemical reactor extent of reaction and fractional conversion models
+  - Moles are *not* conserved in chemical reactions
+
+
 ## Common Processing Units
 
  - Mixer
@@ -226,7 +237,7 @@ If the split fraction is the same for all species, then the separator is just a 
 ## The Takeaways
 
 1. In a mixer the molar or mass flow in the output stream is the sum of the molar or mass input flows.
-2. In a divider the molar or mass flow in the input stream is the sum of the molar or mass input flows. Also, the composition of each stream is the same.
+2. In a divider the molar or mass flow in the input stream is the sum of the molar or mass output flows. Also, the composition of each stream is the same.
 3. In a separator the molar or mass flow of a given species in an output stream is the split fraction for that species and stream times the molar or mass flow of that species in the input stream.
 
 

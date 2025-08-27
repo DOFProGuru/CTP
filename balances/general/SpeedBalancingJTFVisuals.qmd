@@ -10,13 +10,21 @@ format:
     html-math-method: mathjax
 ---
 
-# Speed Balancing</br>Just the Facts
+# Speed Balancing
 
 ::: {style="text-align: center;"}
 DOFPro Team
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+## Speed Balancing
+
+ - Gives additional definitions, hints and suggestions
+ - How to quickly and correctly solve your balance equations
+ </br></br>
+ - The previous video is *How to Keep Your Balance*.
+   -  If you haven't seen it, go back and watch it.
 
 ## Definitions
 

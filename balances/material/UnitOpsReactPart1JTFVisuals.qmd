@@ -18,6 +18,12 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
 
+## When You Saw It, What Was</br>The Extent of Your Reaction?</br>Parts 1, 2, and 3
+
+- Address chemical reactors as modeled with extent of reaction and fractional conversion.
+- Moles are not conserved in chemical reactions.
+
+
 ## Chemical Reactions
 
 :::{.fragment}

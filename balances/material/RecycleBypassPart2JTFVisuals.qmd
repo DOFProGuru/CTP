@@ -18,6 +18,12 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
 
+## Recycle and Bypass
+
+ - Some of the basic techniques for process flow diagrams 
+ - Implications on the modeling equations that you use
+ - Used extensively in chemical engineering
+ - Used to control or optimize a process as part of a larger system
 
 ## Bypass
 
@@ -166,33 +172,53 @@ propane<br/>propene
 Let’s look at the calculations for this slightly more realistic dehydrogenation process. 
 
 <br/><br/>
+
+::: {.fragment fragment-index=9}
 Product flow rate – $100\ \mathrm{mol/s}$
+:::
 
+::: {.fragment fragment-index=10}
 Product stream 6 – $98\%$ propene
+:::
 
+::: {.fragment fragment-index=11}
 Recycle stream 5 – $97\%$ propane
+:::
 
 :::
 ::::
 
 :::{.absolute top=55% left=7%}
+::: {.fragment fragment-index=5}
 $\mathrm{C_3H_8 - A}$
-
+:::
+::: {.fragment fragment-index=6}
 $\mathrm{C_3H_6 - B}$
-
+:::
+::: {.fragment fragment-index=7}
 $\mathrm{CH_4 - C}$
-
+:::
+::: {.fragment fragment-index=8}
 $\mathrm{H_2 - D}$
+:::
 :::
 
 :::{.absolute top=55% left=28%}
+::: {.fragment fragment-index=1}
 $\mathrm{C_3H_8 \rightarrow C_3H_6 + H_2}$
+:::
 
+::: {.fragment fragment-index=2}
 $\mathrm{C_3H_8 + 2H_2 \rightarrow 3CH_4}$
+:::
 
+::: {.fragment fragment-index=3}
 $f_\mathrm{C_3H_8} = 0.35$ (in reactor)
+:::
 
+::: {.fragment fragment-index=4}
 $S = \frac{\dot{n}_{\mathrm{C_3H_6}_\text{–gen}}}{\dot{n}_{\mathrm{CH_3}_\text{–gen}}} = 2$ (in reactor)
+:::
 :::
 :::
 
@@ -235,19 +261,27 @@ $\mathrm{H_2 - D}$
 :::{.column width=50%}
 If there is only one reactor in the process, the extents of reaction *overall* have to be the same as the extents of reaction *in the reactor*.
 
+::: {.fragment}
 Propene is produced by reaction 1 only, so
+:::
 :::
 ::::
 
+::: {.fragment}
 $\dot{\xi}_1 = (0.98)(100\ \mathrm{mol/s}) = 98\ \mathrm{mol/s}$
-
+:::
+::: {.fragment}
 $\dot{n}_\text{B–gen} =\dot{n}_\mathrm{B6} - \dot{n}_\mathrm{B1} = \dot{n}_\mathrm{B6}$
-
+:::
+::: {.fragment}
 $\dot{n}_\text{C–gen} =\dot{n}_\mathrm{C7} - \dot{n}_\mathrm{C1} = \dot{n}_\mathrm{C7}$
-
+:::
+::: {.fragment}
 $S = \frac{\dot{n}_\text{B–gen}}{\dot{n}_\text{C–gen}} = \frac{\dot{n}_\mathrm{B6}}{\dot{n}_\mathrm{C7}} = \frac{\nu_\mathrm{B,1} \dot{\xi}_1}{\nu_\mathrm{C,2} \dot{\xi}_2} = \frac{\dot{\xi}_1}{3 \dot{\xi}_2} = 2$
-
+:::
+::: {.fragment}
 $\dot{\xi}_2 = \frac{\dot{\xi}_1}{6} = \frac{98}{6}$
+:::
 
 ## Example of Simplifying (cont.)
 
@@ -302,21 +336,30 @@ $\mathrm{H_2 - D}$
 :::{.absolute top=25% left=3%}
 Mole balance on $\mathrm{A}$
 
+::: {.fragment}
 $\dot{n}_\mathrm{A6} = \dot{n}_\mathrm{A1} + \nu_\mathrm{A1} \dot{\xi}_1 + \nu_\mathrm{A2} \dot{\xi}_2$
-
+:::
+::: {.fragment}
 $2 = \dot{n}_\mathrm{A1} - 98 - 16.3$
-
+:::
+::: {.fragment}
 $\implies \dot{n}_\mathrm{A1} = 116.3\ \mathrm{mol/s}$
-
+:::
+::: {.fragment}
 $f_\mathrm{A} = 1 - \frac{\dot{n}_\mathrm{A3}}{\dot{n}_\mathrm{A2}}$
-
+:::
+::: {.fragment}
 $\implies \dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A2}(1-f_\mathrm{A})$
-
+:::
+::: {.fragment}
 $\dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A2} + \nu_\mathrm{A1} \dot{\xi}_1 + \nu_\mathrm{A2} \dot{\xi}_2 = \dot{n}_\mathrm{A2} - \dot{\xi}_1 - \dot{\xi}_2$
-
+:::
+::: {.fragment}
 $\dot{n}_\mathrm{A2}(1-f_\mathrm{A}) = \dot{n}_\mathrm{A2} - \dot{\xi}_1 - \dot{\xi}_2$
-
+:::
+::: {.fragment}
 $\dot{n}_\mathrm{A2} = \frac{\dot{\xi}_1 + \dot{\xi}_2}{f_\mathrm{A}} = \frac{98 + \frac{98}{6}}{0.35} = 326.7$
+:::
 :::
 
 ## Example of Simplifying (cont.)
@@ -347,30 +390,44 @@ $\mathrm{H_2 - D}$
 Material Balance on $\mathrm{A}$ around each element
 
 :::{.absolute top=20% left=3%}
+::: {.fragment}
 M: $\dot{n}_\mathrm{A2} = 116.3 + \dot{n}_\mathrm{A5}$
-
+:::
+::: {.fragment}
 R: $\dot{n}_\mathrm{A3} = 0.65 \dot{n}_\mathrm{A2}$
-
+:::
+::: {.fragment}
 S1: $\dot{n}_\mathrm{A4} = \dot{n}_\mathrm{A3} - \dot{n}_\mathrm{A7} = \dot{n}_\mathrm{A3}$
-
+:::
+::: {.fragment}
 S2: $2 = \dot{n}_\mathrm{A4} - \dot{n}_\mathrm{A5}$
+:::
 :::
 
 :::{.absolute top=50% left=5%}
+::: {.fragment}
 Solution
-
+:::
+::: {.fragment}
 &nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A2} = 326.6\ \mathrm{mol/s}$
-
+:::
+::: {.fragment}
 &nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A3} = 212.3\ \mathrm{mol/s}$
-
+:::
+::: {.fragment}
 &nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A4} = 212.3\ \mathrm{mol/s}$
-
+:::
+::: {.fragment}
 &nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A5} = 210.3\ \mathrm{mol/s}$
 :::
+:::
 :::{.absolute top=70% left=50%}
+::: {.fragment}
 Recycle $97\%\ \mathrm{A}$
-
+:::
+::: {.fragment}
 $\therefore\ \dot{n}_5 = \frac{210.3}{0.97} = 216.8\ \mathrm{mol/s}$
+:::
 :::
 
 ## Example of Simplifying Spreadsheet
