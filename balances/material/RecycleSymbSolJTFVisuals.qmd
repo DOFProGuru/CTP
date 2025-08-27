@@ -20,6 +20,12 @@ DOFPro Team
 
 ## Recycle Example Symbolic Only
 
+ - An example of a PFD with a reactor, a separator, and recycle
+ - In terms of the labeled variables for the PFD (no numerical values during solution)
+ - Demonstrates the need to go completely around a recycle loop to solve the algebraic equations.
+
+## Recycle Example Symbolic Only
+
 ![](SymbRecyclePFD.png){.absolute left=2% top=16% width=50%}
 
 :::{style="font-size: 60px"}
@@ -35,15 +41,23 @@ $\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
 :::
 
 :::{.absolute top=10% left=60%}
+:::{.fragment}
 Assume that the knowns or givens are:
+:::
 
+:::{.fragment}
 $\dot{n}_\mathrm{A1}$, $\dot{n}_\mathrm{B1}$, $\dot{n}_\mathrm{C1}$,<br/> $f_\mathrm{A}$ (in reactor),<br/> $t_\mathrm{A4}$, $t_\mathrm{C4}$, $t_\mathrm{C4}$
+:::
 :::
 
 :::{.absolute top=45% left=2%}
+:::{.fragment}
 Find a full set of equations for all of the flows, extent of reaction, and overall conversion in terms of the knowns.
 <br/><br/>
+:::
+:::{.fragment}
 In general, you have to calculate a set of mass balances completely around the recycle loop before you can eliminate the unknowns. Each known will be circled, and each equation that has a single unknown in terms of knowns will be circled.
+:::
 :::
 
 ## "A" Balance
@@ -63,31 +77,45 @@ $\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
 :::
 
 :::{.absolute left=60% top=10%}
+:::{.fragment}
 **Input**
 
 $\ \ \ \ \dot{n}_\mathrm{A1} = \mathrm{given}$
+:::
 
+:::{.fragment}
 **Mixer**
 
 $\ \ \ \ \dot{n}_\mathrm{A5} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}$
 :::
+:::
 
 :::{.absolute top=40%}
+
+:::{.fragment}
 **Reactor**
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{A2} = (1-f_\mathrm{A})\dot{n}_\mathrm{A5} = (1-f_\mathrm{A})(\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{A2} = \dot{n}_\mathrm{A5} + \nu_\mathrm{A} \dot{\xi} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}+ \nu_\mathrm{A} \dot{\xi}$
-
+:::
+:::{.fragment}
 or
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{\xi} = (\dot{n}_\mathrm{A2} - \dot{n}_\mathrm{A5})/\nu_\mathrm{A}$
-
+:::
+:::{.fragment}
 **Separator**
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{A4} = t_\mathrm{A4} \dot{n}_\mathrm{A2} = t_\mathrm{A4} (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{A3} = (1-t_\mathrm{A4}) \dot{n}_\mathrm{A2} = (1-t_\mathrm{A4}) (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})$
+:::
 :::
 
 ## "A" Balance (cont.)
@@ -105,22 +133,30 @@ $\mathrm{A}$
 $\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
 :::
 :::
+:::{.fragment}
 <br/>
 **Separator (cont.)**
 <br/><br/>
 $\ \ \ \ \dot{n}_\mathrm{A3} = (1-t_\mathrm{A4}) (1-f_\mathrm{A}) (\dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3})$
 <br/><br/>
+:::
+:::{.fragment}
 $\ \ \ \ \implies \dot{n}_\mathrm{A3} = \dot{n}_\mathrm{A1} \left[\frac{(1-f_\mathrm{A}) (1-t_\mathrm{A4})}{f_\mathrm{A} + t_\mathrm{A4} - f_\mathrm{A} t_\mathrm{A4}}\right]$
 
 <br/>
+:::
+:::{.fragment}
 Once we have $\dot{n}_\mathrm{A3}$,
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{A5} = \dot{n}_\mathrm{A1} + \dot{n}_\mathrm{A3}$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{A2} = (1-f_\mathrm{A}) \dot{n}_\mathrm{A5}$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{\xi} = (\dot{n}_\mathrm{A2} - \dot{n}_\mathrm{A5})/\nu_\mathrm{A}$
-
+:::
 
 ## "B" & "C" Balances
 
@@ -138,32 +174,46 @@ $\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
 :::
 :::
 
+:::{.fragment}
 For $\mathrm{B}$ and $\mathrm{C}$ we'll use extent of reaction. The $\mathrm{B}$ and $\mathrm{C}$ equations are identical except for the change from $\mathrm{B}$ to $\mathrm{C}$ subscripts.
-
+:::
+:::{.fragment}
 **Overall**
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{B4} = \dot{n}_\mathrm{B1} + \nu_\mathrm{B} \dot{\xi}$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C1} + \nu_\mathrm{C} \dot{\xi}$
-
+:::
 :::{.absolute top=27% left=40%}
+:::{.fragment}
 **Separator**
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{B2} = \frac{\dot{n}_\mathrm{B4}}{t_\mathrm{B4} }$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{C2} = \frac{\dot{n}_\mathrm{C4}}{t_\mathrm{C4} }$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{B3} = (1-t_\mathrm{B4}) \dot{n}_\mathrm{B2} = \frac{1-t_\mathrm{B4}}{t_\mathrm{B4}} \dot{n}_\mathrm{B4}$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{C3} = (1-t_\mathrm{C4}) \dot{n}_\mathrm{C2} = \frac{1-t_\mathrm{C4}}{t_\mathrm{C4}} \dot{n}_\mathrm{C4}$
 :::
+:::
 <br/><br/>
+
+:::{.fragment}
 **Mixer**
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{B5} = \dot{n}_\mathrm{B1} + \dot{n}_\mathrm{B3}$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{C5} = \dot{n}_\mathrm{C1} + \dot{n}_\mathrm{C3}$
-
+:::
 
 
 ## Summary
@@ -182,20 +232,32 @@ $\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
 :::
 :::
 
+:::{.fragment}
 Finally, the overall fractional conversion of $\mathrm{A}$, and the product flow rates
 <br/><br/>
-**Overall Fractional Conversion**
+:::
 
+:::{.fragment}
+**Overall Fractional Conversion**
+:::
+
+:::{.fragment}
 $\ \ \ \ f_\text{A–overall} = 1-\frac{\dot{n}_\mathrm{A1}}{\dot{n}_\mathrm{A4}} = \frac{f_\mathrm{A}}{f_\mathrm{A} + t_\mathrm{A4} - f_\mathrm{A} t_\mathrm{A4}}$
 <br/><br/>
+:::
+
+:::{.fragment}
 **Output Flows** (from overall and $\dot{\xi}$)
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{A4} = \dot{n}_\mathrm{A1} + \nu_\mathrm{A} \dot{\xi}$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{B4} = \dot{n}_\mathrm{B1} + \nu_\mathrm{B} \dot{\xi}$
-
+:::
+:::{.fragment}
 $\ \ \ \ \dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C1} + \nu_\mathrm{C} \dot{\xi}$
-
+:::
 
 ## Spreadsheet Summary
 

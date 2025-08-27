@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Recycling Before<br/>Recycling Was Cool</br>Just the Facts{.bigbold75}
+# Recycling Before<br/>Recycling Was Cool{.bigbold75}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -20,7 +20,14 @@ DOFPro Team
 
 ## Recycle
 
- - No reactors go to completion.
+ - One of the basic techniques in process flow diagrams
+ - The implications on the equations
+ - Used extensively in chemical engineering
+ - Used to control or optimize a process
+
+## Recycle
+
+ - No reactions go to completion.
  - No separators have perfect separation.
  - Wasted reagents are wasted money.
  - Recycle (like feedback) can improve performance.
@@ -83,11 +90,17 @@ $$
 :::
 
 :::{.absolute top=50% left=0%}
+::: {.fragment}
 Given: Feed $\mathrm{100\ mol/s\ A}$
 <br/><br/>
+:::
+::: {.fragment}
 Reactor: $f_\mathrm{A}=0.10\ (10\%)$
 <br/><br/>
+:::
+::: {.fragment}
 Separator: $t_\mathrm{A3} = 0.995,\ t_\mathrm{B4} = 0.950,\ t_\mathrm{C4} = 1$.
+:::
 :::
 
 ## No Recycle (cont.)
@@ -100,25 +113,36 @@ Separator: $t_\mathrm{A3} = 0.995,\ t_\mathrm{B4} = 0.950,\ t_\mathrm{C4} = 1$.
 **Reactor**
 
 :::{style="font-size: 90px"}
+::: {.fragment}
 $$
 \dot{\xi} = f_\mathrm{A} \dot{n}_\mathrm{A1} /(-\nu_\mathrm{A})
 $$
+:::
+::: {.fragment}
 $$
 \dot{\xi} = (0.10)(100) = 10\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_{i2} = \dot{n}_{i1} + \nu_i \dot{\xi}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{A2} = 100 - 10 = 90\ \mathrm{mol/s}
 $$
-
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{B2} = 0 + 10 = 10\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{C2} = 0 + 10 = 10\ \mathrm{mol/s}
 $$
+:::
 :::
 :::
 
@@ -126,31 +150,41 @@ $$
 **Separator**
 
 :::{style="font-size: 90px"}
+::: {.fragment}
 $$
 \dot{n}_{i3} = t_{i3} \dot{n}_{i2},\ \ \ \ \ t_{i4} = 1 - t_{i3}
 $$
-
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{A3}=(0.995)(90) = 89.55\ \mathrm{mol/s}
 $$
-
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{B3}=(0.05)(10) = 0.5\ \mathrm{mol/s}
 $$
-
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{C3}=(0)(10) = 0\ \mathrm{mol/s}
 $$
-
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{A4} = \dot{n}_\mathrm{A2} - \dot{n}_\mathrm{A3} = 0.45\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{B4} = \dot{n}_\mathrm{B2} - \dot{n}_\mathrm{B3} = 9.5\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{C4} = \dot{n}_\mathrm{C2} - \dot{n}_\mathrm{C3} = 10\ \mathrm{mol/s}
 $$
+:::
 :::
 :::
 ::::
@@ -229,45 +263,74 @@ $\begin{array}{c}\mathrm{A}\\\mathrm{B}\\\mathrm{C}\end{array}$
 :::{.absolute top=50% left=0%}
 **Reactor**
 
+::: {.fragment}
 &nbsp;&nbsp;&nbsp;&nbsp;$\dot{\xi} = 0.10 \dot{n}_\mathrm{A5}\ \mathrm{mol/s}$
-
+:::
+::: {.fragment}
 &nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A2} = \dot{n}_\mathrm{A5} - 0.1 \dot{n}_\mathrm{A5} = 0.90 \dot{n}_\mathrm{A5}$
+:::
 :::
 
 :::{.absolute top=20% left=67%}
 **Separator**
 
+::: {.fragment}
 &nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A3} = 0.995 \dot{n}_\mathrm{A2}$
-
+:::
+::: {.fragment}
 &nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A4} = 0.005 \dot{n}_\mathrm{A2}$
+:::
 :::
 :::{.absolute top=50% left=67%}
 **Mixer**
 
+::: {.fragment}
 &nbsp;&nbsp;&nbsp;&nbsp;$\dot{n}_\mathrm{A5} = 100 + \dot{n}_\mathrm{A3}$
+:::
 :::
 :::
 
 :::{.absolute top=75% left=0%}
+::: {.fragment}
 Material balance for component A
-
+:::
+::: {.fragment}
 Four equations in four unknowns, $\dot{n}_\mathrm{A2}$, $\dot{n}_\mathrm{A3}$, $\dot{n}_\mathrm{A4}$, and $\dot{n}_\mathrm{A5}$.
 :::
+:::
+
 ## Same System with Recycle (cont.)
 
+::: {.fragment}
 Successive substitution on $\mathrm{A}$ for solution
+:::
 
 :::{.absolute left=5%}
+
+::: {.fragment}
 <br/>
 $\dot{n}_\mathrm{A2} = 0.90 \dot{n}_\mathrm{A5}$
 <br/><br/>
+:::
+
+::: {.fragment}
 $\dot{n}_\mathrm{A3} = 0.995 \dot{n}_\mathrm{A2} = 0.995(0.90 \dot{n}_\mathrm{A5})$
 <br/><br/>
+:::
+
+::: {.fragment}
 $\dot{n}_\mathrm{A5} = 100 + \dot{n}_\mathrm{A3}= 100 + 0.995(0.90 \dot{n}_\mathrm{A5})$
 <br/><br/>
+:::
+
+::: {.fragment}
 $\dot{n}_\mathrm{A5}[1-0.995(0.90)] = 100$
 <br/><br/>
+:::
+
+::: {.fragment}
 $\dot{n}_\mathrm{A5} = \frac{100}{[1-0.995(0.90)]} = 956.9$
+:::
 :::
 
 ## Same System with Recycle (cont.)
@@ -279,49 +342,72 @@ Use similar approach for B and C
 :::: {.columns}
 
 ::: {.column width=33%}
+::: {.fragment}
 $$
 \dot{n}_\mathrm{A2} = 861\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{A3} = 857\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{A4} = 4.3\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{A5} = 957\ \mathrm{mol/s}
 $$
-
+:::
 :::
 
 ::: {.column width=33%}
+::: {.fragment}
 $$
 \dot{n}_\mathrm{B2} = 101\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{B3} = 5.0\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{B4} = 96\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{B5} = 5.0\ \mathrm{mol/s}
 $$
 :::
+:::
 
 ::: {.column width=33%}
+::: {.fragment}
 $$
 \dot{n}_\mathrm{C2} = 96\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{C3} = 0\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{C4} = 96\ \mathrm{mol/s}
 $$
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{C5} = 0\ \mathrm{mol/s}
 $$
+:::
 :::
 
 ::::
@@ -331,26 +417,37 @@ $$
 
 What did recycle buy us?
 
-Overall fractional conversion $= \frac{\dot{n}_\mathrm{A1} - \dot{n}_\mathrm{A4}}{\dot{n}_\mathrm{A4}}$
+::: {.fragment}
+Overall fractional conversion $= \frac{\dot{n}_\mathrm{A1} - \dot{n}_\mathrm{A4}}{\dot{n}_\mathrm{A1}}$
+:::
 
+::: {.fragment}
 $$
 f_\mathrm{A} = \frac{100-4.3}{100} = 0.957\ \mathrm{vs.\ 0.10}
 $$
+:::
 
+::: {.fragment}
 Overall extent of reaction (same as extent of reaction in the reactor, unlike fractional conversion)
+:::
+::: {.fragment}
 $$
 \dot{\xi}_\mathrm{overall} = 100-4.3 = 95.7\ \mathrm{mol/s\ vs.\ 10\ mol/s}
 $$
-
+:::
+::: {.fragment}
 What did it cost?
-
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{2} = 1058\ \mathrm{mol/s\ vs.\ 110\ mol/s}
 $$
-
+:::
+::: {.fragment}
 $$
 \dot{n}_\mathrm{3} = 862\ \mathrm{mol/s\ vs.\ 90\ mol/s}
 $$
+:::
 
 ## Recycle Example Spreadsheet
 

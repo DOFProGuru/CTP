@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# React But Maintain Your Equilibrium<br/>Part 1<br/>Just The Facts
+# React But Maintain Your Equilibrium<br/>Part 1
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -46,21 +46,39 @@ DOFPro Team
 
 :::
 
+##
+
+***React But Maintain Your Equilibrium Part 1 & Part 2***
+
+- Introduce chemical equilibrium methods
+- Part 1
+  - Starts from advanced chemical engineering thermodynamics
+  - Arrives at the equilibrium expressions for ideal gases
+
+:::{.fragment}
+You are not expected to fully understand the derivation at this point. It’s just worth being exposed to what advanced-level work in chemical engineering is like.
+:::
+
 ## Chemical Equilibrium
 
 From Thermodynamics, equilibrium is reached when the total Gibbs Energy is minimized. Mathematically the criterion is:
 
+:::{.fragment}
 $$
 \sum \nu_i G^\circ_i + RT \sum \ln \hat{a}_i^{\nu_i} = 0
 $$
-
+:::
+:::{.fragment}
 or rearranged
-
+:::
+:::{.fragment}
 $$
 \prod \hat{a}_i^{\nu_i} = \exp \left( - \frac{\sum \nu_i G^\circ_i}{RT}\right) \equiv K
 $$
-
+:::
+:::{.fragment}
 The $\hat{a}_i$ are the activities of the various species where
+:::
 
 ## Chemical Equilibrium (cont.)
 
@@ -68,62 +86,87 @@ $$
 \hat{a}_i \equiv \frac{\hat{f}_i}{f^\circ_i}
 $$
 
-
-$\hat{f}_i$ is the fugacity of species i in solution.
+:::{.fragment}
+$\hat{f}_i$ is the fugacity of species $i$ in solution.
 <br/><br/>
+:::
+:::{.fragment}
 $f^\circ_i$  is the reference fugacity of species $i$.
 <br/><br/>
+:::
+:::{.fragment}
 $\sum \nu_i G^\circ_i$ is often written as $\Delta G^\circ$ and is similar to $\Delta H^\circ$.
 <br/><br/>
+:::
+:::{.fragment}
 $K$ is the equilibrium constant. It varies **only** with temperature.
+:::
 
 ## Chemical Equilibrium (cont.)
 
 What are the units of $K$?
 <br/><br/>
+
+:::{.fragment}
 For ideal gases (see upcoming videos) the fugacity in solution is
 numerically equal to the partial pressure, and the reference fugacity
 is the ideal gas state at the system $T$ and a pressure of 1 bar.
 <br/><br/>
+:::
+:::{.fragment}
 With these substitutions:
+:::
 
 :::{style="font-size: 85px;"}
+:::{.fragment}
 $$
 K = \prod \hat{a}_i^{\nu_i} = \prod \left( \frac{p_i}{\mathrm{1\ bar}}\right)^{\nu_i}
 $$
+:::
 
+:::{.fragment}
 or
-
+:::
+:::{.fragment}
 $$
 K\ (\mathrm{1\ bar})^\nu = \prod p_i^{\nu_i}
 $$
-
+:::
 :::
 
+:::{.fragment}
 $K$ is still dimensionless but may not appear to be.
+:::
 
 ## Mole Fractions
 
 Often problems are posed in mole fractions instead of partial
 pressures. Since for an ideal gas (see *Ideal Gases EXPOSED: Are They Even Real?!*)
 
+:::{.fragment}
 $$
 y_i = \frac{p_i}{P}
 $$
-
+:::
+:::{.fragment}
 then
-
+:::
+:::{.fragment}
 $$
 p_i = y_i P
 $$
-
+:::
+:::{.fragment}
 Substituting
-
+:::
+:::{.fragment}
 $$
 K\ (\mathrm{1\ bar})^\nu = \prod (y_i P)^{\nu_i} =P^\nu \prod (y_i)^{\nu_i}
 $$
-
+:::
+:::{.fragment}
 or
+:::
 
 ## Mole Fractions (cont.)
 
@@ -131,26 +174,34 @@ $$
 K\ (\mathrm{1\ bar})^\nu P^{-\nu}  =\prod (y_i)^{\nu_i}
 $$
 
+:::{.fragment}
 which is where we will begin. There are later videos that go into more detail about the earlier steps and explain when you'd need them. For the present we'll only deal with equilibrium reactions involving ideal gases and pure solids.
 <br/><br/>
+:::
+
+:::{.fragment}
 As a reminder, $K$ depends only on temperature but the equilibrium composition
 depends on total pressure and the presence of inerts.
+:::
 
 ## Temperature Dependence
 
 With a fair amount of calculus one can show that
 
+:::{.fragment}
 $$
 \frac{d \ln K}{dT} = -\frac{\Delta \hat{H}^\circ_r}{RT^2}
 $$
-
+:::
+:::{.fragment}
 which, if the enthalpy of reaction is constant with temperature
 integrates to
-
+:::
+:::{.fragment}
 $$
-\ln\frac{K}{K_1} = -\frac{\Delta \hat{H}^\circ_r}{R} \left(\frac{1}{T} - \frac{1}{T_1} \right)
+\ln\frac{K}{K_0} = -\frac{\Delta \hat{H}^\circ_r}{R} \left(\frac{1}{T} - \frac{1}{T_0} \right)
 $$
-
+:::
 
 ## The Takeaways
 
