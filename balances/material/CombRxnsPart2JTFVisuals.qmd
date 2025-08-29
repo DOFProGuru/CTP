@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# A Combustible Mixture!</br>Just the Facts{.bigbold75}
+# A Combustible Mixture!{.bigbold75}
 
 ::: {style="text-align: center;"}
 DOFPro Team

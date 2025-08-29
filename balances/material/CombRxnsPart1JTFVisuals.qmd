@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Flame On, Torch!</br>Just the Facts{.bigbold75}
+# Flame On, Torch!{.bigbold75}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -49,11 +49,9 @@ The combustion products along with any remaining reactants are referred to as st
 
 ## Definitions (cont.)
 
-:::{.fragment}
 ### Wet basis
 
 Wet basis includes the water vapor in the flue gas composition.
-:::
 
 :::{.fragment}
 ### Dry basis (Orsat analysis)
@@ -86,11 +84,9 @@ will simplify this list to say that dry air is $79\%\ \mathrm{N_2}$ and $21\%\ \
 
 ## Definitions (cont.)
 
-:::{.fragment}
 ### Theoretical air
 
 Theoretical air is the amount of air containing the stoichiometric oxygen needed for complete combustion.
-:::
 
 :::{.fragment}
 ### Excess air

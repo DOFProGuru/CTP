@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Ideal Gases EXPOSED:<br/>Are They Even Real?!!</br>Just the Facts{.bigbold75}
+# Ideal Gases EXPOSED:<br/>Are They Even Real?!!{.bigbold75}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -23,75 +23,104 @@ DOFPro Team
 There are two parts to the definition of an ideal gas:
 First, the equation of state.
 
+:::{.fragment}
 $$PV = nRT$$
-
+:::
+:::{.fragment}
 Second, the enthalpy or internal energy is a function of temperature
 only. We’ll revisit this part when we get to the First Law.
 <br/><br/>
+:::
+:::{.fragment}
 In terms of molar volume the ideal gas equation of state is
-
+:::
+:::{.fragment}
 $$P\hat{V} = R T$$
-
+:::
+:::{.fragment}
 The current (2019) definition of R is $8.314\ 462\ 618\ 153\ 24\ \mathrm{J/mol\ K}$. The
 value is exact.
+:::
 
 ## The Ideal Gas (cont.)
 
 The ideal gas equation of state is in error by no more than 1% if
 
+:::{.fragment}
 $\ \ \hat{V}_\mathrm{ideal} = \frac{RT}{P} > 5\ \mathrm{L/mol}$ <div style="font-size: 60px; display: inline-block;">($5 \times 10^{−3}\ \mathrm{m^3/mol}$ or $80\ \mathrm{ft^3}/\text{lb-mol}$) (diatomic gases)</div>
-<br/><br/>
+<br/>
+:::
+:::{.fragment}
 $\ \ \hat{V}_\mathrm{ideal} = \frac{RT}{P} > 20\ \mathrm{L/mol}$ <div style="font-size: 60px; display: inline-block;">($20 \times 10^{−3}\ \mathrm{m^3/mol}$ or $320\ \mathrm{ft^3}/\text{lb-mol}$) (other gases) </div>
 <br/>
+:::
+:::{.fragment}
 Mechanical Engineers often define the ideal gas equation of state as
-
+:::
+:::{.fragment}
 $$P V = m R T$$
-
+:::
+:::{.fragment}
 where $m$ is the mass of gas. They are then required to have a different
 value of $R$ for each gas, which is $R/M$. For dry air, $R = 287.058\ \mathrm{J/kg\ K}$.
+:::
 
 ## Standard Conditions
 
->The nice thing about standards is that you have so many to choose
+> The nice thing about standards is that you have so many to choose
 from.
->
-:::{style="font-size: 80px; display: inline-block;"}
-Attributed to everybody
+
+:::{.fragment}
+::: {style="font-size: 80px; display: inline-block;"}
+Attributed to everybody (especially Grace Hopper and Andrew S. Tanenbaum)
 :::
-:::{style = "font-size: 60 px; display: inline-block;"}
-(especially Grace Hopper and Andrew S. Tanenbaum)
 :::
 
 <br/>
+
+:::{.fragment}
 Wikipedia lists 21 different combinations of temperature and
 pressure used as STP.
+:::
 
-![](RefTempsIG.png){.absolute top="50%" left="50%" width="50%"}
-![](RefPressIG.png){.absolute top="50%" left="0%" width="50%"}
+:::{.fragment}
+![](RefTempsIG.png){.absolute top="55%" left="50%" width="50%"}
+![](RefPressIG.png){.absolute top="55%" left="0%" width="50%"}
+:::
 
 ## Standard Conditions (cont.)
 
 The molar volume calculated at the standard temperature and pressure is the standard molar volume,
 
+:::{.fragment}
 $$\hat{V}_\mathrm{S} = \frac{R T_\mathrm{S}}{P_\mathrm{S}}.$$
-
+:::
+:::{.fragment}
 For the common case of $T_\mathrm{S} = 0\ ^\circ \mathrm{C}$ and $P_\mathrm{S} = 101.325\ \mathrm{kPa}$:
-
+:::
+:::{.fragment}
 :::{style="font-size: 90px;"}
-$$\hat{V}_\mathrm{S} = 22.414\ \mathrm{\frac{m^3(STP)}{kmol}} = 22.414\ \mathrm{\frac{L(STP)}{mol}} = 359.04\ \frac{\mathrm{m^3(STP)}}{\text{lb-mol}}$$
+$$\hat{V}_\mathrm{S} = 22.414\ \mathrm{\frac{m^3(STP)}{kmol}} = 22.414\ \mathrm{\frac{L(STP)}{mol}} = 359.04\ \frac{\mathrm{ft^3(STP)}}{\text{lb-mol}}$$
+:::
 :::
 
 ## Standard Conditions (cont.)
 
 For historical reasons, the molar flow of a gas is often measured in *standard cubic meters* (SCM) per time or *standard cubic feet* (SCF) per time.
 
+:::{.fragment}
 For the common case of $T_\mathrm{S} = 0\ ^\circ \mathrm{C}$ and $P_\mathrm{S} = 101.325\ \mathrm{kPa}$:
-
-$$\center{1\ \mathrm{SCM} = 44.615\ \mathrm{mol} = 0.04462\ \mathrm{kmol}}$$
-
-$$\center{1\ \mathrm{SCF} = 2.785 \times 10^{−3}\ \text{lb-mol}}$$
-
+</br>(Natural gas often uses $T_\mathrm{S} = 15\ ^\circ \mathrm{C}$)
+:::
+:::{.fragment}
+$${1\ \mathrm{SCM} = 44.615\ \mathrm{mol} = 0.04462\ \mathrm{kmol}}$$
+:::
+:::{.fragment}
+$${1\ \mathrm{SCF} = 2.785 \times 10^{−3}\ \text{lb-mol}}$$
+:::
+:::{.fragment}
 You can always determine the true volumetric flow rate with either the ideal gas law or by using ratios of absolute temperatures and pressures.
+:::
 
 ## Example
 
@@ -102,19 +131,19 @@ For a flow rate of $3.95 \times 10^5\ \mathrm{SCFH}$ at $285\ ^\circ \mathrm{F}$
  b. Calculate the true volumetric flow rate in $\mathrm{m^3/s}$.
 
 
-:::{.absolute top=30% left=3%}
+:::{.fragment .absolute top=30% left=3%}
 $$
 \dot{n} = \frac{3.95 \times 10^5\ \mathrm{SCFH}}{\left(359.04\frac{\mathrm{ft^3(STP)}}{\text{lb-mol}}\right)} = 1100\ \frac{\text{lb-mol}}{\mathrm{h}} = 8.32\ \frac{\mathrm{kmol}}{\mathrm{min}}
 $$
 :::
 
-:::{.absolute top=52% left=3%}
+:::{.fragment .absolute top=52% left=3%}
 $$
 \dot{V} = \frac{\dot{n}RT}{P} = \frac{8317 \boldsymbol{\cdot} 8.3145 \boldsymbol{\cdot} 413.71}{131722 \boldsymbol{\cdot} 60} = 3.62\ \frac{\mathrm{m^3}}{\mathrm{s}}
 $$
 :::
 :::
-:::{.absolute top=70% left=0% style="font-size: 80px;"}
+:::{.fragment .absolute top=70% left=0% style="font-size: 80px;"}
 or
 $$
 \dot{V} = \dot{V}_\mathrm{S}\ \frac{T}{T_\mathrm{S}}\ \frac{P_\mathrm{S}}{P} = 3.95 \times 10^5 \boldsymbol{\cdot} \frac{744.67}{491.67} \boldsymbol{\cdot} \frac{1.00}{1.30} = 460 \times 10^5\ \mathrm{\frac{ft^3}{h}} = 3.62\ \frac{\mathrm{m^3}}{\mathrm{s}}
@@ -125,44 +154,58 @@ $$
 ## Dalton’s and Amagat’s Laws
 For an ideal gas mixture, the partial pressure of pure component $\mathrm{A}$ is defined as
 
+:::{.fragment}
 $$
 p_\mathrm{A} = \frac{n_\mathrm{A} RT}{V} = \frac{n_\mathrm{A} RT}{V} \boldsymbol{\cdot} \frac{PV}{nRT} = \left(\frac{n_\mathrm{A}}{n}\right)P =y_\mathrm{A}P
 $$
-
+:::
+:::{.fragment}
 For an ideal gas mixture, the pure-component volume of pure component $\mathrm{A}$ is defined as
-
+:::
+:::{.fragment}
 $$
 v_\mathrm{A} = \frac{n_\mathrm{A} RT}{P} = \frac{n_\mathrm{A} RT}{P} \boldsymbol{\cdot} \frac{PV}{nRT} = \left(\frac{n_\mathrm{A}}{n}\right)V =y_\mathrm{A}V
 $$
+:::
 
-
+:::{.fragment}
 Summing over all of the species, $\sum p_i = P$, $\sum v_i = V$
-
+:::
+:::{.fragment}
 which are known as Dalton’s law and Amagat’s law respectively.
+:::
 
 ## Some Handy Relationships
+:::{.fragment}
 Molar concentration of an ideal gas
-
+:::
+:::{.fragment}
 $$C_\mathrm{A} = \frac{n_\mathrm{A}}{V} = \frac{p_\mathrm{A}}{RT}$$
-
+:::
+:::{.fragment}
 Molar density of an ideal gas
-
+:::
+:::{.fragment}
 $$\rho = \frac{n}{V} = \frac{P}{RT}$$
-
+:::
+:::{.fragment}
 Mass density of an ideal gas
-
+:::
+:::{.fragment}
 $$\rho = \frac{nM}{V} = \frac{PM}{RT}$$
+:::
 
 ## The Takeaways
 
-:::{style="font-size: 90px;"}
- 1. There are two parts to the ideal gas law: The equation of state, $PV = nRT$, and the internal energy is only a function of temperature..
+:::{style="font-size: 95px;"}
+ 1. There are two parts to the ideal gas law: The equation of state, $PV = nRT$, and the internal energy is only a function of temperature.
  2. The ideal gas law is in error by no more than 1% if the ideal molar volume is greater than 5 L/mol for diatomic gases or greater than 20 L/mol for other gases.
  3. We are using an STP of $0\ ^\circ\mathrm{C}$ and $101.325\ \mathrm{kPa}$.
  4. Molar flow rates are often given in SCM or SCF per time.
  5. The partial pressure of a species in an ideal gas is the mole fraction times the total pressure.
  6. The pure-component volume of a species in an ideal gas is the mole fraction times the total volume.
 
+:::
 
 #
 
