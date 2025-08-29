@@ -3203,7 +3203,7 @@
     "href": "balances/material/CombRxnsPart1JTFVisuals.html#definitions-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Definitions (cont.)",
-    "text": "Definitions (cont.)\n\nWet basis\nWet basis includes the water vapor in the flue gas composition.\n\n\nDry basis (Orsat analysis)\nDry basis does not include water vapor in the flue gas composition. One apparatus for measuring flue gas composition was named after Orsat. It reports compositions on a dry basis.\n\n\nRelative, Absolute, Molal, and Percentage Humidity\nWe discuss humidity and how to calculate it in the Oh, Henry! video. See link in description or on web page."
+    "text": "Definitions (cont.)\nWet basis\nWet basis includes the water vapor in the flue gas composition.\n\nDry basis (Orsat analysis)\nDry basis does not include water vapor in the flue gas composition. One apparatus for measuring flue gas composition was named after Orsat. It reports compositions on a dry basis.\n\n\nRelative, Absolute, Molal, and Percentage Humidity\nWe discuss humidity and how to calculate it in the Oh, Henry! video. See link in description or on web page."
   },
   {
     "objectID": "balances/material/CombRxnsPart1JTFVisuals.html#a-quick-wet--and-dry-basis-example",
@@ -3224,7 +3224,7 @@
     "href": "balances/material/CombRxnsPart1JTFVisuals.html#definitions-cont.-2",
     "title": "Chemical and Thermal Processes",
     "section": "Definitions (cont.)",
-    "text": "Definitions (cont.)\n\nTheoretical air\nTheoretical air is the amount of air containing the stoichiometric oxygen needed for complete combustion.\n\n\nExcess air\nExcess air is calculated in the same manner as any excess reactant. It is the fraction above stoichiometric.\n\nBurning in excess air does not guarantee complete combustion.\nBurning with less than theoretical air is known as burning rich (as in fuel rich).\nBurning with excess air is known as burning lean."
+    "text": "Definitions (cont.)\nTheoretical air\nTheoretical air is the amount of air containing the stoichiometric oxygen needed for complete combustion.\n\nExcess air\nExcess air is calculated in the same manner as any excess reactant. It is the fraction above stoichiometric.\n\nBurning in excess air does not guarantee complete combustion.\nBurning with less than theoretical air is known as burning rich (as in fuel rich).\nBurning with excess air is known as burning lean."
   },
   {
     "objectID": "balances/material/CombRxnsPart1JTFVisuals.html#the-takeaways",
@@ -3238,28 +3238,28 @@
     "href": "balances/material/LiqSolDenJTFVisuals.html#variations-with-temperature-and-pressure",
     "title": "Chemical and Thermal Processes",
     "section": "Variations with Temperature and Pressure",
-    "text": "Variations with Temperature and Pressure\nFor most purposes solids and liquids are treated as incompressible, meaning the density is not a function of pressure. They are also regarded as having a low coefficient of thermal expansion, so variations of density with temperature are often ignored. However, it is not always safe to do so. For example, designing a liquid thermometer is impossible without a knowledge of how the density changes with temperature. From thermodynamics we have the volume expansivity\n\\[\n\\beta \\equiv \\frac{1}{V} \\left( \\frac{\\partial V}{\\partial T}\\right)_P\n\\]\nand the isothermal compressibility\n\\[\n\\kappa \\equiv - \\frac{1}{V} \\left( \\frac{\\partial V}{\\partial P}\\right)_T\n\\]"
+    "text": "Variations with Temperature and Pressure\n\nFor most purposes solids and liquids are treated as incompressible, meaning the density is not a function of pressure. They are also regarded as having a low coefficient of thermal expansion, so variations of density with temperature are often ignored. However, it is not always safe to do so. For example, designing a liquid thermometer is impossible without a knowledge of how the density changes with temperature. From thermodynamics we have the volume expansivity\n\n\\[\n\\beta \\equiv \\frac{1}{V} \\left( \\frac{\\partial V}{\\partial T}\\right)_P\n\\]\n\n\nand the isothermal compressibility\n\n\n\\[\n\\kappa \\equiv - \\frac{1}{V} \\left( \\frac{\\partial V}{\\partial P}\\right)_T\n\\]"
   },
   {
     "objectID": "balances/material/LiqSolDenJTFVisuals.html#variations-with-temperature-and-pressure-cont.",
     "href": "balances/material/LiqSolDenJTFVisuals.html#variations-with-temperature-and-pressure-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Variations with Temperature and Pressure (cont.)",
-    "text": "Variations with Temperature and Pressure (cont.)\nValues for \\(\\beta\\) and \\(\\kappa\\) come from experimental data, websites, handbooks, and tables, and equations of state. A web search can prove to be quite fruitful.  In later more advanced videos, we will discuss in more detail \\(\\beta\\) and \\(\\kappa\\) as well as partial molar volume, which is a method for calculating molar volumes for liquid mixtures."
+    "text": "Variations with Temperature and Pressure (cont.)\n\n\nValues for \\(\\beta\\) and \\(\\kappa\\) come from experimental data, websites, handbooks, and tables, and equations of state. A web search can prove to be quite fruitful. \n\n\nIn later more advanced videos, we will discuss in more detail \\(\\beta\\) and \\(\\kappa\\) as well as partial molar volume, which is a method for calculating molar volumes for liquid mixtures."
   },
   {
     "objectID": "balances/material/LiqSolDenJTFVisuals.html#density-of-mixtures-of-liquids-and-solids",
     "href": "balances/material/LiqSolDenJTFVisuals.html#density-of-mixtures-of-liquids-and-solids",
     "title": "Chemical and Thermal Processes",
     "section": "Density of Mixtures of Liquids and Solids",
-    "text": "Density of Mixtures of Liquids and Solids\nFor ideal mixtures (the attraction between like molecules is essentially the same as between unlike molecules) the density of a mixture can be calculated with volume additivity.\n\n\n\\[\\hat{V}_\\mathrm{mix} = \\sum_{i=1}^n x_i \\hat{V}_i\\]\n\\[\\hat{V} = \\frac{1}{\\rho}\\]\n\\[\\frac{1}{\\rho_\\mathrm{mix}} = \\sum_{i=1}^n \\frac{x_i}{\\rho_i}\\]\n\nFor a binary\n\\[\\frac{1}{\\rho_\\mathrm{mix}} = \\frac{x_1}{\\rho_1}+\\frac{1-x_1}{\\rho_2}\\]\n\\[\\rho_\\mathrm{mix} = \\frac{\\rho_1 \\rho_2}{(1-x_1)\\rho_1 + x_1 \\rho_2}\\]\n\nMixtures of aliphatic hydrocarbons are often close to ideal."
+    "text": "Density of Mixtures of Liquids and Solids\n\nFor ideal mixtures (the attraction between like molecules is essentially the same as between unlike molecules) the density of a mixture can be calculated with volume additivity.\n\n\n\n\\[\\hat{V}_\\mathrm{mix} = \\sum_{i=1}^n x_i \\hat{V}_i\\]\n\n\n\\[\\hat{V} = \\frac{1}{\\rho}\\]\n\n\n\\[\\frac{1}{\\rho_\\mathrm{mix}} = \\sum_{i=1}^n \\frac{x_i}{\\rho_i}\\]\n\n\n\nFor a binary\n\n\n\\[\\frac{1}{\\rho_\\mathrm{mix}} = \\frac{x_1}{\\rho_1}+\\frac{1-x_1}{\\rho_2}\\]\n\n\n\\[\\rho_\\mathrm{mix} = \\frac{\\rho_1 \\rho_2}{(1-x_1)\\rho_1 + x_1 \\rho_2}\\]\n\n\n\nMixtures of aliphatic hydrocarbons are often close to ideal."
   },
   {
     "objectID": "balances/material/LiqSolDenJTFVisuals.html#density-of-mixtures-of-liquids-and-solids-cont.",
     "href": "balances/material/LiqSolDenJTFVisuals.html#density-of-mixtures-of-liquids-and-solids-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Density of Mixtures of Liquids and Solids (cont.)",
-    "text": "Density of Mixtures of Liquids and Solids (cont.)\nLacking any better information, you can use a density average\n\\[\\rho_\\mathrm{mix} = \\sum_{i=1}^n x_i \\rho_i\\]\nIt would be really nice if the true values were bracketed by volume additivity and density average, but values can be way outside these two formulas. See ethanol and water on the next slide.  Experimental data, websites, handbooks, and tables, and equations of state are always your best bet if you can find them."
+    "text": "Density of Mixtures of Liquids and Solids (cont.)\n\nLacking any better information, you can use a density average\n\n\\[\\rho_\\mathrm{mix} = \\sum_{i=1}^n x_i \\rho_i\\]\n\n\nIt would be really nice if the true values were bracketed by volume additivity and density average, but values can be way outside these two formulas. See ethanol and water on the next slide. \n\n\nExperimental data, websites, handbooks, and tables, and equations of state are always your best bet if you can find them."
   },
   {
     "objectID": "balances/material/LiqSolDenJTFVisuals.html#example-of-ethanol-and-water",
@@ -3553,7 +3553,7 @@
     "href": "NotYetHere.html",
     "title": "This Link Target Is Not Yet Here",
     "section": "",
-    "text": "Note\n\n\n\nThe Degrees of Freedom Project (DOFPro) is still in the early alpha stage of development. Many of the videos, visuals, and web pages have not been created yet. However, we have placeholder links in many of the existing documents, so that we can see how the entire structure will look once we finish. The version 1.0 site is set for release in mid-August 2025. If it is before then, expect to see lots of these placeholder links.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nIf it is after mid-August 2025, then we didn’t find and fix the placeholder link that you clicked on. Please send an email to comments informing us of the incorrect link and the location on the originating page. Thank you. The DOFPro Team"
+    "text": "Note\n\n\n\nThe Degrees of Freedom Project (DOFPro) is still in the early alpha stage of development. Many of the videos, visuals, and web pages have not been created yet. However, we have placeholder links in many of the existing documents, so that we can see how the entire structure will look once we finish. The version 1.0 site is set for release in mid-August 2025. If it is before then, expect to see lots of these placeholder links.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nIf it is after mid-October 2025, then we didn’t find and fix the placeholder link that you clicked on. Please send an email to comments informing us of the incorrect link and the location on the originating page. Thank you. The DOFPro Team"
   },
   {
     "objectID": "balances/material/Vid47AReactorExamplesVisuals.html#chem.-reactor-example",
@@ -3910,35 +3910,35 @@
     "href": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas",
     "title": "Chemical and Thermal Processes",
     "section": "The Ideal Gas",
-    "text": "The Ideal Gas\nThere are two parts to the definition of an ideal gas: First, the equation of state.\n\\[PV = nRT\\]\nSecond, the enthalpy or internal energy is a function of temperature only. We’ll revisit this part when we get to the First Law.  In terms of molar volume the ideal gas equation of state is\n\\[P\\hat{V} = R T\\]\nThe current (2019) definition of R is \\(8.314\\ 462\\ 618\\ 153\\ 24\\ \\mathrm{J/mol\\ K}\\). The value is exact."
+    "text": "The Ideal Gas\nThere are two parts to the definition of an ideal gas: First, the equation of state.\n\n\\[PV = nRT\\]\n\n\nSecond, the enthalpy or internal energy is a function of temperature only. We’ll revisit this part when we get to the First Law. \n\n\nIn terms of molar volume the ideal gas equation of state is\n\n\n\\[P\\hat{V} = R T\\]\n\n\nThe current (2019) definition of R is \\(8.314\\ 462\\ 618\\ 153\\ 24\\ \\mathrm{J/mol\\ K}\\). The value is exact."
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas-cont.",
     "href": "balances/material/IdealGasJTFVisuals.html#the-ideal-gas-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "The Ideal Gas (cont.)",
-    "text": "The Ideal Gas (cont.)\nThe ideal gas equation of state is in error by no more than 1% if\n\\(\\ \\ \\hat{V}_\\mathrm{ideal} = \\frac{RT}{P} &gt; 5\\ \\mathrm{L/mol}\\)\n\n(\\(5 \\times 10^{−3}\\ \\mathrm{m^3/mol}\\) or \\(80\\ \\mathrm{ft^3}/\\text{lb-mol}\\)) (diatomic gases)\n\n \\(\\ \\ \\hat{V}_\\mathrm{ideal} = \\frac{RT}{P} &gt; 20\\ \\mathrm{L/mol}\\)\n\n(\\(20 \\times 10^{−3}\\ \\mathrm{m^3/mol}\\) or \\(320\\ \\mathrm{ft^3}/\\text{lb-mol}\\)) (other gases)\n\n Mechanical Engineers often define the ideal gas equation of state as\n\\[P V = m R T\\]\nwhere \\(m\\) is the mass of gas. They are then required to have a different value of \\(R\\) for each gas, which is \\(R/M\\). For dry air, \\(R = 287.058\\ \\mathrm{J/kg\\ K}\\)."
+    "text": "The Ideal Gas (cont.)\nThe ideal gas equation of state is in error by no more than 1% if\n\n\\(\\ \\ \\hat{V}_\\mathrm{ideal} = \\frac{RT}{P} &gt; 5\\ \\mathrm{L/mol}\\)\n\n(\\(5 \\times 10^{−3}\\ \\mathrm{m^3/mol}\\) or \\(80\\ \\mathrm{ft^3}/\\text{lb-mol}\\)) (diatomic gases)\n\n\n\n\n\\(\\ \\ \\hat{V}_\\mathrm{ideal} = \\frac{RT}{P} &gt; 20\\ \\mathrm{L/mol}\\)\n\n(\\(20 \\times 10^{−3}\\ \\mathrm{m^3/mol}\\) or \\(320\\ \\mathrm{ft^3}/\\text{lb-mol}\\)) (other gases)\n\n\n\n\nMechanical Engineers often define the ideal gas equation of state as\n\n\n\\[P V = m R T\\]\n\n\nwhere \\(m\\) is the mass of gas. They are then required to have a different value of \\(R\\) for each gas, which is \\(R/M\\). For dry air, \\(R = 287.058\\ \\mathrm{J/kg\\ K}\\)."
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions",
     "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions",
     "title": "Chemical and Thermal Processes",
     "section": "Standard Conditions",
-    "text": "Standard Conditions\n\nThe nice thing about standards is that you have so many to choose from.\n\nAttributed to everybody\n\n\n(especially Grace Hopper and Andrew S. Tanenbaum)\n\n\n Wikipedia lists 21 different combinations of temperature and pressure used as STP."
+    "text": "Standard Conditions\n\nThe nice thing about standards is that you have so many to choose from.\n\n\n\nAttributed to everybody (especially Grace Hopper and Andrew S. Tanenbaum)\n\n\n\n\nWikipedia lists 21 different combinations of temperature and pressure used as STP."
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.",
     "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.",
     "title": "Chemical and Thermal Processes",
     "section": "Standard Conditions (cont.)",
-    "text": "Standard Conditions (cont.)\nThe molar volume calculated at the standard temperature and pressure is the standard molar volume,\n\\[\\hat{V}_\\mathrm{S} = \\frac{R T_\\mathrm{S}}{P_\\mathrm{S}}.\\]\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\):\n\n\\[\\hat{V}_\\mathrm{S} = 22.414\\ \\mathrm{\\frac{m^3(STP)}{kmol}} = 22.414\\ \\mathrm{\\frac{L(STP)}{mol}} = 359.04\\ \\frac{\\mathrm{m^3(STP)}}{\\text{lb-mol}}\\]"
+    "text": "Standard Conditions (cont.)\nThe molar volume calculated at the standard temperature and pressure is the standard molar volume,\n\n\\[\\hat{V}_\\mathrm{S} = \\frac{R T_\\mathrm{S}}{P_\\mathrm{S}}.\\]\n\n\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\):\n\n\n\n\\[\\hat{V}_\\mathrm{S} = 22.414\\ \\mathrm{\\frac{m^3(STP)}{kmol}} = 22.414\\ \\mathrm{\\frac{L(STP)}{mol}} = 359.04\\ \\frac{\\mathrm{ft^3(STP)}}{\\text{lb-mol}}\\]"
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.-1",
     "href": "balances/material/IdealGasJTFVisuals.html#standard-conditions-cont.-1",
     "title": "Chemical and Thermal Processes",
     "section": "Standard Conditions (cont.)",
-    "text": "Standard Conditions (cont.)\nFor historical reasons, the molar flow of a gas is often measured in standard cubic meters (SCM) per time or standard cubic feet (SCF) per time.\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\):\n\\[\\center{1\\ \\mathrm{SCM} = 44.615\\ \\mathrm{mol} = 0.04462\\ \\mathrm{kmol}}\\]\n\\[\\center{1\\ \\mathrm{SCF} = 2.785 \\times 10^{−3}\\ \\text{lb-mol}}\\]\nYou can always determine the true volumetric flow rate with either the ideal gas law or by using ratios of absolute temperatures and pressures."
+    "text": "Standard Conditions (cont.)\nFor historical reasons, the molar flow of a gas is often measured in standard cubic meters (SCM) per time or standard cubic feet (SCF) per time.\n\nFor the common case of \\(T_\\mathrm{S} = 0\\ ^\\circ \\mathrm{C}\\) and \\(P_\\mathrm{S} = 101.325\\ \\mathrm{kPa}\\): (Natural gas often uses \\(T_\\mathrm{S} = 15\\ ^\\circ \\mathrm{C}\\))\n\n\n\\[{1\\ \\mathrm{SCM} = 44.615\\ \\mathrm{mol} = 0.04462\\ \\mathrm{kmol}}\\]\n\n\n\\[{1\\ \\mathrm{SCF} = 2.785 \\times 10^{−3}\\ \\text{lb-mol}}\\]\n\n\nYou can always determine the true volumetric flow rate with either the ideal gas law or by using ratios of absolute temperatures and pressures."
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#example",
@@ -3952,21 +3952,21 @@
     "href": "balances/material/IdealGasJTFVisuals.html#daltons-and-amagats-laws",
     "title": "Chemical and Thermal Processes",
     "section": "Dalton’s and Amagat’s Laws",
-    "text": "Dalton’s and Amagat’s Laws\nFor an ideal gas mixture, the partial pressure of pure component \\(\\mathrm{A}\\) is defined as\n\\[\np_\\mathrm{A} = \\frac{n_\\mathrm{A} RT}{V} = \\frac{n_\\mathrm{A} RT}{V} \\boldsymbol{\\cdot} \\frac{PV}{nRT} = \\left(\\frac{n_\\mathrm{A}}{n}\\right)P =y_\\mathrm{A}P\n\\]\nFor an ideal gas mixture, the pure-component volume of pure component \\(\\mathrm{A}\\) is defined as\n\\[\nv_\\mathrm{A} = \\frac{n_\\mathrm{A} RT}{P} = \\frac{n_\\mathrm{A} RT}{P} \\boldsymbol{\\cdot} \\frac{PV}{nRT} = \\left(\\frac{n_\\mathrm{A}}{n}\\right)V =y_\\mathrm{A}V\n\\]\nSumming over all of the species, \\(\\sum p_i = P\\), \\(\\sum v_i = V\\)\nwhich are known as Dalton’s law and Amagat’s law respectively."
+    "text": "Dalton’s and Amagat’s Laws\nFor an ideal gas mixture, the partial pressure of pure component \\(\\mathrm{A}\\) is defined as\n\n\\[\np_\\mathrm{A} = \\frac{n_\\mathrm{A} RT}{V} = \\frac{n_\\mathrm{A} RT}{V} \\boldsymbol{\\cdot} \\frac{PV}{nRT} = \\left(\\frac{n_\\mathrm{A}}{n}\\right)P =y_\\mathrm{A}P\n\\]\n\n\nFor an ideal gas mixture, the pure-component volume of pure component \\(\\mathrm{A}\\) is defined as\n\n\n\\[\nv_\\mathrm{A} = \\frac{n_\\mathrm{A} RT}{P} = \\frac{n_\\mathrm{A} RT}{P} \\boldsymbol{\\cdot} \\frac{PV}{nRT} = \\left(\\frac{n_\\mathrm{A}}{n}\\right)V =y_\\mathrm{A}V\n\\]\n\n\nSumming over all of the species, \\(\\sum p_i = P\\), \\(\\sum v_i = V\\)\n\n\nwhich are known as Dalton’s law and Amagat’s law respectively."
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#some-handy-relationships",
     "href": "balances/material/IdealGasJTFVisuals.html#some-handy-relationships",
     "title": "Chemical and Thermal Processes",
     "section": "Some Handy Relationships",
-    "text": "Some Handy Relationships\nMolar concentration of an ideal gas\n\\[C_\\mathrm{A} = \\frac{n_\\mathrm{A}}{V} = \\frac{p_\\mathrm{A}}{RT}\\]\nMolar density of an ideal gas\n\\[\\rho = \\frac{n}{V} = \\frac{P}{RT}\\]\nMass density of an ideal gas\n\\[\\rho = \\frac{nM}{V} = \\frac{PM}{RT}\\]"
+    "text": "Some Handy Relationships\n\nMolar concentration of an ideal gas\n\n\n\\[C_\\mathrm{A} = \\frac{n_\\mathrm{A}}{V} = \\frac{p_\\mathrm{A}}{RT}\\]\n\n\nMolar density of an ideal gas\n\n\n\\[\\rho = \\frac{n}{V} = \\frac{P}{RT}\\]\n\n\nMass density of an ideal gas\n\n\n\\[\\rho = \\frac{nM}{V} = \\frac{PM}{RT}\\]"
   },
   {
     "objectID": "balances/material/IdealGasJTFVisuals.html#the-takeaways",
     "href": "balances/material/IdealGasJTFVisuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\n\nThere are two parts to the ideal gas law: The equation of state, \\(PV = nRT\\), and the internal energy is only a function of temperature..\nThe ideal gas law is in error by no more than 1% if the ideal molar volume is greater than 5 L/mol for diatomic gases or greater than 20 L/mol for other gases.\nWe are using an STP of \\(0\\ ^\\circ\\mathrm{C}\\) and \\(101.325\\ \\mathrm{kPa}\\).\nMolar flow rates are often given in SCM or SCF per time.\nThe partial pressure of a species in an ideal gas is the mole fraction times the total pressure.\nThe pure-component volume of a species in an ideal gas is the mole fraction times the total volume.\n\n\n\n\nThanks for watching!  The Full Story companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description."
+    "text": "The Takeaways\n\n\nThere are two parts to the ideal gas law: The equation of state, \\(PV = nRT\\), and the internal energy is only a function of temperature.\nThe ideal gas law is in error by no more than 1% if the ideal molar volume is greater than 5 L/mol for diatomic gases or greater than 20 L/mol for other gases.\nWe are using an STP of \\(0\\ ^\\circ\\mathrm{C}\\) and \\(101.325\\ \\mathrm{kPa}\\).\nMolar flow rates are often given in SCM or SCF per time.\nThe partial pressure of a species in an ideal gas is the mole fraction times the total pressure.\nThe pure-component volume of a species in an ideal gas is the mole fraction times the total volume."
   },
   {
     "objectID": "balances/material/CombRxnsPart2JTFVisuals.html#sample-combustion-calculations",
