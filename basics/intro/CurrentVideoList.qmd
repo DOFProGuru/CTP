@@ -13,7 +13,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 5 | How Deviant and Mean Are Your Data? Intro and Basics Part 1 | [Link](https://youtu.be/3rCYZ8QHRec) | No | [Page](../stats/BasicStatisticsWebPage.qmd) | Mean ($\mu,\ \bar{x}$) and Standard Deviation ($\sigma,\ S$)|
 | 5A | How Deviant and Mean Are Your Data? Part 2 | [Link](https://youtu.be/hybGh8oPU_0) | No | [Page](../stats/BasicStatisticsWebPage.qmd) | Standard Error ($S_{\bar{x}}$) and Confidence Interval ($2\lambda$) |
 | 6 | Basics Statistics by Hand | [Link](https://youtu.be/h7WoWiVLzaw) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ by hand|
-| 7 | Basic Statistics with a Spreadsheet | [Link](https://youtu.be/jPFm13jTKcM) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with a spreadsheet|
+| 7 | Basic Statistics with a Spreadsheet | [Link](https://youtu.be/RZ1kFVLvSxY) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with a spreadsheet|
 | 9 | Basic Statistics in R | [Link](https://youtu.be/va7O78QdYLk) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R|
 | 21 | Is Your Process Data Spread Smooth or Chunky? | [Link](https://youtu.be/qHsOz7af-GA) | No | [Page](../calculations/DataVisWebPage.qmd) | Data Visualization, linear and Log Coordinates |
 | 22 | Interpol Is Late to a Mind-Blowing Math Hack | [Link](https://youtu.be/dWMh0ZJc874) | No | [Page](../calculations/InterpolationWebPage.qmd) | Linear Interpolation |
