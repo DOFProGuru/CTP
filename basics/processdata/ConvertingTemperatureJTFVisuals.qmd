@@ -225,7 +225,7 @@ $C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ R}} \right]\mathrm{\frac{9\ ^\circ
 :::
 
 :::{.fragment .absolute top=30% left=0%}
-$\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ R}} \right] =0.04011+0.00005741$ where $T$ is in $\mathrm{^\circ R}$.
+$\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ R}} \right] =0.04011+0.00005741T$ where $T$ is in $\mathrm{^\circ R}$.
 :::
 
 :::{.fragment .absolute top=45% left=0%}
@@ -234,7 +234,7 @@ $C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right]\mathrm{\frac{9\ ^\circ
 :::
 
 :::{.fragment .absolute top=60% left=0%}
-$\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right] =0.06650+0.00005741$ where $T$ is in $\mathrm{^\circ F}$.
+$\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right] =0.06650+0.00005741T$ where $T$ is in $\mathrm{^\circ F}$.
 :::
 ## The Takeaways
 

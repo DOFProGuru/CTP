@@ -16,34 +16,36 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-50%"}
 
-# When talking about Chemical Engineering, what is a mole?
-
 ## Definition
 
 - Mole = mass equivalent of the molar mass of a molecule
 
-::: {.fragment .centered .higher}
-![](./O_C_O.png){width="50%"}
+::: {.fragment}
+![](./O_C_O.png){.absolute top="17.5%" left="25%" width="55%"}
 :::
 
-::: {.fragment .centered .evenhigher}
+::: {.fragment .absolute top=37.5% left=30%}
 molar mass $\mathrm{CO_2}$: $44.010$
 :::
 
-::: {.fragment .leftarrow}
+::: {.fragment .absolute top=45% left=0%}
  gram-mol equivalent $\swarrow$
 :::
 
-::: {.fragment .leftarrow2}
+::: {style="font-size: 95px;"}
+::: {.fragment .absolute top=52.5% left=0%}
 1 gram-mol $\mathrm{CO_2} \rightarrow$ 44.010 grams
 :::
+:::
 
-::: {.fragment .rightarrow}
+::: {.fragment .absolute top=45% right=0%}
 $\searrow$ lb-mol equivalent
 :::
 
-::: {.fragment .rightarrow2}
+::: {style="font-size: 95px;"}
+::: {.fragment .absolute top=52.5% right=0%}
 1 lb-mol $\mathrm{CO_2} \rightarrow$ 44.010 $\mathrm{lb_m}$
+:::
 :::
 
 ## How many different types of moles are there?
@@ -58,88 +60,82 @@ $\searrow$ lb-mol equivalent
   - $\text{ton-mole}$
 
 
-# How do you use a mole?
-
 ## Using a Mole
-::: {.high}
-- Start with a balanced chemical equation.
+::: {.fragment .absolute top=10% left=0%}
+Start with a balanced chemical equation.
 :::
 
-::: {.fragment .centered .higher}
+::: {.fragment .absolute top=20% left=40%}
  $\mathrm{C} + \mathrm{O_2} \rightarrow \mathrm{CO_2}$
 :::
 
-::: {.lower} 
-- To make $100\ \mathrm{lb_m}$ of $\mathrm{CO_2}$:
+::: {.fragment .absolute top=40% left=0%} 
+To make $100\ \mathrm{lb_m}$ of $\mathrm{CO_2}$:
 :::
 
 ::: {.fragment}
-![](./Line.png){.absolute top=175 left=380 width="50" height="15"}
+![](./Line.png){.absolute top=25% left=39% width="5%"}
 :::
 
 ::: {.fragment}
-![](./Line.png){.absolute top=175 left=470 width="50" height="15"}
+![](./Line.png){.absolute top=25% left=47% width="5%"}
 :::
 
 ::: {.fragment}
-![](./Pt1.png){.absolute top=195 left=360 width="100" height="50"}
+![](./Pt1.png){.absolute top=26% left=36.5% width="9%"}
 :::
 
 ::: {.fragment}
-![](./Pt2.png){.absolute top=195 left=470 width="100" height="50"}
+![](./Pt2.png){.absolute top=26% left=45% width="9%"}
 :::
 
 ::: {.fragment}
-![](./Pt3.png){.absolute top=195 left=570 width="100" height="50"}
+![](./Pt3.png){.absolute top=26% left=57% width="9%"}
 :::
 
-::: {.fragment .centered .evenhigher}
+::: {.fragment .absolute top=32% left=0%}
  molar mass of $\mathrm{CO_2}$ $\rightarrow$ $44.009546$, rounds to $44.010$
 :::
 
-::: {.high}
+::: {.fragment .absolute top=47% left=0%}
   - $100\ \mathrm{lb_m\ CO_2} \cdot \frac{1\text{ lb-mol }\mathrm{CO_2}}{44.010\text{ }\mathrm{lb_m}} = 2.272\ \text{lb-mol}$ of $\mathrm{CO_2}$
   - 1:1:1 molar ratio:
     - $2.272\ \text{lb-mol C}$
     - $2.272\ \text{lb-mol }\mathrm{O_2}$
 :::
 
-::: {.fragment .eqn1}
+::: {.fragment  .absolute top=64.3% left=30.75%}
 $\cdot 12.011\ \frac{\mathrm{lb_m\ C}}{\text{lb-mol}} = 27.29  \mathrm{lb_m\ C}$
 :::
 
-::: {.fragment .eqn2}
+::: {.fragment  .absolute top=72.5% left=32%}
 $\cdot 31.999\ \frac{\mathrm{lb_m\ O}_2}{\text{lb-mol}} = 72.70  \mathrm{lb_m\ O}_2$
 :::
 
-# What is Avogadro's number?
-
 ## Avogadro's Number
 
-:::{.fragment .absolute top=185 left=50 width="450" height="300"}
-The Avogadro Constant/ Avogadro's Number:
+:::{.fragment .absolute top=20% left=0%}
+The Avogadro Constant/</br>Avogadro's Number:
 :::
 
-:::{.fragment .absolute top=215 left=520}
+:::{.fragment .absolute top=26% right=15%}
 $6.02214076 \times 10^{23}\ \frac{\mathrm{molecules}}{\mathrm{mol}}$
 :::
 
-:::{.fragment .absolute top=390 left=100 width="450" height="300"}
+:::{.fragment .absolute  top=50% left=0%}
 $\text{lb-mol}$ constant:
 :::
 
-:::{.fragment .absolute top=385 left=450}
+:::{.fragment .absolute  top=50% right=15%}
  $1.327 654 687 336 \times 10^{27}\ \frac{\mathrm{molecules}}{\text{lb-mol}}$
 
 :::
 
 
-# Why can’t I just use the mole that I’m familiar with?
-
 ## Use the Correct Moles
 
 - Unless the problem is in grams, don't use gram moles!
-- $\underline{Inefficient}$ steps for using gram moles:
+- ***Inefficient*** steps for using gram moles:
   - Start with mass in units other than grams.
     1. Convert to grams.
     2. Convert to gram-moles.
@@ -149,7 +145,7 @@ $\text{lb-mol}$ constant:
 - Requires five steps.
 
 ::: {.fragment .fade-in-then-out}
-![](./Don't_Do_This.png){.absolute top=110 left=120 width="800" height="700"}
+![](./Don't_Do_This.png){.absolute top=0% left=0% width=80% height=100%}
 :::
 
 ::: {.fragment .fade-in-then-out}
@@ -157,7 +153,7 @@ $\text{lb-mol}$ constant:
 :::
 
 ::: {.fragment .fade-in-then-out}
-![](./Don't_Do_This.png){.absolute top=110 left=120 width="800" height="700"}
+![](./Don't_Do_This.png){.absolute top=0% left=0% width=80% height=100%}
 :::
 
 ::: {.fragment .fade-in-then-out}
@@ -165,13 +161,13 @@ $\text{lb-mol}$ constant:
 :::
 
 ::: {.fragment .fade-in-then-out}
-![](./Don't_Do_This.png){.absolute top=110 left=120 width="800" height="700"}
+![](./Don't_Do_This.png){.absolute top=0% left=0% width=80% height=100%}
 :::
 
 ## Use the Correct Moles
 
 - Unless the problem is in grams, don't use gram moles!
-- $\underline{Efficient}$ steps for using moles:
+- Efficient steps for using moles:
   - Start with mass in units other than grams.
     1. Convert to  the mass unit's moles.
     2. Use balanced chemical equation to solve for the other species in the mass unit's moles.
