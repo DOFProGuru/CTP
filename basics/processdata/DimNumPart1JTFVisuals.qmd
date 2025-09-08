@@ -10,13 +10,18 @@ format:
     html-math-method: mathjax
 ---
 
-# Where Does Sherwood</br>Hide His Unit?</br>Just the Facts{.bigbold85}
+# Where Does Sherwood</br>Hide His Unit?{.bigbold85}
 
 ::: {style="text-align: center;"}
 DOFPro Team
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+## Introduction
+
+- This video, *Where Does Sherwood Hide His Unit? Principles*, explains the basics of dimensionless numbers.
+- The companion video, *What the Schmidt? Examples*, presents examples of dimensionless numbers used in chemical and thermal principles. 
 
 ##
 

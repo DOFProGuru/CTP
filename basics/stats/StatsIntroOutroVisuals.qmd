@@ -187,7 +187,7 @@ The DOFPro Team
 # Video 7
 
 ::: {style="text-align: center;"}
-Basic Statistics with a Spreadsheet
+Basic Statistics on a Spreadsheet
 :::
 
 <!-- Approved Title -->
