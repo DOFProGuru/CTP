@@ -18,9 +18,11 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
 
-##
+## 
 
+:::{style="font-size: 150px;"}
 **The Second Law of Thermodynamics**
+:::
 
 * No apparatus can operate in such a way that its only effect (in system and surroundings) is to convert heat absorbed by a system completely into work.
 * It is impossible by a cyclic process to convert the heat absorbed by a system completely into work.
@@ -31,180 +33,466 @@ DOFPro Team
 :::{style="font-size: 135px;"}
 **Mathematical Statement of the Second Law**
 :::
-
-<center> $dW_{\text{lost}} \geq 0$ </center>
-
+:::{style="font-size: 40px;"}
 <br/>
+:::
 
+<center> $dW_{\mathrm{lost}} \geq 0$ </center>
+
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
 or
+:::
+:::{.fragment}
+<center> $\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0$ </center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-<center> $\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} \geq 0$ </center>
-
+:::{.fragment}
 $S$ can be thought of as the reversible normalized heat transfer or as
 the degree of randomness or disorder.
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
+:::{.fragment}
 Remember:
+:::
 
-<center> $\Delta S_{\text{system}} \text{ or } \Delta S_{\text{surroundings}}$ </center>
+:::{.fragment}
+<center> $\Delta S_{\mathrm{system}} \text{ or } \Delta S_{\mathrm{surroundings}}$ </center>
+:::
 
+:::{style="font-size: 40px;"}
 <br/>
+:::
 
+:::{.fragment}
 can be less than zero. But
+:::
 
+:::{style="font-size: 40px;"}
 <br/>
-<center> $\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} \geq 0$ </center>
+:::
 
+:::{.fragment}
+<center> $\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0$ </center>
+:::
 
 ##
 
+:::{style="font-size: 145px;"}
 **Calculation of ∆*S* for an ideal gas**
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
 Assume closed system of $n$ moles initially at $T_1$, $P_1$ and finally at $T_2$,
 $P_2$
 
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
 First Law
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-$dU = dQ + dW$
+:::{.fragment}
+<center>$dU = dQ + dW$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-$d\hat{U} = \dfrac{dQ}{n} + \dfrac{dW}{n}$
+:::{.fragment}
+<center>$d\hat{U} = \dfrac{dQ}{n} + \dfrac{dW}{n}$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
+:::{.fragment}
 Now follow a reversible path (why?).
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-$d\hat{U} = C_v dT$
+:::{.fragment}
+<center>$d\hat{U} = C_v dT$</center>
+:::
 
-## (cont.)
+## 
 
-$dS = \dfrac{dQ}{T}$ or $Td\hat{S} = \dfrac{dQ}{n}$
+:::{style="font-size: 145px;"}
+**Calculation of ∆*S* for an ideal gas (cont.)**
+:::
 
-$dW = -PdV$ or $\dfrac{dW}{n} = - P d\hat{V}$
-
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+<center>$dS = \dfrac{dQ}{T}\ $ or $\ Td\hat{S} = \dfrac{dQ}{n}$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+<center>$dW = -PdV\ $ or $\ \dfrac{dW}{n} = - P d\hat{V}$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
 Combining
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+<center>$C_vdT = T d\hat{S} - P d\hat{V}$</center>
+:::
+:::{style="font-size: 80px;"}
+<br/>
+:::
+:::{.fragment}
+<center>$d\hat{S} = \dfrac{C_v}{T} dT + \dfrac{P}{T} d\hat{V} = \dfrac{C_v}{T} dT + \dfrac{R}{\hat{V}} d\hat{V}$</center>
+:::
 
-$C_vdT = T d\hat{S} - P d\hat{V}$
+## 
 
-$d\hat{S} = \dfrac{C_v}{T} dT + \dfrac{P}{T} d\hat{V} = \dfrac{C_v}{T} dT + \dfrac{R}{\hat{V}} d\hat{V}$
+:::{style="font-size: 145px;"}
+**Calculation of ∆*S* for an ideal gas (cont.)**
+:::
 
-## (cont. 2)
+:::{style="font-size: 40px;"}
+<br/>
+:::
+<center>$\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + \int\limits_{\hat{V}_1}^{\hat{V}_1}\dfrac{R}{\hat{V}} d\hat{V} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}$</center>
 
-$\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + \int\limits_{\hat{V}_1}^{\hat{V}_1}\dfrac{R}{\hat{V}} d\hat{V} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}$
-
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
 Alternatively
-
-$\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \dfrac{C_p - R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}$
-
-$= \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - \int\limits_{T_1}^{T_2} \dfrac{R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}$
-
-$= \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{T_2\hat{V}_1}{T_1\hat{V}_2} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1}$
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+$\ \ \ \ \Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \dfrac{C_p - R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}$
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+$\ \ \ \ \ \ \ \ \ = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - \int\limits_{T_1}^{T_2} \dfrac{R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}$
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+$\ \ \ \ \ \ \ \ \ = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{T_2\hat{V}_1}{T_1\hat{V}_2} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1}$
+:::
 
 ## Ideal Gas Example
 
 Example: What is the minimum work required for an adiabatic
-compressor to compress $10\ \mathrm{kg/s}$ of air from $2\ \mathrm{kPa}$ and $300\ \mathrm{K}$ to $6\ \mathrm{MPa}$?
+compressor to compress $10\ \mathrm{kg/s}$ of air from $2\ \mathrm{kPa}$ and $300\ \mathrm{K}$ to $6\ \mathrm{MPa}$ (Assume ideal gas, $C_p = (7 ⁄ 2)\mathrm{R}$ )?
 
-(Assume ideal gas, $C_p = (7 ⁄ 2)\mathrm{R}$ )
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
+:::{.fragment}
 **First Law (neglect kinetic & potential)**
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-$\Delta \dot{H} = \dot{Q} + \dot{W}_s$
+:::{.fragment}
+<center>$\Delta \dot{H} = \dot{Q} + \dot{W}_s$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-$\dot{m} \int_{T_1}^{T_2} C_p dT = \dot{W}_s = \dot{m} C_p \Delta T$
+:::{.fragment}
+<center>$\dot{m} \int_{T_1}^{T_2} C_p dT = \dot{W}_s = \dot{m} C_p \Delta T$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
+:::{.fragment}
 **Second Law**
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-$\Delta \dot{S}_\mathrm{surroundings} = 0$. Why?
+:::{.fragment}
+<center>$\Delta \dot{S}_\mathrm{surroundings} = 0$. Why?</center>
+:::
 
 ## IG Example (cont.)
 
-$\Delta \dot{S}_\mathrm{air} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1} = C_p \ln \dfrac{T_2}{T_1} - R \ln \dfrac{P_2}{P_1}$ 
-
-Minimum work for $\Delta \hat{S} = 0$
-
-$C_p \ln \dfrac{T_2}{T_1} = R \ln \dfrac{P_2}{P_1}$
-
-$\dfrac{T_2}{T_1} = \left(\dfrac{P_2}{P_1}\right)^{\frac{R}{C_p}}$
-
-$T_2 = T_1 \left(\dfrac{6000\ \mathrm{kPa}}{2\ \mathrm{kPa}}\right)^{2/7}$
-
-## IG Example (cont. 2)
-
-$\dot{W}_s = \dot{m} C_p \Delta T$
-
-:::{style="font-size: 95px;"}
-$= \dfrac{1000\ \mathrm{g/s}}{29\ \text{g/g-mol}}\left(\dfrac{7}{2}\right)(8.314\text{ J/g-mol K})\left[\left(\dfrac{6000}{2}\right)^{2/7} - 1\right](300\ \mathrm{K})$
+:::{style="font-size: 40px;"}
+<br/>
 :::
 
+<center>$\Delta \dot{S}_\mathrm{air} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1} = C_p \ln \dfrac{T_2}{T_1} - R \ln \dfrac{P_2}{P_1}$</center> 
+
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
+Minimum work for $\Delta \hat{S} = 0$
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
+<center>$C_p \ln \dfrac{T_2}{T_1} = R \ln \dfrac{P_2}{P_1}$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
+<center>$\dfrac{T_2}{T_1} = \left(\dfrac{P_2}{P_1}\right)^{\frac{R}{C_p}}$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
+<center>$T_2 = T_1 \left(\dfrac{6000\ \mathrm{kPa}}{2\ \mathrm{kPa}}\right)^{2/7}$</center>
+:::
+
+## IG Example (cont.)
+
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
+$\dot{W}_s = \dot{m} C_p \Delta T$
+:::
+:::{style="font-size: 80px;"}
+<br/>
+:::
+
+:::{.fragment}
+:::{style="font-size: 90px;"}
+$= \dfrac{1000\ \mathrm{g/s}}{29\ \mathrm{g/g-mol}}\left(\dfrac{7}{2}\right)(8.314\mathrm{ J/g-mol K})\left[\left(\dfrac{6000}{2}\right)^{2/7} - 1\right](300\ \mathrm{K})$
+:::
+:::
+:::{style="font-size: 80px;"}
+<br/>
+:::
+
+:::{.fragment}
 $=26.64\ \mathrm{MW}$
+:::
 
 ## 
 
-Calculation of $\Delta S$ for substances other than ideal gases
+**Calculation of $\Delta S$ for substances other than ideal gases**
 
-$d\hat{S} = C_p \dfrac{dT}{T} - \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P dP$
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
+:::{.fragment}
+<center>$d\hat{S} = C_p \dfrac{dT}{T} - \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P dP$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
 or
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-$d\hat{S} = C_p \dfrac{dT}{T} - \beta \hat{V} dP$
+:::{.fragment}
+<center>$d\hat{S} = C_p \dfrac{dT}{T} - \beta \hat{V} dP$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
+:::{.fragment}
 where the volume expansivity (like a thermal expansion coefficient) is
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-$\beta \equiv \dfrac{1}{\hat{V}} \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P$.
+:::{.fragment}
+<center>$\beta \equiv \dfrac{1}{\hat{V}} \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P$.</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
+:::{.fragment}
 It is usually small $( \approx 0)$ for things other than gases.
+:::
 
 ## Integrating *C~p~*/*T*
 
 Performing the integral:
 
-$C_p = a + b T +c T^2 + d T^3$
+:::{style="font-size: 80px;"}
+<br/>
+:::
 
-$\dfrac{C_p}{T} = \dfrac{a}{T} + b + c T + d T^2$
+:::{.fragment}
+<center>$C_p = a + b T +c T^2 + d T^3$</center>
+:::
+:::{style="font-size: 80px;"}
+<br/>
+:::
 
-$\int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT = \int\limits_{T_1}^{T_2} \left(\dfrac{a}{T} + b + c T + d T^2\right) dT$
+:::{.fragment}
+<center>$\dfrac{C_p}{T} = \dfrac{a}{T} + b + c T + d T^2$</center>
+:::
+:::{style="font-size: 80px;"}
+<br/>
+:::
 
-$= a \ln \dfrac{T_2}{T_1} + b ( T_2 - T_1) + \dfrac{c}{2} (T_2^2 - T_1^2) + \dfrac{d}{3} (T_2^3-T_1^3)$
+:::{.fragment}
+<center>$\int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT = \int\limits_{T_1}^{T_2} \left(\dfrac{a}{T} + b + c T + d T^2\right) dT$</center>
+:::
+:::{style="font-size: 80px;"}
+<br/>
+:::
+
+:::{.fragment}
+<center>$= a \ln \dfrac{T_2}{T_1} + b ( T_2 - T_1) + \dfrac{c}{2} (T_2^2 - T_1^2) + \dfrac{d}{3} (T_2^3-T_1^3)$</center>
+:::
 
 ## 
 
 But what if $C_p$ is in $^\circ\mathrm{C}$, and the integral must be in $\mathrm{K}$?
 Review *The Most Annoying Equation Conversion* video and plug in
 
-$T(\mathrm{K})− 273.15 = T(\mathrm{K})− cf$
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
+:::{.fragment}
+<center>$T(\mathrm{K})− 273.15 = T(\mathrm{K})− cf$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
 for $T$. Then
-
-$C_p = a' + b' T +c' T^2 + d' T^3$
-
- where $T$ is in Kelvin and
-
- $a' = a - b \cdot cf + c \cdot cf^2 - d \cdot cf^3$
-
-$b' = b - 2c \cdot cf + 3d \cdot cf^3$
-
-$c' = c - 3d \cdot cf$
-
-$d' = d$
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+<center>$C_p = a' + b' T +c' T^2 + d' T^3$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+where $T$ is in Kelvin and
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+<center>$a' = a - b \cdot cf + c \cdot cf^2 - d \cdot cf^3$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+<center>$b' = b - 2c \cdot cf + 3d \cdot cf^3$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+<center>$c' = c - 3d \cdot cf$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
+<center>$d' = d$</center>
+:::
 
 ## Summary
 
 $\Delta S$ for a heat reservoir:
 
-$$
-\Delta S = \frac{Q}{T}
-$$
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
+:::{.fragment}
+<center>$\Delta S = \dfrac{Q}{T}$</center>
+:::
+
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
 $\Delta S$ for an ideal gas:
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-$$
-\Delta \hat{S} = \int\limits_{T_1}^{T_2} \frac{C_v}{T} dT + R \ln \frac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \frac{C_p}{T} dT - R \ln \frac{P_2}{P_1}
-$$
+:::{.fragment}
+<center>$\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1}$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
+:::{.fragment}
 $\Delta S$ for a liquid or solid:
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-$$
-d\hat{S} = C_p \frac{dT}{T} - \beta \hat{V} dP \approx C_p \frac{dT}{T},\ \ \ \ \ \ \ \ \ \ \ \ \Delta \hat{S} \approx \int\limits_{T_1}^{T_2} \frac{C_p}{T} dT
-$$
+:::{.fragment}
+<center>$d\hat{S} = C_p \dfrac{dT}{T} - \beta \hat{V} dP \approx C_p \dfrac{dT}{T},\ \ \ \ \ \ \ \ \ \ \ \ \Delta \hat{S} \approx \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT$</center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
 
-$\Delta s$ for water/steam: Use the steam tables.
+:::{.fragment}
+$\Delta S$ for water/steam: Use the steam tables.
+:::
 
 ## The Takeaways
 

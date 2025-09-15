@@ -84,46 +84,46 @@ is known as a dimensional equation and it will handle most of your unit-conversi
 :::{.fragment .absolute top=65% left=10%}
 $\frac{344\ \mathrm{m}}{\mathrm{s}} | \frac{1\ \mathrm{yd}}{0.9144\ \mathrm{m}}  | \frac{1\ \mathrm{furlong}}{220\ \mathrm{yd}} | \frac{3600\ \mathrm{s}}{1\ \mathrm{hr}} | \frac{24\ \mathrm{hr}}{1\ \mathrm{day}} | \frac{14\ \mathrm{day}}{\mathrm{fortnight}} |$
 </br></br>
- $\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 2,068.432.36\ \frac{\mathrm{furlong}}{\mathrm{fortnight}}$
+ $\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 2,068,432.36\ \frac{\mathrm{furlong}}{\mathrm{fortnight}}$
 :::
 
-:::{.fragment .absolute top=63% left=16%}
+:::{.fragment .absolute top=63.2% left=15.35%}
 <div style="color: red;">$\bcancel{\ }$</div>
 :::
 
-:::{.fragment .absolute top=67% left=31%}
+:::{.fragment .absolute top=67% left=29.3%}
 <div style="color: red;">$\bcancel{\ }$</div>
 :::
 
-:::{.fragment .absolute top=63% left=27%}
+:::{.fragment .absolute top=63% left=25.6%}
 <div style="color: red;">$\bcancel{\ \ }$</div>
 :::
 
-:::{.fragment .absolute top=67% left=43.5%}
+:::{.fragment .absolute top=67% left=40.5%}
 <div style="color: red;">$\bcancel{\ \ }$</div>
 :::
 
-:::{.fragment .absolute top=67% left=13.5%}
+:::{.fragment .absolute top=67% left=13%}
 <div style="color: red;">$\bcancel{\ }$</div>
 :::
 
-:::{.fragment .absolute top=63.5% left=58%}
+:::{.fragment .absolute top=63.5% left=53.5%}
 <div style="color: red;">$\bcancel{\ }$</div>
 :::
 
-:::{.fragment .absolute top=67% left=55%}
+:::{.fragment .absolute top=67% left=50.75%}
 <div style="color: red;">$\bcancel{\ \ }$</div>
 :::
 
-:::{.fragment .absolute top=63.2% left=66.2%}
+:::{.fragment .absolute top=63.2% left=61.5%}
 <div style="color: red;">$\bcancel{\ \ }$</div>
 :::
 
-:::{.fragment .absolute top=67% left=65.5%}
+:::{.fragment .absolute top=67% left=60.5%}
 <div style="color: red;">$\bcancel{\ \ \ }$</div>
 :::
 
-:::{.fragment .absolute top=63% left=78.5%}
+:::{.fragment .absolute top=63% left=72.5%}
 <div style="color: red;">$\bcancel{\ \ \ }$</div>
 :::
 

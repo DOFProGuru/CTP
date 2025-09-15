@@ -169,7 +169,7 @@ $\ \ \ $
 3. Report your results with the mean of your measurements, the confidence interval and the confidence level: for example 42.000 plus-or-minus 0.067 at a 95% confidence level.
 
 :::{.fragment}
-There are four additional *Just The Facts* videos showing how to perform these calculations by hand, with a spreadsheet, using Python and NumPy/SciPy, and using R.
+There are four additional videos showing how to perform these calculations by hand, with a spreadsheet, using Python and NumPy/SciPy, and using R.
 :::
 
 #
