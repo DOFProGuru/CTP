@@ -79,29 +79,29 @@ The DOFPro Team
 <!-- ****************************END The Full Story Intro/Outro ************************* -->
 
 
-<!-- ******************************* Just The Facts Intro/Outro ************************* -->
-# Video 5A JTF
+<!-- *******************************  Intro/Outro ************************* -->
+# Video 5A
 
 ::: {style="text-align: center;"}
-Why Statistics Part 2? Intro And Basics, JTF
+Why Statistics Part 2? Intro And Basics
 :::
 
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=24% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=30% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-How Deviant and Mean Are Your Data?<br/>Introduction and Basics, Part 2<br/>Just the Facts
+::: {.absolute left=0% right=0% top=40% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+How Deviant and Mean Are Your Data?<br/>Introduction and Basics, Part 2
 :::
 
-::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=67% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
-# <!-- Approved Just the Facts End -->
+# <!-- Approved End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -109,43 +109,7 @@ The DOFPro Team
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
-<!-- ****************************END Just The Facts Intro/Outro ************************* -->
-
-
-<!-- ******************************* The Full Story Intro/Outro ************************* -->
-# Video 5A TFS
-
-::: {style="text-align: center;"}
-Why Statistics Part 2? Intro And Basics, TFS
-:::
-
-<!-- Approved Title -->
-##
-
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
-
-::: {.absolute left=0% right=0% top=30% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-How Deviant and Mean Are Your Data?<br/>Introduction and Basics, Part 2<br/>The Full Story
-:::
-
-::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
-DOFPro Team
-:::
-
-
-
-# <!-- Approved The Full Story End -->
-::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Just the Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
-:::
-
-::: {.absolute left=38% top=125% style="font-size: 110px;"}
-The DOFPro Team
-:::
-
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
-<!-- ****************************END The Full Story Intro/Outro ************************* -->
-
+<!-- ****************************END  Intro/Outro ************************* -->
 
 
 <!-- ******************************* Regular Intro/Outro ************************* -->

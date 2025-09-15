@@ -4,7 +4,7 @@ author: "DOFPro group"
 format: html
 ---
 
-Links to the current videos on YouTube will be maintained here. These are current as of 2025-08-01.
+Links to the current videos on YouTube will be maintained here. These are current as of 2025-09-09.
 
 # Table of Videos
 
@@ -29,7 +29,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 34 | Under Pressure Part 2 | [Link](https://youtu.be/z8DJ4kpvCMU) | No | [Page](../processdata/PressureWebPage.qmd) | Abs., Atm., Gauge, Barometric Pressure |
 | 35 | What is a Mole? | [Link](https://youtu.be/wHEX0uY69rs) | [Link](https://youtu.be/Kztw9GX9EL8) | [Page](../processdata/WhatIsAMoleWebPage.qmd) | What a mole is |
 | 36 | What the Frac? | [Link](https://youtu.be/Tdeuf0quJUs) | No | [Page](../processdata/MassMolesWebPage.qmd) | Mass, Moles, Mass Fractions, Mole Fractions |
-| 37 | Are You Dense? Crank Up the Volume and Go With the Flow! | [Link](https://youtu.be/EsPSVVYWQlE) | No | [Page] | Mass, Moles, Density, Volume, and Flow Rates|
+| 37 | Are You Dense? Crank Up the Volume and Go With the Flow! | [Link](https://youtu.be/AFZWZSJ96g8) | No | [Page] | Mass, Moles, Density, Volume, and Flow Rates|
 | 38 | How to Keep Your Balance | [Link](https://youtu.be/mEodkChctgM) | No | [Page] | System Definition and the General Balance Equation|
 | 39 | Speed Balancing | [Link](https://youtu.be/Pmp2IxgL9FM) | No | [Page] | General Balance Equation Definitions and Suggestions|
 | 40 | Gotta Keep ‘Em Separated | [Link](https://youtu.be/pRg1m0_9Psg) | No | [Page] | Mixer, Divider, and Separator mole balances|
@@ -50,7 +50,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 66 | REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2 | [Link](https://youtu.be/bPW4B_Dj868) | No | [Page] | Example of Kay's Rule and DWSIM for real gas mixtures |
 | 67 | Solving Nonlinear Equations with Spreadsheets | [link](https://youtu.be/SaI2qdu1wSE) | No | [Page] | See Title |
 | 73 | Oh, Henry! | [link](https://youtu.be/dCOQy1C7yf0) | No | [Page] | Gas-Liquid Equilibrium with one condensible component |
-| 74 | Dew Your Bubbles Have Flash? Part 1 | [Link](https://youtu.be/vSkSRi6HYVQ) | No | [Page] | Raoult's law, BUBL P, DEW P |
+| 74 | Dew Your Bubbles Have Flash? Part 1 | [Link](https://youtu.be/R4bimpGAV7o) | No | [Page] | Raoult's law, BUBL P, DEW P |
 | 75 | Dew Your Bubbles Have Flash? Part 2 | [Link](https://youtu.be/9GyrfJzg-tg) | No | [Page] | BUBL T, DEW T |
 | 75A| Dew Your Bubbles Have Flash? Part 3 | [Link](https://youtu.be/bG15qQ9gB4c) | No | [Page] | FLASH, *Pxy*, *Txy* |
 

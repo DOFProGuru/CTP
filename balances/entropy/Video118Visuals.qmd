@@ -23,9 +23,9 @@ format:
 
 ![](Pump.png){.absolute top=50% left=5% width=40%}
 
-![](Nozzle.png){.absolute top=20% left=50% width=40%}
+![](Nozzle.png){.absolute top=30% left=50% width=40%}
 
-![](LavalNozzle.png){.absolute top=35% left=50% width=40%}
+![](LavalNozzle.png){.absolute top=45% left=50% width=40%}
 
 ![](Valve.png){.absolute top=60% left=50% width=40%}
 
@@ -37,11 +37,11 @@ $\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}$
 $\dot{m},\ T_\mathrm{out},\ P_\mathrm{out}$
 :::
 
-:::{.absolute top=38% right=50%}
+:::{.absolute top=39.5% right=50%}
 $\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}, u_\mathrm{in}$
 :::
 
-:::{.absolute top=38.5% right=0%}
+:::{.absolute top=40% right=0%}
 $\dot{m},\ T_\mathrm{out},\ P_\mathrm{out},\ u_\mathrm{out}$
 :::
 

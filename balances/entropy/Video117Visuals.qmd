@@ -28,93 +28,187 @@ DOFPro Team
 
 <br/>
 
+:::{.fragment}
 or
-
+:::
+:::{.fragment}
 <center> $\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} \geq 0$ </center>
-
+:::
 <br/>
 
+:::{.fragment}
 Remember:
-
+:::
+:::{.fragment}
 <center> $\Delta S_{\text{system}} \text{ or } \Delta S_{\text{surroundings}}$ </center>
-
+:::
 <br/>
 
+:::{.fragment}
 can be less than zero. But
+:::
 
 <br/>
+
+:::{.fragment}
 <center> $\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} \geq 0$ </center>
+:::
 
-## Entropy Balance for Closed System:
+## Entropy Balance for Closed System
 
+:::{style="font-size: 40px;"}
+</br>
+:::
 <center> $\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} = S_G \geq 0$ </center>
 
+:::{.fragment}
+:::{style="font-size: 40px;"}
+</br>
+:::
 Defining heat transferred *from* the surroundings *into* the system as
 positive, i.e., using the same convention for entropy as for heat with
 regard to the system, then
-
+:::
+:::{.fragment}
+:::{style="font-size: 40px;"}
+</br>
+:::
 <center> $\Delta S_{\text{surroundings}} = - \sum\limits_j \dfrac{Q_j}{T_{\sigma j}}$ </center>
-
+:::
+:::{.fragment}
+:::{style="font-size: 40px;"}
+</br>
+:::
 <center> $\boxed{\Delta S_{\text{system}} - \sum\limits_j \dfrac{Q_j}{T_{\sigma j}} = S_G \geq 0}$ </center>
-
+:::
+:::{.fragment}
+:::{style="font-size: 40px;"}
+</br>
+:::
 $Q_j$ is heat transferred into system from reservoir $j$.
-
+:::
+:::{.fragment}
+:::{style="font-size: 40px;"}
+</br>
+:::
 $T_{\sigma j}$ is temperature of reservoir $j$.
+:::
 
-## Entropy Balance for Open Transient System
+## 
 
+:::{style="font-weight: bold; font-size: 135px;"}
+Entropy Balance for Open Transient System
+:::
+
+:::{style="font-size: 40px;"}
+</br>
+:::
+:::{.fragment}
 <center> $\dfrac{d(m \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0$ </center>
+:::
 
-<br/>
+:::{style="font-size: 80px;"}
+</br>
+:::
 
-<center>or $\dfrac{d(n \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{n} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0$ </center>
+:::{.fragment}
+<center>or $\ \ \dfrac{d(n \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{n} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0$ </center>
+:::
 
-<br/>
+:::{style="font-size: 80px;"}
+</br>
+:::
 
+:::{.fragment}
 Defining heat transferred *from* the surroundings *into* the system as
 positive, i.e., using the same convention for entropy as for heat with
 regard to the system, then
+:::
 
-<center> $\dfrac{d S_{\text{surr}}}{dt} = - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}}$ <center>
+:::{style="font-size: 80px;"}
+</br>
+:::
 
-## Entropy Balance for Open Transient System (cont.):
 
+:::{.fragment}
+<center>$\dfrac{d S_{\mathrm{surr}}}{dt} = - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}}$</center>
+:::
+
+## 
+
+:::{style="font-weight: bold; font-size: 115px;"}
+Entropy Balance for Open Transient System (cont.)
+:::
+
+:::{style="font-size: 80px;"}
+</br>
+:::
+:::{.fragment}
 <center> $\boxed{\dfrac{d(m \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0}$ </center>
+:::
+:::{style="font-size: 80px;"}
+</br>
+:::
 
-<br/>
+:::{.fragment}
+<center>or&nbsp;&nbsp; $\boxed{\dfrac{d(n \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{n} \hat{S})_{\text{fs}}  - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</center>
+:::
+:::{style="font-size: 80px;"}
+</br>
+:::
 
-<center>or $\boxed{\dfrac{d(n \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{n} \hat{S})_{\text{fs}}  - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0}$ </center>
-
-<br/>
-
+:::{.fragment}
 $\dot{Q}_j$ is heat transferred into system from reservoir $j$.
+:::
 
+:::{style="font-size: 80px;"}
+</br>
+:::
+:::{.fragment}
 $T_{\sigma j}$ is temperature of reservoir $j$.
+:::
 
-## Entropy Balance for Open Steady-State System:
+## 
 
+:::{style="font-weight: bold; font-size: 120px;"}
+Entropy Balance for Open Steady-State System
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
 <center> $\boxed{\Delta (\dot{m} \hat{S})_{\text{fs}} - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0}$ </center>
-
+:::
+:::{style="font-size: 40px;"}
 <br/>
-
+:::
+:::{.fragment}
 <center> or $\boxed{\Delta (\dot{n} \hat{S})_{\text{fs}}  - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0}$ </center>
-
+:::
+:::{style="font-size: 40px;"}
 <br/>
-
+:::
+:::{.fragment}
 $\dot{Q}_j$ is heat transferred into system from reservoir $j$.
-
-$T_{\sigma j}$ is temperature of reservoir $j$.
-
+:::
+:::{style="font-size: 40px;"}
 <br/>
-
+:::
+:::{.fragment}
+$T_{\sigma j}$ is temperature of reservoir $j$.
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+:::{.fragment}
 *The ΔS-sentials of Calculating Entropy Changes* video explained the methods we
 have available for calculating changes in entropy.
-
+:::
 ## The Takeaways
 
-1. The Second Law of Thermodynamics for a *closed* system is $\Delta S_{\text{system}} - \sum\limits_j \dfrac{Q_j}{T_{\sigma j}} = S_G \geq 0$.
-2. The Second Law of Thermodynamics for a *open transient* system is $\dfrac{d(m \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0$.
-3. The Second Law of Thermodynamics for a *open steady-state* system is $\Delta (\dot{m} \hat{S})_{\text{fs}}  - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0$.
+1. The Second Law of Thermodynamics for a *closed system* is $\Delta S_{\text{system}} - \sum\limits_j \dfrac{Q_j}{T_{\sigma j}} = S_G \geq 0$.
+2. The Second Law of Thermodynamics for a *open transient system* is $\dfrac{d(m \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0$.
+3. The Second Law of Thermodynamics for a *open steady-state system* is $\Delta (\dot{m} \hat{S})_{\text{fs}}  - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0$.
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
