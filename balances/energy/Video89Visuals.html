@@ -6,8 +6,8 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <title>Chemical and Thermal Processes – video89visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-3999d9d7196faf905b41939084d38c1a.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-d64f4436fbdf4bb364aba0b405e17691.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -136,141 +136,266 @@
 </section>
 <section id="the-first-law-of-thermodynamics" class="slide level2">
 <h2>The First Law of Thermodynamics</h2>
+<ul>
+<li class="fragment">Energy balances
+<ul>
+<li class="fragment">Steady-state open systems</li>
+<li class="fragment">Closed systems</li>
+<li class="fragment">Transient open systems</li>
+</ul></li>
+</ul>
+</section>
+<section id="the-first-law-of-thermodynamics-1" class="slide level2">
+<h2>The First Law of Thermodynamics</h2>
 <p><em>Energy cannot be created or destroyed; it can only change form.</em></p>
+<div class="fragment">
 <p>The First Law is the General Balance Equation applied to energy.</p>
+</div>
+<div class="fragment">
+<div style="font-size: 90px;">
 <p><span class="math display">\[
 \mathrm{Input + Generation = Output + Consumption + Accumulation}
 \]</span></p>
-<p>Because energy cannot be created or destroyed, the generation and consumption terms must both be 0. <span class="math display">\[
+</div>
+</div>
+<div class="fragment">
+<p>Because energy cannot be created or destroyed, the generation and consumption terms must both be 0.</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
 \mathrm{Input = Output + Accumulation}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>To determine the inputs, outputs and accumulation, we need to enumerate the most common forms of energy.</p>
+</div>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p>For using the First Law in calculations, you must first define your system, and in particular your system boundary.</p>
+<div class="fragment">
+<p>For using the First Law in calculations, you must first define your system, and in particular your system boundary. <br><br></p>
+</div>
+<div class="fragment">
 <p>Work, <span class="math inline">\(W\)</span>, is performed by a force acting through a distance. In differential form (thanks to the chemists):</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 -dW = Fdx.
 \]</span></p>
-<p>For closed systems, work is energy crossing the system boundary due to deformation of the boundary.</p>
+</div>
+<div class="fragment">
+<p>For closed systems, work is energy crossing the system boundary due to deformation of the boundary. <br><br></p>
+</div>
+<div class="fragment">
 <p>If there is a pressure, <span class="math inline">\(P\)</span>, being exerted on the system by its surroundings over an area, <span class="math inline">\(A\)</span>, and the area is displaced by a distance, <span class="math inline">\(dx\)</span>, then we have:</p>
+</div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
 <p><span class="math display">\[
 PA = F,\ \ \ \ -dW=Fdx=PAdx=P(Adx)=PdV
 \]</span></p>
+<div class="fragment">
 <p>or in integrated form</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 W = -\int P dV
 \]</span></p>
+</div>
+<div style="font-size: 90px;">
+<div class="fragment">
 <p>Next is heat, <span class="math inline">\(Q\)</span>, which is energy crossing the system boundary due to a temperature difference.</p>
+</div>
+<div class="fragment">
 <p>Thermodynamics was developed by engineers to describe heat engines (things that convert heat to work). They desired to put heat <em>in</em> and get work <em>out</em>, so historically, heat <em>into</em> a system was positive, and work <em>out</em> of a system was positive. Unfortunately, this concept was too confusing to the chemists. Therefore almost all chemical engineering texts now define heat or work <em>into</em> a system as <em>positive</em>, and heat or work <em>out</em> of a system as <em>negative</em>. Watch out when using Mechanical Engineering texts, since they have largely not made the switch.</p>
+</div>
+</div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
 <p>Energy may be stored in things as</p>
+<div style="font-size: 95px">
 <ul>
 <li class="fragment">Position in a conservative field (potential energy, <span class="math inline">\(E_p = mgz\)</span>)</li>
 <li class="fragment">Velocity in a reference frame (kinetic energy, <span class="math inline">\(E_k = mu^2/2\)</span>)</li>
 <li class="fragment">Microscopic vibrations, oscillations etc. (internal energy, <span class="math inline">\(U\)</span><sup>1</sup>).</li>
 </ul>
+<div class="fragment">
 <p>Note that for all of these energy forms, the value is relative to some 0 reference.</p>
+</div>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Because we are using <span class="math inline">\(V\)</span> and <span class="math inline">\(v\)</span> for other things, velocity is given the symbol, <span class="math inline">\(u\)</span>, and internal energy is given the symbol, <span class="math inline">\(U\)</span>. Don’t get them confused.</p></li></ol></aside></section>
+<section id="section-3" class="slide level2">
+<h2></h2>
 <p>For a closed system the First Law can be written in differential form as</p>
+<div class="fragment">
 <p><span class="math display">\[
 \boxed{dU + dE_p+dE_k = dQ + dW}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>or in integrated form as</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \boxed{\Delta U + \Delta E_p + \Delta E_k = Q + W}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>Much of the work in a First Law problem is deciding which terms are zero or insignificant.</p>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>Because we are using <span class="math inline">\(V\)</span> and <span class="math inline">\(v\)</span> for other things, velocity is given the symbol, <span class="math inline">\(u\)</span>, and internal energy is given the symbol, <span class="math inline">\(U\)</span>. Don’t get them confused.</p></li></ol></aside></section>
+</div>
+</section>
 <section id="intensive-and-extensive-properties" class="slide level2">
 <h2>Intensive and Extensive Properties</h2>
-<p>A property of a substance that <em>does not</em> depend on the mass or moles of a substance is an <em>intensive</em> property(such as temperature, pressure, or composition).</p>
-<p>A property of a substance that <em>does</em> depend on the mass or moles of a substance is an <em>extensive</em> property (such as volume, kinetic energy, or internal energy).</p>
+<div style="font-size:95px ;">
+<p>A property of a substance that <em>does not</em> depend on the mass or moles of a substance is an <em>intensive</em> property (such as temperature, pressure, or composition). <br><br></p>
+<div class="fragment">
+<p>A property of a substance that <em>does</em> depend on the mass or moles of a substance is an <em>extensive</em> property (such as volume, kinetic energy, or internal energy). <br><br></p>
+</div>
+<div class="fragment">
 <p>It is quite frequently useful to define an intensive property that is related to an extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume or specific internal energy,</p>
+</div>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\hat{V} = \frac{V}{m},\ \ \ \ \hat{U}=\frac{U}{m}\]</span></p>
+</div>
 </section>
-<section id="enthalpy-pronounced-en-thal-pee" class="slide level2">
+<section id="enthalpy-pronounced-en-thal-pee" class="slide level2 bigbold90">
 <h2>Enthalpy (pronounced en-THAL-pee)</h2>
+<div style="font-size: 110px">
 <p><em>Enthalpy</em>, <span class="math inline">\(H\)</span>, is a defined quantity that is quite useful in simplifying formulas. It is defined as</p>
+<div class="fragment">
 <p><span class="math display">\[
 H \equiv U + PV
 \]</span></p>
+</div>
+<div class="fragment">
 <p>or in specific properties as</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \hat{H} \equiv \hat{U} + P\hat{V}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>One example where enthalpy is useful is where a closed system doesn’t change velocity or position and is maintained at constant pressure (like in a beaker in a laboratory).</p>
-</section>
-<section id="section-3" class="slide level2">
-<h2></h2>
-<p>Under these conditions the First Law simplifies from</p>
-<p><span class="math display">\[
-\Delta U + \Delta E_p + \Delta E_k = Q + W
-\]</span></p>
-<p>to</p>
-<p><span class="math display">\[
-\Delta U = U_\mathrm{final} - U_\mathrm{initial} = Q + W = Q - \int\limits_\mathrm{initial}^\mathrm{final} pdV = Q-P \int\limits_\mathrm{initial}^\mathrm{final} dV
-\]</span></p>
-<p><span class="math display">\[
-U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial})
-\]</span></p>
-<p><span class="math display">\[
-(U_\mathrm{final} + PV_\mathrm{final}) - (U_\mathrm{initial} + PV_\mathrm{initial}) = Q
-\]</span></p>
-<p><span class="math display">\[
-\Delta H = Q
-\]</span></p>
+</div>
+</div>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
+<p>Under these conditions the First Law simplifies from</p>
+<div class="fragment">
+<p><span class="math display">\[
+\Delta U + \Delta E_p + \Delta E_k = Q + W
+\]</span></p>
+</div>
+<div class="fragment">
+<p>to</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\Delta U = U_\mathrm{final} - U_\mathrm{initial} = Q + W
+\]</span> <span class="math display">\[
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = Q - \int\limits_\mathrm{initial}^\mathrm{final} pdV = Q-P \int\limits_\mathrm{initial}^\mathrm{final} dV
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial})
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+(U_\mathrm{final} + PV_\mathrm{final}) - (U_\mathrm{initial} + PV_\mathrm{initial}) = Q
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\Delta H = Q
+\]</span></p>
+</div>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
 <p>For an <strong>open steady-state system</strong>, all of the quantities are expressed as rates (with the dot)</p>
+<div class="fragment">
 <p><span class="math display">\[
 \Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>The work is normally divided up into:</p>
+</div>
 <ul>
 <li class="fragment"><em>shaft work</em>, work done by or on a shaft crossing the system boundary, such as to a turbine (electricity counts),</li>
 <li class="fragment"><em>flow work</em>, work done on or by the system to push the flowing fluid into or out of the system.</li>
 </ul>
+<div class="fragment absolute" style="top: 63%; left: 25%; ">
 <p><span class="math display">\[
 \dot{W} =  \dot{W}_\mathrm{s} + \dot{W}_\mathrm{fl}
 \]</span></p>
+</div>
+<div class="fragment absolute" style="top: 75%; left: 23%; ">
 <p><span class="math display">\[
 \dot{W}_\mathrm{fl} = -\sum_\mathrm{outputs} P_{i}\dot{V}_i + \sum_\mathrm{inputs}P_{j}\dot{V}_j
 \]</span></p>
-</section>
-<section id="section-5" class="slide level2">
-<h2></h2>
-<p>If one starts with the first law for an open steady-state system,</p>
-<p><span class="math display">\[
-\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}
-\]</span></p>
-<p>and separates the work into shaft work and flow work, and combines the flow work with the internal energy, one arrives at</p>
-<p><span class="math display">\[
-\boxed{\Delta \dot{H} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}_\mathrm{s}}
-\]</span></p>
-<p>which is the normal version of the first law for an open steady-state system.</p>
-<p><strong>Remember</strong> <span class="math inline">\(\Delta\)</span> means <em>final</em> – <em>initial</em> for closed systems and <em>out – in</em> for open systems. If you have multiple streams, you must sum over all of the streams.</p>
+</div>
 </section>
 <section id="section-6" class="slide level2">
 <h2></h2>
+<p>If one starts with the first law for an open steady-state system,</p>
+<div class="fragment">
+<p><span class="math display">\[
+\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}
+\]</span></p>
+</div>
+<div class="fragment">
+<p>and separates the work into shaft work and flow work, and combines the flow work with the internal energy, one arrives at</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\boxed{\Delta \dot{H} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}_\mathrm{s}}
+\]</span></p>
+</div>
+<div class="fragment">
+<p>which is the normal version of the first law for an open steady-state system.</p>
+</div>
+<div class="fragment">
+<p><strong>Remember</strong> <span class="math inline">\(\Delta\)</span> means <em>final</em> – <em>initial</em> for closed systems and<br><em>out – in</em> for open systems. If you have multiple streams, you must sum over all of the streams.</p>
+</div>
+</section>
+<section id="section-7" class="slide level2">
+<h2></h2>
 <p>For an <strong>open transient system</strong>, the first law is</p>
+<div class="fragment">
+<div style="font-size: 75px;">
 <p><span class="math display">\[
 \boxed{\frac{d}{dt} (U + E_k + E_p)_\mathrm{control\ volume} = \sum \dot{Q}_i + \sum \dot{W}_i - (\Delta \dot{H} + \Delta{E}_k + \Delta \dot{E}_p)_\mathrm{flow\ streams}}
 \]</span></p>
+</div>
+</div>
+<div class="fragment">
 <p>which on a mass basis is</p>
+</div>
+<div class="fragment">
+<div style="font-size: 66px;">
 <p><span class="math display">\[
 \boxed{\frac{d}{dt}[m(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_{i} + \sum_\mathrm{in} \dot{m}_{i}(\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{m}_{i} (\hat{H} + \hat{E}_k + \hat{E}_{p})}
 \]</span></p>
+</div>
+</div>
+<div class="fragment">
 <p>or on a mole basis is</p>
+</div>
+<div class="fragment">
+<div style="font-size: 67.5px;">
 <p><span class="math display">\[
 \boxed{\frac{d}{dt}[n(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_i + \sum_\mathrm{in} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p)}
 \]</span></p>
+</div>
+</div>
 </section>
 <section id="simplifications" class="slide level2">
 <h2>Simplifications</h2>
@@ -292,13 +417,23 @@ U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial
 <li class="fragment"><p>Solid or liquid, no chemical reaction, <span class="math inline">\(T = \mathrm{constant}\)</span>, <span class="math inline">\(\Delta P = \mathrm{small}\)</span>, then <span class="math inline">\(\Delta U = 0\)</span>, <span class="math inline">\(\Delta H = 0\)</span></p></li>
 </ul>
 </section>
-<section id="section-7" class="slide level2">
-<h2></h2>
-<p><strong>Remember:</strong> <span class="math inline">\(\Delta\)</span> means <em>final-initial</em> or <em>out-in</em></p>
+<section id="remember" class="slide level2">
+<h2>Remember</h2>
+<div class="fragment">
+<p><br><span class="math inline">\(\Delta\)</span> means <em>final-initial</em> or <em>out-in</em><br><br></p>
+</div>
+<div class="fragment">
 <p><strong>State Variable:</strong> Value depends only on location or “<em>state.</em>” Does not depend on path.</p>
-<p>Common State Variables: <span class="math inline">\(H\)</span>, <span class="math inline">\(T\)</span>, <span class="math inline">\(U\)</span>, <span class="math inline">\(V\)</span>, <span class="math inline">\(m\)</span>, etc.</p>
+</div>
+<div class="fragment">
+<p>Common State Variables: <span class="math inline">\(H\)</span>, <span class="math inline">\(T\)</span>, <span class="math inline">\(U\)</span>, <span class="math inline">\(V\)</span>, <span class="math inline">\(m\)</span>, etc.<br><br></p>
+</div>
+<div class="fragment">
 <p><strong>Path Variable:</strong> Value depends only on path. Does not depend on location.</p>
-<p>Common Path Variables: <span class="math inline">\(Q\)</span>, <span class="math inline">\(W\)</span>.</p>
+</div>
+<div class="fragment">
+<p>Common Path Variables: <span class="math inline">\(Q\)</span>, <span class="math inline">\(W\)</span>.<br><br></p>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
@@ -588,13 +723,14 @@ U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

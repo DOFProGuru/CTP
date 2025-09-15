@@ -6,8 +6,8 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <title>Chemical and Thermal Processes – video115visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-3999d9d7196faf905b41939084d38c1a.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-d64f4436fbdf4bb364aba0b405e17691.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -136,7 +136,9 @@
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
+<div style="font-size: 150px;">
 <p><strong>The Second Law of Thermodynamics</strong></p>
+</div>
 <ul>
 <li class="fragment">No apparatus can operate in such a way that its only effect (in system and surroundings) is to convert heat absorbed by a system completely into work.</li>
 <li class="fragment">It is impossible by a cyclic process to convert the heat absorbed by a system completely into work.</li>
@@ -148,123 +150,474 @@
 <div style="font-size: 135px;">
 <p><strong>Mathematical Statement of the Second Law</strong></p>
 </div>
-<center>
-<span class="math inline">\(dW_{\text{lost}} \geq 0\)</span>
-</center>
+<div style="font-size: 40px;">
 <p><br></p>
+</div>
+<center>
+<span class="math inline">\(dW_{\mathrm{lost}} \geq 0\)</span>
+</center>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <p>or</p>
+</div>
+<div class="fragment">
 <center>
-<span class="math inline">\(\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} \geq 0\)</span>
+<span class="math inline">\(\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0\)</span>
 </center>
-<p><span class="math inline">\(S\)</span> can be thought of as the reversible normalized heat transfer or as the degree of randomness or disorder.</p>
-<p>Remember:</p>
-<center>
-<span class="math inline">\(\Delta S_{\text{system}} \text{ or } \Delta S_{\text{surroundings}}\)</span>
-</center>
+</div>
+<div style="font-size: 40px;">
 <p><br></p>
-<p>can be less than zero. But</p>
-<br>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(S\)</span> can be thought of as the reversible normalized heat transfer or as the degree of randomness or disorder.</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Remember:</p>
+</div>
+<div class="fragment">
 <center>
-<span class="math inline">\(\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} \geq 0\)</span>
+<span class="math inline">\(\Delta S_{\mathrm{system}} \text{ or } \Delta S_{\mathrm{surroundings}}\)</span>
 </center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>can be less than zero. But</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0\)</span>
+</center>
+</div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
+<div style="font-size: 145px;">
 <p><strong>Calculation of ∆<em>S</em> for an ideal gas</strong></p>
-<p>Assume closed system of <span class="math inline">\(n\)</span> moles initially at <span class="math inline">\(T_1\)</span>, <span class="math inline">\(P_1\)</span> and finally at <span class="math inline">\(T_2\)</span>, <span class="math inline">\(P_2\)</span></p>
-<p>First Law</p>
-<p><span class="math inline">\(dU = dQ + dW\)</span></p>
-<p><span class="math inline">\(d\hat{U} = \dfrac{dQ}{n} + \dfrac{dW}{n}\)</span></p>
-<p>Now follow a reversible path (why?).</p>
-<p><span class="math inline">\(d\hat{U} = C_v dT\)</span></p>
-</section>
-<section id="cont." class="slide level2">
-<h2>(cont.)</h2>
-<p><span class="math inline">\(dS = \dfrac{dQ}{T}\)</span> or <span class="math inline">\(Td\hat{S} = \dfrac{dQ}{n}\)</span></p>
-<p><span class="math inline">\(dW = -PdV\)</span> or <span class="math inline">\(\dfrac{dW}{n} = - P d\hat{V}\)</span></p>
-<p>Combining</p>
-<p><span class="math inline">\(C_vdT = T d\hat{S} - P d\hat{V}\)</span></p>
-<p><span class="math inline">\(d\hat{S} = \dfrac{C_v}{T} dT + \dfrac{P}{T} d\hat{V} = \dfrac{C_v}{T} dT + \dfrac{R}{\hat{V}} d\hat{V}\)</span></p>
-</section>
-<section id="cont.-2" class="slide level2">
-<h2>(cont. 2)</h2>
-<p><span class="math inline">\(\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + \int\limits_{\hat{V}_1}^{\hat{V}_1}\dfrac{R}{\hat{V}} d\hat{V} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}\)</span></p>
-<p>Alternatively</p>
-<p><span class="math inline">\(\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \dfrac{C_p - R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}\)</span></p>
-<p><span class="math inline">\(= \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - \int\limits_{T_1}^{T_2} \dfrac{R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}\)</span></p>
-<p><span class="math inline">\(= \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{T_2\hat{V}_1}{T_1\hat{V}_2} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1}\)</span></p>
-</section>
-<section id="ideal-gas-example" class="slide level2">
-<h2>Ideal Gas Example</h2>
-<p>Example: What is the minimum work required for an adiabatic compressor to compress <span class="math inline">\(10\ \mathrm{kg/s}\)</span> of air from <span class="math inline">\(2\ \mathrm{kPa}\)</span> and <span class="math inline">\(300\ \mathrm{K}\)</span> to <span class="math inline">\(6\ \mathrm{MPa}\)</span>?</p>
-<p>(Assume ideal gas, <span class="math inline">\(C_p = (7 ⁄ 2)\mathrm{R}\)</span> )</p>
-<p><strong>First Law (neglect kinetic &amp; potential)</strong></p>
-<p><span class="math inline">\(\Delta \dot{H} = \dot{Q} + \dot{W}_s\)</span></p>
-<p><span class="math inline">\(\dot{m} \int_{T_1}^{T_2} C_p dT = \dot{W}_s = \dot{m} C_p \Delta T\)</span></p>
-<p><strong>Second Law</strong></p>
-<p><span class="math inline">\(\Delta \dot{S}_\mathrm{surroundings} = 0\)</span>. Why?</p>
-</section>
-<section id="ig-example-cont." class="slide level2">
-<h2>IG Example (cont.)</h2>
-<p><span class="math inline">\(\Delta \dot{S}_\mathrm{air} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1} = C_p \ln \dfrac{T_2}{T_1} - R \ln \dfrac{P_2}{P_1}\)</span></p>
-<p>Minimum work for <span class="math inline">\(\Delta \hat{S} = 0\)</span></p>
-<p><span class="math inline">\(C_p \ln \dfrac{T_2}{T_1} = R \ln \dfrac{P_2}{P_1}\)</span></p>
-<p><span class="math inline">\(\dfrac{T_2}{T_1} = \left(\dfrac{P_2}{P_1}\right)^{\frac{R}{C_p}}\)</span></p>
-<p><span class="math inline">\(T_2 = T_1 \left(\dfrac{6000\ \mathrm{kPa}}{2\ \mathrm{kPa}}\right)^{2/7}\)</span></p>
-</section>
-<section id="ig-example-cont.-2" class="slide level2">
-<h2>IG Example (cont. 2)</h2>
-<p><span class="math inline">\(\dot{W}_s = \dot{m} C_p \Delta T\)</span></p>
-<div style="font-size: 95px;">
-<p><span class="math inline">\(= \dfrac{1000\ \mathrm{g/s}}{29\ \text{g/g-mol}}\left(\dfrac{7}{2}\right)(8.314\text{ J/g-mol K})\left[\left(\dfrac{6000}{2}\right)^{2/7} - 1\right](300\ \mathrm{K})\)</span></p>
 </div>
-<p><span class="math inline">\(=26.64\ \mathrm{MW}\)</span></p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<p>Assume closed system of <span class="math inline">\(n\)</span> moles initially at <span class="math inline">\(T_1\)</span>, <span class="math inline">\(P_1\)</span> and finally at <span class="math inline">\(T_2\)</span>, <span class="math inline">\(P_2\)</span></p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>First Law</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(dU = dQ + dW\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{U} = \dfrac{dQ}{n} + \dfrac{dW}{n}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Now follow a reversible path (why?).</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{U} = C_v dT\)</span>
+</center>
+</div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<p>Calculation of <span class="math inline">\(\Delta S\)</span> for substances other than ideal gases</p>
-<p><span class="math inline">\(d\hat{S} = C_p \dfrac{dT}{T} - \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P dP\)</span></p>
+<div style="font-size: 145px;">
+<p><strong>Calculation of ∆<em>S</em> for an ideal gas (cont.)</strong></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(dS = \dfrac{dQ}{T}\ \)</span> or <span class="math inline">\(\ Td\hat{S} = \dfrac{dQ}{n}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(dW = -PdV\ \)</span> or <span class="math inline">\(\ \dfrac{dW}{n} = - P d\hat{V}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Combining</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(C_vdT = T d\hat{S} - P d\hat{V}\)</span>
+</center>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{S} = \dfrac{C_v}{T} dT + \dfrac{P}{T} d\hat{V} = \dfrac{C_v}{T} dT + \dfrac{R}{\hat{V}} d\hat{V}\)</span>
+</center>
+</div>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<div style="font-size: 145px;">
+<p><strong>Calculation of ∆<em>S</em> for an ideal gas (cont.)</strong></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<center>
+<span class="math inline">\(\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + \int\limits_{\hat{V}_1}^{\hat{V}_1}\dfrac{R}{\hat{V}} d\hat{V} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}\)</span>
+</center>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Alternatively</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\ \ \ \ \Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \dfrac{C_p - R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\ \ \ \ \ \ \ \ \ = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - \int\limits_{T_1}^{T_2} \dfrac{R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\ \ \ \ \ \ \ \ \ = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{T_2\hat{V}_1}{T_1\hat{V}_2} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1}\)</span></p>
+</div>
+</section>
+<section id="ideal-gas-example" class="slide level2">
+<h2>Ideal Gas Example</h2>
+<p>Example: What is the minimum work required for an adiabatic compressor to compress <span class="math inline">\(10\ \mathrm{kg/s}\)</span> of air from <span class="math inline">\(2\ \mathrm{kPa}\)</span> and <span class="math inline">\(300\ \mathrm{K}\)</span> to <span class="math inline">\(6\ \mathrm{MPa}\)</span> (Assume ideal gas, <span class="math inline">\(C_p = (7 ⁄ 2)\mathrm{R}\)</span> )?</p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><strong>First Law (neglect kinetic &amp; potential)</strong></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta \dot{H} = \dot{Q} + \dot{W}_s\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\dot{m} \int_{T_1}^{T_2} C_p dT = \dot{W}_s = \dot{m} C_p \Delta T\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><strong>Second Law</strong></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta \dot{S}_\mathrm{surroundings} = 0\)</span>. Why?
+</center>
+</div>
+</section>
+<section id="ig-example-cont." class="slide level2">
+<h2>IG Example (cont.)</h2>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<center>
+<span class="math inline">\(\Delta \dot{S}_\mathrm{air} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1} = C_p \ln \dfrac{T_2}{T_1} - R \ln \dfrac{P_2}{P_1}\)</span>
+</center>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Minimum work for <span class="math inline">\(\Delta \hat{S} = 0\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(C_p \ln \dfrac{T_2}{T_1} = R \ln \dfrac{P_2}{P_1}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\dfrac{T_2}{T_1} = \left(\dfrac{P_2}{P_1}\right)^{\frac{R}{C_p}}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(T_2 = T_1 \left(\dfrac{6000\ \mathrm{kPa}}{2\ \mathrm{kPa}}\right)^{2/7}\)</span>
+</center>
+</div>
+</section>
+<section id="ig-example-cont.-1" class="slide level2">
+<h2>IG Example (cont.)</h2>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\dot{W}_s = \dot{m} C_p \Delta T\)</span></p>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<div style="font-size: 90px;">
+<p><span class="math inline">\(= \dfrac{1000\ \mathrm{g/s}}{29\ \mathrm{g/g-mol}}\left(\dfrac{7}{2}\right)(8.314\mathrm{ J/g-mol K})\left[\left(\dfrac{6000}{2}\right)^{2/7} - 1\right](300\ \mathrm{K})\)</span></p>
+</div>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(=26.64\ \mathrm{MW}\)</span></p>
+</div>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+<p><strong>Calculation of <span class="math inline">\(\Delta S\)</span> for substances other than ideal gases</strong></p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{S} = C_p \dfrac{dT}{T} - \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P dP\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <p>or</p>
-<p><span class="math inline">\(d\hat{S} = C_p \dfrac{dT}{T} - \beta \hat{V} dP\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{S} = C_p \dfrac{dT}{T} - \beta \hat{V} dP\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <p>where the volume expansivity (like a thermal expansion coefficient) is</p>
-<p><span class="math inline">\(\beta \equiv \dfrac{1}{\hat{V}} \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P\)</span>.</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\beta \equiv \dfrac{1}{\hat{V}} \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P\)</span>.
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <p>It is usually small <span class="math inline">\(( \approx 0)\)</span> for things other than gases.</p>
+</div>
 </section>
 <section id="integrating-cpt" class="slide level2">
 <h2>Integrating <em>C<sub>p</sub></em>/<em>T</em></h2>
 <p>Performing the integral:</p>
-<p><span class="math inline">\(C_p = a + b T +c T^2 + d T^3\)</span></p>
-<p><span class="math inline">\(\dfrac{C_p}{T} = \dfrac{a}{T} + b + c T + d T^2\)</span></p>
-<p><span class="math inline">\(\int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT = \int\limits_{T_1}^{T_2} \left(\dfrac{a}{T} + b + c T + d T^2\right) dT\)</span></p>
-<p><span class="math inline">\(= a \ln \dfrac{T_2}{T_1} + b ( T_2 - T_1) + \dfrac{c}{2} (T_2^2 - T_1^2) + \dfrac{d}{3} (T_2^3-T_1^3)\)</span></p>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(C_p = a + b T +c T^2 + d T^3\)</span>
+</center>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\dfrac{C_p}{T} = \dfrac{a}{T} + b + c T + d T^2\)</span>
+</center>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT = \int\limits_{T_1}^{T_2} \left(\dfrac{a}{T} + b + c T + d T^2\right) dT\)</span>
+</center>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(= a \ln \dfrac{T_2}{T_1} + b ( T_2 - T_1) + \dfrac{c}{2} (T_2^2 - T_1^2) + \dfrac{d}{3} (T_2^3-T_1^3)\)</span>
+</center>
+</div>
 </section>
-<section id="section-4" class="slide level2">
+<section id="section-6" class="slide level2">
 <h2></h2>
 <p>But what if <span class="math inline">\(C_p\)</span> is in <span class="math inline">\(^\circ\mathrm{C}\)</span>, and the integral must be in <span class="math inline">\(\mathrm{K}\)</span>? Review <em>The Most Annoying Equation Conversion</em> video and plug in</p>
-<p><span class="math inline">\(T(\mathrm{K})− 273.15 = T(\mathrm{K})− cf\)</span></p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(T(\mathrm{K})− 273.15 = T(\mathrm{K})− cf\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <p>for <span class="math inline">\(T\)</span>. Then</p>
-<p><span class="math inline">\(C_p = a' + b' T +c' T^2 + d' T^3\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(C_p = a' + b' T +c' T^2 + d' T^3\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <p>where <span class="math inline">\(T\)</span> is in Kelvin and</p>
-<p><span class="math inline">\(a' = a - b \cdot cf + c \cdot cf^2 - d \cdot cf^3\)</span></p>
-<p><span class="math inline">\(b' = b - 2c \cdot cf + 3d \cdot cf^3\)</span></p>
-<p><span class="math inline">\(c' = c - 3d \cdot cf\)</span></p>
-<p><span class="math inline">\(d' = d\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(a' = a - b \cdot cf + c \cdot cf^2 - d \cdot cf^3\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(b' = b - 2c \cdot cf + 3d \cdot cf^3\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(c' = c - 3d \cdot cf\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d' = d\)</span>
+</center>
+</div>
 </section>
 <section id="summary" class="slide level2">
 <h2>Summary</h2>
 <p><span class="math inline">\(\Delta S\)</span> for a heat reservoir:</p>
-<p><span class="math display">\[
-\Delta S = \frac{Q}{T}
-\]</span></p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta S = \dfrac{Q}{T}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\Delta S\)</span> for an ideal gas:</p>
-<p><span class="math display">\[
-\Delta \hat{S} = \int\limits_{T_1}^{T_2} \frac{C_v}{T} dT + R \ln \frac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \frac{C_p}{T} dT - R \ln \frac{P_2}{P_1}
-\]</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <p><span class="math inline">\(\Delta S\)</span> for a liquid or solid:</p>
-<p><span class="math display">\[
-d\hat{S} = C_p \frac{dT}{T} - \beta \hat{V} dP \approx C_p \frac{dT}{T},\ \ \ \ \ \ \ \ \ \ \ \ \Delta \hat{S} \approx \int\limits_{T_1}^{T_2} \frac{C_p}{T} dT
-\]</span></p>
-<p><span class="math inline">\(\Delta s\)</span> for water/steam: Use the steam tables.</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{S} = C_p \dfrac{dT}{T} - \beta \hat{V} dP \approx C_p \dfrac{dT}{T},\ \ \ \ \ \ \ \ \ \ \ \ \Delta \hat{S} \approx \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\Delta S\)</span> for water/steam: Use the steam tables.</p>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
@@ -275,7 +628,7 @@ d\hat{S} = C_p \frac{dT}{T} - \beta \hat{V} dP \approx C_p \frac{dT}{T},\ \ \ \ 
 <li class="fragment">To calculate the change in entropy for steam or saturated liquid water, use the steam tables.</li>
 </ol>
 </section></section>
-<section id="section-5" class="title-slide slide level1 center">
+<section id="section-7" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
@@ -553,13 +906,14 @@ d\hat{S} = C_p \frac{dT}{T} - \beta \hat{V} dP \approx C_p \frac{dT}{T},\ \ \ \ 
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

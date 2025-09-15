@@ -6,8 +6,8 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <title>Chemical and Thermal Processes – video118visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-3999d9d7196faf905b41939084d38c1a.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-d64f4436fbdf4bb364aba0b405e17691.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -136,8 +136,8 @@
 <p><img data-src="Turbines.png" class="absolute" style="top: 0%; left: 5%; width: 40%; "></p>
 <p><img data-src="Compressor.png" class="absolute" style="top: %; right: 5%; width: 40%; "></p>
 <p><img data-src="Pump.png" class="absolute" style="top: 50%; left: 5%; width: 40%; "></p>
-<p><img data-src="Nozzle.png" class="absolute" style="top: 20%; left: 50%; width: 40%; "></p>
-<p><img data-src="LavalNozzle.png" class="absolute" style="top: 35%; left: 50%; width: 40%; "></p>
+<p><img data-src="Nozzle.png" class="absolute" style="top: 30%; left: 50%; width: 40%; "></p>
+<p><img data-src="LavalNozzle.png" class="absolute" style="top: 45%; left: 50%; width: 40%; "></p>
 <p><img data-src="Valve.png" class="absolute" style="top: 60%; left: 50%; width: 40%; "></p>
 <div class="absolute" style="top: 25%; left: 1%; ">
 <p><span class="math inline">\(\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}\)</span></p>
@@ -145,10 +145,10 @@
 <div class="absolute" style="top: -4%; left: 30%; ">
 <p><span class="math inline">\(\dot{m},\ T_\mathrm{out},\ P_\mathrm{out}\)</span></p>
 </div>
-<div class="absolute" style="top: 38%; right: 50%; ">
+<div class="absolute" style="top: 39.5%; right: 50%; ">
 <p><span class="math inline">\(\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}, u_\mathrm{in}\)</span></p>
 </div>
-<div class="absolute" style="top: 38.5%; right: 0%; ">
+<div class="absolute" style="top: 40%; right: 0%; ">
 <p><span class="math inline">\(\dot{m},\ T_\mathrm{out},\ P_\mathrm{out},\ u_\mathrm{out}\)</span></p>
 </div>
 <div class="absolute" style="top: 11%; left: 45%; ">
@@ -700,13 +700,14 @@
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

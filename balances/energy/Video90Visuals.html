@@ -6,8 +6,8 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <title>Chemical and Thermal Processes – video90visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-3999d9d7196faf905b41939084d38c1a.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-d64f4436fbdf4bb364aba0b405e17691.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -136,18 +136,30 @@
 </section>
 <section id="the-mechanical-energy-balance" class="slide level2">
 <h2>The Mechanical Energy Balance</h2>
+<div class="fragment">
 <p>If we start with the 1<sup>st</sup> law for an open steady-state system,</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{m}\Delta(\hat{U}+P\hat{V})+ \dot{m} \Delta \frac{u^2}{2}+\dot{m}g\Delta z -\dot{Q}=\dot{W}_s
 \]</span></p>
+</div>
+<div class="fragment">
 <p>and gather the internal energy term with the heat, and assume an incompressible liquid such that</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \hat{V} = \frac{1}{\rho}=\mathrm{const}.
 \]</span></p>
+</div>
+<div class="fragment">
 <p>Then the 1<sup>st</sup> law becomes</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \dot{m} \Delta \frac{P}{\rho} + \dot{m} \Delta \frac{u^2}{2} + \dot{m} g \Delta z + (\dot{m} \Delta \hat{U} - \dot{Q}) = \dot{W}_s
 \]</span></p>
+</div>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
@@ -155,17 +167,27 @@
 <p><strong>The Mechanical Energy Balance (cont.)</strong></p>
 </div>
 <p>or dividing through by the mass flow rate</p>
+<div class="fragment">
 <p><span class="math display">\[
 \Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \left( \Delta \hat{U} - \frac{\dot{Q}}{\dot{m}} \right) = \frac{\dot{W}_s}{\dot{m}}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>If the only heating is through friction, we can call the term in parentheses, the <em>friction loss</em></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \hat{F} = \Delta \hat{U} - \frac{\dot{Q}}{\dot{m}}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>and the 1<sup>st</sup> law becomes</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \boxed {\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}_s}{\dot{m}}}
 \]</span></p>
+</div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
@@ -173,23 +195,37 @@
 <p><strong>The Mechanical Energy Balance (cont.)</strong></p>
 </div>
 <p>If there is no friction loss or shaft work input we have</p>
+<div class="fragment">
 <p><span class="math display">\[
 \Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z = 0
 \]</span></p>
+</div>
+<div class="fragment">
 <p>which is the Bernoulli equation, that you may have seen in high-school physics.</p>
+</div>
+<div class="fragment">
 <p>For a circular pipe, the <em>friction loss</em> is</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \hat{F} = f \frac{L}{D} \frac{u^2}{2}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>where <span class="math inline">\(L\)</span> is the length of the pipe, <span class="math inline">\(D\)</span> is the diameter of the pipe,and <span class="math inline">\(u\)</span> is the velocity of the fluid. <span class="math inline">\(f\)</span> is the <em>Moody friction factor</em> and is a function of the <em>Reynolds number.</em></p>
+</div>
 </section>
 <section id="the-reynolds-number" class="slide level2">
 <h2>The Reynolds number</h2>
 <p>The Reynolds number is an important dimensionless quantity in fluid mechanics. It is the ratio of momentum to viscous forces. For a pipe, it is calculated as</p>
+<div class="fragment">
 <p><span class="math display">\[
 Re = \frac{\rho u D}{\mu} \quad \text{or} \quad Re = \frac{u D}{\nu}
 \]</span></p>
+</div>
+<div class="fragment">
 <p>where <span class="math inline">\(D\)</span> is the diameter of the pipe, <span class="math inline">\(u\)</span> is the velocity of the fluid, <span class="math inline">\(\rho\)</span> is the density of the fluid, <span class="math inline">\(\mu\)</span> is the dynamic viscosity of the fluid, and <span class="math inline">\(\nu = \mu ⁄ \rho\)</span> , is the kinematic viscosity of the fluid. For <span class="math inline">\(Re\)</span> &lt; 2100, the flow in the pipe is laminar and <span class="math inline">\(f = 64⁄Re\)</span>. For <span class="math inline">\(Re &gt; 2300\)</span> , the flow is <em>turbulent</em>, and <span class="math inline">\(f\)</span> has to be evaluated from a chart called a <em>Moody Chart</em> or <em>Moody Diagram</em>.</p>
+</div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
@@ -201,36 +237,45 @@ Re = \frac{\rho u D}{\mu} \quad \text{or} \quad Re = \frac{u D}{\nu}
 <section id="section-3" class="slide level2">
 <h2></h2>
 <p>To use a Moody chart you have to know the Reynolds number and the Surface Roughness of the inside of the pipe. In addition to the Moody (a.k.a Darcy or Blasius) friction factor, there is another friction factor called the Fanning friction factor, It is also given the symbol <span class="math inline">\(f\)</span>. The relationship is</p>
+<div class="fragment">
 <p><span class="math display">\[
 f_\mathrm{Fanning} = f_\mathrm{Moody}/4.
 \]</span></p>
+</div>
+<div class="fragment">
 <p>Make sure you know which one you are using. Since Wikipedia has a Moody diagram, we’re using the Moody friction factor.</p>
-<p>The mechanical energy balance finds extensive use in transport of an incompressible fluid such as water or oil through pipelines, aqueducts, pumps, turbines, and the like.</p>
+</div>
+<div class="fragment">
+<p><br>The mechanical energy balance finds extensive use in transport of an incompressible fluid such as water or oil through pipelines, aqueducts, pumps, turbines, and the like.</p>
+</div>
 </section>
 <section id="example-problem" class="slide level2">
 <h2>Example Problem</h2>
 <p>Water at <span class="math inline">\(20\ ^\circ\mathrm{C}\)</span> flows at <span class="math inline">\(0.05\ \mathrm{m^3/s}\)</span> in a <span class="math inline">\(20\ \mathrm{cm}\)</span> cast iron pipe. Calculate <span class="math inline">\(\Delta P\)</span> per kilometer.</p>
+<div class="fragment">
 <p>Properties: <span class="math display">\[ \rho = 998 \text{ kg/m}^3, \mu = 1.00 \times 10^{-3} \text{ N s/m}^2.
 \]</span></p>
+</div>
+<div class="fragment">
 <p>Calculate velocity:</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 u = \frac{\dot{V}}{A} = \frac{0.05 \text{ m}^3/\text{s}}{\frac{\pi}{4} (0.20 \text{ m})^2} = 1.59 \text{ m/s}.
 \]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 Re = \frac{\rho u D}{\mu} = \frac{998 \text{ kg/m}^3 \cdot (1.59 \text{ m/s}) \cdot 0.20 \text{ m}}{1.00 \times 10^{-3} \text{ N s/m}^2}
-\]</span> <span class="math inline">\(= 3.18 \times 10^5\)</span></p>
+\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 90%; left: 16.5%; ">
+<p><span class="math inline">\(= 3.18 \times 10^5\)</span></p>
+</div>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
 <p>Look up the surface roughness in the table on the Moody Chart.</p>
-<p><span class="math display">\[
-\varepsilon = 0.15\ \mathrm{mm}
-\]</span></p>
-<p>The most common mistake is to forget to calculate <span class="math inline">\(\frac{\varepsilon}{D}\)</span> from <span class="math inline">\(\varepsilon\)</span>.</p>
-<p><span class="math display">\[
-\frac{\varepsilon}{D} = \frac{0.15 \times 10^{-3} \text{ m}}{0.20 \text{ m}} = 0.00075.
-\]</span></p>
-<p>Use the Moody Chart (for Moody not Fanning friction factor)</p>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
@@ -241,26 +286,61 @@ Re = \frac{\rho u D}{\mu} = \frac{998 \text{ kg/m}^3 \cdot (1.59 \text{ m/s}) \c
 </section>
 <section id="section-6" class="slide level2">
 <h2></h2>
+<p>Look up the surface roughness in the table on the Moody Chart.</p>
+<p><span class="math display">\[
+\varepsilon = 0.15\ \mathrm{mm}
+\]</span></p>
+<div class="fragment">
+<p>The most common mistake is to forget to calculate <span class="math inline">\(\frac{\varepsilon}{D}\)</span> from <span class="math inline">\(\varepsilon\)</span>.</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\frac{\varepsilon}{D} = \frac{0.15 \times 10^{-3} \text{ m}}{0.20 \text{ m}} = 0.00075.
+\]</span></p>
+</div>
+<div class="fragment">
+<p>Use the Moody Chart (for Moody not Fanning friction factor)</p>
+</div>
+</section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+
+<img data-src="Moody_EN.png" class="r-stretch"><div style="font-size: 80px; text-align: center;">
+<p><a href="https://commons.wikimedia.org/wiki/File:Moody_EN.png">Marc.derumaux</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+</div>
+</section>
+<section id="section-8" class="slide level2">
+<h2></h2>
 <p><span class="math display">\[
 f = 0.0195
 \]</span></p>
 <div style="font-size: 95px;">
+<div class="fragment">
 <p><span class="math display">\[
 \hat{F} = f \frac{L}{D} \frac{u^2}{2} = 0.0195 \left( \frac{1000 \text{ m}}{0.2 \text{ m}} \right) \frac{(1.59 \text{ m/s})^2}{2} = 123 \text{ m}^2 / \text{s}^2
 \]</span></p>
 </div>
+</div>
+<div class="fragment">
 <p>Simplify the mechanical energy balance:</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 \Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}}{\dot{m}}
 \]</span></p>
+</div>
 <div style="font-size: 95px;">
+<div class="fragment">
 <p><span class="math display">\[
 \Delta P = - \rho \hat{F} = - \left( 998 \frac{\text{kg}}{\text{m}^3} \right) \left( 123 \frac{\text{m}^2}{\text{s}^2} \right)
 \]</span></p>
 </div>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
 = -123,000 \text{ Pa} = -123 \text{ kPa} = -1.2 \text{ atm}
 \]</span></p>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
@@ -271,7 +351,7 @@ f = 0.0195
 <li class="fragment">For no friction and no shaft work, the mechanical energy balance simplifies to the Bernoulli equation, <span class="math inline">\(\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z = 0\)</span>.</li>
 </ol>
 </section></section>
-<section id="section-7" class="title-slide slide level1 center">
+<section id="section-9" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
@@ -549,13 +629,14 @@ f = 0.0195
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
