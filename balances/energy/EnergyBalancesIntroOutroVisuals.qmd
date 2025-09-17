@@ -26,10 +26,472 @@ An Introduction to The First Law of Thermodynamics
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
 
 ::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Just Try to Break This Law! I Dare You! 
+Just *Try* to Break This Law! I Dare You! 
 :::
 
 ::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 90
+
+::: {style="text-align: center;"}
+The Mechanical Energy Balance
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Add Friction and Work to Bernoulli?</br>Here’s What *Really* Happens! 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 91
+
+::: {style="text-align: center;"}
+Using Thermodynamic Property Tables 1
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Steam: Get the Quality Right</br>AFTER You Table It! Part 1 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 92
+
+::: {style="text-align: center;"}
+Using Thermodynamic Property Tables 2
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Steam: Get the Quality Right</br>AFTER You Table It! Part 2 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 93
+
+::: {style="text-align: center;"}
+∆U and ∆H as Functions of Temperature and Pressure 1
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+The Enthalpy Games:</br>The Ballad of Integrals and Means 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 94
+
+::: {style="text-align: center;"}
+∆U and ∆H as Functions of Temperature and Pressure 2
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+The Enthalpy Games:</br>Sunrise on the Calculations 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 95
+
+::: {style="text-align: center;"}
+Estimating Heat Capacities and Latent Heats
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Feeling the Heat?</br>How to Get Your Best Estimate 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 97
+
+::: {style="text-align: center;"}
+The Psychrometric Charts
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=32% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Dry Bulbs, Wet Bulbs,</br>and My Will to Live:</br>Mastering the Psych Chart 
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 98
+
+::: {style="text-align: center;"}
+Reference States, ∆Hs, ∆Hm 1
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Reference Not Found: Mixing, Dissolving, and Changing the Rules 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 102
+
+::: {style="text-align: center;"}
+The First Law of Thermodynamics for Ideal Gases
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+The Isochronicles:</br>This First Law Saga Is a Gas 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 104
+
+::: {style="text-align: center;"}
+Heats of Reaction, Formation, Combustion
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Germain Hess and the Enthalpy of Doom 
+:::
+
+::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 106
+
+::: {style="text-align: center;"}
+The First Law for Reacting Systems 1
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Chemical Reactions vs. The First Law: Who Wins? 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 110
+
+::: {style="text-align: center;"}
+Fuels and Heating
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Fueling the Fire: The Shocking Truth About Combustion Reactions! 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 111
+
+::: {style="text-align: center;"}
+Energetics of Reactions Example 1
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+React Hard: The First Law Gets Chemical 
+:::
+
+::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 112
+
+::: {style="text-align: center;"}
+Energetics of Reactions Example 2
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+React Harder: Formation Heats</br>and Alternate Endings 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 

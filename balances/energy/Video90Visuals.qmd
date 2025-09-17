@@ -18,10 +18,17 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
 
+## Introduction
 
----
+- Fluid flowing through:
+  - A tube
+  - A pipe
+  - A culvert
+  - A sluice
+- Not gaining or losing energy through heat transfer other than friction
+- The *Mechanical Energy Balance*
 
-## The Mechanical Energy Balance 
+## The Mechanical Energy Balance
 
 If we start with the 1^st^ law for an open steady-state system,
 
