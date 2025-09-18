@@ -32,24 +32,29 @@ DOFPro Team
 
 If we start with the 1^st^ law for an open steady-state system,
 
+:::{.fragment}
 $$
 \dot{m}\Delta(\hat{U}+P\hat{V})+ \dot{m} \Delta \frac{u^2}{2}+\dot{m}g\Delta z -\dot{Q}=\dot{W}_s
 $$
+:::
 
+:::{.fragment}
 and gather the internal energy term with the heat, and assume an incompressible liquid such that
-
+:::
+:::{.fragment}
 $$
 \hat{V} = \frac{1}{\rho}=\mathrm{const}.
 $$
+:::
 
-
+:::{.fragment}
 Then the 1^st^ law becomes
-
+:::
+:::{.fragment}
 $$
 \dot{m} \Delta \frac{P}{\rho} + \dot{m} \Delta \frac{u^2}{2} + \dot{m} g \Delta z + (\dot{m} \Delta \hat{U} - \dot{Q}) = \dot{W}_s
 $$
-
----
+:::
 
 ## 
 
@@ -59,24 +64,28 @@ $$
 
 or dividing through by the mass flow rate
 
+:::{.fragment}
 $$
 \Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \left( \Delta \hat{U} - \frac{\dot{Q}}{\dot{m}} \right) = \frac{\dot{W}_s}{\dot{m}}
 $$
-
+:::
+:::{.fragment}
 If the only heating is through friction, we can call the term in parentheses, the *friction loss*
-
+:::
+:::{.fragment}
 $$
 \hat{F} = \Delta \hat{U} - \frac{\dot{Q}}{\dot{m}}
 $$
-
+:::
+:::{.fragment}
 and the 1^st^ law becomes
-
+:::
+:::{.fragment}
 $$
 \boxed {\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}_s}{\dot{m}}}
 $$
+:::
 
-
----
 
 ## 
 
@@ -86,31 +95,39 @@ $$
 
 If there is no friction loss or shaft work input we have
 
+:::{.fragment}
 $$
 \Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z = 0
 $$
-
+:::
+:::{.fragment}
 which is the Bernoulli equation, that you may have seen in high-school physics.
-
+:::
+:::{.fragment}
 For a circular pipe, the *friction loss* is
-
+:::
+:::{.fragment}
 $$
 \hat{F} = f \frac{L}{D} \frac{u^2}{2}
 $$
-
+:::
+:::{.fragment}
 where $L$ is the length of the pipe, $D$ is the diameter of the pipe,and $u$ is the velocity of the fluid. $f$ is the *Moody friction factor* and
 is a function of the *Reynolds number.* 
+:::
 
 ## The Reynolds number
 
 The Reynolds number is an important dimensionless quantity in fluid mechanics. It is the ratio of momentum to viscous forces. For a pipe, it is calculated as 
 
+:::{.fragment}
 $$
 Re = \frac{\rho u D}{\mu} \quad \text{or} \quad Re = \frac{u D}{\nu}
 $$
-
+:::
+:::{.fragment}
 where $D$ is the diameter of the pipe, $u$ is the velocity of the fluid, $\rho$ is the density of the fluid, $\mu$ is the dynamic viscosity of the fluid, and $\nu = \mu ⁄ \rho$ , is the kinematic viscosity of the fluid. For $Re$ < 2100, the flow in the pipe is laminar and $f = 64⁄Re$. For $Re > 2300$ , the flow is *turbulent*, and $f$ has to be evaluated from a chart called a *Moody Chart* or *Moody Diagram*. 
-
+:::
 
 ## 
 
@@ -126,36 +143,62 @@ where $D$ is the diameter of the pipe, $u$ is the velocity of the fluid, $\rho$ 
 To use a Moody chart you have to know the Reynolds number and the Surface Roughness of the inside of the pipe. In addition to the Moody (a.k.a Darcy or Blasius) friction factor, there is another friction
 factor called the Fanning friction factor, It is also given the symbol $f$. The relationship is 
 
+:::{.fragment}
 $$
 f_\mathrm{Fanning} = f_\mathrm{Moody}/4.
 $$
-
+:::
+:::{.fragment}
 Make sure you know which one you are using. Since Wikipedia has a Moody diagram, we’re using the Moody friction factor.
+:::
 
+:::{style="font-size: 50px;"}
+</br>
+:::
+:::{.fragment}
 The mechanical energy balance finds extensive use in transport of an incompressible fluid such as water or oil through pipelines, aqueducts, pumps, turbines, and the like.
+:::
 
-
----
 
 ## Example Problem
 
 Water at $20\ ^\circ\mathrm{C}$ flows at $0.05\ \mathrm{m^3/s}$ in a $20\ \mathrm{cm}$ cast iron pipe. Calculate $\Delta P$ per kilometer. 
 
+:::{.fragment}
 Properties: 
 $$ \rho = 998 \text{ kg/m}^3, \mu = 1.00 \times 10^{-3} \text{ N s/m}^2.
 $$
+:::
 
-
+:::{.fragment}
 Calculate velocity:
-
+:::
+:::{.fragment}
 $$
 u = \frac{\dot{V}}{A} = \frac{0.05 \text{ m}^3/\text{s}}{\frac{\pi}{4} (0.20 \text{ m})^2} = 1.59 \text{ m/s}.
 $$
-
+:::
+:::{.fragment}
 $$
 Re = \frac{\rho u D}{\mu} = \frac{998 \text{ kg/m}^3 \cdot (1.59 \text{ m/s}) \cdot 0.20 \text{ m}}{1.00 \times 10^{-3} \text{ N s/m}^2}
 $$
-$= 3.18 \times 10^5$
+:::
+:::{.fragment}
+$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 3.18 \times 10^5$
+:::
+
+## 
+
+Look up the surface roughness in the table on the Moody Chart.
+
+## 
+
+
+![](Moody_EN.png)
+
+:::{style="font-size: 80px; text-align: center;"}
+<a href="https://commons.wikimedia.org/wiki/File:Moody_EN.png">Marc.derumaux</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+:::
 
 ## 
 
@@ -165,15 +208,17 @@ $$
 \varepsilon = 0.15\ \mathrm{mm}
 $$
 
+:::{.fragment}
 The most common mistake is to forget to calculate $\frac{\varepsilon}{D}$ from $\varepsilon$.
-
+:::
+:::{.fragment}
 $$
 \frac{\varepsilon}{D} = \frac{0.15 \times 10^{-3} \text{ m}}{0.20 \text{ m}} = 0.00075.
 $$
-
+:::
+:::{.fragment}
 Use the Moody Chart (for Moody not Fanning friction factor) 
-
-
+:::
 
 ## 
 
@@ -193,27 +238,35 @@ $$
 
 
 :::{style="font-size: 95px;"}
+:::{.fragment}
 $$
 \hat{F} = f \frac{L}{D} \frac{u^2}{2} = 0.0195 \left( \frac{1000 \text{ m}}{0.2 \text{ m}} \right) \frac{(1.59 \text{ m/s})^2}{2} = 123 \text{ m}^2 / \text{s}^2
 $$
 :::
+:::
 
+:::{.fragment}
 Simplify the mechanical energy balance:
-
+:::
+:::{.fragment}
 $$
 \Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}}{\dot{m}}
 $$
-
+:::
 
 :::{style="font-size: 95px;"}
+:::{.fragment}
 $$
 \Delta P = - \rho \hat{F} = - \left( 998 \frac{\text{kg}}{\text{m}^3} \right) \left( 123 \frac{\text{m}^2}{\text{s}^2} \right)
 $$
 :::
+:::
 
+:::{.fragment}
 $$
 = -123,000 \text{ Pa} = -123 \text{ kPa} = -1.2 \text{ atm}
 $$
+:::
 
 ## The Takeaways
 
