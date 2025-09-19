@@ -137,11 +137,12 @@
 <section id="the-first-law-of-thermodynamics" class="slide level2">
 <h2>The First Law of Thermodynamics</h2>
 <ul>
-<li class="fragment">Energy balances
+<li class="fragment">An introduction to the First Law of Thermodynamics</li>
+<li class="fragment">The basics of doing energy balances
 <ul>
 <li class="fragment">Steady-state open systems</li>
 <li class="fragment">Closed systems</li>
-<li class="fragment">Transient open systems</li>
+<li class="fragment">Transient open systems.</li>
 </ul></li>
 </ul>
 </section>
@@ -152,7 +153,7 @@
 <p>The First Law is the General Balance Equation applied to energy.</p>
 </div>
 <div class="fragment">
-<div style="font-size: 90px;">
+<div style="font-size: 95px;">
 <p><span class="math display">\[
 \mathrm{Input + Generation = Output + Consumption + Accumulation}
 \]</span></p>
@@ -172,8 +173,9 @@
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<div class="fragment">
-<p>For using the First Law in calculations, you must first define your system, and in particular your system boundary. <br><br></p>
+<p>For using the First Law in calculations, you must first define your system, and in particular your system boundary.</p>
+<div style="font-size: 60px;">
+<p><br></p>
 </div>
 <div class="fragment">
 <p>Work, <span class="math inline">\(W\)</span>, is performed by a force acting through a distance. In differential form (thanks to the chemists):</p>
@@ -184,7 +186,10 @@
 \]</span></p>
 </div>
 <div class="fragment">
-<p>For closed systems, work is energy crossing the system boundary due to deformation of the boundary. <br><br></p>
+<p>For closed systems, work is energy crossing the system boundary due to deformation of the boundary.</p>
+</div>
+<div style="font-size: 60px;">
+<p><br></p>
 </div>
 <div class="fragment">
 <p>If there is a pressure, <span class="math inline">\(P\)</span>, being exerted on the system by its surroundings over an area, <span class="math inline">\(A\)</span>, and the area is displaced by a distance, <span class="math inline">\(dx\)</span>, then we have:</p>
@@ -203,11 +208,14 @@ PA = F,\ \ \ \ -dW=Fdx=PAdx=P(Adx)=PdV
 W = -\int P dV
 \]</span></p>
 </div>
-<div style="font-size: 90px;">
 <div class="fragment">
 <p>Next is heat, <span class="math inline">\(Q\)</span>, which is energy crossing the system boundary due to a temperature difference.</p>
 </div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
 <div class="fragment">
+<div style="font-size: 85px;">
 <p>Thermodynamics was developed by engineers to describe heat engines (things that convert heat to work). They desired to put heat <em>in</em> and get work <em>out</em>, so historically, heat <em>into</em> a system was positive, and work <em>out</em> of a system was positive. Unfortunately, this concept was too confusing to the chemists. Therefore almost all chemical engineering texts now define heat or work <em>into</em> a system as <em>positive</em>, and heat or work <em>out</em> of a system as <em>negative</em>. Watch out when using Mechanical Engineering texts, since they have largely not made the switch.</p>
 </div>
 </div>
@@ -215,7 +223,7 @@ W = -\int P dV
 <section id="section-2" class="slide level2">
 <h2></h2>
 <p>Energy may be stored in things as</p>
-<div style="font-size: 95px">
+<div style="font-size: 80px;">
 <ul>
 <li class="fragment">Position in a conservative field (potential energy, <span class="math inline">\(E_p = mgz\)</span>)</li>
 <li class="fragment">Velocity in a reference frame (kinetic energy, <span class="math inline">\(E_k = mu^2/2\)</span>)</li>
@@ -224,11 +232,9 @@ W = -\int P dV
 <div class="fragment">
 <p>Note that for all of these energy forms, the value is relative to some 0 reference.</p>
 </div>
-</div>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>Because we are using <span class="math inline">\(V\)</span> and <span class="math inline">\(v\)</span> for other things, velocity is given the symbol, <span class="math inline">\(u\)</span>, and internal energy is given the symbol, <span class="math inline">\(U\)</span>. Don’t get them confused.</p></li></ol></aside></section>
-<section id="section-3" class="slide level2">
-<h2></h2>
+<div class="fragment">
 <p>For a closed system the First Law can be written in differential form as</p>
+</div>
 <div class="fragment">
 <p><span class="math display">\[
 \boxed{dU + dE_p+dE_k = dQ + dW}
@@ -245,25 +251,32 @@ W = -\int P dV
 <div class="fragment">
 <p>Much of the work in a First Law problem is deciding which terms are zero or insignificant.</p>
 </div>
-</section>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Because we are using <span class="math inline">\(V\)</span> and <span class="math inline">\(v\)</span> for other things, velocity is given the symbol, <span class="math inline">\(u\)</span>, and internal energy is given the symbol, <span class="math inline">\(U\)</span>. Don’t get them confused.</p></li></ol></aside></section>
 <section id="intensive-and-extensive-properties" class="slide level2">
 <h2>Intensive and Extensive Properties</h2>
-<div style="font-size:95px ;">
-<p>A property of a substance that <em>does not</em> depend on the mass or moles of a substance is an <em>intensive</em> property (such as temperature, pressure, or composition). <br><br></p>
+<p>A property of a substance that <em>does not</em> depend on the mass or moles of a substance is an <em>intensive</em> property (such as temperature, pressure, or composition).</p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
 <div class="fragment">
-<p>A property of a substance that <em>does</em> depend on the mass or moles of a substance is an <em>extensive</em> property (such as volume, kinetic energy, or internal energy). <br><br></p>
+<p>A property of a substance that <em>does</em> depend on the mass or moles of a substance is an <em>extensive</em> property (such as volume, kinetic energy, or internal energy).</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
 </div>
 <div class="fragment">
 <p>It is quite frequently useful to define an intensive property that is related to an extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume or specific internal energy,</p>
-</div>
 </div>
 <div class="fragment">
 <p><span class="math display">\[\hat{V} = \frac{V}{m},\ \ \ \ \hat{U}=\frac{U}{m}\]</span></p>
 </div>
 </section>
-<section id="enthalpy-pronounced-en-thal-pee" class="slide level2 bigbold90">
-<h2>Enthalpy (pronounced en-THAL-pee)</h2>
-<div style="font-size: 110px">
+<section id="section-3" class="slide level2">
+<h2></h2>
+<div style="font-size: 140px;">
+<p><strong>Enthalpy (pronounced <em>en-THAL-pee</em>)</strong></p>
+</div>
 <p><em>Enthalpy</em>, <span class="math inline">\(H\)</span>, is a defined quantity that is quite useful in simplifying formulas. It is defined as</p>
 <div class="fragment">
 <p><span class="math display">\[
@@ -281,7 +294,6 @@ H \equiv U + PV
 <div class="fragment">
 <p>One example where enthalpy is useful is where a closed system doesn’t change velocity or position and is maintained at constant pressure (like in a beaker in a laboratory).</p>
 </div>
-</div>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
@@ -295,11 +307,11 @@ H \equiv U + PV
 <p>to</p>
 </div>
 <div class="fragment">
+<div style="font-size: 90px;">
 <p><span class="math display">\[
-\Delta U = U_\mathrm{final} - U_\mathrm{initial} = Q + W
-\]</span> <span class="math display">\[
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = Q - \int\limits_\mathrm{initial}^\mathrm{final} pdV = Q-P \int\limits_\mathrm{initial}^\mathrm{final} dV
+\Delta U = U_\mathrm{final} - U_\mathrm{initial} = Q + W = Q - \int\limits_\mathrm{initial}^\mathrm{final} pdV = Q-P \int\limits_\mathrm{initial}^\mathrm{final} dV
 \]</span></p>
+</div>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
@@ -332,12 +344,12 @@ U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial
 <li class="fragment"><em>shaft work</em>, work done by or on a shaft crossing the system boundary, such as to a turbine (electricity counts),</li>
 <li class="fragment"><em>flow work</em>, work done on or by the system to push the flowing fluid into or out of the system.</li>
 </ul>
-<div class="fragment absolute" style="top: 63%; left: 25%; ">
+<div class="fragment">
 <p><span class="math display">\[
 \dot{W} =  \dot{W}_\mathrm{s} + \dot{W}_\mathrm{fl}
 \]</span></p>
 </div>
-<div class="fragment absolute" style="top: 75%; left: 23%; ">
+<div class="fragment">
 <p><span class="math display">\[
 \dot{W}_\mathrm{fl} = -\sum_\mathrm{outputs} P_{i}\dot{V}_i + \sum_\mathrm{inputs}P_{j}\dot{V}_j
 \]</span></p>
@@ -352,7 +364,9 @@ U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial
 \]</span></p>
 </div>
 <div class="fragment">
+<div style="font-size: 95px;">
 <p>and separates the work into shaft work and flow work, and combines the flow work with the internal energy, one arrives at</p>
+</div>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
@@ -362,13 +376,19 @@ U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial
 <div class="fragment">
 <p>which is the normal version of the first law for an open steady-state system.</p>
 </div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
 <div class="fragment">
-<p><strong>Remember</strong> <span class="math inline">\(\Delta\)</span> means <em>final</em> – <em>initial</em> for closed systems and<br><em>out – in</em> for open systems. If you have multiple streams, you must sum over all of the streams.</p>
+<p><strong>Remember</strong> <span class="math inline">\(\Delta\)</span> means <em>final</em> – <em>initial</em> for closed systems and<br> <em>out – in</em> for open systems. If you have multiple streams, you must sum over all of the streams.</p>
 </div>
 </section>
 <section id="section-7" class="slide level2">
 <h2></h2>
 <p>For an <strong>open transient system</strong>, the first law is</p>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
 <div class="fragment">
 <div style="font-size: 75px;">
 <p><span class="math display">\[
@@ -376,8 +396,14 @@ U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial
 \]</span></p>
 </div>
 </div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
 <div class="fragment">
 <p>which on a mass basis is</p>
+</div>
+<div style="font-size: 60px;">
+<p><br></p>
 </div>
 <div class="fragment">
 <div style="font-size: 66px;">
@@ -386,11 +412,17 @@ U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial
 \]</span></p>
 </div>
 </div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
 <div class="fragment">
 <p>or on a mole basis is</p>
 </div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div style="font-size: 67px;">
 <div class="fragment">
-<div style="font-size: 67.5px;">
 <p><span class="math display">\[
 \boxed{\frac{d}{dt}[n(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_i + \sum_\mathrm{in} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p)}
 \]</span></p>
@@ -405,40 +437,34 @@ U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial
 <li class="fragment">No change in velocity, then <span class="math inline">\(\Delta E_k = 0\)</span></li>
 <li class="fragment">Adiabatic or insulated, then <span class="math inline">\(Q=0\)</span></li>
 <li class="fragment">Volume remains constant, closed system, then <span class="math inline">\(W=0\)</span></li>
-<li class="fragment">No shafts cross boundary e.g., from a turbine, compressor, or pump, open system, then <span class="math inline">\(W_s = 0\)</span></li>
+<li class="fragment">No shafts cross boundary e.g., from a turbine, compressor, or pump, open system, then <span class="math inline">\(\dot{W}_s = 0\)</span></li>
 <li class="fragment">Ideal gas, no chemical reaction, <span class="math inline">\(T\)</span> = const., then <span class="math inline">\(\Delta U = 0\)</span>, <span class="math inline">\(\Delta H = 0\)</span></li>
 </ul>
 </section>
 <section id="approximations" class="slide level2">
 <h2>Approximations</h2>
-<p>These approximations are usually pretty good, but recognize that they are approximations.</p>
+<p>These approximations are usually pretty good, but recognize that they are approximations.<br><br></p>
 <ul>
-<li class="fragment"><p>Evaporation, Condensation, Chemical Reaction, Large Temperature Changes, then <span class="math inline">\(\Delta E_k \approx 0, \Delta E_p \approx 0, W \approx 0\)</span></p></li>
-<li class="fragment"><p>Solid or liquid, no chemical reaction, <span class="math inline">\(T = \mathrm{constant}\)</span>, <span class="math inline">\(\Delta P = \mathrm{small}\)</span>, then <span class="math inline">\(\Delta U = 0\)</span>, <span class="math inline">\(\Delta H = 0\)</span></p></li>
+<li class="fragment"><p>Evaporation, Condensation, Chemical Reaction, Large Temperature Changes, then <span class="math inline">\(\Delta E_k \approx 0, \Delta E_p \approx 0, W \approx 0\)</span><br><br></p></li>
+<li class="fragment"><p>Solid or liquid, no chemical reaction, <span class="math inline">\(T = \mathrm{constant}\)</span>, <span class="math inline">\(\Delta P = \mathrm{small}\)</span>, then <span class="math inline">\(\Delta U \approx 0\)</span>, <span class="math inline">\(\Delta H \approx 0\)</span></p></li>
 </ul>
 </section>
 <section id="remember" class="slide level2">
 <h2>Remember</h2>
+<p><br><span class="math inline">\(\Delta\)</span> means <em>final-initial</em> or <em>out-in</em></p>
 <div class="fragment">
-<p><br><span class="math inline">\(\Delta\)</span> means <em>final-initial</em> or <em>out-in</em><br><br></p>
+<p><br><strong>State Variable:</strong> Value depends only on location or “<em>state.</em>” Does not depend on path.</p>
+<p>Common State Variables: <span class="math inline">\(H\)</span>, <span class="math inline">\(T\)</span>, <span class="math inline">\(U\)</span>, <span class="math inline">\(V\)</span>, <span class="math inline">\(m\)</span>, etc.</p>
 </div>
 <div class="fragment">
-<p><strong>State Variable:</strong> Value depends only on location or “<em>state.</em>” Does not depend on path.</p>
-</div>
-<div class="fragment">
-<p>Common State Variables: <span class="math inline">\(H\)</span>, <span class="math inline">\(T\)</span>, <span class="math inline">\(U\)</span>, <span class="math inline">\(V\)</span>, <span class="math inline">\(m\)</span>, etc.<br><br></p>
-</div>
-<div class="fragment">
-<p><strong>Path Variable:</strong> Value depends only on path. Does not depend on location.</p>
-</div>
-<div class="fragment">
-<p>Common Path Variables: <span class="math inline">\(Q\)</span>, <span class="math inline">\(W\)</span>.<br><br></p>
+<p><br><strong>Path Variable:</strong> Value depends only on path. Does not depend on location.</p>
+<p>Common Path Variables: <span class="math inline">\(Q\)</span>, <span class="math inline">\(W\)</span>.</p>
 </div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">The First Law of Thermodynamics states energy cannot be created or destroyed. It can only change form.</li>
+<li class="fragment">The First Law of Thermodynamics states that energy cannot be created or destroyed. It can only change form.</li>
 <li class="fragment">You can always rederive the forms, but it’s best to memorize the First Law for closed systems, open steady-state systems, and open transient systems.</li>
 <li class="fragment">Much of the work in a First-Law problem is deciding which terms to keep and which to set to zero.</li>
 </ol>
