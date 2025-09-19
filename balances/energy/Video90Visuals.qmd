@@ -217,7 +217,7 @@ $$
 $$
 :::
 :::{.fragment}
-Use the Moody Chart (for Moody not Fanning friction factor) 
+Use the Moody Chart (for Moody not Fanning friction factor)
 :::
 
 ## 
