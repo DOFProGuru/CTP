@@ -4,14 +4,14 @@ author: "DOFPro group"
 format: html
 ---
 
-Links to the current videos on YouTube will be maintained here. These are current as of 2025-09-09.
+Links to the current videos on YouTube will be maintained here. These are current as of 2025-08-01.
 
 # Table of Videos
 
 | Vid. \# | Title | JTF Link | TFS Link | Info Page | Subject|
 |---------|-------|----------|----------|-----------|--------|
 | 5 | How Deviant and Mean Are Your Data? Intro and Basics Part 1 | [Link](https://youtu.be/ksg4Babav6o) | No | [Page](../stats/BasicStatisticsWebPage.qmd) | Mean ($\mu,\ \bar{x}$) and Standard Deviation ($\sigma,\ S$)|
-| 5A | How Deviant and Mean Are Your Data? Part 2 | [Link](https://youtu.be/hybGh8oPU_0) | No | [Page](../stats/BasicStatisticsWebPage.qmd) | Standard Error ($S_{\bar{x}}$) and Confidence Interval ($2\lambda$) |
+| 5A | How Deviant and Mean Are Your Data? Part 2 | [Link](https://youtu.be/cBOrE6eV-AE) | No | [Page](../stats/BasicStatisticsWebPage.qmd) | Standard Error ($S_{\bar{x}}$) and Confidence Interval ($2\lambda$) |
 | 6 | Basics Statistics by Hand | [Link](https://youtu.be/h7WoWiVLzaw) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ by hand|
 | 7 | Basic Statistics on a Spreadsheet | [Link](https://youtu.be/RZ1kFVLvSxY) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with a spreadsheet|
 | 9 | Basic Statistics in R | [Link](https://youtu.be/va7O78QdYLk) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R|
@@ -20,17 +20,17 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 23 | No Clear Interpretation a Mind-Blowing Math Hack | [Link](https://youtu.be/721FxKwDRAU) | No | [Page](../calculations/InterpolationWebPage.qmd) | Nonlinear Interpolation |
 | 25 | How to Have a Quickie with Your Data Part 1 | [Link](https://youtu.be/4EfhlWNDQ48) | No | [Page] | $\bar{x}$, $S_{\bar{x}}$, Linear Least Squares |
 | 26 | How to Have a Quickie with Your Data Part 2 | [Link](https://youtu.be/dVmh0EdQT1U) | No | [Page]| Nonlinear least squares |
-| 27 | Is Furlongs Per Fortnight a Thing? | [Link](https://youtu.be/Rmv1jLhdQ0I) | No | [Page](../processdata/DimensionalEquationsWebPage.qmd) | Unit Conversion |
+| 27 | Is Furlongs Per Fortnight a Thing? | [Link](https://youtu.be/5EbL9MEro9E) | No | [Page](../processdata/DimensionalEquationsWebPage.qmd) | Unit Conversion |
 | 28 | How Keen Is Your Rank? | [Link](https://youtu.be/XKwl41MvFcE) | No | [Page](../processdata/ConvertingTemperatureWebPage.qmd) | Temperature Conversion |
-| 29 | The Most Annoying Equation Conversion | [Link](https://youtu.be/JE4llgDsy9E) | No | [Page] | Unit Conversion of Equations |
+| 29 | The Most Annoying Equation Conversion | [Link](https://youtu.be/6dyg-CgAm8s) | No | [Page] | Unit Conversion of Equations |
 | 30 | Where Does Sherwood Hide His Unit? Principles| [Link](https://youtu.be/A348vNv5t9c)| No | [Page] | Dimensionless Numbers Principles |
 | 31 | What the Schmidt? Examples | [Link](https://youtu.be/74SD0k_qBc8) | No | [Page] | Applications of Dimensionless Numbers |
 | 33 | Under Pressure Part 1 | [Link](https://youtu.be/9gbOE5zEt4o) | No | [Page](../processdata/PressureWebPage.qmd) | Pressure Basics |
 | 34 | Under Pressure Part 2 | [Link](https://youtu.be/CR3MomWlqb8) | No | [Page](../processdata/PressureWebPage.qmd) | Abs., Atm., Gauge, Barometric Pressure |
 | 35 | What is a Mole? | [Link](https://youtu.be/wbEkZmjNtwI) | [Link](https://youtu.be/CohvkBV_iWA) | [Page](../processdata/WhatIsAMoleWebPage.qmd) | What a mole is |
-| 36 | What the Frac? | [Link](https://youtu.be/Tdeuf0quJUs) | No | [Page](../processdata/MassMolesWebPage.qmd) | Mass, Moles, Mass Fractions, Mole Fractions |
+| 36 | What the Frac? | [Link](https://youtu.be/JPGhnx8NUKQ) | No | [Page](../processdata/MassMolesWebPage.qmd) | Mass, Moles, Mass Fractions, Mole Fractions |
 | 37 | Are You Dense? Crank Up the Volume and Go With the Flow! | [Link](https://youtu.be/AFZWZSJ96g8) | No | [Page] | Mass, Moles, Density, Volume, and Flow Rates|
-| 38 | How to Keep Your Balance | [Link](https://youtu.be/mEodkChctgM) | No | [Page] | System Definition and the General Balance Equation|
+| 38 | How to Keep Your Balance | [Link](https://youtu.be/-fjXc-Upxx4) | No | [Page] | System Definition and the General Balance Equation|
 | 39 | Speed Balancing | [Link](https://youtu.be/Pmp2IxgL9FM) | No | [Page] | General Balance Equation Definitions and Suggestions|
 | 40 | Gotta Keep ‘Em Separated | [Link](https://youtu.be/pRg1m0_9Psg) | No | [Page] | Mixer, Divider, and Separator mole balances|
 | 41 | When You Saw It, What Was the Extent of Your Reaction? Part 1 | [Link](https://youtu.be/HKYYp5UxwpA) | No | [Page] | Chemical Reactor Single Reaction, $\xi$ and $f_{\mathrm{A}}$|
@@ -46,15 +46,19 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 55 | React But Maintain Your Equilibrium Part 2 | [Link](https://youtu.be/GI8tuSRrIcc) | No | [Page] | Equilibrium reactor example|
 | 59 | Flame On, Torch! | [Link](https://youtu.be/G2sKW_6N2BA) | No | [Page] | Equilibrium reactor example|
 | 60 | A Combustible Mixture! | [Link](https://youtu.be/hvIk-evMp88) | No | [Page] | Equilibrium reactor example|
-| 61 | Alcohol and Water DO Mix! | [Link](https://youtu.be/m88z25JDA50) | No | [Page] | Liquid and Solid Density Calculations |
+| 61 | Alcohol and Water DO Mix! | [Link](https://youtu.be/_tjYMjWR4fE) | No | [Page] | Liquid and Solid Density Calculations |
 | 62 | Ideal Gases EXPOSED: Are They Even Real?!! | [Link](https://youtu.be/L-DEw6dGRps) | No | [Page] | Basics of $P V = n R T$|
 | 63 | When Getting Gassed Isn’t Ideal, Part 1 | [Link](https://youtu.be/1sU4_YdcKr4) | No | [Page] | Real gas intro |
 | 64 | When Getting Gassed Isn’t Ideal, Part 2 | [Link](https://youtu.be/Q6ZK_Ou967o) | No | [Page] | Real gas example |
 | 65 | REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1 | [Link](https://youtu.be/yI3jj1jCSAM) | No | [Page] | Explanation of Kay's Rule and DWSIM for real gas mixtures |
-| 66 | REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2 | [Link](https://youtu.be/bPW4B_Dj868) | No | [Page] | Example of Kay's Rule and DWSIM for real gas mixtures |
+| 66 | REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2 | [Link](https://youtu.be/Pbizi39c1Rk) | No | [Page] | Example of Kay's Rule and DWSIM for real gas mixtures |
 | 67 | Solving Nonlinear Equations with Spreadsheets | [link](https://youtu.be/SaI2qdu1wSE) | No | [Page] | See Title |
 | 73 | Oh, Henry! | [link](https://youtu.be/dCOQy1C7yf0) | No | [Page] | Gas-Liquid Equilibrium with one condensible component |
-| 74 | Dew Your Bubbles Have Flash? Part 1 | [Link](https://youtu.be/R4bimpGAV7o) | No | [Page] | Raoult's law, BUBL P, DEW P |
+| 74 | Dew Your Bubbles Have Flash? Part 1 | [Link](https://youtu.be/vSkSRi6HYVQ) | No | [Page] | Raoult's law, BUBL P, DEW P |
 | 75 | Dew Your Bubbles Have Flash? Part 2 | [Link](https://youtu.be/9GyrfJzg-tg) | No | [Page] | BUBL T, DEW T |
 | 75A| Dew Your Bubbles Have Flash? Part 3 | [Link](https://youtu.be/bG15qQ9gB4c) | No | [Page] | FLASH, *Pxy*, *Txy* |
-
+| 85| The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 1 | [Link](https://youtu.be/bY9fl5DJzmk) | No | [Page] | Equilibrium Stage Equations |
+| 86| The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2 | [Link](https://youtu.be/wc6gv7lNtI0) | No | [Page] | Distillation Examples: Binary Phase Diagram, Raoult's law |
+| 86A| The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3 | [Link](https://youtu.be/jcChVoELvFo) | No | [Page] | Liquid-Liquid Extraction Example |
+| 88| Using DWSIM to Create Binary Phase Diagrams | [Link](https://youtu.be/5NUchIg8q7E) | No | [Page] | DWSIM, Binary Phase Diagrams |
+| 89| Just Try to Break This Law! I Dare You!  | [Link](https://youtu.be/ZHWT9Jw7fzY) | No | [Page] | Intro to 1st Law |
