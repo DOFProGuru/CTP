@@ -18,19 +18,26 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
 
+## Introduction
 
----
+- Fluid flowing through:
+  - A tube
+  - A pipe
+  - A culvert
+  - A sluice
+- Not gaining or losing energy through heat transfer other than friction
+- The *Mechanical Energy Balance*
 
-## The Mechanical Energy Balance 
+## The Mechanical Energy Balance
 
-:::{.fragment}
 If we start with the 1^st^ law for an open steady-state system,
-:::
+
 :::{.fragment}
 $$
 \dot{m}\Delta(\hat{U}+P\hat{V})+ \dot{m} \Delta \frac{u^2}{2}+\dot{m}g\Delta z -\dot{Q}=\dot{W}_s
 $$
 :::
+
 :::{.fragment}
 and gather the internal energy term with the heat, and assume an incompressible liquid such that
 :::
@@ -78,6 +85,7 @@ $$
 \boxed {\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}_s}{\dot{m}}}
 $$
 :::
+
 
 ## 
 
@@ -143,16 +151,21 @@ $$
 :::{.fragment}
 Make sure you know which one you are using. Since Wikipedia has a Moody diagram, we’re using the Moody friction factor.
 :::
-:::{.fragment}
-</br>The mechanical energy balance finds extensive use in transport of an incompressible fluid such as water or oil through pipelines, aqueducts, pumps, turbines, and the like.
+
+:::{style="font-size: 50px;"}
+</br>
 :::
+:::{.fragment}
+The mechanical energy balance finds extensive use in transport of an incompressible fluid such as water or oil through pipelines, aqueducts, pumps, turbines, and the like.
+:::
+
 
 ## Example Problem
 
 Water at $20\ ^\circ\mathrm{C}$ flows at $0.05\ \mathrm{m^3/s}$ in a $20\ \mathrm{cm}$ cast iron pipe. Calculate $\Delta P$ per kilometer. 
 
 :::{.fragment}
-Properties:
+Properties: 
 $$ \rho = 998 \text{ kg/m}^3, \mu = 1.00 \times 10^{-3} \text{ N s/m}^2.
 $$
 :::
@@ -170,8 +183,8 @@ $$
 Re = \frac{\rho u D}{\mu} = \frac{998 \text{ kg/m}^3 \cdot (1.59 \text{ m/s}) \cdot 0.20 \text{ m}}{1.00 \times 10^{-3} \text{ N s/m}^2}
 $$
 :::
-:::{.fragment .absolute top=90% left=16.5%}
-$= 3.18 \times 10^5$
+:::{.fragment}
+$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 3.18 \times 10^5$
 :::
 
 ## 
@@ -179,6 +192,7 @@ $= 3.18 \times 10^5$
 Look up the surface roughness in the table on the Moody Chart.
 
 ## 
+
 
 ![](Moody_EN.png)
 
@@ -202,14 +216,15 @@ $$
 \frac{\varepsilon}{D} = \frac{0.15 \times 10^{-3} \text{ m}}{0.20 \text{ m}} = 0.00075.
 $$
 :::
-
 :::{.fragment}
-Use the Moody Chart (for Moody not Fanning friction factor) 
+Use the Moody Chart (for Moody not Fanning friction factor)
 :::
 
 ## 
 
+
 ![](Moody_EN.png)
+
 
 :::{style="font-size: 80px; text-align: center;"}
 <a href="https://commons.wikimedia.org/wiki/File:Moody_EN.png">Marc.derumaux</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
@@ -246,6 +261,7 @@ $$
 $$
 :::
 :::
+
 :::{.fragment}
 $$
 = -123,000 \text{ Pa} = -123 \text{ kPa} = -1.2 \text{ atm}
