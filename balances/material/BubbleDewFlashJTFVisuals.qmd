@@ -18,6 +18,15 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
 
+## Introduction
+
+- The five most common vapor-liquid phase equilibrium calculations
+- Performed on binary Txy and Pxy phase diagrams
+  - Bubble P (BUBL P)
+  - Dew P (DEW P)
+  - Bubble T (BUBL T)
+  - Dew T (DEW T)
+  - Flash (FLASH)
 
 ## *Txy* and *Pxy* Binary Phase Diagrams
 
@@ -182,15 +191,15 @@ Low Boiling<br/>Azeotrope
 Overall<br/> Composition
 :::
 
-:::{.fragment .absolute top=27% left=22%}
+:::{.absolute top=27% left=22%}
 Subcooled<br/>Liquid
 :::
 
-:::{.fragment .absolute top=45% left=47%}
+:::{.absolute top=45% left=47%}
 Superheated<br/>Vapor
 :::
 
-:::{.fragment .absolute top=40% left=38%}
+:::{.absolute top=40% left=38%}
 $2\text{–}\phi$
 :::
 
@@ -214,17 +223,24 @@ Vapor<br/> Composition
 $a$
 :::
 
+:::{.fragment .absolute top=55% left=55%}
+$a \approx 0.20 - 0.12 = 0.08$
+:::
+
 :::{.fragment .absolute top=47.5% left=38%}
 $b$
 :::
 
-
-:::{.fragment .absolute top=55% left=60%}
-$\mathcal{V} = \dfrac{a}{a+b}$
+:::{.fragment .absolute top=60% left=55%}
+$b \approx 0.37-0.20 = 0.17$
 :::
 
-:::{.fragment .absolute top=65% left=60%}
-$\mathcal{L} = 1-\mathcal{V} = \dfrac{b}{a+b}$
+:::{.fragment .absolute top=65% left=55%}
+$\mathcal{V} = \dfrac{a}{a+b} \approx 32\%$
+:::
+
+:::{.fragment .absolute top=70% left=55%}
+$\mathcal{L} = 1-\mathcal{V} = \dfrac{b}{a+b} \approx 68\%$
 :::
 
 :::
@@ -253,9 +269,6 @@ Superheated<br/>Vapor
 $2\text{–}\phi$
 :::
 
-:::{.fragment .absolute top=14.5% left=27%}
-Overall<br/> Composition
-:::
 
 :::{.fragment .absolute top=16% left=52.5%}
 Flash Pressure
@@ -277,17 +290,24 @@ Vapor<br/> Composition
 $a$
 :::
 
+:::{.fragment .absolute top=25% left=45%}
+$a \approx 0.20 - 0.12 = 0.08$
+:::
+
 :::{.fragment .absolute top=54% left=38%}
 $b$
 :::
 
-
-:::{.fragment .absolute top=25% left=60%}
-$\mathcal{V} = \dfrac{a}{a+b}$
+:::{.fragment .absolute top=30% left=45%}
+$b \approx 0.37-0.20 = 0.17$
 :::
 
-:::{.fragment .absolute top=35% left=60%}
-$\mathcal{L} = 1-\mathcal{V} = \dfrac{b}{a+b}$
+:::{.fragment .absolute top=35% left=45%}
+$\mathcal{V} = \dfrac{a}{a+b} \approx 32\%$
+:::
+
+:::{.fragment .absolute top=41% left=45%}
+$\mathcal{L} = 1-\mathcal{V} = \dfrac{b}{a+b} \approx 68\%$
 :::
 
 :::

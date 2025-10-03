@@ -286,7 +286,7 @@ For organic compounds
 
 <br/>
 
-| Gas Type | $C_p$ | $C_v$ |
+| Gas Type | $C_v$ | $C_p$ |
 |----------|-------|-------|
 |Monatomic |$\frac{3}{2}R$|$\frac{5}{2}R$|
 | Diatomic |$\frac{5}{2}R$|$\frac{7}{2}R$|

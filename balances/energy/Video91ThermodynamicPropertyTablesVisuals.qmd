@@ -178,12 +178,19 @@ of saturated water and saturated steam at $5.0$ bar?
 **In the two-phase region (saturated steam and water)**
 :::
 
- * We know the properties of the two phases.
- * What is the property of the overall mixture?
- * Define the quality.
- * $\ \ \ \ x = \dfrac{m_\mathrm{steam}}{m_\mathrm{steam} + m_\mathrm{water}} = \dfrac{m_\mathrm{steam}}{m_\mathrm{total}}$
- * What is the pressure and specific internal energy of a mixture of steam and water at $88\ ^\circ\mathrm{C}$ and a quality of $80\%$?
- * What is the quality of a mixture of steam and water at $0.65017$ bar, and a specific enthalpy of $2000\ \mathrm{kJ/kg}$?
+* We know the properties of the two phases.
+
+* What is the property of the overall mixture?
+
+* Define the quality.</br></br>
+
+* $\ \ \ \ x \equiv \dfrac{m_\mathrm{steam}}{m_\mathrm{steam} + m_\mathrm{water}} = \dfrac{m_\mathrm{steam}}{m_\mathrm{total}}$
+
+:::{style="font-size: 100px;"}
+* What is the pressure and specific internal energy of a mixture of steam and water at $88\ ^\circ\mathrm{C}$ and a quality of $80\%$?
+:::
+ 
+* What is the quality of a mixture of steam and water at $0.65017$ bar, and a specific enthalpy of $2000\ \mathrm{kJ/kg}$?
 
 ## 
 

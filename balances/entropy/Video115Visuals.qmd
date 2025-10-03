@@ -290,9 +290,9 @@ Minimum work for $\Delta \hat{S} = 0$
 <br/>
 :::
 
-:::{.fragment}
+
 $\dot{W}_s = \dot{m} C_p \Delta T$
-:::
+
 :::{style="font-size: 80px;"}
 <br/>
 :::

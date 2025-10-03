@@ -53,6 +53,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 65 | REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1 | [Link](https://youtu.be/yI3jj1jCSAM) | No | [Page] | Explanation of Kay's Rule and DWSIM for real gas mixtures |
 | 66 | REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2 | [Link](https://youtu.be/Pbizi39c1Rk) | No | [Page] | Example of Kay's Rule and DWSIM for real gas mixtures |
 | 67 | Solving Nonlinear Equations with Spreadsheets | [link](https://youtu.be/SaI2qdu1wSE) | No | [Page] | See Title |
+| 72 | Show Some Flash and Dew the Dew with a Little Bubbly! | [link](https://youtu.be/shKvpcsJIEM) | No | [Page] | Graphical BUBL P, DEW P, BUBL T, DEW T, and FLASH calculations |
 | 73 | Oh, Henry! | [link](https://youtu.be/dCOQy1C7yf0) | No | [Page] | Gas-Liquid Equilibrium with one condensible component |
 | 74 | Dew Your Bubbles Have Flash? Part 1 | [Link](https://youtu.be/vSkSRi6HYVQ) | No | [Page] | Raoult's law, BUBL P, DEW P |
 | 75 | Dew Your Bubbles Have Flash? Part 2 | [Link](https://youtu.be/9GyrfJzg-tg) | No | [Page] | BUBL T, DEW T |
@@ -62,3 +63,11 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 86A| The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3 | [Link](https://youtu.be/jcChVoELvFo) | No | [Page] | Liquid-Liquid Extraction Example |
 | 88| Using DWSIM to Create Binary Phase Diagrams | [Link](https://youtu.be/5NUchIg8q7E) | No | [Page] | DWSIM, Binary Phase Diagrams |
 | 89| Just Try to Break This Law! I Dare You!  | [Link](https://youtu.be/ZHWT9Jw7fzY) | No | [Page] | Intro to 1st Law |
+| 90| Add Friction and Work to Bernoulli? Here’s What Really Happens!  | [Link](https://youtu.be/Da48oZb9oNw) | No | [Page] | The Mechanical Energy Balance and the Moody Chart |
+| 91| Steam: Get the Quality Right AFTER You Table It! Part 1  | [Link](https://youtu.be/8tH3gXz_M8A) | No | [Page] | The Basics of Steam Tables |
+| 92| Steam: Get the Quality Right AFTER You Table It! Part 2  | [Link](https://youtu.be/yRf09eSRM1A) | No | [Page] | Steam Table Examples |
+| 95| Feeling the Heat? How to Get Your Best Estimate | [Link](https://youtu.be/f_l3OFyuiPs) | No | [Page] | Estimating $C_p$, $\Delta \hat{H}_v$, $\Delta \hat{H}_m$ |
+| 104| Germain Hess and the Enthalpy of Doom  | [Link](https://youtu.be/qdgH4v64vOQ) | No | [Page] | Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$ |
+| 110| Fueling the Fire: The Shocking Truth About Combustion Reactions! | [Link](https://youtu.be/lW5dK-F6H3U) | No | [Page] | Common fuels, Heats of Combustion, HHV, LHV |
+| 115| The ΔS-sentials of Calculating Entropy Changes  | [Link](https://youtu.be/z2e5Rq5r288) | No | [Page] | Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam |
+| 117| How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?  | [Link](https://youtu.be/QcZTezMtDRk) | No | [Page] | The 2nd Law for Closed, Open Steady-State, and Open Transient Systems |

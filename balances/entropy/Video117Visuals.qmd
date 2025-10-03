@@ -18,6 +18,14 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
 
+## Introduction
+
+The Second Law of Thermodynamics or *entropy balances*
+
+ - closed systems
+ - open transient systems
+ - open steady state systems
+
 ##
 
 :::{style="font-size: 135px;"}
