@@ -1,0 +1,545 @@
+---
+format:
+  revealjs:
+    auto-stretch: false
+    width: 3840
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+---
+
+
+<!-- **************************** START ENTROPY ************************ -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 113
+
+::: {style="text-align: center;"}
+An Introduction to the 2nd Law of Thermodynamics
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Resistance is Futile.</br>Entropy Always Wins. 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 115
+
+::: {style="text-align: center;"}
+Calculating Changes in Entropy
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+The Δ*S*-sentials of Calculating</br>Entropy Changes 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 116
+
+::: {style="text-align: center;"}
+The Carnot Cycle Part 1
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=32% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Sadi Carnot and the Power of Fire</br>(the 1824 Edition)</br>Part 1
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 116
+
+::: {style="text-align: center;"}
+The Carnot Cycle Part 2
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=32% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Sadi Carnot and the Power of Fire</br>(the 1824 Edition)</br>Part 2
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 117
+
+::: {style="text-align: center;"}
+The 2nd Law of Thermodynamics for Different Systems
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=32% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+How Much Entropy Can You Balance</br>on the Head of a Pin</br>(or in an Open Steady-State System)? 
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 118
+
+::: {style="text-align: center;"}
+Turbines, Compressors
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=32% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Entropy Made Me Do It:</br>Turbines, Compressors, and</br>Other Second-Law Shenanigans 
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 118A
+
+::: {style="text-align: center;"}
+Pumps, Nozzles, and Valves
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=32% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Entropy Made Me Do It:</br>Pumps, Nozzles, and</br>Other Second-Law Shenanigans 
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 119
+
+::: {style="text-align: center;"}
+The Rankine Cycle 1
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=32% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Boil, Expand, Condense, Repeat:</br>The Rankine Cycle in Action</br>Part 1 
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 120
+
+::: {style="text-align: center;"}
+The Rankine Cycle 2
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=32% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Boil, Expand, Condense, Repeat:</br>The Rankine Cycle in Action</br>Part 2 
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 122
+
+::: {style="text-align: center;"}
+Introduction to Air Standard Power Cycles 1
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Cycle Wars: The Power Awakens 
+:::
+
+::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 123
+
+::: {style="text-align: center;"}
+Introduction to Air Standard Power Cycles 2
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Cycle Wars: The Rise of Otto Cycles 
+:::
+
+::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 125
+
+::: {style="text-align: center;"}
+Modeling the Rankine Cycle in DWSIM
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Modeling the Rankine Cycle in DWSIM 
+:::
+
+::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 126
+
+::: {style="text-align: center;"}
+Refrigeration and the Vapor Compression Cycle
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Revenge of the Fridge:</br>Vapor Compression Strikes Back 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 127
+
+::: {style="text-align: center;"}
+Vapor Compression Cycle in DWSIM
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Modeling the Vapor Compression Cycle in DWSIM 
+:::
+
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 129
+
+::: {style="text-align: center;"}
+Ideal Work, Lost Work and Thermodynamic Efficiency 1
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=32% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+The Law is a Thief: It Destroys Exergy</br>and Laughs in Your Face</br>Part 1
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 130
+
+::: {style="text-align: center;"}
+Ideal Work, Lost Work and Thermodynamic Efficiency 2
+:::
+
+<!-- Approved Title -->
+##
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=32% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+The Law is a Thief: It Destroys Exergy</br>and Laughs in Your Face</br>Part 2
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
+
+
+<!-- ***************************** END ENER ************************* -->

@@ -18,6 +18,13 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
 
+## Introduction
+
+- The enthalpy descriptions associated with different sorts of reactions
+- How you use those for calculating
+  - First-law relationships
+  - Properties of reactions
+
 ## First Law for a Reactor
 
 If we have a chemical reaction, such as
@@ -131,7 +138,7 @@ Add $2$ Equation $2$'s to $3$ Equation $3$'s and subtract $1$ Equation $1$
 :::{style="font-size: 80px;"}
 :::{.fragment}
 $$
-2 \mathrm{C} + 3\mathrm{H_2} + 2\mathrm{O_2} + \dfrac{3}{2} \mathrm{O_2} - \dfrac{7}{2} \mathrm{O_2} \rightarrow 2\mathrm{CO_2} + 3\mathrm{H_2O} - \mathrm{CO_2} - 3\mathrm{H_2O} + \mathrm{C_2H_6}
+2 \mathrm{C} + 3\mathrm{H_2} + 2\mathrm{O_2} + \dfrac{3}{2} \mathrm{O_2} - \dfrac{7}{2} \mathrm{O_2} \rightarrow 2\mathrm{CO_2} + 3\mathrm{H_2O} - 2\mathrm{CO_2} - 3\mathrm{H_2O} + \mathrm{C_2H_6}
 $$
 :::
 :::
