@@ -1,0 +1,148 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Basic Spreadsheet Techniques{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Introduction
+
+* The techniques to solve chemical and thermal process problems by using spreadsheets
+ * How to layout a spreadsheet to clearly convey information
+ * How to enter formulas with a minimum of effort
+ * How to use absolute and relative references
+ * How to make things easier
+
+## Why Spreadsheets?
+
+* Readily Available
+* Libre Office is free.
+* Google Sheets is “free” and collaborative but lacking features.
+
+:::{.fragment}
+We will use Libre Office.
+:::
+
+* Tabular format fits process flow diagram annotation.
+* Easy to correct errors (if you set it up right).
+* Goal Seek (nonlinear root finder)
+* Solver (nonlinear regression)
+
+## Formatting
+
+* For professional use, you can get very fancy.
+* When beginning, just make things clear, not fancy.
+* Think about layout from end-consumer’s perspective.
+  * Label things in an obvious way.
+  * Group things in an obvious way.
+* Code reference data, input parameters, and answers.
+  * The DOFPro code is:
+    * Input parameters (what the user can change) [Green]{style="color: green;"} (or [Red]{style="color: red;"})
+    * Reference data (e.g., $R$, data from table) [Blue]{style="color: blue;"}
+    * Answers or results, **BOLD**
+
+## Formatting Graphs
+
+All graphs must have:
+
+  ![](SampleSpreadsheetGraph.png)
+
+  * Units on the axes [(ln(1-CP/CA0) is unitless.)]{style="font-size: 60px;"}
+  * Legends if more than one data series plotted
+
+## Spreadsheet Demo Problem
+
+:::{style="font-size: 95px;"}
+The chemical reaction, $\mathrm{A} \rightarrow \mathrm{B}$, has been studied and has been found to be a first-order reaction. In a constant-volume chemical reactor, if you start with a fixed initial concentration of $\mathrm{A}$, $C_\mathrm{A0}$, in grams per liter and no $\mathrm{B}$, $C_\mathrm{B}$, will evolve in time as $C_\mathrm{B} = C_\mathrm{{A0}}(1-e^{- kt})$, where $t$ is time in seconds and $k$ is the rate constant or rate coefficient in units of per seconds. Your company hired four research labs to study the kinetics of the reaction at five different temperatures, 265 °C, 270 °C, 275 °C, 280 °C and 285 °C. The research labs have returned data tables that have $T$, $C_\mathrm{A0}$, and $C_\mathrm{B}(t)$.
+
+1. Plot the data.
+2. Find the best value for $k$ at each $T$.
+3. Determine $A$ and $E_a$ for the data.
+4. Evaluate the quality of the data for each lab.
+:::
+
+## Spreadsheet Demo Problem (cont.)
+
+Start with
+
+:::{.fragment}
+$$C_\mathrm{B} = C_\mathrm{{A0}}(1-e^{- kt})$$
+:::
+:::{.fragment}
+Divide by $C_\mathrm{{A0}}$
+:::
+:::{.fragment}
+Isolate $e^{- kt}$
+:::
+:::{.fragment}
+$$1-\frac{C_\mathrm{B}}{C_\mathrm{{A0}}}=e^{- kt}$$
+:::
+:::{.fragment}
+$$\ln \left(1-\frac{C_\mathrm{B}}{C_\mathrm{{A0}}}\right) = -kt$$
+:::
+:::{.fragment}
+Plot $\ln \left(1-\frac{C_\mathrm{B}}{C_\mathrm{{A0}}}\right)$ versus $t$.
+:::
+:::{.fragment}
+$\mathrm{slope}=-k$
+:::
+
+## Arrhenius Parameters
+
+$$k=A e^{-E_a/(RT)}$$
+
+$A$ is the *pre-exponential* or *frequency factor*.
+
+$E_a$ is the *activation energy*.
+
+:::{.fragment}
+$$\ln{k}=\ln{A}-\frac{E_a}{RT}$$
+:::
+:::{.fragment}
+Plot $\ln k$ versus $1/T$.
+:::
+:::{.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;$\mathrm{slope}=-\frac{E_a}{R}$
+:::
+:::{.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;$\mathrm{intercept}=\ln{A}$
+:::
+:::{.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;$E_a=-\mathrm{slope} \cdot R$
+:::
+:::{.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;$A = \exp{(\mathrm{intercept})}$
+:::
+
+## Spreadsheet Demo
+
+{image}
+
+## Takeaways
+
+1. With proper planning, you can arrange a spreadsheet to minimize formula entry and overall effort.
+2. Think through absolute and relative references and lay out your spreadsheet so that you can use them to minimize the number of times you need to enter a formula.
+3. Click-filling and/or “copy once/paste many” can really minimize your effort.
+4. When starting out, don’t worry about detailed formatting with superscripts, subscripts, special symbols, and italics.
+5. Code your information with colors and bolding to make it easier for people using your spreadsheets to find the information they want.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

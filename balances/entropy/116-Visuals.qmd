@@ -1,0 +1,543 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+#  Sadi Carnot and the Power of Fire, the 1824 Edition Part 1
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Introduction
+
+These two videos present two examples of how you might actually implement a Carnot cycle in the physical world.
+
+- **Part 1** presents the air-standard Carnot cycle.
+- Part 2 presents the steam Carnot cycle.
+
+::: {.fragment}
+We will use these two examples as the basis for all of the power and refrigeration cycles we will study. 
+:::
+
+##
+
+:::{style="font-size: 135px;"}
+**Mathematical Statement of the Second Law**
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+<center> $dW_{\mathrm{lost}} \geq 0$ </center>
+
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
+or
+
+<center> $\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0$ </center>
+:::
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
+Remember:
+:::
+
+:::{.fragment}
+<center> $\Delta S_{\mathrm{system}} \text{ or } \Delta S_{\mathrm{surroundings}}$ </center>
+:::
+
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
+can be less than zero. But
+:::
+
+:::{style="font-size: 40px;"}
+<br/>
+:::
+
+:::{.fragment}
+<center> $\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0$ </center>
+:::
+
+:::{.fragment}
+::: {style="font-size: 30px;"}
+</br>
+:::
+The Carnot engine converts heat into work as well as it can be done.
+:::
+:::{.fragment}
+::: {style="font-size: 30px;"}
+</br>
+:::
+It makes the greater than or equals sign in the Second Law into an equals sign.
+:::
+
+##
+
+![](HeatEngine.png){.absolute top=17% right=0% width=22%}
+
+::: {.absolute top=21% right=8.5%}
+$T_\mathrm{hot}$
+:::
+
+::: {.absolute top=59% right=8%}
+$T_\mathrm{cold}$
+:::
+
+::: {.absolute top=30% right=1.5%}
+$|Q_\mathrm{hot}|$
+:::
+
+::: {.absolute top=50% right=0.5%}
+$|Q_\mathrm{cold}|$
+:::
+
+::: {.absolute top=43% right=1.75%}
+$|W|$
+:::
+
+:::: {.columns}
+
+::: {.column width="78%"}
+
+A Carnot engine operates between two isothermal heat reservoirs and produces the greatest possible work while rejecting the minimum amount of heat. The efficiency of a Carnot engine is:
+
+:::{.fragment}
+$$\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|} = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}$$
+:::
+:::{.fragment}
+The four steps of any Carnot engine are:
+:::
+:::{style="font-size: 92px;"}
+1. Adiabatic temperature change from $T_\mathrm{cold}$ to $T_\mathrm{hot}$
+2. Isothermal heat addition of $Q_\mathrm{hot}$ at $T_\mathrm{hot}$
+3. Adiabatic temperature change from $T_\mathrm{hot}$ to $T_\mathrm{cold}$
+4. Isothermal heat removal of $Q_\mathrm{cold}$ at $T_\mathrm{cold}$
+:::
+
+:::
+::::
+
+## Air-standard Carnot cycle
+
+:::{.fragment}
+The steps of the Carnot cycle
+:::
+:::{style="font-size: 98px;"}
+1. Adiabatic compression from $T_\mathrm{cold}$ to $T_\mathrm{hot}$ (State $a$ to State $b$).
+2. Isothermal heat addition (State $b$ to State $c$).
+3. Adiabatic expansion from $T_\mathrm{hot}$ to $T_\mathrm{cold}$ (State $c$ to State $d$).
+4. Isothermal heat removal (State $d$ to State $a$).
+:::
+
+:::{.fragment}
+For air-standard assume:
+:::
+:::{.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;A. Ideal Gas
+:::
+:::{.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;B. $C_v = \dfrac{5}{2}R \implies C_p = \dfrac{7}{2}R$
+:::
+:::{.fragment}
+[</br>]{style="font-size: 40px;"}
+[For step 1]{.underline} [(Review from *The Isochronicles: This First Law Saga Is a Gas*)]{style="font-size: 60px;"}
+:::
+:::{.fragment}
+Closed system adiabatic reversible.
+:::
+
+##
+
+**1^st^ Law**
+
+::: {.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;$\Delta U = W$
+:::
+::: {.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;$nC_v \Delta T = W$
+:::
+::: {.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;$W = nC_v (T_\mathrm{hot} - T_\mathrm{cold})$
+:::
+[</br>]{style="font-size: 40px;"}
+
+::: {.fragment}
+How about $P$ and $\hat{V}$?
+:::
+::: {.fragment}
+If $\Delta S = 0$ (why?)
+:::
+[</br>]{style="font-size: 40px;"}
+
+::: {.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;$\left(\dfrac{P_b}{P_a}\right)^{\frac{R}{C_p}} = \dfrac{T_\mathrm{hot}}{T_\mathrm{cold}}$
+:::
+
+::: {.fragment}
+&nbsp;&nbsp;&nbsp;&nbsp;$P\hat{V}=RT$
+:::
+
+##
+
+So
+
+::: {.fragment}
+$$\frac{\hat{V}_a}{\hat{V}_b} = \left(\frac{P_b}{P_a}\right)^{\frac{C_p - R}{C_p}}$$
+:::
+::: {.fragment}
+or
+
+$$P_a\hat{V}_a^\gamma = P_b\hat{V}_b^\gamma = \mathrm{constant}$$
+:::
+::: {.fragment}
+where
+
+$$\gamma \equiv \frac{C_p}{C_v} = \frac{C_p}{C_p - R}$$
+:::
+
+## 
+
+[For Step 2]{.underline}
+
+::: {.fragment}
+1^st^ Law – closed system isothermal
+:::
+
+::: {style="padding-left: 150px;"}
+::: {.fragment}
+$\Delta U = Q + W$
+:::
+::: {.fragment}
+$\Delta U = 0$ (Why?)
+:::
+::: {.fragment}
+$Q = -W$
+:::
+::: {.fragment}
+$W = -n\int\limits_{P_i}^{P_f}Pd\hat{V}$
+:::
+:::
+
+::: {.fragment}
+Since
+
+::: {style="padding-left: 150px;"}
+$P=\dfrac{RT}{\hat{V}}$
+:::
+
+::: {.fragment}
+::: {style="padding-left: 150px;"}
+$W = -nRT\int\limits_{\hat{V}_i}^{\hat{V}_f} \dfrac{d\hat{V}}{\hat{V}} = nRT \ln \dfrac{\hat{V}_i}{\hat{V}_f} = nRT \ln \dfrac{P_f}{P_i} = -Q$
+:::
+:::
+:::
+
+## 
+
+[For Step 3]{.underline}
+
+[</br>]{style="font-size: 40px;"}
+
+::: {.fragment}
+Adiabatic expansion
+:::
+
+[</br>]{style="font-size: 40px;"}
+
+::: {style="padding-left: 150px;"}
+::: {.fragment}
+$W = nC_v (T_\mathrm{cold} - T_\mathrm{hot})$
+:::
+:::
+
+[</br>]{style="font-size: 40px;"}
+
+::: {.fragment}
+[For Step 4]{.underline}
+:::
+
+[</br>]{style="font-size: 40px;"}
+
+::: {.fragment}
+Isothermal cooling
+:::
+
+[</br>]{style="font-size: 40px;"}
+
+::: {style="padding-left: 150px;"}
+::: {.fragment}
+$W  = nRT \ln \dfrac{\hat{V}_i}{\hat{V}_f} = nRT \ln \dfrac{P_f}{P_i} = -Q$
+:::
+:::
+
+##
+
+**The Complete Cycle**
+
+![](CarnotPV.png){.absolute top=6% left=8% width=80%}
+
+::: {.absolute top=49% left=26%}
+$a$
+:::
+::: {.absolute top=7% left=17%}
+$b$
+:::
+::: {.absolute top=40% left=61%}
+$c$
+:::
+::: {.absolute top=60% left=83.5%}
+$d$
+:::
+
+::: {.absolute top=36% left=-2%}
+:::{style="transform: rotate(-90deg);"}
+Pressure
+:::
+:::
+
+::: {.absolute top=70% left=40%}
+Volume
+:::
+
+:::{style="font-size: 75px;"}
+::: {.absolute top=34% left=9%}
+$PV^\gamma = C_1$
+:::
+::: {.absolute top=31% left=40%}
+$PV = C_2$
+:::
+::: {.absolute top=51% left=70%}
+$PV^\gamma = C_3$
+:::
+::: {.absolute top=59% left=43%}
+$PV = C_4$
+:::
+:::
+
+::: {.fragment .absolute top=77%}
+Note that
+
+$\dfrac{P_b}{P_a} = \left(\dfrac{T_\mathrm{hot}}{T_\mathrm{cold}}\right)^{\frac{C_p}{R}}$
+:::
+
+::: {.fragment .absolute top=77% left=50%}
+and
+
+$\dfrac{P_c}{P_d} = \left(\dfrac{T_\mathrm{hot}}{T_\mathrm{cold}}\right)^{\frac{C_p}{R}}$
+:::
+
+##
+
+so
+
+::: {style="font-size: 20px;"}
+</br>
+:::
+
+::: {.fragment}
+::: {style="padding-left: 150px;"}
+$\dfrac{P_b}{P_a} = \dfrac{P_c}{P_d}$
+:::
+:::
+
+::: {style="font-size: 20px;"}
+</br>
+:::
+
+::: {.fragment}
+or rearranged
+:::
+
+::: {style="font-size: 20px;"}
+</br>
+:::
+
+::: {style="padding-left: 150px;"}
+::: {.fragment}
+$\dfrac{P_d}{P_a} = \dfrac{P_c}{P_b}$
+:::
+::: {style="font-size: 40px;"}
+</br>
+:::
+
+::: {.fragment}
+::: {style="padding-left: 150px;"}
+$-\dfrac{W_\mathrm{net}}{n} = C_v(T_\mathrm{cold} - T_\mathrm{hot}) + R T_\mathrm{hot} \ln \dfrac{P_b}{P_c}$
+:::
+
+::: {style="padding-left: 600px;"}
+$+\ C_v(T_\mathrm{hot} - T_\mathrm{cold}) + R T_\mathrm{cold} \ln \dfrac{P_d}{P_a}$
+:::
+:::
+:::
+
+::: {style="padding-left: 150px;"}
+::: {.fragment}
+$-\dfrac{W_\mathrm{net}}{n} = R(T_\mathrm{hot} - T_\mathrm{cold}) \ln \dfrac{P_b}{P_c}$
+:::
+
+::: {style="font-size: 40px;"}
+</br>
+:::
+
+::: {.fragment}
+$\dfrac{Q_\mathrm{hot}}{n} =  R T_\mathrm{hot} \ln \dfrac{P_b}{P_c}$
+:::
+:::
+
+## 
+
+::: {style="font-size: 90px;"}
+$$\eta = \frac{-W_\mathrm{net}}{Q_\mathrm{hot}} = \frac{R(T_\mathrm{hot} -T_\mathrm{cold}) \ln \dfrac{P_b}{P_c}}{R T_\mathrm{hot} \ln \dfrac{P_b}{P_c}} = \frac{T_\mathrm{hot} - T_\mathrm{cold}}{T_\mathrm{hot}} = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}$$
+:::
+
+::: {.fragment}
+Note area enclosed on $P\hat{V}$ diagram is $-W_\mathrm{net}$.
+
+
+![](CarnotPVIntegrated.png){.absolute bottom=5% left=15% width=65%}
+
+::: {.absolute top=77% left=30%}
+$a$
+:::
+::: {.absolute top=42% left=22%}
+$b$
+:::
+::: {.absolute top=69% left=58%}
+$c$
+:::
+::: {.absolute top=86% left=76%}
+$d$
+:::
+
+::: {.absolute top=65% left=6%}
+:::{style="transform: rotate(-90deg);"}
+Pressure
+:::
+:::
+
+::: {.absolute bottom=-1% left=40%}
+Volume
+:::
+
+:::{style="font-size: 60px;"}
+::: {.absolute top=64% left=16%}
+$PV^\gamma = C_1$
+:::
+::: {.absolute top=61% left=40%}
+$PV = C_2$
+:::
+::: {.absolute top=77% left=64%}
+$PV^\gamma = C_3$
+:::
+::: {.absolute top=85% left=43%}
+$PV = C_4$
+:::
+:::
+:::
+
+##
+
+What does a Carnot cycle look like on a $TS$ diagram?
+
+::: {.fragment}
+![](CarnotTSIntegrated.png){.absolute bottom=5% left=15% width=65%}
+
+:::{style="font-size: 75px;"}
+::: {.absolute top=65% left=68%}
+:::{style="transform: rotate(-90deg);"}
+$\hat{S} = \mathrm{constant}$
+:::
+:::
+::: {.absolute top=47% left=43%}
+$T = T_\mathrm{hot}$
+:::
+::: {.absolute top=66% left=13%}
+:::{style="transform: rotate(-90deg);"}
+$\hat{S} = \mathrm{constant}$
+:::
+:::
+::: {.absolute top=85% left=43%}
+$T = T_\mathrm{cold}$
+:::
+:::
+
+::: {.absolute top=65% left=2%}
+:::{style="transform: rotate(-90deg);"}
+Temperature
+:::
+:::
+
+::: {.absolute bottom=-1% left=40%}
+Entropy
+:::
+
+::: {.absolute top=82% left=20.5%}
+$a$
+:::
+::: {.absolute top=48% left=20.5%}
+$b$
+:::
+::: {.absolute top=48% left=75%}
+$c$
+:::
+::: {.absolute top=82% left=75%}
+$d$
+:::
+:::
+
+::: {.fragment}
+For cycle
+
+$$-W_\mathrm{net} = Q_\mathrm{net}$$
+:::
+
+::: {.fragment}
+The Carnot efficiency does not depend on the working fluid.
+:::
+
+## 
+
+The videos, *Cycle Wars: The Power Awakens and Cycle Wars: The Rise of Otto Cycles* explain air-standard cycles based on the air-standard Carnot cycle.
+
+</br>
+
+*Sadi Carnot and the Power of Fire, the 1824 Edition Part 2* presents the steam Carnot cycle.
+
+## The Takeaways
+
+1. The Carnot cycle consists of an isentropic temperature rise, an isothermal heat addition, an isothermal temperature drop, and an isothermal heat removal.
+2. The air-standard Carnot cycle implements the four steps as an isentropic compression, an isothermal expansion, an isentropic expansion, and an isothermal compression.
+3. The air-standard Carnot cycle efficiency can also be calculated in terms of the compression ratio and the pressure ratio.
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
