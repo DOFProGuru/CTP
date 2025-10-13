@@ -4,7 +4,7 @@ author: "DOFPro group"
 format: html
 ---
 
-Links to the current videos on YouTube will be maintained here. These are current as of 2025-08-01.
+Links to the current videos on YouTube will be maintained here. These are current as of 2025-10-03.
 
 # Table of Videos
 

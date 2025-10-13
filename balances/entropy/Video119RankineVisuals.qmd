@@ -285,7 +285,7 @@ The DOFPro Team
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
 <!-- ****************************END Regular Intro/Outro ************************* -->
 
-# Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1
+# Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
 
