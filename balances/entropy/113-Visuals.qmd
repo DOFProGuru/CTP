@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-#  Resistance is Futile. Entropy always wins
+#  Resistance is Futile. Entropy Always Wins
 
 ::: {style="text-align: center;"}
 DOFPro Team

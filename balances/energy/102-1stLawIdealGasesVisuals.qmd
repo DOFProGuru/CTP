@@ -1,0 +1,156 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# The Isochronicles: This First Law Saga Is a Gas
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Introduction
+
+1^st^ Law behavior for *Ideal Gases* for:
+
+- Isothermal Process
+- Isobaric Process
+- Isochoric Process
+- Isentropic Process
+
+##
+
+Equations and concepts for dealing with ideal gases in first law problems
+</br></br>
+**First:** heat capacity doesn’t vary with pressure for ideal gases, only with temperature.
+
+$$d\hat{U} = C_v dT,\hspace{120px} \Delta \hat{U} = \int\limits_{T_1}^{T_2} C_v dT$$
+
+$$d\hat{H} = C_p dT,\hspace{120px} \Delta \hat{H} = \int\limits_{T_1}^{T_2} C_p dT$$
+
+::: {.absolute top=80% left=23%}
+$$C_p = C_v + R$$
+:::
+
+##
+
+**Second:** for a closed system with ideal gas and no change in kinetic or potential energy.
+
+$$d\hat{U} = \frac{dQ}{n} + \frac{dW}{n}$$
+
+$$C_v dT = \frac{dQ}{n} - Pd\hat{V}$$
+
+$$dQ = nC_v dT + PdV = nC_v dT + nRT \frac{dV}{V}$$
+
+$$dQ = nC_p dT - nRT \frac{dP}{P}$$
+
+## 
+
+**Isothermal (Constant Temperature) Process:**
+
+$$d\hat{U} = d\hat{H} = 0$$
+
+$$dQ = dQ$$
+
+$$dQ = n C_v dT + nRT \frac{dV}{V} = n C_P dT - nRT \frac{dP}{P}$$
+
+$$Q = -W = nRT \ln \frac{V_2}{V_1} = nRT \ln \frac{P_1}{P_2}$$
+
+<center>Note the order of the subscripts on $V$ and $P$.</center>
+
+## 
+
+**Isobaric (Constant Pressure) Process:**
+
+:::: {.columns}
+::: {.column width=50%}
+
+$$d\hat{U} = C_v dT$$
+</br>
+$$dW = -PdV$$
+</br>
+$$\Delta U = Q + W = Q - P \Delta V$$
+</br>
+$$\Delta U + P \Delta V = Q$$
+:::
+::: {.column width=50%}
+
+$$Q = \Delta H = n \int\limits_{T_1}^{T_2}C_p dT$$
+
+
+$$\Delta \hat{U} = \int\limits_{T_1}^{T_2}C_v dT$$
+
+\begin{align}
+W &= -P(V_2 - V_1)
+\\
+\\&= -nRT(T_2 - T_1)
+\end{align}
+
+:::
+::::
+
+## 
+
+**Isochoric (Constant Volume) Process:**
+
+$$dW = -PdV$$
+</br>
+$$d \hat{U} = C_V dT$$
+</br>
+$$Q = \Delta U = n \int\limits_{T_1}^{T_2}C_v dT$$
+
+##
+
+**Adiabatic Reversible (Isentropic) Process:**
+
+$$dQ = n C_v dT + P dV = n C_V dT + nRT \frac{dV}{V}$$
+
+$$n C_v dT = -nRT \frac{dV}{V}$$
+
+$$\frac{dT}{T} = - \frac{R}{C_v} \frac{dV}{V}$$
+
+If $C_v = \mathrm{constant}$
+
+:::: {.columns}
+::: {.column width=34%}
+$$\ln \frac{T_2}{T_1} = \frac{R}{C_v} \ln \frac{V_1}{V_2}$$
+:::
+::: {.column width=33%}
+$$\frac{T_2}{T_1} = \left(\frac{V_1}{V_2}\right)^{\frac{R}{C_v}}$$
+:::
+::: {.column width=33%}
+$$\frac{T_2}{T_1} = \left(\frac{P_2}{P_1}\right)^{\frac{R}{C_v}}$$
+:::
+::::
+<center>Note the order of the subscripts on $V$ and $P$.</center>
+
+## The Takeaways
+
+1. The Internal Energy ($U$), Enthalpy ($H$), and Heat Capacity ($C_v,\ C_p$) of an ideal gas are functions of temperature only, not pressure.
+2. We developed the relationship among $Q$, $W$, $T$, $(V_2/V_1)$, and $(P_1/P_2)$ for an isothermal process for an ideal gas.
+3. We developed the relationship among $Q$, $W$, $\Delta U$, $\Delta H$, $T$, $V$, and $P$ for an isobaric process for an ideal gas.
+4. We developed the relationship between $Q$ and $\Delta U$ for an isochoric process for an ideal gas.
+5. We developed the relationship among $W$, $(T_2/T_1)$, $(V_1/V_2)$, and $(P_2/P_1)$ for an isentropic process for an ideal gas.
+
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
