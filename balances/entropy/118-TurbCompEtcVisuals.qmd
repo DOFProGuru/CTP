@@ -1,0 +1,259 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+#  Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans (Part 1)
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Introduction
+
+These videos, *Entropy Made Me Do It*, *Part 1* and *Part 2*
+derive the equations for common items in power and refrigeration machinery.
+
+**Part 1** discusses
+
+- the turbine or expander
+- the adiabatic compressor
+- the isothermal compressor
+
+Part 2 discusses
+
+- the pump
+- the nozzle
+- the valve or throttle
+
+##
+
+*Up First*
+
+**Turbine** – Steam or Combustion Gases
+
+**Expander** – Compressed Gases
+
+**Inputs** – $\dot{m}$ or $\dot{n}$, $T$ and $P$
+
+**Ouputs** – $\dot{m}$ or $\dot{n}$, $T$ or $P$
+
+Goal is work output
+
+*Then*
+
+**Compressor**
+
+Goal is pressure increase of gas
+
+**Inputs** – $\dot{m}$ or $\dot{n}$, $T$ and $P$
+
+**Ouputs** – $\dot{m}$ or $\dot{n}$, $P$
+
+Have to input work
+
+## Turbine or Expander
+
+![](SteamTurbine.png){.absolute top=10% left=0% width=40%}
+
+::: {.absolute top=80% left=0%}
+<a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons
+:::
+
+![](TurbojetEngine.png){.absolute top=25% right=0% width=60%}
+
+::: {.absolute top=55% left=45%}
+National Archives and Records Administration, Public domain, via Wikimedia Commons
+:::
+
+## Turbine or Expander
+
+A turbine or expander takes a high-temperature and high-pressure steam or gas mixture and sends it through a series of blades, called stator blades and rotor blades, and expands it to create power or shaft work.
+
+**1^st^ Law**
+
+Steam
+
+$$\Delta \dot{H} = \dot{W}_s = \dot{m} \Delta \hat{H} = \dot{m} (\hat{H}_\mathrm{out} - \hat{H}_\mathrm{in})$$
+
+Ideal Gas
+
+$$\Delta \dot{H} = \dot{W}_s = \dot{n} \Delta \hat{H} = \dot{n} \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} C_p dT = \dot{n} C_p (T_\mathrm{out} - T_\mathrm{in})$$
+
+##
+
+Turbine or Expander
+
+A real turbine has a turbine efficiency, that compares its performance with that of an isentropic turbine.
+
+$$\eta_\mathrm{turbine} = \frac{\dot{W}_{s\text{-actual}}}{\dot{W}_{s\text{-isentropic}}} = \frac{\Delta \hat{H}_{\text{actual}}}{\Delta \hat{H}_{\text{isentropic}}}$$
+
+Calculating the isentropic values
+
+$$\Delta \hat{S} = 0$$
+
+Steam
+
+$\hat{S}_\mathrm{out} = \hat{S}_\mathrm{in}$ $x = \dfrac{\hat{S}_\mathrm{in}-\hat{S}_l}{\hat{S}_v-\hat{S}_l}$
+
+## 
+
+To calculate the outlet enthalpy
+
+$$\hat{H}_\mathrm{out} = x \hat{H}_v + (1 - x) \hat{H}_l$$
+
+$$\Delta \hat{H}_\mathrm{isentropic} = \hat{H}_\mathrm{out} - \hat{H}_\mathrm{in}$$
+
+Ideal Gas
+
+$$\Delta \hat{S} = 0 = C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}$$
+
+$$C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{T_\mathrm{out}}{T_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}$$
+
+##
+
+Substitute in for $\Delta T$.
+
+\begin{align}
+\Delta \hat{H}_\mathrm{isentropic} &= C_p \Delta T = C_p (T_\mathrm{out} - T_\mathrm{in})
+\\
+\\&= C_p T_\mathrm{in} \left[\left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p} - 1\right]
+\end{align}
+
+Calculating actual properties
+
+Steam
+
+$$\eta_\mathrm{turbine} = \frac{\Delta \hat{H}_{\text{actual}}}{\Delta \hat{H}_{\text{isentropic}}}$$
+
+$$\hat{H}_{\text{out-actual}} = \eta_\mathrm{turbine} \Delta \hat{H}_{\text{isentropic}} + \hat{H}_{\text{in}}$$
+
+## 
+
+Calculating actual quality and entropy for steam
+
+$$x_\mathrm{actual} = \dfrac{\hat{H}_\text{out-actual}-\hat{H}_l}{\hat{H}_v-\hat{H}_l}$$
+
+$$\hat{S}_\text{out-actual}=x_\mathrm{actual}\hat{S}_v + (1 - x_\mathrm{actual}) \hat{S}_l$$
+
+Calculating actual properties
+
+Ideal Gas
+
+$$\eta_\mathrm{turbine} = \frac{\Delta \hat{H}_{\text{actual}}}{\Delta \hat{H}_{\text{isentropic}}}$$
+
+$$\Delta \hat{H}_{\text{actual}} = \eta_\mathrm{turbine} \Delta \hat{H}_{\text{isentropic}}$$
+
+## 
+
+$$\Delta \hat{H}_{\text{actual}} = C_p \Delta T_\text{actual}$$
+
+$$T_\text{out-actual} = \frac{\Delta \hat{H}_{\text{actual}} }{C_p} + T_\mathrm{in}$$
+
+$$\Delta \hat{S}_{\text{actual}} = C_p \ln \frac{T_\text{out-actual}}{T_\text{in}} - R \ln \frac{P_\text{out}}{P_\text{in}}$$
+
+## Compressor
+
+Ideal Gas only in introductory videos. Two-phase compressors are rare.
+</br></br>
+
+:::: {.columns}
+::: {.column width=45%}
+
+![](Axial_compressor.gif){.absolute width=45%}
+
+::: {style="font-size: 50px;"}
+::: {.absolute top=76%}
+<a href="https://commons.wikimedia.org/wiki/File:Axial_compressor.gif">NASA</a>, Public domain, via Wikimedia Commons
+:::
+:::
+:::
+
+::: {.column width=55%}
+![](ScrewCompressor.png)
+
+::: {style="font-size: 55px;"}
+Asurnipal, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+:::
+:::
+::::
+
+##
+
+**Adiabatic Compressor**
+
+A real adiabatic compressor has a compressor efficiency, that compares its performance with that of an isentropic compressor.
+
+$$\eta_\mathrm{compressor} = \frac{\dot{W}_{s\text{-isentropic}}}{\dot{W}_{s\text{-actual}}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\Delta \hat{H}_{\text{actual}}}$$
+
+**1^st^ Law**
+
+$$\Delta \dot{H}_\mathrm{isentropic} = \dot{W}_{s\text{-isentropic}} = \dot{n} \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} C_p dT = \dot{n} C_p \Delta T$$
+
+**2^nd^ Law**
+
+$$\Delta \hat{S}_\mathrm{air} = \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} \frac{C_p}{T} dT - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}= C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}$$
+
+##
+
+Minimum work for $\Delta \hat{S} = 0$
+
+$$C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{T_\mathrm{out}}{T_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}$$
+
+Plug $T_\mathrm{out}$ back into 1^st^ Law.
+
+$$\dot{W}_{s\text{-isentropic}} = \dot{n} C_p \Delta T$$
+
+Calculate work and final enthalpy from efficiency
+
+$$\dot{W}_{s\text{-actual}} = \frac{\dot{W}_{s\text{-isentropic}}}{\eta_\mathrm{compressor}}\ \ \ \ \text{and}\ \ \ \ \Delta \hat{H}_{\text{actual}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\eta_\mathrm{compressor}}$$
+
+If necessary, you can calculate actual outlet $T$ and entropy change.
+
+##
+
+**Isothermal Compressor**
+
+A cooling-water jacket is often used to attempt to maintain the compressor at a constant temperature. An isothermal compressor uses much less power than an isentropic compressor, at the cost of a cooling system. A real isothermal compressor has a compressor efficiency, that compares its performance with that of an isothermal compressor.
+
+$$\eta_\mathrm{compressor} = \frac{\dot{W}_{s\text{-isothermal}}}{\dot{W}_{s\text{-actual}}}$$
+
+**1^st^ Law**
+
+$$\Delta \dot{H}_\text{iso} = 0\ \ \ \ \text{and}\ \ \ \ \dot{Q} = - \dot{W}_{s\text{-iso}} = \dot{n} RT \ln \frac{P_1}{P_2}$$
+
+##
+
+There is no need for the 2^nd^ Law. Use the efficiency to calculate the actual work
+
+$$\dot{W}_{s\text{-actual}} = \frac{\dot{W}_{s\text{-isothermal}}}{\eta_\mathrm{compressor}}$$
+
+If necessary, you can calculate actual enthalpy change, outlet $T$, and entropy change.
+
+## The Takeaways
+
+1. Adiabatic Turbines and compressors have efficiencies that compare the real or actual case with the isentropic case.
+2. Isothermal  compressors have efficiencies that compare the real or actual case with the isothermal case.
+3. We have shown how to calculate turbines and expanders for both steam and ideal gas.
+4. We have shown how to calculate  compressors for ideal gas only.
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->

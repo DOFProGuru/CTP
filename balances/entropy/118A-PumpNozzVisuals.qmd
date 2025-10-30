@@ -1,0 +1,288 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+#  Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans (Part 2)
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Introduction
+
+These videos, *Entropy Made Me Do It*, *Part 1* and *Part 2*
+derive the equations for common items in power and refrigeration machinery.
+
+Part 1 discussed
+
+- the turbine or expander
+- the adiabatic compressor
+- the isothermal compressor
+
+**Part 2** discusses
+
+- the pump
+- the nozzle
+- the valve or throttle
+
+##
+
+*Up Third*
+
+**Pump** – Incompressible Liquids
+
+**Inputs** – $\dot{m}$ or $\dot{n}$, $T$ and $P$
+
+**Ouputs** – $\dot{m}$ or $\dot{n}$, $P$
+
+Have to input work
+
+*Up Fourth*
+
+**Nozzle** – Ideal Gas or Steam
+
+**Inputs** – $\dot{m}$ or $\dot{n}$, $T$ and $P$
+
+**Ouputs** – $\dot{m}$ or $\dot{n}$, $P$
+
+Goal is velocity increase
+
+*Last*
+
+**Valve** or **Throttling Process** – Ideal Gas or Two-phase Mixture
+
+**Inputs** – $\dot{m}$ or $\dot{n}$, $T$ and $P$
+
+**Ouputs** – $\dot{m}$ or $\dot{n}$, $P$
+
+## Pump
+
+Incompressible liquid only in introductory videos.
+
+![](Pompe_à_palettes.gif){.absolute top=16% left=0% width=48%}
+
+::: {.absolute top=63%}
+<a href="https://creativecommons.org/licenses/by-sa/1.0">CC BY-SA 1.0</a>, via</br>Wikimedia Commons
+:::
+
+![](Peristaltic_pump.gif){.absolute top=16% left=50% width=48%}
+
+::: {.absolute top=63% left=50%}
+<a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+:::
+
+##
+
+**Pump**
+
+A real pump has a pump efficiency, that compares its performance with that of an isentropic pump.
+
+$$\eta_\mathrm{pump} = \frac{\dot{W}_{s\text{-isentropic}}}{\dot{W}_{s\text{-actual}}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\Delta \hat{H}_{\text{actual}}}$$
+
+From the fundamental property relationships
+
+$$d\hat{U} = T d\hat{S} - P d\hat{V}$$
+
+and
+
+$$d\hat{H} = d\hat{U} + P d\hat{V} + \hat{V} dP\ \ \text{from}\ \ \hat{H} = \hat{U} + P \hat{V}$$
+
+$$d\hat{U} = d\hat{H} - P d\hat{V} - \hat{V} dP$$
+
+## 
+
+so 
+
+$$d\hat{H} - P d\hat{V} - \hat{V} dP = T d\hat{S} - P d\hat{V}$$
+
+or
+
+$$d\hat{H} = T d\hat{S} + \hat{V} dP$$
+
+Second Law on pump (adiabatic and reversible)
+
+$$\Delta S = 0$$
+
+so
+
+$$d\hat{S} = 0$$
+
+$$d\hat{H} = T d\hat{S} + \hat{V} dP$$
+
+##
+
+For liquids $V$ is a very weak function of pressure (hence incompressible).
+
+$$\int d\hat{H} = \int \hat{V} dP = \hat{V} \int dP$$
+
+$$\Delta H_\text{isentropic} = W_{s\text{-isentropic}} = V \Delta P$$
+
+Calculating the actual work
+
+$$\dot{W}_{s\text{-actual}} = \frac{\dot{W}_{s\text{-isentropic}}}{\eta_\mathrm{pump}}$$
+
+$$\Delta \hat{H}_{\text{actual}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\eta_\mathrm{pump}}$$
+
+If necessary, you can calculate the actual entropy change.
+
+## Nozzle
+
+![](BrassNozzle.png){.absolute top=10% left=0% width=48%}
+
+::: {.absolute top=55% left=0%}
+Dan Bollinger <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>,</br>via Wikimedia Commons
+:::
+
+![](DeLavalNozzle.png){.absolute top=10% left=50% width=48%}
+
+::: {.absolute top=50% left=52%}
+No machine-readable author provided. HorsePunchKid assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
+:::
+
+##
+
+**Nozzle**
+
+A real nozzle has a nozzle efficiency, that compares its performance with that of an isentropic nozzle.
+
+$$\eta_\mathrm{nozzle} = \frac{u^2_{\text{out-actual}}}{u^2_{\text{out-isentropic}}}$$
+
+The point of a nozzle is to get a huge increase in velocity.
+
+**1^st^ Law**
+
+$$\Delta \dot{H} + \Delta \dot{E}_\mathrm{k} = 0$$
+
+$$\hat{H}_\mathrm{out} - \hat{H}_\mathrm{in} + \frac{u^2_\mathrm{out}}{2} - \frac{u^2_\mathrm{in}}{2} = 0$$
+
+##
+
+$$u^2_\mathrm{out} = 2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}$$
+
+$u_\mathrm{out} = \sqrt{2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}}$ Be careful with units.
+
+**2^nd^ Law**
+
+$$\Delta \dot{S} = 0\ \ \ \ \ \ \ \ \hat{S}_\mathrm{out} = \hat{S}_\mathrm{in}$$
+
+Ideal Gas
+
+$$\Delta \hat{S} = 0 = C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}$$
+
+$$C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{T_\mathrm{out}}{T_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}$$
+
+##
+
+Substitute in for $\Delta T$.
+
+\begin{align}
+\Delta \hat{H}_{\text{actual}} &= C_p \Delta T_\text{actual} = C_p \left(T_\mathrm{out} - T_\mathrm{in}\right)
+\\
+\\ &= C_p T_\mathrm{in}\left[\left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right) - 1\right]
+\end{align}
+</br>
+$$u^2_\text{out-isen} - u^2_\text{in} = -2 C_p \Delta T_\text{in} = 2 C_p T_\mathrm{in}\left[1 - \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)\right]$$
+
+Be careful with units.
+
+## 
+
+For steam find the value  of enthalpy in the steam table at the same entropy and pressure as the outlet.
+
+$u_\text{out-isen} = \sqrt{2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}}\ \ \ \ \ $ Be careful with units.
+
+For either steam or ideal gas find the actual velocity with the efficiency.
+
+$$u^2_\text{out-actual} = \eta_\mathrm{nozzle}u^2_{\text{out-isentropic}}$$
+
+If necessary, you can calculate the actual temperature, enthalpy change, and entropy change.
+
+## Valves
+
+A partially open valve, an orifice, or a throttling valve can all be described as a throttling process.
+
+![](GlobeValve.png){.absolute top=22% left=0% width=40%}
+
+::: {.absolute top=80% left=2%}
+::: {style="font-size: 85px;"}
+H Padleckas, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>,</br> via Wikimedia Commons
+:::
+:::
+
+![](ThrottleValve.png){.absolute top=22% left=45% width=50%}
+
+::: {.absolute top=83% left=45%}
+::: {style="font-size: 85px;"}
+MasterTriangle12, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+:::
+:::
+
+##
+
+**Throttling Process**
+
+Because the fluid passes quickly through a throttling process, the heat transfer is essentially zero. The First Law becomes
+
+$$\Delta \dot{H} + \Delta \dot{E}_\mathrm{k} + \Delta \dot{E}_\mathrm{p} = \dot{Q} + \dot{W}_s$$
+
+$$\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}$$
+
+There isn’t much to a throttling process for an ideal gas, since the enthalpy is a function of temperature and $\Delta H = 0$, so $\Delta T = 0$.
+
+$$P_\mathrm{out} \hat{V}_\mathrm{out} = P_\mathrm{in} \hat{V}_\mathrm{in}$$ 
+
+##
+
+**Throttling Process**
+
+A throttling process for a liquid at the edge of the two-phase region is much more interesting. Normally, one specifies the inlet $T$ and $P$, that the quality in, $x = 0$, and the outlet $P$.
+
+$$\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}$$
+
+One then uses the fluid two-phase table to determine the final pressure and quality. For example, take saturated liquid water at 50 bar, and flash it to 1 bar. Calculate the final $T$ and $x$.
+
+##
+
+**Throttling Process**
+
+At $50\ \mathrm{bar}$ and $263.94\ ^\circ \mathrm{C}$
+
+$$\hat{H}_\mathrm{in} = 1154.5\ \mathrm{kJ/kg}$$
+
+At $1\ \mathrm{bar}$
+
+$$T_\mathrm{out} = 99.61\ ^\circ \mathrm{C}$$
+
+$$\hat{H}_l = 417.44\ \mathrm{kJ/kg}\ \ \ \ \ \ \hat{H}_v = 2674.9\ \mathrm{kJ/kg}$$
+$$\Delta \hat{H}_{lv} = 2257.5\ \mathrm{kJ/kg}$$
+
+$$x = \frac{\hat{H}_\mathrm{out} - \hat{H}_l}{\hat{H}_v - \hat{H}_l} = \frac{1154.5 - 417.44}{2674.9 - 417.44} = 0.3265 = 32.65\%$$
+
+## The Takeaways
+
+1. Pumps and nozzles all have efficiencies that compare the real or actual case with the isentropic case.
+2. Valves or throttles have such large irreversibilities that no efficiency is calculated.
+3. We modeled pumps for incompressible fluids only.
+4. Nozzles and throttles were modeled for both steam and ideal gas.
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
