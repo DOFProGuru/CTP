@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.25">
 
-  <title>Chemical and Thermal Processes – video98visuals</title>
+  <title>Chemical and Thermal Processes – enthalpyvstandppart1</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,247 +127,358 @@
 
 
 <section>
-<section id="reference-not-found-mixing-dissolving-and-changing-the-rules" class="title-slide slide level1 center">
-<h1>Reference Not Found: Mixing, Dissolving, and Changing the Rules</h1>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
+<section id="the-enthalpy-games-the-ballad-of-integrals-and-means" class="title-slide slide level1 center">
+<h1>The Enthalpy Games: The Ballad of Integrals and Means</h1>
+<div style="text-align: center;">
+<p>DOFPro Team</p>
+</div>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
 <section id="introduction" class="slide level2">
 <h2>Introduction</h2>
-<p>This video explains:</p>
-<ul>
-<li class="fragment">Reference states</li>
-<li class="fragment"><span class="math inline">\(\Delta H\)</span> of solution</li>
-<li class="fragment"><span class="math inline">\(\Delta H\)</span> of mixing</li>
-<li class="fragment">Other leftovers</li>
-</ul>
+<p><strong><em>The Enthalpy Games: The Ballad of Integrals and Means</em></strong> discusses how internal energy and enthalpy vary as functions of <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>.</p>
+<div style="font-size: 10px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><em>The Enthalpy Games: Sunrise on the Calculations</em><br>does a worked example using nitrogen and data from NIST.</p>
+</div>
+<div style="font-size: 10px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><em>Internal Energy</em> is important for closed systems at constant volume</p>
+</div>
+<div style="font-size: 10px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><em>Enthalpy</em> is important for open systems and closed systems at constant pressure</p>
+</div>
+<div style="font-size: 10px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>The ability to evaluate <span class="math inline">\(\Delta H\)</span> and <span class="math inline">\(\Delta U\)</span> is important for many 1<sup>st</sup>-Law problems.</p>
+</div>
+</section>
+<section id="definitions" class="slide level2">
+<h2>Definitions</h2>
+<p><strong>Remember:</strong> <span class="math inline">\(\Delta\)</span> means <em>final – initial</em> or <em>out – in</em>. <br><br></p>
+<div class="fragment">
+<p><strong>State Variable:</strong> Value depends only on location or “state.” Does not depend on path.</p>
+<p>Common State Variables: <span class="math inline">\(H\)</span>, <span class="math inline">\(T\)</span>, <span class="math inline">\(U\)</span>, <span class="math inline">\(V\)</span>, <span class="math inline">\(m\)</span>, etc. <br><br></p>
+</div>
+<div class="fragment">
+<p><strong>Path Variable:</strong> Value depends only on path. Does not depend on location.</p>
+<p>Common Path Variables: <span class="math inline">\(Q\)</span>, <span class="math inline">\(W\)</span>.</p>
+</div>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<h3 id="reference-states">Reference states</h3>
-<p><img data-src="SteamTableRef1.png" class="absolute" style="top: 10%; left: 40%; width: 30%; "></p>
-<p><img data-src="SteamTableRef2.png" class="absolute" style="top: 10%; left: 72%; width: 31.1%; "></p>
+<p><strong>Example:</strong> Calculate <span class="math inline">\(\Delta H\)</span> for one mole of ice at <span class="math inline">\(-5\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{bar}\)</span> being changed to steam at <span class="math inline">\(300\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(5\ \mathrm{bar}\)</span> by two different paths.</p>
 <div class="fragment">
-<div class="absolute" style="top: 15%; left: 3%; ">
-<div style="width: 35%; float: left;">
-<p>Calculate the average heat capacity of saturated steam from <span class="math inline">\(10\ ^\circ\mathrm{C}\)</span> to <span class="math inline">\(90\ ^\circ\mathrm{C}\)</span> for both of the steam tables given:</p>
+<div style="font-size: 60px;">
+<p><br></p>
 </div>
+<p><em>Path 1:</em></p>
 </div>
-</div>
-<div class="absolute" style="top: 62%; right: 5%; ">
-<p>Table values are <span class="math inline">\(\hat{H}\)</span> in <span class="math inline">\(\mathrm{kJ/kg}\)</span>.</p>
+<ol type="1">
+<li class="fragment">Ice at <span class="math inline">\(-5\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{bar}\)</span> to ice at <span class="math inline">\(0\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{atm}\)</span></li>
+<li class="fragment">Ice at <span class="math inline">\(0\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{atm}\)</span> to water at <span class="math inline">\(0\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{atm}\)</span></li>
+<li class="fragment">Water at <span class="math inline">\(0\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{atm}\)</span> to water at <span class="math inline">\(100\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{atm}\)</span></li>
+<li class="fragment">Water at <span class="math inline">\(100\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{atm}\)</span> to steam at <span class="math inline">\(100\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{atm}\)</span></li>
+<li class="fragment">Steam at <span class="math inline">\(100\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{atm}\)</span> to steam at <span class="math inline">\(300\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{bar}\)</span></li>
+<li class="fragment">Steam at <span class="math inline">\(300\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{bar}\)</span> to steam at <span class="math inline">\(300\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(5\ \mathrm{bar}\)</span></li>
+</ol>
+<div class="fragment">
+<p>For the process <span class="math inline">\(\Delta \hat{H} = \sum\limits_{i=1}^6 \Delta \hat{H}_i\)</span></p>
 </div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<p>Table 1</p>
+<p><em>Path 2:</em></p>
+<ol type="1">
+<li class="fragment">Ice at <span class="math inline">\(-5\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{bar}\)</span> to ice at <span class="math inline">\(0.01\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(0.00611\ \mathrm{bar}\)</span></li>
+<li class="fragment">Ice at <span class="math inline">\(0.01\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(0.00611\ \mathrm{bar}\)</span> to water at <span class="math inline">\(0.01\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(0.00611\ \mathrm{bar}\)</span></li>
+<li class="fragment">Water at <span class="math inline">\(0.01\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(0.00611\ \mathrm{bar}\)</span> to steam at <span class="math inline">\(300\ ^\circ \mathrm{C}\)</span> and <span class="math inline">\(5\ \mathrm{bar}\)</span></li>
+</ol>
 <div class="fragment">
-<p><span class="math display">\[\overline{C}_{p}=\frac{\overline{H}_{2}-\overline{H}_{1}}{T_{2}-T_{1}}=\frac{2659.5-2519.2}{90-10}=1.754\ \mathrm{\frac{kJ}{kg^{\circ}C}}\]</span></p>
-</div>
-<div class="fragment">
-<p>Table 2</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\overline{C}_{p}=\frac{\hat{H}_{2}-\hat{H}_{1}}{T_{2}-T_{1}}=\frac{-16.1-(-156.4)}{90-10}=1.754\ \mathrm{\frac{kJ}{kg^{\circ}C}}\]</span></p>
+<p>For the process <span class="math inline">\(\Delta \hat{H} = \sum\limits_{i=1}^3 \Delta \hat{H}_i\)</span></p>
 </div>
 <p><br></p>
 <div class="fragment">
-<p>Why are the tables different?</p>
+<p>Are the two equal?</p>
+</div>
+<p><br></p>
+<div class="fragment">
+<p>Why or why not?</p>
 </div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<h3 id="specific-integral-heat-of-solution">(Specific) Integral Heat of Solution</h3>
-<div class="fragment">
-<p><span class="math display">\[\hat{H}_s(T, r)\]</span></p>
-</div>
-<div class="fragment">
-<p>One mole of solute dissolved in <span class="math inline">\(r\)</span> moles of solvent.</p>
-</div>
+<p>For many chemical engineering processes, work, kinetic energy, and potential energy can be ignored. In such cases the 1st law reduces to:</p>
+<div style="font-size: 80px;">
 <p><br></p>
-<div class="fragment">
-<p>Usually referenced to pure solvent at some <span class="math inline">\(T\)</span>. Can be referenced to pure solute or infinitely dilute solute.</p>
 </div>
-<p><br></p>
 <div class="fragment">
-<h3 id="specific-integral-heat-of-mixing">(Specific) Integral Heat of Mixing</h3>
+<p><span class="math inline">\(\hspace{160px}Q = \Delta U\)</span> (Closed System)</p>
 </div>
+<div style="font-size: 80px;">
 <p><br></p>
+</div>
 <div class="fragment">
-<p>One mole of solution made from <span class="math inline">\(x\)</span> moles of liquid 1 and <span class="math inline">\(1-x\)</span> moles of liquid 2. Usually referenced to pure species 1 and species 2 at some temperature.</p>
+<p><span class="math inline">\(\hspace{160px}\dot{Q} = \Delta \dot{H}\)</span> (Open System)</p>
 </div>
+<div style="font-size: 80px;">
 <p><br></p>
+</div>
+<div class="fragment">
+<p>For a <em>constant volume</em> system we define:</p>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\hspace{160px}C_v(T) \equiv \lim\limits_{\Delta T \rightarrow 0} \dfrac{\Delta \hat{U}}{\Delta T} = \dfrac{d\hat{U}}{dT}\)</span></p>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(C_v\)</span> is the <em>heat capacity</em> at <em>constant volume</em>.</p>
+</div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<p><strong>Example:</strong> A <span class="math inline">\(25\%\)</span> solution of NaOH in water at <span class="math inline">\(100\ ^\circ \mathrm{F}\)</span> is to be diluted to a <span class="math inline">\(9.09\%\)</span> solution by adding pure water. What temperature must the dilution water be at for the final mixture to be at <span class="math inline">\(80\ ^\circ \mathrm{F}\)</span>?</p>
-<div style="font-size:80px;">
-<div class="fragment">
-<p><span class="math display">\[25\% \  \mathrm{NaOH} = \frac{1 \ \mathrm{mol\ NaOH}}{1 \ \mathrm{mol\ NaOH} + 3 \ \mathrm{mol\ H_2O}} \implies r = \frac{3 \ \mathrm{mol\ H_2O}}{1 \ \mathrm{mol\ NaOH}}\]</span></p>
+<p>Rearranging</p>
+<div style="font-size: 60px;">
+<p><br></p>
 </div>
 <div class="fragment">
-<p><span class="math display">\[9.09\% \  \mathrm{NaOH} = \frac{1 \  \mathrm{mol\ NaOH}}{1 \  \mathrm{mol\ NaOH} + 10 \  \mathrm{mol \  H_2O}} \implies r = \frac{10 \  \mathrm{mol \  H_2O}}{1 \  \mathrm{mol\ NaOH}}\]</span></p>
+<p><span class="math inline">\(\hspace{160px}d\hat{U} = C_v (T) dT\)</span></p>
 </div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>and integrating</p>
+</div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\hspace{160px}\Delta \hat{U} = \displaystyle\int\limits_{T_1}^{T_2} C_v (T) dT\)</span></p>
+</div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>If <span class="math inline">\(C_v\)</span> does not depend on <span class="math inline">\(T\)</span>, then:</p>
+</div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\hspace{160px}\Delta \hat{U} = C_v \Delta T\)</span></p>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>What if the volume changes?</p>
 </div>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
-<p>1st-law: <span class="math inline">\(\Delta H = 0\)</span> <br> <br></p>
-<div class="fragment">
-<p>Pathway:</p>
-</div>
-<p><br></p>
-<div style="font-size:95px;">
-<div class="fragment">
-<p><span class="math inline">\(4\ \mathrm{mol\ mix}\ @\ 100\ ^\circ\mathrm{F\ to\ } 4\ \mathrm{mol\ mix}\ @\ 25\ ^\circ\mathrm{C},\ \Delta H_1\)</span> <br> <br></p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(7\ \mathrm{mol\ H_2O}\ @\ T\ ^\circ\mathrm{F\ to\ }7\ \mathrm{mol\ H_2O}\ @\ 25\ ^\circ\mathrm{C},\ \Delta H_2\)</span></p>
-</div>
-<p><br></p>
-<div class="fragment">
-<p><span class="math inline">\(4\ \ \mathrm{mol\ mix} + 7\ \ \mathrm{mol\ H_2O}\ @\ 25\ ^\circ\mathrm{C\ to\ } 11\ \ \mathrm{mol\ mix}\ @\ 25\ ^\circ\mathrm{C},\ \Delta H_3\)</span></p>
+<p>For a <em>constant pressure</em> system we define:</p>
+<div style="font-size: 20px;">
 <p><br></p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(11\ \ \mathrm{mol\ mix}\ @\ 25\ ^\circ\mathrm{C\ to\ } 11\ \ \mathrm{mol\ mix}\ @\ 80\ ^\circ\mathrm{F},\ \Delta H_4\)</span> <br> <br></p>
+<p><span class="math inline">\(\hspace{160px}C_p(T) \equiv \lim\limits_{\Delta T \rightarrow 0} \dfrac{\Delta \hat{H}}{\Delta T} = \dfrac{d\hat{H}}{dT}\)</span></p>
+</div>
+<div style="font-size: 20px;">
+<p><br></p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(\Delta H_1 + \Delta H_2 + \Delta H_3 + \Delta H_4 = 0\)</span></p>
+<p><span class="math inline">\(C_p\)</span> is the <em>heat capacity</em> at <em>constant pressure</em>. As before</p>
 </div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\hspace{160px}d\hat{H} = C_p (T) dT\)</span></p>
+</div>
+<div style="font-size: 20px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>and integrating</p>
+</div>
+<div style="font-size: 20px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\hspace{160px}\Delta \hat{H} = \displaystyle\int\limits_{T_1}^{T_2} C_p (T) dT\)</span></p>
+</div>
+<div style="font-size: 20px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>If <span class="math inline">\(C_p\)</span> does not depend on <span class="math inline">\(T\)</span>, then:</p>
+</div>
+<div style="font-size: 20px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\hspace{160px}\Delta \hat{H} = C_p \Delta T\)</span></p>
 </div>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
-<p>Lacking other data, assume <span class="math inline">\(C_p\)</span> for mix is mole-weighted average of <span class="math inline">\(C_p\)</span> for individual species. <span class="math inline">\(C_p\)</span> values from Wikipedia. You could use the Steam Tables for <span class="math inline">\(\Delta \hat{H}_\mathrm{H_2O}\)</span> with a slight change in answer.</p>
-<div class="absolute" style="top: 25%; left: 3%; ">
-<div class="fragment">
-<p><span class="math display">\[\Delta H_1 + \Delta H_2 + \Delta H_3 + \Delta H_4 = 0\]</span></p>
-</div>
-</div>
-<div style="font-size:80px;">
-<div class="absolute" style="top: 40%; left: 3%; ">
-<div class="fragment">
-<p><span class="math display">\[\Delta H_1 = \sum n_i \overline{C}_{p-i} \Delta T = (1 \cdot 0.0595 + 3 \cdot 0.0754)(25 - 37.78) = -3.61\ \mathrm{kJ}\]</span></p>
-</div>
-</div>
-</div>
-<div class="absolute" style="top: 53%; left: 3%; ">
-<div class="fragment">
-<p><span class="math display">\[\Delta H_2 = n_\mathrm{H_2O} \overline{C}_{p–\mathrm{H_2O}} \Delta T = 7 \cdot 0.0754 (25 - T_\mathrm{initial})\]</span></p>
-</div>
-</div>
-<div style="font-size:80px;">
-<div class="absolute" style="top: 70%; left: 3%; ">
-<div class="fragment">
-<p><span class="math display">\[\Delta H_4 = \sum n_i \overline{C}_{p-i} \Delta T = (1 \cdot 0.0595 + 10 \cdot 0.0754)(26.67 - 25) = 1.36\ \mathrm{kJ}\]</span></p>
-</div>
-</div>
-</div>
-</section>
-<section id="delta-hath_3" class="slide level2">
-<h2><span class="math inline">\(\Delta \hat{H}_3\)</span></h2>
-<p>Inspired Guesses</p>
-<div style="font-size:40px;">
+<p>What if the pressure changes?</p>
+<div style="font-size: 80px;">
 <p><br></p>
 </div>
 <div class="fragment">
-<p>At <span class="math inline">\(r = 3\)</span> and <span class="math inline">\(T = 25\ ^\circ\mathrm{C}\)</span>, <span class="math inline">\(\Delta \hat{H}_{s-25\%} = -29.0\ \mathrm{kJ/mol\ NaOH}\)</span></p>
-</div>
-<div style="font-size:40px;">
-<p><br></p>
-</div>
-<div style="font-size:97px;">
-<div class="fragment">
-<p>At <span class="math inline">\(r = 10\)</span> and <span class="math inline">\(T = 25\ ^\circ\mathrm{C}\)</span>, <span class="math inline">\(\Delta \hat{H}_{s-9.09\%} = -42.5\ \mathrm{kJ/mol\ NaOH}\)</span></p>
-</div>
-</div>
-<div style="font-size:40px;">
-<p><br></p>
+<p>In general:</p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(\Delta H_3 = n_\mathrm{NaOH} \left(\Delta \hat{H}_{s-9.09\%} - \Delta \hat{H}_{s-25\%} \right)\)</span></p>
-</div>
-<div style="font-size:40px;">
-<p><br></p>
+<p><span class="math inline">\(\hspace{160px}d\hat{H} = C_p (T) dT + \left[\hat{V} - T \left(\dfrac{\partial \hat{V}}{\partial T}\right)_P\right] dP\)</span></p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(= 1 \left[ -42.5 - (-29.0) \right]\)</span></p>
-</div>
-<div style="font-size:40px;">
-<p><br></p>
+<p>Ideal Gas:</p>
+<p><span class="math inline">\(\hspace{160px}\Delta \hat{H} = \displaystyle\int\limits_{T_1}^{T_2} C_p (T) dT\)</span> No pressure dependence</p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(= -13.5 \text{ kJ}\)</span></p>
+<p>Liquids and Solids:</p>
+<p><span class="math inline">\(\hspace{160px}\Delta \hat{H} = \displaystyle\int\limits_{T_1}^{T_2} C_p (T) dT + \displaystyle\int\limits_{P_1}^{P_2} \hat{V} dP \approx \displaystyle\int\limits_{T_1}^{T_2} C_p (T) dT + \hat{V} \Delta P\)</span></p>
 </div>
 </section>
 <section id="section-6" class="slide level2">
 <h2></h2>
-<p>Solving for <span class="math inline">\(\Delta H_2\)</span> and <span class="math inline">\(T_\mathrm{initial}\)</span></p>
-<div style="font-size:80px;">
-<div class="absolute" style="top: 10%; left: 3%; ">
+<p>How do <span class="math inline">\(C_p\)</span> and <span class="math inline">\(C_v\)</span> compare?</p>
+<div style="font-size: 160px;">
+<p><br></p>
+</div>
 <div class="fragment">
-<p><span class="math display">\[\Delta H_2 = -(\Delta H_1 + \Delta H_3 + \Delta H_4) = 3.65 + 13.5 - 1.36 = 15.79\ \mathrm{kJ}\]</span></p>
+<p>Ideal Gas: <span class="math inline">\(C_p = C_v + R\)</span></p>
 </div>
+<div style="font-size: 160px;">
+<p><br></p>
 </div>
-</div>
-<div class="absolute" style="top: 20%; left: 3%; ">
 <div class="fragment">
-<p><span class="math display">\[\Delta H_2 = n_\mathrm{H_2O} \overline{C}_{p-\mathrm{H_2O}} \Delta T = 7 \cdot 0.0754 (25 - T_\mathrm{initial}) = 15.79\ \mathrm{kJ}\]</span></p>
-</div>
-</div>
-<div class="absolute" style="top: 35%; left: 3%; ">
-<div class="fragment">
-<p><span class="math display">\[T_\mathrm{initial} = -4.92\ ^\circ\mathrm{C} = 23.14\ ^\circ \mathrm{F}\]</span></p>
-</div>
-</div>
-<div class="absolute" style="top: 50%; left: 0%; ">
-<div class="fragment">
-<p>The temperature is below the freezing point of water. Since the enthalpy of fusion is so large, you would actually add a mixture of water and ice at <span class="math inline">\(32\ ^\circ \mathrm{F}\)</span>. It would take a little extra calculation to figure out how much ice.</p>
-</div>
+<p>Liquids and Solids: <span class="math inline">\(C_p \approx C_v\)</span></p>
 </div>
 </section>
 <section id="section-7" class="slide level2">
 <h2></h2>
-<p><strong>Example:</strong> A <span class="math inline">\(\mathrm{50\%\ H_2O - 50\%\ NH_3}\)</span> mixture at its bubble point is introduced into a heated single-stage flash unit. The exit streams are at <span class="math inline">\(122\ ^\circ \mathrm{F}\)</span>. What are their compositions and how much heat must be added to the flash per kilogram of feed?</p>
+<p>How do you evaluate heat capacities?<br><br></p>
+<ul>
+<li class="fragment">Tables<br><br></li>
+<li class="fragment">Correlations e.g., the Shomate equation:
+<ul>
+<li class="fragment"><span class="math inline">\(\hspace{80px}C_p = a + b T + c T^2 + d T^3 + \dfrac{e}{T^2}\)</span><br><br></li>
+</ul></li>
+<li class="fragment">Estimating formulas e.g., in <em>Feeling the Heat? How to Get Your Best Estimate.</em></li>
+</ul>
 </section>
 <section id="section-8" class="slide level2">
 <h2></h2>
-<p><img data-src="EnthConc_NH3_H2O.png" class="absolute" style="top: -5%; left: 8%; width: 80%; "></p>
-<div class="absolute" style="top: 70%; left: 0%; ">
+<p><strong>Mean Heat Capacity</strong></p>
+<p>The only reason to calculate an average heat capacity is if someone asks for it.</p>
 <div class="fragment">
-<p><span class="math display">\[\hat{H}_i = 278.2\ \mathrm{kJ/kg}\]</span></p>
+<p>Definition: <span class="math inline">\(\bar{C}_p \equiv \dfrac{\hat{H}_2 - \hat{H}_1}{T_2 - T_1}\)</span></p>
 </div>
-</div>
-<div class="absolute" style="top: 77%; left: 0%; ">
 <div class="fragment">
-<p><span class="math display">\[\hat{H}_f = 1266.4\ \mathrm{kJ/kg}\]</span></p>
+<p>Evaluation:</p>
 </div>
+<div class="fragment absolute" style="top: 35%; left: 10%; ">
+<p><span class="math display">\[\bar{C}_p = \frac{\int\limits_{T_1}^{T_2}(a + b T + c T^2 + d T^3 + \dfrac{e}{T^2})dT}{T_2 - T_1}\]</span></p>
 </div>
-<div class="absolute" style="top: 84%; left: 0%; ">
+<div class="fragment absolute" style="top: 63%; left: 0%; ">
+<p>which evaluates to</p>
+</div>
+<div class="fragment absolute" style="top: 70%; left: 10%; ">
+<p><span class="math display">\[\begin{align}
+\bar{C}_p = a &amp;+ \frac{b}{2} (T_1+T_2) + \frac{c}{3} (T_1^2 +T_1T_2 +T_2^2)
+\\&amp;+ \frac{d}{4} [(T_1+T_2)(T_1^2+T_2^2)] + \dfrac{e}{T_1T_2}
+\end{align}\]</span></p>
+</div>
+</section>
+<section id="section-9" class="slide level2">
+<h2></h2>
+<p>It should be obvious that</p>
 <div class="fragment">
-<p><span class="math display">\[\Delta \hat{H}_f = 1266.4 - 278.2 = 988.2\ \mathrm{kJ/kg}\]</span></p>
+<p><span class="math inline">\(\hspace{80px}\Delta \hat{H} = \bar{C}_p \Delta T\)</span></p>
 </div>
-</div>
-<div class="absolute" style="top: 72%; left: 50%; ">
 <div class="fragment">
-<p><span class="math display">\[x_\mathrm{NH_3} = 0.043\]</span></p>
+<p>but things in thermodynamics rarely are.</p>
 </div>
+<div style="font-size: 40px;">
+<p><br></p>
 </div>
-<div class="absolute" style="top: 79%; left: 50%; ">
 <div class="fragment">
-<p><span class="math display">\[y_\mathrm{NH_3} = 0.877\]</span></p>
+<p>The actually useful symbolic integration of the correlations for <span class="math inline">\(C_p\)</span> is to calculate <span class="math inline">\(\Delta \hat{H}\)</span> directly.</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\Delta \hat{H} = \int\limits_{T_1}^{T_2} C_p (T) dT = \int\limits_{T_1}^{T_2} (a + b T + c T^2 + d T^3 + \dfrac{e}{T^2})dT\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 60%; left: 2%; ">
+<p><span class="math display">\[\begin{align}
+\Delta \hat{H}=\ &amp;a (T_2 - T_1) + \frac{b}{2} (T_2^2 - T_1^2) + \frac{c}{3} (T_2^3 - T_1^3)
+\\&amp;+ \frac{d}{4} (T_2^4 - T_1^4) + e \left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+\end{align}\]</span></p>
+</div>
+</section>
+<section id="section-10" class="slide level2">
+<h2></h2>
+<div style="font-size: 95px;">
+<p>If you have the formula for <span class="math inline">\(C_p(T)\)</span> it is much easier to evaluate</p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\hspace{120px}\Delta \hat{H} = \int\limits_{T_1}^{T_2} C_p (T) dT\hspace{80px}\)</span> than to evaluate</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\hspace{120px}\bar{C}_p = \dfrac{\int\limits_{T_1}^{T_2} C_p (T) dT}{T_2 - T_1}\hspace{80px}\)</span> followed by <span class="math inline">\(\hspace{80px}\Delta \hat{H} = \bar{C}_p \Delta T\)</span>.</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\hspace{120px}\Delta \hat{U}_\text{ideal gas} = \int\limits_{T_1}^{T_2} \left[C_p (T) - R \right] dT\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\hspace{120px}\Delta \hat{U}_\text{solid,\ liquid} \approx \int\limits_{T_1}^{T_2} C_p (T) dT\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>In <em>The Enthalpy Games: Sunrise on the Calculations</em>, we do a worked example using nitrogen and data from NIST.</p>
 </div>
 </div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment"><em>Internal energy</em>, <span class="math inline">\(U\)</span>, and <em>enthalpy</em>, <span class="math inline">\(H\)</span>, both have arbitrary zeros. What is important is the <span class="math inline">\(\Delta H\)</span>. Don’t mix data from different sources when calculating <span class="math inline">\(\Delta H\)</span>’s, unless you know what you are doing.</li>
-<li class="fragment">The <em>integral heat of solution</em>, <span class="math inline">\(\Delta \hat{H}_s\)</span>, is the change in enthalpy we get when a quantity of solute is added to a solvent and the mixture is brought back to the original temperature.</li>
-<li class="fragment">The <em>integral heat of mixing</em>, <span class="math inline">\(\Delta \hat{H}_m\)</span>, is the change in enthalpy we get when a quantity of one fluid is added to another fluid and the mixture is brought back to the original temperature.</li>
+<li class="fragment">Enthalpy and internal energy are state functions, so the path chosen to calculate <span class="math inline">\(\Delta H\)</span> and <span class="math inline">\(\Delta U\)</span> doesn’t matter. Choose the easiest one.</li>
+<li class="fragment"><span class="math inline">\(H\)</span> and <span class="math inline">\(U\)</span> are not functions of pressure for ideal gases.</li>
+<li class="fragment"><span class="math inline">\(H\)</span> and <span class="math inline">\(U\)</span> are complex functions of pressure for real gases, and are not covered here.</li>
+<li class="fragment"><span class="math inline">\(H\)</span> and <span class="math inline">\(U\)</span> are weak functions of pressure for most liquids and solids.</li>
+<li class="fragment"><span class="math inline">\(\Delta H\)</span> goes with <span class="math inline">\(C_p\)</span> and <span class="math inline">\(\Delta U\)</span> goes with <span class="math inline">\(C_v\)</span>.</li>
 </ol>
 </section></section>
-<section id="section-9" class="title-slide slide level1 center">
+<section id="section-11" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>

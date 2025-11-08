@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.25">
 
-  <title>Chemical and Thermal Processes – video89visuals</title>
+  <title>Chemical and Thermal Processes – estimatingheatcapacitiesvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,349 +127,359 @@
 
 
 <section>
-<section id="just-try-to-break-this-law-i-dare-you" class="title-slide slide level1 center">
-<h1>Just <em>Try</em> to Break This Law! I Dare You!</h1>
-<div style="text-align: center; font-size: 120px;">
+<section id="feeling-the-heat-how-to-get-your-best-estimate." class="title-slide slide level1 center">
+<h1>Feeling the Heat? How to Get Your Best Estimate.</h1>
+<div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
-<section id="the-first-law-of-thermodynamics" class="slide level2">
-<h2>The First Law of Thermodynamics</h2>
-<ul>
-<li class="fragment">An introduction to the First Law of Thermodynamics</li>
-<li class="fragment">The basics of doing energy balances
-<ul>
-<li class="fragment">Steady-state open systems</li>
-<li class="fragment">Closed systems</li>
-<li class="fragment">Transient open systems.</li>
-</ul></li>
-</ul>
-</section>
-<section id="the-first-law-of-thermodynamics-1" class="slide level2">
-<h2>The First Law of Thermodynamics</h2>
-<p><em>Energy cannot be created or destroyed; it can only change form.</em></p>
+<section id="intro" class="slide level2">
+<h2>Intro</h2>
+<p>Always use reliable data if you have them. If not, then estimate</p>
 <div class="fragment">
-<p>The First Law is the General Balance Equation applied to energy.</p>
+<p><span class="math inline">\(\ \ \ \ \ C_p\)</span></p>
 </div>
 <div class="fragment">
-<div style="font-size: 95px;">
+<p><span class="math inline">\(\ \ \ \ \ \Delta \hat{H}_v\)</span></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\ \ \ \ \ \Delta \hat{H}_m\)</span></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\ \ \ \ \ \Delta \hat{H}_s\)</span></p>
+</div>
+<div class="fragment">
+<p>for use in the First Law.</p>
+</div>
+<div class="fragment">
+<p>The standard reference is <em>The Properties of Gases and Liquids</em>. Current edition is the sixth.</p>
+</div>
+</section>
+<section id="estimating-formulas" class="slide level2">
+<h2>Estimating Formulas</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment" data-fragment-index="1">
+<p>If the tabulated data are missing use a formula like Kopp’s rule,</p>
+</div>
+<div class="fragment" data-fragment-index="2">
 <p><span class="math display">\[
-\mathrm{Input + Generation = Output + Consumption + Accumulation}
+(C_p)_{\mathrm{compound}} = \sum_\text{all atoms} C_{pa}
 \]</span></p>
 </div>
+<div class="fragment" data-fragment-index="3">
+<p>How about mixtures?</p>
 </div>
-<div class="fragment">
-<p>Because energy cannot be created or destroyed, the generation and consumption terms must both be 0.</p>
+<p><br><br></p>
+<div class="fragment" data-fragment-index="4">
+<p>Lacking other data, use a weighted average.</p>
 </div>
-<div class="fragment">
-<p><span class="math display">\[
-\mathrm{Input = Output + Accumulation}
-\]</span></p>
+</div><div class="column" style="width:50%;">
+<div class="fragment" data-fragment-index="2">
+<div style="font-size: 90px;">
+<table class="caption-top">
+<caption>Atomic Heat-Capacity Contributions for Kopp’s Rule <span class="math inline">\(C_{pa}\)</span> [J/g-atom°C]</caption>
+<thead>
+<tr class="header">
+<th>Element</th>
+<th>Solids</th>
+<th>Liquids</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C</td>
+<td>7.5</td>
+<td>12</td>
+</tr>
+<tr class="even">
+<td>H</td>
+<td>9.6</td>
+<td>18</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>11</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>Si</td>
+<td>16</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>O</td>
+<td>17</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>21</td>
+<td>29</td>
+</tr>
+<tr class="odd">
+<td>P</td>
+<td>23</td>
+<td>31</td>
+</tr>
+<tr class="even">
+<td>S</td>
+<td>26</td>
+<td>31</td>
+</tr>
+<tr class="odd">
+<td>All others</td>
+<td>26</td>
+<td>33</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div class="fragment">
-<p>To determine the inputs, outputs and accumulation, we need to enumerate the most common forms of energy.</p>
 </div>
+</div></div>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p>For using the First Law in calculations, you must first define your system, and in particular your system boundary.</p>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
+<p>The <span class="math inline">\(C_p \Delta T\)</span> changes are known as <em>sensible heat changes</em>. During a phase change, heat is added without a change in temperature. Such changes are <em>latent heat changes</em>.</p>
+<ul>
+<li class="fragment">Latent heat of vaporization, <span class="math inline">\(\hspace{4pt} \Delta \hat{H}_v\)</span></li>
+<li class="fragment">Latent heat of fusion, <span class="math inline">\(\hspace{4pt} \Delta \hat{H}_m\)</span></li>
+<li class="fragment">Latent heat of sublimination, <span class="math inline">\(\hspace{4pt} \Delta \hat{H}_s\)</span></li>
+</ul>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <div class="fragment">
-<p>Work, <span class="math inline">\(W\)</span>, is performed by a force acting through a distance. In differential form (thanks to the chemists):</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
--dW = Fdx.
-\]</span></p>
-</div>
-<div class="fragment">
-<p>For closed systems, work is energy crossing the system boundary due to deformation of the boundary.</p>
-</div>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>If there is a pressure, <span class="math inline">\(P\)</span>, being exerted on the system by its surroundings over an area, <span class="math inline">\(A\)</span>, and the area is displaced by a distance, <span class="math inline">\(dx\)</span>, then we have:</p>
+<p>Why <span class="math inline">\(\Delta \hat{H}\)</span>? Why not <span class="math inline">\(\Delta \hat{U}\)</span>?</p>
 </div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<p><span class="math display">\[
-PA = F,\ \ \ \ -dW=Fdx=PAdx=P(Adx)=PdV
-\]</span></p>
+<p>Vaporize one pound of water at constant <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>. What kind of system?</p>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <div class="fragment">
-<p>or in integrated form</p>
+<p>The <span class="math inline">\(1\)</span>st law is: <span class="math inline">\(\Delta U = Q + W\)</span></p>
 </div>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <div class="fragment">
-<p><span class="math display">\[
-W = -\int P dV
-\]</span></p>
-</div>
-<div class="fragment">
-<p>Next is heat, <span class="math inline">\(Q\)</span>, which is energy crossing the system boundary due to a temperature difference.</p>
-</div>
-<div style="font-size: 60px;">
+<p>For a closed system the pressure-volume work is:</p>
+<div style="font-size: 30px;">
 <p><br></p>
 </div>
-<div class="fragment">
-<div style="font-size: 85px;">
-<p>Thermodynamics was developed by engineers to describe heat engines (things that convert heat to work). They desired to put heat <em>in</em> and get work <em>out</em>, so historically, heat <em>into</em> a system was positive, and work <em>out</em> of a system was positive. Unfortunately, this concept was too confusing to the chemists. Therefore almost all chemical engineering texts now define heat or work <em>into</em> a system as <em>positive</em>, and heat or work <em>out</em> of a system as <em>negative</em>. Watch out when using Mechanical Engineering texts, since they have largely not made the switch.</p>
+<center>
+<span class="math inline">\(W = -\int P dV\)</span>
+</center>
 </div>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
+<p>Now if <span class="math inline">\(P =\)</span> constant</p>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
+<center>
+<span class="math inline">\(W = -P\Delta V = -\Delta (PV)\)</span>
+</center>
+</div>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
+<p>So the <span class="math inline">\(1\)</span>st law becomes:</p>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
+<center>
+<span class="math inline">\(\Delta U_v = Q - \Delta (PV)\)</span>
+</center>
 </div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<p>Energy may be stored in things as</p>
-<div style="font-size: 80px;">
-<ul>
-<li class="fragment">Position in a conservative field (potential energy, <span class="math inline">\(E_p = mgz\)</span>)</li>
-<li class="fragment">Velocity in a reference frame (kinetic energy, <span class="math inline">\(E_k = mu^2/2\)</span>)</li>
-<li class="fragment">Microscopic vibrations, oscillations etc. (internal energy, <span class="math inline">\(U\)</span><sup>1</sup>).</li>
-</ul>
 <div class="fragment">
-<p>Note that for all of these energy forms, the value is relative to some 0 reference.</p>
+or
+<center>
+<span class="math inline">\(\Delta U_v + \Delta (PV) = \Delta H_v = Q\)</span>
+</center>
 </div>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <div class="fragment">
-<p>For a closed system the First Law can be written in differential form as</p>
+<p>If a phase change takes place in a <em>constant volume</em> closed system, then <span class="math inline">\(\Delta \hat{U}\)</span> must be evaluated as</p>
 </div>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <div class="fragment">
-<p><span class="math display">\[
-\boxed{dU + dE_p+dE_k = dQ + dW}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>or in integrated form as</p>
+<center>
+<span class="math inline">\(\Delta \hat{U} = \Delta \hat{H} - \Delta(P\hat{V})\)</span>
+</center>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 </div>
 <div class="fragment">
-<p><span class="math display">\[
-\boxed{\Delta U + \Delta E_p + \Delta E_k = Q + W}
-\]</span></p>
+<center>
+<span class="math inline">\(\Delta \hat{U}_m \approx \Delta \hat{H}_m\)</span>
+</center>
 </div>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <div class="fragment">
-<p>Much of the work in a First Law problem is deciding which terms are zero or insignificant.</p>
-</div>
-</div>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>Because we are using <span class="math inline">\(V\)</span> and <span class="math inline">\(v\)</span> for other things, velocity is given the symbol, <span class="math inline">\(u\)</span>, and internal energy is given the symbol, <span class="math inline">\(U\)</span>. Don’t get them confused.</p></li></ol></aside></section>
-<section id="intensive-and-extensive-properties" class="slide level2">
-<h2>Intensive and Extensive Properties</h2>
-<p>A property of a substance that <em>does not</em> depend on the mass or moles of a substance is an <em>intensive</em> property (such as temperature, pressure, or composition).</p>
-<div style="font-size: 40px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>A property of a substance that <em>does</em> depend on the mass or moles of a substance is an <em>extensive</em> property (such as volume, kinetic energy, or internal energy).</p>
-</div>
-<div style="font-size: 40px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>It is quite frequently useful to define an intensive property that is related to an extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume or specific internal energy,</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\hat{V} = \frac{V}{m},\ \ \ \ \hat{U}=\frac{U}{m}\]</span></p>
+<center>
+<span class="math inline">\(\Delta \hat{U}_v \approx \Delta \hat{H}_v - RT\)</span>
+</center>
 </div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<div style="font-size: 140px;">
-<p><strong>Enthalpy (pronounced <em>en-THAL-pee</em>)</strong></p>
-</div>
-<p><em>Enthalpy</em>, <span class="math inline">\(H\)</span>, is a defined quantity that is quite useful in simplifying formulas. It is defined as</p>
+<p>How do you evaluate latent heats?</p>
+<ul>
+<li class="fragment">Tables</li>
+<li class="fragment">Correlations</li>
+<li class="fragment">Educated Guesses</li>
+</ul>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <div class="fragment">
-<p><span class="math display">\[
-H \equiv U + PV
-\]</span></p>
-</div>
-<div class="fragment">
-<p>or in specific properties as</p>
+<p><strong>Trouton’s Rule (within 30% accuracy)</strong><br></p>
 </div>
 <div class="fragment">
-<p><span class="math display">\[
-\hat{H} \equiv \hat{U} + P\hat{V}
-\]</span></p>
+nonpolar liquids
+<center>
+<span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp}\)</span> [<span class="math inline">\(\mathrm{kJ/mol}\)</span>] <span class="math inline">\(\approx 0.0088T_\mathrm{b} (K)\)</span>
+</center>
 </div>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <div class="fragment">
-<p>One example where enthalpy is useful is where a closed system doesn’t change velocity or position and is maintained at constant pressure (like in a beaker in a laboratory).</p>
+<p>water, low-MW alcohols</p>
+<center>
+<span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp}\)</span> [<span class="math inline">\(\mathrm{kJ/mol}\)</span>] <span class="math inline">\(\approx 0.109T_\mathrm{b} (K)\)</span>
+</center>
 </div>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
-<p>Under these conditions the First Law simplifies from</p>
+<p><strong>Chen’s equation (within 2% accuracy)</strong></p>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <div class="fragment">
-<p><span class="math display">\[
-\Delta U + \Delta E_p + \Delta E_k = Q + W
-\]</span></p>
+<center>
+<span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp} = \dfrac{T_b[0.0331(T_b/T_\mathrm{c}) - 0.0327 + 0.0297\log_{10} P_c]}{1.07 - (T_b / T_\mathrm{c})}\)</span>
+</center>
+<p>with <span class="math inline">\(T\)</span>’s in Kelvin, <span class="math inline">\(P\)</span> in atm, and <span class="math inline">\(\Delta \hat{H}\)</span> in <span class="math inline">\(\mathrm{kJ/mol}\)</span></p>
+</div>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
+<p>Also <strong>Clausius and Claperyon backwards</strong></p>
+</div>
+<div style="font-size: 30px;">
+<p><br></p>
 </div>
 <div class="fragment">
-<p>to</p>
+<center>
+<span class="math inline">\(\ln p^* = -\dfrac{\Delta \hat{H}_v}{RT} + B\)</span>
+</center>
+</div>
+<div style="font-size: 30px;">
+<p><br></p>
 </div>
 <div class="fragment">
-<div style="font-size: 90px;">
-<p><span class="math display">\[
-\Delta U = U_\mathrm{final} - U_\mathrm{initial} = Q + W = Q - \int\limits_\mathrm{initial}^\mathrm{final} pdV = Q-P \int\limits_\mathrm{initial}^\mathrm{final} dV
-\]</span></p>
-</div>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial})
-\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-(U_\mathrm{final} + PV_\mathrm{final}) - (U_\mathrm{initial} + PV_\mathrm{initial}) = Q
-\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-\Delta H = Q
-\]</span></p>
+<center>
+<span class="math inline">\(\dfrac{d(\ln p^*)}{d(1/T)} = -\dfrac{\Delta \hat{H}_v}{R}\)</span>
+</center>
 </div>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
-<p>For an <strong>open steady-state system</strong>, all of the quantities are expressed as rates (with the dot)</p>
+<p>And finally if you have <span class="math inline">\(\Delta \hat{H}_v\)</span> at one temperature and you need it at another, the <strong>Watson correlation</strong></p>
 <div class="fragment">
-<p><span class="math display">\[
-\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}
-\]</span></p>
+<center>
+<span class="math inline">\(\dfrac{\Delta \hat{H}_v (T_2)}{\Delta \hat{H}_v (T_1)} = \left(\dfrac{T_\mathrm{c} - T_2}{T_\mathrm{c} - T_1}\right)^{0.38}\)</span>
+</center>
+</div>
+<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div class="fragment">
+<p><strong>Trouton’s Rule for Solids (unspecified accuracy)</strong> <br></p>
 </div>
 <div class="fragment">
-<p>The work is normally divided up into:</p>
+<p>For metallic elements</p>
+<div style="font-size: 30px;">
+<p><br></p>
 </div>
-<ul>
-<li class="fragment"><em>shaft work</em>, work done by or on a shaft crossing the system boundary, such as to a turbine (electricity counts),</li>
-<li class="fragment"><em>flow work</em>, work done on or by the system to push the flowing fluid into or out of the system.</li>
-</ul>
-<div class="fragment">
-<p><span class="math display">\[
-\dot{W} =  \dot{W}_\mathrm{s} + \dot{W}_\mathrm{fl}
-\]</span></p>
+<center>
+<span class="math inline">\(\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.0092 T_m (K)\)</span>
+</center>
 </div>
 <div class="fragment">
-<p><span class="math display">\[
-\dot{W}_\mathrm{fl} = -\sum_\mathrm{outputs} P_{i}\dot{V}_i + \sum_\mathrm{inputs}P_{j}\dot{V}_j
-\]</span></p>
+<p>For inorganic compounds</p>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
+<center>
+<span class="math inline">\(\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.0025 T_m (K)\)</span>
+</center>
+</div>
+<div class="fragment">
+<p>For organic compounds</p>
+<div style="font-size: 30px;">
+<p><br></p>
+</div>
+<center>
+<span class="math inline">\(\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.050 T_m (K)\)</span>
+</center>
 </div>
 </section>
-<section id="section-6" class="slide level2">
-<h2></h2>
-<p>If one starts with the first law for an open steady-state system,</p>
-<div class="fragment">
-<p><span class="math display">\[
-\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}
-\]</span></p>
-</div>
-<div class="fragment">
-<div style="font-size: 95px;">
-<p>and separates the work into shaft work and flow work, and combines the flow work with the internal energy, one arrives at</p>
-</div>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-\boxed{\Delta \dot{H} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}_\mathrm{s}}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>which is the normal version of the first law for an open steady-state system.</p>
-</div>
-<div style="font-size: 40px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p><strong>Remember</strong> <span class="math inline">\(\Delta\)</span> means <em>final</em> – <em>initial</em> for closed systems and<br> <em>out – in</em> for open systems. If you have multiple streams, you must sum over all of the streams.</p>
+<section id="troutons-rule-plot" class="slide level2">
+<h2>Trouton’s Rule Plot</h2>
+
+<img data-src="Enthalpies_of_melting_and_boiling_for_pure_elements_versus_temperatures_of_transition.png" class="r-stretch"><div style="font-size: 52px;">
+<p><a href="https://commons.wikimedia.org/wiki/User:Mgibby5">Mgibby5</a>, <a href="https://commons.wikimedia.org/wiki/File:Enthalpies_of_melting_and_boiling_for_pure_elements_versus_temperatures_of_transition.svg">Enthalpies of melting and boiling for pure elements versus temperatures of transition</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a></p>
 </div>
 </section>
-<section id="section-7" class="slide level2">
-<h2></h2>
-<p>For an <strong>open transient system</strong>, the first law is</p>
-<div style="font-size: 60px;">
+<section id="valuable-numbers-to-know" class="slide level2">
+<h2>Valuable Numbers to Know</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div style="font-size:95px;">
+<p><strong><em>Approximate</em> Heat Capacities</strong></p>
+</div>
 <p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Gas Type</th>
+<th><span class="math inline">\(C_v\)</span></th>
+<th><span class="math inline">\(C_p\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Monatomic</td>
+<td><span class="math inline">\(\frac{3}{2}R\)</span></td>
+<td><span class="math inline">\(\frac{5}{2}R\)</span></td>
+</tr>
+<tr class="even">
+<td>Diatomic</td>
+<td><span class="math inline">\(\frac{5}{2}R\)</span></td>
+<td><span class="math inline">\(\frac{7}{2}R\)</span></td>
+</tr>
+</tbody>
+</table>
+</div><div class="column" style="width:50%;">
+<center>
+<strong>Water values</strong>
+</center>
+<p><br> <span class="math inline">\(C_p\text{ in } \left[\mathrm{\dfrac{Btu}{lb_m\ ^{\circ} F}}\right] \text{ or } \left[\mathrm{\dfrac{cal}{g\ ^{\circ} C}}\right]\)</span></p>
+<div style="font-size:20px;">
+<p><br><br></p>
 </div>
-<div class="fragment">
-<div style="font-size: 75px;">
-<p><span class="math display">\[
-\boxed{\frac{d}{dt} (U + E_k + E_p)_\mathrm{control\ volume} = \sum \dot{Q}_i + \sum \dot{W}_i - (\Delta \dot{H} + \Delta{E}_k + \Delta \dot{E}_p)_\mathrm{flow\ streams}}
-\]</span></p>
-</div>
-</div>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>which on a mass basis is</p>
-</div>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<div style="font-size: 66px;">
-<p><span class="math display">\[
-\boxed{\frac{d}{dt}[m(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_{i} + \sum_\mathrm{in} \dot{m}_{i}(\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{m}_{i} (\hat{H} + \hat{E}_k + \hat{E}_{p})}
-\]</span></p>
-</div>
-</div>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>or on a mole basis is</p>
-</div>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div style="font-size: 67px;">
-<div class="fragment">
-<p><span class="math display">\[
-\boxed{\frac{d}{dt}[n(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_i + \sum_\mathrm{in} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p)}
-\]</span></p>
-</div>
-</div>
-</section>
-<section id="simplifications" class="slide level2">
-<h2>Simplifications</h2>
-<p>These simplifications are exact, there is no approximation involved.</p>
-<ul>
-<li class="fragment">No change in elevation, then <span class="math inline">\(\Delta E_p = 0\)</span></li>
-<li class="fragment">No change in velocity, then <span class="math inline">\(\Delta E_k = 0\)</span></li>
-<li class="fragment">Adiabatic or insulated, then <span class="math inline">\(Q=0\)</span></li>
-<li class="fragment">Volume remains constant, closed system, then <span class="math inline">\(W=0\)</span></li>
-<li class="fragment">No shafts cross boundary e.g., from a turbine, compressor, or pump, open system, then <span class="math inline">\(\dot{W}_s = 0\)</span></li>
-<li class="fragment">Ideal gas, no chemical reaction, <span class="math inline">\(T\)</span> = const., then <span class="math inline">\(\Delta U = 0\)</span>, <span class="math inline">\(\Delta H = 0\)</span></li>
-</ul>
-</section>
-<section id="approximations" class="slide level2">
-<h2>Approximations</h2>
-<p>These approximations are usually pretty good, but recognize that they are approximations.<br><br></p>
-<ul>
-<li class="fragment"><p>Evaporation, Condensation, Chemical Reaction, Large Temperature Changes, then <span class="math inline">\(\Delta E_k \approx 0, \Delta E_p \approx 0, W \approx 0\)</span><br><br></p></li>
-<li class="fragment"><p>Solid or liquid, no chemical reaction, <span class="math inline">\(T = \mathrm{constant}\)</span>, <span class="math inline">\(\Delta P = \mathrm{small}\)</span>, then <span class="math inline">\(\Delta U \approx 0\)</span>, <span class="math inline">\(\Delta H \approx 0\)</span></p></li>
-</ul>
-</section>
-<section id="remember" class="slide level2">
-<h2>Remember</h2>
-<p><br><span class="math inline">\(\Delta\)</span> means <em>final-initial</em> or <em>out-in</em></p>
-<div class="fragment">
-<p><br><strong>State Variable:</strong> Value depends only on location or “<em>state.</em>” Does not depend on path.</p>
-<p>Common State Variables: <span class="math inline">\(H\)</span>, <span class="math inline">\(T\)</span>, <span class="math inline">\(U\)</span>, <span class="math inline">\(V\)</span>, <span class="math inline">\(m\)</span>, etc.</p>
-</div>
-<div class="fragment">
-<p><br><strong>Path Variable:</strong> Value depends only on path. Does not depend on location.</p>
-<p>Common Path Variables: <span class="math inline">\(Q\)</span>, <span class="math inline">\(W\)</span>.</p>
-</div>
+<p>&nbsp;Steam <span class="math inline">\(\approx 0.5\)</span></p>
+<p>&nbsp;Water <span class="math inline">\(\approx 1.0\)</span></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ice <span class="math inline">\(\approx 0.5\)</span></p>
+<p><span class="math inline">\(\Delta \hat{H}_v \approx 1000\ \left[\mathrm{\dfrac{Btu}{lb_m}}\right]\)</span></p>
+<p><span class="math inline">\(\ \Delta \hat{H}_m \approx 150\ \left[\mathrm{\dfrac{Btu}{lb_m}}\right]\)</span></p>
+</div></div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">The First Law of Thermodynamics states that energy cannot be created or destroyed. It can only change form.</li>
-<li class="fragment">You can always rederive the forms, but it’s best to memorize the First Law for closed systems, open steady-state systems, and open transient systems.</li>
-<li class="fragment">Much of the work in a First-Law problem is deciding which terms to keep and which to set to zero.</li>
+<li class="fragment">Estimating formulas are useful when you can’t find reliable data for heat capacities and for specific enthalpies for phase changes.</li>
+<li class="fragment">Kopp’s rule is useful for heat capacities.</li>
+<li class="fragment">Trouton’s rule, Chen’s equation, and the Clausius Clapeyron equation used inversely are useful for heats of vaporization</li>
+<li class="fragment">The Watson correlation is useful for estimating heats of vaporization at temperatures other than the normal boiling point.</li>
+<li class="fragment">Trouton’s rule for solids is useful for heats of fusion.</li>
 </ol>
 </section></section>
-<section id="section-8" class="title-slide slide level1 center">
+<section id="section-6" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
@@ -481,8 +491,6 @@ U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial
 
 
 </section>
-
-
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png" class="slide-logo"></p>

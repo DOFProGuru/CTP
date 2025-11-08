@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.25">
 
-  <title>Chemical and Thermal Processes – video95estimatingheatcapacitiesvisuals</title>
+  <title>Chemical and Thermal Processes – stlawreactingvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,359 +127,134 @@
 
 
 <section>
-<section id="feeling-the-heat-how-to-get-your-best-estimate." class="title-slide slide level1 center">
-<h1>Feeling the Heat? How to Get Your Best Estimate.</h1>
+<section id="chemical-reactions-vs.-the-first-law-who-wins" class="title-slide slide level1 center">
+<h1>Chemical Reactions vs.&nbsp;The First Law: Who Wins?</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
-<section id="intro" class="slide level2">
-<h2>Intro</h2>
-<p>Always use reliable data if you have them. If not, then estimate</p>
-<div class="fragment">
-<p><span class="math inline">\(\ \ \ \ \ C_p\)</span></p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(\ \ \ \ \ \Delta \hat{H}_v\)</span></p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(\ \ \ \ \ \Delta \hat{H}_m\)</span></p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(\ \ \ \ \ \Delta \hat{H}_s\)</span></p>
-</div>
-<div class="fragment">
-<p>for use in the First Law.</p>
-</div>
-<div class="fragment">
-<p>The standard reference is <em>The Properties of Gases and Liquids</em>. Current edition is the sixth.</p>
-</div>
-</section>
-<section id="estimating-formulas" class="slide level2">
-<h2>Estimating Formulas</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="fragment" data-fragment-index="1">
-<p>If the tabulated data are missing use a formula like Kopp’s rule,</p>
-</div>
-<div class="fragment" data-fragment-index="2">
-<p><span class="math display">\[
-(C_p)_{\mathrm{compound}} = \sum_\text{all atoms} C_{pa}
-\]</span></p>
-</div>
-<div class="fragment" data-fragment-index="3">
-<p>How about mixtures?</p>
-</div>
-<p><br><br></p>
-<div class="fragment" data-fragment-index="4">
-<p>Lacking other data, use a weighted average.</p>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="fragment" data-fragment-index="2">
-<div style="font-size: 90px;">
-<table class="caption-top">
-<caption>Atomic Heat-Capacity Contributions for Kopp’s Rule <span class="math inline">\(C_{pa}\)</span> [J/g-atom°C]</caption>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Solids</th>
-<th>Liquids</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>C</td>
-<td>7.5</td>
-<td>12</td>
-</tr>
-<tr class="even">
-<td>H</td>
-<td>9.6</td>
-<td>18</td>
-</tr>
-<tr class="odd">
-<td>B</td>
-<td>11</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td>Si</td>
-<td>16</td>
-<td>24</td>
-</tr>
-<tr class="odd">
-<td>O</td>
-<td>17</td>
-<td>25</td>
-</tr>
-<tr class="even">
-<td>F</td>
-<td>21</td>
-<td>29</td>
-</tr>
-<tr class="odd">
-<td>P</td>
-<td>23</td>
-<td>31</td>
-</tr>
-<tr class="even">
-<td>S</td>
-<td>26</td>
-<td>31</td>
-</tr>
-<tr class="odd">
-<td>All others</td>
-<td>26</td>
-<td>33</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div></div>
-</section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p>The <span class="math inline">\(C_p \Delta T\)</span> changes are known as <em>sensible heat changes</em>. During a phase change, heat is added without a change in temperature. Such changes are <em>latent heat changes</em>.</p>
-<ul>
-<li class="fragment">Latent heat of vaporization, <span class="math inline">\(\hspace{4pt} \Delta \hat{H}_v\)</span></li>
-<li class="fragment">Latent heat of fusion, <span class="math inline">\(\hspace{4pt} \Delta \hat{H}_m\)</span></li>
-<li class="fragment">Latent heat of sublimination, <span class="math inline">\(\hspace{4pt} \Delta \hat{H}_s\)</span></li>
-</ul>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div style="font-size: 95px;">
+<p>There are two principal methods for calculating enthalpy changes associated with reactions. The first is to calculate the heat of reaction and extent of reaction for each reaction. The reference states are the pure compounds at the reference temperatures and pressures. The First Law then becomes: <br><br></p>
 <div class="fragment">
-<p>Why <span class="math inline">\(\Delta \hat{H}\)</span>? Why not <span class="math inline">\(\Delta \hat{U}\)</span>?</p>
+<p><strong>First Law for Steady-State Reactive Systems (no shaft work)</strong></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\sum\limits_{\substack{\mathrm{out} \\ \mathrm{streams}}}\left(\dot{n}_i + \sum\limits_k \nu_{ik} \dot{\xi}_k\right)\hat{H}_j\ - \sum\limits_{\substack{\mathrm{in} \\ \mathrm{streams}}} \dot{n}_i \hat{H}_i + \sum\limits_\mathrm{rxns} \dot{\xi}_k \left( \Delta \hat{H}^\circ_r\right)_k = \dot{Q}\]</span></p>
+</div>
+<div class="fragment">
+<p>Or implicitly accounting for the change in number of moles</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\sum\limits_{\substack{\mathrm{out} \\ \mathrm{streams}}} \dot{n}_j \hat{H}_j\ - \sum\limits_{\substack{\mathrm{in} \\ \mathrm{streams}}} \dot{n}_i \hat{H}_i + \sum\limits_\mathrm{rxns} \dot{\xi}_k \left( \Delta \hat{H}^\circ_r\right)_k = \dot{Q}\]</span></p>
+</div>
 </div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<p>Vaporize one pound of water at constant <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>. What kind of system?</p>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<div class="fragment">
-<p>The <span class="math inline">\(1\)</span>st law is: <span class="math inline">\(\Delta U = Q + W\)</span></p>
-</div>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<div class="fragment">
-<p>For a closed system the pressure-volume work is:</p>
-<div style="font-size: 30px;">
+<div style="font-size: 95px;">
+<p><strong>First Law for Batch Systems at Constant Pressure</strong></p>
+<div style="font-size: 100px;">
 <p><br></p>
 </div>
-<center>
-<span class="math inline">\(W = -\int P dV\)</span>
-</center>
-</div>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <div class="fragment">
-<p>Now if <span class="math inline">\(P =\)</span> constant</p>
-<div style="font-size: 30px;">
+<p><span class="math display">\[\sum\limits_{\mathrm{final}}\left(n_i + \sum\limits_k \nu_{ik} \xi_k\right)\hat{H}_j\ - \sum\limits_{\mathrm{initial}} n_i \hat{H}_i + \sum\limits_\mathrm{rxns} \xi_k \left( \Delta \hat{H}^\circ_r\right)_k = Q\]</span></p>
+</div>
+<div style="font-size: 120px;">
 <p><br></p>
 </div>
-<center>
-<span class="math inline">\(W = -P\Delta V = -\Delta (PV)\)</span>
-</center>
-</div>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
 <div class="fragment">
-<p>So the <span class="math inline">\(1\)</span>st law becomes:</p>
-<div style="font-size: 30px;">
+<p>Or implicitly accounting for the change in number of moles</p>
+</div>
+<div style="font-size: 120px;">
 <p><br></p>
 </div>
-<center>
-<span class="math inline">\(\Delta U_v = Q - \Delta (PV)\)</span>
-</center>
+<div class="fragment">
+<p><span class="math display">\[\sum\limits_{\mathrm{final}} n_j \hat{H}_j\ - \sum\limits_{\mathrm{initial}} n_i \hat{H}_i + \sum\limits_\mathrm{rxns} \xi_k \left( \Delta \hat{H}^\circ_r\right)_k = Q\]</span></p>
+</div>
 </div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<div class="fragment">
-or
-<center>
-<span class="math inline">\(\Delta U_v + \Delta (PV) = \Delta H_v = Q\)</span>
-</center>
-</div>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<div class="fragment">
-<p>If a phase change takes place in a <em>constant volume</em> closed system, then <span class="math inline">\(\Delta \hat{U}\)</span> must be evaluated as</p>
-</div>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<div class="fragment">
-<center>
-<span class="math inline">\(\Delta \hat{U} = \Delta \hat{H} - \Delta(P\hat{V})\)</span>
-</center>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div style="font-size: 95px;">
+<p><strong>First Law for Batch Systems at Constant Volume</strong></p>
+<div style="font-size: 80px;">
+<p><br></p>
 </div>
 <div class="fragment">
-<center>
-<span class="math inline">\(\Delta \hat{U}_m \approx \Delta \hat{H}_m\)</span>
-</center>
+<p><span class="math display">\[\sum\limits_{\mathrm{final}}\left(n_i + \sum\limits_k \nu_{ik} \xi_k\right)\hat{U}_j\ - \sum\limits_{\mathrm{initial}} n_i \hat{U}_i + \sum\limits_\mathrm{rxns} \xi_k \left( \Delta \hat{U}^\circ_r\right)_k = Q\]</span></p>
 </div>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
 <div class="fragment">
-<center>
-<span class="math inline">\(\Delta \hat{U}_v \approx \Delta \hat{H}_v - RT\)</span>
-</center>
+<p>Or implicitly accounting for the change in number of moles</p>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\sum\limits_{\mathrm{final}} n_j \hat{U}_j\ - \sum\limits_{\mathrm{initial}} n_i \hat{U}_i + \sum\limits_\mathrm{rxns} \xi_k \left( \Delta \hat{U}^\circ_r\right)_k = Q\]</span></p>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><strong>Remember:</strong> All of these absolute enthalpies and internal energies imply reference enthalpies at some standard temperature pressure and state of aggregation.</p>
+</div>
 </div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<p>How do you evaluate latent heats?</p>
-<ul>
-<li class="fragment">Tables</li>
-<li class="fragment">Correlations</li>
-<li class="fragment">Educated Guesses</li>
-</ul>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<p>If enthalpy depends only on temperature:</p>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div style="font-size: 90px;">
 <div class="fragment">
-<p><strong>Trouton’s Rule (within 30% accuracy)</strong><br></p>
+<p><span class="math display">\[\sum\limits_{\substack{\mathrm{out} \\ \mathrm{streams}}} \dot{n}_j \int\limits_{T_\mathrm{ref}}^{T_\mathrm{out}} C_{pj}\ dT - \sum\limits_{\substack{\mathrm{in} \\ \mathrm{streams}}} \dot{n}_i \int\limits_{T_\mathrm{ref}}^{T_\mathrm{in}} C_{pi}\ dT + \sum\limits_\mathrm{rxns} \dot{\xi}_k \left( \Delta \hat{H}^\circ_r\right)_k = \dot{Q}\]</span></p>
+</div>
+</div>
+<div style="font-size: 120px;">
+<p><br></p>
 </div>
 <div class="fragment">
-nonpolar liquids
-<center>
-<span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp}\)</span> [<span class="math inline">\(\mathrm{kJ/mol}\)</span>] <span class="math inline">\(\approx 0.0088T_\mathrm{b} (K)\)</span>
-</center>
+<p>where</p>
 </div>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="absolute" style="top: 56%; left: 10%; ">
 <div class="fragment">
-<p>water, low-MW alcohols</p>
-<center>
-<span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp}\)</span> [<span class="math inline">\(\mathrm{kJ/mol}\)</span>] <span class="math inline">\(\approx 0.109T_\mathrm{b} (K)\)</span>
-</center>
+<p><span class="math display">\[\dot{n}_j = \dot{n}_i + \sum\limits_\mathrm{rxns} \nu_{ik} \dot{\xi}_k\]</span></p>
+</div>
 </div>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
-<p><strong>Chen’s equation (within 2% accuracy)</strong></p>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
+<p>The second method is to choose as reference states the pure <em>elements</em> at standard temperature and pressure. The enthalpy of a given species is then the <em>enthalpy of formation</em> plus any changes due to temperature (<span class="math inline">\(\int C_p dT\)</span>), pressure, solution, or such. The 1<sup>st</sup> Law then becomes:</p>
 <div class="fragment">
-<center>
-<span class="math inline">\((\Delta \hat{H}_v)_\mathrm{nbp} = \dfrac{T_b[0.0331(T_b/T_\mathrm{c}) - 0.0327 + 0.0297\log_{10} P_c]}{1.07 - (T_b / T_\mathrm{c})}\)</span>
-</center>
-<p>with <span class="math inline">\(T\)</span>’s in Kelvin, <span class="math inline">\(P\)</span> in atm, and <span class="math inline">\(\Delta \hat{H}\)</span> in <span class="math inline">\(\mathrm{kJ/mol}\)</span></p>
-</div>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<div class="fragment">
-<p>Also <strong>Clausius and Claperyon backwards</strong></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
+<p><span class="math display">\[\sum\limits_{\substack{\mathrm{out} \\ \mathrm{streams}}} \dot{n}_j \hat{H}_j\ - \sum\limits_{\substack{\mathrm{in} \\ \mathrm{streams}}} \dot{n}_i \hat{H}_i = \dot{Q}\]</span></p>
 </div>
 <div class="fragment">
-<center>
-<span class="math inline">\(\ln p^* = -\dfrac{\Delta \hat{H}_v}{RT} + B\)</span>
-</center>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
+<p>and its variants. <br><br></p>
 </div>
 <div class="fragment">
-<center>
-<span class="math inline">\(\dfrac{d(\ln p^*)}{d(1/T)} = -\dfrac{\Delta \hat{H}_v}{R}\)</span>
-</center>
+<p>Don’t forget about latent heats and enthalpies of solution or mixing.</p>
 </div>
-</section>
-<section id="section-5" class="slide level2">
-<h2></h2>
-<p>And finally if you have <span class="math inline">\(\Delta \hat{H}_v\)</span> at one temperature and you need it at another, the <strong>Watson correlation</strong></p>
-<div class="fragment">
-<center>
-<span class="math inline">\(\dfrac{\Delta \hat{H}_v (T_2)}{\Delta \hat{H}_v (T_1)} = \left(\dfrac{T_\mathrm{c} - T_2}{T_\mathrm{c} - T_1}\right)^{0.38}\)</span>
-</center>
-</div>
-<p><span class="math inline">\(\hspace{1mm}\)</span></p>
-<div class="fragment">
-<p><strong>Trouton’s Rule for Solids (unspecified accuracy)</strong> <br></p>
-</div>
-<div class="fragment">
-<p>For metallic elements</p>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<center>
-<span class="math inline">\(\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.0092 T_m (K)\)</span>
-</center>
-</div>
-<div class="fragment">
-<p>For inorganic compounds</p>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<center>
-<span class="math inline">\(\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.0025 T_m (K)\)</span>
-</center>
-</div>
-<div class="fragment">
-<p>For organic compounds</p>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<center>
-<span class="math inline">\(\Delta \hat{H}_m\ [\mathrm{kJ/mol}] \approx 0.050 T_m (K)\)</span>
-</center>
-</div>
-</section>
-<section id="troutons-rule-plot" class="slide level2">
-<h2>Trouton’s Rule Plot</h2>
-
-<img data-src="Enthalpies_of_melting_and_boiling_for_pure_elements_versus_temperatures_of_transition.png" class="r-stretch"><div style="font-size: 52px;">
-<p><a href="https://commons.wikimedia.org/wiki/User:Mgibby5">Mgibby5</a>, <a href="https://commons.wikimedia.org/wiki/File:Enthalpies_of_melting_and_boiling_for_pure_elements_versus_temperatures_of_transition.svg">Enthalpies of melting and boiling for pure elements versus temperatures of transition</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a></p>
-</div>
-</section>
-<section id="valuable-numbers-to-know" class="slide level2">
-<h2>Valuable Numbers to Know</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div style="font-size:95px;">
-<p><strong><em>Approximate</em> Heat Capacities</strong></p>
-</div>
-<p><br></p>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Gas Type</th>
-<th><span class="math inline">\(C_v\)</span></th>
-<th><span class="math inline">\(C_p\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Monatomic</td>
-<td><span class="math inline">\(\frac{3}{2}R\)</span></td>
-<td><span class="math inline">\(\frac{5}{2}R\)</span></td>
-</tr>
-<tr class="even">
-<td>Diatomic</td>
-<td><span class="math inline">\(\frac{5}{2}R\)</span></td>
-<td><span class="math inline">\(\frac{7}{2}R\)</span></td>
-</tr>
-</tbody>
-</table>
-</div><div class="column" style="width:50%;">
-<center>
-<strong>Water values</strong>
-</center>
-<p><br> <span class="math inline">\(C_p\text{ in } \left[\mathrm{\dfrac{Btu}{lb_m\ ^{\circ} F}}\right] \text{ or } \left[\mathrm{\dfrac{cal}{g\ ^{\circ} C}}\right]\)</span></p>
-<div style="font-size:20px;">
-<p><br><br></p>
-</div>
-<p>&nbsp;Steam <span class="math inline">\(\approx 0.5\)</span></p>
-<p>&nbsp;Water <span class="math inline">\(\approx 1.0\)</span></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ice <span class="math inline">\(\approx 0.5\)</span></p>
-<p><span class="math inline">\(\Delta \hat{H}_v \approx 1000\ \left[\mathrm{\dfrac{Btu}{lb_m}}\right]\)</span></p>
-<p><span class="math inline">\(\ \Delta \hat{H}_m \approx 150\ \left[\mathrm{\dfrac{Btu}{lb_m}}\right]\)</span></p>
-</div></div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Estimating formulas are useful when you can’t find reliable data for heat capacities and for specific enthalpies for phase changes.</li>
-<li class="fragment">Kopp’s rule is useful for heat capacities.</li>
-<li class="fragment">Trouton’s rule, Chen’s equation, and the Clausius Clapeyron equation used inversely are useful for heats of vaporization</li>
-<li class="fragment">The Watson correlation is useful for estimating heats of vaporization at temperatures other than the normal boiling point.</li>
-<li class="fragment">Trouton’s rule for solids is useful for heats of fusion.</li>
+<li class="fragment">We presented the 1<sup>st</sup> Law for steady-state reactive systems.</li>
+<li class="fragment">We presented the 1<sup>st</sup> Law for batch reactive systems at constant pressure.</li>
+<li class="fragment">We presented the 1<sup>st</sup> Law for batch reactive systems at constant volume.</li>
+<li class="fragment">We gave a second method that uses enthalpies of formation rather than enthalpies of reaction.</li>
 </ol>
 </section></section>
-<section id="section-6" class="title-slide slide level1 center">
+<section id="section-5" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>

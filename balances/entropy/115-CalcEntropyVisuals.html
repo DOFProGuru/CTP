@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.25">
 
-  <title>Chemical and Thermal Processes – video118visuals</title>
+  <title>Chemical and Thermal Processes – calcentropyvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,302 +127,506 @@
 
 
 <section>
-<section id="entropy-made-me-do-it-turbines-compressors-and-other-second-law-shenanigans-part-1" class="title-slide slide level1 center">
-<h1>Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans (Part 1)</h1>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
+<section id="the-δs-sentials-of-calculating-entropy-changes" class="title-slide slide level1 center">
+<h1>The Δ<em>S</em>-sentials of Calculating Entropy Changes</h1>
+<div style="text-align: center;">
+<p>DOFPro Team</p>
+</div>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
 <section id="section" class="slide level2">
-<h2><!-- Lots of positioning still needs to be done. --></h2>
-<p><img data-src="Turbines.png" class="absolute" style="top: 0%; left: 5%; width: 40%; "></p>
-<p><img data-src="Compressor.png" class="absolute" style="top: %; right: 5%; width: 40%; "></p>
-<p><img data-src="Pump.png" class="absolute" style="top: 50%; left: 5%; width: 40%; "></p>
-<p><img data-src="Nozzle.png" class="absolute" style="top: 30%; left: 50%; width: 40%; "></p>
-<p><img data-src="LavalNozzle.png" class="absolute" style="top: 45%; left: 50%; width: 40%; "></p>
-<p><img data-src="Valve.png" class="absolute" style="top: 60%; left: 50%; width: 40%; "></p>
-<div class="absolute" style="top: 25%; left: 1%; ">
-<p><span class="math inline">\(\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}\)</span></p>
+<h2></h2>
+<div style="font-size: 150px;">
+<p><strong>The Second Law of Thermodynamics</strong></p>
 </div>
-<div class="absolute" style="top: -4%; left: 30%; ">
-<p><span class="math inline">\(\dot{m},\ T_\mathrm{out},\ P_\mathrm{out}\)</span></p>
-</div>
-<div class="absolute" style="top: 39.5%; right: 50%; ">
-<p><span class="math inline">\(\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}, u_\mathrm{in}\)</span></p>
-</div>
-<div class="absolute" style="top: 40%; right: 0%; ">
-<p><span class="math inline">\(\dot{m},\ T_\mathrm{out},\ P_\mathrm{out},\ u_\mathrm{out}\)</span></p>
-</div>
-<div class="absolute" style="top: 11%; left: 45%; ">
-<p><span class="math inline">\(\dot{W}_s\)</span></p>
-</div>
-</section>
-<section id="turbines-or-expanders" class="slide level2">
-<h2>Turbines or Expanders</h2>
-<p>Steam Turbine</p>
-<p>Gas Turbine</p>
-</section>
-<section id="turbines-or-expanders-cont." class="slide level2">
-<h2>Turbines or Expanders (cont.)</h2>
-<p>A turbine or expander takes a high-temperature and high-pressure steam or gas mixture and sends it through a series of blades, called stator blades and rotor blades, and expands it to create power or shaft work.</p>
-<p><strong>1<sup>st</sup> Law</strong></p>
-<p>Steam</p>
-<p><span class="math display">\[
-\Delta \dot{H} = \dot{W}_s = \dot{m} \Delta \hat{H} = \dot{m} (\hat{H}_\mathrm{out} - \hat{H}_\mathrm{in})
-\]</span></p>
-<p>Ideal Gas (<span class="math inline">\(C_p = \text{const}\)</span>)</p>
-<p><span class="math display">\[
-\Delta \dot{H} = \dot{W}_s = \dot{n} \Delta \hat{H} = \dot{n} \int_\limits{T_\mathrm{in}}^{T_\mathrm{out}} C_p \, dT = \dot{n} C_p (T_\mathrm{out} - T_\mathrm{in})
-\]</span></p>
-</section>
-<section id="turbines-or-expanders-cont.-1" class="slide level2">
-<h2>Turbines or Expanders (cont.)</h2>
-<p>A real turbine has a turbine efficiency, that compares its performance with that of an isentropic turbine.</p>
-<p><span class="math display">\[
-\eta_\mathrm{turbine} = \frac{\dot{W}_{s\text{-actual}}}{\dot{W}_{s\text{-isentropic}}} = \frac{\Delta \hat{H}_\mathrm{actual}}{\Delta \hat{H}_\mathrm{isentropic}}
-\]</span></p>
-<p>Calculating the isentropic values</p>
-<p><span class="math display">\[
-\Delta \hat{S} = 0
-\]</span></p>
-<p>Steam</p>
-<p><span class="math inline">\(\hat{S}_\mathrm{out} = \hat{S}_\mathrm{in},\ \ \ \ \ \ \ \ x = \dfrac{\hat{S}_\mathrm{in} - \hat{S}_l}{\hat{S}_v - \hat{S}_l} = \dfrac{\hat{S}_\mathrm{in} - \hat{S}_l}{\hat{S}_{lv}}\)</span></p>
+<ul>
+<li class="fragment">No apparatus can operate in such a way that its only effect (in system and surroundings) is to convert heat absorbed by a system completely into work.</li>
+<li class="fragment">It is impossible by a cyclic process to convert the heat absorbed by a system completely into work.</li>
+<li class="fragment">No process is possible which consists solely in the transfer of heat from one temperature level to a higher one.</li>
+</ul>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<p>To calculate the outlet enthalpy</p>
-<p><span class="math inline">\(\hat{H}_\mathrm{out} = x\hat{H}_v + (1-x)\hat{H}_l = x\hat{H}_{lv} + \hat{H}_l\)</span></p>
-<p><span class="math inline">\(\Delta \hat{H}_\mathrm{isentropic} = \hat{H}_\mathrm{out} - \hat{H}_\mathrm{in}\)</span></p>
-<p>Ideal Gas (<span class="math inline">\(C_p = \text{const}\)</span>)</p>
-<p><span class="math inline">\(\Delta \hat{S} = 0 = C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span></p>
-<p><span class="math inline">\(C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span> or <span class="math inline">\(\dfrac{T_\mathrm{out}}{T_\mathrm{in}} = \left( \dfrac{P_\mathrm{out}}{P_\mathrm{in}} \right)^{\frac{R}{C_p}}\)</span></p>
+<div style="font-size: 135px;">
+<p><strong>Mathematical Statement of the Second Law</strong></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<center>
+<span class="math inline">\(dW_{\mathrm{lost}} \geq 0\)</span>
+</center>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>or</p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(S\)</span> can be thought of as the reversible normalized heat transfer or as the degree of randomness or disorder.</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Remember:</p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta S_{\mathrm{system}} \text{ or } \Delta S_{\mathrm{surroundings}}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>can be less than zero. But</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0\)</span>
+</center>
+</div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<p>Substitute in for <span class="math inline">\(\Delta T\)</span>.</p>
-<div style="font-size: 90px;">
-<p><span class="math inline">\(\Delta \hat{H}_\mathrm{isentropic} = C_p \Delta T = C_p (T_\mathrm{out} - T_\mathrm{in}) = C_p T_\mathrm{in} \left[ \left( \dfrac{P_\mathrm{out}}{P_\mathrm{in}} \right)^{\frac{R}{C_p}} - 1 \right]\)</span></p>
+<div style="font-size: 145px;">
+<p><strong>Calculation of ∆<em>S</em> for an ideal gas</strong></p>
 </div>
-<p>Calculating actual properties</p>
-<p>Steam</p>
-<p><span class="math inline">\(\eta_\mathrm{turbine} = \dfrac{\Delta \hat{H}_\mathrm{actual}}{\Delta \hat{H}_\mathrm{isentropic}}\)</span></p>
-<p><span class="math inline">\(\hat{H}_\text{out-actual} = \eta_\mathrm{turbine} \Delta \hat{H}_\mathrm{isentropic} + \hat{H}_\mathrm{in}\)</span></p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<p>Assume closed system of <span class="math inline">\(n\)</span> moles initially at <span class="math inline">\(T_1\)</span>, <span class="math inline">\(P_1\)</span> and finally at <span class="math inline">\(T_2\)</span>, <span class="math inline">\(P_2\)</span></p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>First Law</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(dU = dQ + dW\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{U} = \dfrac{dQ}{n} + \dfrac{dW}{n}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Now follow a reversible path (why?).</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{U} = C_v dT\)</span>
+</center>
+</div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<p>Calculating actual quality and entropy for steam</p>
-<p><span class="math inline">\(x_\mathrm{actual} = \dfrac{\hat{H}_\text{out-actual} - \hat{H}_l}{\hat{H}_v - \hat{H}_l} = \dfrac{\hat{H}_\text{out-actual} - \hat{H}_l}{\hat{H}_{lv}}\)</span></p>
-<p><span class="math inline">\(\hat{S}_\text{out-actual} = x_\mathrm{actual} \hat{S}_v + (1-x_\mathrm{actual}) \hat{S}_l = x_\mathrm{actual} \hat{S}_{lv} + \hat{S}_l\)</span></p>
-<p>Calculating actual properties</p>
-<p>Ideal Gas</p>
-<p><span class="math inline">\(\eta_\mathrm{turbine} = \dfrac{\Delta \hat{H}_\mathrm{actual}}{\Delta \hat{H}_\mathrm{isentropic}}\ \ \ \ \ \ \ \Delta \hat{H}_\mathrm{actual} = \eta_\mathrm{turbine} \Delta \hat{H}_\mathrm{isentropic}\)</span></p>
+<div style="font-size: 145px;">
+<p><strong>Calculation of ∆<em>S</em> for an ideal gas (cont.)</strong></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(dS = \dfrac{dQ}{T}\ \)</span> or <span class="math inline">\(\ Td\hat{S} = \dfrac{dQ}{n}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(dW = -PdV\ \)</span> or <span class="math inline">\(\ \dfrac{dW}{n} = - P d\hat{V}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Combining</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(C_vdT = T d\hat{S} - P d\hat{V}\)</span>
+</center>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{S} = \dfrac{C_v}{T} dT + \dfrac{P}{T} d\hat{V} = \dfrac{C_v}{T} dT + \dfrac{R}{\hat{V}} d\hat{V}\)</span>
+</center>
+</div>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
-<p><span class="math inline">\(\Delta \hat{H}_\mathrm{actual} = C_p \Delta T_\mathrm{actual}\)</span></p>
-<p><span class="math inline">\(T_\text{out-actual} = \dfrac{\Delta \hat{H}_\mathrm{actual}}{C_p} + T_\mathrm{in}\)</span></p>
-<p><span class="math inline">\(\Delta \hat{S}_\mathrm{actual} = C_p \ln \dfrac{T_\text{out-actual}}{T_\mathrm{in}} - R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span></p>
+<div style="font-size: 145px;">
+<p><strong>Calculation of ∆<em>S</em> for an ideal gas (cont.)</strong></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<center>
+<span class="math inline">\(\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + \int\limits_{\hat{V}_1}^{\hat{V}_1}\dfrac{R}{\hat{V}} d\hat{V} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}\)</span>
+</center>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Alternatively</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\ \ \ \ \Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \dfrac{C_p - R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\ \ \ \ \ \ \ \ \ = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - \int\limits_{T_1}^{T_2} \dfrac{R}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1}\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\ \ \ \ \ \ \ \ \ = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{T_2\hat{V}_1}{T_1\hat{V}_2} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1}\)</span></p>
+</div>
 </section>
-<section id="compressor" class="slide level2">
-<h2>Compressor</h2>
-<p>Ideal Gas only in the introductory DOFPro videos. Real gases in the advanced thermo videos. Two-phase compressors are rare.</p>
-<p>{images}</p>
-</section>
-<section id="adiabatic-compressor" class="slide level2">
-<h2>Adiabatic Compressor</h2>
-<p>A real adiabatic compressor has a compressor efficiency, that compares its performance with that of an isentropic compressor.</p>
-<p><span class="math inline">\(\eta_\mathrm{compressor} = \dfrac{\dot{W}_{s\text{-isentropic}}}{\dot{W}_{s\text{-actual}}} = \dfrac{\Delta \hat{H}_\mathrm{isentropic}}{\Delta \hat{H}_\mathrm{actual}}\)</span></p>
-<p><strong>First Law</strong></p>
-<p><span class="math inline">\(\Delta \dot{H} = \dot{W}_{s\text{-isen}} = \dot{n} \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} C_p \, dT = \dot{n} C_p \Delta T\)</span></p>
+<section id="ideal-gas-example" class="slide level2">
+<h2>Ideal Gas Example</h2>
+<p>Example: What is the minimum work required for an adiabatic compressor to compress <span class="math inline">\(10\ \mathrm{kg/s}\)</span> of air from <span class="math inline">\(2\ \mathrm{kPa}\)</span> and <span class="math inline">\(300\ \mathrm{K}\)</span> to <span class="math inline">\(6\ \mathrm{MPa}\)</span> (Assume ideal gas, <span class="math inline">\(C_p = (7 ⁄ 2)\mathrm{R}\)</span> )?</p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><strong>First Law (neglect kinetic &amp; potential)</strong></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta \dot{H} = \dot{Q} + \dot{W}_s\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\dot{m} \int_{T_1}^{T_2} C_p dT = \dot{W}_s = \dot{m} C_p \Delta T\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <p><strong>Second Law</strong></p>
-<p><span class="math inline">\(\Delta \hat{S}_\mathrm{air} = \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} C_p \dfrac{dT}{T} - R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}} = C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta \dot{S}_\mathrm{surroundings} = 0\)</span>. Why?
+</center>
+</div>
+</section>
+<section id="ig-example-cont." class="slide level2">
+<h2>IG Example (cont.)</h2>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<center>
+<span class="math inline">\(\Delta \dot{S}_\mathrm{air} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1} = C_p \ln \dfrac{T_2}{T_1} - R \ln \dfrac{P_2}{P_1}\)</span>
+</center>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Minimum work for <span class="math inline">\(\Delta \hat{S} = 0\)</span></p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(C_p \ln \dfrac{T_2}{T_1} = R \ln \dfrac{P_2}{P_1}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\dfrac{T_2}{T_1} = \left(\dfrac{P_2}{P_1}\right)^{\frac{R}{C_p}}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(T_2 = T_1 \left(\dfrac{6000\ \mathrm{kPa}}{2\ \mathrm{kPa}}\right)^{2/7}\)</span>
+</center>
+</div>
+</section>
+<section id="ig-example-cont.-1" class="slide level2">
+<h2>IG Example (cont.)</h2>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<p><span class="math inline">\(\dot{W}_s = \dot{m} C_p \Delta T\)</span></p>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<div style="font-size: 90px;">
+<p><span class="math inline">\(= \dfrac{1000\ \mathrm{g/s}}{29\ \mathrm{g/g-mol}}\left(\dfrac{7}{2}\right)(8.314\mathrm{ J/g-mol K})\left[\left(\dfrac{6000}{2}\right)^{2/7} - 1\right](300\ \mathrm{K})\)</span></p>
+</div>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(=26.64\ \mathrm{MW}\)</span></p>
+</div>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
-<p>Minimum work for <span class="math inline">\(\Delta \hat{S} = 0\)</span></p>
-<p><span class="math inline">\(C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\ \ \ \ \ \ \ \dfrac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\dfrac{P_\mathrm{out}}{P_\mathrm{in}}\right)^{\frac{R}{C_p}}\)</span></p>
-<p>Plug <span class="math inline">\(T_\mathrm{out}\)</span> back into 1st Law.</p>
-<p><span class="math inline">\(\dot{W}_{s\text{-isen}} = \dot{m} C_p \Delta T\)</span></p>
-<p>Calculate work and final enthalpy from efficiency</p>
-<p><span class="math inline">\(\dot{W}_{s\text{-actual}} = \dfrac{\dot{W}_{s\text{-isen}}}{\eta_\mathrm{compressor}}\ \ \ \ \ \ \ \Delta \hat{H}_\mathrm{actual} = \dfrac{\Delta \hat{H}_\mathrm{isen}}{\eta_\mathrm{compressor}}\)</span></p>
-<p>If necessary, you can calculate actual outlet <span class="math inline">\(T\)</span> and entropy change.</p>
+<p><strong>Calculation of <span class="math inline">\(\Delta S\)</span> for substances other than ideal gases</strong></p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{S} = C_p \dfrac{dT}{T} - \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P dP\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>or</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{S} = C_p \dfrac{dT}{T} - \beta \hat{V} dP\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>where the volume expansivity (like a thermal expansion coefficient) is</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\beta \equiv \dfrac{1}{\hat{V}} \dfrac{\partial \hat{V}}{\partial T} \bigg\vert_P\)</span>.
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>It is usually small <span class="math inline">\(( \approx 0)\)</span> for things other than gases.</p>
+</div>
 </section>
-<section id="isothermal-compressor" class="slide level2">
-<h2>Isothermal Compressor</h2>
-<p>A cooling-water jacket is often used to attempt to maintain the compressor at a constant temperature. An isothermal compressor uses much less power than an isentropic compressor, at the cost of a cooling system. A real isothermal compressor has a compressor efficiency, that compares its performance with that of a truly isothermal compressor.</p>
-<p><span class="math inline">\(\eta_\mathrm{compressor} = \dfrac{\dot{W}_{s\text{-isothermal}}}{\dot{W}_{s\text{-actual}}}\)</span></p>
-<p><strong>First Law</strong></p>
-<p><span class="math inline">\(\Delta \dot{H}_{s\text{-iso}} = 0\ \ \ \ \ \ \dot{Q} = -\dot{W}_{s\text{-iso}} = \dot{n}RT\ln\dfrac{P_1}{P_2}\)</span></p>
+<section id="integrating-cpt" class="slide level2">
+<h2>Integrating <em>C<sub>p</sub></em>/<em>T</em></h2>
+<p>Performing the integral:</p>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(C_p = a + b T +c T^2 + d T^3\)</span>
+</center>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\dfrac{C_p}{T} = \dfrac{a}{T} + b + c T + d T^2\)</span>
+</center>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT = \int\limits_{T_1}^{T_2} \left(\dfrac{a}{T} + b + c T + d T^2\right) dT\)</span>
+</center>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(= a \ln \dfrac{T_2}{T_1} + b ( T_2 - T_1) + \dfrac{c}{2} (T_2^2 - T_1^2) + \dfrac{d}{3} (T_2^3-T_1^3)\)</span>
+</center>
+</div>
 </section>
 <section id="section-6" class="slide level2">
 <h2></h2>
-<p>There is no need for the 2<sup>nd</sup> Law with an isothermal compressor.</p>
-<p>Use the efficiency to calculate the actual work</p>
-<p><span class="math inline">\(\dot{W}_{s\text{-actual}} = \dfrac{\dot{W}_{s\text{-iso}}}{\eta_\mathrm{compressor}}\)</span></p>
-<p>If necessary, you can calculate actual enthalpy change, outlet <span class="math inline">\(T\)</span>, and entropy change.</p>
+<p>But what if <span class="math inline">\(C_p\)</span> is in <span class="math inline">\(^\circ\mathrm{C}\)</span>, and the integral must be in <span class="math inline">\(\mathrm{K}\)</span>? Review <em>The Most Annoying Equation Conversion</em> video and plug in</p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(T(\mathrm{K})− 273.15 = T(\mathrm{K})− cf\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>for <span class="math inline">\(T\)</span>. Then</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(C_p = a' + b' T +c' T^2 + d' T^3\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>where <span class="math inline">\(T\)</span> is in Kelvin and</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(a' = a - b \cdot cf + c \cdot cf^2 - d \cdot cf^3\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(b' = b - 2c \cdot cf + 3d \cdot cf^3\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(c' = c - 3d \cdot cf\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d' = d\)</span>
+</center>
+</div>
+</section>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<p><span class="math inline">\(\Delta S\)</span> for a heat reservoir:</p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta S = \dfrac{Q}{T}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\Delta S\)</span> for an ideal gas:</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\Delta \hat{S} = \int\limits_{T_1}^{T_2} \dfrac{C_v}{T} dT + R \ln \dfrac{\hat{V}_2}{\hat{V}_1} = \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT - R \ln \dfrac{P_2}{P_1}\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\Delta S\)</span> for a liquid or solid:</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(d\hat{S} = C_p \dfrac{dT}{T} - \beta \hat{V} dP \approx C_p \dfrac{dT}{T},\ \ \ \ \ \ \ \ \ \ \ \ \Delta \hat{S} \approx \int\limits_{T_1}^{T_2} \dfrac{C_p}{T} dT\)</span>
+</center>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\Delta S\)</span> for water/steam: Use the steam tables.</p>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Adiabatic Turbines and compressors have efficiencies that compare the real or actual case with the isentropic case.</li>
-<li class="fragment">Isothermal compressors have efficiencies that compare the real or actual case with the isothermal case.</li>
-<li class="fragment">We have shown how to calculate turbines and compressors for both steam and ideal gas.</li>
-<li class="fragment">We have shown how to calculate compressors for ideal gas only.</li>
+<li class="fragment">To calculate the change in entropy for a heat reservoir, calculate <span class="math inline">\(Q\)</span> over <span class="math inline">\(T\)</span>.</li>
+<li class="fragment">To calculate the change in entropy for an ideal gas, either use the integral formula with <span class="math inline">\(C_v\)</span> over <span class="math inline">\(T\)</span> and <span class="math inline">\(\hat{V}\)</span> or the integral formula with <span class="math inline">\(C_p\)</span> over <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>.</li>
+<li class="fragment">To calculate the approximate change in entropy for a liquid or a solid, integrate <span class="math inline">\(C_p\)</span> over <span class="math inline">\(T\)</span>.</li>
+<li class="fragment">To calculate the change in entropy for steam or saturated liquid water, use the steam tables.</li>
 </ol>
 </section></section>
 <section id="section-7" class="title-slide slide level1 center">
-<h1><!-- Approved Plain End --></h1>
-<div class="centered bigger">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
-</div>
-<div class="absolute" style="font-size: 110px;top: 125%; left: 38%; ">
-<p>The DOFPro Team</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 25.25%; width: 1494px; height: 364px; "> <!-- ****************************END Regular Intro/Outro ************************* --></p>
-</section>
-
-<section>
-<section id="entropy-made-me-do-it-pumps-nozzles-and-other-second-law-shenanigans-part-2" class="title-slide slide level1 center">
-<h1>Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans (Part 2)</h1>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
-</section>
-<section id="section-8" class="slide level2">
-<h2><!-- Lots of positioning still needs to be done. --></h2>
-<p><img data-src="Turbines.png" class="absolute" style="top: 0%; left: 5%; width: 40%; "></p>
-<p><img data-src="Compressor.png" class="absolute" style="top: %; right: 5%; width: 40%; "></p>
-<p><img data-src="Pump.png" class="absolute" style="top: 50%; left: 5%; width: 40%; "></p>
-<p><img data-src="Nozzle.png" class="absolute" style="top: 20%; left: 50%; width: 40%; "></p>
-<p><img data-src="LavalNozzle.png" class="absolute" style="top: 35%; left: 50%; width: 40%; "></p>
-<p><img data-src="Valve.png" class="absolute" style="top: 60%; left: 50%; width: 40%; "></p>
-<div class="absolute" style="top: 25%; left: 1%; ">
-<p><span class="math inline">\(\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}\)</span></p>
-</div>
-<div class="absolute" style="top: -4%; left: 30%; ">
-<p><span class="math inline">\(\dot{m},\ T_\mathrm{out},\ P_\mathrm{out}\)</span></p>
-</div>
-<div class="absolute" style="top: 38%; right: 50%; ">
-<p><span class="math inline">\(\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}, u_\mathrm{in}\)</span></p>
-</div>
-<div class="absolute" style="top: 38.5%; right: 0%; ">
-<p><span class="math inline">\(\dot{m},\ T_\mathrm{out},\ P_\mathrm{out},\ u_\mathrm{out}\)</span></p>
-</div>
-<div class="absolute" style="top: 11%; left: 45%; ">
-<p><span class="math inline">\(\dot{W}_s\)</span></p>
-</div>
-</section>
-<section id="pump" class="slide level2">
-<h2>Pump</h2>
-<p>Incompressible liquid only in introductory DOFPro videos. Advanced thermo videos cover thermal expansion.</p>
-<p>{images}</p>
-</section>
-<section id="pump-1" class="slide level2">
-<h2>Pump</h2>
-<p>A real pump has a pump efficiency, that compares its performance with that of an isentropic pump.</p>
-<p><span class="math inline">\(\eta_\mathrm{pump} = \dfrac{\dot{W}_{s\text{-isentropic}}}{\dot{W}_{s\text{-actual}}} = \dfrac{\Delta \hat{H}_\mathrm{isentropic}}{\Delta \hat{H}_\mathrm{actual}}\)</span></p>
-<p>From the fundamental property relationships</p>
-<p><span class="math inline">\(d\hat{U} = Td\hat{S} - Pd\hat{V}\)</span></p>
-<p>and</p>
-<p><span class="math inline">\(d\hat{H} = d\hat{U} + Pd\hat{V} + \hat{V}dP\)</span> from <span class="math inline">\(\hat{H} = \hat{U} + P\hat{V}\)</span></p>
-<p><span class="math inline">\(d\hat{U} = d\hat{H} - Pd\hat{V} - \hat{V}dP\)</span></p>
-</section>
-<section id="section-9" class="slide level2">
-<h2></h2>
-<p>so</p>
-<p><span class="math inline">\(d\hat{H} - Pd\hat{V} - \hat{V}dP = Td\hat{S} - Pd\hat{V}\)</span></p>
-<p>or</p>
-<p><span class="math inline">\(d\hat{H} = Td\hat{S} + \hat{V}dP\)</span></p>
-<p>Second Law on pump (adiabatic and reversible)</p>
-<p><span class="math inline">\(\Delta S = 0\)</span></p>
-<p>so</p>
-<p><span class="math inline">\(d\hat{S} = 0\)</span></p>
-<p><span class="math inline">\(d\hat{H} = T d\hat{S} + \hat{V}dP\)</span></p>
-</section>
-<section id="section-10" class="slide level2">
-<h2></h2>
-<p>For liquids V is a very weak function of pressure.</p>
-<p><span class="math inline">\(\int d\hat{H} = \int \hat{V} dP = \hat{V} \int dP\)</span></p>
-<p><span class="math inline">\(\Delta H_\mathrm{isen} = W_{s\text{-isen}} = V\Delta P\)</span></p>
-<p>Calculating the actual work</p>
-<p><span class="math inline">\(\dot{W}_{s\text{-actual}} = \dfrac{\dot{W}_{s\text{-isentropic}}}{\eta_\mathrm{pump}}\)</span></p>
-<p><span class="math inline">\(\Delta \hat{H}_\mathrm{actual} = \dfrac{\Delta \hat{H}_\mathrm{isentropic}}{\eta_\mathrm{pump}}\)</span></p>
-<p>If necessary, you can calculate the actual entropy change.</p>
-</section>
-<section id="nozzle" class="slide level2">
-<h2>Nozzle</h2>
-<p>{images}</p>
-</section>
-<section id="nozzle-1" class="slide level2">
-<h2>Nozzle</h2>
-<p>A real nozzle has a nozzle efficiency, that compares its performance with that of an isentropic nozzle.</p>
-<p><span class="math inline">\(\eta_\mathrm{nozzle} = \dfrac{u_\text{out-actual}^2}{u_\text{out-isentropic}^2}\)</span></p>
-<p>The point of a nozzle is to get a huge increase in velocity.</p>
-<p><strong>First Law</strong></p>
-<p><span class="math inline">\(\Delta \dot{H} + \Delta \dot{E}_k = 0\)</span></p>
-<p><span class="math inline">\(\hat{H}_\mathrm{out} - \hat{H}_\mathrm{in} + \dfrac{u_\mathrm{out}^2}{2} - \dfrac{u_{in}^2}{2} = 0\)</span></p>
-</section>
-<section id="section-11" class="slide level2">
-<h2></h2>
-<p><span class="math inline">\(u_\mathrm{out}^2 = 2(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}) + u_\mathrm{in}^2\)</span></p>
-<p><span class="math inline">\(u_\mathrm{out} = \sqrt{2(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}) + u_\mathrm{in}^2}\)</span>&nbsp;&nbsp;&nbsp;&nbsp;Be careful with units.</p>
-<p><strong>Second Law</strong></p>
-<p><span class="math inline">\(\Delta \hat{S} = 0\ \ \ \ \ \hat{S}_\mathrm{out} = \hat{S}_\mathrm{in}\)</span></p>
-<p>Ideal Gas</p>
-<p><span class="math inline">\(\Delta \hat{S} = 0 = C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span></p>
-<p><span class="math inline">\(C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span>&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;<span class="math inline">\(\dfrac{T_\mathrm{out}}{T_\mathrm{in}} = \left( \dfrac{P_\mathrm{out}}{P_\mathrm{in}} \right)^{\frac{R}{C_p}}\)</span></p>
-</section>
-<section id="section-12" class="slide level2">
-<h2></h2>
-<p>Substitute in for <span class="math inline">\(\Delta T\)</span>.</p>
-<p><span class="math inline">\(\Delta \hat{H} = C_p \Delta T = C_p (T_\mathrm{out} - T_\mathrm{in}) = C_p T_\mathrm{in} \left[ \left( \dfrac{P_\mathrm{out}}{P_\mathrm{in}} \right)^{\frac{R}{C_p}} - 1 \right]\)</span></p>
-<p><span class="math inline">\(u_\text{out-isen}^2 - u_\mathrm{in}^2 = -2C_p \Delta T = 2C_p T_\mathrm{in} \left[ 1 - \left( \dfrac{P_\mathrm{out}}{P_\mathrm{in}} \right)^{\frac{R}{C_p}} \right]\)</span></p>
-<p>Be careful with units.</p>
-</section>
-<section id="section-13" class="slide level2">
-<h2></h2>
-<p>For steam find the value of enthalpy in the steam table at the same entropy and pressure as the outlet.</p>
-<p><span class="math inline">\(u_\text{out-isen} = \sqrt{2(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}) + u_\mathrm{in}^2}\)</span>&nbsp;&nbsp;&nbsp;Be careful with units.</p>
-<p>Find the actual velocity with the efficiency.</p>
-<p><span class="math inline">\(u_\text{out-actual}^2 = \eta_\mathrm{nozzle} u_\text{out-isen}^2\)</span></p>
-<p>If necessary, you can calculate the actual temperature, enthalpy change, and entropy change.</p>
-</section>
-<section id="valves" class="slide level2">
-<h2>Valves</h2>
-<p>A partially open valve, an orifice, or a throttling valve can all be described as a throttling process.</p>
-</section>
-<section id="throttling-process" class="slide level2">
-<h2>Throttling Process</h2>
-<p>Because the fluid passes quickly through a throttling process, the heat transfer is essentially zero. The First Law becomes</p>
-<p><span class="math inline">\(\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p = \dot{Q} + \dot{W}_s\)</span></p>
-<p><span class="math inline">\(\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}\)</span></p>
-<p>There isn’t much to a throttling process for an ideal gas, since the enthalpy is a function of temperature and <span class="math inline">\(\Delta H = 0\)</span>, so <span class="math inline">\(\Delta T\)</span> = 0.</p>
-<p><span class="math inline">\(P_\mathrm{out} \hat{V}_\mathrm{out} = P_\mathrm{in} \hat{V}_\mathrm{in}\)</span></p>
-</section>
-<section id="throttling-process-cont." class="slide level2">
-<h2>Throttling Process (cont.)</h2>
-<p>A throttling process for a liquid at the edge of the two-phase region is much more interesting. Normally, one specifies the inlet <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>, that the quality in, <span class="math inline">\(x = 0\)</span>, and the outlet pressure.</p>
-<p><span class="math inline">\(\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}\)</span></p>
-<p>One then uses the fluid two-phase table to determine the final pressure and quality. For example, take saturated liquid water at 50 bar, and flash it to 1 bar. Calculate the final temperature and quality.</p>
-</section>
-<section id="throttling-process-cont.-1" class="slide level2">
-<h2>Throttling Process (cont.)</h2>
-<p>At 50 bar and 263.94 °C</p>
-<p><span class="math inline">\(\hat{H}_\mathrm{in} = \hat{H}_l = 1154.5 \text{ kJ/kg}\)</span></p>
-<p>At 1 bar</p>
-<p><span class="math inline">\(\boxed{T_\mathrm{out} = 99.61 \text{ }^\circ\text{C}}\)</span></p>
-<p><span class="math inline">\(\hat{H}_l = 417.44 \text{ kJ/kg}\)</span></p>
-<p><span class="math inline">\(\hat{H}_{lv} = 2257.5 \text{ kJ/kg}\)</span></p>
-<p><span class="math inline">\(\hat{H}_v = 2674.9 \text{ kJ/kg}\)</span></p>
-<p><span class="math inline">\(x = \dfrac{\hat{H}_\mathrm{out} - \hat{H}_l}{\hat{H}_{lv}} = \dfrac{1154.5 - 417.44}{2257.5} = \boxed{0.3265}\)</span></p>
-<p>This is essentially a flash calculation accounting for the mass balance and the 1<sup>st</sup> Law.</p>
-</section>
-<section id="the-takeaways-1" class="slide level2">
-<h2>The Takeaways</h2>
-<ol type="1">
-<li class="fragment">Pumps and nozzles all have efficiencies that compare the real or actual case with the isentropic case.</li>
-<li class="fragment">Valves or throttles have such large irreversibilities that no efficiency is calculated.</li>
-<li class="fragment">We modeled pumps for incompressible fluids only.</li>
-<li class="fragment">Nozzles and throttles were modeled for both steam and ideal gas.</li>
-</ol>
-</section></section>
-<section id="section-14" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>

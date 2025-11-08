@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.25">
 
-  <title>Chemical and Thermal Processes – video110fuelsheatingvisuals</title>
+  <title>Chemical and Thermal Processes – turbcomppumpnozzvisualsold</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,361 +127,302 @@
 
 
 <section>
-<section id="fueling-the-fire-the-shocking-truth-about-combustion-reactions" class="title-slide slide level1 center">
-<h1>Fueling the Fire: The Shocking Truth About Combustion Reactions!</h1>
-<div style="text-align: center; font-size: 120px;">
-<p>DOFPro Team</p>
-</div>
+<section id="entropy-made-me-do-it-turbines-compressors-and-other-second-law-shenanigans-part-1" class="title-slide slide level1 center">
+<h1>Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans (Part 1)</h1>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
-<section id="combustion-reactions" class="slide level2">
-<h2>Combustion Reactions</h2>
-<p>Combustion reactions are rapid oxidation reactions. One usually burns a fuel (typically coal, oil or natural gas) in air (or rarely pure oxygen). The principal atomic species in combustion reactions are carbon, hydrogen, sulfur and oxygen.</p>
-<p><br></p>
-<div class="fragment">
-<p><strong>Solid Fuels</strong>: Principally coal, coke, wood, charcoal, and solid waste.</p>
-</div>
-<p><br></p>
-<div class="fragment">
-<p><strong>Liquid Fuels</strong>: Principally hydrocarbons and alcohols.</p>
-</div>
-<p><br></p>
-<div class="fragment">
-<p><strong>Gaseous Fuels</strong>: Principally natural gas.</p>
-</div>
-</section>
-<section id="coal" class="slide level2">
-<h2>Coal</h2>
-<p>Coal is really nasty stuff. There is no other way to put it. <br><br></p>
-<div class="columns">
-<div class="column" style="width:45%;">
-<div class="fragment">
-<div style="font-size: 75px;">
-<table class="caption-top">
-<caption>Composition of Typical Bituminous Coal</caption>
-<thead>
-<tr class="header">
-<th>Component</th>
-<th>Percentage</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>carbon [<span class="math inline">\(\mathrm{C}\)</span>]</td>
-<td>75–90</td>
-</tr>
-<tr class="even">
-<td>hydrogen [<span class="math inline">\(\mathrm{H}\)</span>]</td>
-<td>4.5–5.5</td>
-</tr>
-<tr class="odd">
-<td>nitrogen [<span class="math inline">\(\mathrm{N}\)</span>]</td>
-<td>1–1.5</td>
-</tr>
-<tr class="even">
-<td>sulfur [<span class="math inline">\(\mathrm{S}\)</span>]</td>
-<td>1–2</td>
-</tr>
-<tr class="odd">
-<td>oxygen <span class="math inline">\(\mathrm{[O}\)</span>]</td>
-<td>5–20</td>
-</tr>
-<tr class="even">
-<td>ash</td>
-<td>2–10</td>
-</tr>
-<tr class="odd">
-<td>moisture [<span class="math inline">\(\mathrm{H_2O}\)</span>]</td>
-<td>1–10</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div style="font-size: 50px; text-align: center;">
-<p>http://www.chemistryexplained.com/Ce-Co/Coal.html</p>
-</div>
-</div>
-</div><div class="column" style="width:55%;">
-<div class="fragment">
-<div style="font-size: 60px;">
-<table class="caption-top">
-<caption>Normal range of chemical composition for fly ash produced from different coal types<br>(expressed as percent by weight).</caption>
-<thead>
-<tr class="header">
-<th>Component</th>
-<th>Bituminous</th>
-<th>Subbituminous</th>
-<th>Lignite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SiO<sub>2</sub></td>
-<td>20–60</td>
-<td>40–60</td>
-<td>15–45</td>
-</tr>
-<tr class="even">
-<td>Al<sub>2</sub>O<sub>3</sub></td>
-<td>5–35</td>
-<td>20–30</td>
-<td>10–25</td>
-</tr>
-<tr class="odd">
-<td>Fe<sub>2</sub>O<sub>3</sub></td>
-<td>10–40</td>
-<td>4–10</td>
-<td>4–15</td>
-</tr>
-<tr class="even">
-<td>CaO</td>
-<td>1–12</td>
-<td>5–30</td>
-<td>15–40</td>
-</tr>
-<tr class="odd">
-<td>MgO</td>
-<td>0–5</td>
-<td>1–6</td>
-<td>3–10</td>
-</tr>
-<tr class="even">
-<td>SO<sub>3</sub></td>
-<td>0–4</td>
-<td>0–2</td>
-<td>0–10</td>
-</tr>
-<tr class="odd">
-<td>Na<sub>2</sub>O</td>
-<td>0–4</td>
-<td>0–2</td>
-<td>0–6</td>
-</tr>
-<tr class="even">
-<td>K<sub>2</sub>O</td>
-<td>0–3</td>
-<td>0–4</td>
-<td>0–4</td>
-</tr>
-<tr class="odd">
-<td>LOI</td>
-<td>0–15</td>
-<td>0–3</td>
-<td>0–5</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div style="font-size: 50px; text-align: center;">
-<p>https://www.fhwa.dot.gov/publications/research/infrastructure/structures/97148/cfa51.cfm</p>
-</div>
-</div>
-</div></div>
-</section>
-<section id="trace-elements-in-coal-fly-ash" class="slide level2">
-<h2>Trace Elements in Coal Fly Ash</h2>
-
-<img data-src="CoalFlyAshSamples.png" class="r-stretch"><p>https://pubs.usgs.gov/fs/2015/3037/pdf/fs2015-3037.pdf</p>
-</section>
-<section id="heating-value" class="slide level2">
-<h2>Heating Value</h2>
-<p>The heating value of a fuel is the negative of its heat of combustion. There are two types</p>
-<ul>
-<li class="fragment"><p>Higher Heating Value (HHV): Assumes the final state of the water is liquid (same as for heat of combustion).</p></li>
-<li class="fragment"><p>Lower Heating Value (LHV): Assumes the final state of the water is vapor.</p></li>
-</ul>
-<div class="fragment">
-<p><span class="math display">\[
-HHV = LHV + n_\mathrm{H_2O} \Delta \hat{H}_v\ (\mathrm{H_2O},\ 25\ ^\circ\mathrm{C})
-\]</span></p>
-</div>
-<div class="fragment absolute" style="top: 68%; left: 14%; ">
-<p><span class="math display">\[
-HV_\mathrm{mix} = \sum x_i HV_i
-\]</span></p>
-</div>
-</section>
-<section id="adiabatic-flame-temperature" class="slide level2">
-<h2>Adiabatic Flame Temperature</h2>
-<p>If we operate a combustor such that we extract no heat from the combustor, all of the enthalpy of reaction has to go into heating the combustion products.</p>
-<div class="fragment">
-<p><img data-src="ReactorWithHeat.png" class="absolute" style="top: 35%; left: 20%; width: 40%; "></p>
-</div>
-<div class="fragment absolute" style="top: 31%; left: 27%; ">
-<p><span class="math inline">\(T_\mathrm{in}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 41%; left: 49%; ">
-<p><span class="math inline">\(T_\mathrm{out} = T_\mathrm{af}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 49%; left: 15%; ">
-<p><span class="math inline">\(Q\text{ or }\dot{Q} = 0\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 44%; left: 70%; ">
-<p><span class="math inline">\(\Delta H\text{ or }\Delta \dot{H} = 0\)</span></p>
-</div>
-<div style="font-size: 90px;">
-<div class="fragment absolute" style="top: 60%; left: 0%; ">
-<p><span class="math display">\[
-\sum_\mathrm{out} \dot{n}_j \int\limits_{T_\mathrm{ref}}^{T_\mathrm{out} = T_\mathrm{af}} C_{pj} dT -
-\sum_\mathrm{in} \dot{n}_i \int\limits_{T_\mathrm{ref}}^{T_\mathrm{in}} C_{pi} dT + \sum_\mathrm{rxns} \dot{\xi}_k(\Delta \hat{H}_r^\circ)_k = \dot{Q} = 0
-\]</span></p>
-</div>
-</div>
-</section>
 <section id="section" class="slide level2">
-<h2></h2>
-<p>The adiabatic flame temperature is the maximum temperature a fuel-air mixture can reach when it burns. The maximum adiabatic flame temperature occurs when burning with stoichiometric air. To be useable, some heat has to be extracted from the burning mixture, which lowers the maximum temperature.</p>
-<p><br></p>
-<div class="fragment">
-<p>Many of the <span class="math inline">\(C_p\)</span> formulas found in the literature do not go to a high enough temperature range to permit calculation of <span class="math inline">\(T_\mathrm{af}\)</span> for near-stoichiometric fuel-air mixtures.</p>
+<h2><!-- Lots of positioning still needs to be done. --></h2>
+<p><img data-src="Turbines.png" class="absolute" style="top: 0%; left: 5%; width: 40%; "></p>
+<p><img data-src="Compressor.png" class="absolute" style="top: %; right: 5%; width: 40%; "></p>
+<p><img data-src="Pump.png" class="absolute" style="top: 50%; left: 5%; width: 40%; "></p>
+<p><img data-src="Nozzle.png" class="absolute" style="top: 30%; left: 50%; width: 40%; "></p>
+<p><img data-src="LavalNozzle.png" class="absolute" style="top: 45%; left: 50%; width: 40%; "></p>
+<p><img data-src="Valve.png" class="absolute" style="top: 60%; left: 50%; width: 40%; "></p>
+<div class="absolute" style="top: 25%; left: 1%; ">
+<p><span class="math inline">\(\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}\)</span></p>
 </div>
-<p><br></p>
-<div class="fragment">
-<p>To process materials at higher temperatures than adiabatic flame temperatures, some other technique such as electromagnetic, or laser heating must be used.</p>
+<div class="absolute" style="top: -4%; left: 30%; ">
+<p><span class="math inline">\(\dot{m},\ T_\mathrm{out},\ P_\mathrm{out}\)</span></p>
+</div>
+<div class="absolute" style="top: 39.5%; right: 50%; ">
+<p><span class="math inline">\(\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}, u_\mathrm{in}\)</span></p>
+</div>
+<div class="absolute" style="top: 40%; right: 0%; ">
+<p><span class="math inline">\(\dot{m},\ T_\mathrm{out},\ P_\mathrm{out},\ u_\mathrm{out}\)</span></p>
+</div>
+<div class="absolute" style="top: 11%; left: 45%; ">
+<p><span class="math inline">\(\dot{W}_s\)</span></p>
 </div>
 </section>
-<section id="flammability-limits" class="slide level2">
-<h2>Flammability Limits</h2>
-<p>For fuel-air mixtures that are either too fuel lean or too fuel rich, the oxidation reaction does not generate enough heat to sustain a flame or reaction. The limits of fuel-air mixtures are called the flammability limits.</p>
-<p><br></p>
-<div class="fragment">
-<p>The <strong>Flash Point</strong> is the temperature above which the vapor pressure is high enough to create a flammable mixture.</p>
-</div>
-<p><br></p>
-<div class="fragment">
-<p>The <strong>Autoignition Temperature</strong> is the temperature above which a fuel-air mixture will combust without an additional source of spark or flame.</p>
-</div>
+<section id="turbines-or-expanders" class="slide level2">
+<h2>Turbines or Expanders</h2>
+<p>Steam Turbine</p>
+<p>Gas Turbine</p>
+</section>
+<section id="turbines-or-expanders-cont." class="slide level2">
+<h2>Turbines or Expanders (cont.)</h2>
+<p>A turbine or expander takes a high-temperature and high-pressure steam or gas mixture and sends it through a series of blades, called stator blades and rotor blades, and expands it to create power or shaft work.</p>
+<p><strong>1<sup>st</sup> Law</strong></p>
+<p>Steam</p>
+<p><span class="math display">\[
+\Delta \dot{H} = \dot{W}_s = \dot{m} \Delta \hat{H} = \dot{m} (\hat{H}_\mathrm{out} - \hat{H}_\mathrm{in})
+\]</span></p>
+<p>Ideal Gas (<span class="math inline">\(C_p = \text{const}\)</span>)</p>
+<p><span class="math display">\[
+\Delta \dot{H} = \dot{W}_s = \dot{n} \Delta \hat{H} = \dot{n} \int_\limits{T_\mathrm{in}}^{T_\mathrm{out}} C_p \, dT = \dot{n} C_p (T_\mathrm{out} - T_\mathrm{in})
+\]</span></p>
+</section>
+<section id="turbines-or-expanders-cont.-1" class="slide level2">
+<h2>Turbines or Expanders (cont.)</h2>
+<p>A real turbine has a turbine efficiency, that compares its performance with that of an isentropic turbine.</p>
+<p><span class="math display">\[
+\eta_\mathrm{turbine} = \frac{\dot{W}_{s\text{-actual}}}{\dot{W}_{s\text{-isentropic}}} = \frac{\Delta \hat{H}_\mathrm{actual}}{\Delta \hat{H}_\mathrm{isentropic}}
+\]</span></p>
+<p>Calculating the isentropic values</p>
+<p><span class="math display">\[
+\Delta \hat{S} = 0
+\]</span></p>
+<p>Steam</p>
+<p><span class="math inline">\(\hat{S}_\mathrm{out} = \hat{S}_\mathrm{in},\ \ \ \ \ \ \ \ x = \dfrac{\hat{S}_\mathrm{in} - \hat{S}_l}{\hat{S}_v - \hat{S}_l} = \dfrac{\hat{S}_\mathrm{in} - \hat{S}_l}{\hat{S}_{lv}}\)</span></p>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<div style="font-size: 85px;">
-<table class="caption-top">
-<colgroup>
-<col style="width: 9%">
-<col style="width: 23%">
-<col style="width: 23%">
-<col style="width: 14%">
-<col style="width: 29%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Species</th>
-<th style="text-align: right;">LFL/LEL in&nbsp;vol.&nbsp;%</th>
-<th style="text-align: right;">UFL/UEL in&nbsp;vol.&nbsp;%</th>
-<th style="text-align: right;">Flash Point</th>
-<th style="text-align: right;">Autoignition temperature</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Acetone</td>
-<td style="text-align: right;">2.6–3</td>
-<td style="text-align: right;">12.8–13</td>
-<td style="text-align: right;">−17&nbsp;°C</td>
-<td style="text-align: right;">465&nbsp;°C, 485&nbsp;°C</td>
-</tr>
-<tr class="even">
-<td>Benzene</td>
-<td style="text-align: right;">1.2</td>
-<td style="text-align: right;">7.8</td>
-<td style="text-align: right;">−11&nbsp;°C</td>
-<td style="text-align: right;">560&nbsp;°C</td>
-</tr>
-<tr class="odd">
-<td>n-butane</td>
-<td style="text-align: right;">1.6</td>
-<td style="text-align: right;">8.4</td>
-<td style="text-align: right;">−60&nbsp;°C</td>
-<td style="text-align: right;">420–500&nbsp;°C</td>
-</tr>
-<tr class="even">
-<td>CO</td>
-<td style="text-align: right;">12[6]</td>
-<td style="text-align: right;">75</td>
-<td style="text-align: right;">Fl. gas</td>
-<td style="text-align: right;">609&nbsp;°C</td>
-</tr>
-<tr class="odd">
-<td>Diesel fuel</td>
-<td style="text-align: right;">0.6</td>
-<td style="text-align: right;">7.5</td>
-<td style="text-align: right;">&gt;62&nbsp;°C</td>
-<td style="text-align: right;">210&nbsp;°C</td>
-</tr>
-<tr class="even">
-<td>Ethanol</td>
-<td style="text-align: right;">3–3.3</td>
-<td style="text-align: right;">19</td>
-<td style="text-align: right;">12.8&nbsp;°C</td>
-<td style="text-align: right;">365&nbsp;°C</td>
-</tr>
-<tr class="odd">
-<td>Gasoline</td>
-<td style="text-align: right;">1.4</td>
-<td style="text-align: right;">7.6</td>
-<td style="text-align: right;">&lt;−40&nbsp;°C</td>
-<td style="text-align: right;">246–280&nbsp;°C</td>
-</tr>
-<tr class="even">
-<td>Hydrogen</td>
-<td style="text-align: right;">4/18.3[25]</td>
-<td style="text-align: right;">75/59</td>
-<td style="text-align: right;">Fl. gas</td>
-<td style="text-align: right;">500–571&nbsp;°C</td>
-</tr>
-<tr class="odd">
-<td>Isopropanol</td>
-<td style="text-align: right;">2[6]</td>
-<td style="text-align: right;">12</td>
-<td style="text-align: right;">12&nbsp;°C</td>
-<td style="text-align: right;">398–399&nbsp;°C</td>
-</tr>
-<tr class="even">
-<td>Jet A-1 fuel</td>
-<td style="text-align: right;">0.6–0.7</td>
-<td style="text-align: right;">4.9–5</td>
-<td style="text-align: right;">&gt;38&nbsp;°C</td>
-<td style="text-align: right;">210&nbsp;°C</td>
-</tr>
-<tr class="odd">
-<td>Methane</td>
-<td style="text-align: right;">5.0</td>
-<td style="text-align: right;">14.3</td>
-<td style="text-align: right;">Fl. gas</td>
-<td style="text-align: right;">580&nbsp;°C</td>
-</tr>
-<tr class="even">
-<td>Propylene</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">11.1</td>
-<td style="text-align: right;">−108&nbsp;°C</td>
-<td style="text-align: right;">458&nbsp;°C</td>
-</tr>
-<tr class="odd">
-<td>Veg. oil</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">327&nbsp;°C</td>
-<td style="text-align: right;"></td>
-</tr>
-</tbody>
-</table>
+<p>To calculate the outlet enthalpy</p>
+<p><span class="math inline">\(\hat{H}_\mathrm{out} = x\hat{H}_v + (1-x)\hat{H}_l = x\hat{H}_{lv} + \hat{H}_l\)</span></p>
+<p><span class="math inline">\(\Delta \hat{H}_\mathrm{isentropic} = \hat{H}_\mathrm{out} - \hat{H}_\mathrm{in}\)</span></p>
+<p>Ideal Gas (<span class="math inline">\(C_p = \text{const}\)</span>)</p>
+<p><span class="math inline">\(\Delta \hat{S} = 0 = C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span></p>
+<p><span class="math inline">\(C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span> or <span class="math inline">\(\dfrac{T_\mathrm{out}}{T_\mathrm{in}} = \left( \dfrac{P_\mathrm{out}}{P_\mathrm{in}} \right)^{\frac{R}{C_p}}\)</span></p>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<p>Substitute in for <span class="math inline">\(\Delta T\)</span>.</p>
+<div style="font-size: 90px;">
+<p><span class="math inline">\(\Delta \hat{H}_\mathrm{isentropic} = C_p \Delta T = C_p (T_\mathrm{out} - T_\mathrm{in}) = C_p T_\mathrm{in} \left[ \left( \dfrac{P_\mathrm{out}}{P_\mathrm{in}} \right)^{\frac{R}{C_p}} - 1 \right]\)</span></p>
 </div>
+<p>Calculating actual properties</p>
+<p>Steam</p>
+<p><span class="math inline">\(\eta_\mathrm{turbine} = \dfrac{\Delta \hat{H}_\mathrm{actual}}{\Delta \hat{H}_\mathrm{isentropic}}\)</span></p>
+<p><span class="math inline">\(\hat{H}_\text{out-actual} = \eta_\mathrm{turbine} \Delta \hat{H}_\mathrm{isentropic} + \hat{H}_\mathrm{in}\)</span></p>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<p>Calculating actual quality and entropy for steam</p>
+<p><span class="math inline">\(x_\mathrm{actual} = \dfrac{\hat{H}_\text{out-actual} - \hat{H}_l}{\hat{H}_v - \hat{H}_l} = \dfrac{\hat{H}_\text{out-actual} - \hat{H}_l}{\hat{H}_{lv}}\)</span></p>
+<p><span class="math inline">\(\hat{S}_\text{out-actual} = x_\mathrm{actual} \hat{S}_v + (1-x_\mathrm{actual}) \hat{S}_l = x_\mathrm{actual} \hat{S}_{lv} + \hat{S}_l\)</span></p>
+<p>Calculating actual properties</p>
+<p>Ideal Gas</p>
+<p><span class="math inline">\(\eta_\mathrm{turbine} = \dfrac{\Delta \hat{H}_\mathrm{actual}}{\Delta \hat{H}_\mathrm{isentropic}}\ \ \ \ \ \ \ \Delta \hat{H}_\mathrm{actual} = \eta_\mathrm{turbine} \Delta \hat{H}_\mathrm{isentropic}\)</span></p>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<p><span class="math inline">\(\Delta \hat{H}_\mathrm{actual} = C_p \Delta T_\mathrm{actual}\)</span></p>
+<p><span class="math inline">\(T_\text{out-actual} = \dfrac{\Delta \hat{H}_\mathrm{actual}}{C_p} + T_\mathrm{in}\)</span></p>
+<p><span class="math inline">\(\Delta \hat{S}_\mathrm{actual} = C_p \ln \dfrac{T_\text{out-actual}}{T_\mathrm{in}} - R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span></p>
+</section>
+<section id="compressor" class="slide level2">
+<h2>Compressor</h2>
+<p>Ideal Gas only in the introductory DOFPro videos. Real gases in the advanced thermo videos. Two-phase compressors are rare.</p>
+<p>{images}</p>
+</section>
+<section id="adiabatic-compressor" class="slide level2">
+<h2>Adiabatic Compressor</h2>
+<p>A real adiabatic compressor has a compressor efficiency, that compares its performance with that of an isentropic compressor.</p>
+<p><span class="math inline">\(\eta_\mathrm{compressor} = \dfrac{\dot{W}_{s\text{-isentropic}}}{\dot{W}_{s\text{-actual}}} = \dfrac{\Delta \hat{H}_\mathrm{isentropic}}{\Delta \hat{H}_\mathrm{actual}}\)</span></p>
+<p><strong>First Law</strong></p>
+<p><span class="math inline">\(\Delta \dot{H} = \dot{W}_{s\text{-isen}} = \dot{n} \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} C_p \, dT = \dot{n} C_p \Delta T\)</span></p>
+<p><strong>Second Law</strong></p>
+<p><span class="math inline">\(\Delta \hat{S}_\mathrm{air} = \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} C_p \dfrac{dT}{T} - R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}} = C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span></p>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+<p>Minimum work for <span class="math inline">\(\Delta \hat{S} = 0\)</span></p>
+<p><span class="math inline">\(C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\ \ \ \ \ \ \ \dfrac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\dfrac{P_\mathrm{out}}{P_\mathrm{in}}\right)^{\frac{R}{C_p}}\)</span></p>
+<p>Plug <span class="math inline">\(T_\mathrm{out}\)</span> back into 1st Law.</p>
+<p><span class="math inline">\(\dot{W}_{s\text{-isen}} = \dot{m} C_p \Delta T\)</span></p>
+<p>Calculate work and final enthalpy from efficiency</p>
+<p><span class="math inline">\(\dot{W}_{s\text{-actual}} = \dfrac{\dot{W}_{s\text{-isen}}}{\eta_\mathrm{compressor}}\ \ \ \ \ \ \ \Delta \hat{H}_\mathrm{actual} = \dfrac{\Delta \hat{H}_\mathrm{isen}}{\eta_\mathrm{compressor}}\)</span></p>
+<p>If necessary, you can calculate actual outlet <span class="math inline">\(T\)</span> and entropy change.</p>
+</section>
+<section id="isothermal-compressor" class="slide level2">
+<h2>Isothermal Compressor</h2>
+<p>A cooling-water jacket is often used to attempt to maintain the compressor at a constant temperature. An isothermal compressor uses much less power than an isentropic compressor, at the cost of a cooling system. A real isothermal compressor has a compressor efficiency, that compares its performance with that of a truly isothermal compressor.</p>
+<p><span class="math inline">\(\eta_\mathrm{compressor} = \dfrac{\dot{W}_{s\text{-isothermal}}}{\dot{W}_{s\text{-actual}}}\)</span></p>
+<p><strong>First Law</strong></p>
+<p><span class="math inline">\(\Delta \dot{H}_{s\text{-iso}} = 0\ \ \ \ \ \ \dot{Q} = -\dot{W}_{s\text{-iso}} = \dot{n}RT\ln\dfrac{P_1}{P_2}\)</span></p>
+</section>
+<section id="section-6" class="slide level2">
+<h2></h2>
+<p>There is no need for the 2<sup>nd</sup> Law with an isothermal compressor.</p>
+<p>Use the efficiency to calculate the actual work</p>
+<p><span class="math inline">\(\dot{W}_{s\text{-actual}} = \dfrac{\dot{W}_{s\text{-iso}}}{\eta_\mathrm{compressor}}\)</span></p>
+<p>If necessary, you can calculate actual enthalpy change, outlet <span class="math inline">\(T\)</span>, and entropy change.</p>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
-<div style="font-size: 98px;">
 <ol type="1">
-<li class="fragment">We have added the energetics to the stoichiometry of combustion reactions.</li>
-<li class="fragment">Coal is a particularly dirty fuel. It takes extreme efforts to burn it cleanly</li>
-<li class="fragment">The <strong>Higher Heating Value</strong> (HHV) is the heat of combustion when liquid water is assumed as a combustion product.</li>
-<li class="fragment">The <strong>Lower Heating Value</strong> (LHV) is the heat of combustion when water vapor is assumed as a combustion product.</li>
-<li class="fragment">The <strong>adiabatic flame temperature</strong> is the highest temperature a stoichiometric fuel-air mixture can reach when burned.</li>
-<li class="fragment">For safety reasons, always check your flammability limits.</li>
+<li class="fragment">Adiabatic Turbines and compressors have efficiencies that compare the real or actual case with the isentropic case.</li>
+<li class="fragment">Isothermal compressors have efficiencies that compare the real or actual case with the isothermal case.</li>
+<li class="fragment">We have shown how to calculate turbines and compressors for both steam and ideal gas.</li>
+<li class="fragment">We have shown how to calculate compressors for ideal gas only.</li>
 </ol>
-</div>
 </section></section>
-<section id="section-2" class="title-slide slide level1 center">
+<section id="section-7" class="title-slide slide level1 center">
+<h1><!-- Approved Plain End --></h1>
+<div class="centered bigger">
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+</div>
+<div class="absolute" style="font-size: 110px;top: 125%; left: 38%; ">
+<p>The DOFPro Team</p>
+</div>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 25.25%; width: 1494px; height: 364px; "> <!-- ****************************END Regular Intro/Outro ************************* --></p>
+</section>
+
+<section>
+<section id="entropy-made-me-do-it-pumps-nozzles-and-other-second-law-shenanigans-part-2" class="title-slide slide level1 center">
+<h1>Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans (Part 2)</h1>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
+</section>
+<section id="section-8" class="slide level2">
+<h2><!-- Lots of positioning still needs to be done. --></h2>
+<p><img data-src="Turbines.png" class="absolute" style="top: 0%; left: 5%; width: 40%; "></p>
+<p><img data-src="Compressor.png" class="absolute" style="top: %; right: 5%; width: 40%; "></p>
+<p><img data-src="Pump.png" class="absolute" style="top: 50%; left: 5%; width: 40%; "></p>
+<p><img data-src="Nozzle.png" class="absolute" style="top: 20%; left: 50%; width: 40%; "></p>
+<p><img data-src="LavalNozzle.png" class="absolute" style="top: 35%; left: 50%; width: 40%; "></p>
+<p><img data-src="Valve.png" class="absolute" style="top: 60%; left: 50%; width: 40%; "></p>
+<div class="absolute" style="top: 25%; left: 1%; ">
+<p><span class="math inline">\(\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}\)</span></p>
+</div>
+<div class="absolute" style="top: -4%; left: 30%; ">
+<p><span class="math inline">\(\dot{m},\ T_\mathrm{out},\ P_\mathrm{out}\)</span></p>
+</div>
+<div class="absolute" style="top: 38%; right: 50%; ">
+<p><span class="math inline">\(\dot{m},\ T_\mathrm{in},\ P_\mathrm{in}, u_\mathrm{in}\)</span></p>
+</div>
+<div class="absolute" style="top: 38.5%; right: 0%; ">
+<p><span class="math inline">\(\dot{m},\ T_\mathrm{out},\ P_\mathrm{out},\ u_\mathrm{out}\)</span></p>
+</div>
+<div class="absolute" style="top: 11%; left: 45%; ">
+<p><span class="math inline">\(\dot{W}_s\)</span></p>
+</div>
+</section>
+<section id="pump" class="slide level2">
+<h2>Pump</h2>
+<p>Incompressible liquid only in introductory DOFPro videos. Advanced thermo videos cover thermal expansion.</p>
+<p>{images}</p>
+</section>
+<section id="pump-1" class="slide level2">
+<h2>Pump</h2>
+<p>A real pump has a pump efficiency, that compares its performance with that of an isentropic pump.</p>
+<p><span class="math inline">\(\eta_\mathrm{pump} = \dfrac{\dot{W}_{s\text{-isentropic}}}{\dot{W}_{s\text{-actual}}} = \dfrac{\Delta \hat{H}_\mathrm{isentropic}}{\Delta \hat{H}_\mathrm{actual}}\)</span></p>
+<p>From the fundamental property relationships</p>
+<p><span class="math inline">\(d\hat{U} = Td\hat{S} - Pd\hat{V}\)</span></p>
+<p>and</p>
+<p><span class="math inline">\(d\hat{H} = d\hat{U} + Pd\hat{V} + \hat{V}dP\)</span> from <span class="math inline">\(\hat{H} = \hat{U} + P\hat{V}\)</span></p>
+<p><span class="math inline">\(d\hat{U} = d\hat{H} - Pd\hat{V} - \hat{V}dP\)</span></p>
+</section>
+<section id="section-9" class="slide level2">
+<h2></h2>
+<p>so</p>
+<p><span class="math inline">\(d\hat{H} - Pd\hat{V} - \hat{V}dP = Td\hat{S} - Pd\hat{V}\)</span></p>
+<p>or</p>
+<p><span class="math inline">\(d\hat{H} = Td\hat{S} + \hat{V}dP\)</span></p>
+<p>Second Law on pump (adiabatic and reversible)</p>
+<p><span class="math inline">\(\Delta S = 0\)</span></p>
+<p>so</p>
+<p><span class="math inline">\(d\hat{S} = 0\)</span></p>
+<p><span class="math inline">\(d\hat{H} = T d\hat{S} + \hat{V}dP\)</span></p>
+</section>
+<section id="section-10" class="slide level2">
+<h2></h2>
+<p>For liquids V is a very weak function of pressure.</p>
+<p><span class="math inline">\(\int d\hat{H} = \int \hat{V} dP = \hat{V} \int dP\)</span></p>
+<p><span class="math inline">\(\Delta H_\mathrm{isen} = W_{s\text{-isen}} = V\Delta P\)</span></p>
+<p>Calculating the actual work</p>
+<p><span class="math inline">\(\dot{W}_{s\text{-actual}} = \dfrac{\dot{W}_{s\text{-isentropic}}}{\eta_\mathrm{pump}}\)</span></p>
+<p><span class="math inline">\(\Delta \hat{H}_\mathrm{actual} = \dfrac{\Delta \hat{H}_\mathrm{isentropic}}{\eta_\mathrm{pump}}\)</span></p>
+<p>If necessary, you can calculate the actual entropy change.</p>
+</section>
+<section id="nozzle" class="slide level2">
+<h2>Nozzle</h2>
+<p>{images}</p>
+</section>
+<section id="nozzle-1" class="slide level2">
+<h2>Nozzle</h2>
+<p>A real nozzle has a nozzle efficiency, that compares its performance with that of an isentropic nozzle.</p>
+<p><span class="math inline">\(\eta_\mathrm{nozzle} = \dfrac{u_\text{out-actual}^2}{u_\text{out-isentropic}^2}\)</span></p>
+<p>The point of a nozzle is to get a huge increase in velocity.</p>
+<p><strong>First Law</strong></p>
+<p><span class="math inline">\(\Delta \dot{H} + \Delta \dot{E}_k = 0\)</span></p>
+<p><span class="math inline">\(\hat{H}_\mathrm{out} - \hat{H}_\mathrm{in} + \dfrac{u_\mathrm{out}^2}{2} - \dfrac{u_{in}^2}{2} = 0\)</span></p>
+</section>
+<section id="section-11" class="slide level2">
+<h2></h2>
+<p><span class="math inline">\(u_\mathrm{out}^2 = 2(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}) + u_\mathrm{in}^2\)</span></p>
+<p><span class="math inline">\(u_\mathrm{out} = \sqrt{2(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}) + u_\mathrm{in}^2}\)</span>&nbsp;&nbsp;&nbsp;&nbsp;Be careful with units.</p>
+<p><strong>Second Law</strong></p>
+<p><span class="math inline">\(\Delta \hat{S} = 0\ \ \ \ \ \hat{S}_\mathrm{out} = \hat{S}_\mathrm{in}\)</span></p>
+<p>Ideal Gas</p>
+<p><span class="math inline">\(\Delta \hat{S} = 0 = C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span></p>
+<p><span class="math inline">\(C_p \ln \dfrac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \dfrac{P_\mathrm{out}}{P_\mathrm{in}}\)</span>&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;<span class="math inline">\(\dfrac{T_\mathrm{out}}{T_\mathrm{in}} = \left( \dfrac{P_\mathrm{out}}{P_\mathrm{in}} \right)^{\frac{R}{C_p}}\)</span></p>
+</section>
+<section id="section-12" class="slide level2">
+<h2></h2>
+<p>Substitute in for <span class="math inline">\(\Delta T\)</span>.</p>
+<p><span class="math inline">\(\Delta \hat{H} = C_p \Delta T = C_p (T_\mathrm{out} - T_\mathrm{in}) = C_p T_\mathrm{in} \left[ \left( \dfrac{P_\mathrm{out}}{P_\mathrm{in}} \right)^{\frac{R}{C_p}} - 1 \right]\)</span></p>
+<p><span class="math inline">\(u_\text{out-isen}^2 - u_\mathrm{in}^2 = -2C_p \Delta T = 2C_p T_\mathrm{in} \left[ 1 - \left( \dfrac{P_\mathrm{out}}{P_\mathrm{in}} \right)^{\frac{R}{C_p}} \right]\)</span></p>
+<p>Be careful with units.</p>
+</section>
+<section id="section-13" class="slide level2">
+<h2></h2>
+<p>For steam find the value of enthalpy in the steam table at the same entropy and pressure as the outlet.</p>
+<p><span class="math inline">\(u_\text{out-isen} = \sqrt{2(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}) + u_\mathrm{in}^2}\)</span>&nbsp;&nbsp;&nbsp;Be careful with units.</p>
+<p>Find the actual velocity with the efficiency.</p>
+<p><span class="math inline">\(u_\text{out-actual}^2 = \eta_\mathrm{nozzle} u_\text{out-isen}^2\)</span></p>
+<p>If necessary, you can calculate the actual temperature, enthalpy change, and entropy change.</p>
+</section>
+<section id="valves" class="slide level2">
+<h2>Valves</h2>
+<p>A partially open valve, an orifice, or a throttling valve can all be described as a throttling process.</p>
+</section>
+<section id="throttling-process" class="slide level2">
+<h2>Throttling Process</h2>
+<p>Because the fluid passes quickly through a throttling process, the heat transfer is essentially zero. The First Law becomes</p>
+<p><span class="math inline">\(\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p = \dot{Q} + \dot{W}_s\)</span></p>
+<p><span class="math inline">\(\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}\)</span></p>
+<p>There isn’t much to a throttling process for an ideal gas, since the enthalpy is a function of temperature and <span class="math inline">\(\Delta H = 0\)</span>, so <span class="math inline">\(\Delta T\)</span> = 0.</p>
+<p><span class="math inline">\(P_\mathrm{out} \hat{V}_\mathrm{out} = P_\mathrm{in} \hat{V}_\mathrm{in}\)</span></p>
+</section>
+<section id="throttling-process-cont." class="slide level2">
+<h2>Throttling Process (cont.)</h2>
+<p>A throttling process for a liquid at the edge of the two-phase region is much more interesting. Normally, one specifies the inlet <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>, that the quality in, <span class="math inline">\(x = 0\)</span>, and the outlet pressure.</p>
+<p><span class="math inline">\(\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}\)</span></p>
+<p>One then uses the fluid two-phase table to determine the final pressure and quality. For example, take saturated liquid water at 50 bar, and flash it to 1 bar. Calculate the final temperature and quality.</p>
+</section>
+<section id="throttling-process-cont.-1" class="slide level2">
+<h2>Throttling Process (cont.)</h2>
+<p>At 50 bar and 263.94 °C</p>
+<p><span class="math inline">\(\hat{H}_\mathrm{in} = \hat{H}_l = 1154.5 \text{ kJ/kg}\)</span></p>
+<p>At 1 bar</p>
+<p><span class="math inline">\(\boxed{T_\mathrm{out} = 99.61 \text{ }^\circ\text{C}}\)</span></p>
+<p><span class="math inline">\(\hat{H}_l = 417.44 \text{ kJ/kg}\)</span></p>
+<p><span class="math inline">\(\hat{H}_{lv} = 2257.5 \text{ kJ/kg}\)</span></p>
+<p><span class="math inline">\(\hat{H}_v = 2674.9 \text{ kJ/kg}\)</span></p>
+<p><span class="math inline">\(x = \dfrac{\hat{H}_\mathrm{out} - \hat{H}_l}{\hat{H}_{lv}} = \dfrac{1154.5 - 417.44}{2257.5} = \boxed{0.3265}\)</span></p>
+<p>This is essentially a flash calculation accounting for the mass balance and the 1<sup>st</sup> Law.</p>
+</section>
+<section id="the-takeaways-1" class="slide level2">
+<h2>The Takeaways</h2>
+<ol type="1">
+<li class="fragment">Pumps and nozzles all have efficiencies that compare the real or actual case with the isentropic case.</li>
+<li class="fragment">Valves or throttles have such large irreversibilities that no efficiency is calculated.</li>
+<li class="fragment">We modeled pumps for incompressible fluids only.</li>
+<li class="fragment">Nozzles and throttles were modeled for both steam and ideal gas.</li>
+</ol>
+</section></section>
+<section id="section-14" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>

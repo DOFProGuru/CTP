@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.25">
 
-  <title>Chemical and Thermal Processes – video104heatsofreactionvisuals</title>
+  <title>Chemical and Thermal Processes – intro1stlawvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,150 +127,246 @@
 
 
 <section>
-<section id="germain-hess-and-the-enthalpy-of-doom" class="title-slide slide level1 center">
-<h1>Germain Hess and the Enthalpy of Doom</h1>
-<div style="text-align: center;">
+<section id="add-friction-and-work-to-bernoulli-heres-what-really-happens" class="title-slide slide level1 center">
+<h1>Add Friction and Work to Bernoulli? Here’s What Really Happens!</h1>
+<div style="text-align: center; font-size: 120px;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
 <section id="introduction" class="slide level2">
 <h2>Introduction</h2>
 <ul>
-<li class="fragment">The enthalpy descriptions associated with different sorts of reactions</li>
-<li class="fragment">How you use those for calculating
+<li class="fragment">Fluid flowing through:
 <ul>
-<li class="fragment">First-law relationships</li>
-<li class="fragment">Properties of reactions</li>
+<li class="fragment">A tube</li>
+<li class="fragment">A pipe</li>
+<li class="fragment">A culvert</li>
+<li class="fragment">A sluice</li>
 </ul></li>
+<li class="fragment">Not gaining or losing energy through heat transfer other than friction</li>
+<li class="fragment">The <em>Mechanical Energy Balance</em></li>
 </ul>
 </section>
-<section id="first-law-for-a-reactor" class="slide level2">
-<h2>First Law for a Reactor</h2>
-<p>If we have a chemical reaction, such as</p>
+<section id="the-mechanical-energy-balance" class="slide level2">
+<h2>The Mechanical Energy Balance</h2>
+<p>If we start with the 1<sup>st</sup> law for an open steady-state system,</p>
 <div class="fragment">
 <p><span class="math display">\[
-a\mathrm{A} + b\mathrm{B} \rightarrow c\mathrm{C} + d\mathrm{D}
+\dot{m}\Delta(\hat{U}+P\hat{V})+ \dot{m} \Delta \frac{u^2}{2}+\dot{m}g\Delta z -\dot{Q}=\dot{W}_s
 \]</span></p>
 </div>
 <div class="fragment">
-<p>we can run it in an isothermal chemical reactor, either as an open steady-state system or as a closed constant-pressure system.</p>
+<p>and gather the internal energy term with the heat, and assume an incompressible liquid such that</p>
 </div>
 <div class="fragment">
-<p><img data-src="ReactorWithHeat.png" class="absolute" style="top: 48%; left: 20%; width: 40%; "></p>
-</div>
-<div class="fragment absolute" style="top: 49.5%; left: 27%; ">
-<p><span class="math inline">\(T_\mathrm{in}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 61%; left: 49%; ">
-<p><span class="math inline">\(T_\mathrm{out} = T_\mathrm{in}\)</span></p>
-</div>
-<div class="fragment absolute" style="font-size: 70px;top: 45%; left: 27.5%; ">
-<p><span class="math inline">\(a\mathrm{A} + b\mathrm{B} \rightarrow c\mathrm{C} + d\mathrm{D}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 61.5%; left: 21%; ">
-<p><span class="math inline">\(Q\text{ or }\dot{Q}\)</span></p>
-</div>
-<div class="fragment absolute" style="top: 70%; left: 16%; ">
 <p><span class="math display">\[
-\Delta \hat{H}_r = \dfrac{\Delta H}{\xi} = \dfrac{Q}{\xi} \text{ or } \dfrac{\Delta \dot{H}}{\dot{\xi}} = \dfrac{\dot{Q}}{\dot{\xi}}
+\hat{V} = \frac{1}{\rho}=\mathrm{const}.
+\]</span></p>
+</div>
+<div class="fragment">
+<p>Then the 1<sup>st</sup> law becomes</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{m} \Delta \frac{P}{\rho} + \dot{m} \Delta \frac{u^2}{2} + \dot{m} g \Delta z + (\dot{m} \Delta \hat{U} - \dot{Q}) = \dot{W}_s
 \]</span></p>
 </div>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p>The <em>enthalpy of reaction</em> or <em>heat of reaction</em> depends on how you write the chemical equation. If you double the stoichiometric coefficients, you double the heat of reaction.</p>
-<p><br></p>
-<div class="fragment">
-<p>The heat of reaction is a function of temperature. At the standard reference temperature (<span class="math inline">\(25\ ^{\circ}\text{C}\)</span> for the DOFPro videos), the heat of reaction is the <em>standard heat of reaction</em>. <a href="https://en.wikipedia.org/wiki/Heat_of_combustion#Heat_of_combustion_tables">Wikipedia</a> has reasonable table of heats of combustion, which are heats of reaction for burning fuels in air. They are discussed further later in the video.</p>
+<div style="font-size: 140px;">
+<p><strong>The Mechanical Energy Balance (cont.)</strong></p>
 </div>
-<p><br></p>
+<p>or dividing through by the mass flow rate</p>
 <div class="fragment">
-<p>To calculate the heat of reaction at a temperature other than the standard temperature, you have to take into account any sensible heat changes and any phase changes since <span class="math inline">\(H\)</span> is a state function.</p>
+<p><span class="math display">\[
+\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \left( \Delta \hat{U} - \frac{\dot{Q}}{\dot{m}} \right) = \frac{\dot{W}_s}{\dot{m}}
+\]</span></p>
 </div>
-</section>
-<section id="heat-of-formation" class="slide level2">
-<h2>Heat of Formation</h2>
 <div class="fragment">
-<p>The <em>enthalpy of formation</em> or <em>heat of formation</em> is the standard heat of reaction for forming one mole of product, starting from pure elements at their standard form of aggregation at <span class="math inline">\(T_\mathrm{ref}\)</span>. For example, the standard states at <span class="math inline">\(25\text{ } ^{\circ}\text{C}\)</span> for oxygen and nitrogen are the diatomic gases <span class="math inline">\(\mathrm{O_2 (g)}\)</span> and <span class="math inline">\(\mathrm{N_2 (g)}\)</span>. The standard heat of formation for any element in its standard form of aggregation is <span class="math inline">\(0\)</span> by definition. <a href="https://en.wikipedia.org/wiki/Standard_enthalpy_of_formation">Wikipedia</a> has a reasonably good table of standard enthalpies of formation.</p>
-</div>
-<p><br></p>
-<div class="fragment">
-<p>You can calculate the standard heat of reaction for any reaction as the sum of the heats of formation times the stoichiometric coefficients. Don’t forget phase changes.</p>
+<p>If the only heating is through friction, we can call the term in parentheses, the <em>friction loss</em></p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
-\Delta \hat{H}^{\circ}_r = \sum \nu_i \Delta \hat{H}^{\circ}_{f, i}
+\hat{F} = \Delta \hat{U} - \frac{\dot{Q}}{\dot{m}}
 \]</span></p>
 </div>
-</section>
-<section id="hesss-law" class="slide level2">
-<h2>Hess’s Law</h2>
-<p>The energetics of any reaction can be calculated by algebraically adding together any set of reactions that gives you the same overall reaction as the one you want.</p>
-<p><br></p>
 <div class="fragment">
-<p>Example</p>
+<p>and the 1<sup>st</sup> law becomes</p>
 </div>
-<div style="font-size: 90px;">
-<ol type="1">
-<li class="fragment"><p><span class="math inline">\(\mathrm{C_2H_6} + \dfrac{7}{2} \mathrm{O_2} \rightarrow 2\mathrm{CO_2} + 3\mathrm{H_2O}: \hspace{10pt}\Delta \hat{H}^{\circ}_{r1} = -1559.8\ \mathrm{kJ/mol}\)</span></p></li>
-<li class="fragment"><p><span class="math inline">\(\mathrm{C} + \mathrm{O_2} \rightarrow \mathrm{CO_2}: \hspace{10pt}\Delta \hat{H}^{\circ}_{r2} = -393.5\ \mathrm{kJ/mol}\)</span></p></li>
-<li class="fragment"><p><span class="math inline">\(\mathrm{H_2} + \dfrac{1}{2} \mathrm{O_2} \rightarrow \mathrm{H_2O}: \hspace{10pt}\Delta \hat{H}^{\circ}_{r3} = -285.8\ \mathrm{kJ/mol}\)</span></p></li>
-</ol>
+<div class="fragment">
+<p><span class="math display">\[
+\boxed {\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}_s}{\dot{m}}}
+\]</span></p>
 </div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<p>Add <span class="math inline">\(2\)</span> Equation <span class="math inline">\(2\)</span>’s to <span class="math inline">\(3\)</span> Equation <span class="math inline">\(3\)</span>’s and subtract <span class="math inline">\(1\)</span> Equation <span class="math inline">\(1\)</span></p>
-<div style="font-size: 80px;">
+<div style="font-size: 140px;">
+<p><strong>The Mechanical Energy Balance (cont.)</strong></p>
+</div>
+<p>If there is no friction loss or shaft work input we have</p>
 <div class="fragment">
 <p><span class="math display">\[
-2 \mathrm{C} + 3\mathrm{H_2} + 2\mathrm{O_2} + \dfrac{3}{2} \mathrm{O_2} - \dfrac{7}{2} \mathrm{O_2} \rightarrow 2\mathrm{CO_2} + 3\mathrm{H_2O} - 2\mathrm{CO_2} - 3\mathrm{H_2O} + \mathrm{C_2H_6}
-\]</span></p>
-</div>
-</div>
-<ol start="4" type="1">
-<li class="fragment"><span class="math inline">\(\hspace{10pt} 2\mathrm{C} + 3\mathrm{H}_2 \rightarrow \mathrm{C}_2 \mathrm{H}_6\)</span></li>
-</ol>
-<div class="fragment">
-<p><span class="math display">\[
-\Delta \hat{H}^{\circ}_{r4} = 2\Delta \hat{H}^{\circ}_{r2} + 3\Delta \hat{H}^{\circ}_{r3} - \Delta \hat{H}^{\circ}_{r1}
+\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z = 0
 \]</span></p>
 </div>
 <div class="fragment">
+<p>which is the Bernoulli equation, that you may have seen in high-school physics.</p>
+</div>
+<div class="fragment">
+<p>For a circular pipe, the <em>friction loss</em> is</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[
-= 2(-393.5) + 3(-285.8) - (-1559.8) = -84.6 \mathrm{kJ/mol}
+\hat{F} = f \frac{L}{D} \frac{u^2}{2}
 \]</span></p>
 </div>
-<div style="font-size: 90px;">
 <div class="fragment">
-<p>which is also the heat of formation for ethane.</p>
-</div>
-<div class="fragment">
-<p>If you use different sets of equations to calculate the same final equation with Hess’s law, you may find that rounding and truncation errors keep the results from being identical. The most current value for the enthalpy of formation of ethane from NIST is <span class="math inline">\(–84. \pm0.4\ \mathrm{kJ/mol}\)</span>, which almost encompasses the value we calculated.</p>
-</div>
+<p>where <span class="math inline">\(L\)</span> is the length of the pipe, <span class="math inline">\(D\)</span> is the diameter of the pipe,and <span class="math inline">\(u\)</span> is the velocity of the fluid. <span class="math inline">\(f\)</span> is the <em>Moody friction factor</em> and is a function of the <em>Reynolds number.</em></p>
 </div>
 </section>
-<section id="the-heat-of-combustion" class="slide level2">
-<h2>The Heat of Combustion</h2>
+<section id="the-reynolds-number" class="slide level2">
+<h2>The Reynolds number</h2>
+<p>The Reynolds number is an important dimensionless quantity in fluid mechanics. It is the ratio of momentum to viscous forces. For a pipe, it is calculated as</p>
 <div class="fragment">
-<p>If you have a combustion reaction for a given species, as discussed in the <em>Flame On, Torch!</em> video, the heat of reaction for complete combustion of one mole of fuel is called the <em>heat of combustion</em>. As a reminder, for the principal species and complete combustion, the combustion products are <span class="math inline">\(\mathrm{C}\mathrm{O}_2\)</span>, <span class="math inline">\(\mathrm{H}_2\mathrm{O}\)</span>, and <span class="math inline">\(\mathrm{S}\mathrm{O}_2\)</span>. <span class="math inline">\(\mathrm{C}\mathrm{O}_2\)</span> and <span class="math inline">\(\mathrm{S}\mathrm{O}_2\)</span> are gases at standard conditions. What about water?</p>
+<p><span class="math display">\[
+Re = \frac{\rho u D}{\mu} \quad \text{or} \quad Re = \frac{u D}{\nu}
+\]</span></p>
 </div>
-<p><br></p>
 <div class="fragment">
-<p>The value called the <em>enthalpy of combustion</em> assumes that water is liquid at <span class="math inline">\(25\ ^{\circ}\mathrm{C}\)</span> and <span class="math inline">\(1\ \mathrm{atm}\)</span>. It is alternately called the <em>Higher Heating Value</em> (HHV). The enthalpy of combustion calculated assuming water is vapor at <span class="math inline">\(25\ ^{\circ}\mathrm{C}\)</span> is called the <em>Lower Heating Value</em>. The details will be discussed in <em>Fueling the Fire: The Shocking Truth About Combustion Reactions!</em></p>
+<p>where <span class="math inline">\(D\)</span> is the diameter of the pipe, <span class="math inline">\(u\)</span> is the velocity of the fluid, <span class="math inline">\(\rho\)</span> is the density of the fluid, <span class="math inline">\(\mu\)</span> is the dynamic viscosity of the fluid, and <span class="math inline">\(\nu = \mu ⁄ \rho\)</span> , is the kinematic viscosity of the fluid. For <span class="math inline">\(Re\)</span> &lt; 2100, the flow in the pipe is laminar and <span class="math inline">\(f = 64⁄Re\)</span>. For <span class="math inline">\(Re &gt; 2300\)</span> , the flow is <em>turbulent</em>, and <span class="math inline">\(f\)</span> has to be evaluated from a chart called a <em>Moody Chart</em> or <em>Moody Diagram</em>.</p>
+</div>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+
+<img data-src="Moody_EN.png" class="r-stretch"><div style="font-size: 80px; text-align: center;">
+<p><a href="https://commons.wikimedia.org/wiki/File:Moody_EN.png">Marc.derumaux</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+</div>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<p>To use a Moody chart you have to know the Reynolds number and the Surface Roughness of the inside of the pipe. In addition to the Moody (a.k.a Darcy or Blasius) friction factor, there is another friction factor called the Fanning friction factor, It is also given the symbol <span class="math inline">\(f\)</span>. The relationship is</p>
+<div class="fragment">
+<p><span class="math display">\[
+f_\mathrm{Fanning} = f_\mathrm{Moody}/4.
+\]</span></p>
+</div>
+<div class="fragment">
+<p>Make sure you know which one you are using. Since Wikipedia has a Moody diagram, we’re using the Moody friction factor.</p>
+</div>
+<div style="font-size: 50px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>The mechanical energy balance finds extensive use in transport of an incompressible fluid such as water or oil through pipelines, aqueducts, pumps, turbines, and the like.</p>
+</div>
+</section>
+<section id="example-problem" class="slide level2">
+<h2>Example Problem</h2>
+<p>Water at <span class="math inline">\(20\ ^\circ\mathrm{C}\)</span> flows at <span class="math inline">\(0.05\ \mathrm{m^3/s}\)</span> in a <span class="math inline">\(20\ \mathrm{cm}\)</span> cast iron pipe. Calculate <span class="math inline">\(\Delta P\)</span> per kilometer.</p>
+<div class="fragment">
+<p>Properties: <span class="math display">\[ \rho = 998 \text{ kg/m}^3, \mu = 1.00 \times 10^{-3} \text{ N s/m}^2.
+\]</span></p>
+</div>
+<div class="fragment">
+<p>Calculate velocity:</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+u = \frac{\dot{V}}{A} = \frac{0.05 \text{ m}^3/\text{s}}{\frac{\pi}{4} (0.20 \text{ m})^2} = 1.59 \text{ m/s}.
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+Re = \frac{\rho u D}{\mu} = \frac{998 \text{ kg/m}^3 \cdot (1.59 \text{ m/s}) \cdot 0.20 \text{ m}}{1.00 \times 10^{-3} \text{ N s/m}^2}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 3.18 \times 10^5\)</span></p>
+</div>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<p>Look up the surface roughness in the table on the Moody Chart.</p>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+
+<img data-src="Moody_EN.png" class="r-stretch"><div style="font-size: 80px; text-align: center;">
+<p><a href="https://commons.wikimedia.org/wiki/File:Moody_EN.png">Marc.derumaux</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+</div>
+</section>
+<section id="section-6" class="slide level2">
+<h2></h2>
+<p>Look up the surface roughness in the table on the Moody Chart.</p>
+<p><span class="math display">\[
+\varepsilon = 0.15\ \mathrm{mm}
+\]</span></p>
+<div class="fragment">
+<p>The most common mistake is to forget to calculate <span class="math inline">\(\frac{\varepsilon}{D}\)</span> from <span class="math inline">\(\varepsilon\)</span>.</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\frac{\varepsilon}{D} = \frac{0.15 \times 10^{-3} \text{ m}}{0.20 \text{ m}} = 0.00075.
+\]</span></p>
+</div>
+<div class="fragment">
+<p>Use the Moody Chart (for Moody not Fanning friction factor)</p>
+</div>
+</section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+
+<img data-src="Moody_EN.png" class="r-stretch"><div style="font-size: 80px; text-align: center;">
+<p><a href="https://commons.wikimedia.org/wiki/File:Moody_EN.png">Marc.derumaux</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+</div>
+</section>
+<section id="section-8" class="slide level2">
+<h2></h2>
+<p><span class="math display">\[
+f = 0.0195
+\]</span></p>
+<div style="font-size: 95px;">
+<div class="fragment">
+<p><span class="math display">\[
+\hat{F} = f \frac{L}{D} \frac{u^2}{2} = 0.0195 \left( \frac{1000 \text{ m}}{0.2 \text{ m}} \right) \frac{(1.59 \text{ m/s})^2}{2} = 123 \text{ m}^2 / \text{s}^2
+\]</span></p>
+</div>
+</div>
+<div class="fragment">
+<p>Simplify the mechanical energy balance:</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}}{\dot{m}}
+\]</span></p>
+</div>
+<div style="font-size: 95px;">
+<div class="fragment">
+<p><span class="math display">\[
+\Delta P = - \rho \hat{F} = - \left( 998 \frac{\text{kg}}{\text{m}^3} \right) \left( 123 \frac{\text{m}^2}{\text{s}^2} \right)
+\]</span></p>
+</div>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+= -123,000 \text{ Pa} = -123 \text{ kPa} = -1.2 \text{ atm}
+\]</span></p>
 </div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">The standard heat of formation is the standard heat of reaction for forming one mole of product, starting from pure elements at their standard form of aggregation at <span class="math inline">\(T_\mathrm{ref}.\)</span></li>
-<li class="fragment">The heat of reaction is the sum of the heats of formation of the individual species times their stoichiometric coefficients. Don’t forget phase changes.</li>
-<li class="fragment">Hess’s law states that the energetics of a reaction is the algebraic sum of the energetics of any set of constituent reactions.</li>
-<li class="fragment">The heat of combustion is the heat of reaction for a combustion reaction.</li>
+<li class="fragment">For incompressible flow in a pipe, use the <em>mechanical energy balance</em> to calculate the relationship among pressure drop, velocity change, elevation change, and shaft work.</li>
+<li class="fragment">The mechanical energy balance for flow in a pipe is <span class="math inline">\(\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}_s}{\dot{m}}\)</span>.</li>
+<li class="fragment">Use the Reynolds number, <span class="math inline">\(Re = \rho u D/\mu\)</span>, and the roughness ratio, <span class="math inline">\(\varepsilon/D\)</span>, to find the Moody friction factor on the Moody Chart.</li>
+<li class="fragment">For no friction and no shaft work, the mechanical energy balance simplifies to the Bernoulli equation, <span class="math inline">\(\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z = 0\)</span>.</li>
 </ol>
 </section></section>
-<section id="section-2" class="title-slide slide level1 center">
+<section id="section-9" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
