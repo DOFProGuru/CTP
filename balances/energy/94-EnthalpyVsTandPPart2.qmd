@@ -1,0 +1,354 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# The Enthalpy Games: Sunrise on the Calculations
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Introduction
+
+*The Enthalpy Games: The Ballad of Integrals and Means* discussed how internal energy and enthalpy vary as functions of $T$ and $P$.
+
+::: {style="font-size: 160px;"}
+<br/>
+:::
+
+::: {.fragment}
+***The Enthalpy Games: Sunrise on the Calculations***</br>does a worked example using nitrogen and data from NIST.
+:::
+
+## 
+
+**Example:** Calculate $\Delta H$ for 10 moles of nitrogen going from $500\ \mathrm{K}$ to $1000\ \mathrm{K}$. Compare the results for an approximate heat capacity, the mean heat capacity formula, integrating the heat capacity, and using the data table from the NIST Chemistry WebBook.
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+**Approximate Heat Capacity**
+:::
+
+::: {.fragment .absolute left=5% top=38%}
+\begin{align}
+C_p &= \dfrac{7}{2} R = 3.5 \cdot 8.314\ (\mathrm{J/mol\ K})
+\\&= 29.1\ (\mathrm{J/mol\ K}) = 0.0291\ (\mathrm{kJ/mol\ K})
+\end{align}
+:::
+
+::: {.fragment .absolute left=5% top=59%}
+\begin{align}
+\Delta \hat{H} &= C_p \Delta T = 0.0291\ (\mathrm{kJ/mol}) \cdot (1000 - 500)
+\\&= 14.55\ (\mathrm{kJ/mol})
+\end{align}
+:::
+
+::: {.fragment .absolute left=5% top=80%}
+$\Delta H = n \Delta \hat{H} = 10\ \mathrm{mol} \cdot 14.55\ (\mathrm{kJ/mol}) = 145.5\ (\mathrm{kJ})$
+:::
+
+##
+
+**Shomate Equation, Average Heat Capacity**
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+N.I.S.T. equations use $T/1000$ instead of $T$ to keep the constants scaled between $50$ and $0.05$
+:::
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+For the derived formulas, plug in
+:::
+
+::: {style="font-size: 10px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{120px}T_\text{NIST} = T\ (\mathrm{K})/1000$
+:::
+
+::: {style="font-size: 10px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{120px}T_{1_\text{NIST}} = 500/1000 = 0.5$
+:::
+
+::: {style="font-size: 10px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{120px}T_{2_\text{NIST}} = 1000/1000 = 1.0$
+:::
+
+::: {.fragment .absolute left=4.5% top=55%}
+\begin{align}
+\bar{C}_p = a &+ \frac{b}{2} (T_1+T_2) + \frac{c}{3} (T_1^2 +T_1T_2 +T_2^2)
+\\&+ \frac{d}{4} [(T_1+T_2)(T_1^2+T_2^2)] + \dfrac{e}{T_1T_2}
+\end{align}
+:::
+
+## 
+
+For $\mathrm{N_2}$
+
+::: {.fragment}
+$\hspace{80px}a = 19.50583,$
+:::
+
+::: {.fragment}
+$\hspace{80px}b = 19.88705,$
+:::
+
+::: {.fragment}
+$\hspace{80px}c = -8.598535,$
+:::
+
+::: {.fragment}
+$\hspace{80px}d = 1.369784,$
+:::
+
+::: {.fragment}
+$\hspace{80px}e = 0.527601$
+:::
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{80px}\bar{C}_p = 31.10\ (\mathrm{J/mol\ K}) = 0.03110\ (\mathrm{kJ/mol\ K})$
+:::
+
+::: {.fragment .absolute top=52% left=2.5%}
+\begin{align}
+\Delta \hat{H} &= C_p \Delta T = 0.03110\ (\mathrm{kJ/mol}) \cdot (1000 - 500)
+\\&= 15.55\ (\mathrm{kJ/mol})
+\end{align}
+:::
+
+::: {.fragment .absolute top=75% left=0%}
+$\hspace{80px}\Delta H = n \Delta \hat{H} = 10\ \mathrm{mol} \cdot 15.55\ (\mathrm{kJ/mol}) = 155.5\ (\mathrm{kJ})$
+:::
+
+##
+
+**Shomate Equation, Integrate Heat Capacity**
+
+::: {.fragment}
+$$\Delta \hat{H} = \int\limits_{T_1}^{T_2} C_p (T) dT = \int\limits_{T_1}^{T_2} (a + b T + c T^2 + d T^3 + \dfrac{e}{T^2})dT$$
+:::
+
+::: {.absolute top=30% left=0%}
+::: {.fragment}
+\begin{align}
+\Delta \hat{H}= a (T_2 - T_1) &+ \frac{b}{2} (T_2^2 - T_1^2) + \frac{c}{3} (T_2^3 - T_1^3)
+\\&+ \frac{d}{4} (T_2^4 - T_1^4) + e \left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+\end{align}
+:::
+
+::: {.fragment}
+For $\mathrm{N_2}$ $a = 19.50583,\ b = 19.88705,\ c = -8.598535,$
+:::
+
+::: {.fragment}
+$\hspace{325px}d = 1.369784,\ e = 0.527601$
+:::
+
+::: {style="font-size: 10px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\Delta \hat{H} = 15.55\ (\mathrm{kJ/mol})$
+:::
+
+::: {style="font-size: 10px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\Delta H = n \Delta \hat{H} = 10\ \mathrm{mol} \cdot 15.55\ (\mathrm{kJ/mol}) = 155.5\ (\mathrm{kJ})$
+:::
+:::
+
+##
+
+![](NitrogenEnthalpyTable.png){.absolute top=0% left=0% width=50%}
+
+:::: {.columns}
+::: {.column width=52%}
+:::
+
+::: {.column width=48%}
+::: {.fragment}
+$\hat{H} = 0$ @ $298.15\ \mathrm{K}\ (0\ ^\circ\mathrm{C})$
+:::
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hat{H}_{500} = 5.91\ \mathrm{kJ/mol}$
+:::
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hat{H}_{1000} = 21.46\ \mathrm{kJ/mol}$
+:::
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\Delta \hat{H} = \hat{H}_{1000} - \hat{H}_{500}$
+:::
+
+::: {.fragment}
+$\ \ \ \ \ \ \ =21.46 - 5.91$
+:::
+
+::: {.fragment}
+$\ \ \ \ \ \ \ = 15.55\ \mathrm{kJ/mol}$
+:::
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\Delta H = n \Delta \hat{H}$
+:::
+
+::: {.fragment}
+$\ \ \ \ \ \ \ = 10\ \mathrm{mol} \cdot 15.55\ (\mathrm{kJ/mol})$
+:::
+
+::: {.fragment}
+$\ \ \ \ \ \ \ = 155.5\ \mathrm{kJ}$
+:::
+:::
+::::
+
+::: {.absolute bottom=2% left=0%}
+$\mathrm{N}_2$ data from NIST Chem WebBook
+:::
+
+##
+
+![](NitrogenEnthalpyTable.png){.absolute top=0% left=20% width=40%}
+
+::: {.absolute top=72% left=0%}
+::: {style="font-size: 85px;"}
+::: {.fragment}
+Table is equally spaced. Can average from $500\ \mathrm{K}$ to $1000\ \mathrm{K}$
+:::
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{200px}\bar{C}_p = 31.11\ (\mathrm{J/mol\ K}) = 0.003111\ (\mathrm{J/mol\ K})$
+:::
+
+::: {.fragment}
+\begin{align}
+\Delta \hat{H} &= C_p \Delta T = 0.03111\ (\mathrm{kJ/mol}) \cdot (1000 - 500)
+\\&= 15.56\ (\mathrm{kJ/mol})
+\end{align}
+:::
+:::
+:::
+
+## Spreadsheet
+
+![](N2TableSpreadsheet.png){.absolute top=20% left=0%}
+
+## Valuable Numbers to Know
+
+::::{.columns}
+:::{.column width=50%}
+
+:::{style="font-size:95px;"}
+***Approximate* Heat Capacities**
+:::
+
+<br/>
+
+| Gas Type | $C_v$ | $C_p$ |
+|----------|-------|-------|
+|Monatomic |$\frac{3}{2}R$|$\frac{5}{2}R$|
+| Diatomic |$\frac{5}{2}R$|$\frac{7}{2}R$|
+
+:::
+:::{.column width=50%}
+
+<center>**Water values**</center>
+<br/>
+$C_p\text{ in } \left[\mathrm{\dfrac{Btu}{lb_m\ ^{\circ} F}}\right] \text{ or } \left[\mathrm{\dfrac{cal}{g\ ^{\circ} C}}\right]$
+
+:::{style="font-size:20px;"}
+<br/><br/>
+:::
+
+&nbsp;Steam $\approx 0.5$
+
+&nbsp;Water $\approx 1.0$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ice $\approx 0.5$
+
+$\Delta \hat{H}_v \approx 1000\ \left[\mathrm{\dfrac{Btu}{lb_m}}\right]$
+
+$\ \Delta \hat{H}_m \approx 150\ \left[\mathrm{\dfrac{Btu}{lb_m}}\right]$
+
+:::
+::::
+
+## The Takeaways
+
+1. For moderate accuracy, the approximate heat capacities for monatomic and diatomic gases are adequate.
+2. It is more efficient to calculate $\Delta \hat{H}$ directly from the integral of $C_p$ than to calculate $\bar{C}_p$ and then use $\Delta \hat{H} = \bar{C}_p \Delta T$.
+3. There are multiple ways to calculate $\Delta H$. The one you choose depends on what data you can find.
+
+
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
