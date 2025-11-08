@@ -1,0 +1,461 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# The Enthalpy Games: The Ballad of Integrals and Means
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Introduction
+
+***The Enthalpy Games: The Ballad of Integrals and Means*** discusses how internal energy and enthalpy vary as functions of $T$ and $P$.
+
+::: {style="font-size: 10px;"}
+<br/>
+:::
+
+::: {.fragment}
+*The Enthalpy Games: Sunrise on the Calculations*</br>does a worked example using nitrogen and data from NIST.
+:::
+
+::: {style="font-size: 10px;"}
+<br/>
+:::
+
+::: {.fragment}
+*Internal Energy* is important for closed systems at constant volume
+:::
+
+::: {style="font-size: 10px;"}
+<br/>
+:::
+
+::: {.fragment}
+*Enthalpy* is important for open systems and closed systems at constant pressure
+:::
+
+::: {style="font-size: 10px;"}
+<br/>
+:::
+
+::: {.fragment}
+The ability to evaluate $\Delta H$ and $\Delta U$ is important for many 1^st^-Law problems.
+:::
+
+## Definitions
+
+**Remember:** $\Delta$ means *final – initial* or *out – in*.
+</br></br>
+
+::: {.fragment}
+**State Variable:** Value depends only on location or “state.” Does not depend on path.
+
+Common State Variables: $H$, $T$, $U$, $V$, $m$, etc.
+</br></br>
+:::
+::: {.fragment}
+**Path Variable:** Value depends only on path. Does not depend on location.
+
+Common Path Variables: $Q$, $W$.
+:::
+
+## 
+
+**Example:** Calculate $\Delta H$ for one mole of ice at $-5\ ^\circ \mathrm{C}$ and $1\ \mathrm{bar}$ being changed to steam at $300\ ^\circ \mathrm{C}$ and $5\ \mathrm{bar}$ by two different paths.
+
+::: {.fragment}
+
+::: {style="font-size: 60px;"}
+<br/>
+:::
+*Path 1:*
+:::
+
+1. Ice at $-5\ ^\circ \mathrm{C}$ and $1\ \mathrm{bar}$ to ice at $0\ ^\circ \mathrm{C}$ and $1\ \mathrm{atm}$
+2. Ice at $0\ ^\circ \mathrm{C}$ and $1\ \mathrm{atm}$ to water at $0\ ^\circ \mathrm{C}$ and $1\ \mathrm{atm}$
+3. Water at $0\ ^\circ \mathrm{C}$ and $1\ \mathrm{atm}$ to water at $100\ ^\circ \mathrm{C}$ and $1\ \mathrm{atm}$
+4. Water at $100\ ^\circ \mathrm{C}$ and $1\ \mathrm{atm}$ to steam at $100\ ^\circ \mathrm{C}$ and $1\ \mathrm{atm}$
+5. Steam at $100\ ^\circ \mathrm{C}$ and $1\ \mathrm{atm}$ to steam at $300\ ^\circ \mathrm{C}$ and $1\ \mathrm{bar}$
+6. Steam at $300\ ^\circ \mathrm{C}$ and $1\ \mathrm{bar}$ to steam at $300\ ^\circ \mathrm{C}$ and $5\ \mathrm{bar}$
+
+::: {.fragment}
+For the process $\Delta \hat{H} = \sum\limits_{i=1}^6 \Delta \hat{H}_i$
+:::
+
+##
+
+*Path 2:*
+
+1. Ice at $-5\ ^\circ \mathrm{C}$ and $1\ \mathrm{bar}$ to ice at $0.01\ ^\circ \mathrm{C}$ and $0.00611\ \mathrm{bar}$
+2. Ice at $0.01\ ^\circ \mathrm{C}$ and $0.00611\ \mathrm{bar}$ to water at $0.01\ ^\circ \mathrm{C}$ and $0.00611\ \mathrm{bar}$
+3. Water at $0.01\ ^\circ \mathrm{C}$ and $0.00611\ \mathrm{bar}$ to steam at $300\ ^\circ \mathrm{C}$ and $5\ \mathrm{bar}$
+
+::: {.fragment}
+For the process $\Delta \hat{H} = \sum\limits_{i=1}^3 \Delta \hat{H}_i$
+:::
+
+<br/>
+
+::: {.fragment}
+Are the two equal?
+:::
+
+<br/>
+
+::: {.fragment}
+Why or why not?
+:::
+
+## 
+
+For many chemical engineering processes, work, kinetic energy, and potential energy can be ignored. In such cases the 1st law reduces to:
+
+::: {style="font-size: 80px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{160px}Q = \Delta U$ (Closed System)
+:::
+
+::: {style="font-size: 80px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{160px}\dot{Q} = \Delta \dot{H}$ (Open System)
+:::
+
+::: {style="font-size: 80px;"}
+<br/>
+:::
+
+::: {.fragment}
+For a *constant volume* system we define:
+:::
+
+::: {style="font-size: 80px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{160px}C_v(T) \equiv \lim\limits_{\Delta T \rightarrow 0} \dfrac{\Delta \hat{U}}{\Delta T} = \dfrac{d\hat{U}}{dT}$
+:::
+
+::: {style="font-size: 80px;"}
+<br/>
+:::
+
+::: {.fragment}
+$C_v$ is the *heat capacity* at *constant volume*.
+:::
+
+##
+
+Rearranging
+
+
+::: {style="font-size: 60px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{160px}d\hat{U} = C_v (T) dT$
+:::
+
+::: {style="font-size: 60px;"}
+<br/>
+:::
+
+::: {.fragment}
+and integrating
+:::
+
+::: {style="font-size: 60px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{160px}\Delta \hat{U} = \displaystyle\int\limits_{T_1}^{T_2} C_v (T) dT$
+:::
+
+::: {style="font-size: 60px;"}
+<br/>
+:::
+
+::: {.fragment}
+If $C_v$ does not depend on $T$, then:
+:::
+
+::: {style="font-size: 60px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{160px}\Delta \hat{U} = C_v \Delta T$
+:::
+
+::: {style="font-size: 80px;"}
+<br/>
+:::
+
+::: {.fragment}
+What if the volume changes?
+:::
+
+##
+
+For a *constant pressure* system we define:
+
+::: {style="font-size: 20px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{160px}C_p(T) \equiv \lim\limits_{\Delta T \rightarrow 0} \dfrac{\Delta \hat{H}}{\Delta T} = \dfrac{d\hat{H}}{dT}$
+:::
+
+::: {style="font-size: 20px;"}
+<br/>
+:::
+
+::: {.fragment}
+$C_p$ is the *heat capacity* at *constant pressure*. As before
+:::
+
+::: {style="font-size: 80px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{160px}d\hat{H} = C_p (T) dT$
+:::
+
+::: {style="font-size: 20px;"}
+<br/>
+:::
+
+::: {.fragment}
+and integrating
+:::
+
+::: {style="font-size: 20px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{160px}\Delta \hat{H} = \displaystyle\int\limits_{T_1}^{T_2} C_p (T) dT$
+:::
+
+::: {style="font-size: 20px;"}
+<br/>
+:::
+
+::: {.fragment}
+If $C_p$ does not depend on $T$, then:
+:::
+
+::: {style="font-size: 20px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{160px}\Delta \hat{H} = C_p \Delta T$
+:::
+
+##
+
+What if the pressure changes?
+
+::: {style="font-size: 80px;"}
+<br/>
+:::
+
+::: {.fragment}
+In general:
+:::
+
+::: {.fragment}
+$\hspace{160px}d\hat{H} = C_p (T) dT + \left[\hat{V} - T \left(\dfrac{\partial \hat{V}}{\partial T}\right)_P\right] dP$
+:::
+
+::: {.fragment}
+Ideal Gas:
+
+$\hspace{160px}\Delta \hat{H} = \displaystyle\int\limits_{T_1}^{T_2} C_p (T) dT$ No pressure dependence
+:::
+
+::: {.fragment}
+Liquids and Solids:
+
+$\hspace{160px}\Delta \hat{H} = \displaystyle\int\limits_{T_1}^{T_2} C_p (T) dT + \displaystyle\int\limits_{P_1}^{P_2} \hat{V} dP \approx \displaystyle\int\limits_{T_1}^{T_2} C_p (T) dT + \hat{V} \Delta P$
+:::
+
+##
+
+How do $C_p$ and $C_v$ compare?
+
+::: {style="font-size: 160px;"}
+<br/>
+:::
+
+::: {.fragment}
+Ideal Gas: $C_p = C_v + R$
+:::
+
+::: {style="font-size: 160px;"}
+<br/>
+:::
+
+::: {.fragment}
+Liquids and Solids: $C_p \approx C_v$
+:::
+
+## 
+
+How do you evaluate heat capacities?<br/><br/>
+
+* Tables<br/><br/>
+* Correlations e.g., the Shomate equation:
+  * $\hspace{80px}C_p = a + b T + c T^2 + d T^3 + \dfrac{e}{T^2}$<br/><br/>
+* Estimating formulas e.g., in *Feeling the Heat? How to Get Your Best Estimate.*
+
+##
+
+**Mean Heat Capacity**
+
+The only reason to calculate an average heat capacity is if someone asks for it.
+
+::: {.fragment}
+Definition: $\bar{C}_p \equiv \dfrac{\hat{H}_2 - \hat{H}_1}{T_2 - T_1}$
+:::
+
+::: {.fragment}
+Evaluation:
+:::
+
+::: {.fragment .absolute top=35% left=10%}
+$$\bar{C}_p = \frac{\int\limits_{T_1}^{T_2}(a + b T + c T^2 + d T^3 + \dfrac{e}{T^2})dT}{T_2 - T_1}$$
+:::
+
+::: {.fragment .absolute top=63% left=0%}
+which evaluates to
+:::
+
+::: {.fragment .absolute top=70% left=10%}
+\begin{align}
+\bar{C}_p = a &+ \frac{b}{2} (T_1+T_2) + \frac{c}{3} (T_1^2 +T_1T_2 +T_2^2)
+\\&+ \frac{d}{4} [(T_1+T_2)(T_1^2+T_2^2)] + \dfrac{e}{T_1T_2}
+\end{align}
+:::
+
+##
+
+It should be obvious that
+
+::: {.fragment}
+$\hspace{80px}\Delta \hat{H} = \bar{C}_p \Delta T$
+:::
+
+::: {.fragment}
+but things in thermodynamics rarely are.
+:::
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+The actually useful symbolic integration of the correlations for $C_p$ is to calculate $\Delta \hat{H}$ directly.
+:::
+
+::: {.fragment}
+$$\Delta \hat{H} = \int\limits_{T_1}^{T_2} C_p (T) dT = \int\limits_{T_1}^{T_2} (a + b T + c T^2 + d T^3 + \dfrac{e}{T^2})dT$$
+:::
+
+::: {.fragment .absolute top=60% left=2%}
+\begin{align}
+\Delta \hat{H}=\ &a (T_2 - T_1) + \frac{b}{2} (T_2^2 - T_1^2) + \frac{c}{3} (T_2^3 - T_1^3)
+\\&+ \frac{d}{4} (T_2^4 - T_1^4) + e \left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+\end{align}
+:::
+
+##
+
+::: {style="font-size: 95px;"}
+If you have the formula for $C_p(T)$ it is much easier to evaluate
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{120px}\Delta \hat{H} = \int\limits_{T_1}^{T_2} C_p (T) dT\hspace{80px}$ than to evaluate 
+:::
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{120px}\bar{C}_p = \dfrac{\int\limits_{T_1}^{T_2} C_p (T) dT}{T_2 - T_1}\hspace{80px}$ followed by $\hspace{80px}\Delta \hat{H} = \bar{C}_p \Delta T$.
+:::
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{120px}\Delta \hat{U}_\text{ideal gas} = \int\limits_{T_1}^{T_2} \left[C_p (T) - R \right] dT$
+:::
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+$\hspace{120px}\Delta \hat{U}_\text{solid,\ liquid} \approx \int\limits_{T_1}^{T_2} C_p (T) dT$
+:::
+
+::: {style="font-size: 40px;"}
+<br/>
+:::
+
+::: {.fragment}
+In *The Enthalpy Games: Sunrise on the Calculations*, we do a worked example using nitrogen and data from NIST.
+:::
+:::
+
+## The Takeaways
+
+1. Enthalpy and internal energy are state functions, so the path chosen to calculate $\Delta H$ and $\Delta U$ doesn’t matter. Choose the easiest one.
+2. $H$ and $U$ are not functions of pressure for ideal gases.
+3. $H$ and $U$ are complex functions of pressure for real gases, and are not covered here.
+4. $H$ and $U$ are weak functions of pressure for most liquids and solids.
+5. $\Delta H$ goes with $C_p$ and $\Delta U$ goes with $C_v$.
+
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->

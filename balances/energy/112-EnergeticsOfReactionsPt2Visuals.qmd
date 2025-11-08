@@ -1,0 +1,82 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+
+# React Harder: Formation Heats and Alternate Endings{.bigbold75}
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Introduction
+
+*React Hard: The First Law Gets Chemical* and</br>***React Harder: Formation Heats and Alternate Endings***</br>present
+
+- three sets of calculations for the 1^st^ Law in reacting systems.
+- based on *A Combustible Mixture!* video
+- Review *React Hard: The First Law Gets Chemical* before watching this video.
+
+
+##
+
+**Energetics for Equations 3 and 4**
+
+![](ReactEnerEq34Full.png)
+
+##
+
+::: {.absolute top=-5% left=0%}
+**Heat of Formation Method**
+:::
+
+::: {style="font-size: 90px;"}
+::: {.absolute top=-7% left=0%}
+$$\sum\limits_{\substack{\mathrm{out} \\ \mathrm{streams}}} \dot{n}_j \hat{H}_j\ - \sum\limits_{\substack{\mathrm{in} \\ \mathrm{streams}}} \dot{n}_i \hat{H}_i = \dot{Q},\hspace{120px} \hat{H}_i = \Delta \hat{H}^{\circ}_{f, i} + \int\limits_{T_\mathrm{ref}}^T C_{pi} (T) dT $$
+:::
+:::
+
+::: {.fragment}
+![](ReactEnerHoFFull.png){.absolute bottom=5%}
+:::
+
+## Which Method?
+
+::: {style="font-size: 95px;"}
+- All three gave identical results.
+- The heat of reaction method requires you to calculate the heats of reaction.
+- The heats of formation method requires you to add the heats of formation to the specified species specific enthalpies.
+- The net effort appears to be about the same.
+
+::: {.fragment}
+I personally usually use the heat of reaction method because I like to see what the reactions are contributing to the overall energy balance compared to what the sensible heat changes are contributing.
+:::
+
+- Either method works.
+- Implement your chosen method correctly. 
+:::
+
+## The Takeaways
+
+1. All three ways of working the problem gave the same answers.
+2. Sometimes you have to do piecewise integration on your heat capacity equations.
+3. The method you choose depends on your personal preference.
+
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *Flame On, Torch!*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
