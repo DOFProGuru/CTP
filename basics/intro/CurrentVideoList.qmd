@@ -4,7 +4,7 @@ author: "DOFPro group"
 format: html
 ---
 
-Links to the current videos on YouTube will be maintained here. These are current as of 2025-10-03.
+Links to the current videos on YouTube will be maintained here. These are current as of 2025-11-10.
 
 # Table of Videos
 
@@ -18,6 +18,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 21 | Is Your Process Data Spread Smooth or Chunky? | [Link](https://youtu.be/yFOrwNmEbPA) | No | [Page](../calculations/DataVisWebPage.qmd) | Data Visualization, linear and Log Coordinates |
 | 22 | Interpol Is Late to a Mind-Blowing Math Hack | [Link](https://youtu.be/VbnpWj9iYAU) | No | [Page](../calculations/InterpolationWebPage.qmd) | Linear Interpolation |
 | 23 | No Clear Interpretation a Mind-Blowing Math Hack | [Link](https://youtu.be/721FxKwDRAU) | No | [Page](../calculations/InterpolationWebPage.qmd) | Nonlinear Interpolation |
+| 24 | The Unauthorized Guide to Using Spreadsheets in Chemical Engineering | [Link](https://youtu.be/5XMeQ6vWymA) | No | Page | Spreadsheet Basics |
 | 25 | How to Have a Quickie with Your Data Part 1 | [Link](https://youtu.be/4EfhlWNDQ48) | No | [Page] | $\bar{x}$, $S_{\bar{x}}$, Linear Least Squares |
 | 26 | How to Have a Quickie with Your Data Part 2 | [Link](https://youtu.be/dVmh0EdQT1U) | No | [Page]| Nonlinear least squares |
 | 27 | Is Furlongs Per Fortnight a Thing? | [Link](https://youtu.be/5EbL9MEro9E) | No | [Page](../processdata/DimensionalEquationsWebPage.qmd) | Unit Conversion |
@@ -66,8 +67,17 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 90| Add Friction and Work to Bernoulli? Here’s What Really Happens!  | [Link](https://youtu.be/Da48oZb9oNw) | No | [Page] | The Mechanical Energy Balance and the Moody Chart |
 | 91| Steam: Get the Quality Right AFTER You Table It! Part 1  | [Link](https://youtu.be/8tH3gXz_M8A) | No | [Page] | The Basics of Steam Tables |
 | 92| Steam: Get the Quality Right AFTER You Table It! Part 2  | [Link](https://youtu.be/yRf09eSRM1A) | No | [Page] | Steam Table Examples |
+| 93| The Enthalpy Games: The Ballad of Integrals and Means | [Link](https://youtu.be/YGMHMAXnFY8) | No | [Page] | $\Delta H$ from $C_p$, $\Delta U$ from $C_v$ |
+| 94| The Enthalpy Games: Sunrise on the Calculations | [Link](https://youtu.be/yLJp3YQaVvo) | No | [Page] | Example for $\mathrm{N_2}$, $\Delta H$ from $C_p$, $\Delta U$ from $C_v$ |
 | 95| Feeling the Heat? How to Get Your Best Estimate | [Link](https://youtu.be/f_l3OFyuiPs) | No | [Page] | Estimating $C_p$, $\Delta \hat{H}_v$, $\Delta \hat{H}_m$ |
+| 98| Reference Not Found: Mixing, Dissolving, and Changing the Rules | [Link](https://youtu.be/ggU692PLWts) | No | [Page] | $\Delta H_m$, $\Delta H_s$ |
 | 104| Germain Hess and the Enthalpy of Doom  | [Link](https://youtu.be/qdgH4v64vOQ) | No | [Page] | Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$ |
+|106| Chemical Reactions vs. The First Law: Who Wins?  | [Link](https://youtu.be/mFF5hDHclPE) | No | [Page] | Forms of the 1^st^ Law for Chemical Reactions|
 | 110| Fueling the Fire: The Shocking Truth About Combustion Reactions! | [Link](https://youtu.be/lW5dK-F6H3U) | No | [Page] | Common fuels, Heats of Combustion, HHV, LHV |
+|111| React Hard: The First Law Gets Chemical | [Link](https://youtu.be/KA0aw-KbAR4) | No | [Page] | Example of the 1^st^ Law for Chemical Reactions |
+|112| React Harder: Formation Heats and Alternate Endings | [Link](https://youtu.be/iqxJP6g-Qsc) | No | [Page] | 2 more Examples of the 1^st^ Law for Chemical Reactions |
+|113| Resistance is Futile. Entropy Always Wins | [Link](https://youtu.be/yqVUz1WA7M4) | No | [Page] | Intro to 2^nd^ Law |
 | 115| The ΔS-sentials of Calculating Entropy Changes  | [Link](https://youtu.be/z2e5Rq5r288) | No | [Page] | Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam |
+|116| Sadi Carnot and the Power of Fire, the 1824 Edition Part 1  | [Link](https://youtu.be/EDJQAvBIAok) | No | [Page] | The Air-Standard Carnot Cycle |
+|116A| Sadi Carnot and the Power of Fire, the 1824 Edition Part 2  | [Link](https://youtu.be/Qc9W1KKpouU) | No | [Page] | The Steam Carnot Cycle |
 | 117| How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?  | [Link](https://youtu.be/QcZTezMtDRk) | No | [Page] | The 2nd Law for Closed, Open Steady-State, and Open Transient Systems |
