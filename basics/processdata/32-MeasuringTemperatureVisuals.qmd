@@ -41,8 +41,6 @@ DOFPro Team
 
 ## Glass Thermometer
 
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
-
 :::{style="font-size: 85px;"}
 :::{.absolute left=0% top=10%}
 | Spec. | Value |
@@ -58,6 +56,8 @@ DOFPro Team
 :::
 :::
 
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
 Notes: Glass thermometers are subject to breakage, and if they contain mercury, they present a material hazard. They typically have a specified immersion depth for the most accurate readings.
@@ -65,8 +65,6 @@ Notes: Glass thermometers are subject to breakage, and if they contain mercury, 
 :::
 
 ## Dial or Bimetallic Thermometer
-
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
 
 :::{style="font-size: 85px;"}
 :::{.absolute left=0% top=10%}
@@ -83,6 +81,8 @@ Notes: Glass thermometers are subject to breakage, and if they contain mercury, 
 :::
 :::
 
+![](OvenThermometer.png){.absolute right=0% top=20% width=35%}
+
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
 Notes: Bimetallic or dial thermometers are not for high-precision measurements but are inexpensive and reliable.
@@ -90,8 +90,6 @@ Notes: Bimetallic or dial thermometers are not for high-precision measurements b
 :::
 
 ## Liquid Crystal
-
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
 
 :::{style="font-size: 85px;"}
 :::{.absolute left=0% top=10%}
@@ -108,6 +106,8 @@ Notes: Bimetallic or dial thermometers are not for high-precision measurements b
 :::
 :::
 
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
 Notes: The displays are easy to read and visually appealing. Liquid Crystal thermometers are not very robust and typically last for 2 to 3 years before needing to be replaced. They are typically quite inexpensive.
@@ -115,8 +115,6 @@ Notes: The displays are easy to read and visually appealing. Liquid Crystal ther
 :::
 
 ## Thermistor
-
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
 
 :::{style="font-size: 85px;"}
 :::{.absolute left=0% top=10%}
@@ -133,6 +131,8 @@ Notes: The displays are easy to read and visually appealing. Liquid Crystal ther
 :::
 :::
 
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
 Notes: Within their temperature range, thermistors are usually the best choice for a given accuracy at low cost. They have a large signal range for a small temperature change. They are very nonlinear and the processing circuitry must change the resistance to a voltage for reading.
@@ -140,8 +140,6 @@ Notes: Within their temperature range, thermistors are usually the best choice f
 :::
 
 ## Thermocouple
-
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
 
 :::{style="font-size: 85px;"}
 :::{.absolute left=0% top=10%}
@@ -158,6 +156,8 @@ Notes: Within their temperature range, thermistors are usually the best choice f
 :::
 :::
 
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
 Notes: Thermocouples can be extremely inexpensive, but their accuracy is fairly low. They generate voltages in the millivolt range and need to be compensated for greatest accuracy. They are sensitive to electromagnetic interference and leads normally need to be twisted-pair wires. They find extensive use in industry.
@@ -165,8 +165,6 @@ Notes: Thermocouples can be extremely inexpensive, but their accuracy is fairly 
 :::
 
 ## Solid-State Temperature Sensor
-
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
 
 :::{style="font-size: 85px;"}
 :::{.absolute left=0% top=10%}
@@ -183,6 +181,8 @@ Notes: Thermocouples can be extremely inexpensive, but their accuracy is fairly 
 :::
 :::
 
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
+
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
 Notes: Solid-state temperature sensors are basically thermistors with additional conditioning circuitry to reduce the engineering effort to integrate them into a device. They typically produce either a voltage such as $10\ \mathrm{mV/^\circ C}$ or a digital output using an I2C or SPI bus.
@@ -195,15 +195,13 @@ Notes: Solid-state temperature sensors are basically thermistors with additional
 Resistance Temperature Detector (RTD)
 :::
 
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
-
 :::{style="font-size: 85px;"}
 :::{.absolute left=0% top=10%}
 | Spec. | Value |
 |-------|-------|
 | Range:| lowest $-200\ ^\circ\mathrm{C}$, highest $850\ ^\circ\mathrm{C}$|
 | Accuracy: | $\pm0.06\ ^\circ\mathrm{C}$ to $\pm4.6\ ^\circ\mathrm{C}$ |
-|Reading:| Elexctronic (Resistance) |
+|Reading:| Electronic (Resistance) |
 |Size: | $1\ \mathrm{mm}$ to $60\ \mathrm{cm}$|
 | $\tau$: | $0.5\ \mathrm{s}$ to $30\ \mathrm{s}$ |
 | Contact? | Contact |
@@ -211,6 +209,8 @@ Resistance Temperature Detector (RTD)
 | Uses: | Labs, Precision Industrial |
 :::
 :::
+
+![](SampleImage.png){.absolute right=0% top=10% width=25%}
 
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
@@ -220,7 +220,8 @@ Notes: Resistance temperature devices can be very accurate and very stable. They
 
 ## Optical or Infrared Pyrometer
 
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
+:::: {.columns}
+::: {.column width=68%}
 
 :::{style="font-size: 85px;"}
 :::{.absolute left=0% top=10%}
@@ -236,6 +237,10 @@ Notes: Resistance temperature devices can be very accurate and very stable. They
 | Uses: | Home, Industry, Labs |
 :::
 :::
+:::
+::::
+
+![](InfraredPyrometer.png){.absolute right=0% top=10% width=30%}
 
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
