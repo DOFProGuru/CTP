@@ -26,6 +26,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 29 | The Most Annoying Equation Conversion | [Link](https://youtu.be/6dyg-CgAm8s) | No | [Page] | Unit Conversion of Equations |
 | 30 | Where Does Sherwood Hide His Unit? Principles| [Link](https://youtu.be/A348vNv5t9c)| No | [Page] | Dimensionless Numbers Principles |
 | 31 | What the Schmidt? Examples | [Link](https://youtu.be/74SD0k_qBc8) | No | [Page] | Applications of Dimensionless Numbers |
+| 32 | Is It Hot in Here, or Is It Just My Thermistor? | [Link](https://youtu.be/TncEECvmw8Y) | No | [Page] | Thermistors, Thermocouples, and other Temperature Sensors |
 | 33 | Under Pressure Part 1 | [Link](https://youtu.be/9gbOE5zEt4o) | No | [Page](../processdata/PressureWebPage.qmd) | Pressure Basics |
 | 34 | Under Pressure Part 2 | [Link](https://youtu.be/CR3MomWlqb8) | No | [Page](../processdata/PressureWebPage.qmd) | Abs., Atm., Gauge, Barometric Pressure |
 | 35 | What is a Mole? | [Link](https://youtu.be/wbEkZmjNtwI) | [Link](https://youtu.be/CohvkBV_iWA) | [Page](../processdata/WhatIsAMoleWebPage.qmd) | What a mole is |
@@ -71,6 +72,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 94| The Enthalpy Games: Sunrise on the Calculations | [Link](https://youtu.be/yLJp3YQaVvo) | No | [Page] | Example for $\mathrm{N_2}$, $\Delta H$ from $C_p$, $\Delta U$ from $C_v$ |
 | 95| Feeling the Heat? How to Get Your Best Estimate | [Link](https://youtu.be/f_l3OFyuiPs) | No | [Page] | Estimating $C_p$, $\Delta \hat{H}_v$, $\Delta \hat{H}_m$ |
 | 98| Reference Not Found: Mixing, Dissolving, and Changing the Rules | [Link](https://youtu.be/ggU692PLWts) | No | [Page] | $\Delta H_m$, $\Delta H_s$ |
+| 102| The Isochronicles: This First Law Saga Is a Gas  | [Link](https://youtu.be/iKsR3v1wu30) | No | [Page] | The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes |
 | 104| Germain Hess and the Enthalpy of Doom  | [Link](https://youtu.be/qdgH4v64vOQ) | No | [Page] | Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$ |
 |106| Chemical Reactions vs. The First Law: Who Wins?  | [Link](https://youtu.be/mFF5hDHclPE) | No | [Page] | Forms of the 1^st^ Law for Chemical Reactions|
 | 110| Fueling the Fire: The Shocking Truth About Combustion Reactions! | [Link](https://youtu.be/lW5dK-F6H3U) | No | [Page] | Common fuels, Heats of Combustion, HHV, LHV |
@@ -81,3 +83,8 @@ Links to the current videos on YouTube will be maintained here. These are curren
 |116| Sadi Carnot and the Power of Fire, the 1824 Edition Part 1  | [Link](https://youtu.be/EDJQAvBIAok) | No | [Page] | The Air-Standard Carnot Cycle |
 |116A| Sadi Carnot and the Power of Fire, the 1824 Edition Part 2  | [Link](https://youtu.be/Qc9W1KKpouU) | No | [Page] | The Steam Carnot Cycle |
 | 117| How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?  | [Link](https://youtu.be/QcZTezMtDRk) | No | [Page] | The 2nd Law for Closed, Open Steady-State, and Open Transient Systems |
+|118| Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans  | [Link](https://youtu.be/Pb7PS5oeCz0) | No | [Page] | Turbines and Expanders, Isentropic and Isothermal Compressors |
+|118A| Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans  | [Link](https://youtu.be/irBfMfVUEFo) | No | [Page] | Pumps, Nozzles, and Valves or Throttles |
+|119| Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1  | [Link](https://youtu.be/4QRJ00uyaX8) | No | [Page] | The Ideal Rankine Cycle |
+|120| Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2  | [Link](https://youtu.be/0DmsKCJpIdc) | No | [Page] | The Rankine Cycle with $\eta_\mathrm{pump}$  and $\eta_\mathrm{turbine}$|
+|129| The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1  | [Link](https://youtu.be/hCGbgFTI6Ys) | No | [Page] | The Combined 1^st^ and 2^nd^ Laws |

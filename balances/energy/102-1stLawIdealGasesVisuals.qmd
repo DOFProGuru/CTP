@@ -31,13 +31,18 @@ DOFPro Team
 
 Equations and concepts for dealing with ideal gases in first law problems
 </br></br>
+
+::: {.fragment}
 **First:** heat capacity doesn’t vary with pressure for ideal gases, only with temperature.
+:::
 
+:::{.fragment}
 $$d\hat{U} = C_v dT,\hspace{120px} \Delta \hat{U} = \int\limits_{T_1}^{T_2} C_v dT$$
-
+:::
+:::{.fragment}
 $$d\hat{H} = C_p dT,\hspace{120px} \Delta \hat{H} = \int\limits_{T_1}^{T_2} C_p dT$$
-
-::: {.absolute top=80% left=23%}
+:::
+::: {.fragment .absolute top=80% left=23%}
 $$C_p = C_v + R$$
 :::
 
@@ -45,93 +50,122 @@ $$C_p = C_v + R$$
 
 **Second:** for a closed system with ideal gas and no change in kinetic or potential energy.
 
+::: {.fragment .absolute top=15% left=15%}
 $$d\hat{U} = \frac{dQ}{n} + \frac{dW}{n}$$
+:::
 
+::: {.fragment .absolute top=30% left=15%}
 $$C_v dT = \frac{dQ}{n} - Pd\hat{V}$$
-
+:::
+::: {.fragment .absolute top=45% left=15%}
 $$dQ = nC_v dT + PdV = nC_v dT + nRT \frac{dV}{V}$$
-
+:::
+::: {.fragment .absolute top=60% left=15%}
 $$dQ = nC_p dT - nRT \frac{dP}{P}$$
+:::
 
 ## 
 
 **Isothermal (Constant Temperature) Process:**
 
+::: {.fragment .absolute top=10% left=15%}
 $$d\hat{U} = d\hat{H} = 0$$
-
+:::
+::: {.fragment .absolute top=25% left=15%}
 $$dQ = dQ$$
-
-$$dQ = n C_v dT + nRT \frac{dV}{V} = n C_P dT - nRT \frac{dP}{P}$$
-
+:::
+::: {.fragment .absolute top=35% left=15%}
+$$dQ = n C_v dT + nRT \frac{dV}{V} = n C_p dT - nRT \frac{dP}{P}$$
+:::
+::: {.fragment .absolute top=50% left=15%}
 $$Q = -W = nRT \ln \frac{V_2}{V_1} = nRT \ln \frac{P_1}{P_2}$$
+:::
 
-<center>Note the order of the subscripts on $V$ and $P$.</center>
+::: {.fragment .absolute top=72% left=5%}
+Note the order of the subscripts on $V$ and $P$.
+:::
 
 ## 
 
 **Isobaric (Constant Pressure) Process:**
 
-:::: {.columns}
-::: {.column width=50%}
-
-$$d\hat{U} = C_v dT$$
-</br>
-$$dW = -PdV$$
-</br>
-$$\Delta U = Q + W = Q - P \Delta V$$
-</br>
-$$\Delta U + P \Delta V = Q$$
+::: {.fragment .absolute top=15% left=5%}
+$d\hat{U} = C_v dT$
 :::
-::: {.column width=50%}
 
-$$Q = \Delta H = n \int\limits_{T_1}^{T_2}C_p dT$$
-
-
+::: {.fragment .absolute top=5% left=55%}
 $$\Delta \hat{U} = \int\limits_{T_1}^{T_2}C_v dT$$
+:::
 
+::: {.fragment .absolute top=38% left=5%}
+$dW = -PdV$
+:::
+
+::: {.fragment .absolute top=34% left=55%}
 \begin{align}
 W &= -P(V_2 - V_1)
-\\
-\\&= -nRT(T_2 - T_1)
-\end{align}
 
+\\&= -nR(T_2 - T_1)
+\end{align}
 :::
-::::
+
+::: {.fragment .absolute top=55% left=5%}
+$\Delta U = Q + W = Q - P \Delta V$
+:::
+
+
+::: {.fragment .absolute top=70% left=5%}
+$\Delta U + P \Delta V = Q$
+:::
+
+::: {.fragment .absolute top=59% left=55%}
+$$Q = \Delta H = n \int\limits_{T_1}^{T_2}C_p dT$$
+:::
+
+
+
 
 ## 
 
 **Isochoric (Constant Volume) Process:**
 
+:::{.fragment .absolute top=10% left=10%}
 $$dW = -PdV$$
-</br>
+:::
+:::{.fragment .absolute top=30% left=10%}
 $$d \hat{U} = C_V dT$$
-</br>
+:::
+:::{.fragment .absolute top=50% left=10%}
 $$Q = \Delta U = n \int\limits_{T_1}^{T_2}C_v dT$$
-
+:::
 ##
 
 **Adiabatic Reversible (Isentropic) Process:**
 
+::: {.fragment .absolute top=3% left=10%}
 $$dQ = n C_v dT + P dV = n C_V dT + nRT \frac{dV}{V}$$
-
-$$n C_v dT = -nRT \frac{dV}{V}$$
-
-$$\frac{dT}{T} = - \frac{R}{C_v} \frac{dV}{V}$$
-
-If $C_v = \mathrm{constant}$
-
-:::: {.columns}
-::: {.column width=34%}
-$$\ln \frac{T_2}{T_1} = \frac{R}{C_v} \ln \frac{V_1}{V_2}$$
 :::
-::: {.column width=33%}
+::: {.fragment .absolute top=15% left=10%}
+$$n C_v dT = -nRT \frac{dV}{V}$$
+:::
+::: {.fragment .absolute top=30% left=10%}
+$$\frac{dT}{T} = - \frac{R}{C_v} \frac{dV}{V}$$
+:::
+::: {.fragment .absolute top=50% left=0%}
+If $C_v = \mathrm{constant}$
+:::
+::: {.fragment .absolute top=57% left=3%}
+$$\ln \frac{T_2}{T_1} = \frac{R}{C_v} \ln {\frac{V_1}{V_2}}$$
+:::
+::: {.fragment .absolute top=55% left=41%}
 $$\frac{T_2}{T_1} = \left(\frac{V_1}{V_2}\right)^{\frac{R}{C_v}}$$
 :::
-::: {.column width=33%}
-$$\frac{T_2}{T_1} = \left(\frac{P_2}{P_1}\right)^{\frac{R}{C_v}}$$
+::: {.fragment .absolute top=55% right=0%}
+$$\frac{T_2}{T_1} = \left(\frac{P_2}{P_1}\right)^{\frac{R}{C_p}}$$
 :::
-::::
-<center>Note the order of the subscripts on $V$ and $P$.</center>
+::: {.fragment .absolute top=80% left=0%}
+Note the order of the subscripts on $V$ and $P$.
+:::
 
 ## The Takeaways
 

@@ -23,13 +23,17 @@ DOFPro Team
 These videos, *Entropy Made Me Do It*, *Part 1* and *Part 2*
 derive the equations for common items in power and refrigeration machinery.
 
+::: {.fragment}
 **Part 1** discusses
+:::
 
 - the turbine or expander
 - the adiabatic compressor
 - the isothermal compressor
 
+::: {.fragment}
 Part 2 discusses
+:::
 
 - the pump
 - the nozzle
@@ -39,27 +43,47 @@ Part 2 discusses
 
 *Up First*
 
+::: {.fragment}
 **Turbine** – Steam or Combustion Gases
 
 **Expander** – Compressed Gases
 
+![](DWSIMTurbine.png){.absolute top=20% left=45% width=30%}
+
+![](TurbineIcon.png){.absolute top=19% left=75% width=30%}
+:::
+
+::: {.fragment}
 **Inputs** – $\dot{m}$ or $\dot{n}$, $T$ and $P$
-
-**Ouputs** – $\dot{m}$ or $\dot{n}$, $T$ or $P$
-
+:::
+::: {.fragment}
+**Outputs** – $\dot{m}$ or $\dot{n}$, $T$ or $P$
+:::
+::: {.fragment}
 Goal is work output
-
+:::
+::: {.fragment}
 *Then*
-
+:::
+::: {.fragment}
 **Compressor**
 
+![](DWSIMCompressor.png){.absolute top=60% left=40% width=30%}
+
+![](CompressorIcon.png){.absolute top=60% left=72% width=30%}
+:::
+::: {.fragment}
 Goal is pressure increase of gas
-
+:::
+::: {.fragment}
 **Inputs** – $\dot{m}$ or $\dot{n}$, $T$ and $P$
-
-**Ouputs** – $\dot{m}$ or $\dot{n}$, $P$
-
+:::
+::: {.fragment}
+**Outputs** – $\dot{m}$ or $\dot{n}$, $P$
+:::
+::: {.fragment}
 Have to input work
+:::
 
 ## Turbine or Expander
 
@@ -79,31 +103,46 @@ National Archives and Records Administration, Public domain, via Wikimedia Commo
 
 A turbine or expander takes a high-temperature and high-pressure steam or gas mixture and sends it through a series of blades, called stator blades and rotor blades, and expands it to create power or shaft work.
 
+::: {.fragment}
 **1^st^ Law**
-
-Steam
-
+:::
+::: {.fragment}
+*Steam*
+:::
+::: {.fragment}
 $$\Delta \dot{H} = \dot{W}_s = \dot{m} \Delta \hat{H} = \dot{m} (\hat{H}_\mathrm{out} - \hat{H}_\mathrm{in})$$
-
-Ideal Gas
-
+:::
+::: {.fragment}
+*Ideal Gas*
+:::
+::: {.fragment}
 $$\Delta \dot{H} = \dot{W}_s = \dot{n} \Delta \hat{H} = \dot{n} \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} C_p dT = \dot{n} C_p (T_\mathrm{out} - T_\mathrm{in})$$
+:::
 
 ##
 
-Turbine or Expander
+**Turbine or Expander**
 
 A real turbine has a turbine efficiency, that compares its performance with that of an isentropic turbine.
 
+::: {.fragment}
 $$\eta_\mathrm{turbine} = \frac{\dot{W}_{s\text{-actual}}}{\dot{W}_{s\text{-isentropic}}} = \frac{\Delta \hat{H}_{\text{actual}}}{\Delta \hat{H}_{\text{isentropic}}}$$
-
+:::
+::: {.fragment}
 Calculating the isentropic values
-
+:::
+::: {.fragment}
 $$\Delta \hat{S} = 0$$
-
-Steam
-
-$\hat{S}_\mathrm{out} = \hat{S}_\mathrm{in}$ $x = \dfrac{\hat{S}_\mathrm{in}-\hat{S}_l}{\hat{S}_v-\hat{S}_l}$
+:::
+::: {.fragment}
+*Steam*
+:::
+::: {.fragment .absolute top=70% left=42%}
+$$\hat{S}_\mathrm{out} = \hat{S}_\mathrm{in}$$
+:::
+::: {.fragment .absolute top=80% left=39.5%}
+$$x = \dfrac{\hat{S}_\mathrm{in}-\hat{S}_l}{\hat{S}_v-\hat{S}_l}$$
+:::
 
 ## 
 
@@ -111,55 +150,77 @@ To calculate the outlet enthalpy
 
 $$\hat{H}_\mathrm{out} = x \hat{H}_v + (1 - x) \hat{H}_l$$
 
+::: {.fragment}
 $$\Delta \hat{H}_\mathrm{isentropic} = \hat{H}_\mathrm{out} - \hat{H}_\mathrm{in}$$
-
-Ideal Gas
-
+:::
+::: {.fragment}
+*Ideal Gas*
+:::
+::: {.fragment}
 $$\Delta \hat{S} = 0 = C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}$$
-
-$$C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{T_\mathrm{out}}{T_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}$$
+:::
+::: {.fragment}
+$$C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}$$
+:::
 
 ##
 
 Substitute in for $\Delta T$.
 
-\begin{align}
-\Delta \hat{H}_\mathrm{isentropic} &= C_p \Delta T = C_p (T_\mathrm{out} - T_\mathrm{in})
-\\
-\\&= C_p T_\mathrm{in} \left[\left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p} - 1\right]
-\end{align}
+::: {.fragment}
+::: {style="font-size: 95px;"}
+$$
+\Delta \hat{H}_\mathrm{isentropic} = C_p \Delta T = C_p (T_\mathrm{out} - T_\mathrm{in}) = C_p T_\mathrm{in} \left[\left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p} - 1\right]
+$$
+:::
+:::
 
+::: {.fragment}
 Calculating actual properties
-
-Steam
-
+:::
+::: {.fragment}
+*Steam*
+:::
+::: {.fragment}
 $$\eta_\mathrm{turbine} = \frac{\Delta \hat{H}_{\text{actual}}}{\Delta \hat{H}_{\text{isentropic}}}$$
-
+:::
+::: {.fragment}
 $$\hat{H}_{\text{out-actual}} = \eta_\mathrm{turbine} \Delta \hat{H}_{\text{isentropic}} + \hat{H}_{\text{in}}$$
+:::
 
 ## 
 
 Calculating actual quality and entropy for steam
 
+::: {.fragment}
 $$x_\mathrm{actual} = \dfrac{\hat{H}_\text{out-actual}-\hat{H}_l}{\hat{H}_v-\hat{H}_l}$$
-
+:::
+::: {.fragment}
 $$\hat{S}_\text{out-actual}=x_\mathrm{actual}\hat{S}_v + (1 - x_\mathrm{actual}) \hat{S}_l$$
-
+:::
+::: {.fragment}
 Calculating actual properties
-
-Ideal Gas
-
+:::
+::: {.fragment}
+*Ideal Gas*
+:::
+::: {.fragment}
 $$\eta_\mathrm{turbine} = \frac{\Delta \hat{H}_{\text{actual}}}{\Delta \hat{H}_{\text{isentropic}}}$$
-
+:::
+::: {.fragment}
 $$\Delta \hat{H}_{\text{actual}} = \eta_\mathrm{turbine} \Delta \hat{H}_{\text{isentropic}}$$
+:::
 
 ## 
 
 $$\Delta \hat{H}_{\text{actual}} = C_p \Delta T_\text{actual}$$
 
+::: {.fragment}
 $$T_\text{out-actual} = \frac{\Delta \hat{H}_{\text{actual}} }{C_p} + T_\mathrm{in}$$
-
+:::
+::: {.fragment}
 $$\Delta \hat{S}_{\text{actual}} = C_p \ln \frac{T_\text{out-actual}}{T_\text{in}} - R \ln \frac{P_\text{out}}{P_\text{in}}$$
+:::
 
 ## Compressor
 
@@ -193,31 +254,48 @@ Asurnipal, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wi
 
 A real adiabatic compressor has a compressor efficiency, that compares its performance with that of an isentropic compressor.
 
+::: {.fragment .absolute left=10% top=20%}
 $$\eta_\mathrm{compressor} = \frac{\dot{W}_{s\text{-isentropic}}}{\dot{W}_{s\text{-actual}}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\Delta \hat{H}_{\text{actual}}}$$
+:::
 
+::: {.fragment .absolute left=0% top=40%}
 **1^st^ Law**
-
+:::
+::: {.fragment .absolute left=5% top=40%}
 $$\Delta \dot{H}_\mathrm{isentropic} = \dot{W}_{s\text{-isentropic}} = \dot{n} \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} C_p dT = \dot{n} C_p \Delta T$$
-
+:::
+::: {.fragment .absolute left=0% top=65%}
 **2^nd^ Law**
+:::
 
+::: {style="font-size: 90px;"}
+::: {.fragment .absolute left=5% top=70%}
 $$\Delta \hat{S}_\mathrm{air} = \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} \frac{C_p}{T} dT - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}= C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}$$
+:::
+:::
 
 ##
 
 Minimum work for $\Delta \hat{S} = 0$
 
-$$C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{T_\mathrm{out}}{T_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}$$
-
+::: {.fragment}
+$$C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}$$
+:::
+::: {.fragment}
 Plug $T_\mathrm{out}$ back into 1^st^ Law.
-
+:::
+::: {.fragment}
 $$\dot{W}_{s\text{-isentropic}} = \dot{n} C_p \Delta T$$
-
+:::
+::: {.fragment}
 Calculate work and final enthalpy from efficiency
-
+:::
+::: {.fragment}
 $$\dot{W}_{s\text{-actual}} = \frac{\dot{W}_{s\text{-isentropic}}}{\eta_\mathrm{compressor}}\ \ \ \ \text{and}\ \ \ \ \Delta \hat{H}_{\text{actual}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\eta_\mathrm{compressor}}$$
-
+:::
+::: {.fragment}
 If necessary, you can calculate actual outlet $T$ and entropy change.
+:::
 
 ##
 
@@ -225,19 +303,26 @@ If necessary, you can calculate actual outlet $T$ and entropy change.
 
 A cooling-water jacket is often used to attempt to maintain the compressor at a constant temperature. An isothermal compressor uses much less power than an isentropic compressor, at the cost of a cooling system. A real isothermal compressor has a compressor efficiency, that compares its performance with that of an isothermal compressor.
 
+::: {.fragment}
 $$\eta_\mathrm{compressor} = \frac{\dot{W}_{s\text{-isothermal}}}{\dot{W}_{s\text{-actual}}}$$
-
+:::
+::: {.fragment}
 **1^st^ Law**
-
+:::
+::: {.fragment}
 $$\Delta \dot{H}_\text{iso} = 0\ \ \ \ \text{and}\ \ \ \ \dot{Q} = - \dot{W}_{s\text{-iso}} = \dot{n} RT \ln \frac{P_1}{P_2}$$
+:::
 
 ##
 
 There is no need for the 2^nd^ Law. Use the efficiency to calculate the actual work
 
+::: {.fragment}
 $$\dot{W}_{s\text{-actual}} = \frac{\dot{W}_{s\text{-isothermal}}}{\eta_\mathrm{compressor}}$$
-
+:::
+::: {.fragment}
 If necessary, you can calculate actual enthalpy change, outlet $T$, and entropy change.
+:::
 
 ## The Takeaways
 

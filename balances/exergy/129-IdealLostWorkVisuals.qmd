@@ -53,32 +53,158 @@ obtainable?
 
 ## 1. Heat Exchanger
 
+![](HeatExchanger.png){.absolute top=10% left=30% width=40%}
 
+::: {.fragment .absolute top=52% left=32%}
 $\dot{m}\Delta H = \dot{Q} + \dot{W}_s = 0$
+:::
 
+::: {.fragment .absolute top=62% left=39%}
 $\dot{Q} = 0$
+:::
 
+::: {.fragment .absolute top=72% left=35.5%}
 $\boxed{\dot{W}_s = 0}$
+:::
 
+::: {.absolute top=24% left=61%}
+::: {style="font-size: 70px;"}
+$\mathrm{EtOH}$
+:::
+:::
 
+::: {.absolute top=30% left=61%}
+::: {style="font-size: 70px;"}
+$100\ ^\circ\mathrm{C}$
+:::
+:::
 
+::: {.absolute top=38% left=55%}
+::: {style="font-size: 70px;"}
+$90\ ^\circ\mathrm{C}$
+:::
+:::
+
+::: {.absolute top=30% left=33.5%}
+::: {style="font-size: 70px;"}
+$50\ ^\circ\mathrm{C}$
+:::
+:::
+
+::: {.absolute top=15% left=46%}
+::: {style="font-size: 70px;"}
+$40\ ^\circ\mathrm{C}$
+:::
+:::
+
+::: {.absolute top=15% left=39%}
+::: {style="font-size: 70px;"}
+$\mathrm{H_2O}$
+:::
+:::
 
 
 ## 2. Refrigerator
 
-$\boxed{\dot{W}_s\text{ into system (Oops)}}$
+![](RefrigeratorCooling.png){.absolute left=20%}
 
+::: {.fragment .absolute top=56% left=0%}
+$\boxed{\dot{W}_s\text{ into system (Oops)}}$
+:::
+
+::: {.absolute top=13% left=25%}
+::: {style="font-size: 70px;"}
+$\mathrm{EtOH}$
+:::
+:::
+
+::: {.absolute top=19% left=25%}
+::: {style="font-size: 70px;"}
+$100\ ^\circ\mathrm{C}$
+:::
+:::
+
+::: {.absolute top=19% left=66%}
+::: {style="font-size: 70px;"}
+$50\ ^\circ\mathrm{C}$
+:::
+:::
+
+::: {.absolute top=26% left=42%}
+::: {style="font-size: 70px;"}
+$|\dot{Q}_\mathrm{cold}|$
+:::
+:::
+::: {.absolute top=70% left=44.5%}
+::: {style="font-size: 70px;"}
+$|\dot{Q}_\sigma|$
+:::
+:::
+::: {.absolute top=46.5% left=30%}
+::: {style="font-size: 70px;"}
+$|\dot{W}_s|$
+:::
+:::
+::: {.absolute top=91% left=44%}
+::: {style="font-size: 70px;"}
+Ambient, $T_\sigma$
+:::
+:::
 ## 3. Infinitesimal Carnot Engines
 
-$\dot{W}_\text{total} = \dot{m}(Q - T_\sigma \Delta S)$
+![](CarnotCooling.png){.absolute left=5%}
 
+::: {.fragment .absolute top=62% left=15%}
+$\dot{W}_\text{total} = \dot{m}(\hat{Q} - T_\sigma \Delta \hat{S})$
+:::
+::: {.fragment .absolute top=65% left=25.5%}
 $$= \dot{m} \left(\int_{100}^{50} C_p dT - T_\sigma \int_{100}^{50} \dfrac{C_p}{T} dT\right)$$
-
-$= 100(-6722.36 - 300(-19.2917))$
-
+:::
+::: {.fragment .absolute top=83% left=25.5%}
+$= 100[-6722.36 - 300(-19.2917)]$
+:::
+::: {.fragment .absolute top=92% left=25.5%}
 $= -93.49 \text{ kJ/s} = W_\text{max}$
+:::
 
+::: {.absolute top=9.5% left=5%}
+::: {style="font-size: 70px;"}
+$\mathrm{EtOH}$
+:::
+:::
 
+::: {.absolute top=15% left=5%}
+::: {style="font-size: 70px;"}
+$100\ ^\circ\mathrm{C}$
+:::
+:::
+
+::: {.absolute top=15% left=91%}
+::: {style="font-size: 70px;"}
+$50\ ^\circ\mathrm{C}$
+:::
+:::
+
+::: {.absolute top=18% left=20%}
+::: {style="font-size: 70px;"}
+$|\delta\dot{Q}_\mathrm{hot}|$
+:::
+:::
+::: {.absolute top=44% left=20%}
+::: {style="font-size: 70px;"}
+$|\delta\dot{Q}_\sigma|$
+:::
+:::
+::: {.absolute top=28.5% left=24%}
+::: {style="font-size: 70px;"}
+$|\delta\dot{W}_s|$
+:::
+:::
+::: {.absolute top=54% left=45%}
+::: {style="font-size: 70px;"}
+Ambient, $T_\sigma$
+:::
+:::
 
 
 
@@ -134,26 +260,33 @@ $\dfrac{d}{dt}\left[n\left(\hat{U} + \hat{E}_k + \hat{E}_p\right)\right]_\mathrm
 
 For an open transient system, the Second Law is
 
+::: {style="font-size: 60px"}
+<br/>
+:::
 
 :::{.fragment}
-
 $\dfrac{dS_\mathrm{cv}}{dt} + \Delta ( \dot{S} )_\mathrm{fs} - \sum_j \dfrac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0$
 :::
 
-:::{.fragment}
+<br/>
 
+:::{.fragment}
 $\dfrac{d ( m\hat{S} )_\mathrm{cv}}{dt} + \Delta ( \dot{m}\hat{S} )_\mathrm{fs} - \sum_j \dfrac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0 \quad$ Mass Basis
 :::
 
+<br/>
 
 :::{.fragment}
 or $\dfrac{d ( n\hat{S} )_\mathrm{cv}}{dt} + \Delta ( \dot{n}\hat{S} )_\mathrm{fs} - \sum_j \dfrac{\dot{Q}_j}{T_j} = \dot{S}_G \geq 0 \quad$ Mole Basis
 
+<br/>
 
 :::
 :::{.fragment}
 $\dot{Q}_j$ is heat transferred into system from reservoir $j$
 :::
+
+<br/>
 
 :::{.fragment}
 $T_j$ is temperature of reservoir $j$
@@ -166,16 +299,26 @@ $T_j$ is temperature of reservoir $j$
 Combine (add the two equations) and solve for $\sum \dot{W}_{s_i} = \dot{W}_s$
 :::
 
+::: {style="font-size: 40px"}
+<br/>
+:::
+
 :::{.fragment}
 Ambient $T$ is $T_\sigma$.
+:::
 
+::: {style="font-size: 40px"}
+<br/>
 :::
 
 :::{style="font-size: 65px;"}
 :::{.fragment}
-
 $\dot{W}_s = \frac{d}{dt} \left( U + E_k + E_p - T_\sigma S \right)_\mathrm{cv} - \sum \left( 1 - \frac{T_\sigma}{T_i} \right) \dot{Q}_i + \left( \Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S} \right)_\mathrm{fs} + T_\sigma \dot{S}_\mathrm{gen}$
 :::
+:::
+
+::: {style="font-size: 40px"}
+<br/>
 :::
 
 :::{style="font-size: 90px;"}
@@ -184,17 +327,31 @@ $\dot{Q}_\sigma$ is transfer to ambient at $T_\sigma$ and doesn’t show up in t
 :::
 :::
 
+::: {style="font-size: 20px"}
+<br/>
+:::
+
+::: {style="font-size: 40px"}
+<br/>
+:::
+
 :::{.fragment}
 What is $T_\sigma \dot{S}_\mathrm{gen}$?  $\quad$ $T_\sigma \dot{S}_\mathrm{gen} = \dot{W}_\mathrm{lost}$      
 :::
 
-:::{.fragment}
-If $\dot{S}_\mathrm{gen} = 0 \Rightarrow \dot{W}_\mathrm{lost} = 0$, then $\quad \dot{W}_{s} = \dot{W}_\mathrm{ideal}$
-
+::: {style="font-size: 40px"}
+<br/>
 :::
 
 :::{.fragment}
+If $\dot{S}_\mathrm{gen} = 0 \Rightarrow \dot{W}_\mathrm{lost} = 0$, then $\quad \dot{W}_{s} = \dot{W}_\mathrm{ideal}$
+:::
 
+::: {style="font-size: 40px"}
+<br/>
+:::
+
+:::{.fragment}
 $\dot{W}_\mathrm{ideal}$ is the ideal work or the reversible work. It (or the
 negative of it) is sometimes called availability, available work or exergy.
 :::
@@ -206,10 +363,18 @@ negative of it) is sometimes called availability, available work or exergy.
 Open Transient System
 :::
 
+::: {style="font-size: 40px"}
+<br/>
+:::
+
 :::{style="font-size: 70px;"}
 :::{.fragment}
 $\dot{W}_{\text{ideal}} = \dfrac{d}{dt}(U + E_k + E_p - T_\sigma S)_\mathrm{cv} - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S})_\mathrm{fs}$
 :::
+:::
+
+::: {style="font-size: 40px"}
+<br/>
 :::
 
 :::{.fragment}
@@ -223,6 +388,11 @@ $$
 + \sum_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S}) - \sum_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S})
 $$
 :::
+
+::: {style="font-size: 40px"}
+<br/>
+:::
+
 :::{.fragment}
 Or the same equation on a mole basis with $n$ and $\dot{n}$ replacing $m$ and $\dot{m}$
 :::
@@ -238,29 +408,52 @@ The Combined 1st and 2nd Law (cont.)
 :::{.fragment}
 Open Steady-State System
 :::
-:::{.fragment}
 
+::: {style="font-size: 60px"}
+<br/>
+:::
+
+:::{.fragment}
 $\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S})_\mathrm{fs}$
 :::
-:::{.fragment}
 
+::: {style="font-size: 60px"}
+<br/>
+:::
+
+:::{.fragment}
 On a mass basis
 :::
+
+::: {style="font-size: 60px"}
+<br/>
+:::
+
 :::{style="font-size: 70px;"}
 :::{.fragment}
 $\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + \sum\limits_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S}) - \sum\limits_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S})$
 :::
 :::
 
+::: {style="font-size: 60px"}
+<br/>
+:::
+
 :::{.fragment}
 On a mole basis
 :::
+
+::: {style="font-size: 60px"}
+<br/>
+:::
+
 :::{style="font-size: 70px;"}
 :::{.fragment}
 $\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + \sum\limits_{\text{out}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_\sigma \bar{S}) - \sum\limits_{\text{in}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_\sigma \bar{S})$
 :::
 :::
 ::::
+
 ## 
 
 :::{style="font-size: 135px; font-weight: bold;"}
@@ -272,10 +465,14 @@ The Combined 1st and 2nd Law (cont.)
 
 Closed System
 
+<br/>
 
 :::{.fragment}
 $W_{\text{ideal}} = \Delta U + \Delta E_k + \Delta E_p - T_\sigma \Delta S - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) Q_i$
 :::
+
+<br/>
+
 :::{.fragment}
 We will rarely encounter closed systems in thermodynamic
 or 2nd Law analyses.
@@ -286,13 +483,13 @@ or 2nd Law analyses.
 
 ::::{.columns}
 :::{.fragment}
-Theromodynamic efficiency, $\eta_t$  or $\eta_{\tiny \mathrm{II}}$
+Thermodynamic efficiency, $\eta_t$  or $\eta_{\tiny \mathrm{II}}$<br/><br/>
 :::
 
 - For processes that produce work:  
 
 
-  $\eta_t = \frac{\dot{W}_{s}}{\dot{W}_\mathrm{ideal}}$
+  $\eta_t = \frac{\dot{W}_{s}}{\dot{W}_\mathrm{ideal}}$<br/><br/>
 
 - For processes that require work:  
 
@@ -307,14 +504,14 @@ Theromodynamic efficiency, $\eta_t$  or $\eta_{\tiny \mathrm{II}}$
 Also the lost work or irreversibility is
 
 :::{.fragment}
-$\dot{W}_\mathrm{lost} = \dot{W}_{s} - \dot{W}_\mathrm{ideal}$
+$$\dot{W}_\mathrm{lost} = \dot{W}_{s} - \dot{W}_\mathrm{ideal}$$
 :::
 
 :::{.fragment}
 Is $\dot{W}_\mathrm{lost}$ always positive?
 :::
 :::{.fragment}
-$\dot{W}_\mathrm{lost} = T_\sigma \dot{S}_\mathrm{gen}$
+$$\dot{W}_\mathrm{lost} = T_\sigma \dot{S}_\mathrm{gen}$$
 :::
 :::{.fragment}
 You should also analyze individual parts of a process and
