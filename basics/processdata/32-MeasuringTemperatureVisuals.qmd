@@ -83,6 +83,12 @@ Notes: Glass thermometers are subject to breakage, and if they contain mercury, 
 
 ![](OvenThermometer.png){.absolute right=0% top=20% width=35%}
 
+:::{style="font-size: 60px;"}
+:::{.absolute top=65% left=70%}
+Gmhofmann, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons
+:::
+:::
+
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
 Notes: Bimetallic or dial thermometers are not for high-precision measurements but are inexpensive and reliable.
@@ -106,13 +112,17 @@ Notes: Bimetallic or dial thermometers are not for high-precision measurements b
 :::
 :::
 
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
+![](LiquidCrystalTherm.png){.absolute right=0% top=10%}
+
+:::: {.columns}
+::: {.column width=80%}
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 :::{style="font-size: 80px;"}
-:::{.absolute bottom=0% left=0%}
 Notes: The displays are easy to read and visually appealing. Liquid Crystal thermometers are not very robust and typically last for 2 to 3 years before needing to be replaced. They are typically quite inexpensive.
 :::
 :::
+::::
 
 ## Thermistor
 
@@ -131,7 +141,7 @@ Notes: The displays are easy to read and visually appealing. Liquid Crystal ther
 :::
 :::
 
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
+![](Thermistor.png){.absolute right=0% top=15.5% width=30%}
 
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
@@ -156,13 +166,18 @@ Notes: Within their temperature range, thermistors are usually the best choice f
 :::
 :::
 
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
+![](K-TCouple_2.png){.absolute right=0% top=10% width=20%}
+
+:::: {.columns}
+::: {.column width=80%}
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 :::{style="font-size: 80px;"}
-:::{.absolute bottom=0% left=0%}
 Notes: Thermocouples can be extremely inexpensive, but their accuracy is fairly low. They generate voltages in the millivolt range and need to be compensated for greatest accuracy. They are sensitive to electromagnetic interference and leads normally need to be twisted-pair wires. They find extensive use in industry.
 :::
 :::
+:::
+::::
 
 ## Solid-State Temperature Sensor
 
@@ -181,7 +196,7 @@ Notes: Thermocouples can be extremely inexpensive, but their accuracy is fairly 
 :::
 :::
 
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
+![](SS-TSensor.png){.absolute right=0% top=10% width=25%}
 
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
@@ -205,12 +220,12 @@ Resistance Temperature Detector (RTD)
 |Size: | $1\ \mathrm{mm}$ to $60\ \mathrm{cm}$|
 | $\tau$: | $0.5\ \mathrm{s}$ to $30\ \mathrm{s}$ |
 | Contact? | Contact |
-| Environ: | Depends on packaging. Can be very rugged. |
+| Environ: | Depends on packaging. Can be very<br/>rugged. |
 | Uses: | Labs, Precision Industrial |
 :::
 :::
 
-![](SampleImage.png){.absolute right=0% top=10% width=25%}
+![](RTD.png){.absolute right=0% top=10% width=22.5%}
 
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
@@ -242,6 +257,12 @@ Notes: Resistance temperature devices can be very accurate and very stable. They
 
 ![](InfraredPyrometer.png){.absolute right=0% top=10% width=30%}
 
+:::{style="font-size: 60px;"}
+:::{.absolute top=70% left=60%}
+Janim71, CC0, via Wikimedia Commons
+:::
+:::
+
 :::{style="font-size: 80px;"}
 :::{.absolute bottom=0% left=0%}
 Notes: Optical and Infrared Pyrometers all use some form of Planck's law to calculate temperature by measuring emitted thermal radiation. They all have to make some assumptions about the surface they are pointed at and stray light. When they work, they work very well. When they don't, they can have large undetected errors.
@@ -257,7 +278,9 @@ For industrial use the order of choice is:
 3. Dial Thermometer
 4. Optical or Infrared Pyrometer
 
+::: {.fragment}
 The other sensors are suitable for specialized industrial applications.
+:::
 
 ## The Takeaways
 

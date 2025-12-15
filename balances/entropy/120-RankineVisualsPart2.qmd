@@ -1,0 +1,187 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+## Introduction
+
+*Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1* and *Part 2*
+
+- Describe the Rankine cycle
+  - Basic steam power plant cycle
+  - Large electrical generating facilities
+  - Coal
+  - Natural gas
+  - Nuclear energy
+- Part 1 – The ideal cycle
+- **Part 2** – Real behavior & DWSIM models
+
+## Up the Realism
+
+::: {.absolute}
+
+:::{.fragment}
+A more realistic Rankine cycle would include a turbine efficiency and
+a pump efficiency.
+:::
+:::{.fragment}
+$$\dot{W}_{s–\mathrm{actual}}=\eta_\mathrm{turbine}\dot{W}_{s–\mathrm{isentropic}}$$
+:::
+:::{.fragment}
+$$\dot{W}_{s–\mathrm{actual}}=\frac{\dot{W}_{s–\mathrm{isentropic}}}{\eta_\mathrm{pump}}$$
+:::
+:::
+
+## Realistic Rankine Cycle Example
+
+::: {.absolute}
+
+:::{.fragment}
+A steam power plant operates with steam entering the turbine at 80
+bar and 500$^{\circ}$C. The condenser operates at 44$^{\circ}$C. The turbine efficiency, $\eta_\mathrm{turb}$, and the pump efficiency, $\eta_\mathrm{pump}$, are both 75%
+:::
+
+1.  Calculate the thermal efficiency.
+2.  What is the water circulation rate for a net power generation of 80 MW?
+
+:::{.fragment}
+Data needed from the steam tables:
+
+@ 44$^{\circ}$C and 0.091118 bar: $\hat{H}_{l}$, $\hat{H}_{v}$,
+$\hat{S}_{l}$, $\hat{S}_{v}$, $\hat{V}_{l}$
+
+@ 500$^{\circ}$C and 80 bar: $\hat{H},\hat{S}$
+:::
+
+:::
+
+## Up the Realism (cont.)
+
+### Turbine
+
+::: {.fragment .absolute top=15% left=-2%}
+$$\Delta\hat{H}_\mathrm{ideal}= W_\mathrm{turb–isen}=2119.2\mathrm{\frac{kJ}{kg}}-3399.4\mathrm{\frac{kJ}{kg}}=-1280.2\mathrm{\frac{kJ}{kg}}$$
+:::
+
+::: {.fragment}
+::: {.absolute top=30% left=7%}
+$$W_\mathrm{turb–real} = \Delta\hat{H}_\mathrm{real} = (\eta_\mathrm{turb})(W_\mathrm{turb–isen})$$
+:::
+::: {.absolute top=40% left=26%}
+$$= (0.75)(-1280.2)=-960.2\mathrm{\frac{kJ}{kg}}$$
+:::
+:::
+
+::: {.fragment .absolute top=55% left=7%}
+$$\Delta \hat{H}_\mathrm{real} = \hat{H}_\mathbf{d–\mathrm{real}} - \hat{H}_\mathbf{c}$$
+:::
+::: {.fragment .absolute top=65% left=7%}
+$$\hat{H}_\mathbf{d–\mathrm{real}}  = \hat{H}_\mathbf{c} + \Delta\hat{H}_\mathrm{real} =3399.4 + (-960.2) = 2439.2 \mathrm{\frac{kJ}{kg}}$$
+:::
+::: {.fragment .absolute top=80% left=7%}
+$$x_\mathbf{d} = \frac{\hat{H}_{\mathbf{d}\mathrm{–real}} - \hat{H}_l}{\hat{H}_v - \hat{H}_l} = \frac{2439.2 - 184.26}{2580.7 - 184.26} = 0.9411$$
+:::
+
+##
+### Pump
+
+::: {.fragment .absolute top=15% left=0%}
+$$W_\mathrm{pump–real} = \Delta\hat{H}_\mathrm{real} = \frac{W_\mathrm{pump–isen}}{\eta_\mathrm{pump}} = \frac{8.067}{0.75}=10.756\mathrm{\frac{kJ}{kg}}$$
+:::
+::: {.fragment .absolute top=35% left=7%}
+$$\hat{H}_\mathbf{b–\mathrm{real}}  = \hat{H}_\mathbf{a} + \Delta\hat{H}_\mathrm{real} = 184.26+ 10.756 = 195.02 \mathrm{\frac{kJ}{kg}}$$
+:::
+
+##
+### Overall
+
+::: {.fragment}
+$$W_\mathrm{net–real} = \Delta\hat{H}_\mathrm{turb} +\Delta\hat{H}_\mathrm{pump} = -960.2 +10.76 = -949.4$$
+:::
+::: {.fragment}
+$$Q_\mathrm{hot–real} = \hat{H}_\mathbf{c} - \hat{H}_\mathbf{b–\mathrm{real}} = 3399.4 - 195.02 = 3204.4 \mathrm{\frac{kJ}{kg}}$$
+:::
+::: {.fragment}
+$$\eta_\mathrm{real} = \frac{-W_\mathrm{net–real}}{Q_\mathrm{hot–real}} = \frac{949.4}{3204.4} = 0.2963\ \ \ \text{vs.}\ \ \ \eta_\mathrm{isen} = 0.3967$$
+:::
+::: {.fragment}
+$$\dot{m}=\frac{-\dot{W}_\mathrm{net}}{-W_\mathrm{net}}=\frac{80,000\mathrm{\frac{kJ}{s}}}{960.2\mathrm{\frac{kJ}{kg}}-10.75\mathrm{\frac{kJ}{kg}}}=84.26\mathrm{\frac{kg}{s}}\ \text{vs.}\ 62.88\mathrm{\frac{kg}{s}}$$
+:::
+
+## Spreadsheet
+
+![](RankineRealSpreadsheet.png)
+
+## The Rankine Cycle in DWSIM
+
+![](DWSIMRankine.png){.absolute left=0% top=10%}
+
+:::{.absolute top=55% left=10%}
+Ideal Cycle
+:::
+
+:::{.fragment .absolute top=70% left=0%}
+:::{style="font-size: 85px;"}
+$\eta = \dfrac{1280.21 - 8.07}{3207.05} = 39.67\%$
+:::
+:::
+
+
+:::{.absolute top=55% left=65%}
+Real Cycle
+:::
+
+:::{.fragment .absolute top=70% left=52%}
+:::{style="font-size: 85px;"}
+$\eta = \dfrac{960.16 - 10.76}{3204.36} = 29.63\%$
+:::
+:::
+
+## DWSIM Settings
+
+![](DWSIMRankine.png){.absolute left=0% top=7%}
+
+<br/><br/><br/><br/><br/><br/><br/>
+
+:::{style="font-size: 67px;"}
+::::{.columns}
+:::{.column width=50%}
+1. Flow streams **c** and **cA**:<br/>**Specified Variables** Temperature/Pressure<br/>**Temperature (K)** 773.15<br/>**Pressure (Pa)** 8000000<br/>**Mass Flow (kg/s)** 1
+2. Turbines<br/>**Calculation Mode** Outlet Pressure<br/>**Thermodynamic Path** Adiabatic<br/>**Outlet Pressure (Pa)** 9111.8<br/>**Adiabatic Efficiency (%)** 100 or 75
+:::
+:::{.column width=50%}
+3. Pumps<br/>**Calculation Mode** Outlet Pressure<br/>**Outlet Pressure (Pa)** 8000000<br/>**Efficiency (%)** 100 or 75
+4. Condensers<br/>**Calculation Mode** Outlet Vapor Fraction<br/>**Outlet Vapor Fraction** 0
+5. Boilers<br/>**Calculation Mode** Outlet Temperature<br/>**Outlet Temperature (K)** 773.15
+:::
+::::
+:::
+
+## The Takeaways
+
+1. The calculation of a realistic Rankine cycle starts by doing the calculation for an ideal or isentropic cycle, and adding in the effects of a turbine efficiency and a pump efficiency.
+2. Calculation of the final entropies at the outlet of the turbine, and the outlet of the pump are not necessary for the efficiency calculation. Doing the turbine exit is easy. Doing the pump exit is difficult.
+3. DWSIM has all of the tools necessary to set up and calculate process flow diagrams for Rankine cycles.
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
