@@ -137,13 +137,17 @@
 <section id="introduction" class="slide level2">
 <h2>Introduction</h2>
 <p>These videos, <em>Entropy Made Me Do It</em>, <em>Part 1</em> and <em>Part 2</em> derive the equations for common items in power and refrigeration machinery.</p>
+<div class="fragment">
 <p>Part 1 discussed</p>
+</div>
 <ul>
 <li class="fragment">the turbine or expander</li>
 <li class="fragment">the adiabatic compressor</li>
 <li class="fragment">the isothermal compressor</li>
 </ul>
+<div class="fragment">
 <p><strong>Part 2</strong> discusses</p>
+</div>
 <ul>
 <li class="fragment">the pump</li>
 <li class="fragment">the nozzle</li>
@@ -153,64 +157,132 @@
 <section id="section" class="slide level2">
 <h2></h2>
 <p><em>Up Third</em></p>
+<div class="fragment">
 <p><strong>Pump</strong> – Incompressible Liquids</p>
+<p><img data-src="DWSIMPump.png" class="absolute" style="top: 9%; left: 45%; width: 30%; "></p>
+<p><img data-src="PumpIcon.png" class="absolute" style="top: 10%; left: 75%; width: 30%; "></p>
+</div>
+<div class="fragment">
 <p><strong>Inputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span></p>
-<p><strong>Ouputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
+<p><strong>Outputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
 <p>Have to input work</p>
+</div>
+<div class="fragment">
 <p><em>Up Fourth</em></p>
+</div>
+<div class="fragment">
 <p><strong>Nozzle</strong> – Ideal Gas or Steam</p>
+<p><img data-src="Nozzle.png" class="absolute" style="top: 45%; left: 55%; width: 30%; "></p>
+<p><img data-src="LavalNozzle.png" class="absolute" style="top: 55%; left: 55%; width: 30%; "></p>
+</div>
+<div class="fragment">
 <p><strong>Inputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span></p>
-<p><strong>Ouputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
+<p><strong>Outputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
 <p>Goal is velocity increase</p>
+</div>
+<div class="fragment">
 <p><em>Last</em></p>
+</div>
+<div class="fragment">
+<div style="font-size: 95px;">
 <p><strong>Valve</strong> or <strong>Throttling Process</strong> – Ideal Gas or Two-phase Mixture</p>
+</div>
+<p><img data-src="DWSIMValve.png" class="absolute" style="top: 76%; left: 45%; width: 30%; "></p>
+<p><img data-src="ValveIcon.png" class="absolute" style="top: 76%; left: 75%; width: 30%; "></p>
+</div>
+<div class="fragment">
 <p><strong>Inputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span></p>
-<p><strong>Ouputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
+<p><strong>Outputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+</div>
 </section>
 <section id="pump" class="slide level2">
 <h2>Pump</h2>
 <p>Incompressible liquid only in introductory videos.</p>
-<p><img data-src="Pompe_à_palettes.gif" class="absolute" style="top: 16%; left: 0%; width: 48%; "></p>
-<div class="absolute" style="top: 63%; ">
+<p><img data-src="Pompe_à_palettes.gif" class="absolute" style="top: 16%; left: 50%; width: 48%; "></p>
+<div class="absolute" style="top: 63%; left: 50%; ">
 <p><a href="https://creativecommons.org/licenses/by-sa/1.0">CC BY-SA 1.0</a>, via<br>Wikimedia Commons</p>
 </div>
-<p><img data-src="Peristaltic_pump.gif" class="absolute" style="top: 16%; left: 50%; width: 48%; "></p>
-<div class="absolute" style="top: 63%; left: 50%; ">
-<p><a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons</p>
+<p><img data-src="Peristaltic_pump.gif" class="absolute" style="top: 16%; left: 0%; width: 48%; "></p>
+<div class="absolute" style="top: 63%; left: 0%; ">
+<p><a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via<br> Wikimedia Commons</p>
 </div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
 <p><strong>Pump</strong></p>
 <p>A real pump has a pump efficiency, that compares its performance with that of an isentropic pump.</p>
+<div class="fragment">
 <p><span class="math display">\[\eta_\mathrm{pump} = \frac{\dot{W}_{s\text{-isentropic}}}{\dot{W}_{s\text{-actual}}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\Delta \hat{H}_{\text{actual}}}\]</span></p>
+</div>
+<div class="fragment">
 <p>From the fundamental property relationships</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[d\hat{U} = T d\hat{S} - P d\hat{V}\]</span></p>
+</div>
+<div class="fragment">
 <p>and</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[d\hat{H} = d\hat{U} + P d\hat{V} + \hat{V} dP\ \ \text{from}\ \ \hat{H} = \hat{U} + P \hat{V}\]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[d\hat{U} = d\hat{H} - P d\hat{V} - \hat{V} dP\]</span></p>
+</div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
 <p>so</p>
 <p><span class="math display">\[d\hat{H} - P d\hat{V} - \hat{V} dP = T d\hat{S} - P d\hat{V}\]</span></p>
+<div class="fragment">
 <p>or</p>
 <p><span class="math display">\[d\hat{H} = T d\hat{S} + \hat{V} dP\]</span></p>
+</div>
+<div class="fragment">
 <p>Second Law on pump (adiabatic and reversible)</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta S = 0\]</span></p>
+</div>
+<div class="fragment">
 <p>so</p>
 <p><span class="math display">\[d\hat{S} = 0\]</span></p>
-<p><span class="math display">\[d\hat{H} = T d\hat{S} + \hat{V} dP\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[d\hat{H} = \hat{V} dP\]</span></p>
+</div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
 <p>For liquids <span class="math inline">\(V\)</span> is a very weak function of pressure (hence incompressible).</p>
+<div class="fragment">
 <p><span class="math display">\[\int d\hat{H} = \int \hat{V} dP = \hat{V} \int dP\]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta H_\text{isentropic} = W_{s\text{-isentropic}} = V \Delta P\]</span></p>
+</div>
+<div class="fragment">
 <p>Calculating the actual work</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\dot{W}_{s\text{-actual}} = \frac{\dot{W}_{s\text{-isentropic}}}{\eta_\mathrm{pump}}\]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta \hat{H}_{\text{actual}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\eta_\mathrm{pump}}\]</span></p>
+</div>
+<div class="fragment">
 <p>If necessary, you can calculate the actual entropy change.</p>
+</div>
 </section>
 <section id="nozzle" class="slide level2">
 <h2>Nozzle</h2>
@@ -226,40 +298,85 @@
 <section id="section-4" class="slide level2">
 <h2></h2>
 <p><strong>Nozzle</strong></p>
+<div class="fragment">
 <p>A real nozzle has a nozzle efficiency, that compares its performance with that of an isentropic nozzle.</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\eta_\mathrm{nozzle} = \frac{u^2_{\text{out-actual}}}{u^2_{\text{out-isentropic}}}\]</span></p>
+</div>
+<div class="fragment">
 <p>The point of a nozzle is to get a huge increase in velocity.</p>
+</div>
+<div class="fragment">
 <p><strong>1<sup>st</sup> Law</strong></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta \dot{H} + \Delta \dot{E}_\mathrm{k} = 0\]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\hat{H}_\mathrm{out} - \hat{H}_\mathrm{in} + \frac{u^2_\mathrm{out}}{2} - \frac{u^2_\mathrm{in}}{2} = 0\]</span></p>
+</div>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
 <p><span class="math display">\[u^2_\mathrm{out} = 2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}\]</span></p>
-<p><span class="math inline">\(u_\mathrm{out} = \sqrt{2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}}\)</span> Be careful with units.</p>
+<div class="fragment">
+<p><span class="math inline">\(u_\mathrm{out} = \sqrt{2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}}\ \ \ \ \ \)</span> Be careful with units.</p>
+</div>
+<div class="fragment">
 <p><strong>2<sup>nd</sup> Law</strong></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta \dot{S} = 0\ \ \ \ \ \ \ \ \hat{S}_\mathrm{out} = \hat{S}_\mathrm{in}\]</span></p>
+</div>
+<div class="fragment">
 <p>Ideal Gas</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta \hat{S} = 0 = C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}\]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{T_\mathrm{out}}{T_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}\]</span></p>
+</div>
 </section>
 <section id="section-6" class="slide level2">
 <h2></h2>
 <p>Substitute in for <span class="math inline">\(\Delta T\)</span>.</p>
-<p><span class="math display">\[\begin{align}
-\Delta \hat{H}_{\text{actual}} &amp;= C_p \Delta T_\text{actual} = C_p \left(T_\mathrm{out} - T_\mathrm{in}\right)
-\\
-\\ &amp;= C_p T_\mathrm{in}\left[\left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right) - 1\right]
-\end{align}\]</span> <br> <span class="math display">\[u^2_\text{out-isen} - u^2_\text{in} = -2 C_p \Delta T_\text{in} = 2 C_p T_\mathrm{in}\left[1 - \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)\right]\]</span></p>
+<div class="fragment">
+<p><span class="math display">\[\Delta \hat{H}_{\text{actual}} = C_p \Delta T_\text{actual} = C_p \left(T_\mathrm{out} - T_\mathrm{in}\right)\]</span></p>
+<div class="absolute" style="top: 17%; left: 32%; ">
+<p><span class="math display">\[= C_p T_\mathrm{in}\left[\left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p} - 1\right]\]</span></p>
+</div>
+</div>
+<p><br><br></p>
+<div class="fragment">
+<p><span class="math display">\[u^2_\text{out-isen} - u^2_\text{in} = -2 C_p \Delta T_\text{in} = 2 C_p T_\mathrm{in}\left[1 - \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}\right]\]</span></p>
+</div>
+<div class="fragment">
 <p>Be careful with units.</p>
+</div>
 </section>
 <section id="section-7" class="slide level2">
 <h2></h2>
 <p>For steam find the value of enthalpy in the steam table at the same entropy and pressure as the outlet.</p>
-<p><span class="math inline">\(u_\text{out-isen} = \sqrt{2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}}\ \ \ \ \ \)</span> Be careful with units.</p>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(u_\text{out-isen} = \sqrt{2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}}\ \ \ \ \)</span> Be careful with units.</p>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
 <p>For either steam or ideal gas find the actual velocity with the efficiency.</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[u^2_\text{out-actual} = \eta_\mathrm{nozzle}u^2_{\text{out-isentropic}}\]</span></p>
+</div>
+<div class="fragment">
 <p>If necessary, you can calculate the actual temperature, enthalpy change, and entropy change.</p>
+</div>
 </section>
 <section id="valves" class="slide level2">
 <h2>Valves</h2>
@@ -281,27 +398,56 @@
 <h2></h2>
 <p><strong>Throttling Process</strong></p>
 <p>Because the fluid passes quickly through a throttling process, the heat transfer is essentially zero. The First Law becomes</p>
+<div class="fragment">
 <p><span class="math display">\[\Delta \dot{H} + \Delta \dot{E}_\mathrm{k} + \Delta \dot{E}_\mathrm{p} = \dot{Q} + \dot{W}_s\]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}\]</span></p>
+</div>
+<div class="fragment">
 <p>There isn’t much to a throttling process for an ideal gas, since the enthalpy is a function of temperature and <span class="math inline">\(\Delta H = 0\)</span>, so <span class="math inline">\(\Delta T = 0\)</span>.</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[P_\mathrm{out} \hat{V}_\mathrm{out} = P_\mathrm{in} \hat{V}_\mathrm{in}\]</span></p>
+</div>
 </section>
 <section id="section-9" class="slide level2">
 <h2></h2>
-<p><strong>Throttling Process</strong></p>
+<p><strong>Throttling Process (cont.)</strong></p>
 <p>A throttling process for a liquid at the edge of the two-phase region is much more interesting. Normally, one specifies the inlet <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>, that the quality in, <span class="math inline">\(x = 0\)</span>, and the outlet <span class="math inline">\(P\)</span>.</p>
+<div class="fragment">
 <p><span class="math display">\[\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}\]</span></p>
-<p>One then uses the fluid two-phase table to determine the final pressure and quality. For example, take saturated liquid water at 50 bar, and flash it to 1 bar. Calculate the final <span class="math inline">\(T\)</span> and <span class="math inline">\(x\)</span>.</p>
+</div>
+<div class="fragment">
+<p>One then uses the fluid two-phase table to determine the final pressure and quality.</p>
+</div>
+<p><br></p>
+<div class="fragment">
+<p>For example, take saturated liquid water at 50 bar, and flash it to 1 bar. Calculate the final <span class="math inline">\(T\)</span> and <span class="math inline">\(x\)</span>.</p>
+</div>
 </section>
 <section id="section-10" class="slide level2">
 <h2></h2>
-<p><strong>Throttling Process</strong></p>
+<p><strong>Throttling Process Example</strong></p>
 <p>At <span class="math inline">\(50\ \mathrm{bar}\)</span> and <span class="math inline">\(263.94\ ^\circ \mathrm{C}\)</span></p>
+<div class="fragment">
 <p><span class="math display">\[\hat{H}_\mathrm{in} = 1154.5\ \mathrm{kJ/kg}\]</span></p>
+</div>
+<div class="fragment">
 <p>At <span class="math inline">\(1\ \mathrm{bar}\)</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[T_\mathrm{out} = 99.61\ ^\circ \mathrm{C}\]</span></p>
-<p><span class="math display">\[\hat{H}_l = 417.44\ \mathrm{kJ/kg}\ \ \ \ \ \ \hat{H}_v = 2674.9\ \mathrm{kJ/kg}\]</span> <span class="math display">\[\Delta \hat{H}_{lv} = 2257.5\ \mathrm{kJ/kg}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\hat{H}_l = 417.44\ \mathrm{kJ/kg}\ \ \ \ \ \ \hat{H}_v = 2674.9\ \mathrm{kJ/kg}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\Delta \hat{H}_{lv} = 2257.5\ \mathrm{kJ/kg}\]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[x = \frac{\hat{H}_\mathrm{out} - \hat{H}_l}{\hat{H}_v - \hat{H}_l} = \frac{1154.5 - 417.44}{2674.9 - 417.44} = 0.3265 = 32.65\%\]</span></p>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>

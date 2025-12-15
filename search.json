@@ -25,21 +25,21 @@
     "href": "balances/exergy/129-IdealLostWorkVisuals.html#heat-exchanger",
     "title": "Chemical and Thermal Processes",
     "section": "1. Heat Exchanger",
-    "text": "1. Heat Exchanger\n\\(\\dot{m}\\Delta H = \\dot{Q} + \\dot{W}_s = 0\\)\n\\(\\dot{Q} = 0\\)\n\\(\\boxed{\\dot{W}_s = 0}\\)"
+    "text": "1. Heat Exchanger\n\n\n\\(\\dot{m}\\Delta H = \\dot{Q} + \\dot{W}_s = 0\\)\n\n\n\\(\\dot{Q} = 0\\)\n\n\n\\(\\boxed{\\dot{W}_s = 0}\\)\n\n\n\n\\(\\mathrm{EtOH}\\)\n\n\n\n\n\\(100\\ ^\\circ\\mathrm{C}\\)\n\n\n\n\n\\(90\\ ^\\circ\\mathrm{C}\\)\n\n\n\n\n\\(50\\ ^\\circ\\mathrm{C}\\)\n\n\n\n\n\\(40\\ ^\\circ\\mathrm{C}\\)\n\n\n\n\n\\(\\mathrm{H_2O}\\)"
   },
   {
     "objectID": "balances/exergy/129-IdealLostWorkVisuals.html#refrigerator",
     "href": "balances/exergy/129-IdealLostWorkVisuals.html#refrigerator",
     "title": "Chemical and Thermal Processes",
     "section": "2. Refrigerator",
-    "text": "2. Refrigerator\n\\(\\boxed{\\dot{W}_s\\text{ into system (Oops)}}\\)"
+    "text": "2. Refrigerator\n\n\n\\(\\boxed{\\dot{W}_s\\text{ into system (Oops)}}\\)\n\n\n\n\\(\\mathrm{EtOH}\\)\n\n\n\n\n\\(100\\ ^\\circ\\mathrm{C}\\)\n\n\n\n\n\\(50\\ ^\\circ\\mathrm{C}\\)\n\n\n\n\n\\(|\\dot{Q}_\\mathrm{cold}|\\)\n\n\n\n\n\\(|\\dot{Q}_\\sigma|\\)\n\n\n\n\n\\(|\\dot{W}_s|\\)\n\n\n\n\nAmbient, \\(T_\\sigma\\)"
   },
   {
     "objectID": "balances/exergy/129-IdealLostWorkVisuals.html#infinitesimal-carnot-engines",
     "href": "balances/exergy/129-IdealLostWorkVisuals.html#infinitesimal-carnot-engines",
     "title": "Chemical and Thermal Processes",
     "section": "3. Infinitesimal Carnot Engines",
-    "text": "3. Infinitesimal Carnot Engines\n\\(\\dot{W}_\\text{total} = \\dot{m}(Q - T_\\sigma \\Delta S)\\)\n\\[= \\dot{m} \\left(\\int_{100}^{50} C_p dT - T_\\sigma \\int_{100}^{50} \\dfrac{C_p}{T} dT\\right)\\]\n\\(= 100(-6722.36 - 300(-19.2917))\\)\n\\(= -93.49 \\text{ kJ/s} = W_\\text{max}\\)"
+    "text": "3. Infinitesimal Carnot Engines\n\n\n\\(\\dot{W}_\\text{total} = \\dot{m}(\\hat{Q} - T_\\sigma \\Delta \\hat{S})\\)\n\n\n\\[= \\dot{m} \\left(\\int_{100}^{50} C_p dT - T_\\sigma \\int_{100}^{50} \\dfrac{C_p}{T} dT\\right)\\]\n\n\n\\(= 100[-6722.36 - 300(-19.2917)]\\)\n\n\n\\(= -93.49 \\text{ kJ/s} = W_\\text{max}\\)\n\n\n\n\\(\\mathrm{EtOH}\\)\n\n\n\n\n\\(100\\ ^\\circ\\mathrm{C}\\)\n\n\n\n\n\\(50\\ ^\\circ\\mathrm{C}\\)\n\n\n\n\n\\(|\\delta\\dot{Q}_\\mathrm{hot}|\\)\n\n\n\n\n\\(|\\delta\\dot{Q}_\\sigma|\\)\n\n\n\n\n\\(|\\delta\\dot{W}_s|\\)\n\n\n\n\nAmbient, \\(T_\\sigma\\)"
   },
   {
     "objectID": "balances/exergy/129-IdealLostWorkVisuals.html#derivation",
@@ -60,28 +60,28 @@
     "href": "balances/exergy/129-IdealLostWorkVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "For an open transient system, the Second Law is\n\n\\(\\dfrac{dS_\\mathrm{cv}}{dt} + \\Delta ( \\dot{S} )_\\mathrm{fs} - \\sum_j \\dfrac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0\\)\n\n\n\\(\\dfrac{d ( m\\hat{S} )_\\mathrm{cv}}{dt} + \\Delta ( \\dot{m}\\hat{S} )_\\mathrm{fs} - \\sum_j \\dfrac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0 \\quad\\) Mass Basis\n\n\nor \\(\\dfrac{d ( n\\hat{S} )_\\mathrm{cv}}{dt} + \\Delta ( \\dot{n}\\hat{S} )_\\mathrm{fs} - \\sum_j \\dfrac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0 \\quad\\) Mole Basis\n\n\n\\(\\dot{Q}_j\\) is heat transferred into system from reservoir \\(j\\)\n\n\n\\(T_j\\) is temperature of reservoir \\(j\\)"
+    "text": "For an open transient system, the Second Law is\n\n\n\n\n\\(\\dfrac{dS_\\mathrm{cv}}{dt} + \\Delta ( \\dot{S} )_\\mathrm{fs} - \\sum_j \\dfrac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0\\)\n\n\n\n\\(\\dfrac{d ( m\\hat{S} )_\\mathrm{cv}}{dt} + \\Delta ( \\dot{m}\\hat{S} )_\\mathrm{fs} - \\sum_j \\dfrac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0 \\quad\\) Mass Basis\n\n\n\nor \\(\\dfrac{d ( n\\hat{S} )_\\mathrm{cv}}{dt} + \\Delta ( \\dot{n}\\hat{S} )_\\mathrm{fs} - \\sum_j \\dfrac{\\dot{Q}_j}{T_j} = \\dot{S}_G \\geq 0 \\quad\\) Mole Basis\n\n\n\n\\(\\dot{Q}_j\\) is heat transferred into system from reservoir \\(j\\)\n\n\n\n\\(T_j\\) is temperature of reservoir \\(j\\)"
   },
   {
     "objectID": "balances/exergy/129-IdealLostWorkVisuals.html#section-2",
     "href": "balances/exergy/129-IdealLostWorkVisuals.html#section-2",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Combine (add the two equations) and solve for \\(\\sum \\dot{W}_{s_i} = \\dot{W}_s\\)\n\n\nAmbient \\(T\\) is \\(T_\\sigma\\).\n\n\n\n\\(\\dot{W}_s = \\frac{d}{dt} \\left( U + E_k + E_p - T_\\sigma S \\right)_\\mathrm{cv} - \\sum \\left( 1 - \\frac{T_\\sigma}{T_i} \\right) \\dot{Q}_i + \\left( \\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_\\sigma \\Delta \\dot{S} \\right)_\\mathrm{fs} + T_\\sigma \\dot{S}_\\mathrm{gen}\\)\n\n\n\n\n\\(\\dot{Q}_\\sigma\\) is transfer to ambient at \\(T_\\sigma\\) and doesn’t show up in the balance.\n\n\n\nWhat is \\(T_\\sigma \\dot{S}_\\mathrm{gen}\\)? \\(\\quad\\) \\(T_\\sigma \\dot{S}_\\mathrm{gen} = \\dot{W}_\\mathrm{lost}\\)\n\n\nIf \\(\\dot{S}_\\mathrm{gen} = 0 \\Rightarrow \\dot{W}_\\mathrm{lost} = 0\\), then \\(\\quad \\dot{W}_{s} = \\dot{W}_\\mathrm{ideal}\\)\n\n\n\\(\\dot{W}_\\mathrm{ideal}\\) is the ideal work or the reversible work. It (or the negative of it) is sometimes called availability, available work or exergy."
+    "text": "Combine (add the two equations) and solve for \\(\\sum \\dot{W}_{s_i} = \\dot{W}_s\\)\n\n\n\n\n\nAmbient \\(T\\) is \\(T_\\sigma\\).\n\n\n\n\n\n\n\\(\\dot{W}_s = \\frac{d}{dt} \\left( U + E_k + E_p - T_\\sigma S \\right)_\\mathrm{cv} - \\sum \\left( 1 - \\frac{T_\\sigma}{T_i} \\right) \\dot{Q}_i + \\left( \\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_\\sigma \\Delta \\dot{S} \\right)_\\mathrm{fs} + T_\\sigma \\dot{S}_\\mathrm{gen}\\)\n\n\n\n\n\n\n\n\\(\\dot{Q}_\\sigma\\) is transfer to ambient at \\(T_\\sigma\\) and doesn’t show up in the balance.\n\n\n\n\n\n\n\n\n\nWhat is \\(T_\\sigma \\dot{S}_\\mathrm{gen}\\)? \\(\\quad\\) \\(T_\\sigma \\dot{S}_\\mathrm{gen} = \\dot{W}_\\mathrm{lost}\\)\n\n\n\n\n\nIf \\(\\dot{S}_\\mathrm{gen} = 0 \\Rightarrow \\dot{W}_\\mathrm{lost} = 0\\), then \\(\\quad \\dot{W}_{s} = \\dot{W}_\\mathrm{ideal}\\)\n\n\n\n\n\n\\(\\dot{W}_\\mathrm{ideal}\\) is the ideal work or the reversible work. It (or the negative of it) is sometimes called availability, available work or exergy."
   },
   {
     "objectID": "balances/exergy/129-IdealLostWorkVisuals.html#the-combined-1st-and-2nd-law",
     "href": "balances/exergy/129-IdealLostWorkVisuals.html#the-combined-1st-and-2nd-law",
     "title": "Chemical and Thermal Processes",
     "section": "The Combined 1st and 2nd Law",
-    "text": "The Combined 1st and 2nd Law\n\nOpen Transient System\n\n\n\n\\(\\dot{W}_{\\text{ideal}} = \\dfrac{d}{dt}(U + E_k + E_p - T_\\sigma S)_\\mathrm{cv} - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + (\\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_\\sigma \\Delta \\dot{S})_\\mathrm{fs}\\)\n\n\n\nOn a mass basis\n\n\n\\(\\dot{W}_{\\text{ideal}} = \\dfrac{d}{dt}\\left[m(\\hat{U} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S})\\right]_\\mathrm{cv} - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i\\)\n\n\n\\[\n+ \\sum_{\\text{out}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S}) - \\sum_{\\text{in}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S})\n\\]\n\n\nOr the same equation on a mole basis with \\(n\\) and \\(\\dot{n}\\) replacing \\(m\\) and \\(\\dot{m}\\)"
+    "text": "The Combined 1st and 2nd Law\n\nOpen Transient System\n\n\n\n\n\n\n\\(\\dot{W}_{\\text{ideal}} = \\dfrac{d}{dt}(U + E_k + E_p - T_\\sigma S)_\\mathrm{cv} - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + (\\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_\\sigma \\Delta \\dot{S})_\\mathrm{fs}\\)\n\n\n\n\n\n\nOn a mass basis\n\n\n\\(\\dot{W}_{\\text{ideal}} = \\dfrac{d}{dt}\\left[m(\\hat{U} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S})\\right]_\\mathrm{cv} - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i\\)\n\n\n\\[\n+ \\sum_{\\text{out}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S}) - \\sum_{\\text{in}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S})\n\\]\n\n\n\n\n\nOr the same equation on a mole basis with \\(n\\) and \\(\\dot{n}\\) replacing \\(m\\) and \\(\\dot{m}\\)"
   },
   {
     "objectID": "balances/exergy/129-IdealLostWorkVisuals.html#section-3",
     "href": "balances/exergy/129-IdealLostWorkVisuals.html#section-3",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "The Combined 1st and 2nd Law (cont.)\n\n\n\nOpen Steady-State System\n\n\\(\\dot{W}_{\\text{ideal}} = - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + (\\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_\\sigma \\Delta \\dot{S})_\\mathrm{fs}\\)\n\nOn a mass basis\n\n\n\\(\\dot{W}_{\\text{ideal}} = - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + \\sum\\limits_{\\text{out}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S}) - \\sum\\limits_{\\text{in}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S})\\)\n\n\nOn a mole basis\n\n\n\\(\\dot{W}_{\\text{ideal}} = - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + \\sum\\limits_{\\text{out}} \\dot{n}_i (\\bar{H} + \\bar{E}_k + \\bar{E}_p - T_\\sigma \\bar{S}) - \\sum\\limits_{\\text{in}} \\dot{n}_i (\\bar{H} + \\bar{E}_k + \\bar{E}_p - T_\\sigma \\bar{S})\\)"
+    "text": "The Combined 1st and 2nd Law (cont.)\n\n\n\nOpen Steady-State System\n\n\n\n\\(\\dot{W}_{\\text{ideal}} = - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + (\\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p - T_\\sigma \\Delta \\dot{S})_\\mathrm{fs}\\)\n\n\n\nOn a mass basis\n\n\n\n\n\\(\\dot{W}_{\\text{ideal}} = - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + \\sum\\limits_{\\text{out}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S}) - \\sum\\limits_{\\text{in}} \\dot{m}_i (\\hat{H} + \\hat{E}_k + \\hat{E}_p - T_\\sigma \\hat{S})\\)\n\n\n\n\nOn a mole basis\n\n\n\n\n\\(\\dot{W}_{\\text{ideal}} = - \\sum \\left(1 - \\dfrac{T_\\sigma}{T_i}\\right) \\dot{Q}_i + \\sum\\limits_{\\text{out}} \\dot{n}_i (\\bar{H} + \\bar{E}_k + \\bar{E}_p - T_\\sigma \\bar{S}) - \\sum\\limits_{\\text{in}} \\dot{n}_i (\\bar{H} + \\bar{E}_k + \\bar{E}_p - T_\\sigma \\bar{S})\\)"
   },
   {
     "objectID": "balances/exergy/129-IdealLostWorkVisuals.html#section-4",
@@ -95,14 +95,14 @@
     "href": "balances/exergy/129-IdealLostWorkVisuals.html#how-do-you-use-it",
     "title": "Chemical and Thermal Processes",
     "section": "How do you use it?",
-    "text": "How do you use it?\n\n\nTheromodynamic efficiency, \\(\\eta_t\\) or \\(\\eta_{\\tiny \\mathrm{II}}\\)\n\nFor processes that produce work:\n\\(\\eta_t = \\frac{\\dot{W}_{s}}{\\dot{W}_\\mathrm{ideal}}\\)\nFor processes that require work:\n\\(\\eta_t = \\frac{\\dot{W}_\\mathrm{ideal}}{\\dot{W}_{s}}\\)"
+    "text": "How do you use it?\n\n\nThermodynamic efficiency, \\(\\eta_t\\) or \\(\\eta_{\\tiny \\mathrm{II}}\\)\n\nFor processes that produce work:\n\\(\\eta_t = \\frac{\\dot{W}_{s}}{\\dot{W}_\\mathrm{ideal}}\\)\nFor processes that require work:\n\\(\\eta_t = \\frac{\\dot{W}_\\mathrm{ideal}}{\\dot{W}_{s}}\\)"
   },
   {
     "objectID": "balances/exergy/129-IdealLostWorkVisuals.html#section-5",
     "href": "balances/exergy/129-IdealLostWorkVisuals.html#section-5",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Also the lost work or irreversibility is\n\n\\(\\dot{W}_\\mathrm{lost} = \\dot{W}_{s} - \\dot{W}_\\mathrm{ideal}\\)\n\n\nIs \\(\\dot{W}_\\mathrm{lost}\\) always positive?\n\n\n\\(\\dot{W}_\\mathrm{lost} = T_\\sigma \\dot{S}_\\mathrm{gen}\\)\n\n\nYou should also analyze individual parts of a process and calculate lost work to see where the greatest inefficiencies lie."
+    "text": "Also the lost work or irreversibility is\n\n\\[\\dot{W}_\\mathrm{lost} = \\dot{W}_{s} - \\dot{W}_\\mathrm{ideal}\\]\n\n\nIs \\(\\dot{W}_\\mathrm{lost}\\) always positive?\n\n\n\\[\\dot{W}_\\mathrm{lost} = T_\\sigma \\dot{S}_\\mathrm{gen}\\]\n\n\nYou should also analyze individual parts of a process and calculate lost work to see where the greatest inefficiencies lie."
   },
   {
     "objectID": "balances/exergy/129-IdealLostWorkVisuals.html#steps",
@@ -1649,42 +1649,42 @@
     "href": "balances/energy/102-1stLawIdealGasesVisuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Equations and concepts for dealing with ideal gases in first law problems  First: heat capacity doesn’t vary with pressure for ideal gases, only with temperature.\n\\[d\\hat{U} = C_v dT,\\hspace{120px} \\Delta \\hat{U} = \\int\\limits_{T_1}^{T_2} C_v dT\\]\n\\[d\\hat{H} = C_p dT,\\hspace{120px} \\Delta \\hat{H} = \\int\\limits_{T_1}^{T_2} C_p dT\\]\n\n\\[C_p = C_v + R\\]"
+    "text": "Equations and concepts for dealing with ideal gases in first law problems \n\nFirst: heat capacity doesn’t vary with pressure for ideal gases, only with temperature.\n\n\n\\[d\\hat{U} = C_v dT,\\hspace{120px} \\Delta \\hat{U} = \\int\\limits_{T_1}^{T_2} C_v dT\\]\n\n\n\\[d\\hat{H} = C_p dT,\\hspace{120px} \\Delta \\hat{H} = \\int\\limits_{T_1}^{T_2} C_p dT\\]\n\n\n\\[C_p = C_v + R\\]"
   },
   {
     "objectID": "balances/energy/102-1stLawIdealGasesVisuals.html#section-1",
     "href": "balances/energy/102-1stLawIdealGasesVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Second: for a closed system with ideal gas and no change in kinetic or potential energy.\n\\[d\\hat{U} = \\frac{dQ}{n} + \\frac{dW}{n}\\]\n\\[C_v dT = \\frac{dQ}{n} - Pd\\hat{V}\\]\n\\[dQ = nC_v dT + PdV = nC_v dT + nRT \\frac{dV}{V}\\]\n\\[dQ = nC_p dT - nRT \\frac{dP}{P}\\]"
+    "text": "Second: for a closed system with ideal gas and no change in kinetic or potential energy.\n\n\\[d\\hat{U} = \\frac{dQ}{n} + \\frac{dW}{n}\\]\n\n\n\\[C_v dT = \\frac{dQ}{n} - Pd\\hat{V}\\]\n\n\n\\[dQ = nC_v dT + PdV = nC_v dT + nRT \\frac{dV}{V}\\]\n\n\n\\[dQ = nC_p dT - nRT \\frac{dP}{P}\\]"
   },
   {
     "objectID": "balances/energy/102-1stLawIdealGasesVisuals.html#section-2",
     "href": "balances/energy/102-1stLawIdealGasesVisuals.html#section-2",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Isothermal (Constant Temperature) Process:\n\\[d\\hat{U} = d\\hat{H} = 0\\]\n\\[dQ = dQ\\]\n\\[dQ = n C_v dT + nRT \\frac{dV}{V} = n C_P dT - nRT \\frac{dP}{P}\\]\n\\[Q = -W = nRT \\ln \\frac{V_2}{V_1} = nRT \\ln \\frac{P_1}{P_2}\\]\n\nNote the order of the subscripts on \\(V\\) and \\(P\\)."
+    "text": "Isothermal (Constant Temperature) Process:\n\n\\[d\\hat{U} = d\\hat{H} = 0\\]\n\n\n\\[dQ = dQ\\]\n\n\n\\[dQ = n C_v dT + nRT \\frac{dV}{V} = n C_p dT - nRT \\frac{dP}{P}\\]\n\n\n\\[Q = -W = nRT \\ln \\frac{V_2}{V_1} = nRT \\ln \\frac{P_1}{P_2}\\]\n\n\nNote the order of the subscripts on \\(V\\) and \\(P\\)."
   },
   {
     "objectID": "balances/energy/102-1stLawIdealGasesVisuals.html#section-3",
     "href": "balances/energy/102-1stLawIdealGasesVisuals.html#section-3",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Isobaric (Constant Pressure) Process:\n\n\n\\[d\\hat{U} = C_v dT\\]  \\[dW = -PdV\\]  \\[\\Delta U = Q + W = Q - P \\Delta V\\]  \\[\\Delta U + P \\Delta V = Q\\]\n\n\\[Q = \\Delta H = n \\int\\limits_{T_1}^{T_2}C_p dT\\]\n\\[\\Delta \\hat{U} = \\int\\limits_{T_1}^{T_2}C_v dT\\]\n\\[\\begin{align}\nW &= -P(V_2 - V_1)\n\\\\\n\\\\&= -nRT(T_2 - T_1)\n\\end{align}\\]"
+    "text": "Isobaric (Constant Pressure) Process:\n\n\\(d\\hat{U} = C_v dT\\)\n\n\n\\[\\Delta \\hat{U} = \\int\\limits_{T_1}^{T_2}C_v dT\\]\n\n\n\\(dW = -PdV\\)\n\n\n\\[\\begin{align}\nW &= -P(V_2 - V_1)\n\n\\\\&= -nR(T_2 - T_1)\n\\end{align}\\]\n\n\n\\(\\Delta U = Q + W = Q - P \\Delta V\\)\n\n\n\\(\\Delta U + P \\Delta V = Q\\)\n\n\n\\[Q = \\Delta H = n \\int\\limits_{T_1}^{T_2}C_p dT\\]"
   },
   {
     "objectID": "balances/energy/102-1stLawIdealGasesVisuals.html#section-4",
     "href": "balances/energy/102-1stLawIdealGasesVisuals.html#section-4",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Isochoric (Constant Volume) Process:\n\\[dW = -PdV\\]  \\[d \\hat{U} = C_V dT\\]  \\[Q = \\Delta U = n \\int\\limits_{T_1}^{T_2}C_v dT\\]"
+    "text": "Isochoric (Constant Volume) Process:\n\n\\[dW = -PdV\\]\n\n\n\\[d \\hat{U} = C_V dT\\]\n\n\n\\[Q = \\Delta U = n \\int\\limits_{T_1}^{T_2}C_v dT\\]"
   },
   {
     "objectID": "balances/energy/102-1stLawIdealGasesVisuals.html#section-5",
     "href": "balances/energy/102-1stLawIdealGasesVisuals.html#section-5",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Adiabatic Reversible (Isentropic) Process:\n\\[dQ = n C_v dT + P dV = n C_V dT + nRT \\frac{dV}{V}\\]\n\\[n C_v dT = -nRT \\frac{dV}{V}\\]\n\\[\\frac{dT}{T} = - \\frac{R}{C_v} \\frac{dV}{V}\\]\nIf \\(C_v = \\mathrm{constant}\\)\n\n\n\\[\\ln \\frac{T_2}{T_1} = \\frac{R}{C_v} \\ln \\frac{V_1}{V_2}\\]\n\n\\[\\frac{T_2}{T_1} = \\left(\\frac{V_1}{V_2}\\right)^{\\frac{R}{C_v}}\\]\n\n\\[\\frac{T_2}{T_1} = \\left(\\frac{P_2}{P_1}\\right)^{\\frac{R}{C_v}}\\]\n\n\nNote the order of the subscripts on \\(V\\) and \\(P\\)."
+    "text": "Adiabatic Reversible (Isentropic) Process:\n\n\\[dQ = n C_v dT + P dV = n C_V dT + nRT \\frac{dV}{V}\\]\n\n\n\\[n C_v dT = -nRT \\frac{dV}{V}\\]\n\n\n\\[\\frac{dT}{T} = - \\frac{R}{C_v} \\frac{dV}{V}\\]\n\n\nIf \\(C_v = \\mathrm{constant}\\)\n\n\n\\[\\ln \\frac{T_2}{T_1} = \\frac{R}{C_v} \\ln {\\frac{V_1}{V_2}}\\]\n\n\n\\[\\frac{T_2}{T_1} = \\left(\\frac{V_1}{V_2}\\right)^{\\frac{R}{C_v}}\\]\n\n\n\\[\\frac{T_2}{T_1} = \\left(\\frac{P_2}{P_1}\\right)^{\\frac{R}{C_p}}\\]\n\n\nNote the order of the subscripts on \\(V\\) and \\(P\\)."
   },
   {
     "objectID": "balances/energy/102-1stLawIdealGasesVisuals.html#the-takeaways",
@@ -2055,14 +2055,14 @@
     "href": "balances/entropy/118A-PumpNozzVisuals.html#introduction",
     "title": "Chemical and Thermal Processes",
     "section": "Introduction",
-    "text": "Introduction\nThese videos, Entropy Made Me Do It, Part 1 and Part 2 derive the equations for common items in power and refrigeration machinery.\nPart 1 discussed\n\nthe turbine or expander\nthe adiabatic compressor\nthe isothermal compressor\n\nPart 2 discusses\n\nthe pump\nthe nozzle\nthe valve or throttle"
+    "text": "Introduction\nThese videos, Entropy Made Me Do It, Part 1 and Part 2 derive the equations for common items in power and refrigeration machinery.\n\nPart 1 discussed\n\n\nthe turbine or expander\nthe adiabatic compressor\nthe isothermal compressor\n\n\nPart 2 discusses\n\n\nthe pump\nthe nozzle\nthe valve or throttle"
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#section",
     "href": "balances/entropy/118A-PumpNozzVisuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Up Third\nPump – Incompressible Liquids\nInputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) and \\(P\\)\nOuputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(P\\)\nHave to input work\nUp Fourth\nNozzle – Ideal Gas or Steam\nInputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) and \\(P\\)\nOuputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(P\\)\nGoal is velocity increase\nLast\nValve or Throttling Process – Ideal Gas or Two-phase Mixture\nInputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) and \\(P\\)\nOuputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(P\\)"
+    "text": "Up Third\n\nPump – Incompressible Liquids\n\n\n\n\nInputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) and \\(P\\)\n\n\nOutputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(P\\)\n\n\nHave to input work\n\n\nUp Fourth\n\n\nNozzle – Ideal Gas or Steam\n\n\n\n\nInputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) and \\(P\\)\n\n\nOutputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(P\\)\n\n\nGoal is velocity increase\n\n\nLast\n\n\n\nValve or Throttling Process – Ideal Gas or Two-phase Mixture\n\n\n\n\n\nInputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) and \\(P\\)\n\n\nOutputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(P\\)"
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#pump",
@@ -2076,21 +2076,21 @@
     "href": "balances/entropy/118A-PumpNozzVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Pump\nA real pump has a pump efficiency, that compares its performance with that of an isentropic pump.\n\\[\\eta_\\mathrm{pump} = \\frac{\\dot{W}_{s\\text{-isentropic}}}{\\dot{W}_{s\\text{-actual}}} = \\frac{\\Delta \\hat{H}_{\\text{isentropic}}}{\\Delta \\hat{H}_{\\text{actual}}}\\]\nFrom the fundamental property relationships\n\\[d\\hat{U} = T d\\hat{S} - P d\\hat{V}\\]\nand\n\\[d\\hat{H} = d\\hat{U} + P d\\hat{V} + \\hat{V} dP\\ \\ \\text{from}\\ \\ \\hat{H} = \\hat{U} + P \\hat{V}\\]\n\\[d\\hat{U} = d\\hat{H} - P d\\hat{V} - \\hat{V} dP\\]"
+    "text": "Pump\nA real pump has a pump efficiency, that compares its performance with that of an isentropic pump.\n\n\\[\\eta_\\mathrm{pump} = \\frac{\\dot{W}_{s\\text{-isentropic}}}{\\dot{W}_{s\\text{-actual}}} = \\frac{\\Delta \\hat{H}_{\\text{isentropic}}}{\\Delta \\hat{H}_{\\text{actual}}}\\]\n\n\nFrom the fundamental property relationships\n\n\n\\[d\\hat{U} = T d\\hat{S} - P d\\hat{V}\\]\n\n\nand\n\n\n\\[d\\hat{H} = d\\hat{U} + P d\\hat{V} + \\hat{V} dP\\ \\ \\text{from}\\ \\ \\hat{H} = \\hat{U} + P \\hat{V}\\]\n\n\n\\[d\\hat{U} = d\\hat{H} - P d\\hat{V} - \\hat{V} dP\\]"
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#section-2",
     "href": "balances/entropy/118A-PumpNozzVisuals.html#section-2",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "so\n\\[d\\hat{H} - P d\\hat{V} - \\hat{V} dP = T d\\hat{S} - P d\\hat{V}\\]\nor\n\\[d\\hat{H} = T d\\hat{S} + \\hat{V} dP\\]\nSecond Law on pump (adiabatic and reversible)\n\\[\\Delta S = 0\\]\nso\n\\[d\\hat{S} = 0\\]\n\\[d\\hat{H} = T d\\hat{S} + \\hat{V} dP\\]"
+    "text": "so\n\\[d\\hat{H} - P d\\hat{V} - \\hat{V} dP = T d\\hat{S} - P d\\hat{V}\\]\n\nor\n\\[d\\hat{H} = T d\\hat{S} + \\hat{V} dP\\]\n\n\nSecond Law on pump (adiabatic and reversible)\n\n\n\\[\\Delta S = 0\\]\n\n\nso\n\\[d\\hat{S} = 0\\]\n\n\n\\[d\\hat{H} = \\hat{V} dP\\]"
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#section-3",
     "href": "balances/entropy/118A-PumpNozzVisuals.html#section-3",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "For liquids \\(V\\) is a very weak function of pressure (hence incompressible).\n\\[\\int d\\hat{H} = \\int \\hat{V} dP = \\hat{V} \\int dP\\]\n\\[\\Delta H_\\text{isentropic} = W_{s\\text{-isentropic}} = V \\Delta P\\]\nCalculating the actual work\n\\[\\dot{W}_{s\\text{-actual}} = \\frac{\\dot{W}_{s\\text{-isentropic}}}{\\eta_\\mathrm{pump}}\\]\n\\[\\Delta \\hat{H}_{\\text{actual}} = \\frac{\\Delta \\hat{H}_{\\text{isentropic}}}{\\eta_\\mathrm{pump}}\\]\nIf necessary, you can calculate the actual entropy change."
+    "text": "For liquids \\(V\\) is a very weak function of pressure (hence incompressible).\n\n\\[\\int d\\hat{H} = \\int \\hat{V} dP = \\hat{V} \\int dP\\]\n\n\n\\[\\Delta H_\\text{isentropic} = W_{s\\text{-isentropic}} = V \\Delta P\\]\n\n\nCalculating the actual work\n\n\n\\[\\dot{W}_{s\\text{-actual}} = \\frac{\\dot{W}_{s\\text{-isentropic}}}{\\eta_\\mathrm{pump}}\\]\n\n\n\\[\\Delta \\hat{H}_{\\text{actual}} = \\frac{\\Delta \\hat{H}_{\\text{isentropic}}}{\\eta_\\mathrm{pump}}\\]\n\n\nIf necessary, you can calculate the actual entropy change."
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#nozzle",
@@ -2104,28 +2104,28 @@
     "href": "balances/entropy/118A-PumpNozzVisuals.html#section-4",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Nozzle\nA real nozzle has a nozzle efficiency, that compares its performance with that of an isentropic nozzle.\n\\[\\eta_\\mathrm{nozzle} = \\frac{u^2_{\\text{out-actual}}}{u^2_{\\text{out-isentropic}}}\\]\nThe point of a nozzle is to get a huge increase in velocity.\n1st Law\n\\[\\Delta \\dot{H} + \\Delta \\dot{E}_\\mathrm{k} = 0\\]\n\\[\\hat{H}_\\mathrm{out} - \\hat{H}_\\mathrm{in} + \\frac{u^2_\\mathrm{out}}{2} - \\frac{u^2_\\mathrm{in}}{2} = 0\\]"
+    "text": "Nozzle\n\nA real nozzle has a nozzle efficiency, that compares its performance with that of an isentropic nozzle.\n\n\n\\[\\eta_\\mathrm{nozzle} = \\frac{u^2_{\\text{out-actual}}}{u^2_{\\text{out-isentropic}}}\\]\n\n\nThe point of a nozzle is to get a huge increase in velocity.\n\n\n1st Law\n\n\n\\[\\Delta \\dot{H} + \\Delta \\dot{E}_\\mathrm{k} = 0\\]\n\n\n\\[\\hat{H}_\\mathrm{out} - \\hat{H}_\\mathrm{in} + \\frac{u^2_\\mathrm{out}}{2} - \\frac{u^2_\\mathrm{in}}{2} = 0\\]"
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#section-5",
     "href": "balances/entropy/118A-PumpNozzVisuals.html#section-5",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "\\[u^2_\\mathrm{out} = 2\\left(\\hat{H}_\\mathrm{in} - \\hat{H}_\\mathrm{out}\\right) + u^2_\\mathrm{in}\\]\n\\(u_\\mathrm{out} = \\sqrt{2\\left(\\hat{H}_\\mathrm{in} - \\hat{H}_\\mathrm{out}\\right) + u^2_\\mathrm{in}}\\) Be careful with units.\n2nd Law\n\\[\\Delta \\dot{S} = 0\\ \\ \\ \\ \\ \\ \\ \\ \\hat{S}_\\mathrm{out} = \\hat{S}_\\mathrm{in}\\]\nIdeal Gas\n\\[\\Delta \\hat{S} = 0 = C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} - R \\ln \\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\]\n\\[C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = R \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}}\\ \\ \\ \\ \\text{or}\\ \\ \\ \\ \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = \\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)^\\frac{R}{C_p}\\]"
+    "text": "\\[u^2_\\mathrm{out} = 2\\left(\\hat{H}_\\mathrm{in} - \\hat{H}_\\mathrm{out}\\right) + u^2_\\mathrm{in}\\]\n\n\\(u_\\mathrm{out} = \\sqrt{2\\left(\\hat{H}_\\mathrm{in} - \\hat{H}_\\mathrm{out}\\right) + u^2_\\mathrm{in}}\\ \\ \\ \\ \\ \\) Be careful with units.\n\n\n2nd Law\n\n\n\\[\\Delta \\dot{S} = 0\\ \\ \\ \\ \\ \\ \\ \\ \\hat{S}_\\mathrm{out} = \\hat{S}_\\mathrm{in}\\]\n\n\nIdeal Gas\n\n\n\\[\\Delta \\hat{S} = 0 = C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} - R \\ln \\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\]\n\n\n\\[C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = R \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}}\\ \\ \\ \\ \\text{or}\\ \\ \\ \\ \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = \\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)^\\frac{R}{C_p}\\]"
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#section-6",
     "href": "balances/entropy/118A-PumpNozzVisuals.html#section-6",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Substitute in for \\(\\Delta T\\).\n\\[\\begin{align}\n\\Delta \\hat{H}_{\\text{actual}} &= C_p \\Delta T_\\text{actual} = C_p \\left(T_\\mathrm{out} - T_\\mathrm{in}\\right)\n\\\\\n\\\\ &= C_p T_\\mathrm{in}\\left[\\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right) - 1\\right]\n\\end{align}\\]  \\[u^2_\\text{out-isen} - u^2_\\text{in} = -2 C_p \\Delta T_\\text{in} = 2 C_p T_\\mathrm{in}\\left[1 - \\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)\\right]\\]\nBe careful with units."
+    "text": "Substitute in for \\(\\Delta T\\).\n\n\\[\\Delta \\hat{H}_{\\text{actual}} = C_p \\Delta T_\\text{actual} = C_p \\left(T_\\mathrm{out} - T_\\mathrm{in}\\right)\\]\n\n\\[= C_p T_\\mathrm{in}\\left[\\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)^\\frac{R}{C_p} - 1\\right]\\]\n\n\n\n\n\\[u^2_\\text{out-isen} - u^2_\\text{in} = -2 C_p \\Delta T_\\text{in} = 2 C_p T_\\mathrm{in}\\left[1 - \\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)^\\frac{R}{C_p}\\right]\\]\n\n\nBe careful with units."
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#section-7",
     "href": "balances/entropy/118A-PumpNozzVisuals.html#section-7",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "For steam find the value of enthalpy in the steam table at the same entropy and pressure as the outlet.\n\\(u_\\text{out-isen} = \\sqrt{2\\left(\\hat{H}_\\mathrm{in} - \\hat{H}_\\mathrm{out}\\right) + u^2_\\mathrm{in}}\\ \\ \\ \\ \\ \\) Be careful with units.\nFor either steam or ideal gas find the actual velocity with the efficiency.\n\\[u^2_\\text{out-actual} = \\eta_\\mathrm{nozzle}u^2_{\\text{out-isentropic}}\\]\nIf necessary, you can calculate the actual temperature, enthalpy change, and entropy change."
+    "text": "For steam find the value of enthalpy in the steam table at the same entropy and pressure as the outlet.\n\n\n\n\n\\(u_\\text{out-isen} = \\sqrt{2\\left(\\hat{H}_\\mathrm{in} - \\hat{H}_\\mathrm{out}\\right) + u^2_\\mathrm{in}}\\ \\ \\ \\ \\) Be careful with units.\n\n\n\n\n\nFor either steam or ideal gas find the actual velocity with the efficiency.\n\n\n\\[u^2_\\text{out-actual} = \\eta_\\mathrm{nozzle}u^2_{\\text{out-isentropic}}\\]\n\n\nIf necessary, you can calculate the actual temperature, enthalpy change, and entropy change."
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#valves",
@@ -2139,21 +2139,21 @@
     "href": "balances/entropy/118A-PumpNozzVisuals.html#section-8",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Throttling Process\nBecause the fluid passes quickly through a throttling process, the heat transfer is essentially zero. The First Law becomes\n\\[\\Delta \\dot{H} + \\Delta \\dot{E}_\\mathrm{k} + \\Delta \\dot{E}_\\mathrm{p} = \\dot{Q} + \\dot{W}_s\\]\n\\[\\hat{H}_\\mathrm{out} = \\hat{H}_\\mathrm{in}\\]\nThere isn’t much to a throttling process for an ideal gas, since the enthalpy is a function of temperature and \\(\\Delta H = 0\\), so \\(\\Delta T = 0\\).\n\\[P_\\mathrm{out} \\hat{V}_\\mathrm{out} = P_\\mathrm{in} \\hat{V}_\\mathrm{in}\\]"
+    "text": "Throttling Process\nBecause the fluid passes quickly through a throttling process, the heat transfer is essentially zero. The First Law becomes\n\n\\[\\Delta \\dot{H} + \\Delta \\dot{E}_\\mathrm{k} + \\Delta \\dot{E}_\\mathrm{p} = \\dot{Q} + \\dot{W}_s\\]\n\n\n\\[\\hat{H}_\\mathrm{out} = \\hat{H}_\\mathrm{in}\\]\n\n\nThere isn’t much to a throttling process for an ideal gas, since the enthalpy is a function of temperature and \\(\\Delta H = 0\\), so \\(\\Delta T = 0\\).\n\n\n\\[P_\\mathrm{out} \\hat{V}_\\mathrm{out} = P_\\mathrm{in} \\hat{V}_\\mathrm{in}\\]"
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#section-9",
     "href": "balances/entropy/118A-PumpNozzVisuals.html#section-9",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Throttling Process\nA throttling process for a liquid at the edge of the two-phase region is much more interesting. Normally, one specifies the inlet \\(T\\) and \\(P\\), that the quality in, \\(x = 0\\), and the outlet \\(P\\).\n\\[\\hat{H}_\\mathrm{out} = \\hat{H}_\\mathrm{in}\\]\nOne then uses the fluid two-phase table to determine the final pressure and quality. For example, take saturated liquid water at 50 bar, and flash it to 1 bar. Calculate the final \\(T\\) and \\(x\\)."
+    "text": "Throttling Process (cont.)\nA throttling process for a liquid at the edge of the two-phase region is much more interesting. Normally, one specifies the inlet \\(T\\) and \\(P\\), that the quality in, \\(x = 0\\), and the outlet \\(P\\).\n\n\\[\\hat{H}_\\mathrm{out} = \\hat{H}_\\mathrm{in}\\]\n\n\nOne then uses the fluid two-phase table to determine the final pressure and quality.\n\n\n\nFor example, take saturated liquid water at 50 bar, and flash it to 1 bar. Calculate the final \\(T\\) and \\(x\\)."
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#section-10",
     "href": "balances/entropy/118A-PumpNozzVisuals.html#section-10",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Throttling Process\nAt \\(50\\ \\mathrm{bar}\\) and \\(263.94\\ ^\\circ \\mathrm{C}\\)\n\\[\\hat{H}_\\mathrm{in} = 1154.5\\ \\mathrm{kJ/kg}\\]\nAt \\(1\\ \\mathrm{bar}\\)\n\\[T_\\mathrm{out} = 99.61\\ ^\\circ \\mathrm{C}\\]\n\\[\\hat{H}_l = 417.44\\ \\mathrm{kJ/kg}\\ \\ \\ \\ \\ \\ \\hat{H}_v = 2674.9\\ \\mathrm{kJ/kg}\\] \\[\\Delta \\hat{H}_{lv} = 2257.5\\ \\mathrm{kJ/kg}\\]\n\\[x = \\frac{\\hat{H}_\\mathrm{out} - \\hat{H}_l}{\\hat{H}_v - \\hat{H}_l} = \\frac{1154.5 - 417.44}{2674.9 - 417.44} = 0.3265 = 32.65\\%\\]"
+    "text": "Throttling Process Example\nAt \\(50\\ \\mathrm{bar}\\) and \\(263.94\\ ^\\circ \\mathrm{C}\\)\n\n\\[\\hat{H}_\\mathrm{in} = 1154.5\\ \\mathrm{kJ/kg}\\]\n\n\nAt \\(1\\ \\mathrm{bar}\\)\n\n\n\\[T_\\mathrm{out} = 99.61\\ ^\\circ \\mathrm{C}\\]\n\n\n\\[\\hat{H}_l = 417.44\\ \\mathrm{kJ/kg}\\ \\ \\ \\ \\ \\ \\hat{H}_v = 2674.9\\ \\mathrm{kJ/kg}\\]\n\n\n\\[\\Delta \\hat{H}_{lv} = 2257.5\\ \\mathrm{kJ/kg}\\]\n\n\n\\[x = \\frac{\\hat{H}_\\mathrm{out} - \\hat{H}_l}{\\hat{H}_v - \\hat{H}_l} = \\frac{1154.5 - 417.44}{2674.9 - 417.44} = 0.3265 = 32.65\\%\\]"
   },
   {
     "objectID": "balances/entropy/118A-PumpNozzVisuals.html#the-takeaways",
@@ -2167,14 +2167,14 @@
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#introduction",
     "title": "Chemical and Thermal Processes",
     "section": "Introduction",
-    "text": "Introduction\nThese videos, Entropy Made Me Do It, Part 1 and Part 2 derive the equations for common items in power and refrigeration machinery.\nPart 1 discusses\n\nthe turbine or expander\nthe adiabatic compressor\nthe isothermal compressor\n\nPart 2 discusses\n\nthe pump\nthe nozzle\nthe valve or throttle"
+    "text": "Introduction\nThese videos, Entropy Made Me Do It, Part 1 and Part 2 derive the equations for common items in power and refrigeration machinery.\n\nPart 1 discusses\n\n\nthe turbine or expander\nthe adiabatic compressor\nthe isothermal compressor\n\n\nPart 2 discusses\n\n\nthe pump\nthe nozzle\nthe valve or throttle"
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#section",
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Up First\nTurbine – Steam or Combustion Gases\nExpander – Compressed Gases\nInputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) and \\(P\\)\nOuputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) or \\(P\\)\nGoal is work output\nThen\nCompressor\nGoal is pressure increase of gas\nInputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) and \\(P\\)\nOuputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(P\\)\nHave to input work"
+    "text": "Up First\n\nTurbine – Steam or Combustion Gases\nExpander – Compressed Gases\n\n\n\n\nInputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) and \\(P\\)\n\n\nOutputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) or \\(P\\)\n\n\nGoal is work output\n\n\nThen\n\n\nCompressor\n\n\n\n\nGoal is pressure increase of gas\n\n\nInputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(T\\) and \\(P\\)\n\n\nOutputs – \\(\\dot{m}\\) or \\(\\dot{n}\\), \\(P\\)\n\n\nHave to input work"
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#turbine-or-expander",
@@ -2188,42 +2188,42 @@
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#turbine-or-expander-1",
     "title": "Chemical and Thermal Processes",
     "section": "Turbine or Expander",
-    "text": "Turbine or Expander\nA turbine or expander takes a high-temperature and high-pressure steam or gas mixture and sends it through a series of blades, called stator blades and rotor blades, and expands it to create power or shaft work.\n1st Law\nSteam\n\\[\\Delta \\dot{H} = \\dot{W}_s = \\dot{m} \\Delta \\hat{H} = \\dot{m} (\\hat{H}_\\mathrm{out} - \\hat{H}_\\mathrm{in})\\]\nIdeal Gas\n\\[\\Delta \\dot{H} = \\dot{W}_s = \\dot{n} \\Delta \\hat{H} = \\dot{n} \\int\\limits_{T_\\mathrm{in}}^{T_\\mathrm{out}} C_p dT = \\dot{n} C_p (T_\\mathrm{out} - T_\\mathrm{in})\\]"
+    "text": "Turbine or Expander\nA turbine or expander takes a high-temperature and high-pressure steam or gas mixture and sends it through a series of blades, called stator blades and rotor blades, and expands it to create power or shaft work.\n\n1st Law\n\n\nSteam\n\n\n\\[\\Delta \\dot{H} = \\dot{W}_s = \\dot{m} \\Delta \\hat{H} = \\dot{m} (\\hat{H}_\\mathrm{out} - \\hat{H}_\\mathrm{in})\\]\n\n\nIdeal Gas\n\n\n\\[\\Delta \\dot{H} = \\dot{W}_s = \\dot{n} \\Delta \\hat{H} = \\dot{n} \\int\\limits_{T_\\mathrm{in}}^{T_\\mathrm{out}} C_p dT = \\dot{n} C_p (T_\\mathrm{out} - T_\\mathrm{in})\\]"
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#section-1",
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Turbine or Expander\nA real turbine has a turbine efficiency, that compares its performance with that of an isentropic turbine.\n\\[\\eta_\\mathrm{turbine} = \\frac{\\dot{W}_{s\\text{-actual}}}{\\dot{W}_{s\\text{-isentropic}}} = \\frac{\\Delta \\hat{H}_{\\text{actual}}}{\\Delta \\hat{H}_{\\text{isentropic}}}\\]\nCalculating the isentropic values\n\\[\\Delta \\hat{S} = 0\\]\nSteam\n\\(\\hat{S}_\\mathrm{out} = \\hat{S}_\\mathrm{in}\\) \\(x = \\dfrac{\\hat{S}_\\mathrm{in}-\\hat{S}_l}{\\hat{S}_v-\\hat{S}_l}\\)"
+    "text": "Turbine or Expander\nA real turbine has a turbine efficiency, that compares its performance with that of an isentropic turbine.\n\n\\[\\eta_\\mathrm{turbine} = \\frac{\\dot{W}_{s\\text{-actual}}}{\\dot{W}_{s\\text{-isentropic}}} = \\frac{\\Delta \\hat{H}_{\\text{actual}}}{\\Delta \\hat{H}_{\\text{isentropic}}}\\]\n\n\nCalculating the isentropic values\n\n\n\\[\\Delta \\hat{S} = 0\\]\n\n\nSteam\n\n\n\\[\\hat{S}_\\mathrm{out} = \\hat{S}_\\mathrm{in}\\]\n\n\n\\[x = \\dfrac{\\hat{S}_\\mathrm{in}-\\hat{S}_l}{\\hat{S}_v-\\hat{S}_l}\\]"
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#section-2",
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#section-2",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "To calculate the outlet enthalpy\n\\[\\hat{H}_\\mathrm{out} = x \\hat{H}_v + (1 - x) \\hat{H}_l\\]\n\\[\\Delta \\hat{H}_\\mathrm{isentropic} = \\hat{H}_\\mathrm{out} - \\hat{H}_\\mathrm{in}\\]\nIdeal Gas\n\\[\\Delta \\hat{S} = 0 = C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} - R \\ln \\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\]\n\\[C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = R \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}}\\ \\ \\ \\ \\text{or}\\ \\ \\ \\ \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = \\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)^\\frac{R}{C_p}\\]"
+    "text": "To calculate the outlet enthalpy\n\\[\\hat{H}_\\mathrm{out} = x \\hat{H}_v + (1 - x) \\hat{H}_l\\]\n\n\\[\\Delta \\hat{H}_\\mathrm{isentropic} = \\hat{H}_\\mathrm{out} - \\hat{H}_\\mathrm{in}\\]\n\n\nIdeal Gas\n\n\n\\[\\Delta \\hat{S} = 0 = C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} - R \\ln \\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\]\n\n\n\\[C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = R \\ln \\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\ \\ \\ \\ \\text{or}\\ \\ \\ \\ \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = \\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)^\\frac{R}{C_p}\\]"
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#section-3",
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#section-3",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Substitute in for \\(\\Delta T\\).\n\\[\\begin{align}\n\\Delta \\hat{H}_\\mathrm{isentropic} &= C_p \\Delta T = C_p (T_\\mathrm{out} - T_\\mathrm{in})\n\\\\\n\\\\&= C_p T_\\mathrm{in} \\left[\\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)^\\frac{R}{C_p} - 1\\right]\n\\end{align}\\]\nCalculating actual properties\nSteam\n\\[\\eta_\\mathrm{turbine} = \\frac{\\Delta \\hat{H}_{\\text{actual}}}{\\Delta \\hat{H}_{\\text{isentropic}}}\\]\n\\[\\hat{H}_{\\text{out-actual}} = \\eta_\\mathrm{turbine} \\Delta \\hat{H}_{\\text{isentropic}} + \\hat{H}_{\\text{in}}\\]"
+    "text": "Substitute in for \\(\\Delta T\\).\n\n\n\\[\n\\Delta \\hat{H}_\\mathrm{isentropic} = C_p \\Delta T = C_p (T_\\mathrm{out} - T_\\mathrm{in}) = C_p T_\\mathrm{in} \\left[\\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)^\\frac{R}{C_p} - 1\\right]\n\\]\n\n\n\nCalculating actual properties\n\n\nSteam\n\n\n\\[\\eta_\\mathrm{turbine} = \\frac{\\Delta \\hat{H}_{\\text{actual}}}{\\Delta \\hat{H}_{\\text{isentropic}}}\\]\n\n\n\\[\\hat{H}_{\\text{out-actual}} = \\eta_\\mathrm{turbine} \\Delta \\hat{H}_{\\text{isentropic}} + \\hat{H}_{\\text{in}}\\]"
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#section-4",
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#section-4",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Calculating actual quality and entropy for steam\n\\[x_\\mathrm{actual} = \\dfrac{\\hat{H}_\\text{out-actual}-\\hat{H}_l}{\\hat{H}_v-\\hat{H}_l}\\]\n\\[\\hat{S}_\\text{out-actual}=x_\\mathrm{actual}\\hat{S}_v + (1 - x_\\mathrm{actual}) \\hat{S}_l\\]\nCalculating actual properties\nIdeal Gas\n\\[\\eta_\\mathrm{turbine} = \\frac{\\Delta \\hat{H}_{\\text{actual}}}{\\Delta \\hat{H}_{\\text{isentropic}}}\\]\n\\[\\Delta \\hat{H}_{\\text{actual}} = \\eta_\\mathrm{turbine} \\Delta \\hat{H}_{\\text{isentropic}}\\]"
+    "text": "Calculating actual quality and entropy for steam\n\n\\[x_\\mathrm{actual} = \\dfrac{\\hat{H}_\\text{out-actual}-\\hat{H}_l}{\\hat{H}_v-\\hat{H}_l}\\]\n\n\n\\[\\hat{S}_\\text{out-actual}=x_\\mathrm{actual}\\hat{S}_v + (1 - x_\\mathrm{actual}) \\hat{S}_l\\]\n\n\nCalculating actual properties\n\n\nIdeal Gas\n\n\n\\[\\eta_\\mathrm{turbine} = \\frac{\\Delta \\hat{H}_{\\text{actual}}}{\\Delta \\hat{H}_{\\text{isentropic}}}\\]\n\n\n\\[\\Delta \\hat{H}_{\\text{actual}} = \\eta_\\mathrm{turbine} \\Delta \\hat{H}_{\\text{isentropic}}\\]"
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#section-5",
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#section-5",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "\\[\\Delta \\hat{H}_{\\text{actual}} = C_p \\Delta T_\\text{actual}\\]\n\\[T_\\text{out-actual} = \\frac{\\Delta \\hat{H}_{\\text{actual}} }{C_p} + T_\\mathrm{in}\\]\n\\[\\Delta \\hat{S}_{\\text{actual}} = C_p \\ln \\frac{T_\\text{out-actual}}{T_\\text{in}} - R \\ln \\frac{P_\\text{out}}{P_\\text{in}}\\]"
+    "text": "\\[\\Delta \\hat{H}_{\\text{actual}} = C_p \\Delta T_\\text{actual}\\]\n\n\\[T_\\text{out-actual} = \\frac{\\Delta \\hat{H}_{\\text{actual}} }{C_p} + T_\\mathrm{in}\\]\n\n\n\\[\\Delta \\hat{S}_{\\text{actual}} = C_p \\ln \\frac{T_\\text{out-actual}}{T_\\text{in}} - R \\ln \\frac{P_\\text{out}}{P_\\text{in}}\\]"
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#compressor",
@@ -2237,28 +2237,28 @@
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#section-6",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Adiabatic Compressor\nA real adiabatic compressor has a compressor efficiency, that compares its performance with that of an isentropic compressor.\n\\[\\eta_\\mathrm{compressor} = \\frac{\\dot{W}_{s\\text{-isentropic}}}{\\dot{W}_{s\\text{-actual}}} = \\frac{\\Delta \\hat{H}_{\\text{isentropic}}}{\\Delta \\hat{H}_{\\text{actual}}}\\]\n1st Law\n\\[\\Delta \\dot{H}_\\mathrm{isentropic} = \\dot{W}_{s\\text{-isentropic}} = \\dot{n} \\int\\limits_{T_\\mathrm{in}}^{T_\\mathrm{out}} C_p dT = \\dot{n} C_p \\Delta T\\]\n2nd Law\n\\[\\Delta \\hat{S}_\\mathrm{air} = \\int\\limits_{T_\\mathrm{in}}^{T_\\mathrm{out}} \\frac{C_p}{T} dT - R \\ln \\frac{P_\\mathrm{out}}{P_\\mathrm{in}}= C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} - R \\ln \\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\]"
+    "text": "Adiabatic Compressor\nA real adiabatic compressor has a compressor efficiency, that compares its performance with that of an isentropic compressor.\n\n\\[\\eta_\\mathrm{compressor} = \\frac{\\dot{W}_{s\\text{-isentropic}}}{\\dot{W}_{s\\text{-actual}}} = \\frac{\\Delta \\hat{H}_{\\text{isentropic}}}{\\Delta \\hat{H}_{\\text{actual}}}\\]\n\n\n1st Law\n\n\n\\[\\Delta \\dot{H}_\\mathrm{isentropic} = \\dot{W}_{s\\text{-isentropic}} = \\dot{n} \\int\\limits_{T_\\mathrm{in}}^{T_\\mathrm{out}} C_p dT = \\dot{n} C_p \\Delta T\\]\n\n\n2nd Law\n\n\n\n\\[\\Delta \\hat{S}_\\mathrm{air} = \\int\\limits_{T_\\mathrm{in}}^{T_\\mathrm{out}} \\frac{C_p}{T} dT - R \\ln \\frac{P_\\mathrm{out}}{P_\\mathrm{in}}= C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} - R \\ln \\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\]"
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#section-7",
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#section-7",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Minimum work for \\(\\Delta \\hat{S} = 0\\)\n\\[C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = R \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}}\\ \\ \\ \\ \\text{or}\\ \\ \\ \\ \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = \\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)^\\frac{R}{C_p}\\]\nPlug \\(T_\\mathrm{out}\\) back into 1st Law.\n\\[\\dot{W}_{s\\text{-isentropic}} = \\dot{n} C_p \\Delta T\\]\nCalculate work and final enthalpy from efficiency\n\\[\\dot{W}_{s\\text{-actual}} = \\frac{\\dot{W}_{s\\text{-isentropic}}}{\\eta_\\mathrm{compressor}}\\ \\ \\ \\ \\text{and}\\ \\ \\ \\ \\Delta \\hat{H}_{\\text{actual}} = \\frac{\\Delta \\hat{H}_{\\text{isentropic}}}{\\eta_\\mathrm{compressor}}\\]\nIf necessary, you can calculate actual outlet \\(T\\) and entropy change."
+    "text": "Minimum work for \\(\\Delta \\hat{S} = 0\\)\n\n\\[C_p \\ln \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = R \\ln \\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\ \\ \\ \\ \\text{or}\\ \\ \\ \\ \\frac{T_\\mathrm{out}}{T_\\mathrm{in}} = \\left(\\frac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)^\\frac{R}{C_p}\\]\n\n\nPlug \\(T_\\mathrm{out}\\) back into 1st Law.\n\n\n\\[\\dot{W}_{s\\text{-isentropic}} = \\dot{n} C_p \\Delta T\\]\n\n\nCalculate work and final enthalpy from efficiency\n\n\n\\[\\dot{W}_{s\\text{-actual}} = \\frac{\\dot{W}_{s\\text{-isentropic}}}{\\eta_\\mathrm{compressor}}\\ \\ \\ \\ \\text{and}\\ \\ \\ \\ \\Delta \\hat{H}_{\\text{actual}} = \\frac{\\Delta \\hat{H}_{\\text{isentropic}}}{\\eta_\\mathrm{compressor}}\\]\n\n\nIf necessary, you can calculate actual outlet \\(T\\) and entropy change."
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#section-8",
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#section-8",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Isothermal Compressor\nA cooling-water jacket is often used to attempt to maintain the compressor at a constant temperature. An isothermal compressor uses much less power than an isentropic compressor, at the cost of a cooling system. A real isothermal compressor has a compressor efficiency, that compares its performance with that of an isothermal compressor.\n\\[\\eta_\\mathrm{compressor} = \\frac{\\dot{W}_{s\\text{-isothermal}}}{\\dot{W}_{s\\text{-actual}}}\\]\n1st Law\n\\[\\Delta \\dot{H}_\\text{iso} = 0\\ \\ \\ \\ \\text{and}\\ \\ \\ \\ \\dot{Q} = - \\dot{W}_{s\\text{-iso}} = \\dot{n} RT \\ln \\frac{P_1}{P_2}\\]"
+    "text": "Isothermal Compressor\nA cooling-water jacket is often used to attempt to maintain the compressor at a constant temperature. An isothermal compressor uses much less power than an isentropic compressor, at the cost of a cooling system. A real isothermal compressor has a compressor efficiency, that compares its performance with that of an isothermal compressor.\n\n\\[\\eta_\\mathrm{compressor} = \\frac{\\dot{W}_{s\\text{-isothermal}}}{\\dot{W}_{s\\text{-actual}}}\\]\n\n\n1st Law\n\n\n\\[\\Delta \\dot{H}_\\text{iso} = 0\\ \\ \\ \\ \\text{and}\\ \\ \\ \\ \\dot{Q} = - \\dot{W}_{s\\text{-iso}} = \\dot{n} RT \\ln \\frac{P_1}{P_2}\\]"
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#section-9",
     "href": "balances/entropy/118-TurbCompEtcVisuals.html#section-9",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "There is no need for the 2nd Law. Use the efficiency to calculate the actual work\n\\[\\dot{W}_{s\\text{-actual}} = \\frac{\\dot{W}_{s\\text{-isothermal}}}{\\eta_\\mathrm{compressor}}\\]\nIf necessary, you can calculate actual enthalpy change, outlet \\(T\\), and entropy change."
+    "text": "There is no need for the 2nd Law. Use the efficiency to calculate the actual work\n\n\\[\\dot{W}_{s\\text{-actual}} = \\frac{\\dot{W}_{s\\text{-isothermal}}}{\\eta_\\mathrm{compressor}}\\]\n\n\nIf necessary, you can calculate actual enthalpy change, outlet \\(T\\), and entropy change."
   },
   {
     "objectID": "balances/entropy/118-TurbCompEtcVisuals.html#the-takeaways",
@@ -2268,18 +2268,25 @@
     "text": "The Takeaways\n\nAdiabatic Turbines and compressors have efficiencies that compare the real or actual case with the isentropic case.\nIsothermal compressors have efficiencies that compare the real or actual case with the isothermal case.\nWe have shown how to calculate turbines and expanders for both steam and ideal gas.\nWe have shown how to calculate compressors for ideal gas only."
   },
   {
-    "objectID": "balances/entropy/119-RankineVisualsPart1.html#slide-tbd",
-    "href": "balances/entropy/119-RankineVisualsPart1.html#slide-tbd",
+    "objectID": "balances/entropy/119-RankineVisualsPart1.html#introduction",
+    "href": "balances/entropy/119-RankineVisualsPart1.html#introduction",
     "title": "Chemical and Thermal Processes",
-    "section": "Slide TBD",
-    "text": "Slide TBD"
+    "section": "Introduction",
+    "text": "Introduction\nBoil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1 and Part 2\n\nDescribe the Rankine cycle\n\nBasic steam power plant cycle\nLarge electrical generating facilities\nCoal\nNatural gas\nNuclear energy\n\nPart 1 – The ideal cycle\nPart 2 – Real behavior & DWSIM models"
   },
   {
     "objectID": "balances/entropy/119-RankineVisualsPart1.html#carnot-steam-cycle",
     "href": "balances/entropy/119-RankineVisualsPart1.html#carnot-steam-cycle",
     "title": "Chemical and Thermal Processes",
-    "section": "Carnot steam cycle",
-    "text": "Carnot steam cycle"
+    "section": "Carnot Steam Cycle",
+    "text": "Carnot Steam Cycle\n\n\n\\(a\\)\n\n\n\\(b\\)\n\n\n\\(c\\)\n\n\n\\(d\\)"
+  },
+  {
+    "objectID": "balances/entropy/119-RankineVisualsPart1.html#carnot-steam-cycle-1",
+    "href": "balances/entropy/119-RankineVisualsPart1.html#carnot-steam-cycle-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Carnot Steam Cycle",
+    "text": "Carnot Steam Cycle\n\n\n\n\\(a\\)\n\n\n\\(b\\)\n\n\n\\(c\\)\n\n\n\\(d\\)"
   },
   {
     "objectID": "balances/entropy/119-RankineVisualsPart1.html#summary",
@@ -2293,14 +2300,21 @@
     "href": "balances/entropy/119-RankineVisualsPart1.html#spreadsheet",
     "title": "Chemical and Thermal Processes",
     "section": "Spreadsheet",
-    "text": "Spreadsheet\n\n\nWhat are the engineering problems with the Steam Carnot cycle?"
+    "text": "Spreadsheet\n\n\n\nWhat are the engineering problems with the Steam Carnot cycle?"
   },
   {
     "objectID": "balances/entropy/119-RankineVisualsPart1.html#the-rankine-cycle",
     "href": "balances/entropy/119-RankineVisualsPart1.html#the-rankine-cycle",
     "title": "Chemical and Thermal Processes",
-    "section": "The Rankine cycle",
-    "text": "The Rankine cycle\n\n\n\\[\\Delta H_\\mathrm{pump}=-W_{s}=V\\Delta P\\]\n\n\nThe process from b to c is now isobaric instead of isothermal.  \n\n\nPump from a to b now only compresses liquid."
+    "section": "The Rankine Cycle",
+    "text": "The Rankine Cycle"
+  },
+  {
+    "objectID": "balances/entropy/119-RankineVisualsPart1.html#the-rankine-cycle-1",
+    "href": "balances/entropy/119-RankineVisualsPart1.html#the-rankine-cycle-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Rankine Cycle",
+    "text": "The Rankine Cycle\n\n\n\n\nThe process from b to c is nowisobaric instead of isothermal.  \n\n\n\n\nPump from ato b now onlycompressesliquid.\n\n\n\n\n\\(\\Delta H_\\mathrm{pump}=W_{s}=V\\Delta P\\)"
   },
   {
     "objectID": "balances/entropy/119-RankineVisualsPart1.html#rankine-cycle-example",
@@ -2335,63 +2349,21 @@
     "href": "balances/entropy/119-RankineVisualsPart1.html#section-3",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Efficiency\n\n\n\n\\[\\eta=\\frac{-W_\\mathrm{net}}{Q_{bst}}=\\frac{1280.2\\mathrm{\\frac{kJ}{kg}}-8.067\\mathrm{\\frac{kJ}{kg}}}{3207.1\\mathrm{\\frac{kJ}{kg}}}=0.3967=39.7\\%\\]\n\n\n\n  \n\nFlow Rate\n\n\n\n\n\\[-\\dot{W}_\\mathrm{net}=80,000\\mathrm{\\frac{kJ}{s}}=-\\dot{m}W_\\mathrm{net}\\]\n\n\n\n\n\\[\\dot{m}=\\frac{-\\dot{W}_\\mathrm{net}}{-W_\\mathrm{net}}=\\frac{80,000\\mathrm{\\frac{kJ}{s}}}{1280.2\\mathrm{\\frac{kJ}{kg}}-8.067\\mathrm{\\frac{kJ}{kg}}}=62.88\\frac{kg}{s}\\]"
+    "text": "Efficiency\n\n\n\n\\[\\eta=\\frac{-W_\\mathrm{net}}{Q_\\mathrm{hot}}=\\frac{1280.2\\mathrm{\\frac{kJ}{kg}}-8.067\\mathrm{\\frac{kJ}{kg}}}{3207.1\\mathrm{\\frac{kJ}{kg}}}=0.3967=39.7\\%\\]\n\n\n\n  \n\nFlow Rate\n\n\n\n\n\\[-\\dot{W}_\\mathrm{net}=80,000\\mathrm{\\frac{kJ}{s}}=-\\dot{m}W_\\mathrm{net}\\]\n\n\n\n\n\\[\\dot{m}=\\frac{-\\dot{W}_\\mathrm{net}}{-W_\\mathrm{net}}=\\frac{80,000\\mathrm{\\frac{kJ}{s}}}{1280.2\\mathrm{\\frac{kJ}{kg}}-8.067\\mathrm{\\frac{kJ}{kg}}}=62.88\\mathrm{\\frac{kg}{s}}\\]"
+  },
+  {
+    "objectID": "balances/entropy/119-RankineVisualsPart1.html#spreadsheet-1",
+    "href": "balances/entropy/119-RankineVisualsPart1.html#spreadsheet-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "Spreadsheet",
+    "text": "Spreadsheet"
   },
   {
     "objectID": "balances/entropy/119-RankineVisualsPart1.html#the-takeaways",
     "href": "balances/entropy/119-RankineVisualsPart1.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nThe calculation of a realistic Rankine cycle starts by doing the calculation for an ideal or isentropic cycle, and adding in the effects of a turbine efficiency and a pump efficiency.\nCalculation of the final entropies at the outlet of the turbine, and the outlet of the pump are not necessary for the efficiency calculation. Doing the turbine exit is easy. Doing the pump exit is difficult.\nDWSIM has all of the tools necessary to set up and calculate process flow diagrams for Rankine cycles."
-  },
-  {
-    "objectID": "balances/entropy/119-RankineVisualsPart1.html#slide-tbd-1",
-    "href": "balances/entropy/119-RankineVisualsPart1.html#slide-tbd-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Slide TBD",
-    "text": "Slide TBD"
-  },
-  {
-    "objectID": "balances/entropy/119-RankineVisualsPart1.html#up-the-realism",
-    "href": "balances/entropy/119-RankineVisualsPart1.html#up-the-realism",
-    "title": "Chemical and Thermal Processes",
-    "section": "Up the Realism",
-    "text": "Up the Realism\n\n\nA more realistic Rankine cycle would include a turbine efficiency and a pump efficiency.\n\n\n\n\\[\\dot{W}_{s\\cdot \\mathrm{actual}}=\\eta_\\mathrm{turbine}\\dot{W}_{s\\cdot \\mathrm{isentropic}} \\qquad \\dot{W}_{s\\cdot \\mathrm{actual}}=\\frac{\\dot{W}_{s\\cdot \\mathrm{isentropic}}}{\\eta_\\mathrm{pump}}\\]"
-  },
-  {
-    "objectID": "balances/entropy/119-RankineVisualsPart1.html#up-the-realism-cont.",
-    "href": "balances/entropy/119-RankineVisualsPart1.html#up-the-realism-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "Up the Realism (cont.)",
-    "text": "Up the Realism (cont.)\nStatement and Turbine calc"
-  },
-  {
-    "objectID": "balances/entropy/119-RankineVisualsPart1.html#up-the-realism-cont.-1",
-    "href": "balances/entropy/119-RankineVisualsPart1.html#up-the-realism-cont.-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Up the Realism (cont.)",
-    "text": "Up the Realism (cont.)\nPump, Net Work, Qhot, efficiency"
-  },
-  {
-    "objectID": "balances/entropy/119-RankineVisualsPart1.html#the-rankine-cycle-in-dwsim",
-    "href": "balances/entropy/119-RankineVisualsPart1.html#the-rankine-cycle-in-dwsim",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Rankine Cycle in DWSIM",
-    "text": "The Rankine Cycle in DWSIM\n\n\nIdeal Cycle\n\n\n\n\\(\\eta = \\dfrac{1280.21 - 8.07}{3207.05} = 39.67\\%\\)\n\n\n\nReal Cycle\n\n\n\n\\(\\eta = \\dfrac{960.61 - 10.76}{3204.36} = 29.63\\%\\)"
-  },
-  {
-    "objectID": "balances/entropy/119-RankineVisualsPart1.html#dwsim-settings",
-    "href": "balances/entropy/119-RankineVisualsPart1.html#dwsim-settings",
-    "title": "Chemical and Thermal Processes",
-    "section": "DWSIM Settings",
-    "text": "DWSIM Settings\n\n\n\n\nFlow streams A and aA:Specified Variables Temperature/PressureTemperature (K) 773.15Pressure (Pa) 8000000Mass Flow (kg/s) 1\nTurbinesCalculation Mode Outlet PressureThermodynamic Path AdiabaticOutlet Pressure (Pa) 9111.8Adiabatic Efficiency (%) 100 or 75\n\n\n\nPumpsCalculation Mode Outlet PressureOutlet Pressure (Pa) 8000000Efficiency (%) 100 or 75\nCondensersCalculation Mode Outlet Vapor FractionOutlet Vapor Fraction 0\nBoilersCalculation Mode Outlet TemperatureOutlet Temperature (K) 773.15"
-  },
-  {
-    "objectID": "balances/entropy/119-RankineVisualsPart1.html#the-takeaways-1",
-    "href": "balances/entropy/119-RankineVisualsPart1.html#the-takeaways-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nThe calculation of a realistic Rankine cycle starts by doing the calculation for an ideal or isentropic cycle, and adding in the effects of a turbine efficiency and a pump efficiency.\nCalculation of the final entropies at the outlet of the turbine, and the outlet of the pump are not necessary for the efficiency calculation. Doing the turbine exit is easy. Doing the pump exit is difficult.\nDWSIM has all of the tools necessary to set up and calculate process flow diagrams for Rankine cycles."
+    "text": "The Takeaways\n\nThe ideal Rankine cycle modifies the steam Carnot cycle by fully condensing the water, pumping it, and replacing the isothermal boiler with an isobaric boiler.\nCompared to the Carnot cycle, the ideal Rankine cycle has a reduced thermal efficiency, but an increased lifetime for the pump and the turbine.\nAs with all power cycles, the thermal efficiency, \\(\\eta\\), is \\(|W_\\mathrm{net}|\\) over \\(|Q_\\mathrm{hot}|\\)."
   },
   {
     "objectID": "balances/entropy/115-CalcEntropyVisuals.html#section",
@@ -4624,14 +4596,14 @@
     "href": "basics/processdata/32-MeasuringTemperatureVisuals.html#dial-or-bimetallic-thermometer",
     "title": "Chemical and Thermal Processes",
     "section": "Dial or Bimetallic Thermometer",
-    "text": "Dial or Bimetallic Thermometer\n\n\n\n\n\n\n\n\n\nSpec.\nValue\n\n\n\n\nRange:\nlowest \\(-80\\ ^\\circ\\mathrm{C}\\), highest \\(550\\ ^\\circ\\mathrm{C}\\)\n\n\nAccuracy:\n\\(\\pm1\\%\\) to \\(\\pm3\\%\\)\n\n\nReading:\nVisual\n\n\nSize:\n\\(50\\ \\mathrm{mm}\\) to \\(60\\ \\mathrm{cm}\\)\n\n\n\\(\\tau\\):\n\\(20\\ \\mathrm{s}\\) Typical\n\n\nContact?\nContact\n\n\nEnviron:\nSame as for stainless steel\n\n\nUses:\nCooking, Industrial, Labs\n\n\n\n\n\n\n\n\nNotes: Bimetallic or dial thermometers are not for high-precision measurements but are inexpensive and reliable."
+    "text": "Dial or Bimetallic Thermometer\n\n\n\n\n\n\n\n\n\nSpec.\nValue\n\n\n\n\nRange:\nlowest \\(-80\\ ^\\circ\\mathrm{C}\\), highest \\(550\\ ^\\circ\\mathrm{C}\\)\n\n\nAccuracy:\n\\(\\pm1\\%\\) to \\(\\pm3\\%\\)\n\n\nReading:\nVisual\n\n\nSize:\n\\(50\\ \\mathrm{mm}\\) to \\(60\\ \\mathrm{cm}\\)\n\n\n\\(\\tau\\):\n\\(20\\ \\mathrm{s}\\) Typical\n\n\nContact?\nContact\n\n\nEnviron:\nSame as for stainless steel\n\n\nUses:\nCooking, Industrial, Labs\n\n\n\n\n\n\n\n\nGmhofmann, CC BY-SA 3.0, via Wikimedia Commons\n\n\n\n\nNotes: Bimetallic or dial thermometers are not for high-precision measurements but are inexpensive and reliable."
   },
   {
     "objectID": "basics/processdata/32-MeasuringTemperatureVisuals.html#liquid-crystal",
     "href": "basics/processdata/32-MeasuringTemperatureVisuals.html#liquid-crystal",
     "title": "Chemical and Thermal Processes",
     "section": "Liquid Crystal",
-    "text": "Liquid Crystal\n\n\n\n\n\n\n\n\n\nSpec.\nValue\n\n\n\n\nRange:\nlowest \\(-30\\ ^\\circ\\mathrm{C}\\), highest \\(120\\ ^\\circ\\mathrm{C}\\)\n\n\nAccuracy:\n\\(\\pm1\\ ^\\circ\\mathrm{C}\\) to \\(\\pm3\\ ^\\circ\\mathrm{C}\\)\n\n\nReading:\nVisual\n\n\nSize:\n\\(15\\ \\mathrm{mm} \\times 45\\ \\mathrm{mm}\\) to \\(1.5\\ \\mathrm{cm} \\times 15\\ \\mathrm{cm}\\)\n\n\n\\(\\tau\\):\n\\(30\\ \\mathrm{s}\\) Typical\n\n\nContact?\nContact\n\n\nEnviron:\nBenign environments only.\n\n\nUses:\nAquariums, Refrigerators, Labs\n\n\n\n\n\n\n\n\nNotes: The displays are easy to read and visually appealing. Liquid Crystal thermometers are not very robust and typically last for 2 to 3 years before needing to be replaced. They are typically quite inexpensive."
+    "text": "Liquid Crystal\n\n\n\n\n\n\n\n\n\nSpec.\nValue\n\n\n\n\nRange:\nlowest \\(-30\\ ^\\circ\\mathrm{C}\\), highest \\(120\\ ^\\circ\\mathrm{C}\\)\n\n\nAccuracy:\n\\(\\pm1\\ ^\\circ\\mathrm{C}\\) to \\(\\pm3\\ ^\\circ\\mathrm{C}\\)\n\n\nReading:\nVisual\n\n\nSize:\n\\(15\\ \\mathrm{mm} \\times 45\\ \\mathrm{mm}\\) to \\(1.5\\ \\mathrm{cm} \\times 15\\ \\mathrm{cm}\\)\n\n\n\\(\\tau\\):\n\\(30\\ \\mathrm{s}\\) Typical\n\n\nContact?\nContact\n\n\nEnviron:\nBenign environments only.\n\n\nUses:\nAquariums, Refrigerators, Labs\n\n\n\n\n\n\n\n\n\n\nNotes: The displays are easy to read and visually appealing. Liquid Crystal thermometers are not very robust and typically last for 2 to 3 years before needing to be replaced. They are typically quite inexpensive."
   },
   {
     "objectID": "basics/processdata/32-MeasuringTemperatureVisuals.html#thermistor",
@@ -4645,7 +4617,7 @@
     "href": "basics/processdata/32-MeasuringTemperatureVisuals.html#thermocouple",
     "title": "Chemical and Thermal Processes",
     "section": "Thermocouple",
-    "text": "Thermocouple\n\n\n\n\n\n\n\n\n\nSpec.\nValue\n\n\n\n\nRange:\nlowest \\(-270\\ ^\\circ\\mathrm{C}\\), highest \\(2760\\ ^\\circ\\mathrm{C}\\)\n\n\nAccuracy:\n\\(\\pm0.5\\ ^\\circ\\mathrm{C}\\) to \\(\\pm4.5\\ ^\\circ\\mathrm{C}\\)\n\n\nReading:\nElectronic (Voltage)\n\n\nSize:\n\\(0.15\\ \\mathrm{mm}\\) to \\(1.5 \\ \\mathrm{cm} \\times 60\\ \\mathrm{cm}\\)\n\n\n\\(\\tau\\):\n\\(10\\ \\mathrm{ms}\\) to \\(30\\ \\mathrm{s}\\)\n\n\nContact?\nContact\n\n\nEnviron:\nRanges from delicate to extremelyrugged\n\n\nUses:\nIndustrial, Labs\n\n\n\n\n\n\n\n\nNotes: Thermocouples can be extremely inexpensive, but their accuracy is fairly low. They generate voltages in the millivolt range and need to be compensated for greatest accuracy. They are sensitive to electromagnetic interference and leads normally need to be twisted-pair wires. They find extensive use in industry."
+    "text": "Thermocouple\n\n\n\n\n\n\n\n\n\nSpec.\nValue\n\n\n\n\nRange:\nlowest \\(-270\\ ^\\circ\\mathrm{C}\\), highest \\(2760\\ ^\\circ\\mathrm{C}\\)\n\n\nAccuracy:\n\\(\\pm0.5\\ ^\\circ\\mathrm{C}\\) to \\(\\pm4.5\\ ^\\circ\\mathrm{C}\\)\n\n\nReading:\nElectronic (Voltage)\n\n\nSize:\n\\(0.15\\ \\mathrm{mm}\\) to \\(1.5 \\ \\mathrm{cm} \\times 60\\ \\mathrm{cm}\\)\n\n\n\\(\\tau\\):\n\\(10\\ \\mathrm{ms}\\) to \\(30\\ \\mathrm{s}\\)\n\n\nContact?\nContact\n\n\nEnviron:\nRanges from delicate to extremelyrugged\n\n\nUses:\nIndustrial, Labs\n\n\n\n\n\n\n\n\n\n\nNotes: Thermocouples can be extremely inexpensive, but their accuracy is fairly low. They generate voltages in the millivolt range and need to be compensated for greatest accuracy. They are sensitive to electromagnetic interference and leads normally need to be twisted-pair wires. They find extensive use in industry.\n\n\n::::"
   },
   {
     "objectID": "basics/processdata/32-MeasuringTemperatureVisuals.html#solid-state-temperature-sensor",
@@ -4659,21 +4631,21 @@
     "href": "basics/processdata/32-MeasuringTemperatureVisuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Resistance Temperature Detector (RTD)\n\n\n\n\n\n\n\n\n\n\nSpec.\nValue\n\n\n\n\nRange:\nlowest \\(-200\\ ^\\circ\\mathrm{C}\\), highest \\(850\\ ^\\circ\\mathrm{C}\\)\n\n\nAccuracy:\n\\(\\pm0.06\\ ^\\circ\\mathrm{C}\\) to \\(\\pm4.6\\ ^\\circ\\mathrm{C}\\)\n\n\nReading:\nElectronic (Resistance)\n\n\nSize:\n\\(1\\ \\mathrm{mm}\\) to \\(60\\ \\mathrm{cm}\\)\n\n\n\\(\\tau\\):\n\\(0.5\\ \\mathrm{s}\\) to \\(30\\ \\mathrm{s}\\)\n\n\nContact?\nContact\n\n\nEnviron:\nDepends on packaging. Can be very rugged.\n\n\nUses:\nLabs, Precision Industrial\n\n\n\n\n\n\n\n\nNotes: Resistance temperature devices can be very accurate and very stable. They’re typically made from precision-formulated platinum wire and have a nominal resistance of \\(100\\ \\Omega\\) or \\(1000\\ \\Omega\\). The processing circuitry is rather involved, but the accuracy and stability with time make them a favorite in lab settings."
+    "text": "Resistance Temperature Detector (RTD)\n\n\n\n\n\n\n\n\n\n\nSpec.\nValue\n\n\n\n\nRange:\nlowest \\(-200\\ ^\\circ\\mathrm{C}\\), highest \\(850\\ ^\\circ\\mathrm{C}\\)\n\n\nAccuracy:\n\\(\\pm0.06\\ ^\\circ\\mathrm{C}\\) to \\(\\pm4.6\\ ^\\circ\\mathrm{C}\\)\n\n\nReading:\nElectronic (Resistance)\n\n\nSize:\n\\(1\\ \\mathrm{mm}\\) to \\(60\\ \\mathrm{cm}\\)\n\n\n\\(\\tau\\):\n\\(0.5\\ \\mathrm{s}\\) to \\(30\\ \\mathrm{s}\\)\n\n\nContact?\nContact\n\n\nEnviron:\nDepends on packaging. Can be veryrugged.\n\n\nUses:\nLabs, Precision Industrial\n\n\n\n\n\n\n\n\nNotes: Resistance temperature devices can be very accurate and very stable. They’re typically made from precision-formulated platinum wire and have a nominal resistance of \\(100\\ \\Omega\\) or \\(1000\\ \\Omega\\). The processing circuitry is rather involved, but the accuracy and stability with time make them a favorite in lab settings."
   },
   {
     "objectID": "basics/processdata/32-MeasuringTemperatureVisuals.html#optical-or-infrared-pyrometer",
     "href": "basics/processdata/32-MeasuringTemperatureVisuals.html#optical-or-infrared-pyrometer",
     "title": "Chemical and Thermal Processes",
     "section": "Optical or Infrared Pyrometer",
-    "text": "Optical or Infrared Pyrometer\n\n\n\n\n\n\n\n\n\n\n\nSpec.\nValue\n\n\n\n\nRange:\nlowest \\(-50\\ ^\\circ\\mathrm{C}\\), highest \\(&gt;2000\\ ^\\circ\\mathrm{C}\\)\n\n\nAccuracy:\n\\(\\pm0.5\\ ^\\circ\\mathrm{C}\\) to \\(&gt;\\pm20\\ ^\\circ\\mathrm{C}\\)\n\n\nReading:\nVisual, sensor is electronic\n\n\nSize:\nUsually handheld\n\n\n\\(\\tau\\):\n\\(\\text{sub-ms}\\) to \\(10\\ \\mathrm{s}\\)\n\n\nContact?\nNon-Contact\n\n\nEnviron:\nAvoid harsh conditions\n\n\nUses:\nHome, Industry, Labs\n\n\n\n\n\n\n\n\n\nNotes: Optical and Infrared Pyrometers all use some form of Planck’s law to calculate temperature by measuring emitted thermal radiation. They all have to make some assumptions about the surface they are pointed at and stray light. When they work, they work very well. When they don’t, they can have large undetected errors."
+    "text": "Optical or Infrared Pyrometer\n\n\n\n\n\n\n\n\n\n\n\nSpec.\nValue\n\n\n\n\nRange:\nlowest \\(-50\\ ^\\circ\\mathrm{C}\\), highest \\(&gt;2000\\ ^\\circ\\mathrm{C}\\)\n\n\nAccuracy:\n\\(\\pm0.5\\ ^\\circ\\mathrm{C}\\) to \\(&gt;\\pm20\\ ^\\circ\\mathrm{C}\\)\n\n\nReading:\nVisual, sensor is electronic\n\n\nSize:\nUsually handheld\n\n\n\\(\\tau\\):\n\\(\\text{sub-ms}\\) to \\(10\\ \\mathrm{s}\\)\n\n\nContact?\nNon-Contact\n\n\nEnviron:\nAvoid harsh conditions\n\n\nUses:\nHome, Industry, Labs\n\n\n\n\n\n\n\n\n\nJanim71, CC0, via Wikimedia Commons\n\n\n\n\nNotes: Optical and Infrared Pyrometers all use some form of Planck’s law to calculate temperature by measuring emitted thermal radiation. They all have to make some assumptions about the surface they are pointed at and stray light. When they work, they work very well. When they don’t, they can have large undetected errors."
   },
   {
     "objectID": "basics/processdata/32-MeasuringTemperatureVisuals.html#final-notes",
     "href": "basics/processdata/32-MeasuringTemperatureVisuals.html#final-notes",
     "title": "Chemical and Thermal Processes",
     "section": "Final Notes",
-    "text": "Final Notes\nFor industrial use the order of choice is:\n\nThermistor\nThermocouple\nDial Thermometer\nOptical or Infrared Pyrometer\n\nThe other sensors are suitable for specialized industrial applications."
+    "text": "Final Notes\nFor industrial use the order of choice is:\n\nThermistor\nThermocouple\nDial Thermometer\nOptical or Infrared Pyrometer\n\n\nThe other sensors are suitable for specialized industrial applications."
   },
   {
     "objectID": "basics/processdata/32-MeasuringTemperatureVisuals.html#the-takeaways",
@@ -4946,7 +4918,7 @@
     "href": "basics/processdata/ProcessDataIntroOutroVisuals.html#section-12",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "Stop Guessing! How to Pickthe Right Temperature Sensor\n\n\nDOFPro Team"
+    "text": "Is It Hot in Here, or Is ItJust My Thermistor?\n\n\nDOFPro Team"
   },
   {
     "objectID": "basics/processdata/ProcessDataIntroOutroVisuals.html#section-14",
@@ -5289,7 +5261,7 @@
     "href": "basics/intro/CurrentVideoList.html",
     "title": "Current List of Videos on YouTube",
     "section": "",
-    "text": "Links to the current videos on YouTube will be maintained here. These are current as of 2025-11-10.\n\nTable of Videos\n\n\n\nVid. #\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n5\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean (\\(\\mu,\\ \\bar{x}\\)) and Standard Deviation (\\(\\sigma,\\ S\\))\n\n\n5A\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error (\\(S_{\\bar{x}}\\)) and Confidence Interval (\\(2\\lambda\\))\n\n\n6\nBasics Statistics by Hand\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n7\nBasic Statistics on a Spreadsheet\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) with a spreadsheet\n\n\n9\nBasic Statistics in R\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) in R\n\n\n21\nIs Your Process Data Spread Smooth or Chunky?\nLink\nNo\nPage\nData Visualization, linear and Log Coordinates\n\n\n22\nInterpol Is Late to a Mind-Blowing Math Hack\nLink\nNo\nPage\nLinear Interpolation\n\n\n23\nNo Clear Interpretation a Mind-Blowing Math Hack\nLink\nNo\nPage\nNonlinear Interpolation\n\n\n24\nThe Unauthorized Guide to Using Spreadsheets in Chemical Engineering\nLink\nNo\nPage\nSpreadsheet Basics\n\n\n25\nHow to Have a Quickie with Your Data Part 1\nLink\nNo\n[Page]\n\\(\\bar{x}\\), \\(S_{\\bar{x}}\\), Linear Least Squares\n\n\n26\nHow to Have a Quickie with Your Data Part 2\nLink\nNo\n[Page]\nNonlinear least squares\n\n\n27\nIs Furlongs Per Fortnight a Thing?\nLink\nNo\nPage\nUnit Conversion\n\n\n28\nHow Keen Is Your Rank?\nLink\nNo\nPage\nTemperature Conversion\n\n\n29\nThe Most Annoying Equation Conversion\nLink\nNo\n[Page]\nUnit Conversion of Equations\n\n\n30\nWhere Does Sherwood Hide His Unit? Principles\nLink\nNo\n[Page]\nDimensionless Numbers Principles\n\n\n31\nWhat the Schmidt? Examples\nLink\nNo\n[Page]\nApplications of Dimensionless Numbers\n\n\n33\nUnder Pressure Part 1\nLink\nNo\nPage\nPressure Basics\n\n\n34\nUnder Pressure Part 2\nLink\nNo\nPage\nAbs., Atm., Gauge, Barometric Pressure\n\n\n35\nWhat is a Mole?\nLink\nLink\nPage\nWhat a mole is\n\n\n36\nWhat the Frac?\nLink\nNo\nPage\nMass, Moles, Mass Fractions, Mole Fractions\n\n\n37\nAre You Dense? Crank Up the Volume and Go With the Flow!\nLink\nNo\n[Page]\nMass, Moles, Density, Volume, and Flow Rates\n\n\n38\nHow to Keep Your Balance\nLink\nNo\n[Page]\nSystem Definition and the General Balance Equation\n\n\n39\nSpeed Balancing\nLink\nNo\n[Page]\nGeneral Balance Equation Definitions and Suggestions\n\n\n40\nGotta Keep ’Em Separated\nLink\nNo\n[Page]\nMixer, Divider, and Separator mole balances\n\n\n41\nWhen You Saw It, What Was the Extent of Your Reaction? Part 1\nLink\nNo\n[Page]\nChemical Reactor Single Reaction, \\(\\xi\\) and \\(f_{\\mathrm{A}}\\)\n\n\n42\nWhen You Saw It, What Was the Extent of Your Reaction? Part 2\nLink\nNo\n[Page]\nChemical Reactor Multiple Reactions with Example, \\(\\xi\\) and \\(f_{\\mathrm{A}}\\)\n\n\n42A\nWhen You Saw It, What Was the Extent of Your Reaction? Part 3\nLink\nNo\n[Page]\nChemical Reactor Yield and Selectivity\n\n\n43\nRecycling Before Recycling Was Cool\nLink\nNo\n[Page]\nBasics of recycle\n\n\n44\nLeaving Radiator Springs In the Dust\nLink\nNo\n[Page]\nBasics of Bypass and a Recycle example\n\n\n45\nThe Symbolic Meaning of Recycling\nLink\nNo\n[Page]\nAnalytic solution of a recycle PFD\n\n\n46\nHow Did You Think I Would React?\nLink\nNo\n[Page]\nBasic Kinetic Reactor Mole Balance\n\n\n47\nWishing Upon a CSTR\nLink\nNo\n[Page]\nBatch, CSTR, PFR\n\n\n47A\nIt’s Totally Tubular, Man!\nLink\nNo\n[Page]\nCSTR, PFR, Batch Example\n\n\n54\nReact But Maintain Your Equilibrium Part 1\nLink\nNo\n[Page]\nBasics of equilibrium reactors\n\n\n55\nReact But Maintain Your Equilibrium Part 2\nLink\nNo\n[Page]\nEquilibrium reactor example\n\n\n59\nFlame On, Torch!\nLink\nNo\n[Page]\nEquilibrium reactor example\n\n\n60\nA Combustible Mixture!\nLink\nNo\n[Page]\nEquilibrium reactor example\n\n\n61\nAlcohol and Water DO Mix!\nLink\nNo\n[Page]\nLiquid and Solid Density Calculations\n\n\n62\nIdeal Gases EXPOSED: Are They Even Real?!!\nLink\nNo\n[Page]\nBasics of \\(P V = n R T\\)\n\n\n63\nWhen Getting Gassed Isn’t Ideal, Part 1\nLink\nNo\n[Page]\nReal gas intro\n\n\n64\nWhen Getting Gassed Isn’t Ideal, Part 2\nLink\nNo\n[Page]\nReal gas example\n\n\n65\nREAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1\nLink\nNo\n[Page]\nExplanation of Kay’s Rule and DWSIM for real gas mixtures\n\n\n66\nREAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2\nLink\nNo\n[Page]\nExample of Kay’s Rule and DWSIM for real gas mixtures\n\n\n67\nSolving Nonlinear Equations with Spreadsheets\nlink\nNo\n[Page]\nSee Title\n\n\n72\nShow Some Flash and Dew the Dew with a Little Bubbly!\nlink\nNo\n[Page]\nGraphical BUBL P, DEW P, BUBL T, DEW T, and FLASH calculations\n\n\n73\nOh, Henry!\nlink\nNo\n[Page]\nGas-Liquid Equilibrium with one condensible component\n\n\n74\nDew Your Bubbles Have Flash? Part 1\nLink\nNo\n[Page]\nRaoult’s law, BUBL P, DEW P\n\n\n75\nDew Your Bubbles Have Flash? Part 2\nLink\nNo\n[Page]\nBUBL T, DEW T\n\n\n75A\nDew Your Bubbles Have Flash? Part 3\nLink\nNo\n[Page]\nFLASH, Pxy, Txy\n\n\n85\nThe Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 1\nLink\nNo\n[Page]\nEquilibrium Stage Equations\n\n\n86\nThe Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2\nLink\nNo\n[Page]\nDistillation Examples: Binary Phase Diagram, Raoult’s law\n\n\n86A\nThe Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3\nLink\nNo\n[Page]\nLiquid-Liquid Extraction Example\n\n\n88\nUsing DWSIM to Create Binary Phase Diagrams\nLink\nNo\n[Page]\nDWSIM, Binary Phase Diagrams\n\n\n89\nJust Try to Break This Law! I Dare You!\nLink\nNo\n[Page]\nIntro to 1st Law\n\n\n90\nAdd Friction and Work to Bernoulli? Here’s What Really Happens!\nLink\nNo\n[Page]\nThe Mechanical Energy Balance and the Moody Chart\n\n\n91\nSteam: Get the Quality Right AFTER You Table It! Part 1\nLink\nNo\n[Page]\nThe Basics of Steam Tables\n\n\n92\nSteam: Get the Quality Right AFTER You Table It! Part 2\nLink\nNo\n[Page]\nSteam Table Examples\n\n\n93\nThe Enthalpy Games: The Ballad of Integrals and Means\nLink\nNo\n[Page]\n\\(\\Delta H\\) from \\(C_p\\), \\(\\Delta U\\) from \\(C_v\\)\n\n\n94\nThe Enthalpy Games: Sunrise on the Calculations\nLink\nNo\n[Page]\nExample for \\(\\mathrm{N_2}\\), \\(\\Delta H\\) from \\(C_p\\), \\(\\Delta U\\) from \\(C_v\\)\n\n\n95\nFeeling the Heat? How to Get Your Best Estimate\nLink\nNo\n[Page]\nEstimating \\(C_p\\), \\(\\Delta \\hat{H}_v\\), \\(\\Delta \\hat{H}_m\\)\n\n\n98\nReference Not Found: Mixing, Dissolving, and Changing the Rules\nLink\nNo\n[Page]\n\\(\\Delta H_m\\), \\(\\Delta H_s\\)\n\n\n104\nGermain Hess and the Enthalpy of Doom\nLink\nNo\n[Page]\nHess’s Law and \\(\\Delta \\hat{H}^\\circ_f\\), \\(\\Delta \\hat{H}^\\circ_r\\), and \\(\\Delta \\hat{H}c\\)\n\n\n106\nChemical Reactions vs. The First Law: Who Wins?\nLink\nNo\n[Page]\nForms of the 1st Law for Chemical Reactions\n\n\n110\nFueling the Fire: The Shocking Truth About Combustion Reactions!\nLink\nNo\n[Page]\nCommon fuels, Heats of Combustion, HHV, LHV\n\n\n111\nReact Hard: The First Law Gets Chemical\nLink\nNo\n[Page]\nExample of the 1st Law for Chemical Reactions\n\n\n112\nReact Harder: Formation Heats and Alternate Endings\nLink\nNo\n[Page]\n2 more Examples of the 1st Law for Chemical Reactions\n\n\n113\nResistance is Futile. Entropy Always Wins\nLink\nNo\n[Page]\nIntro to 2nd Law\n\n\n115\nThe ΔS-sentials of Calculating Entropy Changes\nLink\nNo\n[Page]\nCalculating \\(\\Delta S\\) for heat reservoirs, ideal gases, and Steam\n\n\n116\nSadi Carnot and the Power of Fire, the 1824 Edition Part 1\nLink\nNo\n[Page]\nThe Air-Standard Carnot Cycle\n\n\n116A\nSadi Carnot and the Power of Fire, the 1824 Edition Part 2\nLink\nNo\n[Page]\nThe Steam Carnot Cycle\n\n\n117\nHow Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?\nLink\nNo\n[Page]\nThe 2nd Law for Closed, Open Steady-State, and Open Transient Systems"
+    "text": "Links to the current videos on YouTube will be maintained here. These are current as of 2025-11-10.\n\nTable of Videos\n\n\n\nVid. #\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n5\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean (\\(\\mu,\\ \\bar{x}\\)) and Standard Deviation (\\(\\sigma,\\ S\\))\n\n\n5A\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error (\\(S_{\\bar{x}}\\)) and Confidence Interval (\\(2\\lambda\\))\n\n\n6\nBasics Statistics by Hand\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n7\nBasic Statistics on a Spreadsheet\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) with a spreadsheet\n\n\n9\nBasic Statistics in R\nLink\nNo\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) in R\n\n\n21\nIs Your Process Data Spread Smooth or Chunky?\nLink\nNo\nPage\nData Visualization, linear and Log Coordinates\n\n\n22\nInterpol Is Late to a Mind-Blowing Math Hack\nLink\nNo\nPage\nLinear Interpolation\n\n\n23\nNo Clear Interpretation a Mind-Blowing Math Hack\nLink\nNo\nPage\nNonlinear Interpolation\n\n\n24\nThe Unauthorized Guide to Using Spreadsheets in Chemical Engineering\nLink\nNo\nPage\nSpreadsheet Basics\n\n\n25\nHow to Have a Quickie with Your Data Part 1\nLink\nNo\n[Page]\n\\(\\bar{x}\\), \\(S_{\\bar{x}}\\), Linear Least Squares\n\n\n26\nHow to Have a Quickie with Your Data Part 2\nLink\nNo\n[Page]\nNonlinear least squares\n\n\n27\nIs Furlongs Per Fortnight a Thing?\nLink\nNo\nPage\nUnit Conversion\n\n\n28\nHow Keen Is Your Rank?\nLink\nNo\nPage\nTemperature Conversion\n\n\n29\nThe Most Annoying Equation Conversion\nLink\nNo\n[Page]\nUnit Conversion of Equations\n\n\n30\nWhere Does Sherwood Hide His Unit? Principles\nLink\nNo\n[Page]\nDimensionless Numbers Principles\n\n\n31\nWhat the Schmidt? Examples\nLink\nNo\n[Page]\nApplications of Dimensionless Numbers\n\n\n32\nIs It Hot in Here, or Is It Just My Thermistor?\nLink\nNo\n[Page]\nThermistors, Thermocouples, and other Temperature Sensors\n\n\n33\nUnder Pressure Part 1\nLink\nNo\nPage\nPressure Basics\n\n\n34\nUnder Pressure Part 2\nLink\nNo\nPage\nAbs., Atm., Gauge, Barometric Pressure\n\n\n35\nWhat is a Mole?\nLink\nLink\nPage\nWhat a mole is\n\n\n36\nWhat the Frac?\nLink\nNo\nPage\nMass, Moles, Mass Fractions, Mole Fractions\n\n\n37\nAre You Dense? Crank Up the Volume and Go With the Flow!\nLink\nNo\n[Page]\nMass, Moles, Density, Volume, and Flow Rates\n\n\n38\nHow to Keep Your Balance\nLink\nNo\n[Page]\nSystem Definition and the General Balance Equation\n\n\n39\nSpeed Balancing\nLink\nNo\n[Page]\nGeneral Balance Equation Definitions and Suggestions\n\n\n40\nGotta Keep ’Em Separated\nLink\nNo\n[Page]\nMixer, Divider, and Separator mole balances\n\n\n41\nWhen You Saw It, What Was the Extent of Your Reaction? Part 1\nLink\nNo\n[Page]\nChemical Reactor Single Reaction, \\(\\xi\\) and \\(f_{\\mathrm{A}}\\)\n\n\n42\nWhen You Saw It, What Was the Extent of Your Reaction? Part 2\nLink\nNo\n[Page]\nChemical Reactor Multiple Reactions with Example, \\(\\xi\\) and \\(f_{\\mathrm{A}}\\)\n\n\n42A\nWhen You Saw It, What Was the Extent of Your Reaction? Part 3\nLink\nNo\n[Page]\nChemical Reactor Yield and Selectivity\n\n\n43\nRecycling Before Recycling Was Cool\nLink\nNo\n[Page]\nBasics of recycle\n\n\n44\nLeaving Radiator Springs In the Dust\nLink\nNo\n[Page]\nBasics of Bypass and a Recycle example\n\n\n45\nThe Symbolic Meaning of Recycling\nLink\nNo\n[Page]\nAnalytic solution of a recycle PFD\n\n\n46\nHow Did You Think I Would React?\nLink\nNo\n[Page]\nBasic Kinetic Reactor Mole Balance\n\n\n47\nWishing Upon a CSTR\nLink\nNo\n[Page]\nBatch, CSTR, PFR\n\n\n47A\nIt’s Totally Tubular, Man!\nLink\nNo\n[Page]\nCSTR, PFR, Batch Example\n\n\n54\nReact But Maintain Your Equilibrium Part 1\nLink\nNo\n[Page]\nBasics of equilibrium reactors\n\n\n55\nReact But Maintain Your Equilibrium Part 2\nLink\nNo\n[Page]\nEquilibrium reactor example\n\n\n59\nFlame On, Torch!\nLink\nNo\n[Page]\nEquilibrium reactor example\n\n\n60\nA Combustible Mixture!\nLink\nNo\n[Page]\nEquilibrium reactor example\n\n\n61\nAlcohol and Water DO Mix!\nLink\nNo\n[Page]\nLiquid and Solid Density Calculations\n\n\n62\nIdeal Gases EXPOSED: Are They Even Real?!!\nLink\nNo\n[Page]\nBasics of \\(P V = n R T\\)\n\n\n63\nWhen Getting Gassed Isn’t Ideal, Part 1\nLink\nNo\n[Page]\nReal gas intro\n\n\n64\nWhen Getting Gassed Isn’t Ideal, Part 2\nLink\nNo\n[Page]\nReal gas example\n\n\n65\nREAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1\nLink\nNo\n[Page]\nExplanation of Kay’s Rule and DWSIM for real gas mixtures\n\n\n66\nREAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2\nLink\nNo\n[Page]\nExample of Kay’s Rule and DWSIM for real gas mixtures\n\n\n67\nSolving Nonlinear Equations with Spreadsheets\nlink\nNo\n[Page]\nSee Title\n\n\n72\nShow Some Flash and Dew the Dew with a Little Bubbly!\nlink\nNo\n[Page]\nGraphical BUBL P, DEW P, BUBL T, DEW T, and FLASH calculations\n\n\n73\nOh, Henry!\nlink\nNo\n[Page]\nGas-Liquid Equilibrium with one condensible component\n\n\n74\nDew Your Bubbles Have Flash? Part 1\nLink\nNo\n[Page]\nRaoult’s law, BUBL P, DEW P\n\n\n75\nDew Your Bubbles Have Flash? Part 2\nLink\nNo\n[Page]\nBUBL T, DEW T\n\n\n75A\nDew Your Bubbles Have Flash? Part 3\nLink\nNo\n[Page]\nFLASH, Pxy, Txy\n\n\n85\nThe Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 1\nLink\nNo\n[Page]\nEquilibrium Stage Equations\n\n\n86\nThe Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2\nLink\nNo\n[Page]\nDistillation Examples: Binary Phase Diagram, Raoult’s law\n\n\n86A\nThe Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3\nLink\nNo\n[Page]\nLiquid-Liquid Extraction Example\n\n\n88\nUsing DWSIM to Create Binary Phase Diagrams\nLink\nNo\n[Page]\nDWSIM, Binary Phase Diagrams\n\n\n89\nJust Try to Break This Law! I Dare You!\nLink\nNo\n[Page]\nIntro to 1st Law\n\n\n90\nAdd Friction and Work to Bernoulli? Here’s What Really Happens!\nLink\nNo\n[Page]\nThe Mechanical Energy Balance and the Moody Chart\n\n\n91\nSteam: Get the Quality Right AFTER You Table It! Part 1\nLink\nNo\n[Page]\nThe Basics of Steam Tables\n\n\n92\nSteam: Get the Quality Right AFTER You Table It! Part 2\nLink\nNo\n[Page]\nSteam Table Examples\n\n\n93\nThe Enthalpy Games: The Ballad of Integrals and Means\nLink\nNo\n[Page]\n\\(\\Delta H\\) from \\(C_p\\), \\(\\Delta U\\) from \\(C_v\\)\n\n\n94\nThe Enthalpy Games: Sunrise on the Calculations\nLink\nNo\n[Page]\nExample for \\(\\mathrm{N_2}\\), \\(\\Delta H\\) from \\(C_p\\), \\(\\Delta U\\) from \\(C_v\\)\n\n\n95\nFeeling the Heat? How to Get Your Best Estimate\nLink\nNo\n[Page]\nEstimating \\(C_p\\), \\(\\Delta \\hat{H}_v\\), \\(\\Delta \\hat{H}_m\\)\n\n\n98\nReference Not Found: Mixing, Dissolving, and Changing the Rules\nLink\nNo\n[Page]\n\\(\\Delta H_m\\), \\(\\Delta H_s\\)\n\n\n102\nThe Isochronicles: This First Law Saga Is a Gas\nLink\nNo\n[Page]\nThe 1st Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes\n\n\n104\nGermain Hess and the Enthalpy of Doom\nLink\nNo\n[Page]\nHess’s Law and \\(\\Delta \\hat{H}^\\circ_f\\), \\(\\Delta \\hat{H}^\\circ_r\\), and \\(\\Delta \\hat{H}c\\)\n\n\n106\nChemical Reactions vs. The First Law: Who Wins?\nLink\nNo\n[Page]\nForms of the 1st Law for Chemical Reactions\n\n\n110\nFueling the Fire: The Shocking Truth About Combustion Reactions!\nLink\nNo\n[Page]\nCommon fuels, Heats of Combustion, HHV, LHV\n\n\n111\nReact Hard: The First Law Gets Chemical\nLink\nNo\n[Page]\nExample of the 1st Law for Chemical Reactions\n\n\n112\nReact Harder: Formation Heats and Alternate Endings\nLink\nNo\n[Page]\n2 more Examples of the 1st Law for Chemical Reactions\n\n\n113\nResistance is Futile. Entropy Always Wins\nLink\nNo\n[Page]\nIntro to 2nd Law\n\n\n115\nThe ΔS-sentials of Calculating Entropy Changes\nLink\nNo\n[Page]\nCalculating \\(\\Delta S\\) for heat reservoirs, ideal gases, and Steam\n\n\n116\nSadi Carnot and the Power of Fire, the 1824 Edition Part 1\nLink\nNo\n[Page]\nThe Air-Standard Carnot Cycle\n\n\n116A\nSadi Carnot and the Power of Fire, the 1824 Edition Part 2\nLink\nNo\n[Page]\nThe Steam Carnot Cycle\n\n\n117\nHow Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?\nLink\nNo\n[Page]\nThe 2nd Law for Closed, Open Steady-State, and Open Transient Systems\n\n\n118\nEntropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans\nLink\nNo\n[Page]\nTurbines and Expanders, Isentropic and Isothermal Compressors\n\n\n118A\nEntropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans\nLink\nNo\n[Page]\nPumps, Nozzles, and Valves or Throttles\n\n\n119\nBoil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1\nLink\nNo\n[Page]\nThe Ideal Rankine Cycle\n\n\n120\nBoil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2\nLink\nNo\n[Page]\nThe Rankine Cycle with \\(\\eta_\\mathrm{pump}\\) and \\(\\eta_\\mathrm{turbine}\\)\n\n\n129\nThe Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1\nLink\nNo\n[Page]\nThe Combined 1st and 2nd Laws"
   },
   {
     "objectID": "basics/stats/WhyStatsTFS1Visuals.html#scale-video-tba",
@@ -5572,207 +5544,74 @@
     "text": "Why Statistics and Measurements\nAll chemical and thermal processes have one or more outputs, whether it be a chemical product such as benzene or electrical power. The goal of almost all process engineers is to maximize the output for a given cost or minimize the cost for a given output. Engineering is a quantitative discipline, and we have to quantitatively report our inputs and outputs. Since all processes experience random fluctuations from the process itself or from the measurement process, the engineer needs to be able to account for the noise. Statistical methods are the most common ways to report both the inputs and outputs, and the variations or noise in the inputs or outputs. There are seventeen videos discussing common statistical methods used in Chemical and Thermal Processing and other fields of engineering, divided up into basic statistics, linear regression, error propagation, nonlinear regression, and error propagation in integrals and derivatives\n\n\nBasic Statistics\nThe most commonly used basic statistics are the arithmetic mean, the standard deviation, and the confidence interval. These three are covered in the videos and web pages listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean and Standard Deviation\n\n\n\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error and Confidence Interval\n\n\n\nBasics Statistics by Hand\nLink\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n\nBasics Statistics with a Spreadsheet\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) with a spreadsheet\n\n\n\nBasics Statistics in Python\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) in Python\n\n\n\nBasics Statistics in R\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) in R\n\n\n\n\n\n\nLinear Regression\nA very common means of presenting and analyzing sets of data pairs is linear regression or fitting a linear function to the data. We only present methods for least-squares linear regression. The method is covered in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nLinear Regression\n\n\n\nLinear Regression with a Spreadsheet\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds with a spreadsheet\n\n\n\nLinear Regression in Python\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in Python\n\n\n\nLinear Regression in R\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in R\n\n\n\n\n\n\nError Propagation\nExperimental data taken by engineers are usually further processed as part of design or analysis procedures. The question often arises as to how the uncertainty in the measured data affect the uncertainty in the final calculation. There are both analytical and numerical methods for evaluating how the undertainty or error propagates. These methods are explored in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation in Algebraic and Transcendental Functions\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation when integrating and Differentiating Time Series, Part 1\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation when integrating and Differentiating Time Series, Part 2\n\n\n\n\n\n\nNonlinear Regression\nWhen the model for fitting data contains parameters that are non-linearly related to the fitting function, the model parameters may be determined through nonlinear regression. The method is covered in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nNoninear Regression, Parameter Fitting, and functional and observational bounds\n\n\n\nNoninear Regression with a Spreadsheet\nNo\nN/A\nNo\nParameter, and Functional Bounds with a spreadsheet\n\n\n\nLinear Regression in Python\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in Python\n\n\n\nLinear Regression in R\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in R"
   },
   {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section",
+    "objectID": "balances/entropy/120-RankineVisualsPart2.html#introduction",
+    "href": "balances/entropy/120-RankineVisualsPart2.html#introduction",
+    "title": "Chemical and Thermal Processes",
+    "section": "Introduction",
+    "text": "Introduction\nBoil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1 and Part 2\n\nDescribe the Rankine cycle\n\nBasic steam power plant cycle\nLarge electrical generating facilities\nCoal\nNatural gas\nNuclear energy\n\nPart 1 – The ideal cycle\nPart 2 – Real behavior & DWSIM models"
+  },
+  {
+    "objectID": "balances/entropy/120-RankineVisualsPart2.html#up-the-realism",
+    "href": "balances/entropy/120-RankineVisualsPart2.html#up-the-realism",
+    "title": "Chemical and Thermal Processes",
+    "section": "Up the Realism",
+    "text": "Up the Realism\n\n\nA more realistic Rankine cycle would include a turbine efficiency and a pump efficiency.\n\n\n\\[\\dot{W}_{s–\\mathrm{actual}}=\\eta_\\mathrm{turbine}\\dot{W}_{s–\\mathrm{isentropic}}\\]\n\n\n\\[\\dot{W}_{s–\\mathrm{actual}}=\\frac{\\dot{W}_{s–\\mathrm{isentropic}}}{\\eta_\\mathrm{pump}}\\]"
+  },
+  {
+    "objectID": "balances/entropy/120-RankineVisualsPart2.html#realistic-rankine-cycle-example",
+    "href": "balances/entropy/120-RankineVisualsPart2.html#realistic-rankine-cycle-example",
+    "title": "Chemical and Thermal Processes",
+    "section": "Realistic Rankine Cycle Example",
+    "text": "Realistic Rankine Cycle Example\n\n\nA steam power plant operates with steam entering the turbine at 80 bar and 500\\(^{\\circ}\\)C. The condenser operates at 44\\(^{\\circ}\\)C. The turbine efficiency, \\(\\eta_\\mathrm{turb}\\), and the pump efficiency, \\(\\eta_\\mathrm{pump}\\), are both 75%\n\n\nCalculate the thermal efficiency.\nWhat is the water circulation rate for a net power generation of 80 MW?\n\n\nData needed from the steam tables:\n@ 44\\(^{\\circ}\\)C and 0.091118 bar: \\(\\hat{H}_{l}\\), \\(\\hat{H}_{v}\\), \\(\\hat{S}_{l}\\), \\(\\hat{S}_{v}\\), \\(\\hat{V}_{l}\\)\n@ 500\\(^{\\circ}\\)C and 80 bar: \\(\\hat{H},\\hat{S}\\)"
+  },
+  {
+    "objectID": "balances/entropy/120-RankineVisualsPart2.html#up-the-realism-cont.",
+    "href": "balances/entropy/120-RankineVisualsPart2.html#up-the-realism-cont.",
+    "title": "Chemical and Thermal Processes",
+    "section": "Up the Realism (cont.)",
+    "text": "Up the Realism (cont.)\nTurbine\n\n\\[\\Delta\\hat{H}_\\mathrm{ideal}= W_\\mathrm{turb–isen}=2119.2\\mathrm{\\frac{kJ}{kg}}-3399.4\\mathrm{\\frac{kJ}{kg}}=-1280.2\\mathrm{\\frac{kJ}{kg}}\\]\n\n\n\n\\[W_\\mathrm{turb–real} = \\Delta\\hat{H}_\\mathrm{real} = (\\eta_\\mathrm{turb})(W_\\mathrm{turb–isen})\\]\n\n\n\\[= (0.75)(-1280.2)=-960.2\\mathrm{\\frac{kJ}{kg}}\\]\n\n\n\n\\[\\Delta \\hat{H}_\\mathrm{real} = \\hat{H}_\\mathbf{d–\\mathrm{real}} - \\hat{H}_\\mathbf{c}\\]\n\n\n\\[\\hat{H}_\\mathbf{d–\\mathrm{real}}  = \\hat{H}_\\mathbf{c} + \\Delta\\hat{H}_\\mathrm{real} =3399.4 + (-960.2) = 2439.2 \\mathrm{\\frac{kJ}{kg}}\\]\n\n\n\\[x_\\mathbf{d} = \\frac{\\hat{H}_{\\mathbf{d}\\mathrm{–real}} - \\hat{H}_l}{\\hat{H}_v - \\hat{H}_l} = \\frac{2439.2 - 184.26}{2580.7 - 184.26} = 0.9411\\]"
+  },
+  {
+    "objectID": "balances/entropy/120-RankineVisualsPart2.html#section",
+    "href": "balances/entropy/120-RankineVisualsPart2.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "\\(\\dot{m},\\ T_\\mathrm{in},\\ P_\\mathrm{in}\\)\n\n\n\\(\\dot{m},\\ T_\\mathrm{out},\\ P_\\mathrm{out}\\)\n\n\n\\(\\dot{m},\\ T_\\mathrm{in},\\ P_\\mathrm{in}, u_\\mathrm{in}\\)\n\n\n\\(\\dot{m},\\ T_\\mathrm{out},\\ P_\\mathrm{out},\\ u_\\mathrm{out}\\)\n\n\n\\(\\dot{W}_s\\)"
+    "text": "Pump\n\n\\[W_\\mathrm{pump–real} = \\Delta\\hat{H}_\\mathrm{real} = \\frac{W_\\mathrm{pump–isen}}{\\eta_\\mathrm{pump}} = \\frac{8.067}{0.75}=10.756\\mathrm{\\frac{kJ}{kg}}\\]\n\n\n\\[\\hat{H}_\\mathbf{b–\\mathrm{real}}  = \\hat{H}_\\mathbf{a} + \\Delta\\hat{H}_\\mathrm{real} = 184.26+ 10.756 = 195.02 \\mathrm{\\frac{kJ}{kg}}\\]"
   },
   {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#turbines-or-expanders",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#turbines-or-expanders",
-    "title": "Chemical and Thermal Processes",
-    "section": "Turbines or Expanders",
-    "text": "Turbines or Expanders\nSteam Turbine\nGas Turbine"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#turbines-or-expanders-cont.",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#turbines-or-expanders-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "Turbines or Expanders (cont.)",
-    "text": "Turbines or Expanders (cont.)\nA turbine or expander takes a high-temperature and high-pressure steam or gas mixture and sends it through a series of blades, called stator blades and rotor blades, and expands it to create power or shaft work.\n1st Law\nSteam\n\\[\n\\Delta \\dot{H} = \\dot{W}_s = \\dot{m} \\Delta \\hat{H} = \\dot{m} (\\hat{H}_\\mathrm{out} - \\hat{H}_\\mathrm{in})\n\\]\nIdeal Gas (\\(C_p = \\text{const}\\))\n\\[\n\\Delta \\dot{H} = \\dot{W}_s = \\dot{n} \\Delta \\hat{H} = \\dot{n} \\int_\\limits{T_\\mathrm{in}}^{T_\\mathrm{out}} C_p \\, dT = \\dot{n} C_p (T_\\mathrm{out} - T_\\mathrm{in})\n\\]"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#turbines-or-expanders-cont.-1",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#turbines-or-expanders-cont.-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Turbines or Expanders (cont.)",
-    "text": "Turbines or Expanders (cont.)\nA real turbine has a turbine efficiency, that compares its performance with that of an isentropic turbine.\n\\[\n\\eta_\\mathrm{turbine} = \\frac{\\dot{W}_{s\\text{-actual}}}{\\dot{W}_{s\\text{-isentropic}}} = \\frac{\\Delta \\hat{H}_\\mathrm{actual}}{\\Delta \\hat{H}_\\mathrm{isentropic}}\n\\]\nCalculating the isentropic values\n\\[\n\\Delta \\hat{S} = 0\n\\]\nSteam\n\\(\\hat{S}_\\mathrm{out} = \\hat{S}_\\mathrm{in},\\ \\ \\ \\ \\ \\ \\ \\ x = \\dfrac{\\hat{S}_\\mathrm{in} - \\hat{S}_l}{\\hat{S}_v - \\hat{S}_l} = \\dfrac{\\hat{S}_\\mathrm{in} - \\hat{S}_l}{\\hat{S}_{lv}}\\)"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-1",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-1",
+    "objectID": "balances/entropy/120-RankineVisualsPart2.html#section-1",
+    "href": "balances/entropy/120-RankineVisualsPart2.html#section-1",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "To calculate the outlet enthalpy\n\\(\\hat{H}_\\mathrm{out} = x\\hat{H}_v + (1-x)\\hat{H}_l = x\\hat{H}_{lv} + \\hat{H}_l\\)\n\\(\\Delta \\hat{H}_\\mathrm{isentropic} = \\hat{H}_\\mathrm{out} - \\hat{H}_\\mathrm{in}\\)\nIdeal Gas (\\(C_p = \\text{const}\\))\n\\(\\Delta \\hat{S} = 0 = C_p \\ln \\dfrac{T_\\mathrm{out}}{T_\\mathrm{in}} - R \\ln \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}}\\)\n\\(C_p \\ln \\dfrac{T_\\mathrm{out}}{T_\\mathrm{in}} = R \\ln \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}}\\) or \\(\\dfrac{T_\\mathrm{out}}{T_\\mathrm{in}} = \\left( \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}} \\right)^{\\frac{R}{C_p}}\\)"
+    "text": "Overall\n\n\\[W_\\mathrm{net–real} = \\Delta\\hat{H}_\\mathrm{turb} +\\Delta\\hat{H}_\\mathrm{pump} = -960.2 +10.76 = -949.4\\]\n\n\n\\[Q_\\mathrm{hot–real} = \\hat{H}_\\mathbf{c} - \\hat{H}_\\mathbf{b–\\mathrm{real}} = 3399.4 - 195.02 = 3204.4 \\mathrm{\\frac{kJ}{kg}}\\]\n\n\n\\[\\eta_\\mathrm{real} = \\frac{-W_\\mathrm{net–real}}{Q_\\mathrm{hot–real}} = \\frac{949.4}{3204.4} = 0.2963\\ \\ \\ \\text{vs.}\\ \\ \\ \\eta_\\mathrm{isen} = 0.3967\\]\n\n\n\\[\\dot{m}=\\frac{-\\dot{W}_\\mathrm{net}}{-W_\\mathrm{net}}=\\frac{80,000\\mathrm{\\frac{kJ}{s}}}{960.2\\mathrm{\\frac{kJ}{kg}}-10.75\\mathrm{\\frac{kJ}{kg}}}=84.26\\mathrm{\\frac{kg}{s}}\\ \\text{vs.}\\ 62.88\\mathrm{\\frac{kg}{s}}\\]"
   },
   {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-2",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-2",
+    "objectID": "balances/entropy/120-RankineVisualsPart2.html#spreadsheet",
+    "href": "balances/entropy/120-RankineVisualsPart2.html#spreadsheet",
     "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Substitute in for \\(\\Delta T\\).\n\n\\(\\Delta \\hat{H}_\\mathrm{isentropic} = C_p \\Delta T = C_p (T_\\mathrm{out} - T_\\mathrm{in}) = C_p T_\\mathrm{in} \\left[ \\left( \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}} \\right)^{\\frac{R}{C_p}} - 1 \\right]\\)\n\nCalculating actual properties\nSteam\n\\(\\eta_\\mathrm{turbine} = \\dfrac{\\Delta \\hat{H}_\\mathrm{actual}}{\\Delta \\hat{H}_\\mathrm{isentropic}}\\)\n\\(\\hat{H}_\\text{out-actual} = \\eta_\\mathrm{turbine} \\Delta \\hat{H}_\\mathrm{isentropic} + \\hat{H}_\\mathrm{in}\\)"
+    "section": "Spreadsheet",
+    "text": "Spreadsheet"
   },
   {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-3",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-3",
+    "objectID": "balances/entropy/120-RankineVisualsPart2.html#the-rankine-cycle-in-dwsim",
+    "href": "balances/entropy/120-RankineVisualsPart2.html#the-rankine-cycle-in-dwsim",
     "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Calculating actual quality and entropy for steam\n\\(x_\\mathrm{actual} = \\dfrac{\\hat{H}_\\text{out-actual} - \\hat{H}_l}{\\hat{H}_v - \\hat{H}_l} = \\dfrac{\\hat{H}_\\text{out-actual} - \\hat{H}_l}{\\hat{H}_{lv}}\\)\n\\(\\hat{S}_\\text{out-actual} = x_\\mathrm{actual} \\hat{S}_v + (1-x_\\mathrm{actual}) \\hat{S}_l = x_\\mathrm{actual} \\hat{S}_{lv} + \\hat{S}_l\\)\nCalculating actual properties\nIdeal Gas\n\\(\\eta_\\mathrm{turbine} = \\dfrac{\\Delta \\hat{H}_\\mathrm{actual}}{\\Delta \\hat{H}_\\mathrm{isentropic}}\\ \\ \\ \\ \\ \\ \\ \\Delta \\hat{H}_\\mathrm{actual} = \\eta_\\mathrm{turbine} \\Delta \\hat{H}_\\mathrm{isentropic}\\)"
+    "section": "The Rankine Cycle in DWSIM",
+    "text": "The Rankine Cycle in DWSIM\n\n\nIdeal Cycle\n\n\n\n\\(\\eta = \\dfrac{1280.21 - 8.07}{3207.05} = 39.67\\%\\)\n\n\n\nReal Cycle\n\n\n\n\\(\\eta = \\dfrac{960.16 - 10.76}{3204.36} = 29.63\\%\\)"
   },
   {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-4",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-4",
+    "objectID": "balances/entropy/120-RankineVisualsPart2.html#dwsim-settings",
+    "href": "balances/entropy/120-RankineVisualsPart2.html#dwsim-settings",
     "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "\\(\\Delta \\hat{H}_\\mathrm{actual} = C_p \\Delta T_\\mathrm{actual}\\)\n\\(T_\\text{out-actual} = \\dfrac{\\Delta \\hat{H}_\\mathrm{actual}}{C_p} + T_\\mathrm{in}\\)\n\\(\\Delta \\hat{S}_\\mathrm{actual} = C_p \\ln \\dfrac{T_\\text{out-actual}}{T_\\mathrm{in}} - R \\ln \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}}\\)"
+    "section": "DWSIM Settings",
+    "text": "DWSIM Settings\n\n\n\n\n\n\nFlow streams c and cA:Specified Variables Temperature/PressureTemperature (K) 773.15Pressure (Pa) 8000000Mass Flow (kg/s) 1\nTurbinesCalculation Mode Outlet PressureThermodynamic Path AdiabaticOutlet Pressure (Pa) 9111.8Adiabatic Efficiency (%) 100 or 75\n\n\n\nPumpsCalculation Mode Outlet PressureOutlet Pressure (Pa) 8000000Efficiency (%) 100 or 75\nCondensersCalculation Mode Outlet Vapor FractionOutlet Vapor Fraction 0\nBoilersCalculation Mode Outlet TemperatureOutlet Temperature (K) 773.15"
   },
   {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#compressor",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#compressor",
-    "title": "Chemical and Thermal Processes",
-    "section": "Compressor",
-    "text": "Compressor\nIdeal Gas only in the introductory DOFPro videos. Real gases in the advanced thermo videos. Two-phase compressors are rare.\n{images}"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#adiabatic-compressor",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#adiabatic-compressor",
-    "title": "Chemical and Thermal Processes",
-    "section": "Adiabatic Compressor",
-    "text": "Adiabatic Compressor\nA real adiabatic compressor has a compressor efficiency, that compares its performance with that of an isentropic compressor.\n\\(\\eta_\\mathrm{compressor} = \\dfrac{\\dot{W}_{s\\text{-isentropic}}}{\\dot{W}_{s\\text{-actual}}} = \\dfrac{\\Delta \\hat{H}_\\mathrm{isentropic}}{\\Delta \\hat{H}_\\mathrm{actual}}\\)\nFirst Law\n\\(\\Delta \\dot{H} = \\dot{W}_{s\\text{-isen}} = \\dot{n} \\int\\limits_{T_\\mathrm{in}}^{T_\\mathrm{out}} C_p \\, dT = \\dot{n} C_p \\Delta T\\)\nSecond Law\n\\(\\Delta \\hat{S}_\\mathrm{air} = \\int\\limits_{T_\\mathrm{in}}^{T_\\mathrm{out}} C_p \\dfrac{dT}{T} - R \\ln \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}} = C_p \\ln \\dfrac{T_\\mathrm{out}}{T_\\mathrm{in}} - R \\ln \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}}\\)"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-5",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-5",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Minimum work for \\(\\Delta \\hat{S} = 0\\)\n\\(C_p \\ln \\dfrac{T_\\mathrm{out}}{T_\\mathrm{in}} = R \\ln \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}}\\ \\ \\ \\ \\ \\ \\ \\dfrac{T_\\mathrm{out}}{T_\\mathrm{in}} = \\left(\\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}}\\right)^{\\frac{R}{C_p}}\\)\nPlug \\(T_\\mathrm{out}\\) back into 1st Law.\n\\(\\dot{W}_{s\\text{-isen}} = \\dot{m} C_p \\Delta T\\)\nCalculate work and final enthalpy from efficiency\n\\(\\dot{W}_{s\\text{-actual}} = \\dfrac{\\dot{W}_{s\\text{-isen}}}{\\eta_\\mathrm{compressor}}\\ \\ \\ \\ \\ \\ \\ \\Delta \\hat{H}_\\mathrm{actual} = \\dfrac{\\Delta \\hat{H}_\\mathrm{isen}}{\\eta_\\mathrm{compressor}}\\)\nIf necessary, you can calculate actual outlet \\(T\\) and entropy change."
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#isothermal-compressor",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#isothermal-compressor",
-    "title": "Chemical and Thermal Processes",
-    "section": "Isothermal Compressor",
-    "text": "Isothermal Compressor\nA cooling-water jacket is often used to attempt to maintain the compressor at a constant temperature. An isothermal compressor uses much less power than an isentropic compressor, at the cost of a cooling system. A real isothermal compressor has a compressor efficiency, that compares its performance with that of a truly isothermal compressor.\n\\(\\eta_\\mathrm{compressor} = \\dfrac{\\dot{W}_{s\\text{-isothermal}}}{\\dot{W}_{s\\text{-actual}}}\\)\nFirst Law\n\\(\\Delta \\dot{H}_{s\\text{-iso}} = 0\\ \\ \\ \\ \\ \\ \\dot{Q} = -\\dot{W}_{s\\text{-iso}} = \\dot{n}RT\\ln\\dfrac{P_1}{P_2}\\)"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-6",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-6",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "There is no need for the 2nd Law with an isothermal compressor.\nUse the efficiency to calculate the actual work\n\\(\\dot{W}_{s\\text{-actual}} = \\dfrac{\\dot{W}_{s\\text{-iso}}}{\\eta_\\mathrm{compressor}}\\)\nIf necessary, you can calculate actual enthalpy change, outlet \\(T\\), and entropy change."
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#the-takeaways",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#the-takeaways",
+    "objectID": "balances/entropy/120-RankineVisualsPart2.html#the-takeaways",
+    "href": "balances/entropy/120-RankineVisualsPart2.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
-    "text": "The Takeaways\n\nAdiabatic Turbines and compressors have efficiencies that compare the real or actual case with the isentropic case.\nIsothermal compressors have efficiencies that compare the real or actual case with the isothermal case.\nWe have shown how to calculate turbines and compressors for both steam and ideal gas.\nWe have shown how to calculate compressors for ideal gas only."
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-8",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-8",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "\\(\\dot{m},\\ T_\\mathrm{in},\\ P_\\mathrm{in}\\)\n\n\n\\(\\dot{m},\\ T_\\mathrm{out},\\ P_\\mathrm{out}\\)\n\n\n\\(\\dot{m},\\ T_\\mathrm{in},\\ P_\\mathrm{in}, u_\\mathrm{in}\\)\n\n\n\\(\\dot{m},\\ T_\\mathrm{out},\\ P_\\mathrm{out},\\ u_\\mathrm{out}\\)\n\n\n\\(\\dot{W}_s\\)"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#pump",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#pump",
-    "title": "Chemical and Thermal Processes",
-    "section": "Pump",
-    "text": "Pump\nIncompressible liquid only in introductory DOFPro videos. Advanced thermo videos cover thermal expansion.\n{images}"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#pump-1",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#pump-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Pump",
-    "text": "Pump\nA real pump has a pump efficiency, that compares its performance with that of an isentropic pump.\n\\(\\eta_\\mathrm{pump} = \\dfrac{\\dot{W}_{s\\text{-isentropic}}}{\\dot{W}_{s\\text{-actual}}} = \\dfrac{\\Delta \\hat{H}_\\mathrm{isentropic}}{\\Delta \\hat{H}_\\mathrm{actual}}\\)\nFrom the fundamental property relationships\n\\(d\\hat{U} = Td\\hat{S} - Pd\\hat{V}\\)\nand\n\\(d\\hat{H} = d\\hat{U} + Pd\\hat{V} + \\hat{V}dP\\) from \\(\\hat{H} = \\hat{U} + P\\hat{V}\\)\n\\(d\\hat{U} = d\\hat{H} - Pd\\hat{V} - \\hat{V}dP\\)"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-9",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-9",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "so\n\\(d\\hat{H} - Pd\\hat{V} - \\hat{V}dP = Td\\hat{S} - Pd\\hat{V}\\)\nor\n\\(d\\hat{H} = Td\\hat{S} + \\hat{V}dP\\)\nSecond Law on pump (adiabatic and reversible)\n\\(\\Delta S = 0\\)\nso\n\\(d\\hat{S} = 0\\)\n\\(d\\hat{H} = T d\\hat{S} + \\hat{V}dP\\)"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-10",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-10",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "For liquids V is a very weak function of pressure.\n\\(\\int d\\hat{H} = \\int \\hat{V} dP = \\hat{V} \\int dP\\)\n\\(\\Delta H_\\mathrm{isen} = W_{s\\text{-isen}} = V\\Delta P\\)\nCalculating the actual work\n\\(\\dot{W}_{s\\text{-actual}} = \\dfrac{\\dot{W}_{s\\text{-isentropic}}}{\\eta_\\mathrm{pump}}\\)\n\\(\\Delta \\hat{H}_\\mathrm{actual} = \\dfrac{\\Delta \\hat{H}_\\mathrm{isentropic}}{\\eta_\\mathrm{pump}}\\)\nIf necessary, you can calculate the actual entropy change."
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#nozzle",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#nozzle",
-    "title": "Chemical and Thermal Processes",
-    "section": "Nozzle",
-    "text": "Nozzle\n{images}"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#nozzle-1",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#nozzle-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Nozzle",
-    "text": "Nozzle\nA real nozzle has a nozzle efficiency, that compares its performance with that of an isentropic nozzle.\n\\(\\eta_\\mathrm{nozzle} = \\dfrac{u_\\text{out-actual}^2}{u_\\text{out-isentropic}^2}\\)\nThe point of a nozzle is to get a huge increase in velocity.\nFirst Law\n\\(\\Delta \\dot{H} + \\Delta \\dot{E}_k = 0\\)\n\\(\\hat{H}_\\mathrm{out} - \\hat{H}_\\mathrm{in} + \\dfrac{u_\\mathrm{out}^2}{2} - \\dfrac{u_{in}^2}{2} = 0\\)"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-11",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-11",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "\\(u_\\mathrm{out}^2 = 2(\\hat{H}_\\mathrm{in} - \\hat{H}_\\mathrm{out}) + u_\\mathrm{in}^2\\)\n\\(u_\\mathrm{out} = \\sqrt{2(\\hat{H}_\\mathrm{in} - \\hat{H}_\\mathrm{out}) + u_\\mathrm{in}^2}\\)    Be careful with units.\nSecond Law\n\\(\\Delta \\hat{S} = 0\\ \\ \\ \\ \\ \\hat{S}_\\mathrm{out} = \\hat{S}_\\mathrm{in}\\)\nIdeal Gas\n\\(\\Delta \\hat{S} = 0 = C_p \\ln \\dfrac{T_\\mathrm{out}}{T_\\mathrm{in}} - R \\ln \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}}\\)\n\\(C_p \\ln \\dfrac{T_\\mathrm{out}}{T_\\mathrm{in}} = R \\ln \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}}\\)   or   \\(\\dfrac{T_\\mathrm{out}}{T_\\mathrm{in}} = \\left( \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}} \\right)^{\\frac{R}{C_p}}\\)"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-12",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-12",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Substitute in for \\(\\Delta T\\).\n\\(\\Delta \\hat{H} = C_p \\Delta T = C_p (T_\\mathrm{out} - T_\\mathrm{in}) = C_p T_\\mathrm{in} \\left[ \\left( \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}} \\right)^{\\frac{R}{C_p}} - 1 \\right]\\)\n\\(u_\\text{out-isen}^2 - u_\\mathrm{in}^2 = -2C_p \\Delta T = 2C_p T_\\mathrm{in} \\left[ 1 - \\left( \\dfrac{P_\\mathrm{out}}{P_\\mathrm{in}} \\right)^{\\frac{R}{C_p}} \\right]\\)\nBe careful with units."
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-13",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#section-13",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "For steam find the value of enthalpy in the steam table at the same entropy and pressure as the outlet.\n\\(u_\\text{out-isen} = \\sqrt{2(\\hat{H}_\\mathrm{in} - \\hat{H}_\\mathrm{out}) + u_\\mathrm{in}^2}\\)   Be careful with units.\nFind the actual velocity with the efficiency.\n\\(u_\\text{out-actual}^2 = \\eta_\\mathrm{nozzle} u_\\text{out-isen}^2\\)\nIf necessary, you can calculate the actual temperature, enthalpy change, and entropy change."
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#valves",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#valves",
-    "title": "Chemical and Thermal Processes",
-    "section": "Valves",
-    "text": "Valves\nA partially open valve, an orifice, or a throttling valve can all be described as a throttling process."
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#throttling-process",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#throttling-process",
-    "title": "Chemical and Thermal Processes",
-    "section": "Throttling Process",
-    "text": "Throttling Process\nBecause the fluid passes quickly through a throttling process, the heat transfer is essentially zero. The First Law becomes\n\\(\\Delta \\dot{H} + \\Delta \\dot{E}_k + \\Delta \\dot{E}_p = \\dot{Q} + \\dot{W}_s\\)\n\\(\\hat{H}_\\mathrm{out} = \\hat{H}_\\mathrm{in}\\)\nThere isn’t much to a throttling process for an ideal gas, since the enthalpy is a function of temperature and \\(\\Delta H = 0\\), so \\(\\Delta T\\) = 0.\n\\(P_\\mathrm{out} \\hat{V}_\\mathrm{out} = P_\\mathrm{in} \\hat{V}_\\mathrm{in}\\)"
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#throttling-process-cont.",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#throttling-process-cont.",
-    "title": "Chemical and Thermal Processes",
-    "section": "Throttling Process (cont.)",
-    "text": "Throttling Process (cont.)\nA throttling process for a liquid at the edge of the two-phase region is much more interesting. Normally, one specifies the inlet \\(T\\) and \\(P\\), that the quality in, \\(x = 0\\), and the outlet pressure.\n\\(\\hat{H}_\\mathrm{out} = \\hat{H}_\\mathrm{in}\\)\nOne then uses the fluid two-phase table to determine the final pressure and quality. For example, take saturated liquid water at 50 bar, and flash it to 1 bar. Calculate the final temperature and quality."
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#throttling-process-cont.-1",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#throttling-process-cont.-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Throttling Process (cont.)",
-    "text": "Throttling Process (cont.)\nAt 50 bar and 263.94 °C\n\\(\\hat{H}_\\mathrm{in} = \\hat{H}_l = 1154.5 \\text{ kJ/kg}\\)\nAt 1 bar\n\\(\\boxed{T_\\mathrm{out} = 99.61 \\text{ }^\\circ\\text{C}}\\)\n\\(\\hat{H}_l = 417.44 \\text{ kJ/kg}\\)\n\\(\\hat{H}_{lv} = 2257.5 \\text{ kJ/kg}\\)\n\\(\\hat{H}_v = 2674.9 \\text{ kJ/kg}\\)\n\\(x = \\dfrac{\\hat{H}_\\mathrm{out} - \\hat{H}_l}{\\hat{H}_{lv}} = \\dfrac{1154.5 - 417.44}{2257.5} = \\boxed{0.3265}\\)\nThis is essentially a flash calculation accounting for the mass balance and the 1st Law."
-  },
-  {
-    "objectID": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#the-takeaways-1",
-    "href": "balances/entropy/118-TurbCompPumpNozzVisualsOld.html#the-takeaways-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nPumps and nozzles all have efficiencies that compare the real or actual case with the isentropic case.\nValves or throttles have such large irreversibilities that no efficiency is calculated.\nWe modeled pumps for incompressible fluids only.\nNozzles and throttles were modeled for both steam and ideal gas."
+    "text": "The Takeaways\n\nThe calculation of a realistic Rankine cycle starts by doing the calculation for an ideal or isentropic cycle, and adding in the effects of a turbine efficiency and a pump efficiency.\nCalculation of the final entropies at the outlet of the turbine, and the outlet of the pump are not necessary for the efficiency calculation. Doing the turbine exit is easy. Doing the pump exit is difficult.\nDWSIM has all of the tools necessary to set up and calculate process flow diagrams for Rankine cycles."
   },
   {
     "objectID": "balances/entropy/126-RefrigerationVisuals.html#section",

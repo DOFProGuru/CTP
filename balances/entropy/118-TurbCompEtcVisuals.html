@@ -137,13 +137,17 @@
 <section id="introduction" class="slide level2">
 <h2>Introduction</h2>
 <p>These videos, <em>Entropy Made Me Do It</em>, <em>Part 1</em> and <em>Part 2</em> derive the equations for common items in power and refrigeration machinery.</p>
+<div class="fragment">
 <p><strong>Part 1</strong> discusses</p>
+</div>
 <ul>
 <li class="fragment">the turbine or expander</li>
 <li class="fragment">the adiabatic compressor</li>
 <li class="fragment">the isothermal compressor</li>
 </ul>
+<div class="fragment">
 <p>Part 2 discusses</p>
+</div>
 <ul>
 <li class="fragment">the pump</li>
 <li class="fragment">the nozzle</li>
@@ -153,17 +157,41 @@
 <section id="section" class="slide level2">
 <h2></h2>
 <p><em>Up First</em></p>
+<div class="fragment">
 <p><strong>Turbine</strong> – Steam or Combustion Gases</p>
 <p><strong>Expander</strong> – Compressed Gases</p>
+<p><img data-src="DWSIMTurbine.png" class="absolute" style="top: 20%; left: 45%; width: 30%; "></p>
+<p><img data-src="TurbineIcon.png" class="absolute" style="top: 19%; left: 75%; width: 30%; "></p>
+</div>
+<div class="fragment">
 <p><strong>Inputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span></p>
-<p><strong>Ouputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> or <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
+<p><strong>Outputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> or <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
 <p>Goal is work output</p>
+</div>
+<div class="fragment">
 <p><em>Then</em></p>
+</div>
+<div class="fragment">
 <p><strong>Compressor</strong></p>
+<p><img data-src="DWSIMCompressor.png" class="absolute" style="top: 60%; left: 40%; width: 30%; "></p>
+<p><img data-src="CompressorIcon.png" class="absolute" style="top: 60%; left: 72%; width: 30%; "></p>
+</div>
+<div class="fragment">
 <p>Goal is pressure increase of gas</p>
+</div>
+<div class="fragment">
 <p><strong>Inputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span></p>
-<p><strong>Ouputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
+<p><strong>Outputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
 <p>Have to input work</p>
+</div>
 </section>
 <section id="turbine-or-expander" class="slide level2">
 <h2>Turbine or Expander</h2>
@@ -179,59 +207,116 @@
 <section id="turbine-or-expander-1" class="slide level2">
 <h2>Turbine or Expander</h2>
 <p>A turbine or expander takes a high-temperature and high-pressure steam or gas mixture and sends it through a series of blades, called stator blades and rotor blades, and expands it to create power or shaft work.</p>
+<div class="fragment">
 <p><strong>1<sup>st</sup> Law</strong></p>
-<p>Steam</p>
+</div>
+<div class="fragment">
+<p><em>Steam</em></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta \dot{H} = \dot{W}_s = \dot{m} \Delta \hat{H} = \dot{m} (\hat{H}_\mathrm{out} - \hat{H}_\mathrm{in})\]</span></p>
-<p>Ideal Gas</p>
+</div>
+<div class="fragment">
+<p><em>Ideal Gas</em></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta \dot{H} = \dot{W}_s = \dot{n} \Delta \hat{H} = \dot{n} \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} C_p dT = \dot{n} C_p (T_\mathrm{out} - T_\mathrm{in})\]</span></p>
+</div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<p>Turbine or Expander</p>
+<p><strong>Turbine or Expander</strong></p>
 <p>A real turbine has a turbine efficiency, that compares its performance with that of an isentropic turbine.</p>
+<div class="fragment">
 <p><span class="math display">\[\eta_\mathrm{turbine} = \frac{\dot{W}_{s\text{-actual}}}{\dot{W}_{s\text{-isentropic}}} = \frac{\Delta \hat{H}_{\text{actual}}}{\Delta \hat{H}_{\text{isentropic}}}\]</span></p>
+</div>
+<div class="fragment">
 <p>Calculating the isentropic values</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta \hat{S} = 0\]</span></p>
-<p>Steam</p>
-<p><span class="math inline">\(\hat{S}_\mathrm{out} = \hat{S}_\mathrm{in}\)</span> <span class="math inline">\(x = \dfrac{\hat{S}_\mathrm{in}-\hat{S}_l}{\hat{S}_v-\hat{S}_l}\)</span></p>
+</div>
+<div class="fragment">
+<p><em>Steam</em></p>
+</div>
+<div class="fragment absolute" style="top: 70%; left: 42%; ">
+<p><span class="math display">\[\hat{S}_\mathrm{out} = \hat{S}_\mathrm{in}\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 80%; left: 39.5%; ">
+<p><span class="math display">\[x = \dfrac{\hat{S}_\mathrm{in}-\hat{S}_l}{\hat{S}_v-\hat{S}_l}\]</span></p>
+</div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
 <p>To calculate the outlet enthalpy</p>
 <p><span class="math display">\[\hat{H}_\mathrm{out} = x \hat{H}_v + (1 - x) \hat{H}_l\]</span></p>
+<div class="fragment">
 <p><span class="math display">\[\Delta \hat{H}_\mathrm{isentropic} = \hat{H}_\mathrm{out} - \hat{H}_\mathrm{in}\]</span></p>
-<p>Ideal Gas</p>
+</div>
+<div class="fragment">
+<p><em>Ideal Gas</em></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta \hat{S} = 0 = C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}\]</span></p>
-<p><span class="math display">\[C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{T_\mathrm{out}}{T_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}\]</span></p>
+</div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
 <p>Substitute in for <span class="math inline">\(\Delta T\)</span>.</p>
-<p><span class="math display">\[\begin{align}
-\Delta \hat{H}_\mathrm{isentropic} &amp;= C_p \Delta T = C_p (T_\mathrm{out} - T_\mathrm{in})
-\\
-\\&amp;= C_p T_\mathrm{in} \left[\left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p} - 1\right]
-\end{align}\]</span></p>
+<div class="fragment">
+<div style="font-size: 95px;">
+<p><span class="math display">\[
+\Delta \hat{H}_\mathrm{isentropic} = C_p \Delta T = C_p (T_\mathrm{out} - T_\mathrm{in}) = C_p T_\mathrm{in} \left[\left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p} - 1\right]
+\]</span></p>
+</div>
+</div>
+<div class="fragment">
 <p>Calculating actual properties</p>
-<p>Steam</p>
+</div>
+<div class="fragment">
+<p><em>Steam</em></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\eta_\mathrm{turbine} = \frac{\Delta \hat{H}_{\text{actual}}}{\Delta \hat{H}_{\text{isentropic}}}\]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\hat{H}_{\text{out-actual}} = \eta_\mathrm{turbine} \Delta \hat{H}_{\text{isentropic}} + \hat{H}_{\text{in}}\]</span></p>
+</div>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
 <p>Calculating actual quality and entropy for steam</p>
+<div class="fragment">
 <p><span class="math display">\[x_\mathrm{actual} = \dfrac{\hat{H}_\text{out-actual}-\hat{H}_l}{\hat{H}_v-\hat{H}_l}\]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\hat{S}_\text{out-actual}=x_\mathrm{actual}\hat{S}_v + (1 - x_\mathrm{actual}) \hat{S}_l\]</span></p>
+</div>
+<div class="fragment">
 <p>Calculating actual properties</p>
-<p>Ideal Gas</p>
+</div>
+<div class="fragment">
+<p><em>Ideal Gas</em></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\eta_\mathrm{turbine} = \frac{\Delta \hat{H}_{\text{actual}}}{\Delta \hat{H}_{\text{isentropic}}}\]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta \hat{H}_{\text{actual}} = \eta_\mathrm{turbine} \Delta \hat{H}_{\text{isentropic}}\]</span></p>
+</div>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
 <p><span class="math display">\[\Delta \hat{H}_{\text{actual}} = C_p \Delta T_\text{actual}\]</span></p>
+<div class="fragment">
 <p><span class="math display">\[T_\text{out-actual} = \frac{\Delta \hat{H}_{\text{actual}} }{C_p} + T_\mathrm{in}\]</span></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta \hat{S}_{\text{actual}} = C_p \ln \frac{T_\text{out-actual}}{T_\text{in}} - R \ln \frac{P_\text{out}}{P_\text{in}}\]</span></p>
+</div>
 </section>
 <section id="compressor" class="slide level2">
 <h2>Compressor</h2>
@@ -255,35 +340,69 @@
 <h2></h2>
 <p><strong>Adiabatic Compressor</strong></p>
 <p>A real adiabatic compressor has a compressor efficiency, that compares its performance with that of an isentropic compressor.</p>
+<div class="fragment absolute" style="top: 20%; left: 10%; ">
 <p><span class="math display">\[\eta_\mathrm{compressor} = \frac{\dot{W}_{s\text{-isentropic}}}{\dot{W}_{s\text{-actual}}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\Delta \hat{H}_{\text{actual}}}\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 40%; left: 0%; ">
 <p><strong>1<sup>st</sup> Law</strong></p>
+</div>
+<div class="fragment absolute" style="top: 40%; left: 5%; ">
 <p><span class="math display">\[\Delta \dot{H}_\mathrm{isentropic} = \dot{W}_{s\text{-isentropic}} = \dot{n} \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} C_p dT = \dot{n} C_p \Delta T\]</span></p>
+</div>
+<div class="fragment absolute" style="top: 65%; left: 0%; ">
 <p><strong>2<sup>nd</sup> Law</strong></p>
+</div>
+<div style="font-size: 90px;">
+<div class="fragment absolute" style="top: 70%; left: 5%; ">
 <p><span class="math display">\[\Delta \hat{S}_\mathrm{air} = \int\limits_{T_\mathrm{in}}^{T_\mathrm{out}} \frac{C_p}{T} dT - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}= C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}\]</span></p>
+</div>
+</div>
 </section>
 <section id="section-7" class="slide level2">
 <h2></h2>
 <p>Minimum work for <span class="math inline">\(\Delta \hat{S} = 0\)</span></p>
-<p><span class="math display">\[C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{T_\mathrm{out}}{T_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}\]</span></p>
+<div class="fragment">
+<p><span class="math display">\[C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}\]</span></p>
+</div>
+<div class="fragment">
 <p>Plug <span class="math inline">\(T_\mathrm{out}\)</span> back into 1<sup>st</sup> Law.</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\dot{W}_{s\text{-isentropic}} = \dot{n} C_p \Delta T\]</span></p>
+</div>
+<div class="fragment">
 <p>Calculate work and final enthalpy from efficiency</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\dot{W}_{s\text{-actual}} = \frac{\dot{W}_{s\text{-isentropic}}}{\eta_\mathrm{compressor}}\ \ \ \ \text{and}\ \ \ \ \Delta \hat{H}_{\text{actual}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\eta_\mathrm{compressor}}\]</span></p>
+</div>
+<div class="fragment">
 <p>If necessary, you can calculate actual outlet <span class="math inline">\(T\)</span> and entropy change.</p>
+</div>
 </section>
 <section id="section-8" class="slide level2">
 <h2></h2>
 <p><strong>Isothermal Compressor</strong></p>
 <p>A cooling-water jacket is often used to attempt to maintain the compressor at a constant temperature. An isothermal compressor uses much less power than an isentropic compressor, at the cost of a cooling system. A real isothermal compressor has a compressor efficiency, that compares its performance with that of an isothermal compressor.</p>
+<div class="fragment">
 <p><span class="math display">\[\eta_\mathrm{compressor} = \frac{\dot{W}_{s\text{-isothermal}}}{\dot{W}_{s\text{-actual}}}\]</span></p>
+</div>
+<div class="fragment">
 <p><strong>1<sup>st</sup> Law</strong></p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\Delta \dot{H}_\text{iso} = 0\ \ \ \ \text{and}\ \ \ \ \dot{Q} = - \dot{W}_{s\text{-iso}} = \dot{n} RT \ln \frac{P_1}{P_2}\]</span></p>
+</div>
 </section>
 <section id="section-9" class="slide level2">
 <h2></h2>
 <p>There is no need for the 2<sup>nd</sup> Law. Use the efficiency to calculate the actual work</p>
+<div class="fragment">
 <p><span class="math display">\[\dot{W}_{s\text{-actual}} = \frac{\dot{W}_{s\text{-isothermal}}}{\eta_\mathrm{compressor}}\]</span></p>
+</div>
+<div class="fragment">
 <p>If necessary, you can calculate actual enthalpy change, outlet <span class="math inline">\(T\)</span>, and entropy change.</p>
+</div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
