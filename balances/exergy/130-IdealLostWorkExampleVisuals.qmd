@@ -1,0 +1,276 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 2
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-65%"}
+
+##
+
+Between the time the narrator finished recording the narration and the final editing of the video, we came across the *CoolProp* property package in DWSIM. Its main purpose is to provide accurate calculation of vapor and liquid properties in cryogenic cycles. The narration states that we used the Peng-Robinson EoS in the calculations. We were unable to re-record the narration, but we were able to rerun the calculations using *CoolProp*. The displayed values are the *CoolProp* values, but they do not agree with the narration. We point out visually whenever we had to make these corrections.
+
+## Introduction
+
+- Part 1
+  - Explained how to calculate the thermodynamic efficiency
+    - From the maximum possible work produced
+    - Or from the minimum possible work requred
+  - Called a Second Law analysis
+- **Part 2**, we’ll work an example after reviewing the Combined 1^st^ and 2^nd^ laws.
+
+
+##
+
+:::{style="font-size: 135px; font-weight: bold;"}
+The Combined 1st and 2nd Law<br/>Open Steady-State System
+:::
+
+::::{.columns}
+
+::: {style="font-size: 60px"}
+<br/>
+:::
+
+$\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + (\Delta \dot{H} + \Delta \dot{E}_k + \Delta \dot{E}_p - T_\sigma \Delta \dot{S})_\mathrm{fs}$
+
+::: {style="font-size: 60px"}
+<br/>
+:::
+
+:::{.fragment}
+On a mass basis
+:::
+
+::: {style="font-size: 60px"}
+<br/>
+:::
+
+:::{style="font-size: 70px;"}
+:::{.fragment}
+$\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + \sum\limits_{\text{out}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S}) - \sum\limits_{\text{in}} \dot{m}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S})$
+:::
+:::
+
+::: {style="font-size: 60px"}
+<br/>
+:::
+
+:::{.fragment}
+On a mole basis
+:::
+
+::: {style="font-size: 60px"}
+<br/>
+:::
+
+:::{style="font-size: 70px;"}
+:::{.fragment}
+$\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + \sum\limits_{\text{out}} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S}) - \sum\limits_{\text{in}} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S})$
+:::
+:::
+::::
+
+
+## Steps
+
+1. Solve the original problem. Determine all needed flows, enthalpies, entropies, temperatures, heat flows and work flows.  
+2. Create a table with the information in Step 1. Then for each process or unit operation in the system:  
+3. Solve for the ideal work, $\dot{W}_\mathrm{ideal}$  
+4. Solve for the lost work, $\dot{W}_\mathrm{lost}$  
+5. Solve for the thermodynamic efficiency, $\eta_t$  
+6. Determine which parts of the process contribute the most to the lost work.
+
+## Example
+
+![](ExergyExamplePFD){.absolute top=7%}
+
+:::{.absolute top=43%}
+:::{style="font-size:65px;"}
+::: {.fragment}
+100 moles per second of methane at 300 K and one bar enters the system in Stream 1. It is then compressed and cooled in a multistage compressor with inter- and aftercooling. The unspecified heat from the cooling is rejected to the ambient at $T_\sigma$ of 300 K. The compressor has a work input of 1678 kilojoules per second or 1678 kilowatts. The methane exits the compressor at 300 K and 70 bar.
+<br/><br/>
+:::
+::: {.fragment}
+The compressed methane then passes through a heat exchanger and exchanges heat with the non-liquified methane from the throttle valve. The compressed methane exits the heat exchanger at 207.8 K and 70 bar. The heat exchanger has a leak of 8 kilojoules per second or 8 kilowatts of heat entering from the ambient at 300 K.
+<br/><br/>
+:::
+::: {.fragment}
+The compressed and cooled methane enters a throttle valve and separator, where it is expanded to one bar and the liquified methane is separated from the still-gaseous methane and sold as LNG or liquified natural gas. The exiting temperature and flow rates have not been specified, but the exiting liquid is in equilibrium with the exiting vapor.
+:::
+:::
+:::
+
+##
+
+**Step 1 – Solve the Mole and Energy Balance**
+
+![](ExergyExamplePFD){.absolute top=7% left=15% width=70%}
+
+::: {.fragment .absolute top=35%}
+Calculations are done with the *CoolProp* property package, not *Peng-Robinson*. 
+:::
+
+::: {.fragment}
+![](ExergyDWSIMTable){.absolute top=50% left=0% width=100%}
+:::
+
+## 
+
+**Step 1 (cont.)**
+
+![](ExergyExamplePFD){.absolute top=7% left=15% width=70%}
+
+::: {.absolute top=35%}
+::: {style="font-size: 75px;"}
+Calculations are done with the *CoolProp* property package, not *Peng-Robinson*.
+<br/><br/>
+:::
+
+**Compressor/Cooler**
+<br/><br/>
+
+::: {.fragment}
+$\Delta \dot{H} = \dot{Q} + \dot{W}_s$
+<br/><br/>
+:::
+::: {.fragment}
+$\dot{Q} = \Delta \dot{H} - \dot{W}_s = \dot{H}_2 - \dot{H}_1 - \dot{W}_s$
+$\ \ \ = 1355.80 - 1466.44 - 1678 = -1789\ \mathrm{kW}$
+:::
+:::
+
+## 
+
+**Step 1 (cont.)**
+
+![](ExergyExamplePFD){.absolute top=7% left=15% width=70%}
+
+::: {.absolute top=35%}
+::: {style="font-size: 75px;"}
+Calculations are done with the *CoolProp* property package, not *Peng-Robinson*.
+<br/><br/>
+:::
+
+**HX/Valve/Separator**
+<br/><br/>
+
+::: {.fragment}
+$\Delta \dot{H} = \dot{Q}$
+<br/><br/>
+:::
+::: {.fragment}
+$\dot{H}_4 + \dot{H}_6 - \dot{H}_2 = \dot{Q}$
+<br/><br/>
+:::
+::: {.fragment}
+$\dot{m}[(1-x)\hat{H}_4 + x\hat{H}_6 - \hat{H}_2] = \dot{Q}$
+:::
+:::
+
+## 
+
+**Step 1 (cont.)**
+
+::: {.absolute top=10% left=5%}
+$\hat{H}_4 - \hat{H}_2 +x(\hat{H}_6 - \hat{H}_4) = \frac{\dot{Q}}{\dot{m}}$
+:::
+::: {.fragment .absolute top=25% left=5%}
+$x = \dfrac{\frac{\dot{Q}}{\dot{m}} + \hat{H}_2 - \hat{H}_4}{\hat{H}_6 - \hat{H}_4}$
+:::
+::: {.fragment .absolute top=45% left=5%}
+$\ \ = \dfrac{\frac{8}{1.604}+845.129-(-0.557)}{902.947-(-0.557)} = 0.9415$
+:::
+::: {.fragment .absolute top=63% left=5%}
+$\dot{n}_6 = x \dot{n}_3 = 94.15\ \mathrm{\frac{mol}{s}},\ \ \ \ \ \ \ \ \ \ \ \ \dot{m}_6 = 1.5104\ \mathrm{\frac{kg}{s}}$
+:::
+::: {.fragment .absolute top=73% left=5%}
+$\dot{n}_4 = (1 - x) \dot{n}_3 = 5.85\ \mathrm{\frac{mol}{s}},\ \ \ \ \dot{m}_4 = 0.0938\ \mathrm{\frac{kg}{s}}$
+:::
+
+##
+
+**Step 2 – Create Flows and Properties Table**
+
+![](ExergyExamplePFD){.absolute top=7% left=15% width=70%}
+
+::: {.absolute top=35%}
+::: {style="font-size: 75px;"}
+Calculations are done with the *CoolProp* property package, not *Peng-Robinson*. 
+:::
+:::
+
+![](130_2ndLawTable.png){.absolute top=43% left=0%}
+
+##
+
+**Steps 3, 4, 5 – Calculate $\dot{W}_{\text{ideal}}\ $, $\dot{W}_{\text{lost}}\ $, and $\eta_t$**
+
+::: {.absolute top=10% left=5%}
+$\dot{W}_{\text{ideal}} = \Delta \dot{H} - T_\sigma \Delta \dot{S} - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i$
+:::
+::: {.fragment .absolute top=25% left=5%}
+$\dot{W}_{\text{ideal}} = \Delta \dot{H} - T_\sigma \Delta \dot{S}$
+:::
+::: {.fragment .absolute top=37% left=5%}
+$\dot{W}_{\text{lost}}  = \dot{W}_s - \dot{W}_{\text{ideal}}$
+:::
+::: {.fragment .absolute top=50% left=5%}
+$\eta_t = \frac{\dot{W}_\mathrm{ideal}}{\dot{W}_{s}}$ for processes that require work.
+:::
+::: {.fragment .absolute top=64% left=5%}
+$\eta_t = \frac{\dot{W}_{s}}{\dot{W}_\mathrm{ideal}}$ for processes that produce work.
+:::
+## 
+
+**Step 3,4,5 (cont.)**
+
+![](ExergyExamplePFD){.absolute top=0% left=25% width=50%}
+
+![](130-2ndLawTables.png){.absolute top=20%}
+
+::: {.absolute bottom=0%}
+::: {style="font-size: 75px;"}
+Calculations are done with the *CoolProp* property package, not *Peng-Robinson*. 
+:::
+:::
+
+## 
+
+**Step 6 – Determine contributions to $\dot{W}_{\text{lost}}$**
+
+![](130-2ndLawBreakdown.png){.absolute top=10% left=17%}
+
+![](ExergyExamplePFD){.absolute top=45%}
+
+## The Takeaways
+
+1. The first step in using the combined First and Second Law is to fully solve the problem with flows, enthalpies, and entropies.
+2. The most common version of the combined law is for open steady-state systems.
+3.  You will only have to use the heat term if you have a heat reservoir either above or below the ambient. Heat transfer with the ambient doesn’t count for the combined law.
+4.  The combined First and Second Law helps identify which parts of a process contribute most to lost work or inefficiency, but it doesn’t tell you how to fix the issues.
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->

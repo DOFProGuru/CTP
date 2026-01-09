@@ -108,8 +108,10 @@ $\mathrm{H_2O}$
 
 ![](RefrigeratorCooling.png){.absolute left=20%}
 
-::: {.fragment .absolute top=56% left=0%}
+::: {.fragment .absolute top=54% left=0%}
+::: {style="font-size: 92px;"}
 $\boxed{\dot{W}_s\text{ into system (Oops)}}$
+:::
 :::
 
 ::: {.absolute top=13% left=25%}
@@ -150,6 +152,7 @@ $|\dot{W}_s|$
 Ambient, $T_\sigma$
 :::
 :::
+
 ## 3. Infinitesimal Carnot Engines
 
 ![](CarnotCooling.png){.absolute left=5%}
@@ -449,7 +452,7 @@ On a mole basis
 
 :::{style="font-size: 70px;"}
 :::{.fragment}
-$\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + \sum\limits_{\text{out}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_\sigma \bar{S}) - \sum\limits_{\text{in}} \dot{n}_i (\bar{H} + \bar{E}_k + \bar{E}_p - T_\sigma \bar{S})$
+$\dot{W}_{\text{ideal}} = - \sum \left(1 - \dfrac{T_\sigma}{T_i}\right) \dot{Q}_i + \sum\limits_{\text{out}} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S}) - \sum\limits_{\text{in}} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p - T_\sigma \hat{S})$
 :::
 :::
 ::::

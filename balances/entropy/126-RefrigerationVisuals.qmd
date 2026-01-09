@@ -20,6 +20,10 @@ DOFPro Team
 
 ##
 
+Between the time the narrator finished recording the narration and the final editing of the video, we came across the *CoolProp* property package in DWSIM. Its main purpose is to provide accurate calculation of refrigerant properties in refrigeration cycles. The narration states that no such method exists in DWSIM. We were unable to re-record the narration, but we were able to rerun the calculations using *CoolProp*. The displayed values are the *CoolProp* values, but they do not agree with the narration. We point out visually whenever we had to make these corrections.
+
+##
+
 This video explains
 
  - The coefficient of performance
@@ -62,8 +66,9 @@ In a heat engine you want to generate work. You do so by converting as much of t
 $$\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|}$$
 :::
 
+::: {.fragment}
 Again, it’s what you want divided by what you pay for. The efficiency of a Carnot engine is:
-
+:::
 
 ::: {.fragment}
 $$\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|} = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}$$
@@ -163,664 +168,148 @@ $$\dfrac{|Q_\mathrm{hot}|}{|W|} = \dfrac{T_\mathrm{hot}}{T_\mathrm{hot} - T_\mat
 
 ## Vapor Compression Cycle
 
-![](T-s_diagram_VapComp.png)
-
+![](T-s_diagram_VapCompExp.png){.absolute bottom=0%}
 
 ## Vapor Compression Cycle
 
-![](T-s_diagram_VapCompExp.png)
+![](T-s_diagram_VapCompExpAlpha.png){.absolute bottom=0%}
 
-## Old Video
-
-![](HeatEngine.png){.absolute top=17% right=0% width=22%}
-
-::: {.absolute top=21% right=8.5%}
-$T_\mathrm{hot}$
-:::
-
-::: {.absolute top=59% right=8%}
-$T_\mathrm{cold}$
-:::
-
-::: {.absolute top=30% right=1.5%}
-$|Q_\mathrm{hot}|$
-:::
-
-::: {.absolute top=50% right=0.5%}
-$|Q_\mathrm{cold}|$
-:::
-
-::: {.absolute top=43% right=1.75%}
-$|W|$
-:::
-
-:::: {.columns}
-
-::: {.column width="78%"}
-The efficiency of any heat engine operating between the two heat reservoirs is defined as:
-
-::: {.fragment}
-$$\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|}$$
-:::
-
-::: {style="font-size: 94px;"}
-::: {.fragment}
-What is the relationship between $Q_\mathrm{hot}$ and $Q_\mathrm{cold}$?
-:::
-
-::: {style="font-size: 20px;"}
-</br>
-:::
-
-::: {.fragment}
-Assume a cyclic process on a closed system with negligible kinetic and potential energy changes.
-:::
-:::
-
-::: {style="font-size: 20px;"}
-</br>
-:::
-
-::: {.fragment}
-1^st^ Law (system is engine)
-:::
-::: {.fragment}
-$$\Delta{U} = Q + W = 0$$
-:::
-::: {.fragment}
-$$-W = Q_\mathrm{hot} + Q_\mathrm{cold}$$
-:::
-::: {.fragment}
-$$|W| = |Q_\mathrm{hot}| - |Q_\mathrm{cold}|$$
-:::
-
-:::
-::::
-
-##
-
-![](HeatEngine.png){.absolute top=17% right=0% width=22%}
-
-::: {.absolute top=21% right=8.5%}
-$T_\mathrm{hot}$
-:::
-
-::: {.absolute top=59% right=8%}
-$T_\mathrm{cold}$
-:::
-
-::: {.absolute top=30% right=1.5%}
-$|Q_\mathrm{hot}|$
-:::
-
-::: {.absolute top=50% right=0.5%}
-$|Q_\mathrm{cold}|$
-:::
-
-::: {.absolute top=43% right=1.75%}
-$|W|$
-:::
-
-:::: {.columns}
-
-::: {.column width="78%"}
-- What is the maximum possible amount of work?
-- What is the minimum amount of heat rejected?
-
-::: {.fragment}
-Any engine which operates between these two reservoirs and produces the greatest possible work while rejecting the minimum amount of heat is called a *Carnot engine*. The efficiency of a Carnot engine is:
-:::
-
-::: {.fragment}
-$$\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|} = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}$$
-:::
-::: {.fragment}
-What is the relationship between $Q_\mathrm{hot}$ and $Q_\mathrm{cold}$ for a Carnot engine?
-:::
-
-:::
-::::
+![](VaporCompressionIcons.png){.absolute top=7%}
 
 ## 
 
-![](HeatEngine.png){.absolute top=17% right=0% width=22%}
+![](VaporCompressionIcons.png){.absolute top=5% left=25% width=50%}
 
-::: {.absolute top=21% right=8.5%}
-$T_\mathrm{hot}$
+::: {style="font-size: 75px;"}
+::: {.absolute top=0% left=40%}
+$|\dot{Q}_\mathrm{hot}|\ \uparrow$
+:::
+::: {.absolute top=25% left=40%}
+$|\dot{Q}_\mathrm{cold}| \uparrow$
+:::
+::: {.absolute top=25% left=63%}
+$|\dot{W}_s|$
+:::  
 :::
 
-::: {.absolute top=59% right=8%}
-$T_\mathrm{cold}$
-:::
-
-::: {.absolute top=30% right=1.5%}
-$|Q_\mathrm{hot}|$
-:::
-
-::: {.absolute top=50% right=0.5%}
-$|Q_\mathrm{cold}|$
-:::
-
-::: {.absolute top=43% right=1.75%}
-$|W|$
-:::
-
-:::: {.columns}
-
-::: {.column width="78%"}
-From the 1^st^ Law (system is engine)
+::: {.absolute top=25%}
 
 ::: {.fragment}
-$$-W = Q_\mathrm{hot} + Q_\mathrm{cold}$$
+**Evaporator**
 :::
 ::: {.fragment}
-Combining with the efficiency
+$\ \ \ \ \ \ \dot{Q}_\mathrm{cold} = \dot{m} \Delta \hat{H} = \dot{m} \left(\hat{H}_\mathbf{b} -\hat{H}_\mathbf{a} \right)$
 :::
 ::: {.fragment}
-$$\frac{Q_\mathrm{hot} + Q_\mathrm{cold}}{Q_\mathrm{hot}} = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}$$
+Inlet enthalpy comes from isenthalpic valve.
 :::
 ::: {.fragment}
-or
+Outlet enthalpy is saturated vapor at $T_\mathrm{evap}$, $P_\mathrm{evap}$.
 
-$$\frac{Q_\mathrm{hot}}{T_\mathrm{hot}}=-\frac{Q_\mathrm{cold}}{T_\mathrm{cold}}$$
 :::
 :::
-::::
 
-## 
-
-![](HeatEngine.png){.absolute top=17% right=0% width=22%}
-
-::: {.absolute top=21% right=8.5%}
-$T_\mathrm{hot}$
-:::
-
-::: {.absolute top=59% right=8%}
-$T_\mathrm{cold}$
-:::
-
-::: {.absolute top=30% right=1.5%}
-$|Q_\mathrm{hot}|$
-:::
-
-::: {.absolute top=50% right=0.5%}
-$|Q_\mathrm{cold}|$
-:::
-
-::: {.absolute top=43% right=1.75%}
-$|W|$
-:::
-
-:::: {.columns}
-
-::: {.column width="78%"}
-Imagine an actual reversible cycle
-
+::: {.absolute top=60%}
 ::: {.fragment}
-![](GenericCycle.png){.absolute bottom=0% left=0% width=60%}
+**Compressor**
 :::
 ::: {.fragment}
-</br>Approximate the cycle with infinitesimal Carnot engines
+$\ \ \ \ \ \ \dot{W}_s = \dot{m} \Delta \hat{H} = \dot{m} \left(\hat{H}_\mathbf{c} -\hat{H}_\mathbf{b} \right)$
 :::
-::: {.fragment}
-![](GenericCycleWCarnot.png){.absolute bottom=0% left=0% width=60%}
-:::
-::: {.fragment}
-$$\frac{dQ_\mathrm{hot}}{dT_\mathrm{hot}} + \frac{dQ_\mathrm{cold}}{dT_\mathrm{cold}}=0$$
-:::
-
-:::
-::::
-
-
-
-## 
-
-Integrate over all
-
-$$\int \frac{dQ}{T}=\int \frac{dQ_\mathrm{hot}}{dT_\mathrm{hot}} + \int \frac{dQ_\mathrm{cold}}{dT_\mathrm{cold}}=0$$
-
-![](GenericCycle.png){.absolute bottom=10% right=0% width=50%}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-::: {.fragment}
-Note that if the loop integral is zero,
-:::
-::: {.fragment}
-$$\oint\limits_{\substack{\mathrm{A–B} \\ \mathrm{path\ 1}}} \frac{dQ}{T} = \oint\limits_{\substack{\mathrm{A–B} \\ \mathrm{path\ 2}}} \frac{dQ}{T}$$
-:::
-::: {.fragment}
-What kind of function is independent of path?
-:::
-:::
-::::
-
-## 
-
-Let us define a new state function, called *entropy*.
-
-::: {.fragment}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$\Delta S = \int\limits_\mathrm{A}^\mathrm{B} \dfrac{dQ_\mathrm{Carnot}}{T}$
-:::
-::: {.fragment}
-or
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$dS = \dfrac{dQ_\mathrm{carnot}}{T}$
-:::
-::: {.fragment}
-</br>If
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$Q \neq Q_\mathrm{Carnot}$
-:::
-::: {.fragment}
-</br>then
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$dS = \dfrac{dQ}{T} + \dfrac{dW_\mathrm{lost}}{T}$
-:::
-
 ::: {style="font-size: 95px;"}
 ::: {.fragment}
-</br>Since $S$ is a state function, any path can be used to evaluate $\Delta S$.
+Inlet enthalpy, entropy are from saturated vapor at $T_\mathrm{evap}$, $P_\mathrm{evap}$.
+:::
+::: {.fragment}
+Outlet enthalpy comes from property table at $P_\mathrm{comp}$, $\hat{S}_\mathbf{c}$.
+
+For isentropic, $\hat{S}_\mathbf{c} = \hat{S}_\mathbf{b}$
+:::
 :::
 :::
 
-##
+## 
 
-:::{style="font-size: 135px;"}
-**Mathematical Statement of the Second Law**
-:::
-:::{style="font-size: 40px;"}
-<br/>
-:::
-
-<center> $dW_{\mathrm{lost}} \geq 0$ </center>
-
-:::{style="font-size: 40px;"}
-<br/>
-:::
-
-:::{.fragment}
-or
-:::
-:::{.fragment}
-<center> $\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0$ </center>
-:::
-:::{style="font-size: 40px;"}
-<br/>
-:::
-
-:::{.fragment}
-$S$ can be thought of as the reversible normalized heat transfer or as
-the degree of randomness or disorder.
-:::
-:::{style="font-size: 40px;"}
-<br/>
-:::
-
-:::{.fragment}
-Remember:
-:::
-
-:::{.fragment}
-<center> $\Delta S_{\mathrm{system}} \text{ or } \Delta S_{\mathrm{surroundings}}$ </center>
-:::
-
-:::{style="font-size: 40px;"}
-<br/>
-:::
-
-:::{.fragment}
-can be less than zero. But
-:::
-
-:::{style="font-size: 40px;"}
-<br/>
-:::
-
-:::{.fragment}
-<center> $\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0$ </center>
-:::
-
-:::{.fragment}
-</br>What is $\Delta S$ for a cyclic process?
-:::
-
-## Example
-
-Analyze the following process. Is it possible?
-
-![](HeatEngine.png){.absolute top=17% left=0% width=22%}
+![](VaporCompressionIcons.png){.absolute top=5% left=25% width=50%}
 
 ::: {style="font-size: 75px;"}
-::: {.absolute top=21% left=2%}
-$T_\mathrm{hot} = 500\ \mathrm{K}$
+::: {.absolute top=0% left=40%}
+$|\dot{Q}_\mathrm{hot}|\ \uparrow$
+:::
+::: {.absolute top=25% left=40%}
+$|\dot{Q}_\mathrm{cold}| \uparrow$
+:::
+::: {.absolute top=25% left=63%}
+$|\dot{W}_s|$
+:::  
 :::
 
-::: {.absolute top=60% left=2%}
-$T_\mathrm{cold} = 300\ \mathrm{K}$
-:::
-
-::: {.absolute top=30% left=11%}
-$|Q_\mathrm{hot}| = 1\ \mathrm{kJ/s}$
-:::
-
-::: {.absolute top=50% left=11%}
-$|Q_\mathrm{cold}| = 300\ \mathrm{J/s}$
-:::
-
-::: {.absolute top=43% left=14%}
-$|W| =\ ?$
-:::
-:::
-
-:::: {.columns}
-
-::: {.column width="35%"}
-:::
-
-::: {.column width="65%"}
-</br>
-
+::: {.absolute top=30%}
 ::: {.fragment}
-**1^st^ Law around engine**
+**Condenser**
 :::
 ::: {.fragment}
-Closed system
+$\ \ \ \ \ \ \dot{Q}_\mathrm{hot} = \dot{m} \Delta \hat{H} = \dot{m} \left(\hat{H}_\mathbf{d} -\hat{H}_\mathbf{c} \right)$
 :::
-::: {style="font-size: 40px;"}
-</br>
+::: {.fragment}
+Inlet enthalpy comes from compressor.
+:::
+::: {.fragment}
+Outlet enthalpy is saturated liquid at $T_\mathrm{cond}$, $P_\mathrm{cond}$.
+:::
+:::
+
+::: {.absolute top=65%}
+::: {.fragment}
+**Throttling Valve**
+:::
+::: {.fragment}
+$\ \ \ \ \ \ \Delta \dot{H}_s = 0 \implies \hat{H}_\mathbf{a} = \hat{H}_\mathbf{d}$
 :::
 
 ::: {.fragment}
-&nbsp;&nbsp;&nbsp;&nbsp;$\Delta U = 0 = Q + W$
-:::
-
-::: {style="font-size: 40px;"}
-</br>
-:::
-
-::: {.fragment}
-&nbsp;&nbsp;&nbsp;&nbsp;$Q = 1\ \mathrm{kJ/s} - 300\ \mathrm{J/s} = 700\ \mathrm{J/s}$
-:::
-
-::: {style="font-size: 40px;"}
-</br>
-:::
-
-::: {.fragment}
-&nbsp;&nbsp;&nbsp;&nbsp;$0 = 700\ \mathrm{J/s} + W$
-:::
-
-::: {style="font-size: 40px;"}
-</br>
-:::
-
-::: {.fragment}
-&nbsp;&nbsp;&nbsp;&nbsp;$W = -700\ \mathrm{J/s} = -700\ \mathrm{W}$
-:::
-:::
-::::
-
-## Example (cont.)
-
-Analyze the following process. Is it possible?
-
-![](HeatEngine.png){.absolute top=17% left=0% width=22%}
-
-::: {style="font-size: 75px;"}
-::: {.absolute top=21% left=2%}
-$T_\mathrm{hot} = 500\ \mathrm{K}$
-:::
-
-::: {.absolute top=60% left=2%}
-$T_\mathrm{cold} = 300\ \mathrm{K}$
-:::
-
-::: {.absolute top=30% left=11%}
-$|Q_\mathrm{hot}| = 1\ \mathrm{kJ/s}$
-:::
-
-::: {.absolute top=50% left=11%}
-$|Q_\mathrm{cold}| = 300\ \mathrm{J/s}$
-:::
-
-::: {.absolute top=43% left=14%}
-$|W| =\ ?$
+Outlet quality comes from property table at $T_\mathrm{evap}$, $P_\mathrm{evap}$.
 :::
 :::
 
-:::: {.columns}
+## 
 
-::: {.column width="35%"}
-:::
 
-::: {.column width="65%"}
-</br>
+![](T-s_diagram_VapCompExp.png){.absolute top=20% left=0% width=50%}
 
-::: {.fragment}
-**2^nd^ Law**
-:::
-
-::: {style="font-size: 30px;"}
-</br>
-:::
-
-::: {.fragment}
-&nbsp;&nbsp;&nbsp;&nbsp;$\Delta S_\mathrm{system} = 0$, Why?
-:::
-
-::: {style="font-size: 30px;"}
-</br>
-:::
-
-::: {.fragment}
-&nbsp;&nbsp;&nbsp;&nbsp;$\Delta S_\mathrm{surroundings} =\ ?$
-:::
-
-::: {style="font-size: 30px;"}
-</br>
-:::
-
-::: {.fragment}
-&nbsp;&nbsp;&nbsp;&nbsp;$\Delta S_\mathrm{500\ K\ reservoir} = \frac{-1000\ \mathrm{J/s}}{500\ \mathrm{K}} = -2 \frac{\mathrm{W}}{\mathrm{K}}$
-:::
-
-::: {style="font-size: 30px;"}
-</br>
-:::
-
-::: {.fragment}
-&nbsp;&nbsp;&nbsp;&nbsp;$\Delta S_\mathrm{300\ K\ reservoir} = \frac{300\ \mathrm{J/s}}{300\ \mathrm{K}}  = 1 \frac{\mathrm{W}}{\mathrm{K}}$
-:::
-
-::: {style="font-size: 30px;"}
-</br>
-:::
-
-::: {.fragment}
-&nbsp;&nbsp;&nbsp;&nbsp;$\Delta S_\mathrm{total} = 0 + (-2) + (1)$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$= -1 \frac{\mathrm{W}}{\mathrm{K}} < 0$
-:::
-
-::: {style="font-size: 30px;"}
-</br>
-:::
-
-::: {.fragment}
-What is the maximum possible work?
-:::
-:::
-::::
-
-## Example:
-
-What is the maximum work?
-
-![](HeatEngine.png){.absolute top=17% left=0% width=22%}
-
-::: {style="font-size: 75px;"}
-::: {.absolute top=21% left=2%}
-$T_\mathrm{hot} = 500\ \mathrm{K}$
-:::
-
-::: {.absolute top=60% left=2%}
-$T_\mathrm{cold} = 300\ \mathrm{K}$
-:::
-
-::: {.absolute top=30% left=11%}
-$|Q_\mathrm{hot}| = 1\ \mathrm{kJ/s}$
-:::
-
-::: {.absolute top=50% left=11%}
-$|Q_\mathrm{cold}| =\ ?$
-:::
-
-::: {.absolute top=43% left=14%}
-$|W| =\ ?$
-:::
-:::
-
-:::: {.columns}
-
-::: {.column width="32%"}
-:::
-
-::: {.column width="68%"}
-
-::: {.fragment}
-</br>**2^nd^ Law**
-:::
-::: {style="font-size: 30px;"}
-</br>
+:::{.absolute top=65% left=2.5%}
+**Vapor Compression Cycle**
 :::
 ::: {.fragment}
-&nbsp;&nbsp;$\Delta S_\mathrm{surr.} = \Delta S_\mathrm{500\ K\ res.} + \Delta S_\mathrm{300\ K\ res.}$
-:::
-::: {style="font-size: 30px;"}
-</br>
-:::
-::: {.fragment}
-&nbsp;&nbsp;$\Delta S_\mathrm{500\ K\ res.} = \frac{-1000\ \mathrm{J/s}}{500\ \mathrm{K}} = -2 \frac{\mathrm{W}}{\mathrm{K}}$
-:::
-::: {style="font-size: 30px;"}
-</br>
-:::
-::: {.fragment}
-&nbsp;&nbsp;$\Delta S_\mathrm{300\ K\ res.} = 0 - \Delta S_\mathrm{500\ K\ res.}$
+![](T-s_diagram_Rankine.png){.absolute top=20% right=0% width=50%}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$= 2 \frac{\mathrm{W}}{\mathrm{K}} = \frac{|Q_\mathrm{cold}|}{300\ \mathrm{K}}$
-:::
-::: {style="font-size: 30px;"}
-</br>
-:::
-::: {.fragment}
-&nbsp;&nbsp;$|Q_\mathrm{cold}| = 2 \frac{\mathrm{W}}{\mathrm{K}} \cdot 300\ \mathrm{K} = 600\ \mathrm{W}$
-:::
-::: {style="font-size: 30px;"}
-</br>
-:::
-::: {.fragment}
-&nbsp;&nbsp;$Q_\mathrm{net} = 1\ \mathrm{kW} - 600\ \mathrm{W} = 400\ \mathrm{W}$
-:::
-::: {style="font-size: 30px;"}
-</br>
-:::
-::: {.fragment}
-&nbsp;&nbsp;$0 = 400\ \mathrm{W} + W$
-:::
-::: {style="font-size: 30px;"}
-</br>
-:::
-::: {.fragment}
-&nbsp;&nbsp;$W = -400\ \mathrm{W}$
-:::
-:::
-::::
-
-## Example:
-
-What would you get from the Carnot efficiency?
-
-![](HeatEngine.png){.absolute top=17% left=0% width=22%}
-
-::: {style="font-size: 75px;"}
-::: {.absolute top=21% left=2%}
-$T_\mathrm{hot} = 500\ \mathrm{K}$
-:::
-
-::: {.absolute top=60% left=2%}
-$T_\mathrm{cold} = 300\ \mathrm{K}$
-:::
-
-::: {.absolute top=30% left=11%}
-$|Q_\mathrm{hot}| = 1\ \mathrm{kJ/s}$
-:::
-
-::: {.absolute top=50% left=11%}
-$|Q_\mathrm{cold}| =\ ?$
-:::
-
-::: {.absolute top=43% left=14%}
-$|W| =\ ?$
+:::{.absolute top=65% right=13%}
+**Rankine Cycle**
 :::
 :::
 
-:::: {.columns}
+## Pressure-Enthalpy Diagram
 
-::: {.column width="35%"}
-:::
+![](Log_ph_Plot_R134A_VC.png){.absolute top=5% left=0% width=75%}
 
-::: {.column width="65%"}
+![](VaporCompressionIcons.png){.absolute top=40% right=0% width=30%}
 
-::: {.fragment}
-</br>Using Carnot efficiency
-:::
-::: {style="font-size: 30px;"}
-</br>
-:::
 
-::: {.fragment}
-&nbsp;&nbsp;$\eta = \frac{|W|}{|Q_\mathrm{hot}|} = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}$
+## Vapor Compression DWSIM
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$= 1 - \frac{300}{500} = 0.400$
-:::
-::: {style="font-size: 30px;"}
-</br>
-:::
-::: {.fragment}
-&nbsp;&nbsp;$|W| = \eta |Q_\mathrm{hot}|$
+![](VapCompDWSIMCalc.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$= 0.400 \cdot 1\ \mathrm{kW} = 400\ \mathrm{W}$
-:::
-::: {style="font-size: 30px;"}
-</br>
-:::
-::: {.fragment}
-&nbsp;&nbsp;$W = -400\ \mathrm{W}$
-:::
-::: {style="font-size: 30px;"}
-</br>
-:::
-::: {style="font-size: 30px;"}
-</br>
-:::
-::: {.fragment}
-&nbsp;&nbsp;$|Q_\mathrm{cold}| = 1000\ \mathrm{W} - 400\ \mathrm{W} = 600\ \mathrm{W}$
-:::
-:::
-::::
+![](VapCompDWSIMExamp.png){.absolute bottom=2% left=25% width=50%}
+
+
 
 ## The Takeaways
 
-1. The thermal efficiency, $\eta$, of a heat engine is the work output (what you want) divided by the heat input (what you have to pay for).
-2. Entropy is a state function.
-3. The entropy change of a heat reservoir is the heat transferred to or from the reservoir divided by the absolute temperature of the reservoir.
-4. The Second Law of Thermodynamics states that the sum of the entropy change for the system and for the surroundings must be greater than or equal to zero.
-5. The Carnot thermal efficiency, $\eta_\mathrm{Carnot} = 1 - \dfrac{T_\mathrm{cold}}{T_\mathrm{hot}}$
+1. The purpose of a refrigerator is to remove heat at a low temperature and reject it at a high temperature. Its coefficient of performance is the magnitude of the heat removed over the magnitude of the work required.
+2. The purpose of a heat pump is to take heat at a low temperature and supply it at a high temperature. Its coefficient of performance is the magnitude of the heat supplied over the magnitude of the work required.
+3. Carnot refrigerators and heat pumps are modeled as Carnot engines running backwards.
+4. The most common refrigeration cycle is the vapor compression cycle, essentially a Rankine cycle running in reverse.
+
 
 
 # <!-- Approved Plain End -->
