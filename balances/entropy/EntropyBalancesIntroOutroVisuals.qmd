@@ -442,6 +442,11 @@ The DOFPro Team
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
 <!-- ****************************END Regular Intro/Outro ************************* -->
 
+##
+
+Between the time the narrator finished recording the narration and the final editing of the video, we came across the *CoolProp* property package in DWSIM. Its main purpose is to provide accurate calculation of refrigerant properties in refrigeration cycles. The narration states that no such method exists in DWSIM. We were unable to re-record the narration, but we were able to rerun the calculations using *CoolProp*. The displayed values are the *CoolProp* values, but they do not agree with the narration. We point out visually whenever we had to make these corrections.
+
+
 <!-- ******************************* Regular Intro/Outro ************************* -->
 # Video 127
 
@@ -541,5 +546,8 @@ The DOFPro Team
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
 <!-- ****************************END Regular Intro/Outro ************************* -->
 
+##
+
+Between the time the narrator finished recording the narration and the final editing of the video, we came across the *CoolProp* property package in DWSIM. Its main purpose is to provide accurate calculation of vapor and liquid properties in cryogenic cycles. The narration states that we used the Peng-Robinson EoS in the calculations. We were unable to re-record the narration, but we were able to rerun the calculations using *CoolProp*. The displayed values are the *CoolProp* values, but they do not agree with the narration. We point out visually whenever we had to make these corrections.
 
 <!-- ***************************** END ENER ************************* -->
