@@ -136,6 +136,10 @@
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
+<p>Between the time the narrator finished recording the narration and the final editing of the video, we came across the <em>CoolProp</em> property package in DWSIM. Its main purpose is to provide accurate calculation of refrigerant properties in refrigeration cycles. The narration states that no such method exists in DWSIM. We were unable to re-record the narration, but we were able to rerun the calculations using <em>CoolProp</em>. The displayed values are the <em>CoolProp</em> values, but they do not agree with the narration. We point out visually whenever we had to make these corrections.</p>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
 <p>This video explains</p>
 <ul>
 <li class="fragment">The coefficient of performance
@@ -146,7 +150,7 @@
 <li class="fragment">The vapor compression cycle calculations</li>
 </ul>
 </section>
-<section id="section-1" class="slide level2">
+<section id="section-2" class="slide level2">
 <h2></h2>
 <p><img data-src="HeatEngine.png" class="absolute" style="top: 17%; right: 0%; width: 22%; "></p>
 <div class="absolute" style="top: 21%; right: 8.5%; ">
@@ -170,13 +174,15 @@
 <div class="fragment">
 <p><span class="math display">\[\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|}\]</span></p>
 </div>
+<div class="fragment">
 <p>Again, it’s what you want divided by what you pay for. The efficiency of a Carnot engine is:</p>
+</div>
 <div class="fragment">
 <p><span class="math display">\[\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|} = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}\]</span></p>
 </div>
 </div></div>
 </section>
-<section id="section-2" class="slide level2">
+<section id="section-3" class="slide level2">
 <h2></h2>
 <p><img data-src="Refrigerator.png" class="absolute" style="top: 17%; right: 0%; width: 22%; "></p>
 <div class="absolute" style="top: 21.5%; right: 8.25%; ">
@@ -208,7 +214,7 @@
 </div>
 </div></div>
 </section>
-<section id="section-3" class="slide level2">
+<section id="section-4" class="slide level2">
 <h2></h2>
 <p><img data-src="Refrigerator.png" class="absolute" style="top: 17%; right: 0%; width: 22%; "></p>
 <div class="absolute" style="top: 21.5%; right: 8.25%; ">
@@ -242,538 +248,132 @@
 </section>
 <section id="vapor-compression-cycle" class="slide level2">
 <h2>Vapor Compression Cycle</h2>
-
-<img data-src="T-s_diagram_VapComp.png" class="r-stretch"></section>
+<p><img data-src="T-s_diagram_VapCompExp.png" class="absolute" style="bottom: 0%; "></p>
+</section>
 <section id="vapor-compression-cycle-1" class="slide level2">
 <h2>Vapor Compression Cycle</h2>
-
-<img data-src="T-s_diagram_VapCompExp.png" class="r-stretch"></section>
-<section id="old-video" class="slide level2">
-<h2>Old Video</h2>
-<p><img data-src="HeatEngine.png" class="absolute" style="top: 17%; right: 0%; width: 22%; "></p>
-<div class="absolute" style="top: 21%; right: 8.5%; ">
-<p><span class="math inline">\(T_\mathrm{hot}\)</span></p>
-</div>
-<div class="absolute" style="top: 59%; right: 8%; ">
-<p><span class="math inline">\(T_\mathrm{cold}\)</span></p>
-</div>
-<div class="absolute" style="top: 30%; right: 1.5%; ">
-<p><span class="math inline">\(|Q_\mathrm{hot}|\)</span></p>
-</div>
-<div class="absolute" style="top: 50%; right: 0.5%; ">
-<p><span class="math inline">\(|Q_\mathrm{cold}|\)</span></p>
-</div>
-<div class="absolute" style="top: 43%; right: 1.75%; ">
-<p><span class="math inline">\(|W|\)</span></p>
-</div>
-<div class="columns">
-<div class="column" style="width:78%;">
-<p>The efficiency of any heat engine operating between the two heat reservoirs is defined as:</p>
-<div class="fragment">
-<p><span class="math display">\[\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|}\]</span></p>
-</div>
-<div style="font-size: 94px;">
-<div class="fragment">
-<p>What is the relationship between <span class="math inline">\(Q_\mathrm{hot}\)</span> and <span class="math inline">\(Q_\mathrm{cold}\)</span>?</p>
-</div>
-<div style="font-size: 20px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>Assume a cyclic process on a closed system with negligible kinetic and potential energy changes.</p>
-</div>
-</div>
-<div style="font-size: 20px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>1<sup>st</sup> Law (system is engine)</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\Delta{U} = Q + W = 0\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[-W = Q_\mathrm{hot} + Q_\mathrm{cold}\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[|W| = |Q_\mathrm{hot}| - |Q_\mathrm{cold}|\]</span></p>
-</div>
-</div></div>
-</section>
-<section id="section-4" class="slide level2">
-<h2></h2>
-<p><img data-src="HeatEngine.png" class="absolute" style="top: 17%; right: 0%; width: 22%; "></p>
-<div class="absolute" style="top: 21%; right: 8.5%; ">
-<p><span class="math inline">\(T_\mathrm{hot}\)</span></p>
-</div>
-<div class="absolute" style="top: 59%; right: 8%; ">
-<p><span class="math inline">\(T_\mathrm{cold}\)</span></p>
-</div>
-<div class="absolute" style="top: 30%; right: 1.5%; ">
-<p><span class="math inline">\(|Q_\mathrm{hot}|\)</span></p>
-</div>
-<div class="absolute" style="top: 50%; right: 0.5%; ">
-<p><span class="math inline">\(|Q_\mathrm{cold}|\)</span></p>
-</div>
-<div class="absolute" style="top: 43%; right: 1.75%; ">
-<p><span class="math inline">\(|W|\)</span></p>
-</div>
-<div class="columns">
-<div class="column" style="width:78%;">
-<ul>
-<li class="fragment">What is the maximum possible amount of work?</li>
-<li class="fragment">What is the minimum amount of heat rejected?</li>
-</ul>
-<div class="fragment">
-<p>Any engine which operates between these two reservoirs and produces the greatest possible work while rejecting the minimum amount of heat is called a <em>Carnot engine</em>. The efficiency of a Carnot engine is:</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|} = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}\]</span></p>
-</div>
-<div class="fragment">
-<p>What is the relationship between <span class="math inline">\(Q_\mathrm{hot}\)</span> and <span class="math inline">\(Q_\mathrm{cold}\)</span> for a Carnot engine?</p>
-</div>
-</div></div>
+<p><img data-src="T-s_diagram_VapCompExpAlpha.png" class="absolute" style="bottom: 0%; "></p>
+<p><img data-src="VaporCompressionIcons.png" class="absolute" style="top: 7%; "></p>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
-<p><img data-src="HeatEngine.png" class="absolute" style="top: 17%; right: 0%; width: 22%; "></p>
-<div class="absolute" style="top: 21%; right: 8.5%; ">
-<p><span class="math inline">\(T_\mathrm{hot}\)</span></p>
+<p><img data-src="VaporCompressionIcons.png" class="absolute" style="top: 5%; left: 25%; width: 50%; "></p>
+<div style="font-size: 75px;">
+<div class="absolute" style="top: 0%; left: 40%; ">
+<p><span class="math inline">\(|\dot{Q}_\mathrm{hot}|\ \uparrow\)</span></p>
 </div>
-<div class="absolute" style="top: 59%; right: 8%; ">
-<p><span class="math inline">\(T_\mathrm{cold}\)</span></p>
+<div class="absolute" style="top: 25%; left: 40%; ">
+<p><span class="math inline">\(|\dot{Q}_\mathrm{cold}| \uparrow\)</span></p>
 </div>
-<div class="absolute" style="top: 30%; right: 1.5%; ">
-<p><span class="math inline">\(|Q_\mathrm{hot}|\)</span></p>
+<div class="absolute" style="top: 25%; left: 63%; ">
+<p><span class="math inline">\(|\dot{W}_s|\)</span></p>
 </div>
-<div class="absolute" style="top: 50%; right: 0.5%; ">
-<p><span class="math inline">\(|Q_\mathrm{cold}|\)</span></p>
 </div>
-<div class="absolute" style="top: 43%; right: 1.75%; ">
-<p><span class="math inline">\(|W|\)</span></p>
-</div>
-<div class="columns">
-<div class="column" style="width:78%;">
-<p>From the 1<sup>st</sup> Law (system is engine)</p>
+<div class="absolute" style="top: 25%; ">
 <div class="fragment">
-<p><span class="math display">\[-W = Q_\mathrm{hot} + Q_\mathrm{cold}\]</span></p>
+<p><strong>Evaporator</strong></p>
 </div>
 <div class="fragment">
-<p>Combining with the efficiency</p>
+<p><span class="math inline">\(\ \ \ \ \ \ \dot{Q}_\mathrm{cold} = \dot{m} \Delta \hat{H} = \dot{m} \left(\hat{H}_\mathbf{b} -\hat{H}_\mathbf{a} \right)\)</span></p>
 </div>
 <div class="fragment">
-<p><span class="math display">\[\frac{Q_\mathrm{hot} + Q_\mathrm{cold}}{Q_\mathrm{hot}} = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}\]</span></p>
+<p>Inlet enthalpy comes from isenthalpic valve.</p>
 </div>
 <div class="fragment">
-<p>or</p>
-<p><span class="math display">\[\frac{Q_\mathrm{hot}}{T_\mathrm{hot}}=-\frac{Q_\mathrm{cold}}{T_\mathrm{cold}}\]</span></p>
+<p>Outlet enthalpy is saturated vapor at <span class="math inline">\(T_\mathrm{evap}\)</span>, <span class="math inline">\(P_\mathrm{evap}\)</span>.</p>
 </div>
-</div></div>
-</section>
-<section id="section-6" class="slide level2">
-<h2></h2>
-<p><img data-src="HeatEngine.png" class="absolute" style="top: 17%; right: 0%; width: 22%; "></p>
-<div class="absolute" style="top: 21%; right: 8.5%; ">
-<p><span class="math inline">\(T_\mathrm{hot}\)</span></p>
 </div>
-<div class="absolute" style="top: 59%; right: 8%; ">
-<p><span class="math inline">\(T_\mathrm{cold}\)</span></p>
-</div>
-<div class="absolute" style="top: 30%; right: 1.5%; ">
-<p><span class="math inline">\(|Q_\mathrm{hot}|\)</span></p>
-</div>
-<div class="absolute" style="top: 50%; right: 0.5%; ">
-<p><span class="math inline">\(|Q_\mathrm{cold}|\)</span></p>
-</div>
-<div class="absolute" style="top: 43%; right: 1.75%; ">
-<p><span class="math inline">\(|W|\)</span></p>
-</div>
-<div class="columns">
-<div class="column" style="width:78%;">
-<p>Imagine an actual reversible cycle</p>
+<div class="absolute" style="top: 60%; ">
 <div class="fragment">
-<p><img data-src="GenericCycle.png" class="absolute" style="left: 0%; bottom: 0%; width: 60%; "></p>
+<p><strong>Compressor</strong></p>
 </div>
 <div class="fragment">
-<p><br>Approximate the cycle with infinitesimal Carnot engines</p>
-</div>
-<div class="fragment">
-<p><img data-src="GenericCycleWCarnot.png" class="absolute" style="left: 0%; bottom: 0%; width: 60%; "></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\frac{dQ_\mathrm{hot}}{dT_\mathrm{hot}} + \frac{dQ_\mathrm{cold}}{dT_\mathrm{cold}}=0\]</span></p>
-</div>
-</div></div>
-</section>
-<section id="section-7" class="slide level2">
-<h2></h2>
-<p>Integrate over all</p>
-<p><span class="math display">\[\int \frac{dQ}{T}=\int \frac{dQ_\mathrm{hot}}{dT_\mathrm{hot}} + \int \frac{dQ_\mathrm{cold}}{dT_\mathrm{cold}}=0\]</span></p>
-<p><img data-src="GenericCycle.png" class="absolute" style="bottom: 10%; right: 0%; width: 50%; "></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="fragment">
-<p>Note that if the loop integral is zero,</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\oint\limits_{\substack{\mathrm{A–B} \\ \mathrm{path\ 1}}} \frac{dQ}{T} = \oint\limits_{\substack{\mathrm{A–B} \\ \mathrm{path\ 2}}} \frac{dQ}{T}\]</span></p>
-</div>
-<div class="fragment">
-<p>What kind of function is independent of path?</p>
-</div>
-</div></div>
-</section>
-<section id="section-8" class="slide level2">
-<h2></h2>
-<p>Let us define a new state function, called <em>entropy</em>.</p>
-<div class="fragment">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(\Delta S = \int\limits_\mathrm{A}^\mathrm{B} \dfrac{dQ_\mathrm{Carnot}}{T}\)</span></p>
-</div>
-<div class="fragment">
-<p>or</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(dS = \dfrac{dQ_\mathrm{carnot}}{T}\)</span></p>
-</div>
-<div class="fragment">
-<p><br>If</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(Q \neq Q_\mathrm{Carnot}\)</span></p>
-</div>
-<div class="fragment">
-<p><br>then</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(dS = \dfrac{dQ}{T} + \dfrac{dW_\mathrm{lost}}{T}\)</span></p>
+<p><span class="math inline">\(\ \ \ \ \ \ \dot{W}_s = \dot{m} \Delta \hat{H} = \dot{m} \left(\hat{H}_\mathbf{c} -\hat{H}_\mathbf{b} \right)\)</span></p>
 </div>
 <div style="font-size: 95px;">
 <div class="fragment">
-<p><br>Since <span class="math inline">\(S\)</span> is a state function, any path can be used to evaluate <span class="math inline">\(\Delta S\)</span>.</p>
+<p>Inlet enthalpy, entropy are from saturated vapor at <span class="math inline">\(T_\mathrm{evap}\)</span>, <span class="math inline">\(P_\mathrm{evap}\)</span>.</p>
+</div>
+<div class="fragment">
+<p>Outlet enthalpy comes from property table at <span class="math inline">\(P_\mathrm{comp}\)</span>, <span class="math inline">\(\hat{S}_\mathbf{c}\)</span>.</p>
+<p>For isentropic, <span class="math inline">\(\hat{S}_\mathbf{c} = \hat{S}_\mathbf{b}\)</span></p>
+</div>
 </div>
 </div>
 </section>
-<section id="section-9" class="slide level2">
+<section id="section-6" class="slide level2">
 <h2></h2>
-<div style="font-size: 135px;">
-<p><strong>Mathematical Statement of the Second Law</strong></p>
+<p><img data-src="VaporCompressionIcons.png" class="absolute" style="top: 5%; left: 25%; width: 50%; "></p>
+<div style="font-size: 75px;">
+<div class="absolute" style="top: 0%; left: 40%; ">
+<p><span class="math inline">\(|\dot{Q}_\mathrm{hot}|\ \uparrow\)</span></p>
 </div>
-<div style="font-size: 40px;">
-<p><br></p>
+<div class="absolute" style="top: 25%; left: 40%; ">
+<p><span class="math inline">\(|\dot{Q}_\mathrm{cold}| \uparrow\)</span></p>
 </div>
-<center>
-<span class="math inline">\(dW_{\mathrm{lost}} \geq 0\)</span>
-</center>
-<div style="font-size: 40px;">
-<p><br></p>
+<div class="absolute" style="top: 25%; left: 63%; ">
+<p><span class="math inline">\(|\dot{W}_s|\)</span></p>
+</div>
+</div>
+<div class="absolute" style="top: 30%; ">
+<div class="fragment">
+<p><strong>Condenser</strong></p>
 </div>
 <div class="fragment">
-<p>or</p>
+<p><span class="math inline">\(\ \ \ \ \ \ \dot{Q}_\mathrm{hot} = \dot{m} \Delta \hat{H} = \dot{m} \left(\hat{H}_\mathbf{d} -\hat{H}_\mathbf{c} \right)\)</span></p>
 </div>
 <div class="fragment">
-<center>
-<span class="math inline">\(\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0\)</span>
-</center>
-</div>
-<div style="font-size: 40px;">
-<p><br></p>
+<p>Inlet enthalpy comes from compressor.</p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(S\)</span> can be thought of as the reversible normalized heat transfer or as the degree of randomness or disorder.</p>
+<p>Outlet enthalpy is saturated liquid at <span class="math inline">\(T_\mathrm{cond}\)</span>, <span class="math inline">\(P_\mathrm{cond}\)</span>.</p>
 </div>
-<div style="font-size: 40px;">
-<p><br></p>
+</div>
+<div class="absolute" style="top: 65%; ">
+<div class="fragment">
+<p><strong>Throttling Valve</strong></p>
 </div>
 <div class="fragment">
-<p>Remember:</p>
+<p><span class="math inline">\(\ \ \ \ \ \ \Delta \dot{H}_s = 0 \implies \hat{H}_\mathbf{a} = \hat{H}_\mathbf{d}\)</span></p>
 </div>
 <div class="fragment">
-<center>
-<span class="math inline">\(\Delta S_{\mathrm{system}} \text{ or } \Delta S_{\mathrm{surroundings}}\)</span>
-</center>
+<p>Outlet quality comes from property table at <span class="math inline">\(T_\mathrm{evap}\)</span>, <span class="math inline">\(P_\mathrm{evap}\)</span>.</p>
 </div>
-<div style="font-size: 40px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>can be less than zero. But</p>
-</div>
-<div style="font-size: 40px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<center>
-<span class="math inline">\(\Delta S_{\mathrm{system}} + \Delta S_{\mathrm{surroundings}} \geq 0\)</span>
-</center>
-</div>
-<div class="fragment">
-<p><br>What is <span class="math inline">\(\Delta S\)</span> for a cyclic process?</p>
 </div>
 </section>
-<section id="example" class="slide level2">
-<h2>Example</h2>
-<p>Analyze the following process. Is it possible?</p>
-<p><img data-src="HeatEngine.png" class="absolute" style="top: 17%; left: 0%; width: 22%; "></p>
-<div style="font-size: 75px;">
-<div class="absolute" style="top: 21%; left: 2%; ">
-<p><span class="math inline">\(T_\mathrm{hot} = 500\ \mathrm{K}\)</span></p>
-</div>
-<div class="absolute" style="top: 60%; left: 2%; ">
-<p><span class="math inline">\(T_\mathrm{cold} = 300\ \mathrm{K}\)</span></p>
-</div>
-<div class="absolute" style="top: 30%; left: 11%; ">
-<p><span class="math inline">\(|Q_\mathrm{hot}| = 1\ \mathrm{kJ/s}\)</span></p>
-</div>
-<div class="absolute" style="top: 50%; left: 11%; ">
-<p><span class="math inline">\(|Q_\mathrm{cold}| = 300\ \mathrm{J/s}\)</span></p>
-</div>
-<div class="absolute" style="top: 43%; left: 14%; ">
-<p><span class="math inline">\(|W| =\ ?\)</span></p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:35%;">
-
-</div><div class="column" style="width:65%;">
-<p><br></p>
-<div class="fragment">
-<p><strong>1<sup>st</sup> Law around engine</strong></p>
+<section id="section-7" class="slide level2">
+<h2></h2>
+<p><img data-src="T-s_diagram_VapCompExp.png" class="absolute" style="top: 20%; left: 0%; width: 50%; "></p>
+<div class="absolute" style="top: 65%; left: 2.5%; ">
+<p><strong>Vapor Compression Cycle</strong></p>
 </div>
 <div class="fragment">
-<p>Closed system</p>
+<p><img data-src="T-s_diagram_Rankine.png" class="absolute" style="top: 20%; right: 0%; width: 50%; "></p>
+<div class="absolute" style="top: 65%; right: 13%; ">
+<p><strong>Rankine Cycle</strong></p>
 </div>
-<div style="font-size: 40px;">
-<p><br></p>
 </div>
-<div class="fragment">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(\Delta U = 0 = Q + W\)</span></p>
-</div>
-<div style="font-size: 40px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(Q = 1\ \mathrm{kJ/s} - 300\ \mathrm{J/s} = 700\ \mathrm{J/s}\)</span></p>
-</div>
-<div style="font-size: 40px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(0 = 700\ \mathrm{J/s} + W\)</span></p>
-</div>
-<div style="font-size: 40px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(W = -700\ \mathrm{J/s} = -700\ \mathrm{W}\)</span></p>
-</div>
-</div></div>
 </section>
-<section id="example-cont." class="slide level2">
-<h2>Example (cont.)</h2>
-<p>Analyze the following process. Is it possible?</p>
-<p><img data-src="HeatEngine.png" class="absolute" style="top: 17%; left: 0%; width: 22%; "></p>
-<div style="font-size: 75px;">
-<div class="absolute" style="top: 21%; left: 2%; ">
-<p><span class="math inline">\(T_\mathrm{hot} = 500\ \mathrm{K}\)</span></p>
-</div>
-<div class="absolute" style="top: 60%; left: 2%; ">
-<p><span class="math inline">\(T_\mathrm{cold} = 300\ \mathrm{K}\)</span></p>
-</div>
-<div class="absolute" style="top: 30%; left: 11%; ">
-<p><span class="math inline">\(|Q_\mathrm{hot}| = 1\ \mathrm{kJ/s}\)</span></p>
-</div>
-<div class="absolute" style="top: 50%; left: 11%; ">
-<p><span class="math inline">\(|Q_\mathrm{cold}| = 300\ \mathrm{J/s}\)</span></p>
-</div>
-<div class="absolute" style="top: 43%; left: 14%; ">
-<p><span class="math inline">\(|W| =\ ?\)</span></p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:35%;">
-
-</div><div class="column" style="width:65%;">
-<p><br></p>
-<div class="fragment">
-<p><strong>2<sup>nd</sup> Law</strong></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(\Delta S_\mathrm{system} = 0\)</span>, Why?</p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(\Delta S_\mathrm{surroundings} =\ ?\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(\Delta S_\mathrm{500\ K\ reservoir} = \frac{-1000\ \mathrm{J/s}}{500\ \mathrm{K}} = -2 \frac{\mathrm{W}}{\mathrm{K}}\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(\Delta S_\mathrm{300\ K\ reservoir} = \frac{300\ \mathrm{J/s}}{300\ \mathrm{K}}  = 1 \frac{\mathrm{W}}{\mathrm{K}}\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(\Delta S_\mathrm{total} = 0 + (-2) + (1)\)</span></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(= -1 \frac{\mathrm{W}}{\mathrm{K}} &lt; 0\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>What is the maximum possible work?</p>
-</div>
-</div></div>
+<section id="pressure-enthalpy-diagram" class="slide level2">
+<h2>Pressure-Enthalpy Diagram</h2>
+<p><img data-src="Log_ph_Plot_R134A_VC.png" class="absolute" style="top: 5%; left: 0%; width: 75%; "></p>
+<p><img data-src="VaporCompressionIcons.png" class="absolute" style="top: 40%; right: 0%; width: 30%; "></p>
 </section>
-<section id="example-1" class="slide level2">
-<h2>Example:</h2>
-<p>What is the maximum work?</p>
-<p><img data-src="HeatEngine.png" class="absolute" style="top: 17%; left: 0%; width: 22%; "></p>
-<div style="font-size: 75px;">
-<div class="absolute" style="top: 21%; left: 2%; ">
-<p><span class="math inline">\(T_\mathrm{hot} = 500\ \mathrm{K}\)</span></p>
-</div>
-<div class="absolute" style="top: 60%; left: 2%; ">
-<p><span class="math inline">\(T_\mathrm{cold} = 300\ \mathrm{K}\)</span></p>
-</div>
-<div class="absolute" style="top: 30%; left: 11%; ">
-<p><span class="math inline">\(|Q_\mathrm{hot}| = 1\ \mathrm{kJ/s}\)</span></p>
-</div>
-<div class="absolute" style="top: 50%; left: 11%; ">
-<p><span class="math inline">\(|Q_\mathrm{cold}| =\ ?\)</span></p>
-</div>
-<div class="absolute" style="top: 43%; left: 14%; ">
-<p><span class="math inline">\(|W| =\ ?\)</span></p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:32%;">
-
-</div><div class="column" style="width:68%;">
-<div class="fragment">
-<p><br><strong>2<sup>nd</sup> Law</strong></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;<span class="math inline">\(\Delta S_\mathrm{surr.} = \Delta S_\mathrm{500\ K\ res.} + \Delta S_\mathrm{300\ K\ res.}\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;<span class="math inline">\(\Delta S_\mathrm{500\ K\ res.} = \frac{-1000\ \mathrm{J/s}}{500\ \mathrm{K}} = -2 \frac{\mathrm{W}}{\mathrm{K}}\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;<span class="math inline">\(\Delta S_\mathrm{300\ K\ res.} = 0 - \Delta S_\mathrm{500\ K\ res.}\)</span></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(= 2 \frac{\mathrm{W}}{\mathrm{K}} = \frac{|Q_\mathrm{cold}|}{300\ \mathrm{K}}\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;<span class="math inline">\(|Q_\mathrm{cold}| = 2 \frac{\mathrm{W}}{\mathrm{K}} \cdot 300\ \mathrm{K} = 600\ \mathrm{W}\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;<span class="math inline">\(Q_\mathrm{net} = 1\ \mathrm{kW} - 600\ \mathrm{W} = 400\ \mathrm{W}\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;<span class="math inline">\(0 = 400\ \mathrm{W} + W\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;<span class="math inline">\(W = -400\ \mathrm{W}\)</span></p>
-</div>
-</div></div>
-</section>
-<section id="example-2" class="slide level2">
-<h2>Example:</h2>
-<p>What would you get from the Carnot efficiency?</p>
-<p><img data-src="HeatEngine.png" class="absolute" style="top: 17%; left: 0%; width: 22%; "></p>
-<div style="font-size: 75px;">
-<div class="absolute" style="top: 21%; left: 2%; ">
-<p><span class="math inline">\(T_\mathrm{hot} = 500\ \mathrm{K}\)</span></p>
-</div>
-<div class="absolute" style="top: 60%; left: 2%; ">
-<p><span class="math inline">\(T_\mathrm{cold} = 300\ \mathrm{K}\)</span></p>
-</div>
-<div class="absolute" style="top: 30%; left: 11%; ">
-<p><span class="math inline">\(|Q_\mathrm{hot}| = 1\ \mathrm{kJ/s}\)</span></p>
-</div>
-<div class="absolute" style="top: 50%; left: 11%; ">
-<p><span class="math inline">\(|Q_\mathrm{cold}| =\ ?\)</span></p>
-</div>
-<div class="absolute" style="top: 43%; left: 14%; ">
-<p><span class="math inline">\(|W| =\ ?\)</span></p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:35%;">
-
-</div><div class="column" style="width:65%;">
-<div class="fragment">
-<p><br>Using Carnot efficiency</p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;<span class="math inline">\(\eta = \frac{|W|}{|Q_\mathrm{hot}|} = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}\)</span></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(= 1 - \frac{300}{500} = 0.400\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;<span class="math inline">\(|W| = \eta |Q_\mathrm{hot}|\)</span></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="math inline">\(= 0.400 \cdot 1\ \mathrm{kW} = 400\ \mathrm{W}\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;<span class="math inline">\(W = -400\ \mathrm{W}\)</span></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div style="font-size: 30px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>&nbsp;&nbsp;<span class="math inline">\(|Q_\mathrm{cold}| = 1000\ \mathrm{W} - 400\ \mathrm{W} = 600\ \mathrm{W}\)</span></p>
-</div>
-</div></div>
+<section id="vapor-compression-dwsim" class="slide level2">
+<h2>Vapor Compression DWSIM</h2>
+<p><img data-src="VapCompDWSIMCalc.png"></p>
+<p><img data-src="VapCompDWSIMExamp.png" class="absolute" style="left: 25%; bottom: 2%; width: 50%; "></p>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">The thermal efficiency, <span class="math inline">\(\eta\)</span>, of a heat engine is the work output (what you want) divided by the heat input (what you have to pay for).</li>
-<li class="fragment">Entropy is a state function.</li>
-<li class="fragment">The entropy change of a heat reservoir is the heat transferred to or from the reservoir divided by the absolute temperature of the reservoir.</li>
-<li class="fragment">The Second Law of Thermodynamics states that the sum of the entropy change for the system and for the surroundings must be greater than or equal to zero.</li>
-<li class="fragment">The Carnot thermal efficiency, <span class="math inline">\(\eta_\mathrm{Carnot} = 1 - \dfrac{T_\mathrm{cold}}{T_\mathrm{hot}}\)</span></li>
+<li class="fragment">The purpose of a refrigerator is to remove heat at a low temperature and reject it at a high temperature. Its coefficient of performance is the magnitude of the heat removed over the magnitude of the work required.</li>
+<li class="fragment">The purpose of a heat pump is to take heat at a low temperature and supply it at a high temperature. Its coefficient of performance is the magnitude of the heat supplied over the magnitude of the work required.</li>
+<li class="fragment">Carnot refrigerators and heat pumps are modeled as Carnot engines running backwards.</li>
+<li class="fragment">The most common refrigeration cycle is the vapor compression cycle, essentially a Rankine cycle running in reverse.</li>
 </ol>
 </section></section>
-<section id="section-10" class="title-slide slide level1 center">
+<section id="section-8" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
