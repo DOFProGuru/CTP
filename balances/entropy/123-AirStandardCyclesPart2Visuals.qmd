@@ -1,0 +1,1212 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+## <!-- Approved Title -->
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Cycle Wars: The Rise of Otto Cycles 
+:::
+
+::: {.absolute left=0% right=0% top=65% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+## Introduction
+
+*Cycle Wars: The Power Awakens*
+
+- Introduced the common air-standard cycles
+- Analyzed the Carnot cycle
+
+::: {.fragment}
+***Cycle Wars: The Rise of Otto Cycles***
+:::
+
+- Analyzes
+  - The Otto cycle
+  - The Diesel cycle
+  - The Ericsson cycle
+  - The Stirling cycle
+  - The Brayton cycle
+  - The turbojet engine cycle
+
+## 
+
+**Carnot (IE, IT, IE, IT) Review**
+
+![](CarnotPV.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=30.5% left=11.5%}
+$a$
+:::
+::: {.absolute top=6% left=5.5%}
+$b$
+:::
+::: {.absolute top=23.5% left=32.5%}
+$c$
+:::
+::: {.absolute top=37% left=45%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=20% left=8%}
+$1$
+:::
+::: {.absolute top=17% left=20%}
+$2$
+:::
+::: {.absolute top=29% left=37%}
+$3$
+:::
+::: {.absolute top=35.5% left=25%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=-5%}
+::: {style="transform: rotate(-90deg); font-size: 80px;"}
+Pressure
+:::
+:::
+
+::: {.absolute top=42.5% left=18%}
+::: {style="font-size: 80px;"}
+Volume
+:::
+:::
+
+
+![](CarnotTS.png){.absolute top=6% right=0% width=46%}
+
+::: {.absolute top=34% left=57.5%}
+$a$
+:::
+::: {.absolute top=8% left=58%}
+$b$
+:::
+::: {.absolute top=7.5% left=96%}
+$c$
+:::
+::: {.absolute top=34% left=96%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=22% left=58%}
+$1$
+:::
+::: {.absolute top=8% left=76%}
+$2$
+:::
+::: {.absolute top=22% left=96.5%}
+$3$
+:::
+::: {.absolute top=36% left=76%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=44%}
+:::{style="transform: rotate(-90deg); font-size: 80px;"}
+Temperature
+:::
+:::
+
+::: {.absolute top=42% left=70%}
+::: {style="font-size: 80px;"}
+Entropy
+:::
+:::
+
+![](CarnotEtaR.png){.absolute top=55% left=2% width=46%}
+
+::: {.absolute top=66% left=-1%}
+$$\eta$$
+:::
+
+::: {.absolute top=87% left=24.5%}
+$$r$$
+:::
+
+
+![](CarnotEtaRP.png){.absolute top=55% right=0% width=46%}
+
+::: {.absolute top=66% left=51%}
+$$\eta$$
+:::
+
+
+::: {.absolute top=87% left=75.5%}
+$$r_P$$
+:::
+
+
+## 
+
+**Otto (IE, IC, IE, IC)**
+
+![](OttoPV.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=4.5% left=4.75%}
+$a$
+:::
+::: {.absolute top=25.5% left=44%}
+$b$
+:::
+::: {.absolute top=33% left=44%}
+$c$
+:::
+::: {.absolute top=27% left=4.75%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=33% left=23%}
+$1$
+:::
+::: {.absolute top=17% left=3.75%}
+$2$
+:::
+::: {.absolute top=19.5% left=23%}
+$3$
+:::
+::: {.absolute top=30% left=42%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=-5%}
+::: {style="transform: rotate(-90deg); font-size: 80px;"}
+Pressure
+:::
+:::
+
+::: {.absolute top=40.5% left=18%}
+::: {style="font-size: 80px;"}
+Volume
+:::
+:::
+
+
+![](OttoTS.png){.absolute top=6% right=0% width=46%}
+
+::: {.absolute top=5% left=95%}
+$a$
+:::
+::: {.absolute top=25% left=96%}
+$b$
+:::
+::: {.absolute top=35.5% left=55.75%}
+$c$
+:::
+::: {.absolute top=27.5% left=55.75%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=32% left=58%}
+$1$
+:::
+::: {.absolute top=18.5% left=76%}
+$2$
+:::
+::: {.absolute top=16% left=96%}
+$3$
+:::
+::: {.absolute top=33.5% left=76%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=44%}
+:::{style="transform: rotate(-90deg); font-size: 80px;"}
+Temperature
+:::
+:::
+
+::: {.absolute top=40.5% left=70%}
+::: {style="font-size: 80px;"}
+Entropy
+:::
+:::
+
+:::{.fragment .absolute top=44% left=5%}
+$$\eta=\frac{|Q_\mathrm{hot}|-|Q_\mathrm{cold}|}{|Q_\mathrm{hot}|}=1-\frac{|Q_\mathrm{cold}|}{|Q_\mathrm{hot}|}$$
+:::
+
+:::{.fragment .absolute top=61% left=5%}
+$$Q_\mathrm{hot}=C_v\left(T_a-T_d\right)$$
+:::
+
+:::{.fragment .absolute top=61% right=5%}
+$$Q_\mathrm{cold}=C_v\left(T_c-T_b\right)$$
+:::
+
+:::{.fragment .absolute top=71% left=5%}
+$$\eta=1-\frac{T_b-T_c}{T_a-T_d}=1-\frac{T_c}{T_d}=1-r^{(1-\gamma)}$$
+:::
+
+:::{.fragment .absolute top=87% left=5%}
+$$W_{\rm{net}}=-\left(Q_\mathrm{hot}+Q_\mathrm{cold}\right)=C_v\left[\left(T_b+T_d\right)-\left(T_a+T_c\right)\right]$$
+:::
+
+## 
+
+**Otto (IE, IC, IE, IC)(cont.)**
+
+![](CarnotEtaR.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=16% left=-1%}
+$$\eta$$
+:::
+
+::: {.absolute top=37% left=24.5%}
+$$r$$
+:::
+
+::: {.fragment .absolute top=50% left=10%}
+$$\eta = 1 - \frac{T_\mathrm{c}}{T_\mathrm{d}} = 1 - r^{(1-\gamma)} $$
+:::
+
+
+## 
+
+**Diesel (IE, IB, IE, IC)**
+
+![](DieselPV.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=6% left=19%}
+$a$
+:::
+::: {.absolute top=27% left=42%}
+$b$
+:::
+::: {.absolute top=36% left=42.5%}
+$c$
+:::
+::: {.absolute top=6% left=2.5%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=32% left=15%}
+$1$
+:::
+::: {.absolute top=6% left=11.5%}
+$2$
+:::
+::: {.absolute top=20% left=28%}
+$3$
+:::
+::: {.absolute top=32.5% left=40.5%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=-5%}
+::: {style="transform: rotate(-90deg); font-size: 80px;"}
+Pressure
+:::
+:::
+
+::: {.absolute top=40.5% left=18%}
+::: {style="font-size: 80px;"}
+Volume
+:::
+:::
+
+![](DieselTS.png){.absolute top=6% right=0% width=46%}
+
+::: {.absolute top=4.5% left=97.5%}
+$a$
+:::
+::: {.absolute top=22% left=97.5%}
+$b$
+:::
+::: {.absolute top=36% left=54.5%}
+$c$
+:::
+::: {.absolute top=22% left=54.5%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=30% left=55%}
+$1$
+:::
+::: {.absolute top=15% left=75%}
+$2$
+:::
+::: {.absolute top=15% left=97.5%}
+$3$
+:::
+::: {.absolute top=34.5% left=74.5%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=44%}
+:::{style="transform: rotate(-90deg); font-size: 80px;"}
+Temperature
+:::
+:::
+
+::: {.absolute top=40.5% left=70%}
+::: {style="font-size: 80px;"}
+Entropy
+:::
+:::
+
+::: {.fragment}
+::: {.absolute top=46% left=5%}
+$$\eta=1+\frac{Q_\mathrm{cold}}{Q_\mathrm{hot}}=1+\frac{C_v\left(T_c-T_b\right)}{C_p\left(T_a-T_d\right)}$$
+:::
+
+::: {.absolute top=61% left=7%}
+$$=1+\frac{1}{\gamma}\frac{\left(T_b-T_c\right)}{\left(T_a-T_d\right)}$$
+:::
+
+:::{.absolute top=77% left=0%}
+$$Q_\mathrm{hot}=Q_2 = C_p\left(T_a-T_d\right)$$
+:::
+
+:::{.absolute top=77% right=0%}
+$$Q_\mathrm{cold}=Q_4 = C_p\left(T_c-T_b\right)$$
+:::
+:::
+
+::: {.fragment .absolute top=46% right=7%}
+$$r_e \equiv \frac{V_b}{V_a}$$
+:::
+
+::: {.fragment .absolute top=61% right=7%}
+$$r \equiv \frac{V_c}{V_d}$$
+:::
+
+:::{.fragment .absolute top=87% left=5%}
+$$W_{\rm{net}}=-\left(Q_\mathrm{hot}+Q_\mathrm{cold}\right)=C_p\left[\left(T_d-T_a\right)+\left(T_b-T_c\right)\right]$$
+:::
+
+## 
+
+**Diesel (IE, IB, IE, IC)(cont.)**
+
+![](DieselEtaR.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=16% left=-1%}
+$$\eta$$
+:::
+
+::: {.absolute top=37% left=24.5%}
+$$r$$
+:::
+
+::: {.absolute top=45% left=6%}
+$$\eta = 1 - \frac{1}{\gamma}\left[\frac{\left(\frac{1}{r_e}\right)^{\gamma-1}-\left(\frac{r_e}{r}\right)\left(\frac{1}{r}\right)^{\gamma-1}}{1-\frac{r_e}{r}}\right]$$
+:::
+
+::: {.absolute top=70% left=9%}
+$$= 1 - \frac{1}{\gamma}\left[\frac{\left(\frac{1}{r_e}\right)^{\gamma-1}-\left(\frac{1}{r}\right)^\gamma}{\frac{1}{r_e}-\frac{1}{r}}\right]$$
+:::
+
+::: {.absolute top=50% left=80%}
+$$r \equiv \frac{V_c}{V_d}$$
+:::
+
+::: {.absolute top=70% left=80%}
+$$r_e \equiv \frac{V_b}{V_a}$$
+:::
+
+::: {.absolute top=5% left=50%}
+Graph is for $r_e = 0.5 r$
+:::
+
+## 
+
+**Brayton (IE, IB, IE, IB)**
+
+![](BraytonPV.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=35.5% left=15.5%}
+$a$
+:::
+::: {.absolute top=5.5% left=4%}
+$b$
+:::
+::: {.absolute top=5% left=24%}
+$c$
+:::
+::: {.absolute top=35% left=42.5%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=21.5% left=8%}
+$1$
+:::
+::: {.absolute top=9% left=15%}
+$2$
+:::
+::: {.absolute top=21.5% left=32.5%}
+$3$
+:::
+::: {.absolute top=33% left=27%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=-5%}
+::: {style="transform: rotate(-90deg); font-size: 80px;"}
+Pressure
+:::
+:::
+
+::: {.absolute top=40% left=18%}
+Volume
+:::
+
+
+![](BraytonTS.png){.absolute top=6% right=0% width=46%}
+
+::: {.absolute top=36.5% left=55.5%}
+$a$
+:::
+::: {.absolute top=25% left=56%}
+$b$
+:::
+::: {.absolute top=4% left=96.5%}
+$c$
+:::
+::: {.absolute top=21% left=96.5%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=32% left=56%}
+$1$
+:::
+::: {.absolute top=15% left=76%}
+$2$
+:::
+::: {.absolute top=14% left=96.5%}
+$3$
+:::
+::: {.absolute top=32% left=76%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=44%}
+:::{style="transform: rotate(-90deg); font-size: 80px;"}
+Temperature
+:::
+:::
+
+::: {.absolute top=40.5% left=70%}
+Entropy
+:::
+
+::: {.fragment .absolute top=46% left=5%}
+$$\eta=1-\frac{|Q_\mathrm{cold}|}{|Q_\mathrm{hot}|}=1+\frac{\left(T_d-T_a\right)}{\left(T_c-T_b\right)}$$
+:::
+
+::: {.fragment .absolute top=61% left=7%}
+$$=1-\frac{T_a}{T_b}=1-r_P^{\frac{1-\gamma}{\gamma}}$$
+:::
+
+:::{.fragment .absolute top=77% left=0%}
+$$Q_\mathrm{hot}=Q_2 = C_p\left(T_c-T_b\right)$$
+:::
+
+:::{.fragment .absolute top=77% right=0%}
+$$Q_\mathrm{cold}=Q_4 = C_p\left(T_d-T_a\right)$$
+:::
+
+:::{.fragment .absolute top=87% left=5%}
+$$W_{\rm{net}}=-\left(Q_\mathrm{hot}+Q_\mathrm{cold}\right)=C_p\left[\left(T_b+T_d\right)-\left(T_a+T_c\right)\right]$$
+:::
+
+
+## 
+
+**Brayton (IE, IB, IE, IB)(cont.)**
+
+![](CarnotEtaRP.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=16% left=-1%}
+$$\eta$$
+:::
+
+::: {.absolute top=37% left=24.5%}
+$$r$$
+:::
+
+::: {.absolute top=50% left=10%}
+$$\eta = 1 - r_P^{\left(\frac{1-\gamma}{\gamma}\right)}$$
+:::
+
+## 
+
+**Brayton With Regenerator (IE, IB, IE, IB)**
+
+![](BraytonRegenPV.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=35.5% left=15.5%}
+$a$
+:::
+::: {.absolute top=5.5% left=4%}
+$b$
+:::
+::: {.absolute top=5% left=24%}
+$c$
+:::
+::: {.absolute top=35% left=42.5%}
+$d$
+:::
+::: {.absolute top=7.5% left=9.25%}
+$x$
+:::
+::: {.absolute top=31.5% left=33%}
+$y$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=21.5% left=8%}
+$1$
+:::
+::: {.absolute top=9% left=15%}
+$2$
+:::
+::: {.absolute top=21.5% left=32.5%}
+$3$
+:::
+::: {.absolute top=33% left=27%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=-5%}
+::: {style="transform: rotate(-90deg); font-size: 80px;"}
+Pressure
+:::
+:::
+
+::: {.absolute top=40% left=18%}
+::: {style="font-size: 80px;"}
+Volume
+:::
+:::
+
+
+![](BraytonRegenTS.png){.absolute top=6% right=0% width=46%}
+
+::: {.absolute top=36.5% left=55.5%}
+$a$
+:::
+::: {.absolute top=25% left=56%}
+$b$
+:::
+::: {.absolute top=4% left=96.5%}
+$c$
+:::
+::: {.absolute top=21% left=96.5%}
+$d$
+:::
+::: {.absolute top=20% left=66%}
+$x$
+:::
+::: {.absolute top=26.5% left=85%}
+$y$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=32% left=56%}
+$1$
+:::
+::: {.absolute top=15% left=76%}
+$2$
+:::
+::: {.absolute top=14% left=96.5%}
+$3$
+:::
+::: {.absolute top=32% left=76%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=44%}
+:::{style="transform: rotate(-90deg); font-size: 80px;"}
+Temperature
+:::
+:::
+
+::: {.absolute top=41% left=70%}
+::: {style="font-size: 80px;"}
+Entropy
+:::
+:::
+
+![](BraytonWithRegenerator.png){.absolute top=60% left=5% width=90%}
+
+::: {.absolute top=75% left=3.5%}
+$$W_{s_\mathrm{in}}$$
+:::
+
+::: {.absolute top=76% right=2%}
+$$W_{s_\mathrm{out}}$$
+:::
+
+##
+
+
+![](BraytonWithRegenerator.png){.absolute top=0% left=5% width=90%}
+
+::: {.absolute top=15% left=3.5%}
+$$W_{s_\mathrm{in}}$$
+:::
+
+::: {.absolute top=16% right=2%}
+$$W_{s_\mathrm{out}}$$
+:::
+
+
+::: {style="font-size: 90px;"}
+::: {.fragment .absolute top=24% left=5%}
+$$Q_\mathrm{hot}=C_p\left(T_c-T_x\right)$$
+:::
+
+::: {.fragment .absolute top=32% left=5%}
+$$W_{\mathrm{net}}=W_{\mathrm{turb}}+W_{\mathrm{comp}}$$
+:::
+
+::: {.fragment .absolute top=40% left=5%}
+$$-W_{\mathrm{turb}}=- \Delta H = C_p\left(T_c-T_d\right)$$
+:::
+
+::: {.fragment .absolute top=52% left=0%}
+With an ideal regenerator, $T_d = T_x$.
+:::
+
+::: {.fragment .absolute top=58% left=5%}
+$$Q_\mathrm{hot}=-W_{\mathrm{turb}}$$
+:::
+
+::: {.fragment .absolute top=66% left=5%}
+$$\eta=\frac{|W_{\mathrm{turb}}+W_{\mathrm{comp}}|}{Q_\mathrm{hot}}=1-\frac{|W_{\mathrm{comp}}|}{|W_{\mathrm{turb}}|}$$
+:::
+
+::: {.fragment .absolute top=80% left=5%}
+$$\eta=1+\frac{T_b-T_a}{T_c-T_d}=1-\frac{T_a}{T_c}\left(\frac{P_b}{P_a}\right)^{\frac{\gamma-1}{\gamma}}$$
+:::
+:::
+
+::: {.fragment}
+![](BraytonWRegenEta.png){.absolute top=30% right=0% width=35%}
+
+::: {style="font-size: 80px;"}
+::: {.absolute top=50.5% right=36%}
+$\eta$
+:::
+
+::: {.absolute top=77% right=15%}
+$r_p$
+:::
+:::
+
+::: {style="font-size: 50px;"}
+::: {.absolute top=52.5% right=10.5%}
+$T_a/T_c = 1/3$
+:::
+
+::: {.absolute top=46.5% right=5.5%}
+$T_a/T_c = 1/4$
+:::
+
+::: {.absolute top=41.75% right=1%}
+$T_a/T_c = 1/5$
+:::
+:::
+
+:::
+
+##
+
+**Turbojet (IE, IB, IE, IE *IB*)**
+
+![](TurbojetPV.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=35.5% left=15.5%}
+$a$
+:::
+::: {.absolute top=5.5% left=4%}
+$b$
+:::
+::: {.absolute top=5% left=24%}
+$c$
+:::
+::: {.absolute top=23% left=34%}
+$d$
+:::
+::: {.absolute top=35% left=42.5%}
+$e$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=21.5% left=8%}
+$1$
+:::
+::: {.absolute top=9% left=15%}
+$2$
+:::
+::: {.absolute top=16% left=29%}
+$3$
+:::
+::: {.absolute top=29.5% left=38%}
+$4$
+:::
+::: {.absolute top=32% left=26%}
+$(5)$
+:::
+:::
+
+::: {.absolute top=21% left=-5%}
+::: {style="transform: rotate(-90deg); font-size: 80px;"}
+Pressure
+:::
+:::
+
+::: {.absolute top=40% left=18%}
+::: {style="font-size: 80px;"}
+Volume
+:::
+:::
+
+
+![](TurbojetTS.png){.absolute top=6% right=0% width=46%}
+
+::: {.absolute top=36.5% left=55.5%}
+$a$
+:::
+::: {.absolute top=25% left=56%}
+$b$
+:::
+::: {.absolute top=4% left=96.5%}
+$c$
+:::
+::: {.absolute top=15% left=96.5%}
+$d$
+:::
+::: {.absolute top=21.5% left=96%}
+$e$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=32% left=56%}
+$1$
+:::
+::: {.absolute top=15% left=76%}
+$2$
+:::
+::: {.absolute top=11% left=94%}
+$3$
+:::
+::: {.absolute top=19% left=94%}
+$4$
+:::
+::: {.absolute top=32.5% left=75%}
+$(5)$
+:::
+:::
+
+::: {.absolute top=21% left=44%}
+:::{style="transform: rotate(-90deg); font-size: 80px;"}
+Temperature
+:::
+:::
+
+::: {.absolute top=40.5% left=70%}
+::: {style="font-size: 80px;"}
+Entropy
+:::
+:::
+
+![](Turbojet_operation_twospools-fr.png){.absolute top=60% left=5% width=45%}
+
+::: {style="font-size:50px;"}
+::: {.absolute bottom=15% left=6%}
+Raminagrobis, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via Wikimedia Commons
+:::
+:::
+
+::: {style="font-size:75px;"}
+::: {.absolute top=60% left=55%}
+::: {.fragment}
+In ideal or actual cycle
+:::
+::: {.fragment}
+$\ \ \ \ |W_1|=|W_3|$ Just enough to drive
+:::
+::: {.fragment}
+$\ \ \ \ W_1=C_p\left(T_b-T_a\right)$
+:::
+::: {.fragment}
+$\ \ \ \ Q_2=C_p\left(T_c-T_b\right)$
+:::
+::: {.fragment}
+$\ \ \ \ W_3=C_p\left(T_d-T_c\right)$
+:::
+:::
+:::
+
+##
+
+**Turbojet (IE, IB, IE, IE *IB*)(cont.)**
+
+![](Turbojet_operation_twospools-fr.png){.absolute top=7% left=5% width=45%}
+
+::: {style="font-size:50px;"}
+::: {.absolute top=27% left=7%}
+Raminagrobis, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via Wikimedia Commons
+:::
+:::
+
+::: {.fragment .absolute top=35% left=0%}
+::: {style="font-size: 85px;"}
+$\ \ \implies C_p\left(T_b-T_a\right)=C_p\left(T_c-T_d\right)$
+:::
+<br/>
+$\ \ \ \ T_d=T_c+\left(T_a-T_b\right)$
+:::
+
+::: {.fragment .absolute top=66% left=0%}
+In the nozzle (Step 4)
+:::
+::: {.fragment .absolute top=74% left=2.5%}
+$\ \ \ \ \Delta \hat{H} + \frac{\Delta (u^2)}{2}=0$
+:::
+::: {.fragment .absolute top=82% left=2.5%}
+$\ \ \ \ d\hat{H}+udu=0$
+:::
+::: {.fragment .absolute top=90% left=2.5%}
+$\ \ \ \ d\hat{H} = Td\hat{S} +\hat{V}dP$
+:::
+
+::: {.fragment .absolute top=7% left=55%}
+For isentropic $(\Delta S = 0)$
+:::
+::: {.fragment .absolute top=15% left=55%}
+$\ \ \ \ \hat{V}dP+udu=0$
+:::
+
+::: {.fragment .absolute top=20% left=55%}
+$$\ \ \ \ \int_{u_d}^{u_e} udu=- \int_{\hat{V}_d}^{\hat{V}_e} \hat{V}dP$$
+:::
+
+::: {.fragment .absolute top=37% left=55%}
+$$\text{ also }P\hat{V}^{\gamma}=\text{const.}$$
+:::
+
+::: {.fragment .absolute top=47% left=28%}
+$$u_e^2-u_d^2=\frac{2\gamma P_d \hat{V}_d\ (\text{or }RT_d)}{\gamma-1}\left[1-\left(\frac{P_e}{P_d}\right)^{\frac{\gamma-1}{\gamma}}\right]$$
+:::
+
+::: {.fragment .absolute top=67% left=45%}
+$$\frac{T_e}{T_d}=\left(\frac{\hat{V}_d}{\hat{V}_e}\right)^{\gamma-1}=\left(\frac{P_e}{P_d}\right)^{\frac{\gamma-1}{\gamma}}$$
+:::
+
+
+##
+
+**Ericsson (IT, IB, IT, IB)**
+
+![](EricssonPV.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=34.5% left=18.5%}
+$a$
+:::
+::: {.absolute top=5.5% left=2.5%}
+$b$
+:::
+::: {.absolute top=4.5% left=15.25%}
+$c$
+:::
+::: {.absolute top=33% left=45.75%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=22% left=8%}
+$1$
+:::
+::: {.absolute top=7.5% left=9.5%}
+$2$
+:::
+::: {.absolute top=20% left=25.5%}
+$3$
+:::
+::: {.absolute top=35.5% left=31%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=-5%}
+::: {style="transform: rotate(-90deg); font-size: 80px;"}
+Pressure
+:::
+:::
+
+::: {.absolute top=39.5% left=18%}
+::: {style="font-size: 80px;"}
+Volume
+:::
+:::
+
+
+![](EricssonTS.png){.absolute top=6% right=0% width=46%}
+
+::: {.absolute top=36% left=74.5%}
+$a$
+:::
+::: {.absolute top=36% left=55%}
+$b$
+:::
+::: {.absolute top=5% left=78%}
+$c$
+:::
+::: {.absolute top=7% left=97.75%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=34% left=66%}
+$1$
+:::
+::: {.absolute top=21% left=67.5%}
+$2$
+:::
+::: {.absolute top=8.5% left=87.5%}
+$3$
+:::
+::: {.absolute top=24% left=87%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=44%}
+:::{style="transform: rotate(-90deg); font-size: 80px;"}
+Temperature
+:::
+:::
+
+::: {.absolute top=40.5% left=70%}
+::: {style="font-size: 80px;"}
+Entropy
+:::
+:::
+
+::: {.fragment}
+::: {.absolute top=42% left=0%}
+$$Q_1=-W_1=RT_a \ln \frac{P_a}{P_b}$$
+:::
+::: {.absolute top=42% left=60%}
+$$Q_3=-W_3=RT_c \ln \frac{P_c}{P_d}$$
+:::
+:::
+
+::: {.fragment}
+::: {.absolute top=55% left=0%}
+$$Q_2=\Delta \hat{H}_2=C_p\left(T_c-T_b\right)$$
+:::
+::: {.absolute top=62% left=0%}
+$$Q_4=\Delta \hat{H}_4=C_p\left(T_a-T_d\right)=-C_p\left(T_c-T_b\right)$$
+:::
+:::
+::: {.fragment}
+::: {.absolute top=72% left=0%}
+$$W_2=- P_2 \Delta \hat{V}_2=-P_b\left(\hat{V}_c-\hat{V}_b\right)$$
+:::
+::: {.absolute top=72% left=60%}
+$$W_4=-P_d\left(\hat{V}_a-\hat{V}_d\right)$$
+:::
+:::
+
+##
+
+**Ericsson (IT, IB, IT, IB)(cont.)**
+
+::: {.absolute top=10% left=0%}
+After lots of algebra
+:::
+
+::: {.fragment .absolute top=17% left=2%}
+$$W_{\mathrm{net}}=-R\left(T_3-T_1\right)\ln \frac{P_2}{P_4}$$
+:::
+::: {.fragment .absolute top=32% left=2%}
+$$Q_\mathrm{hot}=C_p \left(T_1-T_3\right)+RT_3\ln \frac{P_2}{P_4}$$
+:::
+::: {.fragment .absolute top=48% left=2%}
+$$\eta=\frac{R\left(T_3-T_1\right)\ln \frac{P_2}{P_4}}{C_p\left(T_1-T_3\right)+RT_3 \ln \frac{P_2}{P_4}}$$
+:::
+::: {.fragment .absolute top=75% left=0%}
+Note that $|Q_2|=|Q_4|$
+:::
+
+::: {.fragment}
+::: {.absolute top=10% left=50%}
+::: {style="font-size: 90px;"}
+If we could use a perfect heat exchanger between Steps 2 and 4
+:::
+:::
+
+![](HeatExchanger.png){.absolute top=25% left=70% width=15%}
+:::
+
+::: {.fragment .absolute top=70% left=45%}
+$$\eta=\frac{R\left(T_3-T_1\right)\ln \frac{P_2}{P_4}}{RT_3 \ln \frac{P_2}{P_4}}=1-\frac{T_1}{T_3}$$
+:::
+
+##
+
+**Stirling (IT, IC, IT, IC)**
+
+![](StirlingPV.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=36% left=44.25%}
+$a$
+:::
+::: {.absolute top=27% left=4%}
+$b$
+:::
+::: {.absolute top=5.5% left=4%}
+$c$
+:::
+::: {.absolute top=25.5% left=44.5%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=35% left=24%}
+$1$
+:::
+::: {.absolute top=17% left=3.5%}
+$2$
+:::
+::: {.absolute top=18% left=24%}
+$3$
+:::
+::: {.absolute top=31.5% left=44.5%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=-5%}
+::: {style="transform: rotate(-90deg); font-size: 80px;"}
+Pressure
+:::
+:::
+
+::: {.absolute top=40.5% left=18%}
+::: {style="font-size: 80px;"}
+Volume
+:::
+:::
+
+
+![](StirlingTS.png){.absolute top=6% right=0% width=46%}
+
+::: {.absolute top=36% left=84.5%}
+$a$
+:::
+::: {.absolute top=36% left=56.25%}
+$b$
+:::
+::: {.absolute top=5% left=64.75%}
+$c$
+:::
+::: {.absolute top=5.5% left=93.75%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=34% left=72%}
+$1$
+:::
+::: {.absolute top=21% left=61%}
+$2$
+:::
+::: {.absolute top=8.75% left=79%}
+$3$
+:::
+::: {.absolute top=21.5% left=90%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=44%}
+:::{style="transform: rotate(-90deg); font-size: 80px;"}
+Temperature
+:::
+:::
+
+::: {.absolute top=41% left=70%}
+::: {style="font-size: 80px;"}
+Entropy
+:::
+:::
+
+::: {.absolute top=46% left=0%}
+Similar to the Ericsson cycle
+:::
+
+::: {.fragment .absolute top=48% left=5%}
+$$W_{\mathrm{net}}=-R\left(T_3-T_1\right)\ln \frac{P_b}{P_a}$$
+:::
+
+::: {.fragment .absolute top=60% left=5%}
+$$Q_\mathrm{hot}=C_v \left(T_3-T_1\right)+RT_3\ln \frac{P_b}{P_a}$$
+:::
+
+::: {.fragment .absolute top=63% right=0%}
+$$Q_4=C_v \left(T_1-T_3\right)$$
+:::
+
+::: {.fragment .absolute top=78% left=0%}
+For perfect HX between Steps 2 and 4
+:::
+
+::: {.fragment .absolute top=83% left=5%}
+$$\eta=\frac{R\left(T_3-T_1\right)\ln \frac{P_b}{P_a}}{RT_3 \ln \frac{P_b}{P_a}}=1-\frac{T_1}{T_3}$$
+:::
+
+## The Takeaways
+
+1. The Otto cycle is the thermodynamic model for the internal-combustion automobile engine.
+2. The Diesel cycle is the thermodynamic model for the internal-combustion Diesel engine.
+3. The Brayton cycle is the thermodynamic model for the internal-combustion gas-turbine engine.
+4. The Turbojet cycle is the thermodynamic model for the internal-combustion turbojet engine.
+5. The Ericsson and Stirling cycles have not found wide commercialization, but hold promise for high thermal efficiency.
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->

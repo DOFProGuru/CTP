@@ -87,4 +87,10 @@ Links to the current videos on YouTube will be maintained here. These are curren
 |118A| Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans  | [Link](https://youtu.be/irBfMfVUEFo) | No | [Page] | Pumps, Nozzles, and Valves or Throttles |
 |119| Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1  | [Link](https://youtu.be/4QRJ00uyaX8) | No | [Page] | The Ideal Rankine Cycle |
 |120| Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2  | [Link](https://youtu.be/0DmsKCJpIdc) | No | [Page] | The Rankine Cycle with $\eta_\mathrm{pump}$  and $\eta_\mathrm{turbine}$|
-|129| The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1  | [Link](https://youtu.be/hCGbgFTI6Ys) | No | [Page] | The Combined 1^st^ and 2^nd^ Laws |
+|122| Cycle Wars: The Power Awakens  | [Link](https://youtu.be/M_p3gb79isg) | No | [Page] | Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle |
+|123| Cycle Wars: The Rise of Otto Cycles  | [Link](https://youtu.be/jJaDQM8qjgU) | No | [Page] | Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, & Stirling Cycles|
+|125| Modeling the Rankine Cycle in DWSIM  | [Link](https://youtu.be/ECOWIrzvGNc) | No | [Page] | Modeling the Rankine Cycle in DWSIM|
+|126| Revenge of the Fridge: Vapor Compression Strikes Back  | [Link](https://youtu.be/SN27SxDt0G4) | No | [Page] | The Vapor Compression Cycle |
+|127| Modeling the Vapor Compression Cycle in DWSIM  | [Link](https://youtu.be/nWOz-Y7XsbQ) | No | [Page] | Modeling the Vapor Compression Cycle in DWSIM|
+|129| The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1  | [Link](https://youtu.be/02S9SOGRBWU) | No | [Page] | The Combined 1^st^ and 2^nd^ Laws |
+|130| The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 2  | [Link](https://youtu.be/ZAdAC4OccmI) | No | [Page] | Example of The Combined 1^st^ and 2^nd^ Laws |
