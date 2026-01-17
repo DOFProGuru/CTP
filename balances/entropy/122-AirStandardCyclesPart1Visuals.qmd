@@ -1,0 +1,354 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+## <!-- Approved Title -->
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Cycle Wars: The Power Awakens 
+:::
+
+::: {.absolute left=0% right=0% top=65% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+## Introduction
+
+***Cycle Wars: The Power Awakens***
+
+- Introduces the common air-standard cycles
+- Analyzes the Carnot cycle
+
+::: {.fragment}
+*Cycle Wars: The Rise of Otto Cycles*
+:::
+
+- Analyzes
+  - The Otto cycle
+  - The Diesel cycle
+  - The Ericsson cycle
+  - The Stirling cycle
+  - The Brayton cycle
+  - The turbojet engine cycle
+
+## 
+
+**The Air Standard Cycle components**
+
+All of the air standard cycles are composed of different combinations of the four basic ideal-gas processes
+
+- IE – Isentropic ($Q=0$ and $\Delta \hat{S} = 0$)
+- IT – Isothermal ($\Delta T = 0$) 
+- IC – Isochoric ($\Delta \hat{V} = 0$)
+- IB – Isobaric ($\Delta P = 0$)
+
+::: {.fragment}
+In addition, for ease of calculation
+:::
+
+- $C_v$ and $C_p$ are constant.
+- $\gamma = C_p/C_v$.
+- For air, $C_v = 5/2\ R$, $C_p = 7/2\ R$, and $\gamma = 1.4$.
+
+## 
+
+**The Common Air Standard Cycles**
+
+- IE, IT, IE, IT – Carnot
+- IE, IC, IE, IC – Otto
+- IE, IB, IE, IC – Diesel
+- IE, IB, IE, IB – Brayton
+- IE, IB, IE, IE (IB) – Turbojet
+- IT, IB, IT, IB – Ericsson
+- IT, IC, IT, IC – Stirling
+
+##
+
+**Notation**
+
+- The initial state  is State 1.
+- The final state is State 2. 
+- The formulas in terms of intensive variables,<br/>e.g. $\hat{V}, \hat{U}, \hat{H},$ and $\hat{S}$.
+- For the ratio of two properties $\dfrac{V_1}{V_2} = \dfrac{\hat{V}_1}{\hat{V}_2}$. 
+- $Q$ and $W$ can be total, per mass, or per mole. They're usually per mole.
+
+
+##
+
+**IE – Isentropic Step**
+
+::: {.absolute top=7% left=5%}
+$$\frac{T_2}{T_1} = \left(\frac{\hat{V}_1}{\hat{V}_2}\right)^{\gamma-1}= \left(\frac{P_2}{P_1}\right)^{\frac{\gamma-1}{\gamma}}$$
+:::
+
+::: {.fragment .absolute top=27% left=5%}
+$$\frac{P_2}{P_1} = \left(\frac{\hat{V}_1}{\hat{V}_2}\right)^\gamma$$
+:::
+
+::: {.fragment .absolute top=47% left=5%}
+$$Q = 0$$
+:::
+
+::: {.fragment .absolute top=57% left=5%}
+$$W = \Delta \hat{U} = C_v(T_2 - T_1)$$
+:::
+
+::: {.fragment .absolute top=67% left=5%}
+$$\hat{S}_2 = \hat{S}_1$$
+:::
+
+##
+
+**IT – Isothermal Step**
+
+::: {.absolute top=7% left=5%}
+$$T_2 = T_1$$
+:::
+::: {.fragment .absolute top=15% left=5%}
+$$\frac{P_2}{P_1} = \frac{\hat{V}_1}{\hat{V}_2}$$
+:::
+::: {.fragment .absolute top=30% left=5%}
+$$Q = -W = -RT \ln \frac{\hat{V}_1}{\hat{V}_2} = -RT \ln \frac{P_2}{P_1}$$
+:::
+::: {.fragment .absolute top=43% left=5%}
+$$W = RT \ln \frac{\hat{V}_1}{\hat{V}_2} = RT \ln \frac{P_2}{P_1}$$
+:::
+::: {.fragment .absolute top=59% left=5%}
+$$\Delta \hat{U} = 0$$
+:::
+::: {.fragment .absolute top=69% left=5%}
+$$\hat{S}_2 - \hat{S}_1 = R \ln \frac{\hat{V}_2}{\hat{V}_1} = R \ln \frac{P_1}{P_2}$$
+:::
+
+##
+
+**IC – Isochoric Step**
+
+::: {.absolute top=7% left=5%}
+$$\frac{T_2}{T_1} = \frac{P_2}{P_1}$$
+:::
+
+::: {.fragment .absolute top=23% left=5%}
+$$\hat{V}_2 = \hat{V}_1$$
+:::
+
+::: {.fragment .absolute top=34% left=5%}
+$$Q = \Delta \hat{U} = C_v(T_2 - T_1)$$
+:::
+
+::: {.fragment .absolute top=46% left=5%}
+$$W = 0$$
+:::
+
+::: {.fragment .absolute top=54% left=5%}
+$$\hat{S}_2 - \hat{S}_1 = C_v \ln \frac{T_2}{T_1}$$
+:::
+
+##
+
+**IB – Isobaric Step**
+
+::: {.absolute top=7% left=5%}
+$$\frac{T_2}{T_1} = \frac{\hat{V}_2}{\hat{V}_1}$$
+:::
+
+::: {.fragment .absolute top=27% left=5%}
+$$P_2 = P_1$$
+:::
+
+::: {.fragment .absolute top=37% left=5%}
+$$Q = \Delta \hat{H} = C_p(T_2 - T_1)$$
+:::
+
+::: {.fragment .absolute top=50% left=5%}
+$$W = P(\hat{V}_1 - \hat{V}_2) = R (T_1 - T_2)$$
+:::
+
+::: {.fragment .absolute top=61% left=5%}
+$$\hat{S}_2 - \hat{S}_1 = C_p \ln \frac{T_2}{T_1}$$
+:::
+
+## 
+
+**Carnot (IE, IT, IE, IT) Revisited**
+
+![](CarnotPV.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=30.5% left=11.5%}
+$a$
+:::
+::: {.absolute top=6% left=5.5%}
+$b$
+:::
+::: {.absolute top=23.5% left=32.5%}
+$c$
+:::
+::: {.absolute top=37% left=45%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=20% left=8%}
+$1$
+:::
+::: {.absolute top=17% left=20%}
+$2$
+:::
+::: {.absolute top=29% left=37%}
+$3$
+:::
+::: {.absolute top=35.5% left=25%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=-7%}
+:::{style="transform: rotate(-90deg);"}
+Pressure
+:::
+:::
+
+::: {.absolute top=43% left=18%}
+Volume
+:::
+
+
+![](CarnotTS.png){.absolute top=6% right=0% width=46%}
+
+::: {.absolute top=34% left=57.5%}
+$a$
+:::
+::: {.absolute top=8% left=58%}
+$b$
+:::
+::: {.absolute top=7.5% left=96%}
+$c$
+:::
+::: {.absolute top=34% left=96%}
+$d$
+:::
+
+::: {style="font-size: 85px;"}
+::: {.absolute top=22% left=58%}
+$1$
+:::
+::: {.absolute top=8% left=76%}
+$2$
+:::
+::: {.absolute top=22% left=96.5%}
+$3$
+:::
+::: {.absolute top=36% left=76%}
+$4$
+:::
+:::
+
+::: {.absolute top=21% left=42.5%}
+:::{style="transform: rotate(-90deg);"}
+Temperature
+:::
+:::
+
+::: {.absolute top=42% left=70%}
+Entropy
+:::
+
+::: {.fragment}
+::: {.absolute top=45% left=5%}
+$$W_{\mathrm{net}}=C_v\left(T_b-T_a\right)+RT_b\ln\frac{P_c}{P_b}$$
+:::
+
+::: {.absolute top=58% left=15%}
+$$+C_v\left(T_d-T_c\right)+RT_a\ln\frac{P_a}{P_d}=R\left(T_a-T_b\right)\ln\frac{P_b}{P_c}$$
+:::
+:::
+
+::: {.fragment .absolute top=70% left=5%}
+$$Q_\mathrm{hot}=RT_b \ln \frac{P_b}{P_c}$$
+:::
+
+::: {.fragment .absolute top=85% left=5%}
+$$T_\mathrm{hot}=T_2=T_b=T_c$$
+:::
+
+::: {.fragment .absolute top=85% left=50%}
+$$T_\mathrm{cold}=T_4=T_d=T_a$$
+:::
+
+## 
+
+**Carnot (IE, IT, IE, IT) Revisited**
+
+::: {.absolute top=12% left=5%}
+::: {style="font-size: 95px;"}
+$$\eta=\frac{-W_{\mathrm{net}}}{Q_\mathrm{hot}}=\frac{-R\left(T_a-T_b\right)\ln\frac{P_b}{P_c}}{RT_b\ln\frac{P_b}{P_c}}=\frac{T_b-T_a}{T_b}=1-\frac{T_\mathrm{cold}}{T_\mathrm{hot}}$$
+:::
+:::
+
+::: {.fragment .absolute top=35% left=5%}
+$$\frac{T_\mathrm{cold}}{T_\mathrm{hot}}=\left(\frac{V_a}{V_b}\right)^{1-\gamma}=\left(\frac{P_b}{P_a}\right)^{\frac{1-\gamma}{\gamma}}=r^{1-\gamma}=r_P^{\frac{1-\gamma}{\gamma}}$$
+:::
+
+::: {.fragment .absolute top=62% left=5%}
+$$\eta=1-\frac{T_\mathrm{cold}}{T_\mathrm{hot}}=1-r^{1-\gamma}=1-r_P^{\frac{1-\gamma}{\gamma}}$$
+:::
+
+## 
+
+**Carnot (IE, IT, IE, IT) Revisited**
+
+![](CarnotEtaR.png){.absolute top=6% left=2% width=46%}
+
+::: {.absolute top=16% left=-1%}
+$$\eta$$
+:::
+
+::: {.absolute top=37% left=24.5%}
+$$r$$
+:::
+
+
+![](CarnotEtaRP.png){.absolute top=6% right=0% width=46%}
+
+::: {.absolute top=16% left=51%}
+$$\eta$$
+:::
+
+
+::: {.absolute top=37% left=75.5%}
+$$r_P$$
+:::
+
+::: {.fragment .absolute top=50% left=10%}
+$$\eta = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}} = 1 - r^{(1-\gamma)} = 1 - r_P^{\left(\frac{1-\gamma}{\gamma}\right)}$$
+:::
+
+## The Takeaways
+
+1. The air-standard cycles use the First and Second Laws of Thermodynamics along with a constant $C_p$ of $7/2\ R$.
+2. They all use some combination of isothermal, isobaric, isochoric, and isentropic steps.
+3. The air-standard Carnot cycle is the prototype for the others, and has the expected Carnot efficiency.
+4. Carnot engines increase in efficiency as either the compression ratio or the pressure ratio increases.
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
