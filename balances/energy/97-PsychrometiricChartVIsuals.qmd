@@ -1,0 +1,178 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+## <!-- Approved Title -->
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=32% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Dry Bulbs, Wet Bulbs,</br>and My Will to Live:</br>Mastering the Psych Chart 
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+##
+
+![](PsychrometricChartAnnotated.png){.absolute top=0% left=0% width=100%}
+
+## Sling Psychrometer
+
+![](Sling_psychrometer.png)
+
+## Lines on Psychrometric Chart
+
+- Humid volume, $\hat{V}$
+- Dry-bulb temperature, $T_\mathrm{db}$
+- Wet-bulb temperature, $T_\mathrm{wb}$
+- Absolute humidity, $h_a$
+- Relative humidity, $h_r$
+- Enthalpy at saturation, $\hat{H}_\mathrm{sat}$
+- Enthalpy deviation, $\hat{H}_\mathrm{dev}$
+- Adiabatic saturation line
+
+![](PsychrometricChartAnnotated.png){.absolute top=20% right=0% width=50%}
+
+## Humid Volume
+
+![](PsychrometricChartAnnotated.png){.absolute top=8% left=0% width=100%}
+
+## Dry-Bulb Temperature
+
+![](PsychrometricChartAnnotated.png){.absolute top=8% left=0% width=100%}
+
+## Wet-Bulb Temperature
+
+![](PsychrometricChartAnnotated.png){.absolute top=8% left=0% width=100%}
+
+## Absolute Humidity
+
+![](PsychrometricChartAnnotated.png){.absolute top=8% left=0% width=100%}
+
+## Relative Humidity
+
+![](PsychrometricChartAnnotated.png){.absolute top=8% left=0% width=100%}
+
+## Enthalpy at Saturation
+
+![](PsychrometricChartAnnotated.png){.absolute top=8% left=0% width=100%}
+
+## Enthalpy Deviation
+
+![](PsychrometricChartAnnotatedEnthDev.png){.absolute top=8% left=0% width=100%}
+
+## Adiabatic Saturation Line
+
+![](PsychrometricChartAnnotated.png){.absolute top=8% left=0% width=100%}
+
+## First Example
+
+You set out a cold root brew on a day when the temperature is 86 degrees Fahrenheit, which you may recall was $30\ ^\circ\mathrm{C}$, and the relative humidity is $30\%$.
+
+1. At what temperature is the brew when water quits condensing on the can?
+2. What is the dew point?
+3. What is the wet bulb temperature?
+4. What is the absolute humidity?
+5. What is the specific volume?
+6. What is the enthalpy relative to liquid water and dry air at $0\ ^\circ\mathrm{C}$? 
+
+## First Example
+
+![](PsychrometricChartAnnotated.png){.absolute top=8% left=0% width=100%}
+
+::: {style="font-size: 40px;"}
+::: {.fragment .absolute top=68.5% left=19%}
+$$\colorbox{white}{$\displaystyle T_\mathrm{dp} = 10.55\ ^\circ\mathrm{C}$}$$
+:::
+
+::: {.fragment .absolute top=58.5% left=26.5%}
+$$\colorbox{white}{$\displaystyle T_\mathrm{wb} = 17.95\ ^\circ\mathrm{C}$}$$
+:::
+::: {.fragment .absolute top=68.5% left=81%}
+$$\colorbox{white}{$\displaystyle h_a = 0.00795\ \mathrm{kg\ H_2O/kg\ DA}$}$$
+:::
+::: {.fragment .absolute top=70% left=52.5%}
+$$\colorbox{white}{$\displaystyle \hat{V} = 0.870\ \mathrm{m^3/kg\ DA}$}$$
+:::
+::: {.fragment .absolute top=55% left=22.5%}
+$$\colorbox{white}{$\displaystyle \hat{H}_\mathrm{sat} = 50.86\ \mathrm{kJ/kg\ DA}$}$$
+:::
+::: {.fragment .absolute top=65.5% left=52.5%}
+$$\colorbox{white}{$\displaystyle \hat{H}_\mathrm{dev} = -0.37\ \mathrm{kJ/kg\ DA}$}$$
+:::
+::: {.fragment .absolute top=47% left=5%}
+$$\colorbox{white}{$\displaystyle \hat{H} = \hat{H}_\mathrm{sat} + \hat{H}_\mathrm{dev} = 50.86 - 0.37 = 50.49\ \mathrm{kJ/kg\ DA}$}$$
+:::
+:::
+
+## Second Example
+
+We have hot air at $43\ ^\circ\mathrm{C}$ and $10\%\ h_r$  entering an adiabatic clothes dryer containing 5 kg of water and assorted clothes and exiting at $90\%\ h_r$.
+
+1. How many cubic meters of air are required to completely dry the clothes?
+2. What is the steady-state temperature of the exiting air?
+3. What is the steady-state temperature of the clothes until they are almost completely dry?
+
+## Second Example
+
+![](PsychrometricChartAnnotated.png){.absolute top=8% left=0% width=100%}
+
+::: {style="font-size: 40px;"}
+
+::: {.fragment .absolute top=73.5% left=81%}
+$$\colorbox{white}{$\displaystyle h_a = 0.0054\ \mathrm{kg\ H_2O/kg\ DA}$}$$
+:::
+::: {.fragment .absolute top=54.5% left=81%}
+$$\colorbox{white}{$\displaystyle h_a = 0.0144\ \mathrm{kg\ H_2O/kg\ DA}$}$$
+:::
+::: {.fragment .absolute top=33% left=5%}
+$m_\mathrm{DA} = \dfrac{5}{0.0144 - 0.0054} = 556\ \mathrm{kg\ DA}$
+:::
+::: {.fragment .absolute top=80.7% left=63%}
+::: {style="transform: rotate(70deg);"}
+$$\colorbox{white}{$\displaystyle \color{purple}\hat{V} = 0.903\ \mathrm{m^3/kg\ DA}$}$$
+:::
+:::
+::: {.fragment .absolute top=40% left=5%}
+$V = m_\mathrm{DA} \hat{V} = 556 \cdot 0.903 = \boxed{502\ \mathrm{m^3\ DA}}$
+:::
+::: {.fragment .absolute top=88% left=41%}
+$$\colorbox{white}{$\displaystyle \boxed{\color{blue}T_\mathrm{db} = 21.27\ ^\circ\mathrm{C}}$}$$
+:::
+::: {.fragment .absolute top=49% left=30.5%}
+::: {style="transform: rotate(32deg);"}
+$$\colorbox{white}{$\displaystyle \boxed{\color{green}T_\mathrm{wb} = 20.1\ ^\circ\mathrm{C}}$}$$
+:::
+:::
+
+:::
+
+## The Takeaways
+
+1. The psychrometric chart is a graphical way to solve problems involving the air-water vapor system. Given any two of: $T_\mathrm{db}$, $T_\mathrm{wb}$ or $\hat{H}_\mathrm{sat}$ , $h_r$, $h_a$ or $T_\mathrm{dp}$ , or $\hat{V}$, you can read the remaining values off the diagram.
+2. Psychrometric charts are useful for humidifying and dehumidifying process calculations, and heating, ventilation, and air conditioning calculations.
+3. Psychrometric charts have largely been supplanted with online calculators or phone apps.
+
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->

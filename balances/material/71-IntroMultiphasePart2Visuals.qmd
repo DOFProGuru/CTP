@@ -1,0 +1,328 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+## <!-- Approved Title -->
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=30% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 2
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+## Introduction
+
+*Can You Tell an Azeotrope from a Peritectic?<br/>Get Your Phase Diagrams Right! Part 1* and *Part 2*
+
+- Introduction to
+  - Phase separation
+  - Phase equilibria
+  - i.e., where split fractions come from
+- Part 1
+  - Single-component and binary phase diagrams
+- Part 2
+  - Ternary phase diagrams
+  - The Lever Rule.
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagramNoLine.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagram1Blue.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagram2Blue.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagram3Blue.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagram1Brown.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagram2Brown.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagram3Brown.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagram1Red.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagram2Red.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagram3Red.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagramNoLine.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagramNoRedLine.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagramNoGreenDot.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagramNoTie.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagramNoPhi.png){.absolute top=10% left=15%}
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagramPhi1.png){.absolute top=10% left=15%}
+
+::: {.absolute top=51.5% left=36%}
+$\phi_1$
+:::
+
+## Liquid-Liquid Extraction
+
+![](TernaryPhaseDiagramTieLines.png){.absolute top=10% left=15%}
+
+::: {.absolute top=51.5% left=36%}
+$\phi_1$
+:::
+
+::: {.absolute top=57% left=65.5%}
+$\phi_2$
+:::
+
+## *Txy* and *Pxy* Binary Phase Diagrams
+
+![](TxyChloroformMethano.png){.absolute top=10% left=0% width=45%}
+
+![](PxyChloroformMethanol.png){.absolute top=10% right=0% width=45%}
+
+:::{.fragment .absolute top=65% left=8% style="font-size: 75px;"}
+$\mathrm{liquid}$
+:::
+
+:::{.fragment .absolute top=35% left=62% style="font-size: 75px;"}
+$\mathrm{liquid}$
+:::
+
+:::{.fragment .absolute top=40% left=20% style="font-size: 75px;"}
+$\mathrm{vapor}$
+:::
+
+:::{.fragment .absolute top=55% left=72% style="font-size: 75px;"}
+$\mathrm{vapor}$
+:::
+
+::: {.fragment}
+:::{.absolute top=50% left=13% style="font-size: 75px;"}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=46% left=68% style="font-size: 75px;"}
+$2\text{–}\phi$
+:::
+:::
+
+## Lever Rule
+
+![](LeverRule.png)
+
+## The Lever Rule for Phase Diagrams
+
+![](TxyChloroformMethano.png){.absolute top=10% left=0% width=55%}
+
+::: {style="font-size: 65px;"}
+:::{.fragment .absolute top=68% left=7%}
+$\text{Phase }\alpha$
+:::
+
+:::{.fragment .absolute top=53% left=22%}
+$\text{Phase }\beta$
+:::
+
+:::{.fragment .absolute top=63% left=19%}
+$2\text{–}\phi$
+:::
+
+:::{.fragment .absolute top=85% left=17%}
+$x_\mathrm{O}$
+:::
+:::
+
+## The Lever Rule for Phase Diagrams
+
+![](TxyChloroformMethanoBox.png){.absolute top=10% left=0% width=55%}
+
+::: {style="font-size: 65px;"}
+:::{.absolute top=68% left=7%}
+$\text{Phase }\alpha$
+:::
+
+:::{.absolute top=53% left=22%}
+$\text{Phase }\beta$
+:::
+
+:::{.absolute top=63% left=19%}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=85% left=17%}
+$x_\mathrm{O}$
+:::
+:::
+
+
+## The Lever Rule for Phase Diagrams
+
+![](TxyBlowUpFull.png){.absolute top=15% left=0% width=65%}
+
+:::{.absolute top=50% left=7%}
+$\text{Phase }\alpha$
+:::
+
+:::{.absolute top=26% left=43%}
+$\text{Phase }\beta$
+:::
+
+:::{.absolute top=30% left=33%}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=39.5% left=26.5%}
+$x_\mathrm{O}$
+:::
+
+:::{.fragment .absolute top=39.5% left=14%}
+$x_\alpha$
+:::
+
+:::{.fragment .absolute top=39.5% left=42%}
+$x_\beta$
+:::
+
+:::{.fragment .absolute top=58% left=-4%}
+$l_1 = x_\mathrm{O} - x_\alpha$
+:::
+
+:::{.fragment .absolute top=58% left=47%}
+$l_2 = x_\beta - x_\mathrm{O}$
+:::
+
+:::{.fragment .absolute top=66.5% left=21%}
+$l_3 = x_\beta - x_\alpha$
+:::
+
+:::{.fragment .absolute left=70% top=10%}
+If </br> $\ \ \ \ n_\mathrm{total} = n_\alpha + n_\beta$
+:::
+
+:::{.fragment .absolute left=70% top=25%}
+Then </br> $\ \ \ \ n_\alpha l_1 = n_\beta l_2$
+:::
+:::{.fragment .absolute left=70% top=40%}
+$\ \ \ \ \dfrac{n_\alpha}{n_\mathrm{total}} = \dfrac{l_2}{l_3}$
+:::
+:::{.fragment .absolute left=70% top=55%}
+$\ \ \ \ \dfrac{n_\beta}{n_\mathrm{total}} = \dfrac{l_1}{l_3}$
+:::
+
+:::{.fragment .absolute left=2% top=75%}
+If $\alpha$ is a liquid and $\beta$ is a vapor, then<br/>
+$\mathcal{V} \equiv \dfrac{n_\beta}{n_\mathrm{total}} = \dfrac{l_1}{l_3}$
+and 
+$\mathcal{L} \equiv \dfrac{n_\alpha}{n_\mathrm{total}} = \dfrac{l_2}{l_3}$
+:::
+
+## Example
+
+![](Raney_nickel_phase_diagram.png){.absolute top=10% left=0% width=50%}
+
+::: {style="font-size: 50px;"}
+::: {.absolute top=70% left=0%}
+User Rune.welsh on en.wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/),<br/>via Wikimedia Commons
+:::
+:::
+
+::: {.absolute top=10% left=52%}
+We have an equilibrium mixture of aluminum and nickel at $1000\ ^\circ\mathrm{C}$.
+$50\%$ of the overall mixture is nickel. Give the compositions and relative amounts of all phases present.
+:::
+
+::: {.fragment .absolute top=80% left=10%}
+$50\ \mathrm{mole}\% = \frac{50(58.6934)}{50(58.6934)+ 50(26.9815)}  = 68.5\ \mathrm{mass}\%$
+:::
+
+## Example Solution
+
+![](Raney_nickel_phase_diagram.png){.absolute top=10% left=0% width=50%}
+
+::: {style="font-size: 50px;"}
+::: {.absolute top=70% left=0%}
+User Rune.welsh on en.wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/),<br/>via Wikimedia Commons
+:::
+:::
+
+::: {.fragment .absolute top=10% left=52%}
+Atomic percent: 100% AlNi
+:::
+::: {.fragment .absolute top=30% left=52%}
+Weight percent: Calc in 2-$\phi$<br/>between Liquid and Al~3~Ni~2~
+:::
+::: {.fragment .absolute top=45% left=52%}
+$x_\mathrm{Liquid} = 36\%$
+:::
+::: {.fragment .absolute top=50% left=52%}
+$x_\mathrm{Al_3Ni_2} = 57\%$
+:::
+
+::: {.fragment .absolute top=77% left=5%}
+$\dfrac{n_\mathrm{Al_3Ni_2}}{n_\mathrm{O}} = \dfrac{x_\mathrm{Al_3Ni_2} - x_\mathrm{O}}{x_\mathrm{Al_3Ni2} - x_\mathrm{Liquid}} = \dfrac{57 - 50}{57 - 36} = 33.3\%$
+:::
+::: {.fragment .absolute top=91% left=5%}
+$\dfrac{n_\mathrm{Liquid}}{n_\mathrm{O}} = 1 - \dfrac{n_\mathrm{Al_3Ni_2}}{n_\mathrm{O}} = 100\% - 33.3\% = 66.7\%$
+:::
+
+## The Takeaways
+
+1. In ternary phase diagrams, you read the composition by looking at composition lines that are normal to the species of interest. The mass or mole fractions have to add up to one or one hundred percent.
+2. The tie lines in a ternary diagram are not parallel like they are in a binary phase diagram.
+3. The lever rule can be used to calculate the relative amounts of the two phases.
+
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
