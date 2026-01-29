@@ -1,0 +1,372 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+## <!-- Approved Title -->
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+
+::: {.absolute left=0% right=0% top=30% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 1
+:::
+
+::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+DOFPro Team
+:::
+
+## Introduction
+
+*Can You Tell an Azeotrope from a Peritectic?<br/>Get Your Phase Diagrams Right! Part 1* and *Part 2*
+
+- Introduction to
+  - Phase separation
+  - Phase equilibria
+  - i.e., where split fractions come from
+
+## Moonshiners
+
+![](Moonshine_still.png)
+
+::: {style="font-size: 75px;"}
+National Photo Company Collection, Public domain, via Wikimedia Commons
+:::
+
+## Oil Producers
+
+![](Colonne_distillazione.jpg)
+
+User:Luigi Chiesa, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), via Wikimedia Commons
+
+## Makers of High-Strength Alloys
+
+![](Microstructure_of_a_stainless_steel_A961.jpg)
+
+Djhé, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons
+
+## Gibbs Phase Rule
+
+::: {.fragment}
+$$\boxed{DF = 2 + c - \Pi}$$
+:::
+
+- A *Degree of Freedom*, $DF$, is a coordinate or variable.
+
+- A *Component*, $c$, is a chemical species, e.g. $\mathrm{Al_2O_3}$.
+
+- A *Phase*, $\Pi$,  is a physical entity with a uniform composition, temperature, pressure and specific volume. In a given container, you can have multiple solid phases and multiple liquid phases, but only one vapor or gas phase.
+
+## Cooking Oil and Vinegar
+
+
+##
+
+::: {style="font-size: 145px; font-weight: bold;"}
+Phase Diagrams for Single Components
+:::
+
+::: {.fragment .absolute top=9% left=5%}
+How do you calculate phase equilibria?
+:::
+::: {.fragment .absolute top=16% left=5%}
+What does phase equilibrium mean?
+:::
+
+::: {.fragment}
+![](PVT_3D_diagram-en.png){.absolute top=26.5% left=0% width=40%}
+
+::: {.absolute top=83% left=5%}
+::: {style="font-size: 50px;"}
+Д.Ильин: vectorization,<br/>CC0, via Wikimedia Commons
+:::
+:::
+:::
+
+::: {.fragment}
+![](Phase-diag2.png){.absolute top=25% left=40% width=60%}
+
+::: {.absolute top=83% left=45%}
+::: {style="font-size: 50px;"}
+
+Matthieumarechal, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/),<br/>via Wikimedia Commons
+:::
+:::
+:::
+
+::: {.fragment .absolute top=87% left=45%}
+$$DF = 2 + c - \Pi = 3 - \Pi$$
+:::
+
+::: {.fragment .absolute top=56% left=47.25%}
+::: {style="font-size: 60px; color: red;"}
+$1\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=56% left=61.4%}
+::: {style="font-size: 60px; color: red;"}
+$2\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=56% left=66.5%}
+::: {style="font-size: 60px; color: red;"}
+$1\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=56% left=71.75%}
+::: {style="font-size: 60px; color: red;"}
+$2\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=56% left=83%}
+::: {style="font-size: 60px; color: red;"}
+$1\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+## Water/Steam/Ice Phase Diagram
+
+![](Phase_diagram_of_water.png){.absolute top=10% left=5% width=90%}
+
+::: {.fragment .absolute top=94% left=60%}
+::: {style="font-size: 50px;"}
+Cmglee, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0),<br/>via Wikimedia Commons
+:::
+:::
+
+## Al-Ni Phase Diagram
+
+![](Raney_nickel_phase_diagram.png){.absolute top=10% left=15% width=70%}
+
+::: {.absolute top=95% left=15%}
+::: {style="font-size: 50px;"}
+User Rune.welsh on en.wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons
+:::
+:::
+
+::: {.fragment .absolute top=97.5% left=14%}
+$DF = 2(-1,\ P=\mathrm{const.})+c - \Pi = 3 - \Pi$
+:::
+
+::: {.fragment .absolute top=43.35% left=35%}
+::: {style="font-size: 60px; color: red;"}
+$1\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=43.35% left=55%}
+::: {style="font-size: 60px; color: red;"}
+$2\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=47.6% left=58.5%}
+::: {style="font-size: 60px; color: red;"}
+$\ \ \bullet$
+
+$1\text{-}\phi$
+:::
+:::
+
+::: {.fragment .absolute top=43.35% left=62%}
+::: {style="font-size: 60px; color: red;"}
+$2\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=43.35% left=67%}
+::: {style="font-size: 60px; color: red;"}
+$1\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment}
+::: {.absolute top=36% left=59.5%}
+::: {style="font-size: 60px; color: green;"}
+$3\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.absolute top=40.2% left=54.25%}
+::: {style="font-size: 60px; color: green;"}
+$\bullet$
+:::
+:::
+
+::: {.absolute top=40.2% left=63.75%}
+::: {style="font-size: 60px; color: green;"}
+$\bullet$
+:::
+:::
+:::
+
+## Fe-O Phase Diagram
+
+![](Fe-O_phase_diagr.png)
+Joanna Kośmider, Public domain, via Wikimedia Commons
+
+::: {.fragment .absolute top=1.75% left=60%}
+$DF = 3 - \Pi$
+:::
+
+::: {.fragment .absolute top=10.5% left=13.25%}
+::: {style="font-size: 60px; color: red;"}
+$1\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=10.5% left=31%}
+::: {style="font-size: 60px; color: red;"}
+$2\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=10.5% left=62%}
+::: {style="font-size: 60px; color: red;"}
+$1\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=10.5% left=68.5%}
+::: {style="font-size: 60px; color: red;"}
+$2\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=10.5% left=72%}
+::: {style="font-size: 60px; color: red;"}
+$1\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment}
+::: {.absolute top=58.7% left=63.4%}
+::: {style="font-size: 60px; color: green;"}
+$\ \ \bullet$
+
+$3\text{-}\phi$
+:::
+:::
+
+::: {.absolute top=59% left=14.5%}
+::: {style="font-size: 60px; color: green;"}
+$\bullet$
+:::
+:::
+
+::: {.absolute top=58.75% left=72.7%}
+::: {style="font-size: 60px; color: green;"}
+$\bullet$
+:::
+:::
+:::
+
+
+## MgSO~4~–H~2~O Phase Diagram
+
+![](Meridianiite6_alt.png)
+
+::: {.absolute top=94% left=14%}
+::: {style="font-size: 50px;"}
+Ronald C. Peterson and Ruiyao Wang, Attribution, via Wikimedia Commons
+:::
+:::
+
+::: {.fragment .absolute top=37% left=40%}
+::: {style="font-size: 60px; color: red;"}
+$1\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=37% left=59%}
+::: {style="font-size: 60px; color: red;"}
+$2\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=37% left=77.6%}
+::: {style="font-size: 60px; color: red;"}
+$1\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+::: {.fragment .absolute top=41.25% left=80.5%}
+::: {style="font-size: 60px; color: red;"}
+$\ \ \bullet$
+
+$2\text{-}\phi$
+:::
+:::
+
+::: {.fragment .absolute top=37% left=83%}
+::: {style="font-size: 60px; color: red;"}
+$1\text{-}\phi$
+
+$\ \ \bullet$
+:::
+:::
+
+## The Takeaways
+
+1. The Gibbs phase rule can be used to determine if an area on a phase diagram is a one-, two-, or three-phase region.
+2. The number of phases increments or decrements by one when you cross into a new region on a binary phase diagram
+3. The three-phase regions on a binary phase diagram are the eutectic, eutectoid, peritectic, peritectoid, and monotectic
+
+
+# <!-- Approved Plain End -->
+::: {.centered .bigger}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+::: {.absolute left=38% top=125% style="font-size: 110px;"}
+The DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
+<!-- ****************************END Regular Intro/Outro ************************* -->
