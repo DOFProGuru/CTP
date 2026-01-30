@@ -1,0 +1,16 @@
+---
+format:
+  revealjs:
+    auto-stretch: false
+    width: 1920
+    height: 1080
+    max-scale: 1
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+---
+
+##
+
+![](1282by722Frame.png){.absolute top=20px left=20px}
+
+
