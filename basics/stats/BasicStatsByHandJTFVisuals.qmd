@@ -37,6 +37,8 @@ DOFPro Team
 
 This video shows how to calculate $\bar{x}$, $S$, $S_\bar{x}$, and $\lambda$ by hand and with a calculator.
 
+# We misplaced the ending footage for *The Full Story* version, so we are using the *Just the Facts* ending footage instead.
+
 #
 ::: {.centered}
  </br></br></br></br></br>**Thanks for watching!** </br> The *How Deviant and Mean Are Your Data?* companion video is in the link in the upper left. The link to *Basics on a Spreadsheet* is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.

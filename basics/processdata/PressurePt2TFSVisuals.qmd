@@ -16,14 +16,13 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-50%"}
 
+# What is *gauge pressure*?
 
-# Under Pressure Part 2 </br> Just The Facts {style="text-align: center;"}
+# How do you calculate<br/>the *absolute pressure* from<br/>the *atmospheric pressure*<br/>and the *gauge pressure*?
 
-::: {style="text-align: center;"}
-DOFPro Team
-:::
+# What is *barometric pressure*?
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-50%"}
+# What does<br/>*vacuum pressure* mean?
 
 ## Under Pressure
 

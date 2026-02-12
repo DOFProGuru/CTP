@@ -25,27 +25,18 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-45%"}
 
-# 
+# What do you do if you need a value from a data table that is between two table values?
 
-::: {.bigbold180 style="text-align: center;"}
-Interpol Is Late to a</br>Mind-Blowing Math Hack
-:::
+# What is interpolation?
 
-::: {.bigbold style="text-align: center;"}
-Just The Facts 
-:::
+# Can you name any types of interpolation besides linear?
 
-::: {style="text-align: center;"}
-DOFPro Team
-:::
-
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-45%"}
+# What is double interpolation?
 
 ## 
 
-**Properties of Saturated Steam: Temperature Table**
 
-![](steamtable1d.png)
+![](steamtable1d.png){.absolute top=5% left=15% height=100%}
 
 ## Linear Interpolation
 
