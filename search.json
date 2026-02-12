@@ -2611,6 +2611,83 @@
     "text": "Intro to Systems and Balances"
   },
   {
+    "objectID": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#scale-video-tba",
+    "href": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#scale-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Scale Video TBA",
+    "text": "Scale Video TBA"
+  },
+  {
+    "objectID": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#ruler-video-tbs",
+    "href": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#ruler-video-tbs",
+    "title": "Chemical and Thermal Processes",
+    "section": "Ruler Video TBS",
+    "text": "Ruler Video TBS"
+  },
+  {
+    "objectID": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#voltmeter-video-tba",
+    "href": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#voltmeter-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Voltmeter Video TBA",
+    "text": "Voltmeter Video TBA"
+  },
+  {
+    "objectID": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#thermistor-video-tba",
+    "href": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#thermistor-video-tba",
+    "title": "Chemical and Thermal Processes",
+    "section": "Thermistor Video TBA",
+    "text": "Thermistor Video TBA"
+  },
+  {
+    "objectID": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#reporting-uncertainty",
+    "href": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#reporting-uncertainty",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reporting Uncertainty",
+    "text": "Reporting Uncertainty\n\n\\(m = 1.03 \\pm 0.03\\ \\mathrm{kg}\\text{ (95% confidence)}\\)\n\n\n\\(u = 2.36 \\pm 0.04\\ \\mathrm{\\frac{m}{s}}\\text{ (95% confidence)}\\)\n\n\n\\(mu = 2.43 \\pm 0.08\\ \\mathrm{\\frac{(kg\\cdot m)}{s} }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}mu^2 = 2.87 \\pm 0.13\\ \\mathrm{J}\\text{ (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
+  },
+  {
+    "objectID": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#reporting-functional-uncertainty",
+    "href": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#reporting-functional-uncertainty",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reporting Functional Uncertainty",
+    "text": "Reporting Functional Uncertainty\n\n\nCC BY-SA 3.0, link\n\n\n \n\n\n\n\n\n\\(F_\\mathrm{s} = k(x_\\mathrm{n}-x_\\mathrm{f})\\)\n\n\n\n\n\n\\(F_\\mathrm{_s} = 30.00 \\pm 2.50\\ \\mathrm{(95\\%\\ conf.)\\ N/m}(x\\mathrm{_n}-x\\mathrm{_f})\\)"
+  },
+  {
+    "objectID": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#true-mean-and-standard-deviation",
+    "href": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#true-mean-and-standard-deviation",
+    "title": "Chemical and Thermal Processes",
+    "section": "True Mean and Standard Deviation",
+    "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(:=\\)1 True Mean or Population Mean.\n\n\n\\(\\mu \\equiv\\) True or Population Mean,\n\n\ni.e., \\(\\mu =\\ \\)average value from infinite-precision, full population measurement (almost never known).\n\n\nDistribution of data about the true mean \\(:=\\) True Standard Deviation or Population Standard Deviation.\n\n\n\\(\\sigma \\equiv\\) True or Population Standard Deviation\n\n\ni.e., \\(\\sigma =\\ \\)standard deviation given true mean and infinite-precision data points (also almost never known).\n\nMath has borrowed “:=” from Computer Science to mean is called."
+  },
+  {
+    "objectID": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#sample-mean-and-residuals",
+    "href": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#sample-mean-and-residuals",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample Mean and Residuals",
+    "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\ne.g., \\(x_1 = 43.15\\)\n\n\nA set of \\(N\\) measurements\n\n\nimplies a set of\n\n\n\\(N\\) independent equations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\bar{x} \\equiv\\) sample mean\n\n\nHow do we estimate \\(\\mu - \\bar{x}\\)?\n\n\n\nCan we calculate the error\n\n\n\\(\\varepsilon_i =\\mu-x_i\\)?\n\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(e\\mathrm{_i} = \\bar{x} - x_i\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
+  },
+  {
+    "objectID": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#section",
+    "href": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#section",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Sample Variance and Standard Deviation\n\n\nTrue variance\n\n\n\\(\\sigma^2=\\frac{\\displaystyle{\\sum_{i=1}^N \\varepsilon^2_i}}{N}\\)\n\n\nSample variance\n\n\n\\(S^2=\\frac{\\displaystyle{\\sum_{i=1}^N e^2_i}}{N-1}\\)\n\n\n\\(\\bar{x},\\ e,\\) and \\(S^2\\) are calculated from the \\(x_i\\).\n\n\n\\(\\mu,\\ \\varepsilon,\\) and \\(\\sigma^2\\) are not.\n\n\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.\n\n\nThe true standard deviation, \\(\\sigma=\\sqrt{\\sigma^2}\\).\n\n\nThe sample standard deviation, \\(S=\\sqrt{S^2}\\)."
+  },
+  {
+    "objectID": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#are-we-there-yet",
+    "href": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#are-we-there-yet",
+    "title": "Chemical and Thermal Processes",
+    "section": "Are We There Yet?",
+    "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
+  },
+  {
+    "objectID": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#the-takeaways",
+    "href": "basics/stats/5A-TFS-WhyStatsTFS2Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
+  },
+  {
     "objectID": "basics/stats/BasicStatisticsWebPage.html",
     "href": "basics/stats/BasicStatisticsWebPage.html",
     "title": "How Deviant and Mean Are Your Data? (Basic Statistics) Reference Page",
@@ -2723,155 +2800,92 @@
     "text": "Comparison\n{image}"
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#scale-video-tba",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#scale-video-tba",
+    "objectID": "basics/stats/BasicStatsByHandJTFVisuals.html#the-basic-statistics-videos",
+    "href": "basics/stats/BasicStatsByHandJTFVisuals.html#the-basic-statistics-videos",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Basic Statistics Videos",
+    "text": "The Basic Statistics Videos\n\nHow Deviant and Mean Are Your Data? Parts 1 & 2 Intro to \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\)\n\n\nBasic Statistics by Hand \\(\\Leftarrow\\) This video Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) by hand.\nBasic Statistics with a Spreadsheet Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with a spreadsheet.\nBasic Statistics with Python Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with Python.\nBasic Statistics With R Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with R."
+  },
+  {
+    "objectID": "basics/stats/BasicStatsByHandJTFVisuals.html#basic-statistics-by-hand",
+    "href": "basics/stats/BasicStatsByHandJTFVisuals.html#basic-statistics-by-hand",
+    "title": "Chemical and Thermal Processes",
+    "section": "Basic Statistics by Hand",
+    "text": "Basic Statistics by Hand\nThis video shows how to calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) by hand and with a calculator."
+  },
+  {
+    "objectID": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#scale-video-tba",
+    "href": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#scale-video-tba",
     "title": "Chemical and Thermal Processes",
     "section": "Scale Video TBA",
     "text": "Scale Video TBA"
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#ruler-video-tbs",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#ruler-video-tbs",
+    "objectID": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#ruler-video-tbs",
+    "href": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#ruler-video-tbs",
     "title": "Chemical and Thermal Processes",
     "section": "Ruler Video TBS",
     "text": "Ruler Video TBS"
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#voltmeter-video-tba",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#voltmeter-video-tba",
+    "objectID": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#voltmeter-video-tba",
+    "href": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#voltmeter-video-tba",
     "title": "Chemical and Thermal Processes",
     "section": "Voltmeter Video TBA",
     "text": "Voltmeter Video TBA"
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#thermistor-video-tba",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#thermistor-video-tba",
+    "objectID": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#thermistor-video-tba",
+    "href": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#thermistor-video-tba",
     "title": "Chemical and Thermal Processes",
     "section": "Thermistor Video TBA",
     "text": "Thermistor Video TBA"
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#reporting-uncertainty",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#reporting-uncertainty",
+    "objectID": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#reporting-uncertainty",
+    "href": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#reporting-uncertainty",
     "title": "Chemical and Thermal Processes",
     "section": "Reporting Uncertainty",
     "text": "Reporting Uncertainty\n\n\\(m = 1.03 \\pm 0.03\\ \\mathrm{kg}\\text{ (95% confidence)}\\)\n\n\n\\(u = 2.36 \\pm 0.04\\ \\mathrm{\\frac{m}{s}}\\text{ (95% confidence)}\\)\n\n\n\\(mu = 2.43 \\pm 0.08\\ \\mathrm{\\frac{(kg\\cdot m)}{s} }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}mu^2 = 2.87 \\pm 0.13\\ \\mathrm{J}\\text{ (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#reporting-functional-uncertainty",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#reporting-functional-uncertainty",
+    "objectID": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#reporting-functional-uncertainty",
+    "href": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#reporting-functional-uncertainty",
     "title": "Chemical and Thermal Processes",
     "section": "Reporting Functional Uncertainty",
     "text": "Reporting Functional Uncertainty\n\n\nCC BY-SA 3.0, link\n\n\n \n\n\n\n\n\n\\(F_\\mathrm{s} = k(x_\\mathrm{n}-x_\\mathrm{f})\\)\n\n\n\n\n\n\\(F_\\mathrm{_s} = 30.00 \\pm 2.50\\ \\mathrm{(95\\%\\ conf.)\\ N/m}(x\\mathrm{_n}-x\\mathrm{_f})\\)"
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#true-mean-and-standard-deviation",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#true-mean-and-standard-deviation",
+    "objectID": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#true-mean-and-standard-deviation",
+    "href": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#true-mean-and-standard-deviation",
     "title": "Chemical and Thermal Processes",
     "section": "True Mean and Standard Deviation",
     "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(:=\\)1 True Mean or Population Mean.\n\n\n\\(\\mu \\equiv\\) True or Population Mean,\n\n\ni.e., \\(\\mu =\\ \\)average value from infinite-precision, full population measurement (almost never known).\n\n\nDistribution of data about the true mean \\(:=\\) True Standard Deviation or Population Standard Deviation.\n\n\n\\(\\sigma \\equiv\\) True or Population Standard Deviation\n\n\ni.e., \\(\\sigma =\\ \\)standard deviation given true mean and infinite-precision data points (also almost never known).\n\nMath has borrowed “:=” from Computer Science to mean is called."
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#sample-mean-and-residuals",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#sample-mean-and-residuals",
+    "objectID": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#sample-mean-and-residuals",
+    "href": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#sample-mean-and-residuals",
     "title": "Chemical and Thermal Processes",
     "section": "Sample Mean and Residuals",
     "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\ne.g., \\(x_1 = 43.15\\)\n\n\nA set of \\(N\\) measurements\n\n\nimplies a set of\n\n\n\\(N\\) independent equations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\bar{x} \\equiv\\) sample mean\n\n\nHow do we estimate \\(\\mu - \\bar{x}\\)?\n\n\n\nCan we calculate the error\n\n\n\\(\\varepsilon_i =\\mu-x_i\\)?\n\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(e\\mathrm{_i} = \\bar{x} - x_i\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#section",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#section",
+    "objectID": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#section",
+    "href": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#section",
     "title": "Chemical and Thermal Processes",
     "section": "",
     "text": "Sample Variance and Standard Deviation\n\n\nTrue variance\n\n\n\\(\\sigma^2=\\frac{\\displaystyle{\\sum_{i=1}^N \\varepsilon^2_i}}{N}\\)\n\n\nSample variance\n\n\n\\(S^2=\\frac{\\displaystyle{\\sum_{i=1}^N e^2_i}}{N-1}\\)\n\n\n\\(\\bar{x},\\ e,\\) and \\(S^2\\) are calculated from the \\(x_i\\).\n\n\n\\(\\mu,\\ \\varepsilon,\\) and \\(\\sigma^2\\) are not.\n\n\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.\n\n\nThe true standard deviation, \\(\\sigma=\\sqrt{\\sigma^2}\\).\n\n\nThe sample standard deviation, \\(S=\\sqrt{S^2}\\)."
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#are-we-there-yet",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#are-we-there-yet",
+    "objectID": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#are-we-there-yet",
+    "href": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#are-we-there-yet",
     "title": "Chemical and Thermal Processes",
     "section": "Are We There Yet?",
     "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
   },
   {
-    "objectID": "basics/stats/WhyStatsJTF1Visuals.html#the-takeaways",
-    "href": "basics/stats/WhyStatsJTF1Visuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#scale-video-tba",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#scale-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Scale Video TBA",
-    "text": "Scale Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#ruler-video-tbs",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#ruler-video-tbs",
-    "title": "Chemical and Thermal Processes",
-    "section": "Ruler Video TBS",
-    "text": "Ruler Video TBS"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#voltmeter-video-tba",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#voltmeter-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Voltmeter Video TBA",
-    "text": "Voltmeter Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#thermistor-video-tba",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#thermistor-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Thermistor Video TBA",
-    "text": "Thermistor Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#reporting-uncertainty",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#reporting-uncertainty",
-    "title": "Chemical and Thermal Processes",
-    "section": "Reporting Uncertainty",
-    "text": "Reporting Uncertainty\n\n\\(m = 1.03 \\pm 0.03\\ \\mathrm{kg}\\text{ (95% confidence)}\\)\n\n\n\\(u = 2.36 \\pm 0.04\\ \\mathrm{\\frac{m}{s}}\\text{ (95% confidence)}\\)\n\n\n\\(mu = 2.43 \\pm 0.08\\ \\mathrm{\\frac{(kg\\cdot m)}{s} }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}mu^2 = 2.87 \\pm 0.13\\ \\mathrm{J}\\text{ (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#reporting-functional-uncertainty",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#reporting-functional-uncertainty",
-    "title": "Chemical and Thermal Processes",
-    "section": "Reporting Functional Uncertainty",
-    "text": "Reporting Functional Uncertainty\n\n\nCC BY-SA 3.0, link\n\n\n \n\n\n\n\n\n\\(F_\\mathrm{s} = k(x_\\mathrm{n}-x_\\mathrm{f})\\)\n\n\n\n\n\n\\(F_\\mathrm{_s} = 30.00 \\pm 2.50\\ \\mathrm{(95\\%\\ conf.)\\ N/m}(x\\mathrm{_n}-x\\mathrm{_f})\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#true-mean-and-standard-deviation",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#true-mean-and-standard-deviation",
-    "title": "Chemical and Thermal Processes",
-    "section": "True Mean and Standard Deviation",
-    "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(:=\\)1 True Mean or Population Mean.\n\n\n\\(\\mu \\equiv\\) True or Population Mean,\n\n\ni.e., \\(\\mu =\\ \\)average value from infinite-precision, full population measurement (almost never known).\n\n\nDistribution of data about the true mean \\(:=\\) True Standard Deviation or Population Standard Deviation.\n\n\n\\(\\sigma \\equiv\\) True or Population Standard Deviation\n\n\ni.e., \\(\\sigma =\\ \\)standard deviation given true mean and infinite-precision data points (also almost never known).\n\nMath has borrowed “:=” from Computer Science to mean is called."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#sample-mean-and-residuals",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#sample-mean-and-residuals",
-    "title": "Chemical and Thermal Processes",
-    "section": "Sample Mean and Residuals",
-    "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\ne.g., \\(x_1 = 43.15\\)\n\n\nA set of \\(N\\) measurements\n\n\nimplies a set of\n\n\n\\(N\\) independent equations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\bar{x} \\equiv\\) sample mean\n\n\nHow do we estimate \\(\\mu - \\bar{x}\\)?\n\n\n\nCan we calculate the error\n\n\n\\(\\varepsilon_i =\\mu-x_i\\)?\n\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(e\\mathrm{_i} = \\bar{x} - x_i\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#section",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#section",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Sample Variance and Standard Deviation\n\n\nTrue variance\n\n\n\\(\\sigma^2=\\frac{\\displaystyle{\\sum_{i=1}^N \\varepsilon^2_i}}{N}\\)\n\n\nSample variance\n\n\n\\(S^2=\\frac{\\displaystyle{\\sum_{i=1}^N e^2_i}}{N-1}\\)\n\n\n\\(\\bar{x},\\ e,\\) and \\(S^2\\) are calculated from the \\(x_i\\).\n\n\n\\(\\mu,\\ \\varepsilon,\\) and \\(\\sigma^2\\) are not.\n\n\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.\n\n\nThe true standard deviation, \\(\\sigma=\\sqrt{\\sigma^2}\\).\n\n\nThe sample standard deviation, \\(S=\\sqrt{S^2}\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#are-we-there-yet",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#are-we-there-yet",
-    "title": "Chemical and Thermal Processes",
-    "section": "Are We There Yet?",
-    "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS2Visuals.html#the-takeaways",
-    "href": "basics/stats/WhyStatsTFS2Visuals.html#the-takeaways",
+    "objectID": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#the-takeaways",
+    "href": "basics/stats/5-JTF-WhyStatsJTF1Visuals.html#the-takeaways",
     "title": "Chemical and Thermal Processes",
     "section": "The Takeaways",
     "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
@@ -3350,25 +3364,18 @@
     "href": "basics/processdata/ProcessDataIntroOutroVisuals.html#section-26",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "What the Frac! Just the Facts\n\n\nDOFPro Team"
+    "text": "What the Frac!\n\n\nDOFPro Team"
   },
   {
     "objectID": "basics/processdata/ProcessDataIntroOutroVisuals.html#section-28",
     "href": "basics/processdata/ProcessDataIntroOutroVisuals.html#section-28",
     "title": "Chemical and Thermal Processes",
     "section": "",
-    "text": "What the Frac! The Full Story\n\n\nDOFPro Team"
+    "text": "Are You Dense? Crank Up the Volume and Go With the Flow! Just The Facts\n\n\nDOFPro Team"
   },
   {
     "objectID": "basics/processdata/ProcessDataIntroOutroVisuals.html#section-30",
     "href": "basics/processdata/ProcessDataIntroOutroVisuals.html#section-30",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Are You Dense? Crank Up the Volume and Go With the Flow! Just The Facts\n\n\nDOFPro Team"
-  },
-  {
-    "objectID": "basics/processdata/ProcessDataIntroOutroVisuals.html#section-32",
-    "href": "basics/processdata/ProcessDataIntroOutroVisuals.html#section-32",
     "title": "Chemical and Thermal Processes",
     "section": "",
     "text": "Are You Dense? Crank Up the Volume and Go With the Flow! The Full Story\n\n\nDOFPro Team"
@@ -4226,13 +4233,6 @@
     "title": "Is Your Process Data Spread Smooth or Chunky? (Data Visualization) Web Page",
     "section": "Other Links",
     "text": "Other Links"
-  },
-  {
-    "objectID": "basics/calculations/InterpolationTFSVisuals.html#section-2",
-    "href": "basics/calculations/InterpolationTFSVisuals.html#section-2",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Properties of Saturated Steam: Temperature Table"
   },
   {
     "objectID": "basics/calculations/InterpolationTFSVisuals.html#linear-interpolation",
@@ -5523,139 +5523,6 @@
     "text": "Introduction and List of Topics"
   },
   {
-    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#scale-video-tba",
-    "href": "basics/stats/WhyStatsTFS1Visuals.html#scale-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Scale Video TBA",
-    "text": "Scale Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#ruler-video-tbs",
-    "href": "basics/stats/WhyStatsTFS1Visuals.html#ruler-video-tbs",
-    "title": "Chemical and Thermal Processes",
-    "section": "Ruler Video TBS",
-    "text": "Ruler Video TBS"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#voltmeter-video-tba",
-    "href": "basics/stats/WhyStatsTFS1Visuals.html#voltmeter-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Voltmeter Video TBA",
-    "text": "Voltmeter Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#thermistor-video-tba",
-    "href": "basics/stats/WhyStatsTFS1Visuals.html#thermistor-video-tba",
-    "title": "Chemical and Thermal Processes",
-    "section": "Thermistor Video TBA",
-    "text": "Thermistor Video TBA"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#reporting-uncertainty",
-    "href": "basics/stats/WhyStatsTFS1Visuals.html#reporting-uncertainty",
-    "title": "Chemical and Thermal Processes",
-    "section": "Reporting Uncertainty",
-    "text": "Reporting Uncertainty\n\n\\(m = 1.03 \\pm 0.03\\ \\mathrm{kg}\\text{ (95% confidence)}\\)\n\n\n\\(u = 2.36 \\pm 0.04\\ \\mathrm{\\frac{m}{s}}\\text{ (95% confidence)}\\)\n\n\n\\(mu = 2.43 \\pm 0.08\\ \\mathrm{\\frac{(kg\\cdot m)}{s} }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}mu^2 = 2.87 \\pm 0.13\\ \\mathrm{J}\\text{ (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#reporting-functional-uncertainty",
-    "href": "basics/stats/WhyStatsTFS1Visuals.html#reporting-functional-uncertainty",
-    "title": "Chemical and Thermal Processes",
-    "section": "Reporting Functional Uncertainty",
-    "text": "Reporting Functional Uncertainty\n\n\nCC BY-SA 3.0, link\n\n\n \n\n\n\n\n\n\\(F_\\mathrm{s} = k(x_\\mathrm{n}-x_\\mathrm{f})\\)\n\n\n\n\n\n\\(F_\\mathrm{_s} = 30.00 \\pm 2.50\\ \\mathrm{(95\\%\\ conf.)\\ N/m}(x\\mathrm{_n}-x\\mathrm{_f})\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#true-mean-and-standard-deviation",
-    "href": "basics/stats/WhyStatsTFS1Visuals.html#true-mean-and-standard-deviation",
-    "title": "Chemical and Thermal Processes",
-    "section": "True Mean and Standard Deviation",
-    "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(:=\\)1 True Mean or Population Mean.\n\n\n\\(\\mu \\equiv\\) True or Population Mean,\n\n\ni.e., \\(\\mu =\\ \\)average value from infinite-precision, full population measurement (almost never known).\n\n\nDistribution of data about the true mean \\(:=\\) True Standard Deviation or Population Standard Deviation.\n\n\n\\(\\sigma \\equiv\\) True or Population Standard Deviation\n\n\ni.e., \\(\\sigma =\\ \\)standard deviation given true mean and infinite-precision data points (also almost never known).\n\nMath has borrowed “:=” from Computer Science to mean is called."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#sample-mean-and-residuals",
-    "href": "basics/stats/WhyStatsTFS1Visuals.html#sample-mean-and-residuals",
-    "title": "Chemical and Thermal Processes",
-    "section": "Sample Mean and Residuals",
-    "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\ne.g., \\(x_1 = 43.15\\)\n\n\nA set of \\(N\\) measurements\n\n\nimplies a set of\n\n\n\\(N\\) independent equations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\bar{x} \\equiv\\) sample mean\n\n\nHow do we estimate \\(\\mu - \\bar{x}\\)?\n\n\n\nCan we calculate the error\n\n\n\\(\\varepsilon_i =\\mu-x_i\\)?\n\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(e\\mathrm{_i} = \\bar{x} - x_i\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#section",
-    "href": "basics/stats/WhyStatsTFS1Visuals.html#section",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Sample Variance and Standard Deviation\n\n\nTrue variance\n\n\n\\(\\sigma^2=\\frac{\\displaystyle{\\sum_{i=1}^N \\varepsilon^2_i}}{N}\\)\n\n\nSample variance\n\n\n\\(S^2=\\frac{\\displaystyle{\\sum_{i=1}^N e^2_i}}{N-1}\\)\n\n\n\\(\\bar{x},\\ e,\\) and \\(S^2\\) are calculated from the \\(x_i\\).\n\n\n\\(\\mu,\\ \\varepsilon,\\) and \\(\\sigma^2\\) are not.\n\n\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.\n\n\nThe true standard deviation, \\(\\sigma=\\sqrt{\\sigma^2}\\).\n\n\nThe sample standard deviation, \\(S=\\sqrt{S^2}\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#are-we-there-yet",
-    "href": "basics/stats/WhyStatsTFS1Visuals.html#are-we-there-yet",
-    "title": "Chemical and Thermal Processes",
-    "section": "Are We There Yet?",
-    "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsTFS1Visuals.html#the-takeaways",
-    "href": "basics/stats/WhyStatsTFS1Visuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#summary-from-part-1",
-    "title": "Chemical and Thermal Processes",
-    "section": "Summary from Part 1",
-    "text": "Summary from Part 1\n\nReport measured or calculated values with their confidence intervals.\nReport a measured value as the arithmetic mean of the measurements.\nCalculate the sample standard deviation of measured values.\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNot yet, but \\(S\\) is the key!\n\n\nAs a reminder 68% of the points in a normal distribution lie within \\(±\\sigma\\) of \\(\\mu\\), i.e., from \\(\\mu-\\sigma\\) to \\(\\mu+\\sigma\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#section",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#section",
-    "title": "Chemical and Thermal Processes",
-    "section": "",
-    "text": "Standard Error and Estimated Standard Error\n\n\n\\(\\mathrm{St.\\ Err.}=\\sigma_\\mu=\\frac{\\sigma}{\\sqrt{N}}\\approx\\frac{S}{\\sqrt{N}}\\)\n\n\n\\(\\mathrm{Est.\\ St.\\ Err.}=S_\\bar{x}=\\frac{S}{\\sqrt{N}}\\)\n\n\nFor enough points, \\(\\mu=\\bar{x} \\pm S_{\\bar{x}}(68\\%\\ \\mathrm{conf.})\\)\n\n\nFor example, \\(y=42.000 \\pm0.007(68\\%\\ \\mathrm{conf.})\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
-    "title": "Chemical and Thermal Processes",
-    "section": "William Gossett and Student’s \\(t\\)",
-    "text": "William Gossett and Student’s \\(t\\)\n\n\n\nHarald Bischoff, CC BY-SA 3.0  link, via Wikimedia Commons\n\n\n\n\n\n\nUser Wujaszek on pl.wikipedia, Public domain, via Wikimedia Commons\n\n\n\n\nCalculate \\(\\bar{x}\\) and \\(S\\).\n\n\nCalculate \\(S_{\\bar{x}}\\).\n\n\nChoose a confidence level, for example, \\(95\\%\\) or \\(p = 0.05\\).\n\n\nFind \\(t\\) given \\(p\\) and \\(df = N - 1\\).\n\n\nThen \\(\\lambda = tS_{\\bar{x}}\\)\n\n\nand \\(\\mu = \\bar{x} \\pm \\lambda(1- p\\ \\mathrm{ conf.})\\)\n\n\nFor example, \\(x = 42.000 \\pm 0.067(95\\%\\ \\mathrm{conf.})\\)\n\n\nSo \\(\\lambda\\) is 1/2 the width of the confidence interval and the confidence interval width is \\(2\\lambda\\)."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#students-t-table",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#students-t-table",
-    "title": "Chemical and Thermal Processes",
-    "section": "Student’s \\(t\\) Table",
-    "text": "Student’s \\(t\\) Table\n\n\nFor example, \\(\\bar{x}\\) is \\(42.000 \\pm 0.067\\) with 95% confidence."
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-t",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-t",
-    "title": "Chemical and Thermal Processes",
-    "section": "Effect of \\(N\\) on \\(t\\)",
-    "text": "Effect of \\(N\\) on \\(t\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\n\nStudent’s \\(t\\) as a Function of \\(N\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
-    "title": "Chemical and Thermal Processes",
-    "section": "Effect of \\(N\\) on \\(\\lambda/S\\)",
-    "text": "Effect of \\(N\\) on \\(\\lambda/S\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\nNormalized Conf. Int., \\(\\lambda/S\\) as a Function of \\(N\\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
-    "title": "Chemical and Thermal Processes",
-    "section": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram",
-    "text": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram\n\\(\\ \\ \\ \\)\n\\(\\ \\ \\ \\)"
-  },
-  {
-    "objectID": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
-    "href": "basics/stats/WhyStatsJTF2Visuals.html#the-takeaways",
-    "title": "Chemical and Thermal Processes",
-    "section": "The Takeaways",
-    "text": "The Takeaways\n\nWhen measuring something, make at least three measurements, which gives you the greatest decrease in uncertainty per additional measurement.\nUse the methods in this video to calculate your confidence interval from the estimated standard error and the Student’s \\(t\\) value.\nReport your results with the mean of your measurements, the confidence interval and the confidence level: for example 42.000 plus-or-minus 0.067 at a 95% confidence level.\n\n\nThere are four additional videos showing how to perform these calculations by hand, with a spreadsheet, using Python and NumPy/SciPy, and using R."
-  },
-  {
     "objectID": "basics/stats/StatsIntroOutroVisuals.html#section",
     "href": "basics/stats/StatsIntroOutroVisuals.html#section",
     "title": "Chemical and Thermal Processes",
@@ -5782,18 +5649,60 @@
     "text": "One Wrong Step, Infinite ErrorsHow Mistakes Spread in Calculus, Part 2\n\n\nDOFPro Team"
   },
   {
-    "objectID": "basics/stats/BasicStatsByHandJTFVisuals.html#the-basic-statistics-videos",
-    "href": "basics/stats/BasicStatsByHandJTFVisuals.html#the-basic-statistics-videos",
+    "objectID": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#summary-from-part-1",
+    "href": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#summary-from-part-1",
     "title": "Chemical and Thermal Processes",
-    "section": "The Basic Statistics Videos",
-    "text": "The Basic Statistics Videos\n\nHow Deviant and Mean Are Your Data? Parts 1 & 2 Intro to \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\)\n\n\nBasic Statistics by Hand \\(\\Leftarrow\\) This video Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) by hand.\nBasic Statistics with a Spreadsheet Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with a spreadsheet.\nBasic Statistics with Python Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with Python.\nBasic Statistics With R Calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) with R."
+    "section": "Summary from Part 1",
+    "text": "Summary from Part 1\n\nReport measured or calculated values with their confidence intervals.\nReport a measured value as the arithmetic mean of the measurements.\nCalculate the sample standard deviation of measured values.\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNot yet, but \\(S\\) is the key!\n\n\nAs a reminder 68% of the points in a normal distribution lie within \\(±\\sigma\\) of \\(\\mu\\), i.e., from \\(\\mu-\\sigma\\) to \\(\\mu+\\sigma\\)."
   },
   {
-    "objectID": "basics/stats/BasicStatsByHandJTFVisuals.html#basic-statistics-by-hand",
-    "href": "basics/stats/BasicStatsByHandJTFVisuals.html#basic-statistics-by-hand",
+    "objectID": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#section",
+    "href": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#section",
     "title": "Chemical and Thermal Processes",
-    "section": "Basic Statistics by Hand",
-    "text": "Basic Statistics by Hand\nThis video shows how to calculate \\(\\bar{x}\\), \\(S\\), \\(S_\\bar{x}\\), and \\(\\lambda\\) by hand and with a calculator."
+    "section": "",
+    "text": "Standard Error and Estimated Standard Error\n\n\n\\(\\mathrm{St.\\ Err.}=\\sigma_\\mu=\\frac{\\sigma}{\\sqrt{N}}\\approx\\frac{S}{\\sqrt{N}}\\)\n\n\n\\(\\mathrm{Est.\\ St.\\ Err.}=S_\\bar{x}=\\frac{S}{\\sqrt{N}}\\)\n\n\nFor enough points, \\(\\mu=\\bar{x} \\pm S_{\\bar{x}}(68\\%\\ \\mathrm{conf.})\\)\n\n\nFor example, \\(y=42.000 \\pm0.007(68\\%\\ \\mathrm{conf.})\\)"
+  },
+  {
+    "objectID": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
+    "href": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#william-gossett-and-students-t",
+    "title": "Chemical and Thermal Processes",
+    "section": "William Gossett and Student’s \\(t\\)",
+    "text": "William Gossett and Student’s \\(t\\)\n\n\n\nHarald Bischoff, CC BY-SA 3.0  link, via Wikimedia Commons\n\n\n\n\n\n\nUser Wujaszek on pl.wikipedia, Public domain, via Wikimedia Commons\n\n\n\n\nCalculate \\(\\bar{x}\\) and \\(S\\).\n\n\nCalculate \\(S_{\\bar{x}}\\).\n\n\nChoose a confidence level, for example, \\(95\\%\\) or \\(p = 0.05\\).\n\n\nFind \\(t\\) given \\(p\\) and \\(df = N - 1\\).\n\n\nThen \\(\\lambda = tS_{\\bar{x}}\\)\n\n\nand \\(\\mu = \\bar{x} \\pm \\lambda(1- p\\ \\mathrm{ conf.})\\)\n\n\nFor example, \\(x = 42.000 \\pm 0.067(95\\%\\ \\mathrm{conf.})\\)\n\n\nSo \\(\\lambda\\) is 1/2 the width of the confidence interval and the confidence interval width is \\(2\\lambda\\)."
+  },
+  {
+    "objectID": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#students-t-table",
+    "href": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#students-t-table",
+    "title": "Chemical and Thermal Processes",
+    "section": "Student’s \\(t\\) Table",
+    "text": "Student’s \\(t\\) Table\n\n\nFor example, \\(\\bar{x}\\) is \\(42.000 \\pm 0.067\\) with 95% confidence."
+  },
+  {
+    "objectID": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#effect-of-n-on-t",
+    "href": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#effect-of-n-on-t",
+    "title": "Chemical and Thermal Processes",
+    "section": "Effect of \\(N\\) on \\(t\\)",
+    "text": "Effect of \\(N\\) on \\(t\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\n\nStudent’s \\(t\\) as a Function of \\(N\\)"
+  },
+  {
+    "objectID": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
+    "href": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#effect-of-n-on-lambdas",
+    "title": "Chemical and Thermal Processes",
+    "section": "Effect of \\(N\\) on \\(\\lambda/S\\)",
+    "text": "Effect of \\(N\\) on \\(\\lambda/S\\)\n\n\\(\\lambda = tS_{\\bar{x}}=\\frac{tS}{\\sqrt{N}}\\)\n\n\n\nNormalized Conf. Int., \\(\\lambda/S\\) as a Function of \\(N\\)"
+  },
+  {
+    "objectID": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
+    "href": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#mu-barx-s-lambda-demo-with-histogram",
+    "title": "Chemical and Thermal Processes",
+    "section": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram",
+    "text": "\\(\\mu,\\ \\bar{x},\\ S\\ ,\\lambda\\) Demo with Histogram\n\\(\\ \\ \\ \\)\n\\(\\ \\ \\ \\)"
+  },
+  {
+    "objectID": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#the-takeaways",
+    "href": "basics/stats/5A-JTF-WhyStatsJTF2Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nWhen measuring something, make at least three measurements, which gives you the greatest decrease in uncertainty per additional measurement.\nUse the methods in this video to calculate your confidence interval from the estimated standard error and the Student’s \\(t\\) value.\nReport your results with the mean of your measurements, the confidence interval and the confidence level: for example 42.000 plus-or-minus 0.067 at a 95% confidence level.\n\n\nThere are four additional videos showing how to perform these calculations by hand, with a spreadsheet, using Python and NumPy/SciPy, and using R."
   },
   {
     "objectID": "basics/stats/StatsMeasurementsWebPage.html",
@@ -5801,6 +5710,55 @@
     "title": "Statistics and Measurements",
     "section": "",
     "text": "Why Statistics and Measurements\nAll chemical and thermal processes have one or more outputs, whether it be a chemical product such as benzene or electrical power. The goal of almost all process engineers is to maximize the output for a given cost or minimize the cost for a given output. Engineering is a quantitative discipline, and we have to quantitatively report our inputs and outputs. Since all processes experience random fluctuations from the process itself or from the measurement process, the engineer needs to be able to account for the noise. Statistical methods are the most common ways to report both the inputs and outputs, and the variations or noise in the inputs or outputs. There are seventeen videos discussing common statistical methods used in Chemical and Thermal Processing and other fields of engineering, divided up into basic statistics, linear regression, error propagation, nonlinear regression, and error propagation in integrals and derivatives\n\n\nBasic Statistics\nThe most commonly used basic statistics are the arithmetic mean, the standard deviation, and the confidence interval. These three are covered in the videos and web pages listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nHow Deviant and Mean Are Your Data? Intro and Basics Part 1\nLink\nNo\nPage\nMean and Standard Deviation\n\n\n\nHow Deviant and Mean Are Your Data? Part 2\nLink\nNo\nPage\nStandard Error and Confidence Interval\n\n\n\nBasics Statistics by Hand\nLink\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) by hand\n\n\n\nBasics Statistics with a Spreadsheet\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) with a spreadsheet\n\n\n\nBasics Statistics in Python\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) in Python\n\n\n\nBasics Statistics in R\nNo\nN/A\nPage\n\\(\\bar{x}\\), \\(S\\), \\(S_{\\bar{x}}\\), \\(\\lambda\\) in R\n\n\n\n\n\n\nLinear Regression\nA very common means of presenting and analyzing sets of data pairs is linear regression or fitting a linear function to the data. We only present methods for least-squares linear regression. The method is covered in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nLinear Regression\n\n\n\nLinear Regression with a Spreadsheet\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds with a spreadsheet\n\n\n\nLinear Regression in Python\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in Python\n\n\n\nLinear Regression in R\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in R\n\n\n\n\n\n\nError Propagation\nExperimental data taken by engineers are usually further processed as part of design or analysis procedures. The question often arises as to how the uncertainty in the measured data affect the uncertainty in the final calculation. There are both analytical and numerical methods for evaluating how the undertainty or error propagates. These methods are explored in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation in Algebraic and Transcendental Functions\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation when integrating and Differentiating Time Series, Part 1\n\n\n\nTBD\nNo\nNo\nNo\nError Propagation when integrating and Differentiating Time Series, Part 2\n\n\n\n\n\n\nNonlinear Regression\nWhen the model for fitting data contains parameters that are non-linearly related to the fitting function, the model parameters may be determined through nonlinear regression. The method is covered in the videos listed in the table below. The column labeled JTF contains links to the Just The Facts videos, intended mainly for review. The TFS videos are The Full Story videos, with more explanation and discussion. The Info Page contains additional information and definitions for the videos.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nJTF Link\nTFS Link\nInfo Page\nSubject\n\n\n\n\n\nTBD\nNo\nNo\nNo\nNoninear Regression, Parameter Fitting, and functional and observational bounds\n\n\n\nNoninear Regression with a Spreadsheet\nNo\nN/A\nNo\nParameter, and Functional Bounds with a spreadsheet\n\n\n\nLinear Regression in Python\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in Python\n\n\n\nLinear Regression in R\nNo\nN/A\nNo\nSlope, Intercept, and Functional Bounds in R"
+  },
+  {
+    "objectID": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#section",
+    "href": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#section",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "\\(m = 1.03 \\pm 0.03\\ \\mathrm{kg}\\text{ (95% confidence)}\\)\n\n\n\\(u = 2.36 \\pm 0.04\\ \\mathrm{\\frac{m}{s}}\\text{ (95% confidence)}\\)\n\n\n\\(mu = 2.43 \\pm 0.08\\ \\mathrm{\\frac{(kg\\cdot m)}{s} }\\text{ (95% confidence)}\\)\n\n\n\\(\\frac{1}{2}mu^2 = 2.87 \\pm 0.13\\ \\mathrm{J}\\text{ (95% confidence)}\\)\n\n\nA future video will teach you how to propagate the uncertainty. \\(\\textbf{Remember!}\\) A responsible engineer will report uncertainty in the calculated quantity due to the uncertainties present in measured quantities."
+  },
+  {
+    "objectID": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#reporting-functional-uncertainty",
+    "href": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#reporting-functional-uncertainty",
+    "title": "Chemical and Thermal Processes",
+    "section": "Reporting Functional Uncertainty",
+    "text": "Reporting Functional Uncertainty\n\n\nCC BY-SA 3.0, link\n\n\n \n\n\n\n\n\n\\(F_\\mathrm{s} = k(x_\\mathrm{n}-x_\\mathrm{f})\\)\n\n\n\n\n\n\\(F_\\mathrm{_s} = 30.00 \\pm 2.50\\ \\mathrm{(95\\%\\ conf.)\\ N/m}(x\\mathrm{_n}-x\\mathrm{_f})\\)"
+  },
+  {
+    "objectID": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#true-mean-and-standard-deviation",
+    "href": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#true-mean-and-standard-deviation",
+    "title": "Chemical and Thermal Processes",
+    "section": "True Mean and Standard Deviation",
+    "text": "True Mean and Standard Deviation\n\nTrue value of a measured quantity \\(:=\\)1 True Mean or Population Mean.\n\n\n\\(\\mu \\equiv\\) True or Population Mean,\n\n\ni.e., \\(\\mu =\\ \\)average value from infinite-precision, full population measurement (almost never known).\n\n\nDistribution of data about the true mean \\(:=\\) True Standard Deviation or Population Standard Deviation.\n\n\n\\(\\sigma \\equiv\\) True or Population Standard Deviation\n\n\ni.e., \\(\\sigma =\\ \\)standard deviation given true mean and infinite-precision data points (also almost never known).\n\nMath has borrowed “:=” from Computer Science to mean is called."
+  },
+  {
+    "objectID": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#sample-mean-and-residuals",
+    "href": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#sample-mean-and-residuals",
+    "title": "Chemical and Thermal Processes",
+    "section": "Sample Mean and Residuals",
+    "text": "Sample Mean and Residuals\n\nSet of Measurements\n\n\n\\(\\{x_1,\\ x_2,\\ \\ldots,\\ x_N\\}\\)\n\n\ne.g., \\(x_1 = 43.15\\)\n\n\nA set of \\(N\\) measurements\n\n\nimplies a set of\n\n\n\\(N\\) independent equations\n\n\n\\(\\bar{x}\\)\n\n\n\\(=\\frac{\\sum_{i=1}^Nx_i}{N}\\)\n\n\n\\(\\approx\\mu\\)\n\n\n\\(\\bar{x} \\equiv\\) sample mean\n\n\nHow do we estimate \\(\\mu - \\bar{x}\\)?\n\n\n\nCan we calculate the error\n\n\n\\(\\varepsilon_i =\\mu-x_i\\)?\n\n\n\nSet of Errors\n\n\n\\(\\{\\varepsilon_1,\\ \\varepsilon_2,\\ \\ldots,\\ \\varepsilon_N \\}\\)\n\n\nWe don’t know \\(\\mu\\), so…\n\n\nCalculate the residuals:\n\n\n\\(e\\mathrm{_i} = \\bar{x} - x_i\\)\n\n\nSet of Residuals\n\n\n\\(\\{e_1,\\ e_2,\\ \\ldots,\\ e_N \\}\\)\n\n\n\n\n\nestimate of the errors\n\n\nbased on \\(\\bar{x}\\), not \\(\\mu\\)"
+  },
+  {
+    "objectID": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#section-1",
+    "href": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#section-1",
+    "title": "Chemical and Thermal Processes",
+    "section": "",
+    "text": "Sample Variance and Standard Deviation\n\n\nTrue variance\n\n\n\\(\\sigma^2=\\frac{\\displaystyle{\\sum_{i=1}^N \\varepsilon^2_i}}{N}\\)\n\n\nSample variance\n\n\n\\(S^2=\\frac{\\displaystyle{\\sum_{i=1}^N e^2_i}}{N-1}\\)\n\n\n\\(\\bar{x},\\ e,\\) and \\(S^2\\) are calculated from the \\(x_i\\).\n\n\n\\(\\mu,\\ \\varepsilon,\\) and \\(\\sigma^2\\) are not.\n\n\nWe lose one degree of freedom, or an independent equation, by using the sample mean in our calculation.\n\n\nThe true standard deviation, \\(\\sigma=\\sqrt{\\sigma^2}\\).\n\n\nThe sample standard deviation, \\(S=\\sqrt{S^2}\\)."
+  },
+  {
+    "objectID": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#are-we-there-yet",
+    "href": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#are-we-there-yet",
+    "title": "Chemical and Thermal Processes",
+    "section": "Are We There Yet?",
+    "text": "Are We There Yet?\n\n\nCan we estimate \\(\\mu - \\bar{x}\\) yet?\n\n\nNo, but we can estimate the spread of our data from \\(S\\)."
+  },
+  {
+    "objectID": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#the-takeaways",
+    "href": "basics/stats/5-TFS-WhyStatsTFS1Visuals.html#the-takeaways",
+    "title": "Chemical and Thermal Processes",
+    "section": "The Takeaways",
+    "text": "The Takeaways\n\nResponsible engineers always estimate and report the uncertainty in any measurement or quantity calculated from measurements.\nThe most common estimate for the central value of a set of measurements is the sample mean.\nThe most commonly reported value for the spread of a set of measurements is the sample standard deviation.\nMost people don’t know or care about the difference between the sample mean and standard deviation and the population or true mean and standard deviation.\n\n\nThe discussion continues in How Deviant and Mean Are Your Data? Intro and Basics Part 2"
   },
   {
     "objectID": "balances/entropy/120-RankineVisualsPart2.html#introduction",
