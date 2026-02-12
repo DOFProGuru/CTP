@@ -458,11 +458,11 @@ The DOFPro Team
 <!-- ****************************END The Full Story Intro/Outro ************************* -->
 
 
-<!-- ******************************* Just The Facts Intro/Outro ************************* -->
-# Video 36 JTF
+<!-- ******************************* Regular Intro/Outro ************************* -->
+# Video 36
 
 ::: {style="text-align: center;"}
-Mass, Moles, and Mass and Mole Fractions, JTF
+Mass, Moles, and Mass and Mole Fractions
 :::
 
 <!-- Approved Title -->
@@ -471,16 +471,16 @@ Mass, Moles, and Mass and Mole Fractions, JTF
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
 
 ::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-What the Frac! Just the Facts
+What the Frac!
 :::
 
 ::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 
-# <!-- Approved Just the Facts End -->
+# <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -488,42 +488,7 @@ The DOFPro Team
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
-<!-- ****************************END Just The Facts Intro/Outro ************************* -->
-
-
-<!-- ******************************* The Full Story Intro/Outro ************************* -->
-# Video 36 TFS
-
-::: {style="text-align: center;"}
-Mass, Moles, and Mass and Mole Fractions, TFS
-:::
-
-<!-- Approved Title -->
-##
-
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=26.5% left=25.25% width=1494px height=364px}
-
-::: {.absolute left=0% right=0% top=41.5% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-What the Frac! The Full Story
-:::
-
-::: {.absolute left=0% right=0% top=56% style="margin: 0 auto; font-size: 140px; text-align: center;"}
-DOFPro Team
-:::
-
-
-
-# <!-- Approved The Full Story End -->
-::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Just the Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
-:::
-
-::: {.absolute left=38% top=125% style="font-size: 110px;"}
-The DOFPro Team
-:::
-
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25.25%" top="100%" width=1494px height=364px}
-<!-- ****************************END The Full Story Intro/Outro ************************* -->
+<!-- ****************************END Regular Intro/Outro ************************* -->
 
 
 
@@ -571,13 +536,13 @@ Volume, Density, Flow Rates
 <!-- Approved Title -->
 ##
 
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=15% left=25.25% width=1494px height=364px}
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
-::: {.absolute left=0% right=0% top=30% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
+::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
 Are You Dense? Crank Up the Volume and Go With the Flow! The Full Story
 :::
 
-::: {.absolute left=0% right=0% top=68.5% style="margin: 0 auto; font-size: 140px; text-align: center;"}
+::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
 DOFPro Team
 :::
 

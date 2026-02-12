@@ -8,18 +8,6 @@ format:
     incremental: true
     theme: [serif, ../../gradient.scss]
 ---
-# How Deviant and Mean Are Your Data?
-
-::: {.bigbold style="text-align: center;"}
-Intro and Basics Part 1</br>Just the Facts
-:::
-
-::: {style="text-align: center;"}
-DOFPro Team
-:::
-
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-30%"}
-
 
 # How Deviant and Mean Are Your Data?
 
@@ -33,16 +21,17 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-30%"}
 
-## Scale Video TBA
+# When doing an experiment,<br/>what is a *mean*?
 
-## Ruler Video TBS
+# Why does an experimental engineer need to know<br/>what a mean is?
 
-## Voltmeter Video TBA
+# Do you personally know<br/>anyone who cares about<br/>the difference between<br/>a *population mean*<br/>and a *sample mean*?
 
-## Thermistor Video TBA
+# Do you know what the difference between a population mean<br/>and a sample mean is?
 
-## Reporting Uncertainty
+# For a set of data, can you explain the difference between<br/>an *error* and a *residual*?
 
+##
 
 ::: {.fragment .absolute top=12% left=10%}
 $m = 1.03 \pm 0.03\ \mathrm{kg}\text{ (95% confidence)}$

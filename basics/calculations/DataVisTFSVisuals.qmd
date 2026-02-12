@@ -20,18 +20,11 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="-45%" width=50%}
 
-# Is Your Process Data Spread</br>Smooth or Chunky?
+# Do you like your process data smooth or chunky?
 
-::: {.bigbold style="text-align: center;"}
-Just the Facts
-:::
+# When looking at a plot of experimental data, which is easiest for you to see, a straight line, a parabola, or an exponential curve?
 
-::: {style="text-align: center;"}
-DOFPro Team
-:::
-
-![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="25%" top="-45%" width=50%}
-
+# What’s the difference between a semilog and a log-log plot?
 
 ## Data Pairs
 
