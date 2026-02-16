@@ -11,36 +11,29 @@ Engineers must measure and evaluate lots of data. To evaluate data sets, there a
 
 *How Deviant and Mean Are Your Data? Intro and Basics Part 1* discusses both *population* or *true mean* and *standard deviation*, and *sample mean* and *standard deviation*, and explains how to calculate them.
 
-### *The Full Story* Video
-
-*The Full Story* Video examines common conceptions and misconceptions about mean and standard deviation, explains how to calculate both true and sample mean and standard deviation, and sets the stage for their use. It is recommended for those who have not been exposed to basic statistics before or who have struggled with understanding what mean and standard deviation are, or how they are used.
-
-**Video Link Goes Here**
-[Visuals](WhyStatsTFS1Visuals.qmd), [Transcript](../../NotYetHere.qmd)
-
 ### The *Just The Facts* Video
 
 The *Just The Facts* Video explains how to calculate both true mean and standard deviation, and sample mean and standard deviation, and sets the stage for their use. It is recommended for those who have a reasonably good understanding of mean and standard deviation and are just looking for a refresher or a review.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3rCYZ8QHRec?si=5Oacsu5se4hpU2ft" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ksg4Babav6o?si=ECfRnZV1-GsPIjg6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Visuals](WhyStatsJTF1Visuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+### *The Full Story* Video
+
+*The Full Story* Video examines common conceptions and misconceptions about mean and standard deviation, explains how to calculate both true and sample mean and standard deviation, and sets the stage for their use. It is recommended for those who have not been exposed to basic statistics before or who have struggled with understanding what mean and standard deviation are, or how they are used.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H82fqjDDQz8?si=AXMdRou2w1UfggYK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](WhyStatsTFS1Visuals.qmd), [Transcript](../../NotYetHere.qmd)
 
 ## Intro and Basics, Part 2
 
 *How Deviant and Mean Are Your Data? Intro and Basics Part 2* discusses *standard error*, *confidence intervals*, and *Student's $t$*, and explains how to calculate them.
 
-### *The Full Story* Video
-
-*The Full Story* Video examines common conceptions and misconceptions about standard error, confidence intervals, and Student's $t$, explains how to calculate them, and explains how they are used. It is recommended for those who have not been exposed to basic statistics before or who have struggled with understanding what standard error, confidence intervals, and Student's $t$ are, or how they are used.
-
-**Video Link Goes Here**
-[Visuals](WhyStatsTFS2Visuals.qmd), [Transcript](../../NotYetHere.qmd)
-
-### The *Just The Facts* Video
+### The Video
 
 The *Just The Facts* Video explains how to calculate standard error, confidence intervals, and Student's $t$, and explains their use. It is recommended for those who have a reasonably good understanding of standard error, confidence intervals, and Student's $t$ and are just looking for a refresher or a review.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hybGh8oPU_0?si=YnGopbr0z9xvlS4l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cBOrE6eV-AE?si=p9TRnnN1giPWBMAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Visuals](WhyStatsJTF2Visuals.qmd), [Transcript](../../NotYetHere.qmd)
 
 
@@ -50,7 +43,7 @@ The *Just The Facts* Video explains how to calculate standard error, confidence 
 
 *Basic Statistics by Hand* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by hand with just a calculator and a Student's $t$ table.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h7WoWiVLzaw?si=RxUChj8l7OkyQvTO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HJz-HpglcMQ?si=8tOoyNLetkrQO7Dz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Student's $t$ table PDF](../../NotYetHere.qmd), [Student's $t$ table spreadsheet](../../NotYetHere.qmd)
 
 ### Basic Statistics with a Spreadsheet

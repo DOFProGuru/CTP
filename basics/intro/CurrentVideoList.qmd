@@ -13,7 +13,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 1 | From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering | [Link](https://youtu.be/8FEmNkiU1Jk) | No | [Page]| Intro to DOFPro CTP|
 | 5 | How Deviant and Mean Are Your Data? Intro and Basics Part 1 | [Link](https://youtu.be/ksg4Babav6o) | [Link](https://youtu.be/H82fqjDDQz8) | [Page](../stats/BasicStatisticsWebPage.qmd) | Mean ($\mu,\ \bar{x}$) and Standard Deviation ($\sigma,\ S$)|
 | 5A | How Deviant and Mean Are Your Data? Part 2 | [Link](https://youtu.be/cBOrE6eV-AE) | No | [Page](../stats/BasicStatisticsWebPage.qmd) | Standard Error ($S_{\bar{x}}$) and Confidence Interval ($2\lambda$) |
-| 6 | Basics Statistics by Hand | [Link](https://youtu.be/h7WoWiVLzaw) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ by hand|
+| 6 | Basics Statistics by Hand | [Link](https://youtu.be/HJz-HpglcMQ) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ by hand|
 | 7 | Basic Statistics on a Spreadsheet | [Link](https://youtu.be/RZ1kFVLvSxY) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with a spreadsheet|
 | 9 | Basic Statistics in R | [Link](https://youtu.be/va7O78QdYLk) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R|
 | 13 | Linear Regression in R | [Link](https://youtu.be/Btshw2DX0Ik) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | Linear Regression in R|
