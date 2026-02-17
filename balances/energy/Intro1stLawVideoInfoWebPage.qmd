@@ -1,0 +1,42 @@
+---
+title: "*Just Try to Break This Law! I Dare You!* (Intro to The 1^st^ Law of Thermodynamics) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *Just Try to Break This Law! I Dare You!*
+
+Main title explanation
+
+## Just Try to Break This Law! I Dare You!
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZHWT9Jw7fzY?si=3b2jG26gxpI9XkgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Video 2
+
+Video  explanation
+
+***Video 2 Link***
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

@@ -1,0 +1,35 @@
+---
+title: "*Resistance is Futile. Entropy Always Wins* (Introduction to the Second Law of Thermodynamics) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *Resistance is Futile. Entropy Always Wins*
+
+Main title explanation
+
+## Resistance is Futile. Entropy Always Wins
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yqVUz1WA7M4?si=9JXVNDB8bsxZmPqH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

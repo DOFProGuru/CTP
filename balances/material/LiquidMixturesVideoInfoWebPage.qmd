@@ -1,0 +1,35 @@
+---
+title: "*Alcohol and Water DO Mix!* (Liquid Mixture Densities) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *Alcohol and Water DO Mix!*
+
+Main title explanation
+
+## Alcohol and Water DO Mix!
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_tjYMjWR4fE?si=m40rvQudtzU1_KiW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

@@ -8,7 +8,7 @@ format: html
 
 While Engineering Design is the fundamental function of engineers, engineering is a quantitative discipline. Processes must be modeled and optimized. Lengths, masses, flow rates, and temperatures must be specified. Calculation procedures must be performed correctly to produce the designs and artifacts that are the output of the design process. Many common Engineering presentation and calculation tasks are presented in the following videos.
 
-# What Goes Into a Number?
+<!-- # What Goes Into a Number?
 
 Most students learn either before or early in their academic career that numbers are frequently used to represent objects in the real world, beginning with natural numbers to represent whole objects like apples or coins, followed by integers to represent both object you have and objects you owe, and then fractions and decimal fractions to represent portions of a whole object, and so forth.
 
@@ -16,7 +16,7 @@ When an engineer uses a number, it is important to recognize what the number rep
 
  Title | JTF Link | TFS Link | Info Page | Subject|
 |---------|-------|----------|----------|-----------|--------|
-| What Goes Into a Number? | No | No | No | The uses, meanings, and transformations of numbers used in Engineering |
+| What Goes Into a Number? | No | No | No | The uses, meanings, and transformations of numbers used in Engineering | -->
 
 # Data Visualization
 

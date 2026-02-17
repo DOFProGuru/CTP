@@ -1,0 +1,49 @@
+---
+title: "*Main Title* (Description) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *Main Title*
+
+Main title explanation
+
+## How Did You Think I Would React?
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_qxHszVZYGk?si=bArMc7GxKvM-ug4l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Wishing Upon a CSTR
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6tnVFq7dSbE?si=2MBUW71WCRQVQ-xS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## It’s Totally Tubular, Man!
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OAzXx9Kq2nU?si=WIoyQN_CdEFKu7hh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

@@ -1,0 +1,49 @@
+---
+title: "*Recycling and Bypass* Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *Main Title*
+
+Main title explanation
+
+## Recycling Before Recycling Was Cool
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R7tIQyBUWn8?si=kR6xXebWj14tVs-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Leaving Radiator Springs In the Dust
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tjzDu7_n-NI?si=RkVMUYxMMiKriMw1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## The Symbolic Meaning of Recycling
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CF18jpqZzgc?si=-tqvFS1uczIsknEf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

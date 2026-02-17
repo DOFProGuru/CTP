@@ -1,0 +1,63 @@
+---
+title: "*Ideal and Real Gases and Mixtures* Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *Ideal and Real Gases and Mixtures*
+
+Main title explanation
+
+## Ideal Gases EXPOSED: Are They Even Real?!!
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L-DEw6dGRps?si=uvcbFHC5M02ghlDp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## When Getting Gassed Isn’t Ideal, Part 1
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1sU4_YdcKr4?si=piaWPqk_oxK1OV-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## When Getting Gassed Isn’t Ideal, Part 2
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q6ZK_Ou967o?si=PK_b3LzvS6rHHXlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yI3jj1jCSAM?si=WWvKCAmBPMPlF0R9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pbizi39c1Rk?si=QV4dU43XFw8cILDZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

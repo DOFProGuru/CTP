@@ -1,0 +1,37 @@
+---
+title: "*How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?* Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?*
+
+How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?  explanation
+
+## How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QcZTezMtDRk?si=MGD6zoSZ6AMhT6-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

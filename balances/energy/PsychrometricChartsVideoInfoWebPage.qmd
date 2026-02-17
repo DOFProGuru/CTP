@@ -1,0 +1,35 @@
+---
+title: "*Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart* (Psychrometric Charts) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart*
+
+Main title explanation
+
+## Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nz8ADo4X2Ss?si=1pZTmEr-0mScXDlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

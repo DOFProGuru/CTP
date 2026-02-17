@@ -1,0 +1,35 @@
+---
+title: "*Gotta Keep ‘Em Separated* (Mixers, Dividers, Separators) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *Gotta Keep ‘Em Separated*
+
+Main title explanation
+
+## Gotta Keep ‘Em Separated
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pRg1m0_9Psg?si=ldy4MgqsU39JHH8p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

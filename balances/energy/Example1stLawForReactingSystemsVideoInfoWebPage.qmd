@@ -1,0 +1,42 @@
+---
+title: "*React Hard and React Harder* (Examples of 1^st^ Law for Reacting Systems) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *React Hard and React Harder*
+
+Main title explanation
+
+## React Hard: The First Law Gets Chemical
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KA0aw-KbAR4?si=F-Th6xb_pC2-2_2D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## React Harder: Formation Heats and Alternate Endings
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iqxJP6g-Qsc?si=_aE8g_VcAWvOYrmO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

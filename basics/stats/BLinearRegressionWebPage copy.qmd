@@ -3,22 +3,31 @@ title: "*How Deviant and Mean Are Your Data?* (Basic Statistics) Reference Page"
 author: "DOFPro group"
 format: html
 ---
-# Purpose of *How Deviant and Mean Are Your Data?*
+# Purpose of *Out of Line? Here’s How Linear Regression Puts Your Data Back on Track*
 
-Engineers must measure and evaluate lots of data. To evaluate data sets, there are basic statistical calculations that must be applied. The most common ones are evaluation of the mean, and determination of the confidence interval around the mean. This set of videos explains the fundamentals of making these calculations and demonstrates how to make them by hand, on a spreadsheet, by using Python, and by using R.
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
 
-## Intro and Basics, Part 1
+Info on linear regression
 
-*How Deviant and Mean Are Your Data? Intro and Basics Part 1* discusses both *population* or *true mean* and *standard deviation*, and *sample mean* and *standard deviation*, and explains how to calculate them.
+<!-- ## Out of Line? Here’s How Linear Regression Puts Your Data Back on Track
 
-### The *Just The Facts* Video
+Info on linear regression
 
-The *Just The Facts* Video explains how to calculate both true mean and standard deviation, and sample mean and standard deviation, and sets the stage for their use. It is recommended for those who have a reasonably good understanding of mean and standard deviation and are just looking for a refresher or a review.
+###  Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ksg4Babav6o?si=ECfRnZV1-GsPIjg6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](WhyStatsJTF1Visuals.qmd), [Transcript](../../NotYetHere.qmd)
+Info on video
 
-### *The Full Story* Video
+***Video Link Goes Here***
+[Visuals](](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+-->
+
+### *Linear Regression
+
+::: {.callout-important title="Not a DOFPro video"}
+This is ***NOT*** a DOFPro video. It may contain copyrighted material and have references to proprietary software.
+:::
 
 *The Full Story* Video examines common conceptions and misconceptions about mean and standard deviation, explains how to calculate both true and sample mean and standard deviation, and sets the stage for their use. It is recommended for those who have not been exposed to basic statistics before or who have struggled with understanding what mean and standard deviation are, or how they are used.
 

@@ -1,0 +1,35 @@
+---
+title: "*The Isochronicles: This First Law Saga Is a Gas* (The 1^st^ Law for Ideal Gases) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *The Isochronicles: This First Law Saga Is a Gas*
+
+Main title explanation
+
+## The Isochronicles: This First Law Saga Is a Gas
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iKsR3v1wu30?si=jNOfKbT6n2jMDehd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

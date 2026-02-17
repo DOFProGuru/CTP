@@ -3,8 +3,25 @@ title: "The General Balance Equation"
 author: "DOFPro group"
 ---
 
+# Intro to *The General Balance Equation*
 
-{{< video https://www.youtube.com/watch?v=Tp9P29KKw-k&list=PL1lnrwjgo31gb1NFBQy03i7ZXaccVD4xk&index=15&pp=iAQB >}}
+Main title explanation
+
+## How to Keep Your Balance
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-fjXc-Upxx4?si=XmAMd9UTPypNhQEd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Speed Balancing
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pmp2IxgL9FM?si=JHoFbh4pVoRUparS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
 
 > “Engineering is solving story problems where you often have to make up the story.”
 
@@ -38,7 +55,7 @@ $$ \mathrm{Input + Generation = Output + Consumption + Accumulation} $$
 
 -   For steady-state systems the accumulation is zero.
 
-## Differential or Integral
+## Differential and Integral Balances
 
 -   *Differential* Balances
 

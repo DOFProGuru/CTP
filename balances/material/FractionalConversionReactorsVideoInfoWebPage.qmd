@@ -1,0 +1,49 @@
+---
+title: "*When You Saw It, What Was the Extent of Your Reaction?* (Fractional-Conversion and Extent-of-Reaction Reactors) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *When You Saw It, What Was the Extent of Your Reaction?*
+
+Main title explanation
+
+## Part 1
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HKYYp5UxwpA?si=JglGKTWhKhMGefy2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Part 2
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XmLXR_KOZMk?si=TpAOboYR3Is11NBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Part 3
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PPi-ka3iRvI?si=vu4qzloJBAQz4LzO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+
