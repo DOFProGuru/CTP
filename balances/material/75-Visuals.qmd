@@ -1,0 +1,340 @@
+
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Dew Your Bubbles Have Flash? Part 2
+
+::: {style="text-align: center; font-size: 120px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+---
+
+::: {style="font-size: 130px;"}
+**Dew Your Bubbles Have Flash?**
+:::
+
+- Use Raoult’s law to perform vapor-liquid phase equilibria calculations.
+- Not limited to binaries
+- Multicomponent systems conforming to Raoult’s law
+  - Aliphatic hydrocarbon mixtures
+  - Aromatic hydrocarbon mixtures
+- Part 1 – The basics and BUBL P and DEW P
+- **Part 2** – BUBL T and DEW T
+- Part 3 – FLASH and *Pxy* and *Txy* diagrams
+
+---
+
+## Graphical BUBL T, DEW T
+
+![](TxyBubbleDew.png){.absolute left=10% top=10% width=80%}
+
+:::{style="font-size: 65px;"}
+
+:::{.absolute top=13.5% left=28%}
+Overall<br/> Composition
+:::
+
+:::{.absolute top=70% left=75%}
+Subcooled<br/>Liquid
+:::
+
+:::{.absolute top=23% left=35%}
+Superheated<br/>Vapor
+:::
+
+:::{.absolute top=55% left=38%}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=38.5% left=8%}
+Dew<br/> Temperature
+:::
+
+:::{.absolute top=83% left=18%}
+Dew<br/> Composition
+:::
+
+:::{.absolute top=59.5% left=8%}
+Bubble<br/> Temperature
+:::
+
+:::{.absolute top=83% left=44%}
+Bubble<br/> Composition
+:::
+
+:::{.absolute top=72% left=55%}
+Low Boiling<br/>Azeotrope
+:::
+
+:::
+
+---
+
+## BUBL T
+
+Given all $x_{i}$’s and $P$, calculate $T$ and $y_i$’s
+
+:::{.fragment}
+In general, an iterative solution is required. With a spreadsheet, the
+easiest method is to guess a temperature $T_\mathrm{guess}$.
+:::
+:::{.fragment}
+Calculate all of the vapor pressures from the Antoine equation, @eq-BP1,
+:::
+:::{.fragment}
+$$
+p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}\ \ \ (i=1,2,3,.., N)
+$$
+:::
+:::{.fragment}
+Then calculate the pressure from the guessed temperature
+:::
+:::{.fragment}
+$$
+P_\mathrm{guess} = \sum_{i=1}^{N} x_{i}p_{i}^{*}
+$$ {#eq-BT2}
+:::
+---
+
+:::{style="font-size: 90px;"}
+Set up a cell to calculate the difference between the actual pressure
+and the guessed pressure, $P_\mathrm{actual} - P_\mathrm{guess}$.
+
+:::{.fragment}
+Have *Goal Seek* set the difference to 0 by varying $T_\mathrm{guess}$.
+:::
+:::{.fragment}
+$T_\mathrm{guess}$ is now the correct temperature. You can calculate the $y_i$’s from Raoult’s law, @eq-DP2,
+:::
+
+:::{.fragment}
+$$
+y_{i} = \frac{x_{i}p_{i}^{*}}{P}\ \ \ (i=1,2,3,...,N)
+$$
+:::
+
+:::{.fragment}
+**Alternate Method:** In a spreadsheet, guess a $T$. For one component
+calculate $p_{k}^{*}$ from @eq-BT5 and calculate $p_{i}^{*}$ from the Antoine equation, @eq-BP1. Set a cell as the error between the two and goal seek to set that cell to $0$ by varying $T$.
+:::
+:::
+:::{style="font-size: 85px;"}
+:::{.fragment}
+<br/>**Note:** For a two-component system, if you are determining the $y_i$’s as a function of $T$ at constant $P$, you don’t need to iterate. Choose values of $T$ between $T_\mathrm{b1}$ and $T_\mathrm{b2}$, and calculate the $y_i$’s using the Antoine equation, @eq-BP1 and Raoult’s law, @eq-DP2.
+:::
+:::
+
+---
+
+If you prefer programming to spreadsheets, begin by picking an
+arbitrary component, $k$, then:
+
+:::{.fragment}
+$$
+P = p_{k}^{*} \sum_{i=1}^{N} x_{i} \frac{p_{i}^{*}}{p_{k}^{*}}
+$$ {#eq-BT4}
+:::
+:::{.fragment}
+or
+:::
+
+:::{.fragment}
+$$
+p_{k}^{*} = \frac{P}{\sum\limits_{i=1}^{N} x_{i} \alpha_{ik}}
+$$ {#eq-BT5}
+:::
+
+:::{.fragment}
+where the relative voltatility, $\alpha_{ik}$, is defined as:
+:::
+
+:::{.fragment}
+$$
+\alpha_{ik} \equiv \frac{p_{i}^{*}}{p_{k}^{*}}
+$$ {#eq-BT6}
+:::
+
+---
+
+If the vapor pressures are related by the Antoine equation, @eq-BP1:
+
+:::{.fragment}
+$$
+\log_{10} p^* = A - \frac{B}{T + C}
+$$ 
+:::
+:::{.fragment}
+then we can calculate,
+:::
+:::{.fragment}
+$$
+\log_{10}\alpha_{ik} = A_i - A_k - \frac{B_i}{T + C_i} + \frac{B_k}{T + C_k}
+$$ {#eq-BT8}
+:::
+:::{.fragment}
+One can begin the iteration with an initial guess
+:::
+:::{.fragment}
+$$
+T_{0} = \sum_{i=1}^{N} x_{i}T_{i}^{*}
+$$ {#eq-BT9}
+:::
+
+---
+
+This $T_{0}$ can be used to evaluate all of the $\alpha_{ik}$’s in @eq-BT6, which are then
+used in @eq-BT5 to calculate $p_k^*$, from which a new value of $T$ can be
+calculated from:
+
+
+:::{.fragment}
+$$
+T_1 = \frac{B_k} {A_{k} - \log_{10} p_{k}^{*} - C_{k}}
+$$ \{#eq-BT10}
+:::
+:::{.fragment}
+The iteration is repeated until $T$ doesn’t change much from one
+iteration to the next. The Antoine equation, @eq-BP1 is then used to calculate all $p_i^*$, then use
+Raoult’s law, @eq-DP2 to calculate the $y_i$’s.
+:::
+
+---
+
+## DEW T
+
+Given all $y_i$’s and $P$, calculate $T$ and $x_i$’s.
+
+:::{.fragment}
+In general, an iterative solution very similar to BUBL T is required.
+With a spreadsheet, the easiest method is to guess a temperature $T_\mathrm{guess}$ .
+:::
+:::{.fragment}
+Calculate all of the vapor pressures, $p_i^*$'s, from the Antoine equation, @eq-BP1
+:::
+
+:::{.fragment}
+$$
+P_{i}^{*} = 10 ^ {A - \frac{B_i}{T+C_i}}\ \ \ (i = 1, 2, 3, ..., N)
+$$
+:::
+
+:::{.fragment}
+Then calculate the pressure from the guessed temperature using @eq-DP5,
+:::
+:::{.fragment}
+$$
+P_\mathrm{guess} = \frac{1}{\sum\limits_{i=1}^{N}\frac{y_i}{p_{i}^{*}}}
+$$
+:::
+
+---
+
+Set up a cell to calculate the difference between the actual pressure
+and the guessed pressure, $P_\mathrm{actual} - P_\mathrm{guess}$.
+
+:::{.fragment}
+Have Goal Seek set the difference to $0$ by varying $T_\mathrm{guess}$.
+:::
+:::{.fragment}
+$T_\mathrm{guess}$ is now the correct temperature. You can calculate the $x_i$’s from
+Raoult’s law, @eq-DP2,
+:::
+:::{.fragment}
+$$
+x_i = \frac{y_{i} P} {p_{i}^{*}}\ \ \ (i = 1,2,3, ..., N)
+$$
+:::
+
+:::{.fragment}
+**Alternate Method**: As before, in a spreadsheet, guess a $T$. For one
+component calculate $p_{k}^{*}$ from @eq-DT5 and calculate $p_{i}^{*}$ from the Antoine equation, @eq-BP1. Set a
+cell as the error between the two and goal seek to set that cell to 0 by
+varying $T$.
+:::
+
+---
+
+If you prefer programming to spreadsheets, begin by picking an
+arbitrary component, $k$, then:
+
+:::{.fragment}
+$$
+P = \frac{p_{k}^{*}}{\sum\limits_{i=1}^{N}y_{i}\frac{p_{k}^{*}}{p_{i}^{*}}}
+$$ {#eq-DT4}
+:::
+:::{.fragment}
+or
+:::
+:::{.fragment}
+$$
+p_{k}^{*} = P \sum_{i=1}^{N} \frac{y_j}{\alpha_{ik}}
+$$ {#eq-DT5}
+:::
+:::{.fragment}
+where the relative volatility, $\alpha_{ki}$, is defined in @eq-BT6 and calculated
+using @eq-BT8.
+:::
+
+---
+
+The initial guess is:
+
+:::{.fragment}
+$$
+T_0 = \sum_{i=1}^{N} y_{i}T_{i}^{*}
+$$ {#eq-DT6}
+:::
+
+:::{.fragment}
+This $T_0$ can be used to evaluate all of the $a_{ik}$’s in @eq-BT6 which are then
+used in @eq-BT5 to calculate $p_{k}^{*}$, from which a new value of $T$ can be
+calculated from @eq-BT10:
+:::
+
+:::{.fragment}
+$$
+T_1 = \frac{B_k}{A_k - \log_{10} p_{k}^{*}} - C_k
+$$
+:::
+
+:::{.fragment}
+After convergence we evaluate the $x_i$’s from Raoult’s law, @eq-DP2:
+:::
+:::{.fragment}
+$$
+x_i = \frac {y_{i}P}{p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N)
+$$
+:::
+
+---
+
+## The Takeaways
+
+1. Vapor-Liquid Equilibria (VLE) calculations for binaries can be done with a *Pxy* or *Txy* phase diagram.
+2. For mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult's law and the Antoine equation.
+3. The five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.
+4. However, flash calculations for binary mixtures are relatively straightforward.
+
+---
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+
+---

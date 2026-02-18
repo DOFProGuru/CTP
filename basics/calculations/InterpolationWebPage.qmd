@@ -11,36 +11,28 @@ Before the age of readily available computers most engineering data were only av
 
 *Interpol Is Late to a Mind-Blowing Math Hack* explains both 1-D and 2-D linear interpolation and contains example of each.
 
-### *The Full Story* Video
-
-*The Full Story* Video examines common conceptions and misconceptions about linear interpolation and explains how to perform both 1-D and 2-D (double) linear interpolation. It is recommended for those who have not been exposed to linear interpolation before or who have struggled with understanding and performing the calculations.
-
-**Video Link Goes Here**
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
-
-### The *Just The Facts* Video
+## Just the Facts
 
 The *Just The Facts* Video explains how to perform both 1-D and 2-D (double) linear interpolation. It is recommended for those who have a reasonably good understanding of linear interpolation and are just looking for a refresher or a review.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dWMh0ZJc874?si=dcd21BnaKDsOnS0j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VbnpWj9iYAU?si=JJpCmiewll_ZIZaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Visuals](InterpolationJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+## The Full Story
+
+*The Full Story* Video examines common conceptions and misconceptions about linear interpolation and explains how to perform both 1-D and 2-D (double) linear interpolation. It is recommended for those who have not been exposed to linear interpolation before or who have struggled with understanding and performing the calculations.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pbDEc_Q862M?si=rNG7d-1V51DqGLu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
 
 ## No Clear Interpretation a Mind-Blowing Math Hack
 
 *No Clear Interpretation a Mind-Blowing Math Hack* discusses nonlinear interpolation and presents an example of change of variables.
 
-### *The Full Story* Video
+The video explains how to calculate standard error, confidence intervals, and Student's $t$, and explains their use. It is recommended for both those who have not been exposed to nonlinear interpolation before or who have struggled with understanding the methods, or how they are used and for those who have a reasonably good understanding of standard error, confidence intervals, and Student's $t$ and are just looking for a refresher or a review.
 
-*The Full Story* Video examines common conceptions and misconceptions about nonlinear interpolation, discusses several different methods, and goes into detail about the change-of-variables method. It is recommended for those who have not been exposed to nonlinear interpolation before or who have struggled with understanding the methods, or how they are used.
-
-**Video Link Goes Here**
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
-
-### The *Just The Facts* Video
-
-The *Just The Facts* Video explains how to calculate standard error, confidence intervals, and Student's $t$, and explains their use. It is recommended for those who have a reasonably good understanding of standard error, confidence intervals, and Student's $t$ and are just looking for a refresher or a review.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uaxzUbWi7Iw?si=paPZ6gRmF73kyRaX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/721FxKwDRAU?si=X8TweZgQMGKk69Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Visuals](../calculations/NLInterpolationJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
 
 

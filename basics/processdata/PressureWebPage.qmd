@@ -7,34 +7,34 @@ format: html
 
 After temperature, pressure is the most common measured and reported quantity in chemical processes. The concept of pressure is fundamental to modeling, designing, and monitoring chemical processes. The *Part 1* and *Part 2* videos explain most of the fundamental and background information that a practicing engineer will need regarding pressure. *Part 1* discusses what pressure or force per unit area is, how you use it, and some of the methods for measuring it. *Part 2* continues the discussion with atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure. For those who caught the reference in the title, here is a [link to the video](https://youtu.be/ZyT8mVwf_40?si=8tDqHN07-LdtAHOn).
 
-## *Part 1 The Full Story* Video
+## *Part 1 Just The Facts*
+
+The *Just The Facts* Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9gbOE5zEt4o?si=Q7ep_2RRmEHTYqMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](PressurePt1JTFVisuals.qmd), [Transcript]()
+
+## *Part 1 The Full Story*
 
 *The Full Story* Video examines common conceptions and misconceptions about pressure before explaining the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have not been exposed to pressure before or who have struggled with understanding what pressure is or how it is used.
 
 
-**Video Link Goes Here**
-[Images](PressurePt1TFSVisuals.qmd), [Transcript]()
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D-UAHVi4a2U?si=9_gBUPh9WIZnDDbl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](PressurePt1TFSVisuals.qmd), [Transcript]()
 
-## The *Part 1 Just The Facts* Video
+## *Part 2 Just The Facts*
 
 The *Just The Facts* Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eZFMP-Dt48g?si=iSVAd8qT2tbC0wm7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Images](PressurePt1JTFVisuals.qmd), [Transcript]()
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CR3MomWlqb8?si=PbkrLizghUA9Dm3x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](PressurePt2JTFVisuals.qmd), [Transcript]()
 
-## *Part 2 The Full Story* Video
+## *Part 2 The Full Story*
 
 *The Full Story* Video examines common conceptions and misconceptions about atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure before explaining what these different pressures are and how to use them. It is recommended for those who have not been exposed to these pressure concepts before or who have struggled with understanding the differences among them or how they are used.
 
-**Video Link Goes Here**
-[Images](PressurePt2TFSVisuals.qmd), [Transcript]()
-
-## The *Part 2 Just The Facts* Video
-
-The *Just The Facts* Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z8DJ4kpvCMU?si=Zo2R5czd2vIvacBL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Images](PressurePt2JTFVisuals.qmd), [Transcript]()
+<iframe width="560" height="315" src="https://www.youtube.com/embed/41axc-xnqsQ?si=9ROd_qCuSIw_DakH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](PressurePt2TFSVisuals.qmd), [Transcript]()
 
 # Definitions
 

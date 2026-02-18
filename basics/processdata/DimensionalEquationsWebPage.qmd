@@ -7,23 +7,16 @@ format: html
 
 Engineers often have to work with different sets of units. The United States still uses American Engineering units, also known as the US Customary system or Imperial Units in many of its industries. Even in countries that largely use SI units, there are often conversions among kilograms and grams, millimeters, centimeters, meters, and kilometers, and weight is measured in kilograms, not newtons. Engineers must be comfortable in converting from one set of units to another as needed, and do so without making errors. This video explains how to do the most common sort of unit conversion, involving dimensional equations or unit-conversion equations.
 
-A second video, *How Keen Is Your Rank?* [JTF](https://youtu.be/Rmv1jLhdQ0I), [TFS](../../NotYetHere.qmd), [Ref page](../processdata/ConvertingTemperatureWebPage.qmd), explains how to do temperature conversions and temperature interval conversions, many of which can't be done using the methods in this video.
+A second video, *How Keen Is Your Rank?* [JTF](https://youtu.be/XKwl41MvFcE), [TFS](https://youtu.be/hEtrCnIicqQ), [Ref page](../processdata/ConvertingTemperatureWebPage.qmd), explains how to do temperature conversions and temperature interval conversions, many of which can't be done using the methods in this video.
 
-A third video, *The Most Annoying Equation Conversion*, [JTF](https://youtu.be/JE4llgDsy9E), [TFS](../../NotYetHere.qmd), [Ref page](../../NotYetHere.qmd), explains how to convert an equation, as opposed to a measurement or temperature, from one set of units to another.
+A third video, *The Most Annoying Equation Conversion*, [Video](https://youtu.be/JE4llgDsy9E), [Ref page](../../NotYetHere.qmd), explains how to convert an equation, as opposed to a measurement or temperature, from one set of units to another.
 
-## *The Full Story* Video
+## Is Furlongs Per Fortnight a Thing?
 
-*The Full Story* Video examines common conceptions and misconceptions about unit conversions, explains dimensional equations and then has  examples of their use. It is recommended for those who have not been exposed to unit conversions before or who have struggled to understand how to use them.
+The *Just The Facts* Video discusses unit conversions, explains dimensional equations and then has examples of their use. It is recommended for both those who are just learning unit conversions and those who have a reasonably good understanding of unit conversion and are just looking for a refresher or a review.
 
-**Video Link Goes Here**
-[Images](ConvertingTemperatureTFSVisuals.qmd), [Transcript](../../NotYetHere.qmd)
-
-## The *Just The Facts* Video
-
-The *Just The Facts* Video discusses unit conversions, explains dimensional equations and then has examples of their use. It is recommended for those who have a reasonably good understanding of unit conversion and are just looking for a refresher or a review.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rmv1jLhdQ0I?si=w3wrNsu4G8J5D6nv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Images](ConvertingTemperatureJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5EbL9MEro9E?si=b_Khtnkg7aSGubkv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](ConvertingTemperatureJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
 
 # Some Common Conversions
 

@@ -1,0 +1,237 @@
+
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Dew Your Bubbles Have Flash? Part 1
+
+::: {style="text-align: center; font-size: 120px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+---
+
+::: {style="font-size: 130px;"}
+**Dew Your Bubbles Have Flash?**
+:::
+
+- Use Raoult’s law to perform vapor-liquid phase equilibria calculations.
+- Not limited to binaries
+- Multicomponent systems conforming to Raoult’s law
+  - Aliphatic hydrocarbon mixtures
+  - Aromatic hydrocarbon mixtures
+- **Part 1** – The basics and BUBL P and DEW P
+- Part 2 – BUBL T and DEW T
+- Part 3 – FLASH and *Pxy* and *Txy* diagrams
+
+:::{.fragment}
+$y_i$ – Vapor phase mole fraction
+:::
+
+:::{.fragment}
+$x_i$ – Liquid phase mole fraction
+:::
+
+---
+
+## Multicomponent Systems
+
+If the vapor phase is an ideal-gas mixture and the liquid phase is
+an ideal solution then Raoult’s Law holds.
+
+:::{.fragment}
+$$
+p_\mathrm{A} \equiv y_\mathrm{A}P = x_\mathrm{A}p_\mathrm{A}^*(T)
+$$
+:::
+:::{.fragment}
+or in terms of species $i$,
+:::
+:::{.fragment}
+$$
+y_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)
+$$ {#eq-raoults}
+:::
+:::{.fragment}
+In words, the partial pressure of a component is equal to the liquid
+mole fraction of the component times its vapor pressure.
+(If the vapor phase is not an ideal-gas mixture or the liquid phase
+is not an ideal solution then we are led to the realms of activity
+coefficients, fugacities and Poynting factors, i.e., the advanced phase equilibria videos)
+:::
+
+## BUBL, DEW, FLASH
+
+For multicomponent mixtures, five types of calculations are usually performed using Raoult’s law:
+
+1. BUBL P – Given all $x_{i}$’s and $T$, calculate $P$ at which the first
+bubble forms, and $y_{i}$’s of the bubble.
+2. BUBL T – Given all $x_{i}$’s and $P$, calculate $T$ at which the first
+bubble forms, and $y_{i}$’s of the bubble.
+3. DEW P – Given all $y_{i}$’s and $T$, calculate $P$ at which the first
+droplet condenses, and $x_{i}$’s of the droplet.
+4. DEW T – Given all $y_{i}$’s and $P$, calculate $T$ at which the first
+droplet condenses, and $x_{i}$’s of the droplet.
+5. FLASH – Given overall composition ($z_{i}$’s) and $T$ and $P$, calculate
+$x_{i}$’s and $y_{i}$’s, and relative amounts of vapor, $\mathcal{V}$, and liquid, $\mathcal{L}$. 
+
+##
+
+Graphical BUBL P, DEW P
+
+![](PxyBubbleDew.png){.absolute left=10% top=10% width=80%}
+
+:::{style="font-size: 65px;"}
+
+:::{.absolute top=15% left=28%}
+Overall<br/> Composition
+:::
+
+:::{.absolute top=27% left=23%}
+Subcooled<br/>Liquid
+:::
+
+:::{.absolute top=55% left=60%}
+Superheated<br/>Vapor
+:::
+
+:::{.absolute top=45% left=38%}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=36.5% left=8%}
+Bubble<br/> Pressure
+:::
+
+:::{.absolute top=70% left=51%}
+Bubble<br/> Composition
+:::
+
+:::{.absolute top=59% left=8%}
+Dew<br/> Pressure
+:::
+
+:::{.absolute top=81% left=19%}
+Dew<br/> Composition
+:::
+
+:::{.absolute top=23% left=56%}
+Low Boiling<br/>Azeotrope
+:::
+
+:::
+
+
+---
+
+## BUBL P
+
+:::{style="font-size: 95px;"}
+Given all $x_{i}$’s and $T$, calculate $P$ and $y_{i}$’s.
+
+:::{.fragment .absolute left=0% top=15%}
+If necessary, begin by calculating all of the vapor pressures from the
+Antoine equation.
+:::
+:::{.fragment .absolute left=0% top=25%}
+$$
+p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}
+$$ {#eq-BP1}
+:::
+:::{.fragment .absolute left=0% top=38%}
+Raoult's Law, @eq-raoults,
+$$y_{i}P = x_{i}p_{i}^{*}(T)\ \ \ (i=1, 2, 3, .., N)$$
+:::
+:::{.fragment .absolute left=0% top=55%}
+can be rearranged as: 
+:::
+:::{.fragment .absolute left=0% top=60%}
+$$P =  \sum_{n=1}^{N} x_{i}p_{i}^{*}
+$$ {#eq-BP3}
+:::
+:::{.fragment .absolute left=0% top=80%}
+to calculate $P$. Then calculate $y_{i}$'s from:
+:::
+:::{.fragment .absolute left=0% top=83%}
+$$y_{i} = \frac{x_{i} p_{i}^*} {P}\ \ \ (i = 1, 2, 3, ..., N)$$ {#eq-BP4}
+:::
+:::
+
+## DEW P
+
+Given all $y_{i}$'s and $T$, calculate $P$ and $x_{i}$'s.
+If necessary, begin by calculating all of the vapor pressures from the
+Antoine equation, @eq-BP1.
+
+:::{.fragment}
+$$p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}$$
+:::
+
+
+:::{.fragment}
+Raoult's Law, @eq-raoults, rearranged, gives
+:::
+:::{.fragment}
+$$x_{i} = \frac{y_{i} P} {p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N).
+$$ {#eq-DP2}
+:::
+:::{.fragment}
+Also
+:::
+:::{.fragment}
+$$
+\sum_{i=1}^{N} x_i =1
+$$ {#eq-DP3}
+:::
+
+---
+
+Then,
+
+:::{.fragment}
+$$
+1 =P \sum_{i=1}^{N}\frac{y_i} {p_{i}^{*}}
+$$ {#eq-DP4}
+:::
+
+:::{.fragment}
+and
+:::
+:::{.fragment}
+$$
+P = \frac {1} {\sum\limits_{i=i}^{N}\frac{y_i} {p_{i}^{*}}}
+$$ {#eq-DP5}
+:::
+
+:::{.fragment}
+to calculate $P$. Then calculate $x_i$'s from @eq-DP2.
+:::
+
+---
+
+## The Takeaways
+
+1. Vapor-Liquid Equilibria (VLE) calculations for binaries can be done with a *Pxy* or *Txy* phase diagram.
+2. For mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult's law and the Antoine equation.
+3. The five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.
+4. However, flash calculations for binary mixtures are relatively straightforward.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+
+---

@@ -7,19 +7,19 @@ format: html
 
 Presentation and analysis of process data from Chemical and Thermal Processes is one of the fundamental activities for Process Engineers. For determining the functional form of a data set, it turns out that the human visual system is very good at seeing if the trend in a plot of data is a straight line or almost a straight line. If your data plot doesn’t appear as a straight line, it’s possible that a change of coordinates will make it appear as a straight line. This video discusses common transformation of coordinates to make your data set appear straight.
 
-### *The Full Story* Video
-
-*The Full Story* Video examines common conceptions and misconceptions about data presentation and plotting and explains how to transform coordinates to get linear, semi-log and log-log plots, and how to calculate model parameters from the data. It is recommended for those who have not been exposed to data plotting and coordinate transformations before or who have struggled with understanding and performing the transformations and calculations.
-
-**Video Link Goes Here**
-[Visuals](../calculations/DataVisTFSVisuals.qmd), [Transcript](../../NotYetHere.qmd)
-
-### The *Just The Facts* Video
+## Just The Facts
 
 The *Just The Facts* Video discusses data presentation techniques and plotting and explains how to transform coordinates to get linear, semi-log and log-log plots, and how to calculate model parameters from the data. It is recommended for those who have a reasonably good understanding of data visualization and coordinate transformation and are just looking for a refresher or a review.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qHsOz7af-GA?si=LsErtlwUf9bAqws3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yFOrwNmEbPA?si=aIY5p3Mt4_Uf4BO1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Visuals](../calculations/DataVisJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+
+## The Full Story
+
+*The Full Story* Video examines common conceptions and misconceptions about data presentation and plotting and explains how to transform coordinates to get linear, semi-log and log-log plots, and how to calculate model parameters from the data. It is recommended for those who have not been exposed to data plotting and coordinate transformations before or who have struggled with understanding and performing the transformations and calculations.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VUyyEmif3fs?si=HOz_bhZ4vFiPckNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../calculations/DataVisTFSVisuals.qmd), [Transcript](../../NotYetHere.qmd)
 
 # Definitions
 

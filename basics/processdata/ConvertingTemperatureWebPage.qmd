@@ -7,14 +7,14 @@ format: html
 
 Temperature is the most common measured and reported quantity in  in chemical processes. The concept of temperature is fundamental to modeling, designing, and monitoring chemical processes. The videos present the four common temperature scales, [Kelvin](https://en.wikipedia.org/wiki/Kelvin), [Celsius](https://en.wikipedia.org/wiki/Celsius), [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit), and [Rankine](https://en.wikipedia.org/wiki/Rankine_scale), and how to convert temperatures and temperature intervals among the four of them. The title is a pun on the name of the least well known of the four scales, the Rankine. The Wikipedia article on [Rankine](https://en.wikipedia.org/wiki/Rankine_scale) will provide you with much more information than you wanted to know.
 
-## The *Just The Facts* Video
+## How Keen Is Your Rank? Just The Facts
 
 The *Just The Facts* Video explains the difference between temperature and temperature interval, presents the conversions among the four scales for both temperature and temperature intervals, and then has two examples of applying the conversions. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XKwl41MvFcE?si=hkqX9Fg1u8vhdaK6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Visuals](ConvertingTemperatureJTFVisuals.qmd), [Transcript](),  [Conversion Table](#conversion-tables)
 
-## *The Full Story* Video
+## How Keen Is Your Rank? The Full Story
 
 *The Full Story* Video examines common conceptions and misconceptions about temperatures and temperature intervals, compares the four scales, shows how to derive the conversions, lists the conversions, and then has two examples of their use. It is recommended for those who have not been exposed to temperature before or who have struggled with understanding what temperature is or how it is used.
 
@@ -43,6 +43,14 @@ The *Just The Facts* Video explains the difference between temperature and tempe
 | $\Delta T\ (\mathrm{^\circ C})$| equal | N/A | $\Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$ | $\Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$ |
 | $\Delta T\ (\mathrm{^\circ F})$| $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{K})$ | $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$ | N/A | equal |
 | $\Delta T\ (\mathrm{^\circ R})$| $\Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{K})$ | $\Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$ | equal | N/A |
+
+## Is It Hot in Here, or Is It Just My Thermistor?
+
+Explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TncEECvmw8Y?si=SDSSKkLOv7PY1eOy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
 
 # Definitions
 
