@@ -1,0 +1,329 @@
+
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+# Dew Your Bubbles Have Flash Part 3
+
+::: {style="text-align: center; font-size: 120px;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+---
+
+::: {style="font-size: 130px;"}
+**Dew Your Bubbles Have Flash?**
+:::
+
+- Use Raoult’s law to perform vapor-liquid phase equilibria calculations.
+- Not limited to binaries
+- Multicomponent systems conforming to Raoult’s law
+  - Aliphatic hydrocarbon mixtures
+  - Aromatic hydrocarbon mixtures
+- Part 1 – The basics and BUBL P and DEW P
+- Part 2 – BUBL T and DEW T
+- **Part 3** – FLASH and *Pxy* and *Txy* diagrams
+
+---
+
+## Graphical FLASH on *Pxy*
+
+![](PxyFlash.png){.absolute left=10% top=10% width=80%}
+
+:::{style="font-size: 65px;"}
+
+:::{.absolute top=14.5% left=27%}
+Overall<br/> Composition
+:::
+
+:::{.absolute top=27% left=22%}
+Subcooled<br/>Liquid
+:::
+
+:::{.absolute top=45% left=47%}
+Superheated<br/>Vapor
+:::
+
+:::{.absolute top=40% left=38%}
+$2\text{–}\phi$
+:::
+
+:::{.absolute top=17% left=52.5%}
+Flash Temperature
+:::
+
+:::{.absolute top=43.5% left=8%}
+Flash<br/> Pressure
+:::
+
+:::{.absolute top=81% left=20%}
+Liquid<br/> Composition
+:::
+
+:::{.absolute top=81% left=36%}
+Vapor<br/> Composition
+:::
+
+:::{.absolute top=47.5% left=30.5%}
+$a$
+:::
+
+:::{.absolute top=47.5% left=38%}
+$b$
+:::
+
+
+:::{.absolute top=55% left=60%}
+$\mathcal{V} = \dfrac{a}{a+b}$
+:::
+
+:::{.absolute top=65% left=60%}
+$\mathcal{L} = 1-\mathcal{V} = \dfrac{b}{a+b}$
+:::
+
+:::
+
+---
+
+## FLASH
+
+
+Given $z_i$’s and $T$ and $P$, calculate $x_i$’s and $y_{i}$’s, and relative amounts of
+vapor, $\mathcal{V}$, and liquid, $\mathcal{L}$.
+
+:::{.fragment}
+$$
+\mathcal{V} \equiv \frac{n_\mathrm{{vapor}}}{n_\mathrm{{total}}}
+$$ {#eq-F1}
+:::
+:::{.fragment}
+and
+:::
+:::{.fragment}
+$$
+\mathcal{L} \equiv \frac{n_\mathrm{{liquid}}}{n_\mathrm{{total}}}
+$$ {#eq-F2}
+:::
+:::{.fragment}
+so
+:::
+:::{.fragment}
+$$
+\mathcal{L} + \mathcal{V} = 1
+$$ {#eq-F3}
+:::
+
+---
+
+and 
+
+:::{.fragment}
+$$
+z_{i} = x_{i}\mathcal{L} + y_{i}\mathcal{V}\ \ \ (i=1, 2, 3, ..., N)
+$$ {#eq-F4}
+:::
+:::{.fragment}
+or
+:::
+:::{.fragment}
+$$
+z_{i} = x_{i}(1-\mathcal{V}) + y_{i}\mathcal{V}\ \ \ (i= 1, 2, 3, ..., N)
+$$ {#eq-F5}
+:::
+:::{.fragment}
+We will now use the *K-value* or distribution coefficient, defined
+as
+:::
+:::{.fragment}
+$$
+K_{i} \equiv \frac{p_{i}^{*}}{P}
+$$ {#eq-F6}
+:::
+
+
+---
+
+which for Raoult’s law yields
+
+:::{.fragment}
+$$
+K_{i} = \frac{y_i}{x_i}
+$$ {#eq-F7}
+:::
+:::{.fragment}
+or
+:::
+
+:::{.fragment}
+$$
+x_{i} = \frac{y_i}{K_i}
+$$ {#eq-F8}
+:::
+
+:::{.fragment}
+Substitution into @eq-F5 yields
+:::
+:::{.fragment}
+$$
+y_{i} = \frac{z_{i}K_{i}}{1+\mathcal{V} (K_{i} - 1) }\ \ \ (i = 1, 2, 3, ..., N)
+$$ {#eq-F9}
+:::
+
+
+---
+
+or
+
+
+:::{.fragment}
+$$
+\sum_{i=1}^{N} \frac{z_{i}K_{i}}{1 + \mathcal{V} (K_{i} -1)} = 1
+$$ {#eq-F10}
+:::
+:::{.fragment}
+which is solved for $\mathcal{V}$ by numerical methods (such as Goal Seek). Then
+find the $y_{i}$ from @eq-F9 and the $x_{i}$ from @eq-F8.
+:::
+:::{.fragment}
+<br/>For a binary, there is an analytical method for solving for $\mathcal{L}$ and $\mathcal{V}$.
+Discovering the method is left as an exercise to the viewer.
+:::
+
+
+
+---
+
+## Example
+
+The binary system benzene(1)/toluene(2) conforms closely to Raoult’s law.
+Vapor pressures for the pure species are given by the following Antoine
+equations:
+
+
+:::{.fragment}
+$$
+\log_{10} p_\mathrm{b}^{*} / \mathrm{bar} = 4.01814 - \frac{1203.835}{T /\mathrm{K}  - 53.226}
+$$
+:::
+:::{.fragment}
+$$
+\log_{10}p_\mathrm{t}^{*} / \mathrm{bar} = 4.07827 - \frac{1343.943}{T / \mathrm{K} - 53.773}
+$$
+:::
+
+
+1. Prepare a graph showing $P$ vs. $x_b$ and $P$ vs. $y_b$ for a temperature of
+100°C.
+
+2. Prepare a graph showing $T$ vs. $x_b$ and $T$ vs. $y_b$ for a pressure of 1 bar
+
+---
+
+For a $Pxy$ diagram, we need $P$ as a function of $x_1$, and $P$ as a function
+of $y_1$, or $x_1$ and $y_1$ as a function of $P$. From @eq-BP3
+
+:::{.fragment}
+$$
+P = \sum_{i=1}^{N} x_{i}p_{i}^{*} + (1-x_{i})p_{2}^{*} = (p_{1}^{*} - p_{2}^{*}) x_1 + p_{2}^{*}
+$$
+:::
+:::{.fragment}
+which is a linear function of $x_1$ that runs from $p_{2}^{*}$ at $x_1$ = 0
+to $p_{1}^{*}$ at $x_1$ =1.
+:::
+:::{.fragment}
+From @eq-DP5
+:::
+:::{.fragment}
+$$
+P = \frac{1}{\sum\limits_{i=1}^{N} \frac{y_i}{p_{1}^{*}}} = \frac{1}{\frac{y_1}{p_{1}^{*}} + \frac{1-y_1}{p_{2}^{*}}} = \frac{p_{1}^{*}p_{2}^{*}}{(p_{2}^{*} - p_{1}^{*}) y_1 + p_{1}^{}*}
+$$
+:::
+:::{.fragment}
+$p_{1}^{*}$ and $p_{2}^{*}$ are determined from the Antoine equations.
+:::
+
+---
+
+$P$ vs. $x_1$ and $P$ vs. $y_1$ for a temperature of 100°C.
+
+![](PxyBenzeneToluene.png)
+
+
+---
+
+::: {style="font-size: 85px;"}
+For a $T_{xy}$ diagram, we either need to use Goal Seek or we need $x_1$ and
+$y_1$ as a function of $T$. From From @eq-BP3
+
+
+:::{.fragment}
+$$
+P = (p_{1}^{*} - p_{2}^{*}) x_1 + p_{2}^{*}
+$$
+:::
+:::{.fragment}
+$$
+\Rightarrow x_1 = \frac{P-p_{2}^{*}}{p_{1}^{*} - p_{2}^{*}}
+$$
+:::
+:::{.fragment}
+Pick a series of temperatures between $T_\text{1-bp}$ and $T_\text{2-bp}$ and calculate $p_{1}^{*}$
+and $p_{2}^{*}$ and then $x_1$.
+:::
+
+:::{.fragment}
+From @eq-DP5
+:::
+
+:::{.fragment}
+$$
+P = \frac{p_{1}^{*}p_{2}^{*}}{(p_{2}^{*}-p_{1}^{*}) y_{1} + p_{1}^{*}}
+$$
+:::
+
+:::{.fragment}
+$$
+\Rightarrow y_1 = \frac{p_{1}^{*}}{P} \frac{P-p_{2}^{*}}{p_{1}^{*} - p_{2}^{*}}
+$$
+:::
+:::{.fragment}
+Pick a series of temperatures between $T_\text{1-bp}$ and $T_\text{2-bp}$ and calculate $p_{1}^{*}$
+and $p_{2}^{*}$ and then $y_1$.
+:::
+:::
+
+---
+
+$T$ vs. $x_1$ and $T$ vs. $y_1$ for a pressure of 1 bar.
+
+![](TxyBenzeneToluene.png)
+
+---
+
+## The Takeaways
+
+1. Vapor-Liquid Equilibria (VLE) calculations for binaries can be done with a *Pxy* or *Txy* phase diagram.
+2. For mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult's law and the Antoine equation.
+3. The five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.
+4. However, flash calculations for binary mixtures are relatively straightforward.
+
+---
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

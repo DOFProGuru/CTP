@@ -1,0 +1,318 @@
+---
+format:
+  revealjs:
+    width: 2700
+    height: 2160
+    max-scale: 8
+    logo: ../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png
+    incremental: true
+    theme: [serif, ../../gradient.scss]
+    html-math-method: mathjax
+---
+
+
+# The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2
+
+::: {style="text-align: center;"}
+DOFPro Team
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
+
+##
+***The Shocking Truth About Equilibrium Stages</br>Are You Doing It Wrong?***
+
+Part 1 – Principles and Equations
+
+**Part 2 - Two VLE examples**
+
+Part 3 - A Liquid-Liquid Example
+
+- Explain the mass-balance equations for a single stage in a separator
+- Provide three examples
+- Most separation equipment has multiple stages.
+- The overall split fraction is calculated by chaining together the individual stages.
+- The full calculations require both mass balances and energy balances.
+- These videos only describe the mass balances.
+
+## Examples
+
+1. Distillation Column – Binary Phase Diagram – in Part 2
+2. Distillation Column – Raoult's Law – in Part 2
+3. Liquid-Liquid Extraction – Ternary Phase Diagram – in Part 3
+
+
+## <!-- Example: Distillation Phase Diagram -->
+
+![](StageK.png){.absolute top=0% left=-2% width=40%}
+
+:::{.fragment.absolute top=60% left=8.5%}
+$\dot{n}_{k-1}^v$
+:::
+
+:::{.absolute top=8% left=29.5%}
+$\dot{n}_{k+1}^l$
+:::
+
+:::{.absolute top=8% left=8.5%}
+$\dot{n}_{k}^v$
+:::
+
+:::{.absolute top=60% left=29.5%}
+$\dot{n}_{k}^l$
+:::
+
+:::{.absolute top=35% left=12.5%}
+$T_k,\ P_k$
+:::
+
+
+::::{.columns}
+:::{.column width=40%}
+:::
+
+:::{.column width=55%}
+
+:::{style="font-size: 85px;"}
+**Example:** Distillation Phase Diagram
+<br/><br/>
+
+An equilibrium stage in a distillation
+column for separating methanol from
+acetone has a liquid feed of 10.0% acetone
+at 180 mol/min and a vapor feed of 40.0%
+acetone at 180 mol/min. Measurements
+indicate that the stage is operating at a
+temperature of 326 K and a pressure of 75
+kPa. Calculate the compositions and flow
+rates of the exiting vapor and liquid
+streams. The phase diagram is given
+below.
+
+:::
+:::
+::::
+
+## <!-- Example: Distillation Phase Diagram (cont. 1) -->
+
+![](AcetoneMethanolTxy.png){.absolute top=0% left=0% width=100%}
+
+::: {.absolute top=13% left=25% style="font-size: 80px;"}
+::: {.fragment}
+ $\dot{n}_\mathrm{tot} = \dot{n}_{k+1}^l + \dot{n}_{k-1}^v = 180 + 180 = 360\ \mathrm{mol/min}$
+:::
+::: {.fragment style="font-size: 78px;"}
+ $z_{i,k} = \dfrac{{x_{i,k+1}}\dot{n}_{k+1}^l + {y_{i,k-1}}\dot{n}_{k-1}^v}{\dot{n}_\mathrm{tot}} = \dfrac{{x_{i,k+1}} \mathbf{\cdot} 180 + {y_{i,k-1}}\mathbf{\cdot} 180}{360}$
+:::
+::: {.fragment}
+ $(i=\mathrm{A-acetone,\ M-methanol})$
+:::
+:::
+
+
+::: { .absolute top=40% left=45% style="font-size: 80px;"}
+::: {.fragment}
+ Lever Rule
+:::
+::: {.fragment}
+$\mathcal{L}_k = \dfrac{y_{\mathrm{A},k}-z_{\mathrm{A},k}}{y_{\mathrm{A},k}-x_{\mathrm{A},k}}$&nbsp;&nbsp;&nbsp;&nbsp; $\text{Need }y_{\mathrm{A},k},\ x_{\mathrm{A},k}$
+:::
+:::
+
+## <!-- Example: Distillation Phase Diagram (cont. 2) -->
+
+![](AcetoneMethanoTxyBlowUp.png)
+
+::: {.fragment .absolute top=18% left=45%}
+$z_{\mathrm{A},k}=0.250$
+:::
+
+::: {.fragment .absolute top=43% left=12%}
+$x_{\mathrm{A},k}^l=0.158$
+:::
+
+::: {.fragment .absolute top=43% left=58%}
+$y_{\mathrm{A},k}^v=0.285$
+:::
+
+:::{.fragment}
+:::{style="font-size: 40px;"}
+</br>
+:::
+$\mathcal{L}_k = \dfrac{y_{\mathrm{A},k}-z_{\mathrm{A},k}}{y_{\mathrm{A},k}-x_{\mathrm{A},k}} = \dfrac{0.285-0.25}{0.285-0.158} = 0.276$
+:::
+:::{.fragment}
+:::{style="font-size: 40px;"}
+</br>
+:::
+$\mathcal{V}_k = 1 - \mathcal{L}_k = 1 - 0.276 = 0.724$
+:::
+:::{.fragment}
+:::{style="font-size: 40px;"}
+</br>
+:::
+$\dot{n}_{k}^l = \mathcal{L}_k \mathbf{\cdot} \dot{n}_\mathrm{tot} = 0.276 \mathbf{\cdot} 360 = 99.2\ \mathrm{mol/min}$
+:::
+:::{.fragment}
+:::{style="font-size: 40px;"}
+</br>
+:::
+$\dot{n}_{k}^v = \mathcal{V}_k \mathbf{\cdot} \dot{n}_\mathrm{tot} = 0.000 \mathbf{\cdot} 360 = 260.8\ \mathrm{mol/min}$
+:::
+
+## <!-- Example: Distillation Phase Diagram (cont. 3) -->
+
+![](AcetoneMethanolStageTemp.png)
+
+## <!-- Example: Distillation Phase Diagram (cont. 4) -->
+
+![](AcetoneMethanolAdiabatic.png)
+
+## <!-- Example: Distillation Raoult's Law -->
+
+![](StageK.png){.absolute top=0% left=-2% width=40%}
+
+:::{.absolute top=60% left=8.5%}
+$\dot{n}_{k-1}^v$
+:::
+
+:::{.absolute top=8% left=29.5%}
+$\dot{n}_{k+1}^l$
+:::
+
+:::{.absolute top=8% left=8.5%}
+$\dot{n}_{k}^v$
+:::
+
+:::{.absolute top=60% left=29.5%}
+$\dot{n}_{k}^l$
+:::
+
+:::{.absolute top=35% left=12.5%}
+$T_k,\ P_k$
+:::
+
+::::{.columns}
+:::{.column width=40%}
+:::
+
+:::{.column width=55%}
+
+:::{style="font-size: 85px;"}
+**Example:** Distillation Raoult’s Law
+<br/><br/>
+
+An equilibrium stage in a distillation
+column for separating hexane from
+heptane and octane has a liquid feed of 45.0% hexane, 45.0% heptane, and the balance octane
+at 240 mol/min and a vapor product of
+45.0% hexane, 45.0% heptane and the balance octane at 180 mol/min and a
+pressure of 1.00 bar. Determine the
+operating temperature of the stage and
+the composition of the liquid product.
+What additional information would you
+need to determine the composition of the
+vapor feed and the flow rates of the liquid
+product and the vapor feed?
+
+:::
+:::
+::::
+
+## <!-- Solution: Distillation Raoult's Law -->
+
+**Solution**
+
+The exiting streams, (the $k$’s) are in equilibrium. We’re given the
+exiting vapor composition and the pressure, so the phase calculation
+is a DEW T.
+
+1. Guess a $T_\mathrm{guess}$.
+2. Calculate the $p^*$’s from the $T$.
+3. Calculate the $P_\mathrm{calc}$ as the reciprocal of the sum of the vapor mole
+fractions over the vapor pressures.
+4. Use Goal Seek to vary $T_\mathrm{guess}$ until $P = P_\mathrm{calc}$.
+5. Use Raoult’s law to calculate the exiting liquid composition.
+
+## <!-- Solution: Distillation Raoult's Law (cont. 1) -->
+
+**Solution**
+
+:::{style="font-size: 40px;"}
+</br>
+:::
+
+:::{style="font-size: 92px;"}
+$p_6^* = 10^{4.00266 - \frac{1171.530}{T - 48.784}},\ \ \ \ p_7^* = 10^{4.02832 - \frac{1268.636}{T - 56.199}},p_8^* = 10^{4.04867 - \frac{1355.126}{T - 63.633}}$
+:::
+
+:::{style="font-size: 40px;"}
+</br>
+:::
+:::{.fragment}
+:::{style="font-size: 95px;"}
+$P_\mathrm{calc} = \frac{1}{\sum\limits_{i=1}^N \dfrac{y_i}{p_i^*}} = \frac{1}{\dfrac{y_{6,k}}{p_6^*}+\dfrac{y_{7,k}}{p_7^*}+\dfrac{y_{8,k}}{p_8^*}} = \dfrac{1}{\dfrac{0.450}{p_6^*}+\dfrac{0.450}{p_7^*}+\dfrac{0.100}{p_8^*}}$
+:::
+:::
+
+:::{style="font-size: 40px;"}
+</br>
+:::
+:::{.fragment}
+$x_{6,k} = \dfrac{y_{6,k}P}{p_6^*}$
+:::
+
+:::{style="font-size: 40px;"}
+</br>
+:::
+
+:::{.fragment}
+$x_{7,k} = \dfrac{y_{7,k}P}{p_7^*}$
+:::
+
+:::{style="font-size: 40px;"}
+</br>
+:::
+
+:::{.fragment}
+$x_{8,k} = 1 - (x_{6,k} +x_{7,k} )$
+:::
+
+## <!-- Solution: Distillation Raoult's Law (cont. 2) -->
+
+![](TernaryEqStage.png)
+
+:::{.fragment}
+To determine the
+remaining variables we
+need a minimum of
+either the total entering
+vapor flow or the total
+exiting liquid flow, $\mathcal{L}$ or
+$\mathcal{V}$, or two of $z_{6,k},\ z_{7,k},$ or $z_{8,k}$.
+:::
+:::{style="font-size: 40px;"}
+</br>
+:::
+:::{.fragment}
+The
+remaining mass
+balances will permit us
+to calculate everything
+else. The spreadsheet was tested with the total exiting liquid flow.
+:::
+
+## The Takeaways
+
+1. For binary separations a binary phase diagram makes the phase-equilibrium calculation easy and quick, but not necessarily accurate.
+2. For ideal solutions Raoult's law and the Antoine equation can be used for the phase-equilibrium calculations.
+3. Using chemical-process-flowsheet software such as DWSIM removes most of the tedium from the process, if you know what you are doing.
+
+#
+
+::: {.centered}
+ </br></br></br></br></br>**Thanks for watching!** </br> The previous video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+:::
+
+![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+

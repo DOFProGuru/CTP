@@ -1,0 +1,56 @@
+---
+title: "*The Unauthorized Guide to Using Spreadsheets in Chemical Engineering* (Spreadsheet Techniques) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *The Unauthorized Guide to Using Spreadsheets in Chemical Engineering*
+
+Main title explanation
+
+## The Unauthorized Guide to Using Spreadsheets in Chemical Engineering
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5XMeQ6vWymA?si=CUrnajQV7rkgAmgv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## How to Have a Quickie with Your Data Part 1
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4EfhlWNDQ48?si=Y4u8lUIBWluyVgtZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## How to Have a Quickie with Your Data Part 2
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dVmh0EdQT1U?si=0A6c_LvtbfwbxQ7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Solving Nonlinear Equations with Spreadsheets
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SaI2qdu1wSE?si=Gn3Q6EGuSdcoeUrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

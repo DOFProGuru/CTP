@@ -4,5 +4,24 @@ author: "DOFPro group"
 format: html
 ---
 
-# Introduction and List of Topics
+# Introduction
 
+## From Mole to Megawatt:<br/>The Full Journey Through<br/>Chemical and Thermal Engineering
+
+Explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8FEmNkiU1Jk?si=cZl4f3nPPIqWIx1N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd) 
+
+
+# List of Topics
+
+## Introduction
+
+## Statistics and Measurements
+
+## Basic Engineering Calculations
+
+# Pathways Through the Videos
+
+![](VideoPaths.png)

@@ -1,0 +1,35 @@
+---
+title: "*The ΔS-sentials of Calculating Entropy Changes * (Calculating Entropy Changes) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *The ΔS-sentials of Calculating Entropy Changes *
+
+Main title explanation
+
+## The ΔS-sentials of Calculating Entropy Changes 
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z2e5Rq5r288?si=h073olXQ9GIgvabg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

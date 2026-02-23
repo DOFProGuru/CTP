@@ -1,0 +1,89 @@
+---
+title: "*How Deviant and Mean Are Your Data?* (Intro and Basics) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *How Deviant and Mean Are Your Data?*
+
+Main title explanation
+
+## Part 1 Just the Facts
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ksg4Babav6o?si=c_j6N4J0XkGrrzPB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Part 1 The Full Story
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H82fqjDDQz8?si=FKvwDhNQMufpycMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## How Deviant and Mean Are Your Data? Part 2
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cBOrE6eV-AE?si=azqNJTDo_y56SyE5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Basics Statistics by Hand
+
+Video 6 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HJz-HpglcMQ?si=C2Ms5F7P5pTBhFQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Basic Statistics on a Spreadsheet
+
+Video 7 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RZ1kFVLvSxY?si=K6IDS4SwCxKqNJ84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+<!-- ## Basic Statistics in Python
+
+Video 8 explanation
+
+***Video 8 Link***
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+-->
+
+## Basics Statistics with MATLAB
+
+::: {.callout-important title="Not a DOFPro video"}
+This is ***NOT*** a DOFPro video. It may contain copyrighted material and have references to proprietary software.
+:::
+
+Video 8.3 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j0BRAgadBxg?si=nicMcE4Owzg3tmL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Basic Statistics in R
+
+Video 9 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/va7O78QdYLk?si=Y64Hi889j54ewerH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

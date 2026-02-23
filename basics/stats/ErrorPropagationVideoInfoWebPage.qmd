@@ -1,0 +1,85 @@
+---
+title: "*How Do Errors Propagate?* (Error Propagation) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *How Do Errors Propagate?*
+
+Main title explanation
+
+<!-- ## How Do Errors Propagate?
+
+Video 1 explanation
+
+***Video 1 Link***
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+-->
+
+## Error Propagation
+
+::: {.callout-important title="Not a DOFPro video"}
+This is ***NOT*** a DOFPro video. It may contain copyrighted material and have references to proprietary software.
+:::
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DiOs64kzSQw?si=UVrq73pdpsjS-lVp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+<!-- ## Error Propagation in Integrals and Derivatives Part 1
+
+Video explanation
+
+***Video 1 Link***
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+-->
+
+## Integrals and Derivatives Part 1
+
+::: {.callout-important title="Not a DOFPro video"}
+This is ***NOT*** a DOFPro video. It may contain copyrighted material and have references to proprietary software.
+:::
+
+Video explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_0AcGK7asfM?si=X5OLQfj8W6cOlB_7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+<!-- ## Error Propagation in Integrals and Derivatives Part 2
+
+Video explanation
+
+***Video 1 Link***
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+-->
+
+## Integrals and Derivatives Part 2
+
+::: {.callout-important title="Not a DOFPro video"}
+This is ***NOT*** a DOFPro video. It may contain copyrighted material and have references to proprietary software.
+:::
+
+Video explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ej9O5ncO1iw?si=e1pgKjH3PAm4IXt6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

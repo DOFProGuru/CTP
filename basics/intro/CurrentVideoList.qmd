@@ -13,7 +13,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 1 | From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering | [Link](https://youtu.be/8FEmNkiU1Jk) | No | [Page]| Intro to DOFPro CTP|
 | 5 | How Deviant and Mean Are Your Data? Intro and Basics Part 1 | [Link](https://youtu.be/ksg4Babav6o) | [Link](https://youtu.be/H82fqjDDQz8) | [Page](../stats/BasicStatisticsWebPage.qmd) | Mean ($\mu,\ \bar{x}$) and Standard Deviation ($\sigma,\ S$)|
 | 5A | How Deviant and Mean Are Your Data? Part 2 | [Link](https://youtu.be/cBOrE6eV-AE) | No | [Page](../stats/BasicStatisticsWebPage.qmd) | Standard Error ($S_{\bar{x}}$) and Confidence Interval ($2\lambda$) |
-| 6 | Basics Statistics by Hand | [Link](https://youtu.be/h7WoWiVLzaw) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ by hand|
+| 6 | Basics Statistics by Hand | [Link](https://youtu.be/HJz-HpglcMQ) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ by hand|
 | 7 | Basic Statistics on a Spreadsheet | [Link](https://youtu.be/RZ1kFVLvSxY) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with a spreadsheet|
 | 9 | Basic Statistics in R | [Link](https://youtu.be/va7O78QdYLk) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | $\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R|
 | 13 | Linear Regression in R | [Link](https://youtu.be/Btshw2DX0Ik) |  No | [Page](../stats/BasicStatisticsWebPage.qmd) | Linear Regression in R|
@@ -23,6 +23,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 24 | The Unauthorized Guide to Using Spreadsheets in Chemical Engineering | [Link](https://youtu.be/5XMeQ6vWymA) | No | Page | Spreadsheet Basics |
 | 25 | How to Have a Quickie with Your Data Part 1 | [Link](https://youtu.be/4EfhlWNDQ48) | No | [Page] | $\bar{x}$, $S_{\bar{x}}$, Linear Least Squares |
 | 26 | How to Have a Quickie with Your Data Part 2 | [Link](https://youtu.be/dVmh0EdQT1U) | No | [Page]| Nonlinear least squares |
+| 67 | Solving Nonlinear Equations with Spreadsheets | [link](https://youtu.be/SaI2qdu1wSE) | No | [Page] | See Title |
 | 27 | Is Furlongs Per Fortnight a Thing? | [Link](https://youtu.be/5EbL9MEro9E) | No | [Page](../processdata/DimensionalEquationsWebPage.qmd) | Unit Conversion |
 | 28 | How Keen Is Your Rank? | [Link](https://youtu.be/XKwl41MvFcE) | [Link](https://youtu.be/hEtrCnIicqQ) | [Page](../processdata/ConvertingTemperatureWebPage.qmd) | Temperature Conversion |
 | 29 | The Most Annoying Equation Conversion | [Link](https://youtu.be/6dyg-CgAm8s) | No | [Page] | Unit Conversion of Equations |
@@ -56,12 +57,11 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 64 | When Getting Gassed Isn’t Ideal, Part 2 | [Link](https://youtu.be/Q6ZK_Ou967o) | No | [Page] | Real gas example |
 | 65 | REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1 | [Link](https://youtu.be/yI3jj1jCSAM) | No | [Page] | Explanation of Kay's Rule and DWSIM for real gas mixtures |
 | 66 | REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2 | [Link](https://youtu.be/Pbizi39c1Rk) | No | [Page] | Example of Kay's Rule and DWSIM for real gas mixtures |
-| 67 | Solving Nonlinear Equations with Spreadsheets | [link](https://youtu.be/SaI2qdu1wSE) | No | [Page] | See Title |
 | 70 | Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 1! | [link](https://youtu.be/NUS4Y_pnWZk) | No | [Page] | Phase Diagrams, Gibbs Phase Rule |
 | 71 | Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 2 | [link](https://youtu.be/QBREikNSvGI) | No | [Page] | Ternary Phase Diagrams, Lever Rule |
 | 72 | Show Some Flash and Dew the Dew with a Little Bubbly! | [link](https://youtu.be/shKvpcsJIEM) | No | [Page] | Graphical BUBL P, DEW P, BUBL T, DEW T, and FLASH calculations |
 | 73 | Oh, Henry! | [link](https://youtu.be/dCOQy1C7yf0) | No | [Page] | Gas-Liquid Equilibrium with one condensible component |
-| 74 | Dew Your Bubbles Have Flash? Part 1 | [Link](https://youtu.be/vSkSRi6HYVQ) | No | [Page] | Raoult's law, BUBL P, DEW P |
+| 74 | Dew Your Bubbles Have Flash? Part 1 | [Link](https://youtu.be/R4bimpGAV7o) | No | [Page] | Raoult's law, BUBL P, DEW P |
 | 75 | Dew Your Bubbles Have Flash? Part 2 | [Link](https://youtu.be/9GyrfJzg-tg) | No | [Page] | BUBL T, DEW T |
 | 75A| Dew Your Bubbles Have Flash? Part 3 | [Link](https://youtu.be/bG15qQ9gB4c) | No | [Page] | FLASH, *Pxy*, *Txy* |
 | 85| The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 1 | [Link](https://youtu.be/bY9fl5DJzmk) | No | [Page] | Equilibrium Stage Equations |
@@ -81,7 +81,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 104| Germain Hess and the Enthalpy of Doom  | [Link](https://youtu.be/qdgH4v64vOQ) | No | [Page] | Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$ |
 |106| Chemical Reactions vs. The First Law: Who Wins?  | [Link](https://youtu.be/mFF5hDHclPE) | No | [Page] | Forms of the 1^st^ Law for Chemical Reactions|
 | 110| Fueling the Fire: The Shocking Truth About Combustion Reactions! | [Link](https://youtu.be/lW5dK-F6H3U) | No | [Page] | Common fuels, Heats of Combustion, HHV, LHV |
-|111| React Hard: The First Law Gets Chemical | [Link](https://youtu.be/KA0aw-KbAR4) | No | [Page] | Example of the 1^st^ Law for Chemical Reactions |
+|111| React Hard: The First Law Gets Chemical | [Link](https://youtu.be/q-W5Y1d85go) | No | [Page] | Example of the 1^st^ Law for Chemical Reactions |
 |112| React Harder: Formation Heats and Alternate Endings | [Link](https://youtu.be/iqxJP6g-Qsc) | No | [Page] | 2 more Examples of the 1^st^ Law for Chemical Reactions |
 |113| Resistance is Futile. Entropy Always Wins | [Link](https://youtu.be/yqVUz1WA7M4) | No | [Page] | Intro to 2^nd^ Law |
 | 115| The ΔS-sentials of Calculating Entropy Changes  | [Link](https://youtu.be/z2e5Rq5r288) | No | [Page] | Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam |
@@ -92,9 +92,9 @@ Links to the current videos on YouTube will be maintained here. These are curren
 |118A| Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans  | [Link](https://youtu.be/irBfMfVUEFo) | No | [Page] | Pumps, Nozzles, and Valves or Throttles |
 |119| Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1  | [Link](https://youtu.be/4QRJ00uyaX8) | No | [Page] | The Ideal Rankine Cycle |
 |120| Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2  | [Link](https://youtu.be/0DmsKCJpIdc) | No | [Page] | The Rankine Cycle with $\eta_\mathrm{pump}$  and $\eta_\mathrm{turbine}$|
+|125| Modeling the Rankine Cycle in DWSIM  | [Link](https://youtu.be/ECOWIrzvGNc) | No | [Page] | Modeling the Rankine Cycle in DWSIM|
 |122| Cycle Wars: The Power Awakens  | [Link](https://youtu.be/M_p3gb79isg) | No | [Page] | Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle |
 |123| Cycle Wars: The Rise of Otto Cycles  | [Link](https://youtu.be/jJaDQM8qjgU) | No | [Page] | Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, & Stirling Cycles|
-|125| Modeling the Rankine Cycle in DWSIM  | [Link](https://youtu.be/ECOWIrzvGNc) | No | [Page] | Modeling the Rankine Cycle in DWSIM|
 |126| Revenge of the Fridge: Vapor Compression Strikes Back  | [Link](https://youtu.be/SN27SxDt0G4) | No | [Page] | The Vapor Compression Cycle |
 |127| Modeling the Vapor Compression Cycle in DWSIM  | [Link](https://youtu.be/nWOz-Y7XsbQ) | No | [Page] | Modeling the Vapor Compression Cycle in DWSIM|
 |129| The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1  | [Link](https://youtu.be/02S9SOGRBWU) | No | [Page] | The Combined 1^st^ and 2^nd^ Laws |

@@ -1,0 +1,42 @@
+---
+title: "*The Vapor Compression Cycle Reference Page*"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *The Vapor Compression Cycle*
+
+Main title explanation
+
+## Revenge of the Fridge: Vapor Compression Strikes Back 
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SN27SxDt0G4?si=JV0ibrl4Zg5B8zRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Modeling the Vapor Compression Cycle in DWSIM 
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nWOz-Y7XsbQ?si=80tsMdSOaeHi01kO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+

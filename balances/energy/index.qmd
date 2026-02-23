@@ -7,22 +7,20 @@ The First Law of Thermodynamics and Energy Balances are synonymous.
 
 Here is the set of videos on the First Law
 
-{{< video https://youtu.be/WkH39iAMOOg >}}
-
-{{< video https://youtu.be/KrdZMwE_238 >}}
-
-{{< video https://youtu.be/6qpFuS_3CrY >}}
-
-{{< video https://youtu.be/BKp0fCT50QY >}}
-
-{{< video https://youtu.be/wkUahTL-C0k >}}
-
-{{< video https://youtu.be/JDoLHZdbJNI >}}
-
-{{< video https://youtu.be/lj9zNKs0UOQ >}}
-
-{{< video https://youtu.be/RZZQsjS94Oo >}}
-
-{{< video https://youtu.be/lj9zNKs0UOQ >}}
+{{ < video https://youtu.be/ZHWT9Jw7fzY > }}
+{{ < video https://youtu.be/Da48oZb9oNw > }}
+{{ < video https://youtu.be/8tH3gXz_M8A > }}
+{{ < video https://youtu.be/yRf09eSRM1A > }}
+{{ < video https://youtu.be/YGMHMAXnFY8 > }}
+{{ < video https://youtu.be/yLJp3YQaVvo > }}
+{{ < video https://youtu.be/f_l3OFyuiPs > }}
+{{ < video https://youtu.be/Nz8ADo4X2Ss > }}
+{{ < video https://youtu.be/ggU692PLWts > }}
+{{ < video https://youtu.be/iKsR3v1wu30 > }}
+{{ < video https://youtu.be/qdgH4v64vOQ > }}
+{{ < video https://youtu.be/mFF5hDHclPE > }}
+{{ < video https://youtu.be/lW5dK-F6H3U > }}
+{{ < video https://youtu.be/q-W5Y1d85go > }}
+{{ < video https://youtu.be/iqxJP6g-Qsc > }}
 
 Then for reacting systems ...

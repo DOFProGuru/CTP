@@ -1,0 +1,42 @@
+---
+title: "*Cycle Wars* (Air-Standard Power Cycles) Reference Page"
+author: "DOFPro group"
+format: html
+html-math-method: mathjax
+---
+::: {.callout-important title="Still Under Construction!"}
+This web page is just a bare outline. The complete details have not been filled in yet.
+:::
+# Intro to *Cycle Wars*
+
+Main title explanation
+
+## Cycle Wars: The Power Awakens 
+
+Video 1 explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M_p3gb79isg?si=Fo4ku8jxNV6qlGfh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+## Cycle Wars: The Rise of Otto Cycles 
+
+Video  explanation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jJaDQM8qjgU?si=nZM3kaRIe-AqeUnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
+# Examples and Definitions
+
+## Examples Links
+
+## Definitions
+
+# Other Links and Videos
+
+## Other Links
+
+## Previous and Following Videos
+
+
+
+
