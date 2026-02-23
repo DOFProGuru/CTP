@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
-  <title>Chemical and Thermal Processes – thermodynamicpropertytablesvisuals</title>
+  <title>Chemical and Thermal Processes – pumpnozzvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,202 +127,338 @@
 
 
 <section>
-<section id="steam-get-the-quality-right-after-you-table-it-part-1" class="title-slide slide level1 center">
-<h1>Steam: Get the Quality Right AFTER You Table It! Part 1</h1>
+<section id="entropy-made-me-do-it-pumps-nozzles-and-other-second-law-shenanigans-part-2" class="title-slide slide level1 center">
+<h1>Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans (Part 2)</h1>
 <div style="text-align: center;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
 </section>
-<section id="gibbs-phase-rule" class="slide level2">
-<h2>Gibbs Phase Rule</h2>
-<div class="{fragment}">
-<p><span class="math inline">\(\ \ \ \ \ \boxed{DF\ =\ 2+c - \Pi}\)</span></p>
+<section id="introduction" class="slide level2">
+<h2>Introduction</h2>
+<p>These videos, <em>Entropy Made Me Do It</em>, <em>Part 1</em> and <em>Part 2</em> derive the equations for common items in power and refrigeration machinery.</p>
+<div class="fragment">
+<p>Part 1 discussed</p>
 </div>
 <ul>
-<li class="fragment">A <em>Degree of Freedom</em>, <span class="math inline">\(DF\)</span>, is a coordinate or variable.</li>
-<li class="fragment">A <em>Component</em>, <span class="math inline">\(c\)</span>, is a chemical species, e.g.&nbsp;<span class="math inline">\(\mathrm{Al_2O_3}\)</span>.</li>
-<li class="fragment">A <em>Phase</em>, <span class="math inline">\(\Pi\)</span>, is a physical entity with a uniform composition, temperature, pressure, and specific volume.</li>
-<li class="fragment">For a single component system with one phase <span class="math inline">\(DF = 2 + 1 - 1 = 2\)</span>.</li>
-<li class="fragment">For a single component system with two phases <span class="math inline">\(DF = 2 + 1 - 2 = 1\)</span>.</li>
+<li class="fragment">the turbine or expander</li>
+<li class="fragment">the adiabatic compressor</li>
+<li class="fragment">the isothermal compressor</li>
+</ul>
+<div class="fragment">
+<p><strong>Part 2</strong> discusses</p>
+</div>
+<ul>
+<li class="fragment">the pump</li>
+<li class="fragment">the nozzle</li>
+<li class="fragment">the valve or throttle</li>
 </ul>
 </section>
-<section id="steam-water-ttext-hats-diagram" class="slide level2">
-<h2>Steam-Water <span class="math inline">\(T\text{-}\hat{S}\)</span> Diagram</h2>
-<p><img data-src="T-s_diagram_modified.png"><!--{.absolute top=0% left=0% width=100%}--></p>
-<div class="absolute" style="left: 0%; bottom: -2%; ">
-<p><a href="https://commons.wikimedia.org/wiki/User:Kaboldy">Kaboldy</a>, <a href="https://commons.wikimedia.org/wiki/File:T-s_diagram.svg">T-s diagram</a>, Font and spacing, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a></p>
-</div>
-</section>
-<section id="steam-water-ptext-hath-diagram" class="slide level2">
-<h2>Steam-Water <span class="math inline">\(P\text{-}\hat{H}\)</span> Diagram</h2>
-<p><img data-src="P-H_chart_for_steam.png" class="absolute" style="top: 10%; left: 12%; height: 85%; "></p>
-<div class="absolute" style="font-size: 85px;left: 0%; bottom: -2%; ">
-<p><a href="../../wiki/User_talk:Emok">Emok</a>, <a href="https://commons.wikimedia.org/wiki/File:Pressure-enthalpy_chart_for_steam,_in_US_units.svg">Pressure-enthalpy chart for steam, in US units</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a></p>
-</div>
-</section>
-<section id="section" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title"></h2>
-<p><img data-src="SaturatedTempTableTop.png" class="absolute" style="top: -4%; left: -2%; width: 50%; "> <img data-src="SaturatedTempTableBottom.png" class="absolute" style="top: 50%; left: -2%; width: 50%; "> <img data-src="SaturatedPressTableTop.png" class="absolute" style="top: -4%; right: -2%; width: 50%; "> <img data-src="SaturatedPressTableBottom.png" class="absolute" style="top: 50%; right: -2%; width: 50%; "></p>
-</section>
-<section id="section-1" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title"></h2>
-<p><img data-src="SaturatedTempTableTop.png" class="absolute" style="top: -4%; left: -2%; width: 100%; "></p>
-</section>
-<section id="section-2" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title"></h2>
-<p><img data-src="SaturatedTempTableTop.png" class="absolute" style="top: -4%; left: -2%; width: 50%; "> <img data-src="SaturatedTempTableBottom.png" class="absolute" style="top: 50%; left: -2%; width: 50%; "> <img data-src="SaturatedPressTableTop.png" class="absolute" style="top: -4%; right: -2%; width: 50%; "> <img data-src="SaturatedPressTableBottom.png" class="absolute" style="top: 50%; right: -2%; width: 50%; "></p>
-</section>
-<section id="section-3" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title"></h2>
-<p><img data-src="SaturatedPressTableTop.png" class="absolute" style="top: -4%; right: -2%; width: 100%; "></p>
-</section>
-<section id="section-4" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title"></h2>
-<p><img data-src="SaturatedTempTableTop.png" class="absolute" style="top: -4%; left: -2%; width: 50%; "> <img data-src="SaturatedTempTableBottom.png" class="absolute" style="top: 50%; left: -2%; width: 50%; "> <img data-src="SaturatedPressTableTop.png" class="absolute" style="top: -4%; right: -2%; width: 50%; "> <img data-src="SaturatedPressTableBottom.png" class="absolute" style="top: 50%; right: -2%; width: 50%; "></p>
-</section>
-<section id="section-5" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title"></h2>
-<p><img data-src="SuperheatedSteamTop.png" class="absolute" style="top: -.75%; left: 12.5%; width: 75%; "> <img data-src="SuperheatedSteamBottom.png" class="absolute" style="top: 50%; left: 12.5%; width: 75%; "></p>
-</section>
-<section id="section-6" class="slide level2" data-auto-animate="true," data-transition="fade-out" data-transition-speed="slow">
-<h2 data-id="quarto-animate-title"></h2>
-<p><img data-src="SuperheatedSteamTop.png" class="absolute" style="top: -.75%; left: 0%; width: 100%; "></p>
-</section>
-<section id="section-7" class="slide level2" data-transition="fade-in none-out" data-transition-speed="slow">
+<section id="section" class="slide level2">
 <h2></h2>
-
-<img data-src="SuperheatCloseUp.png" class="r-stretch"></section>
-<section id="the-takeaways" class="slide level2">
-<h2>The Takeaways</h2>
-<ol type="1">
-<li class="fragment">Gibbs phase rule dictates how thermodynamic tables like the steam tables are arranged.</li>
-<li class="fragment">The Temperature Table and the Pressure Table have the same information in them. The choice is based on whether you have the temperature or the pressure of the two-phase mixture.</li>
-<li class="fragment">The Superheated Steam and Subcooled Water Table has single-phase regions for both subcooled water and superheated steam.</li>
-<li class="fragment">You have to specify a single property in the two-phase tables, but you have to specify two properties in the single-phase table.</li>
-</ol>
-</section></section>
-<section id="section-8" class="title-slide slide level1 center">
-<h1><!-- Approved Plain End --></h1>
-<div class="centered bigger">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<p><em>Up Third</em></p>
+<div class="fragment">
+<p><strong>Pump</strong> – Incompressible Liquids</p>
+<p><img data-src="DWSIMPump.png" class="absolute" style="top: 9%; left: 45%; width: 30%; "></p>
+<p><img data-src="PumpIcon.png" class="absolute" style="top: 10%; left: 75%; width: 30%; "></p>
 </div>
-<div class="absolute" style="font-size: 110px;top: 125%; left: 38%; ">
-<p>The DOFPro Team</p>
+<div class="fragment">
+<p><strong>Inputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span></p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 25.25%; width: 1494px; height: 364px; "> <!-- ****************************END Regular Intro/Outro ************************* --></p>
+<div class="fragment">
+<p><strong>Outputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
+<p>Have to input work</p>
+</div>
+<div class="fragment">
+<p><em>Up Fourth</em></p>
+</div>
+<div class="fragment">
+<p><strong>Nozzle</strong> – Ideal Gas or Steam</p>
+<p><img data-src="Nozzle.png" class="absolute" style="top: 45%; left: 55%; width: 30%; "></p>
+<p><img data-src="LavalNozzle.png" class="absolute" style="top: 55%; left: 55%; width: 30%; "></p>
+</div>
+<div class="fragment">
+<p><strong>Inputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
+<p><strong>Outputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
+<p>Goal is velocity increase</p>
+</div>
+<div class="fragment">
+<p><em>Last</em></p>
+</div>
+<div class="fragment">
+<div style="font-size: 95px;">
+<p><strong>Valve</strong> or <strong>Throttling Process</strong> – Ideal Gas or Two-phase Mixture</p>
+</div>
+<p><img data-src="DWSIMValve.png" class="absolute" style="top: 76%; left: 45%; width: 30%; "></p>
+<p><img data-src="ValveIcon.png" class="absolute" style="top: 76%; left: 75%; width: 30%; "></p>
+</div>
+<div class="fragment">
+<p><strong>Inputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span></p>
+</div>
+<div class="fragment">
+<p><strong>Outputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+</div>
 </section>
-
-<section>
-<section id="steam-get-the-quality-right-after-you-table-it-part-2" class="title-slide slide level1 center">
-<h1>Steam: Get the Quality Right AFTER You Table It! Part 2</h1>
-<div style="text-align: center;">
-<p>DOFPro Team</p>
+<section id="pump" class="slide level2">
+<h2>Pump</h2>
+<p>Incompressible liquid only in introductory videos.</p>
+<p><img data-src="Pompe_à_palettes.gif" class="absolute" style="top: 16%; left: 50%; width: 48%; "></p>
+<div class="absolute" style="top: 63%; left: 50%; ">
+<p><a href="https://creativecommons.org/licenses/by-sa/1.0">CC BY-SA 1.0</a>, via<br>Wikimedia Commons</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
+<p><img data-src="Peristaltic_pump.gif" class="absolute" style="top: 16%; left: 0%; width: 48%; "></p>
+<div class="absolute" style="top: 63%; left: 0%; ">
+<p><a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via<br> Wikimedia Commons</p>
+</div>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<p><strong>Pump</strong></p>
+<p>A real pump has a pump efficiency, that compares its performance with that of an isentropic pump.</p>
+<div class="fragment">
+<p><span class="math display">\[\eta_\mathrm{pump} = \frac{\dot{W}_{s\text{-isentropic}}}{\dot{W}_{s\text{-actual}}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\Delta \hat{H}_{\text{actual}}}\]</span></p>
+</div>
+<div class="fragment">
+<p>From the fundamental property relationships</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[d\hat{U} = T d\hat{S} - P d\hat{V}\]</span></p>
+</div>
+<div class="fragment">
+<p>and</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[d\hat{H} = d\hat{U} + P d\hat{V} + \hat{V} dP\ \ \text{from}\ \ \hat{H} = \hat{U} + P \hat{V}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[d\hat{U} = d\hat{H} - P d\hat{V} - \hat{V} dP\]</span></p>
+</div>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<p>so</p>
+<p><span class="math display">\[d\hat{H} - P d\hat{V} - \hat{V} dP = T d\hat{S} - P d\hat{V}\]</span></p>
+<div class="fragment">
+<p>or</p>
+<p><span class="math display">\[d\hat{H} = T d\hat{S} + \hat{V} dP\]</span></p>
+</div>
+<div class="fragment">
+<p>Second Law on pump (adiabatic and reversible)</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\Delta S = 0\]</span></p>
+</div>
+<div class="fragment">
+<p>so</p>
+<p><span class="math display">\[d\hat{S} = 0\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[d\hat{H} = \hat{V} dP\]</span></p>
+</div>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<p>For liquids <span class="math inline">\(V\)</span> is a very weak function of pressure (hence incompressible).</p>
+<div class="fragment">
+<p><span class="math display">\[\int d\hat{H} = \int \hat{V} dP = \hat{V} \int dP\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\Delta H_\text{isentropic} = W_{s\text{-isentropic}} = V \Delta P\]</span></p>
+</div>
+<div class="fragment">
+<p>Calculating the actual work</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\dot{W}_{s\text{-actual}} = \frac{\dot{W}_{s\text{-isentropic}}}{\eta_\mathrm{pump}}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\Delta \hat{H}_{\text{actual}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\eta_\mathrm{pump}}\]</span></p>
+</div>
+<div class="fragment">
+<p>If necessary, you can calculate the actual entropy change.</p>
+</div>
+</section>
+<section id="nozzle" class="slide level2">
+<h2>Nozzle</h2>
+<p><img data-src="BrassNozzle.png" class="absolute" style="top: 10%; left: 0%; width: 48%; "></p>
+<div class="absolute" style="top: 55%; left: 0%; ">
+<p>Dan Bollinger <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>,<br>via Wikimedia Commons</p>
+</div>
+<p><img data-src="DeLavalNozzle.png" class="absolute" style="top: 10%; left: 50%; width: 48%; "></p>
+<div class="absolute" style="top: 50%; left: 52%; ">
+<p>No machine-readable author provided. HorsePunchKid assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons</p>
+</div>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<p><strong>Nozzle</strong></p>
+<div class="fragment">
+<p>A real nozzle has a nozzle efficiency, that compares its performance with that of an isentropic nozzle.</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\eta_\mathrm{nozzle} = \frac{u^2_{\text{out-actual}}}{u^2_{\text{out-isentropic}}}\]</span></p>
+</div>
+<div class="fragment">
+<p>The point of a nozzle is to get a huge increase in velocity.</p>
+</div>
+<div class="fragment">
+<p><strong>1<sup>st</sup> Law</strong></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\Delta \dot{H} + \Delta \dot{E}_\mathrm{k} = 0\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\hat{H}_\mathrm{out} - \hat{H}_\mathrm{in} + \frac{u^2_\mathrm{out}}{2} - \frac{u^2_\mathrm{in}}{2} = 0\]</span></p>
+</div>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+<p><span class="math display">\[u^2_\mathrm{out} = 2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}\]</span></p>
+<div class="fragment">
+<p><span class="math inline">\(u_\mathrm{out} = \sqrt{2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}}\ \ \ \ \ \)</span> Be careful with units.</p>
+</div>
+<div class="fragment">
+<p><strong>2<sup>nd</sup> Law</strong></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\Delta \dot{S} = 0\ \ \ \ \ \ \ \ \hat{S}_\mathrm{out} = \hat{S}_\mathrm{in}\]</span></p>
+</div>
+<div class="fragment">
+<p>Ideal Gas</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\Delta \hat{S} = 0 = C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{T_\mathrm{out}}{T_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}\]</span></p>
+</div>
+</section>
+<section id="section-6" class="slide level2">
+<h2></h2>
+<p>Substitute in for <span class="math inline">\(\Delta T\)</span>.</p>
+<div class="fragment">
+<p><span class="math display">\[\Delta \hat{H}_{\text{actual}} = C_p \Delta T_\text{actual} = C_p \left(T_\mathrm{out} - T_\mathrm{in}\right)\]</span></p>
+<div class="absolute" style="top: 17%; left: 32%; ">
+<p><span class="math display">\[= C_p T_\mathrm{in}\left[\left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p} - 1\right]\]</span></p>
+</div>
+</div>
+<p><br><br></p>
+<div class="fragment">
+<p><span class="math display">\[u^2_\text{out-isen} - u^2_\text{in} = -2 C_p \Delta T_\text{in} = 2 C_p T_\mathrm{in}\left[1 - \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}\right]\]</span></p>
+</div>
+<div class="fragment">
+<p>Be careful with units.</p>
+</div>
+</section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+<p>For steam find the value of enthalpy in the steam table at the same entropy and pressure as the outlet.</p>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(u_\text{out-isen} = \sqrt{2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}}\ \ \ \ \)</span> Be careful with units.</p>
+</div>
+<div style="font-size: 80px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>For either steam or ideal gas find the actual velocity with the efficiency.</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[u^2_\text{out-actual} = \eta_\mathrm{nozzle}u^2_{\text{out-isentropic}}\]</span></p>
+</div>
+<div class="fragment">
+<p>If necessary, you can calculate the actual temperature, enthalpy change, and entropy change.</p>
+</div>
+</section>
+<section id="valves" class="slide level2">
+<h2>Valves</h2>
+<p>A partially open valve, an orifice, or a throttling valve can all be described as a throttling process.</p>
+<p><img data-src="GlobeValve.png" class="absolute" style="top: 22%; left: 0%; width: 40%; "></p>
+<div class="absolute" style="top: 80%; left: 2%; ">
+<div style="font-size: 85px;">
+<p>H Padleckas, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>,<br> via Wikimedia Commons</p>
+</div>
+</div>
+<p><img data-src="ThrottleValve.png" class="absolute" style="top: 22%; left: 45%; width: 50%; "></p>
+<div class="absolute" style="top: 83%; left: 45%; ">
+<div style="font-size: 85px;">
+<p>MasterTriangle12, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+</div>
+</div>
+</section>
+<section id="section-8" class="slide level2">
+<h2></h2>
+<p><strong>Throttling Process</strong></p>
+<p>Because the fluid passes quickly through a throttling process, the heat transfer is essentially zero. The First Law becomes</p>
+<div class="fragment">
+<p><span class="math display">\[\Delta \dot{H} + \Delta \dot{E}_\mathrm{k} + \Delta \dot{E}_\mathrm{p} = \dot{Q} + \dot{W}_s\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}\]</span></p>
+</div>
+<div class="fragment">
+<p>There isn’t much to a throttling process for an ideal gas, since the enthalpy is a function of temperature and <span class="math inline">\(\Delta H = 0\)</span>, so <span class="math inline">\(\Delta T = 0\)</span>.</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[P_\mathrm{out} \hat{V}_\mathrm{out} = P_\mathrm{in} \hat{V}_\mathrm{in}\]</span></p>
+</div>
 </section>
 <section id="section-9" class="slide level2">
 <h2></h2>
-<p><img data-src="SaturatedTempTableTop.png" class="absolute" style="top: -4%; left: -2%; width: 50%; "> <img data-src="SaturatedTempTableBottom.png" class="absolute" style="top: 50%; left: -2%; width: 50%; "> <img data-src="SaturatedPressTableTop.png" class="absolute" style="top: -4%; right: -2%; width: 50%; "> <img data-src="SaturatedPressTableBottom.png" class="absolute" style="top: 50%; right: -2%; width: 50%; "></p>
+<p><strong>Throttling Process (cont.)</strong></p>
+<p>A throttling process for a liquid at the edge of the two-phase region is much more interesting. Normally, one specifies the inlet <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>, that the quality in, <span class="math inline">\(x = 0\)</span>, and the outlet <span class="math inline">\(P\)</span>.</p>
+<div class="fragment">
+<p><span class="math display">\[\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}\]</span></p>
+</div>
+<div class="fragment">
+<p>One then uses the fluid two-phase table to determine the final pressure and quality.</p>
+</div>
+<p><br></p>
+<div class="fragment">
+<p>For example, take saturated liquid water at 50 bar, and flash it to 1 bar. Calculate the final <span class="math inline">\(T\)</span> and <span class="math inline">\(x\)</span>.</p>
+</div>
 </section>
 <section id="section-10" class="slide level2">
 <h2></h2>
-<p><img data-src="SuperheatedSteamTop.png" class="absolute" style="top: -.75%; left: 12.5%; width: 75%; "> <img data-src="SuperheatedSteamBottom.png" class="absolute" style="top: 50%; left: 12.5%; width: 75%; "></p>
-</section>
-<section id="section-11" class="slide level2">
-<h2></h2>
-<div style="font-size: 125px;">
-<p><strong>In the single-phase region (superheated steam)</strong></p>
-</div>
-
-<img data-src="Superheat5bar350C.png" class="r-stretch"><div style="font-size: 90px;">
-<ul>
-<li class="fragment"><p><span class="math inline">\(\ \ \ \ DF = 2\)</span></p></li>
-<li class="fragment"><p>Must specify two properties to define the thermodynamic state</p></li>
-<li class="fragment"><p>e.g.&nbsp;What is the specific volume of steam at <span class="math inline">\(5\ \mathrm{bar}\)</span> and <span class="math inline">\(300\ ^\circ\mathrm{C}\)</span>?</p></li>
-<li class="fragment"><p>e.g.&nbsp;What is the temperature of steam with a specific volume of <span class="math inline">\(0.50000\)</span> <span class="math inline">\(\dfrac{\textrm{m}^3}{\textrm{kg}}\)</span> at <span class="math inline">\(5\)</span> bar?</p></li>
-</ul>
-<div class="fragment absolute" style="left: 0%; bottom: 5%; ">
-<p><span class="math inline">\(\dfrac{T - 250}{0.50000 - 0.47443}\ =\ \dfrac{300 - 250}{0.52260-0.47443} \hspace{5pt} \Rightarrow T = 276.54 ^{\circ} \mathrm{C}\)</span></p>
-</div>
-</div>
-</section>
-<section id="section-12" class="slide level2">
-<h2></h2>
-<div style="font-size: 110px;">
-<p><strong>In the two-phase region (saturated steam and water)</strong></p>
-</div>
-
-<img data-src="SatPressureCloseUp1.png" class="r-stretch"><ul>
-<li class="fragment"><p><span class="math inline">\(\ \ \ \ DF = 1\)</span></p></li>
-<li class="fragment"><p>Have two phases (water and steam) in equilibrium.</p></li>
-<li class="fragment"><p>e.g.&nbsp;What is the temperature, and what are the specific enthalpies of saturated water and saturated steam at <span class="math inline">\(5.0\)</span> bar?</p></li>
-</ul>
-</section>
-<section id="section-13" class="slide level2">
-<h2></h2>
-<div style="font-size: 110px;">
-<p><strong>In the two-phase region (saturated steam and water)</strong></p>
-</div>
-<ul>
-<li class="fragment"><p>We know the properties of the two phases.</p></li>
-<li class="fragment"><p>What is the property of the overall mixture?</p></li>
-<li class="fragment"><p>Define the quality.<br><br></p></li>
-<li class="fragment"><p><span class="math inline">\(\ \ \ \ x \equiv \dfrac{m_\mathrm{steam}}{m_\mathrm{steam} + m_\mathrm{water}} = \dfrac{m_\mathrm{steam}}{m_\mathrm{total}}\)</span></p></li>
-</ul>
-<div style="font-size: 100px;">
-<ul>
-<li class="fragment">What is the pressure and specific internal energy of a mixture of steam and water at <span class="math inline">\(88\ ^\circ\mathrm{C}\)</span> and a quality of <span class="math inline">\(80\%\)</span>?</li>
-</ul>
-</div>
-<ul>
-<li class="fragment">What is the quality of a mixture of steam and water at <span class="math inline">\(0.65017\)</span> bar, and a specific enthalpy of <span class="math inline">\(2000\ \mathrm{kJ/kg}\)</span>?</li>
-</ul>
-</section>
-<section id="section-14" class="slide level2">
-<h2></h2>
-<p>What is the pressure and specific internal energy of a mixture of steam and water at <span class="math inline">\(88\ ^\circ\mathrm{C}\)</span> and a quality of <span class="math inline">\(80\%\)</span>?</p>
-
-<img data-src="SatTemperatureCloseUp1.png" class="r-stretch"><div class="fragment">
-<p><span class="math inline">\(P=0.65017\ \mathrm{bar}\)</span><br><br></p>
+<p><strong>Throttling Process Example</strong></p>
+<p>At <span class="math inline">\(50\ \mathrm{bar}\)</span> and <span class="math inline">\(263.94\ ^\circ \mathrm{C}\)</span></p>
+<div class="fragment">
+<p><span class="math display">\[\hat{H}_\mathrm{in} = 1154.5\ \mathrm{kJ/kg}\]</span></p>
 </div>
 <div class="fragment">
-<div style="font-size: 90px;">
-<p><span class="math inline">\(\hat{U}_{\text{mix}} = x\hat{U}_{v} + (1-x)\hat{U}_{l} = 0.8 \mathbf{\cdot} 2491.5 + 0.2 \mathbf{\cdot} 368.49 = 2066.9\ \mathrm{kJ/kg}\)</span><br><br></p>
-</div>
+<p>At <span class="math inline">\(1\ \mathrm{bar}\)</span></p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(\hat{U}_{\text{mix}} = x\hat{U}_{v}\ +\ (1-x)\hat{U_{l}} = x(\hat{U}_{v} - \hat{U}_{l}) + \hat{U}_{l} = x\Delta \hat{U}_{lv} + \hat{U}_{l}\)</span><br><br></p>
+<p><span class="math display">\[T_\mathrm{out} = 99.61\ ^\circ \mathrm{C}\]</span></p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(\hat{U}_{\text{mix}} = x\Delta \hat{U}_{lv} + \hat{U}_{l} = 0.8\mathbf{\cdot} 2123.0 + 368.49 = 2066.9\ \mathrm{kJ/kg}\)</span></p>
+<p><span class="math display">\[\hat{H}_l = 417.44\ \mathrm{kJ/kg}\ \ \ \ \ \ \hat{H}_v = 2674.9\ \mathrm{kJ/kg}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\Delta \hat{H}_{lv} = 2257.5\ \mathrm{kJ/kg}\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[x = \frac{\hat{H}_\mathrm{out} - \hat{H}_l}{\hat{H}_v - \hat{H}_l} = \frac{1154.5 - 417.44}{2674.9 - 417.44} = 0.3265 = 32.65\%\]</span></p>
 </div>
 </section>
-<section id="section-15" class="slide level2">
-<h2></h2>
-<p>What is the quality of a mixture of steam and water at <span class="math inline">\(0.65017\)</span> bar, and a specific enthalpy of <span class="math inline">\(2000\ \mathrm{kJ/kg}\)</span>?</p>
-
-<img data-src="SatTemperatureCloseUp1.png" class="r-stretch"><div class="fragment">
-<p><span class="math inline">\(\hat{H}_{\text{mix}} = x\hat{H}_{v}\ +\ (1-x)\hat{H_{l}} = x(\hat{H}_{v} - \hat{H}_{l}) + \hat{H}_{l} = x\Delta \hat{H}_{lv} + \hat{H}_{l}\)</span></p>
-<p><span class="math inline">\(\\\)</span></p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(x = \dfrac{\hat{H}_{\mathrm{mix}} - \hat{H}_{l}}{\hat{H}_{v} - \hat{H}_{l}} = \dfrac{2000 - 368.55}{2656.3 - 368.55} = 0.7131 = 71.31\)</span>%</p>
-<p><span class="math inline">\(\\\)</span></p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(x = \dfrac{\hat{H}_{\text{mix}} - \hat{H}_{l}}{\Delta\hat{H}_{lv}} = \dfrac{2000 - 368.55}{2287.7} = 0.7131 = 71.31\)</span>%</p>
-</div>
-</section>
-<section id="the-takeaways-1" class="slide level2">
+<section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">In the single phase region we have to specify two properties.</li>
-<li class="fragment">The single-phase table is set up to be easy to use for temperature and pressure but we definitely don’t have to specify just temperature and pressure.</li>
-<li class="fragment">In the two phase region we have to specify one property such as temperature or pressure, and then we often have to calculate the properties of a mixture using the quality.</li>
+<li class="fragment">Pumps and nozzles all have efficiencies that compare the real or actual case with the isentropic case.</li>
+<li class="fragment">Valves or throttles have such large irreversibilities that no efficiency is calculated.</li>
+<li class="fragment">We modeled pumps for incompressible fluids only.</li>
+<li class="fragment">Nozzles and throttles were modeled for both steam and ideal gas.</li>
 </ol>
 </section></section>
-<section id="section-16" class="title-slide slide level1 center">
+<section id="section-11" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>

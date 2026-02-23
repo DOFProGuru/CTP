@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
-  <title>Chemical and Thermal Processes – a-visuals</title>
+  <title>Chemical and Thermal Processes – visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,473 +127,6 @@
 
 
 <section>
-<section id="dew-your-bubbles-have-flash-part-1" class="title-slide slide level1 center">
-<h1>Dew Your Bubbles Have Flash? Part 1</h1>
-<div style="text-align: center; font-size: 120px;">
-<p>DOFPro Team</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
-</section>
-<section class="slide level2">
-
-<div style="font-size: 130px;">
-<p><strong>Dew Your Bubbles Have Flash?</strong></p>
-</div>
-<ul>
-<li class="fragment">Use Raoult’s law to perform vapor-liquid phase equilibria calculations.</li>
-<li class="fragment">Not limited to binaries</li>
-<li class="fragment">Multicomponent systems conforming to Raoult’s law
-<ul>
-<li class="fragment">Aliphatic hydrocarbon mixtures</li>
-<li class="fragment">Aromatic hydrocarbon mixtures</li>
-</ul></li>
-<li class="fragment"><strong>Part 1</strong> – The basics and BUBL P and DEW P</li>
-<li class="fragment">Part 2 – BUBL T and DEW T</li>
-<li class="fragment">Part 3 – FLASH and <em>Pxy</em> and <em>Txy</em> diagrams</li>
-</ul>
-<div class="fragment">
-<p><span class="math inline">\(y_i\)</span> – Vapor phase mole fraction</p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(x_i\)</span> – Liquid phase mole fraction</p>
-</div>
-</section>
-<section id="multicomponent-systems" class="slide level2">
-<h2>Multicomponent Systems</h2>
-<p>If the vapor phase is an ideal-gas mixture and the liquid phase is an ideal solution then Raoult’s Law holds.</p>
-<div class="fragment">
-<p><span class="math display">\[
-p_\mathrm{A} \equiv y_\mathrm{A}P = x_\mathrm{A}p_\mathrm{A}^*(T)
-\]</span></p>
-</div>
-<div class="fragment">
-<p>or in terms of species <span class="math inline">\(i\)</span>,</p>
-</div>
-<div class="fragment">
-<p><span id="eq-raoults"><span class="math display">\[
-y_{i}P = x_{i}p_{i}^{*}(T) (i=1, 2, 3, .., N)
-\tag{1}\]</span></span></p>
-</div>
-<div class="fragment">
-<p>In words, the partial pressure of a component is equal to the liquid mole fraction of the component times its vapor pressure. (If the vapor phase is not an ideal-gas mixture or the liquid phase is not an ideal solution then we are led to the realms of activity coefficients, fugacities and Poynting factors, i.e., the advanced phase equilibria videos)</p>
-</div>
-</section>
-<section id="bubl-dew-flash" class="slide level2">
-<h2>BUBL, DEW, FLASH</h2>
-<p>For multicomponent mixtures, five types of calculations are usually performed using Raoult’s law:</p>
-<ol type="1">
-<li class="fragment">BUBL P – Given all <span class="math inline">\(x_{i}\)</span>’s and <span class="math inline">\(T\)</span>, calculate <span class="math inline">\(P\)</span> at which the first bubble forms, and <span class="math inline">\(y_{i}\)</span>’s of the bubble.</li>
-<li class="fragment">BUBL T – Given all <span class="math inline">\(x_{i}\)</span>’s and <span class="math inline">\(P\)</span>, calculate <span class="math inline">\(T\)</span> at which the first bubble forms, and <span class="math inline">\(y_{i}\)</span>’s of the bubble.</li>
-<li class="fragment">DEW P – Given all <span class="math inline">\(y_{i}\)</span>’s and <span class="math inline">\(T\)</span>, calculate <span class="math inline">\(P\)</span> at which the first droplet condenses, and <span class="math inline">\(x_{i}\)</span>’s of the droplet.</li>
-<li class="fragment">DEW T – Given all <span class="math inline">\(y_{i}\)</span>’s and <span class="math inline">\(P\)</span>, calculate <span class="math inline">\(T\)</span> at which the first droplet condenses, and <span class="math inline">\(x_{i}\)</span>’s of the droplet.</li>
-<li class="fragment">FLASH – Given overall composition (<span class="math inline">\(z_{i}\)</span>’s) and <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>, calculate <span class="math inline">\(x_{i}\)</span>’s and <span class="math inline">\(y_{i}\)</span>’s, and relative amounts of vapor, <span class="math inline">\(\mathcal{V}\)</span>, and liquid, <span class="math inline">\(\mathcal{L}\)</span>.</li>
-</ol>
-</section>
-<section id="section" class="slide level2">
-<h2></h2>
-<p>Graphical BUBL P, DEW P</p>
-<p><img data-src="PxyBubbleDew.png" class="absolute" style="top: 10%; left: 10%; width: 80%; "></p>
-<div style="font-size: 65px;">
-<div class="absolute" style="top: 15%; left: 28%; ">
-<p>Overall<br> Composition</p>
-</div>
-<div class="absolute" style="top: 27%; left: 23%; ">
-<p>Subcooled<br>Liquid</p>
-</div>
-<div class="absolute" style="top: 55%; left: 60%; ">
-<p>Superheated<br>Vapor</p>
-</div>
-<div class="absolute" style="top: 45%; left: 38%; ">
-<p><span class="math inline">\(2\text{–}\phi\)</span></p>
-</div>
-<div class="absolute" style="top: 36.5%; left: 8%; ">
-<p>Bubble<br> Pressure</p>
-</div>
-<div class="absolute" style="top: 70%; left: 51%; ">
-<p>Bubble<br> Composition</p>
-</div>
-<div class="absolute" style="top: 59%; left: 8%; ">
-<p>Dew<br> Pressure</p>
-</div>
-<div class="absolute" style="top: 81%; left: 19%; ">
-<p>Dew<br> Composition</p>
-</div>
-<div class="absolute" style="top: 23%; left: 56%; ">
-<p>Low Boiling<br>Azeotrope</p>
-</div>
-</div>
-</section>
-<section id="bubl-p" class="slide level2">
-<h2>BUBL P</h2>
-<div style="font-size: 95px;">
-<p>Given all <span class="math inline">\(x_{i}\)</span>’s and <span class="math inline">\(T\)</span>, calculate <span class="math inline">\(P\)</span> and <span class="math inline">\(y_{i}\)</span>’s.</p>
-<div class="fragment absolute" style="top: 15%; left: 0%; ">
-<p>If necessary, begin by calculating all of the vapor pressures from the Antoine equation.</p>
-</div>
-<div class="fragment absolute" style="top: 25%; left: 0%; ">
-<p><span id="eq-BP1"><span class="math display">\[
-p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}
-\tag{2}\]</span></span></p>
-</div>
-<div class="fragment absolute" style="top: 38%; left: 0%; ">
-<p>Raoult’s Law, <a href="#/eq-raoults" class="quarto-xref">Equation&nbsp;1</a>, <span class="math display">\[y_{i}P = x_{i}p_{i}^{*}(T)\ \ \ (i=1, 2, 3, .., N)\]</span></p>
-</div>
-<div class="fragment absolute" style="top: 55%; left: 0%; ">
-<p>can be rearranged as:</p>
-</div>
-<div class="fragment absolute" style="top: 60%; left: 0%; ">
-<p><span id="eq-BP3"><span class="math display">\[P =  \sum_{n=1}^{N} x_{i}p_{i}^{*}
-\tag{3}\]</span></span></p>
-</div>
-<div class="fragment absolute" style="top: 80%; left: 0%; ">
-<p>to calculate <span class="math inline">\(P\)</span>. Then calculate <span class="math inline">\(y_{i}\)</span>’s from:</p>
-</div>
-<div class="fragment absolute" style="top: 83%; left: 0%; ">
-<p><span id="eq-BP4"><span class="math display">\[y_{i} = \frac{x_{i} p_{i}^*} {P}\ \ \ (i = 1, 2, 3, ..., N) \tag{4}\]</span></span></p>
-</div>
-</div>
-</section>
-<section id="dew-p" class="slide level2">
-<h2>DEW P</h2>
-<p>Given all <span class="math inline">\(y_{i}\)</span>’s and <span class="math inline">\(T\)</span>, calculate <span class="math inline">\(P\)</span> and <span class="math inline">\(x_{i}\)</span>’s. If necessary, begin by calculating all of the vapor pressures from the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;2</a>.</p>
-<div class="fragment">
-<p><span class="math display">\[p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}\]</span></p>
-</div>
-<div class="fragment">
-<p>Raoult’s Law, <a href="#/eq-raoults" class="quarto-xref">Equation&nbsp;1</a>, rearranged, gives</p>
-</div>
-<div class="fragment">
-<p><span id="eq-DP2"><span class="math display">\[x_{i} = \frac{y_{i} P} {p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N).
-\tag{5}\]</span></span></p>
-</div>
-<div class="fragment">
-<p>Also</p>
-</div>
-<div class="fragment">
-<p><span id="eq-DP3"><span class="math display">\[
-\sum_{i=1}^{N} x_i =1
-\tag{6}\]</span></span></p>
-</div>
-</section>
-<section class="slide level2">
-
-<p>Then,</p>
-<div class="fragment">
-<p><span id="eq-DP4"><span class="math display">\[
-1 =P \sum_{i=1}^{N}\frac{y_i} {p_{i}^{*}}
-\tag{7}\]</span></span></p>
-</div>
-<div class="fragment">
-<p>and</p>
-</div>
-<div class="fragment">
-<p><span id="eq-DP5"><span class="math display">\[
-P = \frac {1} {\sum\limits_{i=i}^{N}\frac{y_i} {p_{i}^{*}}}
-\tag{8}\]</span></span></p>
-</div>
-<div class="fragment">
-<p>to calculate <span class="math inline">\(P\)</span>. Then calculate <span class="math inline">\(x_i\)</span>’s from <a href="#/eq-DP2" class="quarto-xref">Equation&nbsp;5</a>.</p>
-</div>
-</section>
-<section id="the-takeaways" class="slide level2">
-<h2>The Takeaways</h2>
-<ol type="1">
-<li class="fragment">Vapor-Liquid Equilibria (VLE) calculations for binaries can be done with a <em>Pxy</em> or <em>Txy</em> phase diagram.</li>
-<li class="fragment">For mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.</li>
-<li class="fragment">The five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.</li>
-<li class="fragment">However, flash calculations for binary mixtures are relatively straightforward.</li>
-</ol>
-</section></section>
-<section>
-<section id="section-1" class="title-slide slide level1 center">
-<h1></h1>
-<div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="dew-your-bubbles-have-flash-part-2" class="title-slide slide level1 center">
-<h1>Dew Your Bubbles Have Flash? Part 2</h1>
-<div style="text-align: center; font-size: 120px;">
-<p>DOFPro Team</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
-</section>
-<section class="slide level2">
-
-<div style="font-size: 130px;">
-<p><strong>Dew Your Bubbles Have Flash?</strong></p>
-</div>
-<ul>
-<li class="fragment">Use Raoult’s law to perform vapor-liquid phase equilibria calculations.</li>
-<li class="fragment">Not limited to binaries</li>
-<li class="fragment">Multicomponent systems conforming to Raoult’s law
-<ul>
-<li class="fragment">Aliphatic hydrocarbon mixtures</li>
-<li class="fragment">Aromatic hydrocarbon mixtures</li>
-</ul></li>
-<li class="fragment">Part 1 – The basics and BUBL P and DEW P</li>
-<li class="fragment"><strong>Part 2</strong> – BUBL T and DEW T</li>
-<li class="fragment">Part 3 – FLASH and <em>Pxy</em> and <em>Txy</em> diagrams</li>
-</ul>
-</section>
-<section id="graphical-bubl-t-dew-t" class="slide level2">
-<h2>Graphical BUBL T, DEW T</h2>
-<p><img data-src="TxyBubbleDew.png" class="absolute" style="top: 10%; left: 10%; width: 80%; "></p>
-<div style="font-size: 65px;">
-<div class="absolute" style="top: 13.5%; left: 28%; ">
-<p>Overall<br> Composition</p>
-</div>
-<div class="absolute" style="top: 70%; left: 75%; ">
-<p>Subcooled<br>Liquid</p>
-</div>
-<div class="absolute" style="top: 23%; left: 35%; ">
-<p>Superheated<br>Vapor</p>
-</div>
-<div class="absolute" style="top: 55%; left: 38%; ">
-<p><span class="math inline">\(2\text{–}\phi\)</span></p>
-</div>
-<div class="absolute" style="top: 38.5%; left: 8%; ">
-<p>Dew<br> Temperature</p>
-</div>
-<div class="absolute" style="top: 83%; left: 18%; ">
-<p>Dew<br> Composition</p>
-</div>
-<div class="absolute" style="top: 59.5%; left: 8%; ">
-<p>Bubble<br> Temperature</p>
-</div>
-<div class="absolute" style="top: 83%; left: 44%; ">
-<p>Bubble<br> Composition</p>
-</div>
-<div class="absolute" style="top: 72%; left: 55%; ">
-<p>Low Boiling<br>Azeotrope</p>
-</div>
-</div>
-</section>
-<section id="bubl-t" class="slide level2">
-<h2>BUBL T</h2>
-<p>Given all <span class="math inline">\(x_{i}\)</span>’s and <span class="math inline">\(P\)</span>, calculate <span class="math inline">\(T\)</span> and <span class="math inline">\(y_i\)</span>’s</p>
-<div class="fragment">
-<p>In general, an iterative solution is required. With a spreadsheet, the easiest method is to guess a temperature <span class="math inline">\(T_\mathrm{guess}\)</span>.</p>
-</div>
-<div class="fragment">
-<p>Calculate all of the vapor pressures from the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;2</a>,</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}\ \ \ (i=1,2,3,.., N)
-\]</span></p>
-</div>
-<div class="fragment">
-<p>Then calculate the pressure from the guessed temperature</p>
-</div>
-<div class="fragment">
-<p><span id="eq-BT2"><span class="math display">\[
-P_\mathrm{guess} = \sum_{i=1}^{N} x_{i}p_{i}^{*}
-\tag{9}\]</span></span></p>
-</div>
-</section>
-<section class="slide level2">
-
-<div style="font-size: 90px;">
-<p>Set up a cell to calculate the difference between the actual pressure and the guessed pressure, <span class="math inline">\(P_\mathrm{actual} - P_\mathrm{guess}\)</span>.</p>
-<div class="fragment">
-<p>Have <em>Goal Seek</em> set the difference to 0 by varying <span class="math inline">\(T_\mathrm{guess}\)</span>.</p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(T_\mathrm{guess}\)</span> is now the correct temperature. You can calculate the <span class="math inline">\(y_i\)</span>’s from Raoult’s law, <a href="#/eq-DP2" class="quarto-xref">Equation&nbsp;5</a>,</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-y_{i} = \frac{x_{i}p_{i}^{*}}{P}\ \ \ (i=1,2,3,...,N)
-\]</span></p>
-</div>
-<div class="fragment">
-<p><strong>Alternate Method:</strong> In a spreadsheet, guess a <span class="math inline">\(T\)</span>. For one component calculate <span class="math inline">\(p_{k}^{*}\)</span> from <a href="#/eq-BT5" class="quarto-xref">Equation&nbsp;11</a> and calculate <span class="math inline">\(p_{i}^{*}\)</span> from the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;2</a>. Set a cell as the error between the two and goal seek to set that cell to <span class="math inline">\(0\)</span> by varying <span class="math inline">\(T\)</span>.</p>
-</div>
-</div>
-<div style="font-size: 85px;">
-<div class="fragment">
-<p><br><strong>Note:</strong> For a two-component system, if you are determining the <span class="math inline">\(y_i\)</span>’s as a function of <span class="math inline">\(T\)</span> at constant <span class="math inline">\(P\)</span>, you don’t need to iterate. Choose values of <span class="math inline">\(T\)</span> between <span class="math inline">\(T_\mathrm{b1}\)</span> and <span class="math inline">\(T_\mathrm{b2}\)</span>, and calculate the <span class="math inline">\(y_i\)</span>’s using the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;2</a> and Raoult’s law, <a href="#/eq-DP2" class="quarto-xref">Equation&nbsp;5</a>.</p>
-</div>
-</div>
-</section>
-<section class="slide level2">
-
-<p>If you prefer programming to spreadsheets, begin by picking an arbitrary component, <span class="math inline">\(k\)</span>, then:</p>
-<div class="fragment">
-<p><span id="eq-BT4"><span class="math display">\[
-P = p_{k}^{*} \sum_{i=1}^{N} x_{i} \frac{p_{i}^{*}}{p_{k}^{*}}
-\tag{10}\]</span></span></p>
-</div>
-<div class="fragment">
-<p>or</p>
-</div>
-<div class="fragment">
-<p><span id="eq-BT5"><span class="math display">\[
-p_{k}^{*} = \frac{P}{\sum\limits_{i=1}^{N} x_{i} \alpha_{ik}}
-\tag{11}\]</span></span></p>
-</div>
-<div class="fragment">
-<p>where the relative voltatility, <span class="math inline">\(\alpha_{ik}\)</span>, is defined as:</p>
-</div>
-<div class="fragment">
-<p><span id="eq-BT6"><span class="math display">\[
-\alpha_{ik} \equiv \frac{p_{i}^{*}}{p_{k}^{*}}
-\tag{12}\]</span></span></p>
-</div>
-</section>
-<section class="slide level2">
-
-<p>If the vapor pressures are related by the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;2</a>:</p>
-<div class="fragment">
-<p><span class="math display">\[
-\log_{10} p^* = A - \frac{B}{T + C}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>then we can calculate,</p>
-</div>
-<div class="fragment">
-<p><span id="eq-BT8"><span class="math display">\[
-\log_{10}\alpha_{ik} = A_i - A_k - \frac{B_i}{T + C_i} + \frac{B_k}{T + C_k}
-\tag{13}\]</span></span></p>
-</div>
-<div class="fragment">
-<p>One can begin the iteration with an initial guess</p>
-</div>
-<div class="fragment">
-<p><span id="eq-BT9"><span class="math display">\[
-T_{0} = \sum_{i=1}^{N} x_{i}T_{i}^{*}
-\tag{14}\]</span></span></p>
-</div>
-</section>
-<section class="slide level2">
-
-<p>This <span class="math inline">\(T_{0}\)</span> can be used to evaluate all of the <span class="math inline">\(\alpha_{ik}\)</span>’s in <a href="#/eq-BT6" class="quarto-xref">Equation&nbsp;12</a>, which are then used in <a href="#/eq-BT5" class="quarto-xref">Equation&nbsp;11</a> to calculate <span class="math inline">\(p_k^*\)</span>, from which a new value of <span class="math inline">\(T\)</span> can be calculated from:</p>
-<div class="fragment">
-<p><span id="eq-BT10"><span class="math display">\[
-T_1 = \frac{B_k} {A_{k} - \log_{10} p_{k}^{*} - C_{k}}
-\tag{15}\]</span></span></p>
-</div>
-<div class="fragment">
-<p>The iteration is repeated until <span class="math inline">\(T\)</span> doesn’t change much from one iteration to the next. The Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;2</a> is then used to calculate all <span class="math inline">\(p_i^*\)</span>, then use Raoult’s law, <a href="#/eq-DP2" class="quarto-xref">Equation&nbsp;5</a> to calculate the <span class="math inline">\(y_i\)</span>’s.</p>
-</div>
-</section>
-<section id="dew-t" class="slide level2">
-<h2>DEW T</h2>
-<p>Given all <span class="math inline">\(y_i\)</span>’s and <span class="math inline">\(P\)</span>, calculate <span class="math inline">\(T\)</span> and <span class="math inline">\(x_i\)</span>’s.</p>
-<div class="fragment">
-<p>In general, an iterative solution very similar to BUBL T is required. With a spreadsheet, the easiest method is to guess a temperature <span class="math inline">\(T_\mathrm{guess}\)</span> .</p>
-</div>
-<div class="fragment">
-<p>Calculate all of the vapor pressures, <span class="math inline">\(p_i^*\)</span>’s, from the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;2</a></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-P_{i}^{*} = 10 ^ {A - \frac{B_i}{T+C_i}}\ \ \ (i = 1, 2, 3, ..., N)
-\]</span></p>
-</div>
-<div class="fragment">
-<p>Then calculate the pressure from the guessed temperature using <a href="#/eq-DP5" class="quarto-xref">Equation&nbsp;8</a>,</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-P_\mathrm{guess} = \frac{1}{\sum\limits_{i=1}^{N}\frac{y_i}{p_{i}^{*}}}
-\]</span></p>
-</div>
-</section>
-<section class="slide level2">
-
-<p>Set up a cell to calculate the difference between the actual pressure and the guessed pressure, <span class="math inline">\(P_\mathrm{actual} - P_\mathrm{guess}\)</span>.</p>
-<div class="fragment">
-<p>Have Goal Seek set the difference to <span class="math inline">\(0\)</span> by varying <span class="math inline">\(T_\mathrm{guess}\)</span>.</p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(T_\mathrm{guess}\)</span> is now the correct temperature. You can calculate the <span class="math inline">\(x_i\)</span>’s from Raoult’s law, <a href="#/eq-DP2" class="quarto-xref">Equation&nbsp;5</a>,</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-x_i = \frac{y_{i} P} {p_{i}^{*}}\ \ \ (i = 1,2,3, ..., N)
-\]</span></p>
-</div>
-<div class="fragment">
-<p><strong>Alternate Method</strong>: As before, in a spreadsheet, guess a <span class="math inline">\(T\)</span>. For one component calculate <span class="math inline">\(p_{k}^{*}\)</span> from <a href="#/eq-DT5" class="quarto-xref">Equation&nbsp;17</a> and calculate <span class="math inline">\(p_{i}^{*}\)</span> from the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;2</a>. Set a cell as the error between the two and goal seek to set that cell to 0 by varying <span class="math inline">\(T\)</span>.</p>
-</div>
-</section>
-<section class="slide level2">
-
-<p>If you prefer programming to spreadsheets, begin by picking an arbitrary component, <span class="math inline">\(k\)</span>, then:</p>
-<div class="fragment">
-<p><span id="eq-DT4"><span class="math display">\[
-P = \frac{p_{k}^{*}}{\sum\limits_{i=1}^{N}y_{i}\frac{p_{k}^{*}}{p_{i}^{*}}}
-\tag{16}\]</span></span></p>
-</div>
-<div class="fragment">
-<p>or</p>
-</div>
-<div class="fragment">
-<p><span id="eq-DT5"><span class="math display">\[
-p_{k}^{*} = P \sum_{i=1}^{N} \frac{y_j}{\alpha_{ik}}
-\tag{17}\]</span></span></p>
-</div>
-<div class="fragment">
-<p>where the relative volatility, <span class="math inline">\(\alpha_{ki}\)</span>, is defined in <a href="#/eq-BT6" class="quarto-xref">Equation&nbsp;12</a> and calculated using <a href="#/eq-BT8" class="quarto-xref">Equation&nbsp;13</a>.</p>
-</div>
-</section>
-<section class="slide level2">
-
-<p>The initial guess is:</p>
-<div class="fragment">
-<p><span id="eq-DT6"><span class="math display">\[
-T_0 = \sum_{i=1}^{N} y_{i}T_{i}^{*}
-\tag{18}\]</span></span></p>
-</div>
-<div class="fragment">
-<p>This <span class="math inline">\(T_0\)</span> can be used to evaluate all of the <span class="math inline">\(a_{ik}\)</span>’s in <a href="#/eq-BT6" class="quarto-xref">Equation&nbsp;12</a> which are then used in <a href="#/eq-BT5" class="quarto-xref">Equation&nbsp;11</a> to calculate <span class="math inline">\(p_{k}^{*}\)</span>, from which a new value of <span class="math inline">\(T\)</span> can be calculated from <a href="#/eq-BT10" class="quarto-xref">Equation&nbsp;15</a>:</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-T_1 = \frac{B_k}{A_k - \log_{10} p_{k}^{*}} - C_k
-\]</span></p>
-</div>
-<div class="fragment">
-<p>After convergence we evaluate the <span class="math inline">\(x_i\)</span>’s from Raoult’s law, <a href="#/eq-DP2" class="quarto-xref">Equation&nbsp;5</a>:</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-x_i = \frac {y_{i}P}{p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N)
-\]</span></p>
-</div>
-</section>
-<section id="the-takeaways-1" class="slide level2">
-<h2>The Takeaways</h2>
-<ol type="1">
-<li class="fragment">Vapor-Liquid Equilibria (VLE) calculations for binaries can be done with a <em>Pxy</em> or <em>Txy</em> phase diagram.</li>
-<li class="fragment">For mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.</li>
-<li class="fragment">The five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.</li>
-<li class="fragment">However, flash calculations for binary mixtures are relatively straightforward.</li>
-</ol>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="section-2" class="title-slide slide level1 center">
-<h1></h1>
-<div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
 <section id="dew-your-bubbles-have-flash-part-3" class="title-slide slide level1 center">
 <h1>Dew Your Bubbles Have Flash Part 3</h1>
 <div style="text-align: center; font-size: 120px;">
@@ -667,7 +200,7 @@ x_i = \frac {y_{i}P}{p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N)
 <div class="fragment">
 <p><span id="eq-F1"><span class="math display">\[
 \mathcal{V} \equiv \frac{n_\mathrm{{vapor}}}{n_\mathrm{{total}}}
-\tag{19}\]</span></span></p>
+\tag{1}\]</span></span></p>
 </div>
 <div class="fragment">
 <p>and</p>
@@ -675,7 +208,7 @@ x_i = \frac {y_{i}P}{p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N)
 <div class="fragment">
 <p><span id="eq-F2"><span class="math display">\[
 \mathcal{L} \equiv \frac{n_\mathrm{{liquid}}}{n_\mathrm{{total}}}
-\tag{20}\]</span></span></p>
+\tag{2}\]</span></span></p>
 </div>
 <div class="fragment">
 <p>so</p>
@@ -683,7 +216,7 @@ x_i = \frac {y_{i}P}{p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N)
 <div class="fragment">
 <p><span id="eq-F3"><span class="math display">\[
 \mathcal{L} + \mathcal{V} = 1
-\tag{21}\]</span></span></p>
+\tag{3}\]</span></span></p>
 </div>
 </section>
 <section class="slide level2">
@@ -692,7 +225,7 @@ x_i = \frac {y_{i}P}{p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N)
 <div class="fragment">
 <p><span id="eq-F4"><span class="math display">\[
 z_{i} = x_{i}\mathcal{L} + y_{i}\mathcal{V}\ \ \ (i=1, 2, 3, ..., N)
-\tag{22}\]</span></span></p>
+\tag{4}\]</span></span></p>
 </div>
 <div class="fragment">
 <p>or</p>
@@ -700,7 +233,7 @@ z_{i} = x_{i}\mathcal{L} + y_{i}\mathcal{V}\ \ \ (i=1, 2, 3, ..., N)
 <div class="fragment">
 <p><span id="eq-F5"><span class="math display">\[
 z_{i} = x_{i}(1-\mathcal{V}) + y_{i}\mathcal{V}\ \ \ (i= 1, 2, 3, ..., N)
-\tag{23}\]</span></span></p>
+\tag{5}\]</span></span></p>
 </div>
 <div class="fragment">
 <p>We will now use the <em>K-value</em> or distribution coefficient, defined as</p>
@@ -708,7 +241,7 @@ z_{i} = x_{i}(1-\mathcal{V}) + y_{i}\mathcal{V}\ \ \ (i= 1, 2, 3, ..., N)
 <div class="fragment">
 <p><span id="eq-F6"><span class="math display">\[
 K_{i} \equiv \frac{p_{i}^{*}}{P}
-\tag{24}\]</span></span></p>
+\tag{6}\]</span></span></p>
 </div>
 </section>
 <section class="slide level2">
@@ -717,7 +250,7 @@ K_{i} \equiv \frac{p_{i}^{*}}{P}
 <div class="fragment">
 <p><span id="eq-F7"><span class="math display">\[
 K_{i} = \frac{y_i}{x_i}
-\tag{25}\]</span></span></p>
+\tag{7}\]</span></span></p>
 </div>
 <div class="fragment">
 <p>or</p>
@@ -725,15 +258,15 @@ K_{i} = \frac{y_i}{x_i}
 <div class="fragment">
 <p><span id="eq-F8"><span class="math display">\[
 x_{i} = \frac{y_i}{K_i}
-\tag{26}\]</span></span></p>
+\tag{8}\]</span></span></p>
 </div>
 <div class="fragment">
-<p>Substitution into <a href="#/eq-F5" class="quarto-xref">Equation&nbsp;23</a> yields</p>
+<p>Substitution into <a href="#/eq-F5" class="quarto-xref">Equation&nbsp;5</a> yields</p>
 </div>
 <div class="fragment">
 <p><span id="eq-F9"><span class="math display">\[
 y_{i} = \frac{z_{i}K_{i}}{1+\mathcal{V} (K_{i} - 1) }\ \ \ (i = 1, 2, 3, ..., N)
-\tag{27}\]</span></span></p>
+\tag{9}\]</span></span></p>
 </div>
 </section>
 <section class="slide level2">
@@ -742,10 +275,10 @@ y_{i} = \frac{z_{i}K_{i}}{1+\mathcal{V} (K_{i} - 1) }\ \ \ (i = 1, 2, 3, ..., N)
 <div class="fragment">
 <p><span id="eq-F10"><span class="math display">\[
 \sum_{i=1}^{N} \frac{z_{i}K_{i}}{1 + \mathcal{V} (K_{i} -1)} = 1
-\tag{28}\]</span></span></p>
+\tag{10}\]</span></span></p>
 </div>
 <div class="fragment">
-<p>which is solved for <span class="math inline">\(\mathcal{V}\)</span> by numerical methods (such as Goal Seek). Then find the <span class="math inline">\(y_{i}\)</span> from <a href="#/eq-F9" class="quarto-xref">Equation&nbsp;27</a> and the <span class="math inline">\(x_{i}\)</span> from <a href="#/eq-F8" class="quarto-xref">Equation&nbsp;26</a>.</p>
+<p>which is solved for <span class="math inline">\(\mathcal{V}\)</span> by numerical methods (such as Goal Seek). Then find the <span class="math inline">\(y_{i}\)</span> from <a href="#/eq-F9" class="quarto-xref">Equation&nbsp;9</a> and the <span class="math inline">\(x_{i}\)</span> from <a href="#/eq-F8" class="quarto-xref">Equation&nbsp;8</a>.</p>
 </div>
 <div class="fragment">
 <p><br>For a binary, there is an analytical method for solving for <span class="math inline">\(\mathcal{L}\)</span> and <span class="math inline">\(\mathcal{V}\)</span>. Discovering the method is left as an exercise to the viewer.</p>
@@ -771,7 +304,7 @@ y_{i} = \frac{z_{i}K_{i}}{1+\mathcal{V} (K_{i} - 1) }\ \ \ (i = 1, 2, 3, ..., N)
 </section>
 <section class="slide level2">
 
-<p>For a <span class="math inline">\(Pxy\)</span> diagram, we need <span class="math inline">\(P\)</span> as a function of <span class="math inline">\(x_1\)</span>, and <span class="math inline">\(P\)</span> as a function of <span class="math inline">\(y_1\)</span>, or <span class="math inline">\(x_1\)</span> and <span class="math inline">\(y_1\)</span> as a function of <span class="math inline">\(P\)</span>. From <a href="#/eq-BP3" class="quarto-xref">Equation&nbsp;3</a></p>
+<p>For a <span class="math inline">\(Pxy\)</span> diagram, we need <span class="math inline">\(P\)</span> as a function of <span class="math inline">\(x_1\)</span>, and <span class="math inline">\(P\)</span> as a function of <span class="math inline">\(y_1\)</span>, or <span class="math inline">\(x_1\)</span> and <span class="math inline">\(y_1\)</span> as a function of <span class="math inline">\(P\)</span>. From <strong>?@eq-BP3</strong></p>
 <div class="fragment">
 <p><span class="math display">\[
 P = \sum_{i=1}^{N} x_{i}p_{i}^{*} + (1-x_{i})p_{2}^{*} = (p_{1}^{*} - p_{2}^{*}) x_1 + p_{2}^{*}
@@ -781,7 +314,7 @@ P = \sum_{i=1}^{N} x_{i}p_{i}^{*} + (1-x_{i})p_{2}^{*} = (p_{1}^{*} - p_{2}^{*})
 <p>which is a linear function of <span class="math inline">\(x_1\)</span> that runs from <span class="math inline">\(p_{2}^{*}\)</span> at <span class="math inline">\(x_1\)</span> = 0 to <span class="math inline">\(p_{1}^{*}\)</span> at <span class="math inline">\(x_1\)</span> =1.</p>
 </div>
 <div class="fragment">
-<p>From <a href="#/eq-DP5" class="quarto-xref">Equation&nbsp;8</a></p>
+<p>From <strong>?@eq-DP5</strong></p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
@@ -800,7 +333,7 @@ P = \frac{1}{\sum\limits_{i=1}^{N} \frac{y_i}{p_{1}^{*}}} = \frac{1}{\frac{y_1}{
 <section class="slide level2">
 
 <div style="font-size: 85px;">
-<p>For a <span class="math inline">\(T_{xy}\)</span> diagram, we either need to use Goal Seek or we need <span class="math inline">\(x_1\)</span> and <span class="math inline">\(y_1\)</span> as a function of <span class="math inline">\(T\)</span>. From From <a href="#/eq-BP3" class="quarto-xref">Equation&nbsp;3</a></p>
+<p>For a <span class="math inline">\(T_{xy}\)</span> diagram, we either need to use Goal Seek or we need <span class="math inline">\(x_1\)</span> and <span class="math inline">\(y_1\)</span> as a function of <span class="math inline">\(T\)</span>. From From <strong>?@eq-BP3</strong></p>
 <div class="fragment">
 <p><span class="math display">\[
 P = (p_{1}^{*} - p_{2}^{*}) x_1 + p_{2}^{*}
@@ -815,7 +348,7 @@ P = (p_{1}^{*} - p_{2}^{*}) x_1 + p_{2}^{*}
 <p>Pick a series of temperatures between <span class="math inline">\(T_\text{1-bp}\)</span> and <span class="math inline">\(T_\text{2-bp}\)</span> and calculate <span class="math inline">\(p_{1}^{*}\)</span> and <span class="math inline">\(p_{2}^{*}\)</span> and then <span class="math inline">\(x_1\)</span>.</p>
 </div>
 <div class="fragment">
-<p>From <a href="#/eq-DP5" class="quarto-xref">Equation&nbsp;8</a></p>
+<p>From <strong>?@eq-DP5</strong></p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
@@ -837,7 +370,7 @@ P = \frac{p_{1}^{*}p_{2}^{*}}{(p_{2}^{*}-p_{1}^{*}) y_{1} + p_{1}^{*}}
 <p><span class="math inline">\(T\)</span> vs.&nbsp;<span class="math inline">\(x_1\)</span> and <span class="math inline">\(T\)</span> vs.&nbsp;<span class="math inline">\(y_1\)</span> for a pressure of 1 bar.</p>
 
 <img data-src="TxyBenzeneToluene.png" class="r-stretch"></section>
-<section id="the-takeaways-2" class="slide level2">
+<section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
 <li class="fragment">Vapor-Liquid Equilibria (VLE) calculations for binaries can be done with a <em>Pxy</em> or <em>Txy</em> phase diagram.</li>
@@ -849,7 +382,7 @@ P = \frac{p_{1}^{*}p_{2}^{*}}{(p_{2}^{*}-p_{1}^{*}) y_{1} + p_{1}^{*}}
 <section class="slide level2">
 
 </section></section>
-<section id="section-3" class="title-slide slide level1 center">
+<section id="section" class="title-slide slide level1 center">
 <h1></h1>
 <div class="centered">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>

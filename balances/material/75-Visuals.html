@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
-  <title>Chemical and Thermal Processes – dwsimbinaryvisuals</title>
+  <title>Chemical and Thermal Processes – visuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,362 +127,285 @@
 
 
 <section>
-<section id="just-try-to-break-this-law-i-dare-you" class="title-slide slide level1 center">
-<h1>Just <em>Try</em> to Break This Law! I Dare You!</h1>
+<section id="dew-your-bubbles-have-flash-part-2" class="title-slide slide level1 center">
+<h1>Dew Your Bubbles Have Flash? Part 2</h1>
 <div style="text-align: center; font-size: 120px;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
-<section id="the-first-law-of-thermodynamics" class="slide level2">
-<h2>The First Law of Thermodynamics</h2>
+<section class="slide level2">
+
+<div style="font-size: 130px;">
+<p><strong>Dew Your Bubbles Have Flash?</strong></p>
+</div>
 <ul>
-<li class="fragment">An introduction to the First Law of Thermodynamics</li>
-<li class="fragment">The basics of doing energy balances
+<li class="fragment">Use Raoult’s law to perform vapor-liquid phase equilibria calculations.</li>
+<li class="fragment">Not limited to binaries</li>
+<li class="fragment">Multicomponent systems conforming to Raoult’s law
 <ul>
-<li class="fragment">Steady-state open systems</li>
-<li class="fragment">Closed systems</li>
-<li class="fragment">Transient open systems.</li>
+<li class="fragment">Aliphatic hydrocarbon mixtures</li>
+<li class="fragment">Aromatic hydrocarbon mixtures</li>
 </ul></li>
+<li class="fragment">Part 1 – The basics and BUBL P and DEW P</li>
+<li class="fragment"><strong>Part 2</strong> – BUBL T and DEW T</li>
+<li class="fragment">Part 3 – FLASH and <em>Pxy</em> and <em>Txy</em> diagrams</li>
 </ul>
 </section>
-<section id="the-first-law-of-thermodynamics-1" class="slide level2">
-<h2>The First Law of Thermodynamics</h2>
-<p><em>Energy cannot be created or destroyed; it can only change form.</em></p>
-<div class="fragment">
-<p>The First Law is the General Balance Equation applied to energy.</p>
+<section id="graphical-bubl-t-dew-t" class="slide level2">
+<h2>Graphical BUBL T, DEW T</h2>
+<p><img data-src="TxyBubbleDew.png" class="absolute" style="top: 10%; left: 10%; width: 80%; "></p>
+<div style="font-size: 65px;">
+<div class="absolute" style="top: 13.5%; left: 28%; ">
+<p>Overall<br> Composition</p>
 </div>
-<div class="fragment">
-<div style="font-size: 95px;">
-<p><span class="math display">\[
-\mathrm{Input + Generation = Output + Consumption + Accumulation}
-\]</span></p>
+<div class="absolute" style="top: 70%; left: 75%; ">
+<p>Subcooled<br>Liquid</p>
 </div>
+<div class="absolute" style="top: 23%; left: 35%; ">
+<p>Superheated<br>Vapor</p>
 </div>
-<div class="fragment">
-<p>Because energy cannot be created or destroyed, the generation and consumption terms must both be 0.</p>
+<div class="absolute" style="top: 55%; left: 38%; ">
+<p><span class="math inline">\(2\text{–}\phi\)</span></p>
 </div>
-<div class="fragment">
-<p><span class="math display">\[
-\mathrm{Input = Output + Accumulation}
-\]</span></p>
+<div class="absolute" style="top: 38.5%; left: 8%; ">
+<p>Dew<br> Temperature</p>
 </div>
-<div class="fragment">
-<p>To determine the inputs, outputs and accumulation, we need to enumerate the most common forms of energy.</p>
+<div class="absolute" style="top: 83%; left: 18%; ">
+<p>Dew<br> Composition</p>
 </div>
-</section>
-<section id="section" class="slide level2">
-<h2></h2>
-<p>For using the First Law in calculations, you must first define your system, and in particular your system boundary.</p>
-<div style="font-size: 60px;">
-<p><br></p>
+<div class="absolute" style="top: 59.5%; left: 8%; ">
+<p>Bubble<br> Temperature</p>
 </div>
-<div class="fragment">
-<p>Work, <span class="math inline">\(W\)</span>, is performed by a force acting through a distance. In differential form (thanks to the chemists):</p>
+<div class="absolute" style="top: 83%; left: 44%; ">
+<p>Bubble<br> Composition</p>
 </div>
-<div class="fragment">
-<p><span class="math display">\[
--dW = Fdx.
-\]</span></p>
-</div>
-<div class="fragment">
-<p>For closed systems, work is energy crossing the system boundary due to deformation of the boundary.</p>
-</div>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>If there is a pressure, <span class="math inline">\(P\)</span>, being exerted on the system by its surroundings over an area, <span class="math inline">\(A\)</span>, and the area is displaced by a distance, <span class="math inline">\(dx\)</span>, then we have:</p>
-</div>
-</section>
-<section id="section-1" class="slide level2">
-<h2></h2>
-<p><span class="math display">\[
-PA = F,\ \ \ \ -dW=Fdx=PAdx=P(Adx)=PdV
-\]</span></p>
-<div class="fragment">
-<p>or in integrated form</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-W = -\int P dV
-\]</span></p>
-</div>
-<div class="fragment">
-<p>Next is heat, <span class="math inline">\(Q\)</span>, which is energy crossing the system boundary due to a temperature difference.</p>
-</div>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<div style="font-size: 85px;">
-<p>Thermodynamics was developed by engineers to describe heat engines (things that convert heat to work). They desired to put heat <em>in</em> and get work <em>out</em>, so historically, heat <em>into</em> a system was positive, and work <em>out</em> of a system was positive. Unfortunately, this concept was too confusing to the chemists. Therefore almost all chemical engineering texts now define heat or work <em>into</em> a system as <em>positive</em>, and heat or work <em>out</em> of a system as <em>negative</em>. Watch out when using Mechanical Engineering texts, since they have largely not made the switch.</p>
+<div class="absolute" style="top: 72%; left: 55%; ">
+<p>Low Boiling<br>Azeotrope</p>
 </div>
 </div>
 </section>
-<section id="section-2" class="slide level2">
-<h2></h2>
-<p>Energy may be stored in things as</p>
-<div style="font-size: 80px;">
-<ul>
-<li class="fragment">Position in a conservative field (potential energy, <span class="math inline">\(E_p = mgz\)</span>)</li>
-<li class="fragment">Velocity in a reference frame (kinetic energy, <span class="math inline">\(E_k = mu^2/2\)</span>)</li>
-<li class="fragment">Microscopic vibrations, oscillations etc. (internal energy, <span class="math inline">\(U\)</span><sup>1</sup>).</li>
-</ul>
+<section id="bubl-t" class="slide level2">
+<h2>BUBL T</h2>
+<p>Given all <span class="math inline">\(x_{i}\)</span>’s and <span class="math inline">\(P\)</span>, calculate <span class="math inline">\(T\)</span> and <span class="math inline">\(y_i\)</span>’s</p>
 <div class="fragment">
-<p>Note that for all of these energy forms, the value is relative to some 0 reference.</p>
+<p>In general, an iterative solution is required. With a spreadsheet, the easiest method is to guess a temperature <span class="math inline">\(T_\mathrm{guess}\)</span>.</p>
 </div>
 <div class="fragment">
-<p>For a closed system the First Law can be written in differential form as</p>
+<p>Calculate all of the vapor pressures from the Antoine equation, <strong>?@eq-BP1</strong>,</p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
-\boxed{dU + dE_p+dE_k = dQ + dW}
+p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}\ \ \ (i=1,2,3,.., N)
 \]</span></p>
 </div>
 <div class="fragment">
-<p>or in integrated form as</p>
+<p>Then calculate the pressure from the guessed temperature</p>
 </div>
 <div class="fragment">
-<p><span class="math display">\[
-\boxed{\Delta U + \Delta E_p + \Delta E_k = Q + W}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>Much of the work in a First Law problem is deciding which terms are zero or insignificant.</p>
-</div>
-</div>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>Because we are using <span class="math inline">\(V\)</span> and <span class="math inline">\(v\)</span> for other things, velocity is given the symbol, <span class="math inline">\(u\)</span>, and internal energy is given the symbol, <span class="math inline">\(U\)</span>. Don’t get them confused.</p></li></ol></aside></section>
-<section id="intensive-and-extensive-properties" class="slide level2">
-<h2>Intensive and Extensive Properties</h2>
-<p>A property of a substance that <em>does not</em> depend on the mass or moles of a substance is an <em>intensive</em> property (such as temperature, pressure, or composition).</p>
-<div style="font-size: 40px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>A property of a substance that <em>does</em> depend on the mass or moles of a substance is an <em>extensive</em> property (such as volume, kinetic energy, or internal energy).</p>
-</div>
-<div style="font-size: 40px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>It is quite frequently useful to define an intensive property that is related to an extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume or specific internal energy,</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\hat{V} = \frac{V}{m},\ \ \ \ \hat{U}=\frac{U}{m}\]</span></p>
+<p><span id="eq-BT2"><span class="math display">\[
+P_\mathrm{guess} = \sum_{i=1}^{N} x_{i}p_{i}^{*}
+\tag{1}\]</span></span></p>
 </div>
 </section>
-<section id="section-3" class="slide level2">
-<h2></h2>
-<div style="font-size: 140px;">
-<p><strong>Enthalpy (pronounced <em>en-THAL-pee</em>)</strong></p>
-</div>
-<p><em>Enthalpy</em>, <span class="math inline">\(H\)</span>, is a defined quantity that is quite useful in simplifying formulas. It is defined as</p>
-<div class="fragment">
-<p><span class="math display">\[
-H \equiv U + PV
-\]</span></p>
-</div>
-<div class="fragment">
-<p>or in specific properties as</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-\hat{H} \equiv \hat{U} + P\hat{V}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>One example where enthalpy is useful is where a closed system doesn’t change velocity or position and is maintained at constant pressure (like in a beaker in a laboratory).</p>
-</div>
-</section>
-<section id="section-4" class="slide level2">
-<h2></h2>
-<p>Under these conditions the First Law simplifies from</p>
-<div class="fragment">
-<p><span class="math display">\[
-\Delta U + \Delta E_p + \Delta E_k = Q + W
-\]</span></p>
-</div>
-<div class="fragment">
-<p>to</p>
-</div>
-<div class="fragment">
+<section class="slide level2">
+
 <div style="font-size: 90px;">
-<p><span class="math display">\[
-\Delta U = U_\mathrm{final} - U_\mathrm{initial} = Q + W = Q - \int\limits_\mathrm{initial}^\mathrm{final} pdV = Q-P \int\limits_\mathrm{initial}^\mathrm{final} dV
-\]</span></p>
+<p>Set up a cell to calculate the difference between the actual pressure and the guessed pressure, <span class="math inline">\(P_\mathrm{actual} - P_\mathrm{guess}\)</span>.</p>
+<div class="fragment">
+<p>Have <em>Goal Seek</em> set the difference to 0 by varying <span class="math inline">\(T_\mathrm{guess}\)</span>.</p>
 </div>
+<div class="fragment">
+<p><span class="math inline">\(T_\mathrm{guess}\)</span> is now the correct temperature. You can calculate the <span class="math inline">\(y_i\)</span>’s from Raoult’s law, <strong>?@eq-DP2</strong>,</p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
-U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial})
+y_{i} = \frac{x_{i}p_{i}^{*}}{P}\ \ \ (i=1,2,3,...,N)
 \]</span></p>
 </div>
 <div class="fragment">
-<p><span class="math display">\[
-(U_\mathrm{final} + PV_\mathrm{final}) - (U_\mathrm{initial} + PV_\mathrm{initial}) = Q
-\]</span></p>
+<p><strong>Alternate Method:</strong> In a spreadsheet, guess a <span class="math inline">\(T\)</span>. For one component calculate <span class="math inline">\(p_{k}^{*}\)</span> from <a href="#/eq-BT5" class="quarto-xref">Equation&nbsp;3</a> and calculate <span class="math inline">\(p_{i}^{*}\)</span> from the Antoine equation, <strong>?@eq-BP1</strong>. Set a cell as the error between the two and goal seek to set that cell to <span class="math inline">\(0\)</span> by varying <span class="math inline">\(T\)</span>.</p>
 </div>
+</div>
+<div style="font-size: 85px;">
 <div class="fragment">
-<p><span class="math display">\[
-\Delta H = Q
-\]</span></p>
-</div>
-</section>
-<section id="section-5" class="slide level2">
-<h2></h2>
-<p>For an <strong>open steady-state system</strong>, all of the quantities are expressed as rates (with the dot)</p>
-<div class="fragment">
-<p><span class="math display">\[
-\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>The work is normally divided up into:</p>
-</div>
-<ul>
-<li class="fragment"><em>shaft work</em>, work done by or on a shaft crossing the system boundary, such as to a turbine (electricity counts),</li>
-<li class="fragment"><em>flow work</em>, work done on or by the system to push the flowing fluid into or out of the system.</li>
-</ul>
-<div class="fragment">
-<p><span class="math display">\[
-\dot{W} =  \dot{W}_\mathrm{s} + \dot{W}_\mathrm{fl}
-\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-\dot{W}_\mathrm{fl} = -\sum_\mathrm{outputs} P_{i}\dot{V}_i + \sum_\mathrm{inputs}P_{j}\dot{V}_j
-\]</span></p>
-</div>
-</section>
-<section id="section-6" class="slide level2">
-<h2></h2>
-<p>If one starts with the first law for an open steady-state system,</p>
-<div class="fragment">
-<p><span class="math display">\[
-\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}
-\]</span></p>
-</div>
-<div class="fragment">
-<div style="font-size: 95px;">
-<p>and separates the work into shaft work and flow work, and combines the flow work with the internal energy, one arrives at</p>
-</div>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-\boxed{\Delta \dot{H} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}_\mathrm{s}}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>which is the normal version of the first law for an open steady-state system.</p>
-</div>
-<div style="font-size: 40px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p><strong>Remember</strong> <span class="math inline">\(\Delta\)</span> means <em>final</em> – <em>initial</em> for closed systems and<br> <em>out – in</em> for open systems. If you have multiple streams, you must sum over all of the streams.</p>
-</div>
-</section>
-<section id="section-7" class="slide level2">
-<h2></h2>
-<p>For an <strong>open transient system</strong>, the first law is</p>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<div style="font-size: 75px;">
-<p><span class="math display">\[
-\boxed{\frac{d}{dt} (U + E_k + E_p)_\mathrm{control\ volume} = \sum \dot{Q}_i + \sum \dot{W}_i - (\Delta \dot{H} + \Delta{E}_k + \Delta \dot{E}_p)_\mathrm{flow\ streams}}
-\]</span></p>
-</div>
-</div>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>which on a mass basis is</p>
-</div>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<div style="font-size: 66px;">
-<p><span class="math display">\[
-\boxed{\frac{d}{dt}[m(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_{i} + \sum_\mathrm{in} \dot{m}_{i}(\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{m}_{i} (\hat{H} + \hat{E}_k + \hat{E}_{p})}
-\]</span></p>
-</div>
-</div>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>or on a mole basis is</p>
-</div>
-<div style="font-size: 60px;">
-<p><br></p>
-</div>
-<div style="font-size: 67px;">
-<div class="fragment">
-<p><span class="math display">\[
-\boxed{\frac{d}{dt}[n(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_i + \sum_\mathrm{in} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p)}
-\]</span></p>
+<p><br><strong>Note:</strong> For a two-component system, if you are determining the <span class="math inline">\(y_i\)</span>’s as a function of <span class="math inline">\(T\)</span> at constant <span class="math inline">\(P\)</span>, you don’t need to iterate. Choose values of <span class="math inline">\(T\)</span> between <span class="math inline">\(T_\mathrm{b1}\)</span> and <span class="math inline">\(T_\mathrm{b2}\)</span>, and calculate the <span class="math inline">\(y_i\)</span>’s using the Antoine equation, <strong>?@eq-BP1</strong> and Raoult’s law, <strong>?@eq-DP2</strong>.</p>
 </div>
 </div>
 </section>
-<section id="simplifications" class="slide level2">
-<h2>Simplifications</h2>
-<p>These simplifications are exact, there is no approximation involved.</p>
-<ul>
-<li class="fragment">No change in elevation, then <span class="math inline">\(\Delta E_p = 0\)</span></li>
-<li class="fragment">No change in velocity, then <span class="math inline">\(\Delta E_k = 0\)</span></li>
-<li class="fragment">Adiabatic or insulated, then <span class="math inline">\(Q=0\)</span></li>
-<li class="fragment">Volume remains constant, closed system, then <span class="math inline">\(W=0\)</span></li>
-<li class="fragment">No shafts cross boundary e.g., from a turbine, compressor, or pump, open system, then <span class="math inline">\(\dot{W}_s = 0\)</span></li>
-<li class="fragment">Ideal gas, no chemical reaction, <span class="math inline">\(T\)</span> = const., then <span class="math inline">\(\Delta U = 0\)</span>, <span class="math inline">\(\Delta H = 0\)</span></li>
-</ul>
-</section>
-<section id="approximations" class="slide level2">
-<h2>Approximations</h2>
-<p>These approximations are usually pretty good, but recognize that they are approximations.<br><br></p>
-<ul>
-<li class="fragment"><p>Evaporation, Condensation, Chemical Reaction, Large Temperature Changes, then <span class="math inline">\(\Delta E_k \approx 0, \Delta E_p \approx 0, W \approx 0\)</span><br><br></p></li>
-<li class="fragment"><p>Solid or liquid, no chemical reaction, <span class="math inline">\(T = \mathrm{constant}\)</span>, <span class="math inline">\(\Delta P = \mathrm{small}\)</span>, then <span class="math inline">\(\Delta U \approx 0\)</span>, <span class="math inline">\(\Delta H \approx 0\)</span></p></li>
-</ul>
-</section>
-<section id="remember" class="slide level2">
-<h2>Remember</h2>
-<p><br><span class="math inline">\(\Delta\)</span> means <em>final-initial</em> or <em>out-in</em></p>
+<section class="slide level2">
+
+<p>If you prefer programming to spreadsheets, begin by picking an arbitrary component, <span class="math inline">\(k\)</span>, then:</p>
 <div class="fragment">
-<p><br><strong>State Variable:</strong> Value depends only on location or “<em>state.</em>” Does not depend on path.</p>
-<p>Common State Variables: <span class="math inline">\(H\)</span>, <span class="math inline">\(T\)</span>, <span class="math inline">\(U\)</span>, <span class="math inline">\(V\)</span>, <span class="math inline">\(m\)</span>, etc.</p>
+<p><span id="eq-BT4"><span class="math display">\[
+P = p_{k}^{*} \sum_{i=1}^{N} x_{i} \frac{p_{i}^{*}}{p_{k}^{*}}
+\tag{2}\]</span></span></p>
 </div>
 <div class="fragment">
-<p><br><strong>Path Variable:</strong> Value depends only on path. Does not depend on location.</p>
-<p>Common Path Variables: <span class="math inline">\(Q\)</span>, <span class="math inline">\(W\)</span>.</p>
+<p>or</p>
+</div>
+<div class="fragment">
+<p><span id="eq-BT5"><span class="math display">\[
+p_{k}^{*} = \frac{P}{\sum\limits_{i=1}^{N} x_{i} \alpha_{ik}}
+\tag{3}\]</span></span></p>
+</div>
+<div class="fragment">
+<p>where the relative voltatility, <span class="math inline">\(\alpha_{ik}\)</span>, is defined as:</p>
+</div>
+<div class="fragment">
+<p><span id="eq-BT6"><span class="math display">\[
+\alpha_{ik} \equiv \frac{p_{i}^{*}}{p_{k}^{*}}
+\tag{4}\]</span></span></p>
+</div>
+</section>
+<section class="slide level2">
+
+<p>If the vapor pressures are related by the Antoine equation, <strong>?@eq-BP1</strong>:</p>
+<div class="fragment">
+<p><span class="math display">\[
+\log_{10} p^* = A - \frac{B}{T + C}
+\]</span></p>
+</div>
+<div class="fragment">
+<p>then we can calculate,</p>
+</div>
+<div class="fragment">
+<p><span id="eq-BT8"><span class="math display">\[
+\log_{10}\alpha_{ik} = A_i - A_k - \frac{B_i}{T + C_i} + \frac{B_k}{T + C_k}
+\tag{5}\]</span></span></p>
+</div>
+<div class="fragment">
+<p>One can begin the iteration with an initial guess</p>
+</div>
+<div class="fragment">
+<p><span id="eq-BT9"><span class="math display">\[
+T_{0} = \sum_{i=1}^{N} x_{i}T_{i}^{*}
+\tag{6}\]</span></span></p>
+</div>
+</section>
+<section class="slide level2">
+
+<p>This <span class="math inline">\(T_{0}\)</span> can be used to evaluate all of the <span class="math inline">\(\alpha_{ik}\)</span>’s in <a href="#/eq-BT6" class="quarto-xref">Equation&nbsp;4</a>, which are then used in <a href="#/eq-BT5" class="quarto-xref">Equation&nbsp;3</a> to calculate <span class="math inline">\(p_k^*\)</span>, from which a new value of <span class="math inline">\(T\)</span> can be calculated from:</p>
+<div class="fragment">
+<p><span id="eq-BT10"><span class="math display">\[
+T_1 = \frac{B_k} {A_{k} - \log_{10} p_{k}^{*} - C_{k}}
+\tag{7}\]</span></span></p>
+</div>
+<div class="fragment">
+<p>The iteration is repeated until <span class="math inline">\(T\)</span> doesn’t change much from one iteration to the next. The Antoine equation, <strong>?@eq-BP1</strong> is then used to calculate all <span class="math inline">\(p_i^*\)</span>, then use Raoult’s law, <strong>?@eq-DP2</strong> to calculate the <span class="math inline">\(y_i\)</span>’s.</p>
+</div>
+</section>
+<section id="dew-t" class="slide level2">
+<h2>DEW T</h2>
+<p>Given all <span class="math inline">\(y_i\)</span>’s and <span class="math inline">\(P\)</span>, calculate <span class="math inline">\(T\)</span> and <span class="math inline">\(x_i\)</span>’s.</p>
+<div class="fragment">
+<p>In general, an iterative solution very similar to BUBL T is required. With a spreadsheet, the easiest method is to guess a temperature <span class="math inline">\(T_\mathrm{guess}\)</span> .</p>
+</div>
+<div class="fragment">
+<p>Calculate all of the vapor pressures, <span class="math inline">\(p_i^*\)</span>’s, from the Antoine equation, <strong>?@eq-BP1</strong></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+P_{i}^{*} = 10 ^ {A - \frac{B_i}{T+C_i}}\ \ \ (i = 1, 2, 3, ..., N)
+\]</span></p>
+</div>
+<div class="fragment">
+<p>Then calculate the pressure from the guessed temperature using <strong>?@eq-DP5</strong>,</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+P_\mathrm{guess} = \frac{1}{\sum\limits_{i=1}^{N}\frac{y_i}{p_{i}^{*}}}
+\]</span></p>
+</div>
+</section>
+<section class="slide level2">
+
+<p>Set up a cell to calculate the difference between the actual pressure and the guessed pressure, <span class="math inline">\(P_\mathrm{actual} - P_\mathrm{guess}\)</span>.</p>
+<div class="fragment">
+<p>Have Goal Seek set the difference to <span class="math inline">\(0\)</span> by varying <span class="math inline">\(T_\mathrm{guess}\)</span>.</p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(T_\mathrm{guess}\)</span> is now the correct temperature. You can calculate the <span class="math inline">\(x_i\)</span>’s from Raoult’s law, <strong>?@eq-DP2</strong>,</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+x_i = \frac{y_{i} P} {p_{i}^{*}}\ \ \ (i = 1,2,3, ..., N)
+\]</span></p>
+</div>
+<div class="fragment">
+<p><strong>Alternate Method</strong>: As before, in a spreadsheet, guess a <span class="math inline">\(T\)</span>. For one component calculate <span class="math inline">\(p_{k}^{*}\)</span> from <a href="#/eq-DT5" class="quarto-xref">Equation&nbsp;9</a> and calculate <span class="math inline">\(p_{i}^{*}\)</span> from the Antoine equation, <strong>?@eq-BP1</strong>. Set a cell as the error between the two and goal seek to set that cell to 0 by varying <span class="math inline">\(T\)</span>.</p>
+</div>
+</section>
+<section class="slide level2">
+
+<p>If you prefer programming to spreadsheets, begin by picking an arbitrary component, <span class="math inline">\(k\)</span>, then:</p>
+<div class="fragment">
+<p><span id="eq-DT4"><span class="math display">\[
+P = \frac{p_{k}^{*}}{\sum\limits_{i=1}^{N}y_{i}\frac{p_{k}^{*}}{p_{i}^{*}}}
+\tag{8}\]</span></span></p>
+</div>
+<div class="fragment">
+<p>or</p>
+</div>
+<div class="fragment">
+<p><span id="eq-DT5"><span class="math display">\[
+p_{k}^{*} = P \sum_{i=1}^{N} \frac{y_j}{\alpha_{ik}}
+\tag{9}\]</span></span></p>
+</div>
+<div class="fragment">
+<p>where the relative volatility, <span class="math inline">\(\alpha_{ki}\)</span>, is defined in <a href="#/eq-BT6" class="quarto-xref">Equation&nbsp;4</a> and calculated using <a href="#/eq-BT8" class="quarto-xref">Equation&nbsp;5</a>.</p>
+</div>
+</section>
+<section class="slide level2">
+
+<p>The initial guess is:</p>
+<div class="fragment">
+<p><span id="eq-DT6"><span class="math display">\[
+T_0 = \sum_{i=1}^{N} y_{i}T_{i}^{*}
+\tag{10}\]</span></span></p>
+</div>
+<div class="fragment">
+<p>This <span class="math inline">\(T_0\)</span> can be used to evaluate all of the <span class="math inline">\(a_{ik}\)</span>’s in <a href="#/eq-BT6" class="quarto-xref">Equation&nbsp;4</a> which are then used in <a href="#/eq-BT5" class="quarto-xref">Equation&nbsp;3</a> to calculate <span class="math inline">\(p_{k}^{*}\)</span>, from which a new value of <span class="math inline">\(T\)</span> can be calculated from <a href="#/eq-BT10" class="quarto-xref">Equation&nbsp;7</a>:</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+T_1 = \frac{B_k}{A_k - \log_{10} p_{k}^{*}} - C_k
+\]</span></p>
+</div>
+<div class="fragment">
+<p>After convergence we evaluate the <span class="math inline">\(x_i\)</span>’s from Raoult’s law, <strong>?@eq-DP2</strong>:</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+x_i = \frac {y_{i}P}{p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N)
+\]</span></p>
 </div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">The First Law of Thermodynamics states that energy cannot be created or destroyed. It can only change form.</li>
-<li class="fragment">You can always rederive the forms, but it’s best to memorize the First Law for closed systems, open steady-state systems, and open transient systems.</li>
-<li class="fragment">Much of the work in a First-Law problem is deciding which terms to keep and which to set to zero.</li>
+<li class="fragment">Vapor-Liquid Equilibria (VLE) calculations for binaries can be done with a <em>Pxy</em> or <em>Txy</em> phase diagram.</li>
+<li class="fragment">For mixtures that are ideal solutions in the liquid phase and ideal gases in the vapor phase, VLE calculations can be done with Raoult’s law and the Antoine equation.</li>
+<li class="fragment">The five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.</li>
+<li class="fragment">However, flash calculations for binary mixtures are relatively straightforward.</li>
 </ol>
-</section></section>
-<section id="section-8" class="title-slide slide level1 center">
-<h1><!-- Approved Plain End --></h1>
-<div class="centered bigger">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
-</div>
-<div class="absolute" style="font-size: 110px;top: 125%; left: 38%; ">
-<p>The DOFPro Team</p>
-</div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 25.25%; width: 1494px; height: 364px; "> <!-- ****************************END Regular Intro/Outro ************************* --></p>
-
-
 </section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="section" class="title-slide slide level1 center">
+<h1></h1>
+<div class="centered">
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+</div>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
+</section>
+<section class="slide level2">
 
 
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png" class="slide-logo"></p>

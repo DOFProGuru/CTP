@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
-  <title>Chemical and Thermal Processes – a-pumpnozzvisuals</title>
+  <title>Chemical and Thermal Processes – mechengbalvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,338 +127,246 @@
 
 
 <section>
-<section id="entropy-made-me-do-it-pumps-nozzles-and-other-second-law-shenanigans-part-2" class="title-slide slide level1 center">
-<h1>Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans (Part 2)</h1>
-<div style="text-align: center;">
+<section id="add-friction-and-work-to-bernoulli-heres-what-really-happens" class="title-slide slide level1 center">
+<h1>Add Friction and Work to Bernoulli? Here’s What Really Happens!</h1>
+<div style="text-align: center; font-size: 120px;">
 <p>DOFPro Team</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -65%; left: 22%; "></p>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
 <section id="introduction" class="slide level2">
 <h2>Introduction</h2>
-<p>These videos, <em>Entropy Made Me Do It</em>, <em>Part 1</em> and <em>Part 2</em> derive the equations for common items in power and refrigeration machinery.</p>
-<div class="fragment">
-<p>Part 1 discussed</p>
-</div>
 <ul>
-<li class="fragment">the turbine or expander</li>
-<li class="fragment">the adiabatic compressor</li>
-<li class="fragment">the isothermal compressor</li>
-</ul>
-<div class="fragment">
-<p><strong>Part 2</strong> discusses</p>
-</div>
+<li class="fragment">Fluid flowing through:
 <ul>
-<li class="fragment">the pump</li>
-<li class="fragment">the nozzle</li>
-<li class="fragment">the valve or throttle</li>
+<li class="fragment">A tube</li>
+<li class="fragment">A pipe</li>
+<li class="fragment">A culvert</li>
+<li class="fragment">A sluice</li>
+</ul></li>
+<li class="fragment">Not gaining or losing energy through heat transfer other than friction</li>
+<li class="fragment">The <em>Mechanical Energy Balance</em></li>
 </ul>
+</section>
+<section id="the-mechanical-energy-balance" class="slide level2">
+<h2>The Mechanical Energy Balance</h2>
+<p>If we start with the 1<sup>st</sup> law for an open steady-state system,</p>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{m}\Delta(\hat{U}+P\hat{V})+ \dot{m} \Delta \frac{u^2}{2}+\dot{m}g\Delta z -\dot{Q}=\dot{W}_s
+\]</span></p>
+</div>
+<div class="fragment">
+<p>and gather the internal energy term with the heat, and assume an incompressible liquid such that</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\hat{V} = \frac{1}{\rho}=\mathrm{const}.
+\]</span></p>
+</div>
+<div class="fragment">
+<p>Then the 1<sup>st</sup> law becomes</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{m} \Delta \frac{P}{\rho} + \dot{m} \Delta \frac{u^2}{2} + \dot{m} g \Delta z + (\dot{m} \Delta \hat{U} - \dot{Q}) = \dot{W}_s
+\]</span></p>
+</div>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p><em>Up Third</em></p>
-<div class="fragment">
-<p><strong>Pump</strong> – Incompressible Liquids</p>
-<p><img data-src="DWSIMPump.png" class="absolute" style="top: 9%; left: 45%; width: 30%; "></p>
-<p><img data-src="PumpIcon.png" class="absolute" style="top: 10%; left: 75%; width: 30%; "></p>
+<div style="font-size: 140px;">
+<p><strong>The Mechanical Energy Balance (cont.)</strong></p>
 </div>
+<p>or dividing through by the mass flow rate</p>
 <div class="fragment">
-<p><strong>Inputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span></p>
-</div>
-<div class="fragment">
-<p><strong>Outputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
+<p><span class="math display">\[
+\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \left( \Delta \hat{U} - \frac{\dot{Q}}{\dot{m}} \right) = \frac{\dot{W}_s}{\dot{m}}
+\]</span></p>
 </div>
 <div class="fragment">
-<p>Have to input work</p>
+<p>If the only heating is through friction, we can call the term in parentheses, the <em>friction loss</em></p>
 </div>
 <div class="fragment">
-<p><em>Up Fourth</em></p>
+<p><span class="math display">\[
+\hat{F} = \Delta \hat{U} - \frac{\dot{Q}}{\dot{m}}
+\]</span></p>
 </div>
 <div class="fragment">
-<p><strong>Nozzle</strong> – Ideal Gas or Steam</p>
-<p><img data-src="Nozzle.png" class="absolute" style="top: 45%; left: 55%; width: 30%; "></p>
-<p><img data-src="LavalNozzle.png" class="absolute" style="top: 55%; left: 55%; width: 30%; "></p>
+<p>and the 1<sup>st</sup> law becomes</p>
 </div>
 <div class="fragment">
-<p><strong>Inputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span></p>
-</div>
-<div class="fragment">
-<p><strong>Outputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
-</div>
-<div class="fragment">
-<p>Goal is velocity increase</p>
-</div>
-<div class="fragment">
-<p><em>Last</em></p>
-</div>
-<div class="fragment">
-<div style="font-size: 95px;">
-<p><strong>Valve</strong> or <strong>Throttling Process</strong> – Ideal Gas or Two-phase Mixture</p>
-</div>
-<p><img data-src="DWSIMValve.png" class="absolute" style="top: 76%; left: 45%; width: 30%; "></p>
-<p><img data-src="ValveIcon.png" class="absolute" style="top: 76%; left: 75%; width: 30%; "></p>
-</div>
-<div class="fragment">
-<p><strong>Inputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span></p>
-</div>
-<div class="fragment">
-<p><strong>Outputs</strong> – <span class="math inline">\(\dot{m}\)</span> or <span class="math inline">\(\dot{n}\)</span>, <span class="math inline">\(P\)</span></p>
-</div>
-</section>
-<section id="pump" class="slide level2">
-<h2>Pump</h2>
-<p>Incompressible liquid only in introductory videos.</p>
-<p><img data-src="Pompe_à_palettes.gif" class="absolute" style="top: 16%; left: 50%; width: 48%; "></p>
-<div class="absolute" style="top: 63%; left: 50%; ">
-<p><a href="https://creativecommons.org/licenses/by-sa/1.0">CC BY-SA 1.0</a>, via<br>Wikimedia Commons</p>
-</div>
-<p><img data-src="Peristaltic_pump.gif" class="absolute" style="top: 16%; left: 0%; width: 48%; "></p>
-<div class="absolute" style="top: 63%; left: 0%; ">
-<p><a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via<br> Wikimedia Commons</p>
+<p><span class="math display">\[
+\boxed {\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}_s}{\dot{m}}}
+\]</span></p>
 </div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<p><strong>Pump</strong></p>
-<p>A real pump has a pump efficiency, that compares its performance with that of an isentropic pump.</p>
+<div style="font-size: 140px;">
+<p><strong>The Mechanical Energy Balance (cont.)</strong></p>
+</div>
+<p>If there is no friction loss or shaft work input we have</p>
 <div class="fragment">
-<p><span class="math display">\[\eta_\mathrm{pump} = \frac{\dot{W}_{s\text{-isentropic}}}{\dot{W}_{s\text{-actual}}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\Delta \hat{H}_{\text{actual}}}\]</span></p>
+<p><span class="math display">\[
+\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z = 0
+\]</span></p>
 </div>
 <div class="fragment">
-<p>From the fundamental property relationships</p>
+<p>which is the Bernoulli equation, that you may have seen in high-school physics.</p>
 </div>
 <div class="fragment">
-<p><span class="math display">\[d\hat{U} = T d\hat{S} - P d\hat{V}\]</span></p>
+<p>For a circular pipe, the <em>friction loss</em> is</p>
 </div>
 <div class="fragment">
-<p>and</p>
+<p><span class="math display">\[
+\hat{F} = f \frac{L}{D} \frac{u^2}{2}
+\]</span></p>
 </div>
 <div class="fragment">
-<p><span class="math display">\[d\hat{H} = d\hat{U} + P d\hat{V} + \hat{V} dP\ \ \text{from}\ \ \hat{H} = \hat{U} + P \hat{V}\]</span></p>
+<p>where <span class="math inline">\(L\)</span> is the length of the pipe, <span class="math inline">\(D\)</span> is the diameter of the pipe,and <span class="math inline">\(u\)</span> is the velocity of the fluid. <span class="math inline">\(f\)</span> is the <em>Moody friction factor</em> and is a function of the <em>Reynolds number.</em></p>
+</div>
+</section>
+<section id="the-reynolds-number" class="slide level2">
+<h2>The Reynolds number</h2>
+<p>The Reynolds number is an important dimensionless quantity in fluid mechanics. It is the ratio of momentum to viscous forces. For a pipe, it is calculated as</p>
+<div class="fragment">
+<p><span class="math display">\[
+Re = \frac{\rho u D}{\mu} \quad \text{or} \quad Re = \frac{u D}{\nu}
+\]</span></p>
 </div>
 <div class="fragment">
-<p><span class="math display">\[d\hat{U} = d\hat{H} - P d\hat{V} - \hat{V} dP\]</span></p>
+<p>where <span class="math inline">\(D\)</span> is the diameter of the pipe, <span class="math inline">\(u\)</span> is the velocity of the fluid, <span class="math inline">\(\rho\)</span> is the density of the fluid, <span class="math inline">\(\mu\)</span> is the dynamic viscosity of the fluid, and <span class="math inline">\(\nu = \mu ⁄ \rho\)</span> , is the kinematic viscosity of the fluid. For <span class="math inline">\(Re\)</span> &lt; 2100, the flow in the pipe is laminar and <span class="math inline">\(f = 64⁄Re\)</span>. For <span class="math inline">\(Re &gt; 2300\)</span> , the flow is <em>turbulent</em>, and <span class="math inline">\(f\)</span> has to be evaluated from a chart called a <em>Moody Chart</em> or <em>Moody Diagram</em>.</p>
 </div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<p>so</p>
-<p><span class="math display">\[d\hat{H} - P d\hat{V} - \hat{V} dP = T d\hat{S} - P d\hat{V}\]</span></p>
-<div class="fragment">
-<p>or</p>
-<p><span class="math display">\[d\hat{H} = T d\hat{S} + \hat{V} dP\]</span></p>
-</div>
-<div class="fragment">
-<p>Second Law on pump (adiabatic and reversible)</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\Delta S = 0\]</span></p>
-</div>
-<div class="fragment">
-<p>so</p>
-<p><span class="math display">\[d\hat{S} = 0\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[d\hat{H} = \hat{V} dP\]</span></p>
+
+<img data-src="Moody_EN.png" class="r-stretch"><div style="font-size: 80px; text-align: center;">
+<p><a href="https://commons.wikimedia.org/wiki/File:Moody_EN.png">Marc.derumaux</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
 </div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<p>For liquids <span class="math inline">\(V\)</span> is a very weak function of pressure (hence incompressible).</p>
+<p>To use a Moody chart you have to know the Reynolds number and the Surface Roughness of the inside of the pipe. In addition to the Moody (a.k.a Darcy or Blasius) friction factor, there is another friction factor called the Fanning friction factor, It is also given the symbol <span class="math inline">\(f\)</span>. The relationship is</p>
 <div class="fragment">
-<p><span class="math display">\[\int d\hat{H} = \int \hat{V} dP = \hat{V} \int dP\]</span></p>
+<p><span class="math display">\[
+f_\mathrm{Fanning} = f_\mathrm{Moody}/4.
+\]</span></p>
 </div>
 <div class="fragment">
-<p><span class="math display">\[\Delta H_\text{isentropic} = W_{s\text{-isentropic}} = V \Delta P\]</span></p>
+<p>Make sure you know which one you are using. Since Wikipedia has a Moody diagram, we’re using the Moody friction factor.</p>
+</div>
+<div style="font-size: 50px;">
+<p><br></p>
 </div>
 <div class="fragment">
-<p>Calculating the actual work</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\dot{W}_{s\text{-actual}} = \frac{\dot{W}_{s\text{-isentropic}}}{\eta_\mathrm{pump}}\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\Delta \hat{H}_{\text{actual}} = \frac{\Delta \hat{H}_{\text{isentropic}}}{\eta_\mathrm{pump}}\]</span></p>
-</div>
-<div class="fragment">
-<p>If necessary, you can calculate the actual entropy change.</p>
+<p>The mechanical energy balance finds extensive use in transport of an incompressible fluid such as water or oil through pipelines, aqueducts, pumps, turbines, and the like.</p>
 </div>
 </section>
-<section id="nozzle" class="slide level2">
-<h2>Nozzle</h2>
-<p><img data-src="BrassNozzle.png" class="absolute" style="top: 10%; left: 0%; width: 48%; "></p>
-<div class="absolute" style="top: 55%; left: 0%; ">
-<p>Dan Bollinger <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>,<br>via Wikimedia Commons</p>
+<section id="example-problem" class="slide level2">
+<h2>Example Problem</h2>
+<p>Water at <span class="math inline">\(20\ ^\circ\mathrm{C}\)</span> flows at <span class="math inline">\(0.05\ \mathrm{m^3/s}\)</span> in a <span class="math inline">\(20\ \mathrm{cm}\)</span> cast iron pipe. Calculate <span class="math inline">\(\Delta P\)</span> per kilometer.</p>
+<div class="fragment">
+<p>Properties: <span class="math display">\[ \rho = 998 \text{ kg/m}^3, \mu = 1.00 \times 10^{-3} \text{ N s/m}^2.
+\]</span></p>
 </div>
-<p><img data-src="DeLavalNozzle.png" class="absolute" style="top: 10%; left: 50%; width: 48%; "></p>
-<div class="absolute" style="top: 50%; left: 52%; ">
-<p>No machine-readable author provided. HorsePunchKid assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons</p>
+<div class="fragment">
+<p>Calculate velocity:</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+u = \frac{\dot{V}}{A} = \frac{0.05 \text{ m}^3/\text{s}}{\frac{\pi}{4} (0.20 \text{ m})^2} = 1.59 \text{ m/s}.
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+Re = \frac{\rho u D}{\mu} = \frac{998 \text{ kg/m}^3 \cdot (1.59 \text{ m/s}) \cdot 0.20 \text{ m}}{1.00 \times 10^{-3} \text{ N s/m}^2}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 3.18 \times 10^5\)</span></p>
 </div>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
-<p><strong>Nozzle</strong></p>
-<div class="fragment">
-<p>A real nozzle has a nozzle efficiency, that compares its performance with that of an isentropic nozzle.</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\eta_\mathrm{nozzle} = \frac{u^2_{\text{out-actual}}}{u^2_{\text{out-isentropic}}}\]</span></p>
-</div>
-<div class="fragment">
-<p>The point of a nozzle is to get a huge increase in velocity.</p>
-</div>
-<div class="fragment">
-<p><strong>1<sup>st</sup> Law</strong></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\Delta \dot{H} + \Delta \dot{E}_\mathrm{k} = 0\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\hat{H}_\mathrm{out} - \hat{H}_\mathrm{in} + \frac{u^2_\mathrm{out}}{2} - \frac{u^2_\mathrm{in}}{2} = 0\]</span></p>
-</div>
+<p>Look up the surface roughness in the table on the Moody Chart.</p>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
-<p><span class="math display">\[u^2_\mathrm{out} = 2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}\]</span></p>
-<div class="fragment">
-<p><span class="math inline">\(u_\mathrm{out} = \sqrt{2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}}\ \ \ \ \ \)</span> Be careful with units.</p>
-</div>
-<div class="fragment">
-<p><strong>2<sup>nd</sup> Law</strong></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\Delta \dot{S} = 0\ \ \ \ \ \ \ \ \hat{S}_\mathrm{out} = \hat{S}_\mathrm{in}\]</span></p>
-</div>
-<div class="fragment">
-<p>Ideal Gas</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\Delta \hat{S} = 0 = C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} - R \ln \frac{P_\mathrm{out}}{P_\mathrm{in}}\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[C_p \ln \frac{T_\mathrm{out}}{T_\mathrm{in}} = R \ln \frac{T_\mathrm{out}}{T_\mathrm{in}}\ \ \ \ \text{or}\ \ \ \ \frac{T_\mathrm{out}}{T_\mathrm{in}} = \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}\]</span></p>
+
+<img data-src="Moody_EN.png" class="r-stretch"><div style="font-size: 80px; text-align: center;">
+<p><a href="https://commons.wikimedia.org/wiki/File:Moody_EN.png">Marc.derumaux</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
 </div>
 </section>
 <section id="section-6" class="slide level2">
 <h2></h2>
-<p>Substitute in for <span class="math inline">\(\Delta T\)</span>.</p>
+<p>Look up the surface roughness in the table on the Moody Chart.</p>
+<p><span class="math display">\[
+\varepsilon = 0.15\ \mathrm{mm}
+\]</span></p>
 <div class="fragment">
-<p><span class="math display">\[\Delta \hat{H}_{\text{actual}} = C_p \Delta T_\text{actual} = C_p \left(T_\mathrm{out} - T_\mathrm{in}\right)\]</span></p>
-<div class="absolute" style="top: 17%; left: 32%; ">
-<p><span class="math display">\[= C_p T_\mathrm{in}\left[\left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p} - 1\right]\]</span></p>
-</div>
-</div>
-<p><br><br></p>
-<div class="fragment">
-<p><span class="math display">\[u^2_\text{out-isen} - u^2_\text{in} = -2 C_p \Delta T_\text{in} = 2 C_p T_\mathrm{in}\left[1 - \left(\frac{P_\mathrm{out}}{P_\mathrm{in}}\right)^\frac{R}{C_p}\right]\]</span></p>
+<p>The most common mistake is to forget to calculate <span class="math inline">\(\frac{\varepsilon}{D}\)</span> from <span class="math inline">\(\varepsilon\)</span>.</p>
 </div>
 <div class="fragment">
-<p>Be careful with units.</p>
+<p><span class="math display">\[
+\frac{\varepsilon}{D} = \frac{0.15 \times 10^{-3} \text{ m}}{0.20 \text{ m}} = 0.00075.
+\]</span></p>
+</div>
+<div class="fragment">
+<p>Use the Moody Chart (for Moody not Fanning friction factor)</p>
 </div>
 </section>
 <section id="section-7" class="slide level2">
 <h2></h2>
-<p>For steam find the value of enthalpy in the steam table at the same entropy and pressure as the outlet.</p>
-<div style="font-size: 80px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(u_\text{out-isen} = \sqrt{2\left(\hat{H}_\mathrm{in} - \hat{H}_\mathrm{out}\right) + u^2_\mathrm{in}}\ \ \ \ \)</span> Be careful with units.</p>
-</div>
-<div style="font-size: 80px;">
-<p><br></p>
-</div>
-<div class="fragment">
-<p>For either steam or ideal gas find the actual velocity with the efficiency.</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[u^2_\text{out-actual} = \eta_\mathrm{nozzle}u^2_{\text{out-isentropic}}\]</span></p>
-</div>
-<div class="fragment">
-<p>If necessary, you can calculate the actual temperature, enthalpy change, and entropy change.</p>
-</div>
-</section>
-<section id="valves" class="slide level2">
-<h2>Valves</h2>
-<p>A partially open valve, an orifice, or a throttling valve can all be described as a throttling process.</p>
-<p><img data-src="GlobeValve.png" class="absolute" style="top: 22%; left: 0%; width: 40%; "></p>
-<div class="absolute" style="top: 80%; left: 2%; ">
-<div style="font-size: 85px;">
-<p>H Padleckas, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>,<br> via Wikimedia Commons</p>
-</div>
-</div>
-<p><img data-src="ThrottleValve.png" class="absolute" style="top: 22%; left: 45%; width: 50%; "></p>
-<div class="absolute" style="top: 83%; left: 45%; ">
-<div style="font-size: 85px;">
-<p>MasterTriangle12, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
-</div>
+
+<img data-src="Moody_EN.png" class="r-stretch"><div style="font-size: 80px; text-align: center;">
+<p><a href="https://commons.wikimedia.org/wiki/File:Moody_EN.png">Marc.derumaux</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
 </div>
 </section>
 <section id="section-8" class="slide level2">
 <h2></h2>
-<p><strong>Throttling Process</strong></p>
-<p>Because the fluid passes quickly through a throttling process, the heat transfer is essentially zero. The First Law becomes</p>
+<p><span class="math display">\[
+f = 0.0195
+\]</span></p>
+<div style="font-size: 95px;">
 <div class="fragment">
-<p><span class="math display">\[\Delta \dot{H} + \Delta \dot{E}_\mathrm{k} + \Delta \dot{E}_\mathrm{p} = \dot{Q} + \dot{W}_s\]</span></p>
+<p><span class="math display">\[
+\hat{F} = f \frac{L}{D} \frac{u^2}{2} = 0.0195 \left( \frac{1000 \text{ m}}{0.2 \text{ m}} \right) \frac{(1.59 \text{ m/s})^2}{2} = 123 \text{ m}^2 / \text{s}^2
+\]</span></p>
+</div>
 </div>
 <div class="fragment">
-<p><span class="math display">\[\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}\]</span></p>
+<p>Simplify the mechanical energy balance:</p>
 </div>
 <div class="fragment">
-<p>There isn’t much to a throttling process for an ideal gas, since the enthalpy is a function of temperature and <span class="math inline">\(\Delta H = 0\)</span>, so <span class="math inline">\(\Delta T = 0\)</span>.</p>
+<p><span class="math display">\[
+\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}}{\dot{m}}
+\]</span></p>
+</div>
+<div style="font-size: 95px;">
+<div class="fragment">
+<p><span class="math display">\[
+\Delta P = - \rho \hat{F} = - \left( 998 \frac{\text{kg}}{\text{m}^3} \right) \left( 123 \frac{\text{m}^2}{\text{s}^2} \right)
+\]</span></p>
+</div>
 </div>
 <div class="fragment">
-<p><span class="math display">\[P_\mathrm{out} \hat{V}_\mathrm{out} = P_\mathrm{in} \hat{V}_\mathrm{in}\]</span></p>
-</div>
-</section>
-<section id="section-9" class="slide level2">
-<h2></h2>
-<p><strong>Throttling Process (cont.)</strong></p>
-<p>A throttling process for a liquid at the edge of the two-phase region is much more interesting. Normally, one specifies the inlet <span class="math inline">\(T\)</span> and <span class="math inline">\(P\)</span>, that the quality in, <span class="math inline">\(x = 0\)</span>, and the outlet <span class="math inline">\(P\)</span>.</p>
-<div class="fragment">
-<p><span class="math display">\[\hat{H}_\mathrm{out} = \hat{H}_\mathrm{in}\]</span></p>
-</div>
-<div class="fragment">
-<p>One then uses the fluid two-phase table to determine the final pressure and quality.</p>
-</div>
-<p><br></p>
-<div class="fragment">
-<p>For example, take saturated liquid water at 50 bar, and flash it to 1 bar. Calculate the final <span class="math inline">\(T\)</span> and <span class="math inline">\(x\)</span>.</p>
-</div>
-</section>
-<section id="section-10" class="slide level2">
-<h2></h2>
-<p><strong>Throttling Process Example</strong></p>
-<p>At <span class="math inline">\(50\ \mathrm{bar}\)</span> and <span class="math inline">\(263.94\ ^\circ \mathrm{C}\)</span></p>
-<div class="fragment">
-<p><span class="math display">\[\hat{H}_\mathrm{in} = 1154.5\ \mathrm{kJ/kg}\]</span></p>
-</div>
-<div class="fragment">
-<p>At <span class="math inline">\(1\ \mathrm{bar}\)</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[T_\mathrm{out} = 99.61\ ^\circ \mathrm{C}\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\hat{H}_l = 417.44\ \mathrm{kJ/kg}\ \ \ \ \ \ \hat{H}_v = 2674.9\ \mathrm{kJ/kg}\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\Delta \hat{H}_{lv} = 2257.5\ \mathrm{kJ/kg}\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[x = \frac{\hat{H}_\mathrm{out} - \hat{H}_l}{\hat{H}_v - \hat{H}_l} = \frac{1154.5 - 417.44}{2674.9 - 417.44} = 0.3265 = 32.65\%\]</span></p>
+<p><span class="math display">\[
+= -123,000 \text{ Pa} = -123 \text{ kPa} = -1.2 \text{ atm}
+\]</span></p>
 </div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Pumps and nozzles all have efficiencies that compare the real or actual case with the isentropic case.</li>
-<li class="fragment">Valves or throttles have such large irreversibilities that no efficiency is calculated.</li>
-<li class="fragment">We modeled pumps for incompressible fluids only.</li>
-<li class="fragment">Nozzles and throttles were modeled for both steam and ideal gas.</li>
+<li class="fragment">For incompressible flow in a pipe, use the <em>mechanical energy balance</em> to calculate the relationship among pressure drop, velocity change, elevation change, and shaft work.</li>
+<li class="fragment">The mechanical energy balance for flow in a pipe is <span class="math inline">\(\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}_s}{\dot{m}}\)</span>.</li>
+<li class="fragment">Use the Reynolds number, <span class="math inline">\(Re = \rho u D/\mu\)</span>, and the roughness ratio, <span class="math inline">\(\varepsilon/D\)</span>, to find the Moody friction factor on the Moody Chart.</li>
+<li class="fragment">For no friction and no shaft work, the mechanical energy balance simplifies to the Bernoulli equation, <span class="math inline">\(\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z = 0\)</span>.</li>
 </ol>
 </section></section>
-<section id="section-11" class="title-slide slide level1 center">
+<section id="section-9" class="title-slide slide level1 center">
 <h1><!-- Approved Plain End --></h1>
 <div class="centered bigger">
 <p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>

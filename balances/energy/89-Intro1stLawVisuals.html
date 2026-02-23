@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
-  <title>Chemical and Thermal Processes – a-reactorexamplesvisuals</title>
+  <title>Chemical and Thermal Processes – intro1stlawvisuals</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,211 +127,362 @@
 
 
 <section>
-<section id="its-totally-tubular-man" class="title-slide slide level1 center">
-<h1>It’s Totally Tubular, Man!</h1>
-<div style="text-align: center;">
+<section id="just-try-to-break-this-law-i-dare-you" class="title-slide slide level1 center">
+<h1>Just <em>Try</em> to Break This Law! I Dare You!</h1>
+<div style="text-align: center; font-size: 120px;">
 <p>DOFPro Team</p>
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: -55%; left: 22%; "></p>
 </section>
-<section id="chem.-reactor-example" class="slide level2">
-<h2>Chem. Reactor Example</h2>
-<p>The engineering team has designed a process for converting species <span class="math inline">\(\mathrm{A}\)</span> into a valuable product, species <span class="math inline">\(\mathrm{P}\)</span>, according to the reaction</p>
-<div class="fragment">
-<p><span class="math display">\[
-\mathrm{A+2B \rightarrow 2P}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>A kinetic study has shown that the reaction is 1st order in species <span class="math inline">\(\mathrm{A}\)</span> and in species <span class="math inline">\(\mathrm{B}\)</span>, so</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
--r_\mathrm{A} = k C_\mathrm{A} C_\mathrm{B}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>where</p>
-<p><span class="math display">\[
-k = k_0 e^{\frac{-E_a}{RT}} = 1 \times 10^{12} \mathrm{\frac{m^3}{mol \cdot s}} e^{\frac{-12,000}{T}}
-\]</span></p>
-</div>
-</section>
-<section id="chem.-reactor-example-cont." class="slide level2">
-<h2>Chem. Reactor Example (cont.)</h2>
-<div style="font-size: 95px;">
-<p>The plant is designed to feed the reactor with an aqueous solution of <span class="math inline">\(\mathrm{A}\)</span> and <span class="math inline">\(\mathrm{B}\)</span>, with <span class="math inline">\(C_\mathrm{A_0} = 1000\ \mathrm{mol/m^3}\)</span> and <span class="math inline">\(C_\mathrm{B_0} = 4000\ \mathrm{mol/m^3}\)</span> at a feed rate of <span class="math inline">\(200\ \mathrm{kg/min}\)</span>. <br><br></p>
-<div class="fragment">
-<p>Over the range of possible concentrations for <span class="math inline">\(\mathrm{A}\)</span>, <span class="math inline">\(\mathrm{B}\)</span>, and <span class="math inline">\(\mathrm{P}\)</span>, the density of the aqueous solution is <span class="math inline">\(1000\ \mathrm{kg/m^3}\)</span>. <br><br></p>
-</div>
-<div class="fragment">
-<p>The constraints from the separators and the recycle loop require that <span class="math inline">\(f_\mathrm{A}\)</span> be <span class="math inline">\(80\%\)</span>, and that the reactor temperature be <span class="math inline">\(60\ ^\circ \mathrm{C}\)</span>. <br><br></p>
-</div>
-<div class="fragment">
-<p>Design and compare a tubular reactor (PFR) and a mixed reactor (CSTR) to process the required flow and achieve the required conversion. For completeness, design a batch processing scheme with the same feed rate and temperature, where the batch switchover time (the time from one batch ending to the next batch starting) is 2 minutes.</p>
-</div>
-</div>
-</section>
-<section id="kinetics-solution" class="slide level2">
-<h2>Kinetics Solution</h2>
-<p>We need</p>
-<div class="fragment">
-<p><span class="math display">\[
-k = 1 \times 10^{12} \mathrm{\frac{m^3}{mol \cdot s}} e^{\frac{-12,000}{T}}
-\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-= 1 \times 10^{12}  e^{\frac{-12,000}{(60 +273.15)}} = 2.274 \times 10^{-4}\ \mathrm{\frac{m^3}{mol \cdot s}}
-\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
--r_\mathrm{A} = k C_\mathrm{A} C_\mathrm{B} = k C_\mathrm{A_0}(1-f_\mathrm{A})C_\mathrm{B_0}(1-f_\mathrm{B})
-\]</span></p>
-</div>
-<div class="fragment">
-<p>Since <span class="math inline">\(C_\mathrm{B_0} = 4 C_\mathrm{A_0}\)</span>, then <span class="math inline">\(\dot{n}_\mathrm{B_0} = 4 \dot{n}_\mathrm{A_0}\)</span>. The moles of <span class="math inline">\(\mathrm{B}\)</span> reacted or converted, <span class="math inline">\(\dot{n}_\mathrm{B_0} - \dot{n}_\mathrm{B}\)</span> equals twice the moles of <span class="math inline">\(\mathrm{A}\)</span> converted from stoichiometry, so</p>
-</div>
-</section>
-<section id="kinetics-solution-cont." class="slide level2">
-<h2>Kinetics Solution (cont.)</h2>
-<p><span class="math display">\[
-\dot{n}_{\mathrm{B}_0} - \dot{n}_\mathrm{B} = 2(\dot{n}_{\mathrm{A}_0} - \dot{n}_\mathrm{A})
-\]</span></p>
-<div class="fragment">
-<p><span class="math display">\[
-\frac{\dot{n}_{\mathrm{B}_0} - \dot{n}_\mathrm{B}}{\dot{n}_{\mathrm{B}_0}} = 2\frac{(\dot{n}_{\mathrm{A}_0} - \dot{n}_\mathrm{A})}{4 \dot{n}_\mathrm{A_0}}
-\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-f_\mathrm{B} = \frac{1}{2} f_\mathrm{A}
-\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
--r_\mathrm{A} = 4 k C_\mathrm{A_0}^2(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})
-\]</span></p>
-</div>
-<div class="fragment">
-<p>Also <span class="math display">\[
-\dot{V}_0 = \frac{\dot{m}}{\rho} = \frac{200\ \mathrm{\frac{kg}{min}}}{1000\ \mathrm{\frac{kg}{m^3}}} = 0.200\ \mathrm{\frac{m^3}{min}}
-\]</span></p>
-</div>
-</section>
-<section id="totally-tubular-solution" class="slide level2">
-<h2>Totally Tubular Solution</h2>
-<div style="font-size: 90px;">
-<p>The design equation for the PFR is</p>
-<div class="fragment">
-<p><span class="math display">\[
-\tau = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(-r_\mathrm{A})} = C_\mathrm{A_0} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{4 k C_\mathrm{A_0}^2(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})}
-\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-= \frac{1}{4 k C_\mathrm{A_0}} \int_0^{f_\mathrm{A}} \frac{df_\mathrm{A}}{(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})} = \frac{1}{2 k C_\mathrm{A_0}} \ln \frac{2-f_\mathrm{A}}{2(1-f_\mathrm{A})}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>For <span class="math inline">\(f_\mathrm{A} = 0.8\)</span>,</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-\tau = \frac{1}{2 k C_\mathrm{A_0}} \ln \frac{2-f_\mathrm{A}}{2(1-f_\mathrm{A})} = \frac{1}{2 \cdot 2.274 \times 10^{-4} \cdot 1000} \ln \frac{2-0.8}{2(1-0.8)}
-\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math inline">\(\tau = 2.416\ \mathrm{min}\)</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-\tau = \frac{V_R}{\dot{V_0}},\ \ \ V_R = \tau \dot{V_0} = 2.416\ \mathrm{min} \cdot 0.2\ \frac{\mathrm{m^3}}{\mathrm{min}} = 0.4831\ \mathrm{m^3}
-\]</span></p>
-</div>
-</div>
-</section>
-<section id="wishing-upon-a-cstr" class="slide level2">
-<h2>Wishing Upon a CSTR</h2>
-<div style="font-size: 85px;">
-<p>The design equation for a CSTR is</p>
-<div class="fragment">
-<p><br><span class="math display">\[
-\tau = \frac{C_\mathrm{A_0}f_\mathrm{A}}{{-r_\mathrm{A}}} = \frac{C_\mathrm{A_0}f_\mathrm{A}}{4 k C_\mathrm{A_0}^2(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})}= \frac{f_\mathrm{A}}{4 k C_\mathrm{A_0}(1-f_\mathrm{A})(1-\frac{f_\mathrm{A}}{2})}
-\]</span></p>
-</div>
-<div class="fragment">
-<p><br><span class="math display">\[
-\tau = \frac{0.8}{4 \cdot 2.274 \times 10^{-4} \cdot 1000 \cdot (1-0.8)(1 - 0.4)} = 7.329\ \mathrm{min}
-\]</span></p>
-</div>
-<div class="fragment">
-<p><br><span class="math display">\[
-\tau = \frac{V_R}{\dot{V}},\ \ \ V_R = \tau \dot{V} = 7.329\ \mathrm{min} \cdot 0.2\ \frac{\mathrm{m^3}}{\mathrm{min}} = 1.466\ \mathrm{m^3}
-\]</span></p>
-</div>
-</div>
-</section>
-<section id="batch-reactor" class="slide level2">
-<h2>Batch Reactor</h2>
-<div style="font-size: 96px;">
-<div class="fragment">
-<p>Since the feed and flow conditions are the same, the batch time will equal the space time for the PFR, so</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-t = 2.416\ \mathrm{min}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>The total processing time is the sum of the batch time and the switchover time</p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-t_\mathrm{total} = t + t_\mathrm{switchover} = 2.416 + 2 = 4.416\ \mathrm{min}
-\]</span></p>
-</div>
-<div class="fragment">
-<p>We have to process <span class="math inline">\(V = \dot{V} t_\mathrm{total} = 0.2 \cdot 4.416 = 0.8832\ \mathrm{m^3}\)</span> in the total time. We could build one reactor with that volume, or we could build two reactors with 1/2 that volume, and switch back and forth between them. Economics would determine the final choice based on capital costs and labor costs. The single reactor would probably, but not necessarily be the more economical.</p>
-</div>
-</div>
-</section>
-<section id="comparison" class="slide level2">
-<h2>Comparison</h2>
-<div style="font-size: 85px;">
+<section id="the-first-law-of-thermodynamics" class="slide level2">
+<h2>The First Law of Thermodynamics</h2>
 <ul>
-<li class="fragment">The PFR had a small space time and a smaller volume for the processing requirements than the CSTR. For any positive-order overall kinetics, the PFR will always have a smaller space time. The advantage grows as the fractional conversion increases.</li>
-<li class="fragment">The PFR required calculus, but the CSTR just needed algebra. This is a general result.</li>
-<li class="fragment">Because of the switchover time, and switchover labor, batch reactors are almost always more expensive than continuous reactors.</li>
-<li class="fragment">The extent of reaction could be calculated several different ways:
+<li class="fragment">An introduction to the First Law of Thermodynamics</li>
+<li class="fragment">The basics of doing energy balances
 <ul>
-<li class="fragment">From <span class="math inline">\(\dot{n}_\mathrm{A_0}\)</span> and <span class="math inline">\(\dot{n}_\mathrm{A}\)</span></li>
-<li class="fragment">From <span class="math inline">\(\dot{n}_\mathrm{B_0}\)</span> and <span class="math inline">\(\dot{n}_\mathrm{B}\)</span></li>
-<li class="fragment">From <span class="math inline">\(\dot{n}_\mathrm{P}\)</span></li>
-<li class="fragment">From the fractional conversions</li>
-<li class="fragment">As <span class="math inline">\(-r_\mathrm{A} V_R\)</span> for the CSTR</li>
+<li class="fragment">Steady-state open systems</li>
+<li class="fragment">Closed systems</li>
+<li class="fragment">Transient open systems.</li>
 </ul></li>
 </ul>
+</section>
+<section id="the-first-law-of-thermodynamics-1" class="slide level2">
+<h2>The First Law of Thermodynamics</h2>
+<p><em>Energy cannot be created or destroyed; it can only change form.</em></p>
+<div class="fragment">
+<p>The First Law is the General Balance Equation applied to energy.</p>
+</div>
+<div class="fragment">
+<div style="font-size: 95px;">
+<p><span class="math display">\[
+\mathrm{Input + Generation = Output + Consumption + Accumulation}
+\]</span></p>
+</div>
+</div>
+<div class="fragment">
+<p>Because energy cannot be created or destroyed, the generation and consumption terms must both be 0.</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\mathrm{Input = Output + Accumulation}
+\]</span></p>
+</div>
+<div class="fragment">
+<p>To determine the inputs, outputs and accumulation, we need to enumerate the most common forms of energy.</p>
+</div>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<p>For using the First Law in calculations, you must first define your system, and in particular your system boundary.</p>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Work, <span class="math inline">\(W\)</span>, is performed by a force acting through a distance. In differential form (thanks to the chemists):</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+-dW = Fdx.
+\]</span></p>
+</div>
+<div class="fragment">
+<p>For closed systems, work is energy crossing the system boundary due to deformation of the boundary.</p>
+</div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>If there is a pressure, <span class="math inline">\(P\)</span>, being exerted on the system by its surroundings over an area, <span class="math inline">\(A\)</span>, and the area is displaced by a distance, <span class="math inline">\(dx\)</span>, then we have:</p>
+</div>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<p><span class="math display">\[
+PA = F,\ \ \ \ -dW=Fdx=PAdx=P(Adx)=PdV
+\]</span></p>
+<div class="fragment">
+<p>or in integrated form</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+W = -\int P dV
+\]</span></p>
+</div>
+<div class="fragment">
+<p>Next is heat, <span class="math inline">\(Q\)</span>, which is energy crossing the system boundary due to a temperature difference.</p>
+</div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<div style="font-size: 85px;">
+<p>Thermodynamics was developed by engineers to describe heat engines (things that convert heat to work). They desired to put heat <em>in</em> and get work <em>out</em>, so historically, heat <em>into</em> a system was positive, and work <em>out</em> of a system was positive. Unfortunately, this concept was too confusing to the chemists. Therefore almost all chemical engineering texts now define heat or work <em>into</em> a system as <em>positive</em>, and heat or work <em>out</em> of a system as <em>negative</em>. Watch out when using Mechanical Engineering texts, since they have largely not made the switch.</p>
+</div>
+</div>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<p>Energy may be stored in things as</p>
+<div style="font-size: 80px;">
+<ul>
+<li class="fragment">Position in a conservative field (potential energy, <span class="math inline">\(E_p = mgz\)</span>)</li>
+<li class="fragment">Velocity in a reference frame (kinetic energy, <span class="math inline">\(E_k = mu^2/2\)</span>)</li>
+<li class="fragment">Microscopic vibrations, oscillations etc. (internal energy, <span class="math inline">\(U\)</span><sup>1</sup>).</li>
+</ul>
+<div class="fragment">
+<p>Note that for all of these energy forms, the value is relative to some 0 reference.</p>
+</div>
+<div class="fragment">
+<p>For a closed system the First Law can be written in differential form as</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\boxed{dU + dE_p+dE_k = dQ + dW}
+\]</span></p>
+</div>
+<div class="fragment">
+<p>or in integrated form as</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\boxed{\Delta U + \Delta E_p + \Delta E_k = Q + W}
+\]</span></p>
+</div>
+<div class="fragment">
+<p>Much of the work in a First Law problem is deciding which terms are zero or insignificant.</p>
+</div>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Because we are using <span class="math inline">\(V\)</span> and <span class="math inline">\(v\)</span> for other things, velocity is given the symbol, <span class="math inline">\(u\)</span>, and internal energy is given the symbol, <span class="math inline">\(U\)</span>. Don’t get them confused.</p></li></ol></aside></section>
+<section id="intensive-and-extensive-properties" class="slide level2">
+<h2>Intensive and Extensive Properties</h2>
+<p>A property of a substance that <em>does not</em> depend on the mass or moles of a substance is an <em>intensive</em> property (such as temperature, pressure, or composition).</p>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>A property of a substance that <em>does</em> depend on the mass or moles of a substance is an <em>extensive</em> property (such as volume, kinetic energy, or internal energy).</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>It is quite frequently useful to define an intensive property that is related to an extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume or specific internal energy,</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\hat{V} = \frac{V}{m},\ \ \ \ \hat{U}=\frac{U}{m}\]</span></p>
+</div>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<div style="font-size: 140px;">
+<p><strong>Enthalpy (pronounced <em>en-THAL-pee</em>)</strong></p>
+</div>
+<p><em>Enthalpy</em>, <span class="math inline">\(H\)</span>, is a defined quantity that is quite useful in simplifying formulas. It is defined as</p>
+<div class="fragment">
+<p><span class="math display">\[
+H \equiv U + PV
+\]</span></p>
+</div>
+<div class="fragment">
+<p>or in specific properties as</p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\hat{H} \equiv \hat{U} + P\hat{V}
+\]</span></p>
+</div>
+<div class="fragment">
+<p>One example where enthalpy is useful is where a closed system doesn’t change velocity or position and is maintained at constant pressure (like in a beaker in a laboratory).</p>
+</div>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<p>Under these conditions the First Law simplifies from</p>
+<div class="fragment">
+<p><span class="math display">\[
+\Delta U + \Delta E_p + \Delta E_k = Q + W
+\]</span></p>
+</div>
+<div class="fragment">
+<p>to</p>
+</div>
+<div class="fragment">
+<div style="font-size: 90px;">
+<p><span class="math display">\[
+\Delta U = U_\mathrm{final} - U_\mathrm{initial} = Q + W = Q - \int\limits_\mathrm{initial}^\mathrm{final} pdV = Q-P \int\limits_\mathrm{initial}^\mathrm{final} dV
+\]</span></p>
+</div>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+U_\mathrm{final} - U_\mathrm{initial} = Q-P(V_\mathrm{final} - V_\mathrm{initial})
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+(U_\mathrm{final} + PV_\mathrm{final}) - (U_\mathrm{initial} + PV_\mathrm{initial}) = Q
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\Delta H = Q
+\]</span></p>
+</div>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+<p>For an <strong>open steady-state system</strong>, all of the quantities are expressed as rates (with the dot)</p>
+<div class="fragment">
+<p><span class="math display">\[
+\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}
+\]</span></p>
+</div>
+<div class="fragment">
+<p>The work is normally divided up into:</p>
+</div>
+<ul>
+<li class="fragment"><em>shaft work</em>, work done by or on a shaft crossing the system boundary, such as to a turbine (electricity counts),</li>
+<li class="fragment"><em>flow work</em>, work done on or by the system to push the flowing fluid into or out of the system.</li>
+</ul>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{W} =  \dot{W}_\mathrm{s} + \dot{W}_\mathrm{fl}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\dot{W}_\mathrm{fl} = -\sum_\mathrm{outputs} P_{i}\dot{V}_i + \sum_\mathrm{inputs}P_{j}\dot{V}_j
+\]</span></p>
+</div>
+</section>
+<section id="section-6" class="slide level2">
+<h2></h2>
+<p>If one starts with the first law for an open steady-state system,</p>
+<div class="fragment">
+<p><span class="math display">\[
+\Delta \dot{U} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}
+\]</span></p>
+</div>
+<div class="fragment">
+<div style="font-size: 95px;">
+<p>and separates the work into shaft work and flow work, and combines the flow work with the internal energy, one arrives at</p>
+</div>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\boxed{\Delta \dot{H} + \Delta \dot{E}_p + \Delta \dot{E}_k = \dot{Q} + \dot{W}_\mathrm{s}}
+\]</span></p>
+</div>
+<div class="fragment">
+<p>which is the normal version of the first law for an open steady-state system.</p>
+</div>
+<div style="font-size: 40px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p><strong>Remember</strong> <span class="math inline">\(\Delta\)</span> means <em>final</em> – <em>initial</em> for closed systems and<br> <em>out – in</em> for open systems. If you have multiple streams, you must sum over all of the streams.</p>
+</div>
+</section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+<p>For an <strong>open transient system</strong>, the first law is</p>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<div style="font-size: 75px;">
+<p><span class="math display">\[
+\boxed{\frac{d}{dt} (U + E_k + E_p)_\mathrm{control\ volume} = \sum \dot{Q}_i + \sum \dot{W}_i - (\Delta \dot{H} + \Delta{E}_k + \Delta \dot{E}_p)_\mathrm{flow\ streams}}
+\]</span></p>
+</div>
+</div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>which on a mass basis is</p>
+</div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<div style="font-size: 66px;">
+<p><span class="math display">\[
+\boxed{\frac{d}{dt}[m(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_{i} + \sum_\mathrm{in} \dot{m}_{i}(\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{m}_{i} (\hat{H} + \hat{E}_k + \hat{E}_{p})}
+\]</span></p>
+</div>
+</div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div class="fragment">
+<p>or on a mole basis is</p>
+</div>
+<div style="font-size: 60px;">
+<p><br></p>
+</div>
+<div style="font-size: 67px;">
+<div class="fragment">
+<p><span class="math display">\[
+\boxed{\frac{d}{dt}[n(\hat{U} + \hat{E}_k + \hat{E}_p)]_\mathrm{c.v.} = \sum \dot{Q}_i + \sum \dot{W}_i + \sum_\mathrm{in} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p) - \sum_\mathrm{out} \dot{n}_i (\hat{H} + \hat{E}_k + \hat{E}_p)}
+\]</span></p>
+</div>
+</div>
+</section>
+<section id="simplifications" class="slide level2">
+<h2>Simplifications</h2>
+<p>These simplifications are exact, there is no approximation involved.</p>
+<ul>
+<li class="fragment">No change in elevation, then <span class="math inline">\(\Delta E_p = 0\)</span></li>
+<li class="fragment">No change in velocity, then <span class="math inline">\(\Delta E_k = 0\)</span></li>
+<li class="fragment">Adiabatic or insulated, then <span class="math inline">\(Q=0\)</span></li>
+<li class="fragment">Volume remains constant, closed system, then <span class="math inline">\(W=0\)</span></li>
+<li class="fragment">No shafts cross boundary e.g., from a turbine, compressor, or pump, open system, then <span class="math inline">\(\dot{W}_s = 0\)</span></li>
+<li class="fragment">Ideal gas, no chemical reaction, <span class="math inline">\(T\)</span> = const., then <span class="math inline">\(\Delta U = 0\)</span>, <span class="math inline">\(\Delta H = 0\)</span></li>
+</ul>
+</section>
+<section id="approximations" class="slide level2">
+<h2>Approximations</h2>
+<p>These approximations are usually pretty good, but recognize that they are approximations.<br><br></p>
+<ul>
+<li class="fragment"><p>Evaporation, Condensation, Chemical Reaction, Large Temperature Changes, then <span class="math inline">\(\Delta E_k \approx 0, \Delta E_p \approx 0, W \approx 0\)</span><br><br></p></li>
+<li class="fragment"><p>Solid or liquid, no chemical reaction, <span class="math inline">\(T = \mathrm{constant}\)</span>, <span class="math inline">\(\Delta P = \mathrm{small}\)</span>, then <span class="math inline">\(\Delta U \approx 0\)</span>, <span class="math inline">\(\Delta H \approx 0\)</span></p></li>
+</ul>
+</section>
+<section id="remember" class="slide level2">
+<h2>Remember</h2>
+<p><br><span class="math inline">\(\Delta\)</span> means <em>final-initial</em> or <em>out-in</em></p>
+<div class="fragment">
+<p><br><strong>State Variable:</strong> Value depends only on location or “<em>state.</em>” Does not depend on path.</p>
+<p>Common State Variables: <span class="math inline">\(H\)</span>, <span class="math inline">\(T\)</span>, <span class="math inline">\(U\)</span>, <span class="math inline">\(V\)</span>, <span class="math inline">\(m\)</span>, etc.</p>
+</div>
+<div class="fragment">
+<p><br><strong>Path Variable:</strong> Value depends only on path. Does not depend on location.</p>
+<p>Common Path Variables: <span class="math inline">\(Q\)</span>, <span class="math inline">\(W\)</span>.</p>
 </div>
 </section>
 <section id="the-takeaways" class="slide level2">
 <h2>The Takeaways</h2>
 <ol type="1">
-<li class="fragment">Usually the PFR had a smaller space time and a smaller volume for the processing requirements than the CSTR.</li>
-<li class="fragment">CSTR calculations don’t require calculus.</li>
-<li class="fragment">Batch reactors require accounting for switchover times.</li>
+<li class="fragment">The First Law of Thermodynamics states that energy cannot be created or destroyed. It can only change form.</li>
+<li class="fragment">You can always rederive the forms, but it’s best to memorize the First Law for closed systems, open steady-state systems, and open transient systems.</li>
+<li class="fragment">Much of the work in a First-Law problem is deciding which terms to keep and which to set to zero.</li>
 </ol>
 </section></section>
-<section id="section" class="title-slide slide level1 center">
-<h1></h1>
-<div class="centered">
-<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
+<section id="section-8" class="title-slide slide level1 center">
+<h1><!-- Approved Plain End --></h1>
+<div class="centered bigger">
+<p><br><br><br><br><br><strong>Thanks for watching!</strong> <br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.</p>
 </div>
-<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
+<div class="absolute" style="font-size: 110px;top: 125%; left: 38%; ">
+<p>The DOFPro Team</p>
+</div>
+<p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 25.25%; width: 1494px; height: 364px; "> <!-- ****************************END Regular Intro/Outro ************************* --></p>
 
 
 </section>
+
+
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped_Logo.png" class="slide-logo"></p>
