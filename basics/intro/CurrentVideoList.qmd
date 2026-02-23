@@ -81,7 +81,7 @@ Links to the current videos on YouTube will be maintained here. These are curren
 | 104| Germain Hess and the Enthalpy of Doom  | [Link](https://youtu.be/qdgH4v64vOQ) | No | [Page] | Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$ |
 |106| Chemical Reactions vs. The First Law: Who Wins?  | [Link](https://youtu.be/mFF5hDHclPE) | No | [Page] | Forms of the 1^st^ Law for Chemical Reactions|
 | 110| Fueling the Fire: The Shocking Truth About Combustion Reactions! | [Link](https://youtu.be/lW5dK-F6H3U) | No | [Page] | Common fuels, Heats of Combustion, HHV, LHV |
-|111| React Hard: The First Law Gets Chemical | [Link](https://youtu.be/KA0aw-KbAR4) | No | [Page] | Example of the 1^st^ Law for Chemical Reactions |
+|111| React Hard: The First Law Gets Chemical | [Link](https://youtu.be/q-W5Y1d85go) | No | [Page] | Example of the 1^st^ Law for Chemical Reactions |
 |112| React Harder: Formation Heats and Alternate Endings | [Link](https://youtu.be/iqxJP6g-Qsc) | No | [Page] | 2 more Examples of the 1^st^ Law for Chemical Reactions |
 |113| Resistance is Futile. Entropy Always Wins | [Link](https://youtu.be/yqVUz1WA7M4) | No | [Page] | Intro to 2^nd^ Law |
 | 115| The ΔS-sentials of Calculating Entropy Changes  | [Link](https://youtu.be/z2e5Rq5r288) | No | [Page] | Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam |
