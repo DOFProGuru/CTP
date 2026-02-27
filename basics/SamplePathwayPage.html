@@ -8,7 +8,7 @@
 
 <meta name="author" content="DOFPro group">
 
-<title>Using DWSIM to Create Binary Phase Diagrams Reference Page – Chemical and Thermal Processes</title>
+<title>Sample Pathway Page – Chemical and Thermal Processes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-d42b789bfe4379c020f43340d7c5bf08.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d42b789bfe4379c020f43340d7c5bf08.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,8 +70,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,8 +111,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://dofpro.org" class="navbar-brand navbar-brand-logo">
-    <img src="../../DOFPro_D7_White_Red_Flame_No_Background_Cropped.png" alt="DOFPro Logo" class="navbar-logo light-content">
-    <img src="../../DOFPro_D7_White_Red_Flame_No_Background_Cropped.png" alt="DOFPro Logo" class="navbar-logo dark-content">
+    <img src="../DOFPro_D7_White_Red_Flame_No_Background_Cropped.png" alt="DOFPro Logo" class="navbar-logo light-content">
+    <img src="../DOFPro_D7_White_Red_Flame_No_Background_Cropped.png" alt="DOFPro Logo" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="https://dofpro.org">
     <span class="navbar-title">Chemical and Thermal Processes</span>
@@ -96,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="../../basics/"> 
+    <a class="nav-link" href="../basics/"> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -105,23 +134,23 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-overview">    
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../basics/intro/IntroTopicsWebPage.html">
+    <a class="dropdown-item" href="../basics/intro/IntroTopicsWebPage.html">
  <span class="dropdown-text">Intro and Disciplines</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../basics/stats/StatsMeasurementsWebPage.html">
+    <a class="dropdown-item" href="../basics/stats/StatsMeasurementsWebPage.html">
  <span class="dropdown-text">Statistics &amp; Measurements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../basics/calculations/CalculationsWebPage.html">
+    <a class="dropdown-item" href="../basics/calculations/CalculationsWebPage.html">
  <span class="dropdown-text">Calculations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../basics/processdata/ProcessDataWebPage.html">
+    <a class="dropdown-item" href="../basics/processdata/ProcessDataWebPage.html">
  <span class="dropdown-text">Process Data &amp; Variables</span></a>
   </li>  
     </ul>
@@ -132,37 +161,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-balances">    
         <li>
-    <a class="dropdown-item" href="../../balances/general/">
+    <a class="dropdown-item" href="../balances/general/">
  <span class="dropdown-text">General</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../balances/material/">
+    <a class="dropdown-item" href="../balances/material/">
  <span class="dropdown-text">Material</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../balances/energy/">
+    <a class="dropdown-item" href="../balances/energy/">
  <span class="dropdown-text">Energy</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../balances/entropy/">
+    <a class="dropdown-item" href="../balances/entropy/">
  <span class="dropdown-text">Entropy</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../balances/exergy/">
+    <a class="dropdown-item" href="../balances/exergy/">
  <span class="dropdown-text">Exergy</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../phase/"> 
+    <a class="nav-link" href="../phase/"> 
 <span class="menu-text">Phase Equilibria</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../react/"> 
+    <a class="nav-link" href="../react/"> 
 <span class="menu-text">Reactors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../appx/"> 
+    <a class="nav-link" href="../appx/"> 
 <span class="menu-text">Appendices</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -196,20 +225,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#intro-to-using-dwsim-to-create-binary-phase-diagramstitle" id="toc-intro-to-using-dwsim-to-create-binary-phase-diagramstitle" class="nav-link active" data-scroll-target="#intro-to-using-dwsim-to-create-binary-phase-diagramstitle">Intro to <em>Using DWSIM to Create Binary Phase DiagramsTitle</em></a>
+  <li><a href="#the-full-video-set" id="toc-the-full-video-set" class="nav-link active" data-scroll-target="#the-full-video-set">The Full Video Set</a>
   <ul class="collapse">
-  <li><a href="#using-dwsim-to-create-binary-phase-diagrams" id="toc-using-dwsim-to-create-binary-phase-diagrams" class="nav-link" data-scroll-target="#using-dwsim-to-create-binary-phase-diagrams">Using DWSIM to Create Binary Phase Diagrams</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#visualize-and-calculate" id="toc-visualize-and-calculate" class="nav-link" data-scroll-target="#visualize-and-calculate">Visualize and Calculate</a></li>
+  <li><a href="#engineering-statistics" id="toc-engineering-statistics" class="nav-link" data-scroll-target="#engineering-statistics">Engineering Statistics</a></li>
+  <li><a href="#process-data" id="toc-process-data" class="nav-link" data-scroll-target="#process-data">Process Data</a></li>
+  <li><a href="#the-general-balance-equation" id="toc-the-general-balance-equation" class="nav-link" data-scroll-target="#the-general-balance-equation">The General Balance Equation</a></li>
+  <li><a href="#process-flow-diagrams" id="toc-process-flow-diagrams" class="nav-link" data-scroll-target="#process-flow-diagrams">Process Flow Diagrams</a></li>
+  <li><a href="#chemical-reactors" id="toc-chemical-reactors" class="nav-link" data-scroll-target="#chemical-reactors">Chemical Reactors</a></li>
+  <li><a href="#liquid-and-gas-properties" id="toc-liquid-and-gas-properties" class="nav-link" data-scroll-target="#liquid-and-gas-properties">Liquid and Gas Properties</a></li>
+  <li><a href="#multiphase-equilibria" id="toc-multiphase-equilibria" class="nav-link" data-scroll-target="#multiphase-equilibria">Multiphase Equilibria</a></li>
+  <li><a href="#the-first-law-for-non-reactive-systems" id="toc-the-first-law-for-non-reactive-systems" class="nav-link" data-scroll-target="#the-first-law-for-non-reactive-systems">The FIrst Law for Non-Reactive Systems</a></li>
+  <li><a href="#the-first-law-for-reactive-systems" id="toc-the-first-law-for-reactive-systems" class="nav-link" data-scroll-target="#the-first-law-for-reactive-systems">The First Law for Reactive Systems</a></li>
+  <li><a href="#the-second-law" id="toc-the-second-law" class="nav-link" data-scroll-target="#the-second-law">THe Second Law</a></li>
+  <li><a href="#the-combined-1st-and-2nd-laws" id="toc-the-combined-1st-and-2nd-laws" class="nav-link" data-scroll-target="#the-combined-1st-and-2nd-laws">The Combined 1st and 2nd Laws</a></li>
   </ul></li>
-  <li><a href="#examples-and-definitions" id="toc-examples-and-definitions" class="nav-link" data-scroll-target="#examples-and-definitions">Examples and Definitions</a>
-  <ul class="collapse">
-  <li><a href="#examples-links" id="toc-examples-links" class="nav-link" data-scroll-target="#examples-links">Examples Links</a></li>
-  <li><a href="#definitions" id="toc-definitions" class="nav-link" data-scroll-target="#definitions">Definitions</a></li>
-  </ul></li>
-  <li><a href="#other-links-and-videos" id="toc-other-links-and-videos" class="nav-link" data-scroll-target="#other-links-and-videos">Other Links and Videos</a>
-  <ul class="collapse">
-  <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
-  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a></li>
-  </ul></li>
+  <li><a href="#pathways-through-the-videos" id="toc-pathways-through-the-videos" class="nav-link" data-scroll-target="#pathways-through-the-videos">Pathways Through the Videos</a></li>
   </ul>
 </nav>
     </div>
@@ -218,7 +250,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><em>Using DWSIM to Create Binary Phase Diagrams</em> Reference Page</h1>
+<h1 class="title">Sample Pathway Page</h1>
 </div>
 
 
@@ -241,49 +273,63 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled" title="Still Under Construction!">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Still Under Construction!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This web page is just a bare outline. The complete details have not been filled in yet.</p>
-</div>
-</div>
-<section id="intro-to-using-dwsim-to-create-binary-phase-diagramstitle" class="level1">
-<h1>Intro to <em>Using DWSIM to Create Binary Phase DiagramsTitle</em></h1>
-<p>Main title explanation</p>
-<section id="using-dwsim-to-create-binary-phase-diagrams" class="level2">
-<h2 class="anchored" data-anchor-id="using-dwsim-to-create-binary-phase-diagrams">Using DWSIM to Create Binary Phase Diagrams</h2>
-<p>Video 1 explanation</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5NUchIg8q7E?si=VRyVOkM4ANTQn37s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-</iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<section id="the-full-video-set" class="level1">
+<h1>The Full Video Set</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p><strong>From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering</strong><br><em>Intro to DOFPro CTP</em><br><a href="https://youtu.be/8FEmNkiU1Jk">Video</a>, <a href="../basics/intro/IntroTopicsWebPage.html">Info Page</a>, <a href="../basics/intro/1-MoleToMegawattVisuals.html">Visuals</a></p>
+</section>
+<section id="visualize-and-calculate" class="level2">
+<h2 class="anchored" data-anchor-id="visualize-and-calculate">Visualize and Calculate</h2>
+<p><strong>Is Your Process Data Spread Smooth or Chunky? Just the Facts</strong><br> <em>Data Visualization, linear and Log Coordinates</em><br> <a href="https://youtu.be/yFOrwNmEbPA">Video</a>, <a href="../basics/calculations/DataVisWebPage.html">Info Page</a>, <a href="../basics/calculations/DataVisJTFVisuals.html">Visuals</a></p>
+<p><strong>Is Your Process Data Spread Smooth or Chunky? The Full Story</strong><br> <em>Data Visualization, linear and Log Coordinates</em><br> <a href="https://youtu.be/VUyyEmif3fs">Video</a>, <a href="../basics/calculations/DataVisWebPage.html">Info Page</a>, <a href="../basics/calculations/DataVisTFSVisuals.html">Visuals</a></p>
+<p><strong>Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts</strong><br> <em>Linear Interpolation</em><br> <a href="https://youtu.be/VbnpWj9iYA">Video</a> , <a href="../basics/calculations/InterpolationWebPage.html">Info Page</a>, <a href="../basics/calculations/InterpolationJTFVisuals.html">Visuals</a></p>
+<p><strong>Interpol Is Late to a Mind-Blowing Math Hack, The Full Story</strong><br> <em>Linear Interpolation</em><br> <a href="https://youtu.be/pbDEc_Q862M">Video</a>, <a href="../basics/calculations/InterpolationWebPage.html">Info Page</a>, <a href="../basics/calculations/InterpolationTFSVisuals.html">Visuals</a></p>
+<p><strong>No Clear Interpretation a Mind-Blowing Math Hack</strong><br> <em>Nonlinear Interpolation</em><br> <a href="https://youtu.be/721FxKwDRAU">Video</a>, <a href="../basics/calculations/InterpolationWebPage.html">Info Page</a>, <a href="../basics/calculations/NLInterpolationJTFVisuals.html">Visuals</a></p>
+<p><strong>The Unauthorized Guide to Using Spreadsheets in Chemical Engineering</strong><br> <em>Spreadsheet Basics</em><br> <a href="https://youtu.be/5XMeQ6vWymA">Video</a>, <a href="../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="../basics/calculations/BasicSpreadsheetTechniquesJTFVisuals.html">Visuals</a></p>
+<p><strong>How to Have a Quickie with Your Data Part 1</strong><br> <em><span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S_{\bar{x}}\)</span>, Linear Least Squares</em><br> <a href="https://youtu.be/4EfhlWNDQ48">Video</a>, <a href="../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="../basics/calculations/Video25Visuals.html">Visuals</a></p>
+<p><strong>How to Have a Quickie with Your Data Part 2</strong><br> <em>Nonlinear least squares</em><br> <a href="https://youtu.be/dVmh0EdQT1U">Video</a>, <a href="../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="../basics/calculations/Video26Visuals.html">Visuals</a></p>
+<p><strong>Solving Nonlinear Equations with Spreadsheets</strong><br> <em>See Title</em><br> <a href="https://youtu.be/SaI2qdu1wSE">Video</a>, <a href="../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="../basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html">Visuals</a></p>
+</section>
+<section id="engineering-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="engineering-statistics">Engineering Statistics</h2>
+</section>
+<section id="process-data" class="level2">
+<h2 class="anchored" data-anchor-id="process-data">Process Data</h2>
+</section>
+<section id="the-general-balance-equation" class="level2">
+<h2 class="anchored" data-anchor-id="the-general-balance-equation">The General Balance Equation</h2>
+</section>
+<section id="process-flow-diagrams" class="level2">
+<h2 class="anchored" data-anchor-id="process-flow-diagrams">Process Flow Diagrams</h2>
+</section>
+<section id="chemical-reactors" class="level2">
+<h2 class="anchored" data-anchor-id="chemical-reactors">Chemical Reactors</h2>
+</section>
+<section id="liquid-and-gas-properties" class="level2">
+<h2 class="anchored" data-anchor-id="liquid-and-gas-properties">Liquid and Gas Properties</h2>
+</section>
+<section id="multiphase-equilibria" class="level2">
+<h2 class="anchored" data-anchor-id="multiphase-equilibria">Multiphase Equilibria</h2>
+</section>
+<section id="the-first-law-for-non-reactive-systems" class="level2">
+<h2 class="anchored" data-anchor-id="the-first-law-for-non-reactive-systems">The FIrst Law for Non-Reactive Systems</h2>
+</section>
+<section id="the-first-law-for-reactive-systems" class="level2">
+<h2 class="anchored" data-anchor-id="the-first-law-for-reactive-systems">The First Law for Reactive Systems</h2>
+</section>
+<section id="the-second-law" class="level2">
+<h2 class="anchored" data-anchor-id="the-second-law">THe Second Law</h2>
+</section>
+<section id="the-combined-1st-and-2nd-laws" class="level2">
+<h2 class="anchored" data-anchor-id="the-combined-1st-and-2nd-laws">The Combined 1st and 2nd Laws</h2>
 </section>
 </section>
-<section id="examples-and-definitions" class="level1">
-<h1>Examples and Definitions</h1>
-<section id="examples-links" class="level2">
-<h2 class="anchored" data-anchor-id="examples-links">Examples Links</h2>
-</section>
-<section id="definitions" class="level2">
-<h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
-</section>
-</section>
-<section id="other-links-and-videos" class="level1">
-<h1>Other Links and Videos</h1>
-<section id="other-links" class="level2">
-<h2 class="anchored" data-anchor-id="other-links">Other Links</h2>
-</section>
-<section id="previous-and-following-videos" class="level2">
-<h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
+<section id="pathways-through-the-videos" class="level1">
+<h1>Pathways Through the Videos</h1>
+<p><img src="intro/VideoPaths.png" class="img-fluid"></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

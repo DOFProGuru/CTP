@@ -8,7 +8,7 @@
 
 <meta name="author" content="DOFPro group">
 
-<title>Chemical and Thermal Processes</title>
+<title>Chemical Reactor Engineering Pathway – Chemical and Thermal Processes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -196,12 +225,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview-of-chemical-and-thermal-processes" id="toc-overview-of-chemical-and-thermal-processes" class="nav-link active" data-scroll-target="#overview-of-chemical-and-thermal-processes">Overview of Chemical and Thermal Processes</a>
+  <li><a href="#chemical-reactor-engineering" id="toc-chemical-reactor-engineering" class="nav-link active" data-scroll-target="#chemical-reactor-engineering">Chemical Reactor Engineering</a>
   <ul class="collapse">
-  <li><a href="#engineering-principles-discussed" id="toc-engineering-principles-discussed" class="nav-link" data-scroll-target="#engineering-principles-discussed">Engineering Principles Discussed</a></li>
-  <li><a href="#why-chemical-and-thermal-processes" id="toc-why-chemical-and-thermal-processes" class="nav-link" data-scroll-target="#why-chemical-and-thermal-processes">Why Chemical and Thermal Processes?</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#visualize-and-calculate" id="toc-visualize-and-calculate" class="nav-link" data-scroll-target="#visualize-and-calculate">Visualize and Calculate</a></li>
+  <li><a href="#types-of-process-data" id="toc-types-of-process-data" class="nav-link" data-scroll-target="#types-of-process-data">Types of Process Data</a></li>
+  <li><a href="#general-balances" id="toc-general-balances" class="nav-link" data-scroll-target="#general-balances">General Balances</a></li>
+  <li><a href="#unit-operations-and-pfds" id="toc-unit-operations-and-pfds" class="nav-link" data-scroll-target="#unit-operations-and-pfds">Unit Operations and PFDs</a></li>
+  <li><a href="#chemical-reactors" id="toc-chemical-reactors" class="nav-link" data-scroll-target="#chemical-reactors">Chemical Reactors</a></li>
+  <li><a href="#st-law-of-thermodynamics" id="toc-st-law-of-thermodynamics" class="nav-link" data-scroll-target="#st-law-of-thermodynamics">1<sup>st</sup> Law of Thermodynamics</a></li>
   </ul></li>
-  <li><a href="#pathways-through-the-videos" id="toc-pathways-through-the-videos" class="nav-link" data-scroll-target="#pathways-through-the-videos">Pathways Through the Videos</a></li>
   </ul>
 </nav>
     </div>
@@ -210,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Chemical and Thermal Processes</h1>
+<h1 class="title">Chemical Reactor Engineering Pathway</h1>
 </div>
 
 
@@ -233,70 +266,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview-of-chemical-and-thermal-processes" class="level1">
-<h1>Overview of Chemical and Thermal Processes</h1>
-<p>Chemical and Thermal Processes starts with the basics of stoichiometry and thermodynamics as covered in many Introduction to Chemical Engineering courses. It continues with topics typically covered in an advanced Engineering Thermodynamics course and in a Chemical Reactor Engineering course. The material is labeled as to whether it is introductory (Sophomore level), intermediate (Junior level) or advanced (Senior level).</p>
-<section id="engineering-principles-discussed" class="level2">
-<h2 class="anchored" data-anchor-id="engineering-principles-discussed">Engineering Principles Discussed</h2>
-<ul>
-<li>Engineering Basics
-<ul>
-<li>Statistics, Measurements, and Calculations</li>
-<li>Process Data and Variables, such as Pressure, Temperature, Mass, Moles, etc.</li>
-<li>Converting among systems of units</li>
-<li>Dimensionless numbers</li>
-</ul></li>
-<li>System Definition
-<ul>
-<li>Open or Closed</li>
-<li>Transient or Steady State</li>
-</ul></li>
-<li>Material Balances
-<ul>
-<li>Mass Balances</li>
-<li>Mole Balances</li>
-<li>Equations of State and Phase Equilibria</li>
-</ul></li>
-<li>Energy Balances or the 1st Law of Thermodynamics</li>
-<li>Entropy Balances or the 2nd Law of Thermodynamics</li>
-<li>Thermodynamic Efficiency and the Combined 1st and 2nd Laws</li>
-</ul>
+<section id="chemical-reactor-engineering" class="level1">
+<h1>Chemical Reactor Engineering</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p><strong>From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering</strong><br><em>Intro to DOFPro CTP</em><br><a href="https://youtu.be/8FEmNkiU1Jk">Video</a>, <a href="./basics/intro/IntroTopicsWebPage.html">Info Page</a>, <a href="./basics/intro/1-MoleToMegawattVisuals.html">Visuals</a></p>
 </section>
-<section id="why-chemical-and-thermal-processes" class="level2">
-<h2 class="anchored" data-anchor-id="why-chemical-and-thermal-processes">Why Chemical and Thermal Processes?</h2>
-<p>The principles in Chemical and Thermal Processes are applicable in</p>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Chemical_engineering">Chemical Engineering</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Petroleum_engineering">Petroleum Engineering</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Mechanical_engineering">Mechanical Engineering</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Materials_science">Materials Engineering</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Biological_engineering">Bioengineering</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Environmental_engineering">Environmental Engineering</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Energy_engineering">Energy Engineering</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Sustainability">Sustainability</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Manufacturing_engineering">Manufacturing Engineering</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Industrial_engineering">Industrial Engineering</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Marine_engineering">Marine</a> and <a href="https://en.wikipedia.org/wiki/Aerospace_engineering">Aerospace Engineering</a></li>
-</ul>
+<section id="visualize-and-calculate" class="level2">
+<h2 class="anchored" data-anchor-id="visualize-and-calculate">Visualize and Calculate</h2>
+<p><strong>Is Your Process Data Spread Smooth or Chunky? Just the Facts</strong><br><em>Data Visualization, linear and Log Coordinates</em><br><a href="https://youtu.be/yFOrwNmEbPA">Video</a>, <a href="./basics/calculations/DataVisWebPage.html">Info Page</a>, <a href="./basics/calculations/DataVisJTFVisuals.html">Visuals</a></p>
+<p><strong>Is Your Process Data Spread Smooth or Chunky? The Full Story</strong><br><em>Data Visualization, linear and Log Coordinates</em><br><a href="https://youtu.be/VUyyEmif3fs">Video</a>, <a href="./basics/calculations/DataVisWebPage.html">Info Page</a>, <a href="./basics/calculations/DataVisTFSVisuals.html">Visuals</a></p>
+<p><strong>Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts</strong><br><em>Linear Interpolation</em><br><a href="https://youtu.be/VbnpWj9iYAU">Video</a>, <a href="./basics/calculations/InterpolationWebPage.html">Info Page</a>, <a href="./basics/calculations/InterpolationJTFVisuals.html">Visuals</a></p>
+<p><strong>Interpol Is Late to a Mind-Blowing Math Hack, The Full Story</strong><br><em>Linear Interpolation</em><br><a href="https://youtu.be/pbDEc_Q862M">Video</a>, <a href="./basics/calculations/InterpolationWebPage.html">Info Page</a>, <a href="./basics/calculations/InterpolationTFSVisuals.html">Visuals</a></p>
+<p><strong>No Clear Interpretation a Mind-Blowing Math Hack</strong><br><em>Nonlinear Interpolation</em><br><a href="https://youtu.be/721FxKwDRAU">Video</a>, <a href="./basics/calculations/InterpolationWebPage.html">Info Page</a>, <a href="./basics/calculations/NLInterpolationJTFVisuals.html">Visuals</a></p>
+<p><strong>The Unauthorized Guide to Using Spreadsheets in Chemical Engineering</strong><br><em>Spreadsheet Basics</em><br><a href="https://youtu.be/5XMeQ6vWymA">Video</a>, <a href="./basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="./basics/calculations/BasicSpreadsheetTechniquesJTFVisuals.html">Visuals</a></p>
+<p><strong>How to Have a Quickie with Your Data Part 1</strong><br><em><span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S_{\bar{x}}\)</span>, Linear Least Squares</em><br><a href="https://youtu.be/4EfhlWNDQ48">Video</a>, <a href="./basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="./basics/calculations/Video25Visuals.html">Visuals</a></p>
+<p><strong>How to Have a Quickie with Your Data Part 2</strong><br><em>Nonlinear least squares</em><br><a href="https://youtu.be/dVmh0EdQT1U">Video</a>, <a href="./basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="./basics/calculations/Video26Visuals.html">Visuals</a></p>
+<p><strong>Solving Nonlinear Equations with Spreadsheets</strong><br><em>See Title</em><br><a href="https://youtu.be/SaI2qdu1wSE">Video</a>, <a href="./basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="./basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html">Visuals</a></p>
 </section>
+<section id="types-of-process-data" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-process-data">Types of Process Data</h2>
+<p><strong>Is Furlongs Per Fortnight a Thing?</strong><br><em>Unit Conversion</em><br><a href="https://youtu.be/5EbL9MEro9E">Video</a>, <a href="./basics/processdata/DimensionalEquationsWebPage.html">Info Page</a>, <a href="./basics/processdata/DimensionalEquationsJTFVisuals.html">Visuals</a></p>
+<p><strong>How Keen Is Your Rank? Just the Facts</strong><br><em>Temperature Conversion</em><br><a href="https://youtu.be/XKwl41MvFcE">Video</a>, <a href="./basics/processdata/ConvertingTemperatureWebPage.html">Info Page</a>, <a href="./basics/processdata/ConvertingTemperatureJTFVisuals.html">Visuals</a></p>
+<p><strong>How Keen Is Your Rank?, The Full Story</strong><br><em>Temperature Conversion</em><br><a href="https://youtu.be/hEtrCnIicqQ">Video</a>, <a href="./basics/processdata/ConvertingTemperatureWebPage.html">Info Page</a>, <a href="./basics/processdata/ConvertingTemperatureTFSVisuals.html">Visuals</a></p>
+<p><strong>The Most Annoying Equation Conversion</strong><br><em>Unit Conversion of Equations</em><br><a href="https://youtu.be/6dyg-CgAm8s">Video</a>, <a href="./basics/processdata/EquationConversionVideoInfoWebPage.html">Info Page</a>, <a href="./basics/processdata/EquationConversionJTFVisuals.html">Visuals</a></p>
+<p><strong>Where Does Sherwood Hide His Unit? Principles</strong><br><em>Dimensionless Numbers Principles</em><br><a href="https://youtu.be/A348vNv5t9c">Video</a>, <a href="./basics/processdata/DimensionlessNumbersVideoInfoWebPage.html">Info Page</a>, <a href="./basics/processdata/DimNumPart1JTFVisuals.html">Visuals</a></p>
+<p><strong>What the Schmidt? Examples</strong><br><em>Applications of Dimensionless Numbers</em><br><a href="https://youtu.be/74SD0k_qBc8">Video</a>, <a href="./basics/processdata/DimensionlessNumbersVideoInfoWebPage.html">Info Page</a>, <a href="./basics/processdata/DimNumPart2JTFVisuals.html">Visuals</a></p>
+<p><strong>Is It Hot in Here, or Is It Just My Thermistor?</strong><br><em>Thermistors, Thermocouples, and other Temperature Sensors</em><br><a href="https://youtu.be/TncEECvmw8Y">Video</a>, <a href="./basics/processdata/ConvertingTemperatureWebPage.html">Info Page</a>, <a href="./basics/processdata/32-MeasuringTemperatureVisuals.html">Visuals</a></p>
+<p><strong>Under Pressure Part 1, Just the Facts</strong><br><em>Pressure Basics</em><br><a href="https://youtu.be/9gbOE5zEt4o">Video</a>, <a href="./basics/processdata/PressureWebPage.html">Info Page</a>, <a href="./basics/processdata/PressurePt1JTFVisuals.html">Visuals</a></p>
+<p><strong>Under Pressure Part 1, The Full Story</strong><br><em>Pressure Basics</em><br><a href="https://youtu.be/D-UAHVi4a2U">Video</a>, <a href="./basics/processdata/PressureWebPage.html">Info Page</a>, <a href="./basics/processdata/PressurePt1TFSVisuals.html">Visuals</a></p>
+<p><strong>Under Pressure Part 2, Just the Facts</strong><br><em>Abs., Atm., Gauge, Barometric Pressure</em><br><a href="https://youtu.be/CR3MomWlqb8">Video</a>, <a href="./basics/processdata/PressureWebPage.html">Info Page</a>, <a href="./basics/processdata/PressurePt2JTFVisuals.html">Visuals</a></p>
+<p><strong>Under Pressure Part 2, The Full Story</strong><br><em>Abs., Atm., Gauge, Barometric Pressure</em><br><a href="https://youtu.be/41axc-xnqsQ">Video</a>, <a href="./basics/processdata/PressureWebPage.html">Info Page</a>, <a href="./basics/processdata/PressurePt2TFSVisuals.html">Visuals</a></p>
+<p><strong>What is a Mole? Just the Facts</strong><br><em>What a mole is</em><br><a href="https://youtu.be/wbEkZmjNtwI">Video</a>, <a href="./basics/processdata/WhatIsAMoleWebPage.html">Info Page</a>, <a href="./basics/processdata/WhatIsAMoleJTFVisuals.html">Visuals</a></p>
+<p><strong>What is a Mole? The Full Story</strong><br><em>What a mole is</em><br><a href="https://youtu.be/CvRsRlpKll8">Video</a>, <a href="./basics/processdata/WhatIsAMoleWebPage.html">Info Page</a>, <a href="./basics/processdata/WhatIsAMoleVisuals.html">Visuals</a></p>
+<p><strong>What the Frac?</strong><br><em>Mass, Moles, Mass Fractions, Mole Fractions</em><br><a href="https://youtu.be/qJERzRm7xc0">Video</a>, <a href="./basics/processdata/WhatIsAMoleWebPage.html">Info Page</a>, <a href="./basics/processdata/MassMolesJTFVisuals.html">Visuals</a></p>
+<p><strong>Are You Dense? Crank Up the Volume and Go With the Flow! Just the Facts</strong><br><em>Mass, Moles, Density, Volume, and Flow Rates</em><br><a href="https://youtu.be/AFZWZSJ96g8">Video</a>, <a href="./basics/processdata/DensityVolumeFlowVideoInfoWebPage.html">Info Page</a>, <a href="./basics/processdata/VolumeDensityFlowRateJTFVisuals.html">Visuals</a></p>
+<p><strong>Are You Dense? Crank Up the Volume and Go With the Flow!, The Full Story</strong><br><em>Mass, Moles, Density, Volume, and Flow Rates</em><br><a href="https://youtu.be/2-EWSUW4BJU">Video</a>, <a href="./basics/processdata/DensityVolumeFlowVideoInfoWebPage.html">Info Page</a>, <a href="./basics/processdata/VolumeDensityFlowRateTFSVisuals.html">Visuals</a></p>
 </section>
-<section id="pathways-through-the-videos" class="level1">
-<h1>Pathways Through the Videos</h1>
-<p>As explained in the introductory video <a href="https://youtu.be/8FEmNkiU1Jk">From Mole to Megawatt</a>, we have arranged several different pathways through the videos. The current pathways are:</p>
-<ul>
-<li><a href="./pathway1.html">The Full Video Set</a></li>
-<li><a href="./pathway2.html">Intro to Chemical Engineering</a></li>
-<li><a href="./pathway3.html">Mechanical Engineering Thermodynamics</a></li>
-<li><a href="./pathway4.html">Spreadsheets</a></li>
-<li><a href="./pathway5.html">Chemical Reactor Engineering</a></li>
-</ul>
-<p><a href="./pathway1.html">The Full Video Set</a> has the full set of videos arranged in the order that seemed most logical for someone wanting to watch all the videos.</p>
-<p><a href="./pathway2.html">Intro to Chemical Engineering</a> is a pathway through the videos for someone taking a typical Introduction to Chemical Engineering course.</p>
-<p><a href="./pathway3.html">Mechanical Engineering Thermodynamics</a> is a pathway through the videos for someone taking a typical Mechanical Engineering Thermodynamics course.</p>
-<p><a href="./pathway4.html">Spreadsheets</a> is a pathway through the videos that focus on using spreadsheets for engineering calculations, along with an introduction to DWSIM, a free and open source process simulator.</p>
-<p><a href="./pathway5.html">Chemical Reactor Engineering</a> is a introductory pathway through the videos that focus on chemical reactors, including material balances, energy balances, and thermodynamics of chemical reactions. We hope to have a more advanced set of videos in time, but for now follow <a href="https://pages.hmc.edu/spjut/E133/index.md.html">this link</a> to the course website for Engineering 133, Chemical Reaction Engineering, from Fall 2023. The material is based on a copyrighted textbook, and no effort has been made to convert things to Creative Commons or Open Source, but we hope you find the material useful in the meantime.</p>
+<section id="general-balances" class="level2">
+<h2 class="anchored" data-anchor-id="general-balances">General Balances</h2>
+<p><strong>How to Keep Your Balance</strong><br><em>System Definition and the General Balance Equation</em><br><a href="https://youtu.be/-fjXc-Upxx4">Video</a>, <a href="./balances/general/index.html">Info Page</a>, <a href="./balances/general/KeepYourBalanceJTFVisuals.html">Visuals</a></p>
+<p><strong>Speed Balancing</strong><br><em>General Balance Equation Definitions and Suggestions</em><br><a href="https://youtu.be/Pmp2IxgL9FM">Video</a>, <a href="./balances/general/index.html">Info Page</a>, <a href="./balances/general/SpeedBalancingJTFVisuals.html">Visuals</a></p>
+</section>
+<section id="unit-operations-and-pfds" class="level2">
+<h2 class="anchored" data-anchor-id="unit-operations-and-pfds">Unit Operations and PFDs</h2>
+<p><strong>Gotta Keep ’Em Separated</strong><br><em>Mixer, Divider, and Separator mole balances</em><br><a href="https://youtu.be/pRg1m0_9Psg">Video</a>, <a href="./balances/material/MixDivideSeparateVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/40-UnitOpsMixDivSepVisuals.html">Visuals</a></p>
+<p><strong>When You Saw It, What Was the Extent of Your Reaction? Part 1</strong><br><em>Chemical Reactor Single Reaction, <span class="math inline">\(\xi\)</span> and <span class="math inline">\(f_{\mathrm{A}}\)</span></em><br><a href="https://youtu.be/HKYYp5UxwpA">Video</a>, <a href="./balances/material/FractionalConversionReactorsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/41-UnitOpsReactPart1Visuals.html">Visuals</a></p>
+<p><strong>When You Saw It, What Was the Extent of Your Reaction? Part 2</strong><br><em>Chemical Reactor Multiple Reactions with Example, <span class="math inline">\(\xi\)</span> and <span class="math inline">\(f_{\mathrm{A}}\)</span></em><br><a href="https://youtu.be/XmLXR_KOZMk">Video</a>, <a href="./balances/material/FractionalConversionReactorsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/42-UnitOpsReactPart2Visuals.html">Visuals</a></p>
+<p><strong>When You Saw It, What Was the Extent of Your Reaction? Part 3</strong><br><em>Chemical Reactor Yield and Selectivity</em><br><a href="https://youtu.be/PPi-ka3iRvI">Video</a>, <a href="./balances/material/FractionalConversionReactorsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/42.5-UnitOpsReactPart3Visuals.html">Visuals</a></p>
+<p><strong>Recycling Before Recycling Was Cool</strong><br><em>Basics of recycle</em><br><a href="https://youtu.be/R7tIQyBUWn8">Video</a>, <a href="./balances/material/RecyclingBypassVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/43-RecycleBypassPartVisuals.html">Visuals</a></p>
+<p><strong>Leaving Radiator Springs In the Dust</strong><br><em>Basics of bypass and a recycle example</em><br><a href="https://youtu.be/tjzDu7_n-NI">Video</a>, <a href="./balances/material/RecyclingBypassVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/44-RecycleBypassPart2Visuals.html">Visuals</a></p>
+<p><strong>The Symbolic Meaning of Recycling</strong><br><em>Analytic solution of a recycle PFD</em><br><a href="https://youtu.be/CF18jpqZzgc">Video</a>, <a href="./balances/material/RecyclingBypassVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/45-RecycleSymbSolVisuals.html">Visuals</a></p>
+</section>
+<section id="chemical-reactors" class="level2">
+<h2 class="anchored" data-anchor-id="chemical-reactors">Chemical Reactors</h2>
+<p><strong>How Did You Think I Would React?</strong><br><em>Basic Kinetic Reactor Mole Balance</em><br><a href="https://youtu.be/_qxHszVZYGk">Video</a>, <a href="./balances/material/KineticReactorsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/46-KineticsIntroJTFVisuals.html">Visuals</a></p>
+<p><strong>Wishing Upon a CSTR</strong><br><em>Batch, CSTR, PFR</em><br><a href="https://youtu.be/6tnVFq7dSbE">Video</a>, <a href="./balances/material/KineticReactorsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/47-BatchCSTRPFRIntroVisuals.html">Visuals</a></p>
+<p><strong>It’s Totally Tubular, Man!</strong><br><em>CSTR, PFR, Batch Example</em><br><a href="https://youtu.be/OAzXx9Kq2nU">Video</a>, <a href="./balances/material/KineticReactorsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/47.5-ReactorExamplesVisuals.html">Visuals</a></p>
+<p><strong>React But Maintain Your Equilibrium Part 1</strong><br><em>Basics of equilibrium reactors</em><br><a href="https://youtu.be/0GS8XEHRBMk">Video</a>, <a href="./balances/material/EquilibriumReactorsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/54-EquilReact1Visuals.html">Visuals</a></p>
+<p><strong>React But Maintain Your Equilibrium Part 2</strong><br><em>Equilibrium reactor example</em><br><a href="https://youtu.be/GI8tuSRrIcc">Video</a>, <a href="./balances/material/EquilibriumReactorsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/55-EquilReact2Visuals.html">Visuals</a></p>
+<p><strong>Flame On, Torch!</strong><br><em>Combustion reactions</em><br><a href="https://youtu.be/G2sKW_6N2BA">Video</a>, <a href="./balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/59-CombRxnsPart1Visuals.html">Visuals</a></p>
+<p><strong>A Combustible Mixture!</strong><br><em>Sample combustion reactions</em><br><a href="https://youtu.be/hvIk-evMp88">Video</a>, <a href="./balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/material/60-CombRxnsPart2Visuals.html">Visuals</a></p>
+</section>
+<section id="st-law-of-thermodynamics" class="level2">
+<h2 class="anchored" data-anchor-id="st-law-of-thermodynamics">1<sup>st</sup> Law of Thermodynamics</h2>
+<p><strong>Just Try to Break This Law! I Dare You!</strong><br><em>Intro to 1st Law</em><br><a href="https://youtu.be/ZHWT9Jw7fzY">Video</a>, <a href="./balances/energy/Intro1stLawVideoInfoWebPage.html">Info Page</a>, <a href="./balances/energy/89-Intro1stLawVisuals.html">Visuals</a></p>
+<p><strong>Add Friction and Work to Bernoulli? Here’s What Really Happens!</strong><br><em>The Mechanical Energy Balance and the Moody Chart</em><br><a href="https://youtu.be/Da48oZb9oNw">Video</a>, <a href="./balances/energy/MechanicalEnergyBalanceVideoInfoWebPage.html">Info Page</a>, <a href="./balances/energy/90-MechEngBalVisuals.html">Visuals</a></p>
+<p><strong>Reference Not Found: Mixing, Dissolving, and Changing the Rules</strong><br><em><span class="math inline">\(\Delta H_m\)</span>, <span class="math inline">\(\Delta H_s\)</span></em><br><a href="https://youtu.be/ggU692PLWts">Video</a>, <a href="./balances/energy/HeatsOfMixingVideoInfoWebPage.html">Info Page</a>, <a href="./balances/energy/98-ReferenceStatesVIsuals.html">Visuals</a></p>
+<p><strong>The Isochronicles: This First Law Saga Is a Gas</strong><br><em>The 1<sup>st</sup> Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes</em><br><a href="https://youtu.be/iKsR3v1wu30">Video</a>, <a href="./balances/energy/The1stLawForIdealGases.html">Info Page</a>, <a href="./balances/energy/102-1stLawIdealGasesVisuals.html">Visuals</a></p>
+<p><strong>Germain Hess and the Enthalpy of Doom</strong><br><em>Hess’s Law and <span class="math inline">\(\Delta \hat{H}^\circ_f\)</span>, <span class="math inline">\(\Delta \hat{H}^\circ_r\)</span>, and <span class="math inline">\(\Delta \hat{H}c\)</span></em><br><a href="https://youtu.be/qdgH4v64vOQ">Video</a>, <a href="./balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.html">Info Page</a>, <a href="./balances/energy/104-HeatsOfReactionVisuals.html">Visuals</a></p>
+<p><strong>Chemical Reactions vs.&nbsp;The First Law: Who Wins?</strong><br><em>Forms of the 1<sup>st</sup> Law for Chemical Reactions</em><br><a href="https://youtu.be/mFF5hDHclPE">Video</a>, <a href="./balances/energy/The1stLawReactingSystems.html">Info Page</a>, <a href="./balances/energy/106-1stLawReactingVisuals.html">Visuals</a></p>
+<p><strong>Fueling the Fire: The Shocking Truth About Combustion Reactions!</strong><br><em>Common fuels, Heats of Combustion, HHV, LHV</em><br><a href="https://youtu.be/lW5dK-F6H3U">Video</a>, <a href="./balances/energy/EnergeticsOfCombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/energy/110-FuelsHeatingVisuals.html">Visuals</a></p>
+<p><strong>React Hard: The First Law Gets Chemical</strong><br><em>Example of the 1<sup>st</sup> Law for Chemical Reactions</em><br><a href="https://youtu.be/q-W5Y1d85go">Video</a>, <a href="./balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/energy/111-EnergeticsOfReactionsPt1Visuals.html">Visuals</a></p>
+<p><strong>React Harder: Formation Heats and Alternate Endings</strong><br><em>2 more Examples of the 1<sup>st</sup> Law for Chemical Reactions</em><br><a href="https://youtu.be/iqxJP6g-Qsc">Video</a>, <a href="./balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.html">Info Page</a>, <a href="./balances/energy/112-EnergeticsOfReactionsPt2Visuals.html">Visuals</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
