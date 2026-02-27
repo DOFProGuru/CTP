@@ -6,6 +6,8 @@ format: html
 
 # Spreadsheets
 
+## Introduction
+
 **From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**<br/>*Intro to DOFPro CTP*<br/>[Video](https://youtu.be/8FEmNkiU1Jk), [Info Page](basics/intro/IntroTopicsWebPage.qmd), [Visuals](basics/intro/1-MoleToMegawattVisuals.qmd)
 
 **How to Have a Quickie with Your Data Part 1**<br/>*$\bar{x}$, $S_{\bar{x}}$, Linear Least Squares*<br/>[Video](https://youtu.be/4EfhlWNDQ48), [Info Page](basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](basics/calculations/Video25Visuals.qmd)

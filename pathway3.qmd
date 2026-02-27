@@ -6,7 +6,11 @@ format: html
 
 # MechE Thermo
 
+## Introduction
+
 **From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**<br/>*Intro to DOFPro CTP*<br/>[Video](https://youtu.be/8FEmNkiU1Jk), [Info Page](basics/intro/IntroTopicsWebPage.qmd), [Visuals](basics/intro/1-MoleToMegawattVisuals.qmd)
+
+## Visualize and Calculate
 
 **Is Your Process Data Spread Smooth or Chunky? Just the Facts**<br/>*Data Visualization, linear and Log Coordinates*<br/>[Video](https://youtu.be/yFOrwNmEbPA), [Info Page](basics/calculations/DataVisWebPage.qmd), [Visuals](basics/calculations/DataVisJTFVisuals.qmd)
 
@@ -56,6 +60,8 @@ format: html
 
 **Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](basics/stats/NonlinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
 
+## Types of Process Data
+
 **Is Furlongs Per Fortnight a Thing?**<br/>*Unit Conversion*<br/>[Video](https://youtu.be/5EbL9MEro9E), [Info Page](basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](basics/processdata/DimensionalEquationsJTFVisuals.qmd)
 
 **How Keen Is Your Rank? Just the Facts**<br/>*Temperature Conversion*<br/>[Video](https://youtu.be/XKwl41MvFcE), [Info Page](basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](basics/processdata/ConvertingTemperatureJTFVisuals.qmd)
@@ -88,15 +94,21 @@ format: html
 
 **Are You Dense? Crank Up the Volume and Go With the Flow!, The Full Story**<br/>*Mass, Moles, Density, Volume, and Flow Rates*<br/>[Video](https://youtu.be/2-EWSUW4BJU), [Info Page](basics/processdata/DensityVolumeFlowVideoInfoWebPage.qmd), [Visuals](basics/processdata/VolumeDensityFlowRateTFSVisuals.qmd)
 
+## General Balances
+
 **How to Keep Your Balance**<br/>*System Definition and the General Balance Equation*<br/>[Video](https://youtu.be/-fjXc-Upxx4), [Info Page](balances/general/index.qmd), [Visuals](balances/general/KeepYourBalanceJTFVisuals.qmd)
 
 **Speed Balancing**<br/>*General Balance Equation Definitions and Suggestions*<br/>[Video](https://youtu.be/Pmp2IxgL9FM), [Info Page](balances/general/index.qmd), [Visuals](balances/general/SpeedBalancingJTFVisuals.qmd)
+
+## Unit Operations and PFDs
 
 **Gotta Keep ‘Em Separated**<br/>*Mixer, Divider, and Separator mole balances*<br/>[Video](https://youtu.be/pRg1m0_9Psg), [Info Page](balances/material/MixDivideSeparateVideoInfoWebPage.qmd), [Visuals](balances/material/40-UnitOpsMixDivSepVisuals.qmd)
 
 **Flame On, Torch!**<br/>*Combustion reactions*<br/>[Video](https://youtu.be/G2sKW_6N2BA), [Info Page](balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](balances/material/59-CombRxnsPart1Visuals.qmd)
 
 **A Combustible Mixture!**<br/>*Sample combustion reactions*<br/>[Video](https://youtu.be/hvIk-evMp88), [Info Page](balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](balances/material/60-CombRxnsPart2Visuals.qmd)
+
+## Properties of Liquids and Gases
 
 **Alcohol and Water DO Mix!**<br/>*Liquid and Solid Density Calculations*<br/>[Video](https://youtu.be/_tjYMjWR4fE), [Info Page](balances/material/LiquidMixturesVideoInfoWebPage.qmd), [Visuals](balances/material/61-LiqSolDenJTFVisuals.qmd)
 
@@ -109,6 +121,8 @@ format: html
 **REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1**<br/>*Explanation of Kay's Rule and DWSIM for real gas mixtures*<br/>[Video](https://youtu.be/yI3jj1jCSAM), [Info Page](balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](balances/material/65-Visuals.qmd)
 
 **REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2**<br/>*Example of Kay's Rule and DWSIM for real gas mixtures*<br/>[Video](https://youtu.be/Pbizi39c1Rk), [Info Page](balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](balances/material/66-Visuals.qmd)
+
+## 1^st^ Law of Thermodynamics
 
 **Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](balances/energy/Intro1stLawVideoInfoWebPage.qmd), [Visuals](balances/energy/89-Intro1stLawVisuals.qmd)
 
@@ -128,6 +142,8 @@ format: html
 
 **The Isochronicles: This First Law Saga Is a Gas**<br/>*The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes*<br/>[Video](https://youtu.be/iKsR3v1wu30), [Info Page](balances/energy/The1stLawForIdealGases.qmd), [Visuals](balances/energy/102-1stLawIdealGasesVisuals.qmd)
 
+## 2^nd^ Law of Thermodynamics
+
 **Resistance is Futile. Entropy Always Wins**<br/>*Intro to 2^nd^ Law*<br/>[Video](https://youtu.be/yqVUz1WA7M4), [Info Page](balances/entropy/IntroTo2ndLawVideoInfoWebPage.qmd), [Visuals](balances/entropy/113-Visuals.qmd)
 
 **The ΔS-sentials of Calculating Entropy Changes**<br/>*Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam*<br/>[Video](https://youtu.be/z2e5Rq5r288), [Info Page](balances/entropy/CalculatingEntropyChangesVideoInfoWebPage.qmd), [Visuals](balances/entropy/115-CalcEntropyVisuals.qmd)
@@ -142,6 +158,8 @@ format: html
 
 **Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans**<br/>*Pumps, Nozzles, and Valves or Throttles*<br/>[Video](https://youtu.be/irBfMfVUEFo), [Info Page](balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](balances/entropy/118.5-PumpNozzVisuals.qmd)
 
+## Power Cycles
+
 **Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1**<br/>*The Ideal Rankine Cycle*<br/>[Video](https://youtu.be/4QRJ00uyaX8), [Info Page](balances/entropy/RankineCycleInfoWebPage.qmd), [Visuals](balances/entropy/119-RankineVisualsPart1.qmd)
 
 **Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2**<br/>*The Rankine Cycle with $\eta_\mathrm{pump}$  and $\eta_\mathrm{turbine}$*<br/>[Video](https://youtu.be/0DmsKCJpIdc), [Info Page](balances/entropy/RankineCycleInfoWebPage.qmd), [Visuals](balances/entropy/120-RankineVisualsPart2.qmd)
@@ -152,9 +170,13 @@ format: html
 
 **Cycle Wars: The Rise of Otto Cycles**<br/>*Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, & Stirling Cycles*<br/>[Video](https://youtu.be/jJaDQM8qjgU), [Info Page](balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](balances/entropy/123-AirStandardCyclesPart2Visuals.qmd)
 
+## Refrigeration
+
 **Revenge of the Fridge: Vapor Compression Strikes Back**<br/>*The Vapor Compression Cycle*<br/>[Video](https://youtu.be/SN27SxDt0G4), [Info Page](balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](balances/entropy/126-RefrigerationVisuals.qmd)
 
 **Modeling the Vapor Compression Cycle in DWSIM**<br/>*Modeling the Vapor Compression Cycle in DWSIM*<br/>[Video](https://youtu.be/nWOz-Y7XsbQ), [Info Page](balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](none)
+
+## Combined 1^st^ and 2^nd^ Laws
 
 **The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1**<br/>*The Combined 1^st^ and 2^nd^ Laws*<br/>[Video](https://youtu.be/02S9SOGRBWU), [Info Page](balances/exergy/Combined1stAnd2ndLawsVideoWebPage.qmd), [Visuals](balances/exergy/129-IdealLostWorkVisuals.qmd)
 
