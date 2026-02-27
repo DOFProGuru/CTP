@@ -1,0 +1,55 @@
+---
+title: "Pathway"
+author: "DOFPro group"
+format: html
+jupyter: python313-dofpro
+execute:
+  echo: false
+params:
+  pathway: "MechE Thermo"
+---
+
+# {{< meta params.pathway >}}
+
+```{python}
+import pandas as pd
+
+# --- Parameter ---
+pathway_name = globals().get("params", {}).get("pathway", "MechE Thermo")
+
+# --- Load data (treat SN as text) ---
+master = pd.read_csv("master_videos.csv", dtype={"SN": str})
+pathways = pd.read_csv("pathways.tsv", sep="\t", dtype={"SN": str})
+
+# Normalize SN (handles 1 vs 001 safely)
+master["SN"] = master["SN"].str.strip().str.zfill(3)
+pathways["SN"] = pathways["SN"].str.strip().str.zfill(3)
+
+# --- Filter + sort pathway ---
+pw = pathways[pathways["Pathway"] == pathway_name].copy()
+pw = pw.sort_values("Step")
+
+# --- Merge in master metadata ---
+df = pw.merge(master, on="SN", how="left")
+
+# Warn if any SN in pathways doesn't exist in master
+missing = df[df["Title"].isna()][["Step", "SN"]]
+if len(missing) > 0:
+    print("**WARNING: Missing rows (present in pathways, not found in master):**\n")
+    for _, r in missing.iterrows():
+        print(f"- Step {r['Step']}: SN {r['SN']}")
+    print("\n---\n")
+
+def s(x):
+    return "" if pd.isna(x) else str(x).strip()
+
+# --- Render rows ---
+for _, r in df.iterrows():
+    title = s(r.get("Title"))
+    subj  = s(r.get("SubjectForWeb"))
+    yt    = s(r.get("YouTubeLink"))
+    info  = s(r.get("InfoPageLink"))
+    vis   = s(r.get("VisualsLink"))
+
+    print(f"**{title}**<br/>*{subj}*<br/>[Video]({yt}), [Info Page]({info}), [Visuals]({vis})\n")
+```

@@ -18,11 +18,26 @@ Video 1 explanation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pRg1m0_9Psg?si=ldy4MgqsU39JHH8p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
 
-# Examples and Definitions
+# Definitions
 
-## Examples Links
+Mixer
 
-## Definitions
+:   Mixes or combines multiple input streams into a single output stream. For each species the output stream has a flow equal to the sum of the flow of that species in each input stream. The output stream has a composition equal to the total flow of each species divided by the total flow of all species. Mixers can be as simple as a pipe tee or as complex as a stirred tank.
+
+Divider
+
+:   Divides the input stream into multiple output streams, each with the same composition as the input stream, but with differing flow rates.
+
+Separator
+
+:   Separates the input stream into multiple output streams, each with a different composition than the input stream. If the output streams have the same composition as the input stream, then the separator is a divider. The fraction of a given species in the input stream that exits in a given output stream is the split fraction for that species in that output stream.
+
+Split Fraction
+
+:   The fraction of a given species in the input stream that exits in a given output stream is the *split fraction* for that species in that output stream. For separators with two output streams, the split fractions for a given species in the two output streams sum to 1. For separators with more than two output streams, the split fractions for a given species in all output streams sum to 1.
+
+Composition
+:   Composition is the same as the mole or mass fraction of each species in a stream. See [*What the Frac?*](https://youtu.be/qJERzRm7xc0) for more details.
 
 # Other Links and Videos
 

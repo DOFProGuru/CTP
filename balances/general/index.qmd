@@ -5,21 +5,21 @@ author: "DOFPro group"
 
 # Intro to *The General Balance Equation*
 
-Main title explanation
+The General Balance Equation is the basis for all material, energy, entropy, and exergy balances. The mass and mole balance equations are restatements of the general balance equation applied to mass and moles respectively. Mass is conserved, moles in systems with chemical reactions are not. The general balance equation applied to energy is the 1^st^ Law of Thermodynamics. Applied to entropy, it is the 2^nd Law of Thermodynamics. Like mass and moles, energy is conserved while entropy is not. The General Balance Equation is applied to systems, and the form depends on whether the system is is open or closed, and steady-state or transient. The videos explain systems and the attendant definitions.
 
 ## How to Keep Your Balance
 
-Video 1 explanation
+*How to Keep Your Balance* begins by using bathtub analogies to explain system definitions: open or closed, and steady-state or transient. It then introduces the General Balance Equation and defines each of the terms.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-fjXc-Upxx4?si=XmAMd9UTPypNhQEd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](KeepYourBalanceJTFVisuals.qmd)
 
 ## Speed Balancing
 
-Video  explanation
+*Speed Balancing* continues with definitions for system terms such as PFD, recycle, bypass, purge, tie component, and overall balances. It then gives hints and suggestions for how to quickly and correctly solve your balance equations for your systems. It has a worked bathtub example.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pmp2IxgL9FM?si=JHoFbh4pVoRUparS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](SpeedBalancingJTFVisuals.qmd)
 
 # Examples and Definitions
 
@@ -79,7 +79,7 @@ It is quite frequently useful to define an intensive property that is related to
 
 ## Definitions
 
-PFD
+[PFD](https://en.wikipedia.org/wiki/Process_flow_diagram)
 
 :   Process Flow Diagram or flowsheet. A schematic drawing of the mixers, dividers, separators and reactors used in the process.
 

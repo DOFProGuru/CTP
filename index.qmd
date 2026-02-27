@@ -3,10 +3,6 @@ title: "Chemical and Thermal Processes"
 author: "DOFPro group"
 ---
 
-# [Current List of Posted Videos](basics/intro/CurrentVideoList.qmd)
-
-The Degrees of Freedom Project is still in the early Alpha stage. It is possible, but extremely difficult, to find links to the currently posted videos on YouTube. To make the process easier while we are in the development process, the list of videos that have been posted on YouTube will be maintained at [this link](basics/intro/CurrentVideoList.qmd). The link will be removed or modified once the full set of videos is available.
-
 # Overview of Chemical and Thermal Processes
 
 Chemical and Thermal Processes starts with the basics of stoichiometry and thermodynamics as covered in many Introduction to Chemical Engineering courses. It continues with topics typically covered in an advanced Engineering Thermodynamics course and in a Chemical Reactor Engineering course. The material is labeled as to whether it is introductory (Sophomore level), intermediate (Junior level) or advanced (Senior level).
@@ -44,3 +40,23 @@ The principles in Chemical and Thermal Processes are applicable in
 -   [Manufacturing Engineering](https://en.wikipedia.org/wiki/Manufacturing_engineering)
 -   [Industrial Engineering](https://en.wikipedia.org/wiki/Industrial_engineering)
 -   [Marine](https://en.wikipedia.org/wiki/Marine_engineering) and [Aerospace Engineering](https://en.wikipedia.org/wiki/Aerospace_engineering)
+
+# Pathways Through the Videos
+
+As explained in the introductory video [From Mole to Megawatt](https://youtu.be/8FEmNkiU1Jk), we have arranged several different pathways through the videos. The current pathways are:
+
+-   [The Full Video Set](pathway1.qmd)
+-   [Intro to Chemical Engineering](pathway2.qmd)
+-   [Mechanical Engineering Thermodynamics](pathway3.qmd)
+-   [Spreadsheets](pathway4.qmd)
+-   [Chemical Reactor Engineering](pathway5.qmd)
+
+[The Full Video Set](pathway1.qmd) has the full set of videos arranged in the order that seemed most logical for someone wanting to watch all the videos.
+
+[Intro to Chemical Engineering](pathway2.qmd) is a pathway through the videos for someone taking a typical Introduction to Chemical Engineering course.
+
+[Mechanical Engineering Thermodynamics](pathway3.qmd) is a pathway through the videos for someone taking a typical Mechanical Engineering Thermodynamics course.
+
+[Spreadsheets](pathway4.qmd) is a pathway through the videos that focus on using spreadsheets for engineering calculations, along with an introduction to DWSIM, a free and open source process simulator.
+
+[Chemical Reactor Engineering](pathway5.qmd) is a introductory pathway through the videos that focus on chemical reactors, including material balances, energy balances, and thermodynamics of chemical reactions. We hope to have a more advanced set of videos in time, but for now follow [this link](https://pages.hmc.edu/spjut/E133/index.md.html) to the course website for Engineering 133, Chemical Reaction Engineering, from Fall 2023. The material is based on a copyrighted textbook, and no effort has been made to convert things to Creative Commons or Open Source, but we hope you find the material useful in the meantime.
