@@ -6,7 +6,11 @@ format: html
 
 # Intro to ChE
 
+## Introduction
+
 **From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**<br/>*Intro to DOFPro CTP*<br/>[Video](https://youtu.be/8FEmNkiU1Jk), [Info Page](basics/intro/IntroTopicsWebPage.qmd), [Visuals](basics/intro/1-MoleToMegawattVisuals.qmd)
+
+## Visualize and Calculate
 
 **Is Your Process Data Spread Smooth or Chunky? Just the Facts**<br/>*Data Visualization, linear and Log Coordinates*<br/>[Video](https://youtu.be/yFOrwNmEbPA), [Info Page](basics/calculations/DataVisWebPage.qmd), [Visuals](basics/calculations/DataVisJTFVisuals.qmd)
 
@@ -25,6 +29,8 @@ format: html
 **How to Have a Quickie with Your Data Part 2**<br/>*Nonlinear least squares*<br/>[Video](https://youtu.be/dVmh0EdQT1U), [Info Page](basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](basics/calculations/Video26Visuals.qmd)
 
 **Solving Nonlinear Equations with Spreadsheets**<br/>*See Title*<br/>[Video](https://youtu.be/SaI2qdu1wSE), [Info Page](basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.qmd)
+
+## Types of Process Data
 
 **Is Furlongs Per Fortnight a Thing?**<br/>*Unit Conversion*<br/>[Video](https://youtu.be/5EbL9MEro9E), [Info Page](basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](basics/processdata/DimensionalEquationsJTFVisuals.qmd)
 
@@ -58,9 +64,13 @@ format: html
 
 **Are You Dense? Crank Up the Volume and Go With the Flow!, The Full Story**<br/>*Mass, Moles, Density, Volume, and Flow Rates*<br/>[Video](https://youtu.be/2-EWSUW4BJU), [Info Page](basics/processdata/DensityVolumeFlowVideoInfoWebPage.qmd), [Visuals](basics/processdata/VolumeDensityFlowRateTFSVisuals.qmd)
 
+## General Balances
+
 **How to Keep Your Balance**<br/>*System Definition and the General Balance Equation*<br/>[Video](https://youtu.be/-fjXc-Upxx4), [Info Page](balances/general/index.qmd), [Visuals](balances/general/KeepYourBalanceJTFVisuals.qmd)
 
 **Speed Balancing**<br/>*General Balance Equation Definitions and Suggestions*<br/>[Video](https://youtu.be/Pmp2IxgL9FM), [Info Page](balances/general/index.qmd), [Visuals](balances/general/SpeedBalancingJTFVisuals.qmd)
+
+## Unit Operations and PFDs
 
 **Gotta Keep ‘Em Separated**<br/>*Mixer, Divider, and Separator mole balances*<br/>[Video](https://youtu.be/pRg1m0_9Psg), [Info Page](balances/material/MixDivideSeparateVideoInfoWebPage.qmd), [Visuals](balances/material/40-UnitOpsMixDivSepVisuals.qmd)
 
@@ -80,6 +90,8 @@ format: html
 
 **A Combustible Mixture!**<br/>*Sample combustion reactions*<br/>[Video](https://youtu.be/hvIk-evMp88), [Info Page](balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](balances/material/60-CombRxnsPart2Visuals.qmd)
 
+## Properties of Liquids and Gases
+
 **Alcohol and Water DO Mix!**<br/>*Liquid and Solid Density Calculations*<br/>[Video](https://youtu.be/_tjYMjWR4fE), [Info Page](balances/material/LiquidMixturesVideoInfoWebPage.qmd), [Visuals](balances/material/61-LiqSolDenJTFVisuals.qmd)
 
 **Ideal Gases EXPOSED: Are They Even Real?!!**<br/>*Basics of $P V = n R T$*<br/>[Video](https://youtu.be/L-DEw6dGRps), [Info Page](balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](balances/material/62-IdealGasVisuals.qmd)
@@ -91,6 +103,8 @@ format: html
 **REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1**<br/>*Explanation of Kay's Rule and DWSIM for real gas mixtures*<br/>[Video](https://youtu.be/yI3jj1jCSAM), [Info Page](balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](balances/material/65-Visuals.qmd)
 
 **REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2**<br/>*Example of Kay's Rule and DWSIM for real gas mixtures*<br/>[Video](https://youtu.be/Pbizi39c1Rk), [Info Page](balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](balances/material/66-Visuals.qmd)
+
+## Multiphase Equilibria
 
 **Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 1**<br/>*Phase Diagrams, Gibbs Phase Rule*<br/>[Video](https://youtu.be/NUS4Y_pnWZk), [Info Page](balances/material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](balances/material/70-IntroMultiphasePart1Visuals.qmd)
 
@@ -114,6 +128,8 @@ format: html
 
 **Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd), [Visuals](none)
 
+## 1^st^ Law of Thermodynamics
+
 **Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](balances/energy/Intro1stLawVideoInfoWebPage.qmd), [Visuals](balances/energy/89-Intro1stLawVisuals.qmd)
 
 **Add Friction and Work to Bernoulli? Here’s What Really Happens!**<br/>*The Mechanical Energy Balance and the Moody Chart*<br/>[Video](https://youtu.be/Da48oZb9oNw), [Info Page](balances/energy/MechanicalEnergyBalanceVideoInfoWebPage.qmd), [Visuals](balances/energy/90-MechEngBalVisuals.qmd)
@@ -125,3 +141,23 @@ format: html
 **The Enthalpy Games: The Ballad of Integrals and Means**<br/>*$\Delta H$ from $C_p$, $\Delta U$ from $C_v$*<br/>[Video](https://youtu.be/YGMHMAXnFY8), [Info Page](balances/energy/HeatCapacityVideoInfoWebPage.qmd), [Visuals](balances/energy/93-EnthalpyVsTandPPart1.qmd)
 
 **The Enthalpy Games: Sunrise on the Calculations**<br/>*Example for $\mathrm{N_2}$, $\Delta H$ from $C_p$, $\Delta U$ from $C_v$*<br/>[Video](https://youtu.be/yLJp3YQaVvo), [Info Page](balances/energy/HeatCapacityVideoInfoWebPage.qmd), [Visuals](balances/energy/94-EnthalpyVsTandPPart2.qmd)
+
+## 1^st^ Law for Reactions
+
+**Feeling the Heat? How to Get Your Best Estimate**<br/>*Estimating $C_p$, $\Delta \hat{H}_v$, $\Delta \hat{H}_m$*<br/>[Video](https://youtu.be/f_l3OFyuiPs), [Info Page](balances/energy/EstimatingHeatCapacitiesVideoInfoWebPage.qmd), [Visuals](balances/energy/95-EstimatingHeatCapacitiesVisuals.qmd)
+
+**Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart**<br/>*Psychrometric Charts*<br/>[Video](https://youtu.be/Nz8ADo4X2Ss), [Info Page](balances/energy/PsychrometricChartsVideoInfoWebPage.qmd), [Visuals](balances/energy/97-PsychrometiricChartVIsuals.qmd)
+
+**Reference Not Found: Mixing, Dissolving, and Changing the Rules**<br/>*$\Delta H_m$, $\Delta H_s$*<br/>[Video](https://youtu.be/ggU692PLWts), [Info Page](balances/energy/HeatsOfMixingVideoInfoWebPage.qmd), [Visuals](balances/energy/98-ReferenceStatesVIsuals.qmd)
+
+**The Isochronicles: This First Law Saga Is a Gas**<br/>*The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes*<br/>[Video](https://youtu.be/iKsR3v1wu30), [Info Page](balances/energy/The1stLawForIdealGases.qmd), [Visuals](balances/energy/102-1stLawIdealGasesVisuals.qmd)
+
+**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](balances/energy/104-HeatsOfReactionVisuals.qmd)
+
+**Chemical Reactions vs. The First Law: Who Wins?**<br/>*Forms of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/mFF5hDHclPE), [Info Page](balances/energy/The1stLawReactingSystems.qmd), [Visuals](balances/energy/106-1stLawReactingVisuals.qmd)
+
+**Fueling the Fire: The Shocking Truth About Combustion Reactions!**<br/>*Common fuels, Heats of Combustion, HHV, LHV*<br/>[Video](https://youtu.be/lW5dK-F6H3U), [Info Page](balances/energy/EnergeticsOfCombustionReactionsVideoInfoWebPage.qmd), [Visuals](balances/energy/110-FuelsHeatingVisuals.qmd)
+
+**React Hard: The First Law Gets Chemical**<br/>*Example of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/q-W5Y1d85go), [Info Page](balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](balances/energy/111-EnergeticsOfReactionsPt1Visuals.qmd)
+
+**React Harder: Formation Heats and Alternate Endings**<br/>*2 more Examples of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/iqxJP6g-Qsc), [Info Page](balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](balances/energy/112-EnergeticsOfReactionsPt2Visuals.qmd)

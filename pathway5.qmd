@@ -4,9 +4,13 @@ author: "DOFPro group"
 format: html
 ---
 
-# Chemical Reator Engineering
+# Chemical Reactor Engineering
+
+## Introduction
 
 **From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**<br/>*Intro to DOFPro CTP*<br/>[Video](https://youtu.be/8FEmNkiU1Jk), [Info Page](basics/intro/IntroTopicsWebPage.qmd), [Visuals](basics/intro/1-MoleToMegawattVisuals.qmd)
+
+## Visualize and Calculate
 
 **Is Your Process Data Spread Smooth or Chunky? Just the Facts**<br/>*Data Visualization, linear and Log Coordinates*<br/>[Video](https://youtu.be/yFOrwNmEbPA), [Info Page](basics/calculations/DataVisWebPage.qmd), [Visuals](basics/calculations/DataVisJTFVisuals.qmd)
 
@@ -25,6 +29,8 @@ format: html
 **How to Have a Quickie with Your Data Part 2**<br/>*Nonlinear least squares*<br/>[Video](https://youtu.be/dVmh0EdQT1U), [Info Page](basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](basics/calculations/Video26Visuals.qmd)
 
 **Solving Nonlinear Equations with Spreadsheets**<br/>*See Title*<br/>[Video](https://youtu.be/SaI2qdu1wSE), [Info Page](basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.qmd)
+
+## Types of Process Data
 
 **Is Furlongs Per Fortnight a Thing?**<br/>*Unit Conversion*<br/>[Video](https://youtu.be/5EbL9MEro9E), [Info Page](basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](basics/processdata/DimensionalEquationsJTFVisuals.qmd)
 
@@ -58,9 +64,13 @@ format: html
 
 **Are You Dense? Crank Up the Volume and Go With the Flow!, The Full Story**<br/>*Mass, Moles, Density, Volume, and Flow Rates*<br/>[Video](https://youtu.be/2-EWSUW4BJU), [Info Page](basics/processdata/DensityVolumeFlowVideoInfoWebPage.qmd), [Visuals](basics/processdata/VolumeDensityFlowRateTFSVisuals.qmd)
 
+## General Balances
+
 **How to Keep Your Balance**<br/>*System Definition and the General Balance Equation*<br/>[Video](https://youtu.be/-fjXc-Upxx4), [Info Page](balances/general/index.qmd), [Visuals](balances/general/KeepYourBalanceJTFVisuals.qmd)
 
 **Speed Balancing**<br/>*General Balance Equation Definitions and Suggestions*<br/>[Video](https://youtu.be/Pmp2IxgL9FM), [Info Page](balances/general/index.qmd), [Visuals](balances/general/SpeedBalancingJTFVisuals.qmd)
+
+## Unit Operations and PFDs
 
 **Gotta Keep ‘Em Separated**<br/>*Mixer, Divider, and Separator mole balances*<br/>[Video](https://youtu.be/pRg1m0_9Psg), [Info Page](balances/material/MixDivideSeparateVideoInfoWebPage.qmd), [Visuals](balances/material/40-UnitOpsMixDivSepVisuals.qmd)
 
@@ -76,6 +86,8 @@ format: html
 
 **The Symbolic Meaning of Recycling**<br/>*Analytic solution of a recycle PFD*<br/>[Video](https://youtu.be/CF18jpqZzgc), [Info Page](balances/material/RecyclingBypassVideoInfoWebPage.qmd), [Visuals](balances/material/45-RecycleSymbSolVisuals.qmd)
 
+## Chemical Reactors
+
 **How Did You Think I Would React?**<br/>*Basic Kinetic Reactor Mole Balance*<br/>[Video](https://youtu.be/_qxHszVZYGk), [Info Page](balances/material/KineticReactorsVideoInfoWebPage.qmd), [Visuals](balances/material/46-KineticsIntroJTFVisuals.qmd)
 
 **Wishing Upon a CSTR**<br/>*Batch, CSTR, PFR*<br/>[Video](https://youtu.be/6tnVFq7dSbE), [Info Page](balances/material/KineticReactorsVideoInfoWebPage.qmd), [Visuals](balances/material/47-BatchCSTRPFRIntroVisuals.qmd)
@@ -89,6 +101,8 @@ format: html
 **Flame On, Torch!**<br/>*Combustion reactions*<br/>[Video](https://youtu.be/G2sKW_6N2BA), [Info Page](balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](balances/material/59-CombRxnsPart1Visuals.qmd)
 
 **A Combustible Mixture!**<br/>*Sample combustion reactions*<br/>[Video](https://youtu.be/hvIk-evMp88), [Info Page](balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](balances/material/60-CombRxnsPart2Visuals.qmd)
+
+## 1^st^ Law of Thermodynamics
 
 **Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](balances/energy/Intro1stLawVideoInfoWebPage.qmd), [Visuals](balances/energy/89-Intro1stLawVisuals.qmd)
 
