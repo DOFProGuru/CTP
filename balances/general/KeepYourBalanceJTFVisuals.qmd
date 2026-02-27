@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# How to Keep Your Balance</br>Just the Facts{.bigbold85}
+# How to Keep Your Balance{.bigbold85}
 
 ::: {style="text-align: center;"}
 DOFPro Team

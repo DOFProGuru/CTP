@@ -1,0 +1,75 @@
+---
+title: "Sample Pathway Page"
+author: "DOFPro group"
+format: html
+---
+
+# The Full Video Set
+
+## Introduction
+
+**From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**<br/>*Intro to DOFPro CTP*<br/>[Video](https://youtu.be/8FEmNkiU1Jk), [Info Page](intro/IntroTopicsWebPage.qmd), [Visuals](intro/1-MoleToMegawattVisuals.qmd)
+
+## Visualize and Calculate
+
+**Is Your Process Data Spread Smooth or Chunky? Just the Facts**<br/>
+*Data Visualization, linear and Log Coordinates*<br/>
+[Video](https://youtu.be/yFOrwNmEbPA), [Info Page](calculations/DataVisWebPage.qmd), [Visuals](calculations/DataVisJTFVisuals.qmd)
+
+**Is Your Process Data Spread Smooth or Chunky? The Full Story**<br/>
+*Data Visualization, linear and Log Coordinates*<br/>
+[Video](https://youtu.be/VUyyEmif3fs), [Info Page](calculations/DataVisWebPage.qmd), [Visuals](calculations/DataVisTFSVisuals.qmd)
+
+**Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts**<br/>
+*Linear Interpolation*<br/>
+[Video](https://youtu.be/VbnpWj9iYA)	, [Info Page](calculations/InterpolationWebPage.qmd), [Visuals](calculations/InterpolationJTFVisuals.qmd)
+
+**Interpol Is Late to a Mind-Blowing Math Hack, The Full Story**<br/>
+*Linear Interpolation*<br/>
+[Video](https://youtu.be/pbDEc_Q862M), [Info Page](calculations/InterpolationWebPage.qmd), [Visuals](calculations/InterpolationTFSVisuals.qmd)
+
+**No Clear Interpretation a Mind-Blowing Math Hack**<br/>
+*Nonlinear Interpolation*<br/>
+[Video](https://youtu.be/721FxKwDRAU), [Info Page](calculations/InterpolationWebPage.qmd), [Visuals]( calculations/NLInterpolationJTFVisuals.qmd)
+
+**The Unauthorized Guide to Using Spreadsheets in Chemical Engineering**<br/>
+*Spreadsheet Basics*<br/>
+[Video](https://youtu.be/5XMeQ6vWymA), [Info Page](calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](calculations/BasicSpreadsheetTechniquesJTFVisuals.qmd)
+
+**How to Have a Quickie with Your Data Part 1**<br/>
+*$\bar{x}$, $S_{\bar{x}}$, Linear Least Squares*<br/>
+[Video](https://youtu.be/4EfhlWNDQ48), [Info Page](calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](calculations/Video25Visuals.qmd)
+
+**How to Have a Quickie with Your Data Part 2**<br/>
+*Nonlinear least squares*<br/>
+[Video](https://youtu.be/dVmh0EdQT1U), [Info Page](calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](calculations/Video26Visuals.qmd)
+
+**Solving Nonlinear Equations with Spreadsheets**<br/>
+*See Title*<br/>
+[Video](https://youtu.be/SaI2qdu1wSE), [Info Page](calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.qmd)
+
+## Engineering Statistics
+
+## Process Data
+
+## The General Balance Equation
+
+## Process Flow Diagrams
+
+## Chemical Reactors
+
+## Liquid and Gas Properties
+
+## Multiphase Equilibria
+
+## The FIrst Law for Non-Reactive Systems
+
+## The First Law for Reactive Systems
+
+## THe Second Law
+
+## The Combined 1st and 2nd Laws
+
+# Pathways Through the Videos
+
+![](intro/VideoPaths.png)

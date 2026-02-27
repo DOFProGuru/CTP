@@ -3,4 +3,6 @@ title: "Chemical Kinetics and Reactors"
 author: "DOFPro group"
 ---
 
-More in depth study of chemical reactor engineering
+# Explanation
+
+The introductory videos on chemical reactors and kinetics are found in the [Chemical Reactor Engineering pathway](../ChemicalReactorEngineering.qmd). For the more advanced material we hope to have the essential contents of [Engineering 133, Chemical Reaction Engineering](https://pages.hmc.edu/spjut/E133/index.md.html), converted to videos. In the meantime, [here is the link](https://pages.hmc.edu/spjut/E133/index.md.html) to the course website from Fall 2023. The material is based on a copyrighted textbook, and no effort has been made to convert things to Creative Commons or Open Source, but we hope you find the material useful in the meantime.

@@ -3,4 +3,47 @@ title: "Material Balances"
 author: "DOFPro group"
 ---
 
-Intro to Systems and Balances
+# Introduction
+
+## The General Balance Equation
+
+## Process Flow Diagrams
+
+## Chemical Reactors
+
+## Liquid and Gas Properties
+
+**Ideal Gases EXPOSED: Are They Even Real?!!**<br/>*Basics of $P V = n R T$*<br/>[Video](https://youtu.be/L-DEw6dGRps), [Info Page](../material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../material/62-IdealGasVisuals.qmd)
+
+**When Getting Gassed Isn’t Ideal, Part 1**<br/>*Real gas intro*<br/>[Video](https://youtu.be/1sU4_YdcKr4), [Info Page](../material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../material/63-Visuals.qmd)
+
+**When Getting Gassed Isn’t Ideal, Part 2**<br/>*Real gas example*<br/>[Video](https://youtu.be/Q6ZK_Ou967o), [Info Page](../material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../material/64-Visuals.qmd)
+
+**REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1**<br/>*Explanation of Kay's Rule and DWSIM for real gas mixtures*<br/>[Video](https://youtu.be/yI3jj1jCSAM), [Info Page](../material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../material/65-Visuals.qmd)
+
+**REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2**<br/>*Example of Kay's Rule and DWSIM for real gas mixtures*<br/>[Video](https://youtu.be/Pbizi39c1Rk), [Info Page](../material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../material/66-Visuals.qmd)
+
+## Multiphase Equilibria
+
+**Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 1**<br/>*Phase Diagrams, Gibbs Phase Rule*<br/>[Video](https://youtu.be/NUS4Y_pnWZk), [Info Page](../material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](../material/70-IntroMultiphasePart1Visuals.qmd)
+
+**Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 2**<br/>*Ternary Phase Diagrams, Lever Rule*<br/>[Video](https://youtu.be/QBREikNSvGI), [Info Page](../material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](../material/71-IntroMultiphasePart2Visuals.qmd)
+
+**Show Some Flash and Dew the Dew with a Little Bubbly!**<br/>*Graphical BUBL P, DEW P, BUBL T, DEW T, and FLASH calculations*<br/>[Video](https://youtu.be/shKvpcsJIEM), [Info Page](../material/GraphicalDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../material/72-BubbleDewFlashVisuals.qmd)
+
+**Oh, Henry!**<br/>*Gas-Liquid Equilibrium with one condensible component*<br/>[Video](https://youtu.be/dCOQy1C7yf0), [Info Page](../material/HenrysLawVideoInfoWebPage.qmd), [Visuals](../material/73-Visuals.qmd)
+
+**Dew Your Bubbles Have Flash? Part 1**<br/>*Raoult's law, BUBL P, DEW P*<br/>[Video](https://youtu.be/vSkSRi6HYVQ), [Info Page](../material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../material/74-Visuals.qmd)
+
+**Dew Your Bubbles Have Flash? Part 2**<br/>*BUBL T, DEW T*<br/>[Video](https://youtu.be/9GyrfJzg-tg), [Info Page](../material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../material/75-Visuals.qmd)
+
+**Dew Your Bubbles Have Flash? Part 3**<br/>*FLASH, *Pxy*, *Txy**<br/>[Video](https://youtu.be/bG15qQ9gB4c), [Info Page](../material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../material/75.5-Visuals.qmd)
+
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 1**<br/>*Equilibrium Stage Equations*<br/>[Video](https://youtu.be/bY9fl5DJzmk), [Info Page](../material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../material/85-EquilibriumSeparationStages1Visuals.qmd)
+
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2**<br/>*Distillation Examples: Binary Phase Diagram, Raoult's law*<br/>[Video](https://youtu.be/wc6gv7lNtI0), [Info Page](../material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../material/86-EquilibriumSeparationStages2Visuals.qmd)
+
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3**<br/>*Liquid-Liquid Extraction Example*<br/>[Video](https://youtu.be/jcChVoELvFo), [Info Page](../material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../material/86.5-EquilibriumSeparationStages3Visuals.qmd)
+
+**Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](../material/DWSIMBinaryPhaseVideoInfoWebPage.qmd), [Visuals](none)
+
