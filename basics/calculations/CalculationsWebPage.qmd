@@ -22,25 +22,28 @@ When an engineer uses a number, it is important to recognize what the number rep
 
 The field of data visualization is too vast to explore in depth here. The video linked below is an entrance into the field and explores linear, semi-log, and log-log plots as a means to quickly determine the best functional form for a model for a set of data. It also briefly introduces nonlinear data fitting. These topics are also explored in the [statistics](../stats/StatsMeasurementsWebPage.qmd) videos on linear and nonlinear regression, and in the videos further down this page. Some overlap is unavoidable in a collection of videos. For consistency the links are presented in a single row table. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
 
- Title | JTF Link | TFS Link | Info Page | Subject|
-|---------|-------|----------|----------|-----------|--------|
-| Is Your Process Data Spread Smooth or Chunky? | [Link](https://youtu.be/qHsOz7af-GA) | No | [Page](../calculations/DataVisWebPage.qmd) | Data Visualization |
+**Is Your Process Data Spread Smooth or Chunky? Just the Facts**<br/>*Data Visualization, linear and Log Coordinates*<br/>[Video](https://youtu.be/yFOrwNmEbPA), [Info Page](DataVisWebPage.qmd), [Visuals](DataVisJTFVisuals.qmd)
+
+**Is Your Process Data Spread Smooth or Chunky? The Full Story**<br/>*Data Visualization, linear and Log Coordinates*<br/>[Video](https://youtu.be/VUyyEmif3fs), [Info Page](DataVisWebPage.qmd), [Visuals](DataVisTFSVisuals.qmd)
 
 # Interpolation
 
 In spite of the widespread use of computers and specialized applications, it is likely that an engineer will need to *interpolate* or find a non-tabular value in a printed or on-line data table on occasion. Interpolation methods are introduced in the videos listed in the table below. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
 
-  Title | JTF Link | TFS Link | Info Page | Subject|
-|---------|-------|----------|----------|-----------|--------|
-| Interpol Is Late to a Mind-Blowing Math Hack | [Link](https://youtu.be/dWMh0ZJc874) | No | [Page](../calculations/InterpolationWebPage.qmd) | Linear Interpolation |
-| No Clear Interpretation a Mind-Blowing Math Hack | [Link](https://youtu.be/uaxzUbWi7Iw) | No | [Page](../calculations/InterpolationWebPage.qmd) | Nonlinear Interpolation |
+**Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts**<br/>*Linear Interpolation*<br/>[Video](https://youtu.be/VbnpWj9iYAU), [Info Page](InterpolationWebPage.qmd), [Visuals](InterpolationJTFVisuals.qmd)
+
+**Interpol Is Late to a Mind-Blowing Math Hack, The Full Story**<br/>*Linear Interpolation*<br/>[Video](https://youtu.be/pbDEc_Q862M), [Info Page](InterpolationWebPage.qmd), [Visuals](InterpolationTFSVisuals.qmd)
+
+**No Clear Interpretation a Mind-Blowing Math Hack**<br/>*Nonlinear Interpolation*<br/>[Video](https://youtu.be/721FxKwDRAU), [Info Page](InterpolationWebPage.qmd), [Visuals](NLInterpolationJTFVisuals.qmd)
 
 # Spreadsheets
 
 There are many excellent commercial and open-source tools for performing engineering calculations. One of the most versatile and underutilized tools is the spreadsheet. Even companies and organizations that can't afford commercial CAD or mathematical modeling tools will almost always have an office suite that contains a spreadsheet. There are many free and open-source spreadsheets, such as [LibreOffice - Calc](https://www.libreoffice.org/discover/calc/), [Apache OpenOffice Calc](https://www.openoffice.org/download/), and Gnumeric. The videos in the table below explain how to do several sorts of engineering calculations in Chemical and Thermal Processing. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
 
-  Title | JTF Link | TFS Link | Info Page | Subject|
-|---------|-------|----------|----------|-----------|--------|
-| TBD | No | No | No | Basic Engineering Spreadsheet Techniques |
-| TBD | No | No | No | Data Fitting with Spreadsheets Part 1 |
-| TBD | No | No | No | Data Fitting with Spreadsheets Part 2 |
+**The Unauthorized Guide to Using Spreadsheets in Chemical Engineering**<br/>*Spreadsheet Basics*<br/>[Video](https://youtu.be/5XMeQ6vWymA), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](BasicSpreadsheetTechniquesJTFVisuals.qmd)
+
+**How to Have a Quickie with Your Data Part 1**<br/>*$\bar{x}$, $S_{\bar{x}}$, Linear Least Squares*<br/>[Video](https://youtu.be/4EfhlWNDQ48), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](Video25Visuals.qmd)
+
+**How to Have a Quickie with Your Data Part 2**<br/>*Nonlinear least squares*<br/>[Video](https://youtu.be/dVmh0EdQT1U), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](Video26Visuals.qmd)
+
+**Solving Nonlinear Equations with Spreadsheets**<br/>*See Title*<br/>[Video](https://youtu.be/SaI2qdu1wSE), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.qmd)

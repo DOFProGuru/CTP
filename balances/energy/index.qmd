@@ -1,26 +1,42 @@
 ---
-title: "Energy Balances or The 1st Law"
+title: "Energy Balances or The 1^st^ Law"
 author: "DOFPro group"
 ---
 
 The First Law of Thermodynamics and Energy Balances are synonymous.
 
-Here is the set of videos on the First Law
+## 1^st^ Law of Thermodynamics
 
-{{ < video https://youtu.be/ZHWT9Jw7fzY > }}
-{{ < video https://youtu.be/Da48oZb9oNw > }}
-{{ < video https://youtu.be/8tH3gXz_M8A > }}
-{{ < video https://youtu.be/yRf09eSRM1A > }}
-{{ < video https://youtu.be/YGMHMAXnFY8 > }}
-{{ < video https://youtu.be/yLJp3YQaVvo > }}
-{{ < video https://youtu.be/f_l3OFyuiPs > }}
-{{ < video https://youtu.be/Nz8ADo4X2Ss > }}
-{{ < video https://youtu.be/ggU692PLWts > }}
-{{ < video https://youtu.be/iKsR3v1wu30 > }}
-{{ < video https://youtu.be/qdgH4v64vOQ > }}
-{{ < video https://youtu.be/mFF5hDHclPE > }}
-{{ < video https://youtu.be/lW5dK-F6H3U > }}
-{{ < video https://youtu.be/q-W5Y1d85go > }}
-{{ < video https://youtu.be/iqxJP6g-Qsc > }}
+**Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](Intro1stLawVideoInfoWebPage.qmd), [Visuals](89-Intro1stLawVisuals.qmd)
 
-Then for reacting systems ...
+**Add Friction and Work to Bernoulli? Here’s What Really Happens!**<br/>*The Mechanical Energy Balance and the Moody Chart*<br/>[Video](https://youtu.be/Da48oZb9oNw), [Info Page](MechanicalEnergyBalanceVideoInfoWebPage.qmd), [Visuals](90-MechEngBalVisuals.qmd)
+
+**Steam: Get the Quality Right AFTER You Table It! Part 1**<br/>*The Basics of Steam Tables*<br/>[Video](https://youtu.be/8tH3gXz_M8A), [Info Page](SteamTablesVideoInfoWebPage.qmd), [Visuals](91-ThermodynamicPropertyTables1Visuals.qmd)
+
+**Steam: Get the Quality Right AFTER You Table It! Part 2**<br/>*Steam Table Examples*<br/>[Video](https://youtu.be/yRf09eSRM1A), [Info Page](SteamTablesVideoInfoWebPage.qmd), [Visuals](92-ThermodynamicPropertyTables2Visuals.qmd)
+
+**The Enthalpy Games: The Ballad of Integrals and Means**<br/>*$\Delta H$ from $C_p$, $\Delta U$ from $C_v$*<br/>[Video](https://youtu.be/YGMHMAXnFY8), [Info Page](HeatCapacityVideoInfoWebPage.qmd), [Visuals](93-EnthalpyVsTandPPart1.qmd)
+
+**The Enthalpy Games: Sunrise on the Calculations**<br/>*Example for $\mathrm{N_2}$, $\Delta H$ from $C_p$, $\Delta U$ from $C_v$*<br/>[Video](https://youtu.be/yLJp3YQaVvo), [Info Page](HeatCapacityVideoInfoWebPage.qmd), [Visuals](94-EnthalpyVsTandPPart2.qmd)
+
+**Feeling the Heat? How to Get Your Best Estimate**<br/>*Estimating $C_p$, $\Delta \hat{H}_v$, $\Delta \hat{H}_m$*<br/>[Video](https://youtu.be/f_l3OFyuiPs), [Info Page](EstimatingHeatCapacitiesVideoInfoWebPage.qmd), [Visuals](95-EstimatingHeatCapacitiesVisuals.qmd)
+
+**Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart**<br/>*Psychrometric Charts*<br/>[Video](https://youtu.be/Nz8ADo4X2Ss), [Info Page](PsychrometricChartsVideoInfoWebPage.qmd), [Visuals](97-PsychrometiricChartVIsuals.qmd)
+
+**Reference Not Found: Mixing, Dissolving, and Changing the Rules**<br/>*$\Delta H_m$, $\Delta H_s$*<br/>[Video](https://youtu.be/ggU692PLWts), [Info Page](HeatsOfMixingVideoInfoWebPage.qmd), [Visuals](98-ReferenceStatesVIsuals.qmd)
+
+**The Isochronicles: This First Law Saga Is a Gas**<br/>*The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes*<br/>[Video](https://youtu.be/iKsR3v1wu30), [Info Page](The1stLawForIdealGases.qmd), [Visuals](102-1stLawIdealGasesVisuals.qmd)
+
+## 1^st^ Law for Reactions
+
+**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](104-HeatsOfReactionVisuals.qmd)
+
+**Chemical Reactions vs. The First Law: Who Wins?**<br/>*Forms of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/mFF5hDHclPE), [Info Page](The1stLawReactingSystems.qmd), [Visuals](106-1stLawReactingVisuals.qmd)
+
+**Fueling the Fire: The Shocking Truth About Combustion Reactions!**<br/>*Common fuels, Heats of Combustion, HHV, LHV*<br/>[Video](https://youtu.be/lW5dK-F6H3U), [Info Page](EnergeticsOfCombustionReactionsVideoInfoWebPage.qmd), [Visuals](110-FuelsHeatingVisuals.qmd)
+
+**React Hard: The First Law Gets Chemical**<br/>*Example of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/q-W5Y1d85go), [Info Page](Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](111-EnergeticsOfReactionsPt1Visuals.qmd)
+
+**React Harder: Formation Heats and Alternate Endings**<br/>*2 more Examples of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/iqxJP6g-Qsc), [Info Page](Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](112-EnergeticsOfReactionsPt2Visuals.qmd)
+
+

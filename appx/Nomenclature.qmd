@@ -75,6 +75,10 @@ This page is to test web versions of the nomenclature or variable names for the 
 | $h$                  | convective heat transfer coefficient                                                                                        | $h$         |     |       | $h_c$                       |
 | $h_i$                | Thiele modulus for $i$th-order reaction                                                                                     |             |     |       | $h_i$                       |
 | $h_\mathrm{T}$       | Thiele modulus                                                                                                              |             |     |       | $h_\mathrm{T}$              |
+| $h_a$ | absolute humidity | $h_a$ |
+| $h_m$ | molal humidity | $h_m$ |
+| $h_p$ | percentage humidity | $h_p$ |
+| $h_r$ | relative humidity | $h_r$ |
 | $H_A$                | Henry's law constant for chemical species $A$                                                                               |  $H_A$      |$\mathscr{H}_A$|| $H$                      |
 | $H$                  | total enthalpy                                                                                                              |  $H$        |$H^t$ or $nH$|       |                     |
 | $\dot{H}$            | total enthalpy rate                                                                                                         |  $\dot{H}$  |$\dot{H}^t$ or $\dot{n}H$|       |         |
@@ -142,6 +146,10 @@ This page is to test web versions of the nomenclature or variable names for the 
 | $\bar{r}$            | average pore radius                                                                                                         |             |     |       | $\bar{r}$                   |
 | $R$                  | gas constant                                                                                                                | $R$         |     |       | $R$                         |
 | $R$                  | recycle ratio                                                                                                               |             |     |       | $R$                         |
+| $s_a$ | absolute saturation | $s_a$ |
+| $s_m$ | molal saturation | $s_m$ |
+| $s_p$ | percentage saturation | $s_p$ |
+| $s_r$ | relative saturation | $s_r$ |
 | $S$                  | total entropy                                                                                                               |  $S$        |$S^t$|       |                             |
 | $\dot{S}$            | total entropy rate                                                                                                          |             |     |       |                             |
 | $\hat{S}$            | molar or specific entropy                                                                                                   | $\hat{S}$   | $S$ | $s$   |                             |
