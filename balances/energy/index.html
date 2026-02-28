@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -191,15 +220,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#st-law-of-thermodynamics" id="toc-st-law-of-thermodynamics" class="nav-link active" data-scroll-target="#st-law-of-thermodynamics">1<sup>st</sup> Law of Thermodynamics</a></li>
+  <li><a href="#st-law-for-reactions" id="toc-st-law-for-reactions" class="nav-link" data-scroll-target="#st-law-for-reactions">1<sup>st</sup> Law for Reactions</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Energy Balances or The 1st Law</h1>
+<h1 class="title">Energy Balances or The 1<sup>st</sup> Law</h1>
 </div>
 
 
@@ -223,11 +259,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>The First Law of Thermodynamics and Energy Balances are synonymous.</p>
-<p>Here is the set of videos on the First Law</p>
-<p>{{ &lt; video https://youtu.be/ZHWT9Jw7fzY &gt; }} {{ &lt; video https://youtu.be/Da48oZb9oNw &gt; }} {{ &lt; video https://youtu.be/8tH3gXz_M8A &gt; }} {{ &lt; video https://youtu.be/yRf09eSRM1A &gt; }} {{ &lt; video https://youtu.be/YGMHMAXnFY8 &gt; }} {{ &lt; video https://youtu.be/yLJp3YQaVvo &gt; }} {{ &lt; video https://youtu.be/f_l3OFyuiPs &gt; }} {{ &lt; video https://youtu.be/Nz8ADo4X2Ss &gt; }} {{ &lt; video https://youtu.be/ggU692PLWts &gt; }} {{ &lt; video https://youtu.be/iKsR3v1wu30 &gt; }} {{ &lt; video https://youtu.be/qdgH4v64vOQ &gt; }} {{ &lt; video https://youtu.be/mFF5hDHclPE &gt; }} {{ &lt; video https://youtu.be/lW5dK-F6H3U &gt; }} {{ &lt; video https://youtu.be/q-W5Y1d85go &gt; }} {{ &lt; video https://youtu.be/iqxJP6g-Qsc &gt; }}</p>
-<p>Then for reacting systems …</p>
+<section id="st-law-of-thermodynamics" class="level2">
+<h2 class="anchored" data-anchor-id="st-law-of-thermodynamics">1<sup>st</sup> Law of Thermodynamics</h2>
+<p><strong>Just Try to Break This Law! I Dare You!</strong><br><em>Intro to 1st Law</em><br><a href="https://youtu.be/ZHWT9Jw7fzY">Video</a>, <a href="../../balances/energy/Intro1stLawVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/89-Intro1stLawVisuals.html">Visuals</a></p>
+<p><strong>Add Friction and Work to Bernoulli? Here’s What Really Happens!</strong><br><em>The Mechanical Energy Balance and the Moody Chart</em><br><a href="https://youtu.be/Da48oZb9oNw">Video</a>, <a href="../../balances/energy/MechanicalEnergyBalanceVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/90-MechEngBalVisuals.html">Visuals</a></p>
+<p><strong>Steam: Get the Quality Right AFTER You Table It! Part 1</strong><br><em>The Basics of Steam Tables</em><br><a href="https://youtu.be/8tH3gXz_M8A">Video</a>, <a href="../../balances/energy/SteamTablesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/91-ThermodynamicPropertyTables1Visuals.html">Visuals</a></p>
+<p><strong>Steam: Get the Quality Right AFTER You Table It! Part 2</strong><br><em>Steam Table Examples</em><br><a href="https://youtu.be/yRf09eSRM1A">Video</a>, <a href="../../balances/energy/SteamTablesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/92-ThermodynamicPropertyTables2Visuals.html">Visuals</a></p>
+<p><strong>The Enthalpy Games: The Ballad of Integrals and Means</strong><br><em><span class="math inline">\(\Delta H\)</span> from <span class="math inline">\(C_p\)</span>, <span class="math inline">\(\Delta U\)</span> from <span class="math inline">\(C_v\)</span></em><br><a href="https://youtu.be/YGMHMAXnFY8">Video</a>, <a href="../../balances/energy/HeatCapacityVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/93-EnthalpyVsTandPPart1.html">Visuals</a></p>
+<p><strong>The Enthalpy Games: Sunrise on the Calculations</strong><br><em>Example for <span class="math inline">\(\mathrm{N_2}\)</span>, <span class="math inline">\(\Delta H\)</span> from <span class="math inline">\(C_p\)</span>, <span class="math inline">\(\Delta U\)</span> from <span class="math inline">\(C_v\)</span></em><br><a href="https://youtu.be/yLJp3YQaVvo">Video</a>, <a href="../../balances/energy/HeatCapacityVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/94-EnthalpyVsTandPPart2.html">Visuals</a></p>
+<p><strong>Feeling the Heat? How to Get Your Best Estimate</strong><br><em>Estimating <span class="math inline">\(C_p\)</span>, <span class="math inline">\(\Delta \hat{H}_v\)</span>, <span class="math inline">\(\Delta \hat{H}_m\)</span></em><br><a href="https://youtu.be/f_l3OFyuiPs">Video</a>, <a href="../../balances/energy/EstimatingHeatCapacitiesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/95-EstimatingHeatCapacitiesVisuals.html">Visuals</a></p>
+<p><strong>Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart</strong><br><em>Psychrometric Charts</em><br><a href="https://youtu.be/Nz8ADo4X2Ss">Video</a>, <a href="../../balances/energy/PsychrometricChartsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/97-PsychrometiricChartVIsuals.html">Visuals</a></p>
+<p><strong>Reference Not Found: Mixing, Dissolving, and Changing the Rules</strong><br><em><span class="math inline">\(\Delta H_m\)</span>, <span class="math inline">\(\Delta H_s\)</span></em><br><a href="https://youtu.be/ggU692PLWts">Video</a>, <a href="../../balances/energy/HeatsOfMixingVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/98-ReferenceStatesVIsuals.html">Visuals</a></p>
+<p><strong>The Isochronicles: This First Law Saga Is a Gas</strong><br><em>The 1<sup>st</sup> Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes</em><br><a href="https://youtu.be/iKsR3v1wu30">Video</a>, <a href="../../balances/energy/The1stLawForIdealGases.html">Info Page</a>, <a href="../../balances/energy/102-1stLawIdealGasesVisuals.html">Visuals</a></p>
+</section>
+<section id="st-law-for-reactions" class="level2">
+<h2 class="anchored" data-anchor-id="st-law-for-reactions">1<sup>st</sup> Law for Reactions</h2>
+<p><strong>Germain Hess and the Enthalpy of Doom</strong><br><em>Hess’s Law and <span class="math inline">\(\Delta \hat{H}^\circ_f\)</span>, <span class="math inline">\(\Delta \hat{H}^\circ_r\)</span>, and <span class="math inline">\(\Delta \hat{H}c\)</span></em><br><a href="https://youtu.be/qdgH4v64vOQ">Video</a>, <a href="../../balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/104-HeatsOfReactionVisuals.html">Visuals</a></p>
+<p><strong>Chemical Reactions vs.&nbsp;The First Law: Who Wins?</strong><br><em>Forms of the 1<sup>st</sup> Law for Chemical Reactions</em><br><a href="https://youtu.be/mFF5hDHclPE">Video</a>, <a href="../../balances/energy/The1stLawReactingSystems.html">Info Page</a>, <a href="../../balances/energy/106-1stLawReactingVisuals.html">Visuals</a></p>
+<p><strong>Fueling the Fire: The Shocking Truth About Combustion Reactions!</strong><br><em>Common fuels, Heats of Combustion, HHV, LHV</em><br><a href="https://youtu.be/lW5dK-F6H3U">Video</a>, <a href="../../balances/energy/EnergeticsOfCombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/110-FuelsHeatingVisuals.html">Visuals</a></p>
+<p><strong>React Hard: The First Law Gets Chemical</strong><br><em>Example of the 1<sup>st</sup> Law for Chemical Reactions</em><br><a href="https://youtu.be/q-W5Y1d85go">Video</a>, <a href="../../balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/111-EnergeticsOfReactionsPt1Visuals.html">Visuals</a></p>
+<p><strong>React Harder: Formation Heats and Alternate Endings</strong><br><em>2 more Examples of the 1<sup>st</sup> Law for Chemical Reactions</em><br><a href="https://youtu.be/iqxJP6g-Qsc">Video</a>, <a href="../../balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/112-EnergeticsOfReactionsPt2Visuals.html">Visuals</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

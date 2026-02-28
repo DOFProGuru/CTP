@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -191,8 +220,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#nd-law-of-thermodynamics" id="toc-nd-law-of-thermodynamics" class="nav-link active" data-scroll-target="#nd-law-of-thermodynamics">2<sup>nd</sup> Law of Thermodynamics</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -222,9 +257,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Intro to Systems and Balances</p>
+<section id="nd-law-of-thermodynamics" class="level2">
+<h2 class="anchored" data-anchor-id="nd-law-of-thermodynamics">2<sup>nd</sup> Law of Thermodynamics</h2>
+<p><strong>Resistance is Futile. Entropy Always Wins</strong><br><em>Intro to 2<sup>nd</sup> Law</em><br><a href="https://youtu.be/yqVUz1WA7M4">Video</a>, <a href="../../balances/entropy/IntroTo2ndLawVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/113-Visuals.html">Visuals</a></p>
+<p><strong>The ΔS-sentials of Calculating Entropy Changes</strong><br><em>Calculating <span class="math inline">\(\Delta S\)</span> for heat reservoirs, ideal gases, and Steam</em><br><a href="https://youtu.be/z2e5Rq5r288">Video</a>, <a href="../../balances/entropy/CalculatingEntropyChangesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/115-CalcEntropyVisuals.html">Visuals</a></p>
+<p><strong>Sadi Carnot and the Power of Fire, the 1824 Edition Part 1</strong><br><em>The Air-Standard Carnot Cycle</em><br><a href="https://youtu.be/EDJQAvBIAok">Video</a>, <a href="../../balances/entropy/TheCarnotCycleVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/116-Visuals.html">Visuals</a></p>
+<p><strong>Sadi Carnot and the Power of Fire, the 1824 Edition Part 2</strong><br><em>The Steam Carnot Cycle</em><br><a href="https://youtu.be/Qc9W1KKpouU">Video</a>, <a href="../../balances/entropy/TheCarnotCycleVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/116.5-Visuals.html">Visuals</a></p>
+<p><strong>How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?</strong><br><em>The 2nd Law for Closed, Open Steady-State, and Open Transient Systems</em><br><a href="https://youtu.be/QcZTezMtDRk">Video</a>, <a href="../../balances/entropy/EntropyBalanceEquationsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/117-2ndLawSystemsVisuals.html">Visuals</a></p>
+<p><strong>Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans</strong><br><em>Turbines and Expanders, Isentropic and Isothermal Compressors</em><br><a href="https://youtu.be/Pb7PS5oeCz0">Video</a>, <a href="../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/118-TurbCompEtcVisuals.html">Visuals</a></p>
+<p><strong>Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans</strong><br><em>Pumps, Nozzles, and Valves or Throttles</em><br><a href="https://youtu.be/irBfMfVUEFo">Video</a>, <a href="../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/118.5-PumpNozzVisuals.html">Visuals</a></p>
+<p><strong>Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1</strong><br><em>The Ideal Rankine Cycle</em><br><a href="https://youtu.be/4QRJ00uyaX8">Video</a>, <a href="../../balances/entropy/RankineCycleInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/119-RankineVisualsPart1.html">Visuals</a></p>
+<p><strong>Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2</strong><br><em>The Rankine Cycle with <span class="math inline">\(\eta_\mathrm{pump}\)</span> and <span class="math inline">\(\eta_\mathrm{turbine}\)</span></em><br><a href="https://youtu.be/0DmsKCJpIdc">Video</a>, <a href="../../balances/entropy/RankineCycleInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/120-RankineVisualsPart2.html">Visuals</a></p>
+<p><strong>Modeling the Rankine Cycle in DWSIM</strong><br><em>Modeling the Rankine Cycle in DWSIM</em><br><a href="https://youtu.be/ECOWIrzvGNc">Video</a>, <a href="../../balances/entropy/RankineCycleInfoWebPage.html">Info Page</a>, <a href="none">Visuals</a></p>
+<p><strong>Cycle Wars: The Power Awakens</strong><br><em>Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle</em><br><a href="https://youtu.be/M_p3gb79isg">Video</a>, <a href="../../balances/entropy/AirStandardPowerCyclesInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/122-AirStandardCyclesPart1Visuals.html">Visuals</a></p>
+<p><strong>Cycle Wars: The Rise of Otto Cycles</strong><br><em>Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, &amp; Stirling Cycles</em><br><a href="https://youtu.be/jJaDQM8qjgU">Video</a>, <a href="../../balances/entropy/AirStandardPowerCyclesInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/123-AirStandardCyclesPart2Visuals.html">Visuals</a></p>
+<p><strong>Revenge of the Fridge: Vapor Compression Strikes Back</strong><br><em>The Vapor Compression Cycle</em><br><a href="https://youtu.be/SN27SxDt0G4">Video</a>, <a href="../../balances/entropy/TheVaporCompressionCycleVideoWebPage.html">Info Page</a>, <a href="../../balances/entropy/126-RefrigerationVisuals.html">Visuals</a></p>
+<p><strong>Modeling the Vapor Compression Cycle in DWSIM</strong><br><em>Modeling the Vapor Compression Cycle in DWSIM</em><br><a href="https://youtu.be/nWOz-Y7XsbQ">Video</a>, <a href="../../balances/entropy/TheVaporCompressionCycleVideoWebPage.html">Info Page</a>, <a href="none">Visuals</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
