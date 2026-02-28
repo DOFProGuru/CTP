@@ -3,4 +3,32 @@ title: "Entropy Balances or The 2nd Law"
 author: "DOFPro group"
 ---
 
-Intro to Systems and Balances
+## 2^nd^ Law of Thermodynamics
+
+**Resistance is Futile. Entropy Always Wins**<br/>*Intro to 2^nd^ Law*<br/>[Video](https://youtu.be/yqVUz1WA7M4), [Info Page](IntroTo2ndLawVideoInfoWebPage.qmd), [Visuals](113-Visuals.qmd)
+
+**The ΔS-sentials of Calculating Entropy Changes**<br/>*Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam*<br/>[Video](https://youtu.be/z2e5Rq5r288), [Info Page](CalculatingEntropyChangesVideoInfoWebPage.qmd), [Visuals](115-CalcEntropyVisuals.qmd)
+
+**Sadi Carnot and the Power of Fire, the 1824 Edition Part 1**<br/>*The Air-Standard Carnot Cycle*<br/>[Video](https://youtu.be/EDJQAvBIAok), [Info Page](TheCarnotCycleVideoInfoWebPage.qmd), [Visuals](116-Visuals.qmd)
+
+**Sadi Carnot and the Power of Fire, the 1824 Edition Part 2**<br/>*The Steam Carnot Cycle*<br/>[Video](https://youtu.be/Qc9W1KKpouU), [Info Page](TheCarnotCycleVideoInfoWebPage.qmd), [Visuals](116.5-Visuals.qmd)
+
+**How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?**<br/>*The 2nd Law for Closed, Open Steady-State, and Open Transient Systems*<br/>[Video](https://youtu.be/QcZTezMtDRk), [Info Page](EntropyBalanceEquationsVideoInfoWebPage.qmd), [Visuals](117-2ndLawSystemsVisuals.qmd)
+
+**Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans**<br/>*Turbines and Expanders, Isentropic and Isothermal Compressors*<br/>[Video](https://youtu.be/Pb7PS5oeCz0), [Info Page](EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](118-TurbCompEtcVisuals.qmd)
+
+**Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans**<br/>*Pumps, Nozzles, and Valves or Throttles*<br/>[Video](https://youtu.be/irBfMfVUEFo), [Info Page](EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](118.5-PumpNozzVisuals.qmd)
+
+**Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1**<br/>*The Ideal Rankine Cycle*<br/>[Video](https://youtu.be/4QRJ00uyaX8), [Info Page](RankineCycleInfoWebPage.qmd), [Visuals](119-RankineVisualsPart1.qmd)
+
+**Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2**<br/>*The Rankine Cycle with $\eta_\mathrm{pump}$  and $\eta_\mathrm{turbine}$*<br/>[Video](https://youtu.be/0DmsKCJpIdc), [Info Page](RankineCycleInfoWebPage.qmd), [Visuals](120-RankineVisualsPart2.qmd)
+
+**Modeling the Rankine Cycle in DWSIM**<br/>*Modeling the Rankine Cycle in DWSIM*<br/>[Video](https://youtu.be/ECOWIrzvGNc), [Info Page](RankineCycleInfoWebPage.qmd), [Visuals](none)
+
+**Cycle Wars: The Power Awakens**<br/>*Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle*<br/>[Video](https://youtu.be/M_p3gb79isg), [Info Page](AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](122-AirStandardCyclesPart1Visuals.qmd)
+
+**Cycle Wars: The Rise of Otto Cycles**<br/>*Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, & Stirling Cycles*<br/>[Video](https://youtu.be/jJaDQM8qjgU), [Info Page](AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](123-AirStandardCyclesPart2Visuals.qmd)
+
+**Revenge of the Fridge: Vapor Compression Strikes Back**<br/>*The Vapor Compression Cycle*<br/>[Video](https://youtu.be/SN27SxDt0G4), [Info Page](TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](126-RefrigerationVisuals.qmd)
+
+**Modeling the Vapor Compression Cycle in DWSIM**<br/>*Modeling the Vapor Compression Cycle in DWSIM*<br/>[Video](https://youtu.be/nWOz-Y7XsbQ), [Info Page](TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](none)

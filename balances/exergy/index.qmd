@@ -3,4 +3,9 @@ title: "Exergy or Availability Balances"
 author: "DOFPro group"
 ---
 
-Intro to Systems and Balances
+## Combined 1^st^ and 2^nd^ Laws
+
+**The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1**<br/>*The Combined 1^st^ and 2^nd^ Laws*<br/>[Video](https://youtu.be/02S9SOGRBWU), [Info Page](Combined1stAnd2ndLawsVideoWebPage.qmd), [Visuals](129-IdealLostWorkVisuals.qmd)
+
+**The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 2**<br/>*Example of The Combined 1^st^ and 2^nd^ Laws*<br/>[Video](https://youtu.be/ZAdAC4OccmI), [Info Page](Combined1stAnd2ndLawsVideoWebPage.qmd), [Visuals](130-IdealLostWorkExampleVisuals.qmd)
+
