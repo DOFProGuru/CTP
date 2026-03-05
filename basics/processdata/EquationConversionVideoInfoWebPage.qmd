@@ -16,7 +16,7 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6dyg-CgAm8s?si=kvaStVIReTjlrjNj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 
 # Examples and Definitions
@@ -24,6 +24,18 @@ Video 1 explanation
 ## Examples Links
 
 ## Definitions
+
+Equations with Dimensions
+: Equations that require variables to have specific units or dimensions for the equation to be valid. These equations often involve physical quantities such as length, time, mass, and force.
+
+Dimensional Equations
+: Expressions, usually a series of products of unity, that are used to convert a value from one set of units to another. See [Is Furlongs per Fortnight a Thing?](https://youtu.be/5EbL9MEro9E) for an example of how to use dimensional equations to convert units.
+
+Original Units
+: The units of the variable(s) in the original equation with dimensions that need to be converted.
+
+Target Units
+: The desired units for the variable(s) after conversion of the equation with dimensions.
 
 # Other Links and Videos
 

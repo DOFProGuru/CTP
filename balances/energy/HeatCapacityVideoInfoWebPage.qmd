@@ -16,18 +16,20 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YGMHMAXnFY8?si=GhNpW5oYGxS4JICt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## The Enthalpy Games: Sunrise on the Calculations
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yLJp3YQaVvo?si=jBD8ZI_cOqJ6-9ZX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
+
+- [Nitrogen Heat Capacity Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/energy/NitrogenForVideo94.ods)
 
 ## Definitions
 

@@ -36,7 +36,13 @@ The *Just The Facts* Video explains the basics of pressure, hydrostatic pressure
 <iframe width="560" height="315" src="https://www.youtube.com/embed/41axc-xnqsQ?si=9ROd_qCuSIw_DakH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Visuals](PressurePt2TFSVisuals.qmd), [Transcript]()
 
-# Definitions
+# Examples and Definitions
+
+## Examples Links
+
+- [Pressure Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/PressureExamples.ods)
+
+## Definitions
 
 Pressure
 : Normal force per unit area. The SI unit is the Pascal (Pa), which is defined as 1 Newton per square meter ($1\ \mathrm{N/m^2}$).
@@ -89,11 +95,11 @@ Gauge Pressure
 Barometric Pressure
 : The local atmospheric pressure that would be measured at the bottom of a hole drilled vertically down to sea level.
 
-Differential Pressure Gauge:
-A gauge that measures the difference in pressure between its two inlets.
+Differential Pressure Gauge
+: A gauge that measures the difference in pressure between its two inlets.
 
-Absolute Pressure Gauge:
-A gauge that measures the pressure at its inlet relative to a perfect vacuum.
+Absolute Pressure Gauge
+: A gauge that measures the pressure at its inlet relative to a perfect vacuum.
 
 Gram Mole or g-mol
 : A gram mole is what chemists call a mole. See [What Is A Mole](WhatIsAMoleWebPage.qmd) for further explanation.

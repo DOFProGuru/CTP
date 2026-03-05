@@ -16,18 +16,21 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SN27SxDt0G4?si=JV0ibrl4Zg5B8zRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Modeling the Vapor Compression Cycle in DWSIM 
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nWOz-Y7XsbQ?si=80tsMdSOaeHi01kO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
+
+- [Vapor Compression Cycle Model](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/VaporCompressionDWSIMCalc.ods)
+- [DWSIM Vapor Compression Model](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/VapCompCalc.dwxmz)
 
 ## Definitions
 

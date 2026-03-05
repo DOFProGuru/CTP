@@ -16,18 +16,20 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8tH3gXz_M8A?si=ZSnLBeA9c4uXRMsC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Steam: Get the Quality Right AFTER You Table It! Part 2 
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yRf09eSRM1A?si=Ti4C8E1i9Rd9oXS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
+
+- [Steam Tables](https://dofprobucket1.s3.us-east-2.amazonaws.com/energy/SteamTables.ods)
 
 ## Definitions
 

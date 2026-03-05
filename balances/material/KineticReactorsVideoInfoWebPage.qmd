@@ -16,27 +16,44 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_qxHszVZYGk?si=bArMc7GxKvM-ug4l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Wishing Upon a CSTR
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6tnVFq7dSbE?si=2MBUW71WCRQVQ-xS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## It’s Totally Tubular, Man!
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OAzXx9Kq2nU?si=WIoyQN_CdEFKu7hh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+- [CSTR and PFR Demo](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/CSTRPFRDemo.ods)
+
 ## Definitions
+
+Chemical Reactor
+: A vessel or system in which a chemical reaction takes place. Reactors are designed to provide the necessary conditions for the reaction to occur, such as temperature, pressure, and mixing. Common types of chemical reactors include batch reactors, continuous stirred-tank reactors (CSTRs), and plug flow reactors (PFRs).
+
+Batch Reactor
+: A type of chemical reactor in which the reactants are loaded into the reactor, the reaction takes place, and then the products are removed. Batch reactors are typically used for small-scale production or when the reaction requires precise control over time.
+
+Continuous Stirred-Tank Reactor (CSTR)
+: A type of chemical reactor in which the reactants are continuously fed into the reactor, and the products are continuously removed. The contents of the reactor are well mixed, resulting in uniform composition throughout the reactor. CSTRs are commonly used in large-scale industrial processes.
+
+Plug Flow Reactor (PFR)
+: A type of chemical reactor in which the reactants flow through the reactor as a plug, with no mixing in the flow direction. The composition of the reactants changes along the length of the reactor, and the reaction occurs as the reactants move through the reactor. PFRs are often used in processes where a high conversion is desired, such as in the production of chemicals or in catalytic reactions.
+
+Space Time
+: The time required for a given volume of reactants to pass through a reactor. It is calculated as the volume of the reactor divided by the volumetric flow rate of the feed. Space time is an important parameter in reactor design and analysis, as it helps determine the residence time of the reactants in the reactor and the extent of the reaction.
 
 # Other Links and Videos
 

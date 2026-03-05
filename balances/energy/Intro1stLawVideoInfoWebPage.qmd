@@ -16,20 +16,29 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZHWT9Jw7fzY?si=3b2jG26gxpI9XkgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Video 2
 
 Video  explanation
 
 ***Video 2 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
 ## Definitions
+
+The First Law of Thermodynamics
+: The general balance equation applied to energy with the assumption that relativistic effects and nuclear reactions are assumed to be negligible.
+
+Work
+: A force moving through a distance. Electrical energy crossing a system boundary is usually assumed to be work.
+
+Heat
+: Energy crossing a system boundary due to a temperature difference. In some cases the temperature difference is assumed to be infinitesimally small.
 
 # Other Links and Videos
 

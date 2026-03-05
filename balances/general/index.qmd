@@ -79,28 +79,22 @@ It is quite frequently useful to define an intensive property that is related to
 
 ## Definitions
 
-[PFD](https://en.wikipedia.org/wiki/Process_flow_diagram)
-
-:   Process Flow Diagram or flowsheet. A schematic drawing of the mixers, dividers, separators and reactors used in the process.
+[PFD](https://en.wikipedia.org/wiki/Process_flow_diagram) Process Flow Diagram or flowsheet.
+:    A schematic drawing of the mixers, dividers, separators and reactors used in the process.
 
 Recycle
-
 :   Part of a product stream is returned to the feed of a process.
 
 Bypass
-
 :   Part of the feed is routed around a process and mixed with the product.
 
 Purge
-
 :   A stream used to prevent buildup of trace components in a recycle loop.
 
 Tie Component
-
 :   A component of the feed which is unchanged by a process. Often useful for calculations but never necessary.
 
 Overall Balance
-
 :   Treating a PFD as a black box with only inputs and outputs.
 
 ## One Useful Technique

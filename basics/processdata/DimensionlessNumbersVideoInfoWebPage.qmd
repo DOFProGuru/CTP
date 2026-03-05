@@ -16,20 +16,26 @@ Dimensionless Numbers explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A348vNv5t9c?si=ea8avmzq6pTLtmas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## What the Schmidt? Examples
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/74SD0k_qBc8?si=JSO94bTp2EA3DFIO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
 ## Definitions
+
+Dimensionless Numbers or Dimensionless Parameters
+: A dimensionless number is a quantity that has no physical units and is used to characterize the behavior of a system or process. These numbers are often ratios of physical quantities and are used to simplify complex phenomena by reducing the number of variables involved. Examples include the Reynolds number, Prandtl number, and Sherwood number, which are commonly used in fluid mechanics, heat transfer, and mass transfer, respectively.
+
+Dimensional Homogeneity
+: A principle in physics and engineering that states that all terms in a physical equation must have the same dimensions. This means that the units on both sides of an equation must be consistent, ensuring that the equation is physically meaningful. Dimensional homogeneity is a fundamental requirement for the validity of any physical equation and is often used as a check for the correctness of derived equations.
 
 # Other Links and Videos
 

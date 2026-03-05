@@ -16,7 +16,7 @@ A third video, *The Most Annoying Equation Conversion*, [Video](https://youtu.be
 The *Just The Facts* Video discusses unit conversions, explains dimensional equations and then has examples of their use. It is recommended for both those who are just learning unit conversions and those who have a reasonably good understanding of unit conversion and are just looking for a refresher or a review.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5EbL9MEro9E?si=b_Khtnkg7aSGubkv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](ConvertingTemperatureJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](ConvertingTemperatureJTFVisuals.qmd)
 
 # Some Common Conversions
 

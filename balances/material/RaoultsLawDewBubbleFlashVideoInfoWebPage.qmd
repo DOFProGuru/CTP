@@ -16,27 +16,51 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R4bimpGAV7o?si=IFTJpCzdfwOmqsIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9GyrfJzg-tg?si=tIbrZXZORXHYH_B2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Part 3
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bG15qQ9gB4c?si=V6SC6uhwQXHIlHKt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
 ## Definitions
+
+Raoult's Law
+:
+
+Ideal Gas Mixture
+:
+
+Ideal Solution
+:
+
+Dew Pressure
+: The pressure at which a vapor of a given composition and temperature begins to condense. The composition of the condensate is usually also calculated.
+
+Bubble Pressure
+: The pressure at which a liquid of a given composition and temperature begins to evaporate. The composition of the vapor is usually also calculated.
+
+Dew Temperature
+: The temperature at which a vapor of a given composition and pressure begins to condense. The composition of the condensate is usually also calculated.
+
+Bubble Temperature
+: The temperature at which a liquid of a given composition and pressure begins to evaporate. The composition of the vapor is usually also calculated.
+
+Flash
+: A mixture with a known overall composition is brought to a temperature and pressure in the two-phase region. The mixture separates into a vapor phase and a liquid phase. The compositions of the two phases and their relative amounts are usually calculated.
 
 # Other Links and Videos
 

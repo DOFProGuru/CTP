@@ -16,41 +16,74 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L-DEw6dGRps?si=uvcbFHC5M02ghlDp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## When Getting Gassed Isn’t Ideal, Part 1
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1sU4_YdcKr4?si=piaWPqk_oxK1OV-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## When Getting Gassed Isn’t Ideal, Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q6ZK_Ou967o?si=PK_b3LzvS6rHHXlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yI3jj1jCSAM?si=WWvKCAmBPMPlF0R9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pbizi39c1Rk?si=QV4dU43XFw8cILDZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+- [Real Gas Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/RealGasExample.ods)
+- [Real Gas Mixture Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/MixRealGasExample.ods)
+
 ## Definitions
+
+Ideal Gas
+: An ideal gas is a theoretical gas that follows the ideal gas law, which states that the pressure, volume, and temperature of the gas are related by the equation PV = nRT, where P is the pressure, V is the volume, n is the number of moles of gas, R is the ideal gas constant, and T is the temperature. In an ideal gas, the gas particles are assumed to have no volume and no interactions with each other, which allows for simple mathematical modeling of the gas behavior. However, real gases deviate from ideal behavior at high pressures and low temperatures due to the finite size of gas particles and the presence of intermolecular forces.
+
+Real Gas
+: A real gas is a gas that does not follow the ideal gas law due to the presence of intermolecular forces and the finite size of gas particles. Real gases deviate from ideal behavior at high pressures and low temperatures, where the assumptions of the ideal gas model break down. The behavior of real gases can be described using more complex equations of state.
+
+Compressibility
+: A measure of how much a gas deviates from ideal behavior. It is defined as the ratio of the molar volume of the gas to the molar volume of an ideal gas at the same temperature and pressure. A compressibility factor of 1 indicates ideal behavior, while values greater than 1 indicate that the gas is less compressible than an ideal gas, and values less than 1 indicate that the gas is more compressible than an ideal gas.
+
+Critical Point
+: The critical point of a substance is the temperature and pressure at which the liquid and gas phases of the substance become indistinguishable. At the critical point, the properties of the liquid and gas phases converge, and the substance exists as a supercritical fluid. The critical point is an important concept in the study of phase behavior and is used to characterize the properties of substances under extreme conditions.
+
+Critical Pressure
+: The pressure at the critical point of a substance. It is the minimum pressure required to liquefy a gas at its critical temperature. The critical pressure is an important property that helps to define the behavior of substances near their critical point and is used in various applications, such as in the design of supercritical fluid extraction processes.
+
+Critical Temperature
+: The temperature at the critical point of a substance. It is the minimum temperature required to liquefy a gas at its critical pressure. The critical temperature is an important property that helps to define the behavior of substances near their critical point and is used in various applications, such as in the design of supercritical fluid extraction processes.
+
+Reduced Pressure
+: The ratio of the pressure of a gas to its critical pressure. Reduced pressure is a dimensionless quantity that is used to characterize the behavior of gases in relation to their critical point. It is often used in conjunction with reduced temperature to analyze the phase behavior of gases and to apply the law of corresponding states.
+
+Reduced Temperature
+: The ratio of the temperature of a gas to its critical temperature. Reduced temperature is a dimensionless quantity that is used to characterize the behavior of gases in relation to their critical point. It is often used in conjunction with reduced pressure to analyze the phase behavior of gases and to apply the law of corresponding states.
+
+Equation of State
+: An equation of state is a mathematical relationship that describes the behavior of a substance in terms of its pressure, volume, and temperature. For real gases, equations of state such as the Soave-Redlich-Kwong equation, and the Peng-Robinson equation are commonly used to model the behavior of gases under non-ideal conditions. These equations of state account for the finite size of gas particles and the intermolecular forces between them, allowing for more accurate predictions of gas behavior compared to the ideal gas law.
+
+Law of Corresponding States
+: A principle that states that the properties of all substances can be correlated when expressed in terms of reduced properties, which are defined as the actual properties divided by the critical properties of the substance. The law of corresponding states allows for the prediction of the behavior of substances based on their critical properties, and is often used in the study of real gases and mixtures to simplify the analysis of their behavior under different conditions.
 
 # Other Links and Videos
 

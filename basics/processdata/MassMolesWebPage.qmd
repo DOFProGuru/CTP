@@ -14,14 +14,14 @@ Mixtures are very common in chemical and thermal processes. It is often necessar
 *The Full Story* Video examines common conceptions and misconceptions about mass, moles, mass and mole fractions, and molecular weights of mixtures. It is recommended for those who have not been exposed to these concepts before or who have struggled with understanding what they are or how to use them.
 
 
-**Video Link goes here** [Visuals](MassMolesTFSVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+**Video Link goes here** [Visuals](MassMolesTFSVisuals.qmd)
 
 # The *Just The Facts* Video
 
 The *Just The Facts* Video gets straight to explaining what mass, moles, and mass and mole fractions are and how they are used. It is recommended for those who have a reasonably good understanding of mass, moles, and mass and mole fractions and are just looking for a refresher or a review.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Tdeuf0quJUs?si=DM4eg80CBlbi6ocD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](MassMolesJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](MassMolesJTFVisuals.qmd)
 
 # Definitions
 

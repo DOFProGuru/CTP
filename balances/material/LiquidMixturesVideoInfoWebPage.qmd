@@ -16,13 +16,31 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_tjYMjWR4fE?si=m40rvQudtzU1_KiW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
 ## Definitions
+
+Liquid Mixture
+: A liquid mixture is a homogeneous combination of two or more liquids that are completely miscible with each other. The properties of a liquid mixture, such as density, viscosity, and boiling point, can differ from those of the individual components due to interactions between the molecules of the different liquids. Examples of liquid mixtures include alcohol and water and various solvent mixtures used in chemical processes.
+
+Volume Expansivity
+: A measure of how much the volume of a liquid mixture changes with temperature. It is defined as the fractional change in volume per unit change in temperature at constant pressure. The volume expansivity of a liquid mixture can be influenced by the composition of the mixture and the interactions between the different components, and it is an important property to consider in processes that involve temperature changes, such as heating or cooling.
+
+Isothermal Compressibility
+: A measure of how much the volume of a liquid mixture changes with pressure at constant temperature. It is defined as the fractional change in volume per unit change in pressure at constant temperature. The isothermal compressibility of a liquid mixture can be influenced by the composition of the mixture and the interactions between the different components, and it is an important property to consider in processes that involve pressure changes, such as pumping or compression.
+
+Ideal Mixture
+: An ideal mixture is a theoretical concept in which the properties of the mixture can be predicted based on the properties of the individual components and their proportions in the mixture. In an ideal mixture, the interactions between the different components are assumed to be negligible, and the properties of the mixture can be calculated using simple weighted averages of the properties of the individual components.
+
+Volume Additivity
+: The principle that the total volume of a liquid mixture is equal to the sum of the volumes of the individual components before mixing. It holds for an ideal mixture. 
+
+Density Averaging
+: The process of calculating the density of a liquid mixture as the sum of the individual densities times their mass fractions. This is an approximation that can be used for non-ideal mixtures, but it may not always yield accurate results due to interactions between the components of the mixture.
 
 # Other Links and Videos
 

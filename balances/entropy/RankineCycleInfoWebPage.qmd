@@ -16,25 +16,29 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4QRJ00uyaX8?si=Gfhb6hnC5ev3JPIK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0DmsKCJpIdc?si=aR-NMxiLDotMK8Lq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Modeling the Rankine Cycle in DWSIM
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ECOWIrzvGNc?si=OCZ5b3hSXYay14E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
+
+- [Ideal and Real Rankine Cycle Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineExamples.ods)
+- [DWSIM Rankine Cycle Example for Revenge of the Fridge](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineCycle.dwxmz)
+- [DWSIM Rankine Cycle Demo](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineCycle2Ways.dwxmz)
 
 ## Definitions
 

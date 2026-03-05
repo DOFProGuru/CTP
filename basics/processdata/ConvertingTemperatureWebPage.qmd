@@ -49,7 +49,7 @@ The *Just The Facts* Video explains the difference between temperature and tempe
 Explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TncEECvmw8Y?si=SDSSKkLOv7PY1eOy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 
 # Definitions

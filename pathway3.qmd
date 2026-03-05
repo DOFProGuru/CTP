@@ -6,6 +6,19 @@ format: html
 
 # MechE Thermo
 
+This pathway is our best approximation of what an introductory Mechanical Engineering Thermodynamics student would find most useful. It omits chemical reactors and reaction thermodynamics.
+
+If you’re already comfortable with engineering statistics, data presentation, and spreadsheets, you can safely skip the **Visualize and Calculate** section.
+
+## How to Read This Pathway [(Without Increasing Entropy)]{style="font-size: 20px;"}
+
+- **JTF (Just the Facts)** videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think “efficient and to the point.” Each has a companion TFS video.
+- **TFS (The Full Story)** videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.
+- **Info Page** links lead to definitions, expanded explanations, and related material—because sometimes you really do need to explain it.
+- **Visuals** links contain the underlying greenscreen or whiteboard materials used in the video, for those who like to see the scaffolding.
+- Wondering about the titles? See Appendix B: [**If you have to explain it, it’s no longer funny**](/appx/NotFunny.qmd)￼.
+- Videos marked [This is NOT a DOFPro video]{style="color: red;"} were not produced by DOFPro but are included because they’re relevant to the topic. They’re shown in red so no one calls the academic integrity police.
+
 ## Introduction
 
 **From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**<br/>*Intro to DOFPro CTP*<br/>[Video](https://youtu.be/8FEmNkiU1Jk), [Info Page](basics/intro/IntroTopicsWebPage.qmd), [Visuals](basics/intro/1-MoleToMegawattVisuals.qmd)
@@ -40,24 +53,32 @@ format: html
 
 **Basic Statistics on a Spreadsheet**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with a spreadsheet*<br/>[Video](https://youtu.be/RZ1kFVLvSxY), [Info Page](basics/stats/BasicStatisticsVideoInfoWebPage.qmd), [Visuals](basics/stats/BasicStatsSpreadsheetJTFVisuals.qmd)
 
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Basic Stats in MATLAB**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with MATLAB*<br/>[Video](https://youtu.be/j0BRAgadBxg), [Info Page](basics/stats/BasicStatisticsVideoInfoWebPage.qmd), [Visuals](none)
 
 **Basic Statistics in R**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R*<br/>[Video](https://youtu.be/va7O78QdYLk), [Info Page](basics/stats/BasicStatisticsVideoInfoWebPage.qmd), [Visuals](none)
 
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Linear Regression**<br/>*Derivation of the equations for linear regression*<br/>[Video](https://youtu.be/HsZhQyhg0tk), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
 
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Linear Regression Spreadsheet**<br/>*Performing linear regression with a spreadsheet*<br/>[Video](https://youtu.be/7LBI7Ea2sx0), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
 
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Linear Regression MATLAB**<br/>*Performing linear regression with MATLAB*<br/>[Video](https://youtu.be/TjqNTjCIuhE), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
 
 **Linear Regression in R**<br/>*Linear Regression in R*<br/>[Video](https://youtu.be/Btshw2DX0Ik), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
 
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Error Propagation**<br/>*Propagating errors or uncertainties through equations and calculations*<br/>[Video](https://youtu.be/DiOs64kzSQw), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
 
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
 
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Integrals and Derivatives Part 2**<br/>*More propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
 
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](basics/stats/NonlinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
 
 ## Types of Process Data

@@ -16,7 +16,7 @@ Main title explanation
 Video 1 explanation
 
 ***Video 1 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 
 ## Error Propagation
@@ -28,14 +28,14 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DiOs64kzSQw?si=UVrq73pdpsjS-lVp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 <!-- ## Error Propagation in Integrals and Derivatives Part 1
 
 Video explanation
 
 ***Video 1 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 
 ## Integrals and Derivatives Part 1
@@ -47,14 +47,14 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 Video explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_0AcGK7asfM?si=X5OLQfj8W6cOlB_7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 <!-- ## Error Propagation in Integrals and Derivatives Part 2
 
 Video explanation
 
 ***Video 1 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 
 ## Integrals and Derivatives Part 2
@@ -66,13 +66,28 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 Video explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ej9O5ncO1iw?si=e1pgKjH3PAm4IXt6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
 ## Definitions
+
+Error Propagation
+: Error propagation is the process of determining how the uncertainties in the input variables of a function affect the uncertainty in the output variable. In other words, it's a way to estimate how errors in measured quantities propagate through a calculation to affect the final result.
+
+Uncorrelated Errors
+: Uncorrelated errors are errors in different measurements that do not influence each other. In other words, the error in one measurement does not affect the error in another measurement. When errors are uncorrelated, the total uncertainty can be calculated using the square root of the sum of the squares of the individual uncertainties.
+
+Correlated Errors
+: Correlated errors are errors in different measurements that are related to each other. In this case, the error in one measurement can affect the error in another measurement. When errors are correlated, the total uncertainty must take into account the covariance between the measurements, which can lead to a more complex calculation of the total uncertainty.
+
+Numerical Error Propagation
+: Numerical error propagation refers to the process of calculating the propagation of errors through equations or functions using numerical methods, such as with a spreadsheet.
+
+Analytical Error Propagation
+: Analytical error propagation refers to the process of calculating the propagation of errors through equations or functions using analytical methods, such as by using the formula for error propagation that involves partial derivatives.
 
 # Other Links and Videos
 

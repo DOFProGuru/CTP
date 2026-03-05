@@ -16,20 +16,53 @@ Main title explanation
 JTF explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AFZWZSJ96g8?si=W2FzFz7msSm1ApBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## The Full Story
 
 TFS  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2-EWSUW4BJU?si=G3SZCCLaGoTAq0s8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
 ## Definitions
+
+Mass Density
+: Mass density is a measure of how much mass is contained in a given volume. It is typically expressed in units of mass per unit volume, such as kilograms per cubic meter (kg/m³) or grams per cubic centimeter (g/cm³). Mass density is an important property of materials and is used in various applications, including engineering, physics, and chemistry, to characterize substances and predict their behavior under different conditions.
+
+Specific Volume
+: Specific volume is the reciprocal of mass density and represents the volume occupied by a unit mass of a substance. It is typically expressed in units of volume per unit mass, such as cubic meters per kilogram (m³/kg) or cubic centimeters per gram (cm³/g). Specific volume is a useful property in thermodynamics and fluid mechanics, as it helps to describe the behavior of gases and liquids under varying conditions of temperature and pressure.
+
+Molar Density
+: Molar density is a measure of the number of moles of a substance per unit volume. It is typically expressed in units of moles per cubic meter (mol/m³) or moles per liter (mol/L). Molar density is an important property in chemistry and chemical engineering, as it helps to describe the concentration of substances in a given volume and is used in various calculations, such as determining reaction rates and equilibrium constants.
+
+Molar Volume
+: Molar volume is the reciprocal of molar density and is the volume occupied by one mole of a substance at a given temperature and pressure. It is typically expressed in units of cubic meters per mole (m³/mol) or liters per mole (L/mol). Molar volume is a useful property in chemistry and chemical engineering, as it helps to describe the behavior of gases and liquids under varying conditions and is used in various calculations, such as determining the ideal gas law and calculating the volume of reactants and products in chemical reactions.
+
+Mass Fraction
+: Mass fraction is a dimensionless quantity that represents the ratio of the mass of a particular component to the total mass of a mixture. It is typically expressed as a decimal or percentage and is used to describe the composition of mixtures in various fields, including chemistry, chemical engineering, and materials science. Mass fraction is calculated by dividing the mass of the component of interest by the total mass of the mixture.
+
+Mole Fraction
+: Mole fraction is a dimensionless quantity that represents the ratio of the number of moles of a particular component to the total number of moles in a mixture. It is typically expressed as a decimal or percentage and is used to describe the composition of mixtures in various fields, including chemistry, chemical engineering, and materials science. Mole fraction is calculated by dividing the number of moles of the component of interest by the total number of moles in the mixture.
+
+Mass Flow Rate
+: Mass flow rate is a measure of the mass of a substance that passes through a given surface per unit time. It is typically expressed in units of mass per unit time, such as kilograms per second (kg/s) or grams per minute (g/min). Mass flow rate is an important property in fluid mechanics and chemical engineering, as it helps to describe the flow of substances through pipes, channels, and other conduits, and is used in various calculations, such as determining the rate of chemical reactions and designing fluid transport systems.
+
+Molar Flow Rate
+: Molar flow rate is a measure of the number of moles of a substance that passes through a given surface per unit time. It is typically expressed in units of moles per unit time, such as moles per second (mol/s) or moles per minute (mol/min). Molar flow rate is an important property in chemical engineering and chemistry, as it helps to describe the flow of substances through pipes, channels, and other conduits, and is used in various calculations, such as determining the rate of chemical reactions and designing fluid transport systems.
+
+Volumetric Flow Rate
+: Volumetric flow rate is a measure of the volume of a substance that passes through a given surface per unit time. It is typically expressed in units of volume per unit time, such as cubic meters per second (m³/s) or liters per minute (L/min). Volumetric flow rate is an important property in fluid mechanics and chemical engineering, as it helps to describe the flow of substances through pipes, channels, and other conduits, and is used in various calculations, such as determining the rate of chemical reactions and designing fluid transport systems.
+
+Fluid Velocity
+: Fluid velocity is a measure of the speed and direction of a fluid flow. It is typically expressed in units of length per unit time, such as meters per second (m/s) or feet per minute (ft/min). Fluid velocity is an important property in fluid mechanics and chemical engineering, as it helps to describe the flow of substances through pipes, channels, and other conduits, and is used in various calculations, such as determining the rate of chemical reactions and designing fluid transport systems. Fluid velocity can be influenced by factors such as pressure gradients, fluid properties, and the geometry of the flow path.
+
+Cross-Sectional Area
+: Cross-sectional area is the area of a two-dimensional shape that is perpendicular to the flow direction of a fluid. It is typically expressed in units of area, such as square meters (m²) or square centimeters (cm²). Cross-sectional area is an important property in fluid mechanics and chemical engineering, as it helps to describe the flow of substances through pipes, channels, and other conduits, and is used in various calculations, such as determining the rate of chemical reactions and designing fluid transport systems. The cross-sectional area can be calculated based on the geometry of the flow path, such as the diameter of a circular pipe or the width and height of a rectangular channel.
 
 # Other Links and Videos
 

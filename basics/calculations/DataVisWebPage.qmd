@@ -12,16 +12,22 @@ Presentation and analysis of process data from Chemical and Thermal Processes is
 The *Just The Facts* Video discusses data presentation techniques and plotting and explains how to transform coordinates to get linear, semi-log and log-log plots, and how to calculate model parameters from the data. It is recommended for those who have a reasonably good understanding of data visualization and coordinate transformation and are just looking for a refresher or a review.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yFOrwNmEbPA?si=aIY5p3Mt4_Uf4BO1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../calculations/DataVisJTFVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../calculations/DataVisJTFVisuals.qmd)
 
 ## The Full Story
 
 *The Full Story* Video examines common conceptions and misconceptions about data presentation and plotting and explains how to transform coordinates to get linear, semi-log and log-log plots, and how to calculate model parameters from the data. It is recommended for those who have not been exposed to data plotting and coordinate transformations before or who have struggled with understanding and performing the transformations and calculations.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VUyyEmif3fs?si=HOz_bhZ4vFiPckNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../calculations/DataVisTFSVisuals.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../calculations/DataVisTFSVisuals.qmd)
 
-# Definitions
+# Examples and Definitions
+
+## Examples Links
+
+- [Data Visualization Plot Demo](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/DataVisPlotDemo.ods)
+
+## Definitions
 
 [Data Visualization](https://en.wikipedia.org/wiki/Data_and_information_visualization)
 : The process of presenting or plotting your data to make trends and functional behavior more obvious.

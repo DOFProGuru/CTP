@@ -16,20 +16,61 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G2sKW_6N2BA?si=7T9_3U_zbxZOFZn2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## A Combustible Mixture!
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hvIk-evMp88?si=pqsFafD52C37SRNC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+- [Combustion Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/CombustionExample.ods)
+
 ## Definitions
+
+Combustion Reaction
+:   A chemical reaction in which a fuel reacts with an oxidant, typically oxygen, to produce heat and often light. Combustion reactions are exothermic and can be represented by a balanced chemical equation that includes the reactants (fuel and oxidant) and the products (such as carbon dioxide and water for hydrocarbon fuels). The stoichiometry of the combustion reaction is important for determining the amount of fuel and oxidant needed for complete combustion, as well as for calculating the energy released during the reaction.
+
+Stack or Flue Gas
+:   The gaseous products of combustion that are emitted from a combustion process, typically through a chimney or stack. Stack gases can contain a variety of components, including carbon dioxide, water vapor, nitrogen, oxygen, and trace amounts of pollutants such as carbon monoxide, sulfur dioxide, and nitrogen oxides. The composition of stack gases can be analyzed to assess the efficiency of the combustion process and to monitor emissions for environmental compliance.
+
+Incomplete Combustion
+:   A combustion process in which the fuel is not completely oxidized, resulting in the production of carbon monoxide, unburned hydrocarbons, and other pollutants in addition to the desired products of carbon dioxide and water. Incomplete combustion can occur when there is insufficient oxygen, poor mixing of fuel and oxidant, or when the combustion process is not properly controlled. Incomplete combustion is less efficient than complete combustion and can lead to increased emissions of pollutants, making it important to optimize combustion processes to minimize incomplete combustion and its associated environmental impacts.
+
+Complete Combustion
+:   A combustion process in which the fuel is fully oxidized, resulting in the production of only carbon dioxide and water (for hydrocarbon fuels) as the products. Complete combustion occurs when there is sufficient oxygen, good mixing of fuel and oxidant, and proper control of the combustion process. Complete combustion is more efficient than incomplete combustion and results in lower emissions of pollutants, making it desirable for both energy efficiency and environmental reasons. Achieving complete combustion is a key goal in the design and operation of combustion systems, such as engines, furnaces, and power plants.
+
+Fuel
+:   A substance that can be burned to produce energy. Fuels can be classified into various types, including solid fuels (such as coal and wood), liquid fuels (such as gasoline and diesel), and gaseous fuels (such as natural gas and hydrogen). The choice of fuel depends on factors such as availability, energy content, cost, and environmental impact. Fuels are a critical component of combustion reactions, as they provide the chemical energy that is released during the combustion process.
+
+Fuel-Air Ratio
+:   The ratio of the mass or volume of fuel to the mass or volume of air in a combustion process. The fuel-air ratio is an important parameter in combustion engineering, as it affects the efficiency of the combustion process, the composition of the products, and the emissions of pollutants. The fuel-air ratio can be expressed in various ways, such as the equivalence ratio (the actual fuel-air ratio divided by the stoichiometric fuel-air ratio) or the air-fuel ratio (the mass of air divided by the mass of fuel). Proper control of the fuel-air ratio is essential for achieving complete combustion and minimizing emissions in combustion systems.
+
+Dry Basis
+:   A way of expressing the composition of a gas mixture by excluding the water vapor content. This is often used in combustion analysis to focus on the non-condensable components of the stack gases, such as carbon dioxide, oxygen, and nitrogen. Expressing gas compositions on a dry basis allows for more accurate comparisons and calculations, as the presence of water vapor can dilute the concentrations of other components and affect the interpretation of combustion efficiency and emissions data. To convert from a wet basis (including water vapor) to a dry basis, the concentrations of the components are typically normalized by dividing by the total concentration of the non-water components, effectively removing the influence of water vapor from the analysis. 
+
+Wet Basis
+:   A way of expressing the composition of a gas mixture that includes the water vapor content. This is often used in combustion analysis to provide a more complete picture of the stack gases, as water vapor is a significant product of combustion reactions, especially for hydrocarbon fuels. Expressing gas compositions on a wet basis allows for the calculation of properties such as the dew point of the stack gases and the potential for condensation in the stack or flue. To convert from a dry basis (excluding water vapor) to a wet basis, the concentrations of the components are typically adjusted by including the water vapor content, which can be calculated based on the amount of fuel burned and the stoichiometry of the combustion reaction, as well as the temperature and pressure conditions of the combustion process.
+
+Orsat Analysis
+:   A method of analyzing the composition of stack gases from combustion processes. Orsat analysis involves passing a sample of the stack gas through a series of absorption solutions that selectively absorb specific components, such as carbon dioxide, oxygen, and carbon monoxide. By measuring the volume of gas absorbed by each solution, the concentrations of the respective components in the stack gas can be determined. Orsat analysis is a traditional technique that has been widely used in combustion analysis, although it has largely been replaced by more modern methods such as gas chromatography and infrared spectroscopy for more accurate and efficient analysis of stack gases.
+
+Theoretical Air
+:   The amount of air required for complete combustion of a given amount of fuel, based on the stoichiometry of the combustion reaction. The theoretical air can be calculated using the balanced chemical equation for the combustion reaction, which provides the molar ratios of fuel and oxygen needed for complete combustion. The theoretical air is an important parameter in combustion engineering, as it serves as a reference point for determining the actual air supplied to the combustion process and for calculating the fuel-air ratio, equivalence ratio, and combustion efficiency. Supplying the correct amount of air relative to the theoretical air is essential for achieving complete combustion and minimizing emissions in combustion systems.
+
+Excess Air
+:   The amount of air supplied to a combustion process that exceeds the theoretical air required for complete combustion. Excess air is often expressed as a percentage of the theoretical air and is used to ensure that there is sufficient oxygen for complete combustion, especially in cases where the fuel and air may not be perfectly mixed or where there may be variations in fuel composition. While supplying excess air can help to achieve complete combustion and reduce emissions of pollutants such as carbon monoxide and unburned hydrocarbons, it can also lead to increased emissions of nitrogen oxides (NOx) and reduced combustion efficiency due to the dilution of the fuel and the increased heat capacity of the excess air. Therefore, optimizing the amount of excess air is a critical aspect of combustion system design and operation to balance the goals of complete combustion, energy efficiency, and emissions control.
+
+Burning Lean
+:   A combustion process in which the fuel-air mixture contains more air than the stoichiometric ratio, resulting in a fuel-air ratio that is less than the stoichiometric fuel-air ratio. Burning lean can lead to lower combustion temperatures, reduced emissions of nitrogen oxides (NOx), and improved fuel efficiency, but it can also increase the emissions of carbon monoxide and unburned hydrocarbons if the mixture is too lean. Lean combustion is often used in applications such as gas turbines and internal combustion engines to achieve better fuel economy and lower emissions, but it requires careful control of the fuel-air mixture to avoid issues with incomplete combustion.
+
+Burning Rich
+:   A combustion process in which the fuel-air mixture contains less air than the stoichiometric ratio, resulting in a fuel-air ratio that is greater than the stoichiometric fuel-air ratio. Burning rich can lead to higher combustion temperatures, increased emissions of carbon monoxide and unburned hydrocarbons, and reduced fuel efficiency, but it can also reduce emissions of nitrogen oxides (NOx) due to the lower combustion temperatures. Rich combustion is often used in applications such as furnaces and boilers to achieve higher heat output, but it requires careful control of the fuel-air mixture to avoid issues with incomplete combustion and excessive emissions of pollutants.
 
 # Other Links and Videos
 

@@ -16,27 +16,48 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bY9fl5DJzmk?si=brE9cHtUxJxGpBno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wc6gv7lNtI0?si=NNrEaQFVhE5Cmw1t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Part 3
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jcChVoELvFo?si=PusFY_zjmwddEeSb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+- [Hexane, Heptane, Octane Equilibrium Stage Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/HexHeptOctEqStage.ods)
+- [Liquid-Liquid Extraction Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/Example3LiqLiqExtact.ods)
+
 ## Definitions
+
+Equilibrium Separation Stage
+: A stage in a separator, such as a distillation column, that is modeled by assuming that the input flows are well mixed, and the mixture separates into output flows that are in equilibrium with each other.
+
+Phase Fraction
+: The fraction of a total mixture that consists of a given phase. It can be calculated on either a mass-fraction or mole-fraction basis, with different results for the different bases.
+
+Liquid Fraction
+: The fraction of a total mixture that is in the liquid phase. It can be calculated on either a mass-fraction or mole-fraction basis, with different results for the different bases.
+
+Vapor Fraction
+: The fraction of a total mixture that is in the vapor phase. It can be calculated on either a mass-fraction or mole-fraction basis, with different results for the different bases.
+
+Distillation
+: A separation process performed by repeated evaporations and condensations.
+
+Liquid-Liquid Extraction
+: A separation process performed by repeated mixing of partially miscible liquids and allowing the two liquid phases to separate.
 
 # Other Links and Videos
 
