@@ -34,11 +34,39 @@ Video  explanation
 
 ## Definitions
 
+[Refrigerator](https://en.wikipedia.org/wiki/Refrigerator)
+: A device that pumps heat from an internal cold space to the ambient.
+
+[Heat Pump](https://en.wikipedia.org/wiki/Heat_pump)
+: A device that pumps heat from an external cold space to an internal warm space.
+
+[Vapor Compression Cycle](https://en.wikipedia.org/wiki/Vapor-compression_refrigeration)
+: A thermodynamic refrigeration cycle consisting of four steps:<br/>1. An isobaric heating at low temperature<br/>2. An isentropic expansion<br/>3. An isobaric cooling at high temperature<br/>4. An isenthalpic expansion</br/>It usually involves phase transitions during the heating and cooling stages.
+
+[Refrigerant](https://en.wikipedia.org/wiki/Refrigerant)
+: A fluid used in a vapor compression cycle. Common refrigerants are R-134a, ammonia, and propane (R-290).
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
+
+### The video previous to the previous video (i.e., two videos back)
+
+**Cycle Wars: The Power Awakens**<br/>*Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle*<br/>[Video](https://youtu.be/M_p3gb79isg), [Info Page](../../balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](../../balances/entropy/122-AirStandardCyclesPart1Visuals.qmd)
+
+### The previous video (i.e., one video back)
+
+**Cycle Wars: The Rise of Otto Cycles**<br/>*Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, & Stirling Cycles*<br/>[Video](https://youtu.be/jJaDQM8qjgU), [Info Page](../../balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](../../balances/entropy/123-AirStandardCyclesPart2Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1**<br/>*The Combined 1^st^ and 2^nd^ Laws*<br/>[Video](https://youtu.be/02S9SOGRBWU), [Info Page](../../balances/exergy/Combined1stAnd2ndLawsVideoWebPage.qmd), [Visuals](../../balances/exergy/129-IdealLostWorkVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 2**<br/>*Example of The Combined 1^st^ and 2^nd^ Laws*<br/>[Video](https://youtu.be/ZAdAC4OccmI), [Info Page](../../balances/exergy/Combined1stAnd2ndLawsVideoWebPage.qmd), [Visuals](../../balances/exergy/130-IdealLostWorkExampleVisuals.qmd)
 
 
 

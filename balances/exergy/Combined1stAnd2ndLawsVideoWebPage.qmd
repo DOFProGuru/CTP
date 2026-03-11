@@ -33,12 +33,52 @@ Video  explanation
 
 ## Definitions
 
+Lost Work, $\dot{W}_mathrm{lost}$
+: The lost work is the work that could have been done but wasn't due to irreversibilities in the system. It is equal to the entropy generation rate times the ambient temperature, $T_\sigma \dot{S}_\mathrm{gen}$
+
+Actual Work, $\dot{W}_s$
+: It is the amount of work produced or consumed by a system. It is compared with the ideal work to determine the efficiency.
+
+Entropy Generation Rate, $\dot{S}$
+: The rate of entropy generation in the system and surroundings due to irreversibilities in the system. FOr any real system it is a positive number.
+
+Ideal Work, $\dot{W}_mathrm{ideal}$
+: The ideal work is the work that would be generated if there were no irreversibilities in the system. It is synonymous with exergy and availability or their negatives, as different authors use different sign conventions for work.
+
+[Exergy](https://en.wikipedia.org/wiki/Exergy)
+: Exergy is the work that would be generated if there were no irreversibilities in the system. It is synonymous with ideal work and availability or their negatives, as different authors use different sign conventions for work.
+
+Availability
+: Availability is the work that would be generated if there were no irreversibilities in the system. It is synonymous with exergy and ideal work or their negatives, as different authors use different sign conventions for work.
+
+Second-Law Analysis
+: It is actually an analysis using the combined 1^st^ and 2^nd^ Laws to calculate the ideal work and the lost work.
+
+Thermodynamic ($\eta_\mathrm{T}$) or 2^nd^-Law ($\eta_\mathrm{II}$) Efficiency
+: For systems that can potentially produce work it is the actual work over the ideal work<br/>$\eta_\mathrm{T} = \dfrac{\dot{W}_s}{\dot{W}_\mathrm{ideal}}$<br/>For systems that require work it is the ideal work over the actual work<br/>$\eta_\mathrm{T} = \dfrac{\dot{W}_\mathrm{ideal}}{\dot{W}_s}$
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
+
+**Revenge of the Fridge: Vapor Compression Strikes Back**<br/>*The Vapor Compression Cycle*<br/>[Video](https://youtu.be/SN27SxDt0G4), [Info Page](../../balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](../../balances/entropy/126-RefrigerationVisuals.qmd)
+
+### The previous video (i.e., one video back)
+
+**Modeling the Vapor Compression Cycle in DWSIM**<br/>*Modeling the Vapor Compression Cycle in DWSIM*<br/>[Video](https://youtu.be/nWOz-Y7XsbQ), [Info Page](balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd)
+
+
+### The next video (i.e., one video forward)
+
+none
+
+### The next after next video (i.e. two videos forward)
+
+none
 
 
 

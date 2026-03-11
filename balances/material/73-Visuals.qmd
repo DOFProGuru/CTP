@@ -179,7 +179,7 @@ $$s_m\text{ or }h_m = \frac{p_i} {P-p_i} = \frac{\text{moles of vapor}}{\text{mo
 *Absolute Saturation or Absolute Humidity*
 
 :::{.fragment}
-$$s_a\text{ or }h_a = \frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \frac{\text{moles of vapor}}{\text{moles of vapor-free (dry)gas}}$$
+$$s_a\text{ or }h_a = \frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \frac{\text{mass of vapor}}{\text{mass of vapor-free (dry)gas}}$$
 :::
 :::{.fragment}
 *Percentage Saturation or Percentage Humidity*

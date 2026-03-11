@@ -143,7 +143,7 @@ Full Video Set
 
 **Dew Your Bubbles Have Flash? Part 2**<br/>*BUBL T, DEW T*<br/>[Video](https://youtu.be/9GyrfJzg-tg), [Info Page](balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](balances/material/75-Visuals.qmd)
 
-**Dew Your Bubbles Have Flash? Part 3**<br/>*FLASH, *Pxy*, *Txy**<br/>[Video](https://youtu.be/bG15qQ9gB4c), [Info Page](balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](balances/material/75.5-Visuals.qmd)
+**Dew Your Bubbles Have Flash? Part 3**<br/>*FLASH*, *Pxy*, *Txy*<br/>[Video](https://youtu.be/bG15qQ9gB4c), [Info Page](balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](balances/material/75.5-Visuals.qmd)
 
 **The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 1**<br/>*Equilibrium Stage Equations*<br/>[Video](https://youtu.be/bY9fl5DJzmk), [Info Page](balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](balances/material/85-EquilibriumSeparationStages1Visuals.qmd)
 

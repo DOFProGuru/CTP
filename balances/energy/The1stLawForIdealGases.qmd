@@ -24,12 +24,36 @@ Video 1 explanation
 
 ## Definitions
 
+[Isothermal Process](https://en.wikipedia.org/wiki/Isothermal_process)
+: A constant-temperature process, $\Delta T = 0$.
+
+[Isobaric Process](https://en.wikipedia.org/wiki/Isobaric_process)
+: A constant-pressure process, $\Delta P = 0$.
+
+[Isochoric Process](https://en.wikipedia.org/wiki/Isochoric_process)
+: A constant-volume process, $\Delta V = 0$.
+
+[Isentropic Process](https://en.wikipedia.org/wiki/Isentropic_process)
+: A constant-entropy process, $\Delta S = 0$. Clausius used the term to mean adiabatic and reversible and almost all thermodynamics texts use the word in the same sense.
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart**<br/>*Psychrometric Charts*<br/>[Video](https://youtu.be/Nz8ADo4X2Ss), [Info Page](../../balances/energy/PsychrometricChartsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/97-PsychrometiricChartVIsuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Reference Not Found: Mixing, Dissolving, and Changing the Rules**<br/>*$\Delta H_m$, $\Delta H_s$*<br/>[Video](https://youtu.be/ggU692PLWts), [Info Page](../../balances/energy/HeatsOfMixingVideoInfoWebPage.qmd), [Visuals](../../balances/energy/98-ReferenceStatesVIsuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](../../balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](../../balances/energy/104-HeatsOfReactionVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Chemical Reactions vs. The First Law: Who Wins?**<br/>*Forms of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/mFF5hDHclPE), [Info Page](../../balances/energy/The1stLawReactingSystems.qmd), [Visuals](../../balances/energy/106-1stLawReactingVisuals.qmd)

@@ -31,12 +31,60 @@ Video  explanation
 
 ## Definitions
 
+Air-Standard Cycle
+: A cycle or a model of a cycle that uses air as the working fluid. For simplicity in modeling, air is assumed to be a diatomic gas with a constant heat capacity of $C_p = 7/2 R$.
+
+Air-Standard [Carnot Cycle](https://en.wikipedia.org/wiki/Carnot_cycle)
+: A model of a Carnot cycle that uses air ($C_p = 7/2 R$) as the working fluid. The steps in the cycle are: isentropic compression, isothermal expansion, isentropic expansion, and isothermal compression.
+
+Air-Standard [Otto Cycle](https://en.wikipedia.org/wiki/Otto_cycle)
+: An air-standard cycle or a model of a cycle consisting of an isentropic compression, an isochoric heat addition, an isentropic expansion, and an isochoric heat removal. The automobile internal-combustion engine is modeled as an Otto cycle.
+
+Air-Standard [Diesel Cycle](https://en.wikipedia.org/wiki/Diesel_cycle)
+: An air-standard cycle or a model of a cycle consisting of an isentropic compression, an isobaric heat addition, an isentropic expansion, and an isochoric heat removal. The Diesel internal-combustion engine is modeled as a Diesel cycle.
+
+Air-Standard [Brayton Cycle](https://en.wikipedia.org/wiki/Brayton_cycle)
+: An air-standard cycle or a model of a cycle consisting of an isentropic compression, an isobaric heat addition, an isentropic expansion, and an isobaric heat removal. The gas-turbine internal-combustion engine is modeled as a Brayton cycle.
+
+Air-Standard [Turbojet](https://en.wikipedia.org/wiki/Turbojet) Cycle
+: An air-standard cycle or a model of a cycle consisting of an isentropic compression, an isobaric heat addition, an isentropic expansion, an isentropic expansion through a nozzle, and an isobaric heat removal. The internal-combustion turbojet engine is modeled as a turbojet cycle.
+
+Air-Standard [Ericsson Cycle](https://en.wikipedia.org/wiki/Ericsson_cycle)
+: An air-standard cycle or a model of a cycle consisting of an isothermal compression, an isobaric heat addition, an isothermal expansion, and an isobaric heat removal. The Ericsson cycle is usually implemented as an external-combustion engine to facilitate the heat exchanger or regenerator.
+
+Air-Standard [Stirling Cycle](https://en.wikipedia.org/wiki/Stirling_cycle)
+: An air-standard cycle or a model of a cycle consisting of an isothermal compression, an isochoric heat addition, an isothermal expansion, and an isochoric heat removal. The Stirling cycle is usually implemented as an external-combustion engine to facilitate the heat exchanger or regenerator.
+
+Heat-Engine or Thermal Efficiency, $\eta$
+: The *thermal efficiency* or *heat-engine efficiency* is the ratio of the work produced by a heat engine to the heat extracted from the high-temperature reservoir powering the heat engine. With absolute signs, the definition is $\eta \equiv |W|/|Q_\mathrm{hot}|$
+
+[Compression Ratio](https://en.wikipedia.org/wiki/Compression_ratio), $r$
+: The ratio of the initial volume to the final volume during the compression step of an air-standard cycle. $r \equiv V_\mathrm{initial}/V_\mathrm{final}$.
+
+Expansion Ratio
+: The ratio of the final volume to the initial volume during the expansion step of an air-standard cycle. $r_e \equiv V_\mathrm{final}/V_\mathrm{initial}$.
+
+[Pressure Ratio](https://en.wikipedia.org/wiki/Overall_pressure_ratio)
+: The ratio of the final pressure to the initial pressure during the compression step of an air-standard cycle. $r_p \equiv P_\mathrm{final}/P_\mathrm{initial}$.
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2**<br/>*The Rankine Cycle with $\eta_\mathrm{pump}$  and $\eta_\mathrm{turbine}$*<br/>[Video](https://youtu.be/0DmsKCJpIdc), [Info Page](../../balances/entropy/RankineCycleInfoWebPage.qmd), [Visuals](../../balances/entropy/120-RankineVisualsPart2.qmd)
 
+### The previous video (i.e., one video back)
 
+**Modeling the Rankine Cycle in DWSIM**<br/>*Modeling the Rankine Cycle in DWSIM*<br/>[Video](https://youtu.be/ECOWIrzvGNc), [Info Page](../../balances/entropy/RankineCycleInfoWebPage.qmd)
+
+### The next video (i.e., one video forward)
+
+**Revenge of the Fridge: Vapor Compression Strikes Back**<br/>*The Vapor Compression Cycle*<br/>[Video](https://youtu.be/SN27SxDt0G4), [Info Page](../../balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](../../balances/entropy/126-RefrigerationVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Modeling the Vapor Compression Cycle in DWSIM**<br/>*Modeling the Vapor Compression Cycle in DWSIM*<br/>[Video](https://youtu.be/nWOz-Y7XsbQ), [Info Page](../../balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd)

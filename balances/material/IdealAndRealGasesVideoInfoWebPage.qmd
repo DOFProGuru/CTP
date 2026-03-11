@@ -91,6 +91,18 @@ Law of Corresponding States
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**A Combustible Mixture!**<br/>*Sample combustion reactions*<br/>[Video](https://youtu.be/hvIk-evMp88), [Info Page](../../balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/material/60-CombRxnsPart2Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Alcohol and Water DO Mix!**<br/>*Liquid and Solid Density Calculations*<br/>[Video](https://youtu.be/_tjYMjWR4fE), [Info Page](../../balances/material/LiquidMixturesVideoInfoWebPage.qmd), [Visuals](../../balances/material/61-LiqSolDenJTFVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 1**<br/>*Phase Diagrams, Gibbs Phase Rule*<br/>[Video](https://youtu.be/NUS4Y_pnWZk), [Info Page](../../balances/material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](../../balances/material/70-IntroMultiphasePart1Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 2**<br/>*Ternary Phase Diagrams, Lever Rule*<br/>[Video](https://youtu.be/QBREikNSvGI), [Info Page](../../balances/material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](../../balances/material/71-IntroMultiphasePart2Visuals.qmd)

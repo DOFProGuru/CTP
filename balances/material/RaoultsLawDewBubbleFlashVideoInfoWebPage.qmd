@@ -68,6 +68,18 @@ Flash
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Show Some Flash and Dew the Dew with a Little Bubbly!**<br/>*Graphical BUBL P, DEW P, BUBL T, DEW T, and FLASH calculations*<br/>[Video](https://youtu.be/shKvpcsJIEM), [Info Page](../../balances/material/GraphicalDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/72-BubbleDewFlashVisuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Oh, Henry!**<br/>*Gas-Liquid Equilibrium with one condensible component*<br/>[Video](https://youtu.be/dCOQy1C7yf0), [Info Page](../../balances/material/HenrysLawVideoInfoWebPage.qmd), [Visuals](../../balances/material/73-Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 1**<br/>*Equilibrium Stage Equations*<br/>[Video](https://youtu.be/bY9fl5DJzmk), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/85-EquilibriumSeparationStages1Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2**<br/>*Distillation Examples: Binary Phase Diagram, Raoult's law*<br/>[Video](https://youtu.be/wc6gv7lNtI0), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/86-EquilibriumSeparationStages2Visuals.qmd)

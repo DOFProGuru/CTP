@@ -24,12 +24,33 @@ Video 1 explanation
 
 ## Definitions
 
+[Reference State](https://en.wikipedia.org/wiki/Standard_state)
+: The state of a substance, usually at a specified temperature, pressure, and state of aggregation, to which all other states are referenced. For example, it is not uncommon to specify the internal energy of ice, liquid water, and steam relative to liquid water at the triple point of water, 273.16 K and 611.657 Pa.
+
+[Heat or Enthalpy of Solution, $\Delta \hat{H}_s$](https://en.wikipedia.org/wiki/Enthalpy_change_of_solution)
+: The enthalpy change associated with dissolving a fixed amount of a solute in a solvent at constant pressure and usually at constant temperature.
+
+[Heat or Enthalpy of Mixing, $\Delta \hat{H}_m$](https://en.wikipedia.org/wiki/Enthalpy_of_mixing)
+: The enthalpy change associated with mixing fixed amounts of two or more substances at constant pressure and usually at constant temperature.
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Feeling the Heat? How to Get Your Best Estimate**<br/>*Estimating $C_p$, $\Delta \hat{H}_v$, $\Delta \hat{H}_m$*<br/>[Video](https://youtu.be/f_l3OFyuiPs), [Info Page](../../balances/energy/EstimatingHeatCapacitiesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/95-EstimatingHeatCapacitiesVisuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart**<br/>*Psychrometric Charts*<br/>[Video](https://youtu.be/Nz8ADo4X2Ss), [Info Page](../../balances/energy/PsychrometricChartsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/97-PsychrometiricChartVIsuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**The Isochronicles: This First Law Saga Is a Gas**<br/>*The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes*<br/>[Video](https://youtu.be/iKsR3v1wu30), [Info Page](../../balances/energy/The1stLawForIdealGases.qmd), [Visuals](../../balances/energy/102-1stLawIdealGasesVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](../../balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](../../balances/energy/104-HeatsOfReactionVisuals.qmd)

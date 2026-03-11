@@ -73,6 +73,18 @@ Syntectic
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1**<br/>*Explanation of Kay's Rule and DWSIM for real gas mixtures*<br/>[Video](https://youtu.be/yI3jj1jCSAM), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/65-Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2**<br/>*Example of Kay's Rule and DWSIM for real gas mixtures*<br/>[Video](https://youtu.be/Pbizi39c1Rk), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/66-Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Show Some Flash and Dew the Dew with a Little Bubbly!**<br/>*Graphical BUBL P, DEW P, BUBL T, DEW T, and FLASH calculations*<br/>[Video](https://youtu.be/shKvpcsJIEM), [Info Page](../../balances/material/GraphicalDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/72-BubbleDewFlashVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Oh, Henry!**<br/>*Gas-Liquid Equilibrium with one condensible component*<br/>[Video](https://youtu.be/dCOQy1C7yf0), [Info Page](../../balances/material/HenrysLawVideoInfoWebPage.qmd), [Visuals](../../balances/material/73-Visuals.qmd)

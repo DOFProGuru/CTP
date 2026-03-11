@@ -65,6 +65,18 @@ Liquid-Liquid Extraction
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Dew Your Bubbles Have Flash? Part 2**<br/>*BUBL T, DEW T*<br/>[Video](https://youtu.be/9GyrfJzg-tg), [Info Page](../../balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/75-Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Dew Your Bubbles Have Flash? Part 3**<br/>*FLASH*, *Pxy*, *Txy*<br/>[Video](https://youtu.be/bG15qQ9gB4c), [Info Page](../../balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/75.5-Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](../../balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](../../balances/energy/Intro1stLawVideoInfoWebPage.qmd), [Visuals](../../balances/energy/89-Intro1stLawVisuals.qmd)

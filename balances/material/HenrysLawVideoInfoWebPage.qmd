@@ -26,12 +26,48 @@ Video 1 explanation
 
 ## Definitions
 
+[Clapeyron Equation](https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation#Exact_Clapeyron_equation)
+: A thermodynamic equation relating the slope of the vapor-pressure/temperature curve to the enthalpy of vaporization, the absolute temperature, the molar volume of the vapor phase. and the molar volume of the liquid phase. $\frac{dp^*}{dT} = \frac{\Delta \hat{H}_{v}}{T(\hat{V}_{g} - \hat{V}_l)}$
+
+[Clausius-Clapeyron Equation](https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation)
+: A equation relating the vapor pressure of a pure substance to the enthalpy of vaporization and the absolute temperature, assuming that enthalpy of vaporization doesn't vary with temperature. $\ln p^{*} = -\frac{\Delta \hat{H}_v}{RT} + B$
+
+[Dew-Point Temperature](https://en.wikipedia.org/wiki/Dew_point)
+: The temperature at which a condensible vapor will begin to condense from a gas/vapor mixture
+
+[Antoine Equation](https://en.wikipedia.org/wiki/Antoine_equation)
+: An empirical equation relating vapor pressure to temperature for a pure substance. One form is $\log_{10} p^{*} = A - \frac{B}{T + C}$
+
+Relative Saturation or [Relative Humidity](https://en.wikipedia.org/wiki/Humidity#Relative_humidity)
+: The ratio of the partial pressure of a condensible vapor to its vapor pressure. $s_r \text{ or }h_r = \frac{p_i}{p_i^*(T)}*100%$
+
+Molal Saturation or Molal Humidity
+: The ratio of the moles of vapor to the moles of vapor-free gas. $s_m\text{ or }h_m = \frac{p_i} {P-p_i} = \frac{\text{moles of vapor}}{\text{moles of vapor-free (dry)gas}}$
+
+Absolute Saturation or [Absolute Humidity](https://en.wikipedia.org/wiki/Humidity#Absolute_humidity)
+: $s_a\text{ or }h_a = \frac{p_{i} M_{i}} {(P-p_i)M_{dry}} = \frac{\text{mass of vapor}}{\text{mass of vapor-free (dry)gas}}$
+
+Percentage Saturation or Percentage Humidity
+: $s_p\text{ or }h_p = 100\% \times \frac{s_m} {s_m^*} = 100\% \times \frac{\frac{p_i}{P-p_i}}{\frac{p_i^*}{P-p_i^*}}$
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 2**<br/>*Ternary Phase Diagrams, Lever Rule*<br/>[Video](https://youtu.be/QBREikNSvGI), [Info Page](../../balances/material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](../../balances/material/71-IntroMultiphasePart2Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Show Some Flash and Dew the Dew with a Little Bubbly!**<br/>*Graphical BUBL P, DEW P, BUBL T, DEW T, and FLASH calculations*<br/>[Video](https://youtu.be/shKvpcsJIEM), [Info Page](../../balances/material/GraphicalDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/72-BubbleDewFlashVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Dew Your Bubbles Have Flash? Part 1**<br/>*Raoult's law, BUBL P, DEW P*<br/>[Video](https://youtu.be/vSkSRi6HYVQ), [Info Page](../../balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/74-Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Dew Your Bubbles Have Flash? Part 2**<br/>*BUBL T, DEW T*<br/>[Video](https://youtu.be/9GyrfJzg-tg), [Info Page](../../balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/75-Visuals.qmd)

@@ -48,6 +48,18 @@ Density Averaging
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Flame On, Torch!**<br/>*Combustion reactions*<br/>[Video](https://youtu.be/G2sKW_6N2BA), [Info Page](../../balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/material/59-CombRxnsPart1Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**A Combustible Mixture!**<br/>*Sample combustion reactions*<br/>[Video](https://youtu.be/hvIk-evMp88), [Info Page](../../balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/material/60-CombRxnsPart2Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Ideal Gases EXPOSED: Are They Even Real?!!**<br/>*Basics of $P V = n R T$*<br/>[Video](https://youtu.be/L-DEw6dGRps), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/62-IdealGasVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**When Getting Gassed Isn’t Ideal, Part 1**<br/>*Real gas intro*<br/>[Video](https://youtu.be/1sU4_YdcKr4), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/63-Visuals.qmd)

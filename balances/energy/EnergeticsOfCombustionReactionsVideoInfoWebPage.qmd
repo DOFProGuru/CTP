@@ -24,11 +24,67 @@ Video 1 explanation
 
 ## Definitions
 
+[Fuel](https://en.wikipedia.org/wiki/Fuel)
+: A substance that can react with oxygen to produce a rapid exothermic reaction.
+
+[Solid Fuels](https://en.wikipedia.org/wiki/Solid_fuel)
+: A fuel that is in the solid state, such as coal, coke ([pyrolyzed](https://en.wikipedia.org/wiki/Pyrolysis) coal), wood, or charcoal ([pyrolyzed](https://en.wikipedia.org/wiki/Pyrolysis) wood).
+
+[Liquid Fuels](https://en.wikipedia.org/wiki/Liquid_fuel)
+: A fuel that is in the liquid state such as kerosene, methyl alcohol, or gasoline.
+
+[Gaseous Fuels](https://en.wikipedia.org/wiki/Fuel_gas)
+: A fuel that is in the gaseous state such as natural gas or acetylene.
+
+[Coal](https://en.wikipedia.org/wiki/Coal)
+: A naturally occurring solid fuel produced from vegetable matter subjected to heat and pressure over geologic time periods. The principal types or classifications of coal are anthracite, bituminous, subbituminous, and lignite.
+
+[Enthalpy or Heat of Combustion](https://en.wikipedia.org/wiki/Heat_of_combustion)
+: The amount of heat or the change in enthalpy associated with the burning of a fixed amount of a fuel. It can be on a per mass or per mole basis.
+
+[Lower Heating Value (LHV)](https://en.wikipedia.org/wiki/Heat_of_combustion#:~:text=Higher%20heating%20value-,Lower%20heating%20value,-Gross%20heating%20value)
+: The heating value of the fuel is the negative of its heat of combustion. If one assumes water vapor is the final form of any water produced by and/or remaining from the combustion, the heating value is the *lower heating value* (HHV). It can be on a per mass or per mole basis.
+
+[Higher Heating Value (HHV)](https://en.wikipedia.org/wiki/Heat_of_combustion#Higher_heating_value)
+: The heating value of the fuel is the negative of its heat of combustion. If one assumes liquid water is the final form of any water produced by and/or remaining from the combustion, the heating value is the *higher heating value* (HHV). It can be on a per mass or per mole basis.
+
+[Adiabatic Flame Temperature](https://en.wikipedia.org/wiki/Adiabatic_flame_temperature)
+: The maximum temperature that a fuel/air mixture will reach if no heat is removed during the reaction.
+
+[Flash Point](https://en.wikipedia.org/wiki/Flash_point)
+: The temperature at which the vapor pressure of a liquid or solid fuel exceeds the lower flammability limit and the fuel/air mixture will ignite if exposed to an ignition source.
+
+[Autoignition Temperature](https://en.wikipedia.org/wiki/Autoignition_temperature)
+: The temperature at which a fuel/air mixture will spontaneously combust without an ignition source.
+
+[Flammability Limits](https://en.wikipedia.org/wiki/Flammability_limit)
+: The limits of composition of a fuel/air mixture that can burn. Below the lower flammability limit there is too little fuel for the reaction to generate enough heat to maintain combustion and the flame will self-extinguish. Above the upper flammability limit there is too little oxygen for the reaction to generate enough heat to maintain combustion and the flame will self-extinguish. In between a fuel/air mixture exposed to an ignition source will burn.
+
+
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
+
+### The video previous to the previous video (i.e., two videos back)
+
+**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](../../balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](../../balances/energy/104-HeatsOfReactionVisuals.qmd)
+
+### The previous video (i.e., one video back)
+
+**Chemical Reactions vs. The First Law: Who Wins?**<br/>*Forms of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/mFF5hDHclPE), [Info Page](../../balances/energy/The1stLawReactingSystems.qmd), [Visuals](../../balances/energy/106-1stLawReactingVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**React Hard: The First Law Gets Chemical**<br/>*Example of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/q-W5Y1d85go), [Info Page](../../balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/111-EnergeticsOfReactionsPt1Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**React Harder: Formation Heats and Alternate Endings**<br/>*2 more Examples of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/iqxJP6g-Qsc), [Info Page](../../balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/112-EnergeticsOfReactionsPt2Visuals.qmd)
+
+
 
 
 

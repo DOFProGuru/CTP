@@ -30,6 +30,18 @@ Video 1 explanation
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**React Harder: Formation Heats and Alternate Endings**<br/>*2 more Examples of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/iqxJP6g-Qsc), [Info Page](../../balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/112-EnergeticsOfReactionsPt2Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Resistance is Futile. Entropy Always Wins**<br/>*Intro to 2^nd^ Law*<br/>[Video](https://youtu.be/yqVUz1WA7M4), [Info Page](../../balances/entropy/IntroTo2ndLawVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/113-Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Sadi Carnot and the Power of Fire, the 1824 Edition Part 1**<br/>*The Air-Standard Carnot Cycle*<br/>[Video](https://youtu.be/EDJQAvBIAok), [Info Page](../../balances/entropy/TheCarnotCycleVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/116-Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Sadi Carnot and the Power of Fire, the 1824 Edition Part 2**<br/>*The Steam Carnot Cycle*<br/>[Video](https://youtu.be/Qc9W1KKpouU), [Info Page](../../balances/entropy/TheCarnotCycleVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/116.5-Visuals.qmd)

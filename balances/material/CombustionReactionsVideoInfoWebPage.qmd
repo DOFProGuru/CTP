@@ -78,6 +78,18 @@ Burning Rich
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**React But Maintain Your Equilibrium Part 1**<br/>*Basics of equilibrium reactors*<br/>[Video](https://youtu.be/0GS8XEHRBMk), [Info Page](../../balances/material/EquilibriumReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/54-EquilReact1Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**React But Maintain Your Equilibrium Part 2**<br/>*Equilibrium reactor example*<br/>[Video](https://youtu.be/GI8tuSRrIcc), [Info Page](../../balances/material/EquilibriumReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/55-EquilReact2Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Alcohol and Water DO Mix!**<br/>*Liquid and Solid Density Calculations*<br/>[Video](https://youtu.be/_tjYMjWR4fE), [Info Page](../../balances/material/LiquidMixturesVideoInfoWebPage.qmd), [Visuals](../../balances/material/61-LiqSolDenJTFVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Ideal Gases EXPOSED: Are They Even Real?!!**<br/>*Basics of $P V = n R T$*<br/>[Video](https://youtu.be/L-DEw6dGRps), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/62-IdealGasVisuals.qmd)

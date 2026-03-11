@@ -24,12 +24,42 @@ Video 1 explanation
 
 ## Definitions
 
+Dew Pressure
+: The pressure at which a vapor of a given composition and temperature begins to condense. The composition of the condensate is usually also calculated.
+
+Bubble Pressure
+: The pressure at which a liquid of a given composition and temperature begins to evaporate. The composition of the vapor is usually also calculated.
+
+Dew Temperature
+: The temperature at which a vapor of a given composition and pressure begins to condense. The composition of the condensate is usually also calculated.
+
+Bubble Temperature
+: The temperature at which a liquid of a given composition and pressure begins to evaporate. The composition of the vapor is usually also calculated.
+
+Flash
+: A mixture with a known overall composition is brought to a temperature and pressure in the two-phase region. The mixture separates into a vapor phase and a liquid phase. The compositions of the two phases and their relative amounts are usually calculated.
+
+Azeotrope
+: The composition at which a mixture of two or more species has the same composition in the vapor phase as in the liquid phase at a specific temperature and pressure.
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 1**<br/>*Phase Diagrams, Gibbs Phase Rule*<br/>[Video](https://youtu.be/NUS4Y_pnWZk), [Info Page](../../balances/material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](../../balances/material/70-IntroMultiphasePart1Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 2**<br/>*Ternary Phase Diagrams, Lever Rule*<br/>[Video](https://youtu.be/QBREikNSvGI), [Info Page](../../balances/material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](../../balances/material/71-IntroMultiphasePart2Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Oh, Henry!**<br/>*Gas-Liquid Equilibrium with one condensible component*<br/>[Video](https://youtu.be/dCOQy1C7yf0), [Info Page](../../balances/material/HenrysLawVideoInfoWebPage.qmd), [Visuals](../../balances/material/73-Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Dew Your Bubbles Have Flash? Part 1**<br/>*Raoult's law, BUBL P, DEW P*<br/>[Video](https://youtu.be/vSkSRi6HYVQ), [Info Page](../../balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/74-Visuals.qmd)
