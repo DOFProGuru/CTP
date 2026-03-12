@@ -16,7 +16,7 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f_l3OFyuiPs?si=_1ezGSzwq62Jo2Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
@@ -24,12 +24,42 @@ Video 1 explanation
 
 ## Definitions
 
+[Kopp's Rule](https://en.wikipedia.org/wiki/Kopp%27s_law)
+: A formula for calculating an approximate heat capacity from the contribution from each atomic species in the substance.
+
+[Sensible Heat Changes](https://en.wikipedia.org/wiki/Sensible_heat)
+: The changes in temperature due to a heat addition or subtraction to a substance.
+
+[Latent Heat](https://en.wikipedia.org/wiki/Latent_heat)
+: Heat absorbed or released from a substance without a change in temperature, usually due to a phase change.
+
+[Trouton's Rule](https://en.wikipedia.org/wiki/Trouton%27s_rule)
+: A method for estimating the latent heat of fusion or evaporation from the temperature of the transition for different substance.
+
+[Clausius-Clapeyron Equation](https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation)
+: An equation relating the vapor pressure to the temperature and the enthalpy of vaporization. $\ln p^* = - \Delta H_v/RT  + B$
+
+[Watson Correlation](https://personal.ems.psu.edu/~radovic/Watson_IEC_1943.pdf)
+: An equation relating the enthalpy of vaporization at one temperature to that at another temperature and to the critical temperature. Related is the [Shimansky equation](https://en.wikipedia.org/wiki/Shimansky_equation).
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**The Enthalpy Games: The Ballad of Integrals and Means**<br/>*$\Delta H$ from $C_p$, $\Delta U$ from $C_v$*<br/>[Video](https://youtu.be/YGMHMAXnFY8), [Info Page](../../balances/energy/HeatCapacityVideoInfoWebPage.qmd), [Visuals](../../balances/energy/93-EnthalpyVsTandPPart1.qmd)
 
+### The previous video (i.e., one video back)
 
+**The Enthalpy Games: Sunrise on the Calculations**<br/>*Example for $\mathrm{N_2}$, $\Delta H$ from $C_p$, $\Delta U$ from $C_v$*<br/>[Video](https://youtu.be/yLJp3YQaVvo), [Info Page](../../balances/energy/HeatCapacityVideoInfoWebPage.qmd), [Visuals](../../balances/energy/94-EnthalpyVsTandPPart2.qmd)
+
+### The next video (i.e., one video forward)
+
+**Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart**<br/>*Psychrometric Charts*<br/>[Video](https://youtu.be/Nz8ADo4X2Ss), [Info Page](../../balances/energy/PsychrometricChartsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/97-PsychrometiricChartVIsuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Reference Not Found: Mixing, Dissolving, and Changing the Rules**<br/>*$\Delta H_m$, $\Delta H_s$*<br/>[Video](https://youtu.be/ggU692PLWts), [Info Page](../../balances/energy/HeatsOfMixingVideoInfoWebPage.qmd), [Visuals](../../balances/energy/98-ReferenceStatesVIsuals.qmd)

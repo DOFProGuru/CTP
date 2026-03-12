@@ -11,17 +11,33 @@ format: html
 Explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8FEmNkiU1Jk?si=cZl4f3nPPIqWIx1N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd) 
+[Visuals](../../NotYetHere.qmd) 
 
 
 # List of Topics
 
 ## Introduction
 
-## Statistics and Measurements
-
 ## Basic Engineering Calculations
+
+### Transformation and presentation of process data
+
+### Interpolation, both linear and nonlinear
+
+### Spreadsheets for calculations, statistics, and regression
+
+### Roots of linear and nonlinear equations
+
+### Statistics and Measurements
+
+### Unit, Temperature, and Equation Conversions
+
+### Types of process data
 
 # Pathways Through the Videos
 
+|[Intro to Chemical Engineering](../../pathway2.qmd)|[The Full Video Set](../../pathway1.qmd)|[Mechanical Engineering Thermodynamics](../../pathway3.qmd)|[Spreadsheets](../../pathway4.qmd)|[Chemical Reactor Engineering](../../pathway5.qmd)|
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+
 ![](VideoPaths.png)
+

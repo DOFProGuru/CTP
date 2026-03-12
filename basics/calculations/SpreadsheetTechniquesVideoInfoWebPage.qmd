@@ -7,7 +7,16 @@ html-math-method: mathjax
 ::: {.callout-important title="Still Under Construction!"}
 This web page is just a bare outline. The complete details have not been filled in yet.
 :::
-# Intro to *The Unauthorized Guide to Using Spreadsheets in Chemical Engineering*
+
+# Key to the Videos and Links
+
+- **JTF (Just the Facts)** videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think “efficient and to the point.” Each has a companion TFS video.
+- **TFS (The Full Story)** videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.
+- **Info Page** links lead to definitions, expanded explanations, and related material—because sometimes you really do need to explain it.
+- **Visuals** links contain the underlying greenscreen or whiteboard materials used in the video, for those who like to see the scaffolding.
+- Wondering about the titles? See Appendix B: [**If you have to explain it, it’s no longer funny**](../../appx/NotFunny.qmd)￼.
+
+# Intro to Using Spreadsheets in Chemical Engineering
 
 Main title explanation
 
@@ -16,34 +25,56 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5XMeQ6vWymA?si=CUrnajQV7rkgAmgv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## How to Have a Quickie with Your Data Part 1
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4EfhlWNDQ48?si=Y4u8lUIBWluyVgtZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## How to Have a Quickie with Your Data Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dVmh0EdQT1U?si=0A6c_LvtbfwbxQ7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Solving Nonlinear Equations with Spreadsheets
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SaI2qdu1wSE?si=Gn3Q6EGuSdcoeUrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+- [Guide to Spreadsheets Template](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/GuideToSpreadsheets.ods) – A spreadsheet with the data but not the solution from the Unauthorized Guide video
+- [Guide to Spreadsheets Solutions](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/SolutionGuideToSpreadsheets.ods) – A spreadsheet with the data but not the solution from the Unauthorized Guide video
+- [Data Fitting (Quickie) Template](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/DataFittingTemplate.ods) - A spreadsheet with the data but not the solution from the Quickie Data video
+- [Data Fitting (Quickie) Solutions](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/DataFittingSolution.ods) - A spreadsheet with the data but not the solution from the Quickie Data video
+- [Nonlinear Roots Demo](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/NonlinearRootDemoForPosting.ods) – A spreadsheet for doing the calculations in the Nonlinear Roots video
+
 ## Definitions
+
+Spreadsheet
+: A spreadsheet is a software application that allows users to organize, analyze, and manipulate data in a tabular format. It typically consists of a grid of cells arranged in rows and columns, where each cell can contain text, numbers, formulas, or functions. Spreadsheets are commonly used for tasks such as data entry, calculations, financial analysis, and creating charts or graphs.
+
+Cell
+: A cell is the basic unit of a spreadsheet, where data can be entered or calculated. Each cell is identified by a unique combination of a column letter and a row number (e.g., A1, B2). Cells can contain various types of data, including text, numbers, formulas, or functions. Formulas in cells can perform calculations based on the values of other cells, allowing for dynamic data analysis and manipulation.
+
+Reference
+: In the context of spreadsheets, a reference is a way to identify and access the value or formula contained in a specific cell or range of cells. References can be relative (e.g., A1), absolute (e.g., $A$1), or mixed (e.g., A$1). Relative references change when copied to another location, while absolute references remain constant. References are essential for performing calculations and creating formulas that depend on the values of other cells in the spreadsheet.
+
+Function
+: A function in a spreadsheet is a predefined formula that performs a specific calculation or operation on a set of values or arguments. Functions can be used to simplify complex calculations and automate tasks. Common functions include SUM (to add a range of numbers), AVERAGE (to calculate the mean), IF (to perform conditional logic), and VLOOKUP (to search for a value in a table).
+
+Drag-Fill
+: Drag-fill is a feature in spreadsheets that allows users to quickly copy and fill a series of values or formulas across a range of cells. By clicking and dragging the fill handle (a small square at the bottom-right corner of a selected cell), users can extend a pattern or sequence of data, such as numbers, dates, or formulas, to adjacent cells. This feature is particularly useful for creating repetitive data or applying the same formula to multiple cells without manually entering it each time.
+
 
 # Other Links and Videos
 
@@ -51,6 +82,18 @@ Video  explanation
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts**<br/>*Linear Interpolation*<br/>[Video](https://youtu.be/VbnpWj9iYAU), [Info Page](../../basics/calculations/InterpolationWebPage.qmd), [Visuals](../../basics/calculations/InterpolationJTFVisuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**No Clear Interpretation a Mind-Blowing Math Hack**<br/>*Nonlinear Interpolation*<br/>[Video](https://youtu.be/721FxKwDRAU), [Info Page](../../basics/calculations/InterpolationWebPage.qmd), [Visuals](../../basics/calculations/NLInterpolationJTFVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**How Deviant and Mean Are Your Data? Intro and Basics Part 1, Just the Facts**<br/>*Mean ($\mu,\ \bar{x}$) and Standard Deviation ($\sigma,\ S$)*<br/>[Video](https://youtu.be/ksg4Babav6o), [Info Page](../../basics/stats/BasicStatisticsVideoInfoWebPage.qmd), [Visuals](../../basics/stats/5-JTF-WhyStatsJTF1Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**How Deviant and Mean Are Your Data? Part 2**<br/>*Standard Error ($S_{\bar{x}}$) and Confidence Interval ($2\lambda$)*<br/>[Video](https://youtu.be/cBOrE6eV-AE), [Info Page](../../basics/stats/BasicStatisticsVideoInfoWebPage.qmd), [Visuals](../../basics/stats/5A-JTF-WhyStatsJTF2Visuals.qmd)

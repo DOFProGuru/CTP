@@ -1,5 +1,5 @@
 ---
-title: "*Gotta Keep ‘Em Separated* (Mixers, Dividers, Separators) Reference Page"
+title: "Mixers, Dividers, Separators Reference Page<br/>*Gotta Keep ‘Em Separated*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -16,7 +16,7 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pRg1m0_9Psg?si=ldy4MgqsU39JHH8p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](40-UnitOpsMixDivSepVisuals.qmd)
 
 # Definitions
 
@@ -45,6 +45,18 @@ Composition
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**How to Keep Your Balance**<br/>*System Definition and the General Balance Equation*<br/>[Video](https://youtu.be/-fjXc-Upxx4), [Info Page](../../balances/general/index.qmd), [Visuals](../../balances/general/KeepYourBalanceJTFVisuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Speed Balancing**<br/>*General Balance Equation Definitions and Suggestions*<br/>[Video](https://youtu.be/Pmp2IxgL9FM), [Info Page](../../balances/general/index.qmd), [Visuals](../../balances/general/SpeedBalancingJTFVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**When You Saw It, What Was the Extent of Your Reaction? Part 1**<br/>*Chemical Reactor Single Reaction, $\xi$ and $f_{\mathrm{A}}$*<br/>[Video](https://youtu.be/HKYYp5UxwpA), [Info Page](../../balances/material/FractionalConversionReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/41-UnitOpsReactPart1Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**When You Saw It, What Was the Extent of Your Reaction? Part 2**<br/>*Chemical Reactor Multiple Reactions with Example, $\xi$ and $f_{\mathrm{A}}$*<br/>[Video](https://youtu.be/XmLXR_KOZMk), [Info Page](../../balances/material/FractionalConversionReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/42-UnitOpsReactPart2Visuals.qmd)

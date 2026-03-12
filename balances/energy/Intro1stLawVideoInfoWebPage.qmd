@@ -16,14 +16,14 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZHWT9Jw7fzY?si=3b2jG26gxpI9XkgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Video 2
 
 Video  explanation
 
 ***Video 2 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
@@ -31,12 +31,53 @@ Video  explanation
 
 ## Definitions
 
+The First Law of Thermodynamics
+: The general balance equation applied to energy with the assumption that relativistic effects and nuclear reactions are assumed to be negligible.
+
+Work, $W$
+: A force moving through a distance. Electrical energy crossing a system boundary is usually assumed to be work.
+
+Heat, $Q$
+: Energy crossing a system boundary due to a temperature difference. In some cases the temperature difference is assumed to be infinitesimally small.
+
+Potential Enegy, $E_p$
+: The value in a conservative field relative to a zero datum. For these videos, the conservative field is gravity, so $E_p = mgh$, where $h$ is the height above a reference datum.
+
+Kinetic Energy, $E_k$
+: The kinetic energy is the energy in an inertial reference frame due to the velocity in that reference frame, so $E_k = \frac{1}{2} m u^2$, where $u$ is the velocity.
+
+Internal Energy, $U$
+: The sum of all of the microscopic kinetic and potential energies possessed by the atoms and molecules in a system.
+
+Enthalpy, $H$
+: The sum of the internal energy, $U$, plus the product of the absolute pressure, $P$, and the volume, $V$. It is a convenience function that makes solving problems involving isobaric or open steady-state systems easier.
+
+Intensive Property
+: A property of a substance that *does not* depend on the mass or moles of a substance is an *intensive* property (such as temperature, $T$, pressure, $P$, density, $\rho$, or composition, $x$).
+
+Extensive Property
+: A property of a substance that *does* depend on the mass or moles of a substance is an *extensive* property (such as volume, $V$, or weight, $mg$).
+
+It is quite frequently useful to define an intensive property that is related to the extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume, $\hat{V} = V/m$, specific internal energy, $\hat{U} = U/m$, or molar enthalpy, $\hat{H} = H/n$.
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3**<br/>*Liquid-Liquid Extraction Example*<br/>[Video](https://youtu.be/jcChVoELvFo), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/86.5-EquilibriumSeparationStages3Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](../../balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd)
+
+### The next video (i.e., one video forward)
+
+**Add Friction and Work to Bernoulli? Here’s What Really Happens!**<br/>*The Mechanical Energy Balance and the Moody Chart*<br/>[Video](https://youtu.be/Da48oZb9oNw), [Info Page](../../balances/energy/MechanicalEnergyBalanceVideoInfoWebPage.qmd), [Visuals](../../balances/energy/90-MechEngBalVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Steam: Get the Quality Right AFTER You Table It! Part 1**<br/>*The Basics of Steam Tables*<br/>[Video](https://youtu.be/8tH3gXz_M8A), [Info Page](../../balances/energy/SteamTablesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/91-ThermodynamicPropertyTables1Visuals.qmd)

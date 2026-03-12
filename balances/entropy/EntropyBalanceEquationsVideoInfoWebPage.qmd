@@ -16,9 +16,7 @@ How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-Stat
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QcZTezMtDRk?si=MGD6zoSZ6AMhT6-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
-
-
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
@@ -26,12 +24,37 @@ Video 1 explanation
 
 ## Definitions
 
+[Transient System](https://en.wikipedia.org/wiki/Transient_state)
+: The values of process variables are changing with time.
+
+[Steady State System](https://en.wikipedia.org/wiki/Steady_state)
+: The values of process variables do not change with time but may change with position. (What EE’s call a DC steady state)
+
+[Closed or Batch System](https://en.wikipedia.org/wiki/Closed_system)
+: Throw stuff in. Wait. Pull products out.
+
+[Open or Continuous System](https://en.wikipedia.org/wiki/Open_system_(systems_theory))
+: Continually throw stuff in and pull stuff out.
+
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Sadi Carnot and the Power of Fire, the 1824 Edition Part 1**<br/>*The Air-Standard Carnot Cycle*<br/>[Video](https://youtu.be/EDJQAvBIAok), [Info Page](../../balances/entropy/TheCarnotCycleVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/116-Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Sadi Carnot and the Power of Fire, the 1824 Edition Part 2**<br/>*The Steam Carnot Cycle*<br/>[Video](https://youtu.be/Qc9W1KKpouU), [Info Page](../../balances/entropy/TheCarnotCycleVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/116.5-Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans**<br/>*Turbines and Expanders, Isentropic and Isothermal Compressors*<br/>[Video](https://youtu.be/Pb7PS5oeCz0), [Info Page](../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/118-TurbCompEtcVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans**<br/>*Pumps, Nozzles, and Valves or Throttles*<br/>[Video](https://youtu.be/irBfMfVUEFo), [Info Page](../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/118.5-PumpNozzVisuals.qmd)

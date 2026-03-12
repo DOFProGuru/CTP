@@ -1,5 +1,5 @@
 ---
-title: "*React But Maintain Your Equilibrium* (Equilibrium Reactors) Reference Page"
+title: "Equilibrium Reactors Reference Page<br/>*React But Maintain Your Equilibrium* "
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -16,20 +16,31 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0GS8XEHRBMk?si=anu1Kj9RFzDi7XGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](54-EquilReact1Visuals.qmd)
 
 ## React But Maintain Your Equilibrium Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GI8tuSRrIcc?si=jQmusfP4c38elk4j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](55-EquilReact2Visuals.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+- [Equilibrium Reactor Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/EquilibriumReactionExample.ods) – The spreadsheet from Part 2
+
 ## Definitions
+
+Equilibrium Reactor
+:   A reactor in which the reaction is allowed to proceed until it reaches chemical equilibrium. The composition of the output stream is determined by the equilibrium constant for the reaction and the composition of the input stream. Equilibrium reactors are often used to model reactions that are fast compared to the residence time of the reactor, such that the reaction can be assumed to reach equilibrium before the material exits the reactor.
+
+Equilibrium Constant
+:   A dimensionless quantity that characterizes the equilibrium state of a chemical reaction. It is defined as the ratio of the concentrations (or partial pressures) of the products to the concentrations (or partial pressures) of the reactants, each raised to the power of their respective stoichiometric coefficients. The equilibrium constant provides insight into the extent of a reaction at equilibrium and can be used to predict the direction of the reaction under different conditions.
+
+Equilibrium Conversion
+:   The conversion of a reactant in an equilibrium reactor, which is determined by the equilibrium constant and the initial composition of the reactants. The equilibrium conversion can be calculated using the equilibrium constant and the initial concentrations of the reactants, and it represents the maximum conversion that can be achieved in the reactor under the given conditions.
 
 # Other Links and Videos
 
@@ -37,6 +48,18 @@ Video  explanation
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Wishing Upon a CSTR**<br/>*Batch, CSTR, PFR*<br/>[Video](https://youtu.be/6tnVFq7dSbE), [Info Page](../../balances/material/KineticReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/47-BatchCSTRPFRIntroVisuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**It’s Totally Tubular, Man!**<br/>*CSTR, PFR, Batch Example*<br/>[Video](https://youtu.be/OAzXx9Kq2nU), [Info Page](../../balances/material/KineticReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/47.5-ReactorExamplesVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Flame On, Torch!**<br/>*Combustion reactions*<br/>[Video](https://youtu.be/G2sKW_6N2BA), [Info Page](../../balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/material/59-CombRxnsPart1Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**A Combustible Mixture!**<br/>*Sample combustion reactions*<br/>[Video](https://youtu.be/hvIk-evMp88), [Info Page](../../balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/material/60-CombRxnsPart2Visuals.qmd)

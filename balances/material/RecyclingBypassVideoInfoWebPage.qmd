@@ -1,5 +1,5 @@
 ---
-title: "*Recycling and Bypass* Reference Page"
+title: "Recycling and Bypass Reference Page"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -7,7 +7,7 @@ html-math-method: mathjax
 ::: {.callout-important title="Still Under Construction!"}
 This web page is just a bare outline. The complete details have not been filled in yet.
 :::
-# Intro to *Main Title*
+# Intro to Recycling and Bypass
 
 Main title explanation
 
@@ -16,27 +16,68 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R7tIQyBUWn8?si=kR6xXebWj14tVs-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](43-RecycleBypassPartVisuals.qmd)
 
 ## Leaving Radiator Springs In the Dust
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tjzDu7_n-NI?si=RkVMUYxMMiKriMw1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](44-RecycleBypassPart2Visuals.qmd)
 
 ## The Symbolic Meaning of Recycling
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CF18jpqZzgc?si=-tqvFS1uczIsknEf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](45-RecycleSymbSolVisuals.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+- [Recycling Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/RecycleExamples.ods) – A spreadsheet with the examples from *Recycling Before Recycling Was Cool* and *Leaving Radiator Springs In the Dust*
+- [Symbolic Recycling Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/SymbolicRecycleExample.ods) – A spreadsheet with the example from *The Symbolic Meaning of Recycling* 
+
 ## Definitions
+
+[PFD](https://en.wikipedia.org/wiki/Process_flow_diagram) Process Flow Diagram or flowsheet.
+:    A schematic drawing of the mixers, dividers, separators and reactors used in the process.
+
+Recycle
+:   Part of a product stream is returned to the feed of a process.
+
+Bypass
+:   Part of the feed is routed around a process and mixed with the product.
+
+Purge
+:   A stream used to prevent buildup of trace components in a recycle loop.
+
+Tie Component
+:   A component of the feed which is unchanged by a process. Often useful for calculations but never necessary.
+
+Overall Balance
+:   Treating a PFD as a black box with only inputs and outputs.
+
+Mixer
+
+:   Mixes or combines multiple input streams into a single output stream.
+
+Divider
+
+:   Divides the input stream into multiple output streams, each with the same composition as the input stream, but with differing flow rates.
+
+Separator
+
+:   Separates the input stream into multiple output streams, each with a different composition than the input stream. The fraction of a given species in the input stream that exits in a given output stream is the split fraction for that species in that output stream.
+
+Split Fraction
+
+:   The fraction of a given species in the input stream that exits in a given output stream is the *split fraction* for that species in that output stream. For separators with two output streams, the split fractions for a given species in the two output streams sum to 1. For separators with more than two output streams, the split fractions for a given species in all output streams sum to 1.
+
+Composition
+:   Composition is the same as the mole or mass fraction of each species in a stream. See [*What the Frac?*](https://youtu.be/qJERzRm7xc0) for more details.
+
 
 # Other Links and Videos
 
@@ -44,6 +85,18 @@ Video  explanation
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**When You Saw It, What Was the Extent of Your Reaction? Part 2**<br/>*Chemical Reactor Multiple Reactions with Example, $\xi$ and $f_{\mathrm{A}}$*<br/>[Video](https://youtu.be/XmLXR_KOZMk), [Info Page](../../balances/material/FractionalConversionReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/42-UnitOpsReactPart2Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**When You Saw It, What Was the Extent of Your Reaction? Part 3**<br/>*Chemical Reactor Yield and Selectivity*<br/>[Video](https://youtu.be/PPi-ka3iRvI), [Info Page](../../balances/material/FractionalConversionReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/42.5-UnitOpsReactPart3Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**How Did You Think I Would React?**<br/>*Basic Kinetic Reactor Mole Balance*<br/>[Video](https://youtu.be/_qxHszVZYGk), [Info Page](../../balances/material/KineticReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/46-KineticsIntroJTFVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Wishing Upon a CSTR**<br/>*Batch, CSTR, PFR*<br/>[Video](https://youtu.be/6tnVFq7dSbE), [Info Page](../../balances/material/KineticReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/47-BatchCSTRPFRIntroVisuals.qmd)

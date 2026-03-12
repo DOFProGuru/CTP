@@ -16,14 +16,14 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pb7PS5oeCz0?si=BSyZ_LWr9GLXmnVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans 
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/irBfMfVUEFo?si=HWUWastge-nrPBvP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
@@ -31,11 +31,69 @@ Video  explanation
 
 ## Definitions
 
+Isentropic or Ideal Work
+: The work required for an isentropic process that requires work or the work produced for an isentropic process that generates work.
+
+Real or Actual Work
+: The actual work required for a non-ideal process that requires work or the actual work produced by a non-ideal process that generates work. Real or actual work is usually compared with the isentropic or ideal work to calculate an efficiency.
+
+[Turbine](https://en.wikipedia.org/wiki/Turbine) or [Expander](https://en.wikipedia.org/wiki/Turboexpander)
+: A mechanical device for generating work from an flowing or expanding fluid.
+
+Turbine or Expander Efficiency
+: The ratio of the actual work generated in a turbine or expander to the work generated in a isentropic process with the same entering pressure and temperature and the same exiting pressure. $\eta_\mathrm{turbine} \equiv \dot{W}_{s\text{-actual}}/\dot{W}_{s\text{-isentropic}}$
+
+[Adiabatic Compressor](https://en.wikipedia.org/wiki/Compressor#Isentropic_compressor)
+: A device for compressing a gas without any cooling. It is modeled as an isentropic process with a compressor efficiency.
+
+Isentropic Compressor Efficiency
+: The ratio of the work required by an isentropic process to compress a gas to the actual work required to compress a gas adiabatically from an given entering pressure and temperature to a given exiting pressure. $\eta_\mathrm{compressor} \equiv \dot{W}_{s\text{-isentropic}}/\dot{W}_{s\text{-actual}}$
+
+[Isothermal Compressor](https://en.wikipedia.org/wiki/Compressor#Temperature)
+: A (usually water) cooled compressor that attempts to maintain the compressing gas at a constant temperature through the compression process. It is modeled as an isothermal process with a compressor efficiency.
+
+Isothermal Compressor Efficiency
+: The ratio of the work required by an isothermal process to compress a gas to the actual work required to compress a gas  from an given entering pressure and temperature to a given exiting pressure. $\eta_\mathrm{compressor} \equiv \dot{W}_{s\text{-isothermal}}/\dot{W}_{s\text{-actual}}$
+
+[Pump](https://en.wikipedia.org/wiki/Pump)
+: A device for causing flow and/or increasing the pressure of a fluid, usually a liquid.
+
+[Pump Efficiency](https://en.wikipedia.org/wiki/Pump#Efficiency)
+: The ratio of the work required by an isentropic process to pump a fluid to the actual work required to pump a fluid adiabatically from an given entering pressure and temperature to a given exiting pressure. $\eta_\mathrm{pump} \equiv \dot{W}_{s\text{-isentropic}}/\dot{W}_{s\text{-actual}}$
+
+[Nozzle](https://en.wikipedia.org/wiki/Nozzle)
+: A device for increasing the velocity of a fluid by changing the cross-sectional area of the flow channel. The ideal nozzle is assumed to be isentropic.
+
+Nozzle Efficiency
+: The ratio of the actual velocity squared to the velocity squared for an isentropic process. $\eta_\mathrm{nozzle} = u^2_{\text{out-actual}}/u^2_{\text{out-isentropic}}$
+
+[Valve](https://en.wikipedia.org/wiki/Valve) or [Throttle](https://en.wikipedia.org/wiki/Throttle)
+: A device to modulate or control the flow of a fluid by obstructing the flow to a greater or lesser extent. A valve or throttle is usually modeled as an isenthalpic device, $\Delta H = 0 \implies H_\mathrm{out} = H_\mathrm{in}$.
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
+
+### The video previous to the previous video (i.e., two videos back)
+
+**Sadi Carnot and the Power of Fire, the 1824 Edition Part 2**<br/>*The Steam Carnot Cycle*<br/>[Video](https://youtu.be/Qc9W1KKpouU), [Info Page](../../balances/entropy/TheCarnotCycleVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/116.5-Visuals.qmd)
+
+### The previous video (i.e., one video back)
+
+**How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?**<br/>*The 2nd Law for Closed, Open Steady-State, and Open Transient Systems*<br/>[Video](https://youtu.be/QcZTezMtDRk), [Info Page](../../balances/entropy/EntropyBalanceEquationsVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/117-2ndLawSystemsVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1**<br/>*The Ideal Rankine Cycle*<br/>[Video](https://youtu.be/4QRJ00uyaX8), [Info Page](../../balances/entropy/RankineCycleInfoWebPage.qmd), [Visuals](../../balances/entropy/119-RankineVisualsPart1.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2**<br/>*The Rankine Cycle with $\eta_\mathrm{pump}$  and $\eta_\mathrm{turbine}$*<br/>[Video](https://youtu.be/0DmsKCJpIdc), [Info Page](../../balances/entropy/RankineCycleInfoWebPage.qmd), [Visuals](../../balances/entropy/120-RankineVisualsPart2.qmd)
+
+
+
 
 
 

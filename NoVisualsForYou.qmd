@@ -1,0 +1,10 @@
+---
+title: "This Video Does Not Have Visuals"
+author: "DOFPro group"
+format: html
+---
+
+::: {.callout-note}
+This is one of the videos that has no separate visuals web page. It is likely a software usage or how-to video. Let us know if you think we should add a visuals page.
+:::
+

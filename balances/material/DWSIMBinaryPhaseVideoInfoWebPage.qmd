@@ -16,7 +16,6 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5NUchIg8q7E?si=VRyVOkM4ANTQn37s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
@@ -24,12 +23,29 @@ Video 1 explanation
 
 ## Definitions
 
+DWSIM
+: An open-source [process flow simulation software](https://dwsim.org/) package
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2**<br/>*Distillation Examples: Binary Phase Diagram, Raoult's law*<br/>[Video](https://youtu.be/wc6gv7lNtI0), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/86-EquilibriumSeparationStages2Visuals.qmd)
+
+### The previous video (i.e., one video back)
+
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3**<br/>*Liquid-Liquid Extraction Example*<br/>[Video](https://youtu.be/jcChVoELvFo), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/86.5-EquilibriumSeparationStages3Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](../../balances/energy/Intro1stLawVideoInfoWebPage.qmd), [Visuals](../../balances/energy/89-Intro1stLawVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Add Friction and Work to Bernoulli? Here’s What Really Happens!**<br/>*The Mechanical Energy Balance and the Moody Chart*<br/>[Video](https://youtu.be/Da48oZb9oNw), [Info Page](../../balances/energy/MechanicalEnergyBalanceVideoInfoWebPage.qmd), [Visuals](../../balances/energy/90-MechEngBalVisuals.qmd)
 
 

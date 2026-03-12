@@ -8,7 +8,7 @@ format: html
 
 All chemical and thermal processes have one or more outputs, whether it be a chemical product such as benzene or electrical power. The goal of almost all process engineers is to maximize the output for a given cost or minimize the cost for a given output. Engineering is a quantitative discipline, and we have to quantitatively report our inputs and outputs. Since all processes experience random fluctuations from the process itself or from the measurement process, the engineer needs to be able to account for the noise. Statistical methods are the most common ways to report both the inputs and outputs, and the variations or noise in the inputs or outputs. There are seventeen videos discussing common statistical methods used in Chemical and Thermal Processing and other fields of engineering, divided up into *basic statistics*, *linear regression*, *error propagation*, *nonlinear regression*, and *error propagation in integrals and derivatives*
 
-# Basic Statistics
+# [Basic Statistics](BasicStatisticsVideoInfoWebPage.qmd)
 
 The most commonly used basic statistics are the *arithmetic mean*, the *standard deviation*, and the *confidence interval*. These three are covered in the videos and web pages listed in the table below. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
 
@@ -24,38 +24,38 @@ The most commonly used basic statistics are the *arithmetic mean*, the *standard
 
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Basic Stats in MATLAB**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with MATLAB*<br/>[Video](https://youtu.be/j0BRAgadBxg), [Info Page](BasicStatisticsVideoInfoWebPage.qmd), [Visuals](none)
+**Basic Stats in MATLAB**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with MATLAB*<br/>[Video](https://youtu.be/j0BRAgadBxg), [Info Page](BasicStatisticsVideoInfoWebPage.qmd)
 
-**Basic Statistics in R**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R*<br/>[Video](https://youtu.be/va7O78QdYLk), [Info Page](BasicStatisticsVideoInfoWebPage.qmd), [Visuals](none)
+**Basic Statistics in R**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R*<br/>[Video](https://youtu.be/va7O78QdYLk), [Info Page](BasicStatisticsVideoInfoWebPage.qmd)
 
-# Linear Regression
+# [Linear Regression](LinearRegressionVideoInfoWebPage.qmd)
 
 A very common means of presenting and analyzing sets of data pairs is *linear regression* or fitting a linear function to the data. We only present methods for least-squares linear regression. The method is covered in the videos listed in the table below. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
 
-[This is NOT a DOFPro video.]{style="color: red;"}<br/>**Linear Regression**<br/>*Derivation of the equations for linear regression*<br/>[Video](https://youtu.be/HsZhQyhg0tk), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>**Linear Regression**<br/>*Derivation of the equations for linear regression*<br/>[Video](https://youtu.be/HsZhQyhg0tk), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
-[This is NOT a DOFPro video.]{style="color: red;"}<br/>**Linear Regression Spreadsheet**<br/>*Performing linear regression with a spreadsheet*<br/>[Video](https://youtu.be/7LBI7Ea2sx0), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>**Linear Regression Spreadsheet**<br/>*Performing linear regression with a spreadsheet*<br/>[Video](https://youtu.be/7LBI7Ea2sx0), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
-[This is NOT a DOFPro video.]{style="color: red;"}<br/>**Linear Regression MATLAB**<br/>*Performing linear regression with MATLAB*<br/>[Video](https://youtu.be/TjqNTjCIuhE), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>**Linear Regression MATLAB**<br/>*Performing linear regression with MATLAB*<br/>[Video](https://youtu.be/TjqNTjCIuhE), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
-**Linear Regression in R**<br/>*Linear Regression in R*<br/>[Video](https://youtu.be/Btshw2DX0Ik), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+**Linear Regression in R**<br/>*Linear Regression in R*<br/>[Video](https://youtu.be/Btshw2DX0Ik), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
-# Error Propagation
+# [Error Propagation](ErrorPropagationVideoInfoWebPage.qmd)
 
 Experimental data taken by engineers are usually further processed as part of design or analysis procedures. The question often arises as to how the uncertainty in the measured data affect the uncertainty in the final calculation. There are both analytical and numerical methods for evaluating how the undertainty or error propagates. These methods are explored in the videos listed in the table below. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Error Propagation**<br/>*Propagating errors or uncertainties through equations and calculations*<br/>[Video](https://youtu.be/DiOs64kzSQw), [Info Page](ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
+**Error Propagation**<br/>*Propagating errors or uncertainties through equations and calculations*<br/>[Video](https://youtu.be/DiOs64kzSQw), [Info Page](ErrorPropagationVideoInfoWebPage.qmd)
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
+**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](ErrorPropagationVideoInfoWebPage.qmd)
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Integrals and Derivatives Part 2**<br/>*More propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
+**Integrals and Derivatives Part 2**<br/>*More propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](ErrorPropagationVideoInfoWebPage.qmd)
 
-# Nonlinear Regression
+# [Nonlinear Regression](NonlinearRegressionVideoInfoWebPage.qmd)
 
 When the model for fitting data contains parameters that are non-linearly related to the fitting function, the model parameters may be determined through *nonlinear regression*. The method is covered in the videos listed in the table below. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](NonlinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+**Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](NonlinearRegressionVideoInfoWebPage.qmd)

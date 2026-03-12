@@ -16,14 +16,14 @@ Main title explanation
 Video 1 explanation
 
 ***Video 1 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## Video 2
 
 Video  explanation
 
 ***Video 2 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 

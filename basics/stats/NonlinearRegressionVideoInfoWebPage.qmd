@@ -7,6 +7,7 @@ html-math-method: mathjax
 ::: {.callout-important title="Still Under Construction!"}
 This web page is just a bare outline. The complete details have not been filled in yet.
 :::
+
 # Intro to *Why Nonlinear Regression?*
 
 Main title explanation
@@ -16,7 +17,7 @@ Main title explanation
 Video 1 explanation
 
 ***Video 1 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 
 ## Nonlinear Regression
@@ -28,14 +29,14 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aE4W-JYnGgQ?si=zsWsxY-07reZN6hD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
 
 <!-- ## Nonlinear Regression with a Spreadsheet
 
 Video 3 explanation
 
 ***Video 3 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 
 
@@ -44,7 +45,7 @@ Video 3 explanation
 Video 4 explanation
 
 ***Video 4 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 
 
@@ -53,7 +54,7 @@ Video 4 explanation
 Video 5 explanation
 
 ***Video 5 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 
 
@@ -63,11 +64,41 @@ Video 5 explanation
 
 ## Definitions
 
+Nonlinear Regression
+: A type of regression analysis used to model complex relationships between a dependent variable and one or more independent variables, where the relationship is not linear. Nonlinear regression can capture more intricate patterns in data compared to linear regression, making it suitable for a wide range of applications in engineering, science, and economics.
+
+Sum of Squared Residuals
+: A measure of the discrepancy between the observed data and the values predicted by a regression model. It is calculated as the sum of the squares of the differences between the observed values and the predicted values. The goal of nonlinear regression analysis is often to minimize the sum of squared residuals to find the best-fit model parameters.
+
+Numerical Optimization
+: A mathematical technique used to find the best solution to a problem by iteratively improving an initial guess. In the context of nonlinear regression, numerical optimization algorithms are employed to minimize the sum of squared residuals and determine the optimal parameters for the nonlinear model. Common optimization methods include gradient descent, Newton's method, and the Levenberg-Marquardt algorithm.
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
+
+### The video previous to the previous video (i.e., two videos back)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+
+### The previous video (i.e., one video back)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Integrals and Derivatives Part 2**<br/>*More propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+
+### The next video (i.e., one video forward)
+
+**Is Furlongs Per Fortnight a Thing?**<br/>*Unit Conversion*<br/>[Video](https://youtu.be/5EbL9MEro9E), [Info Page](../../basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](../../basics/processdata/DimensionalEquationsJTFVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**How Keen Is Your Rank? Just the Facts**<br/>*Temperature Conversion*<br/>[Video](https://youtu.be/XKwl41MvFcE), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/ConvertingTemperatureJTFVisuals.qmd)
+
+
+
 
 
 

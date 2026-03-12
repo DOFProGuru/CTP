@@ -1,5 +1,5 @@
 ---
-title: "*The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong?* (Equilibrium Separation Stages) Reference Page"
+title: "Equilibrium Separation Stages Reference Page<br/>*The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong?*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -16,27 +16,48 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bY9fl5DJzmk?si=brE9cHtUxJxGpBno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](85-EquilibriumSeparationStages1Visuals.qmd)
 
 ## Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wc6gv7lNtI0?si=NNrEaQFVhE5Cmw1t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](86-EquilibriumSeparationStages2Visuals.qmd)
 
 ## Part 3
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jcChVoELvFo?si=PusFY_zjmwddEeSb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](86.5-EquilibriumSeparationStages3Visuals.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+- [Hexane, Heptane, Octane Equilibrium Stage Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/HexHeptOctEqStage.ods) – A spreadsheet with the three-component Raoult's law calculation from Part 2
+- [Liquid-Liquid Extraction Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/Example3LiqLiqExtact.ods) – A spreadsheet with the liquid-liquid extraction calculation from Part 3
+
 ## Definitions
+
+Equilibrium Separation Stage
+: A stage in a separator, such as a distillation column, that is modeled by assuming that the input flows are well mixed, and the mixture separates into output flows that are in equilibrium with each other.
+
+Phase Fraction
+: The fraction of a total mixture that consists of a given phase. It can be calculated on either a mass-fraction or mole-fraction basis, with different results for the different bases.
+
+Liquid Fraction
+: The fraction of a total mixture that is in the liquid phase. It can be calculated on either a mass-fraction or mole-fraction basis, with different results for the different bases.
+
+Vapor Fraction
+: The fraction of a total mixture that is in the vapor phase. It can be calculated on either a mass-fraction or mole-fraction basis, with different results for the different bases.
+
+Distillation
+: A separation process performed by repeated evaporations and condensations.
+
+Liquid-Liquid Extraction
+: A separation process performed by repeated mixing of partially miscible liquids and allowing the two liquid phases to separate.
 
 # Other Links and Videos
 
@@ -44,6 +65,18 @@ Video  explanation
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Dew Your Bubbles Have Flash? Part 2**<br/>*BUBL T, DEW T*<br/>[Video](https://youtu.be/9GyrfJzg-tg), [Info Page](../../balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/75-Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Dew Your Bubbles Have Flash? Part 3**<br/>*FLASH*, *Pxy*, *Txy*<br/>[Video](https://youtu.be/bG15qQ9gB4c), [Info Page](../../balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/75.5-Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](../../balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](../../balances/energy/Intro1stLawVideoInfoWebPage.qmd), [Visuals](../../balances/energy/89-Intro1stLawVisuals.qmd)

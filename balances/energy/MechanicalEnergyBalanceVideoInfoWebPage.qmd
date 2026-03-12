@@ -16,7 +16,7 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Da48oZb9oNw?si=8VfEWxpZ1-ceS518" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
@@ -24,12 +24,45 @@ Video 1 explanation
 
 ## Definitions
 
+[Friction Loss](https://en.wikipedia.org/wiki/Hydraulic_head#Head_loss), $\hat{F}$
+: The energy due to friction within a flowing fluid and between the flowing fluid and its container, such as pipe walls.
+
+[Moody Chart](https://en.wikipedia.org/wiki/Moody_chart)
+: Plots the Moody or Fanning friction factor as a function of the Reynolds number and the relative roughness for fully developed flow in a conduit or pipe.
+
+[Moody Friction Factor](https://en.wikipedia.org/wiki/Darcy_friction_factor_formulae), $f$
+: An empirical value used to determine the friction loss, often determined from a Moody chart.
+
+[Fanning Friction Factor](https://en.wikipedia.org/wiki/Fanning_friction_factor), $f$
+: An empirical value used to determine the friction loss, often determined from a Moody chart. The Fanning friction factor is the Moody friction factor over 4
+
+Mechanical Energy Balance
+: A form of the 1^st^ Law for constant-density fluids with only frictional heating.
+
+[Bernoulli Equation](https://en.wikipedia.org/wiki/Bernoulli%27s_principle)
+: The mechanical energy balance with the friction and work terms removed.
+
+[Reynolds Number](https://en.wikipedia.org/wiki/Reynolds_number)
+: A [dimensionless number](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd) comparing inertial forces to viscous forces in fluid flow. For a pipe or tube, it's calculated as $Re = \rho u D/\mu$
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](../../balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd)
 
+### The previous video (i.e., one video back)
 
+**Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](../../balances/energy/Intro1stLawVideoInfoWebPage.qmd), [Visuals](../../balances/energy/89-Intro1stLawVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Steam: Get the Quality Right AFTER You Table It! Part 1**<br/>*The Basics of Steam Tables*<br/>[Video](https://youtu.be/8tH3gXz_M8A), [Info Page](../../balances/energy/SteamTablesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/91-ThermodynamicPropertyTables1Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Steam: Get the Quality Right AFTER You Table It! Part 2**<br/>*Steam Table Examples*<br/>[Video](https://youtu.be/yRf09eSRM1A), [Info Page](../../balances/energy/SteamTablesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/92-ThermodynamicPropertyTables2Visuals.qmd)

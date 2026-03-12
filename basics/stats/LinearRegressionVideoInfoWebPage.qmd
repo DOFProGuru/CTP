@@ -1,5 +1,5 @@
 ---
-title: "*Out of Line? Here’s How Linear Regression Puts Your Data Back on Track* Reference Page"
+title: "Linear Regression Reference Page"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -16,7 +16,7 @@ Main title explanation
 Video 1 explanation
 
 ***Video 1 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 
 ## Linear Regression
@@ -28,14 +28,14 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HsZhQyhg0tk?si=khG-ExxITlyDZv2X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
 
 <!-- ## Linear Regression with a Spreadsheet
 
 Video 3 explanation
 
 ***Video 3 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 
 ## Linear Regression Spreadsheet
@@ -47,14 +47,14 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 Video 4 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7LBI7Ea2sx0?si=17h2A3_VYqxqlO3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
 
 <!-- ## Linear Regression in Python
 
 Video 5 explanation
 
 ***Video 5 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 
 ## Linear Regression MATLAB
@@ -66,26 +66,76 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 Video 6 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TjqNTjCIuhE?si=pQOsRTh4pHKL5hDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+
 
 ## Linear Regression in R
 
 Video 7 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Btshw2DX0Ik?si=bkzmaWvHiXFx8fA2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+- [MATLAB script for Linear Least Squares Fit](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/LinearLeastSquaresFit.m)
+- [R Script for Linear Regression Using Internals](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/LinRegressUsingIntrnals.R)
+- [R Script for Linear Regression (more details)](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/LinRegressI.R)
+- [R Script for Animating Linear Regression](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/LinRegressIAnimate.R)
+
 ## Definitions
+
+Linear Regression
+: Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables by fitting a linear equation to the observed data. The goal is to find the best-fitting straight line through the points, which minimizes the sum of the squared differences between the observed and predicted values.
+
+Least Squares Fit
+: The least squares fit is a mathematical approach used in linear regression to find the line of best fit. It minimizes the sum of the squares of the vertical distances (residuals) between the observed data points and the predicted values on the line. This method ensures that the overall error between the observed and predicted values is as small as possible, resulting in the most accurate representation of the data.
+
+Slope
+: The slope of a line in linear regression represents the rate of change of the dependent variable with respect to the independent variable. It indicates how much the dependent variable is expected to increase (or decrease) for each unit increase in the independent variable. A positive slope indicates a positive relationship, while a negative slope indicates a negative relationship between the variables.
+
+Intercept
+: The intercept in linear regression is the point where the fitted line crosses the y-axis. It represents the expected value of the dependent variable when the independent variable is zero. The intercept provides a baseline value for the dependent variable and is an important parameter in the linear regression model, as it helps to understand the starting point of the relationship between the variables.
+
+SSE (Sum of Squared rEsiduals)
+: The sum of squared residuals (SSE) is a measure of the total deviation of the observed values from the predicted values in a linear regression model. It is calculated by summing the squares of the differences between the observed values and the predicted values. A smaller SSE indicates a better fit of the model to the data, as it means that the predicted values are closer to the observed values. Calculating the sum of the squared errors would require knowing the true values of the parameters, which is not possible in practice. Therefore, we use the sum of squared residuals (SSE) as an estimate of the total error in the model. It is also known as the sum of the squared errors (SSE) or the residual sum of squares (RSS).
+
+Root Mean Squared rEsidual (RMSE)
+: The root mean squared residual (RMSE) is a measure of the average magnitude of the errors in a linear regression model. It is calculated by taking the square root of the SSE divided by the number of observations minus 2 (to account for the two parameters estimated in linear regression: slope and intercept). RMSE provides a way to quantify the difference between the observed values and the predicted values, with a lower RMSE indicating a better fit of the model to the data. It is also known as root mean squared error (RMSE) or standard error of the regression.
+
+Functional Bounds
+: Functional bounds refer to the limits or constraints placed on the functional form of the relationship between the dependent and independent variables in a linear regression model. Think of them as the bounds of the possible best-fit line calculated by the linear regression. They are the multidimensional equivalent of the confidence interval for a single parameter. 
+
+Observational Bounds
+: Observational bounds refer to the limits or constraints placed on the observed or predicteddata points in a linear regression model. These bounds can be based on the range of the independent variable, the range of the dependent variable, or any other relevant factors that may affect the observed data. Observational bounds delimit the area in which the observed data points are expected to fall, and they can help to identify outliers or influential points that may affect the fit of the model. Think of them as the multidimensional equivalent of the standard deviation times the *z*-value for a single parameter.
 
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
+
+### The video previous to the previous video (i.e., two videos back)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Basic Stats in MATLAB**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with MATLAB*<br/>[Video](https://youtu.be/j0BRAgadBxg), [Info Page](../../basics/stats/BasicStatisticsVideoInfoWebPage.qmd)
+
+### The previous video (i.e., one video back)
+
+**Basic Statistics in R**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R*<br/>[Video](https://youtu.be/va7O78QdYLk), [Info Page](../../basics/stats/BasicStatisticsVideoInfoWebPage.qmd)
+
+### The next video (i.e., one video forward)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Error Propagation**<br/>*Propagating errors or uncertainties through equations and calculations*<br/>[Video](https://youtu.be/DiOs64kzSQw), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+
+
 
 
 

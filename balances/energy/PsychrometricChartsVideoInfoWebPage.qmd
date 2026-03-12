@@ -16,7 +16,7 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nz8ADo4X2Ss?si=1pZTmEr-0mScXDlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
@@ -24,12 +24,48 @@ Video 1 explanation
 
 ## Definitions
 
+[Dry Bulb Temperature](https://en.wikipedia.org/wiki/Dry-bulb_temperature)
+: The temperature of an air-water vapor mixture as reported by a regular thermometer.
+
+[Wet Bulb Temperature](https://en.wikipedia.org/wiki/Wet-bulb_temperature)
+: The temperature of an air-water vapor mixture as reported by a thermometer that is covered by a moist porous covering.
+
+[Dew Point](https://en.wikipedia.org/wiki/Dew_point)
+: The temperature at which moisture begins to condense out of an air-water vapor mixture
+
+[Relative Humidity](https://en.wikipedia.org/wiki/Humidity#Relative_humidity)
+: The partial pressure of water in air-water vapor mixture divided by the saturation pressure at the same temperature.
+
+[Absolute Humidity or Humidity Ratio](https://en.wikipedia.org/wiki/Humidity#Specific_humidity)
+: The mass of water vapor per mass of dry air in an air-water vapor mixture.
+
+Specific Enthalpy
+: The enthalpy per unit mass. In psychrometry it is reported as the enthalpy of moist air per kilogram of dry air.
+
+Specific Volume
+: The volume per unit mass. In psychrometry it is reported as the volume of moist air per kilogram of dry air.
+
+[Sling Psychrometer](https://en.wikipedia.org/wiki/Hygrometer#Sling_psychrometer)
+: A device with a dry-bulb thermometer and a wet-bulb thermometer that is spun or slung through an air-water vapor mixture to measure thedry bulb and wet bulb temperatures.
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**The Enthalpy Games: Sunrise on the Calculations**<br/>*Example for $\mathrm{N_2}$, $\Delta H$ from $C_p$, $\Delta U$ from $C_v$*<br/>[Video](https://youtu.be/yLJp3YQaVvo), [Info Page](../../balances/energy/HeatCapacityVideoInfoWebPage.qmd), [Visuals](../../balances/energy/94-EnthalpyVsTandPPart2.qmd)
 
+### The previous video (i.e., one video back)
 
+**Feeling the Heat? How to Get Your Best Estimate**<br/>*Estimating $C_p$, $\Delta \hat{H}_v$, $\Delta \hat{H}_m$*<br/>[Video](https://youtu.be/f_l3OFyuiPs), [Info Page](../../balances/energy/EstimatingHeatCapacitiesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/95-EstimatingHeatCapacitiesVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Reference Not Found: Mixing, Dissolving, and Changing the Rules**<br/>*$\Delta H_m$, $\Delta H_s$*<br/>[Video](https://youtu.be/ggU692PLWts), [Info Page](../../balances/energy/HeatsOfMixingVideoInfoWebPage.qmd), [Visuals](../../balances/energy/98-ReferenceStatesVIsuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**The Isochronicles: This First Law Saga Is a Gas**<br/>*The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes*<br/>[Video](https://youtu.be/iKsR3v1wu30), [Info Page](../../balances/energy/The1stLawForIdealGases.qmd), [Visuals](../../balances/energy/102-1stLawIdealGasesVisuals.qmd)

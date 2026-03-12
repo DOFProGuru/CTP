@@ -1,5 +1,5 @@
 ---
-title: "*What Is a Mole?* Reference Page"
+title: "Moles and Mass Reference Page<br/>*What Is a Mole?*"
 author: "DOFPro group"
 format: html
 ---
@@ -15,21 +15,21 @@ The videos explain what a mole is and how it is used in basic Chemical Engineeri
 The *Just The Facts* Video gets straight to explaining what a mole is and how it is used. It is recommended for those who have a reasonably good understanding of moles and are just looking for a refresher or a review.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wbEkZmjNtwI?si=d7rviNDTCkuokFIe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](WhatIsAMoleJTFVisuals.qmd), [Transcript]()
+[Visuals](WhatIsAMoleJTFVisuals.qmd)
 
 ## What is a Mole? The Full Story
 
 *The Full Story* Video examines common conceptions and misconceptions about moles before explaining what a mole is and how to use a mole. It is recommended for those who have not been exposed to moles before or who have struggled with understanding what a mole is or how it is used.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CvRsRlpKll8?si=3qB4MjHyDVRj7uY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](WhatIsAMoleVisuals.qmd), [Transcript](WhatIsAMoleTFSCC.qmd)
+[Visuals](WhatIsAMoleVisuals.qmd)
 
 ## What the Frac?
 
 What the Frac explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qJERzRm7xc0?si=7TiFQV6U_MhzOCB2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](WhatIsAMoleVisuals.qmd), [Transcript](WhatIsAMoleTFSCC.qmd)
+[Visuals](MassMolesJTFVisuals.qmd)
 
 # Definitions
 
@@ -57,22 +57,26 @@ Pound Mole
   molar mass of a chemical species. For
   example, a pound mole of $\mathrm{NaCl}$ has a mass of $58.443\ \mathrm{lb_m}$.
 
-# Additional Links
-
-## Preceding Videos
-
-As of this writing the two sets of videos preceding this set are:
-
-1. *Under Pressure Part 1* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/eZFMP-Dt48g), [Reference Page](http://localhost:6195/basics/processdata/PressureWebPage.html)
-2. *Under Pressure Part 2* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/z8DJ4kpvCMU), [Reference Page](http://localhost:6195/basics/processdata/PressureWebPage.html)
-
-## Following Videos
-
-As of this writing the two sets of videos following this set are:
-
-1. *What the Frac?* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/Tdeuf0quJUs), [Reference Page](../../NotYetHere.qmd)
-2. *Are You Dense? Crank Up the Volume and Go With the Flow!* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/EsPSVVYWQlE), [Reference Page](../../NotYetHere.qmd)
+# Other Links and Videos
 
 ## Other Links
 
 1. The Wikipedia discussion of the [mole](https://en.wikipedia.org/wiki/Mole_(unit)). The other mass unit moles are discussed under [Similar units](https://en.wikipedia.org/wiki/Mole_(unit)#Similar_units).
+
+## Previous and Following Videos
+
+### The video previous to the previous video (i.e., two videos back)
+
+**Under Pressure Part 1, Just the Facts**<br/>*Pressure Basics*<br/>[Video](https://youtu.be/9gbOE5zEt4o), [Info Page](../../basics/processdata/PressureWebPage.qmd), [Visuals](../../basics/processdata/PressurePt1JTFVisuals.qmd)
+
+### The previous video (i.e., one video back)
+
+**Under Pressure Part 2, Just the Facts**<br/>*Abs., Atm., Gauge, Barometric Pressure*<br/>[Video](https://youtu.be/CR3MomWlqb8), [Info Page](../../basics/processdata/PressureWebPage.qmd), [Visuals](../../basics/processdata/PressurePt2JTFVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Are You Dense? Crank Up the Volume and Go With the Flow! Just the Facts**<br/>*Mass, Moles, Density, Volume, and Flow Rates*<br/>[Video](https://youtu.be/AFZWZSJ96g8), [Info Page](../../basics/processdata/DensityVolumeFlowVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/VolumeDensityFlowRateJTFVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**How to Keep Your Balance**<br/>*System Definition and the General Balance Equation*<br/>[Video](https://youtu.be/-fjXc-Upxx4), [Info Page](../../balances/general/index.qmd), [Visuals](../../balances/general/KeepYourBalanceJTFVisuals.qmd)

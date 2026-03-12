@@ -1,5 +1,5 @@
 ---
-title: "*Dew Your Bubbles Have Flash?* (Raoult's Law, Dew Point, Bubble Point, Flash Calculations) Reference Page"
+title: "Raoult's Law, Dew Point, Bubble Point, and Flash Calculations Reference Page<br/>*Dew Your Bubbles Have Flash?*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -16,21 +16,21 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R4bimpGAV7o?si=IFTJpCzdfwOmqsIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](74-Visuals.qmd)
 
 ## Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9GyrfJzg-tg?si=tIbrZXZORXHYH_B2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](75-Visuals.qmd)
 
 ## Part 3
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bG15qQ9gB4c?si=V6SC6uhwQXHIlHKt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](75.5-Visuals.qmd)
 
 # Examples and Definitions
 
@@ -38,12 +38,48 @@ Video  explanation
 
 ## Definitions
 
+Raoult's Law
+:
+
+Ideal Gas Mixture
+:
+
+Ideal Solution
+:
+
+Dew Pressure
+: The pressure at which a vapor of a given composition and temperature begins to condense. The composition of the condensate is usually also calculated.
+
+Bubble Pressure
+: The pressure at which a liquid of a given composition and temperature begins to evaporate. The composition of the vapor is usually also calculated.
+
+Dew Temperature
+: The temperature at which a vapor of a given composition and pressure begins to condense. The composition of the condensate is usually also calculated.
+
+Bubble Temperature
+: The temperature at which a liquid of a given composition and pressure begins to evaporate. The composition of the vapor is usually also calculated.
+
+Flash
+: A mixture with a known overall composition is brought to a temperature and pressure in the two-phase region. The mixture separates into a vapor phase and a liquid phase. The compositions of the two phases and their relative amounts are usually calculated.
+
 # Other Links and Videos
 
 ## Other Links
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Show Some Flash and Dew the Dew with a Little Bubbly!**<br/>*Graphical BUBL P, DEW P, BUBL T, DEW T, and FLASH calculations*<br/>[Video](https://youtu.be/shKvpcsJIEM), [Info Page](../../balances/material/GraphicalDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/72-BubbleDewFlashVisuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Oh, Henry!**<br/>*Gas-Liquid Equilibrium with one condensible component*<br/>[Video](https://youtu.be/dCOQy1C7yf0), [Info Page](../../balances/material/HenrysLawVideoInfoWebPage.qmd), [Visuals](../../balances/material/73-Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 1**<br/>*Equilibrium Stage Equations*<br/>[Video](https://youtu.be/bY9fl5DJzmk), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/85-EquilibriumSeparationStages1Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2**<br/>*Distillation Examples: Binary Phase Diagram, Raoult's law*<br/>[Video](https://youtu.be/wc6gv7lNtI0), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/86-EquilibriumSeparationStages2Visuals.qmd)

@@ -16,20 +16,31 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YGMHMAXnFY8?si=GhNpW5oYGxS4JICt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 ## The Enthalpy Games: Sunrise on the Calculations
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yLJp3YQaVvo?si=jBD8ZI_cOqJ6-9ZX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+- [Nitrogen Heat Capacity Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/energy/NitrogenForVideo94.ods)
+
 ## Definitions
+
+[Heat Capacity at Constant Volume](https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity)
+: The change in specific or molar internal energy with a change in temperature at constant volume for a substance *not* undergoing a phase change . $C_v \equiv (\partial \hat{U} / \partial T)|_V$
+
+[Heat Capacity at Constant Pressure](https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity)
+: The change in specific or molar enthalpy with a change in temperature at constant pressure for a substance *not* undergoing a phase change. $C_p \equiv (\partial \hat{H} / \partial T)|_P$
+
+[Shomate Equation](https://pages.uoregon.edu/palandri/gastherm/!xmisc/Shomate%201954%20Cp%20equation.pdf)
+: An empirical equation for fitting experimental heat-capacity data. It is of the form $C_p = a + b T + c T^2 + d T^3 + e/T^2$
 
 # Other Links and Videos
 
@@ -37,6 +48,18 @@ Video  explanation
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Steam: Get the Quality Right AFTER You Table It! Part 1**<br/>*The Basics of Steam Tables*<br/>[Video](https://youtu.be/8tH3gXz_M8A), [Info Page](../../balances/energy/SteamTablesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/91-ThermodynamicPropertyTables1Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Steam: Get the Quality Right AFTER You Table It! Part 2**<br/>*Steam Table Examples*<br/>[Video](https://youtu.be/yRf09eSRM1A), [Info Page](../../balances/energy/SteamTablesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/92-ThermodynamicPropertyTables2Visuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Feeling the Heat? How to Get Your Best Estimate**<br/>*Estimating $C_p$, $\Delta \hat{H}_v$, $\Delta \hat{H}_m$*<br/>[Video](https://youtu.be/f_l3OFyuiPs), [Info Page](../../balances/energy/EstimatingHeatCapacitiesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/95-EstimatingHeatCapacitiesVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart**<br/>*Psychrometric Charts*<br/>[Video](https://youtu.be/Nz8ADo4X2Ss), [Info Page](../../balances/energy/PsychrometricChartsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/97-PsychrometiricChartVIsuals.qmd)

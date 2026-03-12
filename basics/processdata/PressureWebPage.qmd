@@ -1,18 +1,18 @@
 ---
-title: "*Under Pressure* Reference Page"
+title: "Pressure Reference Page<br/>*Under Pressure*"
 author: "DOFPro group"
 format: html
 ---
 # Purpose of *Under Pressure*
 
-After temperature, pressure is the most common measured and reported quantity in chemical processes. The concept of pressure is fundamental to modeling, designing, and monitoring chemical processes. The *Part 1* and *Part 2* videos explain most of the fundamental and background information that a practicing engineer will need regarding pressure. *Part 1* discusses what pressure or force per unit area is, how you use it, and some of the methods for measuring it. *Part 2* continues the discussion with atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure. For those who caught the reference in the title, here is a [link to the video](https://youtu.be/ZyT8mVwf_40?si=8tDqHN07-LdtAHOn).
+After temperature, pressure is the most common measured and reported quantity in chemical processes. The concept of pressure is fundamental to modeling, designing, and monitoring chemical processes. The *Part 1* and *Part 2* videos explain most of the fundamental and background information that a practicing engineer will need regarding pressure. *Part 1* discusses what pressure or force per unit area is, how you use it, and some of the methods for measuring it. *Part 2* continues the discussion with atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure. For those who caught the reference in the title, here is a [link to the video](https://youtu.be/a01QQZyl-_I?si=M1s_2fCHvM0FT49b).
 
 ## *Part 1 Just The Facts*
 
 The *Just The Facts* Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9gbOE5zEt4o?si=Q7ep_2RRmEHTYqMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](PressurePt1JTFVisuals.qmd), [Transcript]()
+[Visuals](PressurePt1JTFVisuals.qmd)
 
 ## *Part 1 The Full Story*
 
@@ -20,23 +20,29 @@ The *Just The Facts* Video explains the basics of pressure, hydrostatic pressure
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D-UAHVi4a2U?si=9_gBUPh9WIZnDDbl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](PressurePt1TFSVisuals.qmd), [Transcript]()
+[Visuals](PressurePt1TFSVisuals.qmd)
 
 ## *Part 2 Just The Facts*
 
 The *Just The Facts* Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CR3MomWlqb8?si=PbkrLizghUA9Dm3x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](PressurePt2JTFVisuals.qmd), [Transcript]()
+[Visuals](PressurePt2JTFVisuals.qmd)
 
 ## *Part 2 The Full Story*
 
 *The Full Story* Video examines common conceptions and misconceptions about atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure before explaining what these different pressures are and how to use them. It is recommended for those who have not been exposed to these pressure concepts before or who have struggled with understanding the differences among them or how they are used.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/41axc-xnqsQ?si=9ROd_qCuSIw_DakH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](PressurePt2TFSVisuals.qmd), [Transcript]()
+[Visuals](PressurePt2TFSVisuals.qmd)
 
-# Definitions
+# Examples and Definitions
+
+## Examples Links
+
+- [Pressure Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/PressureExamples.ods) – A spreadsheet with the examples from the videos
+
+## Definitions
 
 Pressure
 : Normal force per unit area. The SI unit is the Pascal (Pa), which is defined as 1 Newton per square meter ($1\ \mathrm{N/m^2}$).
@@ -89,11 +95,11 @@ Gauge Pressure
 Barometric Pressure
 : The local atmospheric pressure that would be measured at the bottom of a hole drilled vertically down to sea level.
 
-Differential Pressure Gauge:
-A gauge that measures the difference in pressure between its two inlets.
+Differential Pressure Gauge
+: A gauge that measures the difference in pressure between its two inlets.
 
-Absolute Pressure Gauge:
-A gauge that measures the pressure at its inlet relative to a perfect vacuum.
+Absolute Pressure Gauge
+: A gauge that measures the pressure at its inlet relative to a perfect vacuum.
 
 Gram Mole or g-mol
 : A gram mole is what chemists call a mole. See [What Is A Mole](WhatIsAMoleWebPage.qmd) for further explanation.
@@ -101,23 +107,27 @@ Gram Mole or g-mol
 [Troposphere](https://en.wikipedia.org/wiki/Troposphere)
 : The portion of Earth's atmosphere below roughly 8 miles or 13 km. 
 
-# Additional Links
-
-## Preceding Videos
-
-As of this writing the two sets of videos preceding this set are:
-
-1. *Dimensionless Numbers* [The Full Story](), [Just The Facts](), [Reference Page]()
-2. *Measuring Temperature* [The Full Story](), [Just The Facts](), [Reference Page]()
-
-## Following Videos
-
-As of this writing the two sets of videos following this set are:
-
-1. *What Is a Mole?* [The Full Story](), [Just The Facts](), [Reference Page]()
-2. *Mass, Moles, and Mass and Mole Fractions* [The Full Story](), [Just The Facts](), [Reference Page]()
+# Other Links and Videos
 
 ## Other Links
 
 1. The Wikipedia discussion of [pressure](https://en.wikipedia.org/wiki/Pressure). Units are discussed under [Units](https://en.wikipedia.org/wiki/Pressure#Units).
-2. Teh Wikipedia discussion of [pressure measurement](https://en.wikipedia.org/wiki/Pressure_measurement). It contains discussion of absolute, gauge and differential pressures, and [manometers](https://en.wikipedia.org/wiki/Pressure_measurement#Liquid_column_(manometer)).
+2. The Wikipedia discussion of [pressure measurement](https://en.wikipedia.org/wiki/Pressure_measurement). It contains discussion of absolute, gauge and differential pressures, and [manometers](https://en.wikipedia.org/wiki/Pressure_measurement#Liquid_column_(manometer)).
+
+## Previous and Following Videos
+
+### The video previous to the previous video (i.e., two videos back)
+
+**What the Schmidt? Examples**<br/>*Applications of Dimensionless Numbers*<br/>[Video](https://youtu.be/74SD0k_qBc8), [Info Page](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/DimNumPart2JTFVisuals.qmd)
+
+### The previous video (i.e., one video back)
+
+**Is It Hot in Here, or Is It Just My Thermistor?**<br/>*Thermistors, Thermocouples, and other Temperature Sensors*<br/>[Video](https://youtu.be/TncEECvmw8Y), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/32-MeasuringTemperatureVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**What is a Mole? Just the Facts**<br/>*What a mole is*<br/>[Video](https://youtu.be/wbEkZmjNtwI), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/WhatIsAMoleJTFVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**What the Frac?**<br/>*Mass, Moles, Mass Fractions, Mole Fractions*<br/>[Video](https://youtu.be/qJERzRm7xc0), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/MassMolesJTFVisuals.qmd)
