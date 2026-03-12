@@ -70,6 +70,18 @@ Cross-Sectional Area
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**What is a Mole? Just the Facts**<br/>*What a mole is*<br/>[Video](https://youtu.be/wbEkZmjNtwI), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/WhatIsAMoleJTFVisuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**What the Frac?**<br/>*Mass, Moles, Mass Fractions, Mole Fractions*<br/>[Video](https://youtu.be/qJERzRm7xc0), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/MassMolesJTFVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**How to Keep Your Balance**<br/>*System Definition and the General Balance Equation*<br/>[Video](https://youtu.be/-fjXc-Upxx4), [Info Page](../../balances/general/index.qmd), [Visuals](../../balances/general/KeepYourBalanceJTFVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Speed Balancing**<br/>*General Balance Equation Definitions and Suggestions*<br/>[Video](https://youtu.be/Pmp2IxgL9FM), [Info Page](../../balances/general/index.qmd), [Visuals](../../balances/general/SpeedBalancingJTFVisuals.qmd)

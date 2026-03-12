@@ -107,23 +107,27 @@ Gram Mole or g-mol
 [Troposphere](https://en.wikipedia.org/wiki/Troposphere)
 : The portion of Earth's atmosphere below roughly 8 miles or 13 km. 
 
-# Additional Links
-
-## Preceding Videos
-
-As of this writing the two sets of videos preceding this set are:
-
-1. *Dimensionless Numbers* [The Full Story](), [Just The Facts](), [Reference Page]()
-2. *Measuring Temperature* [The Full Story](), [Just The Facts](), [Reference Page]()
-
-## Following Videos
-
-As of this writing the two sets of videos following this set are:
-
-1. *What Is a Mole?* [The Full Story](), [Just The Facts](), [Reference Page]()
-2. *Mass, Moles, and Mass and Mole Fractions* [The Full Story](), [Just The Facts](), [Reference Page]()
+# Other Links and Videos
 
 ## Other Links
 
 1. The Wikipedia discussion of [pressure](https://en.wikipedia.org/wiki/Pressure). Units are discussed under [Units](https://en.wikipedia.org/wiki/Pressure#Units).
 2. Teh Wikipedia discussion of [pressure measurement](https://en.wikipedia.org/wiki/Pressure_measurement). It contains discussion of absolute, gauge and differential pressures, and [manometers](https://en.wikipedia.org/wiki/Pressure_measurement#Liquid_column_(manometer)).
+
+## Previous and Following Videos
+
+### The video previous to the previous video (i.e., two videos back)
+
+**What the Schmidt? Examples**<br/>*Applications of Dimensionless Numbers*<br/>[Video](https://youtu.be/74SD0k_qBc8), [Info Page](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/DimNumPart2JTFVisuals.qmd)
+
+### The previous video (i.e., one video back)
+
+**Is It Hot in Here, or Is It Just My Thermistor?**<br/>*Thermistors, Thermocouples, and other Temperature Sensors*<br/>[Video](https://youtu.be/TncEECvmw8Y), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/32-MeasuringTemperatureVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**What is a Mole? Just the Facts**<br/>*What a mole is*<br/>[Video](https://youtu.be/wbEkZmjNtwI), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/WhatIsAMoleJTFVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**What the Frac?**<br/>*Mass, Moles, Mass Fractions, Mole Fractions*<br/>[Video](https://youtu.be/qJERzRm7xc0), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/MassMolesJTFVisuals.qmd)

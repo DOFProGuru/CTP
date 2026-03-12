@@ -18,7 +18,7 @@ When an engineer uses a number, it is important to recognize what the number rep
 |---------|-------|----------|----------|-----------|--------|
 | What Goes Into a Number? | No | No | No | The uses, meanings, and transformations of numbers used in Engineering | -->
 
-# Data Visualization
+# [Data Visualization](DataVisWebPage.qmd)
 
 The field of data visualization is too vast to explore in depth here. The video linked below is an entrance into the field and explores linear, semi-log, and log-log plots as a means to quickly determine the best functional form for a model for a set of data. It also briefly introduces nonlinear data fitting. These topics are also explored in the [statistics](../stats/StatsMeasurementsWebPage.qmd) videos on linear and nonlinear regression, and in the videos further down this page. Some overlap is unavoidable in a collection of videos. For consistency the links are presented in a single row table. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
 
@@ -26,7 +26,7 @@ The field of data visualization is too vast to explore in depth here. The video 
 
 **Is Your Process Data Spread Smooth or Chunky? The Full Story**<br/>*Data Visualization, linear and Log Coordinates*<br/>[Video](https://youtu.be/VUyyEmif3fs), [Info Page](DataVisWebPage.qmd), [Visuals](DataVisTFSVisuals.qmd)
 
-# Interpolation
+# [Interpolation](InterpolationWebPage.qmd)
 
 In spite of the widespread use of computers and specialized applications, it is likely that an engineer will need to *interpolate* or find a non-tabular value in a printed or on-line data table on occasion. Interpolation methods are introduced in the videos listed in the table below. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
 
@@ -36,7 +36,7 @@ In spite of the widespread use of computers and specialized applications, it is 
 
 **No Clear Interpretation a Mind-Blowing Math Hack**<br/>*Nonlinear Interpolation*<br/>[Video](https://youtu.be/721FxKwDRAU), [Info Page](InterpolationWebPage.qmd), [Visuals](NLInterpolationJTFVisuals.qmd)
 
-# Spreadsheets
+# [Spreadsheets](SpreadsheetTechniquesVideoInfoWebPage.qmd)
 
 There are many excellent commercial and open-source tools for performing engineering calculations. One of the most versatile and underutilized tools is the spreadsheet. Even companies and organizations that can't afford commercial CAD or mathematical modeling tools will almost always have an office suite that contains a spreadsheet. There are many free and open-source spreadsheets, such as [LibreOffice - Calc](https://www.libreoffice.org/discover/calc/), [Apache OpenOffice Calc](https://www.openoffice.org/download/), and Gnumeric. The videos in the table below explain how to do several sorts of engineering calculations in Chemical and Thermal Processing. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
 

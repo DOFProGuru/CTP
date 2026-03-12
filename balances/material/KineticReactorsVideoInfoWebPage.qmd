@@ -61,6 +61,18 @@ Video  explanation
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Leaving Radiator Springs In the Dust**<br/>*Basics of bypass and a recycle example*<br/>[Video](https://youtu.be/tjzDu7_n-NI), [Info Page](../../balances/material/RecyclingBypassVideoInfoWebPage.qmd), [Visuals](../../balances/material/44-RecycleBypassPart2Visuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**The Symbolic Meaning of Recycling**<br/>*Analytic solution of a recycle PFD*<br/>[Video](https://youtu.be/CF18jpqZzgc), [Info Page](../../balances/material/RecyclingBypassVideoInfoWebPage.qmd), [Visuals](../../balances/material/45-RecycleSymbSolVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**React But Maintain Your Equilibrium Part 1**<br/>*Basics of equilibrium reactors*<br/>[Video](https://youtu.be/0GS8XEHRBMk), [Info Page](../../balances/material/EquilibriumReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/54-EquilReact1Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**React But Maintain Your Equilibrium Part 2**<br/>*Equilibrium reactor example*<br/>[Video](https://youtu.be/GI8tuSRrIcc), [Info Page](../../balances/material/EquilibriumReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/55-EquilReact2Visuals.qmd)

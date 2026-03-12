@@ -35,25 +35,25 @@ Full Video Set
 
 **Basic Statistics on a Spreadsheet**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with a spreadsheet*<br/>[Video](https://youtu.be/RZ1kFVLvSxY), [Info Page](basics/stats/BasicStatisticsVideoInfoWebPage.qmd), [Visuals](basics/stats/BasicStatsSpreadsheetJTFVisuals.qmd)
 
-**Basic Stats in MATLAB**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with MATLAB*<br/>[Video](https://youtu.be/j0BRAgadBxg), [Info Page](basics/stats/BasicStatisticsVideoInfoWebPage.qmd), [Visuals](none)
+**Basic Stats in MATLAB**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with MATLAB*<br/>[Video](https://youtu.be/j0BRAgadBxg), [Info Page](basics/stats/BasicStatisticsVideoInfoWebPage.qmd)
 
-**Basic Statistics in R**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R*<br/>[Video](https://youtu.be/va7O78QdYLk), [Info Page](basics/stats/BasicStatisticsVideoInfoWebPage.qmd), [Visuals](none)
+**Basic Statistics in R**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R*<br/>[Video](https://youtu.be/va7O78QdYLk), [Info Page](basics/stats/BasicStatisticsVideoInfoWebPage.qmd)
 
-**Linear Regression**<br/>*Derivation of the equations for linear regression*<br/>[Video](https://youtu.be/HsZhQyhg0tk), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+**Linear Regression**<br/>*Derivation of the equations for linear regression*<br/>[Video](https://youtu.be/HsZhQyhg0tk), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
-**Linear Regression Spreadsheet**<br/>*Performing linear regression with a spreadsheet*<br/>[Video](https://youtu.be/7LBI7Ea2sx0), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+**Linear Regression Spreadsheet**<br/>*Performing linear regression with a spreadsheet*<br/>[Video](https://youtu.be/7LBI7Ea2sx0), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
-**Linear Regression MATLAB**<br/>*Performing linear regression with MATLAB*<br/>[Video](https://youtu.be/TjqNTjCIuhE), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+**Linear Regression MATLAB**<br/>*Performing linear regression with MATLAB*<br/>[Video](https://youtu.be/TjqNTjCIuhE), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
-**Linear Regression in R**<br/>*Linear Regression in R*<br/>[Video](https://youtu.be/Btshw2DX0Ik), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+**Linear Regression in R**<br/>*Linear Regression in R*<br/>[Video](https://youtu.be/Btshw2DX0Ik), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
-**Error Propagation**<br/>*Propagating errors or uncertainties through equations and calculations*<br/>[Video](https://youtu.be/DiOs64kzSQw), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
+**Error Propagation**<br/>*Propagating errors or uncertainties through equations and calculations*<br/>[Video](https://youtu.be/DiOs64kzSQw), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
-**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
+**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
-**Integrals and Derivatives Part 2**<br/>*More propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
+**Integrals and Derivatives Part 2**<br/>*More propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
-**Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](basics/stats/NonlinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+**Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](basics/stats/NonlinearRegressionVideoInfoWebPage.qmd)
 
 **Is Furlongs Per Fortnight a Thing?**<br/>*Unit Conversion*<br/>[Video](https://youtu.be/5EbL9MEro9E), [Info Page](basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](basics/processdata/DimensionalEquationsJTFVisuals.qmd)
 
@@ -151,7 +151,7 @@ Full Video Set
 
 **The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3**<br/>*Liquid-Liquid Extraction Example*<br/>[Video](https://youtu.be/jcChVoELvFo), [Info Page](balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](balances/material/86.5-EquilibriumSeparationStages3Visuals.qmd)
 
-**Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd), [Visuals](none)
+**Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd)
 
 **Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](balances/energy/Intro1stLawVideoInfoWebPage.qmd), [Visuals](balances/energy/89-Intro1stLawVisuals.qmd)
 
@@ -201,7 +201,7 @@ Full Video Set
 
 **Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2**<br/>*The Rankine Cycle with $\eta_\mathrm{pump}$  and $\eta_\mathrm{turbine}$*<br/>[Video](https://youtu.be/0DmsKCJpIdc), [Info Page](balances/entropy/RankineCycleInfoWebPage.qmd), [Visuals](balances/entropy/120-RankineVisualsPart2.qmd)
 
-**Modeling the Rankine Cycle in DWSIM**<br/>*Modeling the Rankine Cycle in DWSIM*<br/>[Video](https://youtu.be/ECOWIrzvGNc), [Info Page](balances/entropy/RankineCycleInfoWebPage.qmd), [Visuals](none)
+**Modeling the Rankine Cycle in DWSIM**<br/>*Modeling the Rankine Cycle in DWSIM*<br/>[Video](https://youtu.be/ECOWIrzvGNc), [Info Page](balances/entropy/RankineCycleInfoWebPage.qmd)
 
 **Cycle Wars: The Power Awakens**<br/>*Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle*<br/>[Video](https://youtu.be/M_p3gb79isg), [Info Page](balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](balances/entropy/122-AirStandardCyclesPart1Visuals.qmd)
 
@@ -209,7 +209,7 @@ Full Video Set
 
 **Revenge of the Fridge: Vapor Compression Strikes Back**<br/>*The Vapor Compression Cycle*<br/>[Video](https://youtu.be/SN27SxDt0G4), [Info Page](balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](balances/entropy/126-RefrigerationVisuals.qmd)
 
-**Modeling the Vapor Compression Cycle in DWSIM**<br/>*Modeling the Vapor Compression Cycle in DWSIM*<br/>[Video](https://youtu.be/nWOz-Y7XsbQ), [Info Page](balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](none)
+**Modeling the Vapor Compression Cycle in DWSIM**<br/>*Modeling the Vapor Compression Cycle in DWSIM*<br/>[Video](https://youtu.be/nWOz-Y7XsbQ), [Info Page](balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd)
 
 **The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1**<br/>*The Combined 1^st^ and 2^nd^ Laws*<br/>[Video](https://youtu.be/02S9SOGRBWU), [Info Page](balances/exergy/Combined1stAnd2ndLawsVideoWebPage.qmd), [Visuals](balances/exergy/129-IdealLostWorkVisuals.qmd)
 

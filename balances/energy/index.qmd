@@ -7,13 +7,21 @@ The First Law of Thermodynamics and Energy Balances are synonymous.
 
 ## 1^st^ Law of Thermodynamics
 
+### [Intro](Intro1stLawVideoInfoWebPage.qmd)
+
 **Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](Intro1stLawVideoInfoWebPage.qmd), [Visuals](89-Intro1stLawVisuals.qmd)
 
+### [Mechanical Energy Balance](MechanicalEnergyBalanceVideoInfoWebPage.qmd)
+
 **Add Friction and Work to Bernoulli? Here’s What Really Happens!**<br/>*The Mechanical Energy Balance and the Moody Chart*<br/>[Video](https://youtu.be/Da48oZb9oNw), [Info Page](MechanicalEnergyBalanceVideoInfoWebPage.qmd), [Visuals](90-MechEngBalVisuals.qmd)
+
+### [Steam Tables](SteamTablesVideoInfoWebPage.qmd)
 
 **Steam: Get the Quality Right AFTER You Table It! Part 1**<br/>*The Basics of Steam Tables*<br/>[Video](https://youtu.be/8tH3gXz_M8A), [Info Page](SteamTablesVideoInfoWebPage.qmd), [Visuals](91-ThermodynamicPropertyTables1Visuals.qmd)
 
 **Steam: Get the Quality Right AFTER You Table It! Part 2**<br/>*Steam Table Examples*<br/>[Video](https://youtu.be/yRf09eSRM1A), [Info Page](SteamTablesVideoInfoWebPage.qmd), [Visuals](92-ThermodynamicPropertyTables2Visuals.qmd)
+
+### [Heat Capacity](HeatCapacityVideoInfoWebPage.qmd)
 
 **The Enthalpy Games: The Ballad of Integrals and Means**<br/>*$\Delta H$ from $C_p$, $\Delta U$ from $C_v$*<br/>[Video](https://youtu.be/YGMHMAXnFY8), [Info Page](HeatCapacityVideoInfoWebPage.qmd), [Visuals](93-EnthalpyVsTandPPart1.qmd)
 
@@ -21,19 +29,31 @@ The First Law of Thermodynamics and Energy Balances are synonymous.
 
 **Feeling the Heat? How to Get Your Best Estimate**<br/>*Estimating $C_p$, $\Delta \hat{H}_v$, $\Delta \hat{H}_m$*<br/>[Video](https://youtu.be/f_l3OFyuiPs), [Info Page](EstimatingHeatCapacitiesVideoInfoWebPage.qmd), [Visuals](95-EstimatingHeatCapacitiesVisuals.qmd)
 
+### [Psychrometry](PsychrometricChartsVideoInfoWebPage.qmd)
+
 **Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart**<br/>*Psychrometric Charts*<br/>[Video](https://youtu.be/Nz8ADo4X2Ss), [Info Page](PsychrometricChartsVideoInfoWebPage.qmd), [Visuals](97-PsychrometiricChartVIsuals.qmd)
 
+### [Heats of Mixing](HeatsOfMixingVideoInfoWebPage.qmd)
+
 **Reference Not Found: Mixing, Dissolving, and Changing the Rules**<br/>*$\Delta H_m$, $\Delta H_s$*<br/>[Video](https://youtu.be/ggU692PLWts), [Info Page](HeatsOfMixingVideoInfoWebPage.qmd), [Visuals](98-ReferenceStatesVIsuals.qmd)
+
+### [Ideal Gas](The1stLawForIdealGases.qmd)
 
 **The Isochronicles: This First Law Saga Is a Gas**<br/>*The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes*<br/>[Video](https://youtu.be/iKsR3v1wu30), [Info Page](The1stLawForIdealGases.qmd), [Visuals](102-1stLawIdealGasesVisuals.qmd)
 
 ## 1^st^ Law for Reactions
 
+### [Heats of Formation and Reaction](HeatsOfFormationAndReactionVideoInfoWebPage.qmd)
+
 **Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](104-HeatsOfReactionVisuals.qmd)
 
 **Chemical Reactions vs. The First Law: Who Wins?**<br/>*Forms of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/mFF5hDHclPE), [Info Page](The1stLawReactingSystems.qmd), [Visuals](106-1stLawReactingVisuals.qmd)
 
+### [Combustion Reactions](EnergeticsOfCombustionReactionsVideoInfoWebPage.qmd)
+
 **Fueling the Fire: The Shocking Truth About Combustion Reactions!**<br/>*Common fuels, Heats of Combustion, HHV, LHV*<br/>[Video](https://youtu.be/lW5dK-F6H3U), [Info Page](EnergeticsOfCombustionReactionsVideoInfoWebPage.qmd), [Visuals](110-FuelsHeatingVisuals.qmd)
+
+### [Reaction Examples](Example1stLawForReactingSystemsVideoInfoWebPage.qmd)
 
 **React Hard: The First Law Gets Chemical**<br/>*Example of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/q-W5Y1d85go), [Info Page](Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](111-EnergeticsOfReactionsPt1Visuals.qmd)
 

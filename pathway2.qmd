@@ -137,7 +137,7 @@ This pathway is designed for a typical Introduction to Chemical Engineering cour
 
 **The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3**<br/>*Liquid-Liquid Extraction Example*<br/>[Video](https://youtu.be/jcChVoELvFo), [Info Page](balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](balances/material/86.5-EquilibriumSeparationStages3Visuals.qmd)
 
-**Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd), [Visuals](none)
+**Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd)
 
 ## 1^st^ Law of Thermodynamics
 

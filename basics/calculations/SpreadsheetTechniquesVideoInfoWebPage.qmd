@@ -73,6 +73,18 @@ Drag-Fill
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts**<br/>*Linear Interpolation*<br/>[Video](https://youtu.be/VbnpWj9iYAU), [Info Page](../../basics/calculations/InterpolationWebPage.qmd), [Visuals](../../basics/calculations/InterpolationJTFVisuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**No Clear Interpretation a Mind-Blowing Math Hack**<br/>*Nonlinear Interpolation*<br/>[Video](https://youtu.be/721FxKwDRAU), [Info Page](../../basics/calculations/InterpolationWebPage.qmd), [Visuals](../../basics/calculations/NLInterpolationJTFVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**How Deviant and Mean Are Your Data? Intro and Basics Part 1, Just the Facts**<br/>*Mean ($\mu,\ \bar{x}$) and Standard Deviation ($\sigma,\ S$)*<br/>[Video](https://youtu.be/ksg4Babav6o), [Info Page](../../basics/stats/BasicStatisticsVideoInfoWebPage.qmd), [Visuals](../../basics/stats/5-JTF-WhyStatsJTF1Visuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**How Deviant and Mean Are Your Data? Part 2**<br/>*Standard Error ($S_{\bar{x}}$) and Confidence Interval ($2\lambda$)*<br/>[Video](https://youtu.be/cBOrE6eV-AE), [Info Page](../../basics/stats/BasicStatisticsVideoInfoWebPage.qmd), [Visuals](../../basics/stats/5A-JTF-WhyStatsJTF2Visuals.qmd)

@@ -50,21 +50,28 @@ The *Just The Facts* Video discusses data presentation techniques and plotting a
 [Nonlinear Least-Squares Fit](https://en.wikipedia.org/wiki/Non-linear_least_squares)
 : The process of fitting data to a function that is not linear in the fitting parameters without a change of variables. It must usually be done with a computer.
 
-# Additional Links
-
-## Preceding Videos
-
-As of this writing the two sets of videos preceding this set are:
-
-1. *Error Propagation in Integrals and Derivatives* [The Full Story](../../NotYetHere.qmd), [Just The Facts](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
-2. *What Goes Into a Number?* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/qHsOz7af-GA?si=Kkm2mvlWf_bc9gNk), [Reference Page](../../NotYetHere.qmd)
-
-## Following Videos
-
-As of this writing the two sets of videos following this set are:
-
-1. *Interpolation* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/dWMh0ZJc874?si=DZ79ExaXpHXWZDmj), [Reference Page](../calculations/InterpolationWebPage.qmd)
-2. *Data Fitting with Spreadsheets* [How To Video](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
+# Other Links and Videos
 
 ## Other Links
+
+## Previous and Following Videos
+
+### The previous video (i.e., one video back)
+
+**From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**<br/>*Intro to DOFPro CTP*<br/>[Video](https://youtu.be/8FEmNkiU1Jk), [Info Page](../../basics/intro/IntroTopicsWebPage.qmd), [Visuals](../../basics/intro/1-MoleToMegawattVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts**<br/>*Linear Interpolation*<br/>[Video](https://youtu.be/VbnpWj9iYAU), [Info Page](../../basics/calculations/InterpolationWebPage.qmd), [Visuals](../../basics/calculations/InterpolationJTFVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**No Clear Interpretation a Mind-Blowing Math Hack**<br/>*Nonlinear Interpolation*<br/>[Video](https://youtu.be/721FxKwDRAU), [Info Page](../../basics/calculations/InterpolationWebPage.qmd), [Visuals](../../basics/calculations/NLInterpolationJTFVisuals.qmd)
+
+
+
+
+
+
+
 

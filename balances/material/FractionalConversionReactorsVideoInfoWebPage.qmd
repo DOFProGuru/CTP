@@ -72,6 +72,18 @@ Integral Balance
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
 
+**Speed Balancing**<br/>*General Balance Equation Definitions and Suggestions*<br/>[Video](https://youtu.be/Pmp2IxgL9FM), [Info Page](../../balances/general/index.qmd), [Visuals](../../balances/general/SpeedBalancingJTFVisuals.qmd)
 
+### The previous video (i.e., one video back)
 
+**Gotta Keep ‘Em Separated**<br/>*Mixer, Divider, and Separator mole balances*<br/>[Video](https://youtu.be/pRg1m0_9Psg), [Info Page](../../balances/material/MixDivideSeparateVideoInfoWebPage.qmd), [Visuals](../../balances/material/40-UnitOpsMixDivSepVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Recycling Before Recycling Was Cool**<br/>*Basics of recycle*<br/>[Video](https://youtu.be/R7tIQyBUWn8), [Info Page](../../balances/material/RecyclingBypassVideoInfoWebPage.qmd), [Visuals](../../balances/material/43-RecycleBypassPartVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**Leaving Radiator Springs In the Dust**<br/>*Basics of bypass and a recycle example*<br/>[Video](https://youtu.be/tjzDu7_n-NI), [Info Page](../../balances/material/RecyclingBypassVideoInfoWebPage.qmd), [Visuals](../../balances/material/44-RecycleBypassPart2Visuals.qmd)

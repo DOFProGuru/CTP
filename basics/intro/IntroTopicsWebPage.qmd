@@ -34,8 +34,10 @@ Explanation
 
 ### Types of process data
 
-
-
 # Pathways Through the Videos
 
+|[Intro to Chemical Engineering](../../pathway2.qmd)|[The Full Video Set](../../pathway1.qmd)|[Mechanical Engineering Thermodynamics](../../pathway3.qmd)|[Spreadsheets](../../pathway4.qmd)|[Chemical Reactor Engineering](../../pathway5.qmd)|
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+
 ![](VideoPaths.png)
+

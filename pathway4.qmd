@@ -52,26 +52,26 @@ If you’ve ever thought, “It’s just Excel,” this pathway may respectfully
 **Basic Statistics on a Spreadsheet**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with a spreadsheet*<br/>[Video](https://youtu.be/RZ1kFVLvSxY), [Info Page](basics/stats/BasicStatisticsVideoInfoWebPage.qmd), [Visuals](basics/stats/BasicStatsSpreadsheetJTFVisuals.qmd)
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Linear Regression**<br/>*Derivation of the equations for linear regression*<br/>[Video](https://youtu.be/HsZhQyhg0tk), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+**Linear Regression**<br/>*Derivation of the equations for linear regression*<br/>[Video](https://youtu.be/HsZhQyhg0tk), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Linear Regression Spreadsheet**<br/>*Performing linear regression with a spreadsheet*<br/>[Video](https://youtu.be/7LBI7Ea2sx0), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+**Linear Regression Spreadsheet**<br/>*Performing linear regression with a spreadsheet*<br/>[Video](https://youtu.be/7LBI7Ea2sx0), [Info Page](basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Error Propagation**<br/>*Propagating errors or uncertainties through equations and calculations*<br/>[Video](https://youtu.be/DiOs64kzSQw), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
+**Error Propagation**<br/>*Propagating errors or uncertainties through equations and calculations*<br/>[Video](https://youtu.be/DiOs64kzSQw), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
+**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Integrals and Derivatives Part 2**<br/>*More propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd), [Visuals](none)
+**Integrals and Derivatives Part 2**<br/>*More propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
-**Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](basics/stats/NonlinearRegressionVideoInfoWebPage.qmd), [Visuals](none)
+**Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](basics/stats/NonlinearRegressionVideoInfoWebPage.qmd)
 
 ## DWSIM
 
-**Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd), [Visuals](none)
+**Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd)
 
-**Modeling the Rankine Cycle in DWSIM**<br/>*Modeling the Rankine Cycle in DWSIM*<br/>[Video](https://youtu.be/ECOWIrzvGNc), [Info Page](balances/entropy/RankineCycleInfoWebPage.qmd), [Visuals](none)
+**Modeling the Rankine Cycle in DWSIM**<br/>*Modeling the Rankine Cycle in DWSIM*<br/>[Video](https://youtu.be/ECOWIrzvGNc), [Info Page](balances/entropy/RankineCycleInfoWebPage.qmd)
 
-**Modeling the Vapor Compression Cycle in DWSIM**<br/>*Modeling the Vapor Compression Cycle in DWSIM*<br/>[Video](https://youtu.be/nWOz-Y7XsbQ), [Info Page](balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](none)
+**Modeling the Vapor Compression Cycle in DWSIM**<br/>*Modeling the Vapor Compression Cycle in DWSIM*<br/>[Video](https://youtu.be/nWOz-Y7XsbQ), [Info Page](balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd)

@@ -116,6 +116,27 @@ Observational Bounds
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Basic Stats in MATLAB**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with MATLAB*<br/>[Video](https://youtu.be/j0BRAgadBxg), [Info Page](../../basics/stats/BasicStatisticsVideoInfoWebPage.qmd)
+
+### The previous video (i.e., one video back)
+
+**Basic Statistics in R**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R*<br/>[Video](https://youtu.be/va7O78QdYLk), [Info Page](../../basics/stats/BasicStatisticsVideoInfoWebPage.qmd)
+
+### The next video (i.e., one video forward)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Error Propagation**<br/>*Propagating errors or uncertainties through equations and calculations*<br/>[Video](https://youtu.be/DiOs64kzSQw), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+
+
+
 
 
 

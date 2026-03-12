@@ -14,8 +14,8 @@ Chemical and Thermal Processes starts with the basics of stoichiometry and therm
 ## Engineering Principles Discussed
 
 -   Engineering Basics
-    -   Statistics, Measurements, and Calculations
-    -   Process Data and Variables, such as Pressure, Temperature, Mass, Moles, etc.
+    -   [Statistics, Measurements](basics/stats/StatsMeasurementsWebPage.qmd), and [Calculations](basics/calculations/CalculationsWebPage.qmd)
+    -   [Process Data and Variables](basics/processdata/ProcessDataWebPage.qmd), such as Pressure, Temperature, Mass, Moles, etc.
     -   Converting among systems of units
     -   Dimensionless numbers
 -   System Definition

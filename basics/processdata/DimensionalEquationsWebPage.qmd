@@ -62,27 +62,37 @@ $\frac{1\ \mathrm{Btu/s}}{1\ \mathrm{kW}}$.
 [Celsius](https://en.wikipedia.org/wiki/Celsius)
 : The SI common temperature scale. Named after Anders Celsius, a Swedish astronomer.
 
-# Additional Links
-
-[Uncancelled Units](https://xkcd.com/3038)
-
-## Preceding Videos
-
-As of this writing the two sets of videos preceding this set are:
-
-1. *Data Fitting with Spreadsheets 2* [The Full Story](../../NotYetHere.qmd), [Just The Facts](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
-2. *Data Fitting with Spreadsheets 2* [The Full Story](../../NotYetHere.qmd), [Just The Facts](../../NotYetHere.qmd), [Reference Page](../../NotYetHere.qmd)
-
-## Following Videos
-
-As of this writing the two sets of videos following this set are:
-1. *How Keen Is Your Rank?* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/0l5akaQvBbE?si=xcSMtu_fBAhrObPV), [Reference Page](../processdata/ConvertingTemperatureWebPage.qmd)
-2. *The Most Annoying Equation Conversion* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/JE4llgDsy9E?si=yJrGOhxDuIP9JhQJ), [Reference Page]()
-
+# Other Links and Videos
 
 ## Other Links
-
+- [Uncancelled Units](https://xkcd.com/3038)
 - The NIST conversions to SI in alphabetical order [https://tinyurl.com/ydb2jcoc](https://tinyurl.com/ydb2jcoc)
 - The NIST conversions to SI by kind [https://tinyurl.com/ycqe2ez7](https://tinyurl.com/ycqe2ez7)
 - Web search for *on-line unit conversion calculators*
 - Just about any values of the molar gas constant you would want [https://en.wikipedia.org/wiki/Gas_constant](https://en.wikipedia.org/wiki/Gas_constant)
+
+## Previous and Following Videos
+
+### The video previous to the previous video (i.e., two videos back)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Integrals and Derivatives Part 2**<br/>*More propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+
+### The previous video (i.e., one video back)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](../../basics/stats/NonlinearRegressionVideoInfoWebPage.qmd)
+
+### The next video (i.e., one video forward)
+
+**How Keen Is Your Rank? Just the Facts**<br/>*Temperature Conversion*<br/>[Video](https://youtu.be/XKwl41MvFcE), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/ConvertingTemperatureJTFVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**The Most Annoying Equation Conversion**<br/>*Unit Conversion of Equations*<br/>[Video](https://youtu.be/6dyg-CgAm8s), [Info Page](../../basics/processdata/EquationConversionVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/EquationConversionJTFVisuals.qmd)
+
+
+
+
+
+

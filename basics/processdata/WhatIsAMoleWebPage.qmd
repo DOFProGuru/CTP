@@ -57,22 +57,26 @@ Pound Mole
   molar mass of a chemical species. For
   example, a pound mole of $\mathrm{NaCl}$ has a mass of $58.443\ \mathrm{lb_m}$.
 
-# Additional Links
-
-## Preceding Videos
-
-As of this writing the two sets of videos preceding this set are:
-
-1. *Under Pressure Part 1* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/eZFMP-Dt48g), [Reference Page](http://localhost:6195/basics/processdata/PressureWebPage.html)
-2. *Under Pressure Part 2* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/z8DJ4kpvCMU), [Reference Page](http://localhost:6195/basics/processdata/PressureWebPage.html)
-
-## Following Videos
-
-As of this writing the two sets of videos following this set are:
-
-1. *What the Frac?* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/Tdeuf0quJUs), [Reference Page](../../NotYetHere.qmd)
-2. *Are You Dense? Crank Up the Volume and Go With the Flow!* [The Full Story](../../NotYetHere.qmd), [Just The Facts](https://youtu.be/EsPSVVYWQlE), [Reference Page](../../NotYetHere.qmd)
+# Other Links and Videos
 
 ## Other Links
 
 1. The Wikipedia discussion of the [mole](https://en.wikipedia.org/wiki/Mole_(unit)). The other mass unit moles are discussed under [Similar units](https://en.wikipedia.org/wiki/Mole_(unit)#Similar_units).
+
+## Previous and Following Videos
+
+### The video previous to the previous video (i.e., two videos back)
+
+**Under Pressure Part 1, Just the Facts**<br/>*Pressure Basics*<br/>[Video](https://youtu.be/9gbOE5zEt4o), [Info Page](../../basics/processdata/PressureWebPage.qmd), [Visuals](../../basics/processdata/PressurePt1JTFVisuals.qmd)
+
+### The previous video (i.e., one video back)
+
+**Under Pressure Part 2, Just the Facts**<br/>*Abs., Atm., Gauge, Barometric Pressure*<br/>[Video](https://youtu.be/CR3MomWlqb8), [Info Page](../../basics/processdata/PressureWebPage.qmd), [Visuals](../../basics/processdata/PressurePt2JTFVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+**Are You Dense? Crank Up the Volume and Go With the Flow! Just the Facts**<br/>*Mass, Moles, Density, Volume, and Flow Rates*<br/>[Video](https://youtu.be/AFZWZSJ96g8), [Info Page](../../basics/processdata/DensityVolumeFlowVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/VolumeDensityFlowRateJTFVisuals.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+**How to Keep Your Balance**<br/>*System Definition and the General Balance Equation*<br/>[Video](https://youtu.be/-fjXc-Upxx4), [Info Page](../../balances/general/index.qmd), [Visuals](../../balances/general/KeepYourBalanceJTFVisuals.qmd)

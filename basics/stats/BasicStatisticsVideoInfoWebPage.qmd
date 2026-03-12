@@ -124,6 +124,26 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 
 ## Previous and Following Videos
 
+### The video previous to the previous video (i.e., two videos back)
+
+**How to Have a Quickie with Your Data Part 2**<br/>*Nonlinear least squares*<br/>[Video](https://youtu.be/dVmh0EdQT1U), [Info Page](../../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](../../basics/calculations/Video26Visuals.qmd)
+
+### The previous video (i.e., one video back)
+
+**Solving Nonlinear Equations with Spreadsheets**<br/>*See Title*<br/>[Video](https://youtu.be/SaI2qdu1wSE), [Info Page](../../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](../../basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.qmd)
+
+### The next video (i.e., one video forward)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Linear Regression**<br/>*Derivation of the equations for linear regression*<br/>[Video](https://youtu.be/HsZhQyhg0tk), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
+
+### The next after next video (i.e. two videos forward)
+
+[This is NOT a DOFPro video.]{style="color: red;"}<br/>
+**Linear Regression Spreadsheet**<br/>*Performing linear regression with a spreadsheet*<br/>[Video](https://youtu.be/7LBI7Ea2sx0), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
+
+
+
 
 
 
