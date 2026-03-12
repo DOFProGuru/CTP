@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -196,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#intro-to-ideal-and-real-gases-and-mixtures" id="toc-intro-to-ideal-and-real-gases-and-mixtures" class="nav-link active" data-scroll-target="#intro-to-ideal-and-real-gases-and-mixtures">Intro to <em>Ideal and Real Gases and Mixtures</em></a>
+  <li><a href="#intro-to-ideal-and-real-gases-and-mixtures" id="toc-intro-to-ideal-and-real-gases-and-mixtures" class="nav-link active" data-scroll-target="#intro-to-ideal-and-real-gases-and-mixtures">Intro to Ideal and Real Gases and Mixtures</a>
   <ul class="collapse">
   <li><a href="#ideal-gases-exposed-are-they-even-real" id="toc-ideal-gases-exposed-are-they-even-real" class="nav-link" data-scroll-target="#ideal-gases-exposed-are-they-even-real">Ideal Gases EXPOSED: Are They Even Real?!!</a></li>
   <li><a href="#when-getting-gassed-isnt-ideal-part-1" id="toc-when-getting-gassed-isnt-ideal-part-1" class="nav-link" data-scroll-target="#when-getting-gassed-isnt-ideal-part-1">When Getting Gassed Isn’t Ideal, Part 1</a></li>
@@ -212,7 +241,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links-and-videos" id="toc-other-links-and-videos" class="nav-link" data-scroll-target="#other-links-and-videos">Other Links and Videos</a>
   <ul class="collapse">
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
-  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a></li>
+  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
+  <ul class="collapse">
+  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
+  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
+  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
+  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -222,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><em>Ideal and Real Gases and Mixtures</em> Reference Page</h1>
+<h1 class="title">Ideal and Real Gases and Mixtures Reference Page</h1>
 </div>
 
 
@@ -259,51 +294,101 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <section id="intro-to-ideal-and-real-gases-and-mixtures" class="level1">
-<h1>Intro to <em>Ideal and Real Gases and Mixtures</em></h1>
+<h1>Intro to Ideal and Real Gases and Mixtures</h1>
 <p>Main title explanation</p>
 <section id="ideal-gases-exposed-are-they-even-real" class="level2">
 <h2 class="anchored" data-anchor-id="ideal-gases-exposed-are-they-even-real">Ideal Gases EXPOSED: Are They Even Real?!!</h2>
 <p>Video 1 explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L-DEw6dGRps?si=uvcbFHC5M02ghlDp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../balances/material/62-IdealGasVisuals.html">Visuals</a></p>
 </section>
 <section id="when-getting-gassed-isnt-ideal-part-1" class="level2">
 <h2 class="anchored" data-anchor-id="when-getting-gassed-isnt-ideal-part-1">When Getting Gassed Isn’t Ideal, Part 1</h2>
 <p>Video explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1sU4_YdcKr4?si=piaWPqk_oxK1OV-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../balances/material/63-Visuals.html">Visuals</a></p>
 </section>
 <section id="when-getting-gassed-isnt-ideal-part-2" class="level2">
 <h2 class="anchored" data-anchor-id="when-getting-gassed-isnt-ideal-part-2">When Getting Gassed Isn’t Ideal, Part 2</h2>
 <p>Video explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q6ZK_Ou967o?si=PK_b3LzvS6rHHXlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../balances/material/64-Visuals.html">Visuals</a></p>
 </section>
 <section id="real-gas-mixtures-explained-dont-let-this-cost-you-points-on-your-exam-part-1" class="level2">
 <h2 class="anchored" data-anchor-id="real-gas-mixtures-explained-dont-let-this-cost-you-points-on-your-exam-part-1">REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1</h2>
 <p>Video explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yI3jj1jCSAM?si=WWvKCAmBPMPlF0R9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../balances/material/65-Visuals.html">Visuals</a></p>
 </section>
 <section id="real-gas-mixtures-explained-dont-let-this-cost-you-points-on-your-exam-part-2" class="level2">
 <h2 class="anchored" data-anchor-id="real-gas-mixtures-explained-dont-let-this-cost-you-points-on-your-exam-part-2">REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2</h2>
 <p>Video explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pbizi39c1Rk?si=QV4dU43XFw8cILDZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../balances/material/66-Visuals.html">Visuals</a></p>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
 <h1>Examples and Definitions</h1>
 <section id="examples-links" class="level2">
 <h2 class="anchored" data-anchor-id="examples-links">Examples Links</h2>
+<ul>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/material/RealGasExample.ods">Real Gas Example</a> - A spreadsheet with the sample calculations from <em>When Getting Gassed Isn’t Ideal</em></li>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/material/MixRealGasExample.ods">Real Gas Mixture Example</a> – A spreadsheet with the sample calculations from <em>REAL Gas Mixtures EXPLAINED</em></li>
+</ul>
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<dl>
+<dt>Ideal Gas</dt>
+<dd>
+An ideal gas is a theoretical gas that follows the ideal gas law, which states that the pressure, volume, and temperature of the gas are related by the equation <span class="math inline">\(PV = nRT\)</span>, where <span class="math inline">\(P\)</span> is the pressure, <span class="math inline">\(V\)</span> is the volume, <span class="math inline">\(n\)</span> is the number of moles of gas, <span class="math inline">\(R\)</span> is the ideal gas constant, and <span class="math inline">\(T\)</span> is the temperature. In an ideal gas, the gas particles are assumed to have no volume and no interactions with each other, which allows for simple mathematical modeling of the gas behavior. However, real gases deviate from ideal behavior at high pressures and low temperatures due to the finite size of gas particles and the presence of intermolecular forces.
+</dd>
+<dt>Real Gas</dt>
+<dd>
+A real gas is a gas that does not follow the ideal gas law due to the presence of intermolecular forces and the finite size of gas particles. Real gases deviate from ideal behavior at high pressures and low temperatures, where the assumptions of the ideal gas model break down. The behavior of real gases can be described using more complex equations of state.
+</dd>
+<dt>Compressibility, <span class="math inline">\(z\)</span></dt>
+<dd>
+A measure of how much a gas deviates from ideal behavior. It is defined as the ratio of the molar volume of the gas to the molar volume of an ideal gas at the same temperature and pressure. A compressibility factor of 1 indicates ideal behavior, while values greater than 1 indicate that the gas is less compressible than an ideal gas, and values less than 1 indicate that the gas is more compressible than an ideal gas.
+</dd>
+<dt>Critical Point</dt>
+<dd>
+The critical point of a substance is the temperature and pressure at which the liquid and gas phases of the substance become indistinguishable. At the critical point, the properties of the liquid and gas phases converge, and the substance exists as a supercritical fluid. The critical point is an important concept in the study of phase behavior and is used to characterize the properties of substances under extreme conditions.
+</dd>
+<dt>Critical Pressure, <span class="math inline">\(P_\mathrm{c}\)</span></dt>
+<dd>
+The pressure at the critical point of a substance. It is the minimum pressure required to liquefy a gas at its critical temperature. The critical pressure is an important property that helps to define the behavior of substances near their critical point and is used in various applications, such as in the design of supercritical fluid extraction processes.
+</dd>
+<dt>Critical Temperature, <span class="math inline">\(T_\mathrm{c}\)</span></dt>
+<dd>
+The temperature at the critical point of a substance. It is the minimum temperature required to liquefy a gas at its critical pressure. The critical temperature is an important property that helps to define the behavior of substances near their critical point and is used in various applications, such as in the design of supercritical fluid extraction processes.
+</dd>
+<dt>Reduced Pressure, <span class="math inline">\(P_\mathrm{r}\)</span></dt>
+<dd>
+The ratio of the pressure of a gas to its critical pressure. Reduced pressure is a dimensionless quantity that is used to characterize the behavior of gases in relation to their critical point. It is often used in conjunction with reduced temperature to analyze the phase behavior of gases and to apply the law of corresponding states. <span class="math inline">\(P_\mathrm{r} \equiv P/P_\mathrm{c}\)</span>
+</dd>
+<dt>Reduced Temperature, <span class="math inline">\(T_\mathrm{r}\)</span></dt>
+<dd>
+The ratio of the temperature of a gas to its critical temperature. Reduced temperature is a dimensionless quantity that is used to characterize the behavior of gases in relation to their critical point. It is often used in conjunction with reduced pressure to analyze the phase behavior of gases and to apply the law of corresponding states. <span class="math inline">\(T_\mathrm{r} \equiv T/T_\mathrm{c}\)</span>
+</dd>
+<dt>Acentric Factor, <span class="math inline">\(\omega\)</span></dt>
+<dd>
+A third factor, along with <span class="math inline">\(P_\mathrm{c}\)</span>, and <span class="math inline">\(T_\mathrm{c}\)</span> used in equations of state to characterize real-gas behavior.
+</dd>
+<dt>Equation of State</dt>
+<dd>
+An equation of state is a mathematical relationship that describes the behavior of a substance in terms of its pressure, volume, and temperature. For real gases, equations of state such as the Soave-Redlich-Kwong equation, and the Peng-Robinson equation are commonly used to model the behavior of gases under non-ideal conditions. These equations of state account for the finite size of gas particles and the intermolecular forces between them, allowing for more accurate predictions of gas behavior compared to the ideal gas law.
+</dd>
+<dt>Law of Corresponding States</dt>
+<dd>
+A principle that states that the properties of all substances can be correlated when expressed in terms of reduced properties, which are defined as the actual properties divided by the critical properties of the substance. The law of corresponding states allows for the prediction of the behavior of substances based on their critical properties, and is often used in the study of real gases and mixtures to simplify the analysis of their behavior under different conditions.
+</dd>
+</dl>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -313,8 +398,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
+<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
+<p><strong>A Combustible Mixture!</strong><br><em>Sample combustion reactions</em><br><a href="https://youtu.be/hvIk-evMp88">Video</a>, <a href="../../balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/60-CombRxnsPart2Visuals.html">Visuals</a></p>
+</section>
+<section id="the-previous-video-i.e.-one-video-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
+<p><strong>Alcohol and Water DO Mix!</strong><br><em>Liquid and Solid Density Calculations</em><br><a href="https://youtu.be/_tjYMjWR4fE">Video</a>, <a href="../../balances/material/LiquidMixturesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/61-LiqSolDenJTFVisuals.html">Visuals</a></p>
+</section>
+<section id="the-next-video-i.e.-one-video-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
+<p><strong>Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 1</strong><br><em>Phase Diagrams, Gibbs Phase Rule</em><br><a href="https://youtu.be/NUS4Y_pnWZk">Video</a>, <a href="../../balances/material/ReadingPhaseDiagramsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/70-IntroMultiphasePart1Visuals.html">Visuals</a></p>
+</section>
+<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
+<p><strong>Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 2</strong><br><em>Ternary Phase Diagrams, Lever Rule</em><br><a href="https://youtu.be/QBREikNSvGI">Video</a>, <a href="../../balances/material/ReadingPhaseDiagramsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/71-IntroMultiphasePart2Visuals.html">Visuals</a></p>
 
 
+</section>
 </section>
 </section>
 

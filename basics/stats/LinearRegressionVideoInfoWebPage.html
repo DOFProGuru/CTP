@@ -8,7 +8,7 @@
 
 <meta name="author" content="DOFPro group">
 
-<title>Out of Line? Here’s How Linear Regression Puts Your Data Back on Track Reference Page – Chemical and Thermal Processes</title>
+<title>Linear Regression Reference Page – Chemical and Thermal Processes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -211,7 +240,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links-and-videos" id="toc-other-links-and-videos" class="nav-link" data-scroll-target="#other-links-and-videos">Other Links and Videos</a>
   <ul class="collapse">
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
-  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a></li>
+  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
+  <ul class="collapse">
+  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
+  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
+  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
+  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -221,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><em>Out of Line? Here’s How Linear Regression Puts Your Data Back on Track</em> Reference Page</h1>
+<h1 class="title">Linear Regression Reference Page</h1>
 </div>
 
 
@@ -265,7 +300,7 @@ ul.task-list li input[type="checkbox"] {
 Video 1 explanation
 
 ***Video 1 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 <section id="linear-regression" class="level2">
 <h2 class="anchored" data-anchor-id="linear-regression">Linear Regression</h2>
@@ -285,13 +320,12 @@ Video 1 explanation
 <p>Video explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HsZhQyhg0tk?si=khG-ExxITlyDZv2X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
 <!-- ## Linear Regression with a Spreadsheet
 
 Video 3 explanation
 
 ***Video 3 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 </section>
 <section id="linear-regression-spreadsheet" class="level2">
@@ -312,13 +346,12 @@ Video 3 explanation
 <p>Video 4 explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7LBI7Ea2sx0?si=17h2A3_VYqxqlO3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
 <!-- ## Linear Regression in Python
 
 Video 5 explanation
 
 ***Video 5 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 </section>
 <section id="linear-regression-matlab" class="level2">
@@ -339,23 +372,62 @@ Video 5 explanation
 <p>Video 6 explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TjqNTjCIuhE?si=pQOsRTh4pHKL5hDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
 </section>
 <section id="linear-regression-in-r" class="level2">
 <h2 class="anchored" data-anchor-id="linear-regression-in-r">Linear Regression in R</h2>
 <p>Video 7 explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Btshw2DX0Ik?si=bkzmaWvHiXFx8fA2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
 <h1>Examples and Definitions</h1>
 <section id="examples-links" class="level2">
 <h2 class="anchored" data-anchor-id="examples-links">Examples Links</h2>
+<ul>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/LinearLeastSquaresFit.m">MATLAB script for Linear Least Squares Fit</a></li>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/LinRegressUsingIntrnals.R">R Script for Linear Regression Using Internals</a></li>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/LinRegressI.R">R Script for Linear Regression (more details)</a></li>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/LinRegressIAnimate.R">R Script for Animating Linear Regression</a></li>
+</ul>
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<dl>
+<dt>Linear Regression</dt>
+<dd>
+Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables by fitting a linear equation to the observed data. The goal is to find the best-fitting straight line through the points, which minimizes the sum of the squared differences between the observed and predicted values.
+</dd>
+<dt>Least Squares Fit</dt>
+<dd>
+The least squares fit is a mathematical approach used in linear regression to find the line of best fit. It minimizes the sum of the squares of the vertical distances (residuals) between the observed data points and the predicted values on the line. This method ensures that the overall error between the observed and predicted values is as small as possible, resulting in the most accurate representation of the data.
+</dd>
+<dt>Slope</dt>
+<dd>
+The slope of a line in linear regression represents the rate of change of the dependent variable with respect to the independent variable. It indicates how much the dependent variable is expected to increase (or decrease) for each unit increase in the independent variable. A positive slope indicates a positive relationship, while a negative slope indicates a negative relationship between the variables.
+</dd>
+<dt>Intercept</dt>
+<dd>
+The intercept in linear regression is the point where the fitted line crosses the y-axis. It represents the expected value of the dependent variable when the independent variable is zero. The intercept provides a baseline value for the dependent variable and is an important parameter in the linear regression model, as it helps to understand the starting point of the relationship between the variables.
+</dd>
+<dt>SSE (Sum of Squared rEsiduals)</dt>
+<dd>
+The sum of squared residuals (SSE) is a measure of the total deviation of the observed values from the predicted values in a linear regression model. It is calculated by summing the squares of the differences between the observed values and the predicted values. A smaller SSE indicates a better fit of the model to the data, as it means that the predicted values are closer to the observed values. Calculating the sum of the squared errors would require knowing the true values of the parameters, which is not possible in practice. Therefore, we use the sum of squared residuals (SSE) as an estimate of the total error in the model. It is also known as the sum of the squared errors (SSE) or the residual sum of squares (RSS).
+</dd>
+<dt>Root Mean Squared rEsidual (RMSE)</dt>
+<dd>
+The root mean squared residual (RMSE) is a measure of the average magnitude of the errors in a linear regression model. It is calculated by taking the square root of the SSE divided by the number of observations minus 2 (to account for the two parameters estimated in linear regression: slope and intercept). RMSE provides a way to quantify the difference between the observed values and the predicted values, with a lower RMSE indicating a better fit of the model to the data. It is also known as root mean squared error (RMSE) or standard error of the regression.
+</dd>
+<dt>Functional Bounds</dt>
+<dd>
+Functional bounds refer to the limits or constraints placed on the functional form of the relationship between the dependent and independent variables in a linear regression model. Think of them as the bounds of the possible best-fit line calculated by the linear regression. They are the multidimensional equivalent of the confidence interval for a single parameter.
+</dd>
+<dt>Observational Bounds</dt>
+<dd>
+Observational bounds refer to the limits or constraints placed on the observed or predicteddata points in a linear regression model. These bounds can be based on the range of the independent variable, the range of the dependent variable, or any other relevant factors that may affect the observed data. Observational bounds delimit the area in which the observed data points are expected to fall, and they can help to identify outliers or influential points that may affect the fit of the model. Think of them as the multidimensional equivalent of the standard deviation times the <em>z</em>-value for a single parameter.
+</dd>
+</dl>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -365,8 +437,24 @@ Video 5 explanation
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
+<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
+<p><span style="color: red;">This is NOT a DOFPro video.</span><br> <strong>Basic Stats in MATLAB</strong><br><em><span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_{\bar{x}}\)</span>, <span class="math inline">\(\lambda\)</span> with MATLAB</em><br><a href="https://youtu.be/j0BRAgadBxg">Video</a>, <a href="../../basics/stats/BasicStatisticsVideoInfoWebPage.html">Info Page</a></p>
+</section>
+<section id="the-previous-video-i.e.-one-video-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
+<p><strong>Basic Statistics in R</strong><br><em><span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_{\bar{x}}\)</span>, <span class="math inline">\(\lambda\)</span> in R</em><br><a href="https://youtu.be/va7O78QdYLk">Video</a>, <a href="../../basics/stats/BasicStatisticsVideoInfoWebPage.html">Info Page</a></p>
+</section>
+<section id="the-next-video-i.e.-one-video-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
+<p><span style="color: red;">This is NOT a DOFPro video.</span><br> <strong>Error Propagation</strong><br><em>Propagating errors or uncertainties through equations and calculations</em><br><a href="https://youtu.be/DiOs64kzSQw">Video</a>, <a href="../../basics/stats/ErrorPropagationVideoInfoWebPage.html">Info Page</a></p>
+</section>
+<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
+<p><span style="color: red;">This is NOT a DOFPro video.</span><br> <strong>Integrals and Derivatives Part 1</strong><br><em>Propagating errors or uncertainties through numerical integrals and derivatives</em><br><a href="https://youtu.be/_0AcGK7asfM">Video</a>, <a href="../../basics/stats/ErrorPropagationVideoInfoWebPage.html">Info Page</a></p>
 
 
+</section>
 </section>
 </section>
 

@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -209,7 +238,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links-and-videos" id="toc-other-links-and-videos" class="nav-link" data-scroll-target="#other-links-and-videos">Other Links and Videos</a>
   <ul class="collapse">
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
-  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a></li>
+  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
+  <ul class="collapse">
+  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
+  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
+  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
+  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -263,14 +298,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Video 1 explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pb7PS5oeCz0?si=BSyZ_LWr9GLXmnVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 <section id="entropy-made-me-do-it-pumps-nozzles-and-other-second-law-shenanigans" class="level2">
 <h2 class="anchored" data-anchor-id="entropy-made-me-do-it-pumps-nozzles-and-other-second-law-shenanigans">Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans</h2>
 <p>Video explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/irBfMfVUEFo?si=HWUWastge-nrPBvP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
@@ -280,6 +315,60 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<dl>
+<dt>Isentropic or Ideal Work</dt>
+<dd>
+The work required for an isentropic process that requires work or the work produced for an isentropic process that generates work.
+</dd>
+<dt>Real or Actual Work</dt>
+<dd>
+The actual work required for a non-ideal process that requires work or the actual work produced by a non-ideal process that generates work. Real or actual work is usually compared with the isentropic or ideal work to calculate an efficiency.
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Turbine">Turbine</a> or <a href="https://en.wikipedia.org/wiki/Turboexpander">Expander</a></dt>
+<dd>
+A mechanical device for generating work from an flowing or expanding fluid.
+</dd>
+<dt>Turbine or Expander Efficiency</dt>
+<dd>
+The ratio of the actual work generated in a turbine or expander to the work generated in a isentropic process with the same entering pressure and temperature and the same exiting pressure. <span class="math inline">\(\eta_\mathrm{turbine} \equiv \dot{W}_{s\text{-actual}}/\dot{W}_{s\text{-isentropic}}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Compressor#Isentropic_compressor">Adiabatic Compressor</a></dt>
+<dd>
+A device for compressing a gas without any cooling. It is modeled as an isentropic process with a compressor efficiency.
+</dd>
+<dt>Isentropic Compressor Efficiency</dt>
+<dd>
+The ratio of the work required by an isentropic process to compress a gas to the actual work required to compress a gas adiabatically from an given entering pressure and temperature to a given exiting pressure. <span class="math inline">\(\eta_\mathrm{compressor} \equiv \dot{W}_{s\text{-isentropic}}/\dot{W}_{s\text{-actual}}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Compressor#Temperature">Isothermal Compressor</a></dt>
+<dd>
+A (usually water) cooled compressor that attempts to maintain the compressing gas at a constant temperature through the compression process. It is modeled as an isothermal process with a compressor efficiency.
+</dd>
+<dt>Isothermal Compressor Efficiency</dt>
+<dd>
+The ratio of the work required by an isothermal process to compress a gas to the actual work required to compress a gas from an given entering pressure and temperature to a given exiting pressure. <span class="math inline">\(\eta_\mathrm{compressor} \equiv \dot{W}_{s\text{-isothermal}}/\dot{W}_{s\text{-actual}}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Pump">Pump</a></dt>
+<dd>
+A device for causing flow and/or increasing the pressure of a fluid, usually a liquid.
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Pump#Efficiency">Pump Efficiency</a></dt>
+<dd>
+The ratio of the work required by an isentropic process to pump a fluid to the actual work required to pump a fluid adiabatically from an given entering pressure and temperature to a given exiting pressure. <span class="math inline">\(\eta_\mathrm{pump} \equiv \dot{W}_{s\text{-isentropic}}/\dot{W}_{s\text{-actual}}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Nozzle">Nozzle</a></dt>
+<dd>
+A device for increasing the velocity of a fluid by changing the cross-sectional area of the flow channel. The ideal nozzle is assumed to be isentropic.
+</dd>
+<dt>Nozzle Efficiency</dt>
+<dd>
+The ratio of the actual velocity squared to the velocity squared for an isentropic process. <span class="math inline">\(\eta_\mathrm{nozzle} = u^2_{\text{out-actual}}/u^2_{\text{out-isentropic}}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Valve">Valve</a> or <a href="https://en.wikipedia.org/wiki/Throttle">Throttle</a></dt>
+<dd>
+A device to modulate or control the flow of a fluid by obstructing the flow to a greater or lesser extent. A valve or throttle is usually modeled as an isenthalpic device, <span class="math inline">\(\Delta H = 0 \implies H_\mathrm{out} = H_\mathrm{in}\)</span>.
+</dd>
+</dl>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -289,8 +378,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
+<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
+<p><strong>Sadi Carnot and the Power of Fire, the 1824 Edition Part 2</strong><br><em>The Steam Carnot Cycle</em><br><a href="https://youtu.be/Qc9W1KKpouU">Video</a>, <a href="../../balances/entropy/TheCarnotCycleVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/116.5-Visuals.html">Visuals</a></p>
+</section>
+<section id="the-previous-video-i.e.-one-video-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
+<p><strong>How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?</strong><br><em>The 2nd Law for Closed, Open Steady-State, and Open Transient Systems</em><br><a href="https://youtu.be/QcZTezMtDRk">Video</a>, <a href="../../balances/entropy/EntropyBalanceEquationsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/117-2ndLawSystemsVisuals.html">Visuals</a></p>
+</section>
+<section id="the-next-video-i.e.-one-video-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
+<p><strong>Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1</strong><br><em>The Ideal Rankine Cycle</em><br><a href="https://youtu.be/4QRJ00uyaX8">Video</a>, <a href="../../balances/entropy/RankineCycleInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/119-RankineVisualsPart1.html">Visuals</a></p>
+</section>
+<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
+<p><strong>Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2</strong><br><em>The Rankine Cycle with <span class="math inline">\(\eta_\mathrm{pump}\)</span> and <span class="math inline">\(\eta_\mathrm{turbine}\)</span></em><br><a href="https://youtu.be/0DmsKCJpIdc">Video</a>, <a href="../../balances/entropy/RankineCycleInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/120-RankineVisualsPart2.html">Visuals</a></p>
 
 
+</section>
 </section>
 </section>
 

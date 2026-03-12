@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -209,7 +238,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links-and-videos" id="toc-other-links-and-videos" class="nav-link" data-scroll-target="#other-links-and-videos">Other Links and Videos</a>
   <ul class="collapse">
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
-  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a></li>
+  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
+  <ul class="collapse">
+  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
+  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
+  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
+  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -263,23 +298,60 @@ ul.task-list li input[type="checkbox"] {
 <p>Video 1 explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/02S9SOGRBWU?si=saVTNWCuqtr_sShL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 <section id="part-2" class="level2">
 <h2 class="anchored" data-anchor-id="part-2">Part 2</h2>
 <p>Video explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAdAC4OccmI?si=8YIf63pZHolmqvfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
 <h1>Examples and Definitions</h1>
 <section id="examples-links" class="level2">
 <h2 class="anchored" data-anchor-id="examples-links">Examples Links</h2>
+<ul>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/CombinedOneAndTwoMethane.ods">Methane Linde Cycle Examples</a></li>
+</ul>
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<dl>
+<dt>Lost Work, <span class="math inline">\(\dot{W}_mathrm{lost}\)</span></dt>
+<dd>
+The lost work is the work that could have been done but wasn’t due to irreversibilities in the system. It is equal to the entropy generation rate times the ambient temperature, <span class="math inline">\(T_\sigma \dot{S}_\mathrm{gen}\)</span>
+</dd>
+<dt>Actual Work, <span class="math inline">\(\dot{W}_s\)</span></dt>
+<dd>
+It is the amount of work produced or consumed by a system. It is compared with the ideal work to determine the efficiency.
+</dd>
+<dt>Entropy Generation Rate, <span class="math inline">\(\dot{S}\)</span></dt>
+<dd>
+The rate of entropy generation in the system and surroundings due to irreversibilities in the system. FOr any real system it is a positive number.
+</dd>
+<dt>Ideal Work, <span class="math inline">\(\dot{W}_mathrm{ideal}\)</span></dt>
+<dd>
+The ideal work is the work that would be generated if there were no irreversibilities in the system. It is synonymous with exergy and availability or their negatives, as different authors use different sign conventions for work.
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Exergy">Exergy</a></dt>
+<dd>
+Exergy is the work that would be generated if there were no irreversibilities in the system. It is synonymous with ideal work and availability or their negatives, as different authors use different sign conventions for work.
+</dd>
+<dt>Availability</dt>
+<dd>
+Availability is the work that would be generated if there were no irreversibilities in the system. It is synonymous with exergy and ideal work or their negatives, as different authors use different sign conventions for work.
+</dd>
+<dt>Second-Law Analysis</dt>
+<dd>
+It is actually an analysis using the combined 1<sup>st</sup> and 2<sup>nd</sup> Laws to calculate the ideal work and the lost work.
+</dd>
+<dt>Thermodynamic (<span class="math inline">\(\eta_\mathrm{T}\)</span>) or 2<sup>nd</sup>-Law (<span class="math inline">\(\eta_\mathrm{II}\)</span>) Efficiency</dt>
+<dd>
+For systems that can potentially produce work it is the actual work over the ideal work<br><span class="math inline">\(\eta_\mathrm{T} = \dfrac{\dot{W}_s}{\dot{W}_\mathrm{ideal}}\)</span><br>For systems that require work it is the ideal work over the actual work<br><span class="math inline">\(\eta_\mathrm{T} = \dfrac{\dot{W}_\mathrm{ideal}}{\dot{W}_s}\)</span>
+</dd>
+</dl>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -289,8 +361,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
+<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
+<p><strong>Revenge of the Fridge: Vapor Compression Strikes Back</strong><br><em>The Vapor Compression Cycle</em><br><a href="https://youtu.be/SN27SxDt0G4">Video</a>, <a href="../../balances/entropy/TheVaporCompressionCycleVideoWebPage.html">Info Page</a>, <a href="../../balances/entropy/126-RefrigerationVisuals.html">Visuals</a></p>
+</section>
+<section id="the-previous-video-i.e.-one-video-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
+<p><strong>Modeling the Vapor Compression Cycle in DWSIM</strong><br><em>Modeling the Vapor Compression Cycle in DWSIM</em><br><a href="https://youtu.be/nWOz-Y7XsbQ">Video</a>, <a href="balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd">Info Page</a></p>
+</section>
+<section id="the-next-video-i.e.-one-video-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
+<p>none</p>
+</section>
+<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
+<p>none</p>
 
 
+</section>
 </section>
 </section>
 

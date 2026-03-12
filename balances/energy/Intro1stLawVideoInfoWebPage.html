@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -209,7 +238,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links-and-videos" id="toc-other-links-and-videos" class="nav-link" data-scroll-target="#other-links-and-videos">Other Links and Videos</a>
   <ul class="collapse">
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
-  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a></li>
+  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
+  <ul class="collapse">
+  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
+  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
+  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
+  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -263,12 +298,12 @@ ul.task-list li input[type="checkbox"] {
 <p>Video 1 explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZHWT9Jw7fzY?si=3b2jG26gxpI9XkgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 <section id="video-2" class="level2">
 <h2 class="anchored" data-anchor-id="video-2">Video 2</h2>
 <p>Video explanation</p>
-<p><strong><em>Video 2 Link</em></strong> <a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><strong><em>Video 2 Link</em></strong> <a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
@@ -278,6 +313,45 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<dl>
+<dt>The First Law of Thermodynamics</dt>
+<dd>
+The general balance equation applied to energy with the assumption that relativistic effects and nuclear reactions are assumed to be negligible.
+</dd>
+<dt>Work, <span class="math inline">\(W\)</span></dt>
+<dd>
+A force moving through a distance. Electrical energy crossing a system boundary is usually assumed to be work.
+</dd>
+<dt>Heat, <span class="math inline">\(Q\)</span></dt>
+<dd>
+Energy crossing a system boundary due to a temperature difference. In some cases the temperature difference is assumed to be infinitesimally small.
+</dd>
+<dt>Potential Enegy, <span class="math inline">\(E_p\)</span></dt>
+<dd>
+The value in a conservative field relative to a zero datum. For these videos, the conservative field is gravity, so <span class="math inline">\(E_p = mgh\)</span>, where <span class="math inline">\(h\)</span> is the height above a reference datum.
+</dd>
+<dt>Kinetic Energy, <span class="math inline">\(E_k\)</span></dt>
+<dd>
+The kinetic energy is the energy in an inertial reference frame due to the velocity in that reference frame, so <span class="math inline">\(E_k = \frac{1}{2} m u^2\)</span>, where <span class="math inline">\(u\)</span> is the velocity.
+</dd>
+<dt>Internal Energy, <span class="math inline">\(U\)</span></dt>
+<dd>
+The sum of all of the microscopic kinetic and potential energies possessed by the atoms and molecules in a system.
+</dd>
+<dt>Enthalpy, <span class="math inline">\(H\)</span></dt>
+<dd>
+The sum of the internal energy, <span class="math inline">\(U\)</span>, plus the product of the absolute pressure, <span class="math inline">\(P\)</span>, and the volume, <span class="math inline">\(V\)</span>. It is a convenience function that makes solving problems involving isobaric or open steady-state systems easier.
+</dd>
+<dt>Intensive Property</dt>
+<dd>
+A property of a substance that <em>does not</em> depend on the mass or moles of a substance is an <em>intensive</em> property (such as temperature, <span class="math inline">\(T\)</span>, pressure, <span class="math inline">\(P\)</span>, density, <span class="math inline">\(\rho\)</span>, or composition, <span class="math inline">\(x\)</span>).
+</dd>
+<dt>Extensive Property</dt>
+<dd>
+A property of a substance that <em>does</em> depend on the mass or moles of a substance is an <em>extensive</em> property (such as volume, <span class="math inline">\(V\)</span>, or weight, <span class="math inline">\(mg\)</span>).
+</dd>
+</dl>
+<p>It is quite frequently useful to define an intensive property that is related to the extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume, <span class="math inline">\(\hat{V} = V/m\)</span>, specific internal energy, <span class="math inline">\(\hat{U} = U/m\)</span>, or molar enthalpy, <span class="math inline">\(\hat{H} = H/n\)</span>.</p>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -287,8 +361,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
+<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
+<p><strong>The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3</strong><br><em>Liquid-Liquid Extraction Example</em><br><a href="https://youtu.be/jcChVoELvFo">Video</a>, <a href="../../balances/material/EqullibriumStagesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/86.5-EquilibriumSeparationStages3Visuals.html">Visuals</a></p>
+</section>
+<section id="the-previous-video-i.e.-one-video-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
+<p><strong>Using DWSIM to Create Binary Phase Diagrams</strong><br><em>DWSIM, Binary Phase Diagrams</em><br><a href="https://youtu.be/5NUchIg8q7E">Video</a>, <a href="../../balances/material/DWSIMBinaryPhaseVideoInfoWebPage.html">Info Page</a></p>
+</section>
+<section id="the-next-video-i.e.-one-video-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
+<p><strong>Add Friction and Work to Bernoulli? Here’s What Really Happens!</strong><br><em>The Mechanical Energy Balance and the Moody Chart</em><br><a href="https://youtu.be/Da48oZb9oNw">Video</a>, <a href="../../balances/energy/MechanicalEnergyBalanceVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/90-MechEngBalVisuals.html">Visuals</a></p>
+</section>
+<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
+<p><strong>Steam: Get the Quality Right AFTER You Table It! Part 1</strong><br><em>The Basics of Steam Tables</em><br><a href="https://youtu.be/8tH3gXz_M8A">Video</a>, <a href="../../balances/energy/SteamTablesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/91-ThermodynamicPropertyTables1Visuals.html">Visuals</a></p>
 
 
+</section>
 </section>
 </section>
 

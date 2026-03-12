@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -209,7 +238,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links-and-videos" id="toc-other-links-and-videos" class="nav-link" data-scroll-target="#other-links-and-videos">Other Links and Videos</a>
   <ul class="collapse">
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
-  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a></li>
+  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
+  <ul class="collapse">
+  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
+  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
+  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
+  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -263,23 +298,40 @@ ul.task-list li input[type="checkbox"] {
 <p>Video 1 explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YGMHMAXnFY8?si=GhNpW5oYGxS4JICt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 <section id="the-enthalpy-games-sunrise-on-the-calculations" class="level2">
 <h2 class="anchored" data-anchor-id="the-enthalpy-games-sunrise-on-the-calculations">The Enthalpy Games: Sunrise on the Calculations</h2>
 <p>Video explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yLJp3YQaVvo?si=jBD8ZI_cOqJ6-9ZX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
 <h1>Examples and Definitions</h1>
 <section id="examples-links" class="level2">
 <h2 class="anchored" data-anchor-id="examples-links">Examples Links</h2>
+<ul>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/energy/NitrogenForVideo94.ods">Nitrogen Heat Capacity Example</a></li>
+</ul>
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<dl>
+<dt><a href="https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity">Heat Capacity at Constant Volume</a></dt>
+<dd>
+The change in specific or molar internal energy with a change in temperature at constant volume for a substance <em>not</em> undergoing a phase change . <span class="math inline">\(C_v \equiv (\partial \hat{U} / \partial T)|_V\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity">Heat Capacity at Constant Pressure</a></dt>
+<dd>
+The change in specific or molar enthalpy with a change in temperature at constant pressure for a substance <em>not</em> undergoing a phase change. <span class="math inline">\(C_p \equiv (\partial \hat{H} / \partial T)|_P\)</span>
+</dd>
+<dt><a href="https://pages.uoregon.edu/palandri/gastherm/!xmisc/Shomate%201954%20Cp%20equation.pdf">Shomate Equation</a></dt>
+<dd>
+An empirical equation for fitting experimental heat-capacity data. It is of the form <span class="math inline">\(C_p = a + b T + c T^2 + d T^3 + e/T^2\)</span>
+</dd>
+</dl>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -289,8 +341,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
+<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
+<p><strong>Steam: Get the Quality Right AFTER You Table It! Part 1</strong><br><em>The Basics of Steam Tables</em><br><a href="https://youtu.be/8tH3gXz_M8A">Video</a>, <a href="../../balances/energy/SteamTablesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/91-ThermodynamicPropertyTables1Visuals.html">Visuals</a></p>
+</section>
+<section id="the-previous-video-i.e.-one-video-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
+<p><strong>Steam: Get the Quality Right AFTER You Table It! Part 2</strong><br><em>Steam Table Examples</em><br><a href="https://youtu.be/yRf09eSRM1A">Video</a>, <a href="../../balances/energy/SteamTablesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/92-ThermodynamicPropertyTables2Visuals.html">Visuals</a></p>
+</section>
+<section id="the-next-video-i.e.-one-video-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
+<p><strong>Feeling the Heat? How to Get Your Best Estimate</strong><br><em>Estimating <span class="math inline">\(C_p\)</span>, <span class="math inline">\(\Delta \hat{H}_v\)</span>, <span class="math inline">\(\Delta \hat{H}_m\)</span></em><br><a href="https://youtu.be/f_l3OFyuiPs">Video</a>, <a href="../../balances/energy/EstimatingHeatCapacitiesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/95-EstimatingHeatCapacitiesVisuals.html">Visuals</a></p>
+</section>
+<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
+<p><strong>Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart</strong><br><em>Psychrometric Charts</em><br><a href="https://youtu.be/Nz8ADo4X2Ss">Video</a>, <a href="../../balances/energy/PsychrometricChartsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/97-PsychrometiricChartVIsuals.html">Visuals</a></p>
 
 
+</section>
 </section>
 </section>
 

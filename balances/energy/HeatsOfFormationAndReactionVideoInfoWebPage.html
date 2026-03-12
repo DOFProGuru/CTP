@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -208,7 +237,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links-and-videos" id="toc-other-links-and-videos" class="nav-link" data-scroll-target="#other-links-and-videos">Other Links and Videos</a>
   <ul class="collapse">
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
-  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a></li>
+  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
+  <ul class="collapse">
+  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
+  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
+  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
+  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -262,7 +297,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Video 1 explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qdgH4v64vOQ?si=WXuV02mLwYOt2q6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
@@ -272,6 +307,20 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<dl>
+<dt><a href="https://en.wikipedia.org/wiki/Standard_enthalpy_of_formation">Heat or Enthalpy of Formation</a></dt>
+<dd>
+The enthalpy of formation is the enthalpy change associated with forming one mole of a chemical species from its constituent species at their standard temperature, pressure and state of aggregation. By definition the enthalpy of formation for an element at its standard temperature, pressure, and state of aggregation is identically zero.
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Standard_enthalpy_of_reaction">Heat or Enthalpy of Reaction</a></dt>
+<dd>
+The enthalpy change associated with one mole of reaction for a chemical reaction as written. It can be calculated as the sum of the enthalpies of formation of the reactants and products times their stoichiometric coefficients, with the convention that the stoichiometric coefficients of reactants are negative and the stoichiometric coefficients of products are positive.
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Hess%27s_law">Hess’s Law</a></dt>
+<dd>
+The enthalpy change of a reaction does not depend on which set of constituent reactions are used to calculate it as long as the overall reaction is the same.
+</dd>
+</dl>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -281,8 +330,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
+<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
+<p><strong>Reference Not Found: Mixing, Dissolving, and Changing the Rules</strong><br><em><span class="math inline">\(\Delta H_m\)</span>, <span class="math inline">\(\Delta H_s\)</span></em><br><a href="https://youtu.be/ggU692PLWts">Video</a>, <a href="../../balances/energy/HeatsOfMixingVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/98-ReferenceStatesVIsuals.html">Visuals</a></p>
+</section>
+<section id="the-previous-video-i.e.-one-video-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
+<p><strong>The Isochronicles: This First Law Saga Is a Gas</strong><br><em>The 1<sup>st</sup> Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes</em><br><a href="https://youtu.be/iKsR3v1wu30">Video</a>, <a href="../../balances/energy/The1stLawForIdealGases.html">Info Page</a>, <a href="../../balances/energy/102-1stLawIdealGasesVisuals.html">Visuals</a></p>
+</section>
+<section id="the-next-video-i.e.-one-video-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
+<p><strong>Chemical Reactions vs.&nbsp;The First Law: Who Wins?</strong><br><em>Forms of the 1<sup>st</sup> Law for Chemical Reactions</em><br><a href="https://youtu.be/mFF5hDHclPE">Video</a>, <a href="../../balances/energy/The1stLawReactingSystems.html">Info Page</a>, <a href="../../balances/energy/106-1stLawReactingVisuals.html">Visuals</a></p>
+</section>
+<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
+<p><strong>Fueling the Fire: The Shocking Truth About Combustion Reactions!</strong><br><em>Common fuels, Heats of Combustion, HHV, LHV</em><br><a href="https://youtu.be/lW5dK-F6H3U">Video</a>, <a href="../../balances/energy/EnergeticsOfCombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/energy/110-FuelsHeatingVisuals.html">Visuals</a></p>
 
 
+</section>
 </section>
 </section>
 

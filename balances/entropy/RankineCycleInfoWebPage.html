@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -210,7 +239,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links-and-videos" id="toc-other-links-and-videos" class="nav-link" data-scroll-target="#other-links-and-videos">Other Links and Videos</a>
   <ul class="collapse">
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
-  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a></li>
+  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
+  <ul class="collapse">
+  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
+  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
+  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
+  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -264,30 +299,65 @@ ul.task-list li input[type="checkbox"] {
 <p>Video 1 explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4QRJ00uyaX8?si=Gfhb6hnC5ev3JPIK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 <section id="boil-expand-condense-repeat-the-rankine-cycle-in-action-part-2" class="level2">
 <h2 class="anchored" data-anchor-id="boil-expand-condense-repeat-the-rankine-cycle-in-action-part-2">Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2</h2>
 <p>Video explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0DmsKCJpIdc?si=aR-NMxiLDotMK8Lq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 <section id="modeling-the-rankine-cycle-in-dwsim" class="level2">
 <h2 class="anchored" data-anchor-id="modeling-the-rankine-cycle-in-dwsim">Modeling the Rankine Cycle in DWSIM</h2>
 <p>Video explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ECOWIrzvGNc?si=OCZ5b3hSXYay14E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../NotYetHere.html">Visuals</a></p>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
 <h1>Examples and Definitions</h1>
 <section id="examples-links" class="level2">
 <h2 class="anchored" data-anchor-id="examples-links">Examples Links</h2>
+<ul>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineExamples.ods">Ideal and Real Rankine Cycle Examples</a></li>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineCycle.dwxmz">DWSIM Rankine Cycle Example for Revenge of the Fridge</a></li>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineCycle2Ways.dwxmz">DWSIM Rankine Cycle Demo</a></li>
+</ul>
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<dl>
+<dt><a href="https://en.wikipedia.org/wiki/Rankine_cycle">Rankine Cycle</a></dt>
+<dd>
+A thermodynamic power cycle consisting of four steps:<br>1. An isobaric heating<br>2. An isentropic expansion<br>3. An isothermal cooling<br>4. An isentropic compression<br>It usually involves phase transitions during the heating and cooling stages.
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Turbine">Turbine</a></dt>
+<dd>
+A mechanical device for generating work from a flowing or expanding fluid.
+</dd>
+<dt>Turbine Efficiency</dt>
+<dd>
+The ratio of the actual work generated in a turbine or expander to the work generated in a isentropic process with the same entering pressure and temperature and the same exiting pressure. <span class="math inline">\(\eta_\mathrm{turbine} \equiv \dot{W}_{s\text{-actual}}/\dot{W}_{s\text{-isentropic}}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Pump">Pump</a></dt>
+<dd>
+A device for causing flow and/or increasing the pressure of a fluid, usually a liquid.
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Pump#Efficiency">Pump Efficiency</a></dt>
+<dd>
+The ratio of the work required by an isentropic process to pump a fluid to the actual work required to pump a fluid adiabatically from an given entering pressure and temperature to a given exiting pressure. <span class="math inline">\(\eta_\mathrm{pump} \equiv \dot{W}_{s\text{-isentropic}}/\dot{W}_{s\text{-actual}}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Boiler">Boiler</a></dt>
+<dd>
+A large <a href="https://en.wikipedia.org/wiki/Heat_exchanger">heat exchanger</a> for heating a fluid into a vapor or gas, such as water into steam. The hot fluid may be combustion gases from coal, fuel oil, or natural gas, or from a heat source such as solar concentrators or nuclear reactor.
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Condenser_(heat_transfer)">Condenser</a></dt>
+<dd>
+A vessel used to condense a vapor or gas into a liquid, such as steam into liquid water. The cold side may be air, water such as seawater, or other coolant.
+</dd>
+</dl>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -297,8 +367,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
+<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
+<p><strong>Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans</strong><br><em>Turbines and Expanders, Isentropic and Isothermal Compressors</em><br><a href="https://youtu.be/Pb7PS5oeCz0">Video</a>, <a href="../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/118-TurbCompEtcVisuals.html">Visuals</a></p>
+</section>
+<section id="the-previous-video-i.e.-one-video-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
+<p><strong>Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans</strong><br><em>Pumps, Nozzles, and Valves or Throttles</em><br><a href="https://youtu.be/irBfMfVUEFo">Video</a>, <a href="../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/118.5-PumpNozzVisuals.html">Visuals</a></p>
+</section>
+<section id="the-next-video-i.e.-one-video-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
+<p><strong>Cycle Wars: The Power Awakens</strong><br><em>Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle</em><br><a href="https://youtu.be/M_p3gb79isg">Video</a>, <a href="../../balances/entropy/AirStandardPowerCyclesInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/122-AirStandardCyclesPart1Visuals.html">Visuals</a></p>
+</section>
+<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
+<p><strong>Cycle Wars: The Rise of Otto Cycles</strong><br><em>Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, &amp; Stirling Cycles</em><br><a href="https://youtu.be/jJaDQM8qjgU">Video</a>, <a href="../../balances/entropy/AirStandardPowerCyclesInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/123-AirStandardCyclesPart2Visuals.html">Visuals</a></p>
 
 
+</section>
 </section>
 </section>
 

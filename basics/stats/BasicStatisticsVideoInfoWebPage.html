@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -214,7 +243,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links-and-videos" id="toc-other-links-and-videos" class="nav-link" data-scroll-target="#other-links-and-videos">Other Links and Videos</a>
   <ul class="collapse">
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
-  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a></li>
+  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
+  <ul class="collapse">
+  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
+  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
+  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
+  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -262,47 +297,47 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="intro-to-how-deviant-and-mean-are-your-data" class="level1">
 <h1>Intro to <em>How Deviant and Mean Are Your Data?</em></h1>
-<p>Main title explanation</p>
+<p>Engineers must measure and evaluate lots of data. To evaluate data sets, there are basic statistical calculations that must be applied. The most common ones are evaluation of the mean, and determination of the confidence interval around the mean. This set of videos explains the fundamentals of making these calculations and demonstrates how to make them by hand, on a spreadsheet, with MATLAB, <!-- by using Python,--> and by using R.</p>
 <section id="part-1-just-the-facts" class="level2">
 <h2 class="anchored" data-anchor-id="part-1-just-the-facts">Part 1 Just the Facts</h2>
-<p>Video 1 explanation</p>
+<p>Part 1 <em>Just the Facts</em> discusses both <em>population</em> or <em>true mean</em> and <em>standard deviation</em>, and <em>sample mean</em> and <em>standard deviation</em>, and explains how to calculate them. <em>Just the Facts (JTF)</em> videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think “efficient and to the point.” Each has a companion TFS video.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ksg4Babav6o?si=c_j6N4J0XkGrrzPB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../basics/stats/5-JTF-WhyStatsJTF1Visuals.html">Visuals</a></p>
 </section>
 <section id="part-1-the-full-story" class="level2">
 <h2 class="anchored" data-anchor-id="part-1-the-full-story">Part 1 The Full Story</h2>
-<p>Video explanation</p>
+<p>Part 1 <em>The Full Story</em> examines common conceptions and misconceptions about mean and standard deviation, explains how to calculate both <em>true mean</em> and <em>sample mean</em> and <em>standard deviation</em>, and sets the stage for their use. <em>The Full Story (TFS)</em> videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H82fqjDDQz8?si=FKvwDhNQMufpycMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../basics/stats/5-TFS-WhyStatsTFS1Visuals.html">Visuals</a></p>
 </section>
 <section id="how-deviant-and-mean-are-your-data-part-2" class="level2">
 <h2 class="anchored" data-anchor-id="how-deviant-and-mean-are-your-data-part-2">How Deviant and Mean Are Your Data? Part 2</h2>
-<p>Video explanation</p>
+<p>Part 2 video explains how to calculate <em>standard error</em>, <em>confidence intervals</em>, and <em>Student’s</em> <span class="math inline">\(t\)</span>, and explains their use.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cBOrE6eV-AE?si=azqNJTDo_y56SyE5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../basics/stats/5A-JTF-WhyStatsJTF2Visuals.html">Visuals</a></p>
 </section>
 <section id="basics-statistics-by-hand" class="level2">
 <h2 class="anchored" data-anchor-id="basics-statistics-by-hand">Basics Statistics by Hand</h2>
-<p>Video 6 explanation</p>
+<p><em>Basic Statistics by Hand</em> demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by hand with just a calculator and a Student’s <span class="math inline">\(t\)</span> table.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HJz-HpglcMQ?si=C2Ms5F7P5pTBhFQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../basics/stats/BasicStatsByHandJTFVisuals.html">Visuals</a></p>
 </section>
 <section id="basic-statistics-on-a-spreadsheet" class="level2">
 <h2 class="anchored" data-anchor-id="basic-statistics-on-a-spreadsheet">Basic Statistics on a Spreadsheet</h2>
-<p>Video 7 explanation</p>
+<p><em>Basic Statistics on a Spreadsheet</em> demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by first using the spreadsheet as just a calculator, and then by using the built-in statistical functions.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RZ1kFVLvSxY?si=K6IDS4SwCxKqNJ84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../basics/stats/BasicStatsSpreadsheetJTFVisuals.html">Visuals</a></p>
 <!-- ## Basic Statistics in Python
 
 Video 8 explanation
 
 ***Video 8 Link***
-[Visuals](../../NotYetHere.qmd), [Transcript](../../NotYetHere.qmd)
+[Visuals](../../NotYetHere.qmd)
 -->
 </section>
 <section id="basics-statistics-with-matlab" class="level2">
@@ -320,26 +355,77 @@ Video 8 explanation
 <p>This is <strong><em>NOT</em></strong> a DOFPro video. It may contain copyrighted material and have references to proprietary software.</p>
 </div>
 </div>
-<p>Video 8.3 explanation</p>
+<p><em>Basic Statistics in MATLAB</em> demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by using the command line, and by using a .m file.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j0BRAgadBxg?si=nicMcE4Owzg3tmL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
 </section>
 <section id="basic-statistics-in-r" class="level2">
 <h2 class="anchored" data-anchor-id="basic-statistics-in-r">Basic Statistics in R</h2>
-<p>Video 9 explanation</p>
+<p><em>Basic Statistics in R</em> demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by using the command line, and by using a script.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/va7O78QdYLk?si=Y64Hi889j54ewerH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
 <h1>Examples and Definitions</h1>
 <section id="examples-links" class="level2">
 <h2 class="anchored" data-anchor-id="examples-links">Examples Links</h2>
+<ul>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicStatCerealExample.R">Basic Statistical Example (Cereal Data)</a> – An R script for generating the animations in the Basic Stats video</li>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/InverseTTable.ods">Student’s <em>t</em>-Table</a> – A spreadsheet with the one-sided and two-sided <em>t</em>values</li>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicSpreadsheetTwoWays.ods">Basic Statistics on a Spreadsheet Two Ways</a> – The spreadsheet from the Spreadsheet video.</li>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicStatisticsInR.txt">Command line input for Basic Statistics in R</a></li>
+<li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicStat.R">R Script for Basic Statistics Example</a> – The R script from the R video.</li>
+</ul>
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<dl>
+<dt><a href="https://en.wikipedia.org/wiki/Statistical_population#Mean">True or Population Mean, <span class="math inline">\(\mu\)</span></a></dt>
+<dd>
+The exact value of a quantity to be measured, or the arithmetic average value of the set of measurements of an entire population
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Sample_mean_and_covariance">Sample Mean, <span class="math inline">\(\bar{x}\)</span></a></dt>
+<dd>
+The arithmetic mean of a set of sample data, e.g., a set of measurements. <span class="math inline">\(\bar{x}=\frac{\sum_{i=1}^Nx_i}{N}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Variance#Population_variance">True Variance, <span class="math inline">\(\sigma^2\)</span></a></dt>
+<dd>
+A measure of the spread of a data set about the true mean. <span class="math inline">\(\sigma^2=\frac{{\sum_{i=1}^N \varepsilon^2_i}}{N}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Standard_deviation#Definition_of_population_values">True or Population Standard Deviation, <span class="math inline">\(\sigma\)</span></a></dt>
+<dd>
+Another measure of the spread of a set of data about the true mean. <span class="math inline">\(\sigma = \sqrt{\sigma^2}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Variance#Sample_variance">Sample Variance, <span class="math inline">\(S^2\)</span></a></dt>
+<dd>
+A measure of the spread of a data set about the sample mean. <span class="math inline">\(S^2=\frac{{\sum_{i=1}^N e^2_i}}{N-1}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Standard_deviation#Corrected_sample_standard_deviation">Sample Standard Deviation, <span class="math inline">\(S\)</span></a></dt>
+<dd>
+Another measure of the spread of a set of data about the sample mean. <span class="math inline">\(S = \sqrt{S^2}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Errors_and_residuals">Error, <span class="math inline">\(\varepsilon_i\)</span></a></dt>
+<dd>
+The difference between the true mean and a sample, <span class="math inline">\(\varepsilon = \mu - x_i\)</span>.
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Errors_and_residuals">Residual, <span class="math inline">\(e_i\)</span></a></dt>
+<dd>
+The difference between the sample mean and a sample, <span class="math inline">\(e = \bar{x} - x_i\)</span>.
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Standard_error#Estimate">Estimated Standard Error, <span class="math inline">\(S_\bar{x}\)</span></a></dt>
+<dd>
+A measure of the spread of the possible sample means about the true mean. <span class="math inline">\(S_\bar{x}=\frac{S}{\sqrt{N}}\)</span>
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution">Student’s <span class="math inline">\(t\)</span></a></dt>
+<dd>
+A statistical distribution calculated for small numbers of samples. It approaches the normal distribution for large numbers of samples.
+</dd>
+<dt><a href="https://en.wikipedia.org/wiki/Normal_distribution#Confidence_intervals">Confidence interval, <span class="math inline">\(\bar{x} \pm \lambda\)</span></a></dt>
+<dd>
+The interval about the sample mean with a given probability that the true mean lies within it. <span class="math inline">\(\lambda = t S_\bar{x}\)</span>
+</dd>
+</dl>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -349,8 +435,24 @@ Video 8 explanation
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
+<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
+<p><strong>How to Have a Quickie with Your Data Part 2</strong><br><em>Nonlinear least squares</em><br><a href="https://youtu.be/dVmh0EdQT1U">Video</a>, <a href="../../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="../../basics/calculations/Video26Visuals.html">Visuals</a></p>
+</section>
+<section id="the-previous-video-i.e.-one-video-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
+<p><strong>Solving Nonlinear Equations with Spreadsheets</strong><br><em>See Title</em><br><a href="https://youtu.be/SaI2qdu1wSE">Video</a>, <a href="../../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="../../basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html">Visuals</a></p>
+</section>
+<section id="the-next-video-i.e.-one-video-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
+<p><span style="color: red;">This is NOT a DOFPro video.</span><br> <strong>Linear Regression</strong><br><em>Derivation of the equations for linear regression</em><br><a href="https://youtu.be/HsZhQyhg0tk">Video</a>, <a href="../../basics/stats/LinearRegressionVideoInfoWebPage.html">Info Page</a></p>
+</section>
+<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
+<p><span style="color: red;">This is NOT a DOFPro video.</span><br> <strong>Linear Regression Spreadsheet</strong><br><em>Performing linear regression with a spreadsheet</em><br><a href="https://youtu.be/7LBI7Ea2sx0">Video</a>, <a href="../../basics/stats/LinearRegressionVideoInfoWebPage.html">Info Page</a></p>
 
 
+</section>
 </section>
 </section>
 

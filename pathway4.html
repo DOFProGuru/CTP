@@ -227,7 +227,11 @@ window.Quarto = {
   <ul>
   <li><a href="#spreadsheets" id="toc-spreadsheets" class="nav-link active" data-scroll-target="#spreadsheets">Spreadsheets</a>
   <ul class="collapse">
+  <li><a href="#how-to-read-this-pathway-without-increasing-entropy" id="toc-how-to-read-this-pathway-without-increasing-entropy" class="nav-link" data-scroll-target="#how-to-read-this-pathway-without-increasing-entropy">How to Read This Pathway <span style="font-size: 20px;">(Without Increasing Entropy)</span></a></li>
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#introduction-to-spreadsheets" id="toc-introduction-to-spreadsheets" class="nav-link" data-scroll-target="#introduction-to-spreadsheets">Introduction to Spreadsheets</a></li>
+  <li><a href="#spreadsheets-for-statistics" id="toc-spreadsheets-for-statistics" class="nav-link" data-scroll-target="#spreadsheets-for-statistics">Spreadsheets for Statistics</a></li>
+  <li><a href="#dwsim" id="toc-dwsim" class="nav-link" data-scroll-target="#dwsim">DWSIM</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -262,25 +266,52 @@ window.Quarto = {
 
 <section id="spreadsheets" class="level1">
 <h1>Spreadsheets</h1>
+<p>Spreadsheets quietly power much of modern engineering, and they show up everywhere in DOFPro. This pathway collects the tools that turn spreadsheets from glorified calculators into serious problem-solving engines.</p>
+<p>You’ll see basic statistics, linear regression, error propagation, nonlinear regression—and finally three videos introducing DWSIM, an open-source flowsheet simulator that does many of the same jobs, just with more industrial flair.</p>
+<p>If you’ve ever thought, “It’s just Excel,” this pathway may respectfully change your mind.</p>
+<section id="how-to-read-this-pathway-without-increasing-entropy" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-read-this-pathway-without-increasing-entropy">How to Read This Pathway <span style="font-size: 20px;">(Without Increasing Entropy)</span></h2>
+<ul>
+<li><strong>JTF (Just the Facts)</strong> videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think “efficient and to the point.” Each has a companion TFS video.</li>
+<li><strong>TFS (The Full Story)</strong> videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.</li>
+<li><strong>Info Page</strong> links lead to definitions, expanded explanations, and related material—because sometimes you really do need to explain it.</li>
+<li><strong>Visuals</strong> links contain the underlying greenscreen or whiteboard materials used in the video, for those who like to see the scaffolding.</li>
+<li>Wondering about the titles? See Appendix B: <a href="./appx/NotFunny.html"><strong>If you have to explain it, it’s no longer funny</strong></a>￼.</li>
+<li>Videos marked <span style="color: red;">This is NOT a DOFPro video</span> were not produced by DOFPro but are included because they’re relevant to the topic. They’re shown in red so no one calls the academic integrity police.</li>
+</ul>
+</section>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p><strong>From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering</strong><br><em>Intro to DOFPro CTP</em><br><a href="https://youtu.be/8FEmNkiU1Jk">Video</a>, <a href="./basics/intro/IntroTopicsWebPage.html">Info Page</a>, <a href="./basics/intro/1-MoleToMegawattVisuals.html">Visuals</a></p>
+</section>
+<section id="introduction-to-spreadsheets" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-spreadsheets">Introduction to Spreadsheets</h2>
+<p><strong>The Unauthorized Guide to Using Spreadsheets in Chemical Engineering</strong><br><em>Spreadsheet Basics</em><br><a href="https://youtu.be/5XMeQ6vWymA">Video</a>, <a href="./basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="./basics/calculations/BasicSpreadsheetTechniquesJTFVisuals.html">Visuals</a></p>
 <p><strong>How to Have a Quickie with Your Data Part 1</strong><br><em><span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S_{\bar{x}}\)</span>, Linear Least Squares</em><br><a href="https://youtu.be/4EfhlWNDQ48">Video</a>, <a href="./basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="./basics/calculations/Video25Visuals.html">Visuals</a></p>
 <p><strong>How to Have a Quickie with Your Data Part 2</strong><br><em>Nonlinear least squares</em><br><a href="https://youtu.be/dVmh0EdQT1U">Video</a>, <a href="./basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="./basics/calculations/Video26Visuals.html">Visuals</a></p>
 <p><strong>Solving Nonlinear Equations with Spreadsheets</strong><br><em>See Title</em><br><a href="https://youtu.be/SaI2qdu1wSE">Video</a>, <a href="./basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.html">Info Page</a>, <a href="./basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.html">Visuals</a></p>
+<p><strong>Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts</strong><br><em>Linear Interpolation</em><br><a href="https://youtu.be/VbnpWj9iYAU">Video</a>, <a href="./basics/calculations/InterpolationWebPage.html">Info Page</a>, <a href="./basics/calculations/InterpolationJTFVisuals.html">Visuals</a></p>
+<p><strong>Interpol Is Late to a Mind-Blowing Math Hack, The Full Story</strong><br><em>Linear Interpolation</em><br><a href="https://youtu.be/pbDEc_Q862M">Video</a>, <a href="./basics/calculations/InterpolationWebPage.html">Info Page</a>, <a href="./basics/calculations/InterpolationTFSVisuals.html">Visuals</a></p>
+<p><strong>No Clear Interpretation a Mind-Blowing Math Hack</strong><br><em>Nonlinear Interpolation</em><br><a href="https://youtu.be/721FxKwDRAU">Video</a>, <a href="./basics/calculations/InterpolationWebPage.html">Info Page</a>, <a href="./basics/calculations/NLInterpolationJTFVisuals.html">Visuals</a></p>
+</section>
+<section id="spreadsheets-for-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="spreadsheets-for-statistics">Spreadsheets for Statistics</h2>
 <p><strong>How Deviant and Mean Are Your Data? Intro and Basics Part 1, Just the Facts</strong><br><em>Mean (<span class="math inline">\(\mu,\ \bar{x}\)</span>) and Standard Deviation (<span class="math inline">\(\sigma,\ S\)</span>)</em><br><a href="https://youtu.be/ksg4Babav6o">Video</a>, <a href="./basics/stats/BasicStatisticsVideoInfoWebPage.html">Info Page</a>, <a href="./basics/stats/5-JTF-WhyStatsJTF1Visuals.html">Visuals</a></p>
 <p><strong>How Deviant and Mean Are Your Data? Intro and Basics Part 1, The Full Story</strong><br><em>Mean (<span class="math inline">\(\mu,\ \bar{x}\)</span>) and Standard Deviation (<span class="math inline">\(\sigma,\ S\)</span>)</em><br><a href="https://youtu.be/H82fqjDDQz8">Video</a>, <a href="./basics/stats/BasicStatisticsVideoInfoWebPage.html">Info Page</a>, <a href="./basics/stats/5-TFS-WhyStatsTFS1Visuals.html">Visuals</a></p>
 <p><strong>How Deviant and Mean Are Your Data? Part 2</strong><br><em>Standard Error (<span class="math inline">\(S_{\bar{x}}\)</span>) and Confidence Interval (<span class="math inline">\(2\lambda\)</span>)</em><br><a href="https://youtu.be/cBOrE6eV-AE">Video</a>, <a href="./basics/stats/BasicStatisticsVideoInfoWebPage.html">Info Page</a>, <a href="./basics/stats/5A-JTF-WhyStatsJTF2Visuals.html">Visuals</a></p>
 <p><strong>Basic Statistics on a Spreadsheet</strong><br><em><span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(S_{\bar{x}}\)</span>, <span class="math inline">\(\lambda\)</span> with a spreadsheet</em><br><a href="https://youtu.be/RZ1kFVLvSxY">Video</a>, <a href="./basics/stats/BasicStatisticsVideoInfoWebPage.html">Info Page</a>, <a href="./basics/stats/BasicStatsSpreadsheetJTFVisuals.html">Visuals</a></p>
-<p><strong>Linear Regression</strong><br><em>Derivation of the equations for linear regression</em><br><a href="https://youtu.be/HsZhQyhg0tk">Video</a>, <a href="./basics/stats/LinearRegressionVideoInfoWebPage.html">Info Page</a>, <a href="none">Visuals</a></p>
-<p><strong>Linear Regression Spreadsheet</strong><br><em>Performing linear regression with a spreadsheet</em><br><a href="https://youtu.be/7LBI7Ea2sx0">Video</a>, <a href="./basics/stats/LinearRegressionVideoInfoWebPage.html">Info Page</a>, <a href="none">Visuals</a></p>
-<p><strong>Error Propagation</strong><br><em>Propagating errors or uncertainties through equations and calculations</em><br><a href="https://youtu.be/DiOs64kzSQw">Video</a>, <a href="./basics/stats/ErrorPropagationVideoInfoWebPage.html">Info Page</a>, <a href="none">Visuals</a></p>
-<p><strong>Integrals and Derivatives Part 1</strong><br><em>Propagating errors or uncertainties through numerical integrals and derivatives</em><br><a href="https://youtu.be/_0AcGK7asfM">Video</a>, <a href="./basics/stats/ErrorPropagationVideoInfoWebPage.html">Info Page</a>, <a href="none">Visuals</a></p>
-<p><strong>Integrals and Derivatives Part 2</strong><br><em>More propagating errors or uncertainties through numerical integrals and derivatives</em><br><a href="https://youtu.be/ej9O5ncO1iw">Video</a>, <a href="./basics/stats/ErrorPropagationVideoInfoWebPage.html">Info Page</a>, <a href="none">Visuals</a></p>
-<p><strong>Nonlinear Regression</strong><br><em>Derivation/explanation of nonlinear regression</em><br><a href="https://youtu.be/aE4W-JYnGgQ">Video</a>, <a href="./basics/stats/NonlinearRegressionVideoInfoWebPage.html">Info Page</a>, <a href="none">Visuals</a></p>
-<p><strong>Using DWSIM to Create Binary Phase Diagrams</strong><br><em>DWSIM, Binary Phase Diagrams</em><br><a href="https://youtu.be/5NUchIg8q7E">Video</a>, <a href="./balances/material/DWSIMBinaryPhaseVideoInfoWebPage.html">Info Page</a>, <a href="none">Visuals</a></p>
-<p><strong>Modeling the Rankine Cycle in DWSIM</strong><br><em>Modeling the Rankine Cycle in DWSIM</em><br><a href="https://youtu.be/ECOWIrzvGNc">Video</a>, <a href="./balances/entropy/RankineCycleInfoWebPage.html">Info Page</a>, <a href="none">Visuals</a></p>
-<p><strong>Modeling the Vapor Compression Cycle in DWSIM</strong><br><em>Modeling the Vapor Compression Cycle in DWSIM</em><br><a href="https://youtu.be/nWOz-Y7XsbQ">Video</a>, <a href="./balances/entropy/TheVaporCompressionCycleVideoWebPage.html">Info Page</a>, <a href="none">Visuals</a></p>
+<p><span style="color: red;">This is NOT a DOFPro video.</span><br> <strong>Linear Regression</strong><br><em>Derivation of the equations for linear regression</em><br><a href="https://youtu.be/HsZhQyhg0tk">Video</a>, <a href="./basics/stats/LinearRegressionVideoInfoWebPage.html">Info Page</a></p>
+<p><span style="color: red;">This is NOT a DOFPro video.</span><br> <strong>Linear Regression Spreadsheet</strong><br><em>Performing linear regression with a spreadsheet</em><br><a href="https://youtu.be/7LBI7Ea2sx0">Video</a>, <a href="./basics/stats/LinearRegressionVideoInfoWebPage.html">Info Page</a></p>
+<p><span style="color: red;">This is NOT a DOFPro video.</span><br> <strong>Error Propagation</strong><br><em>Propagating errors or uncertainties through equations and calculations</em><br><a href="https://youtu.be/DiOs64kzSQw">Video</a>, <a href="./basics/stats/ErrorPropagationVideoInfoWebPage.html">Info Page</a></p>
+<p><span style="color: red;">This is NOT a DOFPro video.</span><br> <strong>Integrals and Derivatives Part 1</strong><br><em>Propagating errors or uncertainties through numerical integrals and derivatives</em><br><a href="https://youtu.be/_0AcGK7asfM">Video</a>, <a href="./basics/stats/ErrorPropagationVideoInfoWebPage.html">Info Page</a></p>
+<p><span style="color: red;">This is NOT a DOFPro video.</span><br> <strong>Integrals and Derivatives Part 2</strong><br><em>More propagating errors or uncertainties through numerical integrals and derivatives</em><br><a href="https://youtu.be/ej9O5ncO1iw">Video</a>, <a href="./basics/stats/ErrorPropagationVideoInfoWebPage.html">Info Page</a></p>
+<p><strong>Nonlinear Regression</strong><br><em>Derivation/explanation of nonlinear regression</em><br><a href="https://youtu.be/aE4W-JYnGgQ">Video</a>, <a href="./basics/stats/NonlinearRegressionVideoInfoWebPage.html">Info Page</a></p>
+</section>
+<section id="dwsim" class="level2">
+<h2 class="anchored" data-anchor-id="dwsim">DWSIM</h2>
+<p><strong>Using DWSIM to Create Binary Phase Diagrams</strong><br><em>DWSIM, Binary Phase Diagrams</em><br><a href="https://youtu.be/5NUchIg8q7E">Video</a>, <a href="./balances/material/DWSIMBinaryPhaseVideoInfoWebPage.html">Info Page</a></p>
+<p><strong>Modeling the Rankine Cycle in DWSIM</strong><br><em>Modeling the Rankine Cycle in DWSIM</em><br><a href="https://youtu.be/ECOWIrzvGNc">Video</a>, <a href="./balances/entropy/RankineCycleInfoWebPage.html">Info Page</a></p>
+<p><strong>Modeling the Vapor Compression Cycle in DWSIM</strong><br><em>Modeling the Vapor Compression Cycle in DWSIM</em><br><a href="https://youtu.be/nWOz-Y7XsbQ">Video</a>, <a href="./balances/entropy/TheVaporCompressionCycleVideoWebPage.html">Info Page</a></p>
 
 
 </section>

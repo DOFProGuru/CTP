@@ -192,7 +192,7 @@
 <p>In general, an iterative solution is required. With a spreadsheet, the easiest method is to guess a temperature <span class="math inline">\(T_\mathrm{guess}\)</span>.</p>
 </div>
 <div class="fragment">
-<p>Calculate all of the vapor pressures from the Antoine equation, <strong>?@eq-BP1</strong>,</p>
+<p>Calculate all of the vapor pressures from the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;11</a>,</p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
@@ -216,7 +216,7 @@ P_\mathrm{guess} = \sum_{i=1}^{N} x_{i}p_{i}^{*}
 <p>Have <em>Goal Seek</em> set the difference to 0 by varying <span class="math inline">\(T_\mathrm{guess}\)</span>.</p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(T_\mathrm{guess}\)</span> is now the correct temperature. You can calculate the <span class="math inline">\(y_i\)</span>’s from Raoult’s law, <strong>?@eq-DP2</strong>,</p>
+<p><span class="math inline">\(T_\mathrm{guess}\)</span> is now the correct temperature. You can calculate the <span class="math inline">\(y_i\)</span>’s from Raoult’s law, <a href="#/eq-DP2" class="quarto-xref">Equation&nbsp;12</a>,</p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
@@ -224,12 +224,12 @@ y_{i} = \frac{x_{i}p_{i}^{*}}{P}\ \ \ (i=1,2,3,...,N)
 \]</span></p>
 </div>
 <div class="fragment">
-<p><strong>Alternate Method:</strong> In a spreadsheet, guess a <span class="math inline">\(T\)</span>. For one component calculate <span class="math inline">\(p_{k}^{*}\)</span> from <a href="#/eq-BT5" class="quarto-xref">Equation&nbsp;3</a> and calculate <span class="math inline">\(p_{i}^{*}\)</span> from the Antoine equation, <strong>?@eq-BP1</strong>. Set a cell as the error between the two and goal seek to set that cell to <span class="math inline">\(0\)</span> by varying <span class="math inline">\(T\)</span>.</p>
+<p><strong>Alternate Method:</strong> In a spreadsheet, guess a <span class="math inline">\(T\)</span>. For one component calculate <span class="math inline">\(p_{k}^{*}\)</span> from <a href="#/eq-BT5" class="quarto-xref">Equation&nbsp;3</a> and calculate <span class="math inline">\(p_{i}^{*}\)</span> from the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;11</a>. Set a cell as the error between the two and goal seek to set that cell to <span class="math inline">\(0\)</span> by varying <span class="math inline">\(T\)</span>.</p>
 </div>
 </div>
 <div style="font-size: 85px;">
 <div class="fragment">
-<p><br><strong>Note:</strong> For a two-component system, if you are determining the <span class="math inline">\(y_i\)</span>’s as a function of <span class="math inline">\(T\)</span> at constant <span class="math inline">\(P\)</span>, you don’t need to iterate. Choose values of <span class="math inline">\(T\)</span> between <span class="math inline">\(T_\mathrm{b1}\)</span> and <span class="math inline">\(T_\mathrm{b2}\)</span>, and calculate the <span class="math inline">\(y_i\)</span>’s using the Antoine equation, <strong>?@eq-BP1</strong> and Raoult’s law, <strong>?@eq-DP2</strong>.</p>
+<p><br><strong>Note:</strong> For a two-component system, if you are determining the <span class="math inline">\(y_i\)</span>’s as a function of <span class="math inline">\(T\)</span> at constant <span class="math inline">\(P\)</span>, you don’t need to iterate. Choose values of <span class="math inline">\(T\)</span> between <span class="math inline">\(T_\mathrm{b1}\)</span> and <span class="math inline">\(T_\mathrm{b2}\)</span>, and calculate the <span class="math inline">\(y_i\)</span>’s using the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;11</a> and Raoult’s law, <a href="#/eq-DP2" class="quarto-xref">Equation&nbsp;12</a>.</p>
 </div>
 </div>
 </section>
@@ -260,7 +260,7 @@ p_{k}^{*} = \frac{P}{\sum\limits_{i=1}^{N} x_{i} \alpha_{ik}}
 </section>
 <section class="slide level2">
 
-<p>If the vapor pressures are related by the Antoine equation, <strong>?@eq-BP1</strong>:</p>
+<p>If the vapor pressures are related by the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;11</a>:</p>
 <div class="fragment">
 <p><span class="math display">\[
 \log_{10} p^* = A - \frac{B}{T + C}
@@ -292,7 +292,7 @@ T_1 = \frac{B_k} {A_{k} - \log_{10} p_{k}^{*} - C_{k}}
 \tag{7}\]</span></span></p>
 </div>
 <div class="fragment">
-<p>The iteration is repeated until <span class="math inline">\(T\)</span> doesn’t change much from one iteration to the next. The Antoine equation, <strong>?@eq-BP1</strong> is then used to calculate all <span class="math inline">\(p_i^*\)</span>, then use Raoult’s law, <strong>?@eq-DP2</strong> to calculate the <span class="math inline">\(y_i\)</span>’s.</p>
+<p>The iteration is repeated until <span class="math inline">\(T\)</span> doesn’t change much from one iteration to the next. The Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;11</a> is then used to calculate all <span class="math inline">\(p_i^*\)</span>, then use Raoult’s law, <a href="#/eq-DP2" class="quarto-xref">Equation&nbsp;12</a> to calculate the <span class="math inline">\(y_i\)</span>’s.</p>
 </div>
 </section>
 <section id="dew-t" class="slide level2">
@@ -302,7 +302,7 @@ T_1 = \frac{B_k} {A_{k} - \log_{10} p_{k}^{*} - C_{k}}
 <p>In general, an iterative solution very similar to BUBL T is required. With a spreadsheet, the easiest method is to guess a temperature <span class="math inline">\(T_\mathrm{guess}\)</span> .</p>
 </div>
 <div class="fragment">
-<p>Calculate all of the vapor pressures, <span class="math inline">\(p_i^*\)</span>’s, from the Antoine equation, <strong>?@eq-BP1</strong></p>
+<p>Calculate all of the vapor pressures, <span class="math inline">\(p_i^*\)</span>’s, from the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;11</a></p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
@@ -310,7 +310,7 @@ P_{i}^{*} = 10 ^ {A - \frac{B_i}{T+C_i}}\ \ \ (i = 1, 2, 3, ..., N)
 \]</span></p>
 </div>
 <div class="fragment">
-<p>Then calculate the pressure from the guessed temperature using <strong>?@eq-DP5</strong>,</p>
+<p>Then calculate the pressure from the guessed temperature using <a href="#/eq-DP5" class="quarto-xref">Equation&nbsp;13</a>,</p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
@@ -325,7 +325,7 @@ P_\mathrm{guess} = \frac{1}{\sum\limits_{i=1}^{N}\frac{y_i}{p_{i}^{*}}}
 <p>Have Goal Seek set the difference to <span class="math inline">\(0\)</span> by varying <span class="math inline">\(T_\mathrm{guess}\)</span>.</p>
 </div>
 <div class="fragment">
-<p><span class="math inline">\(T_\mathrm{guess}\)</span> is now the correct temperature. You can calculate the <span class="math inline">\(x_i\)</span>’s from Raoult’s law, <strong>?@eq-DP2</strong>,</p>
+<p><span class="math inline">\(T_\mathrm{guess}\)</span> is now the correct temperature. You can calculate the <span class="math inline">\(x_i\)</span>’s from Raoult’s law, <a href="#/eq-DP2" class="quarto-xref">Equation&nbsp;12</a>,</p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
@@ -333,7 +333,7 @@ x_i = \frac{y_{i} P} {p_{i}^{*}}\ \ \ (i = 1,2,3, ..., N)
 \]</span></p>
 </div>
 <div class="fragment">
-<p><strong>Alternate Method</strong>: As before, in a spreadsheet, guess a <span class="math inline">\(T\)</span>. For one component calculate <span class="math inline">\(p_{k}^{*}\)</span> from <a href="#/eq-DT5" class="quarto-xref">Equation&nbsp;9</a> and calculate <span class="math inline">\(p_{i}^{*}\)</span> from the Antoine equation, <strong>?@eq-BP1</strong>. Set a cell as the error between the two and goal seek to set that cell to 0 by varying <span class="math inline">\(T\)</span>.</p>
+<p><strong>Alternate Method</strong>: As before, in a spreadsheet, guess a <span class="math inline">\(T\)</span>. For one component calculate <span class="math inline">\(p_{k}^{*}\)</span> from <a href="#/eq-DT5" class="quarto-xref">Equation&nbsp;9</a> and calculate <span class="math inline">\(p_{i}^{*}\)</span> from the Antoine equation, <a href="#/eq-BP1" class="quarto-xref">Equation&nbsp;11</a>. Set a cell as the error between the two and goal seek to set that cell to 0 by varying <span class="math inline">\(T\)</span>.</p>
 </div>
 </section>
 <section class="slide level2">
@@ -373,7 +373,7 @@ T_1 = \frac{B_k}{A_k - \log_{10} p_{k}^{*}} - C_k
 \]</span></p>
 </div>
 <div class="fragment">
-<p>After convergence we evaluate the <span class="math inline">\(x_i\)</span>’s from Raoult’s law, <strong>?@eq-DP2</strong>:</p>
+<p>After convergence we evaluate the <span class="math inline">\(x_i\)</span>’s from Raoult’s law, <a href="#/eq-DP2" class="quarto-xref">Equation&nbsp;12</a>:</p>
 </div>
 <div class="fragment">
 <p><span class="math display">\[
@@ -389,9 +389,6 @@ x_i = \frac {y_{i}P}{p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N)
 <li class="fragment">The five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.</li>
 <li class="fragment">However, flash calculations for binary mixtures are relatively straightforward.</li>
 </ol>
-</section>
-<section class="slide level2">
-
 </section></section>
 <section>
 <section id="section" class="title-slide slide level1 center">
@@ -401,8 +398,18 @@ x_i = \frac {y_{i}P}{p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N)
 </div>
 <p><img data-src="../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png" class="absolute" style="top: 100%; left: 20%; "></p>
 </section>
-<section class="slide level2">
-
+<section id="equations-for-cross-references" class="slide level2">
+<h2>Equations for cross references</h2>
+<p>The originals are found in the <a href="../../balances/material/74-Visuals.html">Visuals for Part 1</a></p>
+<p><span id="eq-BP1"><span class="math display">\[
+p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}
+\tag{11}\]</span></span></p>
+<p><span id="eq-DP2"><span class="math display">\[
+x_{i} = \frac{y_{i} P} {p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N).
+\tag{12}\]</span></span></p>
+<p><span id="eq-DP5"><span class="math display">\[
+P = \frac {1} {\sum\limits_{i=i}^{N}\frac{y_i} {p_{i}^{*}}}
+\tag{13}\]</span></span></p>
 
 
 </section></section>

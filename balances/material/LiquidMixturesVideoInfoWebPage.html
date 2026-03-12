@@ -8,7 +8,7 @@
 
 <meta name="author" content="DOFPro group">
 
-<title>Alcohol and Water DO Mix! (Liquid Mixture Densities) Reference Page – Chemical and Thermal Processes</title>
+<title>Liquid Mixture Densities Reference Page Alcohol and Water DO Mix! – Chemical and Thermal Processes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -196,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#intro-to-alcohol-and-water-do-mix" id="toc-intro-to-alcohol-and-water-do-mix" class="nav-link active" data-scroll-target="#intro-to-alcohol-and-water-do-mix">Intro to <em>Alcohol and Water DO Mix!</em></a>
+  <li><a href="#intro-to-liquid-mixture-densities" id="toc-intro-to-liquid-mixture-densities" class="nav-link active" data-scroll-target="#intro-to-liquid-mixture-densities">Intro to Liquid Mixture Densities</a>
   <ul class="collapse">
   <li><a href="#alcohol-and-water-do-mix" id="toc-alcohol-and-water-do-mix" class="nav-link" data-scroll-target="#alcohol-and-water-do-mix">Alcohol and Water DO Mix!</a></li>
   </ul></li>
@@ -208,7 +237,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links-and-videos" id="toc-other-links-and-videos" class="nav-link" data-scroll-target="#other-links-and-videos">Other Links and Videos</a>
   <ul class="collapse">
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
-  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a></li>
+  <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
+  <ul class="collapse">
+  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
+  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
+  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
+  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -218,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><em>Alcohol and Water DO Mix!</em> (Liquid Mixture Densities) Reference Page</h1>
+<h1 class="title">Liquid Mixture Densities Reference Page<br><em>Alcohol and Water DO Mix!</em></h1>
 </div>
 
 
@@ -254,15 +289,15 @@ ul.task-list li input[type="checkbox"] {
 <p>This web page is just a bare outline. The complete details have not been filled in yet.</p>
 </div>
 </div>
-<section id="intro-to-alcohol-and-water-do-mix" class="level1">
-<h1>Intro to <em>Alcohol and Water DO Mix!</em></h1>
+<section id="intro-to-liquid-mixture-densities" class="level1">
+<h1>Intro to Liquid Mixture Densities</h1>
 <p>Main title explanation</p>
 <section id="alcohol-and-water-do-mix" class="level2">
 <h2 class="anchored" data-anchor-id="alcohol-and-water-do-mix">Alcohol and Water DO Mix!</h2>
 <p>Video 1 explanation</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_tjYMjWR4fE?si=m40rvQudtzU1_KiW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a>, <a href="../../NotYetHere.html">Transcript</a></p>
+<p><a href="../../balances/material/61-LiqSolDenJTFVisuals.html">Visuals</a></p>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
@@ -272,6 +307,32 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<dl>
+<dt>Liquid Mixture</dt>
+<dd>
+A liquid mixture is a homogeneous combination of two or more liquids that are completely miscible with each other. The properties of a liquid mixture, such as density, viscosity, and boiling point, can differ from those of the individual components due to interactions between the molecules of the different liquids. Examples of liquid mixtures include alcohol and water and various solvent mixtures used in chemical processes.
+</dd>
+<dt>Volume Expansivity</dt>
+<dd>
+A measure of how much the volume of a liquid mixture changes with temperature. It is defined as the fractional change in volume per unit change in temperature at constant pressure. The volume expansivity of a liquid mixture can be influenced by the composition of the mixture and the interactions between the different components, and it is an important property to consider in processes that involve temperature changes, such as heating or cooling.
+</dd>
+<dt>Isothermal Compressibility</dt>
+<dd>
+A measure of how much the volume of a liquid mixture changes with pressure at constant temperature. It is defined as the fractional change in volume per unit change in pressure at constant temperature. The isothermal compressibility of a liquid mixture can be influenced by the composition of the mixture and the interactions between the different components, and it is an important property to consider in processes that involve pressure changes, such as pumping or compression.
+</dd>
+<dt>Ideal Mixture</dt>
+<dd>
+An ideal mixture is a theoretical concept in which the properties of the mixture can be predicted based on the properties of the individual components and their proportions in the mixture. In an ideal mixture, the interactions between the different components are assumed to be negligible, and the properties of the mixture can be calculated using simple weighted averages of the properties of the individual components.
+</dd>
+<dt>Volume Additivity</dt>
+<dd>
+The principle that the total volume of a liquid mixture is equal to the sum of the volumes of the individual components before mixing. It holds for an ideal mixture.
+</dd>
+<dt>Density Averaging</dt>
+<dd>
+The process of calculating the density of a liquid mixture as the sum of the individual densities times their mass fractions. This is an approximation that can be used for non-ideal mixtures, but it may not always yield accurate results due to interactions between the components of the mixture.
+</dd>
+</dl>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -281,8 +342,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
+<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
+<p><strong>Flame On, Torch!</strong><br><em>Combustion reactions</em><br><a href="https://youtu.be/G2sKW_6N2BA">Video</a>, <a href="../../balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/59-CombRxnsPart1Visuals.html">Visuals</a></p>
+</section>
+<section id="the-previous-video-i.e.-one-video-back" class="level3">
+<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
+<p><strong>A Combustible Mixture!</strong><br><em>Sample combustion reactions</em><br><a href="https://youtu.be/hvIk-evMp88">Video</a>, <a href="../../balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/60-CombRxnsPart2Visuals.html">Visuals</a></p>
+</section>
+<section id="the-next-video-i.e.-one-video-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
+<p><strong>Ideal Gases EXPOSED: Are They Even Real?!!</strong><br><em>Basics of <span class="math inline">\(P V = n R T\)</span></em><br><a href="https://youtu.be/L-DEw6dGRps">Video</a>, <a href="../../balances/material/IdealAndRealGasesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/62-IdealGasVisuals.html">Visuals</a></p>
+</section>
+<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
+<p><strong>When Getting Gassed Isn’t Ideal, Part 1</strong><br><em>Real gas intro</em><br><a href="https://youtu.be/1sU4_YdcKr4">Video</a>, <a href="../../balances/material/IdealAndRealGasesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/63-Visuals.html">Visuals</a></p>
 
 
+</section>
 </section>
 </section>
 
