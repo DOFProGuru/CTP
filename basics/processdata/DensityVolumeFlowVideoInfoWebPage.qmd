@@ -1,5 +1,5 @@
 ---
-title: "*Are You Dense? Crank Up the Volume and Go With the Flow!* (Density, Volume, and Flow Rates) Reference Page"
+title: "Density, Volume, Flow Rates Reference Page<br/>*Are You Dense? Crank Up the Volume and Go With the Flow!*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -16,14 +16,14 @@ Main title explanation
 JTF explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AFZWZSJ96g8?si=W2FzFz7msSm1ApBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](VolumeDensityFlowRateJTFVisuals.qmd)
 
 ## The Full Story
 
 TFS  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2-EWSUW4BJU?si=G3SZCCLaGoTAq0s8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](VolumeDensityFlowRateTFSVisuals.qmd)
 
 # Examples and Definitions
 

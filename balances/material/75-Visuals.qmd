@@ -327,7 +327,6 @@ $$
 3. The five classes of calculations from easiest to hardest are: Bubble P, Dew P, Bubble T, Dew T, and Flash.
 4. However, flash calculations for binary mixtures are relatively straightforward.
 
----
 
 #
 
@@ -337,4 +336,18 @@ $$
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
 
----
+## Equations for cross references
+
+The originals are found in the [Visuals for Part 1](74-Visuals.qmd)
+
+$$
+p_{i}^{*} = 10^{A_{i} - \frac{B_i}{T+C_i}}
+$$ {#eq-BP1}
+
+$$
+x_{i} = \frac{y_{i} P} {p_{i}^{*}}\ \ \ (i = 1, 2, 3, ..., N).
+$$ {#eq-DP2}
+
+$$
+P = \frac {1} {\sum\limits_{i=i}^{N}\frac{y_i} {p_{i}^{*}}}
+$$ {#eq-DP5}

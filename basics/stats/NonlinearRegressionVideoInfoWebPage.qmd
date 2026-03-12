@@ -7,6 +7,7 @@ html-math-method: mathjax
 ::: {.callout-important title="Still Under Construction!"}
 This web page is just a bare outline. The complete details have not been filled in yet.
 :::
+
 # Intro to *Why Nonlinear Regression?*
 
 Main title explanation
@@ -28,7 +29,7 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aE4W-JYnGgQ?si=zsWsxY-07reZN6hD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+
 
 <!-- ## Nonlinear Regression with a Spreadsheet
 

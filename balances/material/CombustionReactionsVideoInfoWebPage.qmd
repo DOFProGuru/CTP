@@ -1,5 +1,5 @@
 ---
-title: "*Combustion Reactions* Reference Page"
+title: "Combustion Reactions Reference Page"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -7,7 +7,7 @@ html-math-method: mathjax
 ::: {.callout-important title="Still Under Construction!"}
 This web page is just a bare outline. The complete details have not been filled in yet.
 :::
-# Intro to *Combustion Reactions*
+# Intro to Combustion Reactions
 
 Main title explanation
 
@@ -16,20 +16,20 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G2sKW_6N2BA?si=7T9_3U_zbxZOFZn2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](59-CombRxnsPart1Visuals.qmd)
 
 ## A Combustible Mixture!
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hvIk-evMp88?si=pqsFafD52C37SRNC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](60-CombRxnsPart2Visuals.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
-- [Combustion Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/CombustionExample.ods)
+- [Combustion Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/CombustionExample.ods) – A spreadsheet with the example calculations from *A Combustible Mixture!* The spreadsheet is reused in *React Hard* and *React Harder*.
 
 ## Definitions
 

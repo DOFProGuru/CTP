@@ -327,3 +327,16 @@ $T$ vs. $x_1$ and $T$ vs. $y_1$ for a pressure of 1 bar.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}
+
+
+## Equations for cross references
+
+The originals are found in the [Visuals for Part 1](74-Visuals.qmd)
+
+$$
+P =  \sum_{n=1}^{N} x_{i}p_{i}^{*}
+$$ {#eq-BP3}
+
+$$
+P = \frac {1} {\sum\limits_{i=i}^{N}\frac{y_i} {p_{i}^{*}}}
+$$ {#eq-DP5}

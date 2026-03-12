@@ -1,5 +1,5 @@
 ---
-title: "*Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right!* (Reading Phase Diagrams) Reference Page"
+title: "Reading Phase Diagrams Reference Page<br/>*Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right!* "
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -16,14 +16,14 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NUS4Y_pnWZk?si=As2g0ermI338GBaa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](70-IntroMultiphasePart1Visuals.qmd)
 
 ## Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QBREikNSvGI?si=SyJVNz-QI7cnDjpa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](71-IntroMultiphasePart2Visuals.qmd)
 
 # Examples and Definitions
 

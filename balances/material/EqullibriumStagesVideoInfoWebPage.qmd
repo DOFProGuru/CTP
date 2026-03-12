@@ -1,5 +1,5 @@
 ---
-title: "*The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong?* (Equilibrium Separation Stages) Reference Page"
+title: "Equilibrium Separation Stages Reference Page<br/>*The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong?*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -16,28 +16,28 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bY9fl5DJzmk?si=brE9cHtUxJxGpBno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](85-EquilibriumSeparationStages1Visuals.qmd)
 
 ## Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wc6gv7lNtI0?si=NNrEaQFVhE5Cmw1t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](86-EquilibriumSeparationStages2Visuals.qmd)
 
 ## Part 3
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jcChVoELvFo?si=PusFY_zjmwddEeSb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](86.5-EquilibriumSeparationStages3Visuals.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
-- [Hexane, Heptane, Octane Equilibrium Stage Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/HexHeptOctEqStage.ods)
-- [Liquid-Liquid Extraction Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/Example3LiqLiqExtact.ods)
+- [Hexane, Heptane, Octane Equilibrium Stage Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/HexHeptOctEqStage.ods) – A spreadsheet with the three-component Raoult's law calculation from Part 2
+- [Liquid-Liquid Extraction Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/Example3LiqLiqExtact.ods) – A spreadsheet with the liquid-liquid extraction calculation from Part 3
 
 ## Definitions
 

@@ -7,6 +7,15 @@ html-math-method: mathjax
 ::: {.callout-important title="Still Under Construction!"}
 This web page is just a bare outline. The complete details have not been filled in yet.
 :::
+
+# Key to the Videos and Links
+
+- **JTF (Just the Facts)** videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think “efficient and to the point.” Each has a companion TFS video.
+- **TFS (The Full Story)** videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.
+- **Info Page** links lead to definitions, expanded explanations, and related material—because sometimes you really do need to explain it.
+- **Visuals** links contain the underlying greenscreen or whiteboard materials used in the video, for those who like to see the scaffolding.
+- Wondering about the titles? See Appendix B: [**If you have to explain it, it’s no longer funny**](../../appx/NotFunny.qmd)￼.
+
 # Intro to Using Spreadsheets in Chemical Engineering
 
 Main title explanation
@@ -43,11 +52,11 @@ Video  explanation
 
 ## Examples Links
 
-- [Guide to Spreadsheets Template](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/GuideToSpreadsheets.ods)
-- [Guide to Spreadsheets Solutions](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/SolutionGuideToSpreadsheets.ods)
-- [Data Fitting (Quickie) Template](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/DataFittingTemplate.ods)
-- [Data Fitting (Quickie) Solutions](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/DataFittingSolution.ods)
-- [Nonlinear Roots Demo](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/NonlinearRootDemoForPosting.ods)
+- [Guide to Spreadsheets Template](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/GuideToSpreadsheets.ods) – A spreadsheet with the data but not the solution from the Unauthorized Guide video
+- [Guide to Spreadsheets Solutions](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/SolutionGuideToSpreadsheets.ods) – A spreadsheet with the data but not the solution from the Unauthorized Guide video
+- [Data Fitting (Quickie) Template](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/DataFittingTemplate.ods) - A spreadsheet with the data but not the solution from the Quickie Data video
+- [Data Fitting (Quickie) Solutions](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/DataFittingSolution.ods) - A spreadsheet with the data but not the solution from the Quickie Data video
+- [Nonlinear Roots Demo](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/NonlinearRootDemoForPosting.ods) – A spreadsheet for doing the calculations in the Nonlinear Roots video
 
 ## Definitions
 

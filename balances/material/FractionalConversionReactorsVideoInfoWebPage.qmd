@@ -1,5 +1,5 @@
 ---
-title: "*When You Saw It, What Was the Extent of Your Reaction?* (Fractional-Conversion and Extent-of-Reaction Reactors) Reference Page"
+title: "Fractional-Conversion and Extent-of-Reaction Reactors Reference Page<br/>*When You Saw It, What Was the Extent of Your Reaction?*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -16,21 +16,21 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HKYYp5UxwpA?si=JglGKTWhKhMGefy2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](41-UnitOpsReactPart1Visuals.qmd)
 
 ## Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XmLXR_KOZMk?si=TpAOboYR3Is11NBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](42-UnitOpsReactPart2Visuals.qmd)
 
 ## Part 3
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PPi-ka3iRvI?si=vu4qzloJBAQz4LzO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](42.5-UnitOpsReactPart3Visuals.qmd)
 
 # Examples and Definitions
 
@@ -41,16 +41,16 @@ Video  explanation
 Chemical Reaction
 : A process in which one or more substances (reactants) are transformed into one or more different substances (products) through the breaking and forming of chemical bonds. Chemical reactions involve the rearrangement of atoms and can be classified into various types, such as synthesis, decomposition, single replacement, and double replacement reactions. The progress of a chemical reaction can be quantified using parameters like extent of reaction, fractional conversion, yield, and selectivity.
 
-[Stoichiometric Coefficients](https://en.wikipedia.org/wiki/Stoichiometry)
-: The numerical values that represent the relative amounts of reactants and products in a balanced chemical equation. Stoichiometric coefficients indicate the proportion of each substance involved in the reaction and are used to calculate the extent of reaction, fractional conversion, yield, and selectivity. For example, in the reaction A + 2B → C, the stoichiometric coefficients are negative 1 for A, negative 2 for B, and 1 for C.
+[Stoichiometric Coefficients](https://en.wikipedia.org/wiki/Stoichiometry), $\nu_i$
+: The numerical values that represent the relative amounts of reactants and products in a balanced chemical equation. Stoichiometric coefficients indicate the proportion of each substance involved in the reaction and are used to calculate the extent of reaction, fractional conversion, yield, and selectivity. For example, in the reaction $\mathrm{A + 2B \rightarrow C}$, the stoichiometric coefficients are negative 1 for $\mathrm{A}$, negative 2 for $\mathrm{B}$, and 1 for $\mathrm{C}$.
 
-[Extent of Reaction](https://en.wikipedia.org/wiki/Extent_of_reaction)
-: A measure of the progress of a chemical reaction, defined as the ratio of the amount of reactant that has been converted to product to the total amount of reactant initially present. It is often denoted by the symbol ξ (xi) and can be used to determine the composition of the reaction mixture at any given time.
+[Extent of Reaction](https://en.wikipedia.org/wiki/Extent_of_reaction), $\xi$, $\dot{\xi}$
+: A measure of the progress of a chemical reaction, defined as the ratio of the amount of reactant that has been converted to product to the total amount of reactant initially present. It is often denoted by the symbol $\xi$ (xi) and can be used to determine the composition of the reaction mixture at any given time.
 
-Fractional Conversion
-: The fraction of the initial amount of a reactant that has been converted to product in a chemical reaction. It is calculated as the amount of reactant converted divided by the initial amount of reactant, and is often denoted by the symbol *f*. Fractional conversion is a key parameter in chemical reaction engineering, as it helps to determine the efficiency of a reaction and the design of reactors.
+Fractional Conversion, $f$
+: The fraction of the initial amount of a reactant that has been converted to product in a chemical reaction. It is calculated as the amount of reactant converted divided by the initial amount of reactant, and is often denoted by the symbol $f$. Fractional conversion is a key parameter in chemical reaction engineering, as it helps to determine the efficiency of a reaction and the design of reactors.
 
-Yield
+Yield, $Y$
 : The amount of product obtained from a chemical reaction relative to the theoretical maximum amount that could be produced based on the initial amount of reactant. Yield is often expressed as a percentage and is calculated as the actual amount of product obtained divided by the theoretical maximum amount, multiplied by 100. Yield is an important metric in chemical engineering, as it indicates the efficiency of a reaction and can be used to optimize reaction conditions and reactor design.
 
 Selectivity

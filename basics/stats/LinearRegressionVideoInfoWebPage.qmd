@@ -1,5 +1,5 @@
 ---
-title: "*Out of Line? Here’s How Linear Regression Puts Your Data Back on Track* Reference Page"
+title: "Linear Regression Reference Page"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -28,7 +28,7 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HsZhQyhg0tk?si=khG-ExxITlyDZv2X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+
 
 <!-- ## Linear Regression with a Spreadsheet
 
@@ -47,7 +47,7 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 Video 4 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7LBI7Ea2sx0?si=17h2A3_VYqxqlO3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+
 
 <!-- ## Linear Regression in Python
 
@@ -66,7 +66,7 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 Video 6 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TjqNTjCIuhE?si=pQOsRTh4pHKL5hDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+
 
 ## Linear Regression in R
 

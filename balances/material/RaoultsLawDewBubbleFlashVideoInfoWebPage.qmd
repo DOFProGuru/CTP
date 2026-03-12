@@ -1,5 +1,5 @@
 ---
-title: "*Dew Your Bubbles Have Flash?* (Raoult's Law, Dew Point, Bubble Point, Flash Calculations) Reference Page"
+title: "Raoult's Law, Dew Point, Bubble Point, and Flash Calculations Reference Page<br/>*Dew Your Bubbles Have Flash?*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
@@ -16,21 +16,21 @@ Main title explanation
 Video 1 explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R4bimpGAV7o?si=IFTJpCzdfwOmqsIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](74-Visuals.qmd)
 
 ## Part 2
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9GyrfJzg-tg?si=tIbrZXZORXHYH_B2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](75-Visuals.qmd)
 
 ## Part 3
 
 Video  explanation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bG15qQ9gB4c?si=V6SC6uhwQXHIlHKt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+[Visuals](75.5-Visuals.qmd)
 
 # Examples and Definitions
 
