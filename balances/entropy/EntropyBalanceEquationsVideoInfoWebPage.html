@@ -8,7 +8,7 @@
 
 <meta name="author" content="DOFPro group">
 
-<title>How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)? Reference Page – Chemical and Thermal Processes</title>
+<title>Entropy Balances Reference Page How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)? – Chemical and Thermal Processes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -196,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#intro-to-how-much-entropy-can-you-balance-on-the-head-of-a-pin-or-in-an-open-steady-state-system" id="toc-intro-to-how-much-entropy-can-you-balance-on-the-head-of-a-pin-or-in-an-open-steady-state-system" class="nav-link active" data-scroll-target="#intro-to-how-much-entropy-can-you-balance-on-the-head-of-a-pin-or-in-an-open-steady-state-system">Intro to <em>How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?</em></a>
+  <li><a href="#intro-to-entropy-balances" id="toc-intro-to-entropy-balances" class="nav-link active" data-scroll-target="#intro-to-entropy-balances">Intro to Entropy Balances</a>
   <ul class="collapse">
   <li><a href="#how-much-entropy-can-you-balance-on-the-head-of-a-pin-or-in-an-open-steady-state-system" id="toc-how-much-entropy-can-you-balance-on-the-head-of-a-pin-or-in-an-open-steady-state-system" class="nav-link" data-scroll-target="#how-much-entropy-can-you-balance-on-the-head-of-a-pin-or-in-an-open-steady-state-system">How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?</a></li>
   </ul></li>
@@ -210,10 +239,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
   <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
   <ul class="collapse">
-  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
-  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
-  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
-  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  <li><a href="#two-videos-back" id="toc-two-videos-back" class="nav-link" data-scroll-target="#two-videos-back">Two videos back</a></li>
+  <li><a href="#previous-video" id="toc-previous-video" class="nav-link" data-scroll-target="#previous-video">Previous video</a></li>
+  <li><a href="#next-video" id="toc-next-video" class="nav-link" data-scroll-target="#next-video">Next video</a></li>
+  <li><a href="#two-videos-forward" id="toc-two-videos-forward" class="nav-link" data-scroll-target="#two-videos-forward">Two videos forward</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -224,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><em>How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?</em> Reference Page</h1>
+<h1 class="title">Entropy Balances Reference Page<br><em>How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?</em></h1>
 </div>
 
 
@@ -247,28 +276,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled" title="Still Under Construction!">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Still Under Construction!
+<span class="screen-reader-only">Note</span>How to Read Video Descriptions and Links
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>This web page is just a bare outline. The complete details have not been filled in yet.</p>
+<ul>
+<li><strong>Video</strong> links go directly to the YouTube video.</li>
+<li><strong>JTF (Just the Facts)</strong> videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think <em>efficient and to the point</em>. Each has a companion TFS video.</li>
+<li><strong>TFS (The Full Story)</strong> videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.</li>
+<li><strong>Info Page</strong> links lead to definitions, expanded explanations, and related material—because sometimes you really do need to explain it.</li>
+<li><strong>Visuals</strong> links contain the greenscreen or whiteboard materials used in the video, for those who like to see the scaffolding.</li>
+<li>Wondering about the titles? See Appendix B: <a href="../../appx/NotFunny.html"><strong>If you have to explain it, it’s no longer funny</strong></a>.</li>
+<li>Videos marked <span style="color: red;">This is NOT a DOFPro video</span> were not produced by DOFPro but are included because they are relevant to the topic. They are shown in red so no one calls the academic integrity police.</li>
+</ul>
 </div>
 </div>
-<section id="intro-to-how-much-entropy-can-you-balance-on-the-head-of-a-pin-or-in-an-open-steady-state-system" class="level1">
-<h1>Intro to <em>How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?</em></h1>
-<p>How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)? explanation</p>
+</div>
+<section id="intro-to-entropy-balances" class="level1">
+<h1>Intro to Entropy Balances</h1>
+<p>The Second Law of Thermodynamics can be written as a <strong>balance equation for entropy</strong>, similar in form to mass and energy balances.</p>
+<p>Entropy balances allow us to determine whether a process is thermodynamically possible and to quantify the <strong>irreversibility</strong> of real processes.</p>
+<p>Entropy balances can be written for <strong>closed systems</strong>, <strong>open steady-state systems</strong>, and <strong>open transient systems</strong>.</p>
 <section id="how-much-entropy-can-you-balance-on-the-head-of-a-pin-or-in-an-open-steady-state-system" class="level2">
 <h2 class="anchored" data-anchor-id="how-much-entropy-can-you-balance-on-the-head-of-a-pin-or-in-an-open-steady-state-system">How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?</h2>
-<p>Video 1 explanation</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QcZTezMtDRk?si=MGD6zoSZ6AMhT6-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<p>This video introduces entropy balance equations and shows how they apply to closed systems, steady-state flow systems, and transient systems.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QcZTezMtDRk?si=MGD6zoSZ6AMhT6-E" title="YouTube video player" frameborder="0" allowfullscreen="">
 </iframe>
-<p><a href="../../NotYetHere.html">Visuals</a></p>
+<p><a href="../../balances/entropy/117-2ndLawSystemsVisuals.html">Visuals</a></p>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
@@ -279,13 +321,51 @@ ul.task-list li input[type="checkbox"] {
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
 <dl>
+<dt>Entropy Balance for a Closed System</dt>
+<dd>
+The entropy balance for a closed system is
+</dd>
+</dl>
+<p><span class="math display">\[
+\Delta S_{\text{system}} - \sum\limits_j \dfrac{Q_j}{T_{\sigma j}} = S_G \geq 0
+\]</span></p>
+<p>where <span class="math inline">\(S_G\)</span> is the entropy generated by irreversibilities within the system.</p>
+<dl>
+<dt>Entropy Balance for an Open Steady-State System</dt>
+<dd>
+For a steady-state control volume,
+</dd>
+</dl>
+<p><span class="math display">\[
+\Delta (\dot{m} \hat{S})_{\text{fs}} - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0
+\]</span></p>
+<dl>
+<dt>Entropy Balance for an Open Transient System</dt>
+<dd>
+For a general control volume,
+</dd>
+</dl>
+<p><span class="math display">\[
+\dfrac{d(m \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0
+\]</span></p>
+<dl>
+<dt>Entropy Generation, <span class="math inline">\(S_G\)</span></dt>
+<dd>
+Entropy produced within a system due to irreversibilities such as friction, mixing, chemical reactions, heat transfer across finite temperature differences, or turbulence.
+</dd>
+</dl>
+<p>The Second Law requires</p>
+<p><span class="math display">\[
+S_G \ge 0
+\]</span></p>
+<dl>
 <dt><a href="https://en.wikipedia.org/wiki/Transient_state">Transient System</a></dt>
 <dd>
-The values of process variables are changing with time.
+A system in which process variables change with time.
 </dd>
 <dt><a href="https://en.wikipedia.org/wiki/Steady_state">Steady State System</a></dt>
 <dd>
-The values of process variables do not change with time but may change with position. (What EE’s call a DC steady state)
+A system in which process variables do not change with time, although they may vary with position. (What electrical engineers call a <strong>DC steady state</strong>.)
 </dd>
 <dt><a href="https://en.wikipedia.org/wiki/Closed_system">Closed or Batch System</a></dt>
 <dd>
@@ -305,21 +385,29 @@ Continually throw stuff in and pull stuff out.
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
-<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
-<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
-<p><strong>Sadi Carnot and the Power of Fire, the 1824 Edition Part 1</strong><br><em>The Air-Standard Carnot Cycle</em><br><a href="https://youtu.be/EDJQAvBIAok">Video</a>, <a href="../../balances/entropy/TheCarnotCycleVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/116-Visuals.html">Visuals</a></p>
+<section id="two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="two-videos-back">Two videos back</h3>
+<p><strong>Sadi Carnot and the Power of Fire, the 1824 Edition Part 1</strong><br>
+<em>The Air-Standard Carnot Cycle</em><br>
+<a href="https://youtu.be/EDJQAvBIAok">Video</a>, <a href="../../balances/entropy/TheCarnotCycleVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/116-Visuals.html">Visuals</a></p>
 </section>
-<section id="the-previous-video-i.e.-one-video-back" class="level3">
-<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
-<p><strong>Sadi Carnot and the Power of Fire, the 1824 Edition Part 2</strong><br><em>The Steam Carnot Cycle</em><br><a href="https://youtu.be/Qc9W1KKpouU">Video</a>, <a href="../../balances/entropy/TheCarnotCycleVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/116.5-Visuals.html">Visuals</a></p>
+<section id="previous-video" class="level3">
+<h3 class="anchored" data-anchor-id="previous-video">Previous video</h3>
+<p><strong>Sadi Carnot and the Power of Fire, the 1824 Edition Part 2</strong><br>
+<em>The Steam Carnot Cycle</em><br>
+<a href="https://youtu.be/Qc9W1KKpouU">Video</a>, <a href="../../balances/entropy/TheCarnotCycleVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/116.5-Visuals.html">Visuals</a></p>
 </section>
-<section id="the-next-video-i.e.-one-video-forward" class="level3">
-<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
-<p><strong>Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans</strong><br><em>Turbines and Expanders, Isentropic and Isothermal Compressors</em><br><a href="https://youtu.be/Pb7PS5oeCz0">Video</a>, <a href="../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/118-TurbCompEtcVisuals.html">Visuals</a></p>
+<section id="next-video" class="level3">
+<h3 class="anchored" data-anchor-id="next-video">Next video</h3>
+<p><strong>Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans</strong><br>
+<em>Turbines and Expanders, Isentropic and Isothermal Compressors</em><br>
+<a href="https://youtu.be/Pb7PS5oeCz0">Video</a>, <a href="../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/118-TurbCompEtcVisuals.html">Visuals</a></p>
 </section>
-<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
-<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
-<p><strong>Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans</strong><br><em>Pumps, Nozzles, and Valves or Throttles</em><br><a href="https://youtu.be/irBfMfVUEFo">Video</a>, <a href="../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/118.5-PumpNozzVisuals.html">Visuals</a></p>
+<section id="two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="two-videos-forward">Two videos forward</h3>
+<p><strong>Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans</strong><br>
+<em>Pumps, Nozzles, and Valves or Throttles</em><br>
+<a href="https://youtu.be/irBfMfVUEFo">Video</a>, <a href="../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/118.5-PumpNozzVisuals.html">Visuals</a></p>
 
 
 </section>

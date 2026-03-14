@@ -8,7 +8,7 @@
 
 <meta name="author" content="DOFPro group">
 
-<title>Entropy Balances or The 2nd Law – Chemical and Thermal Processes</title>
+<title>Exergy or Availability Balances – Chemical and Thermal Processes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -220,34 +191,15 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
-  <ul class="collapse">
-  <li><a href="#nd-law-of-thermodynamics" id="toc-nd-law-of-thermodynamics" class="nav-link" data-scroll-target="#nd-law-of-thermodynamics">2<sup>nd</sup> Law of Thermodynamics</a>
-  <ul class="collapse">
-  <li><a href="#intro" id="toc-intro" class="nav-link" data-scroll-target="#intro">Intro</a></li>
-  <li><a href="#calculating-entropy-changes" id="toc-calculating-entropy-changes" class="nav-link" data-scroll-target="#calculating-entropy-changes">Calculating Entropy Changes</a></li>
-  <li><a href="#the-carnot-engine" id="toc-the-carnot-engine" class="nav-link" data-scroll-target="#the-carnot-engine">The Carnot Engine</a></li>
-  <li><a href="#entropy-balances" id="toc-entropy-balances" class="nav-link" data-scroll-target="#entropy-balances">Entropy Balances</a></li>
-  <li><a href="#turbomachinery-pumps-nozzles-and-valves" id="toc-turbomachinery-pumps-nozzles-and-valves" class="nav-link" data-scroll-target="#turbomachinery-pumps-nozzles-and-valves">Turbomachinery, Pumps, Nozzles, and Valves</a></li>
-  <li><a href="#the-rankine-cycle" id="toc-the-rankine-cycle" class="nav-link" data-scroll-target="#the-rankine-cycle">The Rankine Cycle</a></li>
-  <li><a href="#air-standard-cycles" id="toc-air-standard-cycles" class="nav-link" data-scroll-target="#air-standard-cycles">Air Standard Cycles</a></li>
-  <li><a href="#the-vapor-compression-cycle" id="toc-the-vapor-compression-cycle" class="nav-link" data-scroll-target="#the-vapor-compression-cycle">The Vapor Compression Cycle</a></li>
-  </ul></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Entropy Balances or The 2nd Law</h1>
+<h1 class="title">Exergy or Availability Balances</h1>
 </div>
 
 
@@ -294,63 +246,160 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>The <strong>Second Law of Thermodynamics</strong> introduces directionality into thermodynamics. While the First Law tells us that energy is conserved, the Second Law tells us which processes are possible, which are impossible, and how far real systems fall short of ideal behavior.</p>
-<p>The central concept of the Second Law is <strong>entropy</strong>. Entropy balances are used to quantify irreversibility, determine ideal limits on performance, and analyze the efficiency of turbines, compressors, pumps, power cycles, and refrigeration systems.</p>
-<p>This section begins with the basic statements of the Second Law and then develops the tools needed to apply entropy balances to real engineering systems.</p>
-<section id="nd-law-of-thermodynamics" class="level2">
-<h2 class="anchored" data-anchor-id="nd-law-of-thermodynamics">2<sup>nd</sup> Law of Thermodynamics</h2>
-<section id="intro" class="level3">
-<h3 class="anchored" data-anchor-id="intro"><a href="../../balances/entropy/IntroTo2ndLawVideoInfoWebPage.html">Intro</a></h3>
-<p>This video introduces the Second Law of Thermodynamics, heat engines, entropy, and the basic limitations imposed by irreversibility.</p>
-<p><strong>Resistance is Futile. Entropy Always Wins</strong><br><em>Intro to 2<sup>nd</sup> Law</em><br><a href="https://youtu.be/yqVUz1WA7M4">Video</a>, <a href="../../balances/entropy/IntroTo2ndLawVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/113-Visuals.html">Visuals</a></p>
-</section>
-<section id="calculating-entropy-changes" class="level3">
-<h3 class="anchored" data-anchor-id="calculating-entropy-changes"><a href="../../balances/entropy/CalculatingEntropyChangesVideoInfoWebPage.html">Calculating Entropy Changes</a></h3>
-<p>Once entropy is introduced, the next step is learning how to calculate entropy changes for common substances and processes.</p>
-<p><strong>The ΔS-sentials of Calculating Entropy Changes</strong><br><em>Calculating <span class="math inline">\(\Delta S\)</span> for heat reservoirs, ideal gases, and Steam</em><br><a href="https://youtu.be/z2e5Rq5r288">Video</a>, <a href="../../balances/entropy/CalculatingEntropyChangesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/115-CalcEntropyVisuals.html">Visuals</a></p>
-</section>
-<section id="the-carnot-engine" class="level3">
-<h3 class="anchored" data-anchor-id="the-carnot-engine"><a href="../../balances/entropy/TheCarnotCycleVideoInfoWebPage.html">The Carnot Engine</a></h3>
-<p>The Carnot cycle provides the ideal benchmark for heat-engine performance and shows how the Second Law limits thermal efficiency.</p>
-<p><strong>Sadi Carnot and the Power of Fire, the 1824 Edition Part 1</strong><br><em>The Air-Standard Carnot Cycle</em><br><a href="https://youtu.be/EDJQAvBIAok">Video</a>, <a href="../../balances/entropy/TheCarnotCycleVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/116-Visuals.html">Visuals</a></p>
-<p><strong>Sadi Carnot and the Power of Fire, the 1824 Edition Part 2</strong><br><em>The Steam Carnot Cycle</em><br><a href="https://youtu.be/Qc9W1KKpouU">Video</a>, <a href="../../balances/entropy/TheCarnotCycleVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/116.5-Visuals.html">Visuals</a></p>
-</section>
-<section id="entropy-balances" class="level3">
-<h3 class="anchored" data-anchor-id="entropy-balances"><a href="../../balances/entropy/EntropyBalanceEquationsVideoInfoWebPage.html">Entropy Balances</a></h3>
-<p>These videos develop the entropy balance equations for closed systems, open steady-state systems, and transient systems.</p>
-<p><strong>How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?</strong><br><em>The 2<sup>nd</sup> Law for Closed, Open Steady-State, and Open Transient Systems</em><br><a href="https://youtu.be/QcZTezMtDRk">Video</a>, <a href="../../balances/entropy/EntropyBalanceEquationsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/117-2ndLawSystemsVisuals.html">Visuals</a></p>
-</section>
-<section id="turbomachinery-pumps-nozzles-and-valves" class="level3">
-<h3 class="anchored" data-anchor-id="turbomachinery-pumps-nozzles-and-valves"><a href="../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.html">Turbomachinery, Pumps, Nozzles, and Valves</a></h3>
-<p>Entropy balances become especially useful when evaluating real devices and comparing their performance with ideal, isentropic behavior.</p>
-<p><strong>Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans</strong><br><em>Turbines and Expanders, Isentropic and Isothermal Compressors</em><br><a href="https://youtu.be/Pb7PS5oeCz0">Video</a>, <a href="../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/118-TurbCompEtcVisuals.html">Visuals</a></p>
-<p><strong>Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans</strong><br><em>Pumps, Nozzles, and Valves or Throttles</em><br><a href="https://youtu.be/irBfMfVUEFo">Video</a>, <a href="../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/118.5-PumpNozzVisuals.html">Visuals</a></p>
-</section>
-<section id="the-rankine-cycle" class="level3">
-<h3 class="anchored" data-anchor-id="the-rankine-cycle"><a href="../../balances/entropy/RankineCycleInfoWebPage.html">The Rankine Cycle</a></h3>
-<p>The Rankine cycle is the standard steam power cycle and one of the most important applications of the Second Law in thermal engineering.</p>
-<p><strong>Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1</strong><br><em>The Ideal Rankine Cycle</em><br><a href="https://youtu.be/4QRJ00uyaX8">Video</a>, <a href="../../balances/entropy/RankineCycleInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/119-RankineVisualsPart1.html">Visuals</a></p>
-<p><strong>Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2</strong><br><em>The Rankine Cycle with <span class="math inline">\(\eta_\mathrm{pump}\)</span> and <span class="math inline">\(\eta_\mathrm{turbine}\)</span></em><br><a href="https://youtu.be/0DmsKCJpIdc">Video</a>, <a href="../../balances/entropy/RankineCycleInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/120-RankineVisualsPart2.html">Visuals</a></p>
-<p><strong>Modeling the Rankine Cycle in DWSIM</strong><br><em>Modeling the Rankine Cycle in DWSIM</em><br><a href="https://youtu.be/ECOWIrzvGNc">Video</a>, <a href="../../balances/entropy/RankineCycleInfoWebPage.html">Info Page</a></p>
-</section>
-<section id="air-standard-cycles" class="level3">
-<h3 class="anchored" data-anchor-id="air-standard-cycles"><a href="../../balances/entropy/AirStandardPowerCyclesInfoWebPage.html">Air Standard Cycles</a></h3>
-<p>These videos examine simplified gas power cycles that model engines and turbines using air as the working fluid.</p>
-<p><strong>Cycle Wars: The Power Awakens</strong><br><em>Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle</em><br><a href="https://youtu.be/M_p3gb79isg">Video</a>, <a href="../../balances/entropy/AirStandardPowerCyclesInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/122-AirStandardCyclesPart1Visuals.html">Visuals</a></p>
-<p><strong>Cycle Wars: The Rise of Otto Cycles</strong><br><em>Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, &amp; Stirling Cycles</em><br><a href="https://youtu.be/jJaDQM8qjgU">Video</a>, <a href="../../balances/entropy/AirStandardPowerCyclesInfoWebPage.html">Info Page</a>, <a href="../../balances/entropy/123-AirStandardCyclesPart2Visuals.html">Visuals</a></p>
-</section>
-<section id="the-vapor-compression-cycle" class="level3">
-<h3 class="anchored" data-anchor-id="the-vapor-compression-cycle"><a href="../../balances/entropy/TheVaporCompressionCycleVideoWebPage.html">The Vapor Compression Cycle</a></h3>
-<p>The same thermodynamic ideas used to analyze power cycles also apply to refrigeration and heat-pump cycles.</p>
-<p><strong>Revenge of the Fridge: Vapor Compression Strikes Back</strong><br><em>The Vapor Compression Cycle</em><br><a href="https://youtu.be/SN27SxDt0G4">Video</a>, <a href="../../balances/entropy/TheVaporCompressionCycleVideoWebPage.html">Info Page</a>, <a href="../../balances/entropy/126-RefrigerationVisuals.html">Visuals</a></p>
-<p><strong>Modeling the Vapor Compression Cycle in DWSIM</strong><br><em>Modeling the Vapor Compression Cycle in DWSIM</em><br><a href="https://youtu.be/nWOz-Y7XsbQ">Video</a>, <a href="../../balances/entropy/TheVaporCompressionCycleVideoWebPage.html">Info Page</a></p>
+<!-- 
+# Introduction
+
+The **First Law of Thermodynamics** tells us that energy is conserved.  
+The **Second Law of Thermodynamics** tells us that real processes are irreversible and that entropy is generated.
+
+By **combining the First and Second Laws**, we can determine:
+
+- the **maximum possible useful work** obtainable from a system
+- how much work is **lost due to irreversibilities**
+- the **thermodynamic efficiency** of real processes
+
+The quantity that measures this maximum possible work is called **exergy** or **availability**.
+
+Exergy analysis is often called **Second-Law analysis**, although it actually uses **both the First and Second Laws together**.
+
+---
+
+## *The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1*
+
+This video derives the **Combined 1^st^ and 2^nd^ Laws** and develops forms for
+
+- closed systems  
+- open steady-state systems  
+- open transient systems  
+
+It also introduces the concepts of **ideal work**, **lost work**, and **thermodynamic efficiency**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/02S9SOGRBWU?si=saVTNWCuqtr_sShL" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](129-IdealLostWorkVisuals.qmd)
+
+---
+
+## *The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 2*
+
+This video presents a detailed example applying the **Combined 1^st^ and 2^nd^ Laws** to a **Linde cycle system for condensing methane**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAdAC4OccmI?si=8YIf63pZHolmqvfY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](130-IdealLostWorkExampleVisuals.qmd)
+
+---
+
+# Examples and Definitions
+
+## Examples
+
+- [Methane Linde Cycle Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/CombinedOneAndTwoMethane.ods)  
+  Spreadsheet from Part 2 containing the methane Linde-cycle calculations.
+
+---
+
+## Definitions
+
+Lost Work, $\dot{W}_\mathrm{lost}$  
+: The work that **could have been produced but was lost because of irreversibilities**.
+
+It is related to entropy generation by
+
+$$
+\dot W_\mathrm{lost} = T_\sigma \dot S_\mathrm{gen}
+$$
+
+where $T_\sigma$ is the **ambient temperature**.
+
+Alternate symbols used in the literature for the ambient temperature include  
+$T_0$ and $T_\infty$.
+
+---
+
+Actual Work, $\dot{W}_s$  
+: The work actually produced or consumed by the system.
+
+---
+
+Entropy Generation Rate, $\dot{S}_\mathrm{gen}$ or $\dot{S}_G$  
+: The rate of entropy generation caused by irreversibilities in the system and surroundings.
+
+For any real process
+
+$$
+\dot S_\mathrm{gen} > 0
+$$
+
+---
+
+Ideal Work, $\dot{W}_\mathrm{ideal}$  
+: The work that **would be obtained if the process were completely reversible**.
+
+---
+
+[Exergy](https://en.wikipedia.org/wiki/Exergy)  
+: The **maximum possible useful work** obtainable from a system relative to a specified environment.
+
+---
+
+Availability  
+: Another name for **exergy**, used by some authors.
+
+---
+
+::: {.callout-note}
+**Ideal work**, **exergy**, and **availability** are closely related concepts describing the maximum useful work obtainable relative to the environment.
+:::
+
+---
+
+Second-Law Analysis  
+: An analysis using the **combined First and Second Laws** to determine ideal work and the work lost due to irreversibilities.
+
+---
+
+Thermodynamic ($\eta_\mathrm{T}$) or Second-Law ($\eta_\mathrm{II}$) Efficiency  
+
+For systems that **produce work**
+
+$$
+\eta_\mathrm{T}
+=
+\frac{\dot W_s}{\dot W_\mathrm{ideal}}
+$$
+
+For systems that **require work**
+
+$$
+\eta_\mathrm{T}
+=
+\frac{\dot W_\mathrm{ideal}}{\dot W_s}
+$$
+
+---
+
+# Other Links and Videos
+
+## Previous and Following Videos
+
+### Two videos back
+
+**Revenge of the Fridge: Vapor Compression Strikes Back**  
+*The Vapor Compression Cycle*  
+[Video](https://youtu.be/SN27SxDt0G4), [Info Page](../../balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](../../balances/entropy/126-RefrigerationVisuals.qmd)
+
+### Previous video
+
+**Modeling the Vapor Compression Cycle in DWSIM**  
+*Modeling the Vapor Compression Cycle in DWSIM*  
+[Video](https://youtu.be/nWOz-Y7XsbQ), [Info Page](../../balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd)
+
+### Next video
+
+— End of series — **You've reached the end of the DOFPro CTP video series (for now).** -->
 
 
-</section>
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

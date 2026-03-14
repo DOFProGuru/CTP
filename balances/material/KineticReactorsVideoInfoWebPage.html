@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -212,10 +241,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
   <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
   <ul class="collapse">
-  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
-  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
-  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
-  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  <li><a href="#two-videos-back" id="toc-two-videos-back" class="nav-link" data-scroll-target="#two-videos-back">Two videos back</a></li>
+  <li><a href="#previous-video" id="toc-previous-video" class="nav-link" data-scroll-target="#previous-video">Previous video</a></li>
+  <li><a href="#next-video" id="toc-next-video" class="nav-link" data-scroll-target="#next-video">Next video</a></li>
+  <li><a href="#two-videos-forward" id="toc-two-videos-forward" class="nav-link" data-scroll-target="#two-videos-forward">Two videos forward</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -249,42 +278,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled" title="Still Under Construction!">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Still Under Construction!
+<span class="screen-reader-only">Note</span>How to Read Video Descriptions and Links
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>This web page is just a bare outline. The complete details have not been filled in yet.</p>
+<ul>
+<li><strong>Video</strong> links go directly to the YouTube video.</li>
+<li><strong>JTF (Just the Facts)</strong> videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think <em>efficient and to the point</em>. Each has a companion TFS video.</li>
+<li><strong>TFS (The Full Story)</strong> videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.</li>
+<li><strong>Info Page</strong> links lead to definitions, expanded explanations, and related material—because sometimes you really do need to explain it.</li>
+<li><strong>Visuals</strong> links contain the greenscreen or whiteboard materials used in the video, for those who like to see the scaffolding.</li>
+<li>Wondering about the titles? See Appendix B: <a href="../../appx/NotFunny.html"><strong>If you have to explain it, it’s no longer funny</strong></a>.</li>
+<li>Videos marked <span style="color: red;">This is NOT a DOFPro video</span> were not produced by DOFPro but are included because they are relevant to the topic. They are shown in red so no one calls the academic integrity police.</li>
+</ul>
+</div>
 </div>
 </div>
 <section id="intro-to-kinetic-reactors" class="level1">
 <h1>Intro to Kinetic Reactors</h1>
-<p>Main title explanation</p>
+<p>In many chemical processes the rate at which reactions occur is just as important as the reaction itself. When reaction rates are known, engineers can design <strong>kinetic reactors</strong> that achieve a desired conversion or production rate.</p>
+<p>These videos introduce the basic reactor models used in reaction engineering and show how reaction kinetics are incorporated into material balances. The most common reactor types are <strong>batch reactors</strong>, <strong>continuous stirred-tank reactors (CSTRs)</strong>, and <strong>plug flow reactors (PFRs)</strong>.</p>
+<hr>
 <section id="how-did-you-think-i-would-react" class="level2">
 <h2 class="anchored" data-anchor-id="how-did-you-think-i-would-react">How Did You Think I Would React?</h2>
-<p>Video 1 explanation</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_qxHszVZYGk?si=bArMc7GxKvM-ug4l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<p>This video introduces the basic idea of <strong>kinetic reactor balances</strong> and shows how reaction rates appear in the mole balance equations for reacting systems.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_qxHszVZYGk?si=bArMc7GxKvM-ug4l" title="YouTube video player" frameborder="0" allowfullscreen="">
 </iframe>
 <p><a href="../../balances/material/46-KineticsIntroJTFVisuals.html">Visuals</a></p>
+<hr>
 </section>
 <section id="wishing-upon-a-cstr" class="level2">
 <h2 class="anchored" data-anchor-id="wishing-upon-a-cstr">Wishing Upon a CSTR</h2>
-<p>Video explanation</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6tnVFq7dSbE?si=2MBUW71WCRQVQ-xS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<p>This video introduces the three most common reactor models used in chemical engineering: <strong>batch reactors</strong>, <strong>continuous stirred-tank reactors (CSTRs)</strong>, and <strong>plug flow reactors (PFRs)</strong>. It explains the assumptions behind each reactor type and how they are represented mathematically.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6tnVFq7dSbE?si=2MBUW71WCRQVQ-xS" title="YouTube video player" frameborder="0" allowfullscreen="">
 </iframe>
 <p><a href="../../balances/material/47-BatchCSTRPFRIntroVisuals.html">Visuals</a></p>
+<hr>
 </section>
 <section id="its-totally-tubular-man" class="level2">
 <h2 class="anchored" data-anchor-id="its-totally-tubular-man">It’s Totally Tubular, Man!</h2>
-<p>Video explanation</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OAzXx9Kq2nU?si=WIoyQN_CdEFKu7hh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<p>This video works through examples comparing reactor performance, particularly the behavior of <strong>plug flow reactors</strong> and how reactor design affects conversion.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OAzXx9Kq2nU?si=WIoyQN_CdEFKu7hh" title="YouTube video player" frameborder="0" allowfullscreen="">
 </iframe>
 <p><a href="../../balances/material/47.5-ReactorExamplesVisuals.html">Visuals</a></p>
+<hr>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
@@ -294,31 +339,37 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/material/CSTRPFRDemo.ods">CSTR and PFR Demo</a> – A spreadsheet with the results from the reactor design exercise in the videos</li>
 </ul>
+<hr>
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
 <dl>
 <dt><a href="https://en.wikipedia.org/wiki/Chemical_reactor">Chemical Reactor</a></dt>
 <dd>
-A vessel or system in which a chemical reaction takes place. Reactors are designed to provide the necessary conditions for the reaction to occur, such as temperature, pressure, and mixing. Common types of chemical reactors include batch reactors, continuous stirred-tank reactors (CSTRs), and plug flow reactors (PFRs).
+A vessel or system in which chemical reactions occur. Reactors are designed to provide the conditions necessary for reactions to proceed, including appropriate temperature, pressure, mixing, and residence time.
 </dd>
 <dt><a href="https://en.wikipedia.org/wiki/Batch_reactor">Batch Reactor</a></dt>
 <dd>
-A type of chemical reactor in which the reactants are loaded into the reactor, the reaction takes place, and then the products are removed. Batch reactors are typically used for small-scale production or when the reaction requires precise control over time.
+A reactor in which reactants are loaded into the vessel, the reaction proceeds over time, and the products are removed after the reaction is complete. No material enters or leaves the reactor during operation.
 </dd>
 <dt><a href="https://en.wikipedia.org/wiki/Continuous_stirred-tank_reactor">Continuous Stirred-Tank Reactor (CSTR)</a></dt>
 <dd>
-A type of chemical reactor in which the reactants are continuously fed into the reactor, and the products are continuously removed. The contents of the reactor are well mixed, resulting in uniform composition throughout the reactor. CSTRs are commonly used in large-scale industrial processes.
+A continuous reactor in which reactants flow into the reactor and products flow out continuously while the contents remain well mixed. Because of this mixing, the composition inside the reactor is uniform.
 </dd>
 <dt><a href="https://en.wikipedia.org/wiki/Plug_flow_reactor_model">Plug Flow Reactor (PFR)</a></dt>
 <dd>
-A type of chemical reactor in which the reactants flow through the reactor as a plug, with no mixing in the flow direction. The composition of the reactants changes along the length of the reactor, and the reaction occurs as the reactants move through the reactor. PFRs are often used in processes where a high conversion is desired, such as in the production of chemicals or in catalytic reactions.
+A continuous reactor in which reactants flow through the reactor with negligible mixing along the direction of flow. The composition changes continuously along the reactor length.
 </dd>
 <dt><a href="https://en.wikipedia.org/wiki/Residence_time#Turnover_time">Space Time</a></dt>
 <dd>
-The time required for a given volume of reactants to pass through a reactor. It is calculated as the volume of the reactor divided by the volumetric flow rate of the feed. Space time is an important parameter in reactor design and analysis, as it helps determine the residence time of the reactants in the reactor and the extent of the reaction.
+The time required for a volume of feed equal to the reactor volume to enter the reactor. It is calculated as the reactor volume divided by the volumetric flow rate of the feed.
 </dd>
 </dl>
+<p><span class="math display">\[
+\tau = \frac{V}{\dot V}
+\]</span></p>
+<p>Space time is closely related to <strong>residence time</strong>, which describes how long material remains in the reactor.</p>
+<hr>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -328,21 +379,29 @@ The time required for a given volume of reactants to pass through a reactor. It 
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
-<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
-<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
-<p><strong>Leaving Radiator Springs In the Dust</strong><br><em>Basics of bypass and a recycle example</em><br><a href="https://youtu.be/tjzDu7_n-NI">Video</a>, <a href="../../balances/material/RecyclingBypassVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/44-RecycleBypassPart2Visuals.html">Visuals</a></p>
+<section id="two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="two-videos-back">Two videos back</h3>
+<p><strong>Leaving Radiator Springs In the Dust</strong><br>
+<em>Basics of bypass and a recycle example</em><br>
+<a href="https://youtu.be/tjzDu7_n-NI">Video</a>, <a href="../../balances/material/RecyclingBypassVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/44-RecycleBypassPart2Visuals.html">Visuals</a></p>
 </section>
-<section id="the-previous-video-i.e.-one-video-back" class="level3">
-<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
-<p><strong>The Symbolic Meaning of Recycling</strong><br><em>Analytic solution of a recycle PFD</em><br><a href="https://youtu.be/CF18jpqZzgc">Video</a>, <a href="../../balances/material/RecyclingBypassVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/45-RecycleSymbSolVisuals.html">Visuals</a></p>
+<section id="previous-video" class="level3">
+<h3 class="anchored" data-anchor-id="previous-video">Previous video</h3>
+<p><strong>The Symbolic Meaning of Recycling</strong><br>
+<em>Analytic solution of a recycle PFD</em><br>
+<a href="https://youtu.be/CF18jpqZzgc">Video</a>, <a href="../../balances/material/RecyclingBypassVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/45-RecycleSymbSolVisuals.html">Visuals</a></p>
 </section>
-<section id="the-next-video-i.e.-one-video-forward" class="level3">
-<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
-<p><strong>React But Maintain Your Equilibrium Part 1</strong><br><em>Basics of equilibrium reactors</em><br><a href="https://youtu.be/0GS8XEHRBMk">Video</a>, <a href="../../balances/material/EquilibriumReactorsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/54-EquilReact1Visuals.html">Visuals</a></p>
+<section id="next-video" class="level3">
+<h3 class="anchored" data-anchor-id="next-video">Next video</h3>
+<p><strong>React But Maintain Your Equilibrium Part 1</strong><br>
+<em>Basics of equilibrium reactors</em><br>
+<a href="https://youtu.be/0GS8XEHRBMk">Video</a>, <a href="../../balances/material/EquilibriumReactorsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/54-EquilReact1Visuals.html">Visuals</a></p>
 </section>
-<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
-<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
-<p><strong>React But Maintain Your Equilibrium Part 2</strong><br><em>Equilibrium reactor example</em><br><a href="https://youtu.be/GI8tuSRrIcc">Video</a>, <a href="../../balances/material/EquilibriumReactorsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/55-EquilReact2Visuals.html">Visuals</a></p>
+<section id="two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="two-videos-forward">Two videos forward</h3>
+<p><strong>React But Maintain Your Equilibrium Part 2</strong><br>
+<em>Equilibrium reactor example</em><br>
+<a href="https://youtu.be/GI8tuSRrIcc">Video</a>, <a href="../../balances/material/EquilibriumReactorsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/55-EquilReact2Visuals.html">Visuals</a></p>
 
 
 </section>

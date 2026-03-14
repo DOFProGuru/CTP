@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -211,10 +240,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
   <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
   <ul class="collapse">
-  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
-  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
-  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
-  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  <li><a href="#two-videos-back" id="toc-two-videos-back" class="nav-link" data-scroll-target="#two-videos-back">Two videos back</a></li>
+  <li><a href="#previous-video" id="toc-previous-video" class="nav-link" data-scroll-target="#previous-video">Previous video</a></li>
+  <li><a href="#next-video" id="toc-next-video" class="nav-link" data-scroll-target="#next-video">Next video</a></li>
+  <li><a href="#two-videos-forward" id="toc-two-videos-forward" class="nav-link" data-scroll-target="#two-videos-forward">Two videos forward</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -248,35 +277,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled" title="Still Under Construction!">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Still Under Construction!
+<span class="screen-reader-only">Note</span>How to Read Video Descriptions and Links
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>This web page is just a bare outline. The complete details have not been filled in yet.</p>
+<ul>
+<li><strong>Video</strong> links go directly to the YouTube video.</li>
+<li><strong>JTF (Just the Facts)</strong> videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think <em>efficient and to the point</em>. Each has a companion TFS video.</li>
+<li><strong>TFS (The Full Story)</strong> videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.</li>
+<li><strong>Info Page</strong> links lead to definitions, expanded explanations, and related material—because sometimes you really do need to explain it.</li>
+<li><strong>Visuals</strong> links contain the greenscreen or whiteboard materials used in the video, for those who like to see the scaffolding.</li>
+<li>Wondering about the titles? See Appendix B: <a href="../../appx/NotFunny.html"><strong>If you have to explain it, it’s no longer funny</strong></a>.</li>
+<li>Videos marked <span style="color: red;">This is NOT a DOFPro video</span> were not produced by DOFPro but are included because they are relevant to the topic. They are shown in red so no one calls the academic integrity police.</li>
+</ul>
+</div>
 </div>
 </div>
 <section id="intro-to-react-but-maintain-your-equilibrium" class="level1">
 <h1>Intro to <em>React But Maintain Your Equilibrium</em></h1>
-<p>Main title explanation</p>
+<p>In many reactions the reaction rate is fast compared to the residence time of the reactor. When this occurs, the reactor outlet composition is determined not by reaction kinetics but by <strong>chemical equilibrium</strong>.</p>
+<p>Equilibrium reactor calculations combine <strong>material balances</strong>, <strong>stoichiometry</strong>, and <strong>equilibrium relationships</strong> to determine the final composition of the reaction mixture. These videos introduce equilibrium reactors and demonstrate how to solve typical equilibrium reactor problems.</p>
+<hr>
 <section id="react-but-maintain-your-equilibrium-part-1" class="level2">
 <h2 class="anchored" data-anchor-id="react-but-maintain-your-equilibrium-part-1">React But Maintain Your Equilibrium Part 1</h2>
-<p>Video 1 explanation</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0GS8XEHRBMk?si=anu1Kj9RFzDi7XGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<p>This video introduces the concept of equilibrium reactors and explains how equilibrium constants are used to determine the composition of a reaction mixture.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0GS8XEHRBMk?si=anu1Kj9RFzDi7XGU" title="YouTube video player" frameborder="0" allowfullscreen="">
 </iframe>
 <p><a href="../../balances/material/54-EquilReact1Visuals.html">Visuals</a></p>
+<hr>
 </section>
 <section id="react-but-maintain-your-equilibrium-part-2" class="level2">
 <h2 class="anchored" data-anchor-id="react-but-maintain-your-equilibrium-part-2">React But Maintain Your Equilibrium Part 2</h2>
-<p>Video explanation</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GI8tuSRrIcc?si=jQmusfP4c38elk4j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<p>This video works through a complete equilibrium reactor example, showing how material balances and equilibrium relationships are combined to determine the outlet composition.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GI8tuSRrIcc?si=jQmusfP4c38elk4j" title="YouTube video player" frameborder="0" allowfullscreen="">
 </iframe>
 <p><a href="../../balances/material/55-EquilReact2Visuals.html">Visuals</a></p>
+<hr>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
@@ -286,23 +330,32 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://dofprobucket1.s3.us-east-2.amazonaws.com/material/EquilibriumReactionExample.ods">Equilibrium Reactor Example</a> – The spreadsheet from Part 2</li>
 </ul>
+<hr>
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
 <dl>
 <dt>Equilibrium Reactor</dt>
 <dd>
-A reactor in which the reaction is allowed to proceed until it reaches chemical equilibrium. The composition of the output stream is determined by the equilibrium constant for the reaction and the composition of the input stream. Equilibrium reactors are often used to model reactions that are fast compared to the residence time of the reactor, such that the reaction can be assumed to reach equilibrium before the material exits the reactor.
-</dd>
-<dt>Equilibrium Constant</dt>
-<dd>
-A dimensionless quantity that characterizes the equilibrium state of a chemical reaction. It is defined as the ratio of the concentrations (or partial pressures) of the products to the concentrations (or partial pressures) of the reactants, each raised to the power of their respective stoichiometric coefficients. The equilibrium constant provides insight into the extent of a reaction at equilibrium and can be used to predict the direction of the reaction under different conditions.
-</dd>
-<dt>Equilibrium Conversion</dt>
-<dd>
-The conversion of a reactant in an equilibrium reactor, which is determined by the equilibrium constant and the initial composition of the reactants. The equilibrium conversion can be calculated using the equilibrium constant and the initial concentrations of the reactants, and it represents the maximum conversion that can be achieved in the reactor under the given conditions.
+A reactor in which the reaction proceeds until chemical equilibrium is reached. The outlet composition is determined by the <strong>equilibrium constant</strong> and the inlet composition.
 </dd>
 </dl>
+<p>Equilibrium reactors are often used when reactions are <strong>fast compared to the residence time of the reactor</strong>, so the reaction effectively reaches equilibrium before the material exits the reactor.</p>
+<dl>
+<dt><a href="https://en.wikipedia.org/wiki/Equilibrium_constant">Equilibrium Constant</a>, <span class="math inline">\(K\)</span></dt>
+<dd>
+A dimensionless quantity that describes the equilibrium state of a chemical reaction. It is defined as the ratio of the activities (often approximated by concentrations or partial pressures) of the products to the reactants, each raised to the power of their stoichiometric coefficients.
+</dd>
+</dl>
+<p>The equilibrium constant determines the <strong>position of equilibrium</strong> and therefore the maximum possible conversion under given conditions.</p>
+<dl>
+<dt>Equilibrium Conversion</dt>
+<dd>
+The fractional conversion of a reactant when the reaction mixture has reached equilibrium. It represents the <strong>maximum conversion achievable under the specified temperature and pressure conditions</strong>.
+</dd>
+</dl>
+<p>Equilibrium conversion depends on the equilibrium constant and the initial composition of the reacting mixture.</p>
+<hr>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -312,21 +365,29 @@ The conversion of a reactant in an equilibrium reactor, which is determined by t
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
-<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
-<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
-<p><strong>Wishing Upon a CSTR</strong><br><em>Batch, CSTR, PFR</em><br><a href="https://youtu.be/6tnVFq7dSbE">Video</a>, <a href="../../balances/material/KineticReactorsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/47-BatchCSTRPFRIntroVisuals.html">Visuals</a></p>
+<section id="two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="two-videos-back">Two videos back</h3>
+<p><strong>Wishing Upon a CSTR</strong><br>
+<em>Batch, CSTR, PFR</em><br>
+<a href="https://youtu.be/6tnVFq7dSbE">Video</a>, <a href="../../balances/material/KineticReactorsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/47-BatchCSTRPFRIntroVisuals.html">Visuals</a></p>
 </section>
-<section id="the-previous-video-i.e.-one-video-back" class="level3">
-<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
-<p><strong>It’s Totally Tubular, Man!</strong><br><em>CSTR, PFR, Batch Example</em><br><a href="https://youtu.be/OAzXx9Kq2nU">Video</a>, <a href="../../balances/material/KineticReactorsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/47.5-ReactorExamplesVisuals.html">Visuals</a></p>
+<section id="previous-video" class="level3">
+<h3 class="anchored" data-anchor-id="previous-video">Previous video</h3>
+<p><strong>It’s Totally Tubular, Man!</strong><br>
+<em>CSTR, PFR, Batch Example</em><br>
+<a href="https://youtu.be/OAzXx9Kq2nU">Video</a>, <a href="../../balances/material/KineticReactorsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/47.5-ReactorExamplesVisuals.html">Visuals</a></p>
 </section>
-<section id="the-next-video-i.e.-one-video-forward" class="level3">
-<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
-<p><strong>Flame On, Torch!</strong><br><em>Combustion reactions</em><br><a href="https://youtu.be/G2sKW_6N2BA">Video</a>, <a href="../../balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/59-CombRxnsPart1Visuals.html">Visuals</a></p>
+<section id="next-video" class="level3">
+<h3 class="anchored" data-anchor-id="next-video">Next video</h3>
+<p><strong>Flame On, Torch!</strong><br>
+<em>Combustion reactions</em><br>
+<a href="https://youtu.be/G2sKW_6N2BA">Video</a>, <a href="../../balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/59-CombRxnsPart1Visuals.html">Visuals</a></p>
 </section>
-<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
-<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
-<p><strong>A Combustible Mixture!</strong><br><em>Sample combustion reactions</em><br><a href="https://youtu.be/hvIk-evMp88">Video</a>, <a href="../../balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/60-CombRxnsPart2Visuals.html">Visuals</a></p>
+<section id="two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="two-videos-forward">Two videos forward</h3>
+<p><strong>A Combustible Mixture!</strong><br>
+<em>Sample combustion reactions</em><br>
+<a href="https://youtu.be/hvIk-evMp88">Video</a>, <a href="../../balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/60-CombRxnsPart2Visuals.html">Visuals</a></p>
 
 
 </section>

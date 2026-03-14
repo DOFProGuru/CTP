@@ -239,10 +239,10 @@ window.Quarto = {
   <li><a href="#other-links" id="toc-other-links" class="nav-link" data-scroll-target="#other-links">Other Links</a></li>
   <li><a href="#previous-and-following-videos" id="toc-previous-and-following-videos" class="nav-link" data-scroll-target="#previous-and-following-videos">Previous and Following Videos</a>
   <ul class="collapse">
-  <li><a href="#the-video-previous-to-the-previous-video-i.e.-two-videos-back" id="toc-the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="nav-link" data-scroll-target="#the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</a></li>
-  <li><a href="#the-previous-video-i.e.-one-video-back" id="toc-the-previous-video-i.e.-one-video-back" class="nav-link" data-scroll-target="#the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</a></li>
-  <li><a href="#the-next-video-i.e.-one-video-forward" id="toc-the-next-video-i.e.-one-video-forward" class="nav-link" data-scroll-target="#the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</a></li>
-  <li><a href="#the-next-after-next-video-i.e.-two-videos-forward" id="toc-the-next-after-next-video-i.e.-two-videos-forward" class="nav-link" data-scroll-target="#the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</a></li>
+  <li><a href="#two-videos-back" id="toc-two-videos-back" class="nav-link" data-scroll-target="#two-videos-back">Two videos back</a></li>
+  <li><a href="#previous-video" id="toc-previous-video" class="nav-link" data-scroll-target="#previous-video">Previous video</a></li>
+  <li><a href="#next-video" id="toc-next-video" class="nav-link" data-scroll-target="#next-video">Next video</a></li>
+  <li><a href="#two-videos-forward" id="toc-two-videos-forward" class="nav-link" data-scroll-target="#two-videos-forward">Two videos forward</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -276,28 +276,42 @@ window.Quarto = {
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled" title="Still Under Construction!">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Still Under Construction!
+<span class="screen-reader-only">Note</span>How to Read Video Descriptions and Links
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>This web page is just a bare outline. The complete details have not been filled in yet.</p>
+<ul>
+<li><strong>Video</strong> links go directly to the YouTube video.</li>
+<li><strong>JTF (Just the Facts)</strong> videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think <em>efficient and to the point</em>. Each has a companion TFS video.</li>
+<li><strong>TFS (The Full Story)</strong> videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.</li>
+<li><strong>Info Page</strong> links lead to definitions, expanded explanations, and related material—because sometimes you really do need to explain it.</li>
+<li><strong>Visuals</strong> links contain the greenscreen or whiteboard materials used in the video, for those who like to see the scaffolding.</li>
+<li>Wondering about the titles? See Appendix B: <a href="../../appx/NotFunny.html"><strong>If you have to explain it, it’s no longer funny</strong></a>.</li>
+<li>Videos marked <span style="color: red;">This is NOT a DOFPro video</span> were not produced by DOFPro but are included because they are relevant to the topic. They are shown in red so no one calls the academic integrity police.</li>
+</ul>
+</div>
 </div>
 </div>
 <section id="intro-to-liquid-mixture-densities" class="level1">
 <h1>Intro to Liquid Mixture Densities</h1>
-<p>Main title explanation</p>
+<p>When two liquids are mixed, the resulting volume is not always equal to the sum of the original volumes. Molecular interactions between components can cause the mixture to expand or contract.</p>
+<p>Because of this behavior, calculating the density of a liquid mixture requires careful treatment of the mixture composition and volume relationships. The video on this page explains how mixture densities behave and how they can be estimated in engineering calculations.</p>
+<hr>
 <section id="alcohol-and-water-do-mix" class="level2">
 <h2 class="anchored" data-anchor-id="alcohol-and-water-do-mix">Alcohol and Water DO Mix!</h2>
-<p>Video 1 explanation</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_tjYMjWR4fE?si=m40rvQudtzU1_KiW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<p>This video demonstrates how mixing liquids can produce non-intuitive results, such as volume contraction. It explains how liquid mixture densities can be estimated and when simple averaging methods can be used.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_tjYMjWR4fE?si=m40rvQudtzU1_KiW" title="YouTube video player" frameborder="0" allowfullscreen="">
 </iframe>
 <p><a href="../../balances/material/61-LiqSolDenJTFVisuals.html">Visuals</a></p>
+<hr>
 </section>
 </section>
 <section id="examples-and-definitions" class="level1">
@@ -310,29 +324,40 @@ window.Quarto = {
 <dl>
 <dt>Liquid Mixture</dt>
 <dd>
-A liquid mixture is a homogeneous combination of two or more liquids that are completely miscible with each other. The properties of a liquid mixture, such as density, viscosity, and boiling point, can differ from those of the individual components due to interactions between the molecules of the different liquids. Examples of liquid mixtures include alcohol and water and various solvent mixtures used in chemical processes.
+A homogeneous mixture of two or more liquids that are completely miscible with one another. The physical properties of the mixture may differ from those of the individual components because of molecular interactions.
 </dd>
 <dt>Volume Expansivity</dt>
 <dd>
-A measure of how much the volume of a liquid mixture changes with temperature. It is defined as the fractional change in volume per unit change in temperature at constant pressure. The volume expansivity of a liquid mixture can be influenced by the composition of the mixture and the interactions between the different components, and it is an important property to consider in processes that involve temperature changes, such as heating or cooling.
+A measure of how much the volume of a liquid changes with temperature. It is defined as the fractional change in volume per unit change in temperature at constant pressure.
 </dd>
 <dt>Isothermal Compressibility</dt>
 <dd>
-A measure of how much the volume of a liquid mixture changes with pressure at constant temperature. It is defined as the fractional change in volume per unit change in pressure at constant temperature. The isothermal compressibility of a liquid mixture can be influenced by the composition of the mixture and the interactions between the different components, and it is an important property to consider in processes that involve pressure changes, such as pumping or compression.
+A measure of how much the volume of a liquid changes with pressure at constant temperature. It is defined as the fractional change in volume per unit change in pressure.
 </dd>
 <dt>Ideal Mixture</dt>
 <dd>
-An ideal mixture is a theoretical concept in which the properties of the mixture can be predicted based on the properties of the individual components and their proportions in the mixture. In an ideal mixture, the interactions between the different components are assumed to be negligible, and the properties of the mixture can be calculated using simple weighted averages of the properties of the individual components.
+A theoretical mixture in which the properties of the mixture can be predicted directly from the properties of the individual components and their proportions. In an ideal mixture, interactions between unlike molecules are assumed to be the same as those between like molecules.
 </dd>
 <dt>Volume Additivity</dt>
 <dd>
-The principle that the total volume of a liquid mixture is equal to the sum of the volumes of the individual components before mixing. It holds for an ideal mixture.
-</dd>
-<dt>Density Averaging</dt>
-<dd>
-The process of calculating the density of a liquid mixture as the sum of the individual densities times their mass fractions. This is an approximation that can be used for non-ideal mixtures, but it may not always yield accurate results due to interactions between the components of the mixture.
+The assumption that the total volume of a mixture equals the sum of the volumes of the individual components before mixing.
 </dd>
 </dl>
+<p><span class="math display">\[
+V_{mix} = \sum V_i
+\]</span></p>
+<p>This relationship holds for <strong>ideal mixtures</strong>, but real mixtures often deviate from it.</p>
+<dl>
+<dt>Density Averaging</dt>
+<dd>
+An approximate method for estimating mixture density using the mass fractions and component densities.
+</dd>
+</dl>
+<p><span class="math display">\[
+\frac{1}{\rho_{mix}} \approx \sum \frac{x_i}{\rho_i}
+\]</span></p>
+<p>This approximation can be useful for engineering calculations but may not be exact when strong interactions occur between components.</p>
+<hr>
 </section>
 </section>
 <section id="other-links-and-videos" class="level1">
@@ -342,21 +367,29 @@ The process of calculating the density of a liquid mixture as the sum of the ind
 </section>
 <section id="previous-and-following-videos" class="level2">
 <h2 class="anchored" data-anchor-id="previous-and-following-videos">Previous and Following Videos</h2>
-<section id="the-video-previous-to-the-previous-video-i.e.-two-videos-back" class="level3">
-<h3 class="anchored" data-anchor-id="the-video-previous-to-the-previous-video-i.e.-two-videos-back">The video previous to the previous video (i.e., two videos back)</h3>
-<p><strong>Flame On, Torch!</strong><br><em>Combustion reactions</em><br><a href="https://youtu.be/G2sKW_6N2BA">Video</a>, <a href="../../balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/59-CombRxnsPart1Visuals.html">Visuals</a></p>
+<section id="two-videos-back" class="level3">
+<h3 class="anchored" data-anchor-id="two-videos-back">Two videos back</h3>
+<p><strong>Flame On, Torch!</strong><br>
+<em>Combustion reactions</em><br>
+<a href="https://youtu.be/G2sKW_6N2BA">Video</a>, <a href="../../balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/59-CombRxnsPart1Visuals.html">Visuals</a></p>
 </section>
-<section id="the-previous-video-i.e.-one-video-back" class="level3">
-<h3 class="anchored" data-anchor-id="the-previous-video-i.e.-one-video-back">The previous video (i.e., one video back)</h3>
-<p><strong>A Combustible Mixture!</strong><br><em>Sample combustion reactions</em><br><a href="https://youtu.be/hvIk-evMp88">Video</a>, <a href="../../balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/60-CombRxnsPart2Visuals.html">Visuals</a></p>
+<section id="previous-video" class="level3">
+<h3 class="anchored" data-anchor-id="previous-video">Previous video</h3>
+<p><strong>A Combustible Mixture!</strong><br>
+<em>Sample combustion reactions</em><br>
+<a href="https://youtu.be/hvIk-evMp88">Video</a>, <a href="../../balances/material/CombustionReactionsVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/60-CombRxnsPart2Visuals.html">Visuals</a></p>
 </section>
-<section id="the-next-video-i.e.-one-video-forward" class="level3">
-<h3 class="anchored" data-anchor-id="the-next-video-i.e.-one-video-forward">The next video (i.e., one video forward)</h3>
-<p><strong>Ideal Gases EXPOSED: Are They Even Real?!!</strong><br><em>Basics of <span class="math inline">\(P V = n R T\)</span></em><br><a href="https://youtu.be/L-DEw6dGRps">Video</a>, <a href="../../balances/material/IdealAndRealGasesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/62-IdealGasVisuals.html">Visuals</a></p>
+<section id="next-video" class="level3">
+<h3 class="anchored" data-anchor-id="next-video">Next video</h3>
+<p><strong>Ideal Gases EXPOSED: Are They Even Real?!!</strong><br>
+<em>Basics of <span class="math inline">\(PV = nRT\)</span></em><br>
+<a href="https://youtu.be/L-DEw6dGRps">Video</a>, <a href="../../balances/material/IdealAndRealGasesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/62-IdealGasVisuals.html">Visuals</a></p>
 </section>
-<section id="the-next-after-next-video-i.e.-two-videos-forward" class="level3">
-<h3 class="anchored" data-anchor-id="the-next-after-next-video-i.e.-two-videos-forward">The next after next video (i.e.&nbsp;two videos forward)</h3>
-<p><strong>When Getting Gassed Isn’t Ideal, Part 1</strong><br><em>Real gas intro</em><br><a href="https://youtu.be/1sU4_YdcKr4">Video</a>, <a href="../../balances/material/IdealAndRealGasesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/63-Visuals.html">Visuals</a></p>
+<section id="two-videos-forward" class="level3">
+<h3 class="anchored" data-anchor-id="two-videos-forward">Two videos forward</h3>
+<p><strong>When Getting Gassed Isn’t Ideal, Part 1</strong><br>
+<em>Real gas intro</em><br>
+<a href="https://youtu.be/1sU4_YdcKr4">Video</a>, <a href="../../balances/material/IdealAndRealGasesVideoInfoWebPage.html">Info Page</a>, <a href="../../balances/material/63-Visuals.html">Visuals</a></p>
 
 
 </section>
