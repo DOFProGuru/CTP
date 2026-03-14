@@ -1,50 +1,60 @@
 ---
-title: "*The Vapor Compression Cycle Reference Page*"
+title: "The Vapor Compression Cycle Reference Page"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *The Vapor Compression Cycle*
+{{< include /LinkKey.qmd >}}
+# Intro to The Vapor Compression Cycle
 
-Main title explanation
+The vapor-compression cycle is the thermodynamic cycle used in most refrigerators, freezers, and air conditioners.  
+Work is supplied to a compressor to move heat from a low-temperature region to a higher-temperature environment.
 
-## Revenge of the Fridge: Vapor Compression Strikes Back 
+## Revenge of the Fridge: Vapor Compression Strikes Back
 
-Video 1 explanation
+The video explains the vapor compression cycle, derives the coefficient of performance, and contrasts the cycle with the Rankine cycle.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SN27SxDt0G4?si=JV0ibrl4Zg5B8zRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SN27SxDt0G4?si=JV0ibrl4Zg5B8zRp" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
-## Modeling the Vapor Compression Cycle in DWSIM 
+[Visuals](126-RefrigerationVisuals.qmd)
 
-Video  explanation
+## Modeling the Vapor Compression Cycle in DWSIM
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nWOz-Y7XsbQ?si=80tsMdSOaeHi01kO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+This video is a *how-to* on modeling the vapor compression cycle in DWSIM
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nWOz-Y7XsbQ?si=80tsMdSOaeHi01kO" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 # Examples and Definitions
 
 ## Examples Links
 
-- [Vapor Compression Cycle Model](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/VaporCompressionDWSIMCalc.ods)
+- [Vapor Compression Cycle Model](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/VaporCompressionDWSIMCalc.ods) – Spreadsheet from *Revenge of the Fridge* containing the vapor-compression-cycle calculations
+
 - [DWSIM Vapor Compression Model](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/VapCompCalc.dwxmz)
 
 ## Definitions
 
-[Refrigerator](https://en.wikipedia.org/wiki/Refrigerator)
-: A device that pumps heat from an internal cold space to the ambient.
+[Refrigerator](https://en.wikipedia.org/wiki/Refrigerator)  
+: A device that removes heat from a cold region and rejects that heat to the surrounding environment.
 
-[Heat Pump](https://en.wikipedia.org/wiki/Heat_pump)
-: A device that pumps heat from an external cold space to an internal warm space.
+[Heat Pump](https://en.wikipedia.org/wiki/Heat_pump)  
+: A device that transfers heat from a colder external environment to a warmer internal space.
 
-[Vapor Compression Cycle](https://en.wikipedia.org/wiki/Vapor-compression_refrigeration)
-: A thermodynamic refrigeration cycle consisting of four steps:<br/>1. An isobaric heating at low temperature<br/>2. An isentropic expansion<br/>3. An isobaric cooling at high temperature<br/>4. An isenthalpic expansion</br/>It usually involves phase transitions during the heating and cooling stages.
+[Vapor Compression Cycle](https://en.wikipedia.org/wiki/Vapor-compression_refrigeration)  
+: A thermodynamic refrigeration cycle consisting of four main steps:
 
-[Refrigerant](https://en.wikipedia.org/wiki/Refrigerant)
-: A fluid used in a vapor compression cycle. Common refrigerants are R-134a, ammonia, and propane (R-290).
+1. **Isobaric heat absorption in the evaporator (low temperature)**  
+2. **Isentropic compression in the compressor**  
+3. **Isobaric heat rejection in the condenser (high temperature)**  
+4. **Isenthalpic expansion through a throttling valve**
+
+Phase changes usually occur during both the evaporation and condensation stages.
+
+[Refrigerant](https://en.wikipedia.org/wiki/Refrigerant)  
+: A fluid used in vapor-compression refrigeration cycles. Common refrigerants include R-134a, ammonia, and propane (R-290).
+
+[Coefficient of Performance](https://en.wikipedia.org/wiki/Coefficient_of_performance), *COP* or $\omega$
+: The ratio of the desired heat transferred, ($|Q_\mathrm{cold}|$ for a refrigerator, $|Q_\mathrm{hot}|$ for a heat pump) to the work input.
 
 # Other Links and Videos
 
@@ -52,22 +62,26 @@ Video  explanation
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**Cycle Wars: The Power Awakens**<br/>*Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle*<br/>[Video](https://youtu.be/M_p3gb79isg), [Info Page](../../balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](../../balances/entropy/122-AirStandardCyclesPart1Visuals.qmd)
+**Cycle Wars: The Power Awakens**  
+*Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle*  
+[Video](https://youtu.be/M_p3gb79isg), [Info Page](../../balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](../../balances/entropy/122-AirStandardCyclesPart1Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**Cycle Wars: The Rise of Otto Cycles**<br/>*Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, & Stirling Cycles*<br/>[Video](https://youtu.be/jJaDQM8qjgU), [Info Page](../../balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](../../balances/entropy/123-AirStandardCyclesPart2Visuals.qmd)
+**Cycle Wars: The Rise of Otto Cycles**  
+*Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, & Stirling Cycles*  
+[Video](https://youtu.be/jJaDQM8qjgU), [Info Page](../../balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](../../balances/entropy/123-AirStandardCyclesPart2Visuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1**<br/>*The Combined 1^st^ and 2^nd^ Laws*<br/>[Video](https://youtu.be/02S9SOGRBWU), [Info Page](../../balances/exergy/Combined1stAnd2ndLawsVideoWebPage.qmd), [Visuals](../../balances/exergy/129-IdealLostWorkVisuals.qmd)
+**The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 1**  
+*The Combined 1^st^ and 2^nd^ Laws*  
+[Video](https://youtu.be/02S9SOGRBWU), [Info Page](../../balances/exergy/Combined1stAnd2ndLawsVideoWebPage.qmd), [Visuals](../../balances/exergy/129-IdealLostWorkVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 2**<br/>*Example of The Combined 1^st^ and 2^nd^ Laws*<br/>[Video](https://youtu.be/ZAdAC4OccmI), [Info Page](../../balances/exergy/Combined1stAnd2ndLawsVideoWebPage.qmd), [Visuals](../../balances/exergy/130-IdealLostWorkExampleVisuals.qmd)
-
-
-
-
+**The Law is a Thief: It Destroys Exergy and Laughs in Your Face Part 2**  
+*Example of The Combined 1^st^ and 2^nd^ Laws*  
+[Video](https://youtu.be/ZAdAC4OccmI), [Info Page](../../balances/exergy/Combined1stAnd2ndLawsVideoWebPage.qmd), [Visuals](../../balances/exergy/130-IdealLostWorkExampleVisuals.qmd)

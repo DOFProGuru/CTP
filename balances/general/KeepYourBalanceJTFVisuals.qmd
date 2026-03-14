@@ -265,7 +265,7 @@ For steady-state systems, $\mathrm{Accumulation} \equiv 0$
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *Speed Balancing*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *Speed Balancing*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

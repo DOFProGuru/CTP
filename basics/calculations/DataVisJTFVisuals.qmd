@@ -71,13 +71,13 @@ linear to logarithmic.
 
 ::: {.fragment}
 ::: {.absolute top=35% left=2%}
-**Original</br>Function**
+**Original<br/>Function**
 :::
 ::: {.absolute top=35% left=33%}
-**Linear</br>Form**
+**Linear<br/>Form**
 :::
 ::: {.absolute top=35% left=65%}
-**Coordinate Scale</br>For Linear Plot**
+**Coordinate Scale<br/>For Linear Plot**
 :::
 :::
 
@@ -271,7 +271,7 @@ SSE by varying $a_\mathrm{fit}$ and $b_\mathrm{fit}$.
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=35%}

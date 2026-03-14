@@ -213,7 +213,7 @@ $$
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video, *React But Maintain Your Equilibrium Part 2*, in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The companion video, *React But Maintain Your Equilibrium Part 2*, in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

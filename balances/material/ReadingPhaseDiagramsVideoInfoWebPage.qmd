@@ -1,29 +1,41 @@
 ---
-title: "Reading Phase Diagrams Reference Page<br/>*Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right!* "
+title: "Reading Phase Diagrams Reference Page<br/>*Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right!*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
+
+{{< include /LinkKey.qmd >}}
+
 # Intro to *Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right!*
 
-Main title explanation
+Many chemical processes involve systems where multiple phases can exist simultaneously. Phase diagrams provide a graphical way to understand how temperature, pressure, and composition determine which phases are present.
+
+Learning to read phase diagrams allows engineers to predict phase behavior, determine phase compositions, and calculate the relative amounts of phases in equilibrium mixtures.
+
+The videos on this page introduce the structure of phase diagrams and demonstrate how to interpret them correctly.
+
+---
 
 ## Part 1
 
-Video 1 explanation
+This video introduces the basic structure of phase diagrams and explains the meaning of phase boundaries, phase regions, and the Gibbs phase rule.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NUS4Y_pnWZk?si=As2g0ermI338GBaa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NUS4Y_pnWZk?si=As2g0ermI338GBaa" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](70-IntroMultiphasePart1Visuals.qmd)
+
+---
 
 ## Part 2
 
-Video  explanation
+This video continues with examples of interpreting phase diagrams and demonstrates how the **lever rule** can be used to determine the relative amounts of phases in equilibrium mixtures.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QBREikNSvGI?si=SyJVNz-QI7cnDjpa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QBREikNSvGI?si=SyJVNz-QI7cnDjpa" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](71-IntroMultiphasePart2Visuals.qmd)
+
+---
 
 # Examples and Definitions
 
@@ -31,41 +43,43 @@ Video  explanation
 
 ## Definitions
 
-Phase Diagram
-: A graphical representation of the equilibrium between different phases of a substance as a function of temperature, pressure, and composition. Phase diagrams are used to understand the conditions under which different phases of a substance coexist and to predict the behavior of a substance under various conditions. They are commonly used in materials science, chemistry, and chemical engineering to analyze phase transitions, such as melting, boiling, and sublimation, as well as to design processes and materials with specific properties.
+Phase Diagram  
+: A graphical representation of the equilibrium relationships between phases of a substance or mixture as a function of temperature, pressure, and composition.
 
-Azeotrope
-: A mixture of two or more liquids that has a constant boiling point and composition throughout the distillation process. Azeotropes occur when the vapor phase has the same composition as the liquid phase at a specific temperature and pressure, resulting in a unique point on the phase diagram. Azeotropes can be classified as minimum boiling azeotropes, which have a lower boiling point than either of the pure components, or maximum boiling azeotropes, which have a higher boiling point than either of the pure components. Azeotropes are important in chemical engineering and separation processes, as they can limit the effectiveness of distillation and require special techniques for separation.
+Azeotrope  
+: A mixture that boils at a constant temperature with the vapor having the **same composition as the liquid**. Because of this, the mixture cannot be separated by simple distillation.
 
-Vapor
-: The gas phase of a substance below its critical temperature but above its vapor pressure.
+Vapor  
+: The gas phase of a substance **below its critical temperature**.
 
-Gas
-: The gas phase of a substance above its critical temperature. It is sometimes used to refer to vapors as well.
+Gas  
+: The gas phase of a substance **above its critical temperature**. In everyday language the terms *gas* and *vapor* are often used interchangeably.
 
-Triple Point
-: The unique combination of temperature and pressure at which three phases of a substance coexist in equilibrium. The triple point is a fundamental property of a substance and is used to define the standard temperature and pressure (STP) conditions. At the triple point, the substance can exist simultaneously as a solid, liquid, and gas, and the phase diagram will show a point where the three phase boundaries intersect.
+Triple Point  
+: The unique combination of temperature and pressure at which **three phases coexist in equilibrium**.
 
-Lever Rule
-: A graphical method used to determine the relative amounts of different phases in a two-phase region of a phase diagram. The lever rule is based on the principle of mass balance and is applied by drawing a tie line across the two-phase region at the desired composition. The lengths of the segments of the tie line on either side of the composition point are used to calculate the fraction of each phase present in the mixture. The lever rule is a useful tool for analyzing phase diagrams and understanding the behavior of mixtures in various applications, such as in materials science and chemical engineering.
+Lever Rule  
+: A graphical method used to determine the **relative amounts of phases** present in a two-phase region of a phase diagram.
 
-Eutectic
-: A liquid phase transforms into two solid phases upon cooling.
+Eutectic  
+: A reaction in which a **liquid transforms into two solid phases** upon cooling.
 
-Eutectoid
-: A solid phase transforms into two solid phases upon cooling.
+Eutectoid  
+: A reaction in which a **solid phase transforms into two different solid phases** upon cooling.
 
-Peritectic
-: A liquid phase and a solid phase combine to form a new solid phase upon cooling.
+Peritectic  
+: A reaction in which a **liquid and a solid combine to form a new solid phase** upon cooling.
 
-Peritectoid
-: Two solid phases combine to form a new solid phase upon cooling.
+Peritectoid  
+: A reaction in which **two solid phases combine to form a new solid phase** upon cooling.
 
-Monotectic
-: A liquid phase transforms into a solid phase and a new liquid phase upon cooling.
+Monotectic  
+: A reaction in which a **liquid transforms into a solid and a second liquid phase** upon cooling.
 
-Syntectic
-: Two liquid phases react to form a solid phase upon cooling.
+Syntectic  
+: A reaction in which **two liquid phases react to form a solid phase** upon cooling.
+
+---
 
 # Other Links and Videos
 
@@ -73,18 +87,26 @@ Syntectic
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1**<br/>*Explanation of Kay's Rule and DWSIM for real gas mixtures*<br/>[Video](https://youtu.be/yI3jj1jCSAM), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/65-Visuals.qmd)
+**REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1**  
+*Explanation of Kay's Rule and DWSIM for real gas mixtures*  
+[Video](https://youtu.be/yI3jj1jCSAM), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/65-Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2**<br/>*Example of Kay's Rule and DWSIM for real gas mixtures*<br/>[Video](https://youtu.be/Pbizi39c1Rk), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/66-Visuals.qmd)
+**REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2**  
+*Example of Kay's Rule and DWSIM for real gas mixtures*  
+[Video](https://youtu.be/Pbizi39c1Rk), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/66-Visuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Show Some Flash and Dew the Dew with a Little Bubbly!**<br/>*Graphical BUBL P, DEW P, BUBL T, DEW T, and FLASH calculations*<br/>[Video](https://youtu.be/shKvpcsJIEM), [Info Page](../../balances/material/GraphicalDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/72-BubbleDewFlashVisuals.qmd)
+**Show Some Flash and Dew the Dew with a Little Bubbly!**  
+*Graphical BUBL P, DEW P, BUBL T, DEW T, and FLASH calculations*  
+[Video](https://youtu.be/shKvpcsJIEM), [Info Page](../../balances/material/GraphicalDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](../../balances/material/72-BubbleDewFlashVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**Oh, Henry!**<br/>*Gas-Liquid Equilibrium with one condensible component*<br/>[Video](https://youtu.be/dCOQy1C7yf0), [Info Page](../../balances/material/HenrysLawVideoInfoWebPage.qmd), [Visuals](../../balances/material/73-Visuals.qmd)
+**Oh, Henry!**  
+*Gas-Liquid Equilibrium with one condensible component*  
+[Video](https://youtu.be/dCOQy1C7yf0), [Info Page](../../balances/material/HenrysLawVideoInfoWebPage.qmd), [Visuals](../../balances/material/73-Visuals.qmd)

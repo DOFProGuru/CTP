@@ -5,63 +5,103 @@ author: "DOFPro group"
 
 # Introduction
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8FEmNkiU1Jk?si=cZl4f3nPPIqWIx1N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Chemical and Thermal Processes (CTP) is a collection of videos, visuals, and reference pages covering the core principles used in chemical and thermal engineering. The material begins with the fundamentals commonly taught in **Introduction to Chemical Engineering** courses and progresses through topics typically encountered in **Engineering Thermodynamics** and **Chemical Reactor Engineering**.
+
+The goal of this project is to provide a coherent set of explanations, examples, and calculations that show how these subjects connect to one another in real engineering practice.
+
+The introductory video below provides an overview of the topics covered and how the material fits together.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8FEmNkiU1Jk?si=cZl4f3nPPIqWIx1N" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+---
 
 # Overview of Chemical and Thermal Processes
 
-Chemical and Thermal Processes starts with the basics of stoichiometry and thermodynamics as covered in many Introduction to Chemical Engineering courses. It continues with several topics typically covered in an advanced Engineering Thermodynamics course and in a Chemical Reactor Engineering course.
+Chemical and Thermal Processes begins with the basic tools used by engineers to analyze data and describe systems. It then develops the balance equations used to analyze physical and chemical processes, and finally applies these ideas to thermodynamic cycles, reactors, and multiphase systems.
 
 ## Engineering Principles Discussed
 
--   Engineering Basics
-    -   [Statistics, Measurements](basics/stats/StatsMeasurementsWebPage.qmd), and [Calculations](basics/calculations/CalculationsWebPage.qmd)
-    -   [Process Data and Variables](basics/processdata/ProcessDataWebPage.qmd), such as Pressure, Temperature, Mass, Moles, etc.
-    -   Converting among systems of units
-    -   Dimensionless numbers
--   System Definition
-    -   Open or Closed
-    -   Transient or Steady State
--   Material Balances
-    -   Mass Balances
-    -   Mole Balances
-    -   Chemical Reactors
-    -   Equations of State and Phase Equilibria
--   Energy Balances or the 1st Law of Thermodynamics
--   Entropy Balances or the 2nd Law of Thermodynamics
--   Thermodynamic Efficiency and the Combined 1st and 2nd Laws
+- **Engineering Basics**
+  - [Statistics and Measurements](basics/stats/StatsMeasurementsWebPage.qmd) and [Engineering Calculations](basics/calculations/CalculationsWebPage.qmd)
+  - [Process Data and Variables](basics/processdata/ProcessDataWebPage.qmd) such as pressure, temperature, mass, and moles
+  - [Converting among systems of units](basics/processdata/DimensionalEquationsWebPage.qmd)
+  - [Dimensionless numbers](basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd)
 
-## Why Chemical and Thermal Processes?
+- [**System Definition**](balances/general/index.qmd)
+  - Open or closed systems
+  - Transient or steady-state systems
 
-The principles in Chemical and Thermal Processes are applicable in
+- [**Material Balances**](balances/material/index.qmd)
+  - Mass balances
+  - Mole balances
+  - Chemical reactors
+  - Equations of state and phase equilibria
 
--   [Chemical Engineering](https://en.wikipedia.org/wiki/Chemical_engineering)
--   [Petroleum Engineering](https://en.wikipedia.org/wiki/Petroleum_engineering)
--   [Mechanical Engineering](https://en.wikipedia.org/wiki/Mechanical_engineering)
--   [Materials Engineering](https://en.wikipedia.org/wiki/Materials_science)
--   [Bioengineering](https://en.wikipedia.org/wiki/Biological_engineering)
--   [Environmental Engineering](https://en.wikipedia.org/wiki/Environmental_engineering)
--   [Energy Engineering](https://en.wikipedia.org/wiki/Energy_engineering)
--   [Sustainability](https://en.wikipedia.org/wiki/Sustainability)
--   [Manufacturing Engineering](https://en.wikipedia.org/wiki/Manufacturing_engineering)
--   [Industrial Engineering](https://en.wikipedia.org/wiki/Industrial_engineering)
--   [Marine](https://en.wikipedia.org/wiki/Marine_engineering) and [Aerospace Engineering](https://en.wikipedia.org/wiki/Aerospace_engineering)
+- [**Energy Balances (First Law of Thermodynamics)**](balances/energy/index.qmd)
+
+- [**Entropy Balances (Second Law of Thermodynamics)**](balances/entropy/index.qmd)
+
+- [**Thermodynamic Efficiency and the Combined First and Second Laws**](balances/exergy/Combined1stAnd2ndLawsVideoWebPage.qmd)
+
+Together, these topics form the analytical framework used to understand and design chemical and thermal processes.
+
+---
+
+# Why Chemical and Thermal Processes?
+
+The principles developed here are used across many branches of engineering and applied science, including
+
+- [Chemical Engineering](https://en.wikipedia.org/wiki/Chemical_engineering)
+- [Petroleum Engineering](https://en.wikipedia.org/wiki/Petroleum_engineering)
+- [Mechanical Engineering](https://en.wikipedia.org/wiki/Mechanical_engineering)
+- [Materials Engineering](https://en.wikipedia.org/wiki/Materials_science)
+- [Bioengineering](https://en.wikipedia.org/wiki/Biological_engineering)
+- [Environmental Engineering](https://en.wikipedia.org/wiki/Environmental_engineering)
+- [Energy Engineering](https://en.wikipedia.org/wiki/Energy_engineering)
+- [Sustainability](https://en.wikipedia.org/wiki/Sustainability)
+- [Manufacturing Engineering](https://en.wikipedia.org/wiki/Manufacturing_engineering)
+- [Industrial Engineering](https://en.wikipedia.org/wiki/Industrial_engineering)
+- [Marine Engineering](https://en.wikipedia.org/wiki/Marine_engineering)
+- [Aerospace Engineering](https://en.wikipedia.org/wiki/Aerospace_engineering)
+
+Although the examples in this project often come from chemical processing, the underlying methods apply broadly to any system involving **flows, energy transfer, reactions, or phase changes**.
+
+---
 
 # Pathways Through the Videos
 
-As explained in the introductory video [From Mole to Megawatt](https://youtu.be/8FEmNkiU1Jk), we have arranged several different pathways through the videos. The current pathways are:
+{{< include /LinkKey.qmd >}}
 
--   [The Full Video Set](pathway1.qmd)
--   [Intro to Chemical Engineering](pathway2.qmd)
--   [Mechanical Engineering Thermodynamics](pathway3.qmd)
--   [Spreadsheets](pathway4.qmd)
--   [Chemical Reactor Engineering](pathway5.qmd)
+As explained in the introductory video **From Mole to Megawatt**, several curated pathways through the videos have been created. These pathways organize the videos for different audiences and learning goals.
 
-[The Full Video Set](pathway1.qmd) has the full set of videos arranged in the order that seemed most logical for someone wanting to watch all the videos.
+The current pathways are:
 
-[Intro to Chemical Engineering](pathway2.qmd) is a pathway through the videos for someone taking a typical Introduction to Chemical Engineering course.
+- [The Full Video Set](pathway1.qmd)
+- [Intro to Chemical Engineering](pathway2.qmd)
+- [Mechanical Engineering Thermodynamics](pathway3.qmd)
+- [Spreadsheets](pathway4.qmd)
+- [Chemical Reactor Engineering](pathway5.qmd)
 
-[Mechanical Engineering Thermodynamics](pathway3.qmd) is a pathway through the videos for someone taking a typical Mechanical Engineering Thermodynamics course.
+### The Full Video Set
 
-[Spreadsheets](pathway4.qmd) is a pathway through the videos that focus on using spreadsheets for engineering calculations, along with an introduction to DWSIM, a free and open source process simulator.
+[The Full Video Set](pathway1.qmd) contains the complete set of videos arranged in the order that seemed most logical for someone who wants to watch the entire series.
 
-[Chemical Reactor Engineering](pathway5.qmd) is a introductory pathway through the videos that focus on chemical reactors, including material balances, energy balances, and thermodynamics of chemical reactions. We hope to have a more advanced set of videos in time, but for now follow [this link](https://pages.hmc.edu/spjut/E133/index.md.html) to the course website for Engineering 133, Chemical Reaction Engineering, from Fall 2023. The material is based on a copyrighted textbook, and no effort has been made to convert things to Creative Commons or Open Source, but we hope you find the material useful in the meantime.
+### Intro to Chemical Engineering
+
+[Intro to Chemical Engineering](pathway2.qmd) follows a sequence similar to many introductory chemical engineering courses.
+
+### Mechanical Engineering Thermodynamics
+
+[Mechanical Engineering Thermodynamics](pathway3.qmd) focuses on thermodynamics topics commonly emphasized in mechanical engineering curricula.
+
+### Spreadsheets
+
+[Spreadsheets](pathway4.qmd) collects the videos that focus on using spreadsheets for engineering calculations, along with an introduction to **DWSIM**, a free and open-source process simulator.
+
+### Chemical Reactor Engineering
+
+[Chemical Reactor Engineering](pathway5.qmd) provides an introductory pathway focused on chemical reactors, including material balances, energy balances, and thermodynamics of reacting systems.
+
+We hope to develop a more advanced reactor engineering series in the future. In the meantime, you can find related material at the course website for [**Engineering 133: Chemical Reaction Engineering (Fall 2023)**](https://pages.hmc.edu/spjut/E133/index.md.html).
+
+That material is based on a copyrighted textbook and has not yet been converted to open-source or Creative Commons format, but it may still be useful for additional background.

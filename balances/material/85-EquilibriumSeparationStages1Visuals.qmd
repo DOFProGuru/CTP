@@ -19,7 +19,7 @@ DOFPro Team
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-55%"}
 
 ##
-***The Shocking Truth About Equilibrium Stages</br>Are You Doing It Wrong?***
+***The Shocking Truth About Equilibrium Stages<br/>Are You Doing It Wrong?***
 
 **Part 1 – Principles and Equations**
 
@@ -243,7 +243,7 @@ $x_{i,k}$, and $y_{i,k}$.<br/>FLASH
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

@@ -107,7 +107,7 @@ $\hat{V} = \frac{V}{n} = \frac{1}{\rho}$
 :::
 
 ::: {.fragment .absolute top=75% left=0%}
-We reuse the mass-density symbol for molar density and the specific-volume symbol for molar volume. </br> Check the units to determine which is being used!
+We reuse the mass-density symbol for molar density and the specific-volume symbol for molar volume. <br/> Check the units to determine which is being used!
 :::
 
 
@@ -251,7 +251,7 @@ volumetric flow rate is constant.
 
 
 ::: {.bigbold75}
-# You have a stopwatch, a measuring cup, a pair of calipers, and fluid flowing in a tube at a constant rate. </br> How would you measure the fluid velocity?
+# You have a stopwatch, a measuring cup, a pair of calipers, and fluid flowing in a tube at a constant rate. <br/> How would you measure the fluid velocity?
 :::
 
 ## Fluid Velocity
@@ -295,7 +295,7 @@ For reference, for laminar flow in a circular tube, $u_\mathrm{wall} = 0$, $u_{C
 
 #
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}
@@ -307,7 +307,7 @@ The DOFPro Team
 
 #
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}

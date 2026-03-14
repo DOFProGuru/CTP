@@ -153,7 +153,7 @@ Make sure you know which one you are using. Since Wikipedia has a Moody diagram,
 :::
 
 :::{style="font-size: 50px;"}
-</br>
+<br/>
 :::
 :::{.fragment}
 The mechanical energy balance finds extensive use in transport of an incompressible fluid such as water or oil through pipelines, aqueducts, pumps, turbines, and the like.
@@ -277,7 +277,7 @@ $$
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}

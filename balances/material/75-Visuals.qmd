@@ -331,7 +331,7 @@ $$
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous in the series video is the link in the upper left. The next video in the series is the link the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

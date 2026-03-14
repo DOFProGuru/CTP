@@ -36,7 +36,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -59,7 +59,7 @@ The Mechanical Energy Balance
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
 ::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Add Friction and Work to Bernoulli?</br>Here’s What *Really* Happens! 
+Add Friction and Work to Bernoulli?<br/>Here’s What *Really* Happens! 
 :::
 
 ::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
@@ -69,7 +69,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -92,7 +92,7 @@ Using Thermodynamic Property Tables 1
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
 ::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Steam: Get the Quality Right</br>AFTER You Table It! Part 1 
+Steam: Get the Quality Right<br/>AFTER You Table It! Part 1 
 :::
 
 ::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
@@ -102,7 +102,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -125,7 +125,7 @@ Using Thermodynamic Property Tables 2
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
 ::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Steam: Get the Quality Right</br>AFTER You Table It! Part 2 
+Steam: Get the Quality Right<br/>AFTER You Table It! Part 2 
 :::
 
 ::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
@@ -135,7 +135,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -158,7 +158,7 @@ The DOFPro Team
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
 ::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-The Enthalpy Games:</br>The Ballad of Integrals and Means 
+The Enthalpy Games:<br/>The Ballad of Integrals and Means 
 :::
 
 ::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
@@ -168,7 +168,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -191,7 +191,7 @@ The DOFPro Team
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
 ::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-The Enthalpy Games:</br>Sunrise on the Calculations 
+The Enthalpy Games:<br/>Sunrise on the Calculations 
 :::
 
 ::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
@@ -201,7 +201,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -224,7 +224,7 @@ Estimating Heat Capacities and Latent Heats
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
 ::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-Feeling the Heat?</br>How to Get Your Best Estimate 
+Feeling the Heat?<br/>How to Get Your Best Estimate 
 :::
 
 ::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
@@ -234,7 +234,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -255,7 +255,7 @@ The Psychrometric Charts
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -288,7 +288,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -311,7 +311,7 @@ The First Law of Thermodynamics for Ideal Gases
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
 ::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-The Isochronicles:</br>This First Law Saga Is a Gas 
+The Isochronicles:<br/>This First Law Saga Is a Gas 
 :::
 
 ::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
@@ -321,7 +321,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -354,7 +354,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -387,7 +387,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -420,7 +420,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -453,7 +453,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
@@ -476,7 +476,7 @@ Energetics of Reactions Example 2
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute top=20.5% left=25.25% width=1494px height=364px}
 
 ::: {.absolute left=0% right=0% top=36% style="margin: 0 auto; font-size: 200px; font-weight: bold; color: #404040;text-align: center;"}
-React Harder: Formation Heats</br>and Alternate Endings 
+React Harder: Formation Heats<br/>and Alternate Endings 
 :::
 
 ::: {.absolute left=0% right=0% top=63% style="margin: 0 auto; font-size: 140px; text-align: center;"}
@@ -486,7 +486,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}

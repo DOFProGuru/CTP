@@ -1,22 +1,24 @@
 ---
-title: "*Resistance is Futile. Entropy Always Wins* (Introduction to the Second Law of Thermodynamics) Reference Page"
+title: "Intro to the Second Law of Thermodynamics Reference Page<br/>*Resistance is Futile. Entropy Always Wins*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *Resistance is Futile. Entropy Always Wins*
+{{< include /LinkKey.qmd >}}
+# Intro to the Second Law of Thermodynamics
 
-Main title explanation
+The First Law of Thermodynamics states that **energy is conserved**, but it does not determine whether a process can actually occur.
+
+The **Second Law of Thermodynamics** introduces directionality to thermodynamic processes.  
+It explains why heat flows from hot to cold, why engines cannot be perfectly efficient, and why entropy tends to increase.
 
 ## Resistance is Futile. Entropy Always Wins
 
-Video 1 explanation
+This video introduces the Second Law of Thermodynamics, heat engines, and the concept of entropy.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yqVUz1WA7M4?si=9JXVNDB8bsxZmPqH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yqVUz1WA7M4?si=9JXVNDB8bsxZmPqH" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](113-Visuals.qmd)
 
 # Examples and Definitions
 
@@ -24,26 +26,61 @@ Video 1 explanation
 
 ## Definitions
 
-[The Second Law of Thermodynamics](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics)
-: No apparatus can operate in such a way that its only effect (in system and surroundings) is to convert heat absorbed by a system completely into work,<br/>**or**<br/>It is impossible by a cyclic process to convert the heat absorbed by a system completely into work,<br/>**or**<br/>No process is possible which consists solely in the transfer of heat from one temperature level to a higher one.
+[The Second Law of Thermodynamics](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics)  
+: The Second Law can be expressed in several equivalent forms:
 
-[Heat Engine](https://en.wikipedia.org/wiki/Heat_engine)
-: A (usually cyclic) system that transforms thermal energy or heat into work.
+**Kelvin–Planck Statement**  
+No device operating in a cycle can convert heat absorbed from a reservoir completely into work.
 
-Heat-Engine or Thermal Efficiency, $\eta$
-: The *thermal efficiency* or *heat-engine efficiency* is the ratio of the work produced by a heat engine to the heat extracted from the high-temperature reservoir powering the heat engine. With absolute signs, the definition is $\eta \equiv |W|/|Q_\mathrm{hot}|$
+**Equivalent statement**  
+It is impossible by a cyclic process to convert all absorbed heat into work.
 
-[Isothermal Heat Reservoir](https://en.wikipedia.org/wiki/Thermal_reservoir)
-: A reservoir that can accept or reject heat at a constant temperature. Any real reservoir has a finite capacity to accept or reject heat. An example would be a well-mixed container of liquid water and ice at atmospheric pressure. It will remain at $0\ ^\circ\mathrm{C}$ during heat addition until the ice is fully melted, and during heat rejection until the water is fully frozen.
+**Clausius Statement**  
+No process is possible whose sole effect is the transfer of heat from a colder body to a hotter body.
 
-[Carnot Engine](https://en.wikipedia.org/wiki/Carnot_heat_engine)
-: A theoretical heat engine that operates at the maximum possible thermal efficiency of $\eta = 1 - (T_\mathrm{cold})/(T_\mathrm{hot})$, where the temperature of the reservoirs are expressed as absolute temperatures.
+[Heat Engine](https://en.wikipedia.org/wiki/Heat_engine)  
+: A (usually cyclic) system that converts thermal energy (heat) into mechanical work.
 
-Carnot Efficiency
-: The thermal efficiency of a Carnot engine, given by $\eta = 1 - (T_\mathrm{cold})/(T_\mathrm{hot})$, where the temperature of the reservoirs are expressed as absolute temperatures.
+Heat-Engine or Thermal Efficiency, $\eta$  
+: The ratio of the work produced by a heat engine to the heat extracted from the high-temperature reservoir.
 
-[Entropy](https://en.wikipedia.org/wiki/Entropy)
-: The degree of randomness in a system, or the heat transferred to a system divided by the absolute temperature of the transfer, $Q/T$.
+$$
+\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|}
+$$
+
+[Isothermal Heat Reservoir](https://en.wikipedia.org/wiki/Thermal_reservoir)  
+: A system that can absorb or supply heat while remaining at essentially constant temperature.
+
+Any real reservoir has finite capacity. A common example is a well-mixed container of ice and liquid water at atmospheric pressure, which remains at $0\ ^\circ\mathrm{C}$ until the phase change is complete.
+
+[Carnot Engine](https://en.wikipedia.org/wiki/Carnot_heat_engine)  
+: A theoretical heat engine that operates with the maximum possible efficiency between two thermal reservoirs.
+
+Its efficiency depends only on the temperatures of the reservoirs:
+
+$$
+\eta = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}
+$$
+
+where the temperatures are absolute temperatures.
+
+Carnot Efficiency  
+: The maximum theoretical efficiency for any heat engine operating between two reservoirs:
+
+$$
+\eta = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}
+$$
+
+[Entropy](https://en.wikipedia.org/wiki/Entropy)  
+: A thermodynamic property that measures the degree of energy dispersal within a system.
+
+For a reversible heat transfer,
+
+$$
+dS = \frac{\delta Q_\mathrm{rev}}{T}
+$$
+
+Entropy provides a criterion for the direction of spontaneous processes and plays a central role in the Second Law of Thermodynamics.
 
 # Other Links and Videos
 
@@ -51,18 +88,26 @@ Carnot Efficiency
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**React Hard: The First Law Gets Chemical**<br/>*Example of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/q-W5Y1d85go), [Info Page](../../balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/111-EnergeticsOfReactionsPt1Visuals.qmd)
+**React Hard: The First Law Gets Chemical**  
+*Example of the 1^st^ Law for Chemical Reactions*  
+[Video](https://youtu.be/q-W5Y1d85go), [Info Page](../../balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/111-EnergeticsOfReactionsPt1Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**React Harder: Formation Heats and Alternate Endings**<br/>*2 more Examples of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/iqxJP6g-Qsc), [Info Page](../../balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/112-EnergeticsOfReactionsPt2Visuals.qmd)
+**React Harder: Formation Heats and Alternate Endings**  
+*2 more Examples of the 1^st^ Law for Chemical Reactions*  
+[Video](https://youtu.be/iqxJP6g-Qsc), [Info Page](../../balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/112-EnergeticsOfReactionsPt2Visuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**The ΔS-sentials of Calculating Entropy Changes**<br/>*Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam*<br/>[Video](https://youtu.be/z2e5Rq5r288), [Info Page](../../balances/entropy/CalculatingEntropyChangesVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/115-CalcEntropyVisuals.qmd)
+**The ΔS-sentials of Calculating Entropy Changes**  
+*Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam*  
+[Video](https://youtu.be/z2e5Rq5r288), [Info Page](../../balances/entropy/CalculatingEntropyChangesVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/115-CalcEntropyVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**Sadi Carnot and the Power of Fire, the 1824 Edition Part 1**<br/>*The Air-Standard Carnot Cycle*<br/>[Video](https://youtu.be/EDJQAvBIAok), [Info Page](../../balances/entropy/TheCarnotCycleVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/116-Visuals.qmd)
+**Sadi Carnot and the Power of Fire, the 1824 Edition Part 1**  
+*The Air-Standard Carnot Cycle*  
+[Video](https://youtu.be/EDJQAvBIAok), [Info Page](../../balances/entropy/TheCarnotCycleVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/116-Visuals.qmd)

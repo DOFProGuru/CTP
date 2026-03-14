@@ -4,89 +4,135 @@ author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
+
+{{< include /LinkKey.qmd >}}
+
 # Intro to Ideal and Real Gases and Mixtures
 
-Main title explanation
+Gases are often modeled using the **ideal gas law**, which provides a simple relationship between pressure, volume, temperature, and the amount of gas present. For many engineering calculations the ideal gas approximation works remarkably well.
+
+However, real gases deviate from ideal behavior, particularly at **high pressures and low temperatures**. In these cases, engineers must use more advanced models and equations of state to describe gas behavior accurately.
+
+The videos on this page introduce the ideal gas law, explain how real gases deviate from ideal behavior, and demonstrate how real-gas and real-gas mixture calculations are performed.
+
+---
 
 ## Ideal Gases EXPOSED: Are They Even Real?!!
 
-Video 1 explanation
+This video introduces the ideal gas law and explains the assumptions behind the ideal gas model.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L-DEw6dGRps?si=uvcbFHC5M02ghlDp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L-DEw6dGRps?si=uvcbFHC5M02ghlDp" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](62-IdealGasVisuals.qmd)
+
+---
 
 ## When Getting Gassed Isn’t Ideal, Part 1
 
-Video  explanation
+This video introduces real-gas behavior and explains why gases deviate from the ideal gas law under certain conditions.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1sU4_YdcKr4?si=piaWPqk_oxK1OV-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1sU4_YdcKr4?si=piaWPqk_oxK1OV-B" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](63-Visuals.qmd)
+
+---
 
 ## When Getting Gassed Isn’t Ideal, Part 2
 
-Video  explanation
+This video continues the discussion of real gases and demonstrates how compressibility charts can be used to estimate real-gas behavior.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q6ZK_Ou967o?si=PK_b3LzvS6rHHXlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q6ZK_Ou967o?si=PK_b3LzvS6rHHXlw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](64-Visuals.qmd)
+
+---
 
 ## REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 1
 
-Video  explanation
+This video introduces the behavior of **real gas mixtures** and explains how mixture properties can be estimated.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yI3jj1jCSAM?si=WWvKCAmBPMPlF0R9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yI3jj1jCSAM?si=WWvKCAmBPMPlF0R9" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](65-Visuals.qmd)
+
+---
 
 ## REAL Gas Mixtures EXPLAINED – Don’t Let This Cost You Points on Your Exam! Part 2
 
-Video  explanation
+This video continues the discussion of real gas mixtures and demonstrates example calculations.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pbizi39c1Rk?si=QV4dU43XFw8cILDZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pbizi39c1Rk?si=QV4dU43XFw8cILDZ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](66-Visuals.qmd)
+
+---
 
 # Examples and Definitions
 
 ## Examples Links
 
-- [Real Gas Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/RealGasExample.ods) - A spreadsheet with the sample calculations from *When Getting Gassed Isn’t Ideal*
+- [Real Gas Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/RealGasExample.ods) – A spreadsheet with the sample calculations from *When Getting Gassed Isn’t Ideal*
 - [Real Gas Mixture Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/MixRealGasExample.ods) – A spreadsheet with the sample calculations from *REAL Gas Mixtures EXPLAINED*
+
+---
 
 ## Definitions
 
-Ideal Gas
-: An ideal gas is a theoretical gas that follows the ideal gas law, which states that the pressure, volume, and temperature of the gas are related by the equation $PV = nRT$, where $P$ is the pressure, $V$ is the volume, $n$ is the number of moles of gas, $R$ is the ideal gas constant, and $T$ is the temperature. In an ideal gas, the gas particles are assumed to have no volume and no interactions with each other, which allows for simple mathematical modeling of the gas behavior. However, real gases deviate from ideal behavior at high pressures and low temperatures due to the finite size of gas particles and the presence of intermolecular forces.
+Ideal Gas  
+: A theoretical gas that follows the ideal gas law
 
-Real Gas
-: A real gas is a gas that does not follow the ideal gas law due to the presence of intermolecular forces and the finite size of gas particles. Real gases deviate from ideal behavior at high pressures and low temperatures, where the assumptions of the ideal gas model break down. The behavior of real gases can be described using more complex equations of state.
+$$
+PV = nRT,\ \ P\hat{V} = R T
+$$
 
-Compressibility, $z$
-: A measure of how much a gas deviates from ideal behavior. It is defined as the ratio of the molar volume of the gas to the molar volume of an ideal gas at the same temperature and pressure. A compressibility factor of 1 indicates ideal behavior, while values greater than 1 indicate that the gas is less compressible than an ideal gas, and values less than 1 indicate that the gas is more compressible than an ideal gas.
+In the ideal gas model, gas molecules have **no volume** and **no intermolecular forces**. These assumptions allow simple mathematical descriptions of gas behavior.
 
-Critical Point
-: The critical point of a substance is the temperature and pressure at which the liquid and gas phases of the substance become indistinguishable. At the critical point, the properties of the liquid and gas phases converge, and the substance exists as a supercritical fluid. The critical point is an important concept in the study of phase behavior and is used to characterize the properties of substances under extreme conditions.
+Real Gas  
+: A gas whose behavior deviates from the ideal gas law because real molecules occupy volume and interact with each other through intermolecular forces.
 
-Critical Pressure, $P_\mathrm{c}$
-: The pressure at the critical point of a substance. It is the minimum pressure required to liquefy a gas at its critical temperature. The critical pressure is an important property that helps to define the behavior of substances near their critical point and is used in various applications, such as in the design of supercritical fluid extraction processes.
+Compressibility Factor, $z$  
+: A measure of how much a gas deviates from ideal behavior.
 
-Critical Temperature, $T_\mathrm{c}$
-: The temperature at the critical point of a substance. It is the minimum temperature required to liquefy a gas at its critical pressure. The critical temperature is an important property that helps to define the behavior of substances near their critical point and is used in various applications, such as in the design of supercritical fluid extraction processes.
+$$
+z \equiv \frac{PV}{nRT} = \frac{P\hat{V}}{RT}
+$$
 
-Reduced Pressure, $P_\mathrm{r}$
-: The ratio of the pressure of a gas to its critical pressure. Reduced pressure is a dimensionless quantity that is used to characterize the behavior of gases in relation to their critical point. It is often used in conjunction with reduced temperature to analyze the phase behavior of gases and to apply the law of corresponding states. $P_\mathrm{r} \equiv P/P_\mathrm{c}$
+For an ideal gas $z = 1$.  
+Values different from 1 indicate non-ideal behavior.
 
-Reduced Temperature, $T_\mathrm{r}$
-: The ratio of the temperature of a gas to its critical temperature. Reduced temperature is a dimensionless quantity that is used to characterize the behavior of gases in relation to their critical point. It is often used in conjunction with reduced pressure to analyze the phase behavior of gases and to apply the law of corresponding states. $T_\mathrm{r} \equiv T/T_\mathrm{c}$
+Critical Point  
+: The temperature and pressure at which the liquid and gas phases of a substance become indistinguishable. At this point the substance becomes a **supercritical fluid**.
 
-Acentric Factor, $\omega$
-: A third factor, along with $P_\mathrm{c}$, and $T_\mathrm{c}$ used in equations of state to characterize real-gas behavior.
+Critical Pressure, $P_\mathrm{c}$  
+: The pressure at the critical point.
 
-Equation of State
-: An equation of state is a mathematical relationship that describes the behavior of a substance in terms of its pressure, volume, and temperature. For real gases, equations of state such as the Soave-Redlich-Kwong equation, and the Peng-Robinson equation are commonly used to model the behavior of gases under non-ideal conditions. These equations of state account for the finite size of gas particles and the intermolecular forces between them, allowing for more accurate predictions of gas behavior compared to the ideal gas law.
+Critical Temperature, $T_\mathrm{c}$  
+: The temperature at the critical point.
 
-Law of Corresponding States
-: A principle that states that the properties of all substances can be correlated when expressed in terms of reduced properties, which are defined as the actual properties divided by the critical properties of the substance. The law of corresponding states allows for the prediction of the behavior of substances based on their critical properties, and is often used in the study of real gases and mixtures to simplify the analysis of their behavior under different conditions.
+Reduced Pressure, $P_\mathrm{r}$  
+: The ratio of the system pressure to the critical pressure.
+
+$$
+P_\mathrm{r} = \frac{P}{P_\mathrm{c}}
+$$
+
+Reduced Temperature, $T_\mathrm{r}$  
+: The ratio of the system temperature to the critical temperature.
+
+$$
+T_\mathrm{r} = \frac{T}{T_\mathrm{c}}
+$$
+
+Acentric Factor, $\omega$  
+: A parameter used in many equations of state to characterize how a real fluid deviates from simple spherical molecular behavior.
+
+Equation of State  
+: A mathematical relationship between pressure, volume, and temperature that describes the behavior of a substance. Common real-gas equations of state include the **Soave–Redlich–Kwong** and **Peng–Robinson** equations.
+
+Law of Corresponding States  
+: A principle stating that many fluids exhibit similar behavior when their properties are expressed in terms of **reduced pressure and reduced temperature**. This concept allows generalized charts and correlations to be used to estimate real-gas properties.
+
+---
 
 # Other Links and Videos
 
@@ -94,18 +140,26 @@ Law of Corresponding States
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**A Combustible Mixture!**<br/>*Sample combustion reactions*<br/>[Video](https://youtu.be/hvIk-evMp88), [Info Page](../../balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/material/60-CombRxnsPart2Visuals.qmd)
+**A Combustible Mixture!**  
+*Sample combustion reactions*  
+[Video](https://youtu.be/hvIk-evMp88), [Info Page](../../balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/material/60-CombRxnsPart2Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**Alcohol and Water DO Mix!**<br/>*Liquid and Solid Density Calculations*<br/>[Video](https://youtu.be/_tjYMjWR4fE), [Info Page](../../balances/material/LiquidMixturesVideoInfoWebPage.qmd), [Visuals](../../balances/material/61-LiqSolDenJTFVisuals.qmd)
+**Alcohol and Water DO Mix!**  
+*Liquid and Solid Density Calculations*  
+[Video](https://youtu.be/_tjYMjWR4fE), [Info Page](../../balances/material/LiquidMixturesVideoInfoWebPage.qmd), [Visuals](../../balances/material/61-LiqSolDenJTFVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 1**<br/>*Phase Diagrams, Gibbs Phase Rule*<br/>[Video](https://youtu.be/NUS4Y_pnWZk), [Info Page](../../balances/material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](../../balances/material/70-IntroMultiphasePart1Visuals.qmd)
+**Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 1**  
+*Phase Diagrams, Gibbs Phase Rule*  
+[Video](https://youtu.be/NUS4Y_pnWZk), [Info Page](../../balances/material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](../../balances/material/70-IntroMultiphasePart1Visuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 2**<br/>*Ternary Phase Diagrams, Lever Rule*<br/>[Video](https://youtu.be/QBREikNSvGI), [Info Page](../../balances/material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](../../balances/material/71-IntroMultiphasePart2Visuals.qmd)
+**Can You Tell an Azeotrope from a Peritectic? Get Your Phase Diagrams Right! Part 2**  
+*Ternary Phase Diagrams, Lever Rule*  
+[Video](https://youtu.be/QBREikNSvGI), [Info Page](../../balances/material/ReadingPhaseDiagramsVideoInfoWebPage.qmd), [Visuals](../../balances/material/71-IntroMultiphasePart2Visuals.qmd)

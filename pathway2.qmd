@@ -8,14 +8,7 @@ format: html
 
 This pathway is designed for a typical Introduction to Chemical Engineering course. It covers the core concepts while leaving out the more in-depth statistics, advanced reactor analysis, and the Second Law (and beyond).
 
-## How to Read This Pathway [(Without Increasing Entropy)]{style="font-size: 20px;"}
-
-- **JTF (Just the Facts)** videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think “efficient and to the point.” Each has a companion TFS video.
-- **TFS (The Full Story)** videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.
-- **Info Page** links lead to definitions, expanded explanations, and related material—because sometimes you really do need to explain it.
-- **Visuals** links contain the underlying greenscreen or whiteboard materials used in the video, for those who like to see the scaffolding.
-- Wondering about the titles? See Appendix B: [**If you have to explain it, it’s no longer funny**](/appx/NotFunny.qmd)￼.
-- Videos marked [This is NOT a DOFPro video]{style="color: red;"} were not produced by DOFPro but are included because they’re relevant to the topic. They’re shown in red so no one calls the academic integrity police.
+{{< include /LinkKey.qmd >}}
 
 ## Introduction
 
@@ -163,7 +156,7 @@ This pathway is designed for a typical Introduction to Chemical Engineering cour
 
 **The Isochronicles: This First Law Saga Is a Gas**<br/>*The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes*<br/>[Video](https://youtu.be/iKsR3v1wu30), [Info Page](balances/energy/The1stLawForIdealGases.qmd), [Visuals](balances/energy/102-1stLawIdealGasesVisuals.qmd)
 
-**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](balances/energy/104-HeatsOfReactionVisuals.qmd)
+**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}_c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](balances/energy/104-HeatsOfReactionVisuals.qmd)
 
 **Chemical Reactions vs. The First Law: Who Wins?**<br/>*Forms of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/mFF5hDHclPE), [Info Page](balances/energy/The1stLawReactingSystems.qmd), [Visuals](balances/energy/106-1stLawReactingVisuals.qmd)
 

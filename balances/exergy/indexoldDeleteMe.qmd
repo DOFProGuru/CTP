@@ -1,14 +1,12 @@
 ---
 title: "Exergy or Availability Balances"
-aliases:
-  - ./index.html
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
 
 {{< include /LinkKey.qmd >}}
-
+<!-- 
 # Introduction
 
 The **First Law of Thermodynamics** tells us that energy is conserved.  
@@ -159,4 +157,4 @@ $$
 
 ### Next video
 
-— End of series — **You've reached the end of the DOFPro CTP video series (for now).**
+— End of series — **You've reached the end of the DOFPro CTP video series (for now).** -->

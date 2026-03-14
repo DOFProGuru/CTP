@@ -3,23 +3,27 @@ title: "Temperature Conversion Reference Page<br/>*How Keen Is Your Rank?*"
 author: "DOFPro group"
 format: html
 ---
+{{< include /LinkKey.qmd >}}
 # Purpose of Temperature Conversion
 
-Temperature is the most common measured and reported quantity in  in chemical processes. The concept of temperature is fundamental to modeling, designing, and monitoring chemical processes. The videos present the four common temperature scales, [Kelvin](https://en.wikipedia.org/wiki/Kelvin), [Celsius](https://en.wikipedia.org/wiki/Celsius), [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit), and [Rankine](https://en.wikipedia.org/wiki/Rankine_scale), and how to convert temperatures and temperature intervals among the four of them. The title is a pun on the name of the least well known of the four scales, the Rankine. The Wikipedia article on [Rankine](https://en.wikipedia.org/wiki/Rankine_scale) will provide you with much more information than you wanted to know.
+Temperature is one of the most commonly measured and reported quantities in chemical and thermal processes. The concept of temperature is fundamental to modeling, designing, and monitoring those processes.
 
-## How Keen Is Your Rank? Just The Facts
+These videos present the four common temperature scales—[Kelvin](https://en.wikipedia.org/wiki/Kelvin), [Celsius](https://en.wikipedia.org/wiki/Celsius), [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit), and [Rankine](https://en.wikipedia.org/wiki/Rankine_scale)—and explain how to convert both **temperatures** and **temperature intervals** among them.
 
-The *Just The Facts* Video explains the difference between temperature and temperature interval, presents the conversions among the four scales for both temperature and temperature intervals, and then has two examples of applying the conversions. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.
+The title is a pun on the least well-known of the four scales, the Rankine scale. The Wikipedia article on [Rankine](https://en.wikipedia.org/wiki/Rankine_scale) will provide you with much more information than you probably wanted.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XKwl41MvFcE?si=hkqX9Fg1u8vhdaK6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](ConvertingTemperatureJTFVisuals.qmd),  [Conversion Table](#conversion-tables)
+## How Keen Is Your Rank? Just the Facts
+
+The *Just the Facts* video explains the difference between **temperature** and **temperature interval**, presents the conversions among the four scales for both, and then works through two examples.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XKwl41MvFcE?si=hkqX9Fg1u8vhdaK6" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+[Visuals](ConvertingTemperatureJTFVisuals.qmd), [Conversion Table](#conversion-tables)
 
 ## How Keen Is Your Rank? The Full Story
 
-*The Full Story* Video examines common conceptions and misconceptions about temperatures and temperature intervals, compares the four scales, shows how to derive the conversions, lists the conversions, and then has two examples of their use. It is recommended for those who have not been exposed to temperature before or who have struggled with understanding what temperature is or how it is used.
+*The Full Story* video examines common conceptions and misconceptions about temperatures and temperature intervals, compares the four scales, shows how the conversions are derived, lists the conversions, and then works through two examples.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hEtrCnIicqQ?si=Dv83MIlkNaN_TYJj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hEtrCnIicqQ?si=Dv83MIlkNaN_TYJj" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](ConvertingTemperatureTFSVisuals.qmd), [Conversion Table](#conversion-tables)
 
 # Conversion Tables
@@ -29,57 +33,64 @@ The *Just The Facts* Video explains the difference between temperature and tempe
 | Convert From $\rightarrow$ | Kelvin ($\mathrm{K}$) | Celsius ($\mathrm{^\circ C}$) | Fahrenheit ($\mathrm{^\circ F}$) | Rankine ($\mathrm{^\circ R}$) |
 |---:|:---:|:---:|:---:|:---:|
 | TO $\downarrow$| | | | |
-| $\mathrm{K}$ | N/A | $T(\mathrm{K}) = T(\mathrm{^\circ C}) + 273.15$ | $T(\mathrm{K}) = \frac{5}{9} [T(\mathrm{^\circ F}) - 32] + 273.15$ | $T(\mathrm{K}) = \frac{5}{9} T(\mathrm{^\circ R})$ |
+| $\mathrm{K}$ | N/A | $T(\mathrm{K}) = T(\mathrm{^\circ C}) + 273.15$ | $T(\mathrm{K}) = \frac{5}{9}[T(\mathrm{^\circ F}) - 32] + 273.15$ | $T(\mathrm{K}) = \frac{5}{9} T(\mathrm{^\circ R})$ |
 | $\mathrm{^\circ C}$ | $T(\mathrm{^\circ C}) = T(\mathrm{K}) - 273.15$ | N/A | $T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ F}) - 32]$ | $T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ R}) - 491.67]$ |
 | $\mathrm{^\circ F}$ | $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{K}) - 459.67$ | $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{^\circ C}) + 32$ | N/A | $T(\mathrm{^\circ F}) = T(\mathrm{^\circ R}) - 459.67$ |
-| $\mathrm{^\circ R}$ | $T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{K})$ | $T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{^\circ C}) + 491.67$ | $$T(\mathrm{^\circ R}) = T(\mathrm{^\circ F}) + 459.67$ | N/A |
+| $\mathrm{^\circ R}$ | $T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{K})$ | $T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{^\circ C}) + 491.67$ | $T(\mathrm{^\circ R}) = T(\mathrm{^\circ F}) + 459.67$ | N/A |
 
 ### Temperature Intervals
 
 | Convert From $\rightarrow$ | $\Delta T$ Kelvin ($\mathrm{K}$) | $\Delta T$ Celsius ($\mathrm{^\circ C}$) | $\Delta T$ Fahrenheit ($\mathrm{^\circ F}$) | $\Delta T$ Rankine ($\mathrm{^\circ R}$) |
 |---:|:---:|:---:|:---:|:---:|
 | TO $\downarrow$| | | | |
-| $\Delta T\ (\mathrm{K})$| N/A | equal | $\Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$ | $\Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$|
+| $\Delta T\ (\mathrm{K})$| N/A | equal | $\Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$ | $\Delta T(\mathrm{K}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$ |
 | $\Delta T\ (\mathrm{^\circ C})$| equal | N/A | $\Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ F})$ | $\Delta T(\mathrm{^\circ C}) = \frac{5}{9} \Delta T(\mathrm{^\circ R})$ |
 | $\Delta T\ (\mathrm{^\circ F})$| $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{K})$ | $\Delta T(\mathrm{^\circ F}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$ | N/A | equal |
 | $\Delta T\ (\mathrm{^\circ R})$| $\Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{K})$ | $\Delta T(\mathrm{^\circ R}) = \frac{9}{5} \Delta T(\mathrm{^\circ C})$ | equal | N/A |
 
 ## Is It Hot in Here, or Is It Just My Thermistor?
 
-Explanation
+This video introduces common methods of measuring temperature in engineering systems, with particular emphasis on thermistors and the practical interpretation of temperature measurements.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TncEECvmw8Y?si=SDSSKkLOv7PY1eOy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TncEECvmw8Y?si=SDSSKkLOv7PY1eOy" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](32-MeasuringTemperatureVisuals.qmd)
-
 
 # Definitions
 
 [Temperature](https://en.wikipedia.org/wiki/Temperature)
-: A measure of the average kinetic energy of the colliding and/or vibrating atoms in a system.
+: A thermodynamic property related to the tendency of heat to flow from one system to another. At the microscopic level, it is related to the average kinetic energy of molecular motion.
 
 [Absolute Zero](https://en.wikipedia.org/wiki/Absolute_zero)
-: The lowest limit of the thermodynamic temperature scale. Determined by extrapolating the ideal gas law. Colloquially known as the lowest possible temperature.
+: The zero point of an absolute temperature scale and the lowest possible thermodynamic temperature.
 
 [Absolute Temperature Scale](https://en.wikipedia.org/wiki/Absolute_zero)
-: A temperature scale that begins at absolute zero.
+: A temperature scale whose zero point is absolute zero.
 
 [Kelvin](https://en.wikipedia.org/wiki/Kelvin)
-: The SI absolute temperature scale. Named after Lord Kelvin, a British mathematisian and engineer.
+: The SI absolute temperature scale, named after Lord Kelvin, a British mathematician, physicist, and engineer.
 
 [Celsius](https://en.wikipedia.org/wiki/Celsius)
-: The SI common temperature scale. Named after Anders Celsius, a Swedish astronomer.
+: A commonly used SI-based temperature scale, named after Anders Celsius, a Swedish astronomer.
 
 [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit)
-: The American Engineering common temperature scale. Named after Daniel Gabriel Fahrenheit, a physicist born in Poland.
+: A commonly used temperature scale in American engineering practice, named after Daniel Gabriel Fahrenheit.
 
 [Rankine](https://en.wikipedia.org/wiki/Rankine_scale)
-: The American Engineering absolute temperature scale. Named after William John Macquorn Rankine, a Scottish methematician and physicist.
+: The absolute temperature scale used with American Engineering units, named after William John Macquorn Rankine, a Scottish mathematician and physicist.
 
 [Ideal Gas Law](https://en.wikipedia.org/wiki/Ideal_gas_law)
-: For gas-phase components, and low enough pressures and high enough temperatures, the relationship among absolute temperature, $T$, absolute pressure, $P$, total volume, $V$, and number of moles, $n$. The relationship is usually written as $PV=nRT$, where $R$ is the [universal gas constant](https://en.wikipedia.org/wiki/Gas_constant). It can also be written as $P\hat{V}=RT$, where $\hat{V}=V/n$ is the molar volume.
+: For gases at sufficiently low pressure and high temperature, the relationship among absolute temperature $T$, absolute pressure $P$, volume $V$, and number of moles $n$ is often written as
+
+$$PV = nRT$$
+
+where $R$ is the [universal gas constant](https://en.wikipedia.org/wiki/Gas_constant). It can also be written as
+
+$$P\hat{V} = RT$$
+
+where $\hat{V} = V/n$ is the molar volume.
 
 [Heat Capacity](https://en.wikipedia.org/wiki/Heat_capacity)
-: The change in internal energy required to change the temperature of a specified amount of a substance by one degree in a specified temperature scale. The two most common ones are at constant pressure, $C_P$, and a constant volume, $C_V$.
+: The amount of heat required to raise the temperature of a specified amount of a substance by one degree. The two most common forms are the heat capacity at constant pressure, $C_p$, and at constant volume, $C_v$.
 
 # Other Links and Videos
 
@@ -87,19 +98,19 @@ Explanation
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](../../basics/stats/NonlinearRegressionVideoInfoWebPage.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
 **Is Furlongs Per Fortnight a Thing?**<br/>*Unit Conversion*<br/>[Video](https://youtu.be/5EbL9MEro9E), [Info Page](../../basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](../../basics/processdata/DimensionalEquationsJTFVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
 **The Most Annoying Equation Conversion**<br/>*Unit Conversion of Equations*<br/>[Video](https://youtu.be/6dyg-CgAm8s), [Info Page](../../basics/processdata/EquationConversionVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/EquationConversionJTFVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
 **Where Does Sherwood Hide His Unit? Principles**<br/>*Dimensionless Numbers Principles*<br/>[Video](https://youtu.be/A348vNv5t9c), [Info Page](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/DimNumPart1JTFVisuals.qmd)

@@ -4,46 +4,77 @@ author: "DOFPro group"
 format: html
 ---
 
+{{< include /LinkKey.qmd >}}
+
 # Why Engineering Calculations
 
-While Engineering Design is the fundamental function of engineers, engineering is a quantitative discipline. Processes must be modeled and optimized. Lengths, masses, flow rates, and temperatures must be specified. Calculation procedures must be performed correctly to produce the designs and artifacts that are the output of the design process. Many common Engineering presentation and calculation tasks are presented in the following videos.
+While engineering design is the fundamental activity of engineers, the discipline itself is highly quantitative. Processes must be modeled and optimized. Lengths, masses, flow rates, and temperatures must be specified. Calculation procedures must be performed correctly to produce the designs and artifacts that are the output of the design process.
 
-<!-- # What Goes Into a Number?
+Many common engineering presentation and calculation tasks are presented in the following videos.
 
-Most students learn either before or early in their academic career that numbers are frequently used to represent objects in the real world, beginning with natural numbers to represent whole objects like apples or coins, followed by integers to represent both object you have and objects you owe, and then fractions and decimal fractions to represent portions of a whole object, and so forth.
+<!--
+# What Goes Into a Number?
 
-When an engineer uses a number, it is important to recognize what the number represents, what measure of uncertainty or certainty is associated with the number, and what the implications are when that number is transformed through functions and calculations. The video *What Goes Into a Number?* explores all of these issues and more. It is a meta view of the uses, meanings, and transformations of all of the numbers that engineers use, and hopefully don't misuse. For consistency the links are presented in a single row table. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
+Most students learn either before or early in their academic career that numbers are frequently used to represent objects in the real world, beginning with natural numbers to represent whole objects like apples or coins, followed by integers to represent both objects you have and objects you owe, and then fractions and decimal fractions to represent portions of a whole object, and so forth.
 
- Title | JTF Link | TFS Link | Info Page | Subject|
-|---------|-------|----------|----------|-----------|--------|
-| What Goes Into a Number? | No | No | No | The uses, meanings, and transformations of numbers used in Engineering | -->
+When an engineer uses a number, it is important to recognize what the number represents, what measure of uncertainty or certainty is associated with the number, and what the implications are when that number is transformed through functions and calculations. The video *What Goes Into a Number?* explores all of these issues and more. It is a meta view of the uses, meanings, and transformations of all of the numbers that engineers use, and hopefully do not misuse.
+
+For consistency the links are presented in a single row table. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
+-->
 
 # [Data Visualization](DataVisWebPage.qmd)
 
-The field of data visualization is too vast to explore in depth here. The video linked below is an entrance into the field and explores linear, semi-log, and log-log plots as a means to quickly determine the best functional form for a model for a set of data. It also briefly introduces nonlinear data fitting. These topics are also explored in the [statistics](../stats/StatsMeasurementsWebPage.qmd) videos on linear and nonlinear regression, and in the videos further down this page. Some overlap is unavoidable in a collection of videos. For consistency the links are presented in a single row table. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
+The field of data visualization is too vast to explore in depth here. The videos linked below provide an introduction to the field and explore linear, semi-log, and log-log plots as a means to quickly determine the best functional form for a model for a set of data. They also briefly introduce nonlinear data fitting.
 
-**Is Your Process Data Spread Smooth or Chunky? Just the Facts**<br/>*Data Visualization, linear and Log Coordinates*<br/>[Video](https://youtu.be/yFOrwNmEbPA), [Info Page](DataVisWebPage.qmd), [Visuals](DataVisJTFVisuals.qmd)
+These topics are also explored in the [statistics](../stats/StatsMeasurementsWebPage.qmd) videos on linear and nonlinear regression, and in the videos further down this page. Some overlap is unavoidable in a collection of videos.
 
-**Is Your Process Data Spread Smooth or Chunky? The Full Story**<br/>*Data Visualization, linear and Log Coordinates*<br/>[Video](https://youtu.be/VUyyEmif3fs), [Info Page](DataVisWebPage.qmd), [Visuals](DataVisTFSVisuals.qmd)
+
+**Is Your Process Data Spread Smooth or Chunky? Just the Facts**  
+*Data Visualization, linear and log coordinates*  
+[Video](https://youtu.be/yFOrwNmEbPA), [Info Page](DataVisWebPage.qmd), [Visuals](DataVisJTFVisuals.qmd)
+
+**Is Your Process Data Spread Smooth or Chunky? The Full Story**  
+*Data Visualization, linear and log coordinates*  
+[Video](https://youtu.be/VUyyEmif3fs), [Info Page](DataVisWebPage.qmd), [Visuals](DataVisTFSVisuals.qmd)
 
 # [Interpolation](InterpolationWebPage.qmd)
 
-In spite of the widespread use of computers and specialized applications, it is likely that an engineer will need to *interpolate* or find a non-tabular value in a printed or on-line data table on occasion. Interpolation methods are introduced in the videos listed in the table below. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
+In spite of the widespread use of computers and specialized applications, it is likely that an engineer will occasionally need to *interpolate*, or find a non-tabular value in a printed or online data table.
 
-**Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts**<br/>*Linear Interpolation*<br/>[Video](https://youtu.be/VbnpWj9iYAU), [Info Page](InterpolationWebPage.qmd), [Visuals](InterpolationJTFVisuals.qmd)
+Interpolation methods are introduced in the videos listed below.
 
-**Interpol Is Late to a Mind-Blowing Math Hack, The Full Story**<br/>*Linear Interpolation*<br/>[Video](https://youtu.be/pbDEc_Q862M), [Info Page](InterpolationWebPage.qmd), [Visuals](InterpolationTFSVisuals.qmd)
+**Interpol Is Late to a Mind-Blowing Math Hack, Just the Facts**  
+*Linear Interpolation*  
+[Video](https://youtu.be/VbnpWj9iYAU), [Info Page](InterpolationWebPage.qmd), [Visuals](InterpolationJTFVisuals.qmd)
 
-**No Clear Interpretation a Mind-Blowing Math Hack**<br/>*Nonlinear Interpolation*<br/>[Video](https://youtu.be/721FxKwDRAU), [Info Page](InterpolationWebPage.qmd), [Visuals](NLInterpolationJTFVisuals.qmd)
+**Interpol Is Late to a Mind-Blowing Math Hack, The Full Story**  
+*Linear Interpolation*  
+[Video](https://youtu.be/pbDEc_Q862M), [Info Page](InterpolationWebPage.qmd), [Visuals](InterpolationTFSVisuals.qmd)
+
+**No Clear Interpretation a Mind-Blowing Math Hack**  
+*Nonlinear Interpolation*  
+[Video](https://youtu.be/721FxKwDRAU), [Info Page](InterpolationWebPage.qmd), [Visuals](NLInterpolationJTFVisuals.qmd)
 
 # [Spreadsheets](SpreadsheetTechniquesVideoInfoWebPage.qmd)
 
-There are many excellent commercial and open-source tools for performing engineering calculations. One of the most versatile and underutilized tools is the spreadsheet. Even companies and organizations that can't afford commercial CAD or mathematical modeling tools will almost always have an office suite that contains a spreadsheet. There are many free and open-source spreadsheets, such as [LibreOffice - Calc](https://www.libreoffice.org/discover/calc/), [Apache OpenOffice Calc](https://www.openoffice.org/download/), and Gnumeric. The videos in the table below explain how to do several sorts of engineering calculations in Chemical and Thermal Processing. The column labeled *JTF* contains links to the *Just The Facts* videos, intended mainly for review. The *TFS* videos are *The Full Story* videos, with more explanation and discussion. The *Info Page* contains additional information and definitions for the videos.
+There are many excellent commercial and open-source tools for performing engineering calculations. One of the most versatile and underutilized tools is the spreadsheet. Even companies and organizations that cannot afford commercial CAD or mathematical modeling tools will almost always have an office suite that contains a spreadsheet.
 
-**The Unauthorized Guide to Using Spreadsheets in Chemical Engineering**<br/>*Spreadsheet Basics*<br/>[Video](https://youtu.be/5XMeQ6vWymA), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](BasicSpreadsheetTechniquesJTFVisuals.qmd)
+There are many free and open-source spreadsheets, such as [LibreOffice Calc](https://www.libreoffice.org/discover/calc/), [Apache OpenOffice Calc](https://www.openoffice.org/download/), and Gnumeric.
 
-**How to Have a Quickie with Your Data Part 1**<br/>*$\bar{x}$, $S_{\bar{x}}$, Linear Least Squares*<br/>[Video](https://youtu.be/4EfhlWNDQ48), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](Video25Visuals.qmd)
+The videos below explain how to perform several common engineering calculations used in chemical and thermal processing. 
 
-**How to Have a Quickie with Your Data Part 2**<br/>*Nonlinear least squares*<br/>[Video](https://youtu.be/dVmh0EdQT1U), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](Video26Visuals.qmd)
+**The Unauthorized Guide to Using Spreadsheets in Chemical Engineering**  
+*Spreadsheet Basics*  
+[Video](https://youtu.be/5XMeQ6vWymA), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](BasicSpreadsheetTechniquesJTFVisuals.qmd)
 
-**Solving Nonlinear Equations with Spreadsheets**<br/>*See Title*<br/>[Video](https://youtu.be/SaI2qdu1wSE), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.qmd)
+**How to Have a Quickie with Your Data Part 1**  
+*$\bar{x}$, $S_{\bar{x}}$, Linear Least Squares*  
+[Video](https://youtu.be/4EfhlWNDQ48), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](Video25Visuals.qmd)
+
+**How to Have a Quickie with Your Data Part 2**  
+*Nonlinear least squares*  
+[Video](https://youtu.be/dVmh0EdQT1U), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](Video26Visuals.qmd)
+
+**Solving Nonlinear Equations with Spreadsheets**  
+*See Title*  
+[Video](https://youtu.be/SaI2qdu1wSE), [Info Page](SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.qmd)

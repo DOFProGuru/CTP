@@ -21,7 +21,7 @@ DOFPro Team
 
 ## Introduction
 
-*React Hard: The First Law Gets Chemical* and</br>***React Harder: Formation Heats and Alternate Endings***</br>present
+*React Hard: The First Law Gets Chemical* and<br/>***React Harder: Formation Heats and Alternate Endings***<br/>present
 
 - three sets of calculations for the 1^st^ Law in reacting systems.
 - based on *A Combustible Mixture!* video
@@ -76,7 +76,7 @@ I personally usually use the heat of reaction method because I like to see what 
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *Flame On, Torch!*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *Flame On, Torch!*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

@@ -10,7 +10,7 @@ format:
     css: ../../slidecss.css
 ---
 
-# What Is A Mole? </br> The Full Story {style="text-align: center;"}
+# What Is A Mole? <br/> The Full Story {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -79,7 +79,7 @@ DOFPro Team
 
 #
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story/Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story/Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}

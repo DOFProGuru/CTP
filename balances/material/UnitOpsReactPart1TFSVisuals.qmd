@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# When You Saw It, What Was<br/>the Extent of Your Reaction? Part 1</br>The Full Story{.bigbold75}
+# When You Saw It, What Was<br/>the Extent of Your Reaction? Part 1<br/>The Full Story{.bigbold75}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -18,7 +18,7 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="-45%"}
 
-# When You Saw It, What Was<br/>the Extent of Your Reaction? Part 1</br>Just the Facts{.bigbold75}
+# When You Saw It, What Was<br/>the Extent of Your Reaction? Part 1<br/>Just the Facts{.bigbold75}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -407,7 +407,7 @@ $$
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. *When You Saw It, What Was the Extent of Your Reaction? Part 2*, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Just The Facts* companion video is in the link in the upper left. *When You Saw It, What Was the Extent of Your Reaction? Part 2*, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}
@@ -415,7 +415,7 @@ $$
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. *When You Saw It, What Was the Extent of Your Reaction? Part 2*, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. *When You Saw It, What Was the Extent of Your Reaction? Part 2*, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}

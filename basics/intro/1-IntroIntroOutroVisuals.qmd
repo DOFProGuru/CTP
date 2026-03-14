@@ -35,7 +35,7 @@ DOFPro Team
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The link to the video-title explanations is in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The link to the video-title explanations is in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}

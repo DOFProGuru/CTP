@@ -9,7 +9,7 @@ format:
     theme: [serif, ../../gradient.scss]
     html-math-method: mathjax
 ---
-# Solving Nonlinear Equations</br>with Spreadsheets
+# Solving Nonlinear Equations<br/>with Spreadsheets
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -43,7 +43,7 @@ The Benedict-Webb-Rubin equation
   - Set up as $f(x) = 0$. 
 
 
-  - Guess and Check </br> &nbsp;&nbsp;&nbsp; Root is between sign changes 
+  - Guess and Check <br/> &nbsp;&nbsp;&nbsp; Root is between sign changes 
 
 
   - Graph it and Guess and Check
@@ -103,7 +103,7 @@ The Benedict-Webb-Rubin equation
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the links in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the links in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute top=125% left=35%}

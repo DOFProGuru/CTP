@@ -4,32 +4,34 @@ author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
+{{< include /LinkKey.qmd >}}
 # Intro to Recycling and Bypass
 
-Main title explanation
+Recycle and bypass streams are common features of real process flowsheets. They make processes more efficient, improve conversion, control composition, and reduce waste, but they also make material balances more complicated.
+
+A **recycle** stream returns part of a process stream to an earlier point in the process. A **bypass** stream routes part of the feed around a unit operation and recombines it later. A **purge** stream is often added to a recycle loop to prevent the buildup of inert or unwanted components.
+
+The videos on this page introduce recycle and bypass systems, show how to solve balances around them, and demonstrate both numerical and symbolic solution approaches.
 
 ## Recycling Before Recycling Was Cool
 
-Video 1 explanation
+This video introduces recycle streams and explains why recycle is used in process engineering. It shows how recycle loops affect material balances and how to set up the equations needed to solve them.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R7tIQyBUWn8?si=kR6xXebWj14tVs-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R7tIQyBUWn8?si=kR6xXebWj14tVs-D" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](43-RecycleBypassPartVisuals.qmd)
 
 ## Leaving Radiator Springs In the Dust
 
-Video  explanation
+This video introduces bypass streams and works through an example involving both bypass and recycle. It emphasizes how to identify the correct balances and how to simplify the solution strategy.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tjzDu7_n-NI?si=RkVMUYxMMiKriMw1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tjzDu7_n-NI?si=RkVMUYxMMiKriMw1" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](44-RecycleBypassPart2Visuals.qmd)
 
 ## The Symbolic Meaning of Recycling
 
-Video  explanation
+This video solves a recycle problem symbolically so that the algebraic structure of the balances is easier to see. The symbolic form helps make clear how recycle affects the overall system relationships.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CF18jpqZzgc?si=-tqvFS1uczIsknEf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CF18jpqZzgc?si=-tqvFS1uczIsknEf" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](45-RecycleSymbSolVisuals.qmd)
 
 # Examples and Definitions
@@ -37,47 +39,44 @@ Video  explanation
 ## Examples Links
 
 - [Recycling Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/RecycleExamples.ods) – A spreadsheet with the examples from *Recycling Before Recycling Was Cool* and *Leaving Radiator Springs In the Dust*
-- [Symbolic Recycling Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/SymbolicRecycleExample.ods) – A spreadsheet with the example from *The Symbolic Meaning of Recycling* 
+- [Symbolic Recycling Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/SymbolicRecycleExample.ods) – A spreadsheet with the example from *The Symbolic Meaning of Recycling*
 
 ## Definitions
 
-[PFD](https://en.wikipedia.org/wiki/Process_flow_diagram) Process Flow Diagram or flowsheet.
-:    A schematic drawing of the mixers, dividers, separators and reactors used in the process.
+[PFD](https://en.wikipedia.org/wiki/Process_flow_diagram) (Process Flow Diagram)  
+: A schematic drawing of the mixers, dividers, separators, reactors, and other unit operations used in a process.
 
-Recycle
-:   Part of a product stream is returned to the feed of a process.
+Recycle  
+: A portion of a process stream that is returned to an earlier point in the process.
 
-Bypass
-:   Part of the feed is routed around a process and mixed with the product.
+Bypass  
+: A portion of the feed routed around part of a process and mixed with the outlet stream later.
 
-Purge
-:   A stream used to prevent buildup of trace components in a recycle loop.
+Purge  
+: A stream withdrawn from a recycle loop to prevent buildup of trace, inert, or unwanted components.
 
-Tie Component
-:   A component of the feed which is unchanged by a process. Often useful for calculations but never necessary.
+Tie Component  
+: A component whose amount is unchanged by the process. It is often useful for simplifying calculations, but is never strictly necessary.
 
-Overall Balance
-:   Treating a PFD as a black box with only inputs and outputs.
+Overall Balance  
+: Treating an entire process flowsheet as a single black box with only overall inputs and outputs.
 
-Mixer
+Mixer  
+: A unit that combines multiple inlet streams into a single outlet stream.
 
-:   Mixes or combines multiple input streams into a single output stream.
+Divider  
+: A unit that splits one inlet stream into multiple outlet streams, each with the same composition as the inlet.
 
-Divider
+Separator  
+: A unit that splits one inlet stream into multiple outlet streams with different compositions.
 
-:   Divides the input stream into multiple output streams, each with the same composition as the input stream, but with differing flow rates.
+Split Fraction  
+: The fraction of a given species in the inlet stream that exits in a particular outlet stream.
 
-Separator
+For two outlet streams, the split fractions for a given species sum to 1. For more than two outlet streams, the split fractions across all outlets sum to 1.
 
-:   Separates the input stream into multiple output streams, each with a different composition than the input stream. The fraction of a given species in the input stream that exits in a given output stream is the split fraction for that species in that output stream.
-
-Split Fraction
-
-:   The fraction of a given species in the input stream that exits in a given output stream is the *split fraction* for that species in that output stream. For separators with two output streams, the split fractions for a given species in the two output streams sum to 1. For separators with more than two output streams, the split fractions for a given species in all output streams sum to 1.
-
-Composition
-:   Composition is the same as the mole or mass fraction of each species in a stream. See [*What the Frac?*](https://youtu.be/qJERzRm7xc0) for more details.
-
+Composition  
+: The composition of a stream is given by the mass fractions or mole fractions of its components. See [*What the Frac?*](https://youtu.be/qJERzRm7xc0) for more details.
 
 # Other Links and Videos
 
@@ -85,18 +84,18 @@ Composition
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
 **When You Saw It, What Was the Extent of Your Reaction? Part 2**<br/>*Chemical Reactor Multiple Reactions with Example, $\xi$ and $f_{\mathrm{A}}$*<br/>[Video](https://youtu.be/XmLXR_KOZMk), [Info Page](../../balances/material/FractionalConversionReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/42-UnitOpsReactPart2Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
 **When You Saw It, What Was the Extent of Your Reaction? Part 3**<br/>*Chemical Reactor Yield and Selectivity*<br/>[Video](https://youtu.be/PPi-ka3iRvI), [Info Page](../../balances/material/FractionalConversionReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/42.5-UnitOpsReactPart3Visuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
 **How Did You Think I Would React?**<br/>*Basic Kinetic Reactor Mole Balance*<br/>[Video](https://youtu.be/_qxHszVZYGk), [Info Page](../../balances/material/KineticReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/46-KineticsIntroJTFVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
 **Wishing Upon a CSTR**<br/>*Batch, CSTR, PFR*<br/>[Video](https://youtu.be/6tnVFq7dSbE), [Info Page](../../balances/material/KineticReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/47-BatchCSTRPFRIntroVisuals.qmd)

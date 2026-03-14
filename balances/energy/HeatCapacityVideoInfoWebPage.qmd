@@ -1,46 +1,62 @@
 ---
-title: "*The Enthalpy Games* (Heat Capacity Formulas) Reference Page"
+title: "Heat Capacity Formulas Reference Page<br/>"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *The Enthalpy Games*
+{{< include /LinkKey.qmd >}}
+# Intro to Heat Capacity Formulas
 
-Main title explanation
+In many thermodynamic calculations, we need to determine how the **internal energy** or **enthalpy** of a substance changes with temperature. These changes are often calculated using heat capacities.
+
+Heat-capacity relationships allow engineers to compute energy changes for gases and liquids over temperature ranges where phase changes do not occur. The videos on this page explain how heat capacity relates to internal energy and enthalpy, how integrals appear in the calculations, and how empirical correlations such as the **Shomate equation** can be used for accurate results.
 
 ## The Enthalpy Games: The Ballad of Integrals and Means
 
-Video 1 explanation
+This video explains how heat capacities relate to internal energy and enthalpy and shows how integrals and mean heat capacities are used to compute energy changes over temperature ranges.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YGMHMAXnFY8?si=GhNpW5oYGxS4JICt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YGMHMAXnFY8?si=GhNpW5oYGxS4JICt" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](93-EnthalpyVsTandPPart1.qmd)
 
 ## The Enthalpy Games: Sunrise on the Calculations
 
-Video  explanation
+This video demonstrates how to perform practical calculations of enthalpy and internal-energy changes using heat-capacity formulas and tabulated correlations.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yLJp3YQaVvo?si=jBD8ZI_cOqJ6-9ZX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yLJp3YQaVvo?si=jBD8ZI_cOqJ6-9ZX" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](94-EnthalpyVsTandPPart2.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
-- [Nitrogen Heat Capacity Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/energy/NitrogenForVideo94.ods)
+- [Nitrogen Heat Capacity Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/energy/NitrogenForVideo94.ods) – A spreadsheet demonstrating the use of the **Shomate equation** for calculating enthalpy changes from heat-capacity data as shown in *Sunrise on the Calculations*
 
 ## Definitions
 
-[Heat Capacity at Constant Volume](https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity)
-: The change in specific or molar internal energy with a change in temperature at constant volume for a substance *not* undergoing a phase change . $C_v \equiv (\partial \hat{U} / \partial T)|_V$
+[Heat Capacity at Constant Volume](https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity)  
+: The change in specific or molar internal energy with temperature at constant volume for a substance not undergoing a phase change.
 
-[Heat Capacity at Constant Pressure](https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity)
-: The change in specific or molar enthalpy with a change in temperature at constant pressure for a substance *not* undergoing a phase change. $C_p \equiv (\partial \hat{H} / \partial T)|_P$
+$$
+C_v \equiv \left(\frac{\partial \hat{U}}{\partial T}\right)_V
+$$
 
-[Shomate Equation](https://pages.uoregon.edu/palandri/gastherm/!xmisc/Shomate%201954%20Cp%20equation.pdf)
-: An empirical equation for fitting experimental heat-capacity data. It is of the form $C_p = a + b T + c T^2 + d T^3 + e/T^2$
+[Heat Capacity at Constant Pressure](https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity)  
+: The change in specific or molar enthalpy with temperature at constant pressure for a substance not undergoing a phase change.
+
+$$
+C_p \equiv \left(\frac{\partial \hat{H}}{\partial T}\right)_P
+$$
+
+[Shomate Equation](https://pages.uoregon.edu/palandri/gastherm/!xmisc/Shomate%201954%20Cp%20equation.pdf)  
+: An empirical equation used to fit experimental heat-capacity data. One common form is
+
+$$
+C_p = a + bT + cT^2 + dT^3 + \frac{e}{T^2}
+$$
+
+This equation allows accurate calculation of temperature-dependent heat capacities and the associated energy changes.
 
 # Other Links and Videos
 
@@ -48,18 +64,18 @@ Video  explanation
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
 **Steam: Get the Quality Right AFTER You Table It! Part 1**<br/>*The Basics of Steam Tables*<br/>[Video](https://youtu.be/8tH3gXz_M8A), [Info Page](../../balances/energy/SteamTablesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/91-ThermodynamicPropertyTables1Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
 **Steam: Get the Quality Right AFTER You Table It! Part 2**<br/>*Steam Table Examples*<br/>[Video](https://youtu.be/yRf09eSRM1A), [Info Page](../../balances/energy/SteamTablesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/92-ThermodynamicPropertyTables2Visuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
 **Feeling the Heat? How to Get Your Best Estimate**<br/>*Estimating $C_p$, $\Delta \hat{H}_v$, $\Delta \hat{H}_m$*<br/>[Video](https://youtu.be/f_l3OFyuiPs), [Info Page](../../balances/energy/EstimatingHeatCapacitiesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/95-EstimatingHeatCapacitiesVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
 **Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart**<br/>*Psychrometric Charts*<br/>[Video](https://youtu.be/Nz8ADo4X2Ss), [Info Page](../../balances/energy/PsychrometricChartsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/97-PsychrometiricChartVIsuals.qmd)

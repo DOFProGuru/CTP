@@ -2,18 +2,33 @@
 title: "Entropy Balances or The 2nd Law"
 author: "DOFPro group"
 ---
+{{< include /LinkKey.qmd >}}
+
+# Introduction
+
+The **Second Law of Thermodynamics** introduces directionality into thermodynamics. While the First Law tells us that energy is conserved, the Second Law tells us which processes are possible, which are impossible, and how far real systems fall short of ideal behavior.
+
+The central concept of the Second Law is **entropy**. Entropy balances are used to quantify irreversibility, determine ideal limits on performance, and analyze the efficiency of turbines, compressors, pumps, power cycles, and refrigeration systems.
+
+This section begins with the basic statements of the Second Law and then develops the tools needed to apply entropy balances to real engineering systems.
 
 ## 2^nd^ Law of Thermodynamics
 
 ### [Intro](IntroTo2ndLawVideoInfoWebPage.qmd)
 
+This video introduces the Second Law of Thermodynamics, heat engines, entropy, and the basic limitations imposed by irreversibility.
+
 **Resistance is Futile. Entropy Always Wins**<br/>*Intro to 2^nd^ Law*<br/>[Video](https://youtu.be/yqVUz1WA7M4), [Info Page](IntroTo2ndLawVideoInfoWebPage.qmd), [Visuals](113-Visuals.qmd)
 
 ### [Calculating Entropy Changes](CalculatingEntropyChangesVideoInfoWebPage.qmd)
 
+Once entropy is introduced, the next step is learning how to calculate entropy changes for common substances and processes.
+
 **The ΔS-sentials of Calculating Entropy Changes**<br/>*Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam*<br/>[Video](https://youtu.be/z2e5Rq5r288), [Info Page](CalculatingEntropyChangesVideoInfoWebPage.qmd), [Visuals](115-CalcEntropyVisuals.qmd)
 
 ### [The Carnot Engine](TheCarnotCycleVideoInfoWebPage.qmd)
+
+The Carnot cycle provides the ideal benchmark for heat-engine performance and shows how the Second Law limits thermal efficiency.
 
 **Sadi Carnot and the Power of Fire, the 1824 Edition Part 1**<br/>*The Air-Standard Carnot Cycle*<br/>[Video](https://youtu.be/EDJQAvBIAok), [Info Page](TheCarnotCycleVideoInfoWebPage.qmd), [Visuals](116-Visuals.qmd)
 
@@ -21,9 +36,13 @@ author: "DOFPro group"
 
 ### [Entropy Balances](EntropyBalanceEquationsVideoInfoWebPage.qmd)
 
-**How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?**<br/>*The 2nd Law for Closed, Open Steady-State, and Open Transient Systems*<br/>[Video](https://youtu.be/QcZTezMtDRk), [Info Page](EntropyBalanceEquationsVideoInfoWebPage.qmd), [Visuals](117-2ndLawSystemsVisuals.qmd)
+These videos develop the entropy balance equations for closed systems, open steady-state systems, and transient systems.
+
+**How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?**<br/>*The 2^nd^ Law for Closed, Open Steady-State, and Open Transient Systems*<br/>[Video](https://youtu.be/QcZTezMtDRk), [Info Page](EntropyBalanceEquationsVideoInfoWebPage.qmd), [Visuals](117-2ndLawSystemsVisuals.qmd)
 
 ### [Turbomachinery, Pumps, Nozzles, and Valves](EntropyMadeMeDoItVideoInfoWebPage.qmd)
+
+Entropy balances become especially useful when evaluating real devices and comparing their performance with ideal, isentropic behavior.
 
 **Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans**<br/>*Turbines and Expanders, Isentropic and Isothermal Compressors*<br/>[Video](https://youtu.be/Pb7PS5oeCz0), [Info Page](EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](118-TurbCompEtcVisuals.qmd)
 
@@ -31,19 +50,25 @@ author: "DOFPro group"
 
 ### [The Rankine Cycle](RankineCycleInfoWebPage.qmd)
 
+The Rankine cycle is the standard steam power cycle and one of the most important applications of the Second Law in thermal engineering.
+
 **Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1**<br/>*The Ideal Rankine Cycle*<br/>[Video](https://youtu.be/4QRJ00uyaX8), [Info Page](RankineCycleInfoWebPage.qmd), [Visuals](119-RankineVisualsPart1.qmd)
 
-**Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2**<br/>*The Rankine Cycle with $\eta_\mathrm{pump}$  and $\eta_\mathrm{turbine}$*<br/>[Video](https://youtu.be/0DmsKCJpIdc), [Info Page](RankineCycleInfoWebPage.qmd), [Visuals](120-RankineVisualsPart2.qmd)
+**Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2**<br/>*The Rankine Cycle with $\eta_\mathrm{pump}$ and $\eta_\mathrm{turbine}$*<br/>[Video](https://youtu.be/0DmsKCJpIdc), [Info Page](RankineCycleInfoWebPage.qmd), [Visuals](120-RankineVisualsPart2.qmd)
 
 **Modeling the Rankine Cycle in DWSIM**<br/>*Modeling the Rankine Cycle in DWSIM*<br/>[Video](https://youtu.be/ECOWIrzvGNc), [Info Page](RankineCycleInfoWebPage.qmd)
 
 ### [Air Standard Cycles](AirStandardPowerCyclesInfoWebPage.qmd)
+
+These videos examine simplified gas power cycles that model engines and turbines using air as the working fluid.
 
 **Cycle Wars: The Power Awakens**<br/>*Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle*<br/>[Video](https://youtu.be/M_p3gb79isg), [Info Page](AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](122-AirStandardCyclesPart1Visuals.qmd)
 
 **Cycle Wars: The Rise of Otto Cycles**<br/>*Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, & Stirling Cycles*<br/>[Video](https://youtu.be/jJaDQM8qjgU), [Info Page](AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](123-AirStandardCyclesPart2Visuals.qmd)
 
 ### [The Vapor Compression Cycle](TheVaporCompressionCycleVideoWebPage.qmd)
+
+The same thermodynamic ideas used to analyze power cycles also apply to refrigeration and heat-pump cycles.
 
 **Revenge of the Fridge: Vapor Compression Strikes Back**<br/>*The Vapor Compression Cycle*<br/>[Video](https://youtu.be/SN27SxDt0G4), [Info Page](TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](126-RefrigerationVisuals.qmd)
 

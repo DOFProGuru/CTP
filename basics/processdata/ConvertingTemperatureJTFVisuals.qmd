@@ -9,7 +9,7 @@ format:
     theme: [serif, ../../gradient.scss]
 ---
 
-# How Keen Is Your Rank?</br>Just the Facts{.bigbold90}
+# How Keen Is Your Rank?<br/>Just the Facts{.bigbold90}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -76,26 +76,26 @@ $\mathbf{-}$ used when working with gases in Am. Eng. Units
 
 ::: {.fragment}
 ::: {.absolute top=60% left="13%"}
-*Temperature*</br>$32\ \mathrm{^\circ F}$
+*Temperature*<br/>$32\ \mathrm{^\circ F}$
 :::
 ::: {.absolute top=60% left="67%"}
-*Temperature*</br>$212\ \mathrm{^\circ F}$
+*Temperature*<br/>$212\ \mathrm{^\circ F}$
 :::
 :::
 
 ::: {.fragment .absolute top=45% left="36%"}
-*Temperature Interval*</br>$\longleftarrow\ \ 180\ \mathrm{^\circ F}\ \ \longrightarrow$
+*Temperature Interval*<br/>$\longleftarrow\ \ 180\ \mathrm{^\circ F}\ \ \longrightarrow$
 :::
 
 ## Temperature Equations (1/2)
 
-</br>
+<br/>
 
 - Celsius to Fahrenheit: $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{^\circ C}) + 32$
 - Celsius to Kelvin: $\ \ \ \ \ \ T(\mathrm{K}) = T(\mathrm{^\circ C}) + 273.15$
 - Celsius to Rankine: $\ \ \ T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{^\circ C}) + 491.67$
 
-</br>
+<br/>
 
 - Fahrenheit to Celsius: $\ \ T(\mathrm{^\circ C}) = \frac{5}{9}[T(\mathrm{^\circ F}) - 32]$
 - Fahrenheit to Kelvin: $\ \ \ T(\mathrm{K}) = \frac{5}{9} [T(\mathrm{^\circ F}) - 32] + 273.15$
@@ -104,13 +104,13 @@ $\mathbf{-}$ used when working with gases in Am. Eng. Units
 
 ## Temperature Equations (2/2)
 
-</br>
+<br/>
 
 - Kelvin to Fahrenheit: $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{K}) - 459.67$
 - Kelvin to Celsius: $\ \ \ \ \ T(\mathrm{^\circ C}) = T(\mathrm{K}) - 273.15$
 - Kelvin to Rankine: $\ \ \ \ T(\mathrm{^\circ R}) = \frac{9}{5} T(\mathrm{K})$
 
-</br>
+<br/>
 
 - Rankine to Fahrenheit: $\ T(\mathrm{^\circ F}) = T(\mathrm{^\circ R}) - 459.67$
 - Rankine to Kelvin: $\ \ \ \ \ \ \ \ \ T(\mathrm{K}) = \frac{5}{9} T(\mathrm{^\circ R})$
@@ -175,7 +175,7 @@ Convert $5\ \mathrm{^\circ C}$ into Kelvin, Fahrenheit, and Rankine.
   - Remember: $T(\mathrm{K}) = T(\mathrm{^\circ C}) + 273.15$
   - $\implies T(\mathrm{K}) = 5\ \mathrm{^\circ C} + 273.15= 278.15\ \mathrm{K}$
 
-</br>
+<br/>
 
 - $5\ \mathrm{^\circ C} \implies ?\ \mathrm{^\circ F}$
   - Remember: $T(\mathrm{^\circ F}) = \frac{9}{5} T(\mathrm{^\circ C}) + 32$
@@ -209,7 +209,7 @@ What are the heat-capacity formulas with $T$ in $K$, $\mathrm{^\circ R}$, and $\
 :::
 
 :::{.fragment .absolute top=50% left=0%}
-To Kelvin</br>
+To Kelvin<br/>
 $C_p \left[\mathrm{\frac{kJ}{mol \cdot K}} \right]\mathrm{\frac{1\ K}{1\ \mathrm{^\circ C}}} =0.1230+0.000186(T-273.15)T$ where $T$ is in $\mathrm{K}$.
 :::
 
@@ -220,7 +220,7 @@ $\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot K}} \right] =0.0722+0.000186T$ w
 ## Example 2 - Temp. & Temp. Intervals (2/2){.bigbold85}
 
 :::{.fragment .absolute top=15% left=0%}
-To Rankine</br>
+To Rankine<br/>
 $C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ R}} \right]\mathrm{\frac{9\ ^\circ R}{5\ \mathrm{^\circ C}}} =0.1230+0.000186 \left( \frac{5}{9}[T-491.67] \right)$ where $T$ is in $\mathrm{^\circ R}$.
 :::
 
@@ -229,7 +229,7 @@ $\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ R}} \right] =0.04011+0.00
 :::
 
 :::{.fragment .absolute top=45% left=0%}
-To Fahrenheit</br>
+To Fahrenheit<br/>
 $C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right]\mathrm{\frac{9\ ^\circ F}{5\ \mathrm{^\circ C}}} =0.1230+0.000186 \left( \frac{5}{9}[T-32] \right)$ where $T$ is in $\mathrm{^\circ F}$.
 :::
 
@@ -248,13 +248,13 @@ $\implies C_p \left[\mathrm{\frac{kJ}{mol \cdot ^\circ F}} \right] =0.06650+0.00
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 #
 
 ::: {.centered .bigger}
-</br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+<br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

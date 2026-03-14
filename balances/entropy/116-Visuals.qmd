@@ -79,13 +79,13 @@ can be less than zero. But
 
 :::{.fragment}
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 The Carnot engine converts heat into work as well as it can be done.
 :::
 :::{.fragment}
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 It makes the greater than or equals sign in the Second Law into an equals sign.
 :::
@@ -158,7 +158,7 @@ For air-standard assume:
 &nbsp;&nbsp;&nbsp;&nbsp;B. $C_v = \dfrac{5}{2}R \implies C_p = \dfrac{7}{2}R$
 :::
 :::{.fragment}
-[</br>]{style="font-size: 40px;"}
+[<br/>]{style="font-size: 40px;"}
 [For step 1]{.underline} [(Review from *The Isochronicles: This First Law Saga Is a Gas*)]{style="font-size: 60px;"}
 :::
 :::{.fragment}
@@ -178,7 +178,7 @@ Closed system adiabatic reversible.
 ::: {.fragment}
 &nbsp;&nbsp;&nbsp;&nbsp;$W = nC_v (T_\mathrm{hot} - T_\mathrm{cold})$
 :::
-[</br>]{style="font-size: 40px;"}
+[<br/>]{style="font-size: 40px;"}
 
 ::: {.fragment}
 How about $P$ and $\hat{V}$?
@@ -186,7 +186,7 @@ How about $P$ and $\hat{V}$?
 ::: {.fragment}
 If $\Delta S = 0$ (why?)
 :::
-[</br>]{style="font-size: 40px;"}
+[<br/>]{style="font-size: 40px;"}
 
 ::: {.fragment}
 &nbsp;&nbsp;&nbsp;&nbsp;$\left(\dfrac{P_b}{P_a}\right)^{\frac{R}{C_p}} = \dfrac{T_\mathrm{hot}}{T_\mathrm{cold}}$
@@ -255,13 +255,13 @@ $W = -nRT\int\limits_{\hat{V}_i}^{\hat{V}_f} \dfrac{d\hat{V}}{\hat{V}} = nRT \ln
 
 [For Step 3]{.underline}
 
-[</br>]{style="font-size: 40px;"}
+[<br/>]{style="font-size: 40px;"}
 
 ::: {.fragment}
 Adiabatic expansion
 :::
 
-[</br>]{style="font-size: 40px;"}
+[<br/>]{style="font-size: 40px;"}
 
 ::: {style="padding-left: 150px;"}
 ::: {.fragment}
@@ -269,19 +269,19 @@ $W = nC_v (T_\mathrm{cold} - T_\mathrm{hot})$
 :::
 :::
 
-[</br>]{style="font-size: 40px;"}
+[<br/>]{style="font-size: 40px;"}
 
 ::: {.fragment}
 [For Step 4]{.underline}
 :::
 
-[</br>]{style="font-size: 40px;"}
+[<br/>]{style="font-size: 40px;"}
 
 ::: {.fragment}
 Isothermal cooling
 :::
 
-[</br>]{style="font-size: 40px;"}
+[<br/>]{style="font-size: 40px;"}
 
 ::: {style="padding-left: 150px;"}
 ::: {.fragment}
@@ -350,7 +350,7 @@ $\dfrac{P_c}{P_d} = \left(\dfrac{T_\mathrm{hot}}{T_\mathrm{cold}}\right)^{\frac{
 so
 
 ::: {style="font-size: 20px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -360,7 +360,7 @@ $\dfrac{P_b}{P_a} = \dfrac{P_c}{P_d}$
 :::
 
 ::: {style="font-size: 20px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -368,7 +368,7 @@ or rearranged
 :::
 
 ::: {style="font-size: 20px;"}
-</br>
+<br/>
 :::
 
 ::: {style="padding-left: 150px;"}
@@ -376,7 +376,7 @@ or rearranged
 $\dfrac{P_d}{P_a} = \dfrac{P_c}{P_b}$
 :::
 ::: {style="font-size: 40px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -396,7 +396,7 @@ $-\dfrac{W_\mathrm{net}}{n} = R(T_\mathrm{hot} - T_\mathrm{cold}) \ln \dfrac{P_b
 :::
 
 ::: {style="font-size: 40px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -519,7 +519,7 @@ The Carnot efficiency does not depend on the working fluid.
 
 The videos, *Cycle Wars: The Power Awakens and Cycle Wars: The Rise of Otto Cycles* explain air-standard cycles based on the air-standard Carnot cycle.
 
-</br>
+<br/>
 
 *Sadi Carnot and the Power of Fire, the 1824 Edition Part 2* presents the steam Carnot cycle.
 
@@ -532,7 +532,7 @@ The videos, *Cycle Wars: The Power Awakens and Cycle Wars: The Rise of Otto Cycl
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}

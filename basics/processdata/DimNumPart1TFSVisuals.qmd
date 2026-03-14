@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Where Does Sherwood</br>Hide His Unit?</br>The Full Story{.bigbold85}
+# Where Does Sherwood<br/>Hide His Unit?<br/>The Full Story{.bigbold85}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -19,7 +19,7 @@ DOFPro Team
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26.5%" top="-55%"}
 
 
-# Where Does Sherwood</br>Hide His Unit?</br>Just the Facts{.bigbold85}
+# Where Does Sherwood<br/>Hide His Unit?<br/>Just the Facts{.bigbold85}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -40,7 +40,7 @@ This video covers three concepts
 :::
 
 :::{.fragment .absolute top=45% left=10%}
-3 – Arguments of transcendental functions are</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dimensionless.
+3 – Arguments of transcendental functions are<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dimensionless.
 :::
 
 ## Dimensionless Numbers
@@ -148,7 +148,7 @@ If $A_0$ or $P_0$ are not explicitly given, they are implied, e.g.,<br/><br/>
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The companion video in the series, *What the Schmidt? Examples*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Just The Facts* companion video is in the link in the upper left. The companion video in the series, *What the Schmidt? Examples*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}
@@ -156,7 +156,7 @@ If $A_0$ or $P_0$ are not explicitly given, they are implied, e.g.,<br/><br/>
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *What the Schmidt? Examples*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *What the Schmidt? Examples*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="29%" top="100%"}

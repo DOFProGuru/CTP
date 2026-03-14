@@ -82,7 +82,7 @@ of saturated water and saturated steam at $5.0$ bar?
 
 * What is the property of the overall mixture?
 
-* Define the quality.</br></br>
+* Define the quality.<br/><br/>
 
 * $\ \ \ \ x \equiv \dfrac{m_\mathrm{steam}}{m_\mathrm{steam} + m_\mathrm{water}} = \dfrac{m_\mathrm{steam}}{m_\mathrm{total}}$
 
@@ -101,17 +101,17 @@ What is the pressure and specific internal energy of a mixture of steam and wate
 
 
 :::{.fragment}
-$P=0.65017\ \mathrm{bar}$</br></br>
+$P=0.65017\ \mathrm{bar}$<br/><br/>
 :::
 
 :::{.fragment}
 :::{style="font-size: 90px;"}
-$\hat{U}_{\text{mix}} = x\hat{U}_{v} + (1-x)\hat{U}_{l} = 0.8 \mathbf{\cdot} 2491.5 + 0.2 \mathbf{\cdot} 368.49 = 2066.9\ \mathrm{kJ/kg}$</br></br>
+$\hat{U}_{\text{mix}} = x\hat{U}_{v} + (1-x)\hat{U}_{l} = 0.8 \mathbf{\cdot} 2491.5 + 0.2 \mathbf{\cdot} 368.49 = 2066.9\ \mathrm{kJ/kg}$<br/><br/>
 :::
 :::
 
 :::{.fragment}
-$\hat{U}_{\text{mix}} = x\hat{U}_{v}\ +\ (1-x)\hat{U_{l}} = x(\hat{U}_{v} - \hat{U}_{l}) + \hat{U}_{l} = x\Delta \hat{U}_{lv} + \hat{U}_{l}$</br></br>
+$\hat{U}_{\text{mix}} = x\hat{U}_{v}\ +\ (1-x)\hat{U_{l}} = x(\hat{U}_{v} - \hat{U}_{l}) + \hat{U}_{l} = x\Delta \hat{U}_{lv} + \hat{U}_{l}$<br/><br/>
 :::
 
 :::{.fragment}
@@ -146,7 +146,7 @@ $x = \dfrac{\hat{H}_{\text{mix}} - \hat{H}_{l}}{\Delta\hat{H}_{lv}} = \dfrac{200
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}

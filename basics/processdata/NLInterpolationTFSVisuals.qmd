@@ -12,7 +12,7 @@ format:
 # 
 
 ::: {.bigbold180 style="text-align: center;"}
-No Clear Interpretation</br>A Mind-Blowing Math Hack
+No Clear Interpretation<br/>A Mind-Blowing Math Hack
 :::
 
 ::: {.bigbold style="text-align: center;"}
@@ -28,7 +28,7 @@ DOFPro Team
 # 
 
 ::: {.bigbold180 style="text-align: center;"}
-No Clear Interpretation</br>A Mind-Blowing Math Hack
+No Clear Interpretation<br/>A Mind-Blowing Math Hack
 :::
 
 ::: {.bigbold style="text-align: center;"}
@@ -113,7 +113,7 @@ Linearly interpolate on $p^*$ and $T\ (^\circ \mathrm{C})$ and compare with line
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}
@@ -125,7 +125,7 @@ The DOFPro Team
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}

@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Gotta Keep ’Em Separated</br>Just the Facts{.bigbold90}
+# Gotta Keep ’Em Separated<br/>Just the Facts{.bigbold90}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -23,7 +23,7 @@ DOFPro Team
 - The first in a series
 - The most common unit-operations material balances
 - Discusses the mixer, the divider, and the separator.
-- For the *mixer*, the *divider*, and the *separator* both mass and moles are conserved.</br></br>
+- For the *mixer*, the *divider*, and the *separator* both mass and moles are conserved.<br/><br/>
 - *When You Saw It, What Was the Extent of Your Reaction? Parts 1, 2, and 3*
   - Chemical reactor extent of reaction and fractional conversion models
   - Moles are *not* conserved in chemical reactions
@@ -245,7 +245,7 @@ If the split fraction is the same for all species, then the separator is just a 
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, *When You Saw It, What Was the Extent of Your Reaction? Part 1*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series, *When You Saw It, What Was the Extent of Your Reaction? Part 1*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

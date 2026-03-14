@@ -1,22 +1,23 @@
 ---
-title: "*Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart* (Psychrometric Charts) Reference Page"
+title: "Psychrometric Charts Reference Page<br/>*Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
+{{< include /LinkKey.qmd >}}
 # Intro to *Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart*
 
-Main title explanation
+Psychrometric charts are graphical tools used to analyze mixtures of **air and water vapor**. They allow engineers to determine properties such as humidity, enthalpy, and specific volume without repeatedly solving equations.
+
+These charts are widely used in HVAC design, drying operations, and many other processes involving humid air. By knowing two independent properties—such as dry-bulb temperature and relative humidity—you can determine many other properties of the air–water vapor mixture directly from the chart.
 
 ## Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart
 
-Video 1 explanation
+This video explains how psychrometric charts are organized and demonstrates how to use them to determine properties of humid air, including humidity ratio, enthalpy, and dew point.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Nz8ADo4X2Ss?si=1pZTmEr-0mScXDlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nz8ADo4X2Ss?si=1pZTmEr-0mScXDlk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](97-PsychrometiricChartVIsuals.qmd)
 
 # Examples and Definitions
 
@@ -24,29 +25,29 @@ Video 1 explanation
 
 ## Definitions
 
-[Dry Bulb Temperature](https://en.wikipedia.org/wiki/Dry-bulb_temperature)
-: The temperature of an air-water vapor mixture as reported by a regular thermometer.
+[Dry Bulb Temperature](https://en.wikipedia.org/wiki/Dry-bulb_temperature)  
+: The temperature of an air–water vapor mixture measured with an ordinary thermometer.
 
-[Wet Bulb Temperature](https://en.wikipedia.org/wiki/Wet-bulb_temperature)
-: The temperature of an air-water vapor mixture as reported by a thermometer that is covered by a moist porous covering.
+[Wet Bulb Temperature](https://en.wikipedia.org/wiki/Wet-bulb_temperature)  
+: The temperature measured by a thermometer covered with a moist porous material and exposed to airflow.
 
-[Dew Point](https://en.wikipedia.org/wiki/Dew_point)
-: The temperature at which moisture begins to condense out of an air-water vapor mixture
+[Dew Point](https://en.wikipedia.org/wiki/Dew_point)  
+: The temperature at which moisture begins to condense from an air–water vapor mixture.
 
-[Relative Humidity](https://en.wikipedia.org/wiki/Humidity#Relative_humidity)
-: The partial pressure of water in air-water vapor mixture divided by the saturation pressure at the same temperature.
+[Relative Humidity](https://en.wikipedia.org/wiki/Humidity#Relative_humidity)  
+: The partial pressure of water vapor in an air–water vapor mixture divided by the saturation pressure at the same temperature.
 
-[Absolute Humidity or Humidity Ratio](https://en.wikipedia.org/wiki/Humidity#Specific_humidity)
-: The mass of water vapor per mass of dry air in an air-water vapor mixture.
+[Absolute Humidity or Humidity Ratio](https://en.wikipedia.org/wiki/Humidity#Specific_humidity)  
+: The mass of water vapor per mass of dry air in an air–water vapor mixture.
 
-Specific Enthalpy
-: The enthalpy per unit mass. In psychrometry it is reported as the enthalpy of moist air per kilogram of dry air.
+Specific Enthalpy  
+: The enthalpy per unit mass. In psychrometry it is commonly reported as the **enthalpy of moist air per kilogram of dry air**.
 
-Specific Volume
-: The volume per unit mass. In psychrometry it is reported as the volume of moist air per kilogram of dry air.
+Specific Volume  
+: The volume per unit mass. In psychrometry it is commonly reported as the **volume of moist air per kilogram of dry air**.
 
-[Sling Psychrometer](https://en.wikipedia.org/wiki/Hygrometer#Sling_psychrometer)
-: A device with a dry-bulb thermometer and a wet-bulb thermometer that is spun or slung through an air-water vapor mixture to measure thedry bulb and wet bulb temperatures.
+[Sling Psychrometer](https://en.wikipedia.org/wiki/Hygrometer#Sling_psychrometer)  
+: A device containing both a dry-bulb thermometer and a wet-bulb thermometer that is spun through the air to measure the dry-bulb and wet-bulb temperatures.
 
 # Other Links and Videos
 
@@ -54,18 +55,18 @@ Specific Volume
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
 **The Enthalpy Games: Sunrise on the Calculations**<br/>*Example for $\mathrm{N_2}$, $\Delta H$ from $C_p$, $\Delta U$ from $C_v$*<br/>[Video](https://youtu.be/yLJp3YQaVvo), [Info Page](../../balances/energy/HeatCapacityVideoInfoWebPage.qmd), [Visuals](../../balances/energy/94-EnthalpyVsTandPPart2.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
 **Feeling the Heat? How to Get Your Best Estimate**<br/>*Estimating $C_p$, $\Delta \hat{H}_v$, $\Delta \hat{H}_m$*<br/>[Video](https://youtu.be/f_l3OFyuiPs), [Info Page](../../balances/energy/EstimatingHeatCapacitiesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/95-EstimatingHeatCapacitiesVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
 **Reference Not Found: Mixing, Dissolving, and Changing the Rules**<br/>*$\Delta H_m$, $\Delta H_s$*<br/>[Video](https://youtu.be/ggU692PLWts), [Info Page](../../balances/energy/HeatsOfMixingVideoInfoWebPage.qmd), [Visuals](../../balances/energy/98-ReferenceStatesVIsuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
 **The Isochronicles: This First Law Saga Is a Gas**<br/>*The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes*<br/>[Video](https://youtu.be/iKsR3v1wu30), [Info Page](../../balances/energy/The1stLawForIdealGases.qmd), [Visuals](../../balances/energy/102-1stLawIdealGasesVisuals.qmd)

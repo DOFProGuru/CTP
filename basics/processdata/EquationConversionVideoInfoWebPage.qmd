@@ -1,41 +1,57 @@
 ---
-title: "*The Most Annoying Equation Conversion* (Converting Dimensional Equations) Reference Page"
+title: "Converting Dimensional Equations Reference Page<br/>*The Most Annoying Equation Conversion*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
+{{< include /LinkKey.qmd >}}
 # Intro to *The Most Annoying Equation Conversion*
 
-Main title explanation
+Most engineers are comfortable converting **measurements** from one set of units to another. For example, converting a pressure from psi to kPa or a temperature from Fahrenheit to Celsius is a standard exercise.
+
+Converting an **equation with dimensions**, however, is a different and more subtle problem. Instead of converting a single value, we must convert the **entire functional relationship** so that it produces correct results in a different set of units.
+
+This process can feel frustrating at first—hence the title of the video—but it is an extremely valuable skill. Engineers often encounter empirical correlations, heat-transfer equations, or fluid-mechanics relationships written in unit systems different from the one they are using. Being able to convert the equation correctly allows you to use those correlations without introducing hidden unit errors.
 
 ## The Most Annoying Equation Conversion
 
-Video 1 explanation
+This video explains how to convert a **dimensional equation** from one unit system to another. The process involves carefully substituting unit-conversion factors for each variable and collecting the resulting constants so that the equation remains valid in the new unit system.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6dyg-CgAm8s?si=kvaStVIReTjlrjNj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6dyg-CgAm8s?si=kvaStVIReTjlrjNj" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
+[Visuals](EquationConversionJTFVisuals.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+Additional worked examples will be added here in a future update.
+
 ## Definitions
 
-Equations with Dimensions
-: Equations that require variables to have specific units or dimensions for the equation to be valid. These equations often involve physical quantities such as length, time, mass, and force.
+Equations with Dimensions  
+: Equations that describe relationships among physical quantities and therefore require the variables to have specific units or dimensions. Examples include correlations such as heat-transfer coefficients, pressure-drop equations, or empirical reaction-rate expressions.
 
-Dimensional Equations
-: Expressions, usually a series of products of unity, that are used to convert a value from one set of units to another. See [Is Furlongs per Fortnight a Thing?](https://youtu.be/5EbL9MEro9E) for an example of how to use dimensional equations to convert units.
+Dimensional Equation  
+: An equation that includes variables with physical dimensions (such as mass, length, time, or temperature). The numerical constants in such equations are often valid only for a specific set of units.
 
-Original Units
-: The units of the variable(s) in the original equation with dimensions that need to be converted.
+Dimensional Consistency  
+: The requirement that every term in a physically meaningful equation must have the same dimensions. Dimensional consistency is a useful tool for checking whether an equation has been written or converted correctly.
 
-Target Units
-: The desired units for the variable(s) after conversion of the equation with dimensions.
+Dimensional Equation (Conversion Factor Form)  
+: An expression equal to unity that is constructed from equivalent units and used to convert quantities from one set of units to another. For example,
+
+$$
+\frac{25.4\ \mathrm{mm}}{1\ \mathrm{in}} = 1
+$$
+
+Multiplying by such expressions allows units to be changed without altering the physical value.
+
+Original Units  
+: The units associated with the variables in the original form of the equation.
+
+Target Units  
+: The desired units after the equation has been converted to a new unit system.
 
 # Other Links and Videos
 
@@ -43,20 +59,26 @@ Target Units
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**Is Furlongs Per Fortnight a Thing?**<br/>*Unit Conversion*<br/>[Video](https://youtu.be/5EbL9MEro9E), [Info Page](../../basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](../../basics/processdata/DimensionalEquationsJTFVisuals.qmd)
+**Is Furlongs Per Fortnight a Thing?**  
+*Unit Conversion*  
+[Video](https://youtu.be/5EbL9MEro9E), [Info Page](../../basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](../../basics/processdata/DimensionalEquationsJTFVisuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**How Keen Is Your Rank? Just the Facts**<br/>*Temperature Conversion*<br/>[Video](https://youtu.be/XKwl41MvFcE), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/ConvertingTemperatureJTFVisuals.qmd)
+**How Keen Is Your Rank? Just the Facts**  
+*Temperature Conversion*  
+[Video](https://youtu.be/XKwl41MvFcE), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/ConvertingTemperatureJTFVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Where Does Sherwood Hide His Unit? Principles**<br/>*Dimensionless Numbers Principles*<br/>[Video](https://youtu.be/A348vNv5t9c), [Info Page](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/DimNumPart1JTFVisuals.qmd)
+**Where Does Sherwood Hide His Unit? Principles**  
+*Dimensionless Numbers Principles*  
+[Video](https://youtu.be/A348vNv5t9c), [Info Page](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/DimNumPart1JTFVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**What the Schmidt? Examples**<br/>*Applications of Dimensionless Numbers*<br/>[Video](https://youtu.be/74SD0k_qBc8), [Info Page](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/DimNumPart2JTFVisuals.qmd)
-
-
+**What the Schmidt? Examples**  
+*Applications of Dimensionless Numbers*  
+[Video](https://youtu.be/74SD0k_qBc8), [Info Page](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/DimNumPart2JTFVisuals.qmd)

@@ -4,9 +4,7 @@ author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
+
 # Intro to *Main Title*
 
 Main title explanation

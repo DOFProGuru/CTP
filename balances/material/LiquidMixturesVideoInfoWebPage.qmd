@@ -4,19 +4,26 @@ author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
+
+{{< include /LinkKey.qmd >}}
+
 # Intro to Liquid Mixture Densities
 
-Main title explanation
+When two liquids are mixed, the resulting volume is not always equal to the sum of the original volumes. Molecular interactions between components can cause the mixture to expand or contract.
+
+Because of this behavior, calculating the density of a liquid mixture requires careful treatment of the mixture composition and volume relationships. The video on this page explains how mixture densities behave and how they can be estimated in engineering calculations.
+
+---
 
 ## Alcohol and Water DO Mix!
 
-Video 1 explanation
+This video demonstrates how mixing liquids can produce non-intuitive results, such as volume contraction. It explains how liquid mixture densities can be estimated and when simple averaging methods can be used.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_tjYMjWR4fE?si=m40rvQudtzU1_KiW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_tjYMjWR4fE?si=m40rvQudtzU1_KiW" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](61-LiqSolDenJTFVisuals.qmd)
+
+---
 
 # Examples and Definitions
 
@@ -24,23 +31,37 @@ Video 1 explanation
 
 ## Definitions
 
-Liquid Mixture
-: A liquid mixture is a homogeneous combination of two or more liquids that are completely miscible with each other. The properties of a liquid mixture, such as density, viscosity, and boiling point, can differ from those of the individual components due to interactions between the molecules of the different liquids. Examples of liquid mixtures include alcohol and water and various solvent mixtures used in chemical processes.
+Liquid Mixture  
+: A homogeneous mixture of two or more liquids that are completely miscible with one another. The physical properties of the mixture may differ from those of the individual components because of molecular interactions.
 
-Volume Expansivity
-: A measure of how much the volume of a liquid mixture changes with temperature. It is defined as the fractional change in volume per unit change in temperature at constant pressure. The volume expansivity of a liquid mixture can be influenced by the composition of the mixture and the interactions between the different components, and it is an important property to consider in processes that involve temperature changes, such as heating or cooling.
+Volume Expansivity  
+: A measure of how much the volume of a liquid changes with temperature. It is defined as the fractional change in volume per unit change in temperature at constant pressure.
 
-Isothermal Compressibility
-: A measure of how much the volume of a liquid mixture changes with pressure at constant temperature. It is defined as the fractional change in volume per unit change in pressure at constant temperature. The isothermal compressibility of a liquid mixture can be influenced by the composition of the mixture and the interactions between the different components, and it is an important property to consider in processes that involve pressure changes, such as pumping or compression.
+Isothermal Compressibility  
+: A measure of how much the volume of a liquid changes with pressure at constant temperature. It is defined as the fractional change in volume per unit change in pressure.
 
-Ideal Mixture
-: An ideal mixture is a theoretical concept in which the properties of the mixture can be predicted based on the properties of the individual components and their proportions in the mixture. In an ideal mixture, the interactions between the different components are assumed to be negligible, and the properties of the mixture can be calculated using simple weighted averages of the properties of the individual components.
+Ideal Mixture  
+: A theoretical mixture in which the properties of the mixture can be predicted directly from the properties of the individual components and their proportions. In an ideal mixture, interactions between unlike molecules are assumed to be the same as those between like molecules.
 
-Volume Additivity
-: The principle that the total volume of a liquid mixture is equal to the sum of the volumes of the individual components before mixing. It holds for an ideal mixture. 
+Volume Additivity  
+: The assumption that the total volume of a mixture equals the sum of the volumes of the individual components before mixing.
 
-Density Averaging
-: The process of calculating the density of a liquid mixture as the sum of the individual densities times their mass fractions. This is an approximation that can be used for non-ideal mixtures, but it may not always yield accurate results due to interactions between the components of the mixture.
+$$
+V_{mix} = \sum V_i
+$$
+
+This relationship holds for **ideal mixtures**, but real mixtures often deviate from it.
+
+Density Averaging  
+: An approximate method for estimating mixture density using the mass fractions and component densities.
+
+$$
+\frac{1}{\rho_{mix}} \approx \sum \frac{x_i}{\rho_i}
+$$
+
+This approximation can be useful for engineering calculations but may not be exact when strong interactions occur between components.
+
+---
 
 # Other Links and Videos
 
@@ -48,18 +69,26 @@ Density Averaging
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**Flame On, Torch!**<br/>*Combustion reactions*<br/>[Video](https://youtu.be/G2sKW_6N2BA), [Info Page](../../balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/material/59-CombRxnsPart1Visuals.qmd)
+**Flame On, Torch!**  
+*Combustion reactions*  
+[Video](https://youtu.be/G2sKW_6N2BA), [Info Page](../../balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/material/59-CombRxnsPart1Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**A Combustible Mixture!**<br/>*Sample combustion reactions*<br/>[Video](https://youtu.be/hvIk-evMp88), [Info Page](../../balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/material/60-CombRxnsPart2Visuals.qmd)
+**A Combustible Mixture!**  
+*Sample combustion reactions*  
+[Video](https://youtu.be/hvIk-evMp88), [Info Page](../../balances/material/CombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/material/60-CombRxnsPart2Visuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Ideal Gases EXPOSED: Are They Even Real?!!**<br/>*Basics of $P V = n R T$*<br/>[Video](https://youtu.be/L-DEw6dGRps), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/62-IdealGasVisuals.qmd)
+**Ideal Gases EXPOSED: Are They Even Real?!!**  
+*Basics of $PV = nRT$*  
+[Video](https://youtu.be/L-DEw6dGRps), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/62-IdealGasVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**When Getting Gassed Isn’t Ideal, Part 1**<br/>*Real gas intro*<br/>[Video](https://youtu.be/1sU4_YdcKr4), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/63-Visuals.qmd)
+**When Getting Gassed Isn’t Ideal, Part 1**  
+*Real gas intro*  
+[Video](https://youtu.be/1sU4_YdcKr4), [Info Page](../../balances/material/IdealAndRealGasesVideoInfoWebPage.qmd), [Visuals](../../balances/material/63-Visuals.qmd)

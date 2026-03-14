@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Is Furlongs Per Fortnight a Thing?</br>Just the Facts{.bigbold90}
+# Is Furlongs Per Fortnight a Thing?<br/>Just the Facts{.bigbold90}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -83,7 +83,7 @@ is known as a dimensional equation and it will handle most of your unit-conversi
 
 :::{.fragment .absolute top=65% left=10%}
 $\frac{344\ \mathrm{m}}{\mathrm{s}} | \frac{1\ \mathrm{yd}}{0.9144\ \mathrm{m}}  | \frac{1\ \mathrm{furlong}}{220\ \mathrm{yd}} | \frac{3600\ \mathrm{s}}{1\ \mathrm{hr}} | \frac{24\ \mathrm{hr}}{1\ \mathrm{day}} | \frac{14\ \mathrm{day}}{\mathrm{fortnight}} |$
-</br></br>
+<br/><br/>
  $\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 2,068,432.36\ \frac{\mathrm{furlong}}{\mathrm{fortnight}}$
 :::
 
@@ -242,7 +242,7 @@ Don't confuse the *pound mass*, $\mathrm{lb_m}$, the *pound force*, $\mathrm{lb_
 #
 
 ::: {.centered .bigger}
-</br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+<br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

@@ -103,7 +103,7 @@ Incompressible liquid only in introductory videos.
 ![](Pompe_à_palettes.gif){.absolute top=16% left=50% width=48%}
 
 ::: {.absolute top=63% left=50%}
-<a href="https://creativecommons.org/licenses/by-sa/1.0">CC BY-SA 1.0</a>, via</br>Wikimedia Commons
+<a href="https://creativecommons.org/licenses/by-sa/1.0">CC BY-SA 1.0</a>, via<br/>Wikimedia Commons
 :::
 
 ![](Peristaltic_pump.gif){.absolute top=16% left=0% width=48%}
@@ -191,7 +191,7 @@ If necessary, you can calculate the actual entropy change.
 ![](BrassNozzle.png){.absolute top=10% left=0% width=48%}
 
 ::: {.absolute top=55% left=0%}
-Dan Bollinger <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>,</br>via Wikimedia Commons
+Dan Bollinger <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>,<br/>via Wikimedia Commons
 :::
 
 ![](DeLavalNozzle.png){.absolute top=10% left=50% width=48%}
@@ -301,7 +301,7 @@ A partially open valve, an orifice, or a throttling valve can all be described a
 
 ::: {.absolute top=80% left=2%}
 ::: {style="font-size: 85px;"}
-H Padleckas, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>,</br> via Wikimedia Commons
+H Padleckas, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>,<br/> via Wikimedia Commons
 :::
 :::
 
@@ -385,7 +385,7 @@ $$x = \frac{\hat{H}_\mathrm{out} - \hat{H}_l}{\hat{H}_v - \hat{H}_l} = \frac{115
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}
