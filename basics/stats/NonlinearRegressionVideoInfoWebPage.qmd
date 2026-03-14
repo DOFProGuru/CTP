@@ -4,13 +4,15 @@ author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
+{{< include /LinkKey.qmd >}}
 
 # Intro to *Why Nonlinear Regression?*
 
-Main title explanation
+Many engineering relationships are nonlinear. While linear regression can often be applied after transforming variables (for example using logarithms), some models cannot be easily converted into a linear form.
+
+**Nonlinear regression** provides a way to estimate parameters for models that are nonlinear in the fitting parameters. These techniques are widely used in chemical and thermal process engineering for modeling reaction rates, thermodynamic relationships, transport phenomena, and other complex systems.
+
+The video on this page introduces the basic idea of nonlinear regression and explains how numerical optimization is used to determine the best-fit parameters.
 
 <!-- ##  Why Nonlinear Regression?
 
@@ -23,13 +25,12 @@ Video 1 explanation
 ## Nonlinear Regression
 
 ::: {.callout-important title="Not a DOFPro video"}
-This is ***NOT*** a DOFPro video. It may contain copyrighted material and have references to proprietary software.
+This is ***NOT*** a DOFPro video. It may contain copyrighted material and references to proprietary software.
 :::
 
-Video  explanation
+This video introduces the basic concepts behind nonlinear regression and explains how numerical optimization methods are used to determine the parameters of nonlinear models that best fit experimental data.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aE4W-JYnGgQ?si=zsWsxY-07reZN6hD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aE4W-JYnGgQ?si=zsWsxY-07reZN6hD" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 <!-- ## Nonlinear Regression with a Spreadsheet
 
@@ -39,7 +40,6 @@ Video 3 explanation
 [Visuals](../../NotYetHere.qmd)
 -->
 
-
 <!-- ## Nonlinear Regression in Python
 
 Video 4 explanation
@@ -47,7 +47,6 @@ Video 4 explanation
 ***Video 4 Link***
 [Visuals](../../NotYetHere.qmd)
 -->
-
 
 <!-- ## Nonlinear Regression in R
 
@@ -57,21 +56,49 @@ Video 5 explanation
 [Visuals](../../NotYetHere.qmd)
 -->
 
-
 # Examples and Definitions
 
-## Examples Links
+## Example Links
+
+*(Examples may be added in a future revision.)*
 
 ## Definitions
 
-Nonlinear Regression
-: A type of regression analysis used to model complex relationships between a dependent variable and one or more independent variables, where the relationship is not linear. Nonlinear regression can capture more intricate patterns in data compared to linear regression, making it suitable for a wide range of applications in engineering, science, and economics.
+Nonlinear Regression  
+: A regression method used when the model relating the dependent variable to the independent variables is nonlinear in its parameters.
 
-Sum of Squared Residuals
-: A measure of the discrepancy between the observed data and the values predicted by a regression model. It is calculated as the sum of the squares of the differences between the observed values and the predicted values. The goal of nonlinear regression analysis is often to minimize the sum of squared residuals to find the best-fit model parameters.
+A nonlinear model might take the form
 
-Numerical Optimization
-: A mathematical technique used to find the best solution to a problem by iteratively improving an initial guess. In the context of nonlinear regression, numerical optimization algorithms are employed to minimize the sum of squared residuals and determine the optimal parameters for the nonlinear model. Common optimization methods include gradient descent, Newton's method, and the Levenberg-Marquardt algorithm.
+$$
+y = a e^{bx}
+$$
+
+or
+
+$$
+y = \frac{a}{b + x}
+$$
+
+where the parameters must be estimated using iterative numerical methods.
+
+Sum of Squared Residuals  
+: A measure of the discrepancy between observed data and the values predicted by a regression model:
+
+$$
+\mathrm{SSR} = \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
+$$
+
+Nonlinear regression algorithms attempt to minimize this quantity.
+
+Numerical Optimization  
+: A class of mathematical techniques used to find parameter values that minimize or maximize a function. In nonlinear regression these methods are used to minimize the sum of squared residuals.
+
+Common optimization algorithms include:
+
+- gradient descent  
+- Newton's method  
+- Gauss-Newton method  
+- Levenberg–Marquardt algorithm
 
 # Other Links and Videos
 
@@ -79,27 +106,28 @@ Numerical Optimization
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-[This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+[This is NOT a DOFPro video.]{style="color: red;"}  
+**Integrals and Derivatives Part 1**  
+*Propagating errors or uncertainties through numerical integrals and derivatives*  
+[Video](https://youtu.be/_0AcGK7asfM), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-[This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Integrals and Derivatives Part 2**<br/>*More propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+[This is NOT a DOFPro video.]{style="color: red;"}  
+**Integrals and Derivatives Part 2**  
+*More propagating errors or uncertainties through numerical integrals and derivatives*  
+[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Is Furlongs Per Fortnight a Thing?**<br/>*Unit Conversion*<br/>[Video](https://youtu.be/5EbL9MEro9E), [Info Page](../../basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](../../basics/processdata/DimensionalEquationsJTFVisuals.qmd)
+**Is Furlongs Per Fortnight a Thing?**  
+*Unit Conversion*  
+[Video](https://youtu.be/5EbL9MEro9E), [Info Page](../../basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](../../basics/processdata/DimensionalEquationsJTFVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**How Keen Is Your Rank? Just the Facts**<br/>*Temperature Conversion*<br/>[Video](https://youtu.be/XKwl41MvFcE), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/ConvertingTemperatureJTFVisuals.qmd)
-
-
-
-
-
-
-
+**How Keen Is Your Rank? Just the Facts**  
+*Temperature Conversion*  
+[Video](https://youtu.be/XKwl41MvFcE), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/ConvertingTemperatureJTFVisuals.qmd)

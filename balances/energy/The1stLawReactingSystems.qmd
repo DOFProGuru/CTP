@@ -1,22 +1,25 @@
 ---
-title: "*Chemical Reactions vs. The First Law: Who Wins?* (The 1^st^ Law for Reacting Systems) Reference Page"
+title: "The 1^st^ Law for Reacting Systems Reference Page<br/>*Chemical Reactions vs. The First Law: Who Wins?*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *Chemical Reactions vs. The First Law: Who Wins?*
+{{< include /LinkKey.qmd >}}
+# Intro to The 1^st^ Law for Reacting Systems
 
-Main title explanation
+When chemical reactions occur, the First Law of Thermodynamics must account not only for temperature changes but also for the energy changes associated with **breaking and forming chemical bonds**.
+
+These energy changes are commonly expressed using **enthalpies of formation and reaction**, which allow the heat effects of chemical reactions to be calculated using tabulated thermodynamic data.
+
+This page introduces the form of the First Law used for reacting systems and explains the thermodynamic quantities needed to perform these calculations.
 
 ## Chemical Reactions vs. The First Law: Who Wins?
 
-Video 1 explanation
+This video explains how the First Law of Thermodynamics is applied to reacting systems and introduces the thermodynamic quantities used to calculate energy changes during chemical reactions.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mFF5hDHclPE?si=jTGrMmzHqFmvOiJR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mFF5hDHclPE?si=jTGrMmzHqFmvOiJR" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](106-1stLawReactingVisuals.qmd)
 
 # Examples and Definitions
 
@@ -24,18 +27,25 @@ Video 1 explanation
 
 ## Definitions
 
-[Heat or Enthalpy of Formation](https://en.wikipedia.org/wiki/Standard_enthalpy_of_formation)$\Delta \hat{H}^\circ_f$
-: The enthalpy of formation is the enthalpy change associated with forming one mole of a chemical species from its constituent species at their standard temperature, pressure and state of aggregation. By definition the enthalpy of formation for an element at its standard temperature, pressure, and state of aggregation is identically zero.
+[Heat or Enthalpy of Formation](https://en.wikipedia.org/wiki/Standard_enthalpy_of_formation), $\Delta \hat{H}^\circ_f$  
+: The enthalpy change associated with forming one mole of a chemical species from its constituent elements at their standard temperature, pressure, and state of aggregation.  
 
-[Heat or Enthalpy of Reaction](https://en.wikipedia.org/wiki/Standard_enthalpy_of_reaction), $\Delta \hat{H}^\circ_r$
-: The enthalpy change associated with one mole of reaction for a chemical reaction as written. It can be calculated as the sum of the enthalpies of formation of the reactants and products times their stoichiometric coefficients, with the convention that the stoichiometric coefficients of reactants are negative and the stoichiometric coefficients of products are positive.
+By definition, the enthalpy of formation of an element in its standard state is zero.
 
-[Extent of Reaction](https://en.wikipedia.org/wiki/Extent_of_reaction), $\xi$ or $\dot{\xi}$
-: A measure of the progress of a chemical reaction, defined as the ratio of the amount of reactant that has been converted to product to the total amount of reactant initially present. It is often denoted by the symbol ξ (xi) and can be used to determine the composition of the reaction mixture at any given time.
+[Heat or Enthalpy of Reaction](https://en.wikipedia.org/wiki/Standard_enthalpy_of_reaction), $\Delta \hat{H}^\circ_r$  
+: The enthalpy change associated with one mole of reaction for a chemical reaction as written.  
 
-[Heat Capacity at Constant Pressure](https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity), $C_p$
-: The change in specific or molar enthalpy with a change in temperature at constant pressure for a substance *not* undergoing a phase change. $C_p \equiv (\partial \hat{H} / \partial T)|_P$
+It can be calculated as the sum of the enthalpies of formation of the reactants and products multiplied by their stoichiometric coefficients, with reactant coefficients taken as negative and product coefficients as positive.
 
+[Extent of Reaction](https://en.wikipedia.org/wiki/Extent_of_reaction), $\xi$ or $\dot{\xi}$  
+: A variable describing the progress of a chemical reaction. Changes in the amount of each species are related to the extent of reaction through the stoichiometric coefficients of the reaction.
+
+[Heat Capacity at Constant Pressure](https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity), $C_p$  
+: The change in specific or molar enthalpy with temperature at constant pressure for a substance not undergoing a phase change.
+
+$$
+C_p \equiv \left(\frac{\partial \hat{H}}{\partial T}\right)_P
+$$
 
 # Other Links and Videos
 
@@ -43,18 +53,18 @@ Video 1 explanation
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
 **The Isochronicles: This First Law Saga Is a Gas**<br/>*The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes*<br/>[Video](https://youtu.be/iKsR3v1wu30), [Info Page](../../balances/energy/The1stLawForIdealGases.qmd), [Visuals](../../balances/energy/102-1stLawIdealGasesVisuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](../../balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](../../balances/energy/104-HeatsOfReactionVisuals.qmd)
+**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}_c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](../../balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](../../balances/energy/104-HeatsOfReactionVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
 **Fueling the Fire: The Shocking Truth About Combustion Reactions!**<br/>*Common fuels, Heats of Combustion, HHV, LHV*<br/>[Video](https://youtu.be/lW5dK-F6H3U), [Info Page](../../balances/energy/EnergeticsOfCombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/110-FuelsHeatingVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
 **React Hard: The First Law Gets Chemical**<br/>*Example of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/q-W5Y1d85go), [Info Page](../../balances/energy/Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/111-EnergeticsOfReactionsPt1Visuals.qmd)

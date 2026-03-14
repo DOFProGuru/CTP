@@ -8,7 +8,7 @@ format:
     incremental: true
     theme: [serif, ../../gradient.scss]
 ---
-# Under Pressure Part 2 </br> The Full Story {style="text-align: center;"}
+# Under Pressure Part 2 <br/> The Full Story {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -204,7 +204,7 @@ P_\mathrm{abs} & = P_\mathrm{g}+P_\mathrm{atm} \\
 ![](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/TireExample.png){.absolute top="10%" left="15%" width="70%"}
 
 
-# What does</br>vacuum pressure</br>mean?
+# What does<br/>vacuum pressure<br/>mean?
 
 
 ## Vacuum Pressure {background-image="https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/Crysopea_alambicco_poli_grappa.png"}
@@ -248,7 +248,7 @@ Background CC BY-SA 3.0 [link](https://commons.wikimedia.org/wiki/File:VacuumCha
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}

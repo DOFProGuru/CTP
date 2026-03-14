@@ -1,22 +1,26 @@
 ---
-title: "*Add Friction and Work to Bernoulli? Here’s What Really Happens!* (The Mechanical Energy Balance) Reference Page"
+title: "The Mechanical Energy Balance Reference Page<br/>*Add Friction and Work to Bernoulli? Here’s What Really Happens!*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *Add Friction and Work to Bernoulli? Here’s What Really Happens!*
+{{< include /LinkKey.qmd >}}
 
-Main title explanation
+# Intro to The Mechanical Energy Balance
+
+The **mechanical energy balance** is a useful form of the First Law of Thermodynamics for flowing, approximately constant-density fluids. It relates pressure, velocity, elevation, shaft work, and frictional losses.
+
+In many fluid-flow problems, the mechanical energy balance is more convenient than the full energy balance because it focuses on the forms of energy most important in pipe flow, pumps, turbines, and fittings.
+
+This video shows how the Bernoulli equation fits into the larger mechanical energy balance and explains what changes when friction and shaft work are included.
 
 ## Add Friction and Work to Bernoulli? Here’s What Really Happens!
 
-Video 1 explanation
+This video introduces the mechanical energy balance, explains the role of friction losses and shaft work, and shows how the Bernoulli equation emerges as a special case.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Da48oZb9oNw?si=8VfEWxpZ1-ceS518" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Da48oZb9oNw?si=8VfEWxpZ1-ceS518" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](90-MechEngBalVisuals.qmd)
 
 # Examples and Definitions
 
@@ -24,26 +28,37 @@ Video 1 explanation
 
 ## Definitions
 
-[Friction Loss](https://en.wikipedia.org/wiki/Hydraulic_head#Head_loss), $\hat{F}$
-: The energy due to friction within a flowing fluid and between the flowing fluid and its container, such as pipe walls.
+[Friction Loss](https://en.wikipedia.org/wiki/Hydraulic_head#Head_loss), $\hat{F}$  
+: The mechanical energy lost because of friction within a flowing fluid and between the fluid and the walls of its container, such as a pipe.
 
-[Moody Chart](https://en.wikipedia.org/wiki/Moody_chart)
-: Plots the Moody or Fanning friction factor as a function of the Reynolds number and the relative roughness for fully developed flow in a conduit or pipe.
+[Moody Chart](https://en.wikipedia.org/wiki/Moody_chart)  
+: A chart showing the Darcy–Moody friction factor as a function of Reynolds number and relative roughness for fully developed pipe flow.
 
-[Moody Friction Factor](https://en.wikipedia.org/wiki/Darcy_friction_factor_formulae), $f$
-: An empirical value used to determine the friction loss, often determined from a Moody chart.
+[Moody Friction Factor](https://en.wikipedia.org/wiki/Darcy_friction_factor_formulae), $f$  
+: A friction factor used to calculate friction losses in pipe flow. It is often obtained from the Moody chart.
 
-[Fanning Friction Factor](https://en.wikipedia.org/wiki/Fanning_friction_factor), $f$
-: An empirical value used to determine the friction loss, often determined from a Moody chart. The Fanning friction factor is the Moody friction factor over 4
+[Fanning Friction Factor](https://en.wikipedia.org/wiki/Fanning_friction_factor), $f$  
+: A friction factor also used to calculate friction losses. The Fanning friction factor is one-fourth of the Darcy–Moody friction factor.
 
-Mechanical Energy Balance
-: A form of the 1^st^ Law for constant-density fluids with only frictional heating.
+Mechanical Energy Balance  
+: A form of the First Law of Thermodynamics for flowing, approximately constant-density fluids in which the relevant energy terms are pressure, kinetic energy, potential energy, shaft work, and friction loss.
+$$
+\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z + \hat{F} = \frac{\dot{W}_s}{\dot{m}}
+$$
 
-[Bernoulli Equation](https://en.wikipedia.org/wiki/Bernoulli%27s_principle)
-: The mechanical energy balance with the friction and work terms removed.
+[Bernoulli Equation](https://en.wikipedia.org/wiki/Bernoulli%27s_principle)  
+: The mechanical energy balance with shaft work and friction losses neglected.
+$$
+\Delta \frac{P}{\rho} + \Delta \frac{u^2}{2} + g \Delta z = 0
+$$
 
-[Reynolds Number](https://en.wikipedia.org/wiki/Reynolds_number)
-: A [dimensionless number](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd) comparing inertial forces to viscous forces in fluid flow. For a pipe or tube, it's calculated as $Re = \rho u D/\mu$
+
+[Reynolds Number](https://en.wikipedia.org/wiki/Reynolds_number)  
+: A [dimensionless number](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd) comparing inertial effects to viscous effects in fluid flow. For flow in a pipe or tube,
+
+$$
+Re = \frac{\rho u D}{\mu}
+$$
 
 # Other Links and Videos
 
@@ -51,18 +66,18 @@ Mechanical Energy Balance
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
 **Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](../../balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
 **Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](../../balances/energy/Intro1stLawVideoInfoWebPage.qmd), [Visuals](../../balances/energy/89-Intro1stLawVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
 **Steam: Get the Quality Right AFTER You Table It! Part 1**<br/>*The Basics of Steam Tables*<br/>[Video](https://youtu.be/8tH3gXz_M8A), [Info Page](../../balances/energy/SteamTablesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/91-ThermodynamicPropertyTables1Visuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
 **Steam: Get the Quality Right AFTER You Table It! Part 2**<br/>*Steam Table Examples*<br/>[Video](https://youtu.be/yRf09eSRM1A), [Info Page](../../balances/energy/SteamTablesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/92-ThermodynamicPropertyTables2Visuals.qmd)

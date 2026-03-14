@@ -1,67 +1,90 @@
 ---
-title: "*Boil, Expand, Condense, Repeat* (The Rankine Cycle in Action) Reference Page"
+title: "The Rankine Cycle in Action Reference Page<br/>*Boil, Expand, Condense, Repeat*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *Main Title*
+{{< include /LinkKey.qmd >}}
+# Intro to *Boil, Expand, Condense, Repeat*
 
-Main title explanation
+The Rankine cycle is the thermodynamic cycle used in most **steam power plants** to convert heat into mechanical work and ultimately electricity.
+
+Water is pumped to high pressure, heated in a boiler to produce steam, expanded through a turbine to generate work, and then condensed back into liquid water so the cycle can repeat.
 
 ## Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1
 
-Video 1 explanation
+This video introduces the ideal Rankine cycle and shows how the cycle is represented on thermodynamic diagrams.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4QRJ00uyaX8?si=Gfhb6hnC5ev3JPIK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4QRJ00uyaX8?si=Gfhb6hnC5ev3JPIK" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](119-RankineVisualsPart1.qmd)
 
 ## Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2
 
-Video  explanation
+This video examines real Rankine cycles that include turbine and pump inefficiencies.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0DmsKCJpIdc?si=aR-NMxiLDotMK8Lq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0DmsKCJpIdc?si=aR-NMxiLDotMK8Lq" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](120-RankineVisualsPart2.qmd)
 
 ## Modeling the Rankine Cycle in DWSIM
 
-Video  explanation
+This video demonstrates how to model the Rankine cycle using the DWSIM process simulator.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ECOWIrzvGNc?si=OCZ5b3hSXYay14E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ECOWIrzvGNc?si=OCZ5b3hSXYay14E0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 # Examples and Definitions
 
 ## Examples Links
 
-- [Ideal and Real Rankine Cycle Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineExamples.ods)
-- [DWSIM Rankine Cycle Example for Revenge of the Fridge](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineCycle.dwxmz)
-- [DWSIM Rankine Cycle Demo](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineCycle2Ways.dwxmz)
+- [Ideal and Real Rankine Cycle Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineExamples.ods) – A spreadsheet with the cycle efficiencies for ideal and real Rankine cycles as presented in *Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 1* and *Part2*
+
+- [DWSIM Rankine Cycle Example for Part 2](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineCycle.dwxmz) – The DWSIM file used to generate the Rankine cycle displayed in *Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2*
+
+- [DWSIM Rankine Cycle Demo](https://dofprobucket1.s3.us-east-2.amazonaws.com/entropy/RankineCycle2Ways.dwxmz) – The DWSIM file used in *Modeling the Rankine Cycle in DWSIM*
 
 ## Definitions
 
-[Rankine Cycle](https://en.wikipedia.org/wiki/Rankine_cycle)
-: A thermodynamic power cycle consisting of four steps:<br/>1. An isobaric heating<br/>2. An isentropic expansion<br/>3. An isothermal cooling<br/>4. An isentropic compression</br/>It usually involves phase transitions during the heating and cooling stages.
+[Rankine Cycle](https://en.wikipedia.org/wiki/Rankine_cycle)  
+: A thermodynamic power cycle consisting of four main processes:
 
-[Turbine](https://en.wikipedia.org/wiki/Turbine)
-: A mechanical device for generating work from a flowing or expanding fluid.
+1. **Isentropic compression in a pump**
+2. **Isobaric heating in a boiler**  
+3. **Isentropic expansion in a turbine**  
+4. **Isobaric cooling and condensation in a condenser** (appears isothermal on a *T-S* diagram)
 
-Turbine Efficiency
-: The ratio of the actual work generated in a turbine or expander to the work generated in a isentropic process with the same entering pressure and temperature and the same exiting pressure. $\eta_\mathrm{turbine} \equiv \dot{W}_{s\text{-actual}}/\dot{W}_{s\text{-isentropic}}$
 
-[Pump](https://en.wikipedia.org/wiki/Pump)
-: A device for causing flow and/or increasing the pressure of a fluid, usually a liquid.
+The cycle typically involves phase changes during both heating and cooling.
 
-[Pump Efficiency](https://en.wikipedia.org/wiki/Pump#Efficiency)
-: The ratio of the work required by an isentropic process to pump a fluid to the actual work required to pump a fluid adiabatically from an given entering pressure and temperature to a given exiting pressure. $\eta_\mathrm{pump} \equiv \dot{W}_{s\text{-isentropic}}/\dot{W}_{s\text{-actual}}$
+[Turbine](https://en.wikipedia.org/wiki/Turbine)  
+: A mechanical device that produces work from a flowing or expanding fluid.
 
-[Boiler](https://en.wikipedia.org/wiki/Boiler)
-: A large [heat exchanger](https://en.wikipedia.org/wiki/Heat_exchanger) for heating a fluid into a vapor or gas, such as water into steam. The hot fluid may be combustion gases from coal, fuel oil, or natural gas, or from a heat source such as solar concentrators or nuclear reactor.
+Turbine Efficiency  
 
-[Condenser](https://en.wikipedia.org/wiki/Condenser_(heat_transfer))
-: A vessel used to condense a vapor or gas into a liquid, such as steam into liquid water. The cold side may be air, water such as seawater, or other coolant.
+$$
+\eta_\mathrm{turbine}
+=
+\frac{\dot W_\text{actual}}
+{\dot W_\text{isentropic}}
+$$
+
+[Pump](https://en.wikipedia.org/wiki/Pump)  
+: A device used to move liquids and increase their pressure.
+
+[Pump Efficiency](https://en.wikipedia.org/wiki/Pump#Efficiency)  
+
+$$
+\eta_\mathrm{pump}
+=
+\frac{\dot W_\text{isentropic}}
+{\dot W_\text{actual}}
+$$
+
+[Boiler](https://en.wikipedia.org/wiki/Boiler)  
+: A large [heat exchanger](https://en.wikipedia.org/wiki/Heat_exchanger) used to heat a fluid until it vaporizes, such as water to steam. The heat source may be combustion gases, nuclear energy, solar concentrators, or other thermal sources.
+
+[Condenser](https://en.wikipedia.org/wiki/Condenser_(heat_transfer))  
+: A vessel used to condense vapor into liquid. In steam power plants this typically means condensing steam back into liquid water using cooling water or air.
 
 # Other Links and Videos
 
@@ -69,23 +92,26 @@ Turbine Efficiency
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans**<br/>*Turbines and Expanders, Isentropic and Isothermal Compressors*<br/>[Video](https://youtu.be/Pb7PS5oeCz0), [Info Page](../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/118-TurbCompEtcVisuals.qmd)
+**Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans**  
+*Turbines and Expanders, Isentropic and Isothermal Compressors*  
+[Video](https://youtu.be/Pb7PS5oeCz0), [Info Page](../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/118-TurbCompEtcVisuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans**<br/>*Pumps, Nozzles, and Valves or Throttles*<br/>[Video](https://youtu.be/irBfMfVUEFo), [Info Page](../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/118.5-PumpNozzVisuals.qmd)
+**Entropy Made Me Do It: Pumps, Nozzles, and Other Second-Law Shenanigans**  
+*Pumps, Nozzles, and Valves or Throttles*  
+[Video](https://youtu.be/irBfMfVUEFo), [Info Page](../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/118.5-PumpNozzVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Cycle Wars: The Power Awakens**<br/>*Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle*<br/>[Video](https://youtu.be/M_p3gb79isg), [Info Page](../../balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](../../balances/entropy/122-AirStandardCyclesPart1Visuals.qmd)
+**Cycle Wars: The Power Awakens**  
+*Listing the common Air-Standard cycles, and modeling the Air-Standard Carnot cycle*  
+[Video](https://youtu.be/M_p3gb79isg), [Info Page](../../balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](../../balances/entropy/122-AirStandardCyclesPart1Visuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**Cycle Wars: The Rise of Otto Cycles**<br/>*Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, & Stirling Cycles*<br/>[Video](https://youtu.be/jJaDQM8qjgU), [Info Page](../../balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](../../balances/entropy/123-AirStandardCyclesPart2Visuals.qmd)
-
-
-
-
-
+**Cycle Wars: The Rise of Otto Cycles**  
+*Modeling the Otto, Diesel, Brayton, Turbojet, Ericsson, & Stirling Cycles*  
+[Video](https://youtu.be/jJaDQM8qjgU), [Info Page](../../balances/entropy/AirStandardPowerCyclesInfoWebPage.qmd), [Visuals](../../balances/entropy/123-AirStandardCyclesPart2Visuals.qmd)

@@ -11,7 +11,7 @@ format:
 # How Deviant and Mean Are Your Data?
 
 ::: {.bigbold style="text-align: center;"}
-Intro and Basics Part 2</br>Just the Facts
+Intro and Basics Part 2<br/>Just the Facts
 :::
 
 ::: {style="text-align: center;"}
@@ -66,7 +66,7 @@ For example, $y=42.000 \pm0.007(68\%\ \mathrm{conf.})$
 
 :::{.absolute top=40% left=0%}
 :::{style="font-size: 45px"}
-Harald Bischoff, CC BY-SA 3.0 </br> [link](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons
+Harald Bischoff, CC BY-SA 3.0 <br/> [link](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons
 :::
 :::
 
@@ -75,7 +75,7 @@ Harald Bischoff, CC BY-SA 3.0 </br> [link](https://creativecommons.org/licenses/
 
 :::{.absolute top=51% left=25%}
 :::{style="font-size: 35px"}
-User Wujaszek on pl.wikipedia, </br>Public domain, via Wikimedia Commons
+User Wujaszek on pl.wikipedia, <br/>Public domain, via Wikimedia Commons
 :::
 :::
 :::
@@ -89,7 +89,7 @@ Calculate $S_{\bar{x}}$.
 :::
 
 :::{.fragment .absolute top=25% left=55%}
-Choose a confidence level, </br>for example, $95\%$ or $p = 0.05$.
+Choose a confidence level, <br/>for example, $95\%$ or $p = 0.05$.
 :::
 
 :::{.fragment .absolute top=45% left=55%}
@@ -174,7 +174,7 @@ There are four additional videos showing how to perform these calculations by ha
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The first of the How To videos is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The first of the How To videos is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=35%}

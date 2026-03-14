@@ -42,7 +42,7 @@ $$
 
 ::: {style="font-size: 110px;"}
 ::: {.fragment}
-</br>Values for $\beta$ and $\kappa$ come from experimental data, websites, handbooks, and tables, and equations of state. A web search can prove to be quite fruitful.
+<br/>Values for $\beta$ and $\kappa$ come from experimental data, websites, handbooks, and tables, and equations of state. A web search can prove to be quite fruitful.
 <br/><br/>
 :::
 ::: {.fragment}
@@ -137,7 +137,7 @@ $$\rho_\mathrm{mix} = x_1 \rho_1 + (1-x_1) \rho_2$$
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

@@ -3,131 +3,184 @@ title: "Pressure Reference Page<br/>*Under Pressure*"
 author: "DOFPro group"
 format: html
 ---
+{{< include /LinkKey.qmd >}}
 # Purpose of *Under Pressure*
 
-After temperature, pressure is the most common measured and reported quantity in chemical processes. The concept of pressure is fundamental to modeling, designing, and monitoring chemical processes. The *Part 1* and *Part 2* videos explain most of the fundamental and background information that a practicing engineer will need regarding pressure. *Part 1* discusses what pressure or force per unit area is, how you use it, and some of the methods for measuring it. *Part 2* continues the discussion with atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure. For those who caught the reference in the title, here is a [link to the video](https://youtu.be/a01QQZyl-_I?si=M1s_2fCHvM0FT49b).
+After temperature, pressure is one of the most commonly measured and reported quantities in chemical and thermal processes. The concept of pressure is fundamental to modeling, designing, and monitoring those processes.
+
+The *Part 1* and *Part 2* videos explain most of the background and practical information that a practicing engineer needs regarding pressure.
+
+*Part 1* discusses what pressure is—force per unit area—how it is used in engineering calculations, and several common methods for measuring it.
+
+*Part 2* continues the discussion with atmospheric pressure, barometric pressure, gauge pressure, absolute pressure, and vacuum pressure.
+
+For those who caught the reference in the title, here is a [link to the video](https://youtu.be/a01QQZyl-_I?si=M1s_2fCHvM0FT49b).
+
+---
 
 ## *Part 1 Just The Facts*
 
-The *Just The Facts* Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.
+The *Just the Facts* video explains the basics of pressure, hydrostatic pressure, the different units used to measure pressure, and how pressure is used in engineering calculations.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9gbOE5zEt4o?si=Q7ep_2RRmEHTYqMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9gbOE5zEt4o?si=Q7ep_2RRmEHTYqMw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](PressurePt1JTFVisuals.qmd)
+
+---
 
 ## *Part 1 The Full Story*
 
-*The Full Story* Video examines common conceptions and misconceptions about pressure before explaining the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have not been exposed to pressure before or who have struggled with understanding what pressure is or how it is used.
+*The Full Story* video examines common conceptions and misconceptions about pressure before explaining the fundamentals of pressure, hydrostatic pressure, pressure units, and how pressure is used in calculations.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D-UAHVi4a2U?si=9_gBUPh9WIZnDDbl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D-UAHVi4a2U?si=9_gBUPh9WIZnDDbl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Visuals](PressurePt1TFSVisuals.qmd)
+
+---
 
 ## *Part 2 Just The Facts*
 
-The *Just The Facts* Video explains the basics of pressure, hydrostatic pressure, the different units used in measuring pressure and how to use pressure in calculations. It is recommended for those who have a reasonably good understanding of pressure and are just looking for a refresher or a review.
+The *Just the Facts* video explains the differences among **atmospheric pressure, barometric pressure, gauge pressure, absolute pressure, and vacuum pressure**, and shows how these quantities are used in calculations.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CR3MomWlqb8?si=PbkrLizghUA9Dm3x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CR3MomWlqb8?si=PbkrLizghUA9Dm3x" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](PressurePt2JTFVisuals.qmd)
+
+---
 
 ## *Part 2 The Full Story*
 
-*The Full Story* Video examines common conceptions and misconceptions about atmospheric pressure, barometric pressure, gauge pressure, absolute pressure and vacuum pressure before explaining what these different pressures are and how to use them. It is recommended for those who have not been exposed to these pressure concepts before or who have struggled with understanding the differences among them or how they are used.
+*The Full Story* video examines common conceptions and misconceptions about atmospheric pressure, barometric pressure, gauge pressure, absolute pressure, and vacuum pressure before explaining how these different pressure definitions arise and how they are used in engineering practice.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/41axc-xnqsQ?si=9ROd_qCuSIw_DakH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/41axc-xnqsQ?si=9ROd_qCuSIw_DakH" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](PressurePt2TFSVisuals.qmd)
+
+---
 
 # Examples and Definitions
 
 ## Examples Links
 
-- [Pressure Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/PressureExamples.ods) – A spreadsheet with the examples from the videos
+- [Pressure Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/processdata/PressureExamples.ods) – A spreadsheet containing the examples used in the videos.
+
+---
 
 ## Definitions
 
-Pressure
-: Normal force per unit area. The SI unit is the Pascal (Pa), which is defined as 1 Newton per square meter ($1\ \mathrm{N/m^2}$).
+Pressure  
+: Normal force per unit area. The SI unit is the Pascal (Pa), defined as $1\ \mathrm{N/m^2}$.
 
-Pascal
-: The SI unit of pressure, defined as $1\ \mathrm{N/m^2}$.
+Pascal  
+: The SI unit of pressure, equal to $1\ \mathrm{N/m^2}$.
 
-Torr or mmHg
-: A Torr or mmHg is the hydrostatic pressure generated by a column of mercury 1 mm high. The Torr and mmHg differ by less than one part in 7 million so they are usually treated as equivalent. $1\ \mathrm{Torr}= 133.3224\ \mathrm{Pa}$.
+Torr or mmHg  
+: The hydrostatic pressure generated by a column of mercury 1 mm high. Torr and mmHg differ by less than one part in seven million and are usually treated as equivalent.  
+$1\ \mathrm{Torr} = 133.3224\ \mathrm{Pa}$
 
-Inch of Mercury
-: An inch of mercury ($\mathrm{inchHg}) is the hydrostatic pressure generated by a column of mercury 1 inch high. $1\ \mathrm{inHg}= 3386.389\ \mathrm{Pa}$.
+Inch of Mercury  
+: The hydrostatic pressure generated by a column of mercury 1 inch high.  
+$1\ \mathrm{inHg} = 3386.389\ \mathrm{Pa}$
 
-Atmosphere or Standard Atmosphere
-: The atmosphere or standard atmosphere ($\mathrm{atm}$) is defined as the average atmospheric pressure at sea level. $1\ \mathrm{atm}= 101,325\ \mathrm{Pa}$.
+Atmosphere or Standard Atmosphere  
+: The standard reference atmospheric pressure at sea level.  
+$1\ \mathrm{atm} = 101{,}325\ \mathrm{Pa}$
 
-Standard Atmospheric Model
-: An agreed-upon model of how atmospheric properties vary with altitude on average. The two prinicipal ones are the [International Standard Atmosphere](https://en.wikipedia.org/wiki/International_Standard_Atmosphere) and the [U.S. Standard Atmosphere](https://en.wikipedia.org/wiki/U.S._Standard_Atmosphere).
+Standard Atmospheric Model  
+: A model describing how atmospheric properties vary with altitude. Two commonly used models are the [International Standard Atmosphere](https://en.wikipedia.org/wiki/International_Standard_Atmosphere) and the [U.S. Standard Atmosphere](https://en.wikipedia.org/wiki/U.S._Standard_Atmosphere).
 
-Kilopascal
-: The kilopascal ($\mathrm{kPa}$) is $1000\ \mathrm{Pa}$. $1\ \mathrm{kPa} = 1000\ \mathrm{Pa}$.
+Kilopascal  
+: A unit equal to $1000\ \mathrm{Pa}$.
 
-Bar
-: The bar ($\mathrm{bar}$) is $10,00\ \mathrm{Pa}$. $1\ \mathrm{bar} = 10^5\ \mathrm{Pa}$.
+Bar  
+: A unit of pressure equal to $10^5\ \mathrm{Pa}$.
 
-Pound per Square Inch
-: The pound per square inch ($\mathrm{psi}$) is one pound of normal force per square inch of area. $1\ \mathrm{psi}= 6894.757\ \mathrm{Pa}$.
+Pound per Square Inch  
+: A unit of pressure equal to one pound-force per square inch of area.  
+$1\ \mathrm{psi} = 6894.757\ \mathrm{Pa}$
 
-Feet of Water
-: A foot of water ($\mathrm{ftH_2O}) is the hydrostatic pressure generated by a column of water one foot high at $39.2\ ^\circ\mathrm{F}$. $1\ \mathrm{ftH_2O}= 2989.98\ \mathrm{Pa}$.
+Foot of Water  
+: The hydrostatic pressure generated by a column of water one foot high at $39.2^\circ\mathrm{F}$.  
+$1\ \mathrm{ftH_2O} = 2989.98\ \mathrm{Pa}$
 
-Inch of Water
-: An inch of water ($\mathrm{inH_2O}) is the hydrostatic pressure generated by a column of water one inch high at $39.2\ ^\circ\mathrm{F}$. $1\ \mathrm{inH_2O}= 249.082\ \mathrm{Pa}$.
+Inch of Water  
+: The hydrostatic pressure generated by a column of water one inch high at $39.2^\circ\mathrm{F}$.  
+$1\ \mathrm{inH_2O} = 249.082\ \mathrm{Pa}$
 
-Meter of Water
-: A meter of water ($\mathrm{mH_2O}) is the hydrostatic pressure generated by a column of water one meter high at $4\ ^\circ\mathrm{C}$. $1\ \mathrm{ftH_2O}= 9806.38\ \mathrm{Pa}$.
+Meter of Water  
+: The hydrostatic pressure generated by a column of water one meter high at $4^\circ\mathrm{C}$.  
+$1\ \mathrm{mH_2O} = 9806.38\ \mathrm{Pa}$
 
-[Hydrostatic Pressure](https://en.wikipedia.org/wiki/Hydrostatics#Hydrostatic_pressure)
-: The change in pressure from the top of a column of fluid to the bottom of the column of fluid, calculated as $\Delta P=\rho g h$ for a constant-density fluid.
+[Hydrostatic Pressure](https://en.wikipedia.org/wiki/Hydrostatics#Hydrostatic_pressure)  
+: The pressure difference between two points in a fluid caused by the weight of the fluid column between them. For a constant-density fluid,
 
-Atmospheric Pressure
-: The local pressure caused by the column of air above a given location. Since air is compressible, the pressure calculation does not use a simple formula.
+$$
+\Delta P = \rho g h
+$$
 
-Absolute Pressure
-: The pressure measured relative to a perfect vacuum. Since a perfect vacuum does not exist, even in interstellar space, it is the pressure relative to an extrapolated perfect vacuum.
+Atmospheric Pressure  
+: The local pressure caused by the column of air above a given location.
 
-Gauge Pressure
-: The pressure measured relative to the local atmospheric pressure. A tire pressure gauge usually measure gauge pressure. $P_\mathrm{abs}=P_\mathrm{gauge}+P_\mathrm{atm}$. The ideal gas law *must* be calculated using *absolute*, not *gauge* pressure.
+Absolute Pressure  
+: Pressure measured relative to a perfect vacuum.
 
-Barometric Pressure
-: The local atmospheric pressure that would be measured at the bottom of a hole drilled vertically down to sea level.
+Gauge Pressure  
+: Pressure measured relative to the local atmospheric pressure.
 
-Differential Pressure Gauge
-: A gauge that measures the difference in pressure between its two inlets.
+$$
+P_{\mathrm{abs}} = P_{\mathrm{gauge}} + P_{\mathrm{atm}}
+$$
 
-Absolute Pressure Gauge
-: A gauge that measures the pressure at its inlet relative to a perfect vacuum.
+The ideal gas law must always be used with **absolute pressure**.
 
-Gram Mole or g-mol
-: A gram mole is what chemists call a mole. See [What Is A Mole](WhatIsAMoleWebPage.qmd) for further explanation.
+Barometric Pressure  
+: The atmospheric pressure measured by a barometer.
 
-[Troposphere](https://en.wikipedia.org/wiki/Troposphere)
-: The portion of Earth's atmosphere below roughly 8 miles or 13 km. 
+Differential Pressure Gauge  
+: A device that measures the difference between two pressures.
+
+Absolute Pressure Gauge  
+: A gauge that measures pressure relative to a vacuum reference.
+
+Gram Mole or g-mol  
+: A gram mole is what chemists call a mole. See [What Is a Mole](WhatIsAMoleWebPage.qmd) for further explanation.
+
+[Troposphere](https://en.wikipedia.org/wiki/Troposphere)  
+: The lowest region of Earth’s atmosphere, extending to roughly 8 miles (13 km) altitude.
+
+---
 
 # Other Links and Videos
 
 ## Other Links
 
-1. The Wikipedia discussion of [pressure](https://en.wikipedia.org/wiki/Pressure). Units are discussed under [Units](https://en.wikipedia.org/wiki/Pressure#Units).
-2. The Wikipedia discussion of [pressure measurement](https://en.wikipedia.org/wiki/Pressure_measurement). It contains discussion of absolute, gauge and differential pressures, and [manometers](https://en.wikipedia.org/wiki/Pressure_measurement#Liquid_column_(manometer)).
+1. The Wikipedia discussion of [pressure](https://en.wikipedia.org/wiki/Pressure). Units are discussed under [Units](https://en.wikipedia.org/wiki/Pressure#Units).  
+2. The Wikipedia discussion of [pressure measurement](https://en.wikipedia.org/wiki/Pressure_measurement), including absolute, gauge, and differential pressures and [manometers](https://en.wikipedia.org/wiki/Pressure_measurement#Liquid_column_(manometer)).
+
+---
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**What the Schmidt? Examples**<br/>*Applications of Dimensionless Numbers*<br/>[Video](https://youtu.be/74SD0k_qBc8), [Info Page](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/DimNumPart2JTFVisuals.qmd)
+**What the Schmidt? Examples**  
+*Applications of Dimensionless Numbers*  
+[Video](https://youtu.be/74SD0k_qBc8), [Info Page](../../basics/processdata/DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/DimNumPart2JTFVisuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**Is It Hot in Here, or Is It Just My Thermistor?**<br/>*Thermistors, Thermocouples, and other Temperature Sensors*<br/>[Video](https://youtu.be/TncEECvmw8Y), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/32-MeasuringTemperatureVisuals.qmd)
+**Is It Hot in Here, or Is It Just My Thermistor?**  
+*Thermistors, Thermocouples, and other Temperature Sensors*  
+[Video](https://youtu.be/TncEECvmw8Y), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/32-MeasuringTemperatureVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**What is a Mole? Just the Facts**<br/>*What a mole is*<br/>[Video](https://youtu.be/wbEkZmjNtwI), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/WhatIsAMoleJTFVisuals.qmd)
+**What is a Mole? Just the Facts**  
+*What a mole is*  
+[Video](https://youtu.be/wbEkZmjNtwI), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/WhatIsAMoleJTFVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**What the Frac?**<br/>*Mass, Moles, Mass Fractions, Mole Fractions*<br/>[Video](https://youtu.be/qJERzRm7xc0), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/MassMolesJTFVisuals.qmd)
+**What the Frac?**  
+*Mass, Moles, Mass Fractions, Mole Fractions*  
+[Video](https://youtu.be/qJERzRm7xc0), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/MassMolesJTFVisuals.qmd)

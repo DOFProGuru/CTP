@@ -65,13 +65,13 @@ can be less than zero. But
 ## Entropy Balance for Closed System
 
 :::{style="font-size: 40px;"}
-</br>
+<br/>
 :::
 <center> $\Delta S_{\text{system}} + \Delta S_{\text{surroundings}} = S_G \geq 0$ </center>
 
 :::{.fragment}
 :::{style="font-size: 40px;"}
-</br>
+<br/>
 :::
 Defining heat transferred *from* the surroundings *into* the system as
 positive, i.e., using the same convention for entropy as for heat with
@@ -79,25 +79,25 @@ regard to the system, then
 :::
 :::{.fragment}
 :::{style="font-size: 40px;"}
-</br>
+<br/>
 :::
 <center> $\Delta S_{\text{surroundings}} = - \sum\limits_j \dfrac{Q_j}{T_{\sigma j}}$ </center>
 :::
 :::{.fragment}
 :::{style="font-size: 40px;"}
-</br>
+<br/>
 :::
 <center> $\boxed{\Delta S_{\text{system}} - \sum\limits_j \dfrac{Q_j}{T_{\sigma j}} = S_G \geq 0}$ </center>
 :::
 :::{.fragment}
 :::{style="font-size: 40px;"}
-</br>
+<br/>
 :::
 $Q_j$ is heat transferred into system from reservoir $j$.
 :::
 :::{.fragment}
 :::{style="font-size: 40px;"}
-</br>
+<br/>
 :::
 $T_{\sigma j}$ is temperature of reservoir $j$.
 :::
@@ -109,14 +109,14 @@ Entropy Balance for Open Transient System
 :::
 
 :::{style="font-size: 40px;"}
-</br>
+<br/>
 :::
 :::{.fragment}
 <center> $\dfrac{d(m \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} + \dfrac{d S_{\text{surr}}}{dt} = \dot{S}_G \geq 0$ </center>
 :::
 
 :::{style="font-size: 80px;"}
-</br>
+<br/>
 :::
 
 :::{.fragment}
@@ -124,7 +124,7 @@ Entropy Balance for Open Transient System
 :::
 
 :::{style="font-size: 80px;"}
-</br>
+<br/>
 :::
 
 :::{.fragment}
@@ -134,7 +134,7 @@ regard to the system, then
 :::
 
 :::{style="font-size: 80px;"}
-</br>
+<br/>
 :::
 
 
@@ -149,20 +149,20 @@ Entropy Balance for Open Transient System (cont.)
 :::
 
 :::{style="font-size: 80px;"}
-</br>
+<br/>
 :::
 :::{.fragment}
 <center> $\boxed{\dfrac{d(m \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{m} \hat{S})_{\text{fs}} - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0}$ </center>
 :::
 :::{style="font-size: 80px;"}
-</br>
+<br/>
 :::
 
 :::{.fragment}
 <center>or&nbsp;&nbsp; $\boxed{\dfrac{d(n \hat{S})_\mathrm{cv}}{dt} + \Delta (\dot{n} \hat{S})_{\text{fs}}  - \sum\limits_j \dfrac{\dot{Q}_j}{T_{\sigma j}} = \dot{S}_G \geq 0}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</center>
 :::
 :::{style="font-size: 80px;"}
-</br>
+<br/>
 :::
 
 :::{.fragment}
@@ -170,7 +170,7 @@ $\dot{Q}_j$ is heat transferred into system from reservoir $j$.
 :::
 
 :::{style="font-size: 80px;"}
-</br>
+<br/>
 :::
 :::{.fragment}
 $T_{\sigma j}$ is temperature of reservoir $j$.
@@ -220,7 +220,7 @@ have available for calculating changes in entropy.
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}

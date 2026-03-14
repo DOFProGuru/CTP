@@ -1,29 +1,31 @@
 ---
-title: "*Sadi Carnot and the Power of Fire* (The Carnot Cycle) Reference Page"
+title: "The Carnot Cycle Reference Page<br/>*Sadi Carnot and the Power of Fire*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *Sadi Carnot and the Power of Fire*
+{{< include /LinkKey.qmd >}}
+# Intro to The Carnot Cycle
 
-Main title explanation
+The Carnot cycle is an idealized thermodynamic cycle that represents the **maximum possible efficiency** for a heat engine operating between two temperature reservoirs.
+
+Although no real engine can achieve Carnot efficiency, the Carnot cycle provides an important benchmark for evaluating the performance of real systems and understanding the implications of the Second Law of Thermodynamics.
 
 ## Sadi Carnot and the Power of Fire,<br/>the 1824 Edition Part 1
 
-Video 1 explanation
+This video introduces the Carnot cycle and explains how its efficiency depends only on the temperatures of the heat reservoirs.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EDJQAvBIAok?si=99jU5eGibnH6WU66" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EDJQAvBIAok?si=99jU5eGibnH6WU66" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](116-Visuals.qmd)
 
 ## Sadi Carnot and the Power of Fire,<br/>the 1824 Edition Part 2
 
-Video  explanation
+This video applies the Carnot cycle concept to systems described using steam tables.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qc9W1KKpouU?si=IBy068VJfqv28Oy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qc9W1KKpouU?si=IBy068VJfqv28Oy8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](116.5-Visuals.qmd)
 
 # Examples and Definitions
 
@@ -31,29 +33,53 @@ Video  explanation
 
 ## Definitions
 
-[Isothermal Process](https://en.wikipedia.org/wiki/Isothermal_process)
+[Isothermal Process](https://en.wikipedia.org/wiki/Isothermal_process)  
 : A constant-temperature process, $\Delta T = 0$.
 
-[Isentropic Process](https://en.wikipedia.org/wiki/Isentropic_process)
-: A constant-entropy process, $\Delta S = 0$. Clausius used the term to mean adiabatic and reversible and almost all thermodynamics texts use the word in the same sense.
+[Isentropic Process](https://en.wikipedia.org/wiki/Isentropic_process)  
+: A constant-entropy process, $\Delta S = 0$. Clausius originally used the term to mean adiabatic and reversible, and most thermodynamics texts use the word in this sense.
 
-[Heat Engine](https://en.wikipedia.org/wiki/Heat_engine)
-: A (usually cyclic) system that transforms thermal energy or heat into work.
+[Heat Engine](https://en.wikipedia.org/wiki/Heat_engine)  
+: A (usually cyclic) system that converts thermal energy (heat) into work.
 
-Heat-Engine or Thermal Efficiency, $\eta$
-: The *thermal efficiency* or *heat-engine efficiency* is the ratio of the work produced by a heat engine to the heat extracted from the high-temperature reservoir powering the heat engine. With absolute signs, the definition is $\eta \equiv |W|/|Q_\mathrm{hot}|$
+Heat-Engine or Thermal Efficiency, $\eta$  
+: The ratio of the work produced by a heat engine to the heat extracted from the high-temperature reservoir powering the engine.
 
-[Isothermal Heat Reservoir](https://en.wikipedia.org/wiki/Thermal_reservoir)
-: A reservoir that can accept or reject heat at a constant temperature. Any real reservoir has a finite capacity to accept or reject heat. An example would be a well-mixed container of liquid water and ice at atmospheric pressure. It will remain at $0\ ^\circ\mathrm{C}$ during heat addition until the ice is fully melted, and during heat rejection until the water is fully frozen.
+$$
+\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|}
+$$
 
-[Carnot Engine](https://en.wikipedia.org/wiki/Carnot_heat_engine)
-: A theoretical heat engine that operates at the maximum possible thermal efficiency of $\eta = 1 - (T_\mathrm{cold})/(T_\mathrm{hot})$, where the temperature of the reservoirs are expressed as absolute temperatures. The steps in a Carnot cycle are:<br/>1. An adiabatic temperature change from $T_\mathrm{cold}$ to $T_\mathrm{hot}$<br/>2. An isothermal heat addition of $Q_\mathrm{hot}$ at $T_\mathrm{hot}$<br/>3. An adiabatic temperature change from $T_\mathrm{hot}$ to $T_\mathrm{cold}$<br/>4. An isothermal heat removal of $Q_\mathrm{cold}$ at $T_\mathrm{cold}$
+[Isothermal Heat Reservoir](https://en.wikipedia.org/wiki/Thermal_reservoir)  
+: A reservoir that can accept or reject heat at essentially constant temperature.
 
-Carnot Efficiency
-: The thermal efficiency of a Carnot engine, given by $\eta = 1 - (T_\mathrm{cold})/(T_\mathrm{hot})$, where the temperature of the reservoirs are expressed as absolute temperatures.
+Any real reservoir has a finite capacity to accept or reject heat. For example, a well-mixed container of liquid water and ice at atmospheric pressure remains at $0\ ^\circ\mathrm{C}$ while the phase change occurs.
 
-[Quality](https://en.wikipedia.org/wiki/Vapor_quality), $x$
-: The mass or mole fraction of a water/steam mixture that is steam.
+[Carnot Engine](https://en.wikipedia.org/wiki/Carnot_heat_engine)  
+: A theoretical heat engine that operates with the maximum possible thermal efficiency:
+
+$$
+\eta = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}
+$$
+
+where the reservoir temperatures are expressed as absolute temperatures.
+
+A Carnot cycle consists of four reversible processes:
+
+1. **Adiabatic (isentropic) compression**, during which the temperature increases from $T_\mathrm{cold}$ to $T_\mathrm{hot}$
+2. **Isothermal expansion at $T_\mathrm{hot}$**, during which heat $Q_\mathrm{hot}$ is absorbed
+3. **Adiabatic (isentropic) expansion**, during which the temperature decreases from $T_\mathrm{hot}$ to $T_\mathrm{cold}$ 
+4. **Isothermal compression at $T_\mathrm{cold}$**, during which heat $Q_\mathrm{cold}$ is rejected
+
+
+Carnot Efficiency  
+: The maximum theoretical efficiency for a heat engine operating between two reservoirs:
+
+$$
+\eta = 1 - \frac{T_\mathrm{cold}}{T_\mathrm{hot}}
+$$
+
+[Quality](https://en.wikipedia.org/wiki/Vapor_quality), $x$  
+: The **mass fraction of vapor** in a saturated liquid–vapor mixture.
 
 # Other Links and Videos
 
@@ -61,18 +87,26 @@ Carnot Efficiency
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**Resistance is Futile. Entropy Always Wins**<br/>*Intro to 2^nd^ Law*<br/>[Video](https://youtu.be/yqVUz1WA7M4), [Info Page](../../balances/entropy/IntroTo2ndLawVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/113-Visuals.qmd)
+**Resistance is Futile. Entropy Always Wins**  
+*Intro to 2^nd^ Law*  
+[Video](https://youtu.be/yqVUz1WA7M4), [Info Page](../../balances/entropy/IntroTo2ndLawVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/113-Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**The ΔS-sentials of Calculating Entropy Changes**<br/>*Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam*<br/>[Video](https://youtu.be/z2e5Rq5r288), [Info Page](../../balances/entropy/CalculatingEntropyChangesVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/115-CalcEntropyVisuals.qmd)
+**The ΔS-sentials of Calculating Entropy Changes**  
+*Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam*  
+[Video](https://youtu.be/z2e5Rq5r288), [Info Page](../../balances/entropy/CalculatingEntropyChangesVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/115-CalcEntropyVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?**<br/>*The 2nd Law for Closed, Open Steady-State, and Open Transient Systems*<br/>[Video](https://youtu.be/QcZTezMtDRk), [Info Page](../../balances/entropy/EntropyBalanceEquationsVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/117-2ndLawSystemsVisuals.qmd)
+**How Much Entropy Can You Balance on the Head of a Pin (or in an Open Steady-State System)?**  
+*The 2nd Law for Closed, Open Steady-State, and Open Transient Systems*  
+[Video](https://youtu.be/QcZTezMtDRk), [Info Page](../../balances/entropy/EntropyBalanceEquationsVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/117-2ndLawSystemsVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans**<br/>*Turbines and Expanders, Isentropic and Isothermal Compressors*<br/>[Video](https://youtu.be/Pb7PS5oeCz0), [Info Page](../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/118-TurbCompEtcVisuals.qmd)
+**Entropy Made Me Do It: Turbines, Compressors, and Other Second-Law Shenanigans**  
+*Turbines and Expanders, Isentropic and Isothermal Compressors*  
+[Video](https://youtu.be/Pb7PS5oeCz0), [Info Page](../../balances/entropy/EntropyMadeMeDoItVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/118-TurbCompEtcVisuals.qmd)

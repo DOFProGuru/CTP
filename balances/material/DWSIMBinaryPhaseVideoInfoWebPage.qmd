@@ -4,18 +4,24 @@ author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *Using DWSIM to Create Binary Phase DiagramsTitle*
 
-Main title explanation
+{{< include /LinkKey.qmd >}}
+
+# Intro to *Using DWSIM to Create Binary Phase Diagrams*
+
+Binary phase diagrams are commonly used to visualize vapor–liquid equilibrium behavior and to understand how mixtures separate during processes such as distillation. While these diagrams can be constructed analytically for simple systems, simulation tools allow engineers to generate them quickly for more complex mixtures.
+
+This video demonstrates how to use **DWSIM**, an open-source process simulator, to generate binary phase diagrams and explore vapor–liquid equilibrium behavior.
+
+---
 
 ## Using DWSIM to Create Binary Phase Diagrams
 
-Video 1 explanation
+This video shows how binary phase diagrams can be generated using the **DWSIM process simulation software**, including how to specify components, choose thermodynamic models, and plot equilibrium data.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5NUchIg8q7E?si=VRyVOkM4ANTQn37s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5NUchIg8q7E?si=VRyVOkM4ANTQn37s" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+---
 
 # Examples and Definitions
 
@@ -23,8 +29,10 @@ Video 1 explanation
 
 ## Definitions
 
-DWSIM
-: An open-source [process flow simulation software](https://dwsim.org/) package
+DWSIM  
+: An open-source [process simulation software package](https://dwsim.org/) used to model chemical processes, perform thermodynamic calculations, and simulate unit operations such as reactors, distillation columns, and heat exchangers.
+
+---
 
 # Other Links and Videos
 
@@ -32,20 +40,26 @@ DWSIM
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2**<br/>*Distillation Examples: Binary Phase Diagram, Raoult's law*<br/>[Video](https://youtu.be/wc6gv7lNtI0), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/86-EquilibriumSeparationStages2Visuals.qmd)
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 2**  
+*Distillation Examples: Binary Phase Diagram, Raoult's law*  
+[Video](https://youtu.be/wc6gv7lNtI0), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/86-EquilibriumSeparationStages2Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3**<br/>*Liquid-Liquid Extraction Example*<br/>[Video](https://youtu.be/jcChVoELvFo), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/86.5-EquilibriumSeparationStages3Visuals.qmd)
+**The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3**  
+*Liquid-Liquid Extraction Example*  
+[Video](https://youtu.be/jcChVoELvFo), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/86.5-EquilibriumSeparationStages3Visuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](../../balances/energy/Intro1stLawVideoInfoWebPage.qmd), [Visuals](../../balances/energy/89-Intro1stLawVisuals.qmd)
+**Just Try to Break This Law! I Dare You!**  
+*Intro to 1st Law*  
+[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](../../balances/energy/Intro1stLawVideoInfoWebPage.qmd), [Visuals](../../balances/energy/89-Intro1stLawVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**Add Friction and Work to Bernoulli? Here’s What Really Happens!**<br/>*The Mechanical Energy Balance and the Moody Chart*<br/>[Video](https://youtu.be/Da48oZb9oNw), [Info Page](../../balances/energy/MechanicalEnergyBalanceVideoInfoWebPage.qmd), [Visuals](../../balances/energy/90-MechEngBalVisuals.qmd)
-
-
+**Add Friction and Work to Bernoulli? Here’s What Really Happens!**  
+*The Mechanical Energy Balance and the Moody Chart*  
+[Video](https://youtu.be/Da48oZb9oNw), [Info Page](../../balances/energy/MechanicalEnergyBalanceVideoInfoWebPage.qmd), [Visuals](../../balances/energy/90-MechEngBalVisuals.qmd)

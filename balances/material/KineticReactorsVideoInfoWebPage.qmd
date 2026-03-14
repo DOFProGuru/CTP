@@ -4,33 +4,46 @@ author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
+
+{{< include /LinkKey.qmd >}}
+
 # Intro to Kinetic Reactors
 
-Main title explanation
+In many chemical processes the rate at which reactions occur is just as important as the reaction itself. When reaction rates are known, engineers can design **kinetic reactors** that achieve a desired conversion or production rate.
+
+These videos introduce the basic reactor models used in reaction engineering and show how reaction kinetics are incorporated into material balances. The most common reactor types are **batch reactors**, **continuous stirred-tank reactors (CSTRs)**, and **plug flow reactors (PFRs)**.
+
+---
 
 ## How Did You Think I Would React?
 
-Video 1 explanation
+This video introduces the basic idea of **kinetic reactor balances** and shows how reaction rates appear in the mole balance equations for reacting systems.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_qxHszVZYGk?si=bArMc7GxKvM-ug4l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_qxHszVZYGk?si=bArMc7GxKvM-ug4l" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](46-KineticsIntroJTFVisuals.qmd)
+
+---
 
 ## Wishing Upon a CSTR
 
-Video  explanation
+This video introduces the three most common reactor models used in chemical engineering: **batch reactors**, **continuous stirred-tank reactors (CSTRs)**, and **plug flow reactors (PFRs)**. It explains the assumptions behind each reactor type and how they are represented mathematically.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6tnVFq7dSbE?si=2MBUW71WCRQVQ-xS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6tnVFq7dSbE?si=2MBUW71WCRQVQ-xS" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](47-BatchCSTRPFRIntroVisuals.qmd)
+
+---
 
 ## It’s Totally Tubular, Man!
 
-Video  explanation
+This video works through examples comparing reactor performance, particularly the behavior of **plug flow reactors** and how reactor design affects conversion.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OAzXx9Kq2nU?si=WIoyQN_CdEFKu7hh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OAzXx9Kq2nU?si=WIoyQN_CdEFKu7hh" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](47.5-ReactorExamplesVisuals.qmd)
+
+---
 
 # Examples and Definitions
 
@@ -38,22 +51,32 @@ Video  explanation
 
 - [CSTR and PFR Demo](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/CSTRPFRDemo.ods) – A spreadsheet with the results from the reactor design exercise in the videos
 
+---
+
 ## Definitions
 
-[Chemical Reactor](https://en.wikipedia.org/wiki/Chemical_reactor)
-: A vessel or system in which a chemical reaction takes place. Reactors are designed to provide the necessary conditions for the reaction to occur, such as temperature, pressure, and mixing. Common types of chemical reactors include batch reactors, continuous stirred-tank reactors (CSTRs), and plug flow reactors (PFRs).
+[Chemical Reactor](https://en.wikipedia.org/wiki/Chemical_reactor)  
+: A vessel or system in which chemical reactions occur. Reactors are designed to provide the conditions necessary for reactions to proceed, including appropriate temperature, pressure, mixing, and residence time.
 
-[Batch Reactor](https://en.wikipedia.org/wiki/Batch_reactor)
-: A type of chemical reactor in which the reactants are loaded into the reactor, the reaction takes place, and then the products are removed. Batch reactors are typically used for small-scale production or when the reaction requires precise control over time.
+[Batch Reactor](https://en.wikipedia.org/wiki/Batch_reactor)  
+: A reactor in which reactants are loaded into the vessel, the reaction proceeds over time, and the products are removed after the reaction is complete. No material enters or leaves the reactor during operation.
 
-[Continuous Stirred-Tank Reactor (CSTR)](https://en.wikipedia.org/wiki/Continuous_stirred-tank_reactor)
-: A type of chemical reactor in which the reactants are continuously fed into the reactor, and the products are continuously removed. The contents of the reactor are well mixed, resulting in uniform composition throughout the reactor. CSTRs are commonly used in large-scale industrial processes.
+[Continuous Stirred-Tank Reactor (CSTR)](https://en.wikipedia.org/wiki/Continuous_stirred-tank_reactor)  
+: A continuous reactor in which reactants flow into the reactor and products flow out continuously while the contents remain well mixed. Because of this mixing, the composition inside the reactor is uniform.
 
-[Plug Flow Reactor (PFR)](https://en.wikipedia.org/wiki/Plug_flow_reactor_model)
-: A type of chemical reactor in which the reactants flow through the reactor as a plug, with no mixing in the flow direction. The composition of the reactants changes along the length of the reactor, and the reaction occurs as the reactants move through the reactor. PFRs are often used in processes where a high conversion is desired, such as in the production of chemicals or in catalytic reactions.
+[Plug Flow Reactor (PFR)](https://en.wikipedia.org/wiki/Plug_flow_reactor_model)  
+: A continuous reactor in which reactants flow through the reactor with negligible mixing along the direction of flow. The composition changes continuously along the reactor length.
 
-[Space Time](https://en.wikipedia.org/wiki/Residence_time#Turnover_time)
-: The time required for a given volume of reactants to pass through a reactor. It is calculated as the volume of the reactor divided by the volumetric flow rate of the feed. Space time is an important parameter in reactor design and analysis, as it helps determine the residence time of the reactants in the reactor and the extent of the reaction.
+[Space Time](https://en.wikipedia.org/wiki/Residence_time#Turnover_time)  
+: The time required for a volume of feed equal to the reactor volume to enter the reactor. It is calculated as the reactor volume divided by the volumetric flow rate of the feed.
+
+$$
+\tau = \frac{V}{\dot V}
+$$
+
+Space time is closely related to **residence time**, which describes how long material remains in the reactor.
+
+---
 
 # Other Links and Videos
 
@@ -61,18 +84,26 @@ Video  explanation
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**Leaving Radiator Springs In the Dust**<br/>*Basics of bypass and a recycle example*<br/>[Video](https://youtu.be/tjzDu7_n-NI), [Info Page](../../balances/material/RecyclingBypassVideoInfoWebPage.qmd), [Visuals](../../balances/material/44-RecycleBypassPart2Visuals.qmd)
+**Leaving Radiator Springs In the Dust**  
+*Basics of bypass and a recycle example*  
+[Video](https://youtu.be/tjzDu7_n-NI), [Info Page](../../balances/material/RecyclingBypassVideoInfoWebPage.qmd), [Visuals](../../balances/material/44-RecycleBypassPart2Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**The Symbolic Meaning of Recycling**<br/>*Analytic solution of a recycle PFD*<br/>[Video](https://youtu.be/CF18jpqZzgc), [Info Page](../../balances/material/RecyclingBypassVideoInfoWebPage.qmd), [Visuals](../../balances/material/45-RecycleSymbSolVisuals.qmd)
+**The Symbolic Meaning of Recycling**  
+*Analytic solution of a recycle PFD*  
+[Video](https://youtu.be/CF18jpqZzgc), [Info Page](../../balances/material/RecyclingBypassVideoInfoWebPage.qmd), [Visuals](../../balances/material/45-RecycleSymbSolVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**React But Maintain Your Equilibrium Part 1**<br/>*Basics of equilibrium reactors*<br/>[Video](https://youtu.be/0GS8XEHRBMk), [Info Page](../../balances/material/EquilibriumReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/54-EquilReact1Visuals.qmd)
+**React But Maintain Your Equilibrium Part 1**  
+*Basics of equilibrium reactors*  
+[Video](https://youtu.be/0GS8XEHRBMk), [Info Page](../../balances/material/EquilibriumReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/54-EquilReact1Visuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**React But Maintain Your Equilibrium Part 2**<br/>*Equilibrium reactor example*<br/>[Video](https://youtu.be/GI8tuSRrIcc), [Info Page](../../balances/material/EquilibriumReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/55-EquilReact2Visuals.qmd)
+**React But Maintain Your Equilibrium Part 2**  
+*Equilibrium reactor example*  
+[Video](https://youtu.be/GI8tuSRrIcc), [Info Page](../../balances/material/EquilibriumReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/55-EquilReact2Visuals.qmd)

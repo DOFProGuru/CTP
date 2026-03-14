@@ -4,45 +4,67 @@ author: "DOFPro group"
 format: html
 ---
 
+{{< include /LinkKey.qmd >}}
+
 # Why Process Data and Process Variables
 
-Many engineers and chemical engineers in particular design, analyze, and create processes that transform inputs, such as chemical reagents, heat, and electricity, into outputs such a other chemical reagents. The design and analysis of processes requires a knowledge of the sorts of measurements or data that are made of the process, and the variables that are used to model the process. This section discusses many of the varibles, measurements, and data that are common to these processes, how they are defined, what they mean, and how they are used, presented, and analyzed. 
+Many engineers—chemical engineers in particular—design, analyze, and operate processes that transform inputs such as chemical reagents, heat, and electricity into outputs such as other chemical products.
+
+The design and analysis of processes requires knowledge of the types of measurements or data that are obtained from a process, and the variables used to model that process. This section discusses many of the variables, measurements, and data that are common in chemical and thermal processes, how they are defined, what they mean, and how they are used, presented, and analyzed.
 
 ## Conversions
 
-We begin with units, conversions, and dimensionless numbers. In spite of a desire to perform all calculations in SI unts, the practicing engineer needs to be comfortable working with both familiar and obscure units. This set of videos discusses many of the common techniques for working with diverse units. The topics in this section are:
+We begin with units, conversions, and dimensionless numbers. In spite of the desire to perform all calculations in SI units, practicing engineers must be comfortable working with both familiar and obscure units. This set of videos discusses several common techniques for working with diverse units.
+
+The topics in this section are:
 
 ### [Dimensional Equation Unit Conversions](DimensionalEquationsWebPage.qmd)
 
-**Is Furlongs Per Fortnight a Thing?**<br/>*Unit Conversion*<br/>[Video](https://youtu.be/5EbL9MEro9E), [Info Page](DimensionalEquationsWebPage.qmd), [Visuals](DimensionalEquationsJTFVisuals.qmd).
+**Is Furlongs Per Fortnight a Thing?**  
+*Unit Conversion*  
+[Video](https://youtu.be/5EbL9MEro9E), [Info Page](DimensionalEquationsWebPage.qmd), [Visuals](DimensionalEquationsJTFVisuals.qmd).
 
-Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all of your unit conversion issues, but they will solve many of them. Google Calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are multiplicatively related to each other.
+Dimensional equations are frequently used to convert data, measurements, and variables from one set of units to another. They will not solve all unit-conversion problems, but they will solve many of them. A web-search calculator is usually the easiest way to implement dimensional equations, but by no means the only way. Dimensional equations are used when units are related through multiplication and division.
 
 ### [Temperature Conversions](ConvertingTemperatureWebPage.qmd)
 
-**How Keen Is Your Rank? Just the Facts**<br/>*Temperature Conversion*<br/>[Video](https://youtu.be/XKwl41MvFcE), [Info Page](ConvertingTemperatureWebPage.qmd), [Visuals](ConvertingTemperatureJTFVisuals.qmd)
+**How Keen Is Your Rank? Just the Facts**  
+*Temperature Conversion*  
+[Video](https://youtu.be/XKwl41MvFcE), [Info Page](ConvertingTemperatureWebPage.qmd), [Visuals](ConvertingTemperatureJTFVisuals.qmd)
 
-**How Keen Is Your Rank?, The Full Story**<br/>*Temperature Conversion*<br/>[Video](https://youtu.be/hEtrCnIicqQ), [Info Page](ConvertingTemperatureWebPage.qmd), [Visuals](ConvertingTemperatureTFSVisuals.qmd)
+**How Keen Is Your Rank?, The Full Story**  
+*Temperature Conversion*  
+[Video](https://youtu.be/hEtrCnIicqQ), [Info Page](ConvertingTemperatureWebPage.qmd), [Visuals](ConvertingTemperatureTFSVisuals.qmd)
 
-Converting temperatures and temperature intervals among $\mathrm{K}$, $^\circ\mathrm{C}$, $^\circ\mathrm{F}$, and $^\circ\mathrm{R}$ applies the principles discussed in the previous two video sets. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.
+Converting temperatures and temperature intervals among $\mathrm{K}$, $^\circ\mathrm{C}$, $^\circ\mathrm{F}$, and $^\circ\mathrm{R}$ applies the principles discussed in the previous and next video set. Because temperature is such an important measurement, datum, or variable, these videos discuss precisely how to make these conversions.
 
-**Is It Hot in Here, or Is It Just My Thermistor?**<br/>*Thermistors, Thermocouples, and other Temperature Sensors*<br/>[Video](https://youtu.be/TncEECvmw8Y), [Info Page](ConvertingTemperatureWebPage.qmd), [Visuals](32-MeasuringTemperatureVisuals.qmd)
+**Is It Hot in Here, or Is It Just My Thermistor?**  
+*Thermistors, Thermocouples, and Other Temperature Sensors*  
+[Video](https://youtu.be/TncEECvmw8Y), [Info Page](ConvertingTemperatureWebPage.qmd), [Visuals](32-MeasuringTemperatureVisuals.qmd)
 
-The most commonly measured process variable is temperature. This set of videos discusses different temperature-measurement techniques. It is optional because at this level it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or has to specify how a temperature measurement is to be made.
+The most commonly measured process variable is temperature. This video discusses several temperature-measurement techniques. It is optional because, at this level, it is not necessary to know how to measure a temperature, but it is valuable for anyone who actually needs to measure a temperature or must specify how a temperature measurement should be made.
 
 ### [Converting Equations with Units](EquationConversionVideoInfoWebPage.qmd)
 
-**The Most Annoying Equation Conversion**<br/>*Unit Conversion of Equations*<br/>[Video](https://youtu.be/6dyg-CgAm8s), [Info Page](EquationConversionVideoInfoWebPage.qmd), [Visuals](EquationConversionJTFVisuals.qmd)
+**The Most Annoying Equation Conversion**  
+*Unit Conversion of Equations*  
+[Video](https://youtu.be/6dyg-CgAm8s), [Info Page](EquationConversionVideoInfoWebPage.qmd), [Visuals](EquationConversionJTFVisuals.qmd)
 
-When units have a more complex relationship than simply multiplicative, such as $^\circ\mathrm{C}$ and $^\circ\mathrm{F}$, the relationship is expressed in an equation with dimensions. In addition, there are at times equations, particularly empirical equations, where the varibles are in SI units, and you need an equivalent equation in American Engineering units. The procedure for deriving such equations with units is presented in this set of videos.
+When units have a more complex relationship than simple multiplication—such as $^\circ\mathrm{C}$ and $^\circ\mathrm{F}$—the relationship is expressed in an equation with dimensions. In addition, there are times when equations, particularly empirical equations, are expressed in SI units but need to be converted into American Engineering units. The procedure for deriving such equations with units is presented in this video.
 
 ### [Dimensionless Numbers or Groups](DimensionlessNumbersVideoInfoWebPage.qmd)
 
-**Where Does Sherwood Hide His Unit? Principles**<br/>*Dimensionless Numbers Principles*<br/>[Video](https://youtu.be/A348vNv5t9c), [Info Page](DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](DimNumPart1JTFVisuals.qmd)
+**Where Does Sherwood Hide His Unit? Principles**  
+*Dimensionless Numbers Principles*  
+[Video](https://youtu.be/A348vNv5t9c), [Info Page](DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](DimNumPart1JTFVisuals.qmd)
 
-**What the Schmidt? Examples**<br/>*Applications of Dimensionless Numbers*<br/>[Video](https://youtu.be/74SD0k_qBc8), [Info Page](DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](DimNumPart2JTFVisuals.qmd)
+**What the Schmidt? Examples**  
+*Applications of Dimensionless Numbers*  
+[Video](https://youtu.be/74SD0k_qBc8), [Info Page](DimensionlessNumbersVideoInfoWebPage.qmd), [Visuals](DimNumPart2JTFVisuals.qmd)
 
-In the early days of engineering there were huge data sets that needed to be regressed and correlations found. The [Buckingham pi theorem](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem) provided a way to reduce the dimensionality of these huge data sets and ease calculational complexity. In addition, normalizing ordinary and partial differential equations (which is basically making the variables dimensionless through choosing a scale) gives rise to dimensionless prarameters. The most well known of these is the Reynolds number, but there are scores of others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used.
+In the early days of engineering there were huge data sets that needed to be regressed and correlations developed. The [Buckingham pi theorem](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem) provided a way to reduce the dimensionality of these data sets and simplify calculations.
+
+In addition, normalizing ordinary and partial differential equations—essentially making the variables dimensionless by choosing a scale—gives rise to dimensionless parameters. The most well-known of these is the Reynolds number, but there are many others. This set of videos discusses dimensionless parameters and dimensionless numbers, where they come from, and how they are used.
 
 ## [Pressure](PressureWebPage.qmd)
 
@@ -79,4 +101,4 @@ When purchasing, ordering, selling, or processing raw materials and chemical rea
 
 **Are You Dense? Crank Up the Volume and Go With the Flow!, The Full Story**<br/>*Mass, Moles, Density, Volume, and Flow Rates*<br/>[Video](https://youtu.be/2-EWSUW4BJU), [Info Page](DensityVolumeFlowVideoInfoWebPage.qmd), [Visuals](VolumeDensityFlowRateTFSVisuals.qmd)
 
-In Chemical and Thermal Processes, the flows are often calculated and/or measured as mass flow rates, molar flow rates and/or volumetric flow rates. The video explains how the three flow rates are defined, and how to convert among them. The video is
+In Chemical and Thermal Processes, the flows are often calculated and/or measured as mass flow rates, molar flow rates and/or volumetric flow rates. The video explains how the three flow rates are defined, and how to convert among them.

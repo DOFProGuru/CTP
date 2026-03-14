@@ -8,7 +8,7 @@ format:
     incremental: true
     theme: [serif, ../../gradient.scss]
 ---
-# Under Pressure Part 1 </br> The Full Story {style="text-align: center;"}
+# Under Pressure Part 1 <br/> The Full Story {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -16,7 +16,7 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="26%" top="-50%"}
 
-# Under Pressure Part 1 </br> Just The Facts {style="text-align: center;"}
+# Under Pressure Part 1 <br/> Just The Facts {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -45,7 +45,7 @@ DOFPro Team
 # What Is Pressure?
 
 
-# Why would you want</br>to measure pressure?
+# Why would you want<br/>to measure pressure?
 
 
 ## Pressure
@@ -130,7 +130,7 @@ $P$
 :::
 
 
-# What is a manometer</br>and how does it work?
+# What is a manometer<br/>and how does it work?
 
 
 ## Manometer
@@ -162,7 +162,7 @@ $\Delta P= (\rho_\mathrm{B}-\rho_\mathrm{A})g h_1$
 :::
 
 
-# What does a</br>sphygmomanometer</br>measure?
+# What does a<br/>sphygmomanometer<br/>measure?
 
 
 ## Sphygmomanometer (Blood Pressure Meter)
@@ -264,7 +264,7 @@ $\implies \rho_\mathrm{piston} = 11,500\ \frac{\mathrm{kg}}{\mathrm{m^3}}=11.50\
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}
@@ -276,7 +276,7 @@ The DOFPro Team
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> *The Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> *The Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}

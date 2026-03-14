@@ -1,50 +1,51 @@
 ---
-title: "*How Deviant and Mean Are Your Data?* (Intro and Basics) Reference Page"
+title: "Intro and Basics Reference Page<br/>*How Deviant and Mean Are Your Data?*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
 
-# Intro to *How Deviant and Mean Are Your Data?*
+{{< include /LinkKey.qmd >}}
 
-Engineers must measure and evaluate lots of data. To evaluate data sets, there are basic statistical calculations that must be applied. The most common ones are evaluation of the mean, and determination of the confidence interval around the mean. This set of videos explains the fundamentals of making these calculations and demonstrates how to make them by hand, on a spreadsheet, with MATLAB, <!-- by using Python,--> and by using R.
+# Intro to Basic Statistics
+
+Engineers must collect, analyze, and interpret large amounts of data. To evaluate a data set, a number of basic statistical calculations are commonly used, including the determination of the mean, the standard deviation, and the confidence interval around the mean.
+
+This set of videos introduces the fundamentals of these calculations and demonstrates how to perform them by hand, on a spreadsheet, with MATLAB, <!-- by using Python,--> and with R.
 
 ## Part 1 Just the Facts
 
-Part 1 *Just the Facts* discusses both *population* or *true mean* and *standard deviation*, and *sample mean* and *standard deviation*, and explains how to calculate them. *Just the Facts (JTF)* videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think “efficient and to the point.” Each has a companion TFS video. 
+Part 1 of *Just the Facts* introduces the concepts of the **population (or true) mean** and **standard deviation**, as well as the **sample mean** and **sample standard deviation**, and explains how to calculate them.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ksg4Babav6o?si=c_j6N4J0XkGrrzPB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ksg4Babav6o?si=c_j6N4J0XkGrrzPB" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](5-JTF-WhyStatsJTF1Visuals.qmd)
 
 ## Part 1 The Full Story
 
-Part 1 *The Full Story*  examines common conceptions and misconceptions about mean and standard deviation, explains how to calculate both *true mean* and *sample mean* and *standard deviation*, and sets the stage for their use. *The Full Story (TFS)* videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.
+Part 1 of *The Full Story* examines common conceptions and misconceptions about the mean and standard deviation, explains how to calculate both population and sample statistics, and prepares the viewer for their later use in uncertainty analysis.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H82fqjDDQz8?si=FKvwDhNQMufpycMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H82fqjDDQz8?si=FKvwDhNQMufpycMt" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](5-TFS-WhyStatsTFS1Visuals.qmd)
 
 ## How Deviant and Mean Are Your Data? Part 2
 
-Part 2 video explains how to calculate *standard error*, *confidence intervals*, and *Student's* $t$, and explains their use.
+Part 2 explains how to calculate the **standard error**, **confidence interval**, and **Student’s** $t$, and how those quantities are used in practice.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cBOrE6eV-AE?si=azqNJTDo_y56SyE5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cBOrE6eV-AE?si=azqNJTDo_y56SyE5" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](5A-JTF-WhyStatsJTF2Visuals.qmd)
 
-## Basics Statistics by Hand
+## Basic Statistics by Hand
 
-*Basic Statistics by Hand* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by hand with just a calculator and a Student's $t$ table.
+*Basic Statistics by Hand* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by hand using only a calculator and a Student’s $t$-table.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HJz-HpglcMQ?si=C2Ms5F7P5pTBhFQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HJz-HpglcMQ?si=C2Ms5F7P5pTBhFQg" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](BasicStatsByHandJTFVisuals.qmd)
 
 ## Basic Statistics on a Spreadsheet
 
-*Basic Statistics on a Spreadsheet* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by first using the spreadsheet as just a calculator, and then by using the built-in statistical functions.
+*Basic Statistics on a Spreadsheet* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval first by using the spreadsheet as a calculator and then by using built-in statistical functions.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RZ1kFVLvSxY?si=K6IDS4SwCxKqNJ84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RZ1kFVLvSxY?si=K6IDS4SwCxKqNJ84" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](BasicStatsSpreadsheetJTFVisuals.qmd)
 
 <!-- ## Basic Statistics in Python
@@ -55,68 +56,110 @@ Video 8 explanation
 [Visuals](../../NotYetHere.qmd)
 -->
 
-## Basics Statistics with MATLAB
+## Basic Statistics with MATLAB
 
 ::: {.callout-important title="Not a DOFPro video"}
-This is ***NOT*** a DOFPro video. It may contain copyrighted material and have references to proprietary software.
+This is ***NOT*** a DOFPro video. It may contain copyrighted material and references to proprietary software.
 :::
 
-*Basic Statistics in MATLAB* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by using the command line, and by using a .m file.
+*Basic Statistics in MATLAB* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval using both the command line and an `.m` file.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j0BRAgadBxg?si=nicMcE4Owzg3tmL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j0BRAgadBxg?si=nicMcE4Owzg3tmL3" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 ## Basic Statistics in R
 
-*Basic Statistics in R* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval by using the command line, and by using a script.
+*Basic Statistics in R* demonstrates how to calculate the sample mean, sample standard deviation, standard error, and confidence interval using both the command line and a script.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/va7O78QdYLk?si=Y64Hi889j54ewerH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/va7O78QdYLk?si=Y64Hi889j54ewerH" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 # Examples and Definitions
 
-## Examples Links
+## Example Links
 
-- [Basic Statistical Example (Cereal Data)](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicStatCerealExample.R) – An R script for generating the animations in the Basic Stats video
-- [Student's *t*-Table](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/InverseTTable.ods) – A spreadsheet with the one-sided and two-sided *t*values
-- [Basic Statistics on a Spreadsheet Two Ways](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicSpreadsheetTwoWays.ods) – The spreadsheet from the Spreadsheet video.
-- [Command line input for Basic Statistics in R](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicStatisticsInR.txt)
-- [R Script for Basic Statistics Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicStat.R) – The R script from the R video.
+- [Basic Statistical Example (Cereal Data)](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicStatCerealExample.R) – An R script used to generate the animations in the basic statistics videos
+- [Student's *t*-Table](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/InverseTTable.ods) – A spreadsheet containing one-sided and two-sided $t$ values
+- [Basic Statistics on a Spreadsheet Two Ways](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicSpreadsheetTwoWays.ods) – The spreadsheet used in the spreadsheet video
+- [Command Line Input for Basic Statistics in R](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicStatisticsInR.txt)
+- [R Script for Basic Statistics Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/stats/BasicStat.R) – The R script used in the R video
 
 ## Definitions
 
 [True or Population Mean, $\mu$](https://en.wikipedia.org/wiki/Statistical_population#Mean)
-: The exact value of a quantity to be measured, or the arithmetic average value of the set of measurements of an entire population
+: The arithmetic mean of an entire population. In practice, it is usually unknown and must be estimated from sample data.
 
 [Sample Mean, $\bar{x}$](https://en.wikipedia.org/wiki/Sample_mean_and_covariance)
-: The arithmetic mean of a set of sample data, e.g., a set of measurements. $\bar{x}=\frac{\sum_{i=1}^Nx_i}{N}$
+: The arithmetic mean of a sample of $N$ measurements:
+
+$$
+\bar{x}=\frac{1}{N}\sum_{i=1}^{N} x_i
+$$
 
 [True Variance, $\sigma^2$](https://en.wikipedia.org/wiki/Variance#Population_variance)
-: A measure of the spread of a data set about the true mean. $\sigma^2=\frac{{\sum_{i=1}^N \varepsilon^2_i}}{N}$
+: A measure of the spread of an entire population about the population mean:
+
+$$
+\sigma^2=\frac{1}{N}\sum_{i=1}^{N}(x_i-\mu)^2
+$$
 
 [True or Population Standard Deviation, $\sigma$](https://en.wikipedia.org/wiki/Standard_deviation#Definition_of_population_values)
-: Another measure of the spread of a set of data about the true mean. $\sigma = \sqrt{\sigma^2}$
+: The square root of the population variance:
+
+$$
+\sigma = \sqrt{\sigma^2}
+$$
 
 [Sample Variance, $S^2$](https://en.wikipedia.org/wiki/Variance#Sample_variance)
-: A measure of the spread of a data set about the sample mean. $S^2=\frac{{\sum_{i=1}^N e^2_i}}{N-1}$
+: A measure of the spread of a sample about the sample mean:
+
+$$
+S^2=\frac{1}{N-1}\sum_{i=1}^{N}(x_i-\bar{x})^2
+$$
 
 [Sample Standard Deviation, $S$](https://en.wikipedia.org/wiki/Standard_deviation#Corrected_sample_standard_deviation)
-: Another measure of the spread of a set of data about the sample mean. $S = \sqrt{S^2}$
+: The square root of the sample variance:
+
+$$
+S = \sqrt{S^2}
+$$
 
 [Error, $\varepsilon_i$](https://en.wikipedia.org/wiki/Errors_and_residuals)
-: The difference between the true mean and a sample, $\varepsilon = \mu - x_i$.
+: The difference between an observed value and the true or population mean:
+
+$$
+\varepsilon_i = x_i - \mu
+$$
 
 [Residual, $e_i$](https://en.wikipedia.org/wiki/Errors_and_residuals)
-: The difference between the sample mean and a sample, $e = \bar{x} - x_i$.
+: The difference between an observed value and the sample mean:
 
-[Estimated Standard Error, $S_\bar{x}$](https://en.wikipedia.org/wiki/Standard_error#Estimate)
-: A measure of the spread of the possible sample means about the true mean. $S_\bar{x}=\frac{S}{\sqrt{N}}$
+$$
+e_i = x_i - \bar{x}
+$$
+
+[Estimated Standard Error, $S_{\bar{x}}$](https://en.wikipedia.org/wiki/Standard_error#Estimate)
+: An estimate of the standard deviation of the sample mean:
+
+$$
+S_{\bar{x}}=\frac{S}{\sqrt{N}}
+$$
 
 [Student's $t$](https://en.wikipedia.org/wiki/Student%27s_t-distribution)
-: A statistical distribution calculated for small numbers of samples. It approaches the normal distribution for large numbers of samples.
+: A probability distribution used when estimating confidence intervals from small samples, especially when the population standard deviation is unknown. As the sample size increases, the $t$-distribution approaches the normal distribution.
 
-[Confidence interval,  $\bar{x} \pm \lambda$](https://en.wikipedia.org/wiki/Normal_distribution#Confidence_intervals)
-: The interval about the sample mean with a given probability that the true mean lies within it. $\lambda = t S_\bar{x}$
+[Confidence Interval, $\bar{x} \pm \lambda$](https://en.wikipedia.org/wiki/Normal_distribution#Confidence_intervals)
+: An interval centered on the sample mean that is expected, with a specified probability, to contain the true mean.
+
+For the form used in these videos,
+
+$$
+\lambda = t S_{\bar{x}}
+$$
+
+so that the confidence interval is
+
+$$
+\bar{x} \pm t S_{\bar{x}}
+$$
 
 # Other Links and Videos
 
@@ -124,26 +167,20 @@ This is ***NOT*** a DOFPro video. It may contain copyrighted material and have r
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
 **How to Have a Quickie with Your Data Part 2**<br/>*Nonlinear least squares*<br/>[Video](https://youtu.be/dVmh0EdQT1U), [Info Page](../../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](../../basics/calculations/Video26Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
 **Solving Nonlinear Equations with Spreadsheets**<br/>*See Title*<br/>[Video](https://youtu.be/SaI2qdu1wSE), [Info Page](../../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](../../basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Linear Regression**<br/>*Derivation of the equations for linear regression*<br/>[Video](https://youtu.be/HsZhQyhg0tk), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Linear Regression Spreadsheet**<br/>*Performing linear regression with a spreadsheet*<br/>[Video](https://youtu.be/7LBI7Ea2sx0), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
-
-
-
-
-
-

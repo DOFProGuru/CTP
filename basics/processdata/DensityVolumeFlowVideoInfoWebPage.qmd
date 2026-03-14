@@ -4,65 +4,133 @@ author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
+{{< include /LinkKey.qmd >}}
 # Intro to *Are You Dense? Crank Up the Volume and Go With the Flow!*
 
-Main title explanation
+Density, volume, and flow rate are among the most frequently used quantities in chemical and thermal process engineering. Engineers use them to describe how much material is present, how much space it occupies, and how quickly it moves through a system.
+
+These ideas can be expressed on either a **mass basis** or a **mole basis**, and both are important in chemical engineering. This set of videos introduces the relationships among **mass density**, **specific volume**, **molar density**, **molar volume**, **mass flow rate**, **molar flow rate**, **volumetric flow rate**, and **fluid velocity**.
+
+The videos also connect these ideas to mixture composition through **mass fractions** and **mole fractions**, which are used constantly in material balances and process calculations.
 
 ## Just The Facts
 
-JTF explanation
+The *Just the Facts* video introduces the main definitions and equations for density, volume, and flow rate on both a mass basis and a mole basis.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AFZWZSJ96g8?si=W2FzFz7msSm1ApBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AFZWZSJ96g8?si=W2FzFz7msSm1ApBV" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](VolumeDensityFlowRateJTFVisuals.qmd)
 
 ## The Full Story
 
-TFS  explanation
+*The Full Story* video examines common conceptions and misconceptions about density, volume, and flow rate before developing the key definitions and relationships used in engineering calculations. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2-EWSUW4BJU?si=G3SZCCLaGoTAq0s8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2-EWSUW4BJU?si=G3SZCCLaGoTAq0s8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](VolumeDensityFlowRateTFSVisuals.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+Additional worked examples may be added in a future revision.
+
 ## Definitions
 
-Mass Density
-: Mass density is a measure of how much mass is contained in a given volume. It is typically expressed in units of mass per unit volume, such as kilograms per cubic meter (kg/m³) or grams per cubic centimeter (g/cm³). Mass density is an important property of materials and is used in various applications, including engineering, physics, and chemistry, to characterize substances and predict their behavior under different conditions.
+Mass Density  
+: Mass density is the mass of a substance per unit volume. It is commonly denoted by $\rho$:
 
-Specific Volume
-: Specific volume is the reciprocal of mass density and represents the volume occupied by a unit mass of a substance. It is typically expressed in units of volume per unit mass, such as cubic meters per kilogram (m³/kg) or cubic centimeters per gram (cm³/g). Specific volume is a useful property in thermodynamics and fluid mechanics, as it helps to describe the behavior of gases and liquids under varying conditions of temperature and pressure.
+$$
+\rho = \frac{m}{V}
+$$
 
-Molar Density
-: Molar density is a measure of the number of moles of a substance per unit volume. It is typically expressed in units of moles per cubic meter (mol/m³) or moles per liter (mol/L). Molar density is an important property in chemistry and chemical engineering, as it helps to describe the concentration of substances in a given volume and is used in various calculations, such as determining reaction rates and equilibrium constants.
+Typical units include $\mathrm{kg/m^3}$ and $\mathrm{g/cm^3}$.
 
-Molar Volume
-: Molar volume is the reciprocal of molar density and is the volume occupied by one mole of a substance at a given temperature and pressure. It is typically expressed in units of cubic meters per mole (m³/mol) or liters per mole (L/mol). Molar volume is a useful property in chemistry and chemical engineering, as it helps to describe the behavior of gases and liquids under varying conditions and is used in various calculations, such as determining the ideal gas law and calculating the volume of reactants and products in chemical reactions.
+Specific Volume  
+: Specific volume is the volume per unit mass and is the reciprocal of mass density:
 
-Mass Fraction
-: Mass fraction is a dimensionless quantity that represents the ratio of the mass of a particular component to the total mass of a mixture. It is typically expressed as a decimal or percentage and is used to describe the composition of mixtures in various fields, including chemistry, chemical engineering, and materials science. Mass fraction is calculated by dividing the mass of the component of interest by the total mass of the mixture.
+$$
+v = \frac{V}{m} = \frac{1}{\rho}
+$$
 
-Mole Fraction
-: Mole fraction is a dimensionless quantity that represents the ratio of the number of moles of a particular component to the total number of moles in a mixture. It is typically expressed as a decimal or percentage and is used to describe the composition of mixtures in various fields, including chemistry, chemical engineering, and materials science. Mole fraction is calculated by dividing the number of moles of the component of interest by the total number of moles in the mixture.
+Typical units include $\mathrm{m^3/kg}$.
 
-Mass Flow Rate
-: Mass flow rate is a measure of the mass of a substance that passes through a given surface per unit time. It is typically expressed in units of mass per unit time, such as kilograms per second (kg/s) or grams per minute (g/min). Mass flow rate is an important property in fluid mechanics and chemical engineering, as it helps to describe the flow of substances through pipes, channels, and other conduits, and is used in various calculations, such as determining the rate of chemical reactions and designing fluid transport systems.
+Molar Density  
+: Molar density is the number of moles per unit volume. It is either denoted by $\rho$ or by $C$ :
 
-Molar Flow Rate
-: Molar flow rate is a measure of the number of moles of a substance that passes through a given surface per unit time. It is typically expressed in units of moles per unit time, such as moles per second (mol/s) or moles per minute (mol/min). Molar flow rate is an important property in chemical engineering and chemistry, as it helps to describe the flow of substances through pipes, channels, and other conduits, and is used in various calculations, such as determining the rate of chemical reactions and designing fluid transport systems.
+$$
+\rho = C = \frac{n}{V}
+$$
 
-Volumetric Flow Rate
-: Volumetric flow rate is a measure of the volume of a substance that passes through a given surface per unit time. It is typically expressed in units of volume per unit time, such as cubic meters per second (m³/s) or liters per minute (L/min). Volumetric flow rate is an important property in fluid mechanics and chemical engineering, as it helps to describe the flow of substances through pipes, channels, and other conduits, and is used in various calculations, such as determining the rate of chemical reactions and designing fluid transport systems.
+Typical units include $\mathrm{mol/m^3}$ and $\mathrm{mol/L}$.
 
-Fluid Velocity
-: Fluid velocity is a measure of the speed and direction of a fluid flow. It is typically expressed in units of length per unit time, such as meters per second (m/s) or feet per minute (ft/min). Fluid velocity is an important property in fluid mechanics and chemical engineering, as it helps to describe the flow of substances through pipes, channels, and other conduits, and is used in various calculations, such as determining the rate of chemical reactions and designing fluid transport systems. Fluid velocity can be influenced by factors such as pressure gradients, fluid properties, and the geometry of the flow path.
+Molar Volume  
+: Molar volume is the volume occupied per mole and is the reciprocal of molar density:
 
-Cross-Sectional Area
-: Cross-sectional area is the area of a two-dimensional shape that is perpendicular to the flow direction of a fluid. It is typically expressed in units of area, such as square meters (m²) or square centimeters (cm²). Cross-sectional area is an important property in fluid mechanics and chemical engineering, as it helps to describe the flow of substances through pipes, channels, and other conduits, and is used in various calculations, such as determining the rate of chemical reactions and designing fluid transport systems. The cross-sectional area can be calculated based on the geometry of the flow path, such as the diameter of a circular pipe or the width and height of a rectangular channel.
+$$
+\hat{V} = \frac{V}{n} = \frac{1}{\Rightarrow}
+$$
+
+Typical units include $\mathrm{m^3/mol}$ and $\mathrm{L/mol}$.
+
+Mass Fraction  
+: Mass fraction is the ratio of the mass of one component to the total mass of the mixture:
+
+$$
+x_i = \frac{m_i}{\sum_j m_j}
+$$
+
+It is dimensionless.
+
+Mole Fraction  
+: Mole fraction is the ratio of the number of moles of one component to the total number of moles in the mixture:
+
+$$
+y_i = \frac{n_i}{\sum_j n_j}
+$$
+
+It is dimensionless.
+
+Mass Flow Rate  
+: Mass flow rate is the mass of material passing through a surface per unit time:
+
+$$
+\dot{m} = \frac{dm}{dt}
+$$
+
+Typical units include $\mathrm{kg/s}$ and $\mathrm{g/min}$.
+
+Molar Flow Rate  
+: Molar flow rate is the number of moles passing through a surface per unit time:
+
+$$
+\dot{n} = \frac{dn}{dt}
+$$
+
+Typical units include $\mathrm{mol/s}$ and $\mathrm{mol/min}$.
+
+Volumetric Flow Rate  
+: Volumetric flow rate is the volume of fluid passing through a surface per unit time:
+
+$$
+\dot{V} = \frac{dV}{dt}
+$$
+
+Typical units include $\mathrm{m^3/s}$ and $\mathrm{L/min}$.
+
+Fluid Velocity  
+: Fluid velocity is the speed and direction of fluid motion. In one-dimensional flow calculations, the average fluid speed is often related to volumetric flow rate by
+
+$$
+\dot{V} = u A
+$$
+
+where $A$ is the cross-sectional area and $u$ is the average velocity.
+
+Cross-Sectional Area  
+: Cross-sectional area is the area perpendicular to the direction of flow. It is used in relating fluid velocity to volumetric flow rate. For a circular pipe of diameter $D$,
+
+$$
+A = \frac{\pi D^2}{4}
+$$
 
 # Other Links and Videos
 
@@ -70,15 +138,15 @@ Cross-Sectional Area
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
 **What is a Mole? Just the Facts**<br/>*What a mole is*<br/>[Video](https://youtu.be/wbEkZmjNtwI), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/WhatIsAMoleJTFVisuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
 **What the Frac?**<br/>*Mass, Moles, Mass Fractions, Mole Fractions*<br/>[Video](https://youtu.be/qJERzRm7xc0), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/MassMolesJTFVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
 **How to Keep Your Balance**<br/>*System Definition and the General Balance Equation*<br/>[Video](https://youtu.be/-fjXc-Upxx4), [Info Page](../../balances/general/index.qmd), [Visuals](../../balances/general/KeepYourBalanceJTFVisuals.qmd)
 

@@ -1,41 +1,53 @@
 ---
-title: "*Where Does Sherwood Hide His Unit?* and *What the Schmidt?* (Dimensionless Numbers Principles and Examples) Reference Page"
+title: "Dimensionless Numbers Reference Page<br/>*Where Does Sherwood Hide His Unit?*<br/>*What the Schmidt?*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *Main Title*
+{{< include /LinkKey.qmd >}}
+# Intro to Dimensionless Numbers
 
-Dimensionless Numbers explanation
+Many important relationships in chemical and thermal engineering are expressed using **dimensionless numbers**. These quantities combine several physical variables into ratios that have **no units**, allowing engineers to compare systems that operate at very different physical scales.
+
+Dimensionless numbers are widely used in fluid mechanics, heat transfer, and mass transfer. They often arise naturally when equations are nondimensionalized or when experimental data are correlated. Well-known examples include the **Reynolds number**, **Prandtl number**, **Nusselt number**, **Sherwood number**, and **Schmidt number**.
+
+The two videos on this page introduce the concept of dimensionless numbers and then demonstrate how they are used in engineering analysis.
 
 ## Where Does Sherwood Hide His Unit? Principles
 
-Video 1 explanation
+This video introduces the idea of dimensionless numbers and explains why they are so useful in engineering analysis. It discusses how dimensionless parameters arise from dimensional analysis and shows how they allow engineers to compare physical systems with different sizes, fluids, or operating conditions.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A348vNv5t9c?si=ea8avmzq6pTLtmas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A348vNv5t9c?si=ea8avmzq6pTLtmas" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](DimNumPart1JTFVisuals.qmd)
 
 ## What the Schmidt? Examples
 
-Video  explanation
+This video provides examples of commonly used dimensionless numbers and shows how they are applied in engineering calculations. It explains the physical meaning of several important dimensionless parameters and demonstrates how they help simplify complex transport phenomena.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/74SD0k_qBc8?si=JSO94bTp2EA3DFIO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/74SD0k_qBc8?si=JSO94bTp2EA3DFIO" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](DimNumPart2JTFVisuals.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
+Additional worked examples will be added in a future revision.
+
 ## Definitions
 
-Dimensionless Numbers or Dimensionless Parameters
-: A dimensionless number is a quantity that has no physical units and is used to characterize the behavior of a system or process. These numbers are often ratios of physical quantities and are used to simplify complex phenomena by reducing the number of variables involved. Examples include the Reynolds number, Prandtl number, and Sherwood number, which are commonly used in fluid mechanics, heat transfer, and mass transfer, respectively.
+Dimensionless Number (Dimensionless Parameter)  
+: A quantity with no physical units formed by combining dimensional variables into ratios or products. Dimensionless numbers often characterize the relative importance of different physical effects in a system. Examples include the Reynolds number, Prandtl number, Nusselt number, Sherwood number, and Schmidt number.
 
-Dimensional Homogeneity
-: A principle in physics and engineering that states that all terms in a physical equation must have the same dimensions. This means that the units on both sides of an equation must be consistent, ensuring that the equation is physically meaningful. Dimensional homogeneity is a fundamental requirement for the validity of any physical equation and is often used as a check for the correctness of derived equations.
+Dimensional Homogeneity  
+: The requirement that every term in a physically meaningful equation must have the same dimensions. Dimensional homogeneity is often used as a check when deriving equations or performing algebraic manipulations.
+
+Dimensional Analysis  
+: A mathematical method that uses the dimensions of physical variables to derive relationships among them. Dimensional analysis is commonly used to identify important dimensionless groups that govern the behavior of physical systems.
+
+Similarity (Dynamic Similarity)  
+: A condition in which two systems behave in the same way because the relevant dimensionless parameters have the same values. Similarity is widely used when applying experimental results from laboratory-scale systems to full-scale engineering equipment.
 
 # Other Links and Videos
 
@@ -43,18 +55,26 @@ Dimensional Homogeneity
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**How Keen Is Your Rank? Just the Facts**<br/>*Temperature Conversion*<br/>[Video](https://youtu.be/XKwl41MvFcE), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/ConvertingTemperatureJTFVisuals.qmd)
+**How Keen Is Your Rank? Just the Facts**  
+*Temperature Conversion*  
+[Video](https://youtu.be/XKwl41MvFcE), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/ConvertingTemperatureJTFVisuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**The Most Annoying Equation Conversion**<br/>*Unit Conversion of Equations*<br/>[Video](https://youtu.be/6dyg-CgAm8s), [Info Page](../../basics/processdata/EquationConversionVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/EquationConversionJTFVisuals.qmd)
+**The Most Annoying Equation Conversion**  
+*Unit Conversion of Equations*  
+[Video](https://youtu.be/6dyg-CgAm8s), [Info Page](../../basics/processdata/EquationConversionVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/EquationConversionJTFVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Under Pressure Part 1, Just the Facts**<br/>*Pressure Basics*<br/>[Video](https://youtu.be/9gbOE5zEt4o), [Info Page](../../basics/processdata/PressureWebPage.qmd), [Visuals](../../basics/processdata/PressurePt1JTFVisuals.qmd)
+**Under Pressure Part 1, Just the Facts**  
+*Pressure Basics*  
+[Video](https://youtu.be/9gbOE5zEt4o), [Info Page](../../basics/processdata/PressureWebPage.qmd), [Visuals](../../basics/processdata/PressurePt1JTFVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**Under Pressure Part 2, Just the Facts**<br/>*Abs., Atm., Gauge, Barometric Pressure*<br/>[Video](https://youtu.be/CR3MomWlqb8), [Info Page](../../basics/processdata/PressureWebPage.qmd), [Visuals](../../basics/processdata/PressurePt2JTFVisuals.qmd)
+**Under Pressure Part 2, Just the Facts**  
+*Absolute, Atmospheric, Gauge, and Barometric Pressure*  
+[Video](https://youtu.be/CR3MomWlqb8), [Info Page](../../basics/processdata/PressureWebPage.qmd), [Visuals](../../basics/processdata/PressurePt2JTFVisuals.qmd)

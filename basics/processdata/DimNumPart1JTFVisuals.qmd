@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Where Does Sherwood</br>Hide His Unit?{.bigbold85}
+# Where Does Sherwood<br/>Hide His Unit?{.bigbold85}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -36,7 +36,7 @@ This video covers three concepts
 :::
 
 :::{.fragment .absolute top=45% left=10%}
-3 – Arguments of transcendental functions are</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dimensionless.
+3 – Arguments of transcendental functions are<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dimensionless.
 :::
 
 ## Dimensionless Numbers
@@ -146,7 +146,7 @@ If $A_0$ or $P_0$ are not explicitly given, they are implied, e.g.,<br/><br/>
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *What the Schmidt? Examples*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *What the Schmidt? Examples*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

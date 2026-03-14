@@ -8,7 +8,7 @@ format:
     incremental: true
     theme: [serif, ../../gradient.scss]
 ---
-# Under Pressure Part 1 </br> Just The Facts {style="text-align: center;"}
+# Under Pressure Part 1 <br/> Just The Facts {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -216,7 +216,7 @@ $\implies \rho_\mathrm{piston} = 11,500\ \frac{\mathrm{kg}}{\mathrm{m^3}}=11.50\
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=35%}

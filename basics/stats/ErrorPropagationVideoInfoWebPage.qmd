@@ -4,12 +4,14 @@ author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
+{{< include /LinkKey.qmd >}}
 # Intro to Error Propagation
 
-Main title explanation
+All experimental measurements contain uncertainty. When measured quantities are used in calculations, the uncertainties in the inputs affect the uncertainty of the final result. The process of determining how measurement uncertainties influence calculated results is known as **error propagation** or **uncertainty propagation**.
+
+Error propagation is widely used in engineering to estimate the reliability of calculated results and to determine which measurements contribute most strongly to uncertainty.
+
+The videos on this page introduce the principles of error propagation and demonstrate how uncertainties propagate through equations, derivatives, and integrals.
 
 <!-- ## How Do Errors Propagate?
 
@@ -22,13 +24,12 @@ Video 1 explanation
 ## Error Propagation
 
 ::: {.callout-important title="Not a DOFPro video"}
-This is ***NOT*** a DOFPro video. It may contain copyrighted material and have references to proprietary software.
+This is ***NOT*** a DOFPro video. It may contain copyrighted material and references to proprietary software.
 :::
 
-Video  explanation
+This video introduces the basic principles of error propagation and derives the commonly used formula for estimating how measurement uncertainties affect calculated quantities.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DiOs64kzSQw?si=UVrq73pdpsjS-lVp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DiOs64kzSQw?si=UVrq73pdpsjS-lVp" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 <!-- ## Error Propagation in Integrals and Derivatives Part 1
 
@@ -41,13 +42,12 @@ Video explanation
 ## Integrals and Derivatives Part 1
 
 ::: {.callout-important title="Not a DOFPro video"}
-This is ***NOT*** a DOFPro video. It may contain copyrighted material and have references to proprietary software.
+This is ***NOT*** a DOFPro video. It may contain copyrighted material and references to proprietary software.
 :::
 
-Video explanation
+This video explains how uncertainties propagate through **numerical derivatives and integrals**, which commonly appear in engineering calculations involving experimental data.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_0AcGK7asfM?si=X5OLQfj8W6cOlB_7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_0AcGK7asfM?si=X5OLQfj8W6cOlB_7" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 <!-- ## Error Propagation in Integrals and Derivatives Part 2
 
@@ -60,34 +60,53 @@ Video explanation
 ## Integrals and Derivatives Part 2
 
 ::: {.callout-important title="Not a DOFPro video"}
-This is ***NOT*** a DOFPro video. It may contain copyrighted material and have references to proprietary software.
+This is ***NOT*** a DOFPro video. It may contain copyrighted material and references to proprietary software.
 :::
 
-Video explanation
+This video continues the discussion of error propagation in numerical calculations and examines how uncertainty affects computed derivatives and integrals in practical engineering problems.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ej9O5ncO1iw?si=e1pgKjH3PAm4IXt6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ej9O5ncO1iw?si=e1pgKjH3PAm4IXt6" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 # Examples and Definitions
 
-## Examples Links
+## Example Links
+
+*(Examples may be added in a future revision.)*
 
 ## Definitions
 
-Error Propagation
-: Error propagation is the process of determining how the uncertainties in the input variables of a function affect the uncertainty in the output variable. In other words, it's a way to estimate how errors in measured quantities propagate through a calculation to affect the final result.
+Error Propagation  
+: The process of determining how uncertainties in measured quantities affect the uncertainty in a calculated result.
 
-Uncorrelated Errors
-: Uncorrelated errors are errors in different measurements that do not influence each other. In other words, the error in one measurement does not affect the error in another measurement. When errors are uncorrelated, the total uncertainty can be calculated using the square root of the sum of the squares of the individual uncertainties.
+For a function  
 
-Correlated Errors
-: Correlated errors are errors in different measurements that are related to each other. In this case, the error in one measurement can affect the error in another measurement. When errors are correlated, the total uncertainty must take into account the covariance between the measurements, which can lead to a more complex calculation of the total uncertainty.
+$$
+f(x_1,x_2,\dots,x_n)
+$$
 
-Numerical Error Propagation
-: Numerical error propagation refers to the process of calculating the propagation of errors through equations or functions using numerical methods, such as with a spreadsheet.
+with uncorrelated uncertainties $S_{x_i}$, the estimated uncertainty in $f$ can often be approximated by
 
-Analytical Error Propagation
-: Analytical error propagation refers to the process of calculating the propagation of errors through equations or functions using analytical methods, such as by using the formula for error propagation that involves partial derivatives.
+$$
+S_f =
+\sqrt{
+\left(\frac{\partial f}{\partial x_1}S_{x_1}\right)^2 +
+\left(\frac{\partial f}{\partial x_2}S_{x_2}\right)^2 +
+\dots +
+\left(\frac{\partial f}{\partial x_n}S_{x_n}\right)^2
+}
+$$
+
+Uncorrelated Errors  
+: Measurement uncertainties that are statistically independent of each other. When errors are uncorrelated, their contributions to total uncertainty combine as the square root of the sum of the squares of the individual contributions.
+
+Correlated Errors  
+: Measurement uncertainties that are related to one another. In this case the covariance between measurements must be included when calculating the propagated uncertainty.
+
+Numerical Error Propagation  
+: The process of estimating uncertainty in calculated quantities using numerical methods such as spreadsheets, simulation tools, or numerical evaluation of derivatives.
+
+Analytical Error Propagation  
+: The process of determining uncertainty using analytical formulas derived from calculus, typically involving partial derivatives of the function being evaluated.
 
 # Other Links and Videos
 
@@ -95,30 +114,28 @@ Analytical Error Propagation
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-[This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Linear Regression MATLAB**<br/>*Performing linear regression with MATLAB*<br/>[Video](https://youtu.be/TjqNTjCIuhE), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
+[This is NOT a DOFPro video.]{style="color: red;"}  
+**Linear Regression MATLAB**  
+*Performing linear regression with MATLAB*  
+[Video](https://youtu.be/TjqNTjCIuhE), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-***Linear Regression in R**<br/>*Linear Regression in R*<br/>[Video](https://youtu.be/Btshw2DX0Ik), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
+**Linear Regression in R**  
+*Linear Regression in R*  
+[Video](https://youtu.be/Btshw2DX0Ik), [Info Page](../../basics/stats/LinearRegressionVideoInfoWebPage.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-[This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](../../basics/stats/NonlinearRegressionVideoInfoWebPage.qmd)
+[This is NOT a DOFPro video.]{style="color: red;"}  
+**Nonlinear Regression**  
+*Derivation/explanation of nonlinear regression*  
+[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](../../basics/stats/NonlinearRegressionVideoInfoWebPage.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**Is Furlongs Per Fortnight a Thing?**<br/>*Unit Conversion*<br/>[Video](https://youtu.be/5EbL9MEro9E), [Info Page](../../basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](../../basics/processdata/DimensionalEquationsJTFVisuals.qmd)
-
-
-
-
-
-
-
-
-
-
+**Is Furlongs Per Fortnight a Thing?**  
+*Unit Conversion*  
+[Video](https://youtu.be/5EbL9MEro9E), [Info Page](../../basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](../../basics/processdata/DimensionalEquationsJTFVisuals.qmd)

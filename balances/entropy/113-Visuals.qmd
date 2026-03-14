@@ -24,8 +24,8 @@ DOFPro Team
 **The Second Law of Thermodynamics**
 :::
 
-- No apparatus can operate in such a way that its only effect (in system and surroundings) is to convert heat absorbed by a system completely into work.</br></br>
-- It is impossible by a cyclic process to convert the heat absorbed by a system completely into work.</br></br>
+- No apparatus can operate in such a way that its only effect (in system and surroundings) is to convert heat absorbed by a system completely into work.<br/><br/>
+- It is impossible by a cyclic process to convert the heat absorbed by a system completely into work.<br/><br/>
 - No process is possible which consists solely in the transfer of heat from one temperature level to a higher one.
 
 ## 
@@ -103,7 +103,7 @@ What is the relationship between $Q_\mathrm{hot}$ and $Q_\mathrm{cold}$?
 :::
 
 ::: {style="font-size: 20px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -112,7 +112,7 @@ Assume a cyclic process on a closed system with negligible kinetic and potential
 :::
 
 ::: {style="font-size: 20px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -254,7 +254,7 @@ Imagine an actual reversible cycle
 ![](GenericCycle.png){.absolute bottom=0% left=0% width=60%}
 :::
 ::: {.fragment}
-</br>Approximate the cycle with infinitesimal Carnot engines
+<br/>Approximate the cycle with infinitesimal Carnot engines
 :::
 ::: {.fragment}
 ![](GenericCycleWCarnot.png){.absolute bottom=0% left=0% width=60%}
@@ -305,19 +305,19 @@ or
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$dS = \dfrac{dQ_\mathrm{carnot}}{T}$
 :::
 ::: {.fragment}
-</br>If
+<br/>If
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$Q \neq Q_\mathrm{Carnot}$
 :::
 ::: {.fragment}
-</br>then
+<br/>then
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$dS = \dfrac{dQ}{T} + \dfrac{dW_\mathrm{lost}}{T}$
 :::
 
 ::: {style="font-size: 95px;"}
 ::: {.fragment}
-</br>Since $S$ is a state function, any path can be used to evaluate $\Delta S$.
+<br/>Since $S$ is a state function, any path can be used to evaluate $\Delta S$.
 :::
 :::
 
@@ -379,7 +379,7 @@ can be less than zero. But
 :::
 
 :::{.fragment}
-</br>What is $\Delta S$ for a cyclic process?
+<br/>What is $\Delta S$ for a cyclic process?
 :::
 
 ## Example
@@ -416,7 +416,7 @@ $|W| =\ ?$
 :::
 
 ::: {.column width="65%"}
-</br>
+<br/>
 
 ::: {.fragment}
 **1^st^ Law around engine**
@@ -425,7 +425,7 @@ $|W| =\ ?$
 Closed system
 :::
 ::: {style="font-size: 40px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -433,7 +433,7 @@ Closed system
 :::
 
 ::: {style="font-size: 40px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -441,7 +441,7 @@ Closed system
 :::
 
 ::: {style="font-size: 40px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -449,7 +449,7 @@ Closed system
 :::
 
 ::: {style="font-size: 40px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -492,14 +492,14 @@ $|W| =\ ?$
 :::
 
 ::: {.column width="65%"}
-</br>
+<br/>
 
 ::: {.fragment}
 **2^nd^ Law**
 :::
 
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -507,7 +507,7 @@ $|W| =\ ?$
 :::
 
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -515,7 +515,7 @@ $|W| =\ ?$
 :::
 
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -523,7 +523,7 @@ $|W| =\ ?$
 :::
 
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -531,7 +531,7 @@ $|W| =\ ?$
 :::
 
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -541,7 +541,7 @@ $|W| =\ ?$
 :::
 
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -586,22 +586,22 @@ $|W| =\ ?$
 ::: {.column width="68%"}
 
 ::: {.fragment}
-</br>**2^nd^ Law**
+<br/>**2^nd^ Law**
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 ::: {.fragment}
 &nbsp;&nbsp;$\Delta S_\mathrm{surr.} = \Delta S_\mathrm{500\ K\ res.} + \Delta S_\mathrm{300\ K\ res.}$
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 ::: {.fragment}
 &nbsp;&nbsp;$\Delta S_\mathrm{500\ K\ res.} = \frac{-1000\ \mathrm{J/s}}{500\ \mathrm{K}} = -2 \frac{\mathrm{W}}{\mathrm{K}}$
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 ::: {.fragment}
 &nbsp;&nbsp;$\Delta S_\mathrm{300\ K\ res.} = 0 - \Delta S_\mathrm{500\ K\ res.}$
@@ -609,25 +609,25 @@ $|W| =\ ?$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$= 2 \frac{\mathrm{W}}{\mathrm{K}} = \frac{|Q_\mathrm{cold}|}{300\ \mathrm{K}}$
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 ::: {.fragment}
 &nbsp;&nbsp;$|Q_\mathrm{cold}| = 2 \frac{\mathrm{W}}{\mathrm{K}} \cdot 300\ \mathrm{K} = 600\ \mathrm{W}$
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 ::: {.fragment}
 &nbsp;&nbsp;$Q_\mathrm{net} = 1\ \mathrm{kW} - 600\ \mathrm{W} = 400\ \mathrm{W}$
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 ::: {.fragment}
 &nbsp;&nbsp;$0 = 400\ \mathrm{W} + W$
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 ::: {.fragment}
 &nbsp;&nbsp;$W = -400\ \mathrm{W}$
@@ -671,10 +671,10 @@ $|W| =\ ?$
 ::: {.column width="65%"}
 
 ::: {.fragment}
-</br>Using Carnot efficiency
+<br/>Using Carnot efficiency
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -683,7 +683,7 @@ $|W| =\ ?$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$= 1 - \frac{300}{500} = 0.400$
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 ::: {.fragment}
 &nbsp;&nbsp;$|W| = \eta |Q_\mathrm{hot}|$
@@ -691,16 +691,16 @@ $|W| =\ ?$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$= 0.400 \cdot 1\ \mathrm{kW} = 400\ \mathrm{W}$
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 ::: {.fragment}
 &nbsp;&nbsp;$W = -400\ \mathrm{W}$
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 ::: {style="font-size: 30px;"}
-</br>
+<br/>
 :::
 ::: {.fragment}
 &nbsp;&nbsp;$|Q_\mathrm{cold}| = 1000\ \mathrm{W} - 400\ \mathrm{W} = 600\ \mathrm{W}$
@@ -719,7 +719,7 @@ $|W| =\ ?$
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}

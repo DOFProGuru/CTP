@@ -2,136 +2,141 @@
 title: "The General Balance Equation"
 author: "DOFPro group"
 ---
+{{< include /LinkKey.qmd >}}
 
 # Intro to *The General Balance Equation*
 
-The General Balance Equation is the basis for all material, energy, entropy, and exergy balances. The mass and mole balance equations are restatements of the general balance equation applied to mass and moles respectively. Mass is conserved, moles in systems with chemical reactions are not. The general balance equation applied to energy is the 1^st^ Law of Thermodynamics. Applied to entropy, it is the 2^nd Law of Thermodynamics. Like mass and moles, energy is conserved while entropy is not. The General Balance Equation is applied to systems, and the form depends on whether the system is is open or closed, and steady-state or transient. The videos explain systems and the attendant definitions.
+The **General Balance Equation** is the foundation for all material, energy, entropy, and exergy balances. The mass and mole balance equations are simply restatements of the general balance equation applied to **mass** and **moles**, respectively. Mass is conserved; moles are not conserved when chemical reactions occur.
+
+When applied to energy, the general balance equation becomes the **First Law of Thermodynamics**. When applied to entropy, it becomes the **Second Law of Thermodynamics**. Like mass, energy is conserved; entropy is not.
+
+The General Balance Equation is applied to **systems**, and the specific form of the equation depends on whether the system is **open or closed**, and whether it is **steady-state or transient**. The videos introduce systems and the definitions needed to apply balances correctly.
 
 ## How to Keep Your Balance
 
-*How to Keep Your Balance* begins by using bathtub analogies to explain system definitions: open or closed, and steady-state or transient. It then introduces the General Balance Equation and defines each of the terms.
+*How to Keep Your Balance* begins with bathtub analogies to explain system definitions: open or closed, and steady-state or transient. It then introduces the General Balance Equation and defines each of its terms.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-fjXc-Upxx4?si=XmAMd9UTPypNhQEd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-fjXc-Upxx4?si=XmAMd9UTPypNhQEd" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](KeepYourBalanceJTFVisuals.qmd)
 
 ## Speed Balancing
 
-*Speed Balancing* continues with definitions for system terms such as PFD, recycle, bypass, purge, tie component, and overall balances. It then gives hints and suggestions for how to quickly and correctly solve your balance equations for your systems. It has a worked bathtub example.
+*Speed Balancing* continues with definitions for system terms such as **PFD**, **recycle**, **bypass**, **purge**, **tie component**, and **overall balances**. It then provides hints and suggestions for solving balance equations quickly and correctly, including a worked bathtub example.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pmp2IxgL9FM?si=JHoFbh4pVoRUparS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pmp2IxgL9FM?si=JHoFbh4pVoRUparS" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](SpeedBalancingJTFVisuals.qmd)
 
 # Examples and Definitions
 
 > “Engineering is solving story problems where you often have to make up the story.”
-
+>
 > “Bookkeeping is just arithmetic and definitions, but it needs to be done correctly.”
-
-> “There are many ways to solve a problem correctly. You want to develop a systematic approach, and not treat each problem as an isolated issue.”
+>
+> “There are many ways to solve a problem correctly. You want to develop a systematic approach and not treat each problem as an isolated issue.”
 
 ## First – Define Your System
 
-1.  Transient — The values of process variables are changing with time.
+1. **Transient** — Process variables change with time.
 
-2.  SteadyState —The values of process variables do not change with time but may change with position. (What EE’s call a DC steady state)
+2. **Steady-State** — Process variables do not change with time, although they may vary with position.  
+   (What electrical engineers would call a DC steady state.)
 
-3.  Batch (closed) — Throw stuff in. Wait. Pull products out.
+3. **Batch (closed)** — Add material, allow the process to occur, then remove the products.
 
-4.  Semibatch — Neither batch nor continuous.
+4. **Semibatch** — Neither purely batch nor purely continuous.
 
-5.  Continuous (open) — Continually throw stuff in and pull stuff out.
+5. **Continuous (open)** — Material continuously enters and leaves the system.
 
 ## Control Volume
 
-Sometimes for an open system, whether transient or steady state, the system boundary has a fixed volume and the different parts of the system maintain their relative positions. This fixed-volume boundary is known as a *control volume*. Inputs Outputs Control Volume (C.V.)
+For an open system, whether transient or steady state, the system boundary sometimes encloses a **fixed region in space**. This fixed boundary is called a **control volume (CV)**.
+
+Material and energy may cross the control surface, but the boundary itself does not move.
 
 ## The General Balance Equation
 
-$$ \mathrm{Input + Generation = Output + Consumption + Accumulation} $$
+$$
+\mathrm{Input + Generation = Output + Consumption + Accumulation}
+$$
 
--   All entities which can enter or exit a system are subject to the general balance equation.
-
--   For conserved quantities (energy, mass, atoms) the consumption and generation terms are zero
-
--   For steady-state systems the accumulation is zero.
+- Any quantity that can enter or leave a system can be described with the general balance equation.
+- For **conserved quantities** (mass, energy, atoms), the **generation** and **consumption** terms are zero.
+- For **steady-state systems**, the **accumulation** term is zero.
 
 ## Differential and Integral Balances
 
--   *Differential* Balances
+**Differential Balances**
 
-    -   All terms in the balance are rate terms e.g., mol/s, gal/hr, pg/yr.
+- All terms are **rates** (e.g., mol/s, kg/hr, gal/min).
+- Usually used for **continuous processes**.
 
-    -   Usually used for continuous processes.
+**Integral Balances**
 
--   *Integral* Balances
-
-    -   All terms in the balance are amounts e.g., mol, gal, pg.
-
-    -   Usually used for batch processes.
+- All terms are **amounts** (e.g., mol, kg, gal).
+- Usually used for **batch processes**.
 
 ## Intensive and Extensive Properties
 
-A property of a substance that *does not* depend on the mass or moles of a substance is an *intensive* property (such as temperature, pressure, density, or composition).
+An **intensive property** does *not* depend on the amount of material present.  
+Examples include temperature, pressure, density, and composition.
 
-A property of a substance that *does* depend on the mass or moles of a substance is an *extensive* property (such as volume or weight).
+An **extensive property** *does* depend on the amount of material present.  
+Examples include mass, volume, and total energy.
 
-It is quite frequently useful to define an intensive property that is related to the extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume. $\hat{V} = V/m$
+It is often useful to convert an extensive property into an intensive one by dividing by mass or moles. These are called **specific** or **molar** properties.
+
+For example,
+
+$$
+\hat{V} = \frac{V}{n}
+$$
+
+is the **molar volume**.
 
 ## Definitions
 
-[PFD](https://en.wikipedia.org/wiki/Process_flow_diagram) Process Flow Diagram or flowsheet.
-:    A schematic drawing of the mixers, dividers, separators and reactors used in the process.
+[PFD](https://en.wikipedia.org/wiki/Process_flow_diagram) (Process Flow Diagram)  
+: A schematic drawing of the mixers, dividers, separators, reactors, and other unit operations used in a process.
 
-Recycle
-:   Part of a product stream is returned to the feed of a process.
+Recycle  
+: A portion of a product stream returned to the feed of a process.
 
-Bypass
-:   Part of the feed is routed around a process and mixed with the product.
+Bypass  
+: A portion of the feed routed around part of the process and later recombined with the product.
 
-Purge
-:   A stream used to prevent buildup of trace components in a recycle loop.
+Purge  
+: A stream removed from a recycle loop to prevent buildup of trace or inert components.
 
-Tie Component
-:   A component of the feed which is unchanged by a process. Often useful for calculations but never necessary.
+Tie Component  
+: A component of the feed that is unchanged by the process. It is often useful for simplifying calculations but is never strictly necessary.
 
-Overall Balance
-:   Treating a PFD as a black box with only inputs and outputs.
+Overall Balance  
+: Treating an entire process or flowsheet as a single “black box” with only overall inputs and outputs.
 
 ## One Useful Technique
 
-1\. Draw a flowchart and fill in all given variable values.
-
-2\. Choose a basis of calculation (usually an amount or flow rate of one of the process streams).
-
-3\. Label unknown stream variables on the chart. Use a consistent system of labeling.
-
-4\. Convert stream volumes or volumetric flow rates to mass or molar flow rates.
-
-5\. Convert mixed mass and mole units to either all mass or all mole units.
-
-6\. Write material balance equations.
-
-7\. Write other problem constraints as equations.
-
-8\. Do a Degree-of-Freedom analysis. Count the number of unknowns and the number of independent equations. Are they equal? What did you forget?
-
-9\. Solve the equations.
-
-10\. Convert the answers to the desired units.
+1. Draw a flowchart and fill in all given variable values.
+2. Choose a **basis of calculation** (usually a flow rate or amount of one stream).
+3. Label unknown stream variables clearly.
+4. Convert **volumetric quantities** to **mass or molar quantities**.
+5. Convert mixed mass and mole units to either **all mass** or **all mole** units.
+6. Write the material balance equations.
+7. Write any additional constraints as equations.
+8. Perform a **degree-of-freedom analysis**.  
+   Count unknowns and independent equations.
+9. Solve the equations.
+10. Convert answers to the requested units.
 
 ## Speed Tips
 
-1\. Don’t solve for everything.
-
-2\. Write equations in order of number of unknowns from fewest to most.
-
-3\. Try overall balances first.
-
-4\. Check out tie components.
-
-5\. Remember mole fractions or mass fractions add up to 1.
-
-6\. Usually, solving a recycle loop requires a complete set of equations around the loop.
+1. Don’t solve for everything.
+2. Write equations in order of **fewest unknowns first**.
+3. Try **overall balances** first.
+4. Look for **tie components**.
+5. Remember that **mass fractions and mole fractions sum to 1**.
+6. Recycle loops usually require a **complete set of equations around the loop**.
 
 # Other Links and Videos
 
@@ -139,18 +144,26 @@ Overall Balance
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**What the Frac?**<br/>*Mass, Moles, Mass Fractions, Mole Fractions*<br/>[Video](https://youtu.be/qJERzRm7xc0), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/MassMolesJTFVisuals.qmd)
+**What the Frac?**  
+*Mass, Moles, Mass Fractions, Mole Fractions*  
+[Video](https://youtu.be/qJERzRm7xc0), [Info Page](../../basics/processdata/WhatIsAMoleWebPage.qmd), [Visuals](../../basics/processdata/MassMolesJTFVisuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**Are You Dense? Crank Up the Volume and Go With the Flow! Just the Facts**<br/>*Mass, Moles, Density, Volume, and Flow Rates*<br/>[Video](https://youtu.be/AFZWZSJ96g8), [Info Page](../../basics/processdata/DensityVolumeFlowVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/VolumeDensityFlowRateJTFVisuals.qmd)
+**Are You Dense? Crank Up the Volume and Go With the Flow! Just the Facts**  
+*Mass, Moles, Density, Volume, and Flow Rates*  
+[Video](https://youtu.be/AFZWZSJ96g8), [Info Page](../../basics/processdata/DensityVolumeFlowVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/VolumeDensityFlowRateJTFVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Gotta Keep ‘Em Separated**<br/>*Mixer, Divider, and Separator mole balances*<br/>[Video](https://youtu.be/pRg1m0_9Psg), [Info Page](../../balances/material/MixDivideSeparateVideoInfoWebPage.qmd), [Visuals](../../balances/material/40-UnitOpsMixDivSepVisuals.qmd)
+**Gotta Keep ‘Em Separated**  
+*Mixer, Divider, and Separator mole balances*  
+[Video](https://youtu.be/pRg1m0_9Psg), [Info Page](../../balances/material/MixDivideSeparateVideoInfoWebPage.qmd), [Visuals](../../balances/material/40-UnitOpsMixDivSepVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**When You Saw It, What Was the Extent of Your Reaction? Part 1**<br/>*Chemical Reactor Single Reaction, $\xi$ and $f_{\mathrm{A}}$*<br/>[Video](https://youtu.be/HKYYp5UxwpA), [Info Page](../../balances/material/FractionalConversionReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/41-UnitOpsReactPart1Visuals.qmd)
+**When You Saw It, What Was the Extent of Your Reaction? Part 1**  
+*Chemical Reactor Single Reaction, $\xi$ and $f_{\mathrm{A}}$*  
+[Video](https://youtu.be/HKYYp5UxwpA), [Info Page](../../balances/material/FractionalConversionReactorsVideoInfoWebPage.qmd), [Visuals](../../balances/material/41-UnitOpsReactPart1Visuals.qmd)

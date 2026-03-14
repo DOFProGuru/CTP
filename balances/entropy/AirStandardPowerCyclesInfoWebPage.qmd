@@ -1,29 +1,31 @@
 ---
-title: "*Cycle Wars* (Air-Standard Power Cycles) Reference Page"
+title: "Air-Standard Power Cycles Reference Page<br/>*Cycle Wars*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *Cycle Wars*
+{{< include /LinkKey.qmd >}}
+# Intro to Air-Standard Power Cycles
 
-Main title explanation
+Air-standard power cycles are simplified thermodynamic models used to analyze many common heat engines.  
+In these models the working fluid is assumed to be **air behaving as an ideal gas with constant heat capacity**.  
+Although real engines use combustion gases and complex chemistry, the air-standard assumption allows the fundamental thermodynamic behavior of power cycles to be analyzed clearly.
 
-## Cycle Wars: The Power Awakens 
+## Cycle Wars: The Power Awakens
 
-Video 1 explanation
+This video analyzes the air-standard Carnot cycle, and derives the thermal efficiency in terms of temperature, compression ratio, and pressure ratio.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M_p3gb79isg?si=Fo4ku8jxNV6qlGfh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M_p3gb79isg?si=Fo4ku8jxNV6qlGfh" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
-## Cycle Wars: The Rise of Otto Cycles 
+[Visuals](122-AirStandardCyclesPart1Visuals.qmd)
 
-Video  explanation
+## Cycle Wars: The Rise of Otto Cycles
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jJaDQM8qjgU?si=nZM3kaRIe-AqeUnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+Tis video derives the thermal efficiency in terms of temperature, compression ratio, and/or pressure ratio for the Otto cycle, the Diesel cycle, the Brayton cycle, the Turbojet cycle, the Ericsson cycle, and the Stirling cycle.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jJaDQM8qjgU?si=nZM3kaRIe-AqeUnQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](123-AirStandardCyclesPart2Visuals.qmd)
 
 # Examples and Definitions
 
@@ -31,41 +33,105 @@ Video  explanation
 
 ## Definitions
 
-Air-Standard Cycle
-: A cycle or a model of a cycle that uses air as the working fluid. For simplicity in modeling, air is assumed to be a diatomic gas with a constant heat capacity of $C_p = 7/2 R$.
+Air-Standard Cycle  
+: A simplified thermodynamic model of a power cycle in which the working fluid is assumed to be air behaving as an ideal diatomic gas with constant heat capacity, typically approximated as  
+$C_p = \frac{7}{2}R$.
 
-Air-Standard [Carnot Cycle](https://en.wikipedia.org/wiki/Carnot_cycle)
-: A model of a Carnot cycle that uses air ($C_p = 7/2 R$) as the working fluid. The steps in the cycle are: isentropic compression, isothermal expansion, isentropic expansion, and isothermal compression.
+Air-Standard [Carnot Cycle](https://en.wikipedia.org/wiki/Carnot_cycle)  
+: A model of a Carnot heat engine using air as the working fluid. The steps in the cycle are:
 
-Air-Standard [Otto Cycle](https://en.wikipedia.org/wiki/Otto_cycle)
-: An air-standard cycle or a model of a cycle consisting of an isentropic compression, an isochoric heat addition, an isentropic expansion, and an isochoric heat removal. The automobile internal-combustion engine is modeled as an Otto cycle.
+1. Isentropic compression
+2. Isothermal expansion (heat addition)  
+3. Isentropic expansion  
+4. Isothermal compression (heat removal)  
 
-Air-Standard [Diesel Cycle](https://en.wikipedia.org/wiki/Diesel_cycle)
-: An air-standard cycle or a model of a cycle consisting of an isentropic compression, an isobaric heat addition, an isentropic expansion, and an isochoric heat removal. The Diesel internal-combustion engine is modeled as a Diesel cycle.
 
-Air-Standard [Brayton Cycle](https://en.wikipedia.org/wiki/Brayton_cycle)
-: An air-standard cycle or a model of a cycle consisting of an isentropic compression, an isobaric heat addition, an isentropic expansion, and an isobaric heat removal. The gas-turbine internal-combustion engine is modeled as a Brayton cycle.
+Air-Standard [Otto Cycle](https://en.wikipedia.org/wiki/Otto_cycle)  
+: An air-standard cycle consisting of:
 
-Air-Standard [Turbojet](https://en.wikipedia.org/wiki/Turbojet) Cycle
-: An air-standard cycle or a model of a cycle consisting of an isentropic compression, an isobaric heat addition, an isentropic expansion, an isentropic expansion through a nozzle, and an isobaric heat removal. The internal-combustion turbojet engine is modeled as a turbojet cycle.
+1. Isentropic compression  
+2. Isochoric heat addition  
+3. Isentropic expansion  
+4. Isochoric heat removal  
 
-Air-Standard [Ericsson Cycle](https://en.wikipedia.org/wiki/Ericsson_cycle)
-: An air-standard cycle or a model of a cycle consisting of an isothermal compression, an isobaric heat addition, an isothermal expansion, and an isobaric heat removal. The Ericsson cycle is usually implemented as an external-combustion engine to facilitate the heat exchanger or regenerator.
+Automobile spark-ignition engines are commonly modeled using the Otto cycle.
 
-Air-Standard [Stirling Cycle](https://en.wikipedia.org/wiki/Stirling_cycle)
-: An air-standard cycle or a model of a cycle consisting of an isothermal compression, an isochoric heat addition, an isothermal expansion, and an isochoric heat removal. The Stirling cycle is usually implemented as an external-combustion engine to facilitate the heat exchanger or regenerator.
+Air-Standard [Diesel Cycle](https://en.wikipedia.org/wiki/Diesel_cycle)  
+: An air-standard cycle consisting of:
 
-Heat-Engine or Thermal Efficiency, $\eta$
-: The *thermal efficiency* or *heat-engine efficiency* is the ratio of the work produced by a heat engine to the heat extracted from the high-temperature reservoir powering the heat engine. With absolute signs, the definition is $\eta \equiv |W|/|Q_\mathrm{hot}|$
+1. Isentropic compression  
+2. Isobaric heat addition  
+3. Isentropic expansion  
+4. Isochoric heat removal  
 
-[Compression Ratio](https://en.wikipedia.org/wiki/Compression_ratio), $r$
-: The ratio of the initial volume to the final volume during the compression step of an air-standard cycle. $r \equiv V_\mathrm{initial}/V_\mathrm{final}$.
+Compression-ignition engines are modeled using the Diesel cycle.
 
-Expansion Ratio
-: The ratio of the final volume to the initial volume during the expansion step of an air-standard cycle. $r_e \equiv V_\mathrm{final}/V_\mathrm{initial}$.
+Air-Standard [Brayton Cycle](https://en.wikipedia.org/wiki/Brayton_cycle)  
+: An air-standard cycle consisting of:
 
-[Pressure Ratio](https://en.wikipedia.org/wiki/Overall_pressure_ratio)
-: The ratio of the final pressure to the initial pressure during the compression step of an air-standard cycle. $r_p \equiv P_\mathrm{final}/P_\mathrm{initial}$.
+1. Isentropic compression  
+2. Isobaric heat addition  
+3. Isentropic expansion  
+4. Isobaric heat removal  
+
+Gas-turbine engines are modeled using the Brayton cycle.
+
+Air-Standard [Turbojet](https://en.wikipedia.org/wiki/Turbojet) Cycle  
+: A Brayton-type air-standard cycle in which the high-velocity exhaust jet produces thrust. The modeled steps are:
+
+1. Isentropic compression  
+2. Isobaric heat addition  
+3. Isentropic expansion through a turbine  
+4. Isentropic expansion through a nozzle  
+5. Heat rejection to the surroundings
+
+Air-Standard [Ericsson Cycle](https://en.wikipedia.org/wiki/Ericsson_cycle)  
+: A cycle consisting of:
+
+1. Isothermal compression  
+2. Isobaric heat addition  
+3. Isothermal expansion  
+4. Isobaric heat removal  
+
+The Ericsson cycle is typically implemented with external combustion and a regenerator.
+
+Air-Standard [Stirling Cycle](https://en.wikipedia.org/wiki/Stirling_cycle)  
+: A cycle consisting of:
+
+1. Isothermal compression  
+2. Isochoric heat addition  
+3. Isothermal expansion  
+4. Isochoric heat removal  
+
+The Stirling cycle is also an external-combustion engine that uses regeneration.
+
+Heat-Engine or Thermal Efficiency, $\eta$  
+: The ratio of the work produced by a heat engine to the heat extracted from the high-temperature reservoir:
+
+$$
+\eta \equiv \frac{|W|}{|Q_\mathrm{hot}|}
+$$
+
+[Compression Ratio](https://en.wikipedia.org/wiki/Compression_ratio), $r$  
+: The ratio of the initial volume to the final volume during the compression step:
+
+$$
+r \equiv \frac{V_\mathrm{initial}}{V_\mathrm{final}}
+$$
+
+Expansion Ratio  
+: The ratio of the final volume to the initial volume during the expansion step:
+
+$$
+r_e \equiv \frac{V_\mathrm{final}}{V_\mathrm{initial}}
+$$
+
+[Pressure Ratio](https://en.wikipedia.org/wiki/Overall_pressure_ratio)  
+: The ratio of the final pressure to the initial pressure during compression:
+
+$$
+r_p \equiv \frac{P_\mathrm{final}}{P_\mathrm{initial}}
+$$
 
 # Other Links and Videos
 
@@ -73,18 +139,26 @@ Expansion Ratio
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2**<br/>*The Rankine Cycle with $\eta_\mathrm{pump}$  and $\eta_\mathrm{turbine}$*<br/>[Video](https://youtu.be/0DmsKCJpIdc), [Info Page](../../balances/entropy/RankineCycleInfoWebPage.qmd), [Visuals](../../balances/entropy/120-RankineVisualsPart2.qmd)
+**Boil, Expand, Condense, Repeat: The Rankine Cycle in Action Part 2**  
+*The Rankine Cycle with $\eta_\mathrm{pump}$ and $\eta_\mathrm{turbine}$*  
+[Video](https://youtu.be/0DmsKCJpIdc), [Info Page](../../balances/entropy/RankineCycleInfoWebPage.qmd), [Visuals](../../balances/entropy/120-RankineVisualsPart2.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**Modeling the Rankine Cycle in DWSIM**<br/>*Modeling the Rankine Cycle in DWSIM*<br/>[Video](https://youtu.be/ECOWIrzvGNc), [Info Page](../../balances/entropy/RankineCycleInfoWebPage.qmd)
+**Modeling the Rankine Cycle in DWSIM**  
+*Modeling the Rankine Cycle in DWSIM*  
+[Video](https://youtu.be/ECOWIrzvGNc), [Info Page](../../balances/entropy/RankineCycleInfoWebPage.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Revenge of the Fridge: Vapor Compression Strikes Back**<br/>*The Vapor Compression Cycle*<br/>[Video](https://youtu.be/SN27SxDt0G4), [Info Page](../../balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](../../balances/entropy/126-RefrigerationVisuals.qmd)
+**Revenge of the Fridge: Vapor Compression Strikes Back**  
+*The Vapor Compression Cycle*  
+[Video](https://youtu.be/SN27SxDt0G4), [Info Page](../../balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd), [Visuals](../../balances/entropy/126-RefrigerationVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**Modeling the Vapor Compression Cycle in DWSIM**<br/>*Modeling the Vapor Compression Cycle in DWSIM*<br/>[Video](https://youtu.be/nWOz-Y7XsbQ), [Info Page](../../balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd)
+**Modeling the Vapor Compression Cycle in DWSIM**  
+*Modeling the Vapor Compression Cycle in DWSIM*  
+[Video](https://youtu.be/nWOz-Y7XsbQ), [Info Page](../../balances/entropy/TheVaporCompressionCycleVideoWebPage.qmd)

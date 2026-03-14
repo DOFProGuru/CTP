@@ -2,26 +2,41 @@
 title: "Energy Balances or The 1^st^ Law"
 author: "DOFPro group"
 ---
+{{< include /LinkKey.qmd >}}
 
-The First Law of Thermodynamics and Energy Balances are synonymous.
+# Introduction
+
+The **First Law of Thermodynamics** and **energy balances** are two names for the same fundamental idea: **energy is conserved**.
+
+Energy balances are used to track heat, work, internal energy, enthalpy, kinetic energy, and potential energy as material moves through or changes within a system. In simple problems the First Law may look like bookkeeping. In more realistic problems it requires property tables, heat-capacity models, and special forms of the energy balance tailored to particular devices or processes.
+
+This section begins with the general statement of the First Law and then moves through several common applications, including fluid flow, steam tables, ideal gases, psychrometry, heats of mixing, and chemically reacting systems.
 
 ## 1^st^ Law of Thermodynamics
 
 ### [Intro](Intro1stLawVideoInfoWebPage.qmd)
 
+This video introduces the First Law of Thermodynamics and the energy terms that appear in energy balances.
+
 **Just Try to Break This Law! I Dare You!**<br/>*Intro to 1st Law*<br/>[Video](https://youtu.be/ZHWT9Jw7fzY), [Info Page](Intro1stLawVideoInfoWebPage.qmd), [Visuals](89-Intro1stLawVisuals.qmd)
 
 ### [Mechanical Energy Balance](MechanicalEnergyBalanceVideoInfoWebPage.qmd)
 
+For flowing fluids, the general energy balance often reduces to the **mechanical energy balance**, which is closely related to the Bernoulli equation but includes friction and shaft work.
+
 **Add Friction and Work to Bernoulli? Here’s What Really Happens!**<br/>*The Mechanical Energy Balance and the Moody Chart*<br/>[Video](https://youtu.be/Da48oZb9oNw), [Info Page](MechanicalEnergyBalanceVideoInfoWebPage.qmd), [Visuals](90-MechEngBalVisuals.qmd)
 
 ### [Steam Tables](SteamTablesVideoInfoWebPage.qmd)
+
+Many practical energy-balance problems require thermodynamic property data rather than simple ideal-gas formulas. Steam tables are the classic example.
 
 **Steam: Get the Quality Right AFTER You Table It! Part 1**<br/>*The Basics of Steam Tables*<br/>[Video](https://youtu.be/8tH3gXz_M8A), [Info Page](SteamTablesVideoInfoWebPage.qmd), [Visuals](91-ThermodynamicPropertyTables1Visuals.qmd)
 
 **Steam: Get the Quality Right AFTER You Table It! Part 2**<br/>*Steam Table Examples*<br/>[Video](https://youtu.be/yRf09eSRM1A), [Info Page](SteamTablesVideoInfoWebPage.qmd), [Visuals](92-ThermodynamicPropertyTables2Visuals.qmd)
 
 ### [Heat Capacity](HeatCapacityVideoInfoWebPage.qmd)
+
+When property tables are unavailable or unnecessary, energy changes are often calculated from **heat capacities** and related correlations.
 
 **The Enthalpy Games: The Ballad of Integrals and Means**<br/>*$\Delta H$ from $C_p$, $\Delta U$ from $C_v$*<br/>[Video](https://youtu.be/YGMHMAXnFY8), [Info Page](HeatCapacityVideoInfoWebPage.qmd), [Visuals](93-EnthalpyVsTandPPart1.qmd)
 
@@ -31,32 +46,44 @@ The First Law of Thermodynamics and Energy Balances are synonymous.
 
 ### [Psychrometry](PsychrometricChartsVideoInfoWebPage.qmd)
 
+Psychrometric charts are a specialized but important application of energy and material balances for mixtures of air and water vapor.
+
 **Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart**<br/>*Psychrometric Charts*<br/>[Video](https://youtu.be/Nz8ADo4X2Ss), [Info Page](PsychrometricChartsVideoInfoWebPage.qmd), [Visuals](97-PsychrometiricChartVIsuals.qmd)
 
 ### [Heats of Mixing](HeatsOfMixingVideoInfoWebPage.qmd)
+
+When substances are mixed or dissolved, enthalpy changes may occur even when no chemical reaction takes place. These are handled through **reference states**, **heats of mixing**, and **heats of solution**.
 
 **Reference Not Found: Mixing, Dissolving, and Changing the Rules**<br/>*$\Delta H_m$, $\Delta H_s$*<br/>[Video](https://youtu.be/ggU692PLWts), [Info Page](HeatsOfMixingVideoInfoWebPage.qmd), [Visuals](98-ReferenceStatesVIsuals.qmd)
 
 ### [Ideal Gas](The1stLawForIdealGases.qmd)
 
+Ideal gases allow several especially useful forms of the First Law to be derived for common thermodynamic processes.
+
 **The Isochronicles: This First Law Saga Is a Gas**<br/>*The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes*<br/>[Video](https://youtu.be/iKsR3v1wu30), [Info Page](The1stLawForIdealGases.qmd), [Visuals](102-1stLawIdealGasesVisuals.qmd)
 
 ## 1^st^ Law for Reactions
 
+Chemical reactions introduce additional enthalpy changes that must be included in the First Law through **heats of formation**, **heats of reaction**, and **heats of combustion**.
+
 ### [Heats of Formation and Reaction](HeatsOfFormationAndReactionVideoInfoWebPage.qmd)
 
-**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](104-HeatsOfReactionVisuals.qmd)
+These videos introduce Hess’s Law and the thermodynamic quantities used to compute energy changes for reactions.
+
+**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}_c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](104-HeatsOfReactionVisuals.qmd)
 
 **Chemical Reactions vs. The First Law: Who Wins?**<br/>*Forms of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/mFF5hDHclPE), [Info Page](The1stLawReactingSystems.qmd), [Visuals](106-1stLawReactingVisuals.qmd)
 
 ### [Combustion Reactions](EnergeticsOfCombustionReactionsVideoInfoWebPage.qmd)
 
+Combustion problems are among the most important reacting-system energy balances in engineering practice.
+
 **Fueling the Fire: The Shocking Truth About Combustion Reactions!**<br/>*Common fuels, Heats of Combustion, HHV, LHV*<br/>[Video](https://youtu.be/lW5dK-F6H3U), [Info Page](EnergeticsOfCombustionReactionsVideoInfoWebPage.qmd), [Visuals](110-FuelsHeatingVisuals.qmd)
 
 ### [Reaction Examples](Example1stLawForReactingSystemsVideoInfoWebPage.qmd)
 
+These videos work through detailed examples of the First Law applied to chemically reacting systems.
+
 **React Hard: The First Law Gets Chemical**<br/>*Example of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/q-W5Y1d85go), [Info Page](Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](111-EnergeticsOfReactionsPt1Visuals.qmd)
 
 **React Harder: Formation Heats and Alternate Endings**<br/>*2 more Examples of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/iqxJP6g-Qsc), [Info Page](Example1stLawForReactingSystemsVideoInfoWebPage.qmd), [Visuals](112-EnergeticsOfReactionsPt2Visuals.qmd)
-
-

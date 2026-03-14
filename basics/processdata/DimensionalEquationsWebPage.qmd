@@ -1,21 +1,24 @@
 ---
-title: "*Is Furlongs Per Fortnight a Thing?* Reference Page"
+title: "Converting Units Reference Page<br/>*Is Furlongs Per Fortnight a Thing?*"
 author: "DOFPro group"
 format: html
 ---
+{{< include /LinkKey.qmd >}}
 # Purpose of *Is Furlongs Per Fortnight a Thing?*
 
-Engineers often have to work with different sets of units. The United States still uses American Engineering units, also known as the US Customary system or Imperial Units in many of its industries. Even in countries that largely use SI units, there are often conversions among kilograms and grams, millimeters, centimeters, meters, and kilometers, and weight is measured in kilograms, not newtons. Engineers must be comfortable in converting from one set of units to another as needed, and do so without making errors. This video explains how to do the most common sort of unit conversion, involving dimensional equations or unit-conversion equations.
+Engineers often need to work with multiple unit systems. In the United States, many industries still use American Engineering units, also called U.S. Customary units or, less precisely, Imperial units. Even in countries that primarily use SI units, engineers still convert among grams and kilograms, millimeters and meters, and many other related quantities. In everyday language, people also often speak of “weight” when they actually mean mass.
 
-A second video, *How Keen Is Your Rank?* [JTF](https://youtu.be/XKwl41MvFcE), [TFS](https://youtu.be/hEtrCnIicqQ), [Info Page](ConvertingTemperatureWebPage.qmd), explains how to do temperature conversions and temperature interval conversions, many of which can't be done using the methods in this video.
+Engineers must be able to convert units accurately and confidently. This video explains the most common type of unit conversion: converting measured quantities using **dimensional equations** or **unit-conversion factors**.
 
-A third video, *The Most Annoying Equation Conversion*, [Video](https://youtu.be/6dyg-CgAm8s), [Info Page](EquationConversionVideoInfoWebPage.qmd), explains how to convert an equation, as opposed to a measurement or temperature, from one set of units to another.
+A second video, *How Keen Is Your Rank?* [JTF](https://youtu.be/XKwl41MvFcE), [TFS](https://youtu.be/hEtrCnIicqQ), [Info Page](ConvertingTemperatureWebPage.qmd), explains how to perform **temperature** and **temperature-interval** conversions, many of which cannot be handled by the methods in this video.
+
+A third video, *The Most Annoying Equation Conversion*, [Video](https://youtu.be/6dyg-CgAm8s), [Info Page](EquationConversionVideoInfoWebPage.qmd), explains how to convert an **equation**, rather than a measurement or temperature, from one set of units to another.
 
 ## Is Furlongs Per Fortnight a Thing?
 
-The video discusses unit conversions, explains dimensional equations and then has examples of their use. It is recommended for both those who are just learning unit conversions and those who have a reasonably good understanding of unit conversion and are just looking for a refresher or a review.
+This video explains dimensional equations and unit-conversion factors and then works through several examples. It is suitable both for viewers who are just learning unit conversions and for those who want a refresher.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5EbL9MEro9E?si=b_Khtnkg7aSGubkv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5EbL9MEro9E?si=b_Khtnkg7aSGubkv" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 [Visuals](DimensionalEquationsJTFVisuals.qmd)
 
 # Some Common Conversions
@@ -23,76 +26,70 @@ The video discusses unit conversions, explains dimensional equations and then ha
 ### Exact
 
 $\frac{25.4\ \mathrm{mm}}{1\ \mathrm{inch}}$,&nbsp;&nbsp;
-$\frac{101\ 325\ \mathrm{Pa}}{1\ \mathrm{atm}}$,&nbsp;&nbsp;
+$\frac{101325\ \mathrm{Pa}}{1\ \mathrm{atm}}$,&nbsp;&nbsp;
 $\frac{4.184\ \mathrm{J}}{1\ \mathrm{cal_{th}}}$,&nbsp;&nbsp;
 $\frac{9\ \mathrm{^\circ R}}{5\ \mathrm{K}}$,&nbsp;&nbsp;
-$\frac{4.184\ \mathrm{J/kg\cdot K}}{1\ \mathrm{Btu_{th}/(lb_m \cdot ^\circ R)}}$.
+$\frac{4.184\ \mathrm{J/(kg\cdot K)}}{1\ \mathrm{Btu_{th}/(lb_m \cdot ^\circ R)}}$.
 
-### Close to Exact (just memorize 3 or 4 sig figs)
+### Close to Exact (worth memorizing to 3 or 4 significant figures)
 
-$\frac{0.453\ 592\ 4\ \mathrm{kg}}{1\ \mathrm{lb_m}}$,&nbsp;&nbsp;
-$\frac{4.448\ 222\ \mathrm{N}}{1\ \mathrm{lb_f}}$,&nbsp;&nbsp;
-$\frac{0.946\ 352\ 9\ \mathrm{L}}{1\ \mathrm{qt}}$.
+$\frac{0.4535924\ \mathrm{kg}}{1\ \mathrm{lb_m}}$,&nbsp;&nbsp;
+$\frac{4.448222\ \mathrm{N}}{1\ \mathrm{lb_f}}$,&nbsp;&nbsp;
+$\frac{0.9463529\ \mathrm{L}}{1\ \mathrm{qt}}$.
 
 ### Mass to Weight and Vice Versa
 
-American Engineering: $\frac{1\ \mathrm{lb_f\ s^2}}{32.174\ \mathrm{lb_m\ ft}}$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SI: $\frac{1\ \mathrm{N\ s^2}}{\mathrm{kg\ m}}$
+American Engineering: $\frac{1\ \mathrm{lb_f\ s^2}}{32.174\ \mathrm{lb_m\ ft}}$  
+SI: $\frac{1\ \mathrm{N\ s^2}}{\mathrm{kg\ m}}$
 
 ### Approximate
 
 $\frac{2.2\ \mathrm{lb_m}}{1\ \mathrm{kg}}$,&nbsp;&nbsp;
 $\frac{1\ \mathrm{Btu/s}}{1\ \mathrm{kW}}$.
 
-
 # Definitions
 
 [Pound Mass, $\mathrm{lb_m}$](https://en.wikipedia.org/wiki/Pound_(mass))
-: The mass that exerts one pound force in the standard gravitational field of $32.174\ \mathrm{ft/s^2}$ 
+: A unit of mass in the American Engineering system. One pound mass experiences a force of one pound force in the standard gravitational field.
 
 [Pound Force, $\mathrm{lb_f}$](https://en.wikipedia.org/wiki/Pound_(force))
-: The force exerted by one pound mass in the standard gravitational field of $32.174\ \mathrm{ft/s^2}$
+: The force exerted by one pound mass in the standard gravitational field of $32.174\ \mathrm{ft/s^2}$.
 
 [Kilogram Mass, $\mathrm{kg}$](https://en.wikipedia.org/wiki/Kilogram)
-: The SI unit of mass
+: The SI base unit of mass.
 
 [Kilogram Force, $\mathrm{kg_f}$](https://en.wikipedia.org/wiki/Kilogram-force)
-: The force exerted by a kilogram mass in the standard gravitational field of $9.80665\ \mathrm{m^2/s}$. It is  $9.80665\ \mathrm{N}$.
+: The force exerted by a mass of one kilogram in the standard gravitational field of $9.80665\ \mathrm{m/s^2}$. It is equal to $9.80665\ \mathrm{N}$.
 
 [Celsius](https://en.wikipedia.org/wiki/Celsius)
-: The SI common temperature scale. Named after Anders Celsius, a Swedish astronomer.
+: A commonly used temperature scale in SI-based practice, named after Anders Celsius.
 
 # Other Links and Videos
 
 ## Other Links
+
 - [Uncancelled Units](https://xkcd.com/3038)
-- The NIST conversions to SI in alphabetical order [https://tinyurl.com/ydb2jcoc](https://tinyurl.com/ydb2jcoc)
-- The NIST conversions to SI by kind [https://tinyurl.com/ycqe2ez7](https://tinyurl.com/ycqe2ez7)
-- Web search for *on-line unit conversion calculators*
-- Just about any values of the molar gas constant you would want [https://en.wikipedia.org/wiki/Gas_constant](https://en.wikipedia.org/wiki/Gas_constant)
+- [NIST conversions to SI in alphabetical order](https://tinyurl.com/ydb2jcoc)
+- [NIST conversions to SI by kind](https://tinyurl.com/ycqe2ez7)
+- Web search for *online unit conversion calculators*
+- [Values of the molar gas constant in many unit systems](https://en.wikipedia.org/wiki/Gas_constant)
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Integrals and Derivatives Part 2**<br/>*More propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
 **Nonlinear Regression**<br/>*Derivation/explanation of nonlinear regression*<br/>[Video](https://youtu.be/aE4W-JYnGgQ), [Info Page](../../basics/stats/NonlinearRegressionVideoInfoWebPage.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
 **How Keen Is Your Rank? Just the Facts**<br/>*Temperature Conversion*<br/>[Video](https://youtu.be/XKwl41MvFcE), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/ConvertingTemperatureJTFVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
 **The Most Annoying Equation Conversion**<br/>*Unit Conversion of Equations*<br/>[Video](https://youtu.be/6dyg-CgAm8s), [Info Page](../../basics/processdata/EquationConversionVideoInfoWebPage.qmd), [Visuals](../../basics/processdata/EquationConversionJTFVisuals.qmd)
-
-
-
-
-
-

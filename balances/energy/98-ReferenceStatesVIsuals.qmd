@@ -205,7 +205,7 @@ $$\Delta H_4 = \sum n_i \overline{C}_{p-i} \Delta T = (1 \cdot 0.0595 + 10 \cdot
 Inspired Guesses
 
 ::: {style="font-size:40px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -213,7 +213,7 @@ At $r = 3$ and $T = 25\ ^\circ\mathrm{C}$, $\Delta \hat{H}_{s-25\%} = -29.0\ \ma
 :::
 
 ::: {style="font-size:40px;"}
-</br>
+<br/>
 :::
 
 ::: {style="font-size:97px;"}
@@ -223,7 +223,7 @@ At $r = 10$ and $T = 25\ ^\circ\mathrm{C}$, $\Delta \hat{H}_{s-9.09\%} = -42.5\ 
 :::
 
 ::: {style="font-size:40px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -231,7 +231,7 @@ $\Delta H_3 = n_\mathrm{NaOH} \left(\Delta \hat{H}_{s-9.09\%} - \Delta \hat{H}_{
 :::
 
 ::: {style="font-size:40px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -239,7 +239,7 @@ $= 1 \left[ -42.5 - (-29.0) \right]$
 :::
 
 ::: {style="font-size:40px;"}
-</br>
+<br/>
 :::
 
 ::: {.fragment}
@@ -325,7 +325,7 @@ $$y_\mathrm{NH_3} = 0.877$$
 
 # <!-- Approved Plain End -->
 ::: {.centered .bigger}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video in the series is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ::: {.absolute left=38% top=125% style="font-size: 110px;"}

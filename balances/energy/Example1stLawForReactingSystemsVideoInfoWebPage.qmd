@@ -1,50 +1,61 @@
 ---
-title: "*React Hard and React Harder* (Examples of 1^st^ Law for Reacting Systems) Reference Page"
+title: "Examples of 1^st^ Law for Reacting Systems Reference Page<br/>*React Hard and React Harder* "
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *React Hard and React Harder*
+{{< include /LinkKey.qmd >}}
+# Intro to the Examples of the 1^st^ Law for Reacting Systems
 
-Main title explanation
+Applying the First Law to reacting systems requires combining **energy balances**, **heats of reaction**, and **heat capacity data** to determine the heat transferred or temperature change during a chemical reaction.
+
+These videos work through detailed examples of energy balances for reacting systems using both the **heat-of-reaction method** and the **heat-of-formation method**.
 
 ## React Hard: The First Law Gets Chemical
 
-Video 1 explanation
+This video walks through a detailed example applying the First Law of Thermodynamics to a reacting system using tabulated thermodynamic data.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q-W5Y1d85go?si=DliOL9sV9NQYNk77" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q-W5Y1d85go?si=DliOL9sV9NQYNk77" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](111-EnergeticsOfReactionsPt1Visuals.qmd)
 
 ## React Harder: Formation Heats and Alternate Endings
 
-Video  explanation
+This video continues the example calculations and shows how the same problem can be solved using alternative thermodynamic methods.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iqxJP6g-Qsc?si=_aE8g_VcAWvOYrmO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iqxJP6g-Qsc?si=_aE8g_VcAWvOYrmO" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](112-EnergeticsOfReactionsPt2Visuals.qmd)
 
 # Examples and Definitions
 
 ## Examples Links
 
-- [Material Balance Combustion Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/CombustionExample.ods)
-- [Reaction Energetics Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/energy/ReactionEnergeticsExample.ods)
+- [Material Balance Combustion Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/material/CombustionExample.ods) – A spreadsheet with the example calculations from *A Combustible Mixture!* The spreadsheet is reused in *React Hard* and *React Harder*.
+
+- [Reaction Energetics Examples](https://dofprobucket1.s3.us-east-2.amazonaws.com/energy/ReactionEnergeticsExample.ods) – A spreadsheet containing the example calculations in *React Hard* and *React Harder*. It demonstrates the heat-of-reaction method using two different sets of reactions and then the heat-of-formation method.
 
 ## Definitions
 
-[Heat or Enthalpy of Formation](https://en.wikipedia.org/wiki/Standard_enthalpy_of_formation)$\Delta \hat{H}^\circ_f$
-: The enthalpy of formation is the enthalpy change associated with forming one mole of a chemical species from its constituent species at their standard temperature, pressure and state of aggregation. By definition the enthalpy of formation for an element at its standard temperature, pressure, and state of aggregation is identically zero.
+[Heat or Enthalpy of Formation](https://en.wikipedia.org/wiki/Standard_enthalpy_of_formation), $\Delta \hat{H}^\circ_f$  
+: The enthalpy change associated with forming one mole of a chemical species from its constituent elements at their standard temperature, pressure, and state of aggregation.  
 
-[Heat or Enthalpy of Reaction](https://en.wikipedia.org/wiki/Standard_enthalpy_of_reaction), $\Delta \hat{H}^\circ_r$
-: The enthalpy change associated with one mole of reaction for a chemical reaction as written. It can be calculated as the sum of the enthalpies of formation of the reactants and products times their stoichiometric coefficients, with the convention that the stoichiometric coefficients of reactants are negative and the stoichiometric coefficients of products are positive.
+By definition, the enthalpy of formation of an element in its standard state is zero.
 
-[Extent of Reaction](https://en.wikipedia.org/wiki/Extent_of_reaction), $\xi$ or $\dot{\xi}$
-: A measure of the progress of a chemical reaction, defined as the ratio of the amount of reactant that has been converted to product to the total amount of reactant initially present. It is often denoted by the symbol ξ (xi) and can be used to determine the composition of the reaction mixture at any given time.
+[Heat or Enthalpy of Reaction](https://en.wikipedia.org/wiki/Standard_enthalpy_of_reaction), $\Delta \hat{H}^\circ_r$  
+: The enthalpy change associated with one mole of reaction for a chemical reaction as written.  
 
-[Heat Capacity at Constant Pressure](https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity), $C_p$
-: The change in specific or molar enthalpy with a change in temperature at constant pressure for a substance *not* undergoing a phase change. $C_p \equiv (\partial \hat{H} / \partial T)|_P$
+It can be calculated as the sum of the enthalpies of formation of the reactants and products multiplied by their stoichiometric coefficients, with reactant coefficients taken as negative and product coefficients as positive.
+
+[Extent of Reaction](https://en.wikipedia.org/wiki/Extent_of_reaction), $\xi$ or $\dot{\xi}$  
+: A variable describing the progress of a chemical reaction. Changes in the amount of each species are related to the extent of reaction through the stoichiometric coefficients of the reaction.
+
+[Heat Capacity at Constant Pressure](https://en.wikipedia.org/wiki/Specific_heat_capacity#Specific_heat_capacity), $C_p$  
+: The change in specific or molar enthalpy with temperature at constant pressure for a substance not undergoing a phase change.
+
+$$
+C_p \equiv \left(\frac{\partial \hat{H}}{\partial T}\right)_P
+$$
 
 # Other Links and Videos
 
@@ -52,24 +63,26 @@ Video  explanation
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**Chemical Reactions vs. The First Law: Who Wins?**<br/>*Forms of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/mFF5hDHclPE), [Info Page](../../balances/energy/The1stLawReactingSystems.qmd), [Visuals](../../balances/energy/106-1stLawReactingVisuals.qmd)
+**Chemical Reactions vs. The First Law: Who Wins?**  
+*Forms of the 1^st^ Law for Chemical Reactions*  
+[Video](https://youtu.be/mFF5hDHclPE), [Info Page](../../balances/energy/The1stLawReactingSystems.qmd), [Visuals](../../balances/energy/106-1stLawReactingVisuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
-**Fueling the Fire: The Shocking Truth About Combustion Reactions!**<br/>*Common fuels, Heats of Combustion, HHV, LHV*<br/>[Video](https://youtu.be/lW5dK-F6H3U), [Info Page](../../balances/energy/EnergeticsOfCombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/110-FuelsHeatingVisuals.qmd)
+**Fueling the Fire: The Shocking Truth About Combustion Reactions!**  
+*Common fuels, Heats of Combustion, HHV, LHV*  
+[Video](https://youtu.be/lW5dK-F6H3U), [Info Page](../../balances/energy/EnergeticsOfCombustionReactionsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/110-FuelsHeatingVisuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Resistance is Futile. Entropy Always Wins**<br/>*Intro to 2^nd^ Law*<br/>[Video](https://youtu.be/yqVUz1WA7M4), [Info Page](../../balances/entropy/IntroTo2ndLawVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/113-Visuals.qmd)
+**Resistance is Futile. Entropy Always Wins**  
+*Intro to 2^nd^ Law*  
+[Video](https://youtu.be/yqVUz1WA7M4), [Info Page](../../balances/entropy/IntroTo2ndLawVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/113-Visuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
-**The ΔS-sentials of Calculating Entropy Changes**<br/>*Calculating $\Delta S$ for heat reservoirs, ideal gases, and Steam*<br/>[Video](https://youtu.be/z2e5Rq5r288), [Info Page](../../balances/entropy/CalculatingEntropyChangesVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/115-CalcEntropyVisuals.qmd)
-
-
-
-
-
-
+**The ΔS-sentials of Calculating Entropy Changes**  
+*Calculating $\Delta S$ for heat reservoirs, ideal gases, and steam*  
+[Video](https://youtu.be/z2e5Rq5r288), [Info Page](../../balances/entropy/CalculatingEntropyChangesVideoInfoWebPage.qmd), [Visuals](../../balances/entropy/115-CalcEntropyVisuals.qmd)

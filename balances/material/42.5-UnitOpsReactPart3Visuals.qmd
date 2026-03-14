@@ -18,7 +18,7 @@ DOFPro Team
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="22%" top="-45%"}
 
-## When You Saw It, What Was</br>The Extent of Your Reaction?</br>Parts 1, 2, and 3
+## When You Saw It, What Was<br/>The Extent of Your Reaction?<br/>Parts 1, 2, and 3
 
 - Address chemical reactors as modeled with extent of reaction and fractional conversion.
 - Moles are not conserved in chemical reactions.
@@ -136,7 +136,7 @@ $$
 :::
 
 ::: {.fragment}
-We don't count the water as an undesired product because it uses none of the $\mathrm{C}$ in the propane, which is the only species that goes to our desired product.</br></br>
+We don't count the water as an undesired product because it uses none of the $\mathrm{C}$ in the propane, which is the only species that goes to our desired product.<br/><br/>
 :::
 ::: {.fragment}
 If there had been other carbon containing compounds, e.g., $\mathrm{CH_4}$, we would have included their flows in the denominator.
@@ -165,7 +165,7 @@ It's easy to get *mole fraction*, *split fraction*, and *fractional conversion* 
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. *Recycling Before Recycling Was Cool*, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. *Recycling Before Recycling Was Cool*, the next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

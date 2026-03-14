@@ -11,7 +11,7 @@ format:
 # How Deviant and Mean Are Your Data?
 
 ::: {.bigbold style="text-align: center;"}
-Intro and Basics Part 2</br>Just the Facts
+Intro and Basics Part 2<br/>Just the Facts
 :::
 
 ::: {style="text-align: center;"}
@@ -24,7 +24,7 @@ DOFPro Team
 # How Deviant and Mean Are Your Data?
 
 ::: {.bigbold style="text-align: center;"}
-Intro and Basics Part 2</br>The Full Story
+Intro and Basics Part 2<br/>The Full Story
 :::
 
 ::: {style="text-align: center;"}
@@ -283,7 +283,7 @@ The discussion continues in How Deviant and Mean Are Your Data? Intro and Basics
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Just The Facts* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=35%}
@@ -294,7 +294,7 @@ The DOFPro Team
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> *The Full Story* companion video is in the link in the upper left. The first of the  *How To* videos, *Basic Statistics by Hand*  is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find additional previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> *The Full Story* companion video is in the link in the upper left. The first of the  *How To* videos, *Basic Statistics by Hand*  is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find additional previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=40%}

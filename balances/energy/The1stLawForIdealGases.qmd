@@ -1,22 +1,23 @@
 ---
-title: "*The Isochronicles: This First Law Saga Is a Gas* (The 1^st^ Law for Ideal Gases) Reference Page"
+title: "The 1^st^ Law for Ideal Gases Reference Page<br/>*The Isochronicles: This First Law Saga Is a Gas*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *The Isochronicles: This First Law Saga Is a Gas*
+{{< include /LinkKey.qmd >}}
+# Intro to The 1^st^ Law for Ideal Gases
 
-Main title explanation
+Ideal gases provide one of the simplest and most useful applications of the First Law of Thermodynamics. Because the thermodynamic properties of ideal gases have simple relationships, many energy balances can be solved analytically.
+
+In particular, the First Law can be applied to several important types of processes: constant temperature, constant pressure, constant volume, and constant entropy. These special cases appear frequently in engineering calculations involving compressors, turbines, and expansion processes.
 
 ## The Isochronicles: This First Law Saga Is a Gas
 
-Video 1 explanation
+This video shows how the First Law of Thermodynamics applies to ideal gases undergoing common thermodynamic processes, including isothermal, isobaric, isochoric, and isentropic processes.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iKsR3v1wu30?si=jNOfKbT6n2jMDehd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iKsR3v1wu30?si=jNOfKbT6n2jMDehd" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+[Visuals](102-1stLawIdealGasesVisuals.qmd)
 
 # Examples and Definitions
 
@@ -24,17 +25,19 @@ Video 1 explanation
 
 ## Definitions
 
-[Isothermal Process](https://en.wikipedia.org/wiki/Isothermal_process)
+[Isothermal Process](https://en.wikipedia.org/wiki/Isothermal_process)  
 : A constant-temperature process, $\Delta T = 0$.
 
-[Isobaric Process](https://en.wikipedia.org/wiki/Isobaric_process)
+[Isobaric Process](https://en.wikipedia.org/wiki/Isobaric_process)  
 : A constant-pressure process, $\Delta P = 0$.
 
-[Isochoric Process](https://en.wikipedia.org/wiki/Isochoric_process)
+[Isochoric Process](https://en.wikipedia.org/wiki/Isochoric_process)  
 : A constant-volume process, $\Delta V = 0$.
 
-[Isentropic Process](https://en.wikipedia.org/wiki/Isentropic_process)
-: A constant-entropy process, $\Delta S = 0$. Clausius used the term to mean adiabatic and reversible and almost all thermodynamics texts use the word in the same sense.
+[Isentropic Process](https://en.wikipedia.org/wiki/Isentropic_process)  
+: A constant-entropy process, $\Delta S = 0$.  
+
+Historically, Clausius used the term to refer to processes that are **adiabatic and reversible**, and most thermodynamics texts still use the term in that sense.
 
 # Other Links and Videos
 
@@ -42,18 +45,18 @@ Video 1 explanation
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
 **Dry Bulbs, Wet Bulbs, and My Will to Live: Mastering the Psych Chart**<br/>*Psychrometric Charts*<br/>[Video](https://youtu.be/Nz8ADo4X2Ss), [Info Page](../../balances/energy/PsychrometricChartsVideoInfoWebPage.qmd), [Visuals](../../balances/energy/97-PsychrometiricChartVIsuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
 **Reference Not Found: Mixing, Dissolving, and Changing the Rules**<br/>*$\Delta H_m$, $\Delta H_s$*<br/>[Video](https://youtu.be/ggU692PLWts), [Info Page](../../balances/energy/HeatsOfMixingVideoInfoWebPage.qmd), [Visuals](../../balances/energy/98-ReferenceStatesVIsuals.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
-**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](../../balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](../../balances/energy/104-HeatsOfReactionVisuals.qmd)
+**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}_c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](../../balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](../../balances/energy/104-HeatsOfReactionVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
 **Chemical Reactions vs. The First Law: Who Wins?**<br/>*Forms of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/mFF5hDHclPE), [Info Page](../../balances/energy/The1stLawReactingSystems.qmd), [Visuals](../../balances/energy/106-1stLawReactingVisuals.qmd)

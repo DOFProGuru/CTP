@@ -243,7 +243,7 @@ If the split fraction is the same for all species, then the separator is just a 
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Just the Facts* companion video is in the link in the upper left. The next video in the series, *When You Saw It, What Was the Extent of Your Reaction? Part 1*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Just the Facts* companion video is in the link in the upper left. The next video in the series, *When You Saw It, What Was the Extent of Your Reaction? Part 1*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}
@@ -251,7 +251,7 @@ If the split fraction is the same for all species, then the separator is just a 
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, *When You Saw It, What Was the Extent of Your Reaction? Part 1*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series, *When You Saw It, What Was the Extent of Your Reaction? Part 1*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="27%" top="100%"}

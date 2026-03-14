@@ -173,7 +173,7 @@ Full Video Set
 
 **The Isochronicles: This First Law Saga Is a Gas**<br/>*The 1^st^ Law for Ideal Gases for Isothermal, Isobaric, Isochoric, and Isentropic processes*<br/>[Video](https://youtu.be/iKsR3v1wu30), [Info Page](balances/energy/The1stLawForIdealGases.qmd), [Visuals](balances/energy/102-1stLawIdealGasesVisuals.qmd)
 
-**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](balances/energy/104-HeatsOfReactionVisuals.qmd)
+**Germain Hess and the Enthalpy of Doom**<br/>*Hess's Law and $\Delta \hat{H}^\circ_f$, $\Delta \hat{H}^\circ_r$, and $\Delta \hat{H}_c$*<br/>[Video](https://youtu.be/qdgH4v64vOQ), [Info Page](balances/energy/HeatsOfFormationAndReactionVideoInfoWebPage.qmd), [Visuals](balances/energy/104-HeatsOfReactionVisuals.qmd)
 
 **Chemical Reactions vs. The First Law: Who Wins?**<br/>*Forms of the 1^st^ Law for Chemical Reactions*<br/>[Video](https://youtu.be/mFF5hDHclPE), [Info Page](balances/energy/The1stLawReactingSystems.qmd), [Visuals](balances/energy/106-1stLawReactingVisuals.qmd)
 

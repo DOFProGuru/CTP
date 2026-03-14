@@ -8,7 +8,7 @@ format:
     incremental: true
     theme: [serif, ../../gradient.scss]
 ---
-# What Is A Mole </br> Just The Facts {style="text-align: center;"}
+# What Is A Mole <br/> Just The Facts {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -115,7 +115,7 @@ $\cdot 31.999\ \frac{\mathrm{lb_m\ O}_2}{\text{lb-mol}} = 72.70  \mathrm{lb_m\ O
 ## Avogadro's Number
 
 :::{.fragment .absolute top=20% left=0%}
-The Avogadro Constant/</br>Avogadro's Number:
+The Avogadro Constant/<br/>Avogadro's Number:
 :::
 
 :::{.fragment .absolute top=26% right=15%}
@@ -185,7 +185,7 @@ $\text{lb-mol}$ constant:
 
 #
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description to find previous and following videos in this series.
 :::
 
 ::: {.absolute top=125% left=35%}

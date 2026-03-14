@@ -22,7 +22,7 @@ DOFPro Team
 
  - Gives additional definitions, hints and suggestions
  - How to quickly and correctly solve your balance equations
- </br></br>
+ <br/><br/>
  - The previous video is *How to Keep Your Balance*.
    -  If you haven't seen it, go back and watch it.
 
@@ -188,7 +188,7 @@ The note number corresponds to the solution step number.
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *How to Keep Your Balance*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The companion video in the series, *How to Keep Your Balance*, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

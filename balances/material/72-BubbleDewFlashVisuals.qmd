@@ -99,11 +99,11 @@ $l_3 = x_\beta - x_\alpha$
 :::
 
 :::{.absolute left=70% top=10%}
-If </br> $\ \ \ \ n_\mathrm{total} = n_\alpha + n_\beta$
+If <br/> $\ \ \ \ n_\mathrm{total} = n_\alpha + n_\beta$
 :::
 
 :::{.absolute left=70% top=25%}
-Then </br> $\ \ \ \ n_\alpha l_1 = n_\beta l_2$
+Then <br/> $\ \ \ \ n_\alpha l_1 = n_\beta l_2$
 :::
 :::{.absolute left=70% top=40%}
 $\ \ \ \ \dfrac{n_\alpha}{n_\mathrm{total}} = \dfrac{l_2}{l_3}$
@@ -368,7 +368,7 @@ Low Boiling<br/>Azeotrope
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The previous video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The previous video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

@@ -10,7 +10,7 @@ format:
     html-math-method: mathjax
 ---
 
-# Basic Spreadsheet Techniques<br/>Basic Statistics and Linear and Nonlinear Data Fitting</br>Just the Facts{.bigbold75}
+# Basic Spreadsheet Techniques<br/>Basic Statistics and Linear and Nonlinear Data Fitting<br/>Just the Facts{.bigbold75}
 
 ::: {style="text-align: center;"}
 DOFPro Team
@@ -109,7 +109,7 @@ Have data for $2^{nd}$-order kinetics. Fit for $C_{A0}$, $k$, $k_0$, and $E_A$.
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

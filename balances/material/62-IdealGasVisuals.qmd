@@ -110,7 +110,7 @@ For historical reasons, the molar flow of a gas is often measured in *standard c
 
 :::{.fragment}
 For the common case of $T_\mathrm{S} = 0\ ^\circ \mathrm{C}$ and $P_\mathrm{S} = 101.325\ \mathrm{kPa}$:
-</br>(Natural gas often uses $T_\mathrm{S} = 15\ ^\circ \mathrm{C}$)
+<br/>(Natural gas often uses $T_\mathrm{S} = 15\ ^\circ \mathrm{C}$)
 :::
 :::{.fragment}
 $${1\ \mathrm{SCM} = 44.615\ \mathrm{mol} = 0.04462\ \mathrm{kmol}}$$
@@ -210,7 +210,7 @@ $$\rho = \frac{nM}{V} = \frac{PM}{RT}$$
 #
 
 ::: {.centered}
- </br></br></br></br></br>**Thanks for watching!** </br> The *Full Story* companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
+ <br/><br/><br/><br/><br/>**Thanks for watching!** <br/> The *Full Story* companion video is in the link in the upper left. The next video in the series, is in the upper right. To learn more about Chemical and Thermal Processes, visit the website linked in the description.
 :::
 
 ![](../../DOFPro_D7_Black_Red_Flame_No_Background_Cropped.png){.absolute left="20%" top="100%"}

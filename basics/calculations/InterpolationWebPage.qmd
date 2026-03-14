@@ -3,93 +3,146 @@ title: "*Interpolation* Reference Page"
 author: "DOFPro group"
 format: html
 ---
-# Key to the Videos and Links
 
-- **JTF (Just the Facts)** videos are the streamlined versions: greenscreen LaTeX equations, clean graphics, minimal narrative. Think “efficient and to the point.” Each has a companion TFS video.
-- **TFS (The Full Story)** videos include interviews, additional explanation, and equations written on whiteboards. Same math, more context, more personality. Each has a matching JTF version.
-- **Info Page** links lead to definitions, expanded explanations, and related material—because sometimes you really do need to explain it.
-- **Visuals** links contain the underlying greenscreen or whiteboard materials used in the video, for those who like to see the scaffolding.
-- Wondering about the titles? See Appendix B: [**If you have to explain it, it’s no longer funny**](../../appx/NotFunny.qmd)￼.
+{{< include /LinkKey.qmd >}}
 
+---
 
-# Purpose of The Interpolation Videos
+# Purpose of the Interpolation Videos
 
-Before the age of readily available computers most engineering data were only available as tabulations, usually in handbooks, but sometimes in text books or journal articles. While not as common as they used to be, data tables still find extensive use. The two videos, *Interpol Is Late to a Mind-Blowing Math Hack* and *No Clear Interpretation a Mind-Blowing Math Hack* explain the principles of linear and nonlinear interpolation respectively.
+Before computers became widely available, most engineering data were published as tabulations in handbooks, textbooks, and journal articles. While computer-based calculations are now common, tabulated data are still widely used in engineering.
+
+The videos *Interpol Is Late to a Mind-Blowing Math Hack* and *No Clear Interpretation a Mind-Blowing Math Hack* explain the principles of **linear interpolation** and **nonlinear interpolation**, respectively, and demonstrate how to estimate values between tabulated data points.
+
+---
 
 ## Interpol Is Late to a Mind-Blowing Math Hack
 
-*Interpol Is Late to a Mind-Blowing Math Hack* explains both 1-D and 2-D linear interpolation and contains example of each.
+This video introduces both **one-dimensional (1-D)** and **two-dimensional (2-D)** linear interpolation and demonstrates examples of each.
+
+---
 
 ## Just the Facts
 
-The *Just The Facts* Video explains how to perform both 1-D and 2-D (double) linear interpolation. It is recommended for those who have a reasonably good understanding of linear interpolation and are just looking for a refresher or a review.
+The *Just the Facts* video explains how to perform both **1-D linear interpolation** and **2-D (double) linear interpolation**.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VbnpWj9iYAU?si=JJpCmiewll_ZIZaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VbnpWj9iYAU?si=JJpCmiewll_ZIZaM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](InterpolationJTFVisuals.qmd)
+
+---
 
 ## The Full Story
 
-*The Full Story* Video examines common conceptions and misconceptions about linear interpolation and explains how to perform both 1-D and 2-D (double) linear interpolation. It is recommended for those who have not been exposed to linear interpolation before or who have struggled with understanding and performing the calculations.
+The *Full Story* video discusses both the principles of linear interpolation and common misconceptions about its use. It explains how to perform both **1-D interpolation** and **2-D (double) interpolation**, with additional conceptual discussion and worked examples.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pbDEc_Q862M?si=rNG7d-1V51DqGLu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pbDEc_Q862M?si=rNG7d-1V51DqGLu0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](InterpolationTFSVisuals.qmd)
 
+---
 
 ## No Clear Interpretation a Mind-Blowing Math Hack
 
-*No Clear Interpretation a Mind-Blowing Math Hack* discusses nonlinear interpolation and presents an example of change of variables.
+This video introduces **nonlinear interpolation** and demonstrates how a change of variables can transform nonlinear data into a form that can be interpolated more accurately.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/721FxKwDRAU?si=X8TweZgQMGKk69Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/721FxKwDRAU?si=X8TweZgQMGKk69Y8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 [Visuals](NLInterpolationJTFVisuals.qmd)
+
+---
 
 # Examples and Definitions
 
-## Examples Links
+## Example Links
 
-- [Linear and Nonlinear Interpolation Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/InterpExamplesBack.ods) – A spreadsheet containing the examples from the videos of both linear and non-linear interpolation
-- [Steam Tables](https://dofprobucket1.s3.us-east-2.amazonaws.com/energy/SteamTables.ods) – A spreadsheet containing the steam tables in SI units as calculated by DWSIM from the IAPWS-IF97 standard.
+- [Linear and Nonlinear Interpolation Example](https://dofprobucket1.s3.us-east-2.amazonaws.com/calculations/InterpExamplesBack.ods)  
+  Spreadsheet containing the examples from the videos for both linear and nonlinear interpolation.
+
+- [Steam Tables](https://dofprobucket1.s3.us-east-2.amazonaws.com/energy/SteamTables.ods)  
+  Spreadsheet containing steam tables in SI units generated by DWSIM using the **IAPWS-IF97** standard.
+
+---
 
 ## Definitions
 
-[Interpolation](https://en.wikipedia.org/wiki/Interpolation)
-: Fitting a function to a set of tabular data for the purpose of calculating or estimating a function value that is between two or more of the tabulated values.
+[Interpolation](https://en.wikipedia.org/wiki/Interpolation)  
+: The process of estimating the value of a function between known tabulated data points.
 
-[Linear Interpolation](https://en.wikipedia.org/wiki/Interpolation#Linear_interpolation)
-: Fitting a linear function to tabular data for the purpose of calculating or estimating a function value that is not at one of the tabular entries.
+[Linear Interpolation](https://en.wikipedia.org/wiki/Interpolation#Linear_interpolation)  
+: Estimating an intermediate value between two data points by assuming the relationship between them is linear.
 
-[Nonlinear Interpolation](https://en.wikipedia.org/wiki/Interpolation)
-: Fitting a nonlinear function to tabular data for the purpose of calculating or estimating a function value that is not at one of the tabular entries.
+For two tabulated points \((x_1,y_1)\) and \((x_2,y_2)\), the interpolated value at \(x\) is
 
-[2-D Interpolation](https://en.wikipedia.org/wiki/Multivariate_interpolation)
-: In a data table with two independent variables, fitting a two-dimensional function to tabular data for the purpose of calculating or estimating a function value that is not at one of the tabular entries.
+$$
+y = y_1 + (y_2 - y_1)\frac{x - x_1}{x_2 - x_1}
+$$
 
-[Steam Table](https://en.wikipedia.org/wiki/Variance#Sample_variance)
-: A data table for looking up the thermodynamic properties of saturated water, saturated steam, or superheated steam. It is typically arranged by temperature or pressure for saturated properties, and temperature and pressure for superheated properties.
+[Nonlinear Interpolation](https://en.wikipedia.org/wiki/Interpolation)  
+: Estimating intermediate values when the relationship between variables is nonlinear. This often involves fitting a nonlinear function or transforming variables before applying interpolation.
 
-[Antoine Equation](https://en.wikipedia.org/wiki/Antoine_equation)
-: An empirical equation for calculating the vapor pressure of a liquid as a function of the temperature.
+[2-D Interpolation](https://en.wikipedia.org/wiki/Multivariate_interpolation)  
+: Interpolation performed when the data depend on two independent variables. Values are estimated using surrounding grid points in both coordinate directions.
 
-[Clausius-Clapeyron Equation](https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation)
-: A thermodynamic relation between the pressure and temperature at a phase transition.
+[Steam Table](https://en.wikipedia.org/wiki/Steam_tables)  
+: A tabulation of thermodynamic properties of water and steam, typically arranged by temperature or pressure for saturated states and by both temperature and pressure for superheated states.
+
+[Antoine Equation](https://en.wikipedia.org/wiki/Antoine_equation)  
+: An empirical equation used to estimate vapor pressure as a function of temperature:
+
+$$
+\log_{10} P = A - \frac{B}{C + T}
+$$
+
+where \(A\), \(B\), and \(C\) are experimentally determined constants.
+
+[Clausius-Clapeyron Equation](https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation)  
+: A thermodynamic relation describing how vapor pressure varies with temperature during phase change:
+
+$$
+\frac{dP}{dT} = \frac{\Delta H_{vap}}{T\Delta V}
+$$
+
+---
 
 # Other Links and Videos
 
-## Other Links
-
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
-**From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**<br/>*Intro to DOFPro CTP*<br/>[Video](https://youtu.be/8FEmNkiU1Jk), [Info Page](../../basics/intro/IntroTopicsWebPage.qmd), [Visuals](../../basics/intro/1-MoleToMegawattVisuals.qmd)
+**From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**  
+*Intro to DOFPro CTP*  
+[Video](https://youtu.be/8FEmNkiU1Jk)  
+[Info Page](../../basics/intro/IntroTopicsWebPage.qmd)  
+[Visuals](../../basics/intro/1-MoleToMegawattVisuals.qmd)
 
-### The previous video (i.e., one video back)
+---
 
-**Is Your Process Data Spread Smooth or Chunky? Just the Facts**<br/>*Data Visualization, linear and Log Coordinates*<br/>[Video](https://youtu.be/yFOrwNmEbPA), [Info Page](../../basics/calculations/DataVisWebPage.qmd), [Visuals](../../basics/calculations/DataVisJTFVisuals.qmd)
+### Previous video
 
-### The next video (i.e., one video forward)
+**Is Your Process Data Spread Smooth or Chunky? Just the Facts**  
+*Data Visualization, Linear and Log Coordinates*  
+[Video](https://youtu.be/yFOrwNmEbPA)  
+[Info Page](../../basics/calculations/DataVisWebPage.qmd)  
+[Visuals](../../basics/calculations/DataVisJTFVisuals.qmd)
 
-**The Unauthorized Guide to Using Spreadsheets in Chemical Engineering**<br/>*Spreadsheet Basics*<br/>[Video](https://youtu.be/5XMeQ6vWymA), [Info Page](../../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](../../basics/calculations/BasicSpreadsheetTechniquesJTFVisuals.qmd)
+---
 
-### The next after next video (i.e. two videos forward)
+### Next video
 
-**How to Have a Quickie with Your Data Part 1**<br/>*$\bar{x}$, $S_{\bar{x}}$, Linear Least Squares*<br/>[Video](https://youtu.be/4EfhlWNDQ48), [Info Page](../../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd), [Visuals](../../basics/calculations/Video25Visuals.qmd)
+**The Unauthorized Guide to Using Spreadsheets in Chemical Engineering**  
+*Spreadsheet Basics*  
+[Video](https://youtu.be/5XMeQ6vWymA)  
+[Info Page](../../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd)  
+[Visuals](../../basics/calculations/BasicSpreadsheetTechniquesJTFVisuals.qmd)
+
+---
+
+### Two videos forward
+
+**How to Have a Quickie with Your Data Part 1**  
+*$\bar{x}$, $S_{\bar{x}}$, Linear Least Squares*  
+[Video](https://youtu.be/4EfhlWNDQ48)  
+[Info Page](../../basics/calculations/SpreadsheetTechniquesVideoInfoWebPage.qmd)  
+[Visuals](../../basics/calculations/Video25Visuals.qmd)

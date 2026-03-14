@@ -1,29 +1,24 @@
 ---
-title: "*Just Try to Break This Law! I Dare You!* (Intro to The 1^st^ Law of Thermodynamics) Reference Page"
+title: "Intro to The 1^st^ Law of Thermodynamics Reference Page<br/>*Just Try to Break This Law! I Dare You!*"
 author: "DOFPro group"
 format: html
 html-math-method: mathjax
 ---
-::: {.callout-important title="Still Under Construction!"}
-This web page is just a bare outline. The complete details have not been filled in yet.
-:::
-# Intro to *Just Try to Break This Law! I Dare You!*
+{{< include /LinkKey.qmd >}}
 
-Main title explanation
+# Intro to The 1^st^ Law of Thermodynamics
+
+The First Law of Thermodynamics is the statement of **energy conservation**. It is one of the most important ideas in all of engineering, because it governs how energy enters, leaves, and is stored in a system.
+
+In chemical and thermal process engineering, the First Law is used to analyze heating, cooling, compression, expansion, pumping, turbines, reactors, and many other systems. The video on this page introduces the law, defines the major forms of energy used in engineering calculations, and explains how those forms appear in balances.
 
 ## Just Try to Break This Law! I Dare You!
 
-Video 1 explanation
+This video introduces the First Law of Thermodynamics and explains the main energy terms used in engineering analysis, including heat, work, kinetic energy, potential energy, internal energy, and enthalpy.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZHWT9Jw7fzY?si=3b2jG26gxpI9XkgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZHWT9Jw7fzY?si=3b2jG26gxpI9XkgE" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
-## Video 2
-
-Video  explanation
-
-***Video 2 Link***
-[Visuals](../../NotYetHere.qmd)
+[Visuals](89-Intro1stLawVisuals.qmd)
 
 # Examples and Definitions
 
@@ -31,34 +26,52 @@ Video  explanation
 
 ## Definitions
 
-The First Law of Thermodynamics
-: The general balance equation applied to energy with the assumption that relativistic effects and nuclear reactions are assumed to be negligible.
+The First Law of Thermodynamics  
+: The general balance equation applied to **energy**, assuming that relativistic effects and nuclear reactions are negligible.
 
-Work, $W$
-: A force moving through a distance. Electrical energy crossing a system boundary is usually assumed to be work.
+Work, $W$  
+: Energy transferred across a system boundary by a force acting through a distance or by other non-thermal means. Electrical energy crossing a system boundary is usually treated as work.
 
-Heat, $Q$
-: Energy crossing a system boundary due to a temperature difference. In some cases the temperature difference is assumed to be infinitesimally small.
+Heat, $Q$  
+: Energy transferred across a system boundary because of a temperature difference.
 
-Potential Enegy, $E_p$
-: The value in a conservative field relative to a zero datum. For these videos, the conservative field is gravity, so $E_p = mgh$, where $h$ is the height above a reference datum.
+Potential Energy, $E_p$  
+: Energy associated with position in a conservative field. For these videos, the conservative field is gravity, so
 
-Kinetic Energy, $E_k$
-: The kinetic energy is the energy in an inertial reference frame due to the velocity in that reference frame, so $E_k = \frac{1}{2} m u^2$, where $u$ is the velocity.
+$$
+E_p = mgh
+$$
 
-Internal Energy, $U$
-: The sum of all of the microscopic kinetic and potential energies possessed by the atoms and molecules in a system.
+where $h$ is the height above a reference datum.
 
-Enthalpy, $H$
-: The sum of the internal energy, $U$, plus the product of the absolute pressure, $P$, and the volume, $V$. It is a convenience function that makes solving problems involving isobaric or open steady-state systems easier.
+Kinetic Energy, $E_k$  
+: Energy associated with motion in an inertial reference frame:
 
-Intensive Property
-: A property of a substance that *does not* depend on the mass or moles of a substance is an *intensive* property (such as temperature, $T$, pressure, $P$, density, $\rho$, or composition, $x$).
+$$
+E_k = \frac{1}{2} m u^2
+$$
 
-Extensive Property
-: A property of a substance that *does* depend on the mass or moles of a substance is an *extensive* property (such as volume, $V$, or weight, $mg$).
+where $u$ is the velocity.
 
-It is quite frequently useful to define an intensive property that is related to the extensive property. These intensive properties are specific (or molar) properties and are usually indicated by a circumflex, e.g., specific volume, $\hat{V} = V/m$, specific internal energy, $\hat{U} = U/m$, or molar enthalpy, $\hat{H} = H/n$.
+Internal Energy, $U$  
+: The sum of all microscopic kinetic and potential energies possessed by the atoms and molecules in a system.
+
+Enthalpy, $H$  
+: A thermodynamic property defined as
+
+$$
+H = U + PV
+$$
+
+where $U$ is internal energy, $P$ is absolute pressure, and $V$ is volume. Enthalpy is especially useful for analyzing open systems and processes that occur at approximately constant pressure.
+
+Intensive Property  
+: A property that does **not** depend on the amount of material present, such as temperature $T$, pressure $P$, density $\rho$, or composition $x$.
+
+Extensive Property  
+: A property that **does** depend on the amount of material present, such as volume $V$, mass $m$, or total energy $E$.
+
+It is often useful to define intensive quantities related to extensive ones. These are **specific** or **molar** properties and are often indicated by a circumflex, for example specific volume, $\hat{V} = V/m$, specific internal energy, $\hat{U} = U/m$, or molar enthalpy, $\hat{H} = H/n$.
 
 # Other Links and Videos
 
@@ -66,18 +79,18 @@ It is quite frequently useful to define an intensive property that is related to
 
 ## Previous and Following Videos
 
-### The video previous to the previous video (i.e., two videos back)
+### Two videos back
 
 **The Shocking Truth About Equilibrium Stages—Are You Doing It Wrong? Part 3**<br/>*Liquid-Liquid Extraction Example*<br/>[Video](https://youtu.be/jcChVoELvFo), [Info Page](../../balances/material/EqullibriumStagesVideoInfoWebPage.qmd), [Visuals](../../balances/material/86.5-EquilibriumSeparationStages3Visuals.qmd)
 
-### The previous video (i.e., one video back)
+### Previous video
 
 **Using DWSIM to Create Binary Phase Diagrams**<br/>*DWSIM, Binary Phase Diagrams*<br/>[Video](https://youtu.be/5NUchIg8q7E), [Info Page](../../balances/material/DWSIMBinaryPhaseVideoInfoWebPage.qmd)
 
-### The next video (i.e., one video forward)
+### Next video
 
 **Add Friction and Work to Bernoulli? Here’s What Really Happens!**<br/>*The Mechanical Energy Balance and the Moody Chart*<br/>[Video](https://youtu.be/Da48oZb9oNw), [Info Page](../../balances/energy/MechanicalEnergyBalanceVideoInfoWebPage.qmd), [Visuals](../../balances/energy/90-MechEngBalVisuals.qmd)
 
-### The next after next video (i.e. two videos forward)
+### Two videos forward
 
 **Steam: Get the Quality Right AFTER You Table It! Part 1**<br/>*The Basics of Steam Tables*<br/>[Video](https://youtu.be/8tH3gXz_M8A), [Info Page](../../balances/energy/SteamTablesVideoInfoWebPage.qmd), [Visuals](../../balances/energy/91-ThermodynamicPropertyTables1Visuals.qmd)
