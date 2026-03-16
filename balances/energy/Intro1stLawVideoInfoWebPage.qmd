@@ -32,6 +32,11 @@ The First Law of Thermodynamics
 Work, $W$  
 : Energy transferred across a system boundary by a force acting through a distance or by other non-thermal means. Electrical energy crossing a system boundary is usually treated as work.
 
+::: {.callout-note title="Work Sign Convention"}
+In this site we use the convention that **work done on a system is positive** and **work done by a system is negative**, as explained in the video  
+[*Just Try to Break This Law! I Dare You!*](https://youtu.be/ZHWT9Jw7fzY).
+:::
+
 Heat, $Q$  
 : Energy transferred across a system boundary because of a temperature difference.
 

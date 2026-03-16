@@ -3,9 +3,33 @@ title: "List of Nomenclature"
 author: "DOFPro group"
 ---
 
+---
+title: "List of Nomenclature"
+author: "DOFPro group"
+---
+
 # Purpose
 
-This page is to test web versions of the nomenclature or variable names for the videos and the website.
+This appendix lists the symbols used throughout the **DOFPro Chemical and Thermal Processes (CTP)** videos and website.
+
+Where possible, the notation used in the videos has been kept consistent with common chemical engineering textbooks. The final four columns indicate notation used in several widely used references:
+
+- **F & R** — Felder, Rousseau, and Bullard  
+- **SVN** — Smith, Van Ness, Abbott, and Swihart  
+- **Ç & B** — Çengel and Boles  
+- **H & R** — Hill and Root  
+
+These comparisons are included to help readers translate between different notational conventions found in the literature.
+
+Because different disciplines use different conventions, some symbols may have **multiple meanings depending on context**. In those cases the meaning should be clear from the surrounding discussion.
+
+The list is organized into the following sections:
+
+- Roman symbols  
+- Greek symbols  
+- Subscripts  
+- Superscripts  
+- Diacritical marks
 
 # Roman Symbols
 

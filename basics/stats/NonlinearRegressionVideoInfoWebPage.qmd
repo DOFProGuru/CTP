@@ -19,7 +19,7 @@ The video on this page introduces the basic idea of nonlinear regression and exp
 Video 1 explanation
 
 ***Video 1 Link***
-[Visuals](../../NotYetHere.qmd)
+[Visuals](/NotYetHere.qmd)
 -->
 
 ## Nonlinear Regression
@@ -37,7 +37,7 @@ This video introduces the basic concepts behind nonlinear regression and explain
 Video 3 explanation
 
 ***Video 3 Link***
-[Visuals](../../NotYetHere.qmd)
+[Visuals](/NotYetHere.qmd)
 -->
 
 <!-- ## Nonlinear Regression in Python
@@ -45,7 +45,7 @@ Video 3 explanation
 Video 4 explanation
 
 ***Video 4 Link***
-[Visuals](../../NotYetHere.qmd)
+[Visuals](/NotYetHere.qmd)
 -->
 
 <!-- ## Nonlinear Regression in R
@@ -53,7 +53,7 @@ Video 4 explanation
 Video 5 explanation
 
 ***Video 5 Link***
-[Visuals](../../NotYetHere.qmd)
+[Visuals](/NotYetHere.qmd)
 -->
 
 # Examples and Definitions
@@ -111,23 +111,23 @@ Common optimization algorithms include:
 [This is NOT a DOFPro video.]{style="color: red;"}  
 **Integrals and Derivatives Part 1**  
 *Propagating errors or uncertainties through numerical integrals and derivatives*  
-[Video](https://youtu.be/_0AcGK7asfM), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+[Video](https://youtu.be/_0AcGK7asfM), [Info Page](/basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
 ### Previous video
 
 [This is NOT a DOFPro video.]{style="color: red;"}  
 **Integrals and Derivatives Part 2**  
 *More propagating errors or uncertainties through numerical integrals and derivatives*  
-[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+[Video](https://youtu.be/ej9O5ncO1iw), [Info Page](/basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
 ### Next video
 
 **Is Furlongs Per Fortnight a Thing?**  
 *Unit Conversion*  
-[Video](https://youtu.be/5EbL9MEro9E), [Info Page](../../basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](../../basics/processdata/DimensionalEquationsJTFVisuals.qmd)
+[Video](https://youtu.be/5EbL9MEro9E), [Info Page](/basics/processdata/DimensionalEquationsWebPage.qmd), [Visuals](/basics/processdata/DimensionalEquationsJTFVisuals.qmd)
 
 ### Two videos forward
 
 **How Keen Is Your Rank? Just the Facts**  
 *Temperature Conversion*  
-[Video](https://youtu.be/XKwl41MvFcE), [Info Page](../../basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](../../basics/processdata/ConvertingTemperatureJTFVisuals.qmd)
+[Video](https://youtu.be/XKwl41MvFcE), [Info Page](/basics/processdata/ConvertingTemperatureWebPage.qmd), [Visuals](/basics/processdata/ConvertingTemperatureJTFVisuals.qmd)

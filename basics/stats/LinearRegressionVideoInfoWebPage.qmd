@@ -18,7 +18,7 @@ In chemical and thermal process engineering, linear regression is commonly used 
 Video 1 explanation
 
 ***Video 1 Link***
-[Visuals](../../NotYetHere.qmd)
+[Visuals](/NotYetHere.qmd)
 -->
 
 ## Linear Regression
@@ -36,7 +36,7 @@ This video introduces the basic ideas of linear regression and derives the equat
 Video 3 explanation
 
 ***Video 3 Link***
-[Visuals](../../NotYetHere.qmd)
+[Visuals](/NotYetHere.qmd)
 -->
 
 ## Linear Regression Spreadsheet
@@ -54,7 +54,7 @@ This video demonstrates how to perform linear regression with a spreadsheet, inc
 Video 5 explanation
 
 ***Video 5 Link***
-[Visuals](../../NotYetHere.qmd)
+[Visuals](/NotYetHere.qmd)
 -->
 
 ## Linear Regression MATLAB
@@ -72,7 +72,6 @@ This video shows how linear regression can be carried out in MATLAB, including b
 This video demonstrates how to perform linear regression in R, including both manual calculation approaches and the use of built-in regression functions.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Btshw2DX0Ik?si=bkzmaWvHiXFx8fA2" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-[Visuals](../../NotYetHere.qmd)
 
 # Examples and Definitions
 
@@ -140,18 +139,18 @@ Observational Bounds
 ### Two videos back
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Basic Stats in MATLAB**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with MATLAB*<br/>[Video](https://youtu.be/j0BRAgadBxg), [Info Page](../../basics/stats/BasicStatisticsVideoInfoWebPage.qmd)
+**Basic Stats in MATLAB**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ with MATLAB*<br/>[Video](https://youtu.be/j0BRAgadBxg), [Info Page](/basics/stats/BasicStatisticsVideoInfoWebPage.qmd)
 
 ### Previous video
 
-**Basic Statistics in R**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R*<br/>[Video](https://youtu.be/va7O78QdYLk), [Info Page](../../basics/stats/BasicStatisticsVideoInfoWebPage.qmd)
+**Basic Statistics in R**<br/>*$\bar{x}$, $S$, $S_{\bar{x}}$, $\lambda$ in R*<br/>[Video](https://youtu.be/va7O78QdYLk), [Info Page](/basics/stats/BasicStatisticsVideoInfoWebPage.qmd)
 
 ### Next video
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Error Propagation**<br/>*Propagating errors or uncertainties through equations and calculations*<br/>[Video](https://youtu.be/DiOs64kzSQw), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+**Error Propagation**<br/>*Propagating errors or uncertainties through equations and calculations*<br/>[Video](https://youtu.be/DiOs64kzSQw), [Info Page](/basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
 
 ### Two videos forward
 
 [This is NOT a DOFPro video.]{style="color: red;"}<br/>
-**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](../../basics/stats/ErrorPropagationVideoInfoWebPage.qmd)
+**Integrals and Derivatives Part 1**<br/>*Propagating errors or uncertainties through numerical integrals and derivatives*<br/>[Video](https://youtu.be/_0AcGK7asfM), [Info Page](/basics/stats/ErrorPropagationVideoInfoWebPage.qmd)

@@ -29,7 +29,7 @@ This video introduces practical techniques for organizing engineering calculatio
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5XMeQ6vWymA?si=CUrnajQV7rkgAmgv" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
-[Visuals](../../NotYetHere.qmd)
+[Visuals](/basics/calculations/BasicSpreadsheetTechniquesJTFVisuals.qmd)
 
 ---
 
@@ -39,7 +39,7 @@ This video introduces spreadsheet techniques for **basic statistical analysis an
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4EfhlWNDQ48?si=Y4u8lUIBWluyVgtZ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
-[Visuals](../../NotYetHere.qmd)
+[Visuals](/basics/calculations/Video25Visuals.qmd)
 
 ---
 
@@ -49,7 +49,7 @@ This video extends the analysis techniques from Part 1 and demonstrates how spre
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dVmh0EdQT1U?si=0A6c_LvtbfwbxQ7I" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
-[Visuals](../../NotYetHere.qmd)
+[Visuals](/basics/calculations/Video26Visuals.qmd)
 
 ---
 
@@ -61,7 +61,7 @@ Such methods are frequently used in engineering calculations when analytical sol
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SaI2qdu1wSE?si=Gn3Q6EGuSdcoeUrU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
-[Visuals](../../NotYetHere.qmd)
+[Visuals](/basics/calculations/SolvingNonlinearEQsWithSpreadsheetsJTFVisuals.qmd)
 
 ---
 
