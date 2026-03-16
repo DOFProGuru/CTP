@@ -1,0 +1,140 @@
+---
+title: "A Brief History of DOFPro CTP"
+author: "DOFPro group"
+---
+
+# Origins
+
+DOFPro CTP grew out of forty years of teaching chemical and thermal engineering—and a pandemic.
+
+My teaching career began at MIT in Course 3 (Materials Science and Engineering), and since 1988 I have taught at Harvey Mudd College. At Harvey Mudd I first taught **Engineering 94: Chemical Engineering Principles** in Spring 1989. Over the years I taught E94 and its sequel, **Engineering 82: Chemical and Thermal Principles**, fourteen times.
+
+The course evolved considerably over those years. It began as a **team-taught lecture course** with colleagues Tony Bright, Mary Cardenas, Rich Phillips, and Don Remer. Later it became a **seminar-style, student-led discussion course**, and eventually it evolved into a **flipped classroom format using online videos combined with student-led discussions**.
+
+In Fall 2020, COVID forced the course fully online, with students scattered around the world. During the preceding summer I created **more than ninety videos** and structured the course around discussions and office hours scheduled across multiple time zones.
+
+The visuals for the videos were created in **PowerPoint and Keynote** and were based on three decades of lecture notes. The material drew heavily on several excellent textbooks, including:
+
+- Felder and Rousseau (with Bullard)  
+- Smith and Van Ness (with Abbott & Swihart)  
+- Çengel and Boles (with Kanoğlu)
+
+These books remain outstanding resources, but they are all copyrighted.
+
+The course also included spreadsheet and software assignments using **Microsoft Excel, MATLAB, and PRO/II**, all of which are commercial tools.
+
+---
+
+# The Project
+
+As I approached the end of my career, two things became increasingly clear.
+
+First, many students were reluctant to purchase expensive textbooks or software licenses. Second, during a trip to [Ahmedabad University](https://ahduni.edu.in/) with a group of students for a joint engineering project, I was reminded that the cost of educational resources can be prohibitive in many parts of the world.
+
+I realized that my existing videos and websites were tied to **tools and materials that were simply too expensive for much of the world**.
+
+I decided that my final sabbatical project would be to convert the course materials into a **fully open resource**:
+
+- The videos and written material would be released under a **Creative Commons license**.
+- Spreadsheet and software projects would use **open-source tools**.
+
+After extensive research, I chose the following tools and platforms:
+
+- **GitHub** for hosting the web materials  
+- **LibreOffice** instead of Microsoft Office  
+- **DWSIM** instead of PRO/II  
+- **Python and R** instead of MATLAB
+
+Josh Brake kindly introduced me to **Quarto**, which became the foundation for the website. This also meant that the original visuals had to be converted from **PowerPoint and Keynote into Quarto RevealJS presentations**.
+
+Although the original videos had taken only a summer and part of a semester to create, the scale of converting everything to open tools was much larger. I estimated it would take **two years and a summer**—and that I would need help.
+
+---
+
+# The Birth of DOFPro
+
+I recruited student researchers to work on the project in several areas:
+
+- script editing  
+- website development  
+- software conversion  
+- video recording and editing  
+- on-screen presentation
+
+From my experience with student-led courses, I believed that students would respond more readily to **fellow students on screen** rather than to an older, bald, overweight professor. I did appear on screen occasionally, but I managed to stay out of most of the videos.
+
+Work on the project began the year before my sabbatical. In the end, the project took **two and a half years** to complete, and several aspects had to be scaled back because of limits on time, energy, and available expertise.
+
+Over the course of the project:
+
+- **twenty students** from several Claremont campuses (and one high school) worked on the project  
+- students reviewed scripts, suggested edits, and checked for copyrighted or commercial material in the existing videos  
+- multiple students experimented with appearing as on-screen presenters
+
+After considerable debate over the name and logo, we chose **The Degrees of Freedom Project (DOFPro)**.
+
+The name reflects three ideas:
+
+- the **degrees of freedom** used in solving chemical engineering problems  
+- the **freedom** provided by Creative Commons and open-source tools  
+- the degrees of freedom required to describe the **trajectory of a rocket**
+
+The logo reflects these two major themes of the project:  
+a **benzene ring** for the chemical-process side (CTP) and a **rocket** for the aerospace side (RCK).
+
+Many students tried appearing as on-screen presenters, but three students proved particularly effective and recorded the majority of the videos.
+
+One unexpected outcome was that **no students volunteered to convert the MATLAB projects to Python or R**, so I performed those conversions myself. The Python work appears mostly in animations rather than in dedicated “how-to” videos.
+
+This surprised me somewhat, since all Harvey Mudd students learn Python in the required computer science course.
+
+---
+
+# A Major Setback
+
+In May 2024 I suffered a serious exercise injury that required surgery. I spent most of the summer recovering in a recliner and communicating with my two summer students through daily Zoom meetings.
+
+I still perform physical therapy exercises three days a week.
+
+That interruption likely explains why the project ultimately took **an extra summer and roughly half a year beyond my original estimate**.
+
+The videos were recorded in the **Digital Production Studio in the Harvey Mudd Makerspace**. We used a whiteboard setup with green screen fabric attached to one side (opinions differ as to whether this should be called *green screen*, *green-screen*, or *greenscreen*).
+
+The **JTF (Just the Facts)** and **TFS (The Full Story)** formats were inspired by:
+
+- a **Veritasium video** describing how students learn better when they must reconcile conflicting explanations rather than receiving a single polished presentation  
+- research by my son suggesting that students strongly prefer watching equations written on a board rather than presented as polished LaTeX slides
+
+The original plan was to produce both **JTF and TFS versions** of most conceptual videos. However, organizing spontaneous interviews and scheduling participants proved extremely difficult. In the end we produced **only eight TFS videos**.
+
+Veritasium eventually abandoned that format as well, so I suspect they encountered the same logistical problem.
+
+---
+
+# Future Videos
+
+I no longer have easy access to students, and the green-screen fabric has been removed from the whiteboard in the studio, so future videos will likely require a different recording approach.
+
+Scripts already exist for replacement videos corresponding to the **[This is NOT a DOFPro video]{style="color: red;"}** entries currently included in the site. We simply ran out of time to record them.
+
+Since I originally wrote and recorded the statistics videos myself, I feel reasonably comfortable including them temporarily until their replacements are recorded.
+
+Additional material also exists:
+
+- the **advanced Phase Equilibria videos from Engineering 134** (not yet rewritten)
+- **Engineering 133: Chemical Reaction Engineering** course notes
+- a large collection of **homework problems and solutions**
+
+I hope to convert these into videos and open materials over time.
+
+However, I am now officially **emeritus**, and putting in eight-to-ten hour days on DOFPro is becoming less appealing than it once was.
+
+Still, I hope that what we have been able to produce proves useful.
+
+If you have comments, corrections, or suggestions, please send email to:
+
+**comments@dofpro.org**
+
+For managerial-level comments, please write to:
+
+**management@dofpro.org**

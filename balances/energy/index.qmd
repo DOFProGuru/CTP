@@ -12,6 +12,11 @@ Energy balances are used to track heat, work, internal energy, enthalpy, kinetic
 
 This section begins with the general statement of the First Law and then moves through several common applications, including fluid flow, steam tables, ideal gases, psychrometry, heats of mixing, and chemically reacting systems.
 
+::: {.callout-note title="Work Sign Convention"}
+In this site we use the convention that **work done on a system is positive** and **work done by a system is negative**, as explained in the video  
+[*Just Try to Break This Law! I Dare You!*](https://youtu.be/ZHWT9Jw7fzY).
+:::
+
 ## 1^st^ Law of Thermodynamics
 
 ### [Intro](Intro1stLawVideoInfoWebPage.qmd)
