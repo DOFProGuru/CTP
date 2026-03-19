@@ -46,6 +46,7 @@ website:
           text: "DOFPro Home"
         - href: https://dofpro.org/RCK/
           text: "Rocketry"
+  favicon: favicon.ico          
 
 format:
   html:
