@@ -2,3 +2,5 @@
 /_site/
 _freeze/site_libs/revealjs/dist/theme/quarto.css
 _freeze/site_libs/revealjs/dist/theme/quarto.css
+
+**/*.quarto_ipynb

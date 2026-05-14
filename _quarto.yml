@@ -2,6 +2,13 @@ project:
   type: website
 
 website:
+  plausible-analytics: |
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.io/js/pa-THYxxON2W6wa9ZurotLUr.js"></script>
+    <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init()
+    </script>    
   title: "Chemical and Thermal Processes"
   navbar:
     logo: DOFPro_D7_White_Red_Flame_No_Background_Cropped.png
@@ -46,10 +53,11 @@ website:
           text: "DOFPro Home"
         - href: https://dofpro.org/RCK/
           text: "Rocketry"
-  favicon: favicon.ico          
+  favicon: favicon.ico
+ 
 
-format:
-  html:
+format: 
+  html: 
     theme: zephyr
     css: styles.css
     toc: true
