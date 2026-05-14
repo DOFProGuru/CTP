@@ -12,6 +12,8 @@ A more advanced video series is planned. In the meantime, you can explore the fu
 
 {{< include /LinkKey.qmd >}}
 
+**Link to YouTube Playlist**: [Chemical Reactor Engineering](https://www.youtube.com/playlist?list=PLf9RV6P-qIdDWNuw_SRIJQIRmuIBv_eJk)
+
 ## Introduction
 
 **From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**<br/>*Intro to DOFPro CTP*<br/>[Video](https://youtu.be/8FEmNkiU1Jk), [Info Page](basics/intro/IntroTopicsWebPage.qmd), [Visuals](basics/intro/1-MoleToMegawattVisuals.qmd)
