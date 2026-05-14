@@ -12,6 +12,8 @@ If you’re already comfortable with engineering statistics, data presentation, 
 
 {{< include /LinkKey.qmd >}}
 
+**Link to YouTube Playlist**: [Mechanical Engineering Thermodynamics](https://www.youtube.com/playlist?list=PLf9RV6P-qIdA3rGqzvse1-S74ipwr9695)
+
 ## Introduction
 
 **From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**<br/>*Intro to DOFPro CTP*<br/>[Video](https://youtu.be/8FEmNkiU1Jk), [Info Page](basics/intro/IntroTopicsWebPage.qmd), [Visuals](basics/intro/1-MoleToMegawattVisuals.qmd)

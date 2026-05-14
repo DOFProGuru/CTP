@@ -12,6 +12,8 @@ If you’re here, you’re not auditing. You’re committing.
 
 {{< include /LinkKey.qmd >}}
 
+**Link to YouTube Playlist**: [The Full Video Set](https://www.youtube.com/playlist?list=PLf9RV6P-qIdDY3hgaCRIyv5ntljNfyENk)
+
 ## Introduction
 
 **From Mole to Megawatt: The Full Journey Through Chemical and Thermal Engineering**<br/>*Intro to DOFPro CTP*<br/>[Video](https://youtu.be/8FEmNkiU1Jk), [Info Page](basics/intro/IntroTopicsWebPage.qmd), [Visuals](basics/intro/1-MoleToMegawattVisuals.qmd)
@@ -172,7 +174,7 @@ If you’re here, you’re not auditing. You’re committing.
 
 **Oh, Henry!**<br/>*Gas-Liquid Equilibrium with one condensible component*<br/>[Video](https://youtu.be/dCOQy1C7yf0), [Info Page](balances/material/HenrysLawVideoInfoWebPage.qmd), [Visuals](balances/material/73-Visuals.qmd)
 
-**Dew Your Bubbles Have Flash? Part 1**<br/>*Raoult's law, BUBL P, DEW P*<br/>[Video](https://youtu.be/vSkSRi6HYVQ), [Info Page](balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](balances/material/74-Visuals.qmd)
+**Dew Your Bubbles Have Flash? Part 1**<br/>*Raoult's law, BUBL P, DEW P*<br/>[Video](https://youtu.be/R4bimpGAV7o), [Info Page](balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](balances/material/74-Visuals.qmd)
 
 **Dew Your Bubbles Have Flash? Part 2**<br/>*BUBL T, DEW T*<br/>[Video](https://youtu.be/9GyrfJzg-tg), [Info Page](balances/material/RaoultsLawDewBubbleFlashVideoInfoWebPage.qmd), [Visuals](balances/material/75-Visuals.qmd)
 

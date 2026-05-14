@@ -30,6 +30,7 @@ The list is organized into the following sections:
 - Subscripts  
 - Superscripts  
 - Diacritical marks
+- Not yet determined or referenced symbols
 
 # Roman Symbols
 
@@ -406,6 +407,8 @@ The list is organized into the following sections:
 : {.bordered .striped .hover}
 
 # Not Referenced Symbols
+
+These symbols are not yet referenced in the videos or web pages. One we get around to making the additional videos, these symbols will be moved to the body of the table.
 
 | Chosen Symbol | Description                                                      | F & R | SVN | Ç & B | H & R |
 |---------------|------------------------------------------------------------------|-------|-----|-------|-------|

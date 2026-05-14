@@ -76,11 +76,31 @@ As explained in the introductory video **From Mole to Megawatt**, several curate
 
 The current pathways are:
 
+::::{.columns}
+
+::: {.column width="50%"}
+
+<center>**Web Page List**</center>
+
 - [The Full Video Set](pathway1.qmd)
 - [Intro to Chemical Engineering](pathway2.qmd)
 - [Mechanical Engineering Thermodynamics](pathway3.qmd)
 - [Spreadsheets](pathway4.qmd)
 - [Chemical Reactor Engineering](pathway5.qmd)
+:::
+
+::: {.column width="50%"}
+
+<center> **YouTube Playlist**</center>
+
+- [The Full Video Set](https://www.youtube.com/playlist?list=PLf9RV6P-qIdDY3hgaCRIyv5ntljNfyENk)
+- [Intro to Chemical Engineering](https://www.youtube.com/playlist?list=PLf9RV6P-qIdB9jhKfKgbwUBkeEhnI9kwy)
+- [Mechanical Engineering Thermodynamics](https://www.youtube.com/playlist?list=PLf9RV6P-qIdA3rGqzvse1-S74ipwr9695)
+- [Spreadsheets](https://www.youtube.com/playlist?list=PLf9RV6P-qIdDC4bRmjtfdd12jGJB3HHmY)
+- [Chemical Reactor Engineering](https://www.youtube.com/playlist?list=PLf9RV6P-qIdDWNuw_SRIJQIRmuIBv_eJk)
+:::
+
+::::
 
 ### The Full Video Set
 
